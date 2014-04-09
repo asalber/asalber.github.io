@@ -34,7 +34,7 @@ share: true
 </div>
 {: .pull-right}
 
-Nací en un lugar de la Mancha cuyo nombre es Campo de Criptana, pueblo famoso por sus molinos de viento, conta los que el famoso caballero Don Quijote libró sinigual batalla. 
+Nací en un lugar de la Mancha cuyo nombre es Campo de Criptana, pueblo famoso por sus molinos de viento, conta los que el famoso caballero Don Quijote libró sin igual batalla. 
 Aunque dejé mi pueblo a los 18 años para ir a estudiar a Madrid, todavía sigo muy vinculado a él, donde viven la mayoría de mis familiares y amigos.  
 
 Actualmente resido en Madrid, donde me licencié en Matemáticas por la Universidad Complutense, y donde trabajo enseñando Matemáticas en la Universidad San Pablo CEU.
