@@ -1,33 +1,45 @@
 ---
 layout: page
-permalink: /about/
-title: Acerca del tema
-tags: [Jekyll, theme, modern, minimal, responsive]
+permalink: /acerca-de-mi/
+title: Acerca de mi
 image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: girasoles.jpg
 share: true
 ---
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
+<div class="notice" style="margin:10px">
+    <img src="/images/foto_alf.jpg" width="200px"/>
+    <div style="width:220px; font-size:87%">
+        <table width="100%">
+            <tbody>
+                <tr><td width="45%"><strong>Nombre</strong></td><td>Alfredo Sánchez Alberca</td></tr>
+                <tr><td><strong>Universidad</strong></td><td>San Pablo CEU</td></tr>
+                <tr><td><strong>Facultad</strong></td><td>Farmacia</td></tr>
+                <tr><td><strong>Despacho</strong></td><td>218 Edificio C</td></tr> 
+                <tr><td><strong>Localidad</strong></td><td>Boadilla del Monte</td></tr>
+                <tr><td><strong>Ubicación</strong></td><td><a target="_blank" href="https://www.google.es/maps/place/Universidad+San+Pablo+CEU:+Facultad+de+Farmacia/@40.399766,-3.836895,17z/data=!3m1!4b1!4m2!3m1!1s0xd418f4530da2347:0x63a3a2967cbe49dd"> Mapa </a></td></tr>
+                <tr><td style="vertical-align:top;"><strong>Docencia</strong></td><td>Álgebra, Cálculo, Estadística, Programación, Algoritmia, Seguridad Informática, Aprendizaje Automático</td></tr>
+                <tr><td style="vertical-align:top;"><strong>Investigación</strong></td><td>Inteligencia Artificial, Aprendizaje Automático, Representación del conocimiento, Ontologías, Estadística</td></tr>
+                <tr><td style="vertical-align:top;"><strong>Programación</strong></td><td>C, Java, Python, R</td></tr>
+                <tr><td style="vertical-align:top;"><strong>Perfiles</strong></td><td>
+                    <a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/asalber/">LinkedIn</a><br />
+                    <a rel="nofollow" target="_blank" href="https://stackexchange.com/users/1506692/alf/">Stack Exchange</a>
+                </td></tr>
+                <tr><td style="vertical-align:top;"><strong>Repositorios</strong></td><td>
+                    <a rel="nofollow" target="_blank" href="https://github.com/asalber/">GitHub</a><br />
+                </td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+{: .pull-right}
 
-## What HPSTR brings to the table:
+Nací en un lugar de la Mancha cuyo nombre es Campo de Criptana, pueblo famoso por sus molinos de viento, conta los que el famoso caballero Don Quijote libró sinigual batalla. 
+Aunque dejé mi pueblo a los 18 años para ir a estudiar a Madrid, todavía sigo muy vinculado a él, donde viven la mayoría de mis familiares y amigos.  
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Comments powered by [Disqus](http://disqus.com) if you choose to enable.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
-* [Grunt](http://gruntjs.com) build script for easy theme development
+Actualmente resido en Madrid, donde me licencié en Matemáticas por la Universidad Complutense, y donde trabajo enseñando Matemáticas en la Universidad San Pablo CEU.
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
+Soy socio de Ecologistas en Acción y trato de sensibilizar sobre el respeto y el cuiado del medio ambiente. 
+También defiendo la justicia social y lucho por un mundo con menos desigualdades.  
 
-[^1]: Example: *domain.com/category-name/post-title*
+En cuanto a mis aficiones, me gusta tocar la guitarra, la fotografía, moverme en bici, recorrer mundo y conocer gente y nuevas culturas. 
