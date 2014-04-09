@@ -8,7 +8,7 @@ url:              http://localhost:4000
 owner:
   name:           Alfredo Sánchez Alberca
   avatar:         foto_alf.jpg
-  bio:            "Nacido en un lugar de la Mancha cuyo nombre es Campo de Criptana. Actualmente resido en Madrid donde trabajo eseñando Matemáticas."
+  bio:            "Profesor de Matemáticas en la Universidad San Pablo CEU."
   email:          asalber@gmail.com
   # Enlaces a redes sociales
   twitter:        aprendeconalf
@@ -34,13 +34,37 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: CEU
+    url: http://www.uspceu.com
+    external: true
+  - title: MiriadaX
+    url: http://miriadax.net
+   
+estadistica:
   - title: Manual de Estadística
     url: /manual-estadistica
-  - title: Theme Setup
-    url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
-    external: true
+  - title: Ejercicios de Estadística
+    url: /ejercicios-estadistica
+r: 
+  - title: Bioestadística con R
+    url: bioestadistica-r
+  - title: Paquete RKTeaching
+    url: rkteaching   
+  
+spss:
+  - title: Bioestadística con SPSS
+    url: /bioestadistica-spss
+    
+calculo: 
+  - title: Apuntes de Cálculo
+    url: /apuntes-calculo
+  - title: Ejercicios de Cálculo
+    url: /ejercicios-calculo
+
+derive:
+  - title: Cálculo con Derive
+    url: /calculo-derive
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Madrid
