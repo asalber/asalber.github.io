@@ -1,0 +1,37 @@
+{% include header_book.html %}
+
+    <!-- Docs page layout -->
+    <div class="bs-docs-header">
+      <div class="container">
+        <h1>Manual de Estadística</h1>
+        <p>La Estadística al alcance de cualquiera</p>
+        <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><img alt="Imagen de cabecera" height="200px" src="/manual-estadistica/img/imagen-cabecera1.png"></div></div>
+
+      </div>
+    </div>
+
+    <div class="container bs-docs-container">
+      <div class="row">
+      <!-- SIDEBAR -->
+      <div class="col-md-3">
+      	<div class="bs-docs-sidebar hidden-print affix" id="toc" role="complementary">
+<!--       		<div id="toc"></div> -->
+<!--           <div class="bs-docs-sidebar hidden-print" role="complementary"> -->
+<!--           	<ul class="nav" id="toc"></ul> -->
+ 
+<!--           </div> -->
+        </div>
+      </div>
+        <!-- MAIN CONTENT -->
+        <div class="col-md-9" role="main">
+			<div class="bs-docs-section" id="content">
+			
+			 {{ content }}
+			</div>
+        </div>
+        
+      </div>
+
+    </div>
+
+{% include footer_book.html %}
