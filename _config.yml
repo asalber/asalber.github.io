@@ -20,7 +20,8 @@ owner:
   flickr:         
   tumblr:         
   #Para Google Authorship https://plus.google.com/authorship
-  google_plus:   https://plus.google.com/+AlfredoSánchezAlberca
+  #google_plus:   https://plus.google.com/+AlfredoSánchezAlberca
+  google_plus:   https://plus.google.com/104904595276070039968
 
 # Background image to be tiled on all pages
 background: 
