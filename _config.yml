@@ -2,7 +2,7 @@ title:            Aprende con Alf
 description:      Sitio web para la enseñanza de Matemáticas y en particular de Estadística
 disqus_shortname: aprendeconalf
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              
 
 # Owner/author information
 owner:
