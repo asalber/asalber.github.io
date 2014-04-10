@@ -2,7 +2,7 @@
 layout: book
 permalink: /manual-estadistica/
 title: Manual de Estadística
-description: "Manual Básico de Estadística con ejemplos en R"
+description: "La Estadística al alcance de cualquiera"
 tags: [Estadística, R]
 image:
   feature: imagen-cabecera1.jpg
