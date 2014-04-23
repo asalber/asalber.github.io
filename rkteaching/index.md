@@ -26,7 +26,7 @@ La mejor forma de instalar RKTeaching desde este repositorio es utilizando el pa
 1. 	Instalar el paquete `devtools` (si no lo tienes ya instalado):
 	
 	```
-	install.package('devtools')
+	install.packages('devtools')
 	```
 2. 	Cargar el paquete `devtools`:
 	
@@ -81,44 +81,44 @@ Una vez instalado, al arrancar RKWard aparecerá un nuevo menú `Teaching` con l
 	
 -	Test paramétricos
 	
--	Medias
-	
-	-   Test T para una muestra
-	-   Test T para dos muestras independientes
-	-   Test T para dos muestras pareadas
-	-   ANOVA
-	-   Cálculo del tamaño muestral para la media
-	-   Cálculo del tamaño muestral para el test T
-	
--	Varianzas
-	
-	-   Test F de Fisher
-	-   Test de Levene
-	
--	Proporciones
-	
-	-   Test para una proporción
-	-   Test para dos proporciones
-	-   Cálculo del tamaño muestral para una proproción
+	-	Medias
+		
+		-   Test T para una muestra
+		-   Test T para dos muestras independientes
+		-   Test T para dos muestras pareadas
+		-   ANOVA
+		-   Cálculo del tamaño muestral para la media
+		-   Cálculo del tamaño muestral para el test T
+		
+	-	Varianzas
+		
+		-   Test F de Fisher
+		-   Test de Levene
+		
+	-	Proporciones
+		
+		-   Test para una proporción
+		-   Test para dos proporciones
+		-   Cálculo del tamaño muestral para una proproción
 	
 -	Test no paramétricos
 	
--	Normalidad
-	
-	-   Test de Lilliefors (Komogorov-Smirnov)
-	-   Test de Shapiro-Wilk
-	
--	Test U de Mann-Whitney para dos muestas independientes
-	
--	Test de Wilcoxon para dos muestras pareadas
-	
--	Test de Kruskal-Wallis para varias muestras independientes
-	
--	Test de Friedman para medidas repetidas
-	
--	Test Chi-cuadrado de independencia
-	
--	Test Chi-cuadrado de bondad de ajuste
+	-	Normalidad
+		
+		-   Test de Lilliefors (Komogorov-Smirnov)
+		-   Test de Shapiro-Wilk
+		
+	-	Test U de Mann-Whitney para dos muestas independientes
+		
+	-	Test de Wilcoxon para dos muestras pareadas
+		
+	-	Test de Kruskal-Wallis para varias muestras independientes
+		
+	-	Test de Friedman para medidas repetidas
+		
+	-	Test Chi-cuadrado de independencia
+		
+	-	Test Chi-cuadrado de bondad de ajuste
 	
 -	Concordancia
 	
@@ -127,59 +127,59 @@ Una vez instalado, al arrancar RKWard aparecerá un nuevo menú `Teaching` con l
 	
 -	Distribuciones de probabilidad
 	
--	Distribuciones discretas
-	
--	Binomial
-	
-	-   Probabilidades
-	-   Cuantiles
-	-   Gráfico de probabilidad
-	
--	Poisson
-	
-	-   Probabilidades
-	-   Cuantiles
-	-   Gráfico de probabilidad
-	
--	Distribuciones continuas
-	
--	Chi-cuadrado
-	
-	-   Probabilidades
-	-   Cuantiles
-	-   Gráfico de probabilidad
-	
--	F de Fisher
-	
-	-   Probabilidades
-	-   Cuantiles
-	-   Gráfico de probabilidad
-	
--	Normal
-	
-	-   Probabilidades
-	-   Cuantiles
-	-   Gráfico de probabilidad
-	
--	T de student
-	
-	-   Probabilidades
-	-   Cuantiles
-	-   Gráfico de probabilidad
-	
--	Uniforme continua
-	
-	-   Probabilidades
-	-   Cuantiles
-	-   Gráfico de probabilidad
-	
+	-	Distribuciones discretas
+		
+		-	Binomial
+			
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+			
+		-	Poisson
+			
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+			
+	-	Distribuciones continuas
+		
+		-	Chi-cuadrado
+			
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+			
+		-	F de Fisher
+			
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+			
+		-	Normal
+			
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+			
+		-	T de student
+			
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+			
+		-	Uniforme continua
+			
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+			
 -	Simulaciones
 	
 	-   Lanzamiento de monedas
 	-   Lanzamiento de dados
 	-   Ley de los casos raros
 	
-### Funcionalidades
+## Funcionalidades
 
 -   Menús y cuadros de diálogo diseñados para facilitar el aprendizaje,
     eliminando todas las opciones secundarias para conseguir una
