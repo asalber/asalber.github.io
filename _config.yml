@@ -71,7 +71,13 @@ derive:
 timezone:    Europe/Madrid
 future:      true
 pygments:    true
-markdown:    kramdown
+#markdown:    kramdown
+
+markdown: redcarpet2
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
+
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/

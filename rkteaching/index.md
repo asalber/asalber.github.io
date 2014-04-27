@@ -6,38 +6,102 @@ tags: [Estadística, R, RKTeaching, RKWard]
 share: true
 ---
 
-##¿Qué es RKTeaching?
+## ¿Qué es RKTeaching?
 
-RKTeaching es un paquete de [R](http://www.r-project.org/) que proporciona un plugin para la interfaz gráfica [RKWard](http://rkward.sourceforge.net/) añadiendo nuevos menús y cuadros de diálogo especialmente diseñandos para la enseñanza de Estadística.
+RKTeaching es un paquete de [R] (http://www.r-project.org/) que proporciona un
+plugin para la interfaz gráfica [RKWard] (http://rkward.sourceforge.net/)
+añadiendo nuevos menús y cuadros de diálogo especialmente diseñandos para la
+enseñanza de Estadística.
 
-El paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca [asalber@ceu.es](mailto:asalber@ceu.es) del Departamento de Matemáticas de la Universidad San Pablo CEU de Madrid.
+El paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca
+<asalber@ceu.es> del Departamento de Matemáticas de la Universidad San
+Pablo CEU de Madrid.
 
-Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por correo al autor o bien indíquelo como un [issue en Github](https://github.com/asalber/rkTeaching_es/issues).
+Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por
+correo al autor o bien indíquelo como un [issue en Github]
+(https://github.com/asalber/rkTeaching_es/issues).
 
 
-##Instalación
+## Instalación
 
-Requisitos previos:
-1. Tener instalado R. Puede descargarse desde [http://www.r-project.org/](http://www.r-project.org/).
-2. Tener instalado RKWard. Puede descargarse desde [http://rkward.sourceforge.net/](http://rkward.sourceforge.net/).
+### Instalación en Windows
+Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y RKTeaching.
 
-La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`. Los pasos a seguir, utilizando R en línea de comandos son:
+[Descarga del programa de instalación](https://dl.dropboxusercontent.com/u/22910525/RKWard.exe)
 
-1. 	Instalar el paquete `devtools` (si no lo tienes ya instalado):
+Una vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo. 
+Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:\, tras esto se creará una carpeta rkward dentro de la cual habrá un acceso directo que permitirá arrancar RKWard.
+
+El siguiente vídeo muestra el proceso de instalación.
+
+<iframe src="//www.youtube.com/embed/BrqFyfNO9RM" width="640" height="360" allowfullscreen frameborder="0"></iframe> 
+
+### Instalación en Mac Os
+Para instalar el sotware en plataformas Mac Os debe instalarse cada programa por separado con el siguiente orden:
+
+1. **Instalar R**. R puede descargarse desde la página <http://cran.es.r-project.org/>. 
+Debe seleccionarse la distribución correspondiente a Mac Os y seguir las instrucciones de instalación que allí se especifican. 
+Es necesario que la versión de R sea la 3.0 o superior.
+
+2. **Instalar RKWard**. RKWard puede descargarse desde la página <http://rkward.sourceforge.net>. 
+Debe seleccionarse la distribución correspondiente a Mac Os (<http://sourceforge.net/projects/rkwardextras/files/MacOSX/needs_CRAN_R/RKWard-0.6.1-svn4704_KDE-4.10.1_needs_CRAN_R-3.0.0.dmg/download>) y seguir las instrucciones de instalación que allí se especifican. 
+Es importante asegurase de tener una versión de Mac OS X Lion (10.7) o superior, ya que RKWard no funciona con versiones anteriores. 
+
+	El siguiente vídeo muestra el proceso de instalación.
+
+	<iframe src="//www.youtube.com/embed/2t4zUOlgPG8" width="640" height="360" frameborder="0"> </iframe> 
+
+3. **Instalar los paquetes de los que depende RKTeaching**. Para instalar RKTeaching primero hay que instalar los paquetes de R de los que depende. 
+Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:
 	
-	```
-	install.packages('devtools')
-	```
-2. 	Cargar el paquete `devtools`:
+	<pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
+
+4. **Instalar RKTeaching**. La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`. 
+Para ello hay que introducir los siguientes comandos en la consola de R: 
+
+	<pre><code>install.packages("devtools")
+library(devtools)
+install_github("asalber/rkTeaching_es")
+</code></pre>
 	
-	```
-	library(devtools)
-	```
-3.	Instalar RKTeaching desde el [repositorio de Github](http://github.com/asalber):
+	El siguiente vídeo muestra el proceso de instalación.
+
+	<iframe src="//www.youtube.com/embed/vQa4umDJko8" width="640" height="360" frameborder="0"> </iframe> 
+
+### Instalación en Linux
 	
-	```
-	install_github("asalber/rkTeaching_es")
-	```
+Para instalar el sotware en plataformas Linux debe instalarse cada programa por separado con el siguiente orden:
+
+1. **Instalar R**. R puede descargarse desde la página <http://cran.es.r-project.org/>. 
+Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican. 
+Es necesario que la versión de R sea la 3.0 o superior.
+
+	En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:
+    <pre><code>sudo apt-get install rbase</code></pre>
+
+2. **Instalar RKWard**. RKWard puede descargarse desde la página <http://rkward.sourceforge.net>. 
+Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.
+
+	En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:
+	<pre><code>sudo apt-get install rkward</code></pre>
+    Es importante asegurarse de que la versión instalada es la 0.6.1 o superior.
+    
+3. **Instalar los paquetes de los que depende RKTeaching**. Para instalar RKTeaching primero hay que instalar los paquetes de R de los que depende. 
+Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:
+	
+	<pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
+
+4. **Instalar RKTeaching**. La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`. 
+Para ello hay que introducir los siguientes comandos en la consola de R: 
+
+	<pre><code>install.packages("devtools")
+library(devtools)
+install_github("asalber/rkTeaching_es")
+</code></pre>
+	
+	El siguiente vídeo muestra el proceso de instalación.
+
+	<iframe src="//www.youtube.com/embed/vQa4umDJko8" width="640" height="360" frameborder="0"> </iframe> 	
 	
 ## Procedimientos estadísticos
 Una vez instalado, al arrancar RKWard aparecerá un nuevo menú `Teaching` con los siguientes procedimientos estadísticos:
