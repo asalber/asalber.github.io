@@ -3,6 +3,7 @@ layout: software
 title: RKTeaching
 description: "Un paquete de R para la enseñanza de Estadística"
 tags: [Estadística, R, RKTeaching, RKWard]
+comments: true
 share: true
 ---
 
