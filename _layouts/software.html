@@ -5,7 +5,7 @@
       <div class="container">
         <h1>{{ page.title }}</h1>
         <p>{{  page.description }}</p>
-        <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><img alt="Imagen de cabecera" height="200px" src="/manual-estadistica/img/imagen-cabecera1.png"></div></div>
+        <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><img alt="Imagen de cabecera" height="200px" src="/rkteaching/images/imagen-cabecera1.png"></div></div>
 
       </div>
     </div>
@@ -14,7 +14,7 @@
       <div class="row">
       <!-- SIDEBAR -->
       <div class="col-md-3">
-      	<div class="bs-docs-sidebar hidden-print affix" id="toc" role="complementary">
+      	<div class="bs-docs-sidebar hidden-print" data-spy="affix" data-offset-top="200" data-offset-bottom="200" id="toc" role="complementary">
 <!--       		<div id="toc"></div> -->
 <!--           <div class="bs-docs-sidebar hidden-print" role="complementary"> -->
 <!--           	<ul class="nav" id="toc"></ul> -->
@@ -27,6 +27,21 @@
 			<div class="bs-docs-section" id="content">
 			
 			 {{ content }}
+			 
+			     <footer class="entry-meta">
+        {% if page.modified %}(Última actualización: <span class="entry-date date modified"><time datetime="{{ page.modified }}">{{ page.modified | localize: "%m/%d/%Y" }}</time></span>){% endif %}
+        <span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+        {% if page.share %}<div class="social-share">
+          <ul class="socialcount socialcount-small inline-list">
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook"><span class="count"><i class="icon-facebook-sign"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter"><span class="count"><i class="icon-twitter-sign"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
+          </ul>
+        </div><!-- /.social-share -->{% endif %}
+      </footer>
+    </div><!-- /.entry-content -->
+    {% if site.disqus_shortname and page.comments %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+			 
 			</div>
         </div>
         

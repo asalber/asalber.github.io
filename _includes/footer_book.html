@@ -18,14 +18,11 @@
 <script src="/assets/js/prettify.js"></script>
 <script>
     $(function() {
-
         var toc = $("#toc").tocify({
           selectors: "h2,h3"
         }).data("toc-tocify");
-
         prettyPrint();
         $(".optionName").popover({ trigger: "hover" });
-
     });
 </script>
 
@@ -37,8 +34,6 @@
     return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
   }(document, "script", "twitter-wjs"));
 </script>
-
-
 
 
 <!-- Analytics
