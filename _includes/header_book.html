@@ -106,14 +106,22 @@
       <a href="/" class="navbar-brand">Aprende con Alf</a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="/getting-started"></a>
-        </li>
-      </ul>
+<!--       <ul class="nav navbar-nav"> -->
+<!--         <li> -->
+<!--           <a href="/getting-started"></a> -->
+<!--         </li> -->
+<!--       </ul> -->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://blog.getbootstrap.com" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Community links', 'Blog']);">Blog</a></li>
-      </ul>
+		{% if site.owner.twitter %}<li>
+			<a href="http://twitter.com/{{ site.owner.twitter }}"><i class="icon-twitter"></i></a>
+			</li>{% endif %}
+		{% if site.owner.facebook %}<li>
+			<a href="http://facebook.com/{{ site.owner.facebook }}"><i class="icon-facebook"></i></a>
+			</li>{% endif %}
+		{% if site.owner.google_plus %}<li>
+			<a href="{{ site.owner.google_plus }}"><i class="icon-google-plus"></i></a>
+			</li>{% endif %}      
+		</ul>
     </nav>
   </div>
 </header>
