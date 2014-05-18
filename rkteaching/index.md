@@ -61,8 +61,8 @@ Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir
 4. **Instalar RKTeaching**. La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`. 
 Para ello hay que introducir los siguientes comandos en la consola de R: 
 
-	<pre><code>install.packages("devtools")
-library(devtools)
+	<pre><code>install.packages("devtools")<br/>
+library(devtools)<br/>
 install_github("asalber/rkTeaching_es")
 </code></pre>
 	
@@ -96,10 +96,10 @@ Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir
 4. **Instalar RKTeaching**. La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`. 
 Para ello hay que introducir los siguientes comandos en la consola de R: 
 
-	<pre><code>install.packages("devtools")
-library(devtools)
-install_github("asalber/rkTeaching_es")
-</code></pre>
+	<pre><code>install.packages("devtools")<br/>
+	library(devtools)<br/>
+	install_github("asalber/rkTeaching_es")
+	</code></pre>
 	
 	El siguiente vídeo muestra el proceso de instalación.
 
