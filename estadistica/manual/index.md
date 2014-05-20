@@ -1,6 +1,5 @@
 ---
 layout: book
-permalink: /manual-estadistica/
 title: Manual de Estadística
 description: "La Estadística al alcance de cualquiera"
 tags: [Estadística, R]
@@ -17,7 +16,7 @@ El manual está orientado principalmente a la Bioestadística y por ello la mayo
 Tabla de Contenidos
 ====================
 
-- [Introducción](/manual-estadistica/introduccion.html)
+- [Introducción](/estadistica/manual/introduccion.html)
 - Estadística descriptiva de una variable
 - Estadística descriptiva de dos variables: Regresión y correlación
 - Teoría de la probabilidad

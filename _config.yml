@@ -43,28 +43,28 @@ links:
    
 estadistica:
   - title: Manual de Estadística
-    url: /manual-estadistica
+    url: /estadistica/manual
   - title: Ejercicios de Estadística
-    url: /ejercicios-estadistica
+    url: /estadistica/ejercicios
 r: 
   - title: Bioestadística con R
-    url: bioestadistica-r
+    url: /estadistica/r
   - title: Paquete RKTeaching
-    url: rkteaching   
+    url: /rkteaching   
   
 spss:
   - title: Bioestadística con SPSS
-    url: /bioestadistica-spss
+    url: /estadistica/spss
     
 calculo: 
   - title: Apuntes de Cálculo
-    url: /apuntes-calculo
+    url: /calculo/manual
   - title: Ejercicios de Cálculo
-    url: /ejercicios-calculo
+    url: /calculo/ejercicios
 
 derive:
   - title: Cálculo con Derive
-    url: /calculo-derive
+    url: /calculo/derive
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
