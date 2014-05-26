@@ -1,7 +1,7 @@
 ---
 layout: exercices
 title: Ejercicios de Estadística
-description: "Ejercicios resueltos de Estadística"
+description: "Colección de ejercicios resueltos"
 tags: [Ejercicios, Estadística]
 share: true
 ---
@@ -11,9 +11,10 @@ La mayor parte de ellos son ejercicios aplicados en el ámbito de las Ciencias d
 
 Los ejercicios están clasificacios por temas:
 
-- [Ejercicios de estadística descripiva de una variable](/estadistica/ejercicios/descriptiva1)
-- [Ejercicios de estadística descriptiva de dos variables (regresión y correlación)](/estadistica/ejercicios/descriptiva2)
+- [Ejercicios de estadística descriptiva de una variable](/estadistica/ejercicios/descriptiva)
+- [Ejercicios de estadística descriptiva de relaciones entre variables (regresión y correlación)](/estadistica/ejercicios/regresion)
 - [Ejercicios de probabilidad](/estadistica/ejercicios/probabilidad)
-- [Ejercicios de variables aleatorias discretas](/estadistica/ejercicios/variables-discretas
-- [Ejercicios de variables Aleatorias continuas](/estadistica/ejercicios/variables-continuas)
+	- [Ejercicios de tests diagnósticos](/estadistica/ejercicios/probabilidad/tests_diagnosticos)
+- [Ejercicios de variables aleatorias discretas](/estadistica/ejercicios/variables_aleatorias/discretas)
+- [Ejercicios de variables aleatorias continuas](/estadistica/ejercicios/variables_aleatorias/continuas)
 - [Ejercicios de estimación de parámetros (intervalos de confianza)](/estadistica/ejercicios/estimacion)

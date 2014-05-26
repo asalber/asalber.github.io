@@ -1,7 +1,7 @@
 ---
 layout: exercices
 title: Ejercicios de Probabilidad
-description: "Ejercicios resueltos de Probabilidad"
+description:
 tags: [Ejercicios, Estadística, Probabilidad]
 share: true
 ---
@@ -24,4 +24,6 @@ Suponiendo que el aprobado en cada asignatura es independiente de las demás, se
 2. ¿Cuál es la probabilidad de aprobar las tres asignaturas?
 3. Si un alumno ha aprobado la asignatura A, ¿cuál es la probabilidad de que hubiese aprobado en la convocatoria ordinaria?
 
-	<iframe src="//www.youtube.com/embed/lsMNzMM3-GI" width="640" height="360" frameborder="0"> </iframe> 
+[Solución](prob-2013-01-24-sol.pdf) 
+
+<iframe src="//www.youtube.com/embed/lsMNzMM3-GI" width="640" height="360" frameborder="0"> </iframe> 
