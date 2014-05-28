@@ -13,7 +13,7 @@ Un grupo de 50 alumnos tiene 3 asignaturas A, B y C en un curso.
 El número de aprobados en la convocatoria ordinaria y extraordinaria aparece en la siguiente tabla (se supone que quien
 ha aprobado en la convocatoria ordinaria no se presenta a la extraordinaria):
 
-|Asignatura | Ordinaria & Extraordinaria|
+|Asignatura | Ordinaria | Extraordinaria|
 |A | 25 | 12 |
 |B | 14 | 10 |
 |C | 32 | 8|
@@ -24,6 +24,8 @@ Suponiendo que el aprobado en cada asignatura es independiente de las demás, se
 2. ¿Cuál es la probabilidad de aprobar las tres asignaturas?
 3. Si un alumno ha aprobado la asignatura A, ¿cuál es la probabilidad de que hubiese aprobado en la convocatoria ordinaria?
 
-[Solución](prob-2013-01-24-sol.pdf) 
+**SOLUCIÓN**
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/35219100" width="640" height="449" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 
 <iframe src="//www.youtube.com/embed/lsMNzMM3-GI" width="640" height="360" frameborder="0"> </iframe> 

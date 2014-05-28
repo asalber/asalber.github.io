@@ -12,7 +12,9 @@ La mayor parte de ellos son ejercicios aplicados en el ámbito de las Ciencias d
 Los ejercicios están clasificacios por temas:
 
 - [Ejercicios de estadística descriptiva de una variable](/estadistica/ejercicios/descriptiva)
-- [Ejercicios de estadística descriptiva de relaciones entre variables (regresión y correlación)](/estadistica/ejercicios/regresion)
+- Ejercicios de estadística descriptiva de relaciones entre variables
+	- [Regresión lineal](/estadistica/ejercicios/regresion/lineal)
+	- [Regresión no lineal](/estadistica/ejercicios/regresion/no_lineal)	
 - [Ejercicios de probabilidad](/estadistica/ejercicios/probabilidad)
 	- [Ejercicios de tests diagnósticos](/estadistica/ejercicios/probabilidad/tests_diagnosticos)
 - [Ejercicios de variables aleatorias discretas](/estadistica/ejercicios/variables_aleatorias/discretas)
