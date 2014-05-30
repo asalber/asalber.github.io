@@ -1,0 +1,82 @@
+---
+layout: book
+title: Ejemplos Google Charts
+description: 
+---
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<!-- <script type="text/javascript"> 
+// 	google.load('visualization', '1', {
+// 		'packages' : [ 'motionchart' ]
+// 	});
+// 	google.setOnLoadCallback(drawChart);
+// 	function drawChart() {
+// 		var data = new google.visualization.DataTable();
+// 		data.addColumn('string', 'Fruit');
+// 		data.addColumn('date', 'Date');
+// 		data.addColumn('number', 'Sales');
+// 		data.addColumn('number', 'Expenses');
+// 		data.addColumn('string', 'Location');
+// 		data.addRows([ [ 'Apples', new Date(1988, 0, 1), 1000, 300, 'East' ],
+// 				[ 'Oranges', new Date(1988, 0, 1), 1150, 200, 'West' ],
+// 				[ 'Bananas', new Date(1988, 0, 1), 300, 250, 'West' ],
+// 				[ 'Apples', new Date(1989, 6, 1), 1200, 400, 'East' ],
+// 				[ 'Oranges', new Date(1989, 6, 1), 750, 150, 'West' ],
+// 				[ 'Bananas', new Date(1989, 6, 1), 788, 617, 'West' ] ]);
+// 		var chart = new google.visualization.MotionChart(document.getElementById('chart_div'));
+// 		chart.draw(data, {
+// 			width : 600,
+// 			height : 300
+// 		});
+// 	}
+<!-- </script> -->
+
+<div id="chart_div" style="width: 600px; height: 300px;"></div>
+
+
+<h3>Gráfico de evolución</h3>
+<div id="chart" style="width: 600px; height: 400px;"></div>
+<h3>Serie de datos</h3>
+<div id="table"></div>
+
+<script type="text/javascript">
+// <![CDATA[
+//CARGA DE LIBRERÍAS PARA GRÁFICOS
+
+google.load('visualization', '1.0', {packages:['corechart','table','motionchart']}); 
+
+//CARGA DE DATOS
+function drawTable() {
+  var query = new google.visualization.Query('https://docs.google.com/spreadsheet/tq?key=0Al5AK5M4NIoYdEF1YThIUjMybE1icTRfbUdjdkdIanc&#038;gid=98');
+  query.send(handleQueryResponse);
+}
+function handleQueryResponse(response) {
+  if (response.isError()) {
+    alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+  return;
+  }
+  var data = response.getDataTable();
+  var view = new google.visualization.DataView(data);
+  view.setColumns([1, 2]);
+  var table = new 
+    google.visualization.Table(document.getElementById('table'));
+  table.draw(view, {width: 400});  
+  
+  var chart = new google.visualization.AreaChart(document.getElementById('chart'));
+  chart.draw(view, {
+    title: data.getValue(0,0),
+    legend:'none',
+    vAxis:{title:data.getValue(0,3), viewWindow:{min:0}},
+    hAxis:{title:'Años'},
+    series:{0:{pointSize:2}}
+  });
+  
+  var chart = new google.visualization.MotionChart(document.getElementById('chart_div'));
+	chart.draw(data, {
+		width : 800,
+		height : 600
+	});
+}
+google.setOnLoadCallback(drawTable);
+// ]]>
+</script>
