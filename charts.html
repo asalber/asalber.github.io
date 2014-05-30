@@ -31,7 +31,7 @@ description:
 // 	}
 <!-- </script> -->
 
-<div id="chart_div" style="width: 600px; height: 300px;"></div>
+<div id="chart_div" style="width: 800px; height: 500px;"></div>
 
 
 <script type="text/javascript">
@@ -55,7 +55,7 @@ function handleQueryResponse(response) {
   var chart = new google.visualization.MotionChart(document.getElementById('chart_div'));
 	chart.draw(data, {
 		width : 800,
-		height : 600
+		height : 500
 	});
 }
 google.setOnLoadCallback(drawTable);
