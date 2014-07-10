@@ -55,7 +55,8 @@ r:
 spss:
   - title: Bioestadística con SPSS
     url: /estadistica/spss
-    
+  - title: Libro    
+    url: /estadistica/spss/libro.html
 calculo: 
   - title: Apuntes de Cálculo
     url: /calculo/manual
