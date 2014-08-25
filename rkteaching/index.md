@@ -148,21 +148,16 @@ Una vez instalado, al arrancar RKWard aparecerá un nuevo menú `Teaching` con l
 -	Test paramétricos
 	
 	-	Medias
-		
 		-   Test T para una muestra
 		-   Test T para dos muestras independientes
 		-   Test T para dos muestras pareadas
 		-   ANOVA
 		-   Cálculo del tamaño muestral para la media
 		-   Cálculo del tamaño muestral para el test T
-		
 	-	Varianzas
-		
 		-   Test F de Fisher
 		-   Test de Levene
-		
 	-	Proporciones
-		
 		-   Test para una proporción
 		-   Test para dos proporciones
 		-   Cálculo del tamaño muestral para una proproción
@@ -170,20 +165,13 @@ Una vez instalado, al arrancar RKWard aparecerá un nuevo menú `Teaching` con l
 -	Test no paramétricos
 	
 	-	Normalidad
-		
 		-   Test de Lilliefors (Komogorov-Smirnov)
 		-   Test de Shapiro-Wilk
-		
 	-	Test U de Mann-Whitney para dos muestas independientes
-		
 	-	Test de Wilcoxon para dos muestras pareadas
-		
 	-	Test de Kruskal-Wallis para varias muestras independientes
-		
 	-	Test de Friedman para medidas repetidas
-		
 	-	Test Chi-cuadrado de independencia
-		
 	-	Test Chi-cuadrado de bondad de ajuste
 	
 -	Concordancia
@@ -191,58 +179,60 @@ Una vez instalado, al arrancar RKWard aparecerá un nuevo menú `Teaching` con l
 	-   Coeficiente de correlación intraclase
 	-   Kappa de Cohen
 	
+-	Probabilidad
+
+	-	Juegos de azar
+		- 	Monedas
+			-	Espacio probabilístico
+			-	Lanzamiento de monedas
+		- 	Dados
+			-	Espacio probabilístico
+			-	Lanzamiento de dados
+		- 	Naipes
+			-	Espacio probabilístico
+			-	Extracción naipes
+		- 	Urnas
+			-	Espacio probabilístico
+			-	Extracción de urnas
+	-	Construcción de espacio probabilístico
+	-	Combinación de espacios probabilísticos
+	-	Repetición de espacios probabilísticos
+	-	Cálculo de probabilidad
+	
 -	Distribuciones de probabilidad
 	
 	-	Distribuciones discretas
-		
-		-	Binomial
-			
+		-	Binomial	
 			-   Probabilidades
 			-   Cuantiles
 			-   Gráfico de probabilidad
-			
 		-	Poisson
-			
 			-   Probabilidades
 			-   Cuantiles
 			-   Gráfico de probabilidad
-			
 	-	Distribuciones continuas
-		
 		-	Chi-cuadrado
-			
 			-   Probabilidades
 			-   Cuantiles
 			-   Gráfico de probabilidad
-			
 		-	F de Fisher
-			
 			-   Probabilidades
 			-   Cuantiles
 			-   Gráfico de probabilidad
-			
 		-	Normal
-			
 			-   Probabilidades
 			-   Cuantiles
 			-   Gráfico de probabilidad
-			
 		-	T de student
-			
 			-   Probabilidades
 			-   Cuantiles
 			-   Gráfico de probabilidad
-			
 		-	Uniforme continua
-			
 			-   Probabilidades
 			-   Cuantiles
 			-   Gráfico de probabilidad
-			
 -	Simulaciones
-	
-	-   Lanzamiento de monedas
-	-   Lanzamiento de dados
+
 	-   Ley de los casos raros
 	
 ## Funcionalidades
