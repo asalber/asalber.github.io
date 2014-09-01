@@ -1,57 +1,79 @@
 
-    <!-- Footer
+<!-- Footer
 ================================================== -->
 <footer class="bs-docs-footer" role="contentinfo">
-  <div class="container">
-    <span><img alt="Creative Common Atribution" src="/images/cclogo.png"> {{ site.time | date: '%Y' }} {{ site.owner.name }}. Creado en <a href="http://jekyllrb.com">Jekyll</a> usando <a href="http://getbootstrap.com/">Bootstrap</a></span>.
-  </div>
+	<div class="container">
+		<span><img alt="Creative Common Atribution"
+			src="/images/cclogo.png"> {{ site.time | date: '%Y' }} {{site.owner.name }}. 
+			Creado en <a href="http://jekyllrb.com">Jekyll</a>usando <a href="http://getbootstrap.com/">Bootstrap</a></span>.
+	</div>
 </footer>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script
+	src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/docs.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script
+	src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 <script src="/assets/js/jquery.tocify.js"></script>
 <script src="/assets/js/prettify.js"></script>
 <script>
-    $(function() {
-        var toc = $("#toc").tocify({
-          selectors: "h2,h3"
-        }).data("toc-tocify");
-        prettyPrint();
-        $(".optionName").popover({ trigger: "hover" });
-    });
+	$(function() {
+		var toc = $("#toc").tocify({
+			selectors : "h2,h3"
+		}).data("toc-tocify");
+		prettyPrint();
+		$(".optionName").popover({
+			trigger : "hover"
+		});
+	});
 </script>
 
 <script>
-  window.twttr = (function (d,s,id) {
-    var t, js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async=1;
-    js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
-    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
-  }(document, "script", "twitter-wjs"));
+	window.twttr = (function(d, s, id) {
+		var t, js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id))
+			return;
+		js = d.createElement(s);
+		js.id = id;
+		js.async = 1;
+		js.src = "https://platform.twitter.com/widgets.js";
+		fjs.parentNode.insertBefore(js, fjs);
+		return window.twttr || (t = {
+			_e : [],
+			ready : function(f) {
+				t._e.push(f)
+			}
+		});
+	}(document, "script", "twitter-wjs"));
 </script>
 
 <!-- Mathjax -->
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript"
+	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 <!-- Analytics
 ================================================== -->
 <script>
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
-    t.src = '//secure.gaug.es/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
+	var _gauges = _gauges || [];
+	(function() {
+		var t = document.createElement('script');
+		t.async = true;
+		t.id = 'gauges-tracker';
+		t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+		t.src = '//secure.gaug.es/track.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(t, s);
+	})();
 </script>
 
-  </body>
+</body>
 </html>

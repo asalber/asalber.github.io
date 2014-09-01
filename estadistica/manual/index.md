@@ -3,8 +3,7 @@ layout: book
 title: Manual de Estadística
 description: "La Estadística al alcance de cualquiera"
 tags: [Estadística, R]
-image:
-  feature: imagen-cabecera1.jpg
+image: cabecera-estadistica.jpg
 share: true
 ---
 
