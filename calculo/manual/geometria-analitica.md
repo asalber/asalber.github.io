@@ -23,7 +23,7 @@ referido a una unidad de medida.
 
 **Ejemplo**. La estatura o el peso de una persona, la temperatura de un gas o el tiempo que tarda un móvil en recorrer una distancia.
 
-Sin embargo, existen otros fenómenos que no pueden describirse adecuadamente mediante un escalar. 
+	Sin embargo, existen otros fenómenos que no pueden describirse adecuadamente mediante un escalar. 
 Si, por ejemplo, un navegante quiere poner rumbo a puerto y sólo conoce de la intensidad del viento, no sabrá qué dirección tomar. 
 La descripción del viento requiere dos elementos, su intensidad y su dirección.
 
@@ -66,7 +66,7 @@ $$\vec{PQ} = Q-P = (3,4)-(2,1) = (3-2,4-1) = (1,3).$$
 
 ### Módulo de un vector
 
->**Definición - Módulo de un vector**. Dados un vector $\mathbf{v}=(v_1,\cdots,v_n)$ de $\mathbb{R}^n$, se define el *módulo* de $\mathbf{v}$ como 
+>**Definición - Módulo de un vector**. Dado un vector $\mathbf{v}=(v_1,\cdots,v_n)$ de $\mathbb{R}^n$, se define el *módulo* de $\mathbf{v}$ como 
 >
 $$\lvert \mathbf{v} \rvert = \sqrt{v_1^2+ \cdots + v_n^2}.$$
 
