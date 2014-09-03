@@ -16,14 +16,13 @@ Vectores y Escalares
 
 ### Escalares
 
-Algunos fenómenos de la naturaleza pueden describirse mediante un número
-referido a una unidad de medida.
+Algunos fenómenos de la naturaleza pueden describirse mediante un número referido a una unidad de medida.
 
 > **Definición - Escalar**. Un *escalar* es un número que sirve para expresar una magnitud sin dirección.
 
 **Ejemplo**. La estatura o el peso de una persona, la temperatura de un gas o el tiempo que tarda un móvil en recorrer una distancia.
 
-	Sin embargo, existen otros fenómenos que no pueden describirse adecuadamente mediante un escalar. 
+Sin embargo, existen otros fenómenos que no pueden describirse adecuadamente mediante un escalar. 
 Si, por ejemplo, un navegante quiere poner rumbo a puerto y sólo conoce de la intensidad del viento, no sabrá qué dirección tomar. 
 La descripción del viento requiere dos elementos, su intensidad y su dirección.
 

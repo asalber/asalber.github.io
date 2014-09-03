@@ -17,3 +17,4 @@ Tabla de Contenidos
 ====================
 
 - [Geometría analítica](/calculo/manual/geometria-analitica.html)
+- [Funciones elementales](/calculo/manual/funciones-elementales.html)
