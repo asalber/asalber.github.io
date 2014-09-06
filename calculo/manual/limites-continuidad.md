@@ -604,9 +604,7 @@ Las asíntotas verticales deben buscarse en los puntos donde no está definida l
 
 **Ejemplo**. La recta $x=2$ es una asíntota vertical de $f(x)=\dfrac{x+1}{x-2}$ ya que 
 
-$$
-\lim_{x\rightarrow 2^-}\frac{x+1}{x-2}&=-\infty, \mbox{ y } \lim_{x\rightarrow 2^+}\frac{x+1}{x-2}&=\infty.
-$$
+$$\lim_{x\rightarrow 2^-}\frac{x+1}{x-2} =-\infty, \mbox{ y } \lim_{x\rightarrow 2^+}\frac{x+1}{x-2} =\infty.$$
 
 <div style="text-align:center">
 <img src="img/limites_continuidad/asintota_vertical.png" width="350px" alt="Gráfica de una asíntota vertical" />
@@ -665,7 +663,7 @@ $$\lim_{x\rightarrow a}f(x)=f(a).$$
 
 De esta definición se deducen tres condiciones necesarias para la continuidad:
 
-1.  $f(a)\in \operartorname{Dom}(f)$.
+1.  $f(a)\in \operatorname{Dom}(f)$.
 2.  Existe $$ \lim_{x\rightarrow a}f(x)$$.
 3.  $$ \lim_{x\rightarrow a}f(x)=f(a)$$.
 
@@ -706,7 +704,7 @@ $$\lim_{x\rightarrow a^-}f(x)\neq \lim_{x\rightarrow a^+}f(x).$$
 >
 A la diferencia entre ambos límite se le lama *salto* de la discontinuidad.
 
-**Ejemplo**. La función $f(x)=\dfrac{|x|}{x}$ tiene una discontinuidad de 1ª especie de salto finito en $x=0$ ya que
+**Ejemplo**. La función $f(x)=\dfrac{\lvert x\rvert}{x}$ tiene una discontinuidad de 1ª especie de salto finito en $x=0$ ya que
 
 $$
 \begin{aligned}
@@ -724,8 +722,8 @@ Salto $= 1-(-1)=2$.
 ### Discontinuidad de 1ª especie de salto infinito
 
 >**Definición - Discontinuidad de 1ª especie de salto infinito**. Se dice que una función $f$ tiene una *discontinuidad de 1ª especie de salto infinito* en el punto $a$ si
-
->$$\lim_{x\rightarrow a^-}f(x)=\pm\infty \quad \textrm{o} \quad \lim_{x\rightarrow a^+}f(x)=\pm\infty.$$
+>
+$$\lim_{x\rightarrow a^-}f(x)=\pm\infty \quad \textrm{o} \quad \lim_{x\rightarrow a^+}f(x)=\pm\infty.$$
 
 Si $f$ tienen una discontinuidad de 1ª especie de salto infinito en un punto $a$, entonces $f$ tienen una asíntota vertical $x=a$.
 
@@ -748,7 +746,7 @@ $$
 
 Normalmente la discontinuidades de 2ª especie se dan en puntos donde la función no definida en sus proximidades.
 
-**Ejemplo**. La función $f(x)=\dfrac{1}{\sqrt{x^2-1}}$ tiene una discontinuidad de 2ª especie en $x=0$ ya que
+**Ejemplo**. La función $f(x)=\dfrac{1}{\sqrt{x^2-1}}$ tiene una discontinuidad de 2ª especie en $x=1$ ya que
 
 $$
 \begin{aligned}
