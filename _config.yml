@@ -48,7 +48,7 @@ estadistica:
     url: /estadistica/ejercicios
 r: 
   - title: Bioestadística con R
-    url: /estadistica/r
+    url: /estadistica/bioestadistica-rkteaching
   - title: Paquete RKTeaching
     url: /rkteaching   
   
