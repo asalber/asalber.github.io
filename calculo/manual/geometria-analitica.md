@@ -233,7 +233,11 @@ $$\frac{x-1}{-1}=\frac{y-1}{2}=\frac{z-2}{1}$$
 
 ### Ecuación punto-pendiente de una recta en el plano
 
-En el caso particular del plano cartesiano $\mathbb{R^2}$, si se tiene una recta con ecuación vectorial $l: X=P+t\mathbf{v}=(x_0,y_0)+t(a,b) = (x_0+ta,y_0+tb)$, sus ecuaciones paramétricas son 
+En el caso particular del plano cartesiano $\mathbb{R^2}$, si se tiene una recta con ecuación vectorial 
+
+$$l: X=P+t\mathbf{v}=(x_0,y_0)+t(a,b) = (x_0+ta,y_0+tb),$$ 
+
+sus ecuaciones paramétricas son 
 
 $$x(t)=x_0+ta,\quad y(t)=y_0+tb$$
 
@@ -248,6 +252,7 @@ $$y-y_0 = \frac{b}{a}(x-x_0) \mbox{ o bien } y-y_0+m(x-x_0),$$
 llamando $m=b/a$. 
 Esta ecuación se conoce como ecuación en la forma *punto-pendiente*.
 
+<img src="/images/geogebra.png" /> **<a href="http://ggbtu.be/m150370" target="_blank">Ejemplo interactivo</a>**
 
 ### Pendiente de una recta en el plano
 
@@ -257,7 +262,11 @@ Esta ecuación se conoce como ecuación en la forma *punto-pendiente*.
 <img src="img/geometria_analitica/pendiente_recta.png" width="400px" alt="Vectores unitarios en espacio real" />
 </div>
 
+<img src="/images/geogebra.png" /> **<a href="http://ggbtu.be/m150247" target="_blank">Ejemplo interactivo</a>**
+
 Recordar que dados dos puntos $Q=(x_1,y_1)$ y $Q=(x_2,y_2)$ de la recta $l$, se puede tomar como vector director el vector que los une, que tiene coordenadas $\vec{PQ}=Q-P=(x_2-x_1,y_2-y_1)$, de manera que la pendiente de $l$ será $\dfrac{y_2-y_1}{x_2-x_1}$, es decir, el cociente entre lo que cambia la coordenada $y$ y lo que cambia la coordenada $x$.
+
+
 
 
 Planos
@@ -273,3 +282,4 @@ $$\vec{PQ}\cdot\mathbf{v} = (x-x_0,y-y_0,z-z_0)(a,b,c) = a(x-x_0)+b(y-y_0)+c(z-z
 <div style="text-align:center">
 <img src="img/geometria_analitica/ecuacion_plano.png" width="400px" alt="Vectores unitarios en espacio real" />
 </div>
+

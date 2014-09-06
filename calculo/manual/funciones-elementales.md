@@ -541,3 +541,5 @@ como la función inversa de la función tangente.
 [^2]: Para que exista la inversa de la función coseno, es necesario restringir su dominio a $[0,\pi]$ para que sea inyectiva.
 
 [^3]: Para que exista la inversa de la función tangente, es necesario restringir su dominio a $(\pi/2,\pi/2)$ para que sea inyectiva.
+
+
