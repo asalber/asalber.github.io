@@ -19,3 +19,4 @@ Tabla de Contenidos
 - [Geometría analítica](/calculo/manual/geometria-analitica.html)
 - [Funciones elementales](/calculo/manual/funciones-elementales.html)
 - [Límites y continuidad](/calculo/manual/limites-continuidad.html)
+- [Derivadas en 1 variable](/calculo/manual/derivadas1variable.html)

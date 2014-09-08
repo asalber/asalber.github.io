@@ -3,6 +3,7 @@ layout: book
 title: Manual de Cálculo
 description: "Conceptos básicos de cálculo para primeros cursos de grado"
 tags: [Cálculo, Geometría]
+image: cabecera-calculo.jpg
 share: true
 ---
 
