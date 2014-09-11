@@ -99,6 +99,239 @@ La tasa de variación instantánea de $f$ en el punto $a$ es la pendiente de la 
 </div>
 
 
+Interpretación cinemática de la derivada
+----------------------------------------
+
+### Interpretación cinemática de la tasa de variación
+
+#### Movimiento rectilineo
+
+Supongase que la función $f(t)$ describe la posición de un objeto móvil sobre la recta real en el instante $t$. Tomando como referencia el
+origen de coordenadas $O$ y el vector unitario $\mathbf{i}=(1)$, se puede representar la posición $P$ del móvil en cada instante $t$ mediante un vector $\vec{OP}=x\mathbf{i}$ donde $x=f(t)$.
+
+<div style="text-align:center">
+<img src="img/derivadas1/movimiento_rectilineo.png" width="500px" alt="Interpretación cinemática del movimiento rectilineo" />
+</div>
+
+
+También tiene sentido pensar en $f$ como una función que mide otras magnitudes como por ejemplo la temperatura de un cuerpo, la concentración de un gas o la cantidad de un compuesto en una reacción química en un instante $t$.
+
+### Interpretación cinemática de la tasa de variación media
+
+En este contexto, si se toman los instantes $t=t_0$ y $t=t_0+\Delta t$, ambos del dominio $I$ de $f$, el vector 
+
+$$\mathbf{v}_m=\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t}$$ 
+
+que se conoce como *velocidad media* de la trayectoria $f$ entre los instantes $t_0$ y $t_0+\Delta t$.
+
+Un vehículo realiza un viaje de Madrid a Barcelona. Sea $f$ la función que da la posición el vehículo en cada instante. Si el vehículo parte de Madrid (km 0) a las 8 y llega a Barcelona (km 600) a las 14 horas, entonces la velocidad media del vehículo en el trayecto es 
+
+$$\mathbf{v}_m=\frac{f(14)-f(8)}{14-8}=\frac{600-0}{6} = 100 km/h.$$
+
+### Interpretación cinemática de la derivada
+
+Siguiendo en este mismo contexto del movimiento rectilineo, la derivada de $f$ en el instante $t=t_0$ es el vector 
+
+$$\mathbf{v}=f'(t_0)=\lim_{\Delta x\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$ 
+
+que se conoce, siempre que exista el límite, como *velocidad instantánea* o simplemente la *velocidad* de la trayectoria $f$ en el instante $t_0$.
+
+Es decir, la derivada de la posición respecto del tiempo, es un campo de vectores que recibe el nombre de *velocidad a lo largo de la trayectoria $f$*.
+
+Siguiendo con el ejemplo anterior, lo que marca el velocímetro en un determinado instante sería el módulo del vector velocidad en ese instante.
+
+### Generalización al movimiento curvilineo
+
+La derivada como velocidad a lo largo de una trayectoria en la recta real puede generalizarse a trayectorias en cualquier espacio euclídeo $\mathbb{R}^n$.
+
+Para el caso del plano real $\mathbb{R}^2$, si $f(t)$ describe la posición de un objeto móvil en el plano en el instante $t$, tomando como referencia el origen de coordenadas $O$ y los vectores coordenados $\{\mathbf{i}=(1,0),\mathbf{j}=(0,1)\}$, se puede representar la posición $P$ del móvil en cada instante $t$ mediante un vector $\vec{OP}=x(t)\mathbf{i}+y(t)\mathbf{j}$ cuyas coordenadas
+
+$$
+\begin{cases}
+x=x(t)\\
+y=y(t)
+\end{cases}
+\quad
+t\in I\subseteq \mathbb{R}
+$$ 
+
+se conocen como *funciones coordenadas* de $f$ y se escribe $f(t)=(x(t),y(t))$.
+
+<div style="text-align:center">
+<img src="img/derivadas1/movimiento_curvilineo.png" width="500px" alt="Interpretación cinemática del movimiento curvilineo" />
+</div>
+
+
+### Velocidad en una trayectoria curvilinea en el plano
+
+En este contexto de una trayectoria $f(t)=(x(t),y(t))$ en el plano real $\mathbb{R}^2$, para un instante $t=t_0$, si existe el vector 
+
+$$\mathbf{v} = \lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$ 
+
+entonces $f$ es derivable en el instante $t=t_0$ y el vector $\mathbf{v}=f'(t_0)$ se conoce como *velocidad* de $f$ en ese instante.
+
+Como $f(t_0)=(x(t),y(t))$,
+
+$$
+\begin{aligned}
+f'(t)&=\lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t} = \lim_{\Delta t\rightarrow 0} \frac{(x(t_0+\Delta t),y(t_0+\Delta t))-(x(t_0),y(t_0))}{\Delta t} =\\
+&=  \lim_{\Delta t\rightarrow 0} \left(\frac{x(t_0+\Delta t)-x(t_0)}{\Delta t},\frac{y(t_0+\Delta t)-y(t_0)}{\Delta t}\right) =\\
+&= \left(\lim_{\Delta t\rightarrow 0}\frac{x(t_0+\Delta t)-x(t_0)}{\Delta t},\lim_{\Delta t\rightarrow 0}\frac{y(t_0+\Delta t)-y(t_0)}{\Delta t}\right) = 
+(x'(t_0),y'(t_0)).
+\end{aligned}
+$$
+
+luego 
+
+$$\mathbf{v} = x'(t_0)\mathbf{i}+y'(t_0)\mathbf{j}.$$
+
+**Ejemplo**. Dada la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, sus funciones coordenadas son $x(t) = \cos t$, $y(t) = \operatorname{sen} t$, $t\in \mathbb{R}$, y su velocidad es 
+
+$$\mathbf{v}=f'(t)=(x'(t),y'(t))=(-\operatorname{sen} t, \cos t).$$ 
+
+En el instante $t=\pi/4$, el móvil estará en la posición $f(\pi/4) = (\cos(\pi/4),\operatorname{sen}(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ y se moverá con una velocidad $\mathbf{v}=f'(\pi/4)=(-\operatorname{sen}(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.
+
+<div style="text-align:center">
+<img src="img/derivadas1/circunferencia.png" width="300px" alt="Trayectoria de la circunferencia" />
+</div>
+
+
+Obsérvese que el módulo del vector velocidad siempre será 1 ya que $\lvert \mathbf{v}\rvert = \sqrt{(-\operatorname{sen} t)^2+(\cos t)^2}=1$.
+
+
+Recta tangente a una trayectoria
+--------------------------------
+
+### Recta tangente a una trayectoria en el plano
+
+Los vectores paralelos a la velocidad $\mathbf{v}$ se denominan *vectores tangentes* a la trayectoria $f$ en el instante $t=t_0$, y la recta que pasa por $P=f(t_0)$ dirigida por $\mathbf{v}$ es la recta tangente a $f$ cuando $t=t_0$.
+
+>**Definición - Recta tangente a una trayectoria**. Dada una trayectoria $f$ sobre el plano real $\mathbb{R}^2$, se llama *recta tangente* a $f$ para $t=t_0$ a la recta de ecuación 
+>
+$$
+\begin{align*}
+l: (x,y)&= f(t_0)+tf'(t_0) = (x(t_0),y(t_0))+t(x'(t_0),y'(t_0))\\
+&= (x(t_0)+tx'(t_0),y(t_0)+ty'(t_0)).
+\end{align*}
+$$
+
+**Ejemplo**. Se ha visto que para la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, en el instante $t=\pi/4$ la posición del móvil era $f(\pi/4)=(\sqrt{2}/2,\sqrt{2}/2)$ y su velocidad $\mathbf{v}=(-\sqrt{2}/2,\sqrt{2}/2)$, de modo que la recta tangente a $f$ en ese instante es 
+
+$$l: X=f(\pi/2)+t\mathbf{v} = \left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)+t\left(\frac{-\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right) = 
+\left(\frac{\sqrt{2}}{2}-t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right).$$
+
+De la ecuación vectorial de la recta tangente a $f$ para $t=t_0$, se obtiene que sus funciones cartesianas son 
+
+$$\begin{cases}
+x=x(t_0)+tx'(t_0)\\
+y=y(t_0)+ty'(t_0)
+\end{cases}
+\quad t\in \mathbb{R},$$ 
+
+y despejando $t$ en ambas ecuaciones e igualando se llega a la ecuación cartesiana de la recta tangente
+
+$$\frac{x-x(t_0)}{x'(t_0)}=\frac{y-y(t_0)}{y'(t_0)},$$
+
+si $x'(t_0)\neq 0$ e $y'(t_0)\neq 0$, y de ahí a la ecuación en la forma punto-pendiente 
+
+$$y-y(t_0)=\frac{y'(t_0)}{x'(t_0)}(x-x(t_0)).$$
+
+Partiendo de la ecuación vectorial de la tangente del ejemplo anterior $l=\left(\frac{\sqrt{2}}{2}-t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right)$, su ecuación cartesiana es
+
+$$\frac{x-\sqrt{2}/2}{-\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y-\sqrt{2}/2 = \frac{-\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=-x+\sqrt{2}.$$
+
+### Recta normal a una trayectoria en el plano
+
+Se ha visto que la recta tangente a una trayectoria $f$ cuando $t=t_0$ es la recta que pasa por el punto el punto $P=f(t_0)$ dirigida por el vector velocidad $\mathbf{v}=f'(t_0)=(x'(t_0),y'(t_0))$. Si en lugar de tomar ese vector se toma como vector director el vector $\mathbf{w}=(y'(t_0),-x'(t_0))$, que es ortogonal a $\mathbf{v}$, se obtiene otra recta que se conoce como *recta normal* a la trayectoria $f$ cuanto $t=t_0$.
+
+>**Definición - Recta normal a una trayectoria**. Dada una trayectoria $f$ sobre el plano real $\mathbb{R}^2$, se llama *recta normal* a $f$ para $t=t_0$ a la recta de ecuación
+>
+$$l: (x,y)=(x(t_0),y(t_0))+t(y'(t_0),-x'(t_0)) = (x(t_0)+ty'(t_0),y(t_0)-tx'(t_0)).$$
+>
+Su ecuación cartesiana es 
+>
+$$\frac{x-x(t_0)}{y'(t_0)} = \frac{y-y(t_0)}{-x'(t_0)},$$
+>
+y su ecuación en la forma punto pendiente
+>
+$$y-y(t_0) = \frac{-x'(t_0)}{y'(t_0)}(x-x(t_0)).$$ 
+
+La recta normal es perpendicular a la recta tangente ya que sus vectores directores son ortogonales.
+
+**Ejemplo**. Siguiendo con el ejemplo de la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, la recta normal en el instante $t=\pi/4$ es
+
+$$
+\begin{aligned}
+l&: (x,y)=(\cos(\pi/2),\operatorname{sen}(\pi/2))+t(\cos(\pi/2),\operatorname{sen}(\pi/2)) =\\
+& \left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)+t\left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)
+=\left(\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right),
+\end{aligned}
+$$
+
+y su ecuación cartesiana es
+
+$$\frac{x-\sqrt{2}/2}{\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y-\sqrt{2}/2 = \frac{\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=x.$$
+
+<div style="text-align:center">
+<img src="img/derivadas1/circunferencia_tangente_normal.png" width="600px" alt="Tangente y normal a la trayectoria de una circunferencia" />
+</div>
+
+
+### Rectas tangente y normal a una función
+
+Un caso particular de las recta tangente y normal a una trayectoria es son la recta tangente y normal a una función de una variable real. Si se tiene la función $y=f(x)$, $x\in I\subseteq \mathbb{R}$, una trayectoria que traza la gráfica de $f$ es $$g(t) = (t,f(t))  \quad t\in I,$$ y su velocidad es $$g'(t) = (1,f'(t)),$$ de modo que la recta tangente para $t=x_0$ es 
+
+$$\frac{x-x_0}{1} = \frac{y-f(x_0)}{f'(x_0)} \Rightarrow y-f(x_0) = f'(x_0)(x-x_0),$$
+
+y la recta normal es
+
+$$\frac{x-x_0}{f'(x_0)} = \frac{y-f(x_0)}{-1} \Rightarrow y-f(x_0) = \frac{-1}{f'(x_0)}(x-x_0),$$
+
+**Ejemplo**. Dada la función $y=f(x)=x^2$, la trayectoria que dibuja la gráfica de esta función es $g(t)=(t,t^2)$ y su velocidad es $g'(t)=(1,2t)$, de modo que en el punto $(1,1)$, que se alcanza en el instante $t=1$, la recta tangente es 
+
+$$\frac{x-1}{1} = \frac{y-1}{2} \Rightarrow y-1 = 2(x-1) \Rightarrow y = 2x-1,$$
+
+y la recta normal es
+
+$$\frac{x-1}{2} = \frac{y-1}{-1} \Rightarrow y-1 = \frac{-1}{2}(x-1) \Rightarrow y = \frac{-x}{2}+\frac{3}{2}.$$
+
+### Recta tangente a una trayectoria en el espacio
+
+El concepto de recta tangente a una trayectoria en el plano real puede extenderse fácilmente a trayectorias en el espacio real $\mathbb{R}^3$.
+
+Si $f(t)=(x(t),y(t),z(t))$, $t\in I\subseteq \mathbb{R}$, es una trayectoria en el espacio real $\mathbb{R}^3$, entonces el móvil que recorre esta trayectoria en el instante $t=t_0$, ocupará la posición $P=(x(t_0),y(t_0),z(t_0))$ y tendrá una velocidad $\mathbf{v}=f'(t)=(x'(t),y'(t),z'(t))$, de manera que la recta tangente a $f$ en ese instante será
+
+$$
+\begin{aligned}
+l&: (x,y,z)=(x(t_0),y(t_0),z(t_0))+t(x'(t_0),y'(t_0),z'(t_0)) =\\
+&= (x(t_0)+tx'(t_0),y(t_0)+ty'(t_0),z(t_0)+tz'(t_0)),
+\end{aligned}
+$$
+
+cuyas ecuaciones cartesianas son 
+
+$$\frac{x-x(t_0)}{x'(t_0)}=\frac{y-y(t_0)}{y'(t_0)}=\frac{z-z(t_0)}{z'(t_0)},$$
+
+siempre que $x'(t_0)\neq 0$, $y'(t_0)\neq 0$ y $z'(t_0)\neq 0$.
+
+**Ejemplo**. Dada la trayectoria del espacio $f(t)=(\cos t, \operatorname{sen} t, t)$, $t\in \mathbb{R}$, en el instante $t=\pi/2$, la trayectoria pasará por el punto 
+
+$$f(\pi/2)=(\cos(\pi/2),\operatorname{sen}(\pi/2),\pi/2)=(0,1,\pi/2),$$
+
+con una velocidad
+
+$$\mathbf{v}=f'(\pi/2)=(-\operatorname{sen}(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$
+
+y la tangente en ese punto es
+
+$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$
+
+<div style="text-align:center">
+<img src="img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />
+</div>
+
+
+
 Álgebra de derivadas
 --------------------
 
@@ -476,235 +709,3 @@ $$\lim_{h\rightarrow 0}\frac{r_{f,x_0}^n(x_0+h)}{h^n}=0,$$
 
 lo cual indica que el resto $r_{f,x_0}^n(x_0+h)$ es mucho menor que $h^n$.
 
-
-
-Interpretación cinemática de la derivada
-----------------------------------------
-
-### Interpretación cinemática de la tasa de variación
-
-#### Movimiento rectilineo
-
-Supongase que la función $f(t)$ describe la posición de un objeto móvil sobre la recta real en el instante $t$. Tomando como referencia el
-origen de coordenadas $O$ y el vector unitario $\mathbf{i}=(1)$, se puede representar la posición $P$ del móvil en cada instante $t$ mediante un vector $\vec{OP}=x\mathbf{i}$ donde $x=f(t)$.
-
-<div style="text-align:center">
-<img src="img/derivadas1/movimiento_rectilineo.png" width="500px" alt="Interpretación cinemática del movimiento rectilineo" />
-</div>
-
-
-También tiene sentido pensar en $f$ como una función que mide otras magnitudes como por ejemplo la temperatura de un cuerpo, la concentración de un gas o la cantidad de un compuesto en una reacción química en un instante $t$.
-
-### Interpretación cinemática de la tasa de variación media
-
-En este contexto, si se toman los instantes $t=t_0$ y $t=t_0+\Delta t$, ambos del dominio $I$ de $f$, el vector 
-
-$$\mathbf{v}_m=\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t}$$ 
-
-que se conoce como *velocidad media* de la trayectoria $f$ entre los instantes $t_0$ y $t_0+\Delta t$.
-
-Un vehículo realiza un viaje de Madrid a Barcelona. Sea $f$ la función que da la posición el vehículo en cada instante. Si el vehículo parte de Madrid (km 0) a las 8 y llega a Barcelona (km 600) a las 14 horas, entonces la velocidad media del vehículo en el trayecto es 
-
-$$\mathbf{v}_m=\frac{f(14)-f(8)}{14-8}=\frac{600-0}{6} = 100 km/h.$$
-
-### Interpretación cinemática de la derivada
-
-Siguiendo en este mismo contexto del movimiento rectilineo, la derivada de $f$ en el instante $t=t_0$ es el vector 
-
-$$\mathbf{v}=f'(t_0)=\lim_{\Delta x\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$ 
-
-que se conoce, siempre que exista el límite, como *velocidad instantánea* o simplemente la *velocidad* de la trayectoria $f$ en el instante $t_0$.
-
-Es decir, la derivada de la posición respecto del tiempo, es un campo de vectores que recibe el nombre de *velocidad a lo largo de la trayectoria $f$*.
-
-Siguiendo con el ejemplo anterior, lo que marca el velocímetro en un determinado instante sería el módulo del vector velocidad en ese instante.
-
-### Generalización al movimiento curvilineo
-
-La derivada como velocidad a lo largo de una trayectoria en la recta real puede generalizarse a trayectorias en cualquier espacio euclídeo $\mathbb{R}^n$.
-
-Para el caso del plano real $\mathbb{R}^2$, si $f(t)$ describe la posición de un objeto móvil en el plano en el instante $t$, tomando como referencia el origen de coordenadas $O$ y los vectores coordenados $\{\mathbf{i}=(1,0),\mathbf{j}=(0,1)\}$, se puede representar la posición $P$ del móvil en cada instante $t$ mediante un vector $\vec{OP}=x(t)\mathbf{i}+y(t)\mathbf{j}$ cuyas coordenadas
-
-$$
-\begin{cases}
-x=x(t)\\
-y=y(t)
-\end{cases}
-\quad
-t\in I\subseteq \mathbb{R}
-$$ 
-
-se conocen como *funciones coordenadas* de $f$ y se escribe $f(t)=(x(t),y(t))$.
-
-<div style="text-align:center">
-<img src="img/derivadas1/movimiento_curvilineo.png" width="500px" alt="Interpretación cinemática del movimiento curvilineo" />
-</div>
-
-
-### Velocidad en una trayectoria curvilinea en el plano
-
-En este contexto de una trayectoria $f(t)=(x(t),y(t))$ en el plano real $\mathbb{R}^2$, para un instante $t=t_0$, si existe el vector 
-
-$$\mathbf{v} = \lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$ 
-
-entonces $f$ es derivable en el instante $t=t_0$ y el vector $\mathbf{v}=f'(t_0)$ se conoce como *velocidad* de $f$ en ese instante.
-
-Como $f(t_0)=(x(t),y(t))$,
-
-$$
-\begin{aligned}
-f'(t)&=\lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t} = \lim_{\Delta t\rightarrow 0} \frac{(x(t_0+\Delta t),y(t_0+\Delta t))-(x(t_0),y(t_0))}{\Delta t} =\\
-&=  \lim_{\Delta t\rightarrow 0} \left(\frac{x(t_0+\Delta t)-x(t_0)}{\Delta t},\frac{y(t_0+\Delta t)-y(t_0)}{\Delta t}\right) =\\
-&= \left(\lim_{\Delta t\rightarrow 0}\frac{x(t_0+\Delta t)-x(t_0)}{\Delta t},\lim_{\Delta t\rightarrow 0}\frac{y(t_0+\Delta t)-y(t_0)}{\Delta t}\right) = 
-(x'(t_0),y'(t_0)).
-\end{aligned}
-$$
-
-luego 
-
-$$\mathbf{v} = x'(t_0)\mathbf{i}+y'(t_0)\mathbf{j}.$$
-
-**Ejemplo**. Dada la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, sus funciones coordenadas son $x(t) = \cos t$, $y(t) = \operatorname{sen} t$, $t\in \mathbb{R}$, y su velocidad es 
-
-$$\mathbf{v}=f'(t)=(x'(t),y'(t))=(-\operatorname{sen} t, \cos t).$$ 
-
-En el instante $t=\pi/4$, el móvil estará en la posición $f(\pi/4) = (\cos(\pi/4),\operatorname{sen}(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ y se moverá con una velocidad $\mathbf{v}=f'(\pi/4)=(-\operatorname{sen}(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.
-
-<div style="text-align:center">
-<img src="img/derivadas1/circunferencia.png" width="300px" alt="Trayectoria de la circunferencia" />
-</div>
-
-
-Obsérvese que el módulo del vector velocidad siempre será 1 ya que $\lvert \mathbf{v}\rvert = \sqrt{(-\operatorname{sen} t)^2+(\cos t)^2}=1$.
-
-
-Recta tangente a una trayectoria
---------------------------------
-
-### Recta tangente a una trayectoria en el plano
-
-Los vectores paralelos a la velocidad $\mathbf{v}$ se denominan *vectores tangentes* a la trayectoria $f$ en el instante $t=t_0$, y la recta que pasa por $P=f(t_0)$ dirigida por $\mathbf{v}$ es la recta tangente a $f$ cuando $t=t_0$.
-
->**Definición - Recta tangente a una trayectoria**. Dada una trayectoria $f$ sobre el plano real $\mathbb{R}^2$, se llama *recta tangente* a $f$ para $t=t_0$ a la recta de ecuación 
->
-$$
-\begin{align*}
-l: (x,y)&= f(t_0)+tf'(t_0) = (x(t_0),y(t_0))+t(x'(t_0),y'(t_0))\\
-&= (x(t_0)+tx'(t_0),y(t_0)+ty'(t_0)).
-\end{align*}
-$$
-
-**Ejemplo**. Se ha visto que para la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, en el instante $t=\pi/4$ la posición del móvil era $f(\pi/4)=(\sqrt{2}/2,\sqrt{2}/2)$ y su velocidad $\mathbf{v}=(-\sqrt{2}/2,\sqrt{2}/2)$, de modo que la recta tangente a $f$ en ese instante es 
-
-$$l: X=f(\pi/2)+t\mathbf{v} = \left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)+t\left(\frac{-\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right) = 
-\left(\frac{\sqrt{2}}{2}-t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right).$$
-
-De la ecuación vectorial de la recta tangente a $f$ para $t=t_0$, se obtiene que sus funciones cartesianas son 
-
-$$\begin{cases}
-x=x(t_0)+tx'(t_0)\\
-y=y(t_0)+ty'(t_0)
-\end{cases}
-\quad t\in \mathbb{R},$$ 
-
-y despejando $t$ en ambas ecuaciones e igualando se llega a la ecuación cartesiana de la recta tangente
-
-$$\frac{x-x(t_0)}{x'(t_0)}=\frac{y-y(t_0)}{y'(t_0)},$$
-
-si $x'(t_0)\neq 0$ e $y'(t_0)\neq 0$, y de ahí a la ecuación en la forma punto-pendiente 
-
-$$y-y(t_0)=\frac{y'(t_0)}{x'(t_0)}(x-x(t_0)).$$
-
-Partiendo de la ecuación vectorial de la tangente del ejemplo anterior $l=\left(\frac{\sqrt{2}}{2}-t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right)$, su ecuación cartesiana es
-
-$$\frac{x-\sqrt{2}/2}{-\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y-\sqrt{2}/2 = \frac{-\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=-x+\sqrt{2}.$$
-
-### Recta normal a una trayectoria en el plano
-
-Se ha visto que la recta tangente a una trayectoria $f$ cuando $t=t_0$ es la recta que pasa por el punto el punto $P=f(t_0)$ dirigida por el vector velocidad $\mathbf{v}=f'(t_0)=(x'(t_0),y'(t_0))$. Si en lugar de tomar ese vector se toma como vector director el vector $\mathbf{w}=(y'(t_0),-x'(t_0))$, que es ortogonal a $\mathbf{v}$, se obtiene otra recta que se conoce como *recta normal* a la trayectoria $f$ cuanto $t=t_0$.
-
->**Definición - Recta normal a una trayectoria**. Dada una trayectoria $f$ sobre el plano real $\mathbb{R}^2$, se llama *recta normal* a $f$ para $t=t_0$ a la recta de ecuación
->
-$$l: (x,y)=(x(t_0),y(t_0))+t(y'(t_0),-x'(t_0)) = (x(t_0)+ty'(t_0),y(t_0)-tx'(t_0)).$$
->
-Su ecuación cartesiana es 
->
-$$\frac{x-x(t_0)}{y'(t_0)} = \frac{y-y(t_0)}{-x'(t_0)},$$
->
-y su ecuación en la forma punto pendiente
->
-$$y-y(t_0) = \frac{-x'(t_0)}{y'(t_0)}(x-x(t_0)).$$ 
-
-La recta normal es perpendicular a la recta tangente ya que sus vectores directores son ortogonales.
-
-**Ejemplo**. Siguiendo con el ejemplo de la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, la recta normal en el instante $t=\pi/4$ es
-
-$$
-\begin{aligned}
-l&: (x,y)=(\cos(\pi/2),\operatorname{sen}(\pi/2))+t(\cos(\pi/2),\operatorname{sen}(\pi/2)) =\\
-& \left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)+t\left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)
-=\left(\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right),
-\end{aligned}
-$$
-
-y su ecuación cartesiana es
-
-$$\frac{x-\sqrt{2}/2}{\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y-\sqrt{2}/2 = \frac{\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=x.$$
-
-<div style="text-align:center">
-<img src="img/derivadas1/circunferencia_tangente_normal.png" width="600px" alt="Tangente y normal a la trayectoria de una circunferencia" />
-</div>
-
-
-### Rectas tangente y normal a una función
-
-Un caso particular de las recta tangente y normal a una trayectoria es son la recta tangente y normal a una función de una variable real. Si se tiene la función $y=f(x)$, $x\in I\subseteq \mathbb{R}$, una trayectoria que traza la gráfica de $f$ es $$g(t) = (t,f(t))  \quad t\in I,$$ y su velocidad es $$g'(t) = (1,f'(t)),$$ de modo que la recta tangente para $t=x_0$ es 
-
-$$\frac{x-x_0}{1} = \frac{y-f(x_0)}{f'(x_0)} \Rightarrow y-f(x_0) = f'(x_0)(x-x_0),$$
-
-y la recta normal es
-
-$$\frac{x-x_0}{f'(x_0)} = \frac{y-f(x_0)}{-1} \Rightarrow y-f(x_0) = \frac{-1}{f'(x_0)}(x-x_0),$$
-
-**Ejemplo**. Dada la función $y=f(x)=x^2$, la trayectoria que dibuja la gráfica de esta función es $g(t)=(t,t^2)$ y su velocidad es $g'(t)=(1,2t)$, de modo que en el punto $(1,1)$, que se alcanza en el instante $t=1$, la recta tangente es 
-
-$$\frac{x-1}{1} = \frac{y-1}{2} \Rightarrow y-1 = 2(x-1) \Rightarrow y = 2x-1,$$
-
-y la recta normal es
-
-$$\frac{x-1}{2} = \frac{y-1}{-1} \Rightarrow y-1 = \frac{-1}{2}(x-1) \Rightarrow y = \frac{-x}{2}+\frac{3}{2}.$$
-
-### Recta tangente a una trayectoria en el espacio
-
-El concepto de recta tangente a una trayectoria en el plano real puede extenderse fácilmente a trayectorias en el espacio real $\mathbb{R}^3$.
-
-Si $f(t)=(x(t),y(t),z(t))$, $t\in I\subseteq \mathbb{R}$, es una trayectoria en el espacio real $\mathbb{R}^3$, entonces el móvil que recorre esta trayectoria en el instante $t=t_0$, ocupará la posición $P=(x(t_0),y(t_0),z(t_0))$ y tendrá una velocidad $\mathbf{v}=f'(t)=(x'(t),y'(t),z'(t))$, de manera que la recta tangente a $f$ en ese instante será
-
-$$
-\begin{aligned}
-l&: (x,y,z)=(x(t_0),y(t_0),z(t_0))+t(x'(t_0),y'(t_0),z'(t_0)) =\\
-&= (x(t_0)+tx'(t_0),y(t_0)+ty'(t_0),z(t_0)+tz'(t_0)),
-\end{aligned}
-$$
-
-cuyas ecuaciones cartesianas son 
-
-$$\frac{x-x(t_0)}{x'(t_0)}=\frac{y-y(t_0)}{y'(t_0)}=\frac{z-z(t_0)}{z'(t_0)},$$
-
-siempre que $x'(t_0)\neq 0$, $y'(t_0)\neq 0$ y $z'(t_0)\neq 0$.
-
-**Ejemplo**. Dada la trayectoria del espacio $f(t)=(\cos t, \operatorname{sen} t, t)$, $t\in \mathbb{R}$, en el instante $t=\pi/2$, la trayectoria pasará por el punto 
-
-$$f(\pi/2)=(\cos(\pi/2),\operatorname{sen}(\pi/2),\pi/2)=(0,1,\pi/2),$$
-
-con una velocidad
-
-$$\mathbf{v}=f'(\pi/2)=(-\operatorname{sen}(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$
-
-y la tangente en ese punto es
-
-$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$
-
-<div style="text-align:center">
-<img src="img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />
-</div>
