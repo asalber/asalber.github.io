@@ -22,3 +22,4 @@ Tabla de Contenidos
 - [Derivadas en 1 variable](/calculo/manual/derivadas1variable.html)
 - [Derivadas en varias variables](/calculo/manual/derivadas-n-variables.html)
 - [Integrales](/calculo/manual/integrales.html)
+- [Ecuaciones diferenciales ordinarias](/calculo/manual/ecuaciones-diferenciales-ordinarias.html)
