@@ -257,3 +257,7 @@ Una vez instalado, al arrancar RKWard aparecerá un nuevo menú `Teaching` con l
     ![Salida gráfica](images/detailed_calculation.png)
 
 RKTeaching es mantenido por [asalber](https://github.com/asalber) 
+
+## ¿Cómo citar RKTeching?
+
+Sánchez-Alberca, A. (2014). RKTeaching (version 1.2) [software]. Obtenido de: http://aprendeconalf.es/rkteaching.

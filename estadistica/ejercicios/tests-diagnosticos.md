@@ -1,9 +1,10 @@
 ---
-layout: exercices
-title: "Ejercicios de Probabilidad: Tests Diagnósticos"
-description: 
-tags: [Ejercicios, Estadística, Probabilidad, Test diagnósticos]
+layout: book
+title: Ejercicios de Test Diagnósticos
+description: "Colección de ejercicios resueltos"
+tags: [Ejercicios, Estadística]
 share: true
+image: dados.jpg
 ---
 
 ## Ejercicio 1

@@ -1,9 +1,10 @@
 ---
-layout: exercices
-title: Ejercicios de Regresión Lineal
-description:
-tags: [Ejercicios, Estadística, Regresión lineal]
+layout: book
+title: Ejercicios de Regresión No Lineal
+description: "Colección de ejercicios resueltos"
+tags: [Ejercicios, Estadística]
 share: true
+image: dados.jpg
 ---
 
 ## Ejercicio 1

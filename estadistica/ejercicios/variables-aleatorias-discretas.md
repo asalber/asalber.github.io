@@ -1,9 +1,10 @@
 ---
-layout: exercices
+layout: book
 title: Ejercicios de Variables Aleatorias Discretas
-description:
-tags: [Ejercicios, Estadística, Probabilidad, Variables aleatorias discretas]
+description: "Colección de ejercicios resueltos"
+tags: [Ejercicios, Estadística]
 share: true
+image: dados.jpg
 ---
 
 ## Ejercicio 1

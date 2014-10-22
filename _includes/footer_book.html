@@ -59,6 +59,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript"
 	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	
+<!-- Show/hide answers -->
+<script type="text/javascript">
+    $(document).ready(function(){ 
+        $('.answer').on('click',function(){
+            $(this).parent().next().toggle('fast');
+            if ($(this).text()=="Mostrar respuesta")
+            	$(this).text("Ocultar respuesta");
+            else
+            	$(this).text("Mostrar respuesta");
+        });
+    });
+</script>
+
+
+
+<!--  
+<script>
+$(document).ready(function(){
+  $(".answer").on('click', function(){
+    $('#respuesta').slideToggle();
+    $(this).text("Ocultar respuesta");
+  });
+});
+</script>
+--> 
 
 <!-- Analytics
 ================================================== -->
