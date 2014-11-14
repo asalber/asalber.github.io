@@ -46,12 +46,13 @@ estadistica:
     url: /estadistica/manual
   - title: Ejercicios de Estadística
     url: /estadistica/ejercicios
+  - title: Exámenes de Estadística
+    url: /estadistica/examenes
 r: 
   - title: Bioestadística con R
     url: /estadistica/bioestadistica-rkteaching
   - title: Paquete RKTeaching
-    url: /rkteaching   
-  
+    url: /rkteaching     
 spss:
   - title: Bioestadística con SPSS
     url: /estadistica/spss
@@ -62,6 +63,9 @@ calculo:
     url: /calculo/manual
   - title: Ejercicios de Cálculo
     url: /calculo/ejercicios
+  - title: Exámenes de Cálculo
+    url: /calculo/examenes
+    
 
 derive:
   - title: Cálculo con Derive

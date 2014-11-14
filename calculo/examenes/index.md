@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Exámenes de Cálculo
-description: "Examenes resueltos de Cálculo"
+description: "Vídeos con la resolución de los ejercicios"
 tags: [Examen, Cálculo]
 share: true
 image: abaco.jpg
