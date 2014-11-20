@@ -10,18 +10,11 @@ share: true
 
 ## ¿Qué es RKTeaching?
 
-RKTeaching es un paquete de [R] (http://www.r-project.org/) que proporciona un
-plugin para la interfaz gráfica [RKWard] (http://rkward.sourceforge.net/)
-añadiendo nuevos menús y cuadros de diálogo especialmente diseñandos para la
-enseñanza de Estadística.
+RKTeaching es un paquete de [R](http://www.r-project.org/) que proporciona un plugin para la interfaz gráfica [RKWard](http://rkward.sourceforge.net/) añadiendo nuevos menús y cuadros de diálogo especialmente diseñandos para la enseñanza de Estadística.
 
-El paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca
-<asalber@ceu.es> del Departamento de Matemáticas de la Universidad San
-Pablo CEU de Madrid.
+El paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca <asalber@ceu.es> del Departamento de Matemáticas de la Universidad San Pablo CEU de Madrid.
 
-Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por
-correo al autor o bien indíquelo como un [issue en Github]
-(https://github.com/asalber/rkTeaching_es/issues).
+Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por correo al autor o bien indíquelo como un [issue en Github](https://github.com/asalber/rkTeaching_es/issues).
 
 
 ## Instalación
