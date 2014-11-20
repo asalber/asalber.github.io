@@ -39,22 +39,25 @@ Debe seleccionarse la distribución correspondiente a Mac Os y seguir las instru
 Es necesario que la versión de R sea la 3.0 o superior.
 
 2. **Instalar RKWard**. RKWard puede descargarse desde la página <http://rkward.sourceforge.net>. 
-Debe seleccionarse la distribución correspondiente a Mac Os (<http://sourceforge.net/projects/rkwardextras/files/MacOSX/needs_CRAN_R/RKWard-0.6.1-svn4704_KDE-4.10.1_needs_CRAN_R-3.0.0.dmg/download>) y seguir las instrucciones de instalación que allí se especifican. 
+Debe seleccionarse la distribución correspondiente a Mac Os (<http://sourceforge.net/projects/rkwardextras/files/MacOSX/needs_CRAN_R/RKWard-0.6.2_KDE-4.13.3_needs_CRAN_R-3.1.1.dmg/download>) y seguir las instrucciones de instalación que allí se especifican. 
 Es importante asegurase de tener una versión de Mac OS X Lion (10.7) o superior, ya que RKWard no funciona con versiones anteriores. 
 
 	El siguiente vídeo muestra el proceso de instalación.
 
 	<iframe src="//www.youtube.com/embed/2t4zUOlgPG8" width="640" height="360" frameborder="0"> </iframe> 
+	
+	Si hay algún error en la instalación, consultar las posibles soluciones en (<http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting>)
 
 3. **Instalar los paquetes de los que depende RKTeaching**. Para instalar RKTeaching primero hay que instalar los paquetes de R de los que depende. 
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:
 	
-	<pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
+	<pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez"),dep=TRUE)</code></pre>
 
 4. **Instalar RKTeaching**. La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`. 
 Para ello hay que introducir los siguientes comandos en la consola de R: 
 
-    <pre><code>install.packages("devtools",dep=TRUE)<br/>
+    <pre><code>
+    install.packages("devtools",dep=TRUE)<br/>   
     library(devtools)<br/>
     install_github("asalber/rkTeaching_es")
     </code></pre>
