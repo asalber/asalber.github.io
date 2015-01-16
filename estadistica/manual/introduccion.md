@@ -185,16 +185,13 @@ Las variables o atributos a estudiar se medirán en cada uno de los individuos d
 En esta matriz cada columna contiene la información de una variable y cada fila la información de un individuo.
 
 **Ejemplo**
-<<<<<<< HEAD
 
-=======
->>>>>>> branch 'master' of ssh://git@github.com/asalber/asalber.github.io.git
 $$
 \begin{array}{|l|c|c|c|c|}
 \hline
 \text{Nombre} & \text{Edad (años)} & \text{Sexo} & \text{Peso (Kg)} & \text{Altura (cm)}\\
 \hline
-\text{José Luis Martínez} & 18 & H &  85 & 179 \\
+\text{José Luis Martínez} & 18 & \text{H} &  85 & 179 \\
 \text{Rosa Díaz} & 32 & \text{M} & 65 & 173 \\
 \text{Javier García} & 24 & \text{H} & 71 & 181 \\
 \text{Carmen López} & 35 & \text{M} &  65 & 170 \\
