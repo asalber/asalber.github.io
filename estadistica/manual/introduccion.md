@@ -185,10 +185,7 @@ Las variables o atributos a estudiar se medirán en cada uno de los individuos d
 En esta matriz cada columna contiene la información de una variable y cada fila la información de un individuo.
 
 **Ejemplo**
-<<<<<<< HEAD
 
-=======
->>>>>>> branch 'master' of ssh://git@github.com/asalber/asalber.github.io.git
 $$
 \begin{array}{|l|c|c|c|c|}
 \hline
