@@ -187,19 +187,26 @@ En esta matriz cada columna contiene la información de una variable y cada fila
 **Ejemplo**
 
 $$
-\begin{array}{|l|c|c|c|c|}
+\begin{array}{lcccc}
 \hline
 \text{Nombre} & \text{Edad (años)} & \text{Sexo} & \text{Peso (Kg)} & \text{Altura (cm)}\\
 \hline
-\text{José Luis Martínez} & 18 & \text{H} &  85 & 179 \\
-\text{Rosa Díaz} & 32 & \text{M} & 65 & 173 \\
+\textrm{José Luis Martínez} & 18 & \text{H} &  85 & 179 \\
+\textrm{Rosa Díaz} & 32 & \text{M} & 65 & 173 \\
 \text{Javier García} & 24 & \text{H} & 71 & 181 \\
-\text{Carmen López} & 35 & \text{M} &  65 & 170 \\
+\textrm{Carmen López} & 35 & \text{M} &  65 & 170 \\
 \text{Marisa López}  & 46 & \text{M} &  51 & 158 \\
 \text{Antonio Ruiz} & 68 & \text{H} & 66 & 174 \\
 \hline
 \end{array}
 $$
+
+|               Col1                |    Col2    | NumCol |
+|-----------------------------------|------------|--------|
+| Value 1                           | Value 2    | 123    |
+| This is a row with only one cell  |            |        |
+| This row is testing html entities | Te<br />st | 45<br> |
+|-----------------------------------|------------|--------|
 
 Fases del análisis estadístico
 ------------------------------

@@ -65,11 +65,13 @@ calculo:
     url: /calculo/ejercicios
   - title: Exámenes de Cálculo
     url: /calculo/examenes
-    
-
 derive:
   - title: Cálculo con Derive
     url: /calculo/derive/calculo-derive
+excel: 
+  - title: Excel manual
+    url: /office/excel/manual
+
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

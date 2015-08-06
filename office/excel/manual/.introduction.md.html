@@ -1,0 +1,789 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>/media/alf/datos/web/asalber.github.io/office/excel/manual/.introduction.md.html</title>
+
+
+<style type="text/css">
+body {
+	color: #333;
+	font: 13px/1.4 "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	background: transparent;
+	color: #4183c4;
+	text-decoration: none;
+}
+
+a:active,
+a:hover {
+	outline: 0 none;
+	text-decoration: underline;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+mark {
+	background: #ff0;
+	color: #000;
+}
+small {
+	font-size: 80%;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+img {
+	border: 0 none;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+figure {
+	margin: 1em 40px;
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace,monospace;
+	font-size: 1em;
+}
+
+pre {
+	overflow: auto;
+	font: 12px Consolas,"Liberation Mono",Menlo,Courier,monospace;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.markdown-body {
+	padding: 30px;
+	font-size: 16px;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+
+.markdown-body>*:first-child {
+	margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+	margin-bottom: 0 !important;
+}
+
+.markdown-body .absent {
+	color: #c00;
+}
+
+.markdown-body .anchor {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	padding-right: 6px;
+	padding-left: 30px;
+	margin-left: -30px;
+}
+
+.markdown-body .anchor:focus {
+	outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+	position: relative;
+	margin-top: 1em;
+	margin-bottom: 16px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+	display: none;
+	color: #000;
+	vertical-align: middle;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+	padding-left: 8px;
+	margin-left: -30px;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+	display: inline-block;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+	font-size: inherit;
+}
+
+.markdown-body h1 {
+	padding-bottom: 0.3em;
+	font-size: 2.25em;
+	line-height: 1.2;
+	border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+	padding-bottom: 0.3em;
+	font-size: 1.75em;
+	line-height: 1.225;
+	border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+	font-size: 1.5em;
+	line-height: 1.43;
+}
+
+.markdown-body h4 {
+	font-size: 1.25em;
+}
+
+.markdown-body h5 {
+	font-size: 1em;
+}
+
+.markdown-body h6 {
+	font-size: 1em;
+	color: #777;
+}
+
+.markdown-body p,.markdown-body blockquote,
+.markdown-body ul,.markdown-body ol,
+.markdown-body dl,.markdown-body table,
+.markdown-body pre {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.markdown-body hr {
+	height: 4px;
+	padding: 0;
+	margin: 16px 0;
+	background-color: #e7e7e7;
+	border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+	padding-left: 2em;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body li>p {
+	margin-top: 16px;
+}
+
+.markdown-body dl {
+	padding: 0;
+}
+
+.markdown-body dl dt {
+	padding: 0;
+	margin-top: 16px;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.markdown-body dl dd {
+	padding: 0 16px;
+	margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+	padding: 0 15px;
+	color: #777;
+	border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+	margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+	margin-bottom: 0;
+}
+
+.markdown-body table {
+	display: block;
+	width: 100%;
+	overflow: auto;
+	word-break: normal;
+	word-break: keep-all;
+}
+
+.markdown-body table th {
+	font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+	padding: 6px 13px;
+	border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+	background-color: #f8f8f8;
+}
+
+.markdown-body img {
+	max-width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.markdown-body span.frame {
+	display: block;
+	overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+	display: block;
+	float: left;
+	width: auto;
+	padding: 7px;
+	margin: 13px 0 0;
+	overflow: hidden;
+	border: 1px solid #ddd;
+}
+
+.markdown-body span.frame span img {
+	display: block;
+	float: left;
+}
+
+.markdown-body span.frame span span {
+	display: block;
+	padding: 5px 0 0;
+	clear: both;
+	color: #333;
+}
+
+.markdown-body span.align-center {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.markdown-body span.align-center>span {
+	display: block;
+	margin: 13px auto 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+.markdown-body span.align-center span img {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.markdown-body span.align-right {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.markdown-body span.align-right>span {
+	display: block;
+	margin: 13px 0 0;
+	overflow: hidden;
+	text-align: right;
+}
+
+.markdown-body span.align-right span img {
+	margin: 0;
+	text-align: right;
+}
+
+.markdown-body span.float-left {
+	display: block;
+	float: left;
+	margin-right: 13px;
+	overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+	margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+	display: block;
+	float: right;
+	margin-left: 13px;
+	overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+	display: block;
+	margin: 13px auto 0;
+	overflow: hidden;
+	text-align: right;
+}
+
+.markdown-body code,.markdown-body tt {
+	padding: 0;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after,
+.markdown-body tt:before,
+.markdown-body tt:after {
+	letter-spacing: -0.2em;
+	content: "\00a0";
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+	display: none;
+}
+
+.markdown-body del code {
+	text-decoration: inherit;
+}
+
+.markdown-body pre>code {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	word-break: normal;
+	white-space: pre;
+	background: transparent;
+	border: 0;
+}
+
+.markdown-body .highlight {
+	margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+	padding: 16px;
+	overflow: auto;
+	font-size: 85%;
+	line-height: 1.45;
+	background-color: #f7f7f7;
+	border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+	margin-bottom: 0;
+	word-break: normal;
+}
+
+.markdown-body pre {
+	word-wrap: normal;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+	display: inline;
+	max-width: initial;
+	padding: 0;
+	margin: 0;
+	overflow: initial;
+	line-height: inherit;
+	word-wrap: normal;
+	background-color: transparent;
+	border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after,
+.markdown-body pre tt:before,
+.markdown-body pre tt:after {
+	content: normal;
+}
+
+.highlight .pl-coc,
+.highlight .pl-entl,
+.highlight .pl-entm,
+.highlight .pl-eoa,
+.highlight .pl-mai .pl-sf,
+.highlight .pl-mm,
+.highlight .pl-pdv,
+.highlight .pl-sc,
+.highlight .pl-som,
+.highlight .pl-sr,
+.highlight .pl-v,
+.highlight .pl-vpf {
+	color: #0086b3;
+}
+.highlight .pl-eoac,
+.highlight .pl-mdht,
+.highlight .pl-mi1,
+.highlight .pl-mri,
+.highlight .pl-va,
+.highlight .pl-vpu {
+	color: #008080;
+}
+.highlight .pl-c,
+.highlight .pl-pdc {
+	color: #b4b7b4;
+	font-style: italic;
+}
+.highlight .pl-k,
+.highlight .pl-ko,
+.highlight .pl-kolp,
+.highlight .pl-mc,
+.highlight .pl-mr,
+.highlight .pl-ms,
+.highlight .pl-s,
+.highlight .pl-sok,
+.highlight .pl-st {
+	color: #6e5494;
+}
+.highlight .pl-ef,
+.highlight .pl-enf,
+.highlight .pl-enm,
+.highlight .pl-entc,
+.highlight .pl-eoi,
+.highlight .pl-sf,
+.highlight .pl-smc {
+	color: #d12089;
+}
+.highlight .pl-ens,
+.highlight .pl-eoai,
+.highlight .pl-kos,
+.highlight .pl-mh .pl-pdh,
+.highlight .pl-mp,
+.highlight .pl-pde,
+.highlight .pl-stp {
+	color: #458;
+}
+.highlight .pl-enti {
+	color: #d12089;
+	font-weight: bold;
+}
+.highlight .pl-cce,
+.highlight .pl-enc,
+.highlight .pl-kou,
+.highlight .pl-mq {
+	color: #f93;
+}
+.highlight .pl-mp1 .pl-sf {
+	color: #458;
+	font-weight: bold;
+}
+.highlight .pl-cos,
+.highlight .pl-ent,
+.highlight .pl-md,
+.highlight .pl-mdhf,
+.highlight .pl-ml,
+.highlight .pl-pdc1,
+.highlight .pl-pds,
+.highlight .pl-s1,
+.highlight .pl-scp,
+.highlight .pl-sol {
+	color: #df5000;
+}
+.highlight .pl-c1,
+.highlight .pl-cn,
+.highlight .pl-pse,
+.highlight .pl-pse .pl-s2,
+.highlight .pl-vi {
+	color: #a31515;
+}
+.highlight .pl-mb,
+.highlight .pl-pdb {
+	color: #df5000;
+	font-weight: bold;
+}
+.highlight .pl-mi,
+.highlight .pl-pdi {
+	color: #6e5494;
+	font-style: italic;
+}
+.highlight .pl-ms1 {
+	background-color: #f5f5f5;
+}
+.highlight .pl-mdh,
+.highlight .pl-mdi {
+	font-weight: bold;
+}
+.highlight .pl-mdr {
+	color: #0086b3;
+	font-weight: bold;
+}
+.highlight .pl-s2 {
+	color: #333;
+}
+.highlight .pl-ii {
+	background-color: #df5000;
+	color: #fff;
+}
+.highlight .pl-ib {
+	background-color: #f93;
+}
+.highlight .pl-id {
+	background-color: #a31515;
+	color: #fff;
+}
+.highlight .pl-iu {
+	background-color: #b4b7b4;
+}
+.highlight .pl-mo {
+	color: #969896;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+function getDocumentScrollTop() 
+{
+   var res = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset || 0;
+   // alert(res);
+   return res;
+}
+
+function setDocumentScrollTop(ypos) 
+{
+	window.scrollTo(0, ypos);
+}
+
+</script>
+
+
+</head>
+<body class="markdown-body">
+<hr /> 
+<p>layout: book title: Excel Manual description: &quot;Introduction to Excel &quot; image: cabecera-estadistica.jpg tags: [Office, Excel]</p> 
+<h2> <a id="user-content-share-true" class="anchor" href="#share-true" aria-hidden="true"><span class="octicon octicon-link"></span></a>share: true</h2> 
+<p>Excel is a spreadsheet application that is part of Microsoft Office suite.</p> 
+<h2> <a id="user-content-what-is-a-spreadsheet" class="anchor" href="#what-is-a-spreadsheet" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is a spreadsheet?</h2> 
+<p>A spreadsheet is a program that allows to enter data and make calculations with them in a grid layout. </p> 
+<h2> <a id="user-content-excel-2010-main-window" class="anchor" href="#excel-2010-main-window" aria-hidden="true"><span class="octicon octicon-link"></span></a>Excel 2010 main window</h2> 
+<p>The next picture shows a screenshot of the Excel 2010 main window where the different parts of the window have been highlighted.</p> 
+<div> 
+ <a href="img/excel_2010_screenshot.png" target="_blank"><img src="img/excel_2010_screenshot.png" width="800px" alt="Excel 2010 screenshot" style="max-width:100%;" /></a> 
+</div> 
+<h2> <a id="user-content-excel-2010-ribbon" class="anchor" href="#excel-2010-ribbon" aria-hidden="true"><span class="octicon octicon-link"></span></a>Excel 2010 ribbon</h2> 
+<p>The top ribbon of Excel 2010 contains a lot of buttons that performs different actions. These buttons are arranged in panels, and panels are arranged in tabs. The main ribbon tabs are: </p> 
+<p><strong>File</strong> – Performs file management tasks (new file, open file, save file, print file, etc.). It also contains general configuration options and help. </p> 
+<div> 
+ <a href="img/excel_2010_file_ribbon.png" target="_blank"><img src="img/excel_2010_file_ribbon.png" width="600px" alt="Excel 2010 file ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>Home</strong> – Common tools (clipboard, fonts, alignment, numbers format, insert rows and columns, etc.)</p> 
+<div> 
+ <a href="img/excel_2010_home_ribbon.png" target="_blank"><img src="img/excel_2010_home_ribbon.png" width="800px" alt="Excel 2010 home ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>Insert</strong> – Insert objects in the sheet (tables, illustrations, charts, hyperlinks, text, equations, etc.) </p> 
+<div> 
+ <a href="img/excel_2010_insert_ribbon.png" target="_blank"><img src="img/excel_2010_insert_ribbon.png" width="800px" alt="Excel 2010 insert ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>Page Layout</strong> – Configure the printing (page setup, scale, themes, etc. )</p> 
+<div> 
+ <a href="img/excel_2010_page_layout_ribbon.png" target="_blank"><img src="img/excel_2010_page_layout_ribbon.png" width="800px" alt="Excel 2010 page layout ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>Formulas</strong> – Functions arranged in categories and formula auditing. </p> 
+<div> 
+ <a href="img/excel_2010_formulas_ribbon.png" target="_blank"><img src="img/excel_2010_formulas_ribbon.png" width="800px" alt="Excel 2010 formulas ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>Data</strong> – Working with databases (import data, connection with databases, sort and filter data, data validation, etc.)</p> 
+<div> 
+ <a href="img/excel_2010_data_ribbon.png" target="_blank"><img src="img/excel_2010_data_ribbon.png" width="800px" alt="Excel 2010 data ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>Review</strong> – Spelling, commenting, protecting and sharing sheets. </p> 
+<div> 
+ <a href="img/excel_2010_review_ribbon.png" target="_blank"><img src="img/excel_2010_review_ribbon.png" width="800px" alt="Excel 2010 review ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>View</strong> – How Excel appears on screen (custom windows, grids lines, zoom, windows, etc. Does not affect printing).</p> 
+<div> 
+ <a href="img/excel_2010_view_ribbon.png" target="_blank"><img src="img/excel_2010_view_ribbon.png" width="800px" alt="Excel 2010 view ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<h3> <a id="user-content-contextual-tabs" class="anchor" href="#contextual-tabs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contextual tabs</h3> 
+<p>These tabs only appears in some contexts, as for example, when creating a chart or a picture. </p> 
+<p><strong>Chart design</strong> Allows to select the type of chart. </p> 
+<div> 
+ <a href="img/excel_2010_design_chart_ribbon.png" target="_blank"><img src="img/excel_2010_design_chart_ribbon.png" width="800px" alt="Excel 2010 chart design ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>Chart layout</strong> Allows to insert and configure some parts of charts (title, axis, leyend, gridlines, etc.) </p> 
+<div> 
+ <a href="img/excel_2010_layout_chart_ribbon.png" target="_blank"><img src="img/excel_2010_layout_chart_ribbon.png" width="800px" alt="Excel 2010 chart layout ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>Chart format</strong> Allows to change the aspect of charts (height, width, font, colors, background, etc.)</p> 
+<div> 
+ <a href="img/excel_2010_format_chart_ribbon.png" target="_blank"><img src="img/excel_2010_format_chart_ribbon.png" width="800px" alt="Excel 2010 chart format ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p><strong>Picture</strong> Allows to modify images (borders, rotation, crop, color, filters, special effects, etc.)</p> 
+<div> 
+ <a href="img/excel_2010_picture_ribbon.png" target="_blank"><img src="img/excel_2010_picture_ribbon.png" width="800px" alt="Excel 2010 picture ribbon" style="max-width:100%;" /></a> 
+</div> 
+<p><br /></p> 
+<p>In addition to these tabs, users can create their own tabs and customise them with buttons as their convenience. </p> 
+<p>There exists also a quick access toolbar just above the ribbon that can be customised with the most common buttons. </p> 
+<div> 
+ <a href="img/quick_access_toolbar.png" target="_blank"><img src="img/quick_access_toolbar.png" width="300px" alt="Excel 2010 picture ribbon" style="max-width:100%;" /></a> 
+</div> 
+<h3> <a id="user-content-access-dialogs" class="anchor" href="#access-dialogs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Access dialogs</h3> 
+<p>When you click on the right bottom corner of any panel, the corresponding dialog is show where all the related options are available. </p> 
+<p><strong>Example</strong>. The next figure shows the font dialog with all the options related to fonts (font family, font style, font size, etc.) </p> 
+<div> 
+ <a href="img/access_font_dialog.png" target="_blank"><img src="img/access_font_dialog.png" width="600px" alt="font dialog" style="max-width:100%;" /></a> 
+</div> 
+<h3> <a id="user-content-contextual-menu" class="anchor" href="#contextual-menu" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contextual menu</h3> 
+<p>Clicking the right button of the mouse (right-clicking) a contextual menu is showed with some buttons or options to perform actions in that context. This menu has different options depending on the part of the windows that is clicked. </p> 
+<p><strong>Example</strong>. The next figure shows the contextual menu showed right-clicking any cell.</p> 
+<div> 
+ <a href="img/contextual_menu.png" target="_blank"><img src="img/contextual_menu.png" width="200px" alt="cells contextual menu" style="max-width:100%;" /></a> 
+</div> 
+<h2> <a id="user-content-workbooks-worksheets-rows-columns-and-cells" class="anchor" href="#workbooks-worksheets-rows-columns-and-cells" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workbooks, worksheets, rows, columns and cells</h2> 
+<p>An Excel file is a <em>workbook</em> with several <em>worksheets</em> that are two dimensional tables divided in <em>columns</em> and <em>rows</em>. The intersection of a column with a row is a <em>cell</em> that is where data are entered. Sheets have a maximum of 16,384 columns and 1,048,576 rows. </p> 
+<p>Each worksheet has a name and are arranged in tabs at the bottom. Columns and rows have also names; columns are named with letters at the top of the column and rows with numbers to de left of the row. This way each cell is identified by the name of the worksheet, the name of the column and the name of the row where is located, and cells names follow the pattern <code>name-of-worksheet ! column-name row-name</code>. However, to refer to any cell in the active worksheet, the worksheet name may be omitted.</p> 
+<p><strong>Example</strong>. The name of the selected cell in the next figure is <code>Sheet1!C4</code>.</p> 
+<div> 
+ <a href="img/sheet_column_row_cell.png" target="_blank"><img src="img/sheet_column_row_cell.png" width="700px" alt="cells, rows, columns and worksheets in Excel" style="max-width:100%;" /></a> 
+</div> 
+<p>The names of rows and columns can not be changed, but worksheet names can be changed double-clicking on it and typing the new name. </p> 
+<h3> <a id="user-content-ranges-of-cells" class="anchor" href="#ranges-of-cells" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ranges of cells</h3> 
+<p>A range of cells is a rectangular block of adjacent cells that is identified by top-left cell and the bottom-right cell separated by a colon, following the pattern <code>top-left-cell-name:bottom-right-cell-name</code>.</p> 
+<p><strong>Example</strong>. In the next figure the range B3:E5 is selected. </p> 
+<div> 
+ <a href="img/cells_range.png" target="_blank"><img src="img/cells_range.png" width="400px" alt="range of cells" style="max-width:100%;" /></a> 
+</div> 
+<h3> <a id="user-content-selecting-cells-rows-columns-ranges-and-worksheets" class="anchor" href="#selecting-cells-rows-columns-ranges-and-worksheets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selecting cells, rows, columns, ranges and worksheets</h3> 
+<p>To select a cell just click on it. To select a row click the header of the row or press the keys <code>Shift+Spacebar</code>. To select a column click the header of the column or press the keys <code>Ctrl+Spacebar</code>. To select a range click on one corner cell and drag the mouse pointer over the desired cells. To select the whole worksheet click on the top-left corner of the worksheet o press the keys <code>Ctrl+A</code>. </p> 
+<h2> <a id="user-content-data-edition" class="anchor" href="#data-edition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data edition</h2> 
+<h3> <a id="user-content-insert-data" class="anchor" href="#insert-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Insert data</h3> 
+<p>Data are entered into the cells activating the cell (clicking on it) and typing directly in the cell or in the input bar. Excel has a smart autocomplete feature that proposes completing the data that is typed with some predictions.</p> 
+<h3> <a id="user-content-delete-data" class="anchor" href="#delete-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Delete data</h3> 
+<p>To delete the content of a cell simply select the cell and press <code>Supr</code> key. It's also possible to delete the content of a range of cells in the same way.</p> 
+<h3> <a id="user-content-remove-cells-rows-columns-and-worksheets" class="anchor" href="#remove-cells-rows-columns-and-worksheets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remove cells, rows, columns and worksheets</h3> 
+<p>To remove a whole cell (no only the content), right-click the cell and select the option <code>Delete...</code>. In the dialog that appears select <code>Shift cells left</code> if you want the cells to the left of the removed cell move to the left to fill the gap, or <code>Shift cells up</code> if you want the cells below the removed cell move up to fill the gap.</p> 
+<p>To remove a whole row, right-click the header of the row and select the option <code>Delete...</code>.</p> 
+<p>To remove a whole column, right-click the header of the column and select the option <code>Delete...</code>.</p> 
+<p>To remove a worksheet, right-click the tab with the name of the worksheet and select the option <code>Delete...</code>. <em>Warning: Removing worksheets can not be undone!</em></p> 
+<h3> <a id="user-content-insert-cells-rows-columns-and-worksheets" class="anchor" href="#insert-cells-rows-columns-and-worksheets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Insert cells, rows, columns and worksheets</h3> 
+<p>To insert a new cell in a position, right-click the current cell in that position and select the option <code>Insert...</code>. In the dialog that appears select <code>Shift cells right</code> if you want to move the cells to the right to make a gap for the new cell, or <code>Shift cells down</code> if you want to move the cells down to make a gap for the new cell. </p> 
+<p>To insert a new row, right-click the header of the row above which you want to insert the new row and select <code>Insert</code>. </p> 
+<p>To insert a new column, right-click the header of the column to the left of which you want to insert the new column and select <code>Insert</code>. </p> 
+<p>To insert a new worksheet, right-click the tab with the name of the worksheet to the left of which you want to insert the new worksheet and select <code>Insert</code>. In the dialog that appears select `Worksheet'.</p> 
+<h3> <a id="user-content-cut-copy-and-paste" class="anchor" href="#cut-copy-and-paste" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cut, copy and paste</h3> 
+<p>Like in many other Windows applications, you can use the clipboard to cut, copy and paste cells, rows, columns and ranges contents. </p> 
+<p>To cut or copy a cell, row, column or range, right-click it and select the option <code>Cut</code> or <code>Copy</code> respectively, or press the keys <code>Ctrl+x</code> or <code>Ctrl+c</code> respectively. Both options copy the content of the cell, row, column or range to the clipboard, but the difference between cut and copy is that cut delete the content from the current cell, row, column or range, while copy no.</p> 
+<p>To paste the content of the clipboard in a new cell, row, column or range, select the cell or the first cell of the row, column or range and click the button <code>Paste</code> or press the keys <code>Ctrl+v</code>.</p> 
+<h3> <a id="user-content-autofill" class="anchor" href="#autofill" aria-hidden="true"><span class="octicon octicon-link"></span></a>Autofill</h3> 
+<p>An useful feature of Excel is the autofill of cells following a serie or pattern. In some cases, like for example dates, it is enough to write the content of the first cell and then click on the bottom-right corner of the cell and drag the mouse pointer over the column or row to get the cells filled with the following dates. </p> 
+<p>For number or text, this actions replicates the content of the first cell in the others. To autofill with a serie of numbers is necessary to enter the first two numbers of the serie in two consecutive cells, then select both cells, click on the bottom-left corner and drag the mouse pointer over the column or row to get the cells filled with the numbers following the serie. </p> 
+<p><strong>Example</strong>. The next figure shows how to autofill cells with the serie of even numbers. </p> 
+<div> 
+ <a href="img/autofill.png" target="_blank"><img src="img/autofill.png" width="250px" alt="autofill" style="max-width:100%;" /></a> 
+</div> 
+<h3> <a id="user-content-undo-and-redo" class="anchor" href="#undo-and-redo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Undo and redo</h3> 
+<p>In the quick access toolbar there are buttons <code>Undo</code> <a href="img/button_undo.png" target="_blank"><img src="img/button_undo.png" width="20px" alt="button undo" style="max-width:100%;" /></a> and <code>Redo</code> <a href="img/button_redo.png" target="_blank"><img src="img/button_redo.png" width="20px" alt="button redo" style="max-width:100%;" /></a>. The <code>Undo</code> button undoes the last data edition action performed and the <code>Redo</code> button reverses the last undone action. If you press the undo button several $n$ times, it undoes the last $n$ actions, and the same happens with the redo button. </p> 
+<h2> <a id="user-content-file-management" class="anchor" href="#file-management" aria-hidden="true"><span class="octicon octicon-link"></span></a>File management</h2> 
+<p>Data of workbooks are stored in files. Although Excel makes backups copies of your work regularly, is a good practice to save your work in files often. </p> 
+<h3> <a id="user-content-save-a-file" class="anchor" href="#save-a-file" aria-hidden="true"><span class="octicon octicon-link"></span></a>Save a file</h3> 
+<p>To save the content of a workbook in a file press the tab <code>File</code> and select the option <code>Save</code>. In the dialog that appears type the file name and select the storage unit and folder where to save the file. The default extension for Excel 2010 file names is <em>xlsx</em>. </p> 
+<h3> <a id="user-content-open-a-file" class="anchor" href="#open-a-file" aria-hidden="true"><span class="octicon octicon-link"></span></a>Open a file</h3> 
+<p>To open an Excel file press the tab <code>File</code> and select the option <code>Open</code>. In the dialog that appears select the storage unit and folder where the file is saved and the file to open, an press the button <code>Open</code>.</p> 
+<h3> <a id="user-content-create-a-new-workbook" class="anchor" href="#create-a-new-workbook" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create a new workbook</h3> 
+<p>To create a new workbook press the tab <code>File</code> and select the option <code>New</code>. In the dialog that appears select <code>Blank workbook</code>. It's possible to create new workbooks from predefined templates. </p> 
+<h3> <a id="user-content-close-a-workbook" class="anchor" href="#close-a-workbook" aria-hidden="true"><span class="octicon octicon-link"></span></a>Close a workbook</h3> 
+<p>To close an open workbook press the tab <code>File</code> and select the option <code>Close</code>. If the last changes in the workbook haven't been saved, a warning will appear allowing you to save the file before to close it. </p>
+</body>
+</html>
