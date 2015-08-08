@@ -720,7 +720,7 @@ function setDocumentScrollTop(ypos)
  <a href="img/quick_access_toolbar.png" target="_blank"><img src="img/quick_access_toolbar.png" width="300px" alt="Excel 2010 picture ribbon" style="max-width:100%;" /></a> 
 </div> 
 <h3> <a id="user-content-access-dialogs" class="anchor" href="#access-dialogs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Access dialogs</h3> 
-<p>When you click on the right bottom corner of any panel, the corresponding dialog is show where all the related options are available. </p> 
+<p>When you click the right bottom corner of any panel, the corresponding dialog is show where all the related options are available. </p> 
 <p><strong>Example</strong>. The next figure shows the font dialog with all the options related to fonts (font family, font style, font size, etc.) </p> 
 <div> 
  <a href="img/access_font_dialog.png" target="_blank"><img src="img/access_font_dialog.png" width="600px" alt="font dialog" style="max-width:100%;" /></a> 
@@ -738,7 +738,7 @@ function setDocumentScrollTop(ypos)
 <div> 
  <a href="img/sheet_column_row_cell.png" target="_blank"><img src="img/sheet_column_row_cell.png" width="700px" alt="cells, rows, columns and worksheets in Excel" style="max-width:100%;" /></a> 
 </div> 
-<p>The names of rows and columns can not be changed, but worksheet names can be changed double-clicking on it and typing the new name. </p> 
+<p>The names of rows and columns can not be changed, but worksheet names can be changed double-clicking it and typing the new name. </p> 
 <h3> <a id="user-content-ranges-of-cells" class="anchor" href="#ranges-of-cells" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ranges of cells</h3> 
 <p>A range of cells is a rectangular block of adjacent cells that is identified by top-left cell and the bottom-right cell separated by a colon, following the pattern <code>top-left-cell-name:bottom-right-cell-name</code>.</p> 
 <p><strong>Example</strong>. In the next figure the range B3:E5 is selected. </p> 
@@ -746,10 +746,11 @@ function setDocumentScrollTop(ypos)
  <a href="img/cells_range.png" target="_blank"><img src="img/cells_range.png" width="400px" alt="range of cells" style="max-width:100%;" /></a> 
 </div> 
 <h3> <a id="user-content-selecting-cells-rows-columns-ranges-and-worksheets" class="anchor" href="#selecting-cells-rows-columns-ranges-and-worksheets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selecting cells, rows, columns, ranges and worksheets</h3> 
-<p>To select a cell just click on it. To select a row click the header of the row or press the keys <code>Shift+Spacebar</code>. To select a column click the header of the column or press the keys <code>Ctrl+Spacebar</code>. To select a range click on one corner cell and drag the mouse pointer over the desired cells. To select the whole worksheet click on the top-left corner of the worksheet o press the keys <code>Ctrl+A</code>. </p> 
+<p>To select a cell just click it. To select a row click the header of the row or press the keys <code>Shift+Spacebar</code>. To select a column click the header of the column or press the keys <code>Ctrl+Spacebar</code>. To select a range click one corner cell and drag the mouse pointer over the desired cells. To select the whole worksheet click the top-left corner of the worksheet o press the keys <code>Ctrl+A</code>. </p> 
 <h2> <a id="user-content-data-edition" class="anchor" href="#data-edition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data edition</h2> 
 <h3> <a id="user-content-insert-data" class="anchor" href="#insert-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Insert data</h3> 
-<p>Data are entered into the cells activating the cell (clicking on it) and typing directly in the cell or in the input bar. Excel has a smart autocomplete feature that proposes completing the data that is typed with some predictions.</p> 
+<p>Data are entered into the cells activating the cell (clicking it) and typing directly in the cell or in the input bar. Text entered in a cell spreads to adjacent cells to the right if these cells have no content. To confine text to a certain width in the cell, select the cell and click the button <code>Wrap Text</code> in the Alignment section on the Home tab of the ribbon. </p> 
+<p>Excel has a smart autocomplete feature that proposes completing the data that is typed with some predictions.</p> 
 <h3> <a id="user-content-delete-data" class="anchor" href="#delete-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Delete data</h3> 
 <p>To delete the content of a cell simply select the cell and press <code>Supr</code> key. It's also possible to delete the content of a range of cells in the same way.</p> 
 <h3> <a id="user-content-remove-cells-rows-columns-and-worksheets" class="anchor" href="#remove-cells-rows-columns-and-worksheets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remove cells, rows, columns and worksheets</h3> 
@@ -767,14 +768,20 @@ function setDocumentScrollTop(ypos)
 <p>To cut or copy a cell, row, column or range, right-click it and select the option <code>Cut</code> or <code>Copy</code> respectively, or press the keys <code>Ctrl+x</code> or <code>Ctrl+c</code> respectively. Both options copy the content of the cell, row, column or range to the clipboard, but the difference between cut and copy is that cut delete the content from the current cell, row, column or range, while copy no.</p> 
 <p>To paste the content of the clipboard in a new cell, row, column or range, select the cell or the first cell of the row, column or range and click the button <code>Paste</code> or press the keys <code>Ctrl+v</code>.</p> 
 <h3> <a id="user-content-autofill" class="anchor" href="#autofill" aria-hidden="true"><span class="octicon octicon-link"></span></a>Autofill</h3> 
-<p>An useful feature of Excel is the autofill of cells following a serie or pattern. In some cases, like for example dates, it is enough to write the content of the first cell and then click on the bottom-right corner of the cell and drag the mouse pointer over the column or row to get the cells filled with the following dates. </p> 
-<p>For number or text, this actions replicates the content of the first cell in the others. To autofill with a serie of numbers is necessary to enter the first two numbers of the serie in two consecutive cells, then select both cells, click on the bottom-left corner and drag the mouse pointer over the column or row to get the cells filled with the numbers following the serie. </p> 
+<p>An useful feature of Excel is the autofill of cells following a serie or pattern. In some cases, like for example dates, it is enough to write the content of the first cell and then click the bottom-right corner of the cell and drag the mouse pointer over the column or row to get the cells filled with the following dates. </p> 
+<p>For number or text, this actions replicates the content of the first cell in the others. To autofill with a serie of numbers is necessary to enter the first two numbers of the serie in two consecutive cells, then select both cells, click the bottom-left corner and drag the mouse pointer over the column or row to get the cells filled with the numbers following the serie. </p> 
 <p><strong>Example</strong>. The next figure shows how to autofill cells with the serie of even numbers. </p> 
 <div> 
  <a href="img/autofill.png" target="_blank"><img src="img/autofill.png" width="250px" alt="autofill" style="max-width:100%;" /></a> 
 </div> 
 <h3> <a id="user-content-undo-and-redo" class="anchor" href="#undo-and-redo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Undo and redo</h3> 
 <p>In the quick access toolbar there are buttons <code>Undo</code> <a href="img/button_undo.png" target="_blank"><img src="img/button_undo.png" width="20px" alt="button undo" style="max-width:100%;" /></a> and <code>Redo</code> <a href="img/button_redo.png" target="_blank"><img src="img/button_redo.png" width="20px" alt="button redo" style="max-width:100%;" /></a>. The <code>Undo</code> button undoes the last data edition action performed and the <code>Redo</code> button reverses the last undone action. If you press the undo button several $n$ times, it undoes the last $n$ actions, and the same happens with the redo button. </p> 
+<h2> <a id="user-content-column-and-row-sizing" class="anchor" href="#column-and-row-sizing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Column and row sizing</h2> 
+<p>Columns width and rows height can be easily changed. To change the width of a column click the line between the column you want to size and the next column in the column header, and then drag the pointer mouse to increase or reduce the column width. If you double-click this line the column width will auto resize to the width of the widest cell content in the column. </p> 
+<p>In a similar way, to change the height of a row click the line between the row you want to size and the next row in the row header, and then drag the pointer mouse to increase or reduce the row height. If you double-click this line the row height will auto resize to the height of the highest cell content in the row. </p> 
+<div> 
+ <a href="img/row_column_sizing.png" target="_blank"><img src="img/row_column_sizing.png" width="500px" alt="row and column sizing" style="max-width:100%;" /></a> 
+</div> 
 <h2> <a id="user-content-file-management" class="anchor" href="#file-management" aria-hidden="true"><span class="octicon octicon-link"></span></a>File management</h2> 
 <p>Data of workbooks are stored in files. Although Excel makes backups copies of your work regularly, is a good practice to save your work in files often. </p> 
 <h3> <a id="user-content-save-a-file" class="anchor" href="#save-a-file" aria-hidden="true"><span class="octicon octicon-link"></span></a>Save a file</h3> 
@@ -784,6 +791,12 @@ function setDocumentScrollTop(ypos)
 <h3> <a id="user-content-create-a-new-workbook" class="anchor" href="#create-a-new-workbook" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create a new workbook</h3> 
 <p>To create a new workbook press the tab <code>File</code> and select the option <code>New</code>. In the dialog that appears select <code>Blank workbook</code>. It's possible to create new workbooks from predefined templates. </p> 
 <h3> <a id="user-content-close-a-workbook" class="anchor" href="#close-a-workbook" aria-hidden="true"><span class="octicon octicon-link"></span></a>Close a workbook</h3> 
-<p>To close an open workbook press the tab <code>File</code> and select the option <code>Close</code>. If the last changes in the workbook haven't been saved, a warning will appear allowing you to save the file before to close it. </p>
+<p>To close an open workbook press the tab <code>File</code> and select the option <code>Close</code>. If the last changes in the workbook haven't been saved, a warning will appear allowing you to save the file before to close it. </p> 
+<h2> <a id="user-content-getting-help" class="anchor" href="#getting-help" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting help</h2> 
+<p>One of the most useful features of Microsoft Office programs is the system of help that they have. To get help about any issue in Excel click the option <code>Help</code> in the Help tab of the ribbon, and then click <code>Microsoft Office Help</code>. This shows a browser where you can enter some key words and Excel will search topics related to these words and present the search results in a list. Clicking the desired topic will show you help info about that topic. </p> 
+<p><strong>Example</strong>. The next figure shows the help search results for the word &quot;cell&quot;. </p> 
+<div> 
+ <a href="img/excel_2010_help.png" target="_blank"><img src="img/excel_2010_help.png" width="300px" alt="excel 2010 help" style="max-width:100%;" /></a> 
+</div>
 </body>
 </html>

@@ -121,7 +121,7 @@ There exists also a quick access toolbar just above the ribbon that can be custo
 
 
 ### Access dialogs
-When you click on the right bottom corner of any panel, the corresponding dialog is show where all the related options are available. 
+When you click the right bottom corner of any panel, the corresponding dialog is show where all the related options are available. 
 
 **Example**. The next figure shows the font dialog with all the options related to fonts (font family, font style, font size, etc.)  
 
@@ -150,7 +150,7 @@ Each worksheet has a name and are arranged in tabs at the bottom. Columns and ro
 <img src="img/sheet_column_row_cell.png" width="700px" alt="cells, rows, columns and worksheets in Excel" />
 </div>
 
-The names of rows and columns can not be changed, but worksheet names can be changed double-clicking on it and typing the new name. 
+The names of rows and columns can not be changed, but worksheet names can be changed double-clicking it and typing the new name. 
 
 ### Ranges of cells 
 A range of cells is a rectangular block of adjacent cells that is identified by top-left cell and the bottom-right cell separated by a colon, following the pattern `top-left-cell-name:bottom-right-cell-name`.
@@ -163,17 +163,19 @@ A range of cells is a rectangular block of adjacent cells that is identified by 
 
 
 ### Selecting cells, rows, columns, ranges and worksheets
-To select a cell just click on it. 
+To select a cell just click it. 
 To select a row click the header of the row or press the keys `Shift+Spacebar`. 
 To select a column click the header of the column or press the keys `Ctrl+Spacebar`.
-To select a range click on one corner cell and drag the mouse pointer over the desired cells. 
-To select the whole worksheet click on the top-left corner of the worksheet o press the keys `Ctrl+A`.  
+To select a range click one corner cell and drag the mouse pointer over the desired cells. 
+To select the whole worksheet click the top-left corner of the worksheet o press the keys `Ctrl+A`.  
 
 
 ## Data edition
 
 ### Insert data
-Data are entered into the cells activating the cell (clicking on it) and typing directly in the cell or in the input bar. Excel has a smart autocomplete feature that proposes completing the data that is typed with some predictions.
+Data are entered into the cells activating the cell (clicking it) and typing directly in the cell or in the input bar. Text entered in a cell spreads to adjacent cells to the right if these cells have no content. To confine text to a certain width in the cell, select the cell and click the button `Wrap Text` in the Alignment section on the Home tab of the ribbon. 
+
+Excel has a smart autocomplete feature that proposes completing the data that is typed with some predictions.
 
 ### Delete data
 To delete the content of a cell simply select the cell and press `Supr` key. It's also possible to delete the content of a range of cells in the same way.
@@ -206,9 +208,9 @@ To cut or copy a cell, row, column or range, right-click it and select the optio
 To paste the content of the clipboard in a new cell, row, column or range, select the cell or the first cell of the row, column or range and click the button `Paste` or press the keys `Ctrl+v`.
 
 ### Autofill 
-An useful feature of Excel is the autofill of cells following a serie or pattern. In some cases, like for example dates, it is enough to write the content of the first cell and then click on the bottom-right corner of the cell and drag the mouse pointer over the column or row to get the cells filled with the following dates. 
+An useful feature of Excel is the autofill of cells following a serie or pattern. In some cases, like for example dates, it is enough to write the content of the first cell and then click the bottom-right corner of the cell and drag the mouse pointer over the column or row to get the cells filled with the following dates. 
 
-For number or text, this actions replicates the content of the first cell in the others. To autofill with a serie of numbers is necessary to enter the first two numbers of the serie in two consecutive cells, then select both cells, click on the bottom-left corner and drag the mouse pointer over the column or row to get the cells filled with the numbers following the serie.     
+For number or text, this actions replicates the content of the first cell in the others. To autofill with a serie of numbers is necessary to enter the first two numbers of the serie in two consecutive cells, then select both cells, click the bottom-left corner and drag the mouse pointer over the column or row to get the cells filled with the numbers following the serie.     
 
 **Example**. The next figure shows how to autofill cells with the serie of even numbers. 
 
@@ -219,6 +221,16 @@ For number or text, this actions replicates the content of the first cell in the
 ### Undo and redo
 In the quick access toolbar there are buttons `Undo` <img src="img/button_undo.png" width="20px" alt="button undo" /> and `Redo` <img src="img/button_redo.png" width="20px" alt="button redo" />. The `Undo` button undoes the last data edition action performed and the `Redo` button reverses the last undone action. If you press the undo button several $n$ times, it undoes the last $n$ actions, and the same happens with the redo button.  
 
+
+## Column and row sizing 
+Columns width and rows height can be easily changed. To change the width of a column click the line between the column you want to size and the next column in the column header, and then drag the pointer mouse to increase or reduce the column width. If you double-click this line the column width will auto resize to the width of the widest cell content in the column. 
+
+In a similar way, to change the height of a row click the line between the row you want to size and the next row in the row header, and then drag the pointer mouse to increase or reduce the row height. If you double-click this line the row height will auto resize to the height of the highest cell content in the row. 
+
+<div style="text-align:center">
+<img src="img/row_column_sizing.png" width="500px" alt="row and column sizing" />
+</div> 
+ 
 
 ## File management
 Data of workbooks are stored in files. Although Excel makes backups copies of your work regularly, is a good practice to save your work in files often. 
@@ -236,8 +248,13 @@ To create a new workbook press the tab `File` and select the option `New`. In th
 ### Close a workbook
 To close an open workbook press the tab `File` and select the option `Close`. If the last changes in the workbook haven't been saved, a warning will appear allowing you to save the file before to close it. 
 
+## Getting help
+One of the most useful features of Microsoft Office programs is the system of help that they have. To get help about any issue in Excel click the option `Help` in the Help tab of the ribbon, and then click `Microsoft Office Help`. This shows a browser where you can enter some key words and Excel will search topics related to these words and present the search results in a list. Clicking the desired topic will show you help info about that topic. 
 
+**Example**. The next figure shows the help search results for the word "cell". 
 
-  
+<div style="text-align:center">
+<img src="img/excel_2010_help.png" width="300px" alt="excel 2010 help" />
+</div>
 
 
