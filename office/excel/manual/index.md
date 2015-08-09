@@ -15,7 +15,7 @@ Table of Contents
 ====================
 
 - [Introduction](/office/excel/manual/introduction.html)
-- [Formating data and printing](/office/excel/manual/formating.html)
+- [Formatting data and printing](/office/excel/manual/formatting.html)
 - [Managing databases](/office/excel/manual/databases.html)
 - [Using formulas](/office/excel/manual/formulas.html)
 - [Plotting charts](/office/excel/manual/charts.html)

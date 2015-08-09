@@ -173,7 +173,7 @@ To select the whole worksheet click the top-left corner of the worksheet o press
 ## Data edition
 
 ### Insert data
-Data are entered into the cells activating the cell (clicking it) and typing directly in the cell or in the input bar. Text entered in a cell spreads to adjacent cells to the right if these cells have no content. To confine text to a certain width in the cell, select the cell and click the button `Wrap Text` in the Alignment section on the Home tab of the ribbon. 
+Data are entered into the cells activating the cell (clicking it) and typing directly in the cell or in the input bar.
 
 Excel has a smart autocomplete feature that proposes completing the data that is typed with some predictions.
 
