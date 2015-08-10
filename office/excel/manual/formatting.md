@@ -206,8 +206,11 @@ Excel allows to apply a format to a cell depending according to some rules. To s
 <img src="img/example_conditional_formatting_average.gif" width="800px" alt="example conditional formating of values above or below the average" />
 </div>
 
-## Excel themes
+## Predefined styles
+Excel has a lot of predefined styles for formatting cells and tables. To apply a predefined cell style click `Cell Styles` button and select the desired style. It's possible to define new cell styles. For this select the cell with the format to define as a style, click `Cell Styles` button
+and select `New Cell Style...` option. In the dialog that appears just give a name to the new style, press OK, and the new cell style will appear in the cell styles menu.
 
+To apply a predefined table style click `Format as Table` button and select de desired style. It's also possible to define new table styles. For this click `Cell Styles` button and select `New Cell Style...` option. In the dialog that appears just give a name to the new style, define the table format (font, borders and fill), press OK, and the new table style will appear in the table styles menu.
 
 
 

@@ -169,16 +169,28 @@ To select a column click the header of the column or press the keys `Ctrl+Spaceb
 To select a range click one corner cell and drag the mouse pointer over the desired cells. 
 To select the whole worksheet click the top-left corner of the worksheet o press the keys `Ctrl+A`.  
 
+**Example**. The next animation shows how to select the cell C3, after the row 3, after the column C, after range B3:D7 and finally the whole worksheet. 
+
+<div style="text-align:center">
+<img src="img/example_cells_selection.gif" width="800px" alt="example of selecting cells, rows, columns, ranges and worksheets" />
+</div>
+
 
 ## Data edition
 
 ### Insert data
 Data are entered into the cells activating the cell (clicking it) and typing directly in the cell or in the input bar.
 
+**Example**. The next animation shows how to enter the text 'Excel' in cell B2 and the number 2010 in cell C2, and after change the number of cell C2 to 2013.
+
+<div style="text-align:center">
+<img src="img/example_enter_data.gif" width="800px" alt="example entering data" />
+</div>
+
 Excel has a smart autocomplete feature that proposes completing the data that is typed with some predictions.
 
 ### Delete data
-To delete the content of a cell simply select the cell and press `Supr` key. It's also possible to delete the content of a range of cells in the same way.
+To delete the content of a cell or a range of cells simply select the it and press `Supr` key. It's also possible to delete the cell contents with the button `Clear All`. 
 
 ### Remove cells, rows, columns and worksheets
 To remove a whole cell (no only the content), right-click the cell and select the option `Delete...`. In the dialog that appears select `Shift cells left` if you want the cells to the left of the removed cell move to the left to fill the gap, or `Shift cells up` if you want the cells below the removed cell move up to fill the gap.
@@ -190,6 +202,12 @@ To remove a whole column, right-click the header of the column and select the op
 To remove a worksheet, right-click the tab with the name of the worksheet and select the option `Delete...`. 
 *Warning: Removing worksheets can not be undone!*
 
+**Example**. The next animation shows how to remove a cell, a row, a column and a worksheet. 
+
+<div style="text-align:center">
+<img src="img/example_data_remove.gif" width="800px" alt="example removing cells, rows, columns and worksheets" />
+</div>
+
 ### Insert cells, rows, columns and worksheets
 To insert a new cell in a position, right-click the current cell in that position and select the option `Insert...`.  In the dialog that appears select `Shift cells right` if you want to move the cells to the right to make a gap for the new cell, or `Shift cells down` if you want to move the cells down to make a gap for the new cell. 
 
@@ -200,6 +218,12 @@ To insert a new column, right-click the header of the column to the left of whic
 To insert a new worksheet, right-click the tab with the name of the worksheet to the left of which you want to insert the new worksheet and select `Insert`.
 In the dialog that appears select `Worksheet'.
 
+**Example**. The next animation shows how to insert a cell, a row, a column and a worksheet. 
+
+<div style="text-align:center">
+<img src="img/example_data_insert.gif" width="800px" alt="example inserting cells, rows, columns and worksheets" />
+</div>
+
 ### Cut, copy and paste
 Like in many other Windows applications, you can use the clipboard to cut, copy and paste cells, rows, columns and ranges contents. 
 
@@ -207,19 +231,38 @@ To cut or copy a cell, row, column or range, right-click it and select the optio
 
 To paste the content of the clipboard in a new cell, row, column or range, select the cell or the first cell of the row, column or range and click the button `Paste` or press the keys `Ctrl+v`.
 
+**Example**. The next animation shows how to copy and paste the content of a cell, a row, a column and a range and a worksheet. 
+
+<div style="text-align:center">
+<img src="img/example_copy_paste.gif" width="800px" alt="example of copying and pasting cells, rows, columns, ranges and worksheets" />
+</div>
+
+
 ### Autofill 
 An useful feature of Excel is the autofill of cells following a serie or pattern. In some cases, like for example dates, it is enough to write the content of the first cell and then click the bottom-right corner of the cell and drag the mouse pointer over the column or row to get the cells filled with the following dates. 
 
 For number or text, this actions replicates the content of the first cell in the others. To autofill with a serie of numbers is necessary to enter the first two numbers of the serie in two consecutive cells, then select both cells, click the bottom-left corner and drag the mouse pointer over the column or row to get the cells filled with the numbers following the serie.     
 
-**Example**. The next figure shows how to autofill cells with the serie of even numbers. 
+**Example**. The next figure shows how to replicate the content of cell A1 to range A2:A10, next how to auto fill the range B1:B10 with the following dates to the date in cell B1, and finally how to auto fill the range C1:C10 with the serie of even numbers.
 
+<div style="text-align:center">
+<img src="img/example_autofill.gif" width="800px" alt="example of replicating and auto fill cells" />
+</div>
+
+<!--
 <div style="text-align:center">
 <img src="img/autofill.png" width="250px" alt="autofill" />
 </div>
+-->
 
 ### Undo and redo
 In the quick access toolbar there are buttons `Undo` <img src="img/button_undo.png" width="20px" alt="button undo" /> and `Redo` <img src="img/button_redo.png" width="20px" alt="button redo" />. The `Undo` button undoes the last data edition action performed and the `Redo` button reverses the last undone action. If you press the undo button several $n$ times, it undoes the last $n$ actions, and the same happens with the redo button.  
+
+**Example**. The next animation shows how to remove the content of cell B2, then change the content of cell C2 two times, then undo that actions and finally redo the same actions. 
+
+<div style="text-align:center">
+<img src="img/example_undo.gif" width="800px" alt="example of undo an action" />
+</div>
 
 
 ## Column and row sizing 
@@ -227,10 +270,18 @@ Columns width and rows height can be easily changed. To change the width of a co
 
 In a similar way, to change the height of a row click the line between the row you want to size and the next row in the row header, and then drag the pointer mouse to increase or reduce the row height. If you double-click this line the row height will auto resize to the height of the highest cell content in the row. 
 
+
+**Example**. The next animation shows how to resize the width of column C and the height of row 3 to fit the content of cell C3. 
+
+<div style="text-align:center">
+<img src="img/example_row_column_resize.gif" width="800px" alt="example of resizing rows and columns" />
+</div>
+
+<!--
 <div style="text-align:center">
 <img src="img/row_column_sizing.png" width="500px" alt="row and column sizing" />
 </div> 
- 
+-->
 
 ## File management
 Data of workbooks are stored in files. Although Excel makes backups copies of your work regularly, is a good practice to save your work in files often. 
