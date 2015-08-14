@@ -104,7 +104,7 @@ Excel has a huge library of predefined functions that performs different calcula
 </div>
 &nbsp;
 
-### Sum function
+### SUM function
 The most common function is `SUM` that calculates the sum of numbers in one or several cell ranges. Its syntax is `SUM(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to add up. 
 
 **Example** The next animation shows how to calculate the sum of the subject grades for every student in a course. 
@@ -114,7 +114,8 @@ The most common function is `SUM` that calculates the sum of numbers in one or s
 </div>
 &nbsp;
 
-### Count function 
+
+### COUNT function 
 The `COUNT` function counts the number of cells with numbers in a range.  Its syntax is `COUNT(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to count. 
 
 **Example** The next animation shows how to calculate the number of subjects grades for every student in a course. 
@@ -125,17 +126,7 @@ The `COUNT` function counts the number of cells with numbers in a range.  Its sy
 &nbsp;
 
 
-### Average function
-The `AVERAGE` function calculates the arithmetic mean of numbers in one or several cell ranges. Its syntax is `AVERAGE(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to calculate their average. 
-
-**Example** The next animation shows how to calculate the average grade for every student in a course. Observe that the average grade is well calculated even when there are blank cells in the range.  
-
-<div style="text-align:center">
-<img src="img/example_function_count.gif" width="800px" alt="example of the average function" />
-</div>
-&nbsp;
-
-### Min function
+### MIN function
 The `Min` function calculates the minimum value of numbers in one or several cell ranges. Its syntax is `MIN(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to calculate their minimum. 
 
 **Example** The next animation shows how to calculate the minimum grade for every student in a course.
@@ -145,7 +136,8 @@ The `Min` function calculates the minimum value of numbers in one or several cel
 </div>
 &nbsp;
 
-### Max function
+
+### MAX function
 The `MAX` function calculates the maximum value of numbers in one or several cell ranges. Its syntax is `MAX(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to calculate their maximum. 
 
 **Example** The next animation shows how to calculate the maximum grade for every student in a course.
@@ -155,15 +147,17 @@ The `MAX` function calculates the maximum value of numbers in one or several cel
 </div>
 &nbsp;
 
+
 ## Logical functions
 Logical functions are very useful to make decisions. 
+
 
 ### If function
 The most important logical function is the `IF` functions, that checks whether a condition is met and returns a value if is true or another value if is false. Its syntax is `IF(condition;true_value;false_value)`, where *condition* is the logical condition to test, *true_value* is the returned value if the condition is true, and *false_value* is the returned value if the condition is false. 
 
 In the logical condition expression you use logical operators like equal `=`, not equal `<>`, greater `>`, less, `<`, greater or equal `>=`, less or equal `<=`, etc. In the true or false value you can put numbers, text with double quotes dates, cell references or other formulas. 
 
-**Example** The next animation shows how to decide if students pass or don't pass a course depending on whether the average grade is greater than or equal to 5.
+**Example** The next animation shows how to use the IF function to decide if students pass or don't pass a course depending on whether the average grade is greater than or equal to 5.
 
 <div style="text-align:center">
 <img src="img/example_function_if.gif" width="800px" alt="example of the if function" />
@@ -171,13 +165,191 @@ In the logical condition expression you use logical operators like equal `=`, no
 &nbsp;
 
 
+### And function
+The `AND` function will return TRUE if all its arguments are true and FALSE if at least one argument is false. Its syntax is `AND(contidion1;condition2;...)`, where *condition1, condition2,* etc are logical conditions. 
+
+The following table, known as a *truth table*, shows the returned value by the function according to the corresponding values of its arguments.
+
+
+| A  | B  | AND(A;B) |
+|:--:|:--:|:--------:|
+|TRUE|TRUE|   TRUE   |
+|TRUE|FALSE| FALSE   |
+|FALSE|TRUE| FALSE   |
+|FALSE|FALSE| FALSE  |
+
+&nbsp;
+
+**Example**. The next animation shows how to use the AND function to see which students have passed all the subjects of a course with a grade greater than or equal to 5. Observe that conditions that involve blank cells are always false. 
+
+<div style="text-align:center">
+<img src="img/example_function_and.gif" width="800px" alt="example of the and function" />
+</div>
+&nbsp;
+
+
+### Or function
+The `OR` function will return TRUE if one or more of its arguments are true and FALSE if all its arguments are false. Its syntax is `OR(contidion1;condition2;...)`, where *condition1, condition2,* etc are logical conditions. 
+
+The following truth table shows the returned value by the function according to the corresponding values of its arguments.
+
+
+| A  | B  | OR(A;B) |
+|:--:|:--:|:--------:|
+|TRUE|TRUE|   TRUE   |
+|TRUE|FALSE| TRUE   |
+|FALSE|TRUE| TRUE   |
+|FALSE|FALSE| FALSE  |
+
+&nbsp;
+
+**Example**. The next animation shows how to use the OR function to see which students have not passed some subjects of a course with a grade greater than or equal to 5.
+
+<div style="text-align:center">
+<img src="img/example_function_or.gif" width="800px" alt="example of the and function" />
+</div>
+&nbsp;
+
+
+### Not function
+The `NOT` function will return TRUE if its argument is FALSE, and FALSE if its argument is TRUE. Its syntax is `NOT(contidion)`, where *condition* is a logical condition. 
+
+The following truth table shows the returned value by the function according to the corresponding values of its argument.
+
+
+| A  | NOT(A) |
+|:--:|:--------:|
+|TRUE|   FALSE  |
+|FALSE|  TRUE   |
+
+&nbsp;
+
+
+## Date and time functions
+Date and time functions performs operations with dates and times respectively.
+
+Excel convert automatically any entry with with a date or time formats into a serial number. For dates, this serial number represents the number of days that have elapsed since the beginning of the twentieth century (so that January 1, 1900, is serial number 1; January 2, 1900, is serial number 2; and so on). For times, this serial number is a fraction that represents the number of hours, minutes, and seconds that have elapsed since midnight (so that  00:00:00 is serial number 0.00000000, 12:00:00 p.m. (noon) is serial number 0.50000000; 11:00:00 p.m. is 0.95833333; and so on).
+
+
+### Time elapsed between two dates or times.   
+To calculate the time elapsed between two dates or times, just enter a formula that subtracts the earlier date or time from the later date or time.
+In the case of dates, Excel will return the number of days between these dates. If you want to express it in year units, just divide the number of days by 365.25. In the case of times, Excel will return the number of hours between these times. If you want to express it in days unit, just change the cell format to General. 
+
+**Example**. The next animation shows how to calculate the time elapsed between two dates and two times.
+
+<div style="text-align:center">
+<img src="img/example_time_elapsed.gif" width="800px" alt="example of time elapsed calculation" />
+</div>
+&nbsp;
+
+### TODAY function
+The function `TODAY` returns the system date (usually the current date). Its syntax is `TODAY()` and this functions doesn't have arguments. 
+
+**Example**. The next animation shows how to calculate current age of a person using the TODAY function.
+
+<div style="text-align:center">
+<img src="img/example_function_today.gif" width="800px" alt="example of age calculation with the TODAY function" />
+</div>
+&nbsp;
+
+### DATE function 
+The function `DATE` returns a date serial number for the date specified by the year, month, and day argument. Its syntax is `DATE(year,month,day)`, where *year* is the year, *month* is the month (in number) and *day* is the day.
+
+**Example**. The next animation shows how to calculate the date given the year, moth and day.
+
+<div style="text-align:center">
+<img src="img/example_function_date.gif" width="800px" alt="example of calculating the date given the year, month and day" />
+</div>
+&nbsp;
+
+### DAY, WEEKDAY, MONTH and YEAR functions
+The `DAY` function returns the day of the month of a date. Its' syntax is `DAY(date)`, where *date* is the serial number of the date. 
+
+The `WEEKDAY` function returns the day of the week of a date. Its' syntax is `WEEKDAY(date;type)`, where *date* is the serial number of the date and *type* has three possible values (1: 1 equals Sunday and 7 Saturday, 2: 1 equals Monday and 7 equals Sunday; 3: 0 equals Monday and 6 equals Sunday).
+
+The `MONTH` function returns the number of the month of a date. Its' syntax is `MONTH(date)`, where *date* is the serial number of the date. 
+
+The `YEAR` function returns the year of a date. Its' syntax is `YEAR(date)`, where *date* is the serial number of the date. 
+
+**Example**. The next animation shows how to calculate the day, week day, month and year of a date. 
+
+<div style="text-align:center">
+<img src="img/example_function_day.gif" width="800px" alt="example of calculating the day, week day, month and year of a date" />
+</div>
+&nbsp;
+
+
+### NOW function
+The function `NOW` returns the system time (usually the current time). Its syntax is `NOW()` and this functions doesn't have arguments. 
+
+**Example**. The next animation shows how to calculate current age of a person using the TODAY function.
+
+<div style="text-align:center">
+<img src="img/example_function_now.gif" width="800px" alt="example of seconds elapsed calculation with the now function" />
+</div>
+&nbsp;
+
+
+### TIME function 
+The function `TIME` returns a time serial number for the time specified by the hours, minutes and seconds argument. Its syntax is `TIME(hours,minutes,seconds)`, where *year* is the year, *month* is the month (in number) and *day* is the day.
+
+**Example**. The next animation shows how to calculate the date given the year, moth and day.
+
+<div style="text-align:center">
+<img src="img/example_function_time.gif" width="800px" alt="example of calculating the date given the year, month and day" />
+</div>
+&nbsp;
+
+
+### HOUR, MINUTE and SECOND functions
+The `HOUR` function returns the hour of a time. Its' syntax is `HOUR(time)`, where *time* is the serial number of the time. 
+
+The `MINUTE` function returns the minute of a time. Its' syntax is `MINUTE(time)`, where *time* is the serial number of the time. 
+
+The `SECOND` function returns the hour of a time. Its' syntax is `SECOND(time)`, where *time* is the serial number of the time. 
+
+**Example**. The next animation shows how to calculate the hour, minute and second of a time. 
+
+<div style="text-align:center">
+<img src="img/example_function_hour.gif" width="800px" alt="example of calculating the day, week day, month and year of a date" />
+</div>
+&nbsp;
+
 
 ## Database functions
+See the section of [Database functions](office/excel/manual/databases.html#Databasefunctions) 
 
 
 ## Statistical functions
 
 
+
+### AVERAGE function
+The `AVERAGE` function calculates the arithmetic mean of numbers in one or several cell ranges. Its syntax is `AVERAGE(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to calculate their average. 
+
+**Example** The next animation shows how to calculate the average grade for every student in a course. Observe that the average grade is well calculated even when there are blank cells in the range.  
+
+<div style="text-align:center">
+<img src="img/example_function_count.gif" width="800px" alt="example of the average function" />
+</div>
+&nbsp;
+
+
 ## Financial functions
+Excel contains a bunch of financial functions for determining such things as the present and future value of an investment; the payment, number of periods, or the principal or interest part of a payment on an loan or the rate of return on an investment.
+
+
+# PV function
+The `PV` function retunrs the present value of an investment, that is the total amount that a series of future payments is worth presently. Its syntas is `PV(rate,nper,pmt,fv,style)`.   
+
+When using financial functions, keep in mind that the fv, pv, and pmt arguments can be positive or negative, depending on whether you’re receiving the money (as in the case of an investment) or paying out the money (as in the case of a loan). Also keep in mind that you want to express the rate argument in the same units as the nper argument, so that if you make monthly payments on a loan and you express the nper as the total number of monthly payments, as in 360 (30 x 12) for a 30-year mortgage, you need to express the annual interest rate in monthly terms as well. For example, if you pay an annual interest rate of 7.5 percent on the loan, you express the rate argument as 0.075/12 so that it is monthly as well.
+
+For more sophisticated functions you can activate the Analysis ToolPak add-in, and you will get over 30 specialised financial functions. 
+
+
+
+
+
+ 
 
 

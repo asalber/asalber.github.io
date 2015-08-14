@@ -299,6 +299,30 @@ To create a new workbook press the tab `File` and select the option `New`. In th
 ### Close a workbook
 To close an open workbook press the tab `File` and select the option `Close`. If the last changes in the workbook haven't been saved, a warning will appear allowing you to save the file before to close it. 
 
+## Exporting and importing data
+Excel can export and import data in many formats. One of the most common formats is csv (comma separated values). In this format data is saved in a plain text file one row per line and separating columns with commas or semicolons.
+
+### Export to csv format
+To export a worksheet to csv format file, click the option `Save as` of the ribbon's `File` tab. In the dialog that appears select the option `CSV (Comma delimited) (*.csv)` from the drop-down list `Save as type`, give a name to the file, select the folder where to save it and click OK.   
+
+**Example**. The next animation shows how to export an worksheet with a students database to a csv format file. 
+
+<div style="text-align:center">
+<img src="img/example_export_csv.gif" width="800px" alt="example of exporting a csv format file" />
+</div>
+
+### Import from csv format
+To import csv format file click the option `Open` of the ribbon's `File` tab. In the dialog that appears click the button to the right of the File name box and select the option `Text Files (*.prn;*.txt;*.csv)`, select the csv format file and click OK.
+
+If you want more control in the importation process, click the `From Tex` button of the `Get External Data` on the ribbon's `Data` tab. In the dialog that appears select the csv format file and click the `Import` button. This brings another dialog where you can select if fields are delimited by a special character or are a fixed number of characters, the delimiter character (Tab, Semicolon, Somma, Space or other), the data format or every column (General, Text or Date). After that click the `Finish` button and in the dialog that appears select the cell where to put the imported data and click OK.      
+
+**Example**. The next animation shows how to import the csv format file with the students database of the previous example. 
+
+<div style="text-align:center">
+<img src="img/example_import_csv.gif" width="800px" alt="example of importing a csv format file" />
+</div>
+
+
 ## Getting help
 One of the most useful features of Microsoft Office programs is the system of help that they have. To get help about any issue in Excel click the option `Help` in the Help tab of the ribbon, and then click `Microsoft Office Help`. This shows a browser where you can enter some key words and Excel will search topics related to these words and present the search results in a list. Clicking the desired topic will show you help info about that topic. 
 
