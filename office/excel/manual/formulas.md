@@ -12,15 +12,28 @@ Spreadsheets are used mainly for doing calculations and one of the most powerful
 ## Enter formulas
 To enter a formula in a cell always start typing an equal sign `=` and then the formula expression. 
 
-Formula expressions can contain arithmetic operators: addition `+`, subtraction `-`, multiplication `*`, division `/` and powers `^` and named predefined functions like `SUM`, `EXP`, `SIN`, etc. This allow to use Excel as a calculator. When Excel evaluates expressions first evaluate named fórmulas, then powers, then products and quotients, and finally additions and subtractions, but it's possible to use parenthesis to force the evaluation of a subexpression before. 
+Formula expressions can contain arithmetic operators: addition `+`, subtraction `-`, multiplication `*`, division `/` and powers `^` and named predefined functions like `SUM`, `EXP`, `SIN`, etc. This allow to use Excel as a calculator. When Excel evaluates expressions first evaluate named formulas, then powers, then products and quotients, and finally additions and subtractions, but it's possible to use parenthesis to force the evaluation of a subexpression before.
 
-**Example**. The next animation shows how to enter the formula 4+2 in cell A1, the fórmula 4-2 in cell B1, the fórmula 4\*2 in cell C1, the formula 4/2 in cell D1, the formula 4^2 in cell E1 and the formula ((4+1)*2)^3 in cell F1.
+**Example** Assuming that cells A1, B1 and C1 contain the values 6,3 and 2 respectively, the next table shows some formulas and their respective results. 
+
+| Formula  | Result |
+|:--------:|:------:|
+|A1+B1-C1  | 7      |
+|A1+B1*C1  | 12     |
+|(A1+B1)*C1| 18     |
+|A1/B1-C1  | 0      |
+|A1/(B1-C1)| 6      |
+|A1+B1^C1  | 15     |
+|(A1+B1)^C1| 81     | 
+
+<br/>
+
+**Example**. The next animation shows how to enter the formula 4+2 in cell A1, the formula 4-2 in cell B1, the formula 4\*2 in cell C1, the formula 4/2 in cell D1, the formula 4^2 in cell E1 and the formula ((4+1)*2)^3 in cell F1.
 
 <div style="text-align:center">
 <img src="img/example_enter_formulas.gif" width="800px" alt="example of enter formulas" />
 </div>
 &nbsp;
-  
   
 
 ## Using relative and absolutes cell references in formulas
@@ -54,14 +67,14 @@ A common way of copying the formula of a cell to adjacent cells is clicking the 
 Although relative references are very helpful in many cases, sometimes we need the references in a formula to remain fixed when copied elsewhere.  
 In that case we need to use *absolute references*, that are like relative references but use the dollar symbol `$` to fix either the row, the column or both on any cell reference, by preceding the column or row with the dollar sign.
 
-**Example**. The next animation shows how to calcule the IVA of a list of prices. Cells A2 to A5 contains the prices and cell F1 contains the IVA percentage. For calculating the IVA of firs price we use the formula `A2*F$4/100` where we fix the row of cell F4 because we wan it remain fixed when copying the formula down. Observe how the reference to cell F4 dosen't change when copying the formula down.   
+**Example**. The next animation shows how to calculate the IVA of a list of prices. Cells A2 to A5 contains the prices and cell F1 contains the IVA percentage. For calculating the IVA of first price we use the formula `A2*F$4/100` where we fix the row of cell F4 because we wan it remain fixed when copying the formula down. Observe how the reference to cell F4 dosen't change when copying the formula down.   
 
 <div style="text-align:center">
 <img src="img/example_copying_formulas_with_absolute_references.gif" width="800px" alt="example of copying and pasting formulas with absolute references" />
 </div>
 &nbsp;
 
-**Example**. The next animation shows how to calcule the multiplication table using absolute references. 
+**Example**. The next animation shows how to calculate the multiplication table using absolute references. 
 
 <div style="text-align:center">
 <img src="img/example_multiplication_table.gif" width="800px" alt="example of generating the multiplication table using formulas with absolute references" />
@@ -79,7 +92,7 @@ You can also set the name of a cell or range in the name box of the input bar.
 
 After that you can use that cell o range name in any formula. Observe that references with names are always absolutes.  
    
-**Example**. The next animation shows how to calcule the IVA of a list of prices using a cell name for the cell that contains the IVA percentage. 
+**Example**. The next animation shows how to calculate the IVA of a list of prices using a cell name for the cell that contains the IVA percentage. 
 
 <div style="text-align:center">
 <img src="img/example_formulas_with_defined_names.gif" width="800px" alt="example of copying and pasting formulas with absolute references" />
@@ -340,7 +353,7 @@ Excel contains a bunch of financial functions for determining such things as the
 
 
 # PV function
-The `PV` function retunrs the present value of an investment, that is the total amount that a series of future payments is worth presently. Its syntas is `PV(rate,nper,pmt,fv,style)`.   
+The `PV` function returns the present value of an investment, that is the total amount that a series of future payments is worth presently. Its syntax is `PV(rate,nper,pmt,fv,style)`.   
 
 When using financial functions, keep in mind that the fv, pv, and pmt arguments can be positive or negative, depending on whether you’re receiving the money (as in the case of an investment) or paying out the money (as in the case of a loan). Also keep in mind that you want to express the rate argument in the same units as the nper argument, so that if you make monthly payments on a loan and you express the nper as the total number of monthly payments, as in 360 (30 x 12) for a 30-year mortgage, you need to express the annual interest rate in monthly terms as well. For example, if you pay an annual interest rate of 7.5 percent on the loan, you express the rate argument as 0.075/12 so that it is monthly as well.
 
