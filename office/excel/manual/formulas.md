@@ -117,8 +117,9 @@ Excel has a huge library of predefined functions that performs different calcula
 </div>
 &nbsp;
 
+
 ### SUM function
-The most common function is `SUM` that calculates the sum of numbers in one or several cell ranges. Its syntax is `SUM(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to add up. 
+The most common function is `SUM` that calculates the sum of several numbers. Its syntax is `SUM(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges that you want to sum. 
 
 **Example** The next animation shows how to calculate the sum of the subject grades for every student in a course. 
 
@@ -128,8 +129,22 @@ The most common function is `SUM` that calculates the sum of numbers in one or s
 &nbsp;
 
 
+### SUMIF function
+The `SUMIF` function its similiar to the `SUM` but only sum numbers that satisfied a given criterion. Its syntax is `SUMIF(range,criterion,sum-range)` *range* is the cell range to check the criterion, *criterion* is the condition expression of the criterion, *sum-range* is the range with the values to sum (if this argument is not provided, the sum is calculated over the values of the *range* argument that meet the criterion).  
+
+The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
+
+
+**Example** The next animation shows how to calculate the sum of the grades greater than or equal to 5 for every student in a course.  
+
+<div style="text-align:center">
+<img src="img/example_function_sumif.gif" width="800px" alt="example of the sumif function" />
+</div>
+&nbsp;
+
+
 ### COUNT function 
-The `COUNT` function counts the number of cells with numbers in a range.  Its syntax is `COUNT(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to count. 
+The `COUNT` function counts the number of cells with numbers in a range.  Its syntax is `COUNT(range1,range2,...)` where *range1,range2*, etc. are the cell ranges to count. 
 
 **Example** The next animation shows how to calculate the number of subjects grades for every student in a course. 
 
@@ -139,8 +154,22 @@ The `COUNT` function counts the number of cells with numbers in a range.  Its sy
 &nbsp;
 
 
+### COUNTIF function
+The `COUNTIF` function its similar to the `COUNT` but only counts number of cells that satisfied a given criterion. Its syntax is `SUMIF(range,criterion)` *range* is the cell range to check the criterion and *criterion* is the condition expression of the criterion,.
+
+The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
+
+
+**Example** The next animation shows how to calculate the number of passed subjects (grade greater than or equal to 5).  
+
+<div style="text-align:center">
+<img src="img/example_function_countif.gif" width="800px" alt="example of the countif function" />
+</div>
+&nbsp;
+
+
 ### MIN function
-The `Min` function calculates the minimum value of numbers in one or several cell ranges. Its syntax is `MIN(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to calculate their minimum. 
+The `Min` function calculates the minimum value of several numbers. Its syntax is `MIN(number1,number2,...)` where *number1,number2*, etc. are numbers or cell ranges for which you want the minimum. 
 
 **Example** The next animation shows how to calculate the minimum grade for every student in a course.
 
@@ -151,7 +180,7 @@ The `Min` function calculates the minimum value of numbers in one or several cel
 
 
 ### MAX function
-The `MAX` function calculates the maximum value of numbers in one or several cell ranges. Its syntax is `MAX(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to calculate their maximum. 
+The `MAX` function calculates the maximum value of several numbers. Its syntax is `MAX(number1,number2,...)` where *number1,number2*, etc. are numbers or cell ranges for which you want the maximum. 
 
 **Example** The next animation shows how to calculate the maximum grade for every student in a course.
 
@@ -166,7 +195,7 @@ Logical functions are very useful to make decisions.
 
 
 ### If function
-The most important logical function is the `IF` functions, that checks whether a condition is met and returns a value if is true or another value if is false. Its syntax is `IF(condition;true_value;false_value)`, where *condition* is the logical condition to test, *true_value* is the returned value if the condition is true, and *false_value* is the returned value if the condition is false. 
+The most important logical function is the `IF` functions, that checks whether a condition is met and returns a value if is true or another value if is false. Its syntax is `IF(condition,true_value,false_value)`, where *condition* is the logical condition to test, *true_value* is the returned value if the condition is true, and *false_value* is the returned value if the condition is false. 
 
 In the logical condition expression you use logical operators like equal `=`, not equal `<>`, greater `>`, less, `<`, greater or equal `>=`, less or equal `<=`, etc. In the true or false value you can put numbers, text with double quotes dates, cell references or other formulas. 
 
@@ -179,12 +208,12 @@ In the logical condition expression you use logical operators like equal `=`, no
 
 
 ### And function
-The `AND` function will return TRUE if all its arguments are true and FALSE if at least one argument is false. Its syntax is `AND(contidion1;condition2;...)`, where *condition1, condition2,* etc are logical conditions. 
+The `AND` function will return TRUE if all its arguments are true and FALSE if at least one argument is false. Its syntax is `AND(contidion1,condition2,...)`, where *condition1, condition2,* etc are logical conditions. 
 
 The following table, known as a *truth table*, shows the returned value by the function according to the corresponding values of its arguments.
 
 
-| A  | B  | AND(A;B) |
+| A  | B  | AND(A,B) |
 |:--:|:--:|:--------:|
 |TRUE|TRUE|   TRUE   |
 |TRUE|FALSE| FALSE   |
@@ -202,12 +231,12 @@ The following table, known as a *truth table*, shows the returned value by the f
 
 
 ### Or function
-The `OR` function will return TRUE if one or more of its arguments are true and FALSE if all its arguments are false. Its syntax is `OR(contidion1;condition2;...)`, where *condition1, condition2,* etc are logical conditions. 
+The `OR` function will return TRUE if one or more of its arguments are true and FALSE if all its arguments are false. Its syntax is `OR(contidion1,condition2,...)`, where *condition1, condition2,* etc are logical conditions. 
 
 The following truth table shows the returned value by the function according to the corresponding values of its arguments.
 
 
-| A  | B  | OR(A;B) |
+| A  | B  | OR(A,B) |
 |:--:|:--:|:--------:|
 |TRUE|TRUE|   TRUE   |
 |TRUE|FALSE| TRUE   |
@@ -225,7 +254,7 @@ The following truth table shows the returned value by the function according to 
 
 
 ### Not function
-The `NOT` function will return TRUE if its argument is FALSE, and FALSE if its argument is TRUE. Its syntax is `NOT(contidion)`, where *condition* is a logical condition. 
+The `NOT` function will return TRUE if its argument is FALSE, and FALSE if its argument is TRUE. Its syntax is `NOT(condition)`, where *condition* is a logical condition. 
 
 The following truth table shows the returned value by the function according to the corresponding values of its argument.
 
@@ -278,7 +307,7 @@ The function `DATE` returns a date serial number for the date specified by the y
 ### DAY, WEEKDAY, MONTH and YEAR functions
 The `DAY` function returns the day of the month of a date. Its' syntax is `DAY(date)`, where *date* is the serial number of the date. 
 
-The `WEEKDAY` function returns the day of the week of a date. Its' syntax is `WEEKDAY(date;type)`, where *date* is the serial number of the date and *type* has three possible values (1: 1 equals Sunday and 7 Saturday, 2: 1 equals Monday and 7 equals Sunday; 3: 0 equals Monday and 6 equals Sunday).
+The `WEEKDAY` function returns the day of the week of a date. Its' syntax is `WEEKDAY(date,type)`, where *date* is the serial number of the date and *type* has three possible values (1: 1 equals Sunday and 7 Saturday, 2: 1 equals Monday and 7 equals Sunday; 3: 0 equals Monday and 6 equals Sunday).
 
 The `MONTH` function returns the number of the month of a date. Its' syntax is `MONTH(date)`, where *date* is the serial number of the date. 
 
@@ -333,21 +362,196 @@ The `SECOND` function returns the hour of a time. Its' syntax is `SECOND(time)`,
 See the section of [Database functions](office/excel/manual/databases.html#Databasefunctions) 
 
 
-## Statistical functions
+## Mathematical functions 
+Some common mathematical functions included in the function library are exponentials, logarithmic and trigonometric. 
 
 
+### SQRT function
+The `SQRT` function calculates the root square of a number. Its syntax is `SQRT(number)` where *number* is a number or a cell reference for which you want the square root. 
 
-### AVERAGE function
-The `AVERAGE` function calculates the arithmetic mean of numbers in one or several cell ranges. Its syntax is `AVERAGE(range1;range2;...)` where *range1, range2*, etc. are the cell ranges to calculate their average. 
-
-**Example** The next animation shows how to calculate the average grade for every student in a course. Observe that the average grade is well calculated even when there are blank cells in the range.  
+**Example** The next animation shows how to calculate the square root of grades in a course.
 
 <div style="text-align:center">
-<img src="img/example_function_count.gif" width="800px" alt="example of the average function" />
+<img src="img/example_function_sqrt.gif" width="800px" alt="example of the sqrt function" />
 </div>
 &nbsp;
 
 
+### EXP function
+The `EXP` function calculates the exponential of a number. Its syntax is `EXP(number)` where *number* is a number or a cell reference for which you want the exponential. 
+
+**Example** The next animation shows how to calculate the exponential of grades in a course.
+
+<div style="text-align:center">
+<img src="img/example_function_exp.gif" width="800px" alt="example of the exp function" />
+</div>
+&nbsp;
+
+
+### LN and LOG functions
+The `LN` function calculates the natural logarithm of a number (that is with base $e$). Its syntax is `LN(number)` where *number* is a number or a cell reference for which you want the natural logarithm. 
+
+The `LOG` function calculates the logarithm of a number in a given base. Its syntax is `LOG(number,[base])` where *number* is a number or a cell reference for which you want the logarithm and *base* is the base of the logarithm (if this argument is omitted, then base 10 is taken). 
+
+**Example** The next animation shows how to calculate the natural logarithm and the base 10 logarithm of grades in a course.
+
+<div style="text-align:center">
+<img src="img/example_function_ln.gif" width="800px" alt="example of the ln function" />
+</div>
+&nbsp;
+
+
+### PI function
+The `PI` function returns the constant value of $\pi$. Its syntax is `PI()` without arguments. 
+
+
+### SIN, COS and TAN functions
+The `SIN` function calculates the sine of an angle in radians. Its syntax is `SIN(angle)` where *angle* is a number or a cell reference with the radians for which you want the sine. 
+
+The `COS` function calculates the cosine of an angle in radians. Its syntax is `COS(angle)` where *angle* is a number or a cell reference with the radians for which you want the cosine. 
+
+The `TAN` function calculates the tangent of an angle in radians. Its syntax is `TAN(angle)` where *angle* is a number or a cell reference with the radians for which you want the tangent. 
+
+If angles are in degrees, they have to be converted to radians before with the function `RADIANS(degrees)` where *degrees* is a number or a cell reference with the degrees that you want to convert to radians. 
+
+**Example** The next animation shows how to calculate the sine, cosine and tangent of several angles. Observe that the sine of an angle o 180 degrees is not exactly 0 because the RADIANS function does not calculate the radians corresponding to a number of degrees with total accuracy. 
+
+<div style="text-align:center">
+<img src="img/example_function_sin_cos_tan.gif" width="800px" alt="example of the sin, cos and tan function" />
+</div>
+&nbsp;
+
+
+### ROUND function
+The `ROUND` function rounds a number to a specified number of digits. Its syntax is `ROUND(number,digits)` where *number* is a number or a cell reference that you want to round and *digits* is the number of digits to which you want to round the number. 
+
+**Example** The next animation shows how to round the grades in a course.
+
+<div style="text-align:center">
+<img src="img/example_function_round.gif" width="800px" alt="example of the round function" />
+</div>
+&nbsp;
+
+
+### ABS function
+The `ABS` function calculates the absolute value of a number. Its syntax is `ABS(number)` where *number* is a number or a cell reference for which you want the absolute value. 
+
+
+## Statistical functions
+Excel provides functions to calculate the main descriptive statistics, probability distributions and also to make inferences about the population. 
+For an introductory text to Statistics visit the [Statistic manual](/estadistica/manual/) page.    
+
+
+### AVERAGE function
+The `AVERAGE` function calculates the arithmetic mean of several numbers. Its syntax is `AVERAGE(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the average. 
+
+**Example** The next animation shows how to calculate the average grade for every student in a course. Observe that the average grade is well calculated even when there are blank cells in the range.  
+
+<div style="text-align:center">
+<img src="img/example_function_average.gif" width="800px" alt="example of the average function" />
+</div>
+&nbsp;
+
+
+### AVERAGEIF function
+The `AVERAGEIF` function calculates the arithmetic mean of numbers in a cell range that meet a given criterion. Its syntax is `AVERAGEIF	(range,criterion,[average-range])` where *range* is the cell range to check the criterion, *criterion* is the condition expression of the criterion, *average-range* is the range with the values to average (if this argument is not provided, the average is calculated over the values of the *range* argument that meet the criterion).  
+
+The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
+
+**Example** The next animation shows how to calculate the average grade of students with a grade greater than or equal to 5 for every subject in a course. 
+
+<div style="text-align:center">
+<img src="img/example_function_averageif.gif" width="800px" alt="example of the averageif function" />
+</div>
+&nbsp;
+
+
+### MEDIAN function
+The `MEDIAN` function calculates the median of several numbers. Its syntax is `MEDIAN(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the median. 
+
+**Example** The next animation shows how to calculate the median grade for every student in a course. Observe that the median grade is well calculated even when there are blank cells in the range.  
+
+<div style="text-align:center">
+<img src="img/example_function_median.gif" width="800px" alt="example of the median function" />
+</div>
+&nbsp;
+
+
+### MODE function
+The `MODE` function calculates the mode of several numbers. Its syntax is `MODE(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the mode. 
+
+**Example** The next animation shows how to calculate the mode grade for every student in a course. Observe that the mode grade is not calculated when there are not repetitions of values. 
+
+<div style="text-align:center">
+<img src="img/example_function_mode.gif" width="800px" alt="example of the median function" />
+</div>
+&nbsp;
+
+
+### PERCENTILE.EXC function
+The `PERCENTILE.EXC` function calculates the k-th percentile of numbers in a cell range. Its syntax is `PERCENTILE.EXC(range,k)` where *range* is the cell range with the values for which you want the percentile, and *k* is the relative frequency (between 0 and 1) of the percentile. 
+
+**Example** The next animation shows how to calculate the quartiles (percentiles 25, 50 and 75) of grades for every student in a course. Observe that if we use a cell reference for the *k* argument, putting a relative frequency in that cell (0.25 for first quartile, 0.5 for second quartile and 0.75 for third quartile) we get the correspondent percentile.   
+
+<div style="text-align:center">
+<img src="img/example_function_percentile.gif" width="800px" alt="example of the percentile function" />
+</div>
+&nbsp;
+
+
+### VAR.P function
+The `VAR.P` function calculates the variance of several numbers. Its syntax is `VAR.P(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the variance. 
+
+**Example** The next animation shows how to calculate the variance of grades for every student in a course. Observe that the variance is well calculated even when there are blank cells in the range.  
+
+<div style="text-align:center">
+<img src="img/example_function_varp.gif" width="800px" alt="example of the variance function" />
+</div>
+&nbsp;
+
+
+### STDEV.P function
+The `STDEV.P` function calculates the standard deviation of several numbers. Its syntax is `STDEV.P(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the standard deviation. 
+
+**Example** The next animation shows how to calculate the standard deviation of grades for every student in a course. Observe that you can also calculate the standard deviation applying the square root to the variance. 
+
+<div style="text-align:center">
+<img src="img/example_function_stdevp.gif" width="800px" alt="example of the standard deviation function" />
+</div>
+&nbsp;
+
+
+### SKEW function
+The `SKEW` function calculates the skewness coefficient of several numbers. Its syntax is `SKEW(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the skewness coefficient. Excel 2010 uses the following formula to calculate skewness:
+
+$$g_1=\frac{n}{(n-1)(n-2)}\sum \left(\frac{x_i-\bar x}{s}\right)^3,$$ 
+
+where $\bar x$ is the mean and $s$ is the standard deviation. 
+
+**Example** The next animation shows how to calculate the skewness coefficient of grades for every subject in a course.
+
+<div style="text-align:center">
+<img src="img/example_function_skew.gif" width="800px" alt="example of the skew function" />
+</div>
+&nbsp;
+
+
+### KURT function
+The `KURT` function calculates the kurtosis coefficient of several numbers. Its syntax is `KURT(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the kurtosis coefficient. Excel 2010 uses the following formula to calculate kurtosis:
+
+$$g_1=\frac{n(n+1)}{(n-1)(n-2)(n-3)}\sum \left(\frac{x_i-\bar x}{s}\right)^4 - \frac{3(n-1)^2}{(n-2)(n-3)},$$
+
+where $\bar x$ is the mean and $s$ is the standard deviation. 
+
+**Example** The next animation shows how to calculate the kurtosis coefficient of grades for every subject in a course.
+
+<div style="text-align:center">
+<img src="img/example_function_kurt.gif" width="800px" alt="example of the kurt function" />
+</div>
+&nbsp;
+
+
+<!--
 ## Financial functions
 Excel contains a bunch of financial functions for determining such things as the present and future value of an investment; the payment, number of periods, or the principal or interest part of a payment on an loan or the rate of return on an investment.
 
@@ -358,7 +562,7 @@ The `PV` function returns the present value of an investment, that is the total 
 When using financial functions, keep in mind that the fv, pv, and pmt arguments can be positive or negative, depending on whether you’re receiving the money (as in the case of an investment) or paying out the money (as in the case of a loan). Also keep in mind that you want to express the rate argument in the same units as the nper argument, so that if you make monthly payments on a loan and you express the nper as the total number of monthly payments, as in 360 (30 x 12) for a 30-year mortgage, you need to express the annual interest rate in monthly terms as well. For example, if you pay an annual interest rate of 7.5 percent on the loan, you express the rate argument as 0.075/12 so that it is monthly as well.
 
 For more sophisticated functions you can activate the Analysis ToolPak add-in, and you will get over 30 specialised financial functions. 
-
+-->
 
 
 

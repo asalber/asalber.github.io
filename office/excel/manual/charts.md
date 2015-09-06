@@ -175,7 +175,14 @@ An [XY scatter chart](https://en.wikipedia.org/wiki/Scatter_plot) is a point clo
 ### Histograms
 A [histogram](https://en.wikipedia.org/wiki/Histogram) is a graphical representation of the distribution of numerical data. It's similar to a column chart but data values are grouped into interval classes and each bar represents a class. Histograms charts are suitable for displaying frequency of data values in one numeric variable. 
 
-To plot an histogram previously is required to activate the `Analysis ToolPak` add-in.  
+To plot an histogram previously is required to load the `Analysis ToolPak` add-in.  
+
+**Example**. The next animation shows how to create an histogram of the grades in a course.
+
+<div style="text-align:center">
+<img src="img/example_chart_histogram.gif" width="800px" alt="Example of creating an histogram chart for the grades in a course" />
+</div>
+<br/>
 
 
 ## Chart design
