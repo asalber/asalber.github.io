@@ -15,6 +15,8 @@ Excel manages several data types. The most common are numbers, dates and times, 
 <div style="text-align:center">
 <img src="img/number_dialog.png" width="500px" alt="number dialog" />
 </div>
+<br/>
+
 
 ### Formatting numbers
 By default cells with numeric content are of type *Number*, but there are other numeric types like *Currency* and *Accounting*. Number is used for general display of numbers, while Currency and Accounting are used for monetary values. In all cases you can specify the number of decimal places. For monetary values you can also specify the symbol for the currency (€ by default). 
@@ -24,6 +26,8 @@ By default cells with numeric content are of type *Number*, but there are other 
 <div style="text-align:center">
 <img src="img/example_number_format.gif" width="800px" alt="example number format" />
 </div>
+<br/>
+
 
 ### Formatting dates and times
 By default cells with content following the pattern `day/month/year` are of type *Date*, but there are a lot of ways of formatting dates, like for example, `year-month-day` or `day-month_name-year` etc. 
@@ -33,6 +37,8 @@ By default cells with content following the pattern `day/month/year` are of type
 <div style="text-align:center">
 <img src="img/example_date_format.gif" width="800px" alt="example date format" />
 </div>
+<br/>
+
 
 By default cells with content following the pattern `hours:minutes:seconds` are of type *Time*, but there are a several ways of formatting times.
 
@@ -48,6 +54,8 @@ By default numbers are aligned to the right and text to the left, but it's possi
 <div style="text-align:center">
 <img src="img/alignment_dialog.png" width="500px" alt="alignment dialog" />
 </div>
+<br/>
+
 
 ### Horizontal alignment
 To change the horizontal alignment select Left, Right, Center or Justify in the Horizontal drop down list of the `Alignment tab`. You can also align the cell contents with the buttons of the Alignment panel in the Home tab of the ribbon. 
@@ -55,12 +63,16 @@ To change the horizontal alignment select Left, Right, Center or Justify in the 
 <div style="text-align:center">
 <img src="img/button_horizontal_alignment.png" width="400px" alt="horizontal alignment buttons" />
 </div>
+<br/>
+
 
 **Example**. The next table shows the price of fruits during several months and the average price. The animation shows how to align the average prices centered. 
 
 <div style="text-align:center">
 <img src="img/example_alignment.gif" width="800px" alt="example alignment" />
 </div>
+<br/>
+
 
 ### Vertical alignment
 To change the vertical alignment select Top, Bottom, Center or Justify in the Vertical drop down list of the `Alignment tab`. You can also align the cell contents with the buttons of the Alignment panel in the Home tab of the ribbon. 
@@ -68,6 +80,8 @@ To change the vertical alignment select Top, Bottom, Center or Justify in the Ve
 <div style="text-align:center">
 <img src="img/button_vertical_alignment.png" width="400px" alt="vertical alignment buttons" />
 </div>
+<br/>
+
 
 
 ## Font properties
@@ -76,6 +90,8 @@ To format the font of cell contents select the font family, font style, font siz
 <div style="text-align:center">
 <img src="img/font_dialog.png" width="500px" alt="font dialog" />
 </div>
+<br/>
+
 
 It's also possible to change the font family, style, size and color from the Font panel in the Home tab of the ribbon, and also with the contextual toolbar that appears right-clicking the cell. 
 
@@ -84,12 +100,16 @@ It's also possible to change the font family, style, size and color from the Fon
 <div style="text-align:center">
 <img src="img/example_font_family.gif" width="800px" alt="example change font family" />
 </div>
+<br/>
+
 
 The next animation shows how to change the font style of average prices to bold and the color of fruits names to blue.
 
 <div style="text-align:center">
 <img src="img/example_font_colour.gif" width="800px" alt="example change font colour" />
 </div>
+<br/>
+
 
 
 ## Borders and background
@@ -98,6 +118,8 @@ To format the borders of cells select the line style and color, and click the bo
 <div style="text-align:center">
 <img src="img/border_dialog.png" width="700px" alt="border dialog" />
 </div>
+<br/>
+
 
 It's also possible to change the border of cells with the `Border button` <img src="img/button_border.png" width="30px" alt="border button" /> of the Font panel in the Home tab of the ribbon, and also with the contextual toolbar that appears right-clicking the cell. 
 
@@ -106,12 +128,16 @@ It's also possible to change the border of cells with the `Border button` <img s
 <div style="text-align:center">
 <img src="img/example_borders.gif" width="800px" alt="example set cell borders" />
 </div>
+<br/>
+
 
 To format the background of cells select the background color and pattern style in the `Fill tab` of the Format Cells dialog. 
 
 <div style="text-align:center">
 <img src="img/fill_dialog.png" width="500px" alt="fill dialog" />
 </div>
+<br/>
+
 
 It's also possible to change the background color of cells with the `Background colour` button  <img src="img/button_background_colour.png" width="30px" alt="background colour button" /> of the Font panel in the Home tab of the ribbon, and also with the contextual toolbar that appears right-clicking the cell.  
 
@@ -120,6 +146,8 @@ It's also possible to change the background color of cells with the `Background 
 <div style="text-align:center">
 <img src="img/example_background_colour.gif" width="800px" alt="example change background colour" />
 </div>
+<br/>
+
 
 ## Merge cells
 To merge several cells in one, select the range of cells and click the button `Merge & Cener` in the Alignment section on the Home tab of the ribbon. If there are more than one cell with content in the range, merging will keep the upper-left most data only. By default content of merged cells is centered.
@@ -129,6 +157,8 @@ To merge several cells in one, select the range of cells and click the button `M
 <div style="text-align:center">
 <img src="img/example_merge_cells.gif" width="800px" alt="example of format copying and pasting" />
 </div>
+<br/>
+
 
 ## Copy and paste format
 To apply the format of a cell to others select the cell, click the `Format painter` button  <img src="img/button_format_painter.png" width="30px" alt="background colour button" /> to copy the cell format. Then then select the range of cells to paste the that format.
@@ -138,6 +168,8 @@ To apply the format of a cell to others select the cell, click the `Format paint
 <div style="text-align:center">
 <img src="img/example_format_painter.gif" width="800px" alt="example of format copying and pasting" />
 </div>
+<br/>
+
 
 
 ## Conditional formatting
@@ -151,6 +183,8 @@ Excel allows to apply a format to a cell depending according to some rules. To s
 	<div style="text-align:center">
 	<img src="img/example_conditional_formatting_colour_scale.gif" width="800px" alt="example conditional formatting based on colour scale " />
 	</div>
+	<br/>
+
 
   - *3-Color Scale* The same than 2-Color Scale but with a third intermediate colour in the scale.
 
@@ -161,6 +195,8 @@ Excel allows to apply a format to a cell depending according to some rules. To s
 	<div style="text-align:center">
 	<img src="img/example_conditional_formatting_data_bar.gif" width="800px" alt="example conditional formatting with data bars" />
 	/div>
+	<br/>
+
 
 
   - *Icon Sets* Divide the distribution of selected cell values in several parts according to intervals or percentiles, assign an different icon to each part, and plot the corresponding icon in each cell.   
@@ -170,6 +206,8 @@ Excel allows to apply a format to a cell depending according to some rules. To s
 	<div style="text-align:center">
 	<img src="img/example_conditional_formatting_icon_set.gif" width="800px" alt="example conditional formatting with icon sets" />
 	</div>
+	<br/>
+
 
 
 - **Format only cells that contain** Applies a format to the cell if satisfies a logical condition. 
@@ -177,8 +215,10 @@ Excel allows to apply a format to a cell depending according to some rules. To s
 **Example**. The next table shows the price of fruits during several months and the average price. The animation shows how to apply to prices higher than 2 € a red colour.
 
 <div style="text-align:center">
-<img src="img/example_conditional_formatting_logical_contidion.gif" width="800px" alt="example conditional formating based on logical conditon" />
+<img src="img/example_conditional_formatting_logical_condition.gif" width="800px" alt="example conditional formating based on logical conditon" />
 </div>
+<br/>
+
 
 - **Format only top or bottom ranked values** Applies a format to a number or percentage of top or bottom values.
 
@@ -187,15 +227,8 @@ Excel allows to apply a format to a cell depending according to some rules. To s
 <div style="text-align:center">
 <img src="img/example_conditional_formatting_top_values.gif" width="800px" alt="example conditional formating of top three values" />
 </div>
+<br/>
 
-
-- **Format only values that are above or below average** Applies a format to cells with values above or below the average of selected cells.
-
-**Example**. The next table shows the price of fruits during several months and the average price. The animation shows how to apply a red colour to prices above the average and a green colour to prices below the average. 
-
-<div style="text-align:center">
-<img src="img/example_conditional_formatting_average.gif" width="800px" alt="example conditional formating of values above or below the average" />
-</div>
 
 
 - **Format only values that are above or below average** Applies a format to cells with values above or below the average of selected cells.
@@ -205,6 +238,19 @@ Excel allows to apply a format to a cell depending according to some rules. To s
 <div style="text-align:center">
 <img src="img/example_conditional_formatting_average.gif" width="800px" alt="example conditional formating of values above or below the average" />
 </div>
+<br/>
+
+
+
+- **Format only values that are above or below average** Applies a format to cells with values above or below the average of selected cells.
+
+**Example**. The next table shows the price of fruits during several months and the average price. The animation shows how to apply a red colour to prices above the average and a green colour to prices below the average. 
+
+<div style="text-align:center">
+<img src="img/example_conditional_formatting_average.gif" width="800px" alt="example conditional formating of values above or below the average" />
+</div>
+<br/>
+
 
 ## Predefined styles
 Excel has a lot of predefined styles for formatting cells and tables. To apply a predefined cell style click `Cell Styles` button and select the desired style. It's possible to define new cell styles. For this select the cell with the format to define as a style, click `Cell Styles` button

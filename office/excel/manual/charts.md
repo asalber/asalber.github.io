@@ -63,6 +63,8 @@ Column charts, unlike bar charts, is suitable for emphasizing data variations ov
 <div style="text-align:center">
 <img src="img/example_chart_column.png" width="550px" alt="Example pie chart comparing fruit prices" />
 </div>
+<br/>
+
 
 Excel offers a lot of shapes for the bars (rectangles, cylinders, cones, pyramids) in 2-D an 3-D, and allows to stack bars. Also is possible to add error bars to the bars. 
 

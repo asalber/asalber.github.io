@@ -359,7 +359,7 @@ The `SECOND` function returns the hour of a time. Its' syntax is `SECOND(time)`,
 
 
 ## Database functions
-See the section of [Database functions](office/excel/manual/databases.html#Databasefunctions) 
+See the [Database functions](office/excel/manual/databases.html#Databasefunctions) section.
 
 
 ## Mathematical functions 

@@ -19,6 +19,8 @@ The next picture shows a screenshot of the Excel 2010 main window where the diff
 <div style="text-align:center">
 <img src="img/excel_2010_screenshot.png" width="800px" alt="Excel 2010 screenshot" />
 </div>
+<br/>
+
 
 ## Excel 2010 ribbon
 The top ribbon of Excel 2010 contains a lot of buttons that performs different actions. These buttons are arranged in panels, and panels are arranged in tabs. The main ribbon tabs are: 
@@ -128,6 +130,8 @@ When you click the right bottom corner of any panel, the corresponding dialog is
 <div style="text-align:center">
 <img src="img/access_font_dialog.png" width="600px" alt="font dialog" />
 </div>
+<br/>
+
 
 ### Contextual menu
 Clicking the right button of the mouse (right-clicking) a contextual menu is showed with some buttons or options to perform actions in that context. 
@@ -138,6 +142,8 @@ This menu has different options depending on the part of the windows that is cli
 <div style="text-align:center">
 <img src="img/contextual_menu.png" width="200px" alt="cells contextual menu" />
 </div>
+<br/>
+
 
 ## Workbooks, worksheets, rows, columns and cells
 An Excel file is a *workbook* with several *worksheets* that are two dimensional tables divided in *columns* and *rows*. The intersection of a column with a row is a *cell* that is where data are entered. Sheets have a maximum of 16,384 columns and 1,048,576 rows. 
@@ -149,6 +155,8 @@ Each worksheet has a name and are arranged in tabs at the bottom. Columns and ro
 <div style="text-align:center">
 <img src="img/sheet_column_row_cell.png" width="700px" alt="cells, rows, columns and worksheets in Excel" />
 </div>
+<br/>
+
 
 The names of rows and columns can not be changed, but worksheet names can be changed double-clicking it and typing the new name. 
 
@@ -160,6 +168,8 @@ A range of cells is a rectangular block of adjacent cells that is identified by 
 <div style="text-align:center">
 <img src="img/cells_range.png" width="400px" alt="range of cells" />
 </div>
+<br/>
+
 
 
 ### Selecting cells, rows, columns, ranges and worksheets
@@ -174,6 +184,8 @@ To select the whole worksheet click the top-left corner of the worksheet o press
 <div style="text-align:center">
 <img src="img/example_cells_selection.gif" width="800px" alt="example of selecting cells, rows, columns, ranges and worksheets" />
 </div>
+<br/>
+
 
 
 ## Data edition
@@ -186,6 +198,8 @@ Data are entered into the cells activating the cell (clicking it) and typing dir
 <div style="text-align:center">
 <img src="img/example_enter_data.gif" width="800px" alt="example entering data" />
 </div>
+<br/>
+
 
 Excel has a smart autocomplete feature that proposes completing the data that is typed with some predictions.
 
@@ -207,6 +221,8 @@ To remove a worksheet, right-click the tab with the name of the worksheet and se
 <div style="text-align:center">
 <img src="img/example_data_remove.gif" width="800px" alt="example removing cells, rows, columns and worksheets" />
 </div>
+<br/>
+
 
 ### Insert cells, rows, columns and worksheets
 To insert a new cell in a position, right-click the current cell in that position and select the option `Insert...`.  In the dialog that appears select `Shift cells right` if you want to move the cells to the right to make a gap for the new cell, or `Shift cells down` if you want to move the cells down to make a gap for the new cell. 
@@ -223,6 +239,8 @@ In the dialog that appears select `Worksheet'.
 <div style="text-align:center">
 <img src="img/example_data_insert.gif" width="800px" alt="example inserting cells, rows, columns and worksheets" />
 </div>
+<br/>
+
 
 ### Cut, copy and paste
 Like in many other Windows applications, you can use the clipboard to cut, copy and paste cells, rows, columns and ranges contents. 
@@ -236,6 +254,8 @@ To paste the content of the clipboard in a new cell, row, column or range, selec
 <div style="text-align:center">
 <img src="img/example_copy_paste.gif" width="800px" alt="example of copying and pasting cells, rows, columns, ranges and worksheets" />
 </div>
+<br/>
+
 
 
 ### Autofill 
@@ -248,6 +268,8 @@ For number or text, this actions replicates the content of the first cell in the
 <div style="text-align:center">
 <img src="img/example_autofill.gif" width="800px" alt="example of replicating and auto fill cells" />
 </div>
+<br/>
+
 
 <!--
 <div style="text-align:center">
@@ -263,6 +285,8 @@ In the quick access toolbar there are buttons `Undo` <img src="img/button_undo.p
 <div style="text-align:center">
 <img src="img/example_undo.gif" width="800px" alt="example of undo an action" />
 </div>
+<br/>
+
 
 
 ## Column and row sizing 
@@ -276,6 +300,8 @@ In a similar way, to change the height of a row click the line between the row y
 <div style="text-align:center">
 <img src="img/example_row_column_resize.gif" width="800px" alt="example of resizing rows and columns" />
 </div>
+<br/>
+
 
 <!--
 <div style="text-align:center">
@@ -310,6 +336,8 @@ To export a worksheet to csv format file, click the option `Save as` of the ribb
 <div style="text-align:center">
 <img src="img/example_export_csv.gif" width="800px" alt="example of exporting a csv format file" />
 </div>
+<br/>
+
 
 ### Import from csv format
 To import csv format file click the option `Open` of the ribbon's `File` tab. In the dialog that appears click the button to the right of the File name box and select the option `Text Files (*.prn;*.txt;*.csv)`, select the csv format file and click OK.
@@ -321,6 +349,8 @@ If you want more control in the importation process, click the `From Tex` button
 <div style="text-align:center">
 <img src="img/example_import_csv.gif" width="800px" alt="example of importing a csv format file" />
 </div>
+<br/>
+
 
 
 ## Getting help
