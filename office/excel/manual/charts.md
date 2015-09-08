@@ -298,7 +298,16 @@ Sometime is useful to plot the values for a data serie next to their bars, marke
 <br/>
 
 ### Chart styles
+Finally, the `Chart styles` panel on the ribbon's `Design` tab has many predefined chart styles that combine different colours for graphics elements and backgrounds. Apply one of those styles is as easy as select the chart an click the desired style. 
 
+Also, the `Shape styles` panel on the ribbon's `Format` tab have predefined styles for the background area and frame of the chart. 
+
+**Example**. The next animation shows how to apply some chart and shape styles to a column chart with the fruit prices evolution.
+
+<div style="text-align:center">
+<img src="img/example_chart_styles.gif" width="800px" alt="Example of applying a chart style to a chart" />
+</div>
+<br/>
 
 
 

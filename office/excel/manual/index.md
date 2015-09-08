@@ -9,7 +9,7 @@ share: true
 
 This is a basic manual of Excel, the Microsoft Office spreadsheet. The version of Excel used in this manual is Excel 2010, but some parts of this manual are also valid for other versions. 
 
-This manual is intended mainly for students of Economics and Business Administration, and for that reason, most of the examples in this manual are applied to accountant and finances. However, the manual also serves for learning a basic management of Excel, no matter the field of application.
+This manual is intended mainly for students of Economics and Business Administration, and for that reason, most of the examples in this manual are applied to accounting and finance. However, the manual also serves for learning a basic management of Excel, no matter the field of application.
 
 Table of Contents
 ====================

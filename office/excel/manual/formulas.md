@@ -130,7 +130,7 @@ The most common function is `SUM` that calculates the sum of several numbers. It
 
 
 ### SUMIF function
-The `SUMIF` function its similiar to the `SUM` but only sum numbers that satisfied a given criterion. Its syntax is `SUMIF(range,criterion,sum-range)` *range* is the cell range to check the criterion, *criterion* is the condition expression of the criterion, *sum-range* is the range with the values to sum (if this argument is not provided, the sum is calculated over the values of the *range* argument that meet the criterion).  
+The `SUMIF` function its similar to the `SUM` but only sum numbers that satisfied a given criterion. Its syntax is `SUMIF(range,criterion,sum-range)` *range* is the cell range to check the criterion, *criterion* is the condition expression of the criterion, *sum-range* is the range with the values to sum (if this argument is not provided, the sum is calculated over the values of the *range* argument that meet the criterion).  
 
 The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
 
@@ -565,8 +565,48 @@ For more sophisticated functions you can activate the Analysis ToolPak add-in, a
 -->
 
 
+## Auditing formulas
+When Excel can not perform an operation or when there is an error in a formula, it shows an error. Some common errors are
+
+- **#NAME? error**. Occurs when Excel does not recognize text in a formula. Usually happens when you misspell the name of a function.
+- **#VALUE! error**. Occurs when a formula has the wrong type of argument. Usually happens when you try to performs mathematical operations with cells that does not contain numbers.
+- **#DIV/0! error**. Occurs when a formula tries to divide a number by 0 or an empty cell.
+- **#REF! error**. Occurs when a formula refers to a cell that is not valid. Usually happens when a formula refers to a deleted cell.  
+- **#NUM! error**. Occurs when a formula or function contains invalid numeric values. For example when trying to calculate the square root of a negative number. 
+
+In complex formulas it could be difficult to detect the error. Fortunately, Excel provide some tools for tracking down errors. 
+
+### Tracing formulas 
+The simplest procedure to trace formulas is double click a cell with a formula. This will show the cells referenced by the formula marked in different colours. 
+
+Another possibility is to trace precedents or dependents references. If you select a cell with a formula and click the `Trace Precedents` button of the `Formula Auditing` panel on the ribbon's `Formulas` tab, Excel will show arrows to the cells that affect the value of the selected cell. And if click the `Trace Dependents` button of the `Formula Auditing` panel on the ribbon's `Formulas` tab, Excel will show arrows to the cells that are affected by selected cell. To remove the arrow simply click the `Remove Arrows` button of the `Formula Auditing` panel on the ribbon's `Formulas` tab.
+
+**Example** The next animation shows how to trace a formula to calculate the price of product without discount, with discount but without taxes and with discount and taxes.
+
+<div style="text-align:center">
+<img src="img/example_formula_trace.gif" width="800px" alt="example of tracing a formula" />
+</div>
+&nbsp;
+
+### Error checking
+If some formula have an error, you can check where the error come from selecting the cell with the error and clicking the `Error Checking` button <img src="img/button_error_checking.png" width="20px" alt="button error checking" /> of the `Formula Auditing` panel on the ribbon's `Formulas` tab. This will display a dialog with the formula expression, an explanation of the error and several options. If the error is in the selected cell you can click the option `Show Calculation Steps` to evaluate the formula (see the section [Formula evaluation](#formula_evaluation)). But if the error is in a cell that affects the selected cell you can click the option `Trace Error`. This will show red arrows to cells where the error come from.
+
+**Example** The next animation shows how to check an error in a formula to calculate the price of product without discount, with discount but without taxes and with discount and taxes.
+
+<div style="text-align:center">
+<img src="img/example_error_checking.gif" width="800px" alt="example of checking an error in a formula" />
+</div>
+&nbsp;
 
 
+### <a name="formula_evaluation"></a>Formula evaluation 
+In general, you can evaluate any formula, even if it has no error, selecting the cell with the formula and clicking the `Formula Evaluation` button <img src="img/button_evaluate_formula.png" width="20px" alt="button error checking" /> of the `Formula Auditing` panel on the ribbon's `Formulas` tab. This will display a dialog where you can evaluate the formula step by step.
  
+**Example** The next animation shows how to check an error in a formula to calculate the price of product without discount, with discount but without taxes and with discount and taxes.
+
+<div style="text-align:center">
+<img src="img/example_formula_evaluation.gif" width="800px" alt="example of evaluating a formula" />
+</div>
+&nbsp;
 
 

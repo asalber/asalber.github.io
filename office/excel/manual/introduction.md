@@ -342,7 +342,7 @@ To export a worksheet to csv format file, click the option `Save as` of the ribb
 ### Import from csv format
 To import csv format file click the option `Open` of the ribbon's `File` tab. In the dialog that appears click the button to the right of the File name box and select the option `Text Files (*.prn;*.txt;*.csv)`, select the csv format file and click OK.
 
-If you want more control in the importation process, click the `From Tex` button of the `Get External Data` on the ribbon's `Data` tab. In the dialog that appears select the csv format file and click the `Import` button. This brings another dialog where you can select if fields are delimited by a special character or are a fixed number of characters, the delimiter character (Tab, Semicolon, Somma, Space or other), the data format or every column (General, Text or Date). After that click the `Finish` button and in the dialog that appears select the cell where to put the imported data and click OK.      
+If you want more control in the importation process, click the `From Tex` button of the `Get External Data` on the ribbon's `Data` tab. In the dialog that appears select the csv format file and click the `Import` button. This brings another dialog where you can select if fields are delimited by a special character or are a fixed number of characters, the delimiter character (Tab, Semicolon, Comma, Space or other), the data format or every column (General, Text or Date). After that click the `Finish` button and in the dialog that appears select the cell where to put the imported data and click OK.      
 
 **Example**. The next animation shows how to import the csv format file with the students database of the previous example. 
 
