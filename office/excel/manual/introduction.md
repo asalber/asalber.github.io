@@ -148,7 +148,7 @@ This menu has different options depending on the part of the windows that is cli
 ## Workbooks, worksheets, rows, columns and cells
 An Excel file is a *workbook* with several *worksheets* that are two dimensional tables divided in *columns* and *rows*. The intersection of a column with a row is a *cell* that is where data are entered. Sheets have a maximum of 16,384 columns and 1,048,576 rows. 
 
-Each worksheet has a name and are arranged in tabs at the bottom. Columns and rows have also names; columns are named with letters at the top of the column and rows with numbers to de left of the row. This way each cell is identified by the name of the worksheet, the name of the column and the name of the row where is located, and cells names follow the pattern `name-of-worksheet ! column-name row-name`. However, to refer to any cell in the active worksheet, the worksheet name may be omitted.
+Each worksheet has a name and are arranged in tabs at the bottom. Columns and rows have also names; columns are named with letters at the top of the column and rows with numbers to the left of the row. This way each cell is identified by the name of the worksheet, the name of the column and the name of the row where is located, and cells names follow the pattern `name-of-worksheet ! column-name row-name`. However, to refer to any cell in the active worksheet, the worksheet name may be omitted.
 
 **Example**. The name of the selected cell in the next figure is `Sheet1!C4`.
 

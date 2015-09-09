@@ -23,6 +23,8 @@ A [database](https://en.wikipedia.org/wiki/Database) is an organised collection 
 | Javier     | Yagüe Pinzón    | c. Rosales, 76 8º-B       | Madrid   | 18/12/1993 |           6,1 |             82 |
 | Lucas      | Guerrero Monzón | c. Isaac Peral, 30 Bajo   | Albacete | 12/01/1995 |           5,4 |             32 |
 
+
+
 ## Database creation in Excel 
 
 Excel allows to define databases as tables where fields are defined in columns and records in rows. The first row of the table contains labels for each field. This tables are also called *data lists*. 
@@ -37,6 +39,10 @@ After that you can enter the remaining records, one by row. After entering the d
 <img src="img/example_database_creation.gif" width="800px" alt="example of database creation" />
 </div>
 &nbsp;
+
+After creating a data list Excel will give a name to it, but is advisable to give it a descriptive name (see the [Naming cells and ranges](/office/excel/manual/formulas.html#Namingcellsandranges) section). 
+
+
 
 ## Data validation 
 When entering data to a data list is important to validate data to maintain database integrity. Data validation allows to specify which type and range of data are accepted by a cell or field (column). To apply a validation rule to a field, select the field column of the data list and click `Data validation` button of the `Data tools` panel on the ribbon's `Data` tab. In the dialog that appears, select the validation criteria from the drop-down list of the `Setting`:
@@ -58,7 +64,7 @@ After selecting the validating criteria, enter the correspondent parameters (min
 &nbsp;
 
 
-## Data sorting
+## <a href="data_sorting"></a>Data sorting
 To sort the data list records on a single field, you simply click that field’s `AutoFilter` button (the button with the triangle that appears to the right of the header) and then click the appropriate sort option on its drop-down list:
 - Sort A to Z or Sort Z to A in a text field.
 - Sort Smallest to Largest or Sort Largest to Smallest in a number field.
@@ -86,8 +92,11 @@ If you need to sort a data list on more than one field, select a cell of the dat
 
 You can also sort a range of cells in general indicating the name of the columns instead of the field names. 
 
+
+
 ## Data filtering
 With huge databases it's difficult to find the desired information. To overcome this problem Excel provide several methods to filter the database. Filtering is the procedure for specifying the data that you want displayed in an Excel data list.
+
 
 ### Apply a simple filter
 The easiest way to perform this basic type of filtering on a field is to click the `AutoFilter` button (the button with the triangle that appears to the right of the header). This display a drop-down menu that contains at the end a list box with a complete listing of all entries
@@ -118,6 +127,7 @@ If the filter selected requires some parameter (date, number or text), a dialog 
 </div>
 &nbsp;
 
+
 ### Apply a complex filter 
 Simple filters are enough in most cases, but sometime you need to filter data according to more complex criteria. Fortunately Excel provides a method to perform filters based on calculated criteria with formulas. 
 
@@ -134,14 +144,39 @@ To perform a filter with calculated criteria first you have to specify the crite
 ### Clear a filter
 To clear an active filter in a data list click the `AutoFilter` button of the column with the active filter and select the option `Clear Filter`. After that Excel will show all the records hidden by the removed filter, but the rest of filters will continue active. To clear all the filters in a data list, select a cell of the data list and then click the `Clear` button of the `Sort & Filter` panel on the ribbons's `Data` tab. This will show all the records of the data list. 
 
+
+
 ## Database functions
-Excel have some predefined functions that can be applied to data list. They apply a function to records in a data list that match a criteria you specify. 
+Excel have some predefined functions that can be applied to data list. 
+
+### Totaling and subtotaling fields
+A common operation is to apply a function to a whole field in a data list as for instance the SUM function for summarizing or the AVERAGE function for averaging all the values in a column field. This could be done activating the `Total row` check box of the `Table Style Options` panel on the ribbon's `Table Options` tab. This will add a total row at the bottom of the table. Clicking any cell of this row you can choose which function to apply to the whole field.  
+
+**Example** The next animation shows how to sum the passed credits of students in a students database. It also shows how to average the average grade.
+
+<div style="text-align:center">
+<img src="img/example_field_summarizing.gif" width="800px" alt="example of applying a function to a whole field in a database" />
+</div>
+&nbsp;
+
+Excel also allows subtotaling a field by categories of other field. This procedure only works with data lists formated like tables, so if a data list have been formated like a table first it has to be converted to a range selecting any cell of the table and clicking the `Convert to Range` button of the `Tool` panel on the ribbon's `Table Tools - Design` tab. After that, you have to sort the data list by the field with the categories to summarize (see the [Data sorting](#data_sorting) section). Finally, to subtotaling a data list click the `Subtotal` button of the `Outline` panel on the ribbons' `Data` tab. This will display a dialog where you have to select the field with the categories in the `At each change in` drop-down menu, the function to apply (sum, count, average, etc.) in the `Use function` drop-down menu, check the fields to with apply the subtotaling function in the `Add subtotal to` list, and click OK.    
+
+
+**Example** The next animation shows how to subtotaling the passed credits of students in a students database by the city where they live.
+
+<div style="text-align:center">
+<img src="img/example_field_subtotaling.gif" width="800px" alt="example of subtotaling a field in a database" />
+</div>
+&nbsp;
+
+There are also functions that apply other function only to records in a data list that match a criteria you specify. 
 
 ### Define a criteria
 The criteria must be defined in a range and must include at least one header with a field name that indicates the field whose values are to be evaluated and one cell just below with the value or expression to be used in the evaluation. The expression with the condition is a text string starting with a logical comparator (`=`,`>`,`<`,`>=`,`<=`,`<>`) or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string). You can specify multiple conditions in different columns. If you want to apply the function to all the records of the data list, just leave the cell with the criteria conditions blank. 
 
+
 ### DSUM function
-The function `DSUM` sums the values in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DSUM(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
+The `DSUM` function sums the values in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DSUM(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
 
 **Example** The next animation shows how to sum the passed credits of students from Madrid born in 1994 or after with an average grade greater or equal to 6, in a students database.
 
@@ -150,8 +185,9 @@ The function `DSUM` sums the values in a numeric field (column) of records in a 
 </div>
 &nbsp;
 
+
 ### DCOUNT function
-The function `DCOUNT` counts the values in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DCOUNT(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
+The `DCOUNT` function counts the values in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DCOUNT(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
 
 **Example** The next animation shows how to count the students with an average grade greater than or equal to 6 whose name begins with L, in a students database.
 
@@ -161,10 +197,11 @@ The function `DCOUNT` counts the values in a numeric field (column) of records i
 &nbsp;
 
 ### DMIN function
-The function `DMIN` returns the minimum in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DMIN(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
+The `DMIN` function returns the minimum in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DMIN(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
+
 
 ### DMAX function
-The function `DMAX` returns the maximum in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DMAX(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
+The `DMAX` function returns the maximum in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DMAX(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
 
 **Example** The next animation shows how to calculate the minimum and the maximum average grade of students from Madrid born before 1995, in a students database.
 
@@ -173,8 +210,9 @@ The function `DMAX` returns the maximum in a numeric field (column) of records i
 </div>
 &nbsp;
 
+
 ### DAVERAGE function
-The function `DAVERAGE` averages the values in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DAVERAGE(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
+The `DAVERAGE` function averages the values in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DAVERAGE(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
 
 **Example** The next animation shows how to average the average grades of students from Madrid born in 1994 or after with an average grade greater or equal to 6, in a students database.
 
@@ -185,7 +223,7 @@ The function `DAVERAGE` averages the values in a numeric field (column) of recor
 
 
 ### DSTDEVP function
-The function `DSTDEVP` calculates the standard deviation the values in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DSTDEVP(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
+The `DSTDEVP` function calculates the standard deviation the values in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DSTDEVP(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
 
 **Example** The next animation shows how to calculate the standard deviation of average grades of students from Madrid born in Madrid before 1995, in a students database.
 
@@ -194,11 +232,30 @@ The function `DSTDEVP` calculates the standard deviation the values in a numeric
 </div>
 &nbsp;
 
+Other functions allow to search values in a list or table. 
+
+
+### VLOOKUP and HLOOKUP functions
+The `VLOOKUP` function finds things in a table or list by row. Its syntax is `VLOOKUP (value, table, col-index, [approx-match])`, where *value* is the value you want to look up, *table* is the range of the table or list in which to perform the search, *col-index* is the the column number (starting with 1 for the left-most column of *table* range) that contains the return value, and *approx-match* is an optional logical argument that specifies whether to find an approximate match (TRUE by default) or an exact match (FALSE). The function looks the *value* argument up in the first column of the *table* argument. If the *approx-match* argument is TRUE, the *table* should be ordered by the firs column (the column where to look the *value* up) and the function will return the value of the *col-index* column in the same row that the closest value to *value* in the first column of the *table* range. If *approx-match* is false, the function will search for the exact value in the firs column and it will return the value of the *col-index* column in the same row that the first matched value in the first column. If no value in the first column matches the *value* argument, the function will return a #N/A error. 
+
+**Example** The next animation shows how to look the phone up of a student in a students database.
+
+<div style="text-align:center">
+<img src="img/example_function_vlookup.gif" width="800px" alt="example of applying the vlookup to a database" />
+</div>
+&nbsp;
+
+The `HLOOKUP` function works like the VLOOKUP function but it performs a search by columns. Its syntax is `HLOOKUP (value, table, row-index, [approx-match])`, where *value* is the value you want to look up, *table* is the range of the table or list in which to perform the search, *row-index* is the the row number (starting with 1 for the top-most row of *table* range) that contains the return value, and *approx-match* is an optional logical argument that specifies whether to find an approximate match (TRUE by default) or an exact match (FALSE).
+
+
+
 ## Importing databases
 Excel offers the possibility to import data from diverse sources like csv text files, XML files, relational databases like Access or web data sources. 
 
+
 ### Importing data from csv text files
 To see how to import data from csv text file visit the section [Import from csv format](/office/excel/manual/introduction.html#Importfromcsvformat).
+
 
 ### Importing from web data sources
 There are many web pages that offers open data in a suitable format for import from Excel. To import data from a web data source click the `From Web` buttom of the `Get External Data` panel on the ribbon's `Data` tab. This opens a web browser where you must enter the URL of the page with de data source. When the browser shows the data table some yellow arrows appears that allow you to select the rows and columns of the table to import.  
@@ -209,6 +266,7 @@ There are many web pages that offers open data in a suitable format for import f
 <img src="img/example_import_web.gif" width="800px" alt="example of importing data from web data sources" />
 </div>
 &nbsp;
+
 
 ### Importing data from Qandl
 [Quandl](https://www.quandl.com/) is a finance and economic data repository with hundred of open data series. It's possible to import data from Qandl to Excel easily, but you need the Quandl add in for Excel. To install the Quandl add in for Excel follow these [instructions](https://www.quandl.com/help/excel). 

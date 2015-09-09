@@ -81,6 +81,8 @@ In that case we need to use *absolute references*, that are like relative refere
 </div>
 &nbsp;
 
+
+### Naming cells and ranges
 Cell references are somewhat abstract, and don't really communicate anything about the data they contain. This makes formulas that involve multiple references difficult to understand. To overcome this difficulty Excel allows to give name to cells or ranges. To define a cell or range name, select or cell range and click the `Define Name` button of the `Defined Names` panel in the `Formulas` tab of the ribbon. In the dialog that appears give a name to the cell and click OK. Cell or range names must begin with a letter and can't include spaces. 
 
 You can also set the name of a cell or range in the name box of the input bar. 
@@ -169,7 +171,7 @@ The expression with the condition can be a number, a cell reference, a logical e
 
 
 ### MIN function
-The `Min` function calculates the minimum value of several numbers. Its syntax is `MIN(number1,number2,...)` where *number1,number2*, etc. are numbers or cell ranges for which you want the minimum. 
+The `MIN` function calculates the minimum value of several numbers. Its syntax is `MIN(number1,number2,...)` where *number1,number2*, etc. are numbers or cell ranges for which you want the minimum. 
 
 **Example** The next animation shows how to calculate the minimum grade for every student in a course.
 
