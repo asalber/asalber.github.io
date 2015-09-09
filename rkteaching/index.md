@@ -22,7 +22,7 @@ Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por
 ### Instalación en Windows
 Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y RKTeaching.
 
-[Descarga del programa de instalación](https://dl.dropboxusercontent.com/u/22910525/RKWard.exe)
+[Descarga del programa de instalación](https://drive.google.com/file/d/0B5yGMNeKDyLdUjlZcldDaFV6R1E/view?usp=sharing)
 
 Una vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo. 
 Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:\, tras esto se creará una carpeta rkward dentro de la cual habrá un acceso directo que permitirá arrancar RKWard.
