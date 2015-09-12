@@ -79,7 +79,7 @@ Excel offers different subtypes of line charts, with or without data points in 2
 An [area chart](https://en.wikipedia.org/wiki/Area_chart) is similar to a line chart but filling the area between the line and the horizontal axis. 
 Area charts are suitable for displaying the relative importance of values over time. It'ss similar to a line chart, but because the area between lines is filled in, the area chart puts greater emphasis on the magnitude of values and less emphasis on the flow of change over time.
 
-**Example**. The next figure shows an area chart showing the evolution of accumulated fruit prices. Looking at the chart you can quickly realize that strawberries are the most expensive (
+**Example**. The next figure shows an area chart showing the evolution of accumulated fruit prices. Looking at the chart you can quickly realize that strawberries are the most expensive (the largest area) and that accumulated prices are decreasing. 
 
 ![Example pie chart comparing fruit prices.](img/example_chart_area.png "Example pie chart comparing fruit prices"){: .img-center}
 

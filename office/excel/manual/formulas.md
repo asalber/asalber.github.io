@@ -56,7 +56,7 @@ A common way of copying the formula of a cell to adjacent cells is clicking the 
 Although relative references are very helpful in many cases, sometimes we need the references in a formula to remain fixed when copied elsewhere.  
 In that case we need to use *absolute references*, that are like relative references but use the dollar symbol `$` to fix either the row, the column or both on any cell reference, by preceding the column or row with the dollar sign.
 
-**Example**. The animation below shows how to calculate the IVA of a list of prices. Cells A2 to A5 contains the prices and cell F1 contains the IVA percentage. For calculating the IVA of first price we use the formula `A2*F$4/100` where we fix the row of cell F4 because we wan it remain fixed when copying the formula down. Observe how the reference to cell F4 dosen't change when copying the formula down.   
+**Example**. The animation below shows how to calculate the IVA of a list of prices. Cells A2 to A5 contains the prices and cell F1 contains the IVA percentage. For calculating the IVA of first price we use the formula `A2*F$4/100` where we fix the row of cell F4 because we wan it remain fixed when copying the formula down. Observe how the reference to cell F4 doesn't change when copying the formula down.   
 
 ![Example of copying and pasting formulas with absolute references.](img/example_copying_formulas_with_absolute_references.gif "Example of copying and pasting formulas with absolute references"){: .img-center}
 
