@@ -2,7 +2,7 @@
 layout: book
 title: Excel Manual
 description: "Calculus with formulas"
-image: cabecera-estadistica.jpg
+image: logo_excel.jpg
 tags: [Office, Excel]
 share: true
 ---
@@ -28,58 +28,41 @@ Formula expressions can contain arithmetic operators: addition `+`, subtraction 
 
 <br/>
 
-**Example**. The next animation shows how to enter the formula 4+2 in cell A1, the formula 4-2 in cell B1, the formula 4\*2 in cell C1, the formula 4/2 in cell D1, the formula 4^2 in cell E1 and the formula ((4+1)*2)^3 in cell F1.
+**Example**. The animation below shows how to enter the formula 4+2 in cell A1, the formula 4-2 in cell B1, the formula 4\*2 in cell C1, the formula 4/2 in cell D1, the formula 4^2 in cell E1 and the formula ((4+1)*2)^3 in cell F1.
 
-<div style="text-align:center">
-<img src="img/example_enter_formulas.gif" width="800px" alt="example of enter formulas" />
-</div>
-&nbsp;
+![Example of enter formulas..](img/example_enter_formulas.gif "example of enter formulas"){: .img-center}
+
   
 
 ## Using relative and absolutes cell references in formulas
 Formula expressions can content references to cells. When Excel evaluates formulas it replace every cell reference by its content before doing the calculation.
 
-**Example**. The next animation shows how to use the formula `=A1+B1` to add uExcel has a huge library of predefined functions that performs different calculations organised by categories.p the content of cells A1 and B1 in cell C1.
+**Example**. The animation below shows how to use the formula `=A1+B1` to add uExcel has a huge library of predefined functions that performs different calculations organised by categories.p the content of cells A1 and B1 in cell C1.
 
-<div style="text-align:center">
-<img src="img/example_formulas_with_references.gif" width="800px" alt="example of formulas with cell references" />
-</div>
-&nbsp;
+![Example of formulas with cell references.](img/example_formulas_with_references.gif "example of formulas with cell references"){: .img-center}
 
 References that are formed by the name of the cell or range are known as *relative references*, because referenced cells change When you copy a cell with a formula and paste in another cell. In general, when you copy a formula $n$ columns to the right and $m$ rows down, the referenced cells in the formulas will be updated by the cells $n$ columns to the right and $m$ rows down, an the same if you copy the cell to the left or top.    
 
-**Example**. The next animation shows how to copy the formula `=A1+B1` in cell C1, with relative references to A1 and B1, to the cell E4, that is 2 columns to the right and 3 rows down. Observe how the formula in cell E4 is updated to `=C4+D4`. 
+**Example**. The animation below shows how to copy the formula `=A1+B1` in cell C1, with relative references to A1 and B1, to the cell E4, that is 2 columns to the right and 3 rows down. Observe how the formula in cell E4 is updated to `=C4+D4`. 
 
-<div style="text-align:center">
-<img src="img/example_copying_formulas_with_relative_references.gif" width="800px" alt="example of copying and pasting formulas with relative references" />
-</div>
-&nbsp;
+![Example of copying and pasting formulas with relative references.](img/example_copying_formulas_with_relative_references.gif "example of copying and pasting formulas with relative references"){: .img-center}
 
 A common way of copying the formula of a cell to adjacent cells is clicking the bottom-right corner of the cell and dragging the mouse pointer to the desired range of cells. 
 
-**Example**. The next animation shows how to generate the first ten numbers of the Fibonacci serie. Cells A1 and B1 contains the two first numbers of the serie and cell C1 the formula `=A1+B1` that add the two first numbers up and gives the third number of the serie. For generating the rest of the serie it is enough to copy the formula of cell C1 to the range D1:J1. Observe how references in formulas of these cells are updated.  
+**Example**. The animation below shows how to generate the first ten numbers of the Fibonacci serie. Cells A1 and B1 contains the two first numbers of the serie and cell C1 the formula `=A1+B1` that add the two first numbers up and gives the third number of the serie. For generating the rest of the serie it is enough to copy the formula of cell C1 to the range D1:J1. Observe how references in formulas of these cells are updated.  
 
-<div style="text-align:center">
-<img src="img/example_fibonacci_serie.gif" width="800px" alt="example of generating the Fibonacci serie copying formulas" />
-</div>
-&nbsp;
+![Example of generating the Fibonacci serie copying formulas.](img/example_fibonacci_serie.gif "example of generating the Fibonacci serie copying formulas"){: .img-center}
 
 Although relative references are very helpful in many cases, sometimes we need the references in a formula to remain fixed when copied elsewhere.  
 In that case we need to use *absolute references*, that are like relative references but use the dollar symbol `$` to fix either the row, the column or both on any cell reference, by preceding the column or row with the dollar sign.
 
-**Example**. The next animation shows how to calculate the IVA of a list of prices. Cells A2 to A5 contains the prices and cell F1 contains the IVA percentage. For calculating the IVA of first price we use the formula `A2*F$4/100` where we fix the row of cell F4 because we wan it remain fixed when copying the formula down. Observe how the reference to cell F4 dosen't change when copying the formula down.   
+**Example**. The animation below shows how to calculate the IVA of a list of prices. Cells A2 to A5 contains the prices and cell F1 contains the IVA percentage. For calculating the IVA of first price we use the formula `A2*F$4/100` where we fix the row of cell F4 because we wan it remain fixed when copying the formula down. Observe how the reference to cell F4 dosen't change when copying the formula down.   
 
-<div style="text-align:center">
-<img src="img/example_copying_formulas_with_absolute_references.gif" width="800px" alt="example of copying and pasting formulas with absolute references" />
-</div>
-&nbsp;
+![Example of copying and pasting formulas with absolute references.](img/example_copying_formulas_with_absolute_references.gif "example of copying and pasting formulas with absolute references"){: .img-center}
 
-**Example**. The next animation shows how to calculate the multiplication table using absolute references. 
+**Example**. The animation below shows how to calculate the multiplication table using absolute references. 
 
-<div style="text-align:center">
-<img src="img/example_multiplication_table.gif" width="800px" alt="example of generating the multiplication table using formulas with absolute references" />
-</div>
-&nbsp;
+![Example of generating the multiplication table using formulas with absolute references.](img/example_multiplication_table.gif "example of generating the multiplication table using formulas with absolute references"){: .img-center}
 
 
 ### Naming cells and ranges
@@ -87,19 +70,15 @@ Cell references are somewhat abstract, and don't really communicate anything abo
 
 You can also set the name of a cell or range in the name box of the input bar. 
 
-<div style="text-align:center">
-<img src="img/name_box.png" width="600px" alt="name box for giving names to cells or ranges" />
-</div>
-&nbsp;
+![Name box for giving names to cells or ranges.](img/name_box.png "name box for giving names to cells or ranges"){: .img-center}
 
 After that you can use that cell o range name in any formula. Observe that references with names are always absolutes.  
    
-**Example**. The next animation shows how to calculate the IVA of a list of prices using a cell name for the cell that contains the IVA percentage. 
+**Example**. The animation below shows how to calculate the IVA of a list of prices using a cell name for the cell that contains the IVA percentage. 
 
-<div style="text-align:center">
-<img src="img/example_formulas_with_defined_names.gif" width="800px" alt="example of copying and pasting formulas with absolute references" />
-</div>
-&nbsp;
+![Example of copying and pasting formulas with absolute references.](img/example_formulas_with_defined_names.gif "example of copying and pasting formulas with absolute references"){: .img-center}
+
+
 
 ## Basic functions
 Excel has a huge library of predefined functions that performs different calculations organised by categories. There are three ways to to enter a function in a formula expression:
@@ -107,28 +86,21 @@ Excel has a huge library of predefined functions that performs different calcula
 - Type it rawly if you know its name and syntax. 
 - Select it from the buttons of the `Functions Library` panel in the `Formulas` tab of the ribbon. 
 
-<div style="text-align:center">
-<img src="img/panel_formulas.png" width="500px" alt="formulas panel" />
-</div>
-&nbsp;
-  
-- Click the `Insert Function` button <img src="img/button_insert_function.png" width="30px" alt="insert function button" /> from the input bar. This will show you a dialog where you can type some key words for looking the desired function an select it. This dialog also shows help about the function and its syntax. 
+![formulas panel.](img/panel_formulas.png "formulas panel"){: .img-center}
 
-<div style="text-align:center">
-<img src="img/dialog_insert_function.png" width="400px" alt="insert function dialog" />
-</div>
-&nbsp;
+- Click the `Insert Function` button ![Insert function button.](img/button_insert_function.png "insert function button") from the input bar. This will show you a dialog where you can type some key words for looking the desired function an select it. This dialog also shows help about the function and its syntax. 
+
+![Insert function dialog.](img/dialog_insert_function.png "insert function dialog"){: .img-center}
+
 
 
 ### SUM function
 The most common function is `SUM` that calculates the sum of several numbers. Its syntax is `SUM(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges that you want to sum. 
 
-**Example** The next animation shows how to calculate the sum of the subject grades for every student in a course. 
+**Example** The animation below shows how to calculate the sum of the subject grades for every student in a course. 
 
-<div style="text-align:center">
-<img src="img/example_function_sum.gif" width="800px" alt="example of the sum function" />
-</div>
-&nbsp;
+![Example of the sum function.](img/example_function_sum.gif "example of the sum function"){: .img-center}
+
 
 
 ### SUMIF function
@@ -137,23 +109,19 @@ The `SUMIF` function its similar to the `SUM` but only sum numbers that satisfie
 The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
 
 
-**Example** The next animation shows how to calculate the sum of the grades greater than or equal to 5 for every student in a course.  
+**Example** The animation below shows how to calculate the sum of the grades greater than or equal to 5 for every student in a course.  
 
-<div style="text-align:center">
-<img src="img/example_function_sumif.gif" width="800px" alt="example of the sumif function" />
-</div>
-&nbsp;
+![Example of the sumif function.](img/example_function_sumif.gif "example of the sumif function"){: .img-center}
+
 
 
 ### COUNT function 
 The `COUNT` function counts the number of cells with numbers in a range.  Its syntax is `COUNT(range1,range2,...)` where *range1,range2*, etc. are the cell ranges to count. 
 
-**Example** The next animation shows how to calculate the number of subjects grades for every student in a course. 
+**Example** The animation below shows how to calculate the number of subjects grades for every student in a course. 
 
-<div style="text-align:center">
-<img src="img/example_function_count.gif" width="800px" alt="example of the count function" />
-</div>
-&nbsp;
+![Example of the count function.](img/example_function_count.gif "example of the count function"){: .img-center}
+
 
 
 ### COUNTIF function
@@ -162,34 +130,28 @@ The `COUNTIF` function its similar to the `COUNT` but only counts number of cell
 The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
 
 
-**Example** The next animation shows how to calculate the number of passed subjects (grade greater than or equal to 5).  
+**Example** The animation below shows how to calculate the number of passed subjects (grade greater than or equal to 5).  
 
-<div style="text-align:center">
-<img src="img/example_function_countif.gif" width="800px" alt="example of the countif function" />
-</div>
-&nbsp;
+![Example of the countif function.](img/example_function_countif.gif "example of the countif function"){: .img-center}
+
 
 
 ### MIN function
 The `MIN` function calculates the minimum value of several numbers. Its syntax is `MIN(number1,number2,...)` where *number1,number2*, etc. are numbers or cell ranges for which you want the minimum. 
 
-**Example** The next animation shows how to calculate the minimum grade for every student in a course.
+**Example** The animation below shows how to calculate the minimum grade for every student in a course.
 
-<div style="text-align:center">
-<img src="img/example_function_min.gif" width="800px" alt="example of the min function" />
-</div>
-&nbsp;
+![Example of the min function.](img/example_function_min.gif "example of the min function"){: .img-center}
+
 
 
 ### MAX function
 The `MAX` function calculates the maximum value of several numbers. Its syntax is `MAX(number1,number2,...)` where *number1,number2*, etc. are numbers or cell ranges for which you want the maximum. 
 
-**Example** The next animation shows how to calculate the maximum grade for every student in a course.
+**Example** The animation below shows how to calculate the maximum grade for every student in a course.
 
-<div style="text-align:center">
-<img src="img/example_function_max.gif" width="800px" alt="example of the max function" />
-</div>
-&nbsp;
+![Example of the max function.](img/example_function_max.gif "example of the max function"){: .img-center}
+
 
 
 ## Logical functions
@@ -201,12 +163,10 @@ The most important logical function is the `IF` functions, that checks whether a
 
 In the logical condition expression you use logical operators like equal `=`, not equal `<>`, greater `>`, less, `<`, greater or equal `>=`, less or equal `<=`, etc. In the true or false value you can put numbers, text with double quotes dates, cell references or other formulas. 
 
-**Example** The next animation shows how to use the IF function to decide if students pass or don't pass a course depending on whether the average grade is greater than or equal to 5.
+**Example** The animation below shows how to use the IF function to decide if students pass or don't pass a course depending on whether the average grade is greater than or equal to 5.
 
-<div style="text-align:center">
-<img src="img/example_function_if.gif" width="800px" alt="example of the if function" />
-</div>
-&nbsp;
+![Example of the if function.](img/example_function_if.gif "example of the if function"){: .img-center}
+
 
 
 ### And function
@@ -224,12 +184,10 @@ The following table, known as a *truth table*, shows the returned value by the f
 
 &nbsp;
 
-**Example**. The next animation shows how to use the AND function to see which students have passed all the subjects of a course with a grade greater than or equal to 5. Observe that conditions that involve blank cells are always false. 
+**Example**. The animation below shows how to use the AND function to see which students have passed all the subjects of a course with a grade greater than or equal to 5. Observe that conditions that involve blank cells are always false. 
 
-<div style="text-align:center">
-<img src="img/example_function_and.gif" width="800px" alt="example of the and function" />
-</div>
-&nbsp;
+![Example of the and function.](img/example_function_and.gif "example of the and function"){: .img-center}
+
 
 
 ### Or function
@@ -247,12 +205,10 @@ The following truth table shows the returned value by the function according to 
 
 &nbsp;
 
-**Example**. The next animation shows how to use the OR function to see which students have not passed some subjects of a course with a grade greater than or equal to 5.
+**Example**. The animation below shows how to use the OR function to see which students have not passed some subjects of a course with a grade greater than or equal to 5.
 
-<div style="text-align:center">
-<img src="img/example_function_or.gif" width="800px" alt="example of the and function" />
-</div>
-&nbsp;
+![Example of the and function.](img/example_function_or.gif "example of the and function"){: .img-center}
+
 
 
 ### Not function
@@ -279,32 +235,26 @@ Excel convert automatically any entry with with a date or time formats into a se
 To calculate the time elapsed between two dates or times, just enter a formula that subtracts the earlier date or time from the later date or time.
 In the case of dates, Excel will return the number of days between these dates. If you want to express it in year units, just divide the number of days by 365.25. In the case of times, Excel will return the number of hours between these times. If you want to express it in days unit, just change the cell format to General. 
 
-**Example**. The next animation shows how to calculate the time elapsed between two dates and two times.
+**Example**. The animation below shows how to calculate the time elapsed between two dates and two times.
 
-<div style="text-align:center">
-<img src="img/example_time_elapsed.gif" width="800px" alt="example of time elapsed calculation" />
-</div>
-&nbsp;
+![Example of time elapsed calculation.](img/example_time_elapsed.gif "example of time elapsed calculation"){: .img-center}
+
 
 ### TODAY function
 The function `TODAY` returns the system date (usually the current date). Its syntax is `TODAY()` and this functions doesn't have arguments. 
 
-**Example**. The next animation shows how to calculate current age of a person using the TODAY function.
+**Example**. The animation below shows how to calculate current age of a person using the TODAY function.
 
-<div style="text-align:center">
-<img src="img/example_function_today.gif" width="800px" alt="example of age calculation with the TODAY function" />
-</div>
-&nbsp;
+![Example of age calculation with the TODAY function.](img/example_function_today.gif "example of age calculation with the TODAY function"){: .img-center}
+
 
 ### DATE function 
 The function `DATE` returns a date serial number for the date specified by the year, month, and day argument. Its syntax is `DATE(year,month,day)`, where *year* is the year, *month* is the month (in number) and *day* is the day.
 
-**Example**. The next animation shows how to calculate the date given the year, moth and day.
+**Example**. The animation below shows how to calculate the date given the year, moth and day.
 
-<div style="text-align:center">
-<img src="img/example_function_date.gif" width="800px" alt="example of calculating the date given the year, month and day" />
-</div>
-&nbsp;
+![Example of calculating the date given the year, month and day.](img/example_function_date.gif "example of calculating the date given the year, month and day"){: .img-center}
+
 
 ### DAY, WEEKDAY, MONTH and YEAR functions
 The `DAY` function returns the day of the month of a date. Its' syntax is `DAY(date)`, where *date* is the serial number of the date. 
@@ -315,34 +265,28 @@ The `MONTH` function returns the number of the month of a date. Its' syntax is `
 
 The `YEAR` function returns the year of a date. Its' syntax is `YEAR(date)`, where *date* is the serial number of the date. 
 
-**Example**. The next animation shows how to calculate the day, week day, month and year of a date. 
+**Example**. The animation below shows how to calculate the day, week day, month and year of a date. 
 
-<div style="text-align:center">
-<img src="img/example_function_day.gif" width="800px" alt="example of calculating the day, week day, month and year of a date" />
-</div>
-&nbsp;
+![Example of calculating the day, week day, month and year of a date.](img/example_function_day.gif "example of calculating the day, week day, month and year of a date"){: .img-center}
+
 
 
 ### NOW function
 The function `NOW` returns the system time (usually the current time). Its syntax is `NOW()` and this functions doesn't have arguments. 
 
-**Example**. The next animation shows how to calculate current age of a person using the TODAY function.
+**Example**. The animation below shows how to calculate current age of a person using the TODAY function.
 
-<div style="text-align:center">
-<img src="img/example_function_now.gif" width="800px" alt="example of seconds elapsed calculation with the now function" />
-</div>
-&nbsp;
+![Example of seconds elapsed calculation with the now function.](img/example_function_now.gif "example of seconds elapsed calculation with the now function"){: .img-center}
+
 
 
 ### TIME function 
 The function `TIME` returns a time serial number for the time specified by the hours, minutes and seconds argument. Its syntax is `TIME(hours,minutes,seconds)`, where *year* is the year, *month* is the month (in number) and *day* is the day.
 
-**Example**. The next animation shows how to calculate the date given the year, moth and day.
+**Example**. The animation below shows how to calculate the date given the year, moth and day.
 
-<div style="text-align:center">
-<img src="img/example_function_time.gif" width="800px" alt="example of calculating the date given the year, month and day" />
-</div>
-&nbsp;
+![Example of calculating the date given the year, month and day.](img/example_function_time.gif "example of calculating the date given the year, month and day"){: .img-center}
+
 
 
 ### HOUR, MINUTE and SECOND functions
@@ -352,12 +296,10 @@ The `MINUTE` function returns the minute of a time. Its' syntax is `MINUTE(time)
 
 The `SECOND` function returns the hour of a time. Its' syntax is `SECOND(time)`, where *time* is the serial number of the time. 
 
-**Example**. The next animation shows how to calculate the hour, minute and second of a time. 
+**Example**. The animation below shows how to calculate the hour, minute and second of a time. 
 
-<div style="text-align:center">
-<img src="img/example_function_hour.gif" width="800px" alt="example of calculating the day, week day, month and year of a date" />
-</div>
-&nbsp;
+![Example of calculating the day, week day, month and year of a date.](img/example_function_hour.gif "example of calculating the day, week day, month and year of a date"){: .img-center}
+
 
 
 ## Database functions
@@ -371,23 +313,19 @@ Some common mathematical functions included in the function library are exponent
 ### SQRT function
 The `SQRT` function calculates the root square of a number. Its syntax is `SQRT(number)` where *number* is a number or a cell reference for which you want the square root. 
 
-**Example** The next animation shows how to calculate the square root of grades in a course.
+**Example** The animation below shows how to calculate the square root of grades in a course.
 
-<div style="text-align:center">
-<img src="img/example_function_sqrt.gif" width="800px" alt="example of the sqrt function" />
-</div>
-&nbsp;
+![Example of the sqrt function.](img/example_function_sqrt.gif "example of the sqrt function"){: .img-center}
+
 
 
 ### EXP function
 The `EXP` function calculates the exponential of a number. Its syntax is `EXP(number)` where *number* is a number or a cell reference for which you want the exponential. 
 
-**Example** The next animation shows how to calculate the exponential of grades in a course.
+**Example** The animation below shows how to calculate the exponential of grades in a course.
 
-<div style="text-align:center">
-<img src="img/example_function_exp.gif" width="800px" alt="example of the exp function" />
-</div>
-&nbsp;
+![Example of the exp function.](img/example_function_exp.gif "example of the exp function"){: .img-center}
+
 
 
 ### LN and LOG functions
@@ -395,12 +333,10 @@ The `LN` function calculates the natural logarithm of a number (that is with bas
 
 The `LOG` function calculates the logarithm of a number in a given base. Its syntax is `LOG(number,[base])` where *number* is a number or a cell reference for which you want the logarithm and *base* is the base of the logarithm (if this argument is omitted, then base 10 is taken). 
 
-**Example** The next animation shows how to calculate the natural logarithm and the base 10 logarithm of grades in a course.
+**Example** The animation below shows how to calculate the natural logarithm and the base 10 logarithm of grades in a course.
 
-<div style="text-align:center">
-<img src="img/example_function_ln.gif" width="800px" alt="example of the ln function" />
-</div>
-&nbsp;
+![Example of the ln function.](img/example_function_ln.gif "example of the ln function"){: .img-center}
+
 
 
 ### PI function
@@ -416,23 +352,19 @@ The `TAN` function calculates the tangent of an angle in radians. Its syntax is 
 
 If angles are in degrees, they have to be converted to radians before with the function `RADIANS(degrees)` where *degrees* is a number or a cell reference with the degrees that you want to convert to radians. 
 
-**Example** The next animation shows how to calculate the sine, cosine and tangent of several angles. Observe that the sine of an angle o 180 degrees is not exactly 0 because the RADIANS function does not calculate the radians corresponding to a number of degrees with total accuracy. 
+**Example** The animation below shows how to calculate the sine, cosine and tangent of several angles. Observe that the sine of an angle o 180 degrees is not exactly 0 because the RADIANS function does not calculate the radians corresponding to a number of degrees with total accuracy. 
 
-<div style="text-align:center">
-<img src="img/example_function_sin_cos_tan.gif" width="800px" alt="example of the sin, cos and tan function" />
-</div>
-&nbsp;
+![Example of the sin, cos and tan function.](img/example_function_sin_cos_tan.gif "example of the sin, cos and tan function"){: .img-center}
+
 
 
 ### ROUND function
 The `ROUND` function rounds a number to a specified number of digits. Its syntax is `ROUND(number,digits)` where *number* is a number or a cell reference that you want to round and *digits* is the number of digits to which you want to round the number. 
 
-**Example** The next animation shows how to round the grades in a course.
+**Example** The animation below shows how to round the grades in a course.
 
-<div style="text-align:center">
-<img src="img/example_function_round.gif" width="800px" alt="example of the round function" />
-</div>
-&nbsp;
+![Example of the round function.](img/example_function_round.gif "example of the round function"){: .img-center}
+
 
 
 ### ABS function
@@ -447,12 +379,10 @@ For an introductory text to Statistics visit the [Statistic manual](/estadistica
 ### AVERAGE function
 The `AVERAGE` function calculates the arithmetic mean of several numbers. Its syntax is `AVERAGE(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the average. 
 
-**Example** The next animation shows how to calculate the average grade for every student in a course. Observe that the average grade is well calculated even when there are blank cells in the range.  
+**Example** The animation below shows how to calculate the average grade for every student in a course. Observe that the average grade is well calculated even when there are blank cells in the range.  
 
-<div style="text-align:center">
-<img src="img/example_function_average.gif" width="800px" alt="example of the average function" />
-</div>
-&nbsp;
+![Example of the average function.](img/example_function_average.gif "example of the average function"){: .img-center}
+
 
 
 ### AVERAGEIF function
@@ -460,67 +390,55 @@ The `AVERAGEIF` function calculates the arithmetic mean of numbers in a cell ran
 
 The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
 
-**Example** The next animation shows how to calculate the average grade of students with a grade greater than or equal to 5 for every subject in a course. 
+**Example** The animation below shows how to calculate the average grade of students with a grade greater than or equal to 5 for every subject in a course. 
 
-<div style="text-align:center">
-<img src="img/example_function_averageif.gif" width="800px" alt="example of the averageif function" />
-</div>
-&nbsp;
+![Example of the averageif function.](img/example_function_averageif.gif "example of the averageif function"){: .img-center}
+
 
 
 ### MEDIAN function
 The `MEDIAN` function calculates the median of several numbers. Its syntax is `MEDIAN(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the median. 
 
-**Example** The next animation shows how to calculate the median grade for every student in a course. Observe that the median grade is well calculated even when there are blank cells in the range.  
+**Example** The animation below shows how to calculate the median grade for every student in a course. Observe that the median grade is well calculated even when there are blank cells in the range.  
 
-<div style="text-align:center">
-<img src="img/example_function_median.gif" width="800px" alt="example of the median function" />
-</div>
-&nbsp;
+![Example of the median function.](img/example_function_median.gif "example of the median function"){: .img-center}
+
 
 
 ### MODE function
 The `MODE` function calculates the mode of several numbers. Its syntax is `MODE(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the mode. 
 
-**Example** The next animation shows how to calculate the mode grade for every student in a course. Observe that the mode grade is not calculated when there are not repetitions of values. 
+**Example** The animation below shows how to calculate the mode grade for every student in a course. Observe that the mode grade is not calculated when there are not repetitions of values. 
 
-<div style="text-align:center">
-<img src="img/example_function_mode.gif" width="800px" alt="example of the median function" />
-</div>
-&nbsp;
+![Example of the median function.](img/example_function_mode.gif "example of the median function"){: .img-center}
+
 
 
 ### PERCENTILE.EXC function
 The `PERCENTILE.EXC` function calculates the k-th percentile of numbers in a cell range. Its syntax is `PERCENTILE.EXC(range,k)` where *range* is the cell range with the values for which you want the percentile, and *k* is the relative frequency (between 0 and 1) of the percentile. 
 
-**Example** The next animation shows how to calculate the quartiles (percentiles 25, 50 and 75) of grades for every student in a course. Observe that if we use a cell reference for the *k* argument, putting a relative frequency in that cell (0.25 for first quartile, 0.5 for second quartile and 0.75 for third quartile) we get the correspondent percentile.   
+**Example** The animation below shows how to calculate the quartiles (percentiles 25, 50 and 75) of grades for every student in a course. Observe that if we use a cell reference for the *k* argument, putting a relative frequency in that cell (0.25 for first quartile, 0.5 for second quartile and 0.75 for third quartile) we get the correspondent percentile.   
 
-<div style="text-align:center">
-<img src="img/example_function_percentile.gif" width="800px" alt="example of the percentile function" />
-</div>
-&nbsp;
+![Example of the percentile function.](img/example_function_percentile.gif "example of the percentile function"){: .img-center}
+
 
 
 ### VAR.P function
 The `VAR.P` function calculates the variance of several numbers. Its syntax is `VAR.P(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the variance. 
 
-**Example** The next animation shows how to calculate the variance of grades for every student in a course. Observe that the variance is well calculated even when there are blank cells in the range.  
+**Example** The animation below shows how to calculate the variance of grades for every student in a course. Observe that the variance is well calculated even when there are blank cells in the range.  
 
-<div style="text-align:center">
-<img src="img/example_function_varp.gif" width="800px" alt="example of the variance function" />
-</div>
-&nbsp;
+![Example of the variance function.](img/example_function_varp.gif "example of the variance function"){: .img-center}
+
 
 
 ### STDEV.P function
 The `STDEV.P` function calculates the standard deviation of several numbers. Its syntax is `STDEV.P(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges for which you want the standard deviation. 
 
-**Example** The next animation shows how to calculate the standard deviation of grades for every student in a course. Observe that you can also calculate the standard deviation applying the square root to the variance. 
+**Example** The animation below shows how to calculate the standard deviation of grades for every student in a course. Observe that you can also calculate the standard deviation applying the square root to the variance. 
 
-<div style="text-align:center">
-<img src="img/example_function_stdevp.gif" width="800px" alt="example of the standard deviation function" />
-</div>
-&nbsp;
+![Example of the standard deviation function.](img/example_function_stdevp.gif "example of the standard deviation function"){: .img-center}
+
 
 
 ### SKEW function
@@ -530,12 +448,10 @@ $$g_1=\frac{n}{(n-1)(n-2)}\sum \left(\frac{x_i-\bar x}{s}\right)^3,$$
 
 where $\bar x$ is the mean and $s$ is the standard deviation. 
 
-**Example** The next animation shows how to calculate the skewness coefficient of grades for every subject in a course.
+**Example** The animation below shows how to calculate the skewness coefficient of grades for every subject in a course.
 
-<div style="text-align:center">
-<img src="img/example_function_skew.gif" width="800px" alt="example of the skew function" />
-</div>
-&nbsp;
+![Example of the skew function.](img/example_function_skew.gif "example of the skew function"){: .img-center}
+
 
 
 ### KURT function
@@ -545,12 +461,10 @@ $$g_1=\frac{n(n+1)}{(n-1)(n-2)(n-3)}\sum \left(\frac{x_i-\bar x}{s}\right)^4 - \
 
 where $\bar x$ is the mean and $s$ is the standard deviation. 
 
-**Example** The next animation shows how to calculate the kurtosis coefficient of grades for every subject in a course.
+**Example** The animation below shows how to calculate the kurtosis coefficient of grades for every subject in a course.
 
-<div style="text-align:center">
-<img src="img/example_function_kurt.gif" width="800px" alt="example of the kurt function" />
-</div>
-&nbsp;
+![Example of the kurt function.](img/example_function_kurt.gif "example of the kurt function"){: .img-center}
+
 
 
 <!--
@@ -583,32 +497,26 @@ The simplest procedure to trace formulas is double click a cell with a formula. 
 
 Another possibility is to trace precedents or dependents references. If you select a cell with a formula and click the `Trace Precedents` button of the `Formula Auditing` panel on the ribbon's `Formulas` tab, Excel will show arrows to the cells that affect the value of the selected cell. And if click the `Trace Dependents` button of the `Formula Auditing` panel on the ribbon's `Formulas` tab, Excel will show arrows to the cells that are affected by selected cell. To remove the arrow simply click the `Remove Arrows` button of the `Formula Auditing` panel on the ribbon's `Formulas` tab.
 
-**Example** The next animation shows how to trace a formula to calculate the price of product without discount, with discount but without taxes and with discount and taxes.
+**Example** The animation below shows how to trace a formula to calculate the price of product without discount, with discount but without taxes and with discount and taxes.
 
-<div style="text-align:center">
-<img src="img/example_formula_trace.gif" width="800px" alt="example of tracing a formula" />
-</div>
-&nbsp;
+![Example of tracing a formula.](img/example_formula_trace.gif "example of tracing a formula"){: .img-center}
+
 
 ### Error checking
-If some formula have an error, you can check where the error come from selecting the cell with the error and clicking the `Error Checking` button <img src="img/button_error_checking.png" width="20px" alt="button error checking" /> of the `Formula Auditing` panel on the ribbon's `Formulas` tab. This will display a dialog with the formula expression, an explanation of the error and several options. If the error is in the selected cell you can click the option `Show Calculation Steps` to evaluate the formula (see the section [Formula evaluation](#formula_evaluation)). But if the error is in a cell that affects the selected cell you can click the option `Trace Error`. This will show red arrows to cells where the error come from.
+If some formula have an error, you can check where the error come from selecting the cell with the error and clicking the `Error Checking` button ![Error checking button.](img/button_error_checking.png "Error checking button"){: .img-center} of the `Formula Auditing` panel on the ribbon's `Formulas` tab. This will display a dialog with the formula expression, an explanation of the error and several options. If the error is in the selected cell you can click the option `Show Calculation Steps` to evaluate the formula (see the section [Formula evaluation](#formula_evaluation)). But if the error is in a cell that affects the selected cell you can click the option `Trace Error`. This will show red arrows to cells where the error come from.
 
-**Example** The next animation shows how to check an error in a formula to calculate the price of product without discount, with discount but without taxes and with discount and taxes.
+**Example** The animation below shows how to check an error in a formula to calculate the price of product without discount, with discount but without taxes and with discount and taxes.
 
-<div style="text-align:center">
-<img src="img/example_error_checking.gif" width="800px" alt="example of checking an error in a formula" />
-</div>
-&nbsp;
+![Example of checking an error in a formula.](img/example_error_checking.gif "example of checking an error in a formula"){: .img-center}
+
 
 
 ### <a name="formula_evaluation"></a>Formula evaluation 
-In general, you can evaluate any formula, even if it has no error, selecting the cell with the formula and clicking the `Formula Evaluation` button <img src="img/button_evaluate_formula.png" width="20px" alt="button error checking" /> of the `Formula Auditing` panel on the ribbon's `Formulas` tab. This will display a dialog where you can evaluate the formula step by step.
+In general, you can evaluate any formula, even if it has no error, selecting the cell with the formula and clicking the `Formula Evaluation` button ![Evaluate formula button.](img/button_evaluate_formula.png "Evaluate formula button"){: .img-center} of the `Formula Auditing` panel on the ribbon's `Formulas` tab. This will display a dialog where you can evaluate the formula step by step.
  
-**Example** The next animation shows how to check an error in a formula to calculate the price of product without discount, with discount but without taxes and with discount and taxes.
+**Example** The animation below shows how to check an error in a formula to calculate the price of product without discount, with discount but without taxes and with discount and taxes.
 
-<div style="text-align:center">
-<img src="img/example_formula_evaluation.gif" width="800px" alt="example of evaluating a formula" />
-</div>
-&nbsp;
+![Example of evaluating a formula.](img/example_formula_evaluation.gif "example of evaluating a formula"){: .img-center}
+
 
 

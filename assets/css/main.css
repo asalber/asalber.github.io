@@ -4375,3 +4375,5 @@ body {
   color: #222222;
   background-color: #ffffff;
 }
+
+img[alt=center] { float: right; }

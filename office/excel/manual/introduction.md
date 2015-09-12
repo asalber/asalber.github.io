@@ -2,24 +2,29 @@
 layout: book
 title: Excel Manual
 description: "Introduction to Excel "
-image: cabecera-estadistica.jpg
+image: logo_excel.jpg
 tags: [Office, Excel]
 share: true
 ---
 
-Excel is a spreadsheet application that is part of Microsoft Office suite.
+Excel is a spreadsheet application that is part of the Microsoft Office suite.
+
+![Excel 2010 splash windows.](img/excel_splash.png "Excel 2010 splash windows"){: .img-center}
+
+
 
 ## What is a spreadsheet?
-A spreadsheet is a program that allows to enter data and make calculations with them in a grid layout. 
+A [spreadsheet](https://en.wikipedia.org/wiki/Spreadsheet) is a program that allows to enter data and make calculations with them in a grid layout.
+
+There are a lot of programs for managing spreadsheets but the most famous are [Excel](https://products.office.com/en/excel), in the Microsoft Office suite, and [Calc](https://www.libreoffice.org/discover/calc), in the LibreOffice suite. Although Calc is opensource, with all the advantages associated therewith, Excel is by far the most widespread and mature spreadsheet, thus this manual covers Excel 2010. However, some of the procedures and methods explained in this manual are also valid for Calc.
+
 
 
 ## Excel 2010 main window
-The next picture shows a screenshot of the Excel 2010 main window where the different parts of the window have been highlighted.
- 
-<div style="text-align:center">
-<img src="img/excel_2010_screenshot.png" width="800px" alt="Excel 2010 screenshot" />
-</div>
-<br/>
+The figure below shows a screenshot of the Excel 2010 main window where the different parts of the window have been highlighted.
+
+![Excel 2010 screenshot.](img/excel_2010_screenshot.png "Excel 2010 screenshoot"){: .img-center}
+
 
 
 ## Excel 2010 ribbon
@@ -28,121 +33,78 @@ The top ribbon of Excel 2010 contains a lot of buttons that performs different a
 
 **File** – Performs file management tasks (new file, open file, save file, print file, etc.). It also contains general configuration options and help. 
 
-<div style="text-align:center">
-<img src="img/excel_2010_file_ribbon.png" width="600px" alt="Excel 2010 file ribbon" />
-</div>
-<br/>
+![Excel 2010 file ribbon.](img/excel_2010_file_ribbon.png "Excel 2010 file ribbon"){: .img-center}
 
 **Home** – Common tools (clipboard, fonts, alignment, numbers format, insert rows and columns, etc.)
 
-<div style="text-align:center">
-<img src="img/excel_2010_home_ribbon.png" width="800px" alt="Excel 2010 home ribbon" />
-</div>
-<br/>
+![Excel 2010 home ribbon.](img/excel_2010_home_ribbon.png "Excel 2010 home ribbon"){: .img-center}
 
 **Insert** – Insert objects in the sheet (tables, illustrations, charts, hyperlinks, text, equations, etc.) 
 
-<div style="text-align:center">
-<img src="img/excel_2010_insert_ribbon.png" width="800px" alt="Excel 2010 insert ribbon" />
-</div>
-<br/>
+![Excel 2010 insert ribbon.](img/excel_2010_insert_ribbon.png "Excel 2010 insert ribbon"){: .img-center}
 
 **Page Layout** – Configure the printing (page setup, scale, themes, etc. )
 
-<div style="text-align:center">
-<img src="img/excel_2010_page_layout_ribbon.png" width="800px" alt="Excel 2010 page layout ribbon" />
-</div>
-<br/>
+![Excel 2010 page layout ribbon.](img/excel_2010_page_layout_ribbon.png "Excel 2010 page layout ribbon"){: .img-center}
 
 **Formulas** – Functions arranged in categories and formula auditing. 
 
-<div style="text-align:center">
-<img src="img/excel_2010_formulas_ribbon.png" width="800px" alt="Excel 2010 formulas ribbon" />
-</div>
-<br/>
+![Excel 2010 formulas ribbon.](img/excel_2010_formulas_ribbon.png "Excel 2010 formulas ribbon"){: .img-center}
 
 **Data** – Working with databases (import data, connection with databases, sort and filter data, data validation, etc.)
 
-<div style="text-align:center">
-<img src="img/excel_2010_data_ribbon.png" width="800px" alt="Excel 2010 data ribbon" />
-</div>
-<br/>
+![Excel 2010 data ribbon.](img/excel_2010_data_ribbon.png "Excel 2010 data ribbon"){: .img-center}
 
 **Review** – Spelling, commenting, protecting and sharing sheets. 
 
-<div style="text-align:center">
-<img src="img/excel_2010_review_ribbon.png" width="800px" alt="Excel 2010 review ribbon" />
-</div>
-<br/>
+![Excel 2010 review ribbon.](img/excel_2010_review_ribbon.png "Excel 2010 review ribbon"){: .img-center}
 
 **View** – How Excel appears on screen (custom windows, grids lines, zoom, windows, etc. Does not affect printing).
 
-<div style="text-align:center">
-<img src="img/excel_2010_view_ribbon.png" width="800px" alt="Excel 2010 view ribbon" />
-</div>
-<br/>
+![Excel 2010 view ribbon.](img/excel_2010_view_ribbon.png "Excel 2010 view ribbon"){: .img-center}
+
 
 ### Contextual tabs 
 These tabs only appears in some contexts, as for example, when creating a chart or a picture. 
 
 **Chart design** Allows to select the type of chart. 
 
-<div style="text-align:center">
-<img src="img/excel_2010_design_chart_ribbon.png" width="800px" alt="Excel 2010 chart design ribbon" />
-</div> 
-<br/>
+![Excel 2010 chart design ribbon.](img/excel_2010_design_chart_ribbon.png "Excel 2010 chart design ribbon"){: .img-center}
 
 **Chart layout** Allows to insert and configure some parts of charts (title, axis, leyend, gridlines, etc.) 
 
-<div style="text-align:center">
-<img src="img/excel_2010_layout_chart_ribbon.png" width="800px" alt="Excel 2010 chart layout ribbon" />
-</div>
-<br/>
+![Excel 2010 chart layout ribbon.](img/excel_2010_layout_chart_ribbon.png "Excel 2010 chart layout ribbon"){: .img-center}
 
 **Chart format** Allows to change the aspect of charts (height, width, font, colors, background, etc.)
 
-<div style="text-align:center">
-<img src="img/excel_2010_format_chart_ribbon.png" width="800px" alt="Excel 2010 chart format ribbon" />
-</div>
-<br/>
+![Excel 2010 chart format ribbon.](img/excel_2010_format_chart_ribbon.png "Excel 2010 chart format ribbon"){: .img-center}
 
 **Picture** Allows to modify images (borders, rotation, crop, color, filters, special effects, etc.)
 
-<div style="text-align:center">
-<img src="img/excel_2010_picture_ribbon.png" width="800px" alt="Excel 2010 picture ribbon" />
-</div>
-<br/>
+![Excel 2010 picture ribbon.](img/excel_2010_picture_ribbon.png "Excel 2010 picture ribbon"){: .img-center}
 
 In addition to these tabs, users can create their own tabs and customise them with buttons as their convenience.  
 
 There exists also a quick access toolbar just above the ribbon that can be customised with the most common buttons. 
 
-<div style="text-align:center">
-<img src="img/quick_access_toolbar.png" width="300px" alt="Excel 2010 picture ribbon" />
-</div>
+![Excel 2010 picture ribbon.](img/quick_access_toolbar.png "Excel 2010 picture ribbon"){: .img-center}
 
 
 ### Access dialogs
 When you click the right bottom corner of any panel, the corresponding dialog is show where all the related options are available. 
 
-**Example**. The next figure shows the font dialog with all the options related to fonts (font family, font style, font size, etc.)  
+**Example**. The figure below shows the font dialog with all the options related to fonts (font family, font style, font size, etc.)  
 
-<div style="text-align:center">
-<img src="img/access_font_dialog.png" width="600px" alt="font dialog" />
-</div>
-<br/>
+![Font dialog.](img/access_font_dialog.png "Font dialog"){: .img-center}
 
 
 ### Contextual menu
 Clicking the right button of the mouse (right-clicking) a contextual menu is showed with some buttons or options to perform actions in that context. 
 This menu has different options depending on the part of the windows that is clicked. 
 
-**Example**. The next figure shows the contextual menu showed right-clicking any cell.
+**Example**. The figure below shows the contextual menu showed right-clicking any cell.
 
-<div style="text-align:center">
-<img src="img/contextual_menu.png" width="200px" alt="cells contextual menu" />
-</div>
-<br/>
+![Cells contextual menu.](img/contextual_menu.png "Cells contextual menu"){: .img-center}
 
 
 ## Workbooks, worksheets, rows, columns and cells
@@ -150,12 +112,9 @@ An Excel file is a *workbook* with several *worksheets* that are two dimensional
 
 Each worksheet has a name and are arranged in tabs at the bottom. Columns and rows have also names; columns are named with letters at the top of the column and rows with numbers to the left of the row. This way each cell is identified by the name of the worksheet, the name of the column and the name of the row where is located, and cells names follow the pattern `name-of-worksheet ! column-name row-name`. However, to refer to any cell in the active worksheet, the worksheet name may be omitted.
 
-**Example**. The name of the selected cell in the next figure is `Sheet1!C4`.
+**Example**. The name of the selected cell in the figure below is `Sheet1!C4`.
 
-<div style="text-align:center">
-<img src="img/sheet_column_row_cell.png" width="700px" alt="cells, rows, columns and worksheets in Excel" />
-</div>
-<br/>
+![Cells, rows, columns and worksheets in Excel.](img/sheet_column_row_cell.png "Cells, rows, columns and worksheets in Excel"){: .img-center}
 
 
 The names of rows and columns can not be changed, but worksheet names can be changed double-clicking it and typing the new name. 
@@ -163,13 +122,9 @@ The names of rows and columns can not be changed, but worksheet names can be cha
 ### Ranges of cells 
 A range of cells is a rectangular block of adjacent cells that is identified by top-left cell and the bottom-right cell separated by a colon, following the pattern `top-left-cell-name:bottom-right-cell-name`.
 
-**Example**. In the next figure the range B3:E5 is selected. 
+**Example**. In the figure below the range B3:E5 is selected. 
 
-<div style="text-align:center">
-<img src="img/cells_range.png" width="400px" alt="range of cells" />
-</div>
-<br/>
-
+![Range of cells.](img/cells_range.png "Range of cells"){: .img-center}
 
 
 ### Selecting cells, rows, columns, ranges and worksheets
@@ -179,12 +134,9 @@ To select a column click the header of the column or press the keys `Ctrl+Spaceb
 To select a range click one corner cell and drag the mouse pointer over the desired cells. 
 To select the whole worksheet click the top-left corner of the worksheet o press the keys `Ctrl+A`.  
 
-**Example**. The next animation shows how to select the cell C3, after the row 3, after the column C, after range B3:D7 and finally the whole worksheet. 
+**Example**. The animation below shows how to select the cell C3, after the row 3, after the column C, after range B3:D7 and finally the whole worksheet. 
 
-<div style="text-align:center">
-<img src="img/example_cells_selection.gif" width="800px" alt="example of selecting cells, rows, columns, ranges and worksheets" />
-</div>
-<br/>
+![Example of selecting cells, rows, columns, ranges and worksheets.](img/example_cells_selection.gif "Example of selecting cells, rows, columns, ranges and worksheets"){: .img-center}
 
 
 
@@ -193,13 +145,9 @@ To select the whole worksheet click the top-left corner of the worksheet o press
 ### Insert data
 Data are entered into the cells activating the cell (clicking it) and typing directly in the cell or in the input bar.
 
-**Example**. The next animation shows how to enter the text 'Excel' in cell B2 and the number 2010 in cell C2, and after change the number of cell C2 to 2013.
+**Example**. The animation below shows how to enter the text 'Excel' in cell B2 and the number 2010 in cell C2, and after change the number of cell C2 to 2013.
 
-<div style="text-align:center">
-<img src="img/example_enter_data.gif" width="800px" alt="example entering data" />
-</div>
-<br/>
-
+![Example entering data.](img/example_enter_data.gif "Example entering data"){: .img-center}
 
 Excel has a smart autocomplete feature that proposes completing the data that is typed with some predictions.
 
@@ -216,12 +164,9 @@ To remove a whole column, right-click the header of the column and select the op
 To remove a worksheet, right-click the tab with the name of the worksheet and select the option `Delete...`. 
 *Warning: Removing worksheets can not be undone!*
 
-**Example**. The next animation shows how to remove a cell, a row, a column and a worksheet. 
+**Example**. The animation below shows how to remove a cell, a row, a column and a worksheet. 
 
-<div style="text-align:center">
-<img src="img/example_data_remove.gif" width="800px" alt="example removing cells, rows, columns and worksheets" />
-</div>
-<br/>
+![Example removing cells, rows, columns and worksheets.](img/example_data_remove.gif "Example removing cells, rows, columns and worksheets"){: .img-center}
 
 
 ### Insert cells, rows, columns and worksheets
@@ -234,12 +179,9 @@ To insert a new column, right-click the header of the column to the left of whic
 To insert a new worksheet, right-click the tab with the name of the worksheet to the left of which you want to insert the new worksheet and select `Insert`.
 In the dialog that appears select `Worksheet'.
 
-**Example**. The next animation shows how to insert a cell, a row, a column and a worksheet. 
+**Example**. The animation below shows how to insert a cell, a row, a column and a worksheet. 
 
-<div style="text-align:center">
-<img src="img/example_data_insert.gif" width="800px" alt="example inserting cells, rows, columns and worksheets" />
-</div>
-<br/>
+![Example inserting cells, rows, columns and worksheets.](img/example_data_insert.gif "Example inserting cells, rows, columns and worksheets"){: .img-center}
 
 
 ### Cut, copy and paste
@@ -249,13 +191,9 @@ To cut or copy a cell, row, column or range, right-click it and select the optio
 
 To paste the content of the clipboard in a new cell, row, column or range, select the cell or the first cell of the row, column or range and click the button `Paste` or press the keys `Ctrl+v`.
 
-**Example**. The next animation shows how to copy and paste the content of a cell, a row, a column and a range and a worksheet. 
+**Example**. The animation below shows how to copy and paste the content of a cell, a row, a column and a range and a worksheet. 
 
-<div style="text-align:center">
-<img src="img/example_copy_paste.gif" width="800px" alt="example of copying and pasting cells, rows, columns, ranges and worksheets" />
-</div>
-<br/>
-
+![Example of copying and pasting cells, rows, columns, ranges and worksheets.](img/example_copy_paste.gif "Example of copying and pasting cells, rows, columns, ranges and worksheets"){: .img-center}
 
 
 ### Autofill 
@@ -263,29 +201,22 @@ An useful feature of Excel is the autofill of cells following a serie or pattern
 
 For number or text, this actions replicates the content of the first cell in the others. To autofill with a serie of numbers is necessary to enter the first two numbers of the serie in two consecutive cells, then select both cells, click the bottom-left corner and drag the mouse pointer over the column or row to get the cells filled with the numbers following the serie.     
 
-**Example**. The next figure shows how to replicate the content of cell A1 to range A2:A10, next how to auto fill the range B1:B10 with the following dates to the date in cell B1, and finally how to auto fill the range C1:C10 with the serie of even numbers.
+**Example**. The figure below shows how to replicate the content of cell A1 to range A2:A10, next how to auto fill the range B1:B10 with the following dates to the date in cell B1, and finally how to auto fill the range C1:C10 with the serie of even numbers.
 
-<div style="text-align:center">
-<img src="img/example_autofill.gif" width="800px" alt="example of replicating and auto fill cells" />
-</div>
-<br/>
-
+![Example of replicating and auto fill cells.](img/example_autofill.gif "Example of replicating and auto fill cells"){: .img-center}
 
 <!--
-<div style="text-align:center">
-<img src="img/autofill.png" width="250px" alt="autofill" />
+![autofill.](img/autofill.png "autofill")
 </div>
 -->
 
+
 ### Undo and redo
-In the quick access toolbar there are buttons `Undo` <img src="img/button_undo.png" width="20px" alt="button undo" /> and `Redo` <img src="img/button_redo.png" width="20px" alt="button redo" />. The `Undo` button undoes the last data edition action performed and the `Redo` button reverses the last undone action. If you press the undo button several $n$ times, it undoes the last $n$ actions, and the same happens with the redo button.  
+In the quick access toolbar there are buttons `Undo` ![Undo button](img/button_undo.png "Undo button") and `Redo` ![Redo button](img/button_redo.png "Redo button"). The `Undo` button undoes the last data edition action performed and the `Redo` button reverses the last undone action. If you press the undo button several $n$ times, it undoes the last $n$ actions, and the same happens with the redo button.  
 
-**Example**. The next animation shows how to remove the content of cell B2, then change the content of cell C2 two times, then undo that actions and finally redo the same actions. 
+**Example**. The animation below shows how to remove the content of cell B2, then change the content of cell C2 two times, then undo that actions and finally redo the same actions. 
 
-<div style="text-align:center">
-<img src="img/example_undo.gif" width="800px" alt="example of undo an action" />
-</div>
-<br/>
+![Example of undo an action.](img/example_undo.gif "Example of undo an action"){: .img-center}
 
 
 
@@ -295,19 +226,15 @@ Columns width and rows height can be easily changed. To change the width of a co
 In a similar way, to change the height of a row click the line between the row you want to size and the next row in the row header, and then drag the pointer mouse to increase or reduce the row height. If you double-click this line the row height will auto resize to the height of the highest cell content in the row. 
 
 
-**Example**. The next animation shows how to resize the width of column C and the height of row 3 to fit the content of cell C3. 
+**Example**. The animation below shows how to resize the width of column C and the height of row 3 to fit the content of cell C3. 
 
-<div style="text-align:center">
-<img src="img/example_row_column_resize.gif" width="800px" alt="example of resizing rows and columns" />
-</div>
-<br/>
-
+![Example of resizing rows and columns.](img/example_row_column_resize.gif "Example of resizing rows and columns"){: .img-center}
 
 <!--
-<div style="text-align:center">
-<img src="img/row_column_sizing.png" width="500px" alt="row and column sizing" />
+![row and column sizing.](img/row_column_sizing.png "row and column sizing")
 </div> 
 -->
+
 
 ## File management
 Data of workbooks are stored in files. Although Excel makes backups copies of your work regularly, is a good practice to save your work in files often. 
@@ -331,12 +258,9 @@ Excel can export and import data in many formats. One of the most common formats
 ### Export to csv format
 To export a worksheet to csv format file, click the option `Save as` of the ribbon's `File` tab. In the dialog that appears select the option `CSV (Comma delimited) (*.csv)` from the drop-down list `Save as type`, give a name to the file, select the folder where to save it and click OK.   
 
-**Example**. The next animation shows how to export an worksheet with a students database to a csv format file. 
+**Example**. The animation below shows how to export an worksheet with a students database to a csv format file. 
 
-<div style="text-align:center">
-<img src="img/example_export_csv.gif" width="800px" alt="example of exporting a csv format file" />
-</div>
-<br/>
+![Example of exporting a csv format file.](img/example_export_csv.gif "Example of exporting a csv format file"){: .img-center}
 
 
 ### Import from csv format
@@ -344,22 +268,18 @@ To import csv format file click the option `Open` of the ribbon's `File` tab. In
 
 If you want more control in the importation process, click the `From Tex` button of the `Get External Data` on the ribbon's `Data` tab. In the dialog that appears select the csv format file and click the `Import` button. This brings another dialog where you can select if fields are delimited by a special character or are a fixed number of characters, the delimiter character (Tab, Semicolon, Comma, Space or other), the data format or every column (General, Text or Date). After that click the `Finish` button and in the dialog that appears select the cell where to put the imported data and click OK.      
 
-**Example**. The next animation shows how to import the csv format file with the students database of the previous example. 
+**Example**. The animation below shows how to import the csv format file with the students database of the previous example. 
 
-<div style="text-align:center">
-<img src="img/example_import_csv.gif" width="800px" alt="example of importing a csv format file" />
-</div>
-<br/>
+![Example of importing a csv format file.](img/example_import_csv.gif "Example of importing a csv format file"){: .img-center}
 
 
 
 ## Getting help
 One of the most useful features of Microsoft Office programs is the system of help that they have. To get help about any issue in Excel click the option `Help` in the Help tab of the ribbon, and then click `Microsoft Office Help`. This shows a browser where you can enter some key words and Excel will search topics related to these words and present the search results in a list. Clicking the desired topic will show you help info about that topic. 
 
-**Example**. The next figure shows the help search results for the word "cell". 
+**Example**. The figure below shows the help search results for the word "cell". 
 
-<div style="text-align:center">
-<img src="img/excel_2010_help.png" width="300px" alt="excel 2010 help" />
-</div>
+![Excel 2010 help.](img/excel_2010_help.png "Excel 2010 help"){: .img-center}
+
 
 

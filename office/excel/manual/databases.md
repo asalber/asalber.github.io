@@ -35,10 +35,8 @@ After that you can enter the remaining records, one by row. After entering the d
 
 **Example**. The animation below shows how create a data list of students with the fields *First name, Last name, Address, City, Birth date, Average grade* and *Passed credits*.
 
-<div style="text-align:center">
-<img src="img/example_database_creation.gif" width="800px" alt="example of database creation" />
-</div>
-&nbsp;
+![Example of database creation.](img/example_database_creation.gif "Example of database creation"){: .img-center}
+
 
 After creating a data list Excel will give a name to it, but is advisable to give it a descriptive name (see the [Naming cells and ranges](/office/excel/manual/formulas.html#Namingcellsandranges) section). 
 
@@ -58,10 +56,7 @@ After selecting the validating criteria, enter the correspondent parameters (min
 
 **Example**. The animation below shows how create a validation rule for the *Average grade* field in a data list of students.
 
-<div style="text-align:center">
-<img src="img/example_data_validation.gif" width="800px" alt="example of database creation" />
-</div>
-&nbsp;
+![Example of database creation.](img/example_data_validation.gif "Example of database creation"){: .img-center}
 
 
 
@@ -78,10 +73,7 @@ There are many web pages that offers open data in a suitable format for import f
 
 **Example** The animation below shows how to import the IBEX 35 serie from [Yahoo finances](https://es.finance.yahoo.com/).
 
-<div style="text-align:center">
-<img src="img/example_import_web.gif" width="800px" alt="example of importing data from web data sources" />
-</div>
-&nbsp;
+![Example of importing data from web data sources.](img/example_import_web.gif "Example of importing data from web data sources"){: .img-center}
 
 
 ### Importing data from Qandl
@@ -91,10 +83,7 @@ After installing the add in a new tab labelled `Quandl` appears in the ribbon. T
 
 **Example** The animation below shows how to import the IBEX 35 serie from [Quandl](https://www.quandl.com/).
 
-<div style="text-align:center">
-<img src="img/example_import_quandl.gif" width="800px" alt="example of importing data from Qandl data repository" />
-</div>
-&nbsp;
+![Example of importing data from Qandl data repository.](img/example_import_quandl.gif "Example of importing data from Qandl data repository"){: .img-center}
 
 
 
@@ -104,25 +93,19 @@ To sort the data list records on a single field, you simply click that field’s
 - Sort Smallest to Largest or Sort Largest to Smallest in a number field.
 - Sort Oldest to Newest or Sort Newest to Oldest in a date field.
 
-Other option to sort a data list on a field is to select a cell of the field column an click the `Sort A to Z` button <img src="img/button_az.png" width="30px" alt="A to Z sorting button" />  of the `Sort & Filter` panel on the ribbon's `Data` tab, to sort ascending, or the `Sort Z to A` button <img src="img/button_za.png" width="30px" alt="Z to A sorting button" /> to sort descending.
+Other option to sort a data list on a field is to select a cell of the field column an click the `Sort A to Z` button ![A to Z sorting button.](img/button_az.png "A to Z sorting button")  of the `Sort & Filter` panel on the ribbon’s `Data` tab, to sort ascending, or the `Sort Z to A` button ![Z to A sorting button.](img/button_za.png "Z to A sorting button") to sort descending.
 
 Excel then will reorder all the records in the data list according to the ascending or descending order selected.
 
 **Example**. The animation below shows how to sort a students database. First ascending on the *Birth date* field, next descending on the *Average degree* field, and finally ascending on the *Last name* field. 
 
-<div style="text-align:center">
-<img src="img/example_database_sorting.gif" width="800px" alt="example of sorting a database on a single field" />
-</div>
-&nbsp;
+![Example of sorting a database on a single field.](img/example_database_sorting.gif "Example of sorting a database on a single field"){: .img-center}
 
 If you need to sort a data list on more than one field, select a cell of the data list and click the `Sort` button of the `Sort & Filter` panel on the ribbon's `Data` tab. Then, in the dialog that appears, select the first sorting field column and the sorting order (ascending or descending), next the second sorting field column an the sorting order, and so on. 
 
 **Example**. The animation below shows how to sort a students database on the fields *City* ascending and *Average grade* descending.
 
-<div style="text-align:center">
-<img src="img/example_database_sorting_on_multiple_fields.gif" width="800px" alt="example of sorting a database on multiple fields" />
-</div>
-&nbsp;
+![Example of sorting a database on multiple fields.](img/example_database_sorting_on_multiple_fields.gif "Example of sorting a database on multiple fields"){: .img-center}
 
 You can also sort a range of cells in general indicating the name of the columns instead of the field names. 
 
@@ -136,20 +119,14 @@ A common operation is to apply a function to a whole field in a data list, as fo
 
 **Example** The animation below shows how to sum the passed credits of students in a students database. It also shows how to average the average grade.
 
-<div style="text-align:center">
-<img src="img/example_field_summarizing.gif" width="800px" alt="example of applying a function to a whole field in a database" />
-</div>
-&nbsp;
+![Example of applying a function to a whole field in a database.](img/example_field_summarizing.gif "Example of applying a function to a whole field in a database"){: .img-center}
 
 Excel also allows subtotaling a field by categories of other field. This procedure only works with data lists formated like tables, so if a data list have been formated like a table first it has to be converted to a range selecting any cell of the table and clicking the `Convert to Range` button of the `Tool` panel on the ribbon's `Table Tools - Design` tab. After that, you have to sort the data list by the field with the categories to summarize (see the [Data sorting](#data_sorting) section). Finally, to subtotaling a data list click the `Subtotal` button of the `Outline` panel on the ribbons' `Data` tab. This will display a dialog where you have to select the field with the categories in the `At each change in` drop-down menu, the function to apply (sum, count, average, etc.) in the `Use function` drop-down menu, check the fields to with apply the subtotaling function in the `Add subtotal to` list, and click OK.    
 
 
 **Example** The animation below shows how to subtotaling the passed credits of students in a students database by the city where they live.
 
-<div style="text-align:center">
-<img src="img/example_field_subtotaling.gif" width="800px" alt="example of subtotaling a field in a database" />
-</div>
-&nbsp;
+![Example of subtotaling a field in a database.](img/example_field_subtotaling.gif "Example of subtotaling a field in a database"){: .img-center}
 
 
 ### Pivot tables
@@ -169,32 +146,19 @@ in the data list.
 
 **Example** The animation below shows how to create a pivot table for a students database. The pivot table shows and summarizes the passed credits by degrees on rows and by cities on columns. 
 
-<div style="text-align:center">
-<img src="img/example_pivot_table_1.gif" width="800px" alt="example of creating a pivot table" />
-</div>
-&nbsp;
+![Example of creating a pivot table.](img/example_pivot_table_1.gif "Example of creating a pivot table"){: .img-center}
 
 The animation below shows how to arrange the previous pivot table to show the passed credits summarized first by city and then by degree and vice versa, both on rows. 
 
-<div style="text-align:center">
-<img src="img/example_pivot_table_2.gif" width="800px" alt="example of summarizing a pivot table by rows" />
-</div>
-&nbsp;
-
+![Example of summarizing a pivot table by rows.](img/example_pivot_table_2.gif "Example of summarizing a pivot table by rows"){: .img-center}
 
 The animation below shows how to arrange the previous pivot table to show, in addition to the passed credits, the average grade of students. The passed credits are summarized using the SUM function while the average grade is summarized using the AVERAGE function.  
 
-<div style="text-align:center">
-<img src="img/example_pivot_table_3.gif" width="800px" alt="example of summarizing a pivot table using the average function" />
-</div>
-&nbsp;
+![Example of summarizing a pivot table using the average function.](img/example_pivot_table_3.gif "Example of summarizing a pivot table using the average function"){: .img-center}
 
 The animation below shows how to filter the previous pivot table to show only the values of course year 2014 and not to show the physics degree. 
 
-<div style="text-align:center">
-<img src="img/example_pivot_table_4.gif" width="800px" alt="example of filtering a pivot table" />
-</div>
-&nbsp;
+![Example of filtering a pivot table.](img/example_pivot_table_4.gif "Example of filtering a pivot table"){: .img-center}
 
 To change the format of a pivot table you can use the `Layout` panel on ribbon's `PivotTable Tools - Design` tab. This panel has four buttons:
 
@@ -205,13 +169,9 @@ To change the format of a pivot table you can use the `Layout` panel on ribbon's
 
 It's also possible to apply a predefined style to a pivot table just selecting the desired style from the `PivotTable Styles`  panel on ribbon's `PivotTable Tools - Design` tab.
 
-
 **Example** The animation below shows how to format and how to apply a style to the previous pivot table. 
 
-<div style="text-align:center">
-<img src="img/example_pivot_table_formatting.gif" width="800px" alt="example of formatting and styling a pivot table" />
-</div>
-&nbsp;
+![Example of formatting and styling a pivot table.](img/example_pivot_table_formatting.gif "Example of formatting and styling a pivot table"){: .img-center}
 
 
 
@@ -226,10 +186,7 @@ list box to clear the check boxes, then click each of the check boxes correspond
 
 **Example** The animation below shows how to filter the students of Sevilla and Albacete in a students database.  
 
-<div style="text-align:center">
-<img src="img/example_database_filtering_simple.gif" width="800px" alt="example of filtering a database with a single filter" />
-</div>
-&nbsp;
+![Example of filtering a database with a single filter.](img/example_database_filtering_simple.gif "Example of filtering a database with a single filter"){: .img-center}
 
 To perform more sophisticated filters you can use the other filter options of the `AutoFiller` button. These filter options depend on the type of entries in the field:
 
@@ -243,23 +200,17 @@ If the filter selected requires some parameter (date, number or text), a dialog 
 
 **Example** The animation below shows how to filter the students born before 1/1/1995, with an average grade greater than or equal to 5, and whose name begins with M, in a students database. 
 
-<div style="text-align:center">
-<img src="img/example_database_filtering_complex.gif" width="800px" alt="example of filtering a database with multiple filters" />
-</div>
-&nbsp;
+![Example of filtering a database with multiple filters.](img/example_database_filtering_complex.gif "Example of filtering a database with multiple filters"){: .img-center}
 
 
 ### Apply a complex filter 
 Simple filters are enough in most cases, but sometime you need to filter data according to more complex criteria. Fortunately Excel provides a method to perform filters based on calculated criteria with formulas. 
 
-To perform a filter with calculated criteria first you have to specify the criteria somewhere in the worksheet that contains the data list. The criteria must have a cell header and a logical formula in the cell just below. In the logical formula you can use functions and references to the cells, but it's important to note that all references must be to cells in the first row of the data list. After that, to apply the filter you need to select a cell in the data list and click the `Advanced` button <img src="img/button_advanced_filter.png" width="30px" alt="A to Z sorting button" /> of the `Sort & Filter` panel on the ribbons's `Data` tab. This shows a dialog where you have to enter the range of the data list (usually Excel auto recognise it), the range of the filter criteria and click OK. Excel will apply the logical formula to every row of the data list and show only the records where the formula returns TRUE. 
+To perform a filter with calculated criteria first you have to specify the criteria somewhere in the worksheet that contains the data list. The criteria must have a cell header and a logical formula in the cell just below. In the logical formula you can use functions and references to the cells, but it's important to note that all references must be to cells in the first row of the data list. After that, to apply the filter you need to select a cell in the data list and click the `Advanced` button ![Advanced filter button.](img/button_advanced_filter.png "Advanced filter button") of the `Sort & Filter` panel on the ribbons's `Data` tab. This shows a dialog where you have to enter the range of the data list (usually Excel auto recognise it), the range of the filter criteria and click OK. Excel will apply the logical formula to every row of the data list and show only the records where the formula returns TRUE. 
 
 **Example** The animation below shows how to filter the students with an average grade greater than or equal to 5, and a number of passed credits over the average, in a students database, using a calculated criteria. Observe how is used the data list name and the field name to reference the column of passed credits in the average calculation. 
 
-<div style="text-align:center">
-<img src="img/example_database_filtering_calculated_criteria.gif" width="800px" alt="example of filtering a database with a calculated criteria" />
-</div>
-&nbsp;
+![Example of filtering a database with a calculated criteria.](img/example_database_filtering_calculated_criteria.gif "Example of filtering a database with a calculated criteria"){: .img-center}
 
 
 ### Clear a filter
@@ -280,10 +231,7 @@ The `DSUM` function sums the values in a numeric field (column) of records in a 
 
 **Example** The animation below shows how to sum the passed credits of students from Madrid born in 1994 or after with an average grade greater or equal to 6, in a students database.
 
-<div style="text-align:center">
-<img src="img/example_function_dsum.gif" width="800px" alt="example of applying the dsum function to a database" />
-</div>
-&nbsp;
+![Example of applying the dsum function to a database.](img/example_function_dsum.gif "Example of applying the dsum function to a database"){: .img-center}
 
 
 ### DCOUNT function
@@ -291,10 +239,8 @@ The `DCOUNT` function counts the values in a numeric field (column) of records i
 
 **Example** The animation below shows how to count the students with an average grade greater than or equal to 6 whose name begins with L, in a students database.
 
-<div style="text-align:center">
-<img src="img/example_function_dcount.gif" width="800px" alt="example of applying the dsum function to a database" />
-</div>
-&nbsp;
+![Example of applying the dsum function to a database.](img/example_function_dcount.gif "Example of applying the dsum function to a database"){: .img-center}
+
 
 ### DMIN function
 The `DMIN` function returns the minimum in a numeric field (column) of records in a data list that match the criteria you specify. Its syntax is `DMIN(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to add up (it must be a numeric column) enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
@@ -305,10 +251,7 @@ The `DMAX` function returns the maximum in a numeric field (column) of records i
 
 **Example** The animation below shows how to calculate the minimum and the maximum average grade of students from Madrid born before 1995, in a students database.
 
-<div style="text-align:center">
-<img src="img/example_function_dmin_dmax.gif" width="800px" alt="example of applying the dmin and dmax functions to a database" />
-</div>
-&nbsp;
+![Example of applying the dmin and dmax functions to a database.](img/example_function_dmin_dmax.gif "Example of applying the dmin and dmax functions to a database"){: .img-center}
 
 
 ### DAVERAGE function
@@ -316,10 +259,7 @@ The `DAVERAGE` function averages the values in a numeric field (column) of recor
 
 **Example** The animation below shows how to average the average grades of students from Madrid born in 1994 or after with an average grade greater or equal to 6, in a students database.
 
-<div style="text-align:center">
-<img src="img/example_function_daverage.gif" width="800px" alt="example of applying the daverage function to a database" />
-</div>
-&nbsp;
+![Example of applying the daverage function to a database.](img/example_function_daverage.gif "Example of applying the daverage function to a database"){: .img-center}
 
 
 ### DSTDEVP function
@@ -327,10 +267,8 @@ The `DSTDEVP` function calculates the standard deviation the values in a numeric
 
 **Example** The animation below shows how to calculate the standard deviation of average grades of students from Madrid born in Madrid before 1995, in a students database.
 
-<div style="text-align:center">
-<img src="img/example_function_dstdevp.gif" width="800px" alt="example of applying the dstdevp function to a database" />
-</div>
-&nbsp;
+![Example of applying the dstdevp function to a database.](img/example_function_dstdevp.gif "Example of applying the dstdevp function to a database"){: .img-center}
+
 
 Other functions allow to search values in a list or table. 
 
@@ -340,10 +278,7 @@ The `VLOOKUP` function finds things in a table or list by row. Its syntax is `VL
 
 **Example** The animation below shows how to look the phone up of a student in a students database.
 
-<div style="text-align:center">
-<img src="img/example_function_vlookup.gif" width="800px" alt="example of applying the vlookup to a database" />
-</div>
-&nbsp;
+![Example of applying the vlookup to a database.](img/example_function_vlookup.gif "Example of applying the vlookup to a database"){: .img-center}
 
 The `HLOOKUP` function works like the VLOOKUP function but it performs a search by columns. Its syntax is `HLOOKUP (value, table, row-index, [approx-match])`, where *value* is the value you want to look up, *table* is the range of the table or list in which to perform the search, *row-index* is the the row number (starting with 1 for the top-most row of *table* range) that contains the return value, and *approx-match* is an optional logical argument that specifies whether to find an approximate match (TRUE by default) or an exact match (FALSE).
 

@@ -3,7 +3,7 @@ layout: book
 title: Excel Manual
 description: "A basic introduction to Excel for Economics"
 tags: [Excel, Office, Economics]
-image: cabecera-estadistica.jpg
+image: logo_excel.jpg
 share: true
 ---
 
@@ -19,4 +19,3 @@ Table of Contents
 - [Using formulas](/office/excel/manual/formulas.html)
 - [Plotting charts](/office/excel/manual/charts.html)
 - [Managing databases](/office/excel/manual/databases.html)
-- [Pivot tables](/office/excel/manual/pivot_tables.html)
