@@ -174,6 +174,15 @@ It's also possible to apply a predefined style to a pivot table just selecting t
 ![Example of formatting and styling a pivot table.](img/example_pivot_table_formatting.gif "Example of formatting and styling a pivot table"){: .img-center}
 
 
+### Pivot chart
+Pivot tables can be accompanied by pivot charts, that is an interactive chart where you can present and summarize data grouped by some fields like a in a pivot table. To create a pivot chart from a pivot table, in the worksheet with the pivot table click the `PivotChart` button of the `Tools` panel on the ribbon's `PivotTable Tools - Options` tab. This will show a dialog with the charts types. Select the desired chart type and click OK. After that Excel inserts a chart in the same worksheet of the pivot table reflecting the same information of the pivot table. Fron now on, any change in the pivot table will be reflected in the pivot chart. 
+
+**Example** The animation below shows how to create a pivot chart from a pivot table for a students database. 
+
+![Example of creating a pivot chart.](img/example_pivot_chart.gif "Example of creating a pivot chart"){: .img-center}
+
+Of course, you can change the pivot chart layout as any other chart (see section [Chart layout](http://aprendeconalf.es/office/excel/manual/charts.html#Chartlayout)).
+
 
 ## Data filtering
 With huge databases it's difficult to find the desired information. To overcome this problem Excel provide several methods to filter the database. Filtering is the procedure for specifying the data that you want displayed in an Excel data list.
