@@ -14,8 +14,10 @@ This manual is intended mainly for students of Economics and Business Administra
 Table of Contents
 ====================
 
-- [Introduction](/office/excel/manual/introduction.html)
-- [Formatting data and printing](/office/excel/manual/formatting.html)
-- [Using formulas](/office/excel/manual/formulas.html)
-- [Plotting charts](/office/excel/manual/charts.html)
-- [Managing databases](/office/excel/manual/databases.html)
+- [Introduction](./introduction.html)
+- [Formatting data and printing](./formatting.html)
+- [Using formulas](./formulas.html)
+- [Plotting charts](./charts.html)
+- [Managing databases](./databases.html)
+
+[Download this course in pdf format](./tex/excel_manual.pdf).
