@@ -9,7 +9,7 @@ share: true
 ---
 
 ![Logo Excel](/images/logo_excel.jpg){: .pull-right} 
-I'm glad to offer basic [manual of Excel](/office/excel/manual/index.html), the famous Microsoft Office spreadsheet. The version of Excel used in this manual is Excel 2010, but some parts of this manual are also valid for other versions. 
+I'm glad to offer a basic [manual of Excel](/office/excel/manual/index.html), the famous Microsoft Office spreadsheet. The version of Excel used in this manual is Excel 2010, but some parts of this manual are also valid for other versions. 
  
 This manual is intended mainly for students of Economics and Business Administration, and for that reason, most of the examples in this manual are applied to accounting and finance. However, the manual also serves for learning a basic management of Excel, no matter the field of application.
 
