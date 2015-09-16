@@ -279,6 +279,16 @@ The `DSTDEVP` function calculates the standard deviation the values in a numeric
 ![Example of applying the dstdevp function to a database.](img/example_function_dstdevp.gif "Example of applying the dstdevp function to a database"){: .img-center}
 
 
+### DGET function
+The `DGET` function returns the value of field (column) in the record of a data list that match the criteria you specify. Its syntax is `DGET(database,field,criteria)`, where *database* is the range of the data list, *field* is the name of the field that contains the values to return enclosed in double quotes, and *criteria* is the range that contains the criteria with the conditions you specify. 
+
+If no record satisfy the criteria, the function returns a #VALUE! error, and if more than one records satisfy the criteria the functions return a #NUM! error.  
+
+**Example** The animation below shows how to find the student with the highest grade in a student database.
+
+![Example of applying the dget function to a database.](img/example_function_dget.gif "Example of applying the dget function to a database"){: .img-center}
+
+
 Other functions allow to search values in a list or table. 
 
 

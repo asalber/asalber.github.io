@@ -245,6 +245,17 @@ The \texttt{DSTDEVP} function calculates the standard deviation the values in a 
 
 \textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_dstdevp.gif}{animation} shows how to calculate the standard deviation of average grades of students from Madrid born in Madrid before 1995, in a students database.
 
+\subsection{DGET function}\hypertarget{dget-function}{}\label{dget-function}
+
+The \texttt{DGET} returns the value of field (column) in the record of a data list that match the criteria you specify.
+Its syntax is \texttt{DGET(database,field,criteria)}, where \emph{database} is the range of the data list, \emph{field}
+is the name of the field that contains the values to return enclosed in double quotes, and \emph{criteria} is the range that contains the criteria with the conditions you specify.
+
+If no record satisfy the criteria, the function returns a #VALUE! error, and if more than one records satisfy the
+criteria the functions return a #NUM! error.  
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_dget.gif}{animation} shows how to find the student with the highest grade in a student database.
+ 
 Other functions allow to search values in a list or table.
 
 \subsection{VLOOKUP and HLOOKUP functions}\hypertarget{vlookup-and-hlookup-functions}{}\label{vlookup-and-hlookup-functions}
