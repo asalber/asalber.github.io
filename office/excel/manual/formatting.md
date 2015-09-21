@@ -122,7 +122,7 @@ To apply the format of a cell to others select the cell, click the `Format paint
 
 
 ## Conditional formatting
-Excel allows to apply a format to a cell depending according to some rules. To set a new rule click the `Conditional Formatting` button and select `New Rule`. There are different types of rules:
+Excel allows to apply a format to a cell according to some rules. To set a new rule click the `Conditional Formatting` button and select `New Rule`. There are different types of rules:
 
 - **Format all cells based on their value** Applies a format style based on the value of the cell. There are 4 types of styles: 
   - *2-Color Scale* Applies a colour in a continuous scale ranging from one colour for the minimum value or percentage to other colour for the maximum value or percentage.
@@ -133,7 +133,7 @@ Excel allows to apply a format to a cell depending according to some rules. To s
 
   - *3-Color Scale* The same than 2-Color Scale but with a third intermediate colour in the scale.
 
-  - *Data bar* Plots an horizontal bar in each cell with a with proportional to the value of the cell. 
+  - *Data bar* Plots an horizontal bar in each cell with a length proportional to the value of the cell. 
 
 	**Example**. The table in the animation below shows the price of fruits during several months and the average price. The animation shows how to apply to prices a data bar format.
 	
