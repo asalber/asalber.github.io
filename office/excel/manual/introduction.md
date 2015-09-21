@@ -131,7 +131,7 @@ A range of cells is a rectangular block of adjacent cells that is identified by 
 To select a cell just click it. 
 To select a row click the header of the row or press the keys `Shift+Spacebar`. 
 To select a column click the header of the column or press the keys `Ctrl+Spacebar`.
-To select a range click one corner cell and drag the mouse pointer over the desired cells. 
+To select a range click one corner cell and drag the cursor over the desired cells. 
 To select the whole worksheet click the top-left corner of the worksheet o press the keys `Ctrl+A`.  
 
 **Example**. The animation below shows how to select the cell C3, after the row 3, after the column C, after range B3:D7 and finally the whole worksheet. 
@@ -197,9 +197,9 @@ To paste the content of the clipboard in a new cell, row, column or range, selec
 
 
 ### Autofill 
-An useful feature of Excel is the autofill of cells following a serie or pattern. In some cases, like for example dates, it is enough to write the content of the first cell and then click the bottom-right corner of the cell and drag the mouse pointer over the column or row to get the cells filled with the following dates. 
+An useful feature of Excel is the autofill of cells following a serie or pattern. In some cases, like for example dates, it is enough to write the content of the first cell and then click the bottom-right corner of the cell and drag the cursor over the column or row to get the cells filled with the following dates. 
 
-For number or text, this actions replicates the content of the first cell in the others. To autofill with a serie of numbers is necessary to enter the first two numbers of the serie in two consecutive cells, then select both cells, click the bottom-left corner and drag the mouse pointer over the column or row to get the cells filled with the numbers following the serie.     
+For number or text, this actions replicates the content of the first cell in the others. To autofill with a serie of numbers is necessary to enter the first two numbers of the serie in two consecutive cells, then select both cells, click the bottom-left corner and drag the cursor over the column or row to get the cells filled with the numbers following the serie.     
 
 **Example**. The figure below shows how to replicate the content of cell A1 to range A2:A10, next how to auto fill the range B1:B10 with the following dates to the date in cell B1, and finally how to auto fill the range C1:C10 with the serie of even numbers.
 
@@ -221,9 +221,9 @@ In the quick access toolbar there are buttons `Undo` ![Undo button](img/button_u
 
 
 ## Column and row sizing 
-Columns width and rows height can be easily changed. To change the width of a column click the line between the column you want to size and the next column in the column header, and then drag the pointer mouse to increase or reduce the column width. If you double-click this line the column width will auto resize to the width of the widest cell content in the column. 
+Columns width and rows height can be easily changed. To change the width of a column click the line between the column you want to resize and the next column in the column header, and then drag the pointer mouse to increase or reduce the column width. If you double-click this line the column width will auto resize to the width of the widest cell content in the column. 
 
-In a similar way, to change the height of a row click the line between the row you want to size and the next row in the row header, and then drag the pointer mouse to increase or reduce the row height. If you double-click this line the row height will auto resize to the height of the highest cell content in the row. 
+In a similar way, to change the height of a row click the line between the row you want to resize and the next row in the row header, and then drag the pointer mouse to increase or reduce the row height. If you double-click this line the row height will auto resize to the height of the highest cell content in the row. 
 
 
 **Example**. The animation below shows how to resize the width of column C and the height of row 3 to fit the content of cell C3. 
@@ -258,7 +258,7 @@ Excel can export and import data in many formats. One of the most common formats
 ### Export to csv format
 To export a worksheet to csv format file, click the option `Save as` of the ribbon's `File` tab. In the dialog that appears select the option `CSV (Comma delimited) (*.csv)` from the drop-down list `Save as type`, give a name to the file, select the folder where to save it and click OK.   
 
-**Example**. The animation below shows how to export an worksheet with a students database to a csv format file. 
+**Example**. The animation below shows how to export a worksheet with a students database to a csv format file. 
 
 ![Example of exporting a csv format file.](img/example_export_csv.gif "Example of exporting a csv format file"){: .img-center}
 
@@ -266,7 +266,7 @@ To export a worksheet to csv format file, click the option `Save as` of the ribb
 ### Import from csv format
 To import csv format file click the option `Open` of the ribbon's `File` tab. In the dialog that appears click the button to the right of the File name box and select the option `Text Files (*.prn;*.txt;*.csv)`, select the csv format file and click OK.
 
-If you want more control in the importation process, click the `From Tex` button of the `Get External Data` on the ribbon's `Data` tab. In the dialog that appears select the csv format file and click the `Import` button. This brings another dialog where you can select if fields are delimited by a special character or are a fixed number of characters, the delimiter character (Tab, Semicolon, Comma, Space or other), the data format or every column (General, Text or Date). After that click the `Finish` button and in the dialog that appears select the cell where to put the imported data and click OK.      
+If you want more control in the importation process, click the `From Tex` button of the `Get External Data` in the ribbon's `Data` tab. In the dialog that appears select the csv format file and click the `Import` button. This brings another dialog where you can select if fields are delimited by a special character or are a fixed number of characters, the delimiter character (Tab, Semicolon, Comma, Space or other), the data format or every column (General, Text or Date). After that click the `Finish` button and in the dialog that appears select the cell where to put the imported data and click OK.      
 
 **Example**. The animation below shows how to import the csv format file with the students database of the previous example. 
 

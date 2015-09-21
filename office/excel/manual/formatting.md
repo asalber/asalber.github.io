@@ -7,7 +7,7 @@ tags: [Office, Excel]
 share: true
 ---
 
-Content of cells can be formatted in many ways: changing the data type, the font family, the alignment, the color, the border, etc. Most formatting options are grouped in the *Format Cells* dialog. To show this dialog click the bottom right corner of the Font panel in the Home tab of the ribbon.
+Content of cells can be formatted in many ways: changing the data type, the font family, the alignment, the color, the border, etc. Most formatting options are grouped in the *Format Cells* dialog. To show this dialog click the bottom right corner of the Font panel in the ribbon's Home tab.
 
 ## Data types
 Excel manages several data types. The most common are numbers, dates and times, and text. All available data types are in the `Number tab` of the Format Cells dialog. 
@@ -36,7 +36,7 @@ By default cells with content following the pattern `hours:minutes:seconds` are 
 ### Formatting text
 By default cells with non numeric content are of type *Text*. It's possible to apply this type even to numbers, like for example phone numbers. 
 
-Text entered in a cell spreads to adjacent cells to the right if these cells have no content. To confine text to a certain width in the cell, select the cell and click the button `Wrap Text` in the Alignment section on the Home tab of the ribbon. 
+Text entered in a cell spreads to adjacent cells to the right if these cells have no content. To confine text to a certain width in the cell, select the cell and click the button `Wrap Text` in the Alignment section in the ribbon's Home tab. 
 
 
 ## Align cell contents
@@ -46,7 +46,7 @@ By default numbers are aligned to the right and text to the left, but it's possi
 
 
 ### Horizontal alignment
-To change the horizontal alignment select Left, Right, Center or Justify in the Horizontal drop down list of the `Alignment tab`. You can also align the cell contents with the buttons of the Alignment panel in the Home tab of the ribbon. 
+To change the horizontal alignment select Left, Right, Center or Justify in the Horizontal drop down list of the `Alignment tab`. You can also align the cell contents with the buttons of the Alignment panel in the ribbon's Home tab. 
 
 ![Horizontal alignment buttons.](img/button_horizontal_alignment.png "horizontal alignment buttons"){: .img-center}
 
@@ -57,7 +57,7 @@ To change the horizontal alignment select Left, Right, Center or Justify in the 
 
 
 ### Vertical alignment
-To change the vertical alignment select Top, Bottom, Center or Justify in the Vertical drop down list of the `Alignment tab`. You can also align the cell contents with the buttons of the Alignment panel in the Home tab of the ribbon. 
+To change the vertical alignment select Top, Bottom, Center or Justify in the Vertical drop down list of the `Alignment tab`. You can also align the cell contents with the buttons of the Alignment panel in the ribbon's Home tab. 
 
 ![Vertical alignment buttons.](img/button_vertical_alignment.png "vertical alignment buttons"){: .img-center}
 
@@ -68,7 +68,7 @@ To format the font of cell contents select the font family, font style, font siz
 
 ![Font dialog.](img/font_dialog.png "font dialog"){: .img-center}
 
-It's also possible to change the font family, style, size and color from the Font panel in the Home tab of the ribbon, and also with the contextual toolbar that appears right-clicking the cell. 
+It's also possible to change the font family, style, size and color from the Font panel in the ribbon's Home tab, and also with the contextual toolbar that appears right-clicking the cell. 
 
 **Example**. The table in the animation below shows the price of fruits during several months and the average price. The animation shows how to change the font family of all table to Arial, size 10 pt.
 
@@ -85,7 +85,7 @@ To format the borders of cells select the line style and color, and click the bo
 
 ![Border dialog.](img/border_dialog.png "border dialog"){: .img-center}
 
-It's also possible to change the border of cells with the `Border button` ![Border button.](img/button_border.png "Border button") of the Font panel in the Home tab of the ribbon, and also with the contextual toolbar that appears right-clicking the cell. 
+It's also possible to change the border of cells with the `Border button` ![Border button.](img/button_border.png "Border button") of the Font panel in the ribbon's Home tab, and also with the contextual toolbar that appears right-clicking the cell. 
 
 **Example**. The table in the animation below shows the price of fruits during several months and the average price. The animation shows how to put lines to some cell borders.
 
@@ -95,7 +95,7 @@ To format the background of cells select the background color and pattern style 
 
 ![Fill dialog.](img/fill_dialog.png "fill dialog"){: .img-center}
 
-It's also possible to change the background color of cells with the `Background colour` button  ![Background colour button.](img/button_background_colour.png "Background colour button") of the Font panel in the Home tab of the ribbon, and also with the contextual toolbar that appears right-clicking the cell.  
+It's also possible to change the background color of cells with the `Background colour` button  ![Background colour button.](img/button_background_colour.png "Background colour button") of the Font panel in the ribbon's Home tab, and also with the contextual toolbar that appears right-clicking the cell.  
 
 **Example**. The table in the animation below shows the price of fruits during several months and the average price. The animation shows how set the background colour of some cells.
 
@@ -104,7 +104,7 @@ It's also possible to change the background color of cells with the `Background 
 
 
 ## Merge cells
-To merge several cells in one, select the range of cells and click the button `Merge & Center` in the Alignment section on the Home tab of the ribbon. If there are more than one cell with content in the range, merging will keep the upper-left most data only. By default content of merged cells is centered.
+To merge several cells in one, select the range of cells and click the button `Merge & Center` in the Alignment section in the ribbon's Home tab. If there are more than one cell with content in the range, merging will keep the content of the upper-left cell only. By default content of merged cells is centered.
 
 **Example**. The table in the animation below shows the price of fruits during several months and the average price. The animation shows how merge the cells of the first row and center the title. 
  
@@ -166,10 +166,10 @@ Excel allows to apply a format to a cell depending according to some rules. To s
 
 
 ## Predefined styles
-Excel has a lot of predefined styles for formatting cells and tables. To apply a predefined cell style click `Cell Styles` button and select the desired style. It's possible to define new cell styles. For this select the cell with the format to define as a style, click `Cell Styles` button
-and select `New Cell Style...` option. In the dialog that appears just give a name to the new style, press OK, and the new cell style will appear in the cell styles menu.
+Excel has a lot of predefined styles for formatting cells and tables. To apply a predefined cell style click `Cell Styles` button and select the desired style. It's possible to define new cell styles. For that select the cell with the format to define as a style, click `Cell Styles` button
+and select `New Cell Style` option. In the dialog that appears just give a name to the new style, press OK, and the new cell style will appear in the cell styles menu.
 
-To apply a predefined table style click `Format as Table` button and select the desired style. It's also possible to define new table styles. For this click `Cell Styles` button and select `New Cell Style...` option. In the dialog that appears just give a name to the new style, define the table format (font, borders and fill), press OK, and the new table style will appear in the table styles menu.
+To apply a predefined table style click `Format as Table` button and select the desired style. It's also possible to define new table styles. For that click `Format as Table` button and select `New Table Style` option. In the dialog that appears just give a name to the new style, define the table format (font, borders and fill), press OK, and the new table style will appear in the table styles menu.
 
 
 
