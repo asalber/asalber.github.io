@@ -2,13 +2,18 @@
 
 \chapter{Calculus with formulas}
 
-Spreadsheets are used mainly for doing calculations and one of the most powerful features of spreadsheets are calculation formulas. In this section we will see how to use them.
+Spreadsheets are used mainly for doing calculations and one of the most powerful features of spreadsheets are
+calculation formulas. In this section we will see how to use them.
 
 \section{Enter formulas}\hypertarget{enter-formulas}{}\label{enter-formulas}
 
 To enter a formula in a cell always start typing an equal sign \texttt{=} and then the formula expression.
 
-Formula expressions can contain arithmetic operators: addition \texttt{+}, subtraction \texttt{-}, multiplication \texttt{*}, division \texttt{/} and powers \texttt{\^{}} and named predefined functions like \texttt{SUM}, \texttt{EXP}, \texttt{SIN}, etc. This allow to use Excel as a calculator. When Excel evaluates expressions first evaluate named formulas, then powers, then products and quotients, and finally additions and subtractions, but it's possible to use parenthesis to force the evaluation of a subexpression before.
+Formula expressions can contain arithmetic operators: addition \texttt{+}, subtraction \texttt{-}, multiplication
+\texttt{*}, division \texttt{/} and powers \texttt{\^{}} and named predefined functions like \texttt{SUM}, \texttt{EXP},
+\texttt{SIN}, etc. This allow to use Excel as a calculator. When Excel evaluates expressions first evaluate named
+functions, then powers, then products and quotients, and finally additions and subtractions, but it's possible to use
+parenthesis to force the evaluation of a subexpression before.
 
 \textbf{Example} Assuming that cells A1, B1 and C1 contain the values 6, 3 and 2 respectively, the next table shows some
 formulas and their respective results.
@@ -36,15 +41,25 @@ A1+B1\^{}C1 & 15\\
 
 Formula expressions can content references to cells. When Excel evaluates formulas it replace every cell reference by its content before doing the calculation.
 
-\textbf{Example}. This \href{http://aprendeconalf.es/office/excel/manual/img/example_formulas_with_references.gif}{animation} shows how to use the formula \texttt{=A1+B1} to add uExcel has a huge library of predefined functions that performs different calculations organised by categories.p the content of cells A1 and B1 in cell C1.
+\textbf{Example}. This
+\href{http://aprendeconalf.es/office/excel/manual/img/example_formulas_with_references.gif}{animation} shows how to use
+the formula \texttt{=A1+B1} to add up the content of cells A1 and B1 in cell C1.
 
-References that are formed by the name of the cell or range are known as \emph{relative references}, because referenced cells change When you copy a cell with a formula and paste in another cell. In general, when you copy a formula $n$ columns to the right and $m$ rows down, the referenced cells in the formulas will be updated by the cells $n$ columns to the right and $m$ rows down, an the same if you copy the cell to the left or top.
+References that are formed by the name of the cell or range are known as \emph{relative references}, because referenced
+cells change when you copy a cell with a formula and paste in another cell. In general, when you copy a formula $n$
+columns to the right and $m$ rows down, the referenced cells in the formulas will be updated by the cells $n$ columns to
+the right and $m$ rows down, an the same if you copy the cell to the left or top.
 
 \textbf{Example}. This \href{http://aprendeconalf.es/office/excel/manual/img/example_copying_formulas_with_relative_references.gif}{animation} shows how to copy the formula \texttt{=A1+B1} in cell C1, with relative references to A1 and B1, to the cell E4, that is 2 columns to the right and 3 rows down. Observe how the formula in cell E4 is updated to \texttt{=C4+D4}.
 
-A common way of copying the formula of a cell to adjacent cells is clicking the bottom-right corner of the cell and dragging the mouse pointer to the desired range of cells.
+A common way of copying the formula of a cell to adjacent cells is clicking the bottom-right corner of the cell and
+dragging the cursor to the desired range of cells.
 
-\textbf{Example}. This \href{http://aprendeconalf.es/office/excel/manual/img/example_fibonacci_serie.gif}{animation} shows how to generate the first ten numbers of the Fibonacci serie. Cells A1 and B1 contains the two first numbers of the serie and cell C1 the formula \texttt{=A1+B1} that add the two first numbers up and gives the third number of the serie. For generating the rest of the serie it is enough to copy the formula of cell C1 to the range D1:J1. Observe how references in formulas of these cells are updated.
+\textbf{Example}. This \href{http://aprendeconalf.es/office/excel/manual/img/example_fibonacci_serie.gif}{animation}
+shows how to generate the first ten numbers of the Fibonacci sequence. Cells A1 and B1 contains the two first numbers of
+the serie and cell C1 the formula \texttt{=A1+B1} that add the two first numbers up and gives the third number of the
+serie. For generating the rest of the serie it is enough to copy the formula of cell C1 to the range D1:J1. Observe how
+references in formulas of these cells are updated.
 
 Although relative references are very helpful in many cases, sometimes we need the references in a formula to remain fixed when copied elsewhere.\newline
 In that case we need to use \emph{absolute references}, that are like relative references but use the dollar symbol \texttt{\$} to fix either the row, the column or both on any cell reference, by preceding the column or row with the dollar sign.

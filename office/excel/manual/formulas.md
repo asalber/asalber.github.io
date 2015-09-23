@@ -12,7 +12,7 @@ Spreadsheets are used mainly for doing calculations and one of the most powerful
 ## Enter formulas
 To enter a formula in a cell always start typing an equal sign `=` and then the formula expression. 
 
-Formula expressions can contain arithmetic operators: addition `+`, subtraction `-`, multiplication `*`, division `/` and powers `^` and named predefined functions like `SUM`, `EXP`, `SIN`, etc. This allow to use Excel as a calculator. When Excel evaluates expressions first evaluate named formulas, then powers, then products and quotients, and finally additions and subtractions, but it's possible to use parenthesis to force the evaluation of a subexpression before.
+Formula expressions can contain arithmetic operators: addition `+`, subtraction `-`, multiplication `*`, division `/` and powers `^` and named predefined functions like `SUM`, `EXP`, `SIN`, etc. This allow to use Excel as a calculator. When Excel evaluates expressions first evaluate named functions, then powers, then products and quotients, and finally additions and subtractions, but it's possible to use parenthesis to force the evaluation of a subexpression before.
 
 **Example** Assuming that cells A1, B1 and C1 contain the values 6,3 and 2 respectively, the next table shows some formulas and their respective results. 
 
@@ -37,7 +37,7 @@ Formula expressions can contain arithmetic operators: addition `+`, subtraction 
 ## Using relative and absolutes cell references in formulas
 Formula expressions can content references to cells. When Excel evaluates formulas it replace every cell reference by its content before doing the calculation.
 
-**Example**. The animation below shows how to use the formula `=A1+B1` to add uExcel has a huge library of predefined functions that performs different calculations organised by categories.p the content of cells A1 and B1 in cell C1.
+**Example**. The animation below shows how to use the formula `=A1+B1` to add up the content of cells A1 and B1 in cell C1.
 
 ![Example of formulas with cell references.](img/example_formulas_with_references.gif "Example of formulas with cell references"){: .img-center}
 
@@ -47,9 +47,9 @@ References that are formed by the name of the cell or range are known as *relati
 
 ![Example of copying and pasting formulas with relative references.](img/example_copying_formulas_with_relative_references.gif "Example of copying and pasting formulas with relative references"){: .img-center}
 
-A common way of copying the formula of a cell to adjacent cells is clicking the bottom-right corner of the cell and dragging the mouse pointer to the desired range of cells. 
+A common way of copying the formula of a cell to adjacent cells is clicking the bottom-right corner of the cell and dragging the cursor to the desired range of cells. 
 
-**Example**. The animation below shows how to generate the first ten numbers of the Fibonacci serie. Cells A1 and B1 contains the two first numbers of the serie and cell C1 the formula `=A1+B1` that add the two first numbers up and gives the third number of the serie. For generating the rest of the serie it is enough to copy the formula of cell C1 to the range D1:J1. Observe how references in formulas of these cells are updated.  
+**Example**. The animation below shows how to generate the first ten numbers of the Fibonacci sequence. Cells A1 and B1 contains the two first numbers of the serie and cell C1 the formula `=A1+B1` that add the two first numbers up and gives the third number of the serie. For generating the rest of the serie it is enough to copy the formula of cell C1 to the range D1:J1. Observe how references in formulas of these cells are updated.  
 
 ![Example of generating the Fibonacci serie copying formulas.](img/example_fibonacci_serie.gif "Example of generating the Fibonacci serie copying formulas"){: .img-center}
 
