@@ -54,7 +54,7 @@ A common way of copying the formula of a cell to adjacent cells is clicking the 
 ![Example of generating the Fibonacci serie copying formulas.](img/example_fibonacci_serie.gif "Example of generating the Fibonacci serie copying formulas"){: .img-center}
 
 Although relative references are very helpful in many cases, sometimes we need the references in a formula to remain fixed when copied elsewhere.  
-In that case we need to use *absolute references*, that are like relative references but use the dollar symbol `$` to fix either the row, the column or both on any cell reference, by preceding the column or row with the dollar sign.
+In that case we need to use *absolute references*, that are like relative references but preceding the column name or the row name with a `$` sign to fix either the row, the column or both on any cell reference.
 
 **Example**. The animation below shows how to calculate the IVA of a list of prices. Cells A2 to A5 contains the prices and cell F1 contains the IVA percentage. For calculating the IVA of first price we use the formula `A2*F$4/100` where we fix the row of cell F4 because we wan it remain fixed when copying the formula down. Observe how the reference to cell F4 doesn't change when copying the formula down.   
 
@@ -64,9 +64,12 @@ In that case we need to use *absolute references*, that are like relative refere
 
 ![Example of generating the multiplication table using formulas with absolute references.](img/example_multiplication_table.gif "Example of generating the multiplication table using formulas with absolute references"){: .img-center}
 
+In general, if you want to fix a reference in a formula that you pretend to copy horizontally, you must precede the
+column name with a `$` sign; and if you pretend to copy the formula vertically, you must precede the row name with a `$`
+sign. 
 
 ### Naming cells and ranges
-Cell references are somewhat abstract, and don't really communicate anything about the data they contain. This makes formulas that involve multiple references difficult to understand. To overcome this difficulty Excel allows to give name to cells or ranges. To define a cell or range name, select or cell range and click the `Define Name` button of the `Defined Names` panel in the `Formulas` tab of the ribbon. In the dialog that appears give a name to the cell and click OK. Cell or range names must begin with a letter and can't include spaces. 
+Cell references are somewhat abstract, and don't really communicate anything about the data they contain. This makes formulas that involve multiple references difficult to understand. To overcome this difficulty Excel allows to give name to cells or ranges. To define a cell or range name, select or cell range and click the `Define Name` button of the `Defined Names` panel in the ribbon's `Formulas` tab. In the dialog that appears give a name to the cell and click OK. Cell or range names must begin with a letter and can't include spaces. 
 
 You can also set the name of a cell or range in the name box of the input bar. 
 
@@ -84,7 +87,7 @@ After that you can use that cell o range name in any formula. Observe that refer
 Excel has a huge library of predefined functions that performs different calculations organised by categories. There are three ways to to enter a function in a formula expression:
 
 - Type it rawly if you know its name and syntax. 
-- Select it from the buttons of the `Functions Library` panel in the `Formulas` tab of the ribbon. 
+- Select it from the buttons of the `Functions Library` panel in the ribbon's `Formulas` tab. 
 
 ![formulas panel.](img/panel_formulas.png "formulas panel"){: .img-center}
 
@@ -95,7 +98,7 @@ Excel has a huge library of predefined functions that performs different calcula
 
 
 ### SUM function
-The most common function is `SUM` that calculates the sum of several numbers. Its syntax is `SUM(number1,number2,...)` where *number1,number2*, etc. are the numbers or cell ranges that you want to sum. 
+The most common function is `SUM` that calculates the sum of several numbers. Its syntax is `SUM(number1,number2,...)` where *number1, number2*, etc. are the numbers or cell ranges that you want to sum. 
 
 **Example** The animation below shows how to calculate the sum of the subject grades for every student in a course. 
 
@@ -104,9 +107,9 @@ The most common function is `SUM` that calculates the sum of several numbers. It
 
 
 ### SUMIF function
-The `SUMIF` function its similar to the `SUM` but only sum numbers that satisfied a given criterion. Its syntax is `SUMIF(range,criterion,sum-range)` *range* is the cell range to check the criterion, *criterion* is the condition expression of the criterion, *sum-range* is the range with the values to sum (if this argument is not provided, the sum is calculated over the values of the *range* argument that meet the criterion).  
+The `SUMIF` function its similar to the `SUM` function but only sum numbers that satisfied a given criterion. Its syntax is `SUMIF(range,criterion,sum-range)` *range* is the cell range to check the criterion, *criterion* is the condition expression of the criterion, *sum-range* is the range with the values to sum (if this argument is not provided, the sum is calculated over the values of the *range* argument that meet the criterion).  
 
-The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
+The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) in double quotes, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) in double quotes.
 
 
 **Example** The animation below shows how to calculate the sum of the grades greater than or equal to 5 for every student in a course.  
@@ -116,7 +119,7 @@ The expression with the condition can be a number, a cell reference, a logical e
 
 
 ### COUNT function 
-The `COUNT` function counts the number of cells with numbers in a range.  Its syntax is `COUNT(range1,range2,...)` where *range1,range2*, etc. are the cell ranges to count. 
+The `COUNT` function counts the number of cells with numbers in a range.  Its syntax is `COUNT(value1,value2,...)` where *value1, value2*, etc. are the values or cell ranges to count. 
 
 **Example** The animation below shows how to calculate the number of subjects grades for every student in a course. 
 
@@ -127,7 +130,7 @@ The `COUNT` function counts the number of cells with numbers in a range.  Its sy
 ### COUNTIF function
 The `COUNTIF` function its similar to the `COUNT` but only counts number of cells that satisfied a given criterion. Its syntax is `SUMIF(range,criterion)` *range* is the cell range to check the criterion and *criterion* is the condition expression of the criterion,.
 
-The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
+The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) in double quotes, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) in double quotes.
 
 
 **Example** The animation below shows how to calculate the number of passed subjects (grade greater than or equal to 5).  
@@ -137,7 +140,7 @@ The expression with the condition can be a number, a cell reference, a logical e
 
 
 ### MIN function
-The `MIN` function calculates the minimum value of several numbers. Its syntax is `MIN(number1,number2,...)` where *number1,number2*, etc. are numbers or cell ranges for which you want the minimum. 
+The `MIN` function calculates the minimum value of several numbers. Its syntax is `MIN(number1,number2,...)` where *number1, number2*, etc. are numbers or cell ranges for which you want the minimum. 
 
 **Example** The animation below shows how to calculate the minimum grade for every student in a course.
 
@@ -146,7 +149,7 @@ The `MIN` function calculates the minimum value of several numbers. Its syntax i
 
 
 ### MAX function
-The `MAX` function calculates the maximum value of several numbers. Its syntax is `MAX(number1,number2,...)` where *number1,number2*, etc. are numbers or cell ranges for which you want the maximum. 
+The `MAX` function calculates the maximum value of several numbers. Its syntax is `MAX(number1,number2,...)` where *number1, number2*, etc. are numbers or cell ranges for which you want the maximum. 
 
 **Example** The animation below shows how to calculate the maximum grade for every student in a course.
 
@@ -161,7 +164,7 @@ Logical functions are very useful to make decisions.
 ### If function
 The most important logical function is the `IF` functions, that checks whether a condition is met and returns a value if is true or another value if is false. Its syntax is `IF(condition,true_value,false_value)`, where *condition* is the logical condition to test, *true_value* is the returned value if the condition is true, and *false_value* is the returned value if the condition is false. 
 
-In the logical condition expression you use logical operators like equal `=`, not equal `<>`, greater `>`, less, `<`, greater or equal `>=`, less or equal `<=`, etc. In the true or false value you can put numbers, text with double quotes dates, cell references or other formulas. 
+In the logical condition expression you use logical operators like equal `=`, not equal `<>`, greater `>`, less `<`, greater than or equal to `>=`, less than or equal to `<=`, etc. In the true or false value you can put numbers, text in double quotes, dates, cell references or other formulas. 
 
 **Example** The animation below shows how to use the IF function to decide if students pass or don't pass a course depending on whether the average grade is greater than or equal to 5.
 
