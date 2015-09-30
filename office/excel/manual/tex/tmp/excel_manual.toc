@@ -1,5 +1,5 @@
 \select@language {english}
-\contentsline {chapter}{\nonumberline List of Figures}{iii}{chapter*.3}
+\contentsline {chapter}{\nonumberline List of Figures}{v}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction to Excel}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}What is a spreadsheet?}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Excel 2010 main window}{2}{section.1.2}

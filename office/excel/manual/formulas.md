@@ -157,6 +157,15 @@ The `MAX` function calculates the maximum value of several numbers. Its syntax i
 
 
 
+### ISNUMBER function
+The `ISNUMBER` function checks if a value is number or not and returns the logical value TRUE in the first case and FALSE in the second. Its syntax is `ISNUMBER(value)` where *value* is a value or a cell reference.
+
+**Example** The animation below shows how to check if the cells of a range contain numbers or not. Observe that in the example cells with numbers are aligned to the right and that dates are numbers. 
+
+![Example of the ISNUMBER function.](img/example_function_isnumber.gif "Example of the ISNUMBER function"){: .img-center}
+
+
+
 ## Logical functions
 Logical functions are very useful to take decisions. 
 
@@ -302,6 +311,87 @@ The `SECOND` function returns the hour of a time. Its' syntax is `SECOND(time)`,
 **Example**. The animation below shows how to calculate the hour, minute and second of a time. 
 
 ![Example of calculating the day, week day, month and year of a date.](img/example_function_hour.gif "Example of calculating the day, week day, month and year of a date"){: .img-center}
+
+
+
+## Text functions
+Text functions performs different actions on text data type.
+
+
+### TEXT function
+The `TEXT` function converts a number into text using a format specified by the users. Its syntax is `TEXT(number,format)` where *number* is a number or a cell reference that you want to convert to text, and *format* is the format pattern for the text in double quotes. In that pattern you can use a `0` for numbers, `.` for decimal separator, `d` for days, `m` for months, `y` years, `h` for hours, `m` for minutes and `s` for seconds. Also you can use currency signs and the percentage sign `%`. 
+
+**Example** The animation below shows how to convert different numbers, dates and times to text.
+
+![Example of the TEXT function.](img/example_function_text.gif "Example of the TEXT function"){: .img-center}
+
+
+### VALUE function
+The `VALUE` function converts a text string into a number. Its syntax is `VALUE(text)` where *text* is a text or a cell reference with text that represents a number.
+
+**Example** The animation below shows how to convert different text strings representing numbers, times and percentages to numbers.
+
+![Example of the VALUE function.](img/example_function_value.gif "Example of the VALUE function"){: .img-center}
+
+
+### T function
+The `T` function checks if a value is text and if so, returns the text; Otherwise, the function returns an empty text string. Its syntax is `T(value)` where *value* is a value or a cell reference.
+
+**Example** The animation below shows how to check if the cells of a range contain text or not. Observe that in the example cells with text are aligned to the left. 
+
+![Example of the T function.](img/example_function_t.gif "Example of the T function"){: .img-center}
+
+
+### ISTEXT function
+The `ISTEXT` function checks if a value is text or not and returns the logical value TRUE in the first case and FALSE in the second. Its syntax is `ISTEXT(value)` where *value* is a value or a cell reference.
+
+**Example** The animation below shows how to check if the cells of a range contain text or not. Observe that in the example cells with text are aligned to the left. 
+
+![Example of the ISTEXT function.](img/example_function_istext.gif "Example of the ISTEXT function"){: .img-center}
+
+
+### LEN function
+The `LEN` function counts the number of characters of a text string. Its syntax is `LEN(text)` where *text* is a text string or a cell reference with text.
+
+**Example** The animation below shows how to count the number of characters of several words. Observe that numbers are previously converted to text, and that blank cells have 0 characters.
+
+![Example of the LEN function.](img/example_function_len.gif "Example of the LEN function"){: .img-center}
+
+
+### CONCATENATE function
+The `CONCATENATE` function joins together two or more text strings into a combined text string. Its syntax is `CONCATENATE(text1,text2,...)` where *text1, text2, ...* are text strings or cell ranges with text to join.
+
+**Example** The animation below shows how to concatenate the first name and the last name of some persons with a blank space between them.
+
+![Example of the CONCATENATE fuction.](img/example_function_concatenate.gif "Example of the CONCATENATE function"){: .img-center}
+
+
+### FIND and SEARCH functions
+The `FIND` function returns the position of a specified character or sub-string within a given text string. Its syntax is `FIND(find_text,within_text,[start_num])` where *find_text* is the sub-string to find, *within_text* is text where to find the sub-string, and *start_num* is an optional argument that specifies the position in the *within_text* string, from which the search should begin (if omitted the search starts from the first character). The search is case-sensitive. 
+
+The `SEARCH` functions works the same that the `FIND` function except that is not case-sensitive. 
+
+**Example** The animation below shows how to calculate the position of some text sub-strings in a text with the FIND and the SEARCH functions.
+
+![Example of the FIND and SEARCH functions.](img/example_function_find_search.gif "Example of the FIND and SEARCH functions"){: .img-center}
+
+
+### SUBSTITUTE functions
+The `SUBSTITUTE` function replaces one or more instances of a specified text sub-string with another one supplied within a given text string. Its syntax is `SUBSTITUTE(text, old_text, new_text, [instance_num])` where *text* is the text where to perform the substitution, *old_text* is the sub-string to replace, *new_text* is the new text string that it is used to replace the *old_text* string, and *instance_num* is an optional argument that specifies which occurrence of the *old_text* should be replaced by the *new_text* (if this argument is not specified all instances of *old_text* are replaced with the *new_text*). The search is case-sensitive. 
+
+**Example** The animation below shows how to replace some sub-strings in some texts by other text strings.
+
+![Example of the SUBSTITUTE function.](img/example_function_substitute.gif "Example of the SUBSTITUTE function"){: .img-center}
+
+
+### LOWER and UPPER functions
+The `LOWER` function converts all characters in a text string to lower case. Its syntax is `LOWER(text)` where *text* is the text to convert to lower case.
+
+The `UPPER` functions works like the `LOWER` function but it converts text to upper case.  
+
+**Example** The animation below shows how to convert to lower case some text strings.
+
+![Example of the LOWER and UPPER functions.](img/example_function_lower_upper.gif "Example of the LOWER and UPPER functions"){: .img-center}
 
 
 
