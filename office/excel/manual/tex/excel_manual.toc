@@ -1,0 +1,138 @@
+\select@language {english}
+\contentsline {chapter}{\nonumberline List of Figures}{iii}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction to Excel}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}What is a spreadsheet?}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Excel 2010 main window}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Excel 2010 ribbon}{2}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Contextual tabs}{4}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Access dialogs}{5}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Contextual menu}{5}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Workbooks, worksheets, rows, columns and cells}{7}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Ranges of cells}{7}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Selecting cells, rows, columns, ranges and worksheets}{8}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Data edition}{9}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Insert data}{9}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Delete data}{9}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Remove cells, rows, columns and worksheets}{9}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Insert cells, rows, columns and worksheets}{10}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.5}Cut, copy and paste}{10}{subsection.1.5.5}
+\contentsline {subsection}{\numberline {1.5.6}Autofill}{10}{subsection.1.5.6}
+\contentsline {subsection}{\numberline {1.5.7}Undo and redo}{11}{subsection.1.5.7}
+\contentsline {section}{\numberline {1.6}Column and row sizing}{11}{section.1.6}
+\contentsline {section}{\numberline {1.7}File management}{11}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Save a file}{11}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Open a file}{12}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}Create a new workbook}{12}{subsection.1.7.3}
+\contentsline {subsection}{\numberline {1.7.4}Close a workbook}{12}{subsection.1.7.4}
+\contentsline {section}{\numberline {1.8}Exporting and importing data}{12}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Export to csv format}{12}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Import from csv format}{12}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.9}Getting help}{13}{section.1.9}
+\contentsline {chapter}{\numberline {2}Formatting data}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Data types}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Formatting numbers}{15}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Formatting dates and times}{16}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Formatting text}{16}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Align cell contents}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Horizontal alignment}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Vertical alignment}{18}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Font properties}{18}{section.2.3}
+\contentsline {section}{\numberline {2.4}Borders and background}{19}{section.2.4}
+\contentsline {section}{\numberline {2.5}Merge cells}{20}{section.2.5}
+\contentsline {section}{\numberline {2.6}Copy and paste format}{21}{section.2.6}
+\contentsline {section}{\numberline {2.7}Conditional formatting}{21}{section.2.7}
+\contentsline {section}{\numberline {2.8}Predefined styles}{22}{section.2.8}
+\contentsline {chapter}{\numberline {3}Calculus with formulas}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Enter formulas}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Using relative and absolutes cell references in formulas}{24}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Naming cells and ranges}{25}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Basic functions}{25}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}SUM function}{26}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}SUMIF function}{26}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}COUNT function}{27}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}COUNTIF function}{27}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}MIN function}{27}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}MAX function}{28}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Logical functions}{28}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}IF function}{28}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}AND function}{28}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}OR function}{29}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}NOT function}{29}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Date and time functions}{30}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Time elapsed between two dates or times.}{30}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}TODAY function}{30}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}DATE function}{30}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}DAY, WEEKDAY, MONTH and YEAR functions}{31}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}NOW function}{31}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}TIME function}{31}{subsection.3.5.6}
+\contentsline {subsection}{\numberline {3.5.7}HOUR, MINUTE and SECOND functions}{31}{subsection.3.5.7}
+\contentsline {section}{\numberline {3.6}Database functions}{32}{section.3.6}
+\contentsline {section}{\numberline {3.7}Mathematical functions}{32}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}SQRT function}{32}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}EXP function}{32}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}LN and LOG functions}{32}{subsection.3.7.3}
+\contentsline {subsection}{\numberline {3.7.4}PI function}{33}{subsection.3.7.4}
+\contentsline {subsection}{\numberline {3.7.5}SIN, COS and TAN functions}{33}{subsection.3.7.5}
+\contentsline {subsection}{\numberline {3.7.6}ROUND function}{33}{subsection.3.7.6}
+\contentsline {subsection}{\numberline {3.7.7}ABS function}{33}{subsection.3.7.7}
+\contentsline {section}{\numberline {3.8}Statistical functions}{33}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}AVERAGE function}{34}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}AVERAGEIF function}{34}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}MEDIAN function}{34}{subsection.3.8.3}
+\contentsline {subsection}{\numberline {3.8.4}MODE function}{34}{subsection.3.8.4}
+\contentsline {subsection}{\numberline {3.8.5}PERCENTILE.EXC function}{35}{subsection.3.8.5}
+\contentsline {subsection}{\numberline {3.8.6}VAR.P function}{35}{subsection.3.8.6}
+\contentsline {subsection}{\numberline {3.8.7}STDEV.P function}{35}{subsection.3.8.7}
+\contentsline {subsection}{\numberline {3.8.8}SKEW function}{35}{subsection.3.8.8}
+\contentsline {subsection}{\numberline {3.8.9}KURT function}{36}{subsection.3.8.9}
+\contentsline {section}{\numberline {3.9}Auditing formulas}{36}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Tracing formulas}{37}{subsection.3.9.1}
+\contentsline {subsection}{\numberline {3.9.2}Error checking}{37}{subsection.3.9.2}
+\contentsline {subsection}{\numberline {3.9.3}Formula evaluation}{37}{subsection.3.9.3}
+\contentsline {chapter}{\numberline {4}Plotting charts}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}Charts creation}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Types of charts}{40}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Column and bar charts}{41}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Line charts}{41}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Area charts}{42}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Pie charts}{43}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Doughnut charts}{44}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}XY Scatter charts}{44}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Histograms}{44}{subsection.4.2.7}
+\contentsline {section}{\numberline {4.3}Chart design}{45}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Changing the data source}{45}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Switching rows and columns}{45}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Chart layout}{46}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Titles}{46}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Axes}{46}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Grid}{47}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Legends}{47}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Data series}{48}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Data labels}{48}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}Chart styles}{48}{subsection.4.4.7}
+\contentsline {chapter}{\numberline {5}Managing databases}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Database creation in Excel}{49}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data validation}{50}{section.5.2}
+\contentsline {section}{\numberline {5.3}Importing databases}{51}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Importing data from csv text files}{51}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Importing from web data sources}{51}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Importing data from Qandl}{51}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Data sorting}{51}{section.5.4}
+\contentsline {section}{\numberline {5.5}Summarizing data}{52}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Totaling and subtotaling fields}{52}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Pivot tables}{53}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Pivot chart}{54}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Data filtering}{55}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Apply a simple filter}{55}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Apply a complex filter}{56}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Clear a filter}{56}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}Database functions}{56}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Define a criteria}{57}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}DSUM function}{57}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}DCOUNT function}{57}{subsection.5.7.3}
+\contentsline {subsection}{\numberline {5.7.4}DMIN function}{57}{subsection.5.7.4}
+\contentsline {subsection}{\numberline {5.7.5}DMAX function}{58}{subsection.5.7.5}
+\contentsline {subsection}{\numberline {5.7.6}DAVERAGE function}{58}{subsection.5.7.6}
+\contentsline {subsection}{\numberline {5.7.7}DSTDEVP function}{58}{subsection.5.7.7}
+\contentsline {subsection}{\numberline {5.7.8}DGET function}{58}{subsection.5.7.8}
+\contentsline {subsection}{\numberline {5.7.9}VLOOKUP and HLOOKUP functions}{59}{subsection.5.7.9}

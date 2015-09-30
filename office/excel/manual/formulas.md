@@ -158,11 +158,11 @@ The `MAX` function calculates the maximum value of several numbers. Its syntax i
 
 
 ## Logical functions
-Logical functions are very useful to make decisions. 
+Logical functions are very useful to take decisions. 
 
 
-### If function
-The most important logical function is the `IF` functions, that checks whether a condition is met and returns a value if is true or another value if is false. Its syntax is `IF(condition,true_value,false_value)`, where *condition* is the logical condition to test, *true_value* is the returned value if the condition is true, and *false_value* is the returned value if the condition is false. 
+### IF function
+The most important logical function is the `IF` function, that checks whether a condition is met and returns a value if is true or another value if is false. Its syntax is `IF(condition,true_value,false_value)`, where *condition* is the logical condition to test, *true_value* is the returned value if the condition is true, and *false_value* is the returned value if the condition is false. 
 
 In the logical condition expression you use logical operators like equal `=`, not equal `<>`, greater `>`, less `<`, greater than or equal to `>=`, less than or equal to `<=`, etc. In the true or false value you can put numbers, text in double quotes, dates, cell references or other formulas. 
 
@@ -172,10 +172,10 @@ In the logical condition expression you use logical operators like equal `=`, no
 
 
 
-### And function
+### AND function
 The `AND` function will return TRUE if all its arguments are true and FALSE if at least one argument is false. Its syntax is `AND(contidion1,condition2,...)`, where *condition1, condition2,* etc are logical conditions. 
 
-The following table, known as a *truth table*, shows the returned value by the function according to the corresponding values of its arguments.
+The following table, known as a *truth table*, shows the returned value by the AND function according to the corresponding values of its arguments.
 
 
 | A  | B  | AND(A,B) |
@@ -193,10 +193,10 @@ The following table, known as a *truth table*, shows the returned value by the f
 
 
 
-### Or function
+### OR function
 The `OR` function will return TRUE if one or more of its arguments are true and FALSE if all its arguments are false. Its syntax is `OR(contidion1,condition2,...)`, where *condition1, condition2,* etc are logical conditions. 
 
-The following truth table shows the returned value by the function according to the corresponding values of its arguments.
+The following truth table shows the returned value by the OR function according to the corresponding values of its arguments.
 
 
 | A  | B  | OR(A,B) |
@@ -214,10 +214,10 @@ The following truth table shows the returned value by the function according to 
 
 
 
-### Not function
+### NOT function
 The `NOT` function will return TRUE if its argument is FALSE, and FALSE if its argument is TRUE. Its syntax is `NOT(condition)`, where *condition* is a logical condition. 
 
-The following truth table shows the returned value by the function according to the corresponding values of its argument.
+The following truth table shows the returned value by the NOT function according to the corresponding values of its argument.
 
 
 | A  | NOT(A) |
@@ -391,7 +391,7 @@ The `AVERAGE` function calculates the arithmetic mean of several numbers. Its sy
 ### AVERAGEIF function
 The `AVERAGEIF` function calculates the arithmetic mean of numbers in a cell range that meet a given criterion. Its syntax is `AVERAGEIF	(range,criterion,[average-range])` where *range* is the cell range to check the criterion, *criterion* is the condition expression of the criterion, *average-range* is the range with the values to average (if this argument is not provided, the average is calculated over the values of the *range* argument that meet the criterion).  
 
-The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) between quotation marks, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) between quotation marks.
+The expression with the condition can be a number, a cell reference, a logical expression starting with a logical operator (`=`,`>`,`<`,`>=`,`<=`,`<>`) in double quotes, or a pattern text with wildcards like the question mark `?` (that matches any character) or the asterisk `*` (that matches any character string) in double quotes.
 
 **Example** The animation below shows how to calculate the average grade of students with a grade greater than or equal to 5 for every subject in a course. 
 
