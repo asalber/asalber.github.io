@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.15)  30 SEP 2015 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.15)  1 OCT 2015 12:19
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -1840,7 +1840,7 @@ LaTeX Info: Redefining \nameref on input line 73.
 \openout9 = `excel_manual.out'.
 
  (./chapters/title_book.tex
-<../img/book_cover.png, id=561, 597.64854pt x 845.3154pt>
+<../img/book_cover.png, id=622, 597.64854pt x 845.3154pt>
 File: ../img/book_cover.png Graphic file (type png)
 
 <use ../img/book_cover.png>
@@ -1938,44 +1938,44 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 9.
 
-<../img/cc-logo.pdf, id=572, 891.33pt x 226.8475pt>
+<../img/cc-logo.pdf, id=634, 891.33pt x 226.8475pt>
 File: ../img/cc-logo.pdf Graphic file (type pdf)
  <use ../img/cc-logo.pdf>
-Package pdftex.def Info: ../img/cc-logo.pdf used on input line 14.
+Package pdftex.def Info: ../img/cc-logo.pdf used on input line 15.
 (pdftex.def)             Requested size: 89.13821pt x 22.68607pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 21.
+(Font)              scaled to size 10.42007pt on input line 22.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 21.
+(Font)              scaled to size 7.91925pt on input line 22.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 21.
+(Font)              scaled to size 10.42007pt on input line 22.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 21.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 27.
+(Font)              scaled to size 7.91925pt on input line 22.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 28.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 27.
+LaTeX Font Info:    No file OMScmss.fd. on input line 28.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 27.
+(Font)              for symbol `textbullet' on input line 28.
 
-<../img/cc-by.pdf, id=574, 73.27374pt x 72.27pt>
+<../img/cc-by.pdf, id=636, 73.27374pt x 72.27pt>
 File: ../img/cc-by.pdf Graphic file (type pdf)
  <use ../img/cc-by.pdf>
-Package pdftex.def Info: ../img/cc-by.pdf used on input line 34.
+Package pdftex.def Info: ../img/cc-by.pdf used on input line 35.
 (pdftex.def)             Requested size: 10.99057pt x 10.84003pt.
 
-<../img/cc-e.pdf, id=575, 73.27374pt x 72.27pt>
+<../img/cc-e.pdf, id=637, 73.27374pt x 72.27pt>
 File: ../img/cc-e.pdf Graphic file (type pdf)
  <use ../img/cc-e.pdf>
-Package pdftex.def Info: ../img/cc-e.pdf used on input line 37.
+Package pdftex.def Info: ../img/cc-e.pdf used on input line 38.
 (pdftex.def)             Requested size: 10.99057pt x 10.84003pt.
 
-<../img/cc-c.pdf, id=576, 72.27pt x 72.27pt>
+<../img/cc-c.pdf, id=638, 72.27pt x 72.27pt>
 File: ../img/cc-c.pdf Graphic file (type pdf)
  <use ../img/cc-c.pdf>
-Package pdftex.def Info: ../img/cc-c.pdf used on input line 39.
+Package pdftex.def Info: ../img/cc-c.pdf used on input line 40.
 (pdftex.def)             Requested size: 10.84003pt x 10.84003pt.
  [2
 
@@ -2037,7 +2037,7 @@ l.34 ...ing dates and times}{16}{subsection.2.1.2}
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.75 ...S and TAN functions}{33}{subsection.3.7.5}
+l.75 ...7.4}ISTEXT function}{33}{subsection.3.7.4}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2046,7 +2046,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.75 ...S and TAN functions}{33}{subsection.3.7.5}
+l.75 ...7.4}ISTEXT function}{33}{subsection.3.7.4}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2058,7 +2058,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \thepage \enskip \pnumbar 
                                      
-l.75 ...S and TAN functions}{33}{subsection.3.7.5}
+l.75 ...7.4}ISTEXT function}{33}{subsection.3.7.4}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2070,12 +2070,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 ...S and TAN functions}{33}{subsection.3.7.5}
+l.75 ...7.4}ISTEXT function}{33}{subsection.3.7.4}
                                                    [2]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.118 ...m web data sources}{51}{subsection.5.3.2}
+l.119 ...g rows and columns}{49}{subsection.4.3.2}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2084,7 +2084,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.118 ...m web data sources}{51}{subsection.5.3.2}
+l.119 ...g rows and columns}{49}{subsection.4.3.2}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2096,7 +2096,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \pnumbar 
                     \enskip \thepage 
-l.118 ...m web data sources}{51}{subsection.5.3.2}
+l.119 ...g rows and columns}{49}{subsection.4.3.2}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2189,7 +2189,7 @@ and I'll forget about whatever was undefined.
 
 ] (./chapters/introduction.tex
 chapter 1.
-<../img/excel_splash.png, id=814, 310.91156pt x 210.7875pt>
+<../img/excel_splash.png, id=891, 310.91156pt x 210.7875pt>
 File: ../img/excel_splash.png Graphic file (type png)
 
 <use ../img/excel_splash.png>
@@ -2234,7 +2234,7 @@ and I'll forget about whatever was undefined.
 
 
  <../img/excel_splash.png>]
-<../img/excel_2010_screenshot.png, id=824, 780.06897pt x 370.29062pt>
+<../img/excel_2010_screenshot.png, id=901, 780.06897pt x 370.29062pt>
 File: ../img/excel_2010_screenshot.png Graphic file (type png)
 
 <use ../img/excel_2010_screenshot.png>
@@ -2244,7 +2244,7 @@ Package pdftex.def Info: ../img/excel_2010_screenshot.png used on input line 24
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 26.
 
-<../img/excel_2010_file_ribbon.png, id=825, 548.80031pt x 347.19402pt>
+<../img/excel_2010_file_ribbon.png, id=902, 548.80031pt x 347.19402pt>
 File: ../img/excel_2010_file_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_file_ribbon.png>
@@ -2285,7 +2285,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [2 <../img/excel_2010_screenshot.png>]
-<../img/excel_2010_home_ribbon.png, id=833, 940.26282pt x 79.72052pt>
+<../img/excel_2010_home_ribbon.png, id=910, 940.26282pt x 79.72052pt>
 File: ../img/excel_2010_home_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_home_ribbon.png>
@@ -2293,7 +2293,7 @@ Package pdftex.def Info: ../img/excel_2010_home_ribbon.png used on input line 4
 3.
 (pdftex.def)             Requested size: 940.26053pt x 79.7203pt.
 
-<../img/excel_2010_insert_ribbon.png, id=834, 959.83594pt x 81.21062pt>
+<../img/excel_2010_insert_ribbon.png, id=911, 959.83594pt x 81.21062pt>
 File: ../img/excel_2010_insert_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_insert_ribbon.png>
@@ -2301,7 +2301,7 @@ Package pdftex.def Info: ../img/excel_2010_insert_ribbon.png used on input line
  49.
 (pdftex.def)             Requested size: 959.8336pt x 81.2104pt.
 
-<../img/excel_2010_page_layout_ribbon.png, id=835, 792.71156pt x 81.21062pt>
+<../img/excel_2010_page_layout_ribbon.png, id=912, 792.71156pt x 81.21062pt>
 File: ../img/excel_2010_page_layout_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_page_layout_ribbon.png>
@@ -2309,7 +2309,7 @@ Package pdftex.def Info: ../img/excel_2010_page_layout_ribbon.png used on input
  line 55.
 (pdftex.def)             Requested size: 792.70963pt x 81.2104pt.
 
-<../img/excel_2010_formulas_ribbon.png, id=836, 893.58844pt x 81.21062pt>
+<../img/excel_2010_formulas_ribbon.png, id=913, 893.58844pt x 81.21062pt>
 File: ../img/excel_2010_formulas_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_formulas_ribbon.png>
@@ -2351,7 +2351,7 @@ and I'll forget about whatever was undefined.
 
 [3 <../img/excel_2010_file_ribbon.png> <../img/excel_2010_home_ribbon.png> <../
 img/excel_2010_insert_ribbon.png> <../img/excel_2010_page_layout_ribbon.png>]
-<../img/excel_2010_data_ribbon.png, id=841, 876.27374pt x 81.21062pt>
+<../img/excel_2010_data_ribbon.png, id=918, 876.27374pt x 81.21062pt>
 File: ../img/excel_2010_data_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_data_ribbon.png>
@@ -2359,7 +2359,7 @@ Package pdftex.def Info: ../img/excel_2010_data_ribbon.png used on input line 6
 7.
 (pdftex.def)             Requested size: 876.27159pt x 81.2104pt.
 
-<../img/excel_2010_review_ribbon.png, id=842, 674.52pt x 81.21062pt>
+<../img/excel_2010_review_ribbon.png, id=919, 674.52pt x 81.21062pt>
 File: ../img/excel_2010_review_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_review_ribbon.png>
@@ -2367,7 +2367,7 @@ Package pdftex.def Info: ../img/excel_2010_review_ribbon.png used on input line
  73.
 (pdftex.def)             Requested size: 674.51836pt x 81.2104pt.
 
-<../img/excel_2010_view_ribbon.png, id=843, 840.13875pt x 81.21062pt>
+<../img/excel_2010_view_ribbon.png, id=920, 840.13875pt x 81.21062pt>
 File: ../img/excel_2010_view_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_view_ribbon.png>
@@ -2375,7 +2375,7 @@ Package pdftex.def Info: ../img/excel_2010_view_ribbon.png used on input line 7
 9.
 (pdftex.def)             Requested size: 840.1367pt x 81.2104pt.
 
-<../img/excel_2010_design_chart_ribbon.png, id=844, 952.30782pt x 99.09186pt>
+<../img/excel_2010_design_chart_ribbon.png, id=921, 952.30782pt x 99.09186pt>
 File: ../img/excel_2010_design_chart_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_design_chart_ribbon.png>
@@ -2383,7 +2383,7 @@ Package pdftex.def Info: ../img/excel_2010_design_chart_ribbon.png used on inpu
 t line 90.
 (pdftex.def)             Requested size: 952.3055pt x 99.0916pt.
 
-<../img/excel_2010_layout_chart_ribbon.png, id=845, 816.80156pt x 99.09186pt>
+<../img/excel_2010_layout_chart_ribbon.png, id=922, 816.80156pt x 99.09186pt>
 File: ../img/excel_2010_layout_chart_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_layout_chart_ribbon.png>
@@ -2426,7 +2426,7 @@ and I'll forget about whatever was undefined.
 [4 <../img/excel_2010_formulas_ribbon.png> <../img/excel_2010_data_ribbon.png> 
 <../img/excel_2010_review_ribbon.png> <../img/excel_2010_view_ribbon.png> <../i
 mg/excel_2010_design_chart_ribbon.png>]
-<../img/excel_2010_format_chart_ribbon.png, id=852, 992.20688pt x 99.09186pt>
+<../img/excel_2010_format_chart_ribbon.png, id=928, 992.20688pt x 99.09186pt>
 File: ../img/excel_2010_format_chart_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_format_chart_ribbon.png>
@@ -2434,7 +2434,7 @@ Package pdftex.def Info: ../img/excel_2010_format_chart_ribbon.png used on inpu
 t line 102.
 (pdftex.def)             Requested size: 992.20447pt x 99.0916pt.
 
-<../img/excel_2010_picture_ribbon.png, id=853, 997.47656pt x 99.09186pt>
+<../img/excel_2010_picture_ribbon.png, id=929, 997.47656pt x 99.09186pt>
 File: ../img/excel_2010_picture_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_picture_ribbon.png>
@@ -2442,7 +2442,7 @@ Package pdftex.def Info: ../img/excel_2010_picture_ribbon.png used on input lin
 e 108.
 (pdftex.def)             Requested size: 997.47414pt x 99.0916pt.
 
-<../img/quick_access_toolbar.png, id=855, 269.70866pt x 271.19876pt>
+<../img/quick_access_toolbar.png, id=931, 269.70866pt x 271.19876pt>
 File: ../img/quick_access_toolbar.png Graphic file (type png)
 
 <use ../img/quick_access_toolbar.png>
@@ -2450,14 +2450,14 @@ Package pdftex.def Info: ../img/quick_access_toolbar.png used on input line 118
 .
 (pdftex.def)             Requested size: 269.708pt x 271.19809pt.
 
-<../img/access_font_dialog.png, id=857, 600.51155pt x 341.23361pt>
+<../img/access_font_dialog.png, id=933, 600.51155pt x 341.23361pt>
 File: ../img/access_font_dialog.png Graphic file (type png)
 
 <use ../img/access_font_dialog.png>
 Package pdftex.def Info: ../img/access_font_dialog.png used on input line 134.
 (pdftex.def)             Requested size: 600.51007pt x 341.23277pt.
 
-<../img/contextual_menu.png, id=859, 187.75299pt x 307.70628pt>
+<../img/contextual_menu.png, id=935, 187.75299pt x 307.70628pt>
 File: ../img/contextual_menu.png Graphic file (type png)
 
 <use ../img/contextual_menu.png>
@@ -2535,7 +2535,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [6 <../img/quick_access_toolbar.png> <../img/access_font_dialog.png>]
-<../img/sheet_column_row_cell.png, id=874, 627.3334pt x 362.8401pt>
+<../img/sheet_column_row_cell.png, id=950, 627.3334pt x 362.8401pt>
 File: ../img/sheet_column_row_cell.png Graphic file (type png)
 
 <use ../img/sheet_column_row_cell.png>
@@ -2554,7 +2554,7 @@ Underfull \hbox (badness 4378) in paragraph at lines 175--176
 n, fol-low-ing the pat-tern
  []
 
-<../img/cells_range.png, id=876, 358.33875pt x 120.69835pt>
+<../img/cells_range.png, id=952, 358.33875pt x 120.69835pt>
 File: ../img/cells_range.png Graphic file (type png)
 
 <use ../img/cells_range.png>
@@ -2692,14 +2692,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[10] <../img/button_undo.png, id=912, 16.56187pt x 17.88124pt>
+[10] <../img/button_undo.png, id=989, 16.56187pt x 17.88124pt>
 File: ../img/button_undo.png Graphic file (type png)
 
 <use ../img/button_undo.png>
 Package pdftex.def Info: ../img/button_undo.png used on input line 259.
 (pdftex.def)             Requested size: 16.56183pt x 17.8812pt.
 
-<../img/button_redo.png, id=913, 16.56187pt x 17.88124pt>
+<../img/button_redo.png, id=990, 16.56187pt x 17.88124pt>
 File: ../img/button_redo.png Graphic file (type png)
 
 <use ../img/button_redo.png>
@@ -2771,7 +2771,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[12] <../img/excel_2010_help.png, id=938, 319.94531pt x 351.56343pt>
+[12] <../img/excel_2010_help.png, id=1015, 319.94531pt x 351.56343pt>
 File: ../img/excel_2010_help.png Graphic file (type png)
 
 <use ../img/excel_2010_help.png>
@@ -2815,7 +2815,7 @@ and I'll forget about whatever was undefined.
 
 ]
 chapter 2.
-<../img/number_dialog.png, id=950, 386.94562pt x 347.04657pt>
+<../img/number_dialog.png, id=1027, 386.94562pt x 347.04657pt>
 File: ../img/number_dialog.png Graphic file (type png)
 
 <use ../img/number_dialog.png>
@@ -2854,7 +2854,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[15] <../img/alignment_dialog.png, id=962, 386.94562pt x 347.04657pt>
+[15] <../img/alignment_dialog.png, id=1038, 386.94562pt x 347.04657pt>
 File: ../img/alignment_dialog.png Graphic file (type png)
 
 <use ../img/alignment_dialog.png>
@@ -2894,7 +2894,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [16 <../img/number_dialog.png>]
-<../img/button_horizontal_alignment.png, id=971, 359.11485pt x 93.8765pt>
+<../img/button_horizontal_alignment.png, id=1047, 359.11485pt x 93.8765pt>
 File: ../img/button_horizontal_alignment.png Graphic file (type png)
 
 <use ../img/button_horizontal_alignment.png>
@@ -2902,7 +2902,7 @@ Package pdftex.def Info: ../img/button_horizontal_alignment.png used on input l
 ine 66.
 (pdftex.def)             Requested size: 251.37868pt x 65.71309pt.
 
-<../img/button_vertical_alignment.png, id=974, 374.76093pt x 93.8765pt>
+<../img/button_vertical_alignment.png, id=1050, 374.76093pt x 93.8765pt>
 File: ../img/button_vertical_alignment.png Graphic file (type png)
 
 <use ../img/button_vertical_alignment.png>
@@ -2943,7 +2943,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [17 <../img/alignment_dialog.png> <../img/button_horizontal_alignment.png>]
-<../img/font_dialog.png, id=985, 383.93437pt x 339.7435pt>
+<../img/font_dialog.png, id=1061, 383.93437pt x 339.7435pt>
 File: ../img/font_dialog.png Graphic file (type png)
 
 <use ../img/font_dialog.png>
@@ -2983,28 +2983,28 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [18 <../img/button_vertical_alignment.png> <../img/font_dialog.png>]
-<../img/border_dialog.png, id=996, 558.04361pt x 347.19402pt>
+<../img/border_dialog.png, id=1072, 558.04361pt x 347.19402pt>
 File: ../img/border_dialog.png Graphic file (type png)
 
 <use ../img/border_dialog.png>
 Package pdftex.def Info: ../img/border_dialog.png used on input line 120.
 (pdftex.def)             Requested size: 390.62787pt x 243.03415pt.
 
-<../img/button_border.png, id=997, 24.84282pt x 17.88124pt>
+<../img/button_border.png, id=1073, 24.84282pt x 17.88124pt>
 File: ../img/button_border.png Graphic file (type png)
 
 <use ../img/button_border.png>
 Package pdftex.def Info: ../img/button_border.png used on input line 127.
 (pdftex.def)             Requested size: 17.38983pt x 12.51677pt.
 
-<../img/fill_dialog.png, id=1000, 386.94562pt x 347.04657pt>
+<../img/fill_dialog.png, id=1076, 386.94562pt x 347.04657pt>
 File: ../img/fill_dialog.png Graphic file (type png)
 
 <use ../img/fill_dialog.png>
 Package pdftex.def Info: ../img/fill_dialog.png used on input line 138.
 (pdftex.def)             Requested size: 270.86008pt x 242.93094pt.
 
-<../img/button_background_colour.png, id=1001, 24.84282pt x 17.88124pt>
+<../img/button_background_colour.png, id=1077, 24.84282pt x 17.88124pt>
 File: ../img/button_background_colour.png Graphic file (type png)
 
 <use ../img/button_background_colour.png>
@@ -3045,7 +3045,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [19 <../img/border_dialog.png> <../img/button_border.png>]
-<../img/button_format_painter.png, id=1010, 22.58438pt x 19.37134pt>
+<../img/button_format_painter.png, id=1086, 22.58438pt x 19.37134pt>
 File: ../img/button_format_painter.png Graphic file (type png)
 
 <use ../img/button_format_painter.png>
@@ -3244,14 +3244,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[24] <../img/name_box.png, id=1054, 439.58041pt x 25.33176pt>
+[24] <../img/name_box.png, id=1131, 439.58041pt x 25.33176pt>
 File: ../img/name_box.png Graphic file (type png)
 
 <use ../img/name_box.png>
 Package pdftex.def Info: ../img/name_box.png used on input line 92.
 (pdftex.def)             Requested size: 307.70418pt x 17.73209pt.
 
-<../img/panel_formulas.png, id=1056, 386.19281pt x 62.58434pt>
+<../img/panel_formulas.png, id=1133, 386.19281pt x 62.58434pt>
 File: ../img/panel_formulas.png Graphic file (type png)
 
 <use ../img/panel_formulas.png>
@@ -3291,7 +3291,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [25 <../img/name_box.png>]
-<../img/button_insert_function.png, id=1065, 16.56187pt x 14.15598pt>
+<../img/button_insert_function.png, id=1140, 16.56187pt x 14.15598pt>
 File: ../img/button_insert_function.png Graphic file (type png)
 
 <use ../img/button_insert_function.png>
@@ -3299,7 +3299,7 @@ Package pdftex.def Info: ../img/button_insert_function.png used on input line 1
 16.
 (pdftex.def)             Requested size: 11.59322pt x 9.90909pt.
 
-<../img/dialog_insert_function.png, id=1067, 318.43968pt x 274.77657pt>
+<../img/dialog_insert_function.png, id=1142, 318.43968pt x 274.77657pt>
 File: ../img/dialog_insert_function.png Graphic file (type png)
 
 <use ../img/dialog_insert_function.png>
@@ -3310,8 +3310,8 @@ Package pdftex.def Info: ../img/dialog_insert_function.png used on input line 1
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.154 \textbf{Example}
-                       This \href{http://aprendeconalf.es/office/excel/manua...
+l.153 
+      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3319,8 +3319,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.154 \textbf{Example}
-                       This \href{http://aprendeconalf.es/office/excel/manua...
+l.153 
+      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3331,8 +3331,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \thepage \enskip \pnumbar 
                                      
-l.154 \textbf{Example}
-                       This \href{http://aprendeconalf.es/office/excel/manua...
+l.153 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3344,8 +3344,8 @@ log_insert_function.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.191 \section{Logical functions}
-                                 \hypertarget{logical-functions}{}\label{log...
+l.189 \subsection{MAX function}
+                               \hypertarget{max-function}{}\label{max-function}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3353,8 +3353,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.191 \section{Logical functions}
-                                 \hypertarget{logical-functions}{}\label{log...
+l.189 \subsection{MAX function}
+                               \hypertarget{max-function}{}\label{max-function}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3365,8 +3365,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \pnumbar 
                     \enskip \thepage 
-l.191 \section{Logical functions}
-                                 \hypertarget{logical-functions}{}\label{log...
+l.189 \subsection{MAX function}
+                               \hypertarget{max-function}{}\label{max-function}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3374,14 +3374,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [27]
-Underfull \vbox (badness 10000) detected at line 225
- []
-
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.229 \textbf{Example}
-                      . This \href{http://aprendeconalf.es/office/excel/manu...
+l.231 T
+       he following table, known as a \emph{truth table}, shows the returned...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3389,8 +3386,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.229 \textbf{Example}
-                      . This \href{http://aprendeconalf.es/office/excel/manu...
+l.231 T
+       he following table, known as a \emph{truth table}, shows the returned...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3401,8 +3398,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \thepage \enskip \pnumbar 
                                      
-l.229 \textbf{Example}
-                      . This \href{http://aprendeconalf.es/office/excel/manu...
+l.231 T
+       he following table, known as a \emph{truth table}, shows the returned...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3410,18 +3407,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [28]
-Underfull \vbox (badness 10000) detected at line 247
+Underfull \vbox (badness 10000) detected at line 243
  []
 
 
-Underfull \vbox (badness 10000) detected at line 267
+Underfull \vbox (badness 10000) detected at line 265
  []
 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.275 E
-       xcel convert automatically any entry with with a date or time formats...
+l.275 T
+       he following truth table shows the returned value by the NOT function...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3429,8 +3426,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.275 E
-       xcel convert automatically any entry with with a date or time formats...
+l.275 T
+       he following truth table shows the returned value by the NOT function...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3441,8 +3438,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \pnumbar 
                     \enskip \thepage 
-l.275 E
-       xcel convert automatically any entry with with a date or time formats...
+l.275 T
+       he following truth table shows the returned value by the NOT function...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3450,16 +3447,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [29]
-Underfull \hbox (badness 2158) in paragraph at lines 300--301
-[][]\T1/pplx/m/n/10 (+20) The \T1/cmtt/m/n/10 WEEKDAY \T1/pplx/m/n/10 (+20) fun
-c-tion re-turns the day of the week of a date. Its' syn-tax is
+Underfull \vbox (badness 10000) detected at line 285
  []
 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.301 
-      
+l.308 \subsection{DATE function}
+                                \hypertarget{date-function}{}\label{date-fun...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3467,8 +3462,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.301 
-      
+l.308 \subsection{DATE function}
+                                \hypertarget{date-function}{}\label{date-fun...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3479,8 +3474,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \thepage \enskip \pnumbar 
                                      
-l.301 
-      
+l.308 \subsection{DATE function}
+                                \hypertarget{date-function}{}\label{date-fun...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3488,11 +3483,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [30]
+Underfull \hbox (badness 2158) in paragraph at lines 318--319
+[][]\T1/pplx/m/n/10 (+20) The \T1/cmtt/m/n/10 WEEKDAY \T1/pplx/m/n/10 (+20) fun
+c-tion re-turns the day of the week of a date. Its' syn-tax is
+ []
+
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.330 \section{Database functions}
-                                  
+l.338 ...ection{HOUR, MINUTE and SECOND functions}
+                                                  \hypertarget{hour-minute-a...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3500,8 +3500,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.330 \section{Database functions}
-                                  
+l.338 ...ection{HOUR, MINUTE and SECOND functions}
+                                                  \hypertarget{hour-minute-a...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3512,8 +3512,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \pnumbar 
                     \enskip \thepage 
-l.330 \section{Database functions}
-                                  
+l.338 ...ection{HOUR, MINUTE and SECOND functions}
+                                                  \hypertarget{hour-minute-a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3524,8 +3524,8 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.362 \subsection{SIN, COS and TAN functions}
-                                             \hypertarget{sin-cos-and-tan-fu...
+l.370 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3533,8 +3533,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.362 \subsection{SIN, COS and TAN functions}
-                                             \hypertarget{sin-cos-and-tan-fu...
+l.370 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3545,8 +3545,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \thepage \enskip \pnumbar 
                                      
-l.362 \subsection{SIN, COS and TAN functions}
-                                             \hypertarget{sin-cos-and-tan-fu...
+l.370 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3557,8 +3557,8 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.393 \textbf{Example}
-                       This \href{http://aprendeconalf.es/office/excel/manua...
+l.404 \subsection{SUBSTITUTE functions}
+                                       \label{substitutefunctions}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3566,8 +3566,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.393 \textbf{Example}
-                       This \href{http://aprendeconalf.es/office/excel/manua...
+l.404 \subsection{SUBSTITUTE functions}
+                                       \label{substitutefunctions}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3578,8 +3578,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \pnumbar 
                     \enskip \thepage 
-l.393 \textbf{Example}
-                       This \href{http://aprendeconalf.es/office/excel/manua...
+l.404 \subsection{SUBSTITUTE functions}
+                                       \label{substitutefunctions}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3587,23 +3587,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [33]
-Underfull \hbox (badness 4454) in paragraph at lines 409--410
-[]\T1/pplx/m/n/10 (+20) The \T1/cmtt/m/n/10 MEDIAN \T1/pplx/m/n/10 (+20) func-t
-ion cal-cu-lates the me-dian of sev-eral num-bers. Its syn-tax is
- []
-
-
-Overfull \hbox (14.94023pt too wide) in paragraph at lines 415--416
-[]\T1/pplx/m/n/10 (-20) The \T1/cmtt/m/n/10 MODE \T1/pplx/m/n/10 (-20) func-tio
-n cal-cu-lates the mode of sev-eral num-bers. Its syn-tax is \T1/cmtt/m/n/10 MO
-DE(number1,number2,...)
- []
-
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.423 \textbf{Example}
-                       This \href{http://aprendeconalf.es/office/excel/manua...
+l.435 \subsection{EXP function}
+                               \hypertarget{exp-function}{}\label{exp-function}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3611,8 +3599,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.423 \textbf{Example}
-                       This \href{http://aprendeconalf.es/office/excel/manua...
+l.435 \subsection{EXP function}
+                               \hypertarget{exp-function}{}\label{exp-function}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3623,8 +3611,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \thepage \enskip \pnumbar 
                                      
-l.423 \textbf{Example}
-                       This \href{http://aprendeconalf.es/office/excel/manua...
+l.435 \subsection{EXP function}
+                               \hypertarget{exp-function}{}\label{exp-function}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3632,16 +3620,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [34]
-Underfull \hbox (badness 4686) in paragraph at lines 427--428
-[]\T1/pplx/m/n/10 (+20) The \T1/cmtt/m/n/10 VAR.P \T1/pplx/m/n/10 (+20) func-ti
-on cal-cu-lates the vari-ance of sev-eral num-bers. Its syn-tax is
- []
-
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.449 \subsection{KURT function}
-                                \hypertarget{kurt-function}{}\label{kurt-fun...
+l.463 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3649,8 +3632,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.449 \subsection{KURT function}
-                                \hypertarget{kurt-function}{}\label{kurt-fun...
+l.463 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3661,8 +3644,8 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \pnumbar 
                     \enskip \thepage 
-l.449 \subsection{KURT function}
-                                \hypertarget{kurt-function}{}\label{kurt-fun...
+l.463 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3673,8 +3656,8 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.492 A
-       nother possibility is to trace precedents or dependents references. I...
+l.489 
+      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3682,8 +3665,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.492 A
-       nother possibility is to trace precedents or dependents references. I...
+l.489 
+      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3694,30 +3677,180 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \thepage \enskip \pnumbar 
                                      
-l.492 A
-       nother possibility is to trace precedents or dependents references. I...
+l.489 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[36] <../img/button_error_checking.png, id=1194, 18.0675pt x 17.13618pt>
+[36]
+Underfull \hbox (badness 4454) in paragraph at lines 500--501
+[]\T1/pplx/m/n/10 (+20) The \T1/cmtt/m/n/10 MEDIAN \T1/pplx/m/n/10 (+20) func-t
+ion cal-cu-lates the me-dian of sev-eral num-bers. Its syn-tax is
+ []
+
+
+Overfull \hbox (14.94023pt too wide) in paragraph at lines 506--507
+[]\T1/pplx/m/n/10 (-20) The \T1/cmtt/m/n/10 MODE \T1/pplx/m/n/10 (-20) func-tio
+n cal-cu-lates the mode of sev-eral num-bers. Its syn-tax is \T1/cmtt/m/n/10 MO
+DE(number1,number2,...)
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 518--519
+[]\T1/pplx/m/n/10 (+20) The \T1/cmtt/m/n/10 VAR.P \T1/pplx/m/n/10 (+20) func-ti
+on cal-cu-lates the vari-ance of sev-eral num-bers. Its syn-tax is
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.520 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.520 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \pnumbar 
+                    \enskip \thepage 
+l.520 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[37]
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.546 \end{displaymath}
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.546 \end{displaymath}
+                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \thepage \enskip \pnumbar 
+                                     
+l.546 \end{displaymath}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[38]
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.595 \item \textbf
+                   {\#NUM! error}. Occurs when a formula or function contain...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.595 \item \textbf
+                   {\#NUM! error}. Occurs when a formula or function contain...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \pnumbar 
+                    \enskip \thepage 
+l.595 \item \textbf
+                   {\#NUM! error}. Occurs when a formula or function contain...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[39] <../img/button_error_checking.png, id=1294, 18.0675pt x 17.13618pt>
 File: ../img/button_error_checking.png Graphic file (type png)
 
 <use ../img/button_error_checking.png>
-Package pdftex.def Info: ../img/button_error_checking.png used on input line 49
-9.
+Package pdftex.def Info: ../img/button_error_checking.png used on input line 61
+2.
 (pdftex.def)             Requested size: 12.64714pt x 11.99522pt.
 
-<../img/button_evaluate_formula.png, id=1197, 17.31468pt x 17.13618pt>
+<../img/button_evaluate_formula.png, id=1297, 17.31468pt x 17.13618pt>
 File: ../img/button_evaluate_formula.png Graphic file (type png)
 
 <use ../img/button_evaluate_formula.png>
 Package pdftex.def Info: ../img/button_evaluate_formula.png used on input line 
-507.
+620.
 (pdftex.def)             Requested size: 12.12018pt x 11.99522pt.
-) (./chapters/charts.tex
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.623 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.623 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \thepage \enskip \pnumbar 
+                                     
+l.623 \textbf{Example}
+                       This \href{http://aprendeconalf.es/office/excel/manua...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[40 <../img/button_error_checking.png (PNG copy)>]) (./chapters/charts.tex
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -3750,13 +3883,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[37 <../img/button_error_checking.png (PNG copy)> <../img/button_evaluate_formu
-la.png (PNG copy)>] [38
+[41 <../img/button_evaluate_formula.png (PNG copy)>] [42
 
 
 ]
 chapter 4.
-<../img/panel_charts.png, id=1211, 231.11343pt x 61.83928pt>
+<../img/panel_charts.png, id=1316, 231.11343pt x 61.83928pt>
 File: ../img/panel_charts.png Graphic file (type png)
 
 <use ../img/panel_charts.png>
@@ -3795,8 +3927,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[39]
-<../img/excel_2010_chart_design_ribbon.png, id=1219, 953.06062pt x 62.58434pt>
+[43]
+<../img/excel_2010_chart_design_ribbon.png, id=1324, 953.06062pt x 62.58434pt>
 File: ../img/excel_2010_chart_design_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_chart_design_ribbon.png>
@@ -3804,7 +3936,7 @@ Package pdftex.def Info: ../img/excel_2010_chart_design_ribbon.png used on inpu
 t line 29.
 (pdftex.def)             Requested size: 953.0583pt x 62.58417pt.
 
-<../img/excel_2010_chart_layout_ribbon.png, id=1220, 816.04875pt x 61.83928pt>
+<../img/excel_2010_chart_layout_ribbon.png, id=1325, 816.04875pt x 61.83928pt>
 File: ../img/excel_2010_chart_layout_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_chart_layout_ribbon.png>
@@ -3812,7 +3944,7 @@ Package pdftex.def Info: ../img/excel_2010_chart_layout_ribbon.png used on inpu
 t line 35.
 (pdftex.def)             Requested size: 816.04677pt x 61.83911pt.
 
-<../img/excel_2010_chart_format_ribbon.png, id=1221, 990.70125pt x 62.58434pt>
+<../img/excel_2010_chart_format_ribbon.png, id=1326, 990.70125pt x 62.58434pt>
 File: ../img/excel_2010_chart_format_ribbon.png Graphic file (type png)
 
 <use ../img/excel_2010_chart_format_ribbon.png>
@@ -3852,9 +3984,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[40 <../img/panel_charts.png> <../img/excel_2010_chart_design_ribbon.png> <../i
+[44 <../img/panel_charts.png> <../img/excel_2010_chart_design_ribbon.png> <../i
 mg/excel_2010_chart_layout_ribbon.png> <../img/excel_2010_chart_format_ribbon.p
-ng>] <../img/example_chart_column.png, id=1232, 361.35pt x 216.3282pt>
+ng>] <../img/example_chart_column.png, id=1337, 361.35pt x 216.3282pt>
 File: ../img/example_chart_column.png Graphic file (type png)
 
 <use ../img/example_chart_column.png>
@@ -3894,15 +4026,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[41 <../img/example_chart_column.png>]
-<../img/example_chart_line.png, id=1245, 361.35pt x 216.81pt>
+[45 <../img/example_chart_column.png>]
+<../img/example_chart_line.png, id=1349, 361.35pt x 216.81pt>
 File: ../img/example_chart_line.png Graphic file (type png)
 
 <use ../img/example_chart_line.png>
 Package pdftex.def Info: ../img/example_chart_line.png used on input line 87.
 (pdftex.def)             Requested size: 252.94327pt x 151.76596pt.
 
-<../img/example_chart_area.png, id=1249, 361.35pt x 216.3282pt>
+<../img/example_chart_area.png, id=1353, 361.35pt x 216.3282pt>
 File: ../img/example_chart_area.png Graphic file (type png)
 
 <use ../img/example_chart_area.png>
@@ -3941,8 +4073,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[42 <../img/example_chart_line.png>]
-<../img/example_chart_pie.png, id=1260, 361.35pt x 216.3282pt>
+[46 <../img/example_chart_line.png>]
+<../img/example_chart_pie.png, id=1363, 361.35pt x 216.3282pt>
 File: ../img/example_chart_pie.png Graphic file (type png)
 
 <use ../img/example_chart_pie.png>
@@ -3981,8 +4113,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[43 <../img/example_chart_area.png> <../img/example_chart_pie.png>]
-<../img/example_chart_doughnut.png, id=1271, 361.35pt x 216.3282pt>
+[47 <../img/example_chart_area.png> <../img/example_chart_pie.png>]
+<../img/example_chart_doughnut.png, id=1376, 361.35pt x 216.3282pt>
 File: ../img/example_chart_doughnut.png Graphic file (type png)
 
 <use ../img/example_chart_doughnut.png>
@@ -3990,7 +4122,7 @@ Package pdftex.def Info: ../img/example_chart_doughnut.png used on input line 1
 48.
 (pdftex.def)             Requested size: 252.94327pt x 151.4287pt.
 
-<../img/example_chart_scatter.png, id=1275, 361.35pt x 216.81pt>
+<../img/example_chart_scatter.png, id=1380, 361.35pt x 216.81pt>
 File: ../img/example_chart_scatter.png Graphic file (type png)
 
 <use ../img/example_chart_scatter.png>
@@ -4030,7 +4162,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[44 <../img/example_chart_doughnut.png>]
+[48 <../img/example_chart_doughnut.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -4063,8 +4195,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[45 <../img/example_chart_scatter.png>]
-<../img/chart_parts.png, id=1297, 585.61052pt x 257.04279pt>
+[49 <../img/example_chart_scatter.png>]
+<../img/chart_parts.png, id=1402, 585.61052pt x 257.04279pt>
 File: ../img/chart_parts.png Graphic file (type png)
 
 <use ../img/chart_parts.png>
@@ -4103,7 +4235,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[46 <../img/chart_parts.png>]
+[50 <../img/chart_parts.png>]
 
 ! Package inputenc Error: Unicode char \u8:€ not set up for use with LaTeX.
 
@@ -4164,7 +4296,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[47]) (./chapters/databases.tex
+[51]) (./chapters/databases.tex
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -4197,7 +4329,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[48]
+[52]
 chapter 5.
 
 Overfull \hbox (10.96378pt too wide) in paragraph at lines 9--26
@@ -4236,7 +4368,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[49
+[53
 
 
 ]
@@ -4272,7 +4404,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[50]
+[54]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -4305,14 +4437,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[51] <../img/button_az.png, id=1359, 18.82031pt x 17.13618pt>
+[55] <../img/button_az.png, id=1464, 18.82031pt x 17.13618pt>
 File: ../img/button_az.png Graphic file (type png)
 
 <use ../img/button_az.png>
 Package pdftex.def Info: ../img/button_az.png used on input line 86.
 (pdftex.def)             Requested size: 13.17412pt x 11.99522pt.
 
-<../img/button_za.png, id=1360, 18.82031pt x 17.13618pt>
+<../img/button_za.png, id=1465, 18.82031pt x 17.13618pt>
 File: ../img/button_za.png Graphic file (type png)
 
 <use ../img/button_za.png>
@@ -4351,7 +4483,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[52 <../img/button_az.png> <../img/button_za.png>]
+[56 <../img/button_az.png> <../img/button_za.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -4384,7 +4516,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[53]
+[57]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -4417,7 +4549,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[54]
+[58]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -4450,7 +4582,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[55] <../img/button_advanced_filter.png, id=1398, 18.0675pt x 16.39113pt>
+[59] <../img/button_advanced_filter.png, id=1503, 18.0675pt x 16.39113pt>
 File: ../img/button_advanced_filter.png Graphic file (type png)
 
 <use ../img/button_advanced_filter.png>
@@ -4490,7 +4622,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[56 <../img/button_advanced_filter.png>]
+[60 <../img/button_advanced_filter.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -4523,7 +4655,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[57]
+[61]
 ! You can't use `macro parameter character #' in horizontal mode.
 l.254 ...fy the criteria, the function returns a #
                                                   VALUE! error, and if more ...
@@ -4572,7 +4704,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[58])
+[62])
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -4605,25 +4737,25 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[59]
+[63]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./excel_manual.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `excel_manual.out' has not changed.
-(rerunfilecheck)             Checksum: AD62B2367481D44B01FF1DA2B9D5AA92;10259.
+(rerunfilecheck)             Checksum: BE9FD3CE5B06AF5F24DA0001CFE5AE78;11438.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 43236 strings out of 494903
- 874017 string characters out of 6178059
- 1070929 words of memory out of 5000000
- 44887 multiletter control sequences out of 15000+600000
- 64381 words of font info for 327 fonts, out of 8000000 for 9000
+ 43293 strings out of 494903
+ 874891 string characters out of 6178059
+ 1071710 words of memory out of 5000000
+ 44918 multiletter control sequences out of 15000+600000
+ 64801 words of font info for 333 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  72i,18n,105p,10532b,1061s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{formula\\protect\040\\T1\\textunderscore\040evalu
@@ -4648,10 +4780,10 @@ public/cm-super/sftt1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/upl
 ri8a.pfb>
-Output written on excel_manual.pdf (67 pages, 1812174 bytes).
+Output written on excel_manual.pdf (71 pages, 1864579 bytes).
 PDF statistics:
- 1575 PDF objects out of 1728 (max. 8388607)
- 1390 compressed objects within 14 object streams
- 369 named destinations out of 1000 (max. 500000)
- 46980 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1682 PDF objects out of 1728 (max. 8388607)
+ 1492 compressed objects within 15 object streams
+ 387 named destinations out of 1000 (max. 500000)
+ 47100 words of extra memory for PDF output out of 51595 (max. 10000000)
 

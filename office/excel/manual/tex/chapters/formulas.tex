@@ -99,7 +99,7 @@ After that you can use that cell o range name in any formula. Observe that refer
 
 \textbf{Example}. This \href{http://aprendeconalf.es/office/excel/manual/img/example_formulas_with_defined_names.gif}{animation} shows how to calculate the IVA of a list of prices using a cell name for the cell that contains the IVA percentage.
 
-\section{Basic functions}\hypertarget{basic-functions}{}\label{basic-functions}
+\section{Functions}\label{functions}
 
 Excel has a huge library of predefined functions that performs different calculations organised by categories. There are three ways to to enter a function in a formula expression:
 
@@ -127,6 +127,12 @@ This dialog also shows help about the function and its syntax.
 \caption{Insert function dialog.}
 \label{img-dialog_insert_function}
 \end{figure}
+
+
+
+\section{Numeric functions}\label{numericfunctions}
+Numeric functions work with numbers or cells that contains numbers. They are the most frequently used. 
+
 
 \subsection{SUM function}\hypertarget{sum-function}{}\label{sum-function}
 
@@ -186,7 +192,19 @@ The \texttt{MAX} function calculates the maximum value of several numbers. Its s
 \texttt{MAX(number1,number2,...)} where \emph{number1, number2}, etc. are numbers or cell ranges for which you want the
 maximum.
 
-\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_max.gif}{animation} shows how to calculate the maximum grade for every student in a course.
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_max.gif}{animation} shows
+how to calculate the maximum grade for every student in a course.
+
+
+\subsection{ISNUMBER function}
+\label{isnumberfunction}
+
+The \texttt{ISNUMBER} function checks if a value is number or not and returns the logical value TRUE in the first case and FALSE in the second. Its syntax is \texttt{ISNUMBER(value)} where \emph{value} is a value or a cell reference.
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_isnumber.gif}{animation}
+shows how to check if the cells of a range contain numbers or not. Observe that in the example cells with numbers are aligned to the right and that dates are numbers.
+
+
 
 \section{Logical functions}\hypertarget{logical-functions}{}\label{logical-functions}
 
@@ -327,6 +345,79 @@ The \texttt{SECOND} function returns the hour of a time. Its' syntax is \texttt{
 
 \textbf{Example}. This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_hour.gif}{animation} shows how to calculate the hour, minute and second of a time.
 
+
+
+\section{Text functions}\label{textfunctions}
+Text functions performs different actions on text data type.
+
+\subsection{TEXT function}\label{textfunction}
+The \texttt{TEXT} function converts a number into text using a format specified by the users. Its syntax is \texttt{TEXT(number,format)} where \emph{number} is a number or a cell reference that you want to convert to text, and \emph{format} is the format pattern for the text in double quotes. In that pattern you can use a \texttt{0} for numbers, \texttt{.} for decimal separator, \texttt{d} for days, \texttt{m} for months, \texttt{y} years, \texttt{h} for hours, \texttt{m} for minutes and \texttt{s} for seconds. Also you can use currency signs and the percentage sign \texttt{\%}. 
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_text.gif}{animation} shows
+how to convert different numbers, dates and times to text.
+
+
+\subsection{VALUE function}\label{valuefunction}
+The \texttt{VALUE} function converts a text string into a number. Its syntax is \texttt{VALUE(text)} where \emph{text} is a text or a cell reference with text that represents a number.
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_value.gif}{animation} shows
+how to convert different text strings representing numbers, times and percentages to numbers.
+
+
+\subsection{T function}\label{tfunction}
+The \texttt{T} function checks if a value is text and if so, returns the text; Otherwise, the function returns an empty text string. Its syntax is \texttt{T(value)} where \emph{value} is a value or a cell reference.
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_t.gif}{animation} shows
+how to check if the cells of a range contain text or not. Observe that in the example cells with text are aligned to the left.
+
+
+\subsection{ISTEXT function}\label{istextfunction}
+The \texttt{ISTEXT} function checks if a value is text or not and returns the logical value TRUE in the first case and FALSE in the second. Its syntax is \texttt{ISTEXT(value)} where \emph{value} is a value or a cell reference.
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_istext.gif}{animation}
+shows how to check if the cells of a range contain text or not. Observe that in the example cells with text are aligned to the left.
+
+
+\subsection{LEN function}\label{lenfunction}
+The \texttt{LEN} function counts the number of characters of a text string. Its syntax is \texttt{LEN(text)} where \emph{text} is a text string or a cell reference with text.
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_len.gif}{animation} shows
+how to count the number of characters of several words. Observe that numbers are previously converted to text, and that blank cells have 0 characters.
+
+
+\subsection{CONCATENATE function}\label{concatenatefunction}
+The \texttt{CONCATENATE} function joins together two or more text strings into a combined text string. Its syntax is \texttt{CONCATENATE(text1,text2,...)} where \emph{text1, text2, {\ldots}} are text strings or cell ranges with text to join.
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_concatenate.gif}{animation}
+shows how to concatenate the first name and the last name of some persons with a blank space between them.
+
+
+\subsection{FIND and SEARCH functions}\label{findandsearchfunctions}
+The \texttt{FIND} function returns the position of a specified character or sub-string within a given text string. Its syntax is \texttt{FIND(find\_text,within\_text,[start\_num])} where \emph{find\_text} is the sub-string to find, \emph{within\_text} is text where to find the sub-string, and \emph{start\_num} is an optional argument that specifies the position in the \emph{within\_text} string, from which the search should begin (if omitted the search starts from the first character). The search is case-sensitive. 
+
+The \texttt{SEARCH} functions works the same that the \texttt{FIND} function except that is not case-sensitive. 
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_find_search.gif}{animation}
+shows how to calculate the position of some text sub-strings in a text with the FIND and the SEARCH functions.
+
+
+\subsection{SUBSTITUTE functions}\label{substitutefunctions}
+The \texttt{SUBSTITUTE} function replaces one or more instances of a specified text sub-string with another one supplied within a given text string. Its syntax is \texttt{SUBSTITUTE(text, old\_text, new\_text, [instance\_num])} where \emph{text} is the text where to perform the substitution, \emph{old\_text} is the sub-string to replace, \emph{new\_text} is the new text string that it is used to replace the \emph{old\_text} string, and \emph{instance\_num} is an optional argument that specifies which occurrence of the \emph{old\_text} should be replaced by the \emph{new\_text} (if this argument is not specified all instances of \emph{old\_text} are replaced with the \emph{new\_text}). The search is case-sensitive. 
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_substitute.gif}{animation}
+shows how to replace some sub-strings in some texts by other text strings.
+
+
+\subsection{LOWER and UPPER functions}\label{lowerandupperfunctions}
+The \texttt{LOWER} function converts all characters in a text string to lower case. Its syntax is \texttt{LOWER(text)} where \emph{text} is the text to convert to lower case.
+
+The \texttt{UPPER} functions works like the \texttt{LOWER} function but it converts text to upper case. 
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_lower_upper.gif}{animation}
+shows how to convert to lower case some text strings.
+
+
+
 \section{Database functions}
 
 See the section~\ref{database-functions}.
@@ -458,6 +549,26 @@ where $\bar x$ is the mean and $s$ is the standard deviation.
 
 \textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_kurt.gif}{animation} shows how to calculate the kurtosis coefficient of grades for every subject in a course.
 
+
+
+\section{Other functions}\label{otherfunctions}
+Other common functions are the following. 
+
+
+\subsection{ISBLANK function}\label{isblankfunction}
+The \texttt{ISBLANK} function checks if a value is null or a cell is blank. Its syntax is \texttt{ISBLANK(value)} where \emph{value} is a value or a cell reference. 
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_isblank.gif}{animation}
+shows how to check if some cells are blank or not. Observe that cell A3 is not blank because it contains a blank space.
+
+
+\subsection{ISERROR function}\label{iserrorfunction}
+The \texttt{ISBLANK} function checks if a value or cell is an error. Its syntax is \texttt{ISERROR(value)} where \emph{value} is a value or a cell reference. 
+
+\textbf{Example} This \href{http://aprendeconalf.es/office/excel/manual/img/example_function_iserror.gif}{animation}
+shows how to check if some cells have errors.
+
+
 % <!--
 % ## Financial functions
 % Excel contains a bunch of financial functions for determining such things as the present and future value of an investment; the payment, number of periods, or the principal or interest part of a payment on an loan or the rate of return on an investment.
@@ -471,6 +582,7 @@ where $\bar x$ is the mean and $s$ is the standard deviation.
 % For more sophisticated functions you can activate the Analysis ToolPak add-in, and you will get over 30 specialised financial functions. 
 % -->
 
+
 \section{Auditing formulas}\hypertarget{auditing-formulas}{}\label{auditing-formulas}
 
 When Excel can not perform an operation or when there is an error in a formula, it shows an error. Some common errors are
@@ -481,6 +593,7 @@ When Excel can not perform an operation or when there is an error in a formula, 
 \item \textbf{\#DIV/0! error}. Occurs when a formula tries to divide a number by 0 or an empty cell.
 \item \textbf{\#REF! error}. Occurs when a formula refers to a cell that is not valid. Usually happens when a formula refers to a deleted cell.
 \item \textbf{\#NUM! error}. Occurs when a formula or function contains invalid numeric values. For example when trying to calculate the square root of a negative number.
+\item \textbf{\#N\slash A error} Occurs when a value is not available to a function or formula.
 \end{itemize}
 
 In complex formulas it could be difficult to detect the error. Fortunately, Excel provide some tools for tracking down errors.
