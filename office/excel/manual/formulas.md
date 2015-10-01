@@ -83,7 +83,7 @@ After that you can use that cell o range name in any formula. Observe that refer
 
 
 
-## Basic functions
+## Functions
 Excel has a huge library of predefined functions that performs different calculations organised by categories. There are three ways to to enter a function in a formula expression:
 
 - Type it rawly if you know its name and syntax. 
@@ -95,6 +95,10 @@ Excel has a huge library of predefined functions that performs different calcula
 
 ![Insert function dialog.](img/dialog_insert_function.png "insert function dialog"){: .img-center}
 
+
+
+## Numeric functions
+Numeric functions work with numbers or cells that contains numbers. They are the most frequently used. 
 
 
 ### SUM function
@@ -559,6 +563,27 @@ where $\bar x$ is the mean and $s$ is the standard deviation.
 ![Example of the kurt function.](img/example_function_kurt.gif "Example of the kurt function"){: .img-center}
 
 
+## Other functions
+Other common functions are the following. 
+
+
+### ISBLANK function 
+The `ISBLANK` function checks if a value is null or a cell is blank. Its syntax is `ISBLANK(value)` where *value* is a value or a cell reference. 
+
+**Example** The animation below shows how to check if some cells are blank or not. Observe that cell A3 is not blank because it contains a blank space.
+
+![Example of the ISBLANK function.](img/example_function_isblank.gif "Example of the ISBLANK function"){: .img-center}
+
+
+### ISERROR function 
+The `ISBLANK` function checks if a value or cell is an error. Its syntax is `ISERROR(value)` where *value* is a value or a cell reference. 
+
+**Example** The animation below shows how to check if some cells have errors.
+
+![Example of the ISERROR function.](img/example_function_iserror.gif "Example of the ISERROR function"){: .img-center}
+
+
+
 
 <!--
 ## Financial functions
@@ -582,6 +607,7 @@ When Excel can not perform an operation or when there is an error in a formula, 
 - **#DIV/0! error**. Occurs when a formula tries to divide a number by 0 or an empty cell.
 - **#REF! error**. Occurs when a formula refers to a cell that is not valid. Usually happens when a formula refers to a deleted cell.  
 - **#NUM! error**. Occurs when a formula or function contains invalid numeric values. For example when trying to calculate the square root of a negative number. 
+- **#N/A error** Occurs when a value is not available to a function or formula.
 
 In complex formulas it could be difficult to detect the error. Fortunately, Excel provide some tools for tracking down errors. 
 
