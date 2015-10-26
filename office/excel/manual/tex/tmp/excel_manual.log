@@ -1,35 +1,35 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.15)  1 OCT 2015 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.23)  24 OCT 2015 11:44
 entering extended mode
  \write18 enabled.
  Source specials enabled.
  %&-line parsing enabled.
 **excel_manual.tex
 (./excel_manual.tex
-LaTeX2e <2015/01/01> patch level 2
+LaTeX2e <2015/10/01> patch level 1
 Babel <3.9m> and hyphenation patterns for 7 languages loaded.
 (./preamble/document_class.tex)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrbook.cls
-Document Class: scrbook 2015/07/02 v3.18 KOMA-Script document class (book)
+Document Class: scrbook 2015/10/03 v3.19a KOMA-Script document class (book)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2015/07/02 v3.18 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+Package: scrkbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2015/07/02 v3.18 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
+Package: scrbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2015/07/02 v3.18 KOMA-Script package (loading files)
+Package: scrlfile 2015/10/03 v3.19a KOMA-Script package (loading files)
 
-Package scrlfile, 2015/07/02 v3.18 KOMA-Script package (loading files)
+Package scrlfile, 2015/10/03 v3.19a KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 ))) (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2015/07/02 v3.18 KOMA-Script package (handling toc-files)
+Package: tocbasic 2015/10/03 v3.19a KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -40,20 +40,20 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 127.
-Package tocbasic Info: defining new hook before heading of `' on input line 157
-8.
+Package tocbasic Info: defining new hook before heading of `' on input line 158
+4.
 Class scrbook Info: Switching compatibility level to `last'.
 Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
-ne 2245.
+ne 2251.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2015/07/02 v3.18 KOMA-Script font size class option (11pt
-)
+File: scrsize11pt.clo 2015/10/03 v3.19a KOMA-Script font size class option (11p
+t)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2015/07/02 v3.18 KOMA-Script package (type area)
+Package: typearea 2015/10/03 v3.19a KOMA-Script package (type area)
 
-Package typearea, 2015/07/02 v3.18 KOMA-Script package (type area)
+Package typearea, 2015/10/03 v3.19a KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -80,7 +80,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1506.
+(typearea)              on input line 1509.
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -89,7 +89,7 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count84
 \c@paragraph=\count85
 \c@subparagraph=\count86
-LaTeX Info: Redefining \textsubscript on input line 4548.
+LaTeX Info: Redefining \textsubscript on input line 4654.
 \abovecaptionskip=\skip46
 \belowcaptionskip=\skip47
 \c@pti@nb@sid@b@x=\box26
@@ -98,14 +98,14 @@ LaTeX Info: Redefining \textsubscript on input line 4548.
 \bibindent=\dimen102
 ) (./preamble/koma_script_packages.tex
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrhack.sty
-Package: scrhack 2015/07/02 v3.18 KOMA-Script package 
+Package: scrhack 2015/10/03 v3.19a KOMA-Script package 
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2012/03/29 v1.1i non floating margin notes for LaTeX
 \c@mn@abspage=\count89
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrpage2.sty
-Package: scrpage2 2015/07/02 v3.18 KOMA-Script package (page head and foot)
+Package: scrpage2 2015/10/03 v3.19a KOMA-Script package (page head and foot)
 
 
 ! LaTeX Error: Unknown option `headsepline=false' for package `scrpage2'.
@@ -128,8 +128,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 Package scrhack Info: loading setspace hack on input line 15.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/setspace.hak
-File: setspace.hak 2015/07/02 v3.18 KOMA-Script package (hacking package setspa
-ce)
+File: setspace.hak 2015/10/03 v3.19a KOMA-Script package (hacking package setsp
+ace)
 ))
 (./preamble/colors_settings.tex
 (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -183,17 +183,19 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@posthook=\toks18
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
+File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -314,6 +316,10 @@ File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -321,6 +327,10 @@ File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
@@ -340,9 +350,11 @@ Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -360,6 +372,14 @@ File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -371,7 +391,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -1019,7 +1039,7 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count134
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2015/08/16 v0.5c Insert pages of external PDF documents (AM)
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -1038,19 +1058,8 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 \AM@pageheight=\dimen192
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2015/08/16 v0.5c Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-))
 \AM@pagebox=\box64
 \AM@toc@title=\toks39
 \c@AM@survey=\count135
@@ -1074,35 +1083,35 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \belowrulesep=\dimen197
 \belowbottomsep=\dimen198
 \aboverulesep=\dimen199
-\abovetopsep=\dimen200
-\cmidrulesep=\dimen201
-\cmidrulekern=\dimen202
-\defaultaddspace=\dimen203
+\abovetopsep=\dimen256
+\cmidrulesep=\dimen257
+\cmidrulekern=\dimen258
+\defaultaddspace=\dimen259
 \@cmidla=\count137
 \@cmidlb=\count138
-\@aboverulesep=\dimen204
-\@belowrulesep=\dimen205
+\@aboverulesep=\dimen260
+\@belowrulesep=\dimen261
 \@thisruleclass=\count139
 \@lastruleclass=\count140
-\@thisrulewidth=\dimen206
+\@thisrulewidth=\dimen262
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
-\TX@col@width=\dimen207
-\TX@old@table=\dimen208
-\TX@old@col=\dimen209
-\TX@target=\dimen210
-\TX@delta=\dimen211
+\TX@col@width=\dimen263
+\TX@old@table=\dimen264
+\TX@old@col=\dimen265
+\TX@target=\dimen266
+\TX@delta=\dimen267
 \TX@cols=\count141
 \TX@ftn=\toks41
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 \TY@count=\count142
-\TY@linewidth=\dimen212
-\tymin=\dimen213
-\tymax=\dimen214
-\TY@tablewidth=\dimen215
+\TY@linewidth=\dimen268
+\tymin=\dimen269
+\tymax=\dimen270
+\TY@tablewidth=\dimen271
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -1111,7 +1120,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTpre=\skip76
 \LTpost=\skip77
 \LTchunksize=\count143
-\LTcapwidth=\dimen216
+\LTcapwidth=\dimen272
 \LT@head=\box67
 \LT@firsthead=\box68
 \LT@foot=\box69
@@ -1125,11 +1134,341 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 Class scrbook Info: longtable captions redefined on input line 14.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen217
+\bigstrutjot=\dimen273
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package scrhack Info: loading lscape hack on input line 75.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/lscape.hak
+File: lscape.hak 2015/10/03 v3.19a KOMA-Script package (hacking package lscape)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2015/10/14 v6210 L3 programming layer (loader) 
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2015/10/14 v6210 L3 programming layer (code) 
+L3 Module: l3bootstrap 2015/09/30 v6139 L3 Bootstrap code
+L3 Module: l3names 2015/10/10 v6209 L3 Namespace for primitives
+L3 Module: l3basics 2015/09/22 v6033 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
+L3 Module: l3str 2015/09/20 v6021 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2015/09/25 v6089 L3 Integers
+\c_max_int=\count148
+\l_tmpa_int=\count149
+\l_tmpb_int=\count150
+\g_tmpa_int=\count151
+\g_tmpb_int=\count152
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/10/09 v6208 L3 Control structures
+\g__prg_map_int=\count153
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2015/09/28 v6114 L3 Experimental token manipulation
+L3 Module: l3prop 2015/08/05 v5777 L3 Property lists
+L3 Module: l3msg 2015/09/28 v6113 L3 Messages
+L3 Module: l3file 2015/09/23 v6037 L3 File and I/O operations
+\l_iow_line_count_int=\count154
+\l__iow_target_count_int=\count155
+\l__iow_current_line_int=\count156
+\l__iow_current_word_int=\count157
+\l__iow_current_indentation_int=\count158
+L3 Module: l3skip 2015/09/25 v6089 L3 Dimensions and skips
+\c_zero_dim=\dimen274
+\c_max_dim=\dimen275
+\l_tmpa_dim=\dimen276
+\l_tmpb_dim=\dimen277
+\g_tmpa_dim=\dimen278
+\g_tmpb_dim=\dimen279
+\c_zero_skip=\skip78
+\c_max_skip=\skip79
+\l_tmpa_skip=\skip80
+\l_tmpb_skip=\skip81
+\g_tmpa_skip=\skip82
+\g_tmpb_skip=\skip83
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+L3 Module: l3keys 2015/09/23 v6037 L3 Key-value interfaces
+\g__keyval_level_int=\count159
+\l_keys_choice_int=\count160
+L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
+\c__fp_leading_shift_int=\count161
+\c__fp_middle_shift_int=\count162
+\c__fp_trailing_shift_int=\count163
+\c__fp_big_leading_shift_int=\count164
+\c__fp_big_middle_shift_int=\count165
+\c__fp_big_trailing_shift_int=\count166
+\c__fp_Bigg_leading_shift_int=\count167
+\c__fp_Bigg_middle_shift_int=\count168
+\c__fp_Bigg_trailing_shift_int=\count169
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box71
+\l_tmpa_box=\box72
+\l_tmpb_box=\box73
+\g_tmpa_box=\box74
+\g_tmpb_box=\box75
+L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
+\l__coffin_internal_box=\box76
+\l__coffin_internal_dim=\dimen280
+\l__coffin_offset_x_dim=\dimen281
+\l__coffin_offset_y_dim=\dimen282
+\l__coffin_x_dim=\dimen283
+\l__coffin_y_dim=\dimen284
+\l__coffin_x_prime_dim=\dimen285
+\l__coffin_y_prime_dim=\dimen286
+\c_empty_coffin=\box77
+\l__coffin_aligned_coffin=\box78
+\l__coffin_aligned_internal_coffin=\box79
+\l_tmpa_coffin=\box80
+\l_tmpb_coffin=\box81
+\l__coffin_display_coffin=\box82
+\l__coffin_display_coord_coffin=\box83
+\l__coffin_display_pole_coffin=\box84
+\l__coffin_display_offset_dim=\dimen287
+\l__coffin_display_x_dim=\dimen288
+\l__coffin_display_y_dim=\dimen289
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3candidates 2015/10/09 v6208 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen290
+\l__box_bottom_dim=\dimen291
+\l__box_left_dim=\dimen292
+\l__box_right_dim=\dimen293
+\l__box_top_new_dim=\dimen294
+\l__box_bottom_new_dim=\dimen295
+\l__box_left_new_dim=\dimen296
+\l__box_right_new_dim=\dimen297
+\l__box_internal_box=\box85
+\l__coffin_bounding_shift_dim=\dimen298
+\l__coffin_left_corner_dim=\dimen299
+\l__coffin_right_corner_dim=\dimen300
+\l__coffin_bottom_corner_dim=\dimen301
+\l__coffin_top_corner_dim=\dimen302
+\l__coffin_scaled_total_height_dim=\dimen303
+\l__coffin_scaled_width_dim=\dimen304
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3luatex 2015/09/10 v5983 L3 Experimental LuaTeX-specific functions
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
+File: l3unicode-data.def 2015/07/20 v5676 L3 Unicode data
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2015/09/10 v5983 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count170
+))
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2015/10/14 v6210 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count171
+\l__xparse_m_args_int=\count172
+\l__xparse_mandatory_args_int=\count173
+\l__xparse_processor_int=\count174
+\l__xparse_v_nesting_int=\count175
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchcmd with sig. '' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretocmd with sig. '' on line 126.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptocmd with sig. '' on line 127.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowcmd with sig. '' on line 128.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibmacro with sig. 'm' on line 131.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibmacro with sig. 'm' on line 133.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibmacro with sig. 'm' on line 135.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibmacro with sig. 'm' on line 137.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchfieldformat with sig. 'O{*}m' on line 139.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretofieldformat with sig. 'O{*}m' on line 141.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptofieldformat with sig. 'O{*}m' on line 143.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowfieldformat with sig. 'O{*}m' on line 145.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchnameformat with sig. 'O{*}m' on line 147.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretonameformat with sig. 'O{*}m' on line 149.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptonameformat with sig. 'O{*}m' on line 151.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshownameformat with sig. 'O{*}m' on line 153.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchlistformat with sig. 'O{*}m' on line 155.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretolistformat with sig. 'O{*}m' on line 157.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptolistformat with sig. 'O{*}m' on line 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowlistformat with sig. 'O{*}m' on line 161.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexfieldformat with sig. 'O{*}m' on line 163.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexfieldformat with sig. 'O{*}m' on line 165.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexfieldformat with sig. 'O{*}m' on line 167.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexfieldformat with sig. 'O{*}m' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexnameformat with sig. 'O{*}m' on line 171.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexnameformat with sig. 'O{*}m' on line 173.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexnameformat with sig. 'O{*}m' on line 175.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexnameformat with sig. 'O{*}m' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexlistformat with sig. 'O{*}m' on line 179.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexlistformat with sig. 'O{*}m' on line 181.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xappindextolistformat with sig. 'O{*}m' on line 183.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexlistformat with sig. 'O{*}m' on line 185.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibdriver with sig. 'm' on line 187.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibdriver with sig. 'm' on line 189.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibdriver with sig. 'm' on line 191.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibdriver with sig. 'm' on line 193.
+.................................................
+)
+Package scrhack Info: \landscape patched to make \textheight change optional on
+ input line 91.
+\scrh@LT@textheight=\skip84
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
 (./preamble/theorems_settings.tex
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2015/08/12 version 3.72 text color boxes
+Package: tcolorbox 2015/10/16 version 3.73 text color boxes
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
@@ -1143,174 +1482,48 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2015/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box71
-\tcb@upperbox=\box72
-\tcb@lowerbox=\box73
-\tcb@phantombox=\box74
-\c@tcbbreakpart=\count148
-\c@tcblayer=\count149
-\tcb@temp=\box75
-\tcb@temp=\box76
-\tcb@temp=\box77
-\tcb@temp=\box78
+\tcb@titlebox=\box86
+\tcb@upperbox=\box87
+\tcb@lowerbox=\box88
+\tcb@phantombox=\box89
+\c@tcbbreakpart=\count176
+\c@tcblayer=\count177
+\tcb@temp=\box90
+\tcb@temp=\box91
+\tcb@temp=\box92
+\tcb@temp=\box93
 \tcb@out=\write4
 \tcb@record@out=\write5
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
-Library (tcolorbox): 'tcbraster.code.tex' version '3.72'
-\c@tcbrastercolumn=\count150
-\c@tcbrasterrow=\count151
-\c@tcbraster=\count152
+Library (tcolorbox): 'tcbraster.code.tex' version '3.73'
+\c@tcbrastercolumn=\count178
+\c@tcbrasterrow=\count179
+\c@tcbraster=\count180
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '3.72'
-\tcb@waterbox=\box79
+Library (tcolorbox): 'tcbskins.code.tex' version '3.73'
+\tcb@waterbox=\box94
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '3.72'
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '3.73'
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '3.72'
-\tcb@testbox=\box80
-\tcb@totalupperbox=\box81
-\tcb@totallowerbox=\box82
+Library (tcolorbox): 'tcbbreakable.code.tex' version '3.73'
+\tcb@testbox=\box95
+\tcb@totalupperbox=\box96
+\tcb@totallowerbox=\box97
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '3.72'
+Library (tcolorbox): 'tcbhooks.code.tex' version '3.73'
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '3.72'
+Library (tcolorbox): 'tcbtheorems.code.tex' version '3.73'
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '3.72'
-\tcbfitdim=\dimen218
-\tcb@lowerfitdim=\dimen219
-\tcb@upperfitdim=\dimen220
-\tcb@cur@hbadness=\count153
+Library (tcolorbox): 'tcbfitting.code.tex' version '3.73'
+\tcbfitdim=\dimen305
+\tcb@lowerfitdim=\dimen306
+\tcb@upperfitdim=\dimen307
+\tcb@cur@hbadness=\count181
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
-Library (tcolorbox): 'tcbxparse.code.tex' version '3.72'
-(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2015/09/11 v6002 L3 programming layer (loader) 
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2015/09/11 v6002 L3 programming layer (code) 
-L3 Module: l3bootstrap 2015/09/10 v5983 L3 Bootstrap code
-L3 Module: l3names 2015/09/07 v5939 L3 Namespace for primitives
-L3 Module: l3basics 2015/09/10 v5983 L3 Basic definitions
-L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
-L3 Module: l3tl 2015/09/10 v5983 L3 Token lists
-L3 Module: l3str 2015/09/10 v5983 L3 Strings
-L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
-L3 Module: l3int 2015/09/11 v5987 L3 Integers
-\c_max_int=\count154
-\l_tmpa_int=\count155
-\l_tmpb_int=\count156
-\g_tmpa_int=\count157
-\g_tmpb_int=\count158
-L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
-L3 Module: l3prg 2015/09/10 v5983 L3 Control structures
-\g__prg_map_int=\count159
-L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
-L3 Module: l3token 2015/08/26 v5893 L3 Experimental token manipulation
-L3 Module: l3prop 2015/08/05 v5777 L3 Property lists
-L3 Module: l3msg 2015/09/10 v5983 L3 Messages
-L3 Module: l3file 2015/08/05 v5786 L3 File and I/O operations
-\l_iow_line_count_int=\count160
-\l__iow_target_count_int=\count161
-\l__iow_current_line_int=\count162
-\l__iow_current_word_int=\count163
-\l__iow_current_indentation_int=\count164
-L3 Module: l3skip 2015/09/10 v5983 L3 Dimensions and skips
-\c_zero_dim=\dimen221
-\c_max_dim=\dimen222
-\l_tmpa_dim=\dimen223
-\l_tmpb_dim=\dimen224
-\g_tmpa_dim=\dimen225
-\g_tmpb_dim=\dimen226
-\c_zero_skip=\skip78
-\c_max_skip=\skip79
-\l_tmpa_skip=\skip80
-\l_tmpb_skip=\skip81
-\g_tmpa_skip=\skip82
-\g_tmpb_skip=\skip83
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-L3 Module: l3keys 2015/09/10 v5983 L3 Key-value interfaces
-\g__keyval_level_int=\count165
-\l_keys_choice_int=\count166
-L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count167
-\c__fp_middle_shift_int=\count168
-\c__fp_trailing_shift_int=\count169
-\c__fp_big_leading_shift_int=\count170
-\c__fp_big_middle_shift_int=\count171
-\c__fp_big_trailing_shift_int=\count172
-\c__fp_Bigg_leading_shift_int=\count173
-\c__fp_Bigg_middle_shift_int=\count174
-\c__fp_Bigg_trailing_shift_int=\count175
-L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
-\c_empty_box=\box83
-\l_tmpa_box=\box84
-\l_tmpb_box=\box85
-\g_tmpa_box=\box86
-\g_tmpb_box=\box87
-L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
-\l__coffin_internal_box=\box88
-\l__coffin_internal_dim=\dimen227
-\l__coffin_offset_x_dim=\dimen228
-\l__coffin_offset_y_dim=\dimen229
-\l__coffin_x_dim=\dimen230
-\l__coffin_y_dim=\dimen231
-\l__coffin_x_prime_dim=\dimen232
-\l__coffin_y_prime_dim=\dimen233
-\c_empty_coffin=\box89
-\l__coffin_aligned_coffin=\box90
-\l__coffin_aligned_internal_coffin=\box91
-\l_tmpa_coffin=\box92
-\l_tmpb_coffin=\box93
-\l__coffin_display_coffin=\box94
-\l__coffin_display_coord_coffin=\box95
-\l__coffin_display_pole_coffin=\box96
-\l__coffin_display_offset_dim=\dimen256
-\l__coffin_display_x_dim=\dimen257
-\l__coffin_display_y_dim=\dimen258
-L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
-L3 Module: l3candidates 2015/09/11 v6002 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen259
-\l__box_bottom_dim=\dimen260
-\l__box_left_dim=\dimen261
-\l__box_right_dim=\dimen262
-\l__box_top_new_dim=\dimen263
-\l__box_bottom_new_dim=\dimen264
-\l__box_left_new_dim=\dimen265
-\l__box_right_new_dim=\dimen266
-\l__box_internal_box=\box97
-\l__coffin_bounding_shift_dim=\dimen267
-\l__coffin_left_corner_dim=\dimen268
-\l__coffin_right_corner_dim=\dimen269
-\l__coffin_bottom_corner_dim=\dimen270
-\l__coffin_top_corner_dim=\dimen271
-\l__coffin_scaled_total_height_dim=\dimen272
-\l__coffin_scaled_width_dim=\dimen273
-L3 Module: [unknown name] 0000/00/00 v-1 L3 Experimental system/runtime functio
-ns
-L3 Module: l3luatex 2015/09/10 v5983 L3 Experimental LuaTeX-specific functions
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
-File: l3unicode-data.def 2015/07/20 v5676 L3 Unicode data
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2015/09/10 v5983 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count176
-))
-Package: xparse 2015/09/11 v6001 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count177
-\l__xparse_m_args_int=\count178
-\l__xparse_mandatory_args_int=\count179
-\l__xparse_processor_int=\count180
-\l__xparse_v_nesting_int=\count181
-)
+Library (tcolorbox): 'tcbxparse.code.tex' version '3.73'
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1319,7 +1532,7 @@ Package: xparse 2015/09/11 v6001 L3 Experimental document command parser
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.te
 x
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '3.72'
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '3.73'
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/listingsutf8.sty
 Package: listingsutf8 2011/11/10 v1.2 Allow UTF-8 in listings input (HO)
 
@@ -1328,14 +1541,14 @@ Package: listingsutf8 2011/11/10 v1.2 Allow UTF-8 in listings input (HO)
 \lst@gtempboxa=\box98
 \lst@token=\toks45
 \lst@length=\count183
-\lst@currlwidth=\dimen274
+\lst@currlwidth=\dimen308
 \lst@column=\count184
 \lst@pos=\count185
-\lst@lostspace=\dimen275
-\lst@width=\dimen276
+\lst@lostspace=\dimen309
+\lst@width=\dimen310
 \lst@newlines=\count186
 \lst@lineno=\count187
-\lst@maxwidth=\dimen277
+\lst@maxwidth=\dimen311
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
@@ -1349,8 +1562,8 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 Package scrhack Info: loading listings hack on input line 101.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/listings.hak
-File: listings.hak 2015/07/02 v3.18 KOMA-Script package (hacking package listin
-gs)
+File: listings.hak 2015/10/03 v3.19a KOMA-Script package (hacking package listi
+ngs)
 Package tocbasic Info: setting babel extension for `lol' on input line 137.
 Package scrhack Info: redefining \lstlistoflistings on input line 137.
 )
@@ -1377,19 +1590,19 @@ Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 )))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '3.72'
+Library (tcolorbox): 'tcblistings.code.tex' version '3.73'
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
 x
-Library (tcolorbox): 'tcblistingscore.code.tex' version '3.72'
+Library (tcolorbox): 'tcblistingscore.code.tex' version '3.73'
 \c@tcblisting=\count190
 )))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
-Library (tcolorbox): 'tcbexternal.code.tex' version '3.72'
+Library (tcolorbox): 'tcbexternal.code.tex' version '3.73'
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
-Library (tcolorbox): 'tcbmagazine.code.tex' version '3.72'
+Library (tcolorbox): 'tcbmagazine.code.tex' version '3.73'
 )) (/usr/local/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
-Library (tcolorbox): 'tcbminted.code.tex' version '3.72'
+Library (tcolorbox): 'tcbminted.code.tex' version '3.73'
 (/usr/local/texlive/2015/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2015/09/09 v2.1 Yet another Pygments shim for LaTeX
 
@@ -1429,7 +1642,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package scrhack Info: loading float hack on input line 35.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/float.hak
-File: float.hak 2015/07/02 v3.18 KOMA-Script package (hacking package float)
+File: float.hak 2015/10/03 v3.19a KOMA-Script package (hacking package float)
 Package scrhack Info: redefining \newfloat on input line 161.
 Package scrhack Info: redefining \listof on input line 161.
 Package scrhack Info: undefining \float@addtolists on input line 161.
@@ -1460,37 +1673,37 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count197
 \output=\toks48
 \linenoprevgraf=\count198
-\linenumbersep=\dimen278
-\linenumberwidth=\dimen279
+\linenumbersep=\dimen312
+\linenumberwidth=\dimen313
 \c@linenumber=\count199
-\c@pagewiselinenumber=\count200
-\c@LN@truepage=\count201
-\c@internallinenumber=\count202
-\c@internallinenumbers=\count203
-\quotelinenumbersep=\dimen280
-\bframerule=\dimen281
-\bframesep=\dimen282
+\c@pagewiselinenumber=\count266
+\c@LN@truepage=\count267
+\c@internallinenumber=\count268
+\c@internallinenumbers=\count269
+\quotelinenumbersep=\dimen314
+\bframerule=\dimen315
+\bframesep=\dimen316
 \bframebox=\box103
 LaTeX Info: Redefining \\ on input line 3056.
 )
 \minted@appexistsfile=\read4
-\FV@BreakIndent=\dimen283
-\FV@BreakSymbolSepLeft=\dimen284
-\FV@BreakSymbolSepRight=\dimen285
-\FV@BreakSymbolIndentLeft=\dimen286
+\FV@BreakIndent=\dimen317
+\FV@BreakSymbolSepLeft=\dimen318
+\FV@BreakSymbolSepRight=\dimen319
+\FV@BreakSymbolIndentLeft=\dimen320
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 688.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-\FV@BreakSymbolIndentRight=\dimen287
-\c@FancyVerbLineBreakLast=\count204
+\FV@BreakSymbolIndentRight=\dimen321
+\c@FancyVerbLineBreakLast=\count270
 \FV@LineBox=\box104
 \FV@LineIndentBox=\box105
 \minted@bgbox=\box106
 \minted@code=\write8
-\c@minted@FancyVerbLineTemp=\count205
+\c@minted@FancyVerbLineTemp=\count271
 
 
 ! Package scrhack Error: extension `lol' already in use.
@@ -1529,35 +1742,35 @@ You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-\c@tcb@cnt@listadonum=\count206
-\c@tcb@cnt@tabla=\count207
-\c@tcb@cnt@teorema=\count208
-\c@tcb@cnt@definicion=\count209
-\c@tcb@cnt@ejemplo=\count210
+\c@tcb@cnt@listadonum=\count272
+\c@tcb@cnt@tabla=\count273
+\c@tcb@cnt@teorema=\count274
+\c@tcb@cnt@definicion=\count275
+\c@tcb@cnt@ejemplo=\count276
 ) (./preamble/table_of_contents_settings.tex)
 (./preamble/floatings_settings.tex
 (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen288
-\captionmargin@=\dimen289
-\captionwidth=\dimen290
-\caption@tempdima=\dimen291
-\caption@indent=\dimen292
-\caption@parindent=\dimen293
-\caption@hangindent=\dimen294
+\captionmargin=\dimen322
+\captionmargin@=\dimen323
+\captionwidth=\dimen324
+\caption@tempdima=\dimen325
+\caption@indent=\dimen326
+\caption@parindent=\dimen327
+\caption@hangindent=\dimen328
 )
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count211
+\c@ContinuedFloat=\count277
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )))
 (./preamble/section_header_settings.tex
 
@@ -1574,14 +1787,14 @@ Class scrbook Warning: Usage of package `titlesec' together
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box107
-\beforetitleunit=\skip84
-\aftertitleunit=\skip85
-\ttl@plus=\dimen295
-\ttl@minus=\dimen296
+\beforetitleunit=\skip85
+\aftertitleunit=\skip86
+\ttl@plus=\dimen329
+\ttl@minus=\dimen330
 \ttl@toksa=\toks49
-\titlewidth=\dimen297
-\titlewidthlast=\dimen298
-\titlewidthfirst=\dimen299
+\titlewidth=\dimen331
+\titlewidthlast=\dimen332
+\titlewidthfirst=\dimen333
 
 
 Package titlesec Warning: Non standard sectioning command detected
@@ -1610,12 +1823,12 @@ Package scrbook Warning: Activating an ugly workaround for a missing
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2011/12/15
-\c@ttlp@side=\count212
-\ttlp@side=\count213
+\c@ttlp@side=\count278
+\ttlp@side=\count279
 ))
 (./preamble/header_footer_settings.tex
-\myLenghthFootAbstand=\skip86
-\myLenghthTemp=\skip87
+\myLenghthFootAbstand=\skip87
+\myLenghthTemp=\skip88
 ) (./preamble/margin_notes_settings.tex)
 (./preamble/paragrah_optimization.tex) (./preamble/pdf_settings.tex)
 Package scrhack Info: hyperref hack deactivated because of
@@ -1661,16 +1874,16 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen300
-\Hy@linkcounter=\count214
-\Hy@pagecounter=\count215
+\@linkdim=\dimen334
+\Hy@linkcounter=\count280
+\Hy@pagecounter=\count281
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count216
+\Hy@SavedSpaceFactor=\count282
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1691,17 +1904,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count217
+\c@Hy@tempcnt=\count283
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen301
-\Fld@menulength=\count218
-\Field@Width=\dimen302
-\Fld@charsize=\dimen303
+\XeTeXLinkMargin=\dimen335
+\Fld@menulength=\count284
+\Field@Width=\dimen336
+\Fld@charsize=\dimen337
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1711,31 +1924,43 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count219
-\c@Item=\count220
-\c@Hfootnote=\count221
+\Hy@abspage=\count285
+\c@Item=\count286
+\c@Hfootnote=\count287
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count222
-\c@bookmark@seq@number=\count223
+\Fld@listcount=\count288
+\c@bookmark@seq@number=\count289
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip88
+\Hy@SectionHShift=\skip89
 )
 (./preamble/macros.tex)
 runsystem(which "pygmentize" && touch "excel_manual.aex")...executed.
 
-runsystem(rm "excel_manual.aex")...executed.
 
- (./excel_manual.aux)
+
+! Package minted Error: You must have `pygmentize' installed to use this packag
+e.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \begin{document}
+                     
+Refer to the installation instructions in the minted documentation for more inf
+ormation.
+
+(./excel_manual.aux)
 \openout1 = `excel_manual.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
@@ -1770,16 +1995,16 @@ Package scrpage2 Warning: seems you are using a very small headheight.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count224
-\scratchdimen=\dimen304
+\scratchcounter=\count290
+\scratchdimen=\dimen338
 \scratchbox=\box108
-\nofMPsegments=\count225
-\nofMParguments=\count226
+\nofMPsegments=\count291
+\nofMParguments=\count292
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count227
-\MPscratchDim=\dimen305
-\MPnumerator=\count228
-\makeMPintoPDFobject=\count229
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen339
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
 \everyMPtoPDFconversion=\toks51
 )
 LaTeX Info: Redefining \microtypecontext on input line 73.
@@ -1814,7 +2039,7 @@ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 73.
  ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box109
-\c@lstlisting=\count230
+\c@lstlisting=\count296
 Package scrhack Info: undefining \float@addtolists on input line 73.
 
 (./_minted-excel_manual/default-pyg-prefix.pygstyle)
@@ -1829,7 +2054,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count231
+\c@section@level=\count297
 )
 LaTeX Info: Redefining \ref on input line 73.
 LaTeX Info: Redefining \pageref on input line 73.
@@ -3129,7 +3354,8 @@ and I'll forget about whatever was undefined.
 
 [21 <../img/button_format_painter.png>]
 
-! Package inputenc Error: Unicode char \u8:€ not set up for use with LaTeX.
+! Package inputenc Error: Unicode char € (U+20AC)
+(inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -4237,7 +4463,8 @@ and I'll forget about whatever was undefined.
 
 [50 <../img/chart_parts.png>]
 
-! Package inputenc Error: Unicode char \u8:€ not set up for use with LaTeX.
+! Package inputenc Error: Unicode char € (U+20AC)
+(inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -4251,7 +4478,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! Package inputenc Error: Unicode char \u8:€ not set up for use with LaTeX.
+! Package inputenc Error: Unicode char € (U+20AC)
+(inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -4332,7 +4560,7 @@ and I'll forget about whatever was undefined.
 [52]
 chapter 5.
 
-Overfull \hbox (10.96378pt too wide) in paragraph at lines 9--26
+Overfull \hbox (10.96375pt too wide) in paragraph at lines 9--26
 [] 
  []
 
@@ -4751,13 +4979,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 43293 strings out of 494903
- 874891 string characters out of 6178059
- 1071710 words of memory out of 5000000
- 44918 multiletter control sequences out of 15000+600000
+ 43610 strings out of 494866
+ 880218 string characters out of 6177854
+ 1077249 words of memory out of 5000000
+ 45266 multiletter control sequences out of 15000+600000
  64801 words of font info for 333 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 72i,18n,105p,10532b,1061s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,18n,105p,10504b,1061s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{formula\\protect\040\\T1\\textunderscore\040evalu
 ation} has been referenced but does not exist, replaced by a fixed one
 
@@ -4780,7 +5008,7 @@ public/cm-super/sftt1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/upl
 ri8a.pfb>
-Output written on excel_manual.pdf (71 pages, 1864579 bytes).
+Output written on excel_manual.pdf (71 pages, 1864562 bytes).
 PDF statistics:
  1682 PDF objects out of 1728 (max. 8388607)
  1492 compressed objects within 15 object streams

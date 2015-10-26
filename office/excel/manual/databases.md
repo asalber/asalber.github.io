@@ -189,9 +189,7 @@ With huge databases it's difficult to find the desired information. To overcome 
 
 
 ### Apply a simple filter
-The easiest way to perform this basic type of filtering on a field is to click the `AutoFilter` button (the button with the triangle that appears to the right of the header). This display a drop-down menu that contains at the end a list box with a complete listing of all entries
-made in that column, each with its own check box. In this list click the check box in front of the (Select All) option at the top of the field’s
-list box to clear the check boxes, then click each of the check boxes corresponding to the entries for the records you do want displayed in the filtered data list, and finally click OK. Excel then hides rows in the data list for all records except for those that contain the entries you just selected. 
+The easiest way to perform this basic type of filtering on a field is to click the `AutoFilter` button (the button with the triangle that appears to the right of the header). This display a drop-down menu that contains at the end a list box with a complete listing of all entries made in that column, each with its own check box. In this list click the check box in front of the (Select All) option at the top of the field’s list box to clear the check boxes, then click each of the check boxes corresponding to the entries for the records you do want displayed in the filtered data list, and finally click OK. Excel then hides rows in the data list for all records except for those that contain the entries you just selected. 
 
 **Example** The animation below shows how to filter the students of Sevilla and Albacete in a students database.  
 
