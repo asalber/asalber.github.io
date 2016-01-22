@@ -40,7 +40,7 @@ links:
     external: true
   - title: MiriadaX
     url: http://miriadax.net
-   
+    external: true
 estadistica:
   - title: Manual de Estadística
     url: /estadistica/manual
@@ -48,6 +48,11 @@ estadistica:
     url: /estadistica/ejercicios
   - title: Exámenes de Estadística
     url: /estadistica/examenes
+statistics:
+  - title: Statistics Manual
+    url: /statistics/manual
+  - title: Statistics exercises
+    url: /statistics/exercises  
 r: 
   - title: Bioestadística con R
     url: /estadistica/bioestadistica-rkteaching

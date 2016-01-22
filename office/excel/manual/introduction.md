@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Excel Manual
-description: "Introduction to Excel "
+description: "Introduction to Excel"
 image: logo_excel.jpg
 tags: [Office, Excel]
 share: true
