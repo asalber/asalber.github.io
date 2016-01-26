@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: plotly-book
 title: Statistics Manual
 description: "Descriptive Statistics"
 image: cabecera-estadistica.jpg
@@ -64,33 +64,30 @@ $$N_i = n_1 + \cdots + n_i = N_{i-1}+n_i$$
 >
 $$F_i = \frac{N_i}{n}$$
 
-<!--
-### Frequency table
-
-The set of values of a variable with their respective frequencies is
-called of the variable in the sample, and it is usually represented as a
-.
-
-<span>|&gt;p<span>1.8cm</span>|&gt;p<span>1.8cm</span>|&gt;p<span>1.8cm</span>|&gt;p<span>1.8cm</span>|p<span>1.8cm</span>&lt;|</span>
-& & & &\
-$x_1$ & $n_1$ & $f_1$ & $N_1$ & $F_1$\
-$\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$\
-$x_i$ & $n_i$ & $f_i$ & $N_i$ & $F_i$\
-$\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$\
-$x_k$ & $n_k$ & $f_k$ & $N_k$ & $F_k$\
 
 ### Frequency table
 
-#### Example of quantitative variable and non-grouped data
+The set of values of a variable with their respective frequencies is called **frequency distribution** of the variable in the sample, and it is usually represented as a **frequency table**.
 
-The number of children in 25 families are:
+|$X$ values|Absolute frequency|Relative frequency|Cumulative absolute frequency|Cumulative relative frequency|
+|:-:|:-:|:-:|:-:|:-:|
+|$x_1$|$n_1$|$f_1$|$N_1$|$F_1$|
+|$\vdots$|$\vdots$|$\vdots$|$\vdots$|$\vdots$|
+|$x_i$|$n_i$|$f_i$|$N_i$|$F_i$|
+|$\vdots$|$\vdots$|$\vdots$|$\vdots$|$\vdots$|
+|$x_k$|$n_k$|$f_k$|$N_k$|$F_k$|
 
-1, 2, 4, 2, 2, 2, 3, 2, 1, 1, 0, 2, 2,\
-0, 2, 2, 1, 2, 2, 3, 1, 2, 2, 1, 2
+<br/>
 
-The frequency table for the number of children in this sample is
-$$\setlength\arraycolsep{3mm}
-\setlength\arrayrulewidth{0.5pt}
+**Example - Quantitative variable and non-grouped data**. The number of children in 25 families are:
+
+<div style="text-align:center">
+1, 2, 4, 2, 2, 2, 3, 2, 1, 1, 0, 2, 2, 0, 2, 2, 1, 2, 2, 3, 1, 2, 2, 1, 2
+</div>
+
+The frequency table for the number of children in this sample is 
+
+$$
 \begin{array}{rrrrr}
 \hline
 x_i & n_i & f_i & N_i & F_i\\
@@ -105,22 +102,20 @@ x_i & n_i & f_i & N_i & F_i\\
 \hline
 \end{array}$$
 
-### Frequency table
+**Example - Quantitative variable and grouped data**. The heights (in cm) of 30 students are:
 
-#### Example of quantitative variable and grouped data
-
-The heights (in cm) of 30 students are:
-
-179, 173, 181, 170, 158, 174, 172, 166, 194, 185,\
-162, 187, 198, 177, 178, 165, 154, 188, 166, 171,\
+<div style="text-align:center">
+179, 173, 181, 170, 158, 174, 172, 166, 194, 185,<br/>
+162, 187, 198, 177, 178, 165, 154, 188, 166, 171,<br/>
 175, 182, 167, 169, 172, 186, 172, 176, 168, 187.
+</div>
 
 The frequency table for the height in this sample is
-$$\setlength\arraycolsep{3mm}
-\setlength\arrayrulewidth{0.5pt}
-\begin{array}{rrrrr}
+
+$$
+\begin{array}{crrrr}
 \hline
-\multicolumn{1}{c}{x_i} & \multicolumn{1}{c}{n_i} & \multicolumn{1}{c}{f_i} & \multicolumn{1}{c}{N_i} & \multicolumn{1}{c}{F_i}\\
+x_i & n_i & f_i & N_i & F_i\\
 \hline
 (150,160] & 2 & 0.07 & 2 & 0.07\\
 (160,170] & 8 & 0.27 & 10 & 0.34\\
@@ -130,40 +125,32 @@ $$\setlength\arraycolsep{3mm}
 \hline
 \sum & 30 & 1 \\
 \hline
-\end{array}$$
+\end{array}
+$$
 
 ### Classes construction
 
-Intervals are known as and the center of intervals as .
+Intervals are known as and the center of intervals as **classes** and the center of intervals as **class marks**.
 
-When grouping data into intervals, the following rules must be taken
-into account:
+When grouping data into intervals, the following rules must be taken into account:
 
--   The number of intervals should not be too big nor too small. A usual
-    rule of thumb is to take a number of intervals approximately
-    $\sqrt{n}$ or $\log_2(n)$.
+- The number of intervals should not be too big nor too small. A usual rule of thumb is to take a number of intervals approximately $\sqrt{n}$ or $\log_2(n)$.
+- The intervals must not overlap and must cover the entire range of values. It doesn’t matter if intervals are left-open and right-closed or vice versa.
 
--   The intervals must not overlap and must cover the entire range of
-    values. It doesn’t matter if intervals are left-open and
-    right-closed or vice versa.
+- The minimum value must fall in the first interval and the maximum value in the last.
 
--   The minimum value must fall in the first interval and the maximum
-    value in the last.
+**Example - Qualitative variable**. The blood type of 30 people are:
 
-### Frequency table
+<div style="text-align:center">
+A, B, B, A, AB, 0, 0, A, B, B, A, A, A, A, AB, A, A, A, B, 0, B, B, B, A, A, A, 0, A, AB, 0.
+</div>
 
-#### Example with qualitative variable
+The frequency table of the blood type is 
 
-The blood type of 30 people are:
-
-A, B, B, A, AB, 0, 0, A, B, B, A, A, A, A, AB,\
-A, A, A, B, 0, B, B, B, A, A, A, 0, A, AB, 0.
-
-The frequency table of the blood type is $$\setlength\arraycolsep{3mm}
-\setlength\arrayrulewidth{0.5pt}
+$$
 \begin{array}{crr}
 \hline
-\multicolumn{1}{c}{x_i} & \multicolumn{1}{c}{n_i} & \multicolumn{1}{c}{f_i} \\
+x_i & n_i & f_i \\
 \hline
 \mbox{0} & 5 & 0.16 \\
 \mbox{A} & 14 & 0.47 \\
@@ -172,229 +159,188 @@ The frequency table of the blood type is $$\setlength\arraycolsep{3mm}
 \hline
 \sum & 30 & 1 \\
 \hline
-\end{array}$$
+\end{array}
+$$
 
-*Why there are not cumulative frequencies?*
+*Observe that in this case cumulative frequencies are nonsense as there is no order in the variable.*.
 
 Frequency distribution graphs
 -----------------------------
 
-### Frequency distribution graphs
-
 Usually the frequency distribution is also displayed graphically.
 
-Depending on the type of variable and if data has been grouped or not,
-there are different types of charts:
+Depending on the type of variable and if data has been grouped or not, there are different types of charts:
 
 -   Bar chart
 
 -   Histogram
 
--   Line chart or ogive.
+-   Line chart
 
 -   Pie chart
 
 ### Bar chart
 
-A consists in a set of bars, one for every value or category of the
-variable, plotted on a coordinate system.
+A *bar chart* consists in a set of bars, one for every value or category of the variable, plotted on a coordinate system.
 
-Usually the values or categories of the variable are represented on the
-$x$-axis, and the frequencies on the $y$-axis. For each value or
-category of the variable, a bar is draw to the height of its frequency.
-The width of the bar is not important but bars should be clearly
-separated among them.
+Usually the values or categories of the variable are represented on the $x$-axis, and the frequencies on the $y$-axis. For each value or category of the variable, a bar is draw to the height of its frequency. The width of the bar is not important but bars should be clearly separated among them.
 
-Depending on the type of frequency represented in the $y$-axis we get
-different types of bar charts.
+Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.
 
-Sometimes a polygon, known as , is plotted joining the top of every bar.
+Sometimes a polygon, known as **frequency polygon**, is plotted joining the top of every bar with straight lines.
 
-### Absolute frequency bar chart
+**Example**. The bar chart below shows the absolute frequency distribution of the number of children.
 
-#### Non-grouped data
+<div id="absolute-barchart" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="absolute-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[2,6,14,2,1]}],"layout":{"title":"Absolute frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Absolute frequency"},"autosize":false, "width":600, "height":400, "bargap":0.5, "margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Absolute frequency distribution of number of children"},"evals":[]}</script>
 
-### Absolute frequency line chart or polygon
+The bar chart below shows the relative frequency distribution of the number of children with the frequency polygon. 
 
-#### Non-grouped data
+<div id="relative-barchart" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="relative-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"bar"},{"type":"scatter","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"polygon"}],"layout":{"title":"Relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false},"filename":"Relative frequency distribution of number of children"},"evals":[]}</script>
 
-### Cumulative absolute frequency bar chart
+The bar chart below shows the cumulative absolute frequency distribution of the number of children.
 
-#### Non-grouped data
+<div id="cumulative-absolute-barchart" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="cumulative-absolute-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[2,8,22,24,25]}],"layout":{"title":"Cumulative absolute frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Cumulative absolute frequency"},"autosize":false, "width":600, "height":400,"barsgap":0.5,"bargap":0.5,"margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Cumulative absolute frequency distribution of number of children"},"evals":[]}</script>
 
-### Cumulative absolute frequency line chart or polygon
+And the bar chart below shows the cumulative relative frequency distribution of the number of children with the frequency polygon.
 
-#### Non-grouped data
+<div id="cumulative-relative-barchart" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="cumulative-relative-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,0,1,2,3,4],"y":[0,0.08,0.32,0.88,0.96,1],"name":"bar"},{"type":"scatter","inherit":true,"x":[0,0,1,2,3,4],"y":[0,0.08,0.32,0.88,0.96,1],"name":"polygon","line":{"shape":"hv"}}],"layout":{"title":"Cumulative relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Cumulative relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Cumulative relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Cumulative relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false},"filename":"Cumulative relative frequency distribution of number of children"},"evals":[]}</script>
+
+<div id="cumula" class="plotly" style="margin: auto; width:80%"></div>
 
 ### Histogram
 
-A is similar to a bar chart but for grouped data.
+A *histogram* is similar to a bar chart but for grouped data.
 
-Usually the classes or grouping intervals are represented on the
-$x$-axis, and the frequencies on the $y$-axis. For each class, a bar is
-draw to the height of its frequency. Contrary to bar charts, the width
-of bars coincides with the width of classes, and there are no space
-between two consecutive bars.
+Usually the classes or grouping intervals are represented on the $x$-axis, and the frequencies on the $y$-axis. For each class, a bar is draw to the height of its frequency. Contrary to bar charts, the width of bars coincides with the width of classes, and there are no space between two consecutive bars.
 
-Depending on the type of frequency represented in the $y$-axis we get
-different types of histograms.
+<img class="img-center" src="img/descriptive/histogram_creation.gif" alt="Sample classification" width="400">
 
-Sometimes a polygon, known as , is plotted joining the top of every bar.
+Depending on the type of frequency represented in the $y$-axis we get different types of histograms.
 
-### Absolute frequency histogram
+As with the bar chart, the frequency polygon can be drawn joining the top centre of every bar with straight lines.
 
-#### Grouped data
+**Example**. The histogram below shows the absolute frequency distribution of heights.
 
-### Absolute frequency histogram
+<div id="absolute-histogram" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="absolute-histogram">{"x":{"data":[{"type":"histogram","inherit":true,"x":[179,173,181,169,158,174,172,166,194,185,162,187,198,177,178,165,154,188,166,171,175,182,167,169,172,186,172,176,168,187],"marker":{"line":{"width":1}}}],"layout":{"title":"Absolute frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Absolute frequency"},"autosize":false,"width":600,"height":400,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Absolute frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Absolute frequency"},"autosize":false,"width":600,"height":400},"filename":"Absolute frequency distribution of heights"},"evals":[]}</script>
 
-#### Grouped data
+The histogram below shows the relative frequency distribution of heights with the frequency polygon.
 
-### Cumulative absolute frequency histogram
+<div id="relative-histogram" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="relative-histogram">{"x":{"data":[{"type":"histogram","inherit":true,"x":[179,173,181,169,158,174,172,166,194,185,162,187,198,177,178,165,154,188,166,171,175,182,167,169,172,186,172,176,168,187],"marker":{"line":{"width":1}},"histnorm":"probability","name":"bar"},{"type":"scatter","inherit":true,"x":[155,165,175,185,195],"marker":{"line":{"width":1}},"histnorm":"probability","name":"polygon","y":[0.0667,0.2667,0.3667,0.2333,0.0667]}],"layout":{"title":"Relative frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Relative frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"showlegend":false},"filename":"Relative frequency distribution of heights"},"evals":[]}</script>
 
-#### Grouped data
+The cumulative frequency polygon (for absolute or relative frequencies) is known as **ogive**. 
 
-### Cumulative absolute frequency line chart or ogive
+**Example**. The histogram and the ogive below show the cumulative relative distribution of heights. 
 
-#### Grouped data
+<div id="ogive" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="ogive">{"x":{"data":[{"type":"bar","inherit":true,"x":[155,165,175,185,195],"y":[0.0666666666666667,0.333333333333333,0.7,0.933333333333333,1],"marker":{"line":{"width":1}},"name":"bar"},{"type":"scatter","inherit":true,"x":[150,160,170,180,190,200],"y":[0,0.0666666666666667,0.333333333333333,0.7,0.933333333333333,1],"marker":{"line":{"width":1}},"name":"ogive"}],"layout":{"title":"Cumulative relative frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Cumulative relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Cumulative relative frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Cumulative relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0,"showlegend":false},"filename":"Cumulative relative frequency distribution of heights"},"evals":[]}</script>
 
-### Cumulative relative frequency histogram
-
-#### Grouped data
-
-### Cumulative relative frequency line chart or ogive
-
-#### Grouped data
+Observe that in the ogive we join the top right corner of bars with straight lines, instead of the top center, cause we don't reach the accumulated frequency of the class until the end of the interval. 
 
 ### Pie chart
 
-A consists in a circle divided in slices, one for every value or
-category of the variable. Each slice is called and its angle or area is
-proportional to the frequency of the corresponding value or category.
+A *pie chart* consists in a circle divided in slices, one for every value or category of the variable. Each slice is called **sector** and its angle or area is proportional to the frequency of the corresponding value or category.
 
-Pie charts can represent absolute or relative frequencies, but not
-cumulative frequencies, and are used with nominal qualitative variables.
-For ordinal qualitative or quantitative variables is better to use bar
-charts or histograms, cause it’s easy to perceive differences in one
-dimension (lenght of bars) than in two dimensions (areas of sectors).
+Pie charts can represent absolute or relative frequencies, but not cumulative frequencies, and are used with nominal qualitative variables. For ordinal qualitative or quantitative variables is better to use bar charts or histograms, cause it’s easier to perceive differences in one dimension (length of bars) than in two dimensions (areas of sectors).
 
-### Pie chart
+**Example**. The pie chart below show the relative frequency distribution of blood types. 
 
-#### Nominal variables
+<div id="piechart" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="piechart">{"x":{"data":[{"type":"pie","inherit":true,"labels":["0","A","AB","B"],"values":[5,14,3,8]}],"layout":{"title":"Relative frequency distribution of blood types","autosize":false,"width":600,"height":400,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Relative frequency distribution of blood types","autosize":false,"width":600,"height":400},"filename":"Relative frequency distribution of blood types"},"evals":[]}</script>
+
+
 
 ### Outliers
 
-One of the main problems in samples are , that are values very different
-from the rest of values of the sample.
+One of the main problems in samples are **outliers**, that are values very different from the rest of values of the sample.
 
-![image](img/descriptive/outlier.png)
+**Example**. The last height of the following sample of heights is an outlier. 
 
-It’s important to find out outliers before doing any analysis, cause .
+<img class="img-center" src="img/descriptive/outlier.png" alt="Outlier" width="400">
 
-They always appears in the ends of the distribution, and can be find out
-easily with a box and whiskers chart (as be showed later).
+It’s important to find out outliers before doing any analysis, cause outliers usually distort the results.
+
+They always appears in the ends of the distribution, and can be find out easily with a box and whiskers chart (as be showed later).
 
 ### Outliers management
 
-With big samples outliers have less importance and can be left in the
-sample.
+With big samples outliers have less importance and can be left in the sample.
 
 With small samples we have several options:
 
 -   Remove the outlier if it’s an error.
+-   Replace the outlier by the lower or higher value in the distribution that is not an outlier if it’s not an error and the outlier doesn’t fit the theoretical distribution.
+-   Leave the outlier if it’s not an error, and change the theoretical model to fit it to outliers.
 
--   Replace the outlier by the lower or higher value in the distribution
-    that is not an outlier if it’s not an error and the outlier doesn’t
-    fit the theoretical distribution.
-
--   Leave the outlier if it’s not an error, and change the theoretical
-    model to fit it to outliers.
 
 Sample statistics
-=================
+-----------------
 
-### Sample statistics
+The frequency table and charts summarize and give an overview of the distribution of values of the studied variable in the sample, but it’s difficult to describe some aspects of the distribution from it, as for example, which are the most representative values of the distribution, how is the spread of data, which data could be considered outliers, how is the symmetry of the distribution.
 
-The frequency table and charts summarize and give an overview of the
-distribution of values of the studied variable in the sample, but it’s
-difficult to describe some aspects of the distribution from it, as for
-example, which are the most representative values of the distribution,
-how is the spread of data, which data could be considered outliers, how
-is the symmetry of the distribution.
+To describe those aspects of the sample distribution more specific numerical measures, called **sample statistics**, are used.
 
-To describe those aspects of the sample distribution more specific
-numerical measures, called , are used.
+According to the aspect of the distribution that they study, there are different types of statistics:
 
-According to the aspect of the distribution that they study, there are
-different types of statistics:
+**Measures of locations**: They measure the values where data are concentrated or that divide the distribution into equal parts.
 
-Measures of locations:
+**Measures of dispersion**: They measure the spread of data.
 
-:   They measure the values where data are concentrated or that divide
-    the distribution into equal parts.
-
-Measures of dispersion:
-
-:   They measure the spread of data.
-
-Measures of shape:
-
-:   They measure the symmetry and kurtosis of the distribution.
+**Measures of shape**: They measure the symmetry and kurtosis of the distribution.
 
 Location statistics
 -------------------
 
-### Location statistics
-
 There are two groups:
 
-Central location measures:
+**Central location measures**: They measure the values where data are concentrated, and that usually are in the centre of the distribution. These values are the values that best represents the sample data. The most important are:
 
-:   They measure the values where data are concentrated, and that
-    usually are in the centre of the distribution. These values are the
-    values that best represents the sample data. The most important are:
+-   Arithmetic mean
 
-    -   Arithmetic mean
+-   Median
 
-    -   Median
+-   Mode
 
-    -   Mode
+**Non-central location measures**: They divide the sample data into equals parts. The most important are:
 
-Non-central location measures:
+-   Quartiles.
 
-:   They divide the sample data into equals parts. The most important
-    are:
+-   Deciles.
 
-    -   Quartiles.
-
-    -   Deciles.
-
-    -   Percentiles.
+-   Percentiles.
 
 ### Arithmetic mean
 
-\[Sample arithmetic mean $\bar{x}$\] The *sample arithmetic mean* of a
-variable $X$ is the sum of observed values in the sample divided by the
-sample size $$\bar{x} = \frac{\sum x_i}{n}$$
+>**Definition - Sample arithmetic mean $\bar{x}$**. The *sample arithmetic mean* of a variable $X$ is the sum of observed values in the sample divided by the sample size 
+>
+$$\bar{x} = \frac{\sum x_i}{n}$$
 
 From the frequency table can be calculated with the formula
+
 $$\bar{x} = \frac{\sum x_in_i}{n} = \sum x_i f_i$$
 
-In most cases the arithmetic mean is the value that best represent the
-observed values in the sample.
+In most cases the arithmetic mean is the value that best represent the observed values in the sample.
 
-### Arithmetic mean calculation
+**Watch out! It can not be calculated with qualitative variables.
 
-#### Example with non-grouped data
+**Example - Non-grouped data**. Using the data of the sample with the number of children of families, the arithmetic mean is 
 
-Using the data of the sample with the number of children of families,
-the arithmetic mean is $$\begin{aligned}
+$$\begin{aligned}
 \bar{x} &= \frac{1+2+4+2+2+2+3+2+1+1+0+2+2}{25}+\\
-&+\frac{0+2+2+1+2+2+3+1+2+2+1+2}{25} = \frac{44}{25} = 1.76 \mbox{ children}.\end{aligned}$$
-or using the frequency table $$\setlength\arraycolsep{3mm}
-\setlength\arrayrulewidth{0.5pt}
+&+\frac{0+2+2+1+2+2+3+1+2+2+1+2}{25} = \frac{44}{25} = 1.76 \mbox{ children}.
+\end{aligned}$$
+
+or using the frequency table 
+
+$$
 \begin{array}{rrrrr}
 \hline
-\multicolumn{1}{c}{x_i} & \multicolumn{1}{c}{n_i} & \multicolumn{1}{c}{f_i} & \multicolumn{1}{c}{x_in_i} & \multicolumn{1}{c}{x_if_i}\\
+x_i & n_i & f_i & x_in_i & x_if_i\\
 \hline
 0 & 2 & 0.08 & 0 & 0\\
 1 & 6 & 0.24 & 6 & 0.24\\
@@ -405,22 +351,21 @@ or using the frequency table $$\setlength\arraycolsep{3mm}
 \sum & 25 & 1 & 44 & 1.76 \\
 \hline
 \end{array}$$
-$$\bar{x} = \frac{\sum x_in_i}{n} = \frac{44}{25}= 1.76 \qquad \bar{x}=\sum{x_if_i} = 1.76.$$
-That means that the value that best represent the number of children in
-the families of the sample is $1.76$ children.
 
-### Arithmetic mean calculation
+$$\bar{x} = \frac{\sum x_in_i}{n} = \frac{44}{25}= 1.76 \mbox{ children}\qquad \bar{x}=\sum{x_if_i} = 1.76 \mbox{ children}.$$
 
-#### Example with grouped data
+That means that the value that best represent the number of children in the families of the sample is $1.76$ children.
 
-Using the data of the sample of student heights, the arithmetic mean is
-$$\bar{x} = \frac{179+173+\cdots+187}{30} = 175.07 \mbox{ cm}.$$ or
-using the frequency table with the class marks
-$$\setlength\arraycolsep{3mm}
-\setlength\arrayrulewidth{0.5pt}
-\begin{array}{rrrrrr}
+**Example - Grouped data**. Using the data of the sample of student heights, the arithmetic mean is 
+
+$$\bar{x} = \frac{179+173+\cdots+187}{30} = 175.07 \mbox{ cm}.$$ 
+
+or using the frequency table and taking the class marks as $x_i$,
+
+$$
+\begin{array}{crrrrr}
 \hline
-\multicolumn{1}{c}{X} & \multicolumn{1}{c}{x_i} & \multicolumn{1}{c}{n_i} & \multicolumn{1}{c}{f_i} & \multicolumn{1}{c}{x_in_i} & \multicolumn{1}{c}{x_if_i}\\
+X & x_i & n_i & f_i & x_in_i & x_if_i\\
 \hline
 (150,160] & 155 & 2 & 0.07 & 310 & 10.33\\
 (160,170] & 165 & 8 & 0.27 & 1320 & 44.00\\
@@ -431,141 +376,123 @@ $$\setlength\arraycolsep{3mm}
 \sum &  & 30 & 1 & 5240 & 174.67 \\
 \hline
 \end{array}$$
-$$\bar{x} = \frac{\sum x_in_i}{n} = \frac{5240}{30}= 174.67 \qquad \bar{x}=\sum{x_if_i} = 174.67.$$
 
-Observe that when the mean is calculated from the table the result
-differs a little from the real value, cause the values used in the
-calculations are the class marks instead of the actual values.
+$$\bar{x} = \frac{\sum x_in_i}{n} = \frac{5240}{30}= 174.67 \mbox{ cm} \qquad \bar{x}=\sum{x_if_i} = 174.67 \mbox{ cm}.$$
+
+Observe that when the mean is calculated from the table the result differs a little from the real value, cause the values used in the calculations are the class marks instead of the actual values.
 
 ### Weighted mean
 
-In some cases the values of the sample have different importance. In
-that case the importance or *weight* of each value of the sample must be
-taken into account when calculating the mean.
+In some cases the values of the sample have different importance. In that case the importance or *weight* of each value of the sample must be taken into account when calculating the mean.
 
-\[Sample weighted mean $\bar{x}_p$\] Given a sample of values
-$x_1,\ldots,x_n$ where every value $x_i$ has a weight $p_i$, the
-*weighted mean* of variable $X$ is the sum of the product of each value
-by its weight, divided by sum of weights
+> **Definition - Sample weighted mean $\bar{x}_p$**. Given a sample of values $x_1,\ldots,x_n$ where every value $x_i$ has a weight $p_i$, the *weighted mean* of variable $X$ is the sum of the product of each value by its weight, divided by sum of weights
+>
 $$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i}$$
 
-From the frequency table can be calculated with the formula
+From the frequency table can be calculated with the formula 
+
 $$\bar{x}_p = \frac{\sum x_ip_in_i}{\sum p_i}$$
 
-### Weighted mean calculation
+**Example**. Assume that a student wants to calculate a representative measure o its performance in a course. The grade and the credits of every subjects are
 
-Assume that a student wants to calculate a representative measure o its
-performance in a course. The grade and the credits of every subjects are
-
-  Subject      Credits   Grade
-  ----------- --------- -------
-  Maths           6        5
-  Economics       4        3
-  Chemistry       8        6
+  |Subject|Credits|Grade|
+  |:---------|:-:|:-:|
+  |Maths     | 6 | 5 |
+  |Economics | 4 | 3 |
+  |Chemistry | 8 | 6 |
 
 The arithmetic mean is
-$$\bar{x} = \frac{\sum x_i}{n} = \frac{5+3+6}{3}= 4.67 \text{ points},$$
-However, this measure does not represent well the performance of the
-student, as not all the subjects have the same importance and require
-the same effort to pass. Subjects with more credits require more work
-and must have more weight in the calculation of the mean.
 
-In this case is better to use the weighted mean, using the credits as
-the weights of grades, as a representative measure of the student effort
+$$\bar{x} = \frac{\sum x_i}{n} = \frac{5+3+6}{3}= 4.67 \text{ points},$$
+
+However, this measure does not represent well the performance of the student, as not all the subjects have the same importance and require the same effort to pass. Subjects with more credits require more work and must have more weight in the calculation of the mean.
+
+In this case is better to use the weighted mean, using the credits as the weights of grades, as a representative measure of the student effort 
+
 $$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i} = \frac{5\cdot 6+3\cdot 4+6\cdot 8}{6+4+8}= \frac{90}{18} = 5 \text{ points}.$$
 
 ### Median
 
-\[Sample median $Me$\] The *sample median* of a variable $X$ is the
-value that is in the middle of the ordered sample.
+> **Definition - Sample median $Me$**. The *sample median* of a variable $X$ is the value that is in the middle of the ordered sample.
 
-The median divides the sample distribution in into two equal parts, that
-is, there are the same number of values above and below the median. It
-has cumulative frequencies $N_{Me}= n/2$ y $F_{Me}= 0.5$.
+The median divides the sample distribution into two equal parts, that is, there are the same number of values above and below the median. Therefore, it has cumulative frequencies $N_{Me}= n/2$ y $F_{Me}= 0.5$.
 
-### Median calculation
-
-#### Non-grouped data
+*Watch out! It can not be calculated for nominal variables.*
 
 With non-grouped data, there are two possibilities:
 
--   Odd sample size: The median is the value in the position
-    $\frac{n+1}{2}$.
+-   Odd sample size: The median is the value in the position $\frac{n+1}{2}$.
 
--   Even sample size: The median is the average of values in positions
-    $\frac{n}{2}$ and $\frac{n}{2}+1$.
+-   Even sample size: The median is the average of values in positions $\frac{n}{2}$ and $\frac{n}{2}+1$.
 
-### Median calculation
+<img class="img-center" src="img/descriptive/median.svg" alt="Median calculation for non-grouped data" width="700">
 
-#### Example with non-grouped data
-
-Using the data of the sample with the number of children of families,
-the sample size is 25, that is odd, and the median is the value in the
+**Example**. Using the data of the sample with the number of children of families, the sample size is 25, that is odd, and the median is the value in the
 position $\frac{25+1}{2} = 13$ of the sorted sample.
-$$0,0,1,1,1,1,1,1,2,2,2,2,\fbox{2},2,2,2,2,2,2,2,2,2,3,3,4$$ and the
-median is 2 children.
 
-With the frequency table, the median is the lowest value with a
-cumulative absolute frequency greater than or equal to $13$, or with a
-cumulative relative frequency greater than or equal to $0.5$.
-$$\setlength\arraycolsep{3mm}
-\setlength\arrayrulewidth{0.5pt}
+$$0,0,1,1,1,1,1,1,2,2,2,2,\fbox{2},2,2,2,2,2,2,2,2,2,3,3,4$$ 
+
+and the median is 2 children.
+
+With the frequency table, the median is the lowest value with a cumulative absolute frequency greater than or equal to $13$, or with a cumulative relative frequency greater than or equal to $0.5$.
+
+$$
 \begin{array}{rrrrr}
 \hline
 x_i & n_i & f_i & N_i & F_i\\
 \hline
 0 & 2 & 0.08 & 2 & 0.08\\
 1 & 6 & 0.24 & 8 & 0.32\\
-\rowcolor{coral} \color{color1}2 & 14 & 0.56 & 22 & 0.88\\
+\color{red}2 & 14 & 0.56 & 22 & 0.88\\
 3 & 2  & 0.08 & 24 & 0.96\\
 4 & 1 & 0.04 & 25 & 1 \\
 \hline
 \sum & 25 & 1 \\
 \hline
-\end{array}$$
+\end{array}
+$$
+
 
 ### Mode
 
-\[Sample Mode $Mo$\] The *sample mode* of a variable $X$ is the most
-frequent value in the sample.
+> **Definition - Sample Mode $Mo$**. The *sample mode* of a variable $X$ is the most frequent value in the sample.
 
-With grouped data the *modal class* is the class with the highest
-frequency.
+With grouped data the *modal class* is the class with the highest frequency.
 
-It can be calculated for all types of variables (qualitative and
-quantitative).
+It can be calculated for all types of variables (qualitative and quantitative).
 
-Some distributions can have more than one mode
+Some distributions can have more than one mode.
 
-### Mode calculation
+<img class="img-center" src="img/descriptive/mode.svg" alt="Mode calculation" width="600">
 
-Using the data of the sample with the number of children of families,
-the value with the highest frequency is $2$, that is the mode $Mo = 2$
-children. $$\setlength\arraycolsep{3mm}
-\setlength\arrayrulewidth{0.5pt}
+
+**Example**. Using the data of the sample with the number of children of families, the value with the highest frequency is $2$, that is the mode $Mo = 2$
+children. 
+
+$$
 \begin{array}{rr}
 \hline
-\multicolumn{1}{c}{x_i} & \multicolumn{1}{c}{n_i} \\
+x_i & n_i \\
 \hline
 0 & 2 \\
 1 & 6 \\
-\rowcolor{coral}\color{color1} 2 & 14 \\
+\color{red} 2 & 14 \\
 3 & 2  \\
 4 & 1 \\
 \hline
-\end{array}$$
+\end{array}
+$$
 
-Using the data of the sample of student heights, the class with the
-highest frequency is $(170,180]$ that is the modal class $Mo=(170,180]$.
-$$\setlength\arraycolsep{3mm}
-\setlength\arrayrulewidth{0.5pt}
-\begin{array}{rr}
+Using the data of the sample of student heights, the class with the highest frequency is $(170,180]$ that is the modal class $Mo=(170,180]$.
+
+$$
+\begin{array}{cr}
 \hline
-\multicolumn{1}{c}{x_i} & \multicolumn{1}{c}{n_i} \\
+X & n_i \\
 \hline
 (150,160] & 2 \\
 (160,170] & 8 \\
-\rowcolor{coral} \color{color1}(170,180] & 11 \\
+\color{red}{(170,180]} & 11 \\
 (180,190] & 7 \\
 (190,200] & 2 \\
 \hline
@@ -573,32 +500,29 @@ $$\setlength\arraycolsep{3mm}
 
 ### Which central tendency statistic should I use?
 
-In general, when all the central tendency statistics can be calculated,
-is advisable to use them as representative values in the following
+In general, when all the central tendency statistics can be calculated, is advisable to use them as representative values in the following
 order:
 
-1.  Mean. Mean takes more information from the sample than the others,
-    as it takes into account the magnitude of data.
+1.  Mean. Mean takes more information from the sample than the others, as it takes into account the magnitude of data.
 
-2.  Median. Median takes less information than mean but more than mode,
-    as it takes into account the order of data.
+2.  Median. Median takes less information than mean but more than mode, as it takes into account the order of data.
 
-3.  Mode. Mode is the measure that fewer information takes from the
-    sample, as it only takes into account the absolute frequency
+3.  Mode. Mode is the measure that fewer information takes from the sample, as it only takes into account the absolute frequency
     of values.
 
-But, *be careful with outliers*, as the mean can be distorted by them.
-In that case is better to use the median as the value most
-representative.
+But, *be careful with outliers*, as the mean can be distorted by them. In that case is better to use the median as the value most representative.
 
-For example, if a sample of number of children of 7 families is
+**Example**. If a sample of number of children of 7 families is
 
-0, 0, 1, 1, 2, 2, 15
+<div style="text-align:center">
+0, 0, 1, 1, 2, 2, 15,
+</div>
 
-$\bar{x}=3$ children and $Me=1$ children
+then, $\bar{x}=3$ children and $Me=1$ children.
 
 *Which measure represent better the number of children in the sample?*
 
+<!--
 ### Non-central location measures
 
 The non-central location measures or *quantiles* divide the sample
