@@ -161,10 +161,10 @@ According to the nature of their values and their scale, they can be:
 
 - **Qualitative variables**. They measure non-numeric qualities. They can be:
 
-    - **Nominals**: There is no natural order between the categories.
+    - **Nominals**: There is no natural order between its categories.
         Example: The eyes or hair colour.
 
-    - **Ordinals**: There is a natural order between the categories.
+    - **Ordinals**: There is a natural order between its categories.
         Example: The education level.
 
 - **Quantitative variables**: They measure numeric quantities. They can be:
