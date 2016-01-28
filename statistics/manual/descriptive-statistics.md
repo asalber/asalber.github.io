@@ -463,8 +463,7 @@ It can be calculated for all types of variables (qualitative and quantitative).
 
 Some distributions can have more than one mode.
 
-<img class="img-center" src="img/descriptive/mode.svg" alt="Mode calculation" width="600">
-
+<img class="img-center" src="img/descriptive/mode.png" alt="Mode calculation" width="600">
 
 **Example**. Using the data of the sample with the number of children of families, the value with the highest frequency is $2$, that is the mode $Mo = 2$
 children. 
@@ -522,55 +521,35 @@ then, $\bar{x}=3$ children and $Me=1$ children.
 
 *Which measure represent better the number of children in the sample?*
 
-<!--
+
 ### Non-central location measures
 
-The non-central location measures or *quantiles* divide the sample
-distribution in equal parts.
+The non-central location measures or *quantiles* divide the sample distribution in equal parts.
 
 The most used are:
 
-Quartiles:
+**Quartiles**: Divide the distribution into 4 equal parts. There are 3 quartiles: $C_1$ (25% accumulated) , $C_2$ (50% accumulated), $C_3$ (75% accumulated).
 
-:   Divide the distribution into 4 equal parts. There are 3 quartiles:
-    $C_1$ (25% acumulated) , $C_2$ (50% acumulated), $C_3$
-    (75% acumulated).
+**Deciles**: Divide the distribution into 10 equal parts. There are 9 deciles: $D_1$ (10% accumulated) ,…, $D_9$ (90% accumulated).
 
-Deciles:
+**Percentiles**: Divide the distribution into en 100 equal parts. There are 99 percentiles: $P_1$ (1% accumulated),…, $P_{99}$ (99% accumulated).
 
-:   Divide the distribution into 10 equal parts.\
-    There are 9 deciles: $D_1$ (10% acumulated) ,…, $D_9$
-    (90% acumulated).
+<img class="img-center" src="img/descriptive/quantiles.svg" alt="Quartiles, deciles and percentiles" width="600">
 
-Percentiles:
+Observe that there is a correspondence between quartiles, deciles and percentiles. For example, first quartile coincide with percentile 25, and fourth decile coincides with the percentile 40.
 
-:   Divide the distribution into en 100 equal parts.\
-    There are 99 percentiles: $P_1$ (1% acumulated),…, $P_{99}$
-    (99% acumulated).
 
-### Quantiles
-
-&lt;4-&gt;<span> Observe that there is a correspondence between
-quartiles, deciles and percentiles. For example, first quartile coincide
-with percentile 25, and fourth decile coincides with the percentile
-40.</span>
-
-### Quantiles calculation
-
-Quantiles are calculated in a similar way to the median. The only
-difference lies in the cumulative relative frequency that correspond to
+Quantiles are calculated in a similar way to the median. The only difference lies in the cumulative relative frequency that correspond to
 every quantile.
 
-### Quantile calculation
+<img class="img-center" src="img/descriptive/quantiles_calculation.svg" alt="Quartiles, deciles and percentiles calculation" width="600">
 
-#### Example with non-grouped data
+**Example**. Using the data of the sample with the number of children of families, the cumulative relative frequencies were 
 
-Using the data of the sample with the number of children of families,
-the cumulative relative frequencies were $$\setlength\arraycolsep{3mm}
-\setlength\arrayrulewidth{0.5pt}
+$$
 \begin{array}{rr}
 \hline
-\multicolumn{1}{c}{x_i} & \multicolumn{1}{c}{F_i} \\
+x_i & F_i \\
 \hline
 0 & 0.08\\
 1 & 0.32\\
@@ -578,23 +557,22 @@ the cumulative relative frequencies were $$\setlength\arraycolsep{3mm}
 3 & 0.96\\
 4 & 1\\
 \hline
-\end{array}$$
+\end{array}
+$$
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 F_{C_1}=0.25 &\Rightarrow C_1 = 1 \text{ children},\\
 F_{C_2}=0.5 &\Rightarrow C_2 = 2 \text{ children},\\
 F_{C_3}=0.75 &\Rightarrow C_3 = 2 \text{ children},\\
 F_{D_4}=0.4 &\Rightarrow D_3 = 2 \text{ children},\\
-F_{P_{92}}=0.92 &\Rightarrow P_{92} = 3 \text{ children}.\\\end{aligned}$$
+F_{P_{92}}=0.92 &\Rightarrow P_{92} = 3 \text{ children}.
+\end{aligned}$$
 
 Dispersion statistics
 ---------------------
 
-### Dispersion statistics
-
-*Dispersion* or *spread* refers to the variability of data. So,
-dispersion statistics measure how the data values are scattered in
-general, or with respect to a central location measure.
+*Dispersion* or *spread* refers to the variability of data. So, dispersion statistics measure how the data values are scattered in general, or with respect to a central location measure.
 
 For quantitative variables, the most important are:
 
@@ -608,54 +586,47 @@ For quantitative variables, the most important are:
 
 -   Coefficient of variation
 
-### Range and interquartile range
+### Range
 
-\[Sample range\] The *sample range* of a variable $X$ is the difference
-between the the maximum and the minimum value in the sample.
+> **Definition - Sample range**. The *sample range* of a variable $X$ is the difference between the the maximum and the minimum value in the sample.
+
 $$\text{Range} = \max_{x_i} -\min_{x_i}$$
 
-The range measure the largest variation among the sample data. However,
-it’s very sensitive to outliers, as they appear at the ends of the
-distribution, and for that reason is rarely used.
+<img class="img-center" src="img/descriptive/range.svg" alt="Range" width="600">
 
-### Range and interquartile range
+The range measure the largest variation among the sample data. However, it’s very sensitive to outliers, as they appear at the ends of the distribution, and for that reason is rarely used.
 
-The following measure avoid the problem of outliers and is much more
-used.
+### Interquartile range
 
-\[Sample interquartile range\] The *sample interquartile range* of a
-variable $X$ is the difference between the third and the first sample
-quartiles. $$\text{IQR} = Q_3 -Q_1$$
+The following measure avoid the problem of outliers and is much more used.
+
+> **Definition - Sample interquartile range**. The *sample interquartile range* of a variable $X$ is the difference between the third and the first sample quartiles. 
+
+$$\text{IQR} = Q_3-Q_1$$
+
+<img class="img-center" src="img/descriptive/interquartile_range.svg" alt="Interquartile range" width="600">
 
 The interquartile range measures the spread of the 50% central data.
 
 ### Box plot
 
-The dispersion of a variable in a sample can be graphically represented
-with a , that represent five descriptive statistics (minimum, quartiles
-and maximum) known as the *five-numbers*. It consist in a box, drawn
-from the lower to the upper quartile, that represent the interquartile
-range, and two segments, known as the lower and the upper *whiskers*.
-Usually the box is split in two with the median.
+The dispersion of a variable in a sample can be graphically represented with a , that represent five descriptive statistics (minimum, quartiles and maximum) known as the *five-numbers*. It consist in a box, drawn from the lower to the upper quartile, that represent the interquartile range, and two segments, known as the lower and the upper *whiskers*. Usually the box is split in two with the median.
 
 This chart is very helpful as it serves to many purposes:
 
--   It serves to measure the spread of data as it represent the range
-    and the interquartile range.
+-   It serves to measure the spread of data as it represent the range and the interquartile range.
 
--   It serves to detect outliers, that are the values outside the
-    interval defined by the whiskers.
+-   It serves to detect outliers, that are the values outside the interval defined by the whiskers.
 
--   It serves to measure the symmetry of distribution, comparing the
-    length of the boxes and whiskers above and below the median.
+-   It serves to measure the symmetry of distribution, comparing the length of the boxes and whiskers above and below the median.
 
-### Box plot
 
-#### Example with newborn weights
+**Example**. The chart below shows a box plot of newborn weights. 
 
-### Box plot construction
+<img class="img-center" src="img/descriptive/boxplot.png" alt="Box plot of newborns weights" width="600">
 
-To create a box plot follow the steps below
+
+To create a box plot follow the steps below:
 
 1.  Calculate the quartiles.
 
@@ -663,24 +634,19 @@ To create a box plot follow the steps below
 
 3.  Split the box with the median or second quartile.
 
-4.  For the whiskers calculate first two values called *fences* $f_1$ y
-    $f_2$. The lower fence is the lower quartile minus one and a half
-    the interquartile range, and the upper fence is the upper quartile
-    plus one and a half the interquartile range: $$\begin{aligned}
+4.  For the whiskers calculate first two values called *fences* $f_1$ y  $f_2$. The lower fence is the lower quartile minus one and a half the interquartile range, and the upper fence is the upper quartile plus one and a half the interquartile range: 
+    
+    $$\begin{aligned}
     f_1&=Q_1-1.5\,\text{IQR}\\
-    f_2&=Q_3+1.5\,\text{IQR}\end{aligned}$$ The fences define the
-    interval where data are considered normal. Any value outside that
-    interval is considered an outlier.\
-    For the lower whisker draw a segment from the lower quartile to the
-    lower value in the sample grater than or equal to $f_1$, and for the
-    upper whisker draw a segment from the upper quartile to the highest
-    value in the sample lower than or equal to $f_2$.
+    f_2&=Q_3+1.5\,\text{IQR}
+    \end{aligned}$$ 
+    
+    The fences define the interval where data are considered normal. Any value outside that interval is considered an outlier. For the lower whisker draw a segment from the lower quartile to the lower value in the sample grater than or equal to $f_1$, and for the upper whisker draw a segment from the upper quartile to the highest value in the sample lower than or equal to $f_2$.
 
 5.  Finally, if there are some outlier, draw a dot in every outlier.
 
-### Box plot construction
 
-#### Example of number of children
+<!-- 
 
 ### Deviations from the mean
 
