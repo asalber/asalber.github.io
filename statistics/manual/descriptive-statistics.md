@@ -8,8 +8,7 @@ share: true
 ---
 
 
-Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the
-sample.
+Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.
 
 After the sampling process, is the next step in every statistical study and usually consists of:
 

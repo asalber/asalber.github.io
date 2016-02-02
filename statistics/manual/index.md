@@ -25,10 +25,12 @@ Table of Contents
 
 ## Download 
 This manual is available in pdf format. 
+
 [![Download Anki deck](/images/pdf_download.png)](./statistics_manual.pdf)
 
 ## Study flash cards
 There is an Anki deck of flash cards to study an remember the main concepts of this manual. 
+
 [![Download pdf](/images/anki_download.png)](./Statistics.apkg)
 
 If you don't know what is Anki, please visit the [Anki web site](http://ankisrs.net/). There is also a excellent tutorial about [Anki essentials](https://alexvermeer.com/download/Anki-Essentials-v1.0.pdf).
