@@ -451,6 +451,33 @@ x_i & n_i & f_i & N_i & F_i\\
 \end{array}
 $$
 
+#### Median calculation for grouped-data
+
+For grouped data the median is calculated the ogive, interpolating in the class with cumulative relative frequency 0.5.  
+
+<img class="img-center" src="img/descriptive/interpolation.svg" alt="Median calculation for grouped data" width="600">
+
+Both expressions are equal as the angle $\alpha$ is the same, and solving the equation we get that the formula for the median is
+
+$$
+Me=l_i+\frac{0.5-F_{i-1}}{F_i-F_{i-1}}(l_i-l_{i-1})=l_i+\frac{0.5-F_{i-1}}{f_i}a_i
+$$
+
+**Example - Grouped data**. Using the data of the sample of student heights, the median falls in clas (170,180].
+
+<img class="img-center" src="img/descriptive/interpolation_example_1.svg" alt="Example of median calculation for grouped data" width="600">
+
+And interpolating in interval (170,180] we get
+
+<img class="img-center" src="img/descriptive/interpolation_example_2.svg" alt="Example of median calculation for grouped data" width="600">
+
+Equating both expressions and solving the equation, we get  
+
+$$
+Me= 170+\frac{0.5-0.34}{0.7-0.34}(180-170)=170+\frac{0.16}{0.36}10=174.54 \mbox{ cm}.
+$$
+
+This means that half of the students in the sample have an height lower than or equat to 174.54 cm. 
 
 ### Mode
 
