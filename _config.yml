@@ -91,7 +91,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: true
+  enable_coderay: true
 
   coderay:
     coderay_line_numbers: nil
@@ -100,10 +100,11 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-
+# Gems
+gems: [jekyll-paginate]
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink:   /:categories/:title
 
 # Amount of post to show on home page
 paginate: 5
