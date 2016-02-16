@@ -591,7 +591,7 @@ $$
 F_{Q_1}=0.25 &\Rightarrow Q_1 = 1 \text{ children},\\
 F_{Q_2}=0.5 &\Rightarrow Q_2 = 2 \text{ children},\\
 F_{Q_3}=0.75 &\Rightarrow Q_3 = 2 \text{ children},\\
-F_{D_4}=0.4 &\Rightarrow D_3 = 2 \text{ children},\\
+F_{D_4}=0.4 &\Rightarrow D_4 = 2 \text{ children},\\
 F_{P_{92}}=0.92 &\Rightarrow P_{92} = 3 \text{ children}.
 \end{aligned}$$
 
