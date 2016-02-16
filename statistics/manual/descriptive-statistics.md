@@ -615,7 +615,7 @@ For quantitative variables, the most important are:
 ### Range
 
 > **Definition - Sample range**. The *sample range* of a variable $X$ is the difference between the the maximum and the minimum value in the sample.
-
+>
 $$\text{Range} = \max_{x_i} -\min_{x_i}$$
 
 <img class="img-center" src="img/descriptive/range.svg" alt="Range" width="600">
@@ -627,7 +627,7 @@ The range measure the largest variation among the sample data. However, it’s v
 The following measure avoid the problem of outliers and is much more used.
 
 > **Definition - Sample interquartile range**. The *sample interquartile range* of a variable $X$ is the difference between the third and the first sample quartiles. 
-
+>
 $$\text{IQR} = Q_3-Q_1$$
 
 <img class="img-center" src="img/descriptive/interquartile_range.svg" alt="Interquartile range" width="600">
