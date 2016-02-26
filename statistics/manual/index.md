@@ -16,7 +16,7 @@ Table of Contents
 
 - [Introduction](/statistics/manual/introduction.html)
 - [Descriptive Statistic for one variable](/statistics/manual/descriptive-statistics.html)
-- Descriptive Statistic for two variables: Regression y correlation
+- [Descriptive Statistic for two variables: Regression y correlation](/statistics/manual/regression.html)
 - Probability theory
 - Random variables
 - Parameter estimation: Confidence intervals

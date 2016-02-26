@@ -3,7 +3,7 @@ layout: plotly-book
 title: Statistics Manual
 description: "Descriptive Statistics"
 image: cabecera-estadistica.jpg
-tags: [Statistics, R]
+tags: [Statistics, Biostatistics]
 share: true
 ---
 
