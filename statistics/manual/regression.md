@@ -85,7 +85,7 @@ Usually the independent variable is represented in the $X$ axis and the dependen
 
 The result is a set of points that usually is known as a *point cloud*.
 
-**Example** The scatter plot below represent the distribution of heights and weights of the previous sample.
+**Example**. The scatter plot below represent the distribution of heights and weights of the previous sample.
 
 <img class="img-center" src="img/regression/height_weight_scatterplot.svg" alt="Scatter plot of heights and weights" width="600">
 
@@ -116,7 +116,7 @@ x_p & n_{p1} & \cdots & n_{pj} & \cdots & n_{pq} & \color{red}{n_{x_p}} \\
 \hline
 \end{array}$$
 
-**Example** The marginal frequency distributions for the previous sample of heights and weights are
+**Example**. The marginal frequency distributions for the previous sample of heights and weights are
 
 $$
 \begin{array}{|c||c|c|c|c|c|c|c|}
