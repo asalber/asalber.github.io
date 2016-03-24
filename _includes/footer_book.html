@@ -71,7 +71,31 @@
 <!-- Show/hide answers -->
 <script type="text/javascript">
     $(document).ready(function(){ 
-        $('.answer').on('click',function(){
+        $('.solucion').on('click',function(){
+            $(this).parent().next().toggle('fast');
+            if ($(this).text()=="Mostrar solución")
+            	$(this).text("Ocultar solución");
+            else
+            	$(this).text("Mostrar solución");
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){ 
+        $('.solution').on('click',function(){
+            $(this).parent().next().toggle('fast');
+            if ($(this).text()=="Show solution")
+            	$(this).text("Hide solution");
+            else
+            	$(this).text("Show solution");
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){ 
+        $('.resolucion').on('click',function(){
             $(this).parent().next().toggle('fast');
             if ($(this).text()=="Mostrar resolución")
             	$(this).text("Ocultar resolución");
@@ -81,6 +105,17 @@
     });
 </script>
 
+<script type="text/javascript">
+    $(document).ready(function(){ 
+        $('.resolution').on('click',function(){
+            $(this).parent().next().toggle('fast');
+            if ($(this).text()=="Show resolution")
+            	$(this).text("Hide resolution");
+            else
+            	$(this).text("Show resolution");
+        });
+    });
+</script>
 
 
 <!--  
