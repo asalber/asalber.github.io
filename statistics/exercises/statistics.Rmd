@@ -7,11 +7,11 @@ share: true
 image: dados.jpg
 ---
 
-```{r echo=FALSE, message=FALSE}
+```{r global_options, include=FALSE}
 library(knitr)
 library(printr)
 library(rk.Teaching)
-opts_chunk$set(comment=NA, fig.width=8, fig.height=6, digits=4)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
 col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
 ```
@@ -19,7 +19,7 @@ col2 <- rgb(238,50,36,max=255)
 ## Exercise 1
 The number of injuries suffered by the members of a soccer team in a league were
 
-```{r echo=FALSE}
+```{r}
 x <- c(0, 1, 2, 1, 3, 0, 1, 0, 1, 2, 0, 1, 1, 1, 2, 0, 1, 3, 2, 1, 2, 1, 0, 1)
 cat(x)
 ```
@@ -42,7 +42,7 @@ Calculate the following statistics and interpret them.
 ## Exercise 2
 The chart below shows the cumulative distribution of the time (in min) required by 66 students to do an exam.
 
-```{r echo=FALSE, fig.align="center"}
+```{r time_exam}
 x <- c(0,30,60,90,120,150)
 y <- c(0,9,15,29,55,66)
 data <- rep(c(15,45,75,105,135),c(9,6,14,26,11))
@@ -58,69 +58,79 @@ axis(2, at=seq(0,65,5), las=2)
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-3. $\bar x=\Sexpr{mean(x)}$ min, $s=\Sexpr{round(stdev(x),4)}$ min and $cv=\Sexpr{cv(x)}$.
+3. $\bar x=`r mean(x)`$ min, $s=`r round(stdev(x),4)`$ min and $cv=`r cv(x)`$.
 </div>
 
 ## Exercise 3
 In a study about the children growth two samples where drawn, one for newborns and the other for one year old. The height in cm of children in both samples were
 
-```{r echo=FALSE}
+```{r}
 x <- c(51, 50, 51, 53, 49, 50, 53, 50, 47, 50)
 y <- c(62, 65, 69, 71, 65, 66, 68, 69)
-cat("Newborn children:",x)
-cat("One year old children:",y)
+cat("Newborn children:",x,"\nOne year old children:",y)
 ```
-
 In which group is more representative the mean? Justify the answer.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Newborn children: $\bar x=\Sexpr{mean(x)}$ min, $s_x=\Sexpr{round(stdev(x),4)}$ min and $cv_x=\Sexpr{cv(x)}$.<br/>
-One year old children:  $\bar y=\Sexpr{mean(y)}$ min, $s_y=\Sexpr{round(stdev(y),4)}$ min and $cv_y=\Sexpr{cv(y)}$.
+Newborn children: $\bar x=`r mean(x)`$ min, $s_x=`r stdev(x)`$ min and $cv_x=`r cv(x)`$.<br/>
+One year old children:  $\bar y=`r mean(y)`$ min, $s_y=`r stdev(y)`$ min and $cv_y=`r cv(y)`$.
 </div>
 
 ## Exercise 4
-
 To determine the accuracy of a method for measuring hematocrit in blood, the measurement was repeated 8 times on the same blood sample. The results in percentage of hematocrit in plasma were
 
-
-$$42.2\quad 42.1\quad 41.9\quad 41.8\quad 42\quad 42.1\quad 41.9\quad 42$$
+```{r}
+x <- c(42.2, 42.1, 41.9, 41.8, 42, 42.1, 41.9, 42)
+cat(x)
+```
 What do you think about the accuracy of the method?
 
-The histogram below shows the frequency distribution of the body mass
-index (BMI) of a group of people by gender.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+$\bar x=`r mean(x)`$ min, $s=`r stdev(x)`$ min and $cv=`r cv(x)`$.
+</div>
 
+## Exercise 5
+The histogram below shows the frequency distribution of the body mass index (BMI) of a group of people by gender.
+
+```{r bmi_gender}
+require(Hmisc)
+bmi <- rep(c(17.5,22.5,27.5,32.5,37.5,17.5,22.5,27.5,32.5),c(7,25,10,5,1,9,30,5,1))
+gender <- rep(c("Female","Male"),c(48,45))
+data <- data.frame(bmi,gender)
+females <- subset(data,gender=="Female")
+males <- subset(data,gender=="Male")
+x <- females[["bmi"]]
+y <- males[["bmi"]]
+options(digits=0)
+out <- histbackback(split(bmi, gender), brks=seq(15,40,5), xlim=c(-30,30), main = 'Frequency distribution histogram of BMI by Gender', xlab=c("Female", "Male"), ylab="BMI")
+abline(v= (-25:25)*5 , col ="gray" , lty =3) 
+barplot(-out$left, col=col1 , horiz=TRUE, space=0, add=TRUE, axes=FALSE) 
+barplot(out$right, col=col2, horiz=TRUE, space=0, add=TRUE, axes=FALSE)
+options(digits=4, scipen=999)
+```
 1.  Draw the pie chart for the gender.
-
 2.  In which group is more representative the mean of the BMI?
-
 3.  Calculate the mean for the whole sample.
 
-Use the following sums\
-Males: $\sum x_i=1002$ kg/m$^2$ $\sum x_i^2 = 22781$ kg$^2$/m$^4$\
-Females: $\sum x_i=1160$ kg/m$^2$ $\sum x_i^2 = 29050$ kg$^2$/m$^4$
+Use the following sums
+Females: $\sum x_i=`r sum(x)`$ kg/m$^2$ $\sum x_i^2=`r sum(x^2)`$ kg$^2$/m$^4$
+Males: $\sum x_i=`r sum(y)`$ kg/m$^2$ $\sum x_i^2=`r sum(y^2)`$ kg$^2$/m$^4$
 
-The following table represents the frequency distribution of the yearly
-uses of a health insurance in a sample of clients of a insurance
-company.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. 
+```{r piechart_bmi_gender}
+tab <- table(gender)
+labels <- labels(tab)[[1]]
+pie(tab, main="Frequency distribution of gender", labels=labels, col=c(col1,col2))
+```
 
-  ---------- --- --- --- --- --- --- ---
-  Uses:        0   1   2   3   4   5   7
-  Clients:     4   8   6   3   2   1   1
-  ---------- --- --- --- --- --- --- ---
-
-Draw the box plot. How is the symmetry of the distribution?
-
-The box plots below correspond to the age of a sample of people by
-marital status.
-
-1.  Which group has higher ages?
-
-2.  Which group has lower central dispersion?
-
-3.  Which groups have outliers?
-
-4.  Which group has a distribution of ages more asymmetric?
+2. Females: $\bar x=`r mean(x)`$ min, $s_x=`r stdev(x)`$ min and $cv_x=`r cv(x)`$.<br/>
+Males:  $\bar y=`r mean(y)`$ min, $s_y=`r stdev(y)`$ min and $cv_y=`r cv(y)`$.<br/>
+3. $\bar z=`r mean(bmi)`$.
+</div>
 
 The following table represents the frequency distribution of ages at
 which a group of people suffered a heart attack.

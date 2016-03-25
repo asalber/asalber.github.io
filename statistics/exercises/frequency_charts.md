@@ -7,14 +7,7 @@ share: true
 image: dados.jpg
 ---
 
-```{r global_options, include=FALSE}
-library(knitr)
-library(printr)
-library(rk.Teaching)
-opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
-col1 <- rgb(5,161,230,max=255)
-col2 <- rgb(238,50,36,max=255)
-```
+
 
 ## Exercise 1
 Classify the following variables
@@ -118,21 +111,50 @@ $$
 ## Exercise 7
 The following table represents the frequency distribution of the yearly uses of a health insurance in a sample of clients of a insurance company.
 
-```{r}
-uses <- c(0, 1, 2, 3, 4, 5, 7)
-clients <- c(4, 8, 6, 3, 2, 1, 1)
-data <- data.frame(uses,clients)
-x <- rep(uses,clients)
-kable(data,"html")
-```
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> uses </th>
+   <th style="text-align:right;"> clients </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+</tbody>
+</table>
 
 Draw the box plot. How is the symmetry of the distribution?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-```{r boxplot_uses_health_insurance}
-boxplot(x, col=col1)
-```
+<img src="img/boxplot_uses_health_insurance-1.png" title="plot of chunk boxplot_uses_health_insurance" alt="plot of chunk boxplot_uses_health_insurance" style="display: block; margin: auto;" />
 </div>
 
 

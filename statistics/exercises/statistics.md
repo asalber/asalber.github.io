@@ -35,7 +35,7 @@ Calculate the following statistics and interpret them.
 ## Exercise 2
 The chart below shows the cumulative distribution of the time (in min) required by 66 students to do an exam.
 
-<img src="figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="img/time_exam-1.png" title="plot of chunk time_exam" alt="plot of chunk time_exam" style="display: block; margin: auto;" />
 
 1.  A which time have finished half of the students? And 90% of students?
 2.  Which percentage of students have finished after 100 minutes?
@@ -43,7 +43,7 @@ The chart below shows the cumulative distribution of the time (in min) required 
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-3. $\bar x=\Sexpr{mean(x)}$ min, $s=\Sexpr{round(stdev(x),4)}$ min and $cv=\Sexpr{cv(x)}$.
+3. $\bar x=75$ min, $s=51.2348$ min and $cv=0.6831$.
 </div>
 
 ## Exercise 3
@@ -51,63 +51,52 @@ In a study about the children growth two samples where drawn, one for newborns a
 
 
 ```
-Newborn children: 51 50 51 53 49 50 53 50 47 50
-```
-
-```
+Newborn children: 51 50 51 53 49 50 53 50 47 50 
 One year old children: 62 65 69 71 65 66 68 69
 ```
-
 In which group is more representative the mean? Justify the answer.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Newborn children: $\bar x=\Sexpr{mean(x)}$ min, $s_x=\Sexpr{round(stdev(x),4)}$ min and $cv_x=\Sexpr{cv(x)}$.<br/>
-One year old children:  $\bar y=\Sexpr{mean(y)}$ min, $s_y=\Sexpr{round(stdev(y),4)}$ min and $cv_y=\Sexpr{cv(y)}$.
+Newborn children: $\bar x=50.4$ min, $s_x=1.6852$ min and $cv_x=0.0334$.<br/>
+One year old children:  $\bar y=66.875$ min, $s_y=2.7128$ min and $cv_y=0.0406$.
 </div>
 
 ## Exercise 4
-
 To determine the accuracy of a method for measuring hematocrit in blood, the measurement was repeated 8 times on the same blood sample. The results in percentage of hematocrit in plasma were
 
 
-$$42.2\quad 42.1\quad 41.9\quad 41.8\quad 42\quad 42.1\quad 41.9\quad 42$$
+```
+42.2 42.1 41.9 41.8 42 42.1 41.9 42
+```
 What do you think about the accuracy of the method?
 
-The histogram below shows the frequency distribution of the body mass
-index (BMI) of a group of people by gender.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+$\bar x=42$ min, $s=0.1225$ min and $cv=0.0029$.
+</div>
 
+## Exercise 5
+The histogram below shows the frequency distribution of the body mass index (BMI) of a group of people by gender.
+
+<img src="img/bmi_gender-1.png" title="plot of chunk bmi_gender" alt="plot of chunk bmi_gender" style="display: block; margin: auto;" />
 1.  Draw the pie chart for the gender.
-
 2.  In which group is more representative the mean of the BMI?
-
 3.  Calculate the mean for the whole sample.
 
-Use the following sums\
-Males: $\sum x_i=1002$ kg/m$^2$ $\sum x_i^2 = 22781$ kg$^2$/m$^4$\
-Females: $\sum x_i=1160$ kg/m$^2$ $\sum x_i^2 = 29050$ kg$^2$/m$^4$
+Use the following sums
+Females: $\sum x_i=1160$ kg/m$^2$ $\sum x_i^2=29050$ kg$^2$/m$^4$
+Males: $\sum x_i=1002.5$ kg/m$^2$ $\sum x_i^2=22781.25$ kg$^2$/m$^4$
 
-The following table represents the frequency distribution of the yearly
-uses of a health insurance in a sample of clients of a insurance
-company.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. 
+<img src="img/piechart_bmi_gender-1.png" title="plot of chunk piechart_bmi_gender" alt="plot of chunk piechart_bmi_gender" style="display: block; margin: auto;" />
 
-  ---------- --- --- --- --- --- --- ---
-  Uses:        0   1   2   3   4   5   7
-  Clients:     4   8   6   3   2   1   1
-  ---------- --- --- --- --- --- --- ---
-
-Draw the box plot. How is the symmetry of the distribution?
-
-The box plots below correspond to the age of a sample of people by
-marital status.
-
-1.  Which group has higher ages?
-
-2.  Which group has lower central dispersion?
-
-3.  Which groups have outliers?
-
-4.  Which group has a distribution of ages more asymmetric?
+2. Females: $\bar x=24.1667$ min, $s_x=4.6022$ min and $cv_x=0.1904$.<br/>
+Males:  $\bar y=22.2778$ min, $s_y=3.1545$ min and $cv_y=0.1416$.<br/>
+3. $\bar z=23.2527$.
+</div>
 
 The following table represents the frequency distribution of ages at
 which a group of people suffered a heart attack.
