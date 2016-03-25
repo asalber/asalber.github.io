@@ -35,7 +35,7 @@ Calculate the following statistics and interpret them.
 ## Exercise 2
 The chart below shows the cumulative distribution of the time (in min) required by 66 students to do an exam.
 
-<img src="img/time_exam-1.png" title="plot of chunk time_exam" alt="plot of chunk time_exam" style="display: block; margin: auto;" />
+<img src="img/time_exam-1.svg" title="plot of chunk time_exam" alt="plot of chunk time_exam" style="display: block; margin: auto;" />
 
 1.  A which time have finished half of the students? And 90% of students?
 2.  Which percentage of students have finished after 100 minutes?
@@ -43,6 +43,8 @@ The chart below shows the cumulative distribution of the time (in min) required 
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
+1. $Me=94.62$ min. $P_{90}=132$ min.
+2. $57.08\%$ of students.
 3. $\bar x=75$ min, $s=51.2348$ min and $cv=0.6831$.
 </div>
 
@@ -79,7 +81,7 @@ $\bar x=42$ min, $s=0.1225$ min and $cv=0.0029$.
 ## Exercise 5
 The histogram below shows the frequency distribution of the body mass index (BMI) of a group of people by gender.
 
-<img src="img/bmi_gender-1.png" title="plot of chunk bmi_gender" alt="plot of chunk bmi_gender" style="display: block; margin: auto;" />
+<img src="img/bmi_gender-1.svg" title="plot of chunk bmi_gender" alt="plot of chunk bmi_gender" style="display: block; margin: auto;" />
 1.  Draw the pie chart for the gender.
 2.  In which group is more representative the mean of the BMI?
 3.  Calculate the mean for the whole sample.
@@ -91,100 +93,121 @@ Males: $\sum x_i=1002.5$ kg/m$^2$ $\sum x_i^2=22781.25$ kg$^2$/m$^4$
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 1. 
-<img src="img/piechart_bmi_gender-1.png" title="plot of chunk piechart_bmi_gender" alt="plot of chunk piechart_bmi_gender" style="display: block; margin: auto;" />
+<img src="img/piechart_bmi_gender-1.svg" title="plot of chunk piechart_bmi_gender" alt="plot of chunk piechart_bmi_gender" style="display: block; margin: auto;" />
 
 2. Females: $\bar x=24.1667$ min, $s_x=4.6022$ min and $cv_x=0.1904$.<br/>
 Males:  $\bar y=22.2778$ min, $s_y=3.1545$ min and $cv_y=0.1416$.<br/>
 3. $\bar z=23.2527$.
 </div>
 
-The following table represents the frequency distribution of ages at
-which a group of people suffered a heart attack.
+## Exercise 6
+The following table represents the frequency distribution of ages at which a group of people suffered a heart attack.
 
-  --------- ---------- ---------- ---------- ---------- ----------
-  Age        \[40-50)   \[50-60)   \[60-70)   \[70-80)   \[80-90)
-  Persons       6          12         23         19         5
-  --------- ---------- ---------- ---------- ---------- ----------
+
+|age     | persons|
+|:-------|-------:|
+|[40,50) |       6|
+|[50,60) |      12|
+|[60,70) |      23|
+|[70,80) |      19|
+|[80,90) |       5|
 
 Could we assume that the sample comes from a normal population?
 
-Use the following sums: $\sum x_i= 4275$ years,
-$\sum (x_i-\bar x)^2=7462$ years$^2$, $\sum (x_i-\bar x)^3=-18249$
-years$^3$, $\sum (x_i-\bar x)^4=2099636$ years$^4$.
+Use the following sums: $\sum x_i=4275$ years, $\sum(x_i-\bar x)^2=7461.5385$ years$^2$, $\sum (x_i-\bar x)^3=-18248.5207$ years$^3$, $\sum (x_i-\bar x)^4=2099635.8671$ years$^4$.
 
-To compare two rehabilitation treatments $A$ and $B$ for an injury,
-every treatment was applied to a different group of people. The number
-of days required to cure the injury in every group is shown in the
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+
+$g_1=-0.2283$ and $g_2=-0.5487$.
+</div>
+
+## Exercise 7
+To compare two rehabilitation treatments $A$ and $B$ for an injury, every treatment was applied to a different group of people. The number of days required to cure the injury in every group is shown in the
 following table:
 
-  -------- ----- -----
-  Days       $A$   $B$
-  20-40        5     8
-  40-60       20    15
-  60-80       18    20
-  80-100       7     7
-  -------- ----- -----
+
+|Days   |  A|  B|
+|:------|--:|--:|
+|20-40  |  5|  8|
+|40-60  | 20| 15|
+|60-80  | 18| 20|
+|80-100 |  7|  7|
 
 1.  In which treatment is more representative the mean?
-
 2.  In which treatment the distribution of days is more skew?
-
 3.  In which treatment the distribution is more peaked?
 
-Use the following sums:\
-$A$: $\sum x_i= 3040$ days, $\sum (x_i-\bar x)^2=14568$ days$^2$,
-$\sum (x_i-\bar x)^3=17011.2$ days$^3$, $\sum
-(x_i-\bar x)^4=9989603$ days$^4$\
-$B$: $\sum x_i= 3020$ days, $\sum (x_i-\bar x)^2=16992$ days$^2$,
-$\sum (x_i-\bar x)^3=-42393.6$ days$^3$, $\sum
-(x_i-\bar x)^4=12551516$ days$^4$\
+Use the following sums:
+$A$: $\sum x_i=3040$ days, $\sum (x_i-\bar x)^2=14568$ days$^2$, $\sum (x_i-\bar x)^3=17011.2$ days$^3$, $\sum (x_i-\bar x)^4=9989602.56$ days$^4$
+$B$: $\sum y_j=3020$ days, $\sum (y_j-\bar y)^2=16992$ days$^2$, $\sum (y_j-\bar y)^3=-42393.6$ days$^3$, $\sum (y_j-\bar y)^4=12551516.16$ days$^4$
 
-The systolic blood pressure (in mmHg) of a sample of persons is
-$$135\quad 128\quad 137\quad 110\quad 154\quad 142\quad 121\quad 127\quad 114\quad 103$$
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+
+1. $A$: $\bar a=60.8$ days, $s_a=17.0693$ days and $cv_a=0.2807$.<br/>
+$B$: $\bar b=60.4$ days, $s_b=18.4347$ days and $cv_b=0.3052$.<br/>
+2. $g_{1a}=0.0684$ and $g_{1b}=-0.1353$.<br/>
+3. $g_{2a}=-0.6465$ and $g_{2b}=-0.8264$.
+</div>
+
+## Exercise 8
+The systolic blood pressure (in mmHg) of a sample of persons is 
+
+```
+135 128 137 110 154 142 121 127 114 103
+```
 
 1.  Calculate the central tendency statistics.
-
 2.  How is the relative dispersion with respect to the mean?
-
 3.  How is the skewness of the sample distribution?
-
 4.  How is the kurtosis of the sample distribution?
+5.  If we know that the method used for measuring the blood pressure is biased, and, in order to get the right values, we have to apply the linear transformation $y=1.2x-5$, which are values of the statistics required to answer the previous questions for the corrected values of the blood pressure?
 
-5.  If we know that the method used for measuring the blood pressure is
-    biased, and, in order to get the right values, we have to apply the
-    linear transformation $y=1.2x-5$, which are values of the statistics
-    required to answer the previous questions for the corrected values
-    of the blood pressure?
+Use the following sums: $\sum x_i=1271$ mmHg, $\sum (x_i-\bar x)^2=2188.9$ mmHg$^2$, $\sum (x_i-\bar x)^3=2764.32$ mmHg$^3$, $\sum (x_i-\bar x)^4=1040079.937$ mmHg$^4$.
 
-Use the following sums: $\sum x_i= 1271$ mmHg,
-$\sum (x_i-\bar x)^2=2188.9$ mmHg$^2$, $\sum (x_i-\bar x)^3=2764.32$
-mmHg$^3$, $\sum (x_i-\bar x)^4=1040080$ mmHg$^4$.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
 
-The table below contains the frequency of pregnancies, abortions and
-births of a sample of 999 women in a city.
+1. $\bar x=127.1$ mmHg, $Me=127.5$ mmHg, $Mo=135$ mmHg.<br/>
+2. $s=14.7949$ mmHg and $cv=0.1164$.<br/>
+3. $g_1=0.0854$.<br/>
+4. $g_2=-0.8292$.<br/>
+5. $\bar x=147.52$ mmHg, $Me=148$ mmHg, $Mo=157$ mmHg, $s=17.7539$ mmHg, $cv=0.1203$, $g_1=0.0854$ and $g_2=-0.8292$.
+</div>
 
-  ----- ------------- ----------- --------
-   Num    Pregnancies   Abortions   Births
-    0              61         751       67
-    1              64         183       80
-    2             328          51      400
-    3             301          10      300
-    4             122           2       90
-    5              81           2       62
-    6              29           0        0
-    7              11           0        0
-    8               2           0        0
-  ----- ------------- ----------- --------
+## Exercise 9
+The table below contains the frequency of pregnancies, abortions and births of a sample of 999 women in a city.
+
+
+| Num| Pregnancies| Abortions| Births|
+|---:|-----------:|---------:|------:|
+|   0|          61|       751|     67|
+|   1|          64|       183|     80|
+|   2|         328|        51|    400|
+|   3|         301|        10|    300|
+|   4|         122|         2|     90|
+|   5|          81|         2|     62|
+|   6|          29|         0|      0|
+|   7|          11|         0|      0|
+|   8|           2|         0|      0|
 
 1.  How many birth outliers are in the sample?
-
 2.  Which variable has lower spread with respect to the mean?
+3.  Which value is relatively higher, 7 pregnancies or 4 abortions? Justify the answer.
 
-3.  Which value is relatively higher, 7 pregnancies or 4 abortions?
-    Justify the answer.
+Use the following sums:
+Pregnancies: $\sum x_i=2783$, $\sum x_i^2=9773$.
+Abortions: $\sum y_j=333$, $\sum y_j^2=559$.
+Births: $\sum z_k=2450$, $\sum z_k^2=7370$.
 
-Use the following sums:\
-Pregnancies: $\sum x_i= 2783$, $\sum x_i^2=9773$.\
-Abortions: $\sum x_i= 333$, $\sum x_i^2=559$.\
-Births: $\sum x_i= 2450$, $\sum x_i^2=7370$.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $129$ outliers. <br/>
+2. Pregnancies: $\bar x=2.7858$, $s_x=1.422$ and $cv_x=0.5105$.<br/>
+Abortions: $\bar y=0.3333$, $s_y=0.6697$ and $cv_y=2.009$.<br/>
+Births: $\bar z=2.4525$, $s_z=1.1674$ and $cv_z=0.476$.<br/>
+3. Standard score of $7$ pregnancies is $2.9635$, and standard score of $4$ abortions is $5.4754$.
+</div>
+
 

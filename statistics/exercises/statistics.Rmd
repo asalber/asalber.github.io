@@ -11,7 +11,7 @@ image: dados.jpg
 library(knitr)
 library(printr)
 library(rk.Teaching)
-opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg",  digits=4, echo=FALSE, warning=FALSE, message=FALSE)
 col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
 ```
@@ -58,7 +58,9 @@ axis(2, at=seq(0,65,5), las=2)
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-3. $\bar x=`r mean(x)`$ min, $s=`r round(stdev(x),4)`$ min and $cv=`r cv(x)`$.
+1. $Me=94.62$ min. $P_{90}=132$ min.
+2. $57.08\%$ of students.
+3. $\bar x=`r mean(x)`$ min, $s=`r stdev(x)`$ min and $cv=`r cv(x)`$.
 </div>
 
 ## Exercise 3
@@ -132,93 +134,141 @@ Males:  $\bar y=`r mean(y)`$ min, $s_y=`r stdev(y)`$ min and $cv_y=`r cv(y)`$.<b
 3. $\bar z=`r mean(bmi)`$.
 </div>
 
-The following table represents the frequency distribution of ages at
-which a group of people suffered a heart attack.
+## Exercise 6
+The following table represents the frequency distribution of ages at which a group of people suffered a heart attack.
 
-  --------- ---------- ---------- ---------- ---------- ----------
-  Age        \[40-50)   \[50-60)   \[60-70)   \[70-80)   \[80-90)
-  Persons       6          12         23         19         5
-  --------- ---------- ---------- ---------- ---------- ----------
+```{r}
+age <- c("[40,50)", "[50,60)", "[60,70)", "[70,80)", "[80,90)")
+persons <- c(6, 12, 23, 19, 5)
+x <- rep(c(45,55,65,75,85), persons)
+data <- data.frame(age,persons)
+kable(data)
+```
 
 Could we assume that the sample comes from a normal population?
 
-Use the following sums: $\sum x_i= 4275$ years,
-$\sum (x_i-\bar x)^2=7462$ years$^2$, $\sum (x_i-\bar x)^3=-18249$
-years$^3$, $\sum (x_i-\bar x)^4=2099636$ years$^4$.
+Use the following sums: $\sum x_i=`r sum(x)`$ years, $\sum(x_i-\bar x)^2=`r sum((x-mean(x))^2)`$ years$^2$, $\sum (x_i-\bar x)^3=`r sum((x-mean(x))^3)`$ years$^3$, $\sum (x_i-\bar x)^4=`r sum((x-mean(x))^4)`$ years$^4$.
 
-To compare two rehabilitation treatments $A$ and $B$ for an injury,
-every treatment was applied to a different group of people. The number
-of days required to cure the injury in every group is shown in the
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+```{r}
+n <- length(x)
+m <- mean(x)
+s <- stdev(x)
+g1 <- sum((x-m)^3)/(n*s^3)
+g2 <- sum((x-m)^4)/(n*s^4)-3
+```
+$g_1=`r g1`$ and $g_2=`r g2`$.
+</div>
+
+## Exercise 7
+To compare two rehabilitation treatments $A$ and $B$ for an injury, every treatment was applied to a different group of people. The number of days required to cure the injury in every group is shown in the
 following table:
 
-  -------- ----- -----
-  Days       $A$   $B$
-  20-40        5     8
-  40-60       20    15
-  60-80       18    20
-  80-100       7     7
-  -------- ----- -----
+```{r}
+Days <- c("20-40", "40-60", "60-80", "80-100")
+A <- c(5, 20, 18, 7)
+B <- c(8, 15, 20, 7)
+x <- rep(c(30,50,70,90), A)
+y <- rep(c(30,50,70,90), B)
+data <- data.frame(Days,A,B)
+kable(data)
+```
 
 1.  In which treatment is more representative the mean?
-
 2.  In which treatment the distribution of days is more skew?
-
 3.  In which treatment the distribution is more peaked?
 
-Use the following sums:\
-$A$: $\sum x_i= 3040$ days, $\sum (x_i-\bar x)^2=14568$ days$^2$,
-$\sum (x_i-\bar x)^3=17011.2$ days$^3$, $\sum
-(x_i-\bar x)^4=9989603$ days$^4$\
-$B$: $\sum x_i= 3020$ days, $\sum (x_i-\bar x)^2=16992$ days$^2$,
-$\sum (x_i-\bar x)^3=-42393.6$ days$^3$, $\sum
-(x_i-\bar x)^4=12551516$ days$^4$\
+Use the following sums:
+$A$: $\sum x_i=`r sum(x)`$ days, $\sum (x_i-\bar x)^2=`r sum((x-mean(x))^2)`$ days$^2$, $\sum (x_i-\bar x)^3=`r sum((x-mean(x))^3)`$ days$^3$, $\sum (x_i-\bar x)^4=`r sum((x-mean(x))^4)`$ days$^4$
+$B$: $\sum y_j=`r sum(y)`$ days, $\sum (y_j-\bar y)^2=`r sum((y-mean(y))^2)`$ days$^2$, $\sum (y_j-\bar y)^3=`r sum((y-mean(y))^3)`$ days$^3$, $\sum (y_j-\bar y)^4=`r sum((y-mean(y))^4)`$ days$^4$
 
-The systolic blood pressure (in mmHg) of a sample of persons is
-$$135\quad 128\quad 137\quad 110\quad 154\quad 142\quad 121\quad 127\quad 114\quad 103$$
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+```{r}
+# Treatment A
+nx <- length(x)
+mx <- mean(x)
+sx <- stdev(x)
+cvx <- cv(x)
+g1x <- sum((x-mx)^3)/(nx*sx^3)
+g2x <- sum((x-mx)^4)/(nx*sx^4)-3
+# Treatment B
+ny <- length(y)
+my <- mean(y)
+sy <- stdev(y)
+cvy <- cv(y)
+g1y <- sum((y-my)^3)/(ny*sy^3)
+g2y <- sum((y-my)^4)/(ny*sy^4)-3
+```
+1. $A$: $\bar a=`r mx`$ days, $s_a=`r sx`$ days and $cv_a=`r cvx`$.<br/>
+$B$: $\bar b=`r my`$ days, $s_b=`r sy`$ days and $cv_b=`r cvy`$.<br/>
+2. $g_{1a}=`r g1x`$ and $g_{1b}=`r g1y`$.<br/>
+3. $g_{2a}=`r g2x`$ and $g_{2b}=`r g2y`$.
+</div>
+
+## Exercise 8
+The systolic blood pressure (in mmHg) of a sample of persons is 
+```{r}
+x <- c(135, 128, 137, 110, 154, 142, 121, 127, 114, 103)
+cat(x)
+```
 
 1.  Calculate the central tendency statistics.
-
 2.  How is the relative dispersion with respect to the mean?
-
 3.  How is the skewness of the sample distribution?
-
 4.  How is the kurtosis of the sample distribution?
+5.  If we know that the method used for measuring the blood pressure is biased, and, in order to get the right values, we have to apply the linear transformation $y=1.2x-5$, which are values of the statistics required to answer the previous questions for the corrected values of the blood pressure?
 
-5.  If we know that the method used for measuring the blood pressure is
-    biased, and, in order to get the right values, we have to apply the
-    linear transformation $y=1.2x-5$, which are values of the statistics
-    required to answer the previous questions for the corrected values
-    of the blood pressure?
+Use the following sums: $\sum x_i=`r sum(x)`$ mmHg, $\sum (x_i-\bar x)^2=`r sum((x-mean(x))^2)`$ mmHg$^2$, $\sum (x_i-\bar x)^3=`r sum((x-mean(x))^3)`$ mmHg$^3$, $\sum (x_i-\bar x)^4=`r sum((x-mean(x))^4)`$ mmHg$^4$.
 
-Use the following sums: $\sum x_i= 1271$ mmHg,
-$\sum (x_i-\bar x)^2=2188.9$ mmHg$^2$, $\sum (x_i-\bar x)^3=2764.32$
-mmHg$^3$, $\sum (x_i-\bar x)^4=1040080$ mmHg$^4$.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+```{r}
+n <- length(x)
+m <- mean(x)
+s <- stdev(x)
+g1 <- sum((x-m)^3)/(n*s^3)
+g2 <- sum((x-m)^4)/(n*s^4)-3
+```
+1. $\bar x=`r m`$ mmHg, $Me=`r median(x)`$ mmHg, $Mo=`r Mode(x)`$ mmHg.<br/>
+2. $s=`r s`$ mmHg and $cv=`r cv(x)`$.<br/>
+3. $g_1=`r g1`$.<br/>
+4. $g_2=`r g2`$.<br/>
+5. $\bar x=`r m*1.2-5`$ mmHg, $Me=`r median(x)*1.2-5`$ mmHg, $Mo=`r Mode(x)*1.2-5`$ mmHg, $s=`r 1.2*s`$ mmHg, $cv=`r 1.2*s/(1.2*m-5)`$, $g_1=`r g1`$ and $g_2=`r g2`$.
+</div>
 
-The table below contains the frequency of pregnancies, abortions and
-births of a sample of 999 women in a city.
+## Exercise 9
+The table below contains the frequency of pregnancies, abortions and births of a sample of 999 women in a city.
 
-  ----- ------------- ----------- --------
-   Num    Pregnancies   Abortions   Births
-    0              61         751       67
-    1              64         183       80
-    2             328          51      400
-    3             301          10      300
-    4             122           2       90
-    5              81           2       62
-    6              29           0        0
-    7              11           0        0
-    8               2           0        0
-  ----- ------------- ----------- --------
+```{r}
+Num <- seq(0,8)
+Pregnancies <- c(61, 64, 328, 301, 122, 81, 29, 11, 2)
+Abortions <- c(751, 183, 51, 10, 2, 2, 0, 0, 0)
+Births <- c(67, 80, 400, 300, 90, 62, 0, 0, 0)
+x <- rep(Num, Pregnancies)
+y <- rep(Num, Abortions)
+z <- rep(Num, Births)
+data <- data.frame(Num, Pregnancies, Abortions, Births)
+kable(data)
+```
 
 1.  How many birth outliers are in the sample?
-
 2.  Which variable has lower spread with respect to the mean?
+3.  Which value is relatively higher, 7 pregnancies or 4 abortions? Justify the answer.
 
-3.  Which value is relatively higher, 7 pregnancies or 4 abortions?
-    Justify the answer.
+Use the following sums:
+Pregnancies: $\sum x_i=`r sum(x)`$, $\sum x_i^2=`r sum(x^2)`$.
+Abortions: $\sum y_j=`r sum(y)`$, $\sum y_j^2=`r sum(y^2)`$.
+Births: $\sum z_k=`r sum(z)`$, $\sum z_k^2=`r sum(z^2)`$.
 
-Use the following sums:\
-Pregnancies: $\sum x_i= 2783$, $\sum x_i^2=9773$.\
-Abortions: $\sum x_i= 333$, $\sum x_i^2=559$.\
-Births: $\sum x_i= 2450$, $\sum x_i^2=7370$.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $129$ outliers. <br/>
+2. Pregnancies: $\bar x=`r mean(x)`$, $s_x=`r stdev(x)`$ and $cv_x=`r cv(x)`$.<br/>
+Abortions: $\bar y=`r mean(y)`$, $s_y=`r stdev(y)`$ and $cv_y=`r cv(y)`$.<br/>
+Births: $\bar z=`r mean(z)`$, $s_z=`r stdev(z)`$ and $cv_z=`r cv(z)`$.<br/>
+3. Standard score of $7$ pregnancies is $`r (7-mean(x))/stdev(x)`$, and standard score of $4$ abortions is $`r (4-mean(y))/stdev(y)`$.
+</div>
+
 
