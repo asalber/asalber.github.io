@@ -2,7 +2,7 @@
 layout: book
 title: Exercises of Frequency Distributions and Charts
 description: "Colecction of solved exercises"
-tags: [Ejercicios, Estadística]
+tags: [Exercises, Statistics]
 share: true
 image: dados.jpg
 ---

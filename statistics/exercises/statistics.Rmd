@@ -2,7 +2,7 @@
 layout: book
 title: Exercises of Descriptive Statistics
 description: "Colecction of solved exercises"
-tags: [Ejercicios, Estadística]
+tags: [Exercises, Statistics]
 share: true
 image: dados.jpg
 ---
@@ -11,6 +11,7 @@ image: dados.jpg
 library(knitr)
 library(printr)
 library(rk.Teaching)
+options(digits=4, scipen=999)
 opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg",  digits=4, echo=FALSE, warning=FALSE, message=FALSE)
 col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
@@ -110,7 +111,6 @@ out <- histbackback(split(bmi, gender), brks=seq(15,40,5), xlim=c(-30,30), main 
 abline(v= (-25:25)*5 , col ="gray" , lty =3) 
 barplot(-out$left, col=col1 , horiz=TRUE, space=0, add=TRUE, axes=FALSE) 
 barplot(out$right, col=col2, horiz=TRUE, space=0, add=TRUE, axes=FALSE)
-options(digits=4, scipen=999)
 ```
 1.  Draw the pie chart for the gender.
 2.  In which group is more representative the mean of the BMI?
