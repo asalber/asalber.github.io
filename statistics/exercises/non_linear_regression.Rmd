@@ -11,6 +11,7 @@ image: dados.jpg
 library(knitr)
 library(printr)
 library(rk.Teaching)
+options(digits=4, scipen=999)
 opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
 col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
@@ -18,84 +19,133 @@ col2 <- rgb(238,50,36,max=255)
 
 ## Exercise 1
 A dietary center is testing a new diet in sample of 12 persons. The data below are the number of days of diet and the weight loss (in Kg) until them for every person.
+```{r}
+x <- c(33, 51, 30, 55, 38, 62, 35, 60, 44, 69, 47, 40)
+y <- c(3.9, 5.9, 3.2, 6.0, 4.9, 6.2, 4.5, 6.1, 5.6, 6.2, 5.8, 5.3)
+cat(paste("(",x,",",y,") ", sep=""))
+```
 
-    (33 , 3.9), (51 , 5.9), (30 , 3.2), (55 , 6.0), (38 , 4.9), (62 ,
-    6.2),\
-    (35 , 4.5), (60 , 6.1), (44 , 5.6), (69 , 6.2), (47 , 5.8), (40
-    , 5.3)
+1. Draw the scatter plot. According to the point cloud, what type of regression model explains better the relation between the weight loss and the days of diet?
+2. Construct the linear regression model and the logarithmic regression model of the weight loss on the number of days of diet.
+3. Use the best model to predict the weight that will lose a person after 100 days of diet. Is this prediction reliable?
 
-    1.  Draw the scatter plot. According to the point cloud, what type
-        of regression model explains better the relation between the
-        weight loss and the days of diet?
+Use the following sums ($X$=days of diet and $Y$=weight loss):
+$\sum x_i=`r sum(x)`$ days, $\sum \log(x_i)=`r sum(log(x))`$ $\log(\mbox{days})$, $\sum y_j=`r sum(y)`$ Kg, $\sum x_i^2=`r sum(x^2)`$ days$^2$, $\sum \log(x_i)^2=`r sum(log(x)^2)`$ $\log(\mbox{days})^2$, $\sum y_j^2=`r sum(y^2)`$ Kg$^2$, $\sum x_iy_j=`r sum(x*y)`$ days$\cdot$Kg, $\sum \log(x_i)y_j=`r sum(log(x)*y)`$ $\log(\mbox{days})\cdot$Kg.
 
-    2.  Construct the linear regression model and the logarithmic
-        regression model of the weight loss on the number of days
-        of diet.
-
-    3.  Use the best model to predict the weight that will lose a person
-        after 100 days of diet. Is this prediction reliable?
-
-    Use the following sums ($X$=days of diet and $Y$=weight loss):
-    $\sum x_i=564$ days, $\sum \log(x_i)=45.8086$ $\log(\mbox{days})$,
-    $\sum y_j=63.6$ Kg, $\sum x_i^2=28234$ days$^2$,
-    $\sum \log(x_i)^2=175.6603$ $\log(\mbox{days})^2$,
-    $\sum y_j^2=347.7$ Kg$^2$, $\sum x_iy_j=3108.5$ days$\cdot$Kg,
-    $\sum \log(x_i)y_j=245.4738$ $\log(\mbox{days})\cdot$Kg.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1.
+```{r diet_scatterplot}
+plot(x, y, main="Scatter plot of days of diet and weight loss", xlab="Days of diet", ylab="Weight loss (kg)", pch=16, col=col1)
+m <- lm(y~x)
+c <- coefficients(m)
+```
+2. Linear model<br/>
+$\bar x=`r mean(x)`$ days, $s_x^2=`r var(x)`$ days$^2$.<br/>
+$\bar y=`r mean(y)`$ kg, $s_y^2=`r var(y)`$ kg$^2$.<br/>
+$s_{xy}=`r cov(x,y)`$ days$\cdot$kg.<br/>
+Regression line of weight loss on days of diet: $y=`r c[1]` + `r c[2]`x$.<br/>
+$r^2=`r summary(m)$r.squared`$.
+```{r}
+x <- log(x)
+m <- lm(y~x)
+c <- coefficients(m)
+```
+Logartihmic model<br/>
+$\overline{\log(x)}=`r mean(x)`$ log(days), $s_{\log(x)}^2=`r var(x)`$ log(days)$^2$.<br/>
+$s_{\log(x)y}=`r cov(x,y)`$ log(days)$\cdot$kg.<br/>
+Logartihmic model of weight loss on days of diet: $y=`r c[1]` + `r c[2]`\log(x)$.<br/>
+$r^2=`r summary(m)$r.squared`$.<br/>
+3. $y(100)=`r c[1]+c[2]*log(100)`$ kg. 
+</div>
 
 ## Exercise 2
 The concentration of a drug in blood, in mg/dl, depends on time, in hours, according to the data below.
 
-      -------------------- ---- ---- ---- ---- ---- ----- -----
-      Drug concentration      2    3    4    5    6     7     8
-      Hours                  25   36   48   64   86   114   168
-      -------------------- ---- ---- ---- ---- ---- ----- -----
+```{r}
+x <- c(2, 3, 4, 5, 6, 7, 8)
+y <- c(25, 36, 48, 64, 86, 114, 168)
+data <- data.frame(x,y)
+colnames(data) <- c("Drug concentration", "Hours")
+kable(data)
+m <- lm(y~x)
+c <- coefficients(m)
+```
 
-    1.  Construct the linear regression model of drug concentration
-        on time.
+1. Construct the linear regression model of drug concentration on time.
+2. Construct the exponential regression model of drug concentration on time.
+3. Use the best regression model to predict the drug concentration after $4.8$ hours? Is this prediction reliable? Justify the answer.
 
-    2.  Construct the exponential regression model of drug concentration
-        on time.
+Use the following sums ($C$=Drug concentration and $T$=time): $\sum c_i=`r sum(x)`$ mg/dl, $\sum \log(c_i)=`r sum(log(x))`$ $\log(\mbox{mg/dl})$, $\sum t_j=`r sum(y)`$ hours, $\sum \log(t_j)=`r sum(log(y))`$ $\log(\mbox{hours})$, $\sum c_i^2=`r sum(x^2)`$ (mg/dl)$^2$, $\sum \log(c_i)^2=`r sum(log(x)^2)`$ $\log(\mbox{mg/dl})^2$, $\sum t_j^2=`r sum(y^2)`$ hours$^2$, $\sum \log(t_j)^2=`r sum(log(y)^2)`$ $\log(\mbox{hours})^2$, $\sum c_it_j=`r sum(x*y)`$ mg/dl$\cdot$hours, $\sum c_i\log(t_j)=`r sum(x*log(y))`$ mg/dl$\cdot\log(\mbox{hours})$, $\sum \log(c_i)t_j=`r sum(log(x)*y)`$ $\log(\mbox{mg/dl})\cdot$hours, $\sum \log(c_i)\log(t_j)=`r sum(log(x)*log(y))`$   $\log(\mbox{mg/dl})\cdot\log(\mbox{hours})$.
 
-    3.  Use the best regression model to predict the drug concentration
-        after $4.8$ hours? Is this prediction reliable? Justify
-        the answer.
-
-    Use the following sums ($C$=Drug concentration and $T$=time):
-    $\sum c_i=35$ mg/dl, $\sum \log(c_i)=10.6046$ $\log(\mbox{mg/dl})$,
-    $\sum t_j=541$ hours, $\sum \log(t_j)= 29.147$ $\log(\mbox{hours})$,
-    $\sum c_i^2=203$ (mg/dl)$^2$, $\sum \log(c_i)^2=17.5206$
-    $\log(\mbox{mg/dl})^2$, $\sum t_j^2=56937$ hours$^2$,
-    $\sum \log(t_j)^2=124.0131$ $\log(\mbox{hours})^2$,
-    $\sum c_it_j=3328$ mg/dl$\cdot$hours, $\sum c_i\log(t_j)=154.3387$
-    mg/dl$\cdot\log(\mbox{hours})$, $\sum \log(c_i)t_j=951.6961$
-    $\log(\mbox{mg/dl})\cdot$hours, $\sum
-    \log(c_i)\log(t_j)=46.08046$
-    $\log(\mbox{mg/dl})\cdot\log(\mbox{hours})$.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $\bar x=`r mean(x)`$ hours, $s_x^2=`r var(x)`$ hours$^2$.<br/>
+$\bar y=`r mean(y)`$ mg/dl, $s_y^2=`r var(y)`$ (mg/dl)$^2$.<br/>
+$s_{xy}=`r cov(x,y)`$ hours$\cdot$mg/dl.<br/>
+Regression line of drug concentration on time: $y=`r c[1]` + `r c[2]`x$.<br/>
+$r^2=`r summary(m)$r.squared`$.<br/>
+2.
+```{r}
+y <- log(y)
+m <- lm(y~x)
+c <- coefficients(m)
+```
+$\overline{\log(y)}=`r mean(y)`$ log(mg/dl), $s_{\log(y)}^2=`r var(y)`$ log(mg/dl)$^2$.<br/>
+$s_{x\log(y)}=`r cov(x,y)`$ hours$\cdot$log(mg/dl).<br/>
+Exponential model of drug concentration on time: $y=e^{`r c[1]` + `r c[2]`x}$.<br/>
+$r^2=`r summary(m)$r.squared`$.<br/>
+3. $y(4.8)=`r exp(c[1]+c[2]*4.8)`$ mg/dl. 
+</div>
 
 ## Exercise 3
 A researcher is studying the relation between the obesity and the response to pain. Te obesity is measured as the percentage over the ideal weight, and the response to pain as the nociceptive flexion pain threshold. The results of the study appears in the table below.
-    $$\begin{array}{lrrrrrrrrrr}
-    \toprule
-    \mbox{Obesity} & 89 & 90 & 75 & 30 & 51 & 75 & 62 & 45 & 90 & 20\\
-    \mbox{Pain threshold} & 10 & 12 & 4 & 4.5 & 5.5 & 7 & 9 & 8 & 15 & 3\\
-    \bottomrule
-    \end{array}$$
 
-    1.  According to the scatter plot, what model explains better the
-        relation of the response to pain on the obesity?
+```{r}
+x <- c(89, 90, 77, 30, 51, 75, 62, 45, 90, 20)
+y <- c(10, 12, 11.5, 4.5, 9.2, 10, 9, 8, 15, 3)
+data <- data.frame(x,y)
+colnames(data) <- c("Obesity", "Pain threshold")
+kable(data)
+```
 
-    2.  According to the best regression model, what is the response to
-        pain expected for a person with an obesity of 50%? Is this
-        prection reliable?
+1. According to the scatter plot, what model explains better the relation of the response to pain on the obesity?
+2. According to the best regression model, what is the response to pain expected for a person with an obesity of 50%? Is this prection reliable?
+3. According to the best regression model, what is the expected obesity for a person with a pain threshold of 10? Is this prediction reliable?
 
-    3.  According to the best regression model, what is the expected
-        obesity for a person with a pain threshold of 10? Is this
-        prediction reliable?
+Use the following sums ($X$=Obesity and $Y$=Pain threshold):
+$\sum x_i=`r sum(x)`$, $\sum \log(x_i)=`r sum(log(x))`$, $\sum y_j=`r sum(y)`$, $\sum \log(y_j)=`r sum(log(y))`$, $\sum x_i^2=`r sum(x^2)`$, $\sum \log(x_i)^2=`r sum(log(x)^2)`$, $\sum y_j^2=`r sum(y^2)`$, $\sum \log(y_j)^2=`r sum(log(y)^2)`$, $\sum x_iy_j=`r sum(x*y)`$, $\sum x_i\log(y_j)=`r sum(x*log(y))`$, $\sum \log(x_i)y_j=`r sum(log(x)*y)`$, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$.
 
-    Use the following sums ($X$=Obesity and $Y$=Pain threshold):
-    $\sum x_i=627$, $\sum \log(x_i)=40.3858$, $\sum y_j=78$,
-    $\sum \log(y_j)=19.4119$, $\sum x_i^2=45141$,
-    $\sum \log(x_i)^2=165.4516$, $\sum y_j^2=738.5$, $\sum
-    \log(y_j)^2=40.0458$, $\sum x_iy_j=5538.5$,
-    $\sum x_i\log(y_j)=1306.051$, $\sum \log(x_i)y_j=327.3887$, $\sum
-    \log(x_i)\log(y_j)=80.1831$.
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1.
+```{r obesity_pain_scatterplot}
+plot(x, y, main="Scatter plot of obesity and pain threshold", xlab="Obesity (% over ideal weight)", ylab="Nociceptive flexion pain threshold", pch=16, col=col1)
+m <- lm(y~x)
+c <- coefficients(m)
+```
+2. Linear model<br/>
+$\bar x=`r mean(x)`$, $s_x^2=`r var(x)`$.<br/>
+$\bar y=`r mean(y)`$, $s_y^2=`r var(y)`$.<br/>
+$s_{xy}=`r cov(x,y)`$.<br/>
+Regression line of pain threshold on obesity: $y=`r c[1]` + `r c[2]`x$.<br/>
+$r^2=`r summary(m)$r.squared`$.
+```{r}
+x <- log(x)
+m <- lm(y~x)
+c <- coefficients(m)
+```
+Logartihmic model<br/>
+$\overline{\log(x)}=`r mean(x)`$, $s_{\log(x)}^2=`r var(x)`$.<br/>
+$s_{\log(x)y}=`r cov(x,y)`$.<br/>
+Logartihmic model of pain threshold on obesity: $y=`r c[1]` + `r c[2]`\log(x)$.<br/>
+$r^2=`r summary(m)$r.squared`$.<br/>
+$y(50)=`r c[1]+c[2]*log(50)`$.<br/>
+3. 
+```{r}
+m <- lm(x~y)
+c <- coefficients(m)
+```
+Exponential model of obesity on pain threshold: $x=e^{`r c[1]` + `r c[2]`y}$.<br/>
+$x(10)=`r exp(c[1]+c[2]*10)`$. 
+
