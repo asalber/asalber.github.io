@@ -53,6 +53,8 @@ statistics:
     url: /statistics/manual
   - title: Statistics exercises
     url: /statistics/exercises  
+  - title: Statistics exams
+    url: /statistics/exams
 r: 
   - title: Bioestadística con R
     url: /estadistica/bioestadistica-rkteaching

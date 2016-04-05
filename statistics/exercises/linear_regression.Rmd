@@ -75,9 +75,9 @@ $$
 \end{array}
 $$
 
-Dose: $\bar x=`r mean(dose)`$ mg, $s_x^2=`r var(dose)`$ mg$^2$, $s_x=`r stdev(dose)`$ mg.<br/>
-Days: $\bar y=`r mean(days)`$ days, $s_y^2=`r var(days)`$ days$^2$, $s_y=`r stdev(days)`$ days.<br/>
-3. $s_{xy}=`r cov(dose,days)`$ mg$\cdot$days.
+Dose: $\bar x=`r mean(dose)`$ mg, $s_x^2=`r variance(dose)`$ mg$^2$, $s_x=`r stdev(dose)`$ mg.<br/>
+Days: $\bar y=`r mean(days)`$ days, $s_y^2=`r variance(days)`$ days$^2$, $s_y=`r stdev(days)`$ days.<br/>
+3. $s_{xy}=`r covariance(dose,days)`$ mg$\cdot$days.
 </div>
 
 ## Exercise 3
@@ -139,9 +139,9 @@ $$
 m <- lm(x~y)
 c <- coefficients(m)
 ```
-$\bar x=`r mean(x)`$ mg/dl, $s_x^2=`r var(x)`$ (mg/dl)$^2$.<br/>
-$\bar y=`r mean(y)`$ mmHg, $s_y^2=`r var(y)`$ mmHg$^2$.<br/>
-$s_{xy}=`r cov(x,y)`$ mg/dl$\cdot$mmHg.<br/>
+$\bar x=`r mean(x)`$ mg/dl, $s_x^2=`r variance(x)`$ (mg/dl)$^2$.<br/>
+$\bar y=`r mean(y)`$ mmHg, $s_y^2=`r variance(y)`$ mmHg$^2$.<br/>
+$s_{xy}=`r covariance(x,y)`$ mg/dl$\cdot$mmHg.<br/>
 Regression line of cholesterol on blood pressure: $x=`r c[1]` + `r c[2]`y$.<br/>
 3. $x(160)=`r c[1]+c[2]*160`$ mg/dl.<br/>
 4.
@@ -171,9 +171,9 @@ c <- coefficients(m)
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\bar x=`r mean(x)`$ years, $s_x^2=`r var(x)`$ years$^2$.<br/>
-$\bar y=`r mean(y)`$ %, $s_y^2=`r var(y)`$ %$^2$.<br/>
-$s_{xy}=`r cov(x,y)`$ years$\cdot$%.<br/>
+1. $\bar x=`r mean(x)`$ years, $s_x^2=`r variance(x)`$ years$^2$.<br/>
+$\bar y=`r mean(y)`$ %, $s_y^2=`r variance(y)`$ %$^2$.<br/>
+$s_{xy}=`r covariance(x,y)`$ years$\cdot$%.<br/>
 Regression line of activity on time: $y=`r c[1]` + `r c[2]`x$.<br/>
 2. 
 ```{r}
@@ -205,11 +205,11 @@ Use the following sums ($X$=Number of minutes stretching, and $Y$=Number of inju
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\bar x=`r mean(x)`$ min, $s_x^2=`r var(x)`$ min$^2$.<br/>
-$\bar y=`r mean(y)`$ injuries, $s_y^2=`r var(y)`$ injuries$^2$.<br/>
-$s_{xy}=`r cov(x,y)`$ min$\cdot$injuries.<br/>
+1. $\bar x=`r mean(x)`$ min, $s_x^2=`r variance(x)`$ min$^2$.<br/>
+$\bar y=`r mean(y)`$ injuries, $s_y^2=`r variance(y)`$ injuries$^2$.<br/>
+$s_{xy}=`r covariance(x,y)`$ min$\cdot$injuries.<br/>
 Regression line of injuries on time of stetching: $y=`r c[1]` + `r c[2]`x$.<br/>
-2. $`-r c[2]`$ injuries/min.<br/>
+2. $`r -c[2]`$ injuries/min.<br/>
 3.
 ```{r}
 m <- lm(x~y)
@@ -280,16 +280,16 @@ Use the following sums ($X$=Age and $Y=$Weight lifted).
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\bar x=`r mean(x)`$ years, $s_x^2=`r var(x)`$ years$^2$.<br/>
-$\bar y=`r mean(y)`$ kg, $s_y^2=`r var(y)`$ kg$^2$.<br/>
-$s_{xy}=`r cov(x,y)`$ years$\cdot$kg.<br/>
+1. $\bar x=`r mean(x)`$ years, $s_x^2=`r variance(x)`$ years$^2$.<br/>
+$\bar y=`r mean(y)`$ kg, $s_y^2=`r variance(y)`$ kg$^2$.<br/>
+$s_{xy}=`r covariance(x,y)`$ years$\cdot$kg.<br/>
 $r^2=`r summary(m)$r.squared`$.<br/>
-2. $\bar x=`r mean(x1)`$ years, $s_x^2=`r var(x1)`$ years$^2$.<br/>
-$\bar y=`r mean(y1)`$ kg, $s_y^2=`r var(y1)`$ kg$^2$.<br/>
-$s_{xy}=`r cov(x1,y1)`$ years$\cdot$kg.<br/>
+2. $\bar x=`r mean(x1)`$ years, $s_x^2=`r variance(x1)`$ years$^2$.<br/>
+$\bar y=`r mean(y1)`$ kg, $s_y^2=`r variance(y1)`$ kg$^2$.<br/>
+$s_{xy}=`r covariance(x1,y1)`$ years$\cdot$kg.<br/>
 $r^2=`r summary(m1)$r.squared`$.<br/>
-3. $\bar x=`r mean(x2)`$ years, $s_x^2=`r var(x2)`$ years$^2$.<br/>
-$\bar y=`r mean(y2)`$ kg, $s_y^2=`r var(y2)`$ kg$^2$.<br/>
-$s_{xy}=`r cov(x2,y2)`$ years$\cdot$kg.<br/>
+3. $\bar x=`r mean(x2)`$ years, $s_x^2=`r variance(x2)`$ years$^2$.<br/>
+$\bar y=`r mean(y2)`$ kg, $s_y^2=`r variance(y2)`$ kg$^2$.<br/>
+$s_{xy}=`r covariance(x2,y2)`$ years$\cdot$kg.<br/>
 $r^2=`r summary(m2)$r.squared`$.<br/>
 </div>

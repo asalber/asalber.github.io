@@ -64,9 +64,9 @@ $$
 \end{array}
 $$
 
-Dose: $\bar x=3.05$ mg, $s_x^2=0.6816$ mg$^2$, $s_x=0.8047$ mg.<br/>
-Days: $\bar y=4.55$ days, $s_y^2=1.5237$ days$^2$, $s_y=1.2031$ days.<br/>
-3. $s_{xy}=-0.7132$ mg$\cdot$days.
+Dose: $\bar x=3.05$ mg, $s_x^2=0.6475$ mg$^2$, $s_x=0.8047$ mg.<br/>
+Days: $\bar y=4.55$ days, $s_y^2=1.4475$ days$^2$, $s_y=1.2031$ days.<br/>
+3. $s_{xy}=-0.6775$ mg$\cdot$days.
 </div>
 
 ## Exercise 3
@@ -122,9 +122,9 @@ $$
 
 2. 
 
-$\bar x=212$ mg/dl, $s_x^2=401.0127$ (mg/dl)$^2$.<br/>
-$\bar y=139.5$ mmHg, $s_y^2=252.9114$ mmHg$^2$.<br/>
-$s_{xy}=163.038$ mg/dl$\cdot$mmHg.<br/>
+$\bar x=212$ mg/dl, $s_x^2=396$ (mg/dl)$^2$.<br/>
+$\bar y=139.5$ mmHg, $s_y^2=249.75$ mmHg$^2$.<br/>
+$s_{xy}=161$ mg/dl$\cdot$mmHg.<br/>
 Regression line of cholesterol on blood pressure: $x=122.0721 + 0.6446y$.<br/>
 3. $x(160)=225.2152$ mg/dl.<br/>
 4.
@@ -150,9 +150,9 @@ A research study has been conducted to determine the loss of activity of a drug.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\bar x=3$ years, $s_x^2=2.5$ years$^2$.<br/>
-$\bar y=72$ %, $s_y^2=330$ %$^2$.<br/>
-$s_{xy}=-28.5$ years$\cdot$%.<br/>
+1. $\bar x=3$ years, $s_x^2=2$ years$^2$.<br/>
+$\bar y=72$ %, $s_y^2=264$ %$^2$.<br/>
+$s_{xy}=-22.8$ years$\cdot$%.<br/>
 Regression line of activity on time: $y=106.2 + -11.4x$.<br/>
 2. 
 
@@ -183,11 +183,11 @@ Use the following sums ($X$=Number of minutes stretching, and $Y$=Number of inju
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\bar x=20$ min, $s_x^2=214.2857$ min$^2$.<br/>
-$\bar y=1.75$ injuries, $s_y^2=1.6429$ injuries$^2$.<br/>
-$s_{xy}=-17.1429$ min$\cdot$injuries.<br/>
+1. $\bar x=20$ min, $s_x^2=187.5$ min$^2$.<br/>
+$\bar y=1.75$ injuries, $s_y^2=1.4375$ injuries$^2$.<br/>
+$s_{xy}=-15$ min$\cdot$injuries.<br/>
 Regression line of injuries on time of stetching: $y=3.35 + -0.08x$.<br/>
-2. $`-r c[2]`$ injuries/min.<br/>
+2. $0.08$ injuries/min.<br/>
 3.
 
 Regression line of time of stretching on injuries: $x=38.2609 + -10.4348y$.<br/>
@@ -244,16 +244,16 @@ Use the following sums ($X$=Age and $Y=$Weight lifted).
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\bar x=26.9375$ years, $s_x^2=104.1958$ years$^2$.<br/>
-$\bar y=48.0625$ kg, $s_y^2=180.9958$ kg$^2$.<br/>
-$s_{xy}=71.8042$ years$\cdot$kg.<br/>
+1. $\bar x=26.9375$ years, $s_x^2=97.6836$ years$^2$.<br/>
+$\bar y=48.0625$ kg, $s_y^2=169.6836$ kg$^2$.<br/>
+$s_{xy}=67.3164$ years$\cdot$kg.<br/>
 $r^2=0.2734$.<br/>
-2. $\bar x=17.5714$ years, $s_x^2=29.619$ years$^2$.<br/>
-$\bar y=42$ kg, $s_y^2=345$ kg$^2$.<br/>
-$s_{xy}=100$ years$\cdot$kg.<br/>
+2. $\bar x=17.5714$ years, $s_x^2=25.3878$ years$^2$.<br/>
+$\bar y=42$ kg, $s_y^2=295.7143$ kg$^2$.<br/>
+$s_{xy}=85.7143$ years$\cdot$kg.<br/>
 $r^2=0.9786$.<br/>
-3. $\bar x=34.2222$ years, $s_x^2=36.6944$ years$^2$.<br/>
-$\bar y=52.7778$ kg, $s_y^2=23.4444$ kg$^2$.<br/>
-$s_{xy}=-28.6944$ years$\cdot$kg.<br/>
+3. $\bar x=34.2222$ years, $s_x^2=32.6173$ years$^2$.<br/>
+$\bar y=52.7778$ kg, $s_y^2=20.8395$ kg$^2$.<br/>
+$s_{xy}=-25.5062$ years$\cdot$kg.<br/>
 $r^2=0.9571$.<br/>
 </div>
