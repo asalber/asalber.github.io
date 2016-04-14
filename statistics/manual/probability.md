@@ -442,7 +442,7 @@ $$
 
 To answer the question we can apply the total probability theorem using the partition $\\{A,\bar A\\}$:
 
-$$P(S) = P(D)P(S|D)+P(\bar D)P(S/\bar D) = 0.2\cdot 0.9 + 0.8\cdot 0.4 = 0.5.$$
+$$P(S) = P(D)P(S|D)+P(\bar D)P(S|\bar D) = 0.2\cdot 0.9 + 0.8\cdot 0.4 = 0.5.$$
 
 That is, half of the population have the symptom.
 
@@ -484,8 +484,10 @@ To calculate the posterior probabilities we can use the Bayes theorem.
 
 $$
 \begin{aligned}
-P(D/S) &= \frac{P(D)P(S/D)}{P(D)P(S/D)+P(\bar D)P(S/\bar D)} = \frac{0.2\cdot 0.9}{0.2\cdot 0.9 + 0.8\cdot 0.4} = \frac{0.18}{0.5}=0.36,\\
-P(\bar D/S) &= \frac{P(\bar D)P(S/\bar D)}{P(D)P(S/D)+P(\bar D)P(S/\bar D)} = \frac{0.8\cdot 0.4}{0.2\cdot 0.9 + 0.8\cdot 0.4} = \frac{0.32}{0.5}=0.64.\end{aligned}
+P(D|S) &= \frac{P(D)P(S|D)}{P(D)P(S|D)+P(\bar D)P(S|\bar D)} = \frac{0.2\cdot 0.9}{0.2\cdot 0.9 + 0.8\cdot 0.4} =
+\frac{0.18}{0.5}=0.36,\\
+P(\bar D|S) &= \frac{P(\bar D)P(S|\bar D)}{P(D)P(S|D)+P(\bar D)P(S|\bar D)} = \frac{0.8\cdot 0.4}{0.2\cdot 0.9 +
+0.8\cdot 0.4} = \frac{0.32}{0.5}=0.64.
 $$
 
 As we can see the probability of having the disease has increased. Nevertheless, the probability of not having the disease is still greater than the probability of having it, and for that reason, the diagnosis is not having the disease.
@@ -518,15 +520,15 @@ The performance of a diagnostic test depends on the following two probabilities.
 
 > **Definition - Sensitivity**. The *sensitivity* of a diagnostic test is the proportion of positive outcomes in persons with the disease
 >
-$$P(+|D)=\frac{VP}{VP+FN}$$
+$$P(+|D)=\frac{TP}{TP+FN}$$
 
 > **Definition - Specificity**. The *specificity* of a diagnostic test is the proportion of negative outcomes in persons without the disease
 >
-$$P(-|\bar D)=\frac{VN}{VN+FP}$$
+$$P(-|\bar D)=\frac{TN}{TN+FP}$$
 
 ### Sensitivity and specificity interpretation
 
-Usually, there is a trade-off between sensibility and specificity.
+Usually, there is a trade-off between sensitivity and specificity.
 
 A test with high sensitivity will detect the disease in most sick persons, but it will produce also more false positives than a less sensitive test. This way, a positive outcome in a test with high sensitivity is not useful for confirming the disease, but a negative outcome is useful for ruling out the disease, since it rarely misdiagnoses those who have the disease.
 
@@ -565,7 +567,7 @@ NPV>0.5 & \Rightarrow & \mbox{Not disease diagnostic}
 \end{array}
 $$
 
-However, these probabilities depends on the proportion of persons with the disease in the population $P(D)$ that is known as of the disease. They can be calculated from the sensibility and the specificity of the diagnostic test using the Bayes theorem.
+However, these probabilities depends on the proportion of persons with the disease in the population $P(D)$ that is known as of the disease. They can be calculated from the sensitivity and the specificity of the diagnostic test using the Bayes theorem.
 
 $$
 \begin{aligned}
@@ -618,7 +620,7 @@ Thus, this test is a powerful test to rule out the flu, but not so powerful to c
 
 ### Likelihood ratios of a diagnostic test
 
-The following measures are usually derived from sensibility and specificity.
+The following measures are usually derived from sensitivity and specificity.
 
 > **Definition - Positive likelihood ratio $LR+$**. The *positive likelihood ratio* of a diagnostic test is the ratio between the probability of positive outcomes in persons with the disease and healthy persons respectively,
 >
