@@ -18,7 +18,8 @@ Table of Contents
 - [Descriptive Statistic for one variable](/statistics/manual/descriptive-statistics.html)
 - [Descriptive Statistic for two variables: Regression y correlation](/statistics/manual/regression.html)
 - [Probability theory](/statistics/manual/probability.html)
-- Random variables
+- [Discrete random variables](/statistics/manual/discrete_random_variables.html)
+- [Continuous random variables]
 - Parameter estimation: Confidence intervals
 - Parametric hypothesis tests
 - Non-parametric hypothesis tests

@@ -18,8 +18,8 @@ Exercises are classified by topics:
 - Descriptive Statistics for two variables
     - [Linear regression](/statistics/exercises/linear_regression.html)
     - [Non-linear regression](/statistics/exercises/non_linear_regression.html)	
-- Probability
-    - Diagnostic tests
+- [Probability](/statistics/exercises/probability.html)
+    - [Diagnostic tests](/statistics/exercises/diagnostic_tests.html)
 - Random variables
     - Discrete random variables
     - Continuous random variables

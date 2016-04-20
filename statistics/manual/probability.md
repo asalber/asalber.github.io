@@ -279,7 +279,7 @@ Conditional probability
 
 Occasionally, we can get some information about the experiment before its realization. Usually that information is given as an event $B$ of the same sample space that we know that is true before to conduct the experiment.
 
-In such a case, we will say that $B$ is a *conditioning* event and the probability of another event $A$ known as a and expressed $P(A\vert B)$. This must be read as *probability of event $A$ conditional on event $B$ occurring*.
+In such a case, we will say that $B$ is a *conditioning* event and the probability of another event $A$ is known as a *conditional probability* and expressed $P(A\vert B)$. This must be read as *probability of $A$ given $B$* or *probability of $A$ under the condition $B$*.
 
 **Example**. Usually, conditioning events change the sample space and therefore the probabilities of events.
 
