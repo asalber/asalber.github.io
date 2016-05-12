@@ -1,0 +1,125 @@
+---
+layout: book
+title: Exercises of Discrete Random Variables
+description: "Colecction of solved exercises"
+tags: [Exercises, Statistics, Probability, Random variables, Discrete random variables]
+share: true
+image: dados.jpg
+---
+
+
+
+## Exercise 1
+Let $X$ be a discrete random variable with the following probability distribution 
+
+$$
+\begin{array}{|c|c|c|c|c|c|}
+\hline
+X & 4 & 5 & 6 & 7 & 8 \\ 
+\hline
+f(x) & 0.15 & 0.35 & 0.10 & 0.25 & 0.15 \\ 
+\hline
+\end{array}
+$$
+
+1.  Calculate and represent graphically the distribution function.
+2.  Calculate the following probabilities
+    a.  $P(X<7.5)$.
+    b.  $P(X>8)$.
+    c.  $P(4\leq X\leq 6.5)$.
+    d.  $P(5<X<6)$.
+
+
+## Exercise 2
+Let $X$ be a discrete random variable with the following probability distribution 
+
+$$
+F(x)=
+\begin{cases}
+0 & \text{si $x<1$,} \\
+1/5 & \text{si $1\leq x< 4$,} \\
+3/4 & \text{si $4\leq x<6$,} \\
+1 & \text{si $6\leq x$.}
+\end{cases}
+$$
+
+1.  Calculate the probability function.
+2.  Calculate the following probabilities
+    a.  $P(X=6)$.
+    b.  $P(X=5)$.
+    c.  $P(2<X<5.5)$.
+    d.  $P(0\leq X<4)$.
+3.  Calculate the mean.
+4.  Calculate the standard deviation.
+
+
+## Exercise 3
+An experiment consist in injecting a virus to three different types of rats and observing if they survive or not. It is known that the probability of surviving is $0.5$ for the first type of rats, $0.4$ for the second type and $0.3$ for the third type.
+
+1.  Calculate the probability function of the variable $X$ that measures the number of surviving rats.
+2.  Calculate the distribution function.
+3.  Calculate $P(X\leq 1)$, $P(X\geq 2)$ and $P(X=1.5)$.
+4.  Calculate the mean and the standard deviation. Is representative the mean?
+
+
+## Exercise 4
+The chance of being cured with a treatment is $0.85$. If we apply the treatment to 6 patients,
+
+1.  What is the probability that half of them are cured?
+2.  What is the probability that a least 4 of them are cured?
+
+
+## Exercise 5
+Ten persons came into contact with a person infected by tuberculosis. The probability of being infected after contacting a person with tuberculosis is $0.10$.
+
+1.  What is the probability that nobody are infected?
+2.  What is the probability that at least 2 persons are infected?
+3.  What is the expected number of infected persons?
+
+
+## Exercise 6
+The probability of having an adverse reaction to a vaccine is $0.001$. If 2000 persons are vaccinated, what is the probability of having some adverse reaction?
+
+
+## Exercise 7
+The average number of calls per minute that arrive to a telephone switchboard is 120.
+
+1.  What is the probability of receiving less than 4 calls in 2 seconds?
+2.  What is the probability of receiving at least 3 calls in 3 seconds?
+
+
+## Exercise 8
+A test contains 10 questions with 3 possible options each. For every question you win a point if you give the right answer and loss half a point if the answer is wrong. A student knows the right answer for 3 of the 10 questions and answers the rest randomly. What is the probability of passing the exam?
+
+
+## Exercise 9
+It has been observed experimentally that 1 of every 20 trillions of cells exposed to radiation mutates becoming carcinogenic. We know that the human body has approximately 1 trillion of cells by kilogram ot tissue. Calculate the probability that a 60 kg person exposed to radiation develops cancer. If the radiation affects 3 persons weighing 60 kg, what is the probability that a least one of them develops cancer?
+
+
+## Exercise 10
+
+A diagnostic test for a disease returns 1% of positive outcomes, and the positivie and negative predictive values are $0.95$ and $0.98$ respectively.
+
+1.  Calculate the prevalence of the disease.
+2.  Calculate the sensitivity and the specificity of the test.
+3.  If the test is applied to 12 sick persons, what is the probability of getting at least a wrong diagnosis?
+4.  If the test is applied to 12 persons, what is the probability of getting a right diagnosis for all of them?
+
+
+## Exercise 11
+In a study about a parasite that attack the kidney of rats it is known that the average number of parasites per kidney is 3.
+
+1.  Calculate the probability that a rat have more than 3 parasites.
+2.  Calculate the probability of having at least 9 rats infected in a sample of 10 rats.
+
+
+## Exercise 12
+In a physiotherapy course there are 60% of females and 40% of males.
+
+1.  If 6 random students have to go to a hospital for making practices, what is the probability of going more males than females?
+2.  In 5 samples of 6 students, what is the probability of having some sample without males?
+
+
+
+
+
