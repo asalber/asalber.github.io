@@ -21,6 +21,6 @@ Exercises are classified by topics:
 - [Probability](/statistics/exercises/probability.html)
     - [Diagnostic tests](/statistics/exercises/diagnostic_tests.html)
 - Random variables
-    - Discrete random variables
-    - Continuous random variables
+    - [Discrete random variables](/statistics/exercises/discrete_random_variables.html)
+    - [Continuous random variables](/statistics/exercises/continuous_random_variables.html)
 - Parameter estimation 

@@ -9,8 +9,8 @@ image: dados.jpg
 
 ```{r global_options, include=FALSE}
 library(knitr)
-library(printr)
-library(rk.Teaching)
+#library(printr)
+#library(rk.Teaching)
 options(digits=4, scipen=999)
 opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
 col1 <- rgb(5,161,230,max=255)
@@ -18,46 +18,87 @@ col2 <- rgb(238,50,36,max=255)
 ```
 
 ## Exercise 1
+```{r}
+pe = 2020
+ps = 140
+ne = 80
+ns = 7760
+```
+
 To evaluate the effectiveness of a diagnosis test, the test was applied to a sample of people with the following results:
 
 |         | Test $+$   | Test $-$   |
 |:--------|:----------:|:----------:|
-| Sick    |    2020    |     80     |
-| Healthy |     140    |    7760    |
+| Sick    |    `r pe`  |  `r ne`    |
+| Healthy |    `r ps`  |  `r ns`    |
 
 Calculate for this test:
 
-1.  The sensibility and the specificity.
+1.  The sensitivity and the specificity.
 2.  The positive and negative predictive value.
 3.  The probability of a correct diagnosis.
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $S$ and $H$ to the events of being sick and healthy respectively, <br/>
+1. Sensitivity $P(+\vert S)=`r pe/(pe+ps)`$ and specificity $P(-\vert H)=`r ns/(ne+ns)`$. <br/>
+2. PPV $P(S\vert +)=`r pe/(pe+ne)`$ and NPV $P(H\vert -)=`r ns/(ps+ns)`$. <br/>
+3. $P((S\cap +)\cup (H\cap -)) = P(S\cap +) + P(H\cap -) = `r (pe+ns)/(pe+ps+ne+ns)`$. 
+</div>
+
+
 ## Exercise 2
-We know, from a research study, that 10% of people over 50 years suffer a particular type or arthritis. We have developed a new method to detect the disease and after clinical trials we observe that if we apply the method to people with arthritis we get a positive result in 85% of cases, while if we apply the method to people without arthritis, we get a positive result in 4% of cases. Answer the following questions:
+```{r}
+pre = 0.1
+sen = 0.85
+spe = 0.96
+pos = pre*sen+(1-pre)*(1-spe)
+```
+
+We know, from a research study, that `r pre*100`% of people over 50 suffer a particular type or arthritis. We have developed a new method to detect the disease and after clinical trials we observe that if we apply the method to people with arthritis we get a positive result in `r sen*100`% of cases, while if we apply the method to people without arthritis, we get a positive result in `r (1-spe)*100`% of cases. Answer the following questions:
 
 1.  What is the probability of getting a positive result after applying the method to a random person?
 2.  If the result of applying the method to one person has been positive, what is the probability of having arthritis?
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $A$ to the event of having arthritis, <br/>
+1. $P(+)=`r pos`$. <br/>
+2. $P(A\vert +) = `r pre*sen/pos`$.
+</div>
+
 ## Exercise 3
-A severe pain without effusion in a particular zone of the knee joint is a symptom of sprained lateral collateral ligament (SLCL). If the sprains in that ligament are classified into grade 1, when there is only distension (60% of cases), grade 2 when there is a partial tearing (30% of cases) and grade 3 when there is a complete tearing (10% of cases). Taking into account that the symptom appears in 80% of cases of grade 1 sprains, 90% of cases of grade 2 and 100% of cases of grade 3, answer the following questions:
+```{r}
+senA = 0.98
+speA = 0.8
+senB = 0.75
+speB = 0.99
+pre1 = 0.01
+pre2 = 0.2
+posA1 = pre1*senA+(1-pre1)*(1-speA)
+posA2 = pre2*senA+(1-pre2)*(1-speA)
+ppv1 = pre1*senA/posA1
+npv1 = (1-pre1)*speA/(1-posA1)
+ppv2 = pre2*senA/posA2
+npv2 = (1-pre2)*speA/(1-posA2)
+```
 
-1.  If a person has SLCL what is the probability that he or she present severe pain without effusion?
-2.  What is the diagnosis for a person with severe pain without effusion?
-3.  From a total of 10000 people with severe pain without effusion, how many are expected to have a grade 1 sprain? How many are expected to have a grade 2 sprain? And a grade 3 sprain?
-
-## Exercise 4
-A physiotherapist uses two techniques $A$ and $B$ to cure an injury. It is known that the injury is 3 times more frequent in people over 30 than in people under 30. It is also known that in people over 30 technique $A$ works in 30% of cases and technique $B$ in 60%, while in people under 30 technique $A$ works in 50% of cases and technique $B$ in 70%. If both techniques are applied with the same probability, no matter the age,
-
-1.  What is the probability of a random person under 30 to cure? And for a people over 30?
-2.  What is the probability of a random person to cure?
-3.  If after applying a technique to a person over 30, the person doesn’t cure, what is the probability that the technique applied was $A$?
-
-## Exercise 5
-We have two different test $A$ and $B$ to diagnose a disease. Test $A$ have a sensitivity of 98% and a specificity of 80%, while test $B$ have a sensitivity of 75% and a specificity of 99%.
+We have two different test $A$ and $B$ to diagnose a disease. Test $A$ have a sensitivity of `r senA*100`% and a specificity of `r speA*100`%, while test $B$ have a sensitivity of `r senB*100`% and a specificity of `r speB*100`%.
 
 1.  What test is better to confirm the disease?
 2.  What test is better to rule out the disease?
-3.  Often a test is used to discard the presence of the disease in a large amount of people apparently healthy. This type of test is known as *screening test*. What test will work better as a screening test? What are the predictive values (PPV) of this test if the prevalence of the disease is $0.01$? And if the prevalence of de disease is $0.2$?
-4.  The positive predictive value of a screening test used to be not too high. How can combine tests $A$ and $B$ to have a higher confidence in the diagnosis of the disease? Calculate the post-test probability of having the disease with the combination of both tests if the outcome of both test is positive for a prevalence of $0.01$.
+3.  Often a test is used to discard the presence of the disease in a large amount of people apparently healthy. This type of test is known as *screening test*. What test will work better as a screening test? What are the predictive values of this test if the prevalence of the disease is `r pre1`? And if the prevalence of de disease is `r pre2`?
+4.  The positive predictive value of a screening test used to be not too high. How can combine tests $A$ and $B$ to have a higher confidence in the diagnosis of the disease? Calculate the post-test probability of having the disease with the combination of both tests if the outcome of both test is positive for a prevalence of `r pre1`.
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Test $B$ cause it has a greater specificity. <br/>
+2. Test $A$ cause it has a greater sensitivity. <br/>
+3. Test $A$ will perform better as a screening test. <br/>
+For a prevalence of $`r pre1`$ the PPV is $P(D\vert +)=`r ppv1`$ and the NPV is $P(\bar D\vert -)=`r npv1`$. <br/>
+For a prevalence of $`r pre2`$ the PPV is $P(D\vert +)=`r ppv2`$ and the NPV is $P(\bar D\vert -)=`r npv2`$. <br/>
+4. First applying test $A$ to everybody and then applying test $B$ to positive cases of test $A$. <br/>
+$P(D\vert +_A\cap +_B)=`r ppv1*senB/(ppv1*senB+(1-ppv1)*(1-speB))`$.
+</div>
 
 
