@@ -13,12 +13,18 @@ library(knitr)
 #library(rk.Teaching)
 options(digits=4, scipen=999)
 opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
-col1 <- rgb(5,161,230,max=255)
-col2 <- rgb(238,50,36,max=255)
+color1 <- rgb(5,161,230,max=255)
+color2 <- rgb(238,50,36,max=255)
 ```
 
 ## Exercise 1
 Given the continuous random variable $X$ with the following probability density function chart,
+```{r vac-3,  fig.width=6, fig.height=4.5}
+par(mar=c(3.5,3.5,3,1), mgp=c(2.2,0.6,0), las=1)
+x <- c(0,1,1.5,1.5)
+y <- c(0,1,1,0)
+plot(x, y, type="l", xlab="X", ylim=c(0,1.2), ylab=expression(paste("Probability density ", italic(f(x)))), yaxs="i", col=color1, lwd=2)
+```
 
 1.  Check that $f(x)$ is a probability density function.
 2.  Calculate the following probabilities
@@ -28,68 +34,222 @@ Given the continuous random variable $X$ with the following probability density 
         d.  $P(1/2\leq X\leq 3/2)$
 3.  Calculate the distribution function.
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $P(X<1)=0.5$, $P(X>0)=1$, $P(X=1/4)=0$ and $P(1/2\leq X\leq 3/2)=0.875$. <br/>
+2. $$
+F(x)=
+\begin{cases}
+0 & \text{if $x<0$,} \\
+x^2/2 & \text{if $0\leq x< 1$,} \\
+x-5 & \text{if $1\leq x<1.5$,} \\
+1 & \text{if $1.5\leq x$.}
+\end{cases}
+$$
+</div>
+
 
 ## Exercise 2
 A worker can arrive to the workplace in any instant between 6 and 7 in the morning with the same likelihood.
 
 1.  Compute and plot the probability density function of the variable that measures the arrival time.
 2.  compute and plot the distribution function.
-3.  Compute the probability of arriving quarter past six and half past six.
+3.  Compute the probability of arriving before quarter past six and after half past six.
 4.  What is the expected arrival time?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. 
+```{r vac-6a,  fig.width=6, fig.height=4.5}
+par(mar=c(3.5,3.5,3,1), mgp=c(2.2,0.6,0), las=1)
+x <- c(6,7)
+y <- c(1,1)
+plot(x, y, type="l", xlab="X", ylim=c(0,1.2), ylab=expression(paste("Probability density ", italic(f(x)))), yaxs="i", col=color1,
+lwd=2)
+segments(6,0,6,1, lty=2, col="gray")
+segments(7,0,7,1, lty=2, col="gray")
+```
+
+2. 
+```{r vac-6b,  fig.width=6, fig.height=4.5}
+par(mar=c(3.5,3.5,3,1), mgp=c(2.2,0.6,0), las=1)
+x <- c(6,7)
+y <- c(0,1)
+plot(x, y, type="l", xlab="X", ylim=c(0,1.2), ylab=expression(paste("Probability density ", italic(f(x)))), yaxs="i", col=color1,
+lwd=2)
+```
+
+3. $P(X<6.25)=0.25$ and $P(X>6.5)=0.5$. <br/>
+4. $\mu=6.5$.
+</div>
 
 
 ## Exercise 3
+```{r}
+x1 = 1.24
+x2 = -0.68
+x3 = -1.35
+x4 = 0.44
+```
+
 Let $Z$ be a random variable following a standard normal distribution model. Calculate the following probabilities using the table of the distribution function:
 
-1.  $P(Z<1.24)$
-2.  $P(Z>-0.68)$
-3.  $P(-1.35\leq Z\leq 0.44)$
+1.  $P(Z<`r x1`)$
+2.  $P(Z>`r x2`)$
+3.  $P(`r x3`\leq Z\leq `r x4`)$
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1.  $P(Z<`r x1`)=`r pnorm(x1)`$. <br/>
+2.  $P(Z>`r x2`)=`r pnorm(x2, lower.tail=F)`$. <br/>
+3.  $P(`r x3`\leq Z\leq `r x4`)=`r pnorm(x4)-pnorm(x3)`$.
+</div>
 
 
 ## Exercise 4
+```{r}
+p1 = 0.6406
+p2 = 0.0606
+p3 = 0.4783
+p4 = 0.2313
+p5 = 0.5467
+```
+
 Let $Z$ be a random variable following a standard normal distribution model. Determine the value of $x$ in the following cases using the table of the distribution function:
 
-1.  $P(Z<x)=0.6406$.
-2.  $P(Z>x)=0.0606$.
-3.  $P(0\leq Z\leq x)=0.4783$.
-4.  $P(-1.5\leq Z\leq x)=0.2313$.
-5.  $P(-x\leq Z\leq x)=0.5467$.
+1.  $P(Z<x)=`r p1`$.
+2.  $P(Z>x)=`r p2`$.
+3.  $P(0\leq Z\leq x)=`r p3`$.
+4.  $P(-1.5\leq Z\leq x)=`r p4`$.
+5.  $P(-x\leq Z\leq x)=`r p5`$.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1.  $x=`r qnorm(p1)`$. <br/>
+2.  $x=`r qnorm(p2, lower.tail=F)`$. <br/>
+3.  $x=`r qnorm(p3+0.5)`$. <br/>
+4.  $x=`r qnorm(p4+pnorm(-1.5))`$. <br/>
+5.  $x=`r qnorm((p5+1)/2)`$.
+</div>
 
 
 ## Exercise 5
+```{r}
+m = 10
+s = 2
+x1 = 10
+x2 = 8
+x3 = 14
+```
+
 Let $X$ be a random variable following a normal distribution model $N(10,2)$.
 
-1.  Calculate $P(X\leq 10)$.
-2.  Calculate $P(8\leq X\leq 14)$.
+1.  Calculate $P(X\leq `r x1`)$.
+2.  Calculate $P(`r x2`\leq X\leq `r x3`)$.
 3.  Calculate the interquartile range.
 4.  Calculate the third decile.
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1.  $P(X\leq `r x1`)=`r pnorm(x1, m, s)`$. <br/>
+2.  $P(`r x2`\leq X\leq `r x3`)=`r pnorm(x3, m, s)-pnorm(x2, m, s)`$. <br/>
+3.  $IQR=`r qnorm(0.75, m, s) - qnorm(0.25, m, s)`$. <br/>
+4.  $D_3=`r qnorm(0.3, m, s)`$. 
+</div>
+
 
 ## Exercise 6
-It is known that the glucose level in blood of diabetic persons follows a normal distribution model with mean 106 mg/100 ml and standard deviation 8 mg/100 ml.
+```{r}
+m = 106
+s = 8
+x1 = 120
+x2 = 90
+```
 
-1.  Calculate the probability of a random diabetic person having a glucose level less than 120 mg/100 ml.
+It is known that the glucose level in blood of diabetic persons follows a normal distribution model with mean `r m` mg/100 ml and standard deviation `r s` mg/100 ml.
+
+1.  Calculate the probability of a random diabetic person having a glucose level less than `r x1` mg/100 ml.
 2.  What percentage of persons have a glucose level between 90 and 120 mg/100 ml?
 3.  Calculate and interpret the first quartile of the glucose level.
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1.  $P(X\leq `r x1`)=`r pnorm(x1, m, s)`$. <br/>
+2.  $P(`r x2`\leq X\leq `r x1`)=`r pnorm(x1, m, s)-pnorm(x2, m, s)` \Rightarrow `r round((pnorm(x1, m, s)-pnorm(x2, m, s))*100,2)`\%$. <br/>
+3.  $Q_1=`r qnorm(0.25, m, s)`$ mg/100 ml. 
+</div>
+
 
 ## Exercise 7
-It is known that the cholesterol level in males 30 years old follows a normal distribution with mean 220 mg/dl and standard deviation 30 mg/dl. If there are 20000 males 30 years old in the population,
+```{r}
+m = 220
+s = 30
+n = 20000
+x1 = 210
+x2 = 240
+x3 = 250
+p1 = 0.2
+```
+It is known that the cholesterol level in males 30 years old follows a normal distribution with mean `r m` mg/dl and standard deviation `r s` mg/dl. If there are `r n` males 30 years old in the population,
 
-1.  how many of them have a cholesterol level between 210 and 240 mg/dl?
-2.  If a cholesterol level greater than 250 mg/dl can provoke a thrombosis, how many of them are in risk of thrombosis?
-3.  Calculate the cholesterol level above which 20% of the males are?
+1.  how many of them have a cholesterol level between `r x1` and `r x2` mg/dl?
+2.  If a cholesterol level greater than `r x3` mg/dl can provoke a thrombosis, how many of them are in risk of thrombosis?
+3.  Calculate the cholesterol level above which `r p1*100`% of the males are?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1.  $P(`r x1`\leq X\leq `r x2`)=`r pnorm(x2, m, s)-pnorm(x1, m, s)` \Rightarrow `r round((pnorm(x2, m, s)-pnorm(x1, m, s))*n,1)`$ persons. <br/>
+1.  $P(X> `r x3`)=`r pnorm(x3, m, s, lower.tail=F)` \Rightarrow `r round(pnorm(x3, m, s, lower.tail=F)*n,1)`$ persons. <br/>
+3.  $P_{`r (1-p1)*100`}=`r qnorm(0.2, m, s, lower.tail=F)`$ mg/dl.
+</div>
 
 
 ## Exercise 8
-In an exam done by 100 students, the average degree is 4.2 and only 32 students pass. Assuming that the grade follows a normal distribution model, how many students got a grade greater than 7?
+```{r}
+m = 4.2
+n = 100
+n1 = 32
+p1 = n1/n
+x1 = 5
+x2 = 7
+s = (x1-m)/qnorm(p1, lower.tail=F)
+```
+
+In an exam done by `r n` students, the average degree is `r m` and only `r n1` students pass. Assuming that the grade follows a normal distribution model, how many students got a grade greater than `r x2`?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+$P(X>7)=`r pnorm(x2, m, s, lower.tail=F)` \Rightarrow `r round(pnorm(x2, m, s, lower.tail=F)*100,1)`$ students.
+</div>
 
 
 ## Exercise 9
-In a population with 40000 persons, 2276 have between 0.80 and 0.84 milligrams of bilirubin per deciliter of blood, and 11508 have more than 0.84. Assuming that the level of bilirubin in blood follows a normal distribution model,
+```{r}
+m = 4.2
+n = 40000
+n1 = 2276
+n2 = 11508
+x1 = 0.8
+x2 = 0.84
+x3 = 1
+p1 = n1/n
+p2 = n2/n
+A = matrix(c(1,qnorm(1-p1-p2),1,qnorm(p2,lower.tail=F)), nrow=2, byrow = T)
+B = matrix(c(x1,x2))
+sol = solve(A,B)
+m = sol[1]
+s = sol[2]
+```
+In a population with `r n` persons, `r n1` have between `r x1` and `r x2` milligrams of bilirubin per deciliter of blood, and `r n2` have more than `r x2`. Assuming that the level of bilirubin in blood follows a normal distribution model,
 
 1.  Calculate the mean and the standard deviation.
-2.  How many persons have more than 1 mg of bilirubin per dl of blood?
+2.  How many persons have more than `r x3` mg of bilirubin per dl of blood?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $\mu=`r m`$ mg/dl and $s=`r s`$ mg/dl. <br/>
+2. $P(X>`r x3`)=`r pnorm(x3, m, s, lower.tail=F)` \Rightarrow `r round(pnorm(x3, m, s, lower.tail=F)*100, 1)`$ persons.
+</div>
 
 
 ## Exercise 10
@@ -98,19 +258,69 @@ It is known that the blood pressure of people in a population with 20000 persons
 1.  How many persons have a blood pressure above 16 mm Hg?
 2.  How much have to decrease the blood pressure of a person with 16 mm Hg in order to be below the 40% of people with lowest blood pressure?
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $P(X>16)=0.1587 \Rightarrow 3174$ persons. <br/>
+2. $D_4 = 12.25$ mm Hg, so, must decrease a least $3.75$ mm Hg.
+</div> 
+
 
 ## Exercise 11
-A study tries to determine the effect of a low fat diet in the lifetime of rats. The rats where divided into two groups, one with a normal diet and another with a low fat diet. It is assumed that the lifetime of both groups follows normal distribution model with the same variance but different mean. If 20% of rats with normal diet lived more than 12 months, 5% less than 8 moth, and 85% of rats with low fat diet lived more than 11 moths,
+```{r}
+p1 = 0.2
+x1 = 12
+p2 = 0.05
+x2 = 8
+p3 = 0.85
+x3 = 11
+# System matrices
+A = matrix(c(1,qnorm(p1,lower.tail=F),1,qnorm(p2)), nrow=2, byrow = T)
+B = matrix(c(x1,x2))
+sol = solve(A,B)
+m1 = sol[1]
+s = sol[2]
+m2 = x3 - qnorm(p3, lower.tail=F)*s
+p = 0.4
+x4 = 9
+```
+
+A study tries to determine the effect of a low fat diet in the lifetime of rats. The rats where divided into two groups, one with a normal diet and another with a low fat diet. It is assumed that the lifetime of both groups follows normal distribution model with the same variance but different mean. If `r p1*100`% of rats with normal diet lived more than `r x1` months, `r p2*100`% less than `r x2` months, and `r p3*100`% of rats with low fat diet lived more than `r x3` months,
 
 1.  what is the mean and the standard deviation of lifetime of rats following a low fat diet?
-2.  If there was 40% of rats with normal diet, and 60% of rats with low fat diet, what is the probability that a random rat die before 9 months?
+2.  If there was `r p*100`% of rats with normal diet, and `r (1-p)*100`% of rats with low fat diet, what is the probability that a random rat die before `r x4` months?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $\mu_1=`r m1`$ months and $s=`r s`$ months. <br/>
+2. $P(X<`r x4`)=`r p*pnorm(x4, m1, s)+(1-p)*pnorm(x4, m2, s)`$.
+</div>
 
 
 ## Exercise 12
-A diagnostic test to determine doping of athletes returns a positive outcome when the concentration of a substance in blood is greater than 4 $\mu$g/ml. If the distribution of the substance concentration in doped athletes follows a normal distribution model with mean 4.5 $\mu$g/ml and standard deviation 0.2 $\mu$g/ml, and in non-doped athletes follow a normal distribution model with mean 3 $\mu$g/ml and standard deviation 0.3 $\mu$g/ml,
+```{r}
+x1 = 4
+m1 = 4.5
+s1 = 0.2
+m2 = 3
+s2 = 0.3
+pre = 0.1
+sen = pnorm(x1, m1, s1, lower.tail=F)
+spe = pnorm(x1, m2, s2)
+pos = pre*sen+(1-pre)(1-spe)
+ppv = pre*sen/pos
+```
+
+A diagnostic test to determine doping of athletes returns a positive outcome when the concentration of a substance in blood is greater than `r x1` $\mu$g/ml. If the distribution of the substance concentration in doped athletes follows a normal distribution model with mean `r m1` $\mu$g/ml and standard deviation `r s1` $\mu$g/ml, and in non-doped athletes follow a normal distribution model with mean `r m2` $\mu$g/ml and standard deviation `r s2` $\mu$g/ml,
 
 1.  what is the sensitivity and specificity of the test?
-2.  If there are a 10% of doped athletes in a competition, what is the positive predicted value?
+2.  If there are a `r pre*100`% of doped athletes in a competition, what is the positive predicted value?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $D$ to the event of being doped, $X$ to the concentration in doped athletes and $Y$ to the concentration in non-doped athletes, <br/>
+1. Sensitivity $P(+\vert D) = P(X>`r x1`)=`r sen`$ and specificity $P(-\vert \bar D)=P(Y<`r x1`)=`r spe`$ <br/>
+2. PPV $P(D\vert +) = `r ppv`$.
+</div>
 
 
 ## Exercise 13

@@ -37,6 +37,22 @@ $$
     c.  $P(4\leq X\leq 6.5)$.
     d.  $P(5<X<6)$.
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $$
+F(x)=
+\begin{cases}
+0 & \text{if $x<4$,}\\
+0.15 & \text{if $4\leq x<5$,}\\
+0.5 & \text{if $5\leq x<6$,}\\
+0.6 & \text{if $6\leq x<7$,}\\
+0.85 & \text{if $7\leq x<8$,}\\
+1 & \text{if $8\leq x$.}
+\end{cases}
+$$ <br/>
+2. $P(X<7.5)=0.85$, $P(X>8)=0$, $P(4\leq x\leq 6.5)=0.6$ and $P(5<X<6)=0$.
+</div>
+
 
 ## Exercise 2
 Let $X$ be a discrete random variable with the following probability distribution 
@@ -44,10 +60,10 @@ Let $X$ be a discrete random variable with the following probability distributio
 $$
 F(x)=
 \begin{cases}
-0 & \text{si $x<1$,} \\
-1/5 & \text{si $1\leq x< 4$,} \\
-3/4 & \text{si $4\leq x<6$,} \\
-1 & \text{si $6\leq x$.}
+0 & \text{if $x<1$,} \\
+1/5 & \text{if $1\leq x< 4$,} \\
+3/4 & \text{if $4\leq x<6$,} \\
+1 & \text{if $6\leq x$.}
 \end{cases}
 $$
 
