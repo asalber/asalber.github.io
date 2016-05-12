@@ -277,6 +277,8 @@ In practice, this approximation can be used for $n\geq 30$ and $p\leq 0.1$.
 
 <img class="img-center" src="img/drv/law_rare_events.svg" alt="Law of rare events" width="500">
 
+[![Interactive application](/images/r_interactive_app.png)](https://aprendeconalf.shinyapps.io/interactive_charts/#law-rare-events)
+
 **Example**. A vaccine produce an adverse reaction in 4% of cases. If a sample of 50 persons are vaccinated, what is the probability of having more than 2 persons with an adverse reaction?
 
 The variable that measures the number of persons with an adverse reaction in the sample follows a Binomial distribution model $X\sim B(50,0.04)$, but as $n=50>30$ and $p=0.04<0.1$, we can apply the law of rare events and use the Poisson distribution model $P(50\cdot 0.04)=P(2)$ to do the calculations. 

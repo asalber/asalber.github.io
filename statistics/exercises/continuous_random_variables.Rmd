@@ -306,7 +306,7 @@ s2 = 0.3
 pre = 0.1
 sen = pnorm(x1, m1, s1, lower.tail=F)
 spe = pnorm(x1, m2, s2)
-pos = pre*sen+(1-pre)(1-spe)
+pos = pre*sen+(1-pre)*(1-spe)
 ppv = pre*sen/pos
 ```
 
@@ -324,15 +324,44 @@ Naming $D$ to the event of being doped, $X$ to the concentration in doped athlet
 
 
 ## Exercise 13
+```{r}
+m = 60
+s = 15
+n1 = 30
+x1 = 62
+p = 0.05
+n2 = 60
+```
+
 According to the central limit theorem, for big samples ($n\geq 30$) the sample mean $\bar x$ follows a normal distribution model $N(\mu,\sigma/\sqrt{n})$, where $\mu$ is the population mean and $\sigma$ the population standard deviation.
 
-It is known that in a population the sural triceps elongation follows has mean 60 cm and standard deviation 15 cm. If you draw a sample of 30 individuals from this population, what is the probability of having a sample mean greater than 62 cm? If a sample is atypical if its mean is below the 5th percentile, is atypical a sample of 60 individuals with $\bar x=57$?
+It is known that in a population the sural triceps elongation follows has mean `r m` cm and standard deviation `r s` cm. If you draw a sample of `r n1` individuals from this population, what is the probability of having a sample mean greater than `r x1` cm? If a sample is atypical if its mean is below the `r p*100`th percentile, is atypical a sample of `r n2` individuals with $\bar x=57$?
+
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+$P(\bar x>`r x1`) = `r pnorm(x1, m, s/sqrt(n1), lower.tail=F)`$. <br/>
+$P_{`r p*100`}=`r qnorm(p, m, s/sqrt(n2))`$, so, the sample is non-atypical. 
+</div>
 
 
 ## Exercise 14
-The curing time of a knee injury in soccer players follows a normal distribution model with mean 50 days and standard deviation 10 days. If there is a final match in 65 days, what is the probability that a player that has just injured his knee will miss the final? If the semifinal match is in 40 days, and 4 players has just injured the knee, what is the probability that some of them can play the semifinal?
+```{r}
+m = 50
+s = 10 
+x1 = 65
+x2 = 40
+n = 4
+p = pnorm(x2, m, s)
+```
 
+The curing time of a knee injury in soccer players follows a normal distribution model with mean `r m` days and standard deviation `r s` days. If there is a final match in `r x1` days, what is the probability that a player that has just injured his knee will miss the final? If the semifinal match is in `r x2` days, and `r n` players has just injured the knee, what is the probability that some of them can play the semifinal?
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $X$ to the curing time, $P(X>`r x1`)=`r pnorm(x1, m, s, lower.tail=F)`$. <br/>
+Naming $Y$ to the number of injured players that could play the semifinal, $P(Y\geq 1)=`r pbinom(0, n, p, lower.tail=F)`$. 
+</div>
 
 
 

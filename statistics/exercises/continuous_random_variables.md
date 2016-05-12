@@ -202,9 +202,6 @@ A study tries to determine the effect of a low fat diet in the lifetime of rats.
 
 ## Exercise 12
 
-```
-Error in eval(expr, envir, enclos): tentativa de aplicar una no-función
-```
 
 A diagnostic test to determine doping of athletes returns a positive outcome when the concentration of a substance in blood is greater than 4 $\mu$g/ml. If the distribution of the substance concentration in doped athletes follows a normal distribution model with mean 4.5 $\mu$g/ml and standard deviation 0.2 $\mu$g/ml, and in non-doped athletes follow a normal distribution model with mean 3 $\mu$g/ml and standard deviation 0.3 $\mu$g/ml,
 
@@ -215,20 +212,35 @@ A diagnostic test to determine doping of athletes returns a positive outcome whe
 <div id="solution" style="display: none">
 Naming $D$ to the event of being doped, $X$ to the concentration in doped athletes and $Y$ to the concentration in non-doped athletes, <br/>
 1. Sensitivity $P(+\vert D) = P(X>4)=0.9938$ and specificity $P(-\vert \bar D)=P(Y<4)=0.9996$ <br/>
-2. PPV $P(D\vert +) = 0.8213$.
+2. PPV $P(D\vert +) = 0.9961$.
 </div>
 
 
 ## Exercise 13
+
+
 According to the central limit theorem, for big samples ($n\geq 30$) the sample mean $\bar x$ follows a normal distribution model $N(\mu,\sigma/\sqrt{n})$, where $\mu$ is the population mean and $\sigma$ the population standard deviation.
 
 It is known that in a population the sural triceps elongation follows has mean 60 cm and standard deviation 15 cm. If you draw a sample of 30 individuals from this population, what is the probability of having a sample mean greater than 62 cm? If a sample is atypical if its mean is below the 5th percentile, is atypical a sample of 60 individuals with $\bar x=57$?
 
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+$P(\bar x>62) = 0.2326$. <br/>
+$P_{5}=56.8148$, so, the sample is non-atypical. 
+</div>
+
+
 ## Exercise 14
+
+
 The curing time of a knee injury in soccer players follows a normal distribution model with mean 50 days and standard deviation 10 days. If there is a final match in 65 days, what is the probability that a player that has just injured his knee will miss the final? If the semifinal match is in 40 days, and 4 players has just injured the knee, what is the probability that some of them can play the semifinal?
 
-
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $X$ to the curing time, $P(X>65)=0.0668$. <br/>
+Naming $Y$ to the number of injured players that could play the semifinal, $P(Y\geq 1)=0.4989$. 
+</div>
 
 
 
