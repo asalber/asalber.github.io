@@ -76,6 +76,28 @@ $$
 3.  Calculate the mean.
 4.  Calculate the standard deviation.
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+```{r}
+m = 1*0.2+4*0.55+6*0.25
+s = sqrt((1^2*0.2+4^2*0.55+6^2*0.25)-m^2)
+```
+
+1. $$
+\begin{array}{|c|c|c|c|c|c|}
+\hline
+X & 1 & 4 & 6 \\ 
+\hline
+f(x) & 0.2 & 0.55 & 0.25 \\ 
+\hline
+\end{array}
+$$
+
+2. $P(X=6)= 0.25$, $P(X=5)=0$, $P(2<X<5.5)=0.55$ and $P(0\leq X<4)=0.2$. <br/>
+3. $\mu=`r m`$. <br/>
+4. $\sigma=`r s`$.
+</div>
+
 
 ## Exercise 3
 An experiment consist in injecting a virus to three different types of rats and observing if they survive or not. It is known that the probability of surviving is $0.5$ for the first type of rats, $0.4$ for the second type and $0.3$ for the third type.
@@ -85,39 +107,144 @@ An experiment consist in injecting a virus to three different types of rats and 
 3.  Calculate $P(X\leq 1)$, $P(X\geq 2)$ and $P(X=1.5)$.
 4.  Calculate the mean and the standard deviation. Is representative the mean?
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $$
+\begin{array}{|c|c|c|c|c|}
+\hline
+X & 0 & 1 & 2 & 3 \\
+\hline
+f(x) & 0.21 & 0.44 & 0.29 & 0.06\\
+\hline
+\end{array}
+$$
+
+2.$$
+F(x)=
+\begin{cases}
+0 & \text{si $x<0$,}\\
+0.21 & \text{si $0\leq x<1$,}\\
+0.65 & \text{si $1\leq x<2$,}\\
+0.94 & \text{si $2\leq x<3$,}\\
+1 & \text{si $3\leq x$.}
+\end{cases}
+$$
+
+3. $P(X\leq 1)=0.65$, $P(X\geq 2)=0.35$ and $P(X=1.5)=0$. <br/>
+4. $\mu=1.2$ rats, $\sigma^2=0.7$ rats$^2$ y $\sigma=0.84$ rats.
+</div>
+
 
 ## Exercise 4
-The chance of being cured with a treatment is $0.85$. If we apply the treatment to 6 patients,
+```{r}
+p = 0.85
+n = 6
+x1 = 3
+```
+
+The chance of being cured with a treatment is `r p`. If we apply the treatment to `r n` patients,
 
 1.  What is the probability that half of them are cured?
-2.  What is the probability that a least 4 of them are cured?
+2.  What is the probability that a least `r x1+1` of them are cured?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $X$ to the number of cured patients, <br/>
+1. $P(X=`r x1`) = `r dbinom(x1, n, p)`$. <br/>
+2. $P(X\geq `r x1+1`)= `r pbinom(x1, n, p, lower.tail=F)`$.
+</div>
 
 
 ## Exercise 5
-Ten persons came into contact with a person infected by tuberculosis. The probability of being infected after contacting a person with tuberculosis is $0.10$.
+```{r}
+n = 10
+p = 0.1
+x1 = 0
+x2 = 1
+
+```
+
+Ten persons came into contact with a person infected by tuberculosis. The probability of being infected after contacting a person with tuberculosis is `r p`.
 
 1.  What is the probability that nobody are infected?
-2.  What is the probability that at least 2 persons are infected?
+2.  What is the probability that at least `r x2+1` persons are infected?
 3.  What is the expected number of infected persons?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $X$ to the number of persons infected, <br/>
+1. $P(X=`r x1`) = `r pbinom(x1, n, p)`$. <br/>
+2. $P(X\geq `r x2+1`)= `r pbinom(x2, n, p, lower.tail=F)`$. <br/>
+3. $\mu=`r n*p`$.
+</div>
 
 
 ## Exercise 6
-The probability of having an adverse reaction to a vaccine is $0.001$. If 2000 persons are vaccinated, what is the probability of having some adverse reaction?
+```{r}
+n = 2000
+p = 0.001
+x1 = 0
+```
+
+The probability of having an adverse reaction to a vaccine is `r p`. If `r n` persons are vaccinated, what is the probability of having some adverse reaction?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $X$ to the number of adverse reactions, $P(X\geq `r x1+1`)=`r pbinom(x1, n, p, lower.tail=F)`$.
+</div>
 
 
 ## Exercise 7
+```{r}
+m1 = 4
+m2 = 6
+x1 = 3
+x2 = 2
+```
+
 The average number of calls per minute that arrive to a telephone switchboard is 120.
 
 1.  What is the probability of receiving less than 4 calls in 2 seconds?
 2.  What is the probability of receiving at least 3 calls in 3 seconds?
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Naming $X$ to the number of calls in 2 seconds, $P(X<`r x1+1`)=`r ppois(x1, m1)`$. <br/>
+2. Naming $Y$ to the number of calls in 3 seconds, $P(X\geq `r x2+1`)= `r ppois(x2, m2, lower.tail=F)`$.
+</div>
+
 
 ## Exercise 8
+```{r}
+n = 7
+p = 1/3
+x1 = 3
+```
+
 A test contains 10 questions with 3 possible options each. For every question you win a point if you give the right answer and loss half a point if the answer is wrong. A student knows the right answer for 3 of the 10 questions and answers the rest randomly. What is the probability of passing the exam?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $X$ to the number of correct answers in questions randomly answered, $P(X\geq `r x1+1`)=`r pbinom(x1, n, p, lower.tail=F)`$.
+</div>
 
 
 ## Exercise 9
-It has been observed experimentally that 1 of every 20 trillions of cells exposed to radiation mutates becoming carcinogenic. We know that the human body has approximately 1 trillion of cells by kilogram ot tissue. Calculate the probability that a 60 kg person exposed to radiation develops cancer. If the radiation affects 3 persons weighing 60 kg, what is the probability that a least one of them develops cancer?
+```{r}
+m = 3
+x1 = 0
+p = ppois(x1, m, lower.tail=F)
+n = 3
+x2 = 0
+```
+
+It has been observed experimentally that 1 of every 20 trillions of cells exposed to radiation mutates becoming carcinogenic. We know that the human body has approximately 1 trillion of cells by kilogram ot tissue. Calculate the probability that a 60 kg person exposed to radiation develops cancer. If the radiation affects `r n` persons weighing 60 kg, what is the probability that a least one of them develops cancer?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $X$ to the number of cells mutated, $P(X>`r x1`)=`r p`$. <br/>
+Naming $Y$ to the of persons developing cancer, $P(Y\geq `r x2+1`) = `r pbinom(x2, n, p, lower.tail=F)`$.
+</div>
 
 
 ## Exercise 10
