@@ -209,28 +209,51 @@ Naming $Y$ to the of persons developing cancer, $P(Y\geq 1) = 0.9999$.
 
 ## Exercise 10
 
-A diagnostic test for a disease returns 1% of positive outcomes, and the positivie and negative predictive values are $0.95$ and $0.98$ respectively.
+
+A diagnostic test for a disease returns 1% of positive outcomes, and the positivie and negative predictive values are 0.95 and 0.98 respectively.
 
 1.  Calculate the prevalence of the disease.
 2.  Calculate the sensitivity and the specificity of the test.
 3.  If the test is applied to 12 sick persons, what is the probability of getting at least a wrong diagnosis?
 4.  If the test is applied to 12 persons, what is the probability of getting a right diagnosis for all of them?
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $P(D)=0.0293$. <br/>
+2. Sensitivity $P(+\vert D)=0.3242$ and specificity $P(-\vert \bar D)=0.9995$. <br/>
+3. Naming $X$ to the number of wrong diagnosis in 12 sick persons, $P(X\geq 1)=1$. <br/>
+4. Naming $Y$ to the number of right diagnosis in 12 persons, $P(X=12)=0.7818$.
+</div>
+
 
 ## Exercise 11
+
+
 In a study about a parasite that attack the kidney of rats it is known that the average number of parasites per kidney is 3.
 
 1.  Calculate the probability that a rat have more than 3 parasites.
 2.  Calculate the probability of having at least 9 rats infected in a sample of 10 rats.
 
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Naming $X$ to the number of parasites in a rat, $P(X>3)=0.8488$. <br/>
+2. Naming $Y$ to the number of rats with parasites in a sample of 10 rats, $P(Y\geq 9)=0.9997$.
+</div>
+
 
 ## Exercise 12
+
+
 In a physiotherapy course there are 60% of females and 40% of males.
 
 1.  If 6 random students have to go to a hospital for making practices, what is the probability of going more males than females?
 2.  In 5 samples of 6 students, what is the probability of having some sample without males?
 
-
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Naming $X$ to the number of females in a group of 6 students, $P(X<2)=0.1792$. <br/>
+2. Naming $Y$ to the number of groups of 6 students without males in a sample of 5 groups, $P(Y>0) =0.2125$.
+</div>
 
 
 
