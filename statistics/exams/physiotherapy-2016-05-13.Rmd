@@ -1,0 +1,120 @@
+---
+layout: book
+title: Statistics exam
+description: "Solution of the exam"
+tags: [Exam, Statistics, Biostatistics, Physiotherapy]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+col1 <- rgb(5,161,230,max=255)
+col2 <- rgb(238,50,36,max=255)
+```
+
+Grade: Physiotherapy 
+Date: May 13, 2016 
+
+## Exercise 1
+```{r}
+pre = 0.2
+sen1 = 0.8
+spe1 = 0.99
+sen2 = 0.85
+spe2 = 0.9
+sen3 = 0.98
+spe3 = 0.98
+pos1 = pre*sen1+(1-pre)*(1-spe1)
+ppv1 = pre*sen1/pos1
+npv1 = (1-pre)*spe1/(1-pos1)
+pos2 = pre*sen2+(1-pre)*(1-spe2)
+pos3 = pre*sen3+(1-pre)*(1-spe3)
+error2 = pre*(1-sen2) + (1-pre)*(1-spe2)
+error3 = pre*(1-sen3) + (1-pre)*(1-spe3)
+```
+
+Of all the anterior cruciate ligament of the knee injuries, the rupture occurs in `r pre*100`% of cases, and to detect it there are three different tests:
+    
+The drawer test that analyzes the stability of the tibia. It has a sensitivity of `r sen1*100`% and a specificity of `r spe1`%.
+A radiologic study in 2 planes, that allows rule out bone avulsion. It has a sensitivity of `r sen2`% and a specificity of `r spe2`%.
+A magnetic resonance, that it is the most appropriate when there is hematoma. It has a sensitivity and a specificity of `r sen3`%.
+
+Assuming that the tests are independent, 
+
+1. Compute the predictive values of the drawer test.
+2. If an individual has an anterior cruciate ligament injury, what is the probability that the radiologic study and the magnetic resonance return a positive outcome? 
+3. If an individual has an anterior cruciate ligament injury, what is the probability that the radiologic study or the magnetic resonance give a wrong diagnosis?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $PPV_1 = P(D\vert +_1) = `r ppv1`$ and $NPV_1=P(\bar D\vert -_1)=`r npv1`$. <br/>
+2. $P(+_2)=`r pos2`$, $P(+_3)=`r pos3`$ and $P(+_2\cap +_3)=`r pos2*pos3`$.  <br/>
+3. $P(\mbox{Error}_2)=`r error2`$, $P(\mbox{Error}_3)=`r error3`$ and $P(\mbox{Error}_2\cup \mbox{Error}_3)=`r error2 + error3 - error2*error3`$.
+</div>
+
+## Exercise 2
+```{r}
+n1 = 20
+p1 = 0.1
+x1 = 3
+n2 = 200
+p2 = 0.2
+x2 = 3
+```
+
+It is known that `r p1*100`% of professional soccer players have a cruciate ligament injury during the league. It is also known that the ligament rupture occurs in `r p2*100`% of cruciate ligament injuries.
+    
+1. Calculate the probability that in a team with `r n1` players more than `r x1` have a cruciate ligament injury during the league.
+2. Calculate the probability that in a league with `r n2` players more than `r x2` have a ligament rupture.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Naming $X$ to the number of players in a team with a cruciate ligament injury, $P(X>`r x1`)=`r pbinom(x1, n1, p1, lower.tail=F)`$. <br/>
+2. Naming $Y$ to the number of players in a league with a ligament rupture, $P(Y>`r x2`)= `r ppois(x2, n2*p1*p2, lower.tail=F)`$.
+</div>
+
+
+## Exercise 3
+```{r}
+m = 98.5
+s = 28.25
+x1 = 100
+x2 = 160
+pL = pnorm(round((x1-m)/s,2))
+pM = pnorm(round((x2-m)/s,2))-pnorm(round((x1-m)/s,2))
+pH = 1-pnorm(round((x2-m)/s,2))
+pIL = 0.01
+pIM = 2*pIL
+pIH = 2*pIM
+pI = pL*pIL+pM*pIM+pH*pIH
+```
+
+In a blood analysis the LDL cholesterol level reference interval for a particular population is $(`r m-2*s`,`r m+2*s`)$ mg/dl.
+(The reference interval contains the 95% of the population and is obtained with the formula $\mu\pm2\sigma$). 
+Assuming that the LDL cholesterol level follows a normal distribution, 
+
+1. Calculate the mean and the standard deviation of the LDL cholesterol level.
+2. According to the LDL cholesterol level, patients are classified into three categories of infarct risk:
+
+|LDL cholesterol level     | Infarct risk |
+|:------------------------:|:------------:|
+|Less than `r x1` mg/dl       | Low          |
+|Between `r x1` and `r x2` mg/dl | Medium       |
+|Greater than `r x2` mg/dl    | High         |
+
+Calculate the percentage of people in the population that falls into every category of infarct risk. 
+3. The probability of having an infarct with a high risk is twice the probability of having infarct with a medium risk, and this is twice the probability of having infarct with a low risk. What is the probability of having infart in the whole population if the probability of having infarct with a low risk is 0.01?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $C$ to the LDL cholesterol level, <br/>
+1. $\mu=`r m`$ mg/dl and $\sigma=`r s`$ mg/dl. <br/>
+2. $P(\mbox{Low})=P(C<`r x1`)=`r pL`$, $P(\mbox{Medium})=P(`r x1`\leq C\leq `r x2`)=`r pM`$ and $P(\mbox{Low})=P(C>`r x2`)=`r pH`$. Thus, there are `r round(pL,4)*100`% of persons with low risk,  `r round(pM,4)*100`% of persons with medium risk and  `r round(pH,4)*100`% of persons with high risk. <br/>
+3. Naming $I$ to the event of havig an infarct, $P(I)=`r pI`$.
+</div>
+

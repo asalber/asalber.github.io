@@ -9,4 +9,5 @@ image: cabecera-estadistica.jpg
 
 ## Physiotherapy
 
-- [Exam of April 01, 2016](2016-04-01.html)
+- [Exam of April 01, 2016](physiotherapy-2016-04-01.html)
+- [Exam of May 13, 2016](physiotherapy-2016-05-13.html)
