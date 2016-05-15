@@ -17,7 +17,7 @@ col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
 ```
 
-Grade: Physiotherapy 
+Grade: Physiotherapy  
 Date: May 13, 2016 
 
 ## Exercise 1
@@ -40,9 +40,9 @@ error3 = pre*(1-sen3) + (1-pre)*(1-spe3)
 
 Of all the anterior cruciate ligament of the knee injuries, the rupture occurs in `r pre*100`% of cases, and to detect it there are three different tests:
     
-The drawer test that analyzes the stability of the tibia. It has a sensitivity of `r sen1*100`% and a specificity of `r spe1`%.
-A radiologic study in 2 planes, that allows rule out bone avulsion. It has a sensitivity of `r sen2`% and a specificity of `r spe2`%.
-A magnetic resonance, that it is the most appropriate when there is hematoma. It has a sensitivity and a specificity of `r sen3`%.
+- The drawer test that analyzes the stability of the tibia. It has a sensitivity of `r sen1*100`% and a specificity of `r spe1`%.
+- A radiologic study in 2 planes, that allows rule out bone avulsion. It has a sensitivity of `r sen2`% and a specificity of `r spe2`%.
+- A magnetic resonance, that it is the most appropriate when there is hematoma. It has a sensitivity and a specificity of `r sen3`%.
 
 Assuming that the tests are independent, 
 
@@ -94,20 +94,20 @@ pIH = 2*pIM
 pI = pL*pIL+pM*pIM+pH*pIH
 ```
 
-In a blood analysis the LDL cholesterol level reference interval for a particular population is $(`r m-2*s`,`r m+2*s`)$ mg/dl.
-(The reference interval contains the 95% of the population and is obtained with the formula $\mu\pm2\sigma$). 
+In a blood analysis the LDL cholesterol level reference interval for a particular population is $(`r m-2*s`,`r m+2*s`)$ mg/dl. (The reference interval contains the 95% of the population and is centered in the mean).  
 Assuming that the LDL cholesterol level follows a normal distribution, 
 
 1. Calculate the mean and the standard deviation of the LDL cholesterol level.
 2. According to the LDL cholesterol level, patients are classified into three categories of infarct risk:
 
-|LDL cholesterol level     | Infarct risk |
-|:------------------------:|:------------:|
-|Less than `r x1` mg/dl       | Low          |
-|Between `r x1` and `r x2` mg/dl | Medium       |
-|Greater than `r x2` mg/dl    | High         |
+   |LDL cholesterol level     | Infarct risk |
+   |:------------------------:|:------------:|
+   |Less than `r x1` mg/dl       | Low          |
+   |Between `r x1` and `r x2` mg/dl | Medium       |
+   |Greater than `r x2` mg/dl    | High         |
+ 
+   Calculate the percentage of people in the population that falls into every category of infarct risk. 
 
-Calculate the percentage of people in the population that falls into every category of infarct risk. 
 3. The probability of having an infarct with a high risk is twice the probability of having infarct with a medium risk, and this is twice the probability of having infarct with a low risk. What is the probability of having infart in the whole population if the probability of having infarct with a low risk is 0.01?
 
 <div><button class="solution">Show solution</button></div>

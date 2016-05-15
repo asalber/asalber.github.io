@@ -9,8 +9,8 @@ image: cabecera-estadistica.jpg
 
 
 
-Grade: Physiotherapy 
-Date: April 01, 2016 
+Grade: Physiotherapy  
+Date: April 01, 2016
 
 ## Exercise 1
 The chart below shows the cumulative frequency distribution the maximum angle of knee deflection after a replacement of the knee cap in a group of patients. 

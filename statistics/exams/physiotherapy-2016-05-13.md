@@ -9,7 +9,7 @@ image: cabecera-estadistica.jpg
 
 
 
-Grade: Physiotherapy 
+Grade: Physiotherapy  
 Date: May 13, 2016 
 
 ## Exercise 1
@@ -17,9 +17,9 @@ Date: May 13, 2016
 
 Of all the anterior cruciate ligament of the knee injuries, the rupture occurs in 20% of cases, and to detect it there are three different tests:
     
-The drawer test that analyzes the stability of the tibia. It has a sensitivity of 80% and a specificity of 0.99%.
-A radiologic study in 2 planes, that allows rule out bone avulsion. It has a sensitivity of 0.85% and a specificity of 0.9%.
-A magnetic resonance, that it is the most appropriate when there is hematoma. It has a sensitivity and a specificity of 0.98%.
+- The drawer test that analyzes the stability of the tibia. It has a sensitivity of 80% and a specificity of 0.99%.
+- A radiologic study in 2 planes, that allows rule out bone avulsion. It has a sensitivity of 0.85% and a specificity of 0.9%.
+- A magnetic resonance, that it is the most appropriate when there is hematoma. It has a sensitivity and a specificity of 0.98%.
 
 Assuming that the tests are independent, 
 
@@ -52,20 +52,20 @@ It is known that 10% of professional soccer players have a cruciate ligament inj
 ## Exercise 3
 
 
-In a blood analysis the LDL cholesterol level reference interval for a particular population is $(42,155)$ mg/dl.
-(The reference interval contains the 95% of the population and is obtained with the formula $\mu\pm2\sigma$). 
+In a blood analysis the LDL cholesterol level reference interval for a particular population is $(42,155)$ mg/dl. (The reference interval contains the 95% of the population and is centered in the mean).  
 Assuming that the LDL cholesterol level follows a normal distribution, 
 
 1. Calculate the mean and the standard deviation of the LDL cholesterol level.
 2. According to the LDL cholesterol level, patients are classified into three categories of infarct risk:
 
-|LDL cholesterol level     | Infarct risk |
-|:------------------------:|:------------:|
-|Less than 100 mg/dl       | Low          |
-|Between 100 and 160 mg/dl | Medium       |
-|Greater than 160 mg/dl    | High         |
+   |LDL cholesterol level     | Infarct risk |
+   |:------------------------:|:------------:|
+   |Less than 100 mg/dl       | Low          |
+   |Between 100 and 160 mg/dl | Medium       |
+   |Greater than 160 mg/dl    | High         |
+ 
+   Calculate the percentage of people in the population that falls into every category of infarct risk. 
 
-Calculate the percentage of people in the population that falls into every category of infarct risk. 
 3. The probability of having an infarct with a high risk is twice the probability of having infarct with a medium risk, and this is twice the probability of having infarct with a low risk. What is the probability of having infart in the whole population if the probability of having infarct with a low risk is 0.01?
 
 <div><button class="solution">Show solution</button></div>

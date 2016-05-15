@@ -17,7 +17,7 @@ col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
 ```
 
-Grade: Physiotherapy 
+Grade: Physiotherapy  
 Date: April 01, 2016 
 
 ## Exercise 1
