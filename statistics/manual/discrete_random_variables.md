@@ -90,10 +90,7 @@ F(x) =
 \end{cases}
 $$
 
-<div class="img-center">
-<img src="img/drv/two_coins_probability_function.svg" alt="Probability function of tossing two coins" width="400">
-<img src="img/drv/two_coins_probability_function.svg" alt="Probability function of tossing two coins" width="400">
-</div>
+<img class="img-center" src="img/drv/two_coins_probability_function.svg" alt="Probability function of tossing two coins" width="400">
 
 ### Population statistics
 
