@@ -253,7 +253,15 @@ The most important normal distribution has mean zero, $\mu=0$, and standard devi
 
 To avoid integrating the normal density function to compute probabilities it’s common to use the distribution function, that is given in a tabular format like the one below. For instance, to calculate $P(Z\leq 0.52)$
 
-
+|         |   **0.00** |   **0.01** |    **<span style="color:#FF3333">0.02</span>**| **...** |
+|:-------:|:----------:|:----------:|:----------:|:-------:|
+|  **0.0**|      0.5000|      0.5040|      0.5080|  ...    |
+|  **0.1**|      0.5398|      0.5438|      0.5478|  ...    |
+|  **0.2**|      0.5793|      0.5832|      0.5871|  ...    |
+|  **0.3**|      0.6179|      0.6217|      0.6255|  ...    |
+|  **0.4**|      0.6554|      0.6591|      0.6628|  ...    |
+|  **<span style="color:#FF3333">0.5</span>**|      0.6915|      0.6950|      <span style="color:#FF3333">0.6985</span>|  ...    |
+|     ⋮  |          ⋮ |          ⋮|           ⋮|       ⋮|
 
 $$0.52 \rightarrow \mbox{row }0.5 + \mbox{column }0.02$$
 
@@ -297,64 +305,70 @@ Therefore, $25.14\%$ of students didn’t pass the exam.
 Chi-square distribution
 -----------------------
 
-### Chi-square probability distribution model $\chi^2(n)$
+> **Definition - Chi-square distribution $\chi^2(n)$**. Given $n$ independent random variables $Z_1,\ldots,Z_n$, all of them following a standard normal probability distribution, then the variable 
+>
+$$\chi^2(n) = Z_1^2+\cdots +Z_n^2,$$ 
+>
+follows a *chi-square probability distribution with $n$ degrees of freedom*.
 
-$$Chi-square distribution $\chi^2(n)$$$ Given $n$ independent random variables $Z_1,\ldots,Z_n$, all of them following a standard normal probability distribution, then the variable $$\chi^2(n) = Z_1^2+\cdots +Z_n^2,$$ follows a *chi-square probability distribution with $n$ degrees of freedom*.
+Its range is $\mathbb{R}^+$ and its mean and variance are $\mu = n$ and $\sigma^2 = 2n.$.
 
-Its range is $\mathbb{R}^+$ and its mean and variance are $$\mu = n, \qquad \sigma^2 = 2n.$$ As we will see in the next chapter, the chi-square distribution plays an important role in the estimation of the population variance and in the study of relations between qualitative variables.
+**Example**. Below are plotted the density functions of some chi-square distribution models.
 
-### Chi-square probability density function
-
-&lt;article&gt; &lt;presentation&gt;
+<img class="img-center" src="img/crv/chi_square_density_function.svg" alt="Chi-square probability density function" width="450">
 
 ### Chi-square distribution properties
 
 -   The range is non-negative.
-
--   If $X\sim \chi^2(n)$ and $Y\sim \chi^2(m)$, then $$X+Y \sim \chi^2(n+m).$$
-
+-   If $X\sim \chi^2(n)$ and $Y\sim \chi^2(m)$, then $$X+Y \sim \chi^2(n+m)$$.
 -   Asymptotically approaches a normal distribution as the degrees of freedom increases.
+
+As we will see in the next chapter, the chi-square distribution plays an important role in the estimation of the population variance and in the study of relations between qualitative variables.
+
 
 Student’s t distribution
 ------------------------
 
-### Student’s t probability distribution $T(n)$
+> **Student’s t distribution $T(n)$**. Given a variable $Z$ following a standard normal distribution model, $Z\sim N(0,1)$, and a variable $X$ following a chi-square distribution model with $n$ degrees of freedom, $X\sim \chi^2(n)$, both independent, the variable 
+>
+$$T = \frac{Z}{\sqrt{X/n}},$$ 
+>
+follows a *Student’s t probability distribution model with $n$ degrees of freedom*.
 
-$$Student’s t distribution $T(n)$$$ Given a variable $Z$ following a standard normal distribution model, $Z\sim N(0,1)$, and a variable $X$ following a chi-square distribution model with $n$ degrees of freedom, $X\sim \chi^2(n)$, both independent, the variable $$T = \frac{Z}{\sqrt{X/n}},$$ follows a *Student’s t probability distribution model with $n$ degrees of freedom*.
+Its range is $\mathbb{R}$ and its mean and variance are $$\mu = 0$$ and $$\sigma^2 = \frac{n}{n-2}$$ if $n>2$.
 
-Its range is $\mathbb{R}$ and its mean and variance are $$\mu = 0, \qquad \sigma^2 = \frac{n}{n-2} \mbox{ si $n>2$}.$$
+**Example**. Below are plotted the density functions of some student's t distribution models.
 
-As we will see in the next chapter, the Student’s t distribution plays an important role in the estimation of the population mean.
-
-### Student’s t probability density function
-
-&lt;article&gt; &lt;presentation&gt;
+<img class="img-center" src="img/crv/student_t_density_function.svg" alt="Student's t probability density function" width="450">
 
 ### Student’s t distribution properties
 
--   The mean, the median and the mode are the same, $\mu=Me=Mo$
-
+-   The mean, the median and the mode are the same, $\mu=Me=Mo$.
 -   Is symmetric $g_1=0$.
-
 -   Asymptotically approaches the standard normal distribution as the degrees of freedom increases. In practice for $n\geq 30$ both distributions are approximately the same. $$T(n)\stackrel{n\rightarrow \infty}{\approx}N(0,1).$$
+
+As we will see in the next chapter, the Student’s t distribution plays an important role in the estimation of the population mean.
+
 
 Fisher-Snedecor’s F distribution
 --------------------------------
 
-### Fisher-Snedecor’s F probability distribution $F(m,n)$
+> **Fisher-Snedecor’s F distribution $F(m,n)$**. Given two independent variables $X$ and $Y$ both following a chi-square probability distribution model with $m$ an $n$ degrees of freedom respectively, $X\sim \chi^2(m)$ and $Y\sim \chi^2(n)$, then the variable 
+>
+$$F = \frac{X/m}{Y/n},$$ 
+>
+follows a *Fisher-Snedecor’s F probability distribution model with $m$ and $n$ degrees of freedom*.
 
-$$Fisher-Snedecor’s F distribution $F(m,n)$$$ Given two independent variables $X$ and $Y$ both following a chi-square probability distribution model with $m$ an $n$ degrees of freedom respectively, $X\sim \chi^2(m)$ and $Y\sim \chi^2(n)$, then the variable $$F = \frac{X/m}{Y/n},$$ follows a *Fisher-Snedecor’s F probability distribution model with $m$ and $n$ degrees of freedom*.
+Its range is $\mathbb{R}^+$ and its mean and variance are $$\mu = \frac{n}{n-2}$$ and $$\sigma^2 =\frac{2n^2(m+n−2)}{m(n-2)^2(n-4)}$$ if $n>4$.
 
-Its range is $\mathbb{R}^+$ and its mean and variance are $$\mu = \frac{n}{n-2}, \qquad \sigma^2 =\frac{2n^2(m+n−2)}{m(n-2)^2(n-4)}\mbox{ if $n>4$}.$$
+**Example**. Below are plotted the density functions of some Fisher-Snedecor's F distribution models.
 
-As we will see in the next chapter, the Fisher-Snedecor’s F distribution plays an important role in the comparison of population variances and in the analysis of variance test (ANOVA).
-
-### Fisher-Snedecor’s F probability density function
-
-&lt;article&gt; &lt;presentation&gt;
+<img class="img-center" src="img/crv/fisher_f_density_function.svg" alt="Fisher-Snedecor's F probability density function" width="450">
 
 ### Fisher-Snedecor’s F distribution properties
 
 -   The range is non-negative.
-
 -   It meets $$F(m,n) =\frac{1}{F(n,m)}.$$ Thus, if we name $f(m,n)_p$ the value that meets $P(F(m,n)\leq f(m,n)_p)=p$, then $$f(m,n)_p =\frac{1}{f(n,m)_{1-p}}$$ what is helpful in order to compute probabilities from the table of the distribution function.
+
+As we will see in the next chapter, the Fisher-Snedecor’s F distribution plays an important role in the comparison of population variances and in the analysis of variance test (ANOVA).
+
