@@ -33,10 +33,10 @@ Calculate the following statistics and interpret them.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\bar x=`r mean(x)`$ injuries.
-2. $Me=`r median(x)`$ injury.
-3. $Mo=`r Mode(x)`$ injury.
-4. $Q_1=1$ injury, $Q_2=`r quantile(x)[3]`$ injury and $Q_3=`r quantile(x)[4]`$ injuries.
+1. $\bar x=`r mean(x)`$ injuries. <br/>
+2. $Me=`r median(x)`$ injury. <br/>
+3. $Mo=`r Mode(x)`$ injury. <br/>
+4. $Q_1=1$ injury, $Q_2=`r quantile(x)[3]`$ injury and $Q_3=`r quantile(x)[4]`$ injuries. <br/>
 5. $P_{32}=`r quantile(x,0.32)`$ injury.
 </div>
 
@@ -59,9 +59,9 @@ axis(2, at=seq(0,65,5), las=2)
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $Me=94.62$ min. $P_{90}=132$ min.
-2. $57.08\%$ of students.
-3. $\bar x=`r mean(x)`$ min, $s=`r stdev(x)`$ min and $cv=`r cv(x)`$.
+1. $Me=94.62$ min. $P_{90}=132$ min. <br/>
+2. $57.08\%$ of students. <br/>
+3. $\bar x=`r mean(data)`$ min, $s=`r stdev(data)`$ min and $cv=`r cv(data)`$.
 </div>
 
 ## Exercise 3
@@ -76,7 +76,7 @@ In which group is more representative the mean? Justify the answer.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Newborn children: $\bar x=`r mean(x)`$ min, $s_x=`r stdev(x)`$ min and $cv_x=`r cv(x)`$.<br/>
+Newborn children: $\bar x=`r mean(x)`$ min, $s_x=`r stdev(x)`$ min and $cv_x=`r cv(x)`$. <br/>
 One year old children:  $\bar y=`r mean(y)`$ min, $s_y=`r stdev(y)`$ min and $cv_y=`r cv(y)`$.
 </div>
 
@@ -129,8 +129,8 @@ labels <- labels(tab)[[1]]
 pie(tab, main="Frequency distribution of gender", labels=labels, col=c(col1,col2))
 ```
 
-2. Females: $\bar x=`r mean(x)`$ min, $s_x=`r stdev(x)`$ min and $cv_x=`r cv(x)`$.<br/>
-Males:  $\bar y=`r mean(y)`$ min, $s_y=`r stdev(y)`$ min and $cv_y=`r cv(y)`$.<br/>
+2. Females: $\bar x=`r mean(x)`$ min, $s_x=`r stdev(x)`$ min and $cv_x=`r cv(x)`$. <br/>
+Males:  $\bar y=`r mean(y)`$ min, $s_y=`r stdev(y)`$ min and $cv_y=`r cv(y)`$. <br/>
 3. $\bar z=`r mean(bmi)`$.
 </div>
 
@@ -201,9 +201,9 @@ cvy <- cv(y)
 g1y <- sum((y-my)^3)/(ny*sy^3)
 g2y <- sum((y-my)^4)/(ny*sy^4)-3
 ```
-1. $A$: $\bar a=`r mx`$ days, $s_a=`r sx`$ days and $cv_a=`r cvx`$.<br/>
-$B$: $\bar b=`r my`$ days, $s_b=`r sy`$ days and $cv_b=`r cvy`$.<br/>
-2. $g_{1a}=`r g1x`$ and $g_{1b}=`r g1y`$.<br/>
+1. $A$: $\bar a=`r mx`$ days, $s_a=`r sx`$ days and $cv_a=`r cvx`$. <br/>
+$B$: $\bar b=`r my`$ days, $s_b=`r sy`$ days and $cv_b=`r cvy`$. <br/>
+2. $g_{1a}=`r g1x`$ and $g_{1b}=`r g1y`$. <br/>
 3. $g_{2a}=`r g2x`$ and $g_{2b}=`r g2y`$.
 </div>
 
@@ -231,10 +231,10 @@ s <- stdev(x)
 g1 <- sum((x-m)^3)/(n*s^3)
 g2 <- sum((x-m)^4)/(n*s^4)-3
 ```
-1. $\bar x=`r m`$ mmHg, $Me=`r median(x)`$ mmHg, $Mo=`r Mode(x)`$ mmHg.<br/>
-2. $s=`r s`$ mmHg and $cv=`r cv(x)`$.<br/>
-3. $g_1=`r g1`$.<br/>
-4. $g_2=`r g2`$.<br/>
+1. $\bar x=`r m`$ mmHg, $Me=`r median(x)`$ mmHg, $Mo=`r Mode(x)`$ mmHg. <br/>
+2. $s=`r s`$ mmHg and $cv=`r cv(x)`$. <br/>
+3. $g_1=`r g1`$. <br/>
+4. $g_2=`r g2`$. <br/>
 5. $\bar x=`r m*1.2-5`$ mmHg, $Me=`r median(x)*1.2-5`$ mmHg, $Mo=`r Mode(x)*1.2-5`$ mmHg, $s=`r 1.2*s`$ mmHg, $cv=`r 1.2*s/(1.2*m-5)`$, $g_1=`r g1`$ and $g_2=`r g2`$.
 </div>
 
@@ -265,9 +265,9 @@ Births: $\sum z_k=`r sum(z)`$, $\sum z_k^2=`r sum(z^2)`$.
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 1. $129$ outliers. <br/>
-2. Pregnancies: $\bar x=`r mean(x)`$, $s_x=`r stdev(x)`$ and $cv_x=`r cv(x)`$.<br/>
-Abortions: $\bar y=`r mean(y)`$, $s_y=`r stdev(y)`$ and $cv_y=`r cv(y)`$.<br/>
-Births: $\bar z=`r mean(z)`$, $s_z=`r stdev(z)`$ and $cv_z=`r cv(z)`$.<br/>
+2. Pregnancies: $\bar x=`r mean(x)`$, $s_x=`r stdev(x)`$ and $cv_x=`r cv(x)`$. <br/>
+Abortions: $\bar y=`r mean(y)`$, $s_y=`r stdev(y)`$ and $cv_y=`r cv(y)`$. <br/>
+Births: $\bar z=`r mean(z)`$, $s_z=`r stdev(z)`$ and $cv_z=`r cv(z)`$. <br/>
 3. Standard score of $7$ pregnancies is $`r (7-mean(x))/stdev(x)`$, and standard score of $4$ abortions is $`r (4-mean(y))/stdev(y)`$.
 </div>
 
