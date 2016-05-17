@@ -828,11 +828,11 @@ It measures the symmetric or skewness of the distribution, that is, how many val
 
 <img class="img-center" src="img/descriptive/symmetrical_distribution.png" alt="Symmetrical distribution" width="600">
 
--   $g_1<0$ indicates that there are more values above the mean than below it, but the values below are further from it, and the distribution is right-skewed (it has longer tail to the right).
+-   $g_1<0$ indicates that there are more values above the mean than below it, but the values below are further from it, and the distribution is left-skewed (it has longer tail to the left).
 
 <img class="img-center" src="img/descriptive/left_skewed_distribution.png" alt="Left-skewed distribution" width="600">
 
--   $g_1>0$ indicates that there are more values below the mean than above it, but the values above are further from it, and the distribution is left-skewed (it has longer tail to the left).
+-   $g_1>0$ indicates that there are more values below the mean than above it, but the values above are further from it, and the distribution is right-skewed (it has longer tail to the right).
 
 <img class="img-center" src="img/descriptive/right_skewed_distribution.png" alt="Right-skewed distribution" width="600">
 
