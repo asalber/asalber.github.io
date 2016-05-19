@@ -71,7 +71,7 @@ Females: $\bar x_f=`r mf`$ days, $s^2_f=`r variance(xf)`$ days$^2$, $s_f=`r sf`$
 Thus, is more representative the mean of females. <br/>
 2. $g_{1m}=`r g1m`$ and  $g_{1f}=`r g1f`$. Thus, both distributions are right-skewed but is more symmetric the distribution of males. <br/>
 3. $g_{2m}=`r g2m`$ and  $g_{2f}=`r g2f`$. Thus, both distributions are platykurtic, but the disribution of males is flatter. <br/>
-4. $P_{80}=49.7041$ days. <br/>
+4. $P_{80}=59.7041$ days. <br/>
 5. $16.68\%$.
 </div>
 

@@ -49,7 +49,7 @@ Females: $\bar x_f=37.3333$ days, $s^2_f=174.5556$ days$^2$, $s_f=13.2119$ days 
 Thus, is more representative the mean of females. <br/>
 2. $g_{1m}=0.743$ and  $g_{1f}=0.8378$. Thus, both distributions are right-skewed but is more symmetric the distribution of males. <br/>
 3. $g_{2m}=-0.4193$ and  $g_{2f}=-0.3011$. Thus, both distributions are platykurtic, but the disribution of males is flatter. <br/>
-4. $P_{80}=49.7041$ days. <br/>
+4. $P_{80}=59.7041$ days. <br/>
 5. $16.68\%$.
 </div>
 
