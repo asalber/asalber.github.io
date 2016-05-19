@@ -9,7 +9,7 @@ image: cabecera-estadistica.jpg
 
 
 
-Grade: Physiotherapy
+Grade: Physiotherapy  
 Date: May 19, 2016 
 
 ## Exercise 1
@@ -127,6 +127,7 @@ The probability distribution of $X$ in a population is plotted below.
 
 <img src="img/severity_probability_function-1.svg" title="plot of chunk severity_probability_function" alt="plot of chunk severity_probability_function" style="display: block; margin: auto;" />
 
+
 1. Calculate and plot the distribution function.
 2. Calculate the following probabilities:
   a. $P(X\leq 2)$
@@ -134,9 +135,7 @@ The probability distribution of $X$ in a population is plotted below.
   c. $P(X=4.2)$
   d. $P(1<X\leq 4.2)$
 3. Calculate the mean and the standard deviation of $X$. Is the mean representative?
-
 4. If a level of severity of 0.05 is considered incurable, what is the probability of having some person with an incurable injury in a sample of 10 persons with the injury?
-
 5. If there are 6 persons injuried per month in average, what is the probabilitiy of having more than 2 persons injuried? What is the probability of having more than 1 person injuried with an incurable injury?
 
 <div><button class="solution">Show solution</button></div>

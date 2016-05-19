@@ -17,7 +17,7 @@ color1 <- rgb(5,161,230,max=255)
 color2 <- rgb(238,50,36,max=255)
 ```
 
-Grade: Physiotherapy
+Grade: Physiotherapy  
 Date: May 19, 2016 
 
 ## Exercise 1
@@ -173,6 +173,13 @@ axis(1, at=x)
 axis(2, at=seq(0,0.4,0.05), las=2)
 box()
 ```
+```{r}
+n = 10
+x1 = 0
+lambda = 6
+x2 = 2
+x3 = 1
+```
 
 1. Calculate and plot the distribution function.
 2. Calculate the following probabilities:
@@ -181,16 +188,7 @@ box()
   c. $P(X=4.2)$
   d. $P(1<X\leq 4.2)$
 3. Calculate the mean and the standard deviation of $X$. Is the mean representative?
-```{r}
-n = 10
-x1 = 0
-```
 4. If a level of severity of `r p[5]` is considered incurable, what is the probability of having some person with an incurable injury in a sample of `r n` persons with the injury?
-```{r}
-lambda = 6
-x2 = 2
-x3 = 1
-```
 5. If there are 6 persons injuried per month in average, what is the probabilitiy of having more than 2 persons injuried? What is the probability of having more than 1 person injuried with an incurable injury?
 
 <div><button class="solution">Show solution</button></div>
