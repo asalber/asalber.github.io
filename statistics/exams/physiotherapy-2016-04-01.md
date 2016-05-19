@@ -10,12 +10,12 @@ image: cabecera-estadistica.jpg
 
 
 Grade: Physiotherapy  
-Date: April 01, 2016
+Date: April 01, 2016 
 
 ## Exercise 1
 The chart below shows the cumulative frequency distribution the maximum angle of knee deflection after a replacement of the knee cap in a group of patients. 
   
-<img src="img/knee_angle-1.svg" title="plot of chunk knee_angle" alt="plot of chunk knee_angle" style="display: block; margin: auto;" />
+<img src="/img/knee_angle-1.svg" title="plot of chunk knee_angle" alt="plot of chunk knee_angle" style="display: block; margin: auto;" />
 
 1. Calculate the quartiles and interpret them.
 2. Are there outliers in the sample?
