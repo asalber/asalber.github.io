@@ -130,6 +130,7 @@ The probability distribution of $X$ in a population is plotted below.
 
 1. Calculate and plot the distribution function.
 2. Calculate the following probabilities:
+
     a. $P(X\leq 2)$
     b. $P(X>3)$
     c. $P(X=4.2)$
