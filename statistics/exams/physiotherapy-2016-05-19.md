@@ -129,13 +129,7 @@ The probability distribution of $X$ in a population is plotted below.
 
 
 1. Calculate and plot the distribution function.
-2. Calculate the following probabilities:
-
-    a. $P(X\leq 2)$
-    b. $P(X>3)$
-    c. $P(X=4.2)$
-    d. $P(1<X\leq 4.2)$
-    
+2. Calculate the following probabilities: $P(X\leq 2)$, $P(X>3)$, $P(X=4.2)$ and $P(1<X\leq 4.2)$.
 3. Calculate the mean and the standard deviation of $X$. Is the mean representative?
 4. If a level of severity of 0.05 is considered incurable, what is the probability of having some person with an incurable injury in a sample of 10 persons with the injury?
 5. If there are 6 persons injuried per month in average, what is the probabilitiy of having more than 2 persons injuried? What is the probability of having more than 1 person injuried with an incurable injury?
