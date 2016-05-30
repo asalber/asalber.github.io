@@ -2,7 +2,7 @@
 layout: software
 title: RKTeaching
 description: "Un paquete de R para la enseñanza de Estadística"
-modified: 2014-04-10
+modified: 2016-05-20
 tags: [Estadística, R, RKTeaching, RKWard]
 comments: true
 share: true
@@ -22,7 +22,9 @@ Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por
 ### Instalación en Windows
 Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y RKTeaching.
 
-[Descarga del programa de instalación](https://drive.google.com/file/d/0B5yGMNeKDyLdUjlZcldDaFV6R1E/view?usp=sharing)
+[Descarga la última versión (R versión 3.2.3, RKWard versión 0.6.4, rk.Teaching versión 1.3.0)](https://drive.google.com/file/d/0B5yGMNeKDyLdaFMyd2J5YzdZcVE/view?usp=sharing)
+
+[Descarga la versión anterior (R version 3.0.0, RKWard version 0.6.1 y rk.Teaching versión 1.2.0)](https://drive.google.com/file/d/0B5yGMNeKDyLdUjlZcldDaFV6R1E/view?usp=sharing)
 
 Una vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo. 
 Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:\, tras esto se creará una carpeta rkward dentro de la cual habrá un acceso directo que permitirá arrancar RKWard.
