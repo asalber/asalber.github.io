@@ -2,7 +2,7 @@ title:            Aprende con Alf
 description:      Sitio web para la enseñanza de Matemáticas y en particular de Estadística
 disqus_shortname: aprendeconalf
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              
+url:
 
 # Owner/author information
 owner:
@@ -12,25 +12,25 @@ owner:
   email:          asalber@gmail.com
   # Enlaces a redes sociales
   twitter:        aprendeconalf
-  facebook:       
+  facebook:
   github:         asalber
   stackexchange:  https://stackexchange.com/users/1506692/alf
   linkedin:       asalber
-  instagram:      
-  flickr:         
-  tumblr:         
+  instagram:
+  flickr:
+  tumblr:
   #Para Google Authorship https://plus.google.com/authorship
   #google_plus:   https://plus.google.com/+AlfredoSánchezAlberca
   google_plus:   https://plus.google.com/104904595276070039968
 
 # Background image to be tiled on all pages
-background: 
+background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:  UA-49901858-1 
-#google_verify:     
+google_analytics:  UA-49901858-1
+#google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -52,20 +52,20 @@ statistics:
   - title: Statistics Manual
     url: /statistics/manual
   - title: Statistics exercises
-    url: /statistics/exercises  
+    url: /statistics/exercises
   - title: Statistics exams
     url: /statistics/exams
-r: 
+r:
   - title: Bioestadística con R
     url: /estadistica/bioestadistica-rkteaching
   - title: Paquete RKTeaching
-    url: /rkteaching     
+    url: /rkteaching
 spss:
   - title: Bioestadística con SPSS
     url: /estadistica/spss
-  - title: Libro    
+  - title: Libro
     url: /estadistica/spss/libro.html
-calculo: 
+calculo:
   - title: Manual de Cálculo
     url: /calculo/manual
   - title: Ejercicios de Cálculo
@@ -75,7 +75,7 @@ calculo:
 derive:
   - title: Cálculo con Derive
     url: /calculo/derive/calculo-derive
-excel: 
+excel:
   - title: Excel manual
     url: /office/excel/manual
 
@@ -93,14 +93,16 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: true
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+coderay:
+  coderay_wrap:              div
+  coderay_line_numbers:      inline
+  coderay_line_number_start: 1
+  coderay_tab_width:         4
+  coderay_bold_every:        10
+  coderay_css:               style
 
 # Gems
 gems: [jekyll-paginate]

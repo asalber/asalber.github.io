@@ -1,14 +1,15 @@
+// main: ./main.less
 // Selection
 // --------------------------------------------------
-::-moz-selection { 
-	background-color: lighten(@base-color, 65%); 
-	color: @base-color; 
-	text-shadow: none; 
-}  	
-::selection { 
-	background-color: lighten(@base-color, 65%); 
-	color: @base-color; 
-	text-shadow: none; 
+::-moz-selection {
+	background-color: lighten(@base-color, 65%);
+	color: @base-color;
+	text-shadow: none;
+}
+::selection {
+	background-color: lighten(@base-color, 65%);
+	color: @base-color;
+	text-shadow: none;
 }
 
 // Global Classes
@@ -47,18 +48,4 @@
 // ---------------------------------------------------
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
 	.transition(all .2s ease);
-}
-
-
-// Image alignment
-.img-center { 
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1cm;
-    margin-top: .5cm;
-}
-
-.img-right { 
-	float: right;
 }

@@ -10,12 +10,12 @@ image: cabecera-estadistica.jpg
 
 
 Grade: Physiotherapy  
-Date: April 01, 2016 
+Date: April 01, 2016
 
 ## Exercise 1
-The chart below shows the cumulative frequency distribution the maximum angle of knee deflection after a replacement of the knee cap in a group of patients. 
-  
-<img src="/img/knee_angle-1.svg" title="plot of chunk knee_angle" alt="plot of chunk knee_angle" style="display: block; margin: auto;" />
+The chart below shows the cumulative frequency distribution the maximum angle of knee deflection after a replacement of the knee cap in a group of patients.
+
+<img src="img/knee_angle-1.svg" title="plot of chunk knee_angle" alt="plot of chunk knee_angle" style="display: block; margin: auto;" />
 
 1. Calculate the quartiles and interpret them.
 2. Are there outliers in the sample?
@@ -29,14 +29,14 @@ The chart below shows the cumulative frequency distribution the maximum angle of
 </div>
 
 ## Exercise 2
-The waiting times in a physiotherapy clinic of a sample of patiens are 
+The waiting times in a physiotherapy clinic of a sample of patiens are
 
-<div style="text-align:center"> 
+<div style="text-align:center">
 18, 8, 27, 6, 13, 26, 14, 23, 14, 31, 27, 19, 15, 20, 11, 30, 25, 23, 20, 15
 </div>
 
 1. Calculate the mean. Is representative? Justify the answer.
-2. Calculate the coefficient of skewness and interpret it. 
+2. Calculate the coefficient of skewness and interpret it.
 3. Calculate the coefficient of kurtosis and interpret it.  
 
 Use the following sums for the calculations: $\sum x_i=385$ min, $\sum(x_i-\bar x)^2=983.75$ min$^2$, $\sum (x_i-\bar x)^3=-601.125$ min$^3$, $\sum (x_i-\bar x)^4=98369.1406$ min$^4$.
@@ -54,26 +54,26 @@ Use the following sums for the calculations: $\sum x_i=385$ min, $\sum(x_i-\bar 
 ## Exercise 3
 A study try to determine if there is relation between recovery time $Y$ (in days) of an injury and the age of the person $X$ (in years). For that purpose a sample of 15 persons with the injury was drawn with the following values:
 
-| Age (years)| Recovery time (days)|
-|-----------:|--------------------:|
-|          21|                   20|
-|          26|                   26|
-|          30|                   27|
-|          34|                   32|
-|          39|                   36|
-|          45|                   37|
-|          51|                   38|
-|          54|                   41|
-|          59|                   42|
-|          63|                   45|
-|          71|                   44|
-|          76|                   43|
-|          80|                   45|
-|          84|                   46|
-|          88|                   44|
+| Age (years) | Recovery time (days) |
+|------------:|---------------------:|
+|          21 |                   20 |
+|          26 |                   26 |
+|          30 |                   27 |
+|          34 |                   32 |
+|          39 |                   36 |
+|          45 |                   37 |
+|          51 |                   38 |
+|          54 |                   41 |
+|          59 |                   42 |
+|          63 |                   45 |
+|          71 |                   44 |
+|          76 |                   43 |
+|          80 |                   45 |
+|          84 |                   46 |
+|          88 |                   44 |
 
 1. Compute the regression line of the recovery time on the age. How much increase the recovery time for each year of age?
-2. Compute the logarithmic regression model of the recovery time on the age. 
+2. Compute the logarithmic regression model of the recovery time on the age.
 3. Which of the previous models explains better the relation between the recovery time and the age? Justify the answer.
 4. Use the best of the previous models to predict the recovery time of a person 50 years old. Is reliable the prediction?
 
@@ -101,5 +101,3 @@ Logarithmic coefficient of determination $r^2=0.9411$. <br/>
 So the logarithmic model fits better. <br/>
 4. $y(50)=-30.1526 + 17.3398\log(50) = 37.6812$.<br/>
 </div>
-
-

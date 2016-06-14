@@ -1,0 +1,80 @@
+// main: ./main.less
+// Customization
+// Author: Alfredo Sánchez Alberca (asalber@gmail.com)
+
+// Image center
+.img-center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1cm;
+  margin-top: .5cm;
+}
+
+.img-right {
+	float: right;
+}
+
+// Block center
+.center {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Block display
+#solution {
+	margin-bottom: .5cm;
+	margin-top: .2cm;
+}
+
+#resolution {
+	margin-bottom: .5cm;
+	margin-top: .5cm;
+}
+
+// Buttons for answers
+.solution {
+  padding: 5px 10px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+	background: none;
+	border: 2px solid @info;
+	color: @info;
+	box-shadow: none;
+	margin-top: .2cm;
+	margin-bottom: .2cm;
+//    text-transform: uppercase;
+}
+
+.solution:hover, .solution:active, .solution.active {
+	color: @primary;
+	border-color:  @primary;
+	box-shadow: none;
+}
+
+.resolution {
+  padding: 5px 10px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+	background: none;
+	border: 2px solid @danger;
+	color: @danger;
+	box-shadow: none;
+	martin-top: .3cm;
+	margin-bottom: .3cm;
+//    text-transform: uppercase;
+}
+
+.resolution:focus, .resolution:active:focus, .resolution.active:focus {
+  outline: 0 none;
+}
+
+.resolution:hover, resolution:focus, .resolution:active, .resolution.active {
+	color: darken(@danger, 10%);
+	border-color:  darken(@danger, 10%);
+	box-shadow: none;
+}
