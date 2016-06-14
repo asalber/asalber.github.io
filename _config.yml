@@ -48,6 +48,10 @@ estadistica:
     url: /estadistica/ejercicios
   - title: Exámenes de Estadística
     url: /estadistica/examenes
+  - title: Bioestadística con R y rk.Teaching
+    url: /estadistica/rkteaching/bioestadistica
+  - title: Videotutorial de rk.Teaching
+    url: /estadistica/rkteaching/videotutorial
 statistics:
   - title: Statistics Manual
     url: /statistics/manual
@@ -56,10 +60,12 @@ statistics:
   - title: Statistics exams
     url: /statistics/exams
 r:
-  - title: Bioestadística con R
-    url: /estadistica/bioestadistica-rkteaching
-  - title: Paquete RKTeaching
+  - title: Paquete rk.Teaching
     url: /rkteaching
+  - title: Bioestadística con R y rk.Teaching
+    url: /estadistica/rkteaching/bioestadistica
+  - title: Videotutorial de rk.Teaching
+    url: /estadistica/rkteaching/videotutorial
 spss:
   - title: Bioestadística con SPSS
     url: /estadistica/spss
