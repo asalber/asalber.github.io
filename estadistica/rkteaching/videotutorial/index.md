@@ -14,10 +14,11 @@ share: true
 -   [Introduction a R y RKWard](introduccion-r-rkward.html)
 -   [Introducción y carga de datos](introduccion-datos.html)
 -   [Transformación de datos](transformacion-datos.html)
--   Distribuciones de frecuencias y representaciones gráficas
--   Estadisticos muestrales
--   Regresión lineal simple y correlación
--   Regresión no lineal
+-   [Distribuciones de frecuencias](distribuciones-frecuencias.html)
+-   [Representaciones gráficas](representaciones-graficas.html)
+-   [Estadisticos muestrales](estadisticos-muestrales.html)
+-   [Regresión lineal simple y correlación](regresion-lineal.html)
+-   [Regresión no lineal](regresion-no-lineal.html)
 -   Probabilidad
 -   Variables aleatorias discretas
 -   Variables aleatorias continuas
