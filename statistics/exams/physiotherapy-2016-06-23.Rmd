@@ -1,0 +1,193 @@
+---
+layout: book
+title: Statistics exam
+description: "Solution of the exam"
+tags: [Exam, Statistics, Biostatistics, Physiotherapy]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=4, fig.height=3, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+color1 <- rgb(5,161,230,max=255)
+color2 <- rgb(238,50,36,max=255)
+```
+
+Grade: Physiotherapy  
+Date: June 23, 2016 
+
+## Exercise 1
+It is believed that the age at which a person finish their first marathon depends on gender. 
+To check it, a sample of 180 marathon runners was drawn. 
+For every runner it was recorded the gender, the age (in years) when they finish the first marathon and if they finish with tendinitis. 
+The data are summarized in the table below. 
+
+
+```{r}
+require(htmlTable)
+require(rk.Teaching)
+nim = c(7,35,30,15,9,4)
+nif = c(3,22,29,22,3,1)
+nimt = c(2,12,6,2,1,0)
+nift = c(1,5,4,3,0,0)
+data = data.frame(nim, nimt, nif,nift)
+colnames(data) = c("Finished", "With tendinitis", "Finished", "Width tendinitis")
+rownames(data) = c("(10,20]", "(20,30]", "(30,40]", "(40,50]", "(50,60]", "(60,70]")
+xi = c(15,25,35,45,55,65)
+htmlTable(data, align="r", cgroup = c("Males", "Females"), n.cgroup = c(2,2), rowlabel="Age", css.class="data_table")
+nm = sum(nim)
+nf = sum(nif)
+nmt = sum(nimt)
+nft = sum(nift)
+mm = sum(xi*nim)/nm
+mf = sum(xi*nif)/nf
+sm = sqrt(sum((xi-mm)^2*nim)/nm)
+sf = sqrt(sum((xi-mf)^2*nif)/nf)
+g1m = sum((xi-mm)^3*nim)/(nm*sm^3)
+g1m = sum((xi-mf)^3*nif)/(nf*sf^3)
+```
+
+1. Calculate the average age at which it is finished the first marathon, both of males and females. Which mean is more representative? Justify the answer. 
+
+2. Calculate the interquartile range of the age for the joint distribution (joining males and females) and interpret it. 
+
+3. What age distribution is more asymmetric, males or females distribution. Justify the answer.
+
+4. Taking into account the relative spread in each group, who finished a marathon before, a man that finished his first marathon at the age of 48 or a woman that finished her first marathon at the age of 47? Justify the answer.
+
+5. Using frequencies to approximate probabilities, compute the following probabilities:
+
+  - Probability that a runner finish their first marathon with tendinitis.
+  - Probability that a man 40 or less years old finish their first marathon with tendinitis. 
+  - Probability that a woman who finish her first marathon with tendinitis is between 20 and 30 years old. 
+
+Use the following sums for the calculations:
+Males: $\sum n_i  = `r nm`$, $\sum x_i n_i = `r sum(xi*nim)`$, $\sum x_i^2 n_i= `r sum(xi^2*nim)`$, $\sum(x_i-\bar x)^3 n_i =`r round(sum((xi-mm)^3*nim))`$, $\sum(x_i-\bar x)^4 n_i =`r round(sum((xi-mm)^4*nim))`$
+Females: $\sum n_i  = `r nf`$, $\sum x_i n_i = `r sum(xi*nif)`$, $\sum x_i^2 n_i= `r sum(xi^2*nif)`$, $\sum(x_i-\bar x)^3 n_i =`r round(sum((xi-mf)^3*nif))`$, $\sum(x_i-\bar x)^4 n_i =`r round(sum((xi-mf)^4*nif))`$
+
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Males: $\bar x_m = `r mm`$ years, $s_m=`r sm`$ years, $cv_m=`r sm/abs(mm)`$. <br/>
+Females: $\bar x_f = `r mf`$ years, $s_f=`r sf`$ years, $cv_f=`r sf/abs(mf)`$. <br/>
+The mean of females is more representative as the coefficient of variation is lower. <br/>
+2. $IQR=16.292$ years. The spread of central data is low. <br/>
+3. Coeff. of skewness of males $g_{1m}=`r g1m`$ and coeff. of skewness of females $g_{1f}=`r g1f`$, thus the males distribution of ages is less asymmetric. <br/>
+4. Standard score for a man of 48 years $z_m(48)=`r (48-mm)/sm`$ and standard score for a woman of 47 years $z_m(47)=`r (47-mf)/sf`$, thus the man finished his first marathon before. <br/>
+5. Naming $T$ to the event of finishing the first marathon with tendinitis, $M$ to the event of being male and $F$ to the event of being female, $P(T)=`r (nmt+nft)/(nm+nf)`$, $P(T|M\cap \mbox{Age}<=40) = `r cumsum(nimt)[3]/cumsum(nim)[3]`$, $P(\mbox{Age}\in (20,30]|T\cap F) = `r nift[2]/sum(nift)`$.
+</div>
+
+## Exercise 2 
+A study tries to determine if the number of muscular injuries of professional athletes depends on stress. 
+The study lasted four years and measured the average level of stress and the number of muscular injuries suffered by a group of athletes.
+The collected data is shown in the table below. 
+
+```{r}
+x = c(2.3, 3.8, 5.1, 1.4, 6.9, 7.2, 3.2, 8.3)
+y = c(3, 6, 7, 2, 6, 8, 4, 8)
+data = matrix(c(x,y), nrow = 2, byrow = TRUE)
+rownames(data) = c("Stress ($X$)", "Injuries ($Y$)")
+htmlTable(data, align="r", css.class="data_table")
+```
+
+
+1. Calculate the linear regression model of the number of injuries on stress.
+
+2. According to the most appropriate linear model, what stress level is expected for an athlete that suffered 4 injuries in that period?
+
+3. Calculate the logarithmic regression model of the number of injuries on stress. 
+
+4. Which regression model is better, the linear or the logarithmic? Justify the answer.
+
+Use the following sums for the calculations: $\sum x_i = `r sum(x)`$, $\sum y_j=`r sum(y)`$, $\sum \log(x_i)=`r sum(log(x))`$, $\sum \log(y_j)=`r sum(log(y))`$, $\sum x_i^2 = `r sum(x^2)`$, $\sum y_j^2=`r sum(y^2)`$, $\sum \log^2(x_i)=`r sum(log(x)^2)`$, $\sum \log^2(y_j)=`r sum(log(y)^2)`$, $\sum x_iy_j = `r sum(x*y)`$, $\sum x_i\log(y_j)=`r sum(x*log(y))`$, $\sum \log(x_i)y_j=`r sum(log(x)*y)`$, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+```{r}
+m <- lm(y~x)
+c <- coefficients(m)
+```
+1. $\bar x=`r mean(x)`$ points, $s_x^2=`r variance(x)`$ points$^2$. <br/>
+$\bar y=`r mean(y)`$ injuries, $s_y^2=`r variance(y)`$ injuries$^2$. <br/>
+$s_{xy}=`r covariance(x,y)`$ points$\cdot$injuries. <br/>
+Regression line of injuries on stress: $y=`r c[1]` + `r c[2]`x$. <br/>
+```{r}
+m2 <- lm(x~y)
+c <- coefficients(m2)
+```
+2. $x(4)=`r c[1] + c[2] * 4`$. <br/>
+```{r}
+z <- log(x)
+m3 <- lm(y~z)
+c <- coefficients(m3)
+```
+2. $\overline{\log(x)}=`r mean(z)`$ log(points), $s_{\log(x)}^2=`r variance(z)`$ log(points)$^2$. <br/>
+$s_{\log(x)y}=`r covariance(z,y)`$ log(points)$\cdot$injuries. <br/>
+Logartihmic model of injuries on stress: $y=`r c[1]` + `r c[2]`\log(x)$. <br/>
+4. Linear coefficient of determination $r^2=`r summary(m)$r.squared`$. <br/>
+Logarithmic coefficient of determination $r^2=`r summary(m3)$r.squared`$. <br/>
+Thus, the logarithmic model fits better.
+</div>
+
+
+## Exercise 3
+
+```{r}
+pre = 0.1
+sen = 0.96
+spe = 0.93
+pos = pre*sen+(1-pre)*(1-spe)
+ppv = pre*sen/pos
+npv = (1-pre)*spe/(1-pos)
+error = pre*(1-sen)+(1-pre)*(1-spe)
+n1 = 15
+n2 = 50
+```
+A diagnostic test with a sensitivity of `r sen*100`% and a specificity of `r spe*100`% is used to determine a disease with a prevalence of `r pre*100`%.
+
+1. What are the positive and negative predictive values of the test?
+
+2. If the test is applied to `r n1` persons, what is the probability of having more than one positive outcomes?
+
+3. If the test is applied to `r n2` persons, what is the probability of having a wrong diagnosis in more than two persons?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $PPV = P(D\vert +) = `r ppv`$ and $NPV=P(\bar D\vert -)=`r npv`$. <br/>
+2. Naming $X$ to the number of positive outcomes after applying the test to a sample of `r n1` persons, $P(X>1)=`r pbinom(1, n1, pos, lower.tail=F)`$. <br/>
+3. Naming $Y$ to the number of wrong diagnosis after applying the test to a sample of `r n2` persons, $P(Y>2)=`r ppois(2, n2*error, lower.tail=F)`$.
+</div>
+
+
+## Exercise 4
+```{r}
+x1 = 70
+p1 = 0.2
+x2 = 25
+p2 = 0.3
+mp = 50
+sp = (x1-mp)/qnorm(p1, lower.tail = F)
+mf = x2-sf*qnorm(p2)
+sf = 10
+np = 150
+nf = 50
+x3 = 55
+```
+
+It is known from previous studies that the hours of study of Statistics for students that pass the subject follows a normal distribution with mean `r mp` hours and standard deviation unknown; while for students that fail the subject follows a normal distribution with mean unknown and standard deviation `r sf` hours. If `r p1*100`% of students that pass study more than `r x1` hours and `r p2*100`% of students that fail study less than `r x2` hours,
+
+1. Calculate the standard deviation of the hours of study distribution for students that pass and the mean of the distribution for students that fail.
+
+2. If a year there are `r np+nf` students enrolled in the subject and `r np` of them pass, how many of the total students have studied more than `r x3` hours?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $H_p$ and $H_f$ to the number of hours of study for students thar pass and fail respectively, <br/>
+1. $\sigma_p=`r sp`$ mg/dl and $\mu_f=`r mf`$ hours. <br/>
+2. $`r pnorm(x3,mp,sp,lower.tail=F)*np+pnorm(x3,mf,sf,lower.tail=F)*nf`$ students. 
+</div>
+
