@@ -326,7 +326,7 @@
     if (definition.type !== "output") {
       throw new Error("Unrecognized widget type '" + definition.type + "'");
     }
-    // TODO: Verify that .name is a valid CSS classname
+    // TODO:60 Verify that .name is a valid CSS classname
     if (!definition.renderValue) {
       throw new Error("Widget must have a renderValue function");
     }

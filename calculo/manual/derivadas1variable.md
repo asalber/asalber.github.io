@@ -15,13 +15,13 @@ El concepto de derivada
 
 ### Tasa de variación media
 
->**Definición - Incremento**. Dada una función $y=f(x)$, se llama *incremento* de $f$ en un intervalo $[a,b]$ a la diferencia entre el valor de $f$ en cada uno de los extremos del intervalo, y se nota 
+>**Definición - Incremento**. Dada una función $y=f(x)$, se llama *incremento* de $f$ en un intervalo $[a,b]$ a la diferencia entre el valor de $f$ en cada uno de los extremos del intervalo, y se nota
 >
 $$\Delta y= f(b)-f(a).$$
 
-Cuando $f$ es la función identidad $y=x$, se cumple que 
+Cuando $f$ es la función identidad $y=x$, se cumple que
 
-$$\Delta x=\Delta y= f(b)-f(a)=b-a,$$ 
+$$\Delta x=\Delta y= f(b)-f(a)=b-a,$$
 
 y por tanto, el incremento de $x$ en un intervalo es la amplitud del intervalo. Esto nos permite escribir el intervalo $[a,b]$ como $[a,a+\Delta x]$.
 
@@ -68,7 +68,7 @@ Conocer la tendencia de variación de una función en un instante puede ayudarno
 >
 $$\operatorname{TVI} f(a)=\lim_{\Delta x\rightarrow 0} \operatorname{TVM}f[a,a+\Delta x]=\lim_{\Delta x\rightarrow 0}\frac{\Delta y}{\Delta x}=\lim_{\Delta x\rightarrow 0}\frac{f(a+\Delta x)-f(a)}{\Delta x}$$
 
-Cuando este límite existe, se dice que la función $f$ es derivable en el punto $a$, y al valor del mismo se le llama derivada de $f$ en $a$, y se nota como 
+Cuando este límite existe, se dice que la función $f$ es derivable en el punto $a$, y al valor del mismo se le llama derivada de $f$ en $a$, y se nota como
 
 $$f'(a) \mbox{ o bien } \frac{df}{dx}(a)$$
 
@@ -79,7 +79,7 @@ Si en un determinado instante el lado del cuadrado es $a$, y sometemos la chapa 
 $$
 \begin{aligned}
 \operatorname{TVI} f(a)&=\lim_{\Delta x\rightarrow 0}\frac{\Delta y}{\Delta x}=\lim_{\Delta x\rightarrow 0}\frac{f(a+\Delta x)-f(a)}{\Delta x} =\\
-&=\lim_{\Delta x\rightarrow 0}\frac{2a\Delta x+\Delta x^2}{\Delta x}=\lim_{\Delta x\rightarrow 0} 2a+\Delta x= 2a. 
+&=\lim_{\Delta x\rightarrow 0}\frac{2a\Delta x+\Delta x^2}{\Delta x}=\lim_{\Delta x\rightarrow 0} 2a+\Delta x= 2a.
 \end{aligned}
 $$
 
@@ -118,21 +118,21 @@ También tiene sentido pensar en $f$ como una función que mide otras magnitudes
 
 ### Interpretación cinemática de la tasa de variación media
 
-En este contexto, si se toman los instantes $t=t_0$ y $t=t_0+\Delta t$, ambos del dominio $I$ de $f$, el vector 
+En este contexto, si se toman los instantes $t=t_0$ y $t=t_0+\Delta t$, ambos del dominio $I$ de $f$, el vector
 
-$$\mathbf{v}_m=\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t}$$ 
+$$\mathbf{v}_m=\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t}$$
 
 que se conoce como *velocidad media* de la trayectoria $f$ entre los instantes $t_0$ y $t_0+\Delta t$.
 
-Un vehículo realiza un viaje de Madrid a Barcelona. Sea $f$ la función que da la posición el vehículo en cada instante. Si el vehículo parte de Madrid (km 0) a las 8 y llega a Barcelona (km 600) a las 14 horas, entonces la velocidad media del vehículo en el trayecto es 
+Un vehículo realiza un viaje de Madrid a Barcelona. Sea $f$ la función que da la posición el vehículo en cada instante. Si el vehículo parte de Madrid (km 0) a las 8 y llega a Barcelona (km 600) a las 14 horas, entonces la velocidad media del vehículo en el trayecto es
 
 $$\mathbf{v}_m=\frac{f(14)-f(8)}{14-8}=\frac{600-0}{6} = 100 km/h.$$
 
 ### Interpretación cinemática de la derivada
 
-Siguiendo en este mismo contexto del movimiento rectilineo, la derivada de $f$ en el instante $t=t_0$ es el vector 
+Siguiendo en este mismo contexto del movimiento rectilineo, la derivada de $f$ en el instante $t=t_0$ es el vector
 
-$$\mathbf{v}=f'(t_0)=\lim_{\Delta x\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$ 
+$$\mathbf{v}=f'(t_0)=\lim_{\Delta x\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$
 
 que se conoce, siempre que exista el límite, como *velocidad instantánea* o simplemente la *velocidad* de la trayectoria $f$ en el instante $t_0$.
 
@@ -153,7 +153,7 @@ y=y(t)
 \end{cases}
 \quad
 t\in I\subseteq \mathbb{R}
-$$ 
+$$
 
 se conocen como *funciones coordenadas* de $f$ y se escribe $f(t)=(x(t),y(t))$.
 
@@ -164,9 +164,9 @@ se conocen como *funciones coordenadas* de $f$ y se escribe $f(t)=(x(t),y(t))$.
 
 ### Velocidad en una trayectoria curvilinea en el plano
 
-En este contexto de una trayectoria $f(t)=(x(t),y(t))$ en el plano real $\mathbb{R}^2$, para un instante $t=t_0$, si existe el vector 
+En este contexto de una trayectoria $f(t)=(x(t),y(t))$ en el plano real $\mathbb{R}^2$, para un instante $t=t_0$, si existe el vector
 
-$$\mathbf{v} = \lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$ 
+$$\mathbf{v} = \lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$
 
 entonces $f$ es derivable en el instante $t=t_0$ y el vector $\mathbf{v}=f'(t_0)$ se conoce como *velocidad* de $f$ en ese instante.
 
@@ -176,18 +176,18 @@ $$
 \begin{aligned}
 f'(t)&=\lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t} = \lim_{\Delta t\rightarrow 0} \frac{(x(t_0+\Delta t),y(t_0+\Delta t))-(x(t_0),y(t_0))}{\Delta t} =\\
 &=  \lim_{\Delta t\rightarrow 0} \left(\frac{x(t_0+\Delta t)-x(t_0)}{\Delta t},\frac{y(t_0+\Delta t)-y(t_0)}{\Delta t}\right) =\\
-&= \left(\lim_{\Delta t\rightarrow 0}\frac{x(t_0+\Delta t)-x(t_0)}{\Delta t},\lim_{\Delta t\rightarrow 0}\frac{y(t_0+\Delta t)-y(t_0)}{\Delta t}\right) = 
+&= \left(\lim_{\Delta t\rightarrow 0}\frac{x(t_0+\Delta t)-x(t_0)}{\Delta t},\lim_{\Delta t\rightarrow 0}\frac{y(t_0+\Delta t)-y(t_0)}{\Delta t}\right) =
 (x'(t_0),y'(t_0)).
 \end{aligned}
 $$
 
-luego 
+luego
 
 $$\mathbf{v} = x'(t_0)\mathbf{i}+y'(t_0)\mathbf{j}.$$
 
-**Ejemplo**. Dada la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, sus funciones coordenadas son $x(t) = \cos t$, $y(t) = \operatorname{sen} t$, $t\in \mathbb{R}$, y su velocidad es 
+**Ejemplo**. Dada la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, sus funciones coordenadas son $x(t) = \cos t$, $y(t) = \operatorname{sen} t$, $t\in \mathbb{R}$, y su velocidad es
 
-$$\mathbf{v}=f'(t)=(x'(t),y'(t))=(-\operatorname{sen} t, \cos t).$$ 
+$$\mathbf{v}=f'(t)=(x'(t),y'(t))=(-\operatorname{sen} t, \cos t).$$
 
 En el instante $t=\pi/4$, el móvil estará en la posición $f(\pi/4) = (\cos(\pi/4),\operatorname{sen}(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ y se moverá con una velocidad $\mathbf{v}=f'(\pi/4)=(-\operatorname{sen}(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.
 
@@ -206,7 +206,7 @@ Recta tangente a una trayectoria
 
 Los vectores paralelos a la velocidad $\mathbf{v}$ se denominan *vectores tangentes* a la trayectoria $f$ en el instante $t=t_0$, y la recta que pasa por $P=f(t_0)$ dirigida por $\mathbf{v}$ es la recta tangente a $f$ cuando $t=t_0$.
 
->**Definición - Recta tangente a una trayectoria**. Dada una trayectoria $f$ sobre el plano real $\mathbb{R}^2$, se llama *recta tangente* a $f$ para $t=t_0$ a la recta de ecuación 
+>**Definición - Recta tangente a una trayectoria**. Dada una trayectoria $f$ sobre el plano real $\mathbb{R}^2$, se llama *recta tangente* a $f$ para $t=t_0$ a la recta de ecuación
 >
 $$
 \begin{align*}
@@ -215,24 +215,24 @@ l: (x,y)&= f(t_0)+tf'(t_0) = (x(t_0),y(t_0))+t(x'(t_0),y'(t_0))\\
 \end{align*}
 $$
 
-**Ejemplo**. Se ha visto que para la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, en el instante $t=\pi/4$ la posición del móvil era $f(\pi/4)=(\sqrt{2}/2,\sqrt{2}/2)$ y su velocidad $\mathbf{v}=(-\sqrt{2}/2,\sqrt{2}/2)$, de modo que la recta tangente a $f$ en ese instante es 
+**Ejemplo**. Se ha visto que para la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, en el instante $t=\pi/4$ la posición del móvil era $f(\pi/4)=(\sqrt{2}/2,\sqrt{2}/2)$ y su velocidad $\mathbf{v}=(-\sqrt{2}/2,\sqrt{2}/2)$, de modo que la recta tangente a $f$ en ese instante es
 
-$$l: X=f(\pi/2)+t\mathbf{v} = \left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)+t\left(\frac{-\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right) = 
+$$l: X=f(\pi/2)+t\mathbf{v} = \left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)+t\left(\frac{-\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right) =
 \left(\frac{\sqrt{2}}{2}-t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right).$$
 
-De la ecuación vectorial de la recta tangente a $f$ para $t=t_0$, se obtiene que sus funciones cartesianas son 
+De la ecuación vectorial de la recta tangente a $f$ para $t=t_0$, se obtiene que sus funciones cartesianas son
 
 $$\begin{cases}
 x=x(t_0)+tx'(t_0)\\
 y=y(t_0)+ty'(t_0)
 \end{cases}
-\quad t\in \mathbb{R},$$ 
+\quad t\in \mathbb{R},$$
 
 y despejando $t$ en ambas ecuaciones e igualando se llega a la ecuación cartesiana de la recta tangente
 
 $$\frac{x-x(t_0)}{x'(t_0)}=\frac{y-y(t_0)}{y'(t_0)},$$
 
-si $x'(t_0)\neq 0$ e $y'(t_0)\neq 0$, y de ahí a la ecuación en la forma punto-pendiente 
+si $x'(t_0)\neq 0$ e $y'(t_0)\neq 0$, y de ahí a la ecuación en la forma punto-pendiente
 
 $$y-y(t_0)=\frac{y'(t_0)}{x'(t_0)}(x-x(t_0)).$$
 
@@ -248,13 +248,13 @@ Se ha visto que la recta tangente a una trayectoria $f$ cuando $t=t_0$ es la rec
 >
 $$l: (x,y)=(x(t_0),y(t_0))+t(y'(t_0),-x'(t_0)) = (x(t_0)+ty'(t_0),y(t_0)-tx'(t_0)).$$
 >
-Su ecuación cartesiana es 
+Su ecuación cartesiana es
 >
 $$\frac{x-x(t_0)}{y'(t_0)} = \frac{y-y(t_0)}{-x'(t_0)},$$
 >
 y su ecuación en la forma punto pendiente
 >
-$$y-y(t_0) = \frac{-x'(t_0)}{y'(t_0)}(x-x(t_0)).$$ 
+$$y-y(t_0) = \frac{-x'(t_0)}{y'(t_0)}(x-x(t_0)).$$
 
 La recta normal es perpendicular a la recta tangente ya que sus vectores directores son ortogonales.
 
@@ -279,7 +279,7 @@ $$\frac{x-\sqrt{2}/2}{\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y
 
 ### Rectas tangente y normal a una función
 
-Un caso particular de las recta tangente y normal a una trayectoria es son la recta tangente y normal a una función de una variable real. Si se tiene la función $y=f(x)$, $x\in I\subseteq \mathbb{R}$, una trayectoria que traza la gráfica de $f$ es $$g(t) = (t,f(t))  \quad t\in I,$$ y su velocidad es $$g'(t) = (1,f'(t)),$$ de modo que la recta tangente para $t=x_0$ es 
+Un caso particular de las recta tangente y normal a una trayectoria es son la recta tangente y normal a una función de una variable real. Si se tiene la función $y=f(x)$, $x\in I\subseteq \mathbb{R}$, una trayectoria que traza la gráfica de $f$ es $$g(t) = (t,f(t))  \quad t\in I,$$ y su velocidad es $$g'(t) = (1,f'(t)),$$ de modo que la recta tangente para $t=x_0$ es
 
 $$\frac{x-x_0}{1} = \frac{y-f(x_0)}{f'(x_0)} \Rightarrow y-f(x_0) = f'(x_0)(x-x_0),$$
 
@@ -287,7 +287,7 @@ y la recta normal es
 
 $$\frac{x-x_0}{f'(x_0)} = \frac{y-f(x_0)}{-1} \Rightarrow y-f(x_0) = \frac{-1}{f'(x_0)}(x-x_0),$$
 
-**Ejemplo**. Dada la función $y=f(x)=x^2$, la trayectoria que dibuja la gráfica de esta función es $g(t)=(t,t^2)$ y su velocidad es $g'(t)=(1,2t)$, de modo que en el punto $(1,1)$, que se alcanza en el instante $t=1$, la recta tangente es 
+**Ejemplo**. Dada la función $y=f(x)=x^2$, la trayectoria que dibuja la gráfica de esta función es $g(t)=(t,t^2)$ y su velocidad es $g'(t)=(1,2t)$, de modo que en el punto $(1,1)$, que se alcanza en el instante $t=1$, la recta tangente es
 
 $$\frac{x-1}{1} = \frac{y-1}{2} \Rightarrow y-1 = 2(x-1) \Rightarrow y = 2x-1,$$
 
@@ -308,13 +308,13 @@ l&: (x,y,z)=(x(t_0),y(t_0),z(t_0))+t(x'(t_0),y'(t_0),z'(t_0)) =\\
 \end{aligned}
 $$
 
-cuyas ecuaciones cartesianas son 
+cuyas ecuaciones cartesianas son
 
 $$\frac{x-x(t_0)}{x'(t_0)}=\frac{y-y(t_0)}{y'(t_0)}=\frac{z-z(t_0)}{z'(t_0)},$$
 
 siempre que $x'(t_0)\neq 0$, $y'(t_0)\neq 0$ y $z'(t_0)\neq 0$.
 
-**Ejemplo**. Dada la trayectoria del espacio $f(t)=(\cos t, \operatorname{sen} t, t)$, $t\in \mathbb{R}$, en el instante $t=\pi/2$, la trayectoria pasará por el punto 
+**Ejemplo**. Dada la trayectoria del espacio $f(t)=(\cos t, \operatorname{sen} t, t)$, $t\in \mathbb{R}$, en el instante $t=\pi/2$, la trayectoria pasará por el punto
 
 $$f(\pi/2)=(\cos(\pi/2),\operatorname{sen}(\pi/2),\pi/2)=(0,1,\pi/2),$$
 
@@ -338,7 +338,7 @@ $$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$
 
 ### Propiedades de la derivada
 
-Si $y=c$, es una función constante, entonces $y'=0$. 
+Si $y=c$, es una función constante, entonces $y'=0$.
 
 Si $y=x$, es la función identidad, entonces $y'=1$.
 
@@ -353,9 +353,9 @@ Si $u=f(x)$ y $v=g(x)$ son dos funciones diferenciables, entonces
 Derivada de una función compuesta: La regla de la cadena
 --------------------------------------------------------
 
->**Teorema - Regla de la cadena**. Si $y=f\circ g$ es la composición de dos funciones $y=f(z)$ y $z=g(x)$, entonces 
+>**Teorema - Regla de la cadena**. Si $y=f\circ g$ es la composición de dos funciones $y=f(z)$ y $z=g(x)$, entonces
 >
-$$(f\circ g)'(x)=f'(g(x))g'(x),$$ 
+$$(f\circ g)'(x)=f'(g(x))g'(x),$$
 
 Resulta sencillo demostrarlo con la notación diferencial
 
@@ -364,22 +364,22 @@ $$\frac{dy}{dx}=\frac{dy}{dz}\frac{dz}{dx}=f'(z)g'(x)=f'(g(x))g'(x).$$
 **Ejemplo**. Si $f(z)=\operatorname{sen} z$ y $g(x)=x^2$, entonces $f\circ g(x)=\operatorname{sen}(x^2)$ y, aplicando la regla de la cadena, su derivada vale
 
 $$
-(f\circ g)'(x)=f'(g(x))g'(x) = \cos g(x) 2x = \cos(x^2)2x. 
+(f\circ g)'(x)=f'(g(x))g'(x) = \cos g(x) 2x = \cos(x^2)2x.
 $$
 
 Por otro lado, $g\circ f(z)= (\sin z)^2$ y, de nuevo aplicando la regla de la cadena, su derivada vale
 
 $$
-(g\circ f)'(z)=g'(f(z))f'(z) = 2f(z)\cos z = 2\operatorname{sen} z\cos z. 
+(g\circ f)'(z)=g'(f(z))f'(z) = 2f(z)\cos z = 2\operatorname{sen} z\cos z.
 $$
 
 
 Derivada de la inversa de una función
 -------------------------------------
 
->**Teorema - Derivada de la función inversa**. Si $y=f(x)$ es una función y $x=f^{-1}(y)$ es su inversa, entonces 
+>**Teorema - Derivada de la función inversa**. Si $y=f(x)$ es una función y $x=f^{-1}(y)$ es su inversa, entonces
 >
-$$\left(f^{-1}\right)'(y)=\frac{1}{f'(x)}=\frac{1}{f'(f^{-1}(y))}$$ 
+$$\left(f^{-1}\right)'(y)=\frac{1}{f'(x)}=\frac{1}{f'(f^{-1}(y))}$$
 
 También resulta sencillo de demostrar con la notación diferencial
 
@@ -402,7 +402,7 @@ La principal aplicación de la derivada es el estudio del crecimiento de una fun
 -   Si $\forall x\in I\ f'(x)\geq 0$ entonces $f$ es creciente en el intervalo $I$.
 -   Si $\forall x\in I\ f'(x)\leq 0$ entonces $f$ es decreciente en el intervalo $I$.
 
-**Ejemplo**. La función $f(x)=x^3$ es creciente en todo $\mathbb{R}$ ya que $\forall x\in \mathbb{R}\ f'(x)\geq 0$. 
+**Ejemplo**. La función $f(x)=x^3$ es creciente en todo $\mathbb{R}$ ya que $\forall x\in \mathbb{R}\ f'(x)\geq 0$.
 
 **Observación**. *Una función puede ser creciente o decreciente en un intervalo y no tener derivada.*
 
@@ -476,11 +476,11 @@ Los polinomios son funciones sencillas de calcular (mediante sumas y productos),
 
 Un polinomio de grado 0 tiene ecuación $$p(x) = c_0,$$ donde $c_0$ es una constante.
 
-Como el polinomio debe valer lo que la función en el punto $x_0$, debe cumplir 
+Como el polinomio debe valer lo que la función en el punto $x_0$, debe cumplir
 
 $$p(x_0) = c_0 = f(x_0).$$
 
-En consecuencia, el polinomio de grado 0 que mejor aproxima a $f$ en un entorno de $x_0$ es 
+En consecuencia, el polinomio de grado 0 que mejor aproxima a $f$ en un entorno de $x_0$ es
 
 $$p(x) = f(x_0).$$
 
@@ -491,11 +491,11 @@ $$p(x) = f(x_0).$$
 
 ### Aproximación mediante un polinomio de grado 1
 
-Un polinomio de grado 1 es una recta y tiene ecuación 
+Un polinomio de grado 1 es una recta y tiene ecuación
 
-$$p(x) = c_0+c_1x,$$ 
+$$p(x) = c_0+c_1x,$$
 
-aunque también puede escribirse 
+aunque también puede escribirse
 
 $$p(x) = c_0+c_1(x-x_0).$$
 
@@ -511,7 +511,7 @@ Imponiendo las condiciones anteriores tenemos
 -   $p(x)=c_0+c_1(x-x_0) \Rightarrow p(x_0)=c_0+c_1(x_0-x_0)=c_0=f(x_0)$,
 -   $p'(x)=c_1 \Rightarrow p'(x_0)=c_1=f'(x_0)$.
 
-Así pues, el polinomio de grado 1 que mejor aproxima a $f$ en un entorno de $x_0$ es 
+Así pues, el polinomio de grado 1 que mejor aproxima a $f$ en un entorno de $x_0$ es
 
 $$p(x) = f(x_0)+f '(x_0)(x-x_0),$$
 
@@ -524,7 +524,7 @@ que resulta ser la recta tangente a $f$ en el punto $(x_0,f(x_0))$.
 
 ### Aproximación mediante un polinomio de grado 2
 
-Un polinomio de grado 2 es una parábola y tiene ecuación 
+Un polinomio de grado 2 es una parábola y tiene ecuación
 
 $$p(x) = c_0+c_1x+c_2x^2,$$
 
@@ -546,7 +546,7 @@ Imponiendo las condiciones anteriores tenemos
 -   $p'(x)=c_1+2c_2(x-x_0) \Rightarrow p'(x_0)=c_1+2c_2(x_0-x_0)=c_1=f'(x_0)$,
 -   $$p''(x)=2c_2 \Rightarrow p''(x_0)=2c_2=f''(x_0) \Rightarrow c_2=\frac{f''(x_0)}{2}$$.
 
-Así pues, el polinomio de grado 2 que mejor aproxima a $f$ en un entorno de $x_0$ es 
+Así pues, el polinomio de grado 2 que mejor aproxima a $f$ en un entorno de $x_0$ es
 
 $$p(x) = f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2}(x-x_0)^2.$$
 
@@ -557,11 +557,11 @@ $$p(x) = f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2}(x-x_0)^2.$$
 
 ### Aproximación mediante un polinomio de grado $n$
 
-Un polinomio de grado $n$ tiene ecuación 
+Un polinomio de grado $n$ tiene ecuación
 
 $$p(x) = c_0+c_1x+c_2x^2+\cdots +c_nx^n,$$
 
-aunque también puede escribirse 
+aunque también puede escribirse
 
 $$p(x) = c_0+c_1(x-x_0)+c_2(x-x_0)^2+\cdots +c_n(x-x_0)^n.$$
 
@@ -573,7 +573,7 @@ De entre todos los polinomio de grado $n$, el que mejor aproxima a $f$ en entorn
 -   $\cdots$
 -   $p^{(n}(x_0)=f^{(n}(x_0)$.
 
-Las sucesivas derivadas de $p$ valen 
+Las sucesivas derivadas de $p$ valen
 
 $$
 \begin{aligned}
@@ -623,9 +623,9 @@ f'(x)=1/x & & f'(1)=1/1=1,\\
 f''(x)=-1/x^2 & & f''(1)=-1/1^2=-1,\\
 f'''(x)=2/x^3 & & f'''(1)=2/1^3=2.
 \end{array}
-$$ 
+$$
 
-Sustituyendo en la ecuación del polinomio se tiene 
+Sustituyendo en la ecuación del polinomio se tiene
 
 $$p_{f,1}^3(x)=0+1(x-1)+\frac{-1}{2}(x-1)^2+\frac{2}{3!}(x-1)^3= \frac{2}{3}x^3-\frac{3}{2}x^2+3x-\frac{11}{6}.$$
 
@@ -635,11 +635,11 @@ $$p_{f,1}^3(x)=0+1(x-1)+\frac{-1}{2}(x-1)^2+\frac{2}{3!}(x-1)^3= \frac{2}{3}x^3-
 
 
 
-### Polinomio de Mc Laurin de orden $n$
+### Polinomio de Maclaurin de orden $n$
 
 La ecuación del polinomio de Taylor se simplifica cuando el punto en torno al cual queremos aproximar es el $0$.
 
->**Definición - Polinomio de Mc Laurin de orden $n$ para $f$**. Dada una función $f$, $n$ veces derivable en $0$, se define el *polinomio de Mc Laurin* de orden $n$ para $f$ como
+>**Definición - Polinomio de Maclaurin de orden $n$ para $f$**. Dada una función $f$, $n$ veces derivable en $0$, se define el *polinomio de Maclaurin* de orden $n$ para $f$ como
 >
 $$
 p_{f,0}^n(x)=f(0)+f'(0)x+\frac{f''(0)}{2}x^2+\cdots +\frac{f^{(n}(0)}{n!}x^n =\sum_{i=0}^{n}\frac{f^{(i}(0)}{i!}x^i.
@@ -648,7 +648,7 @@ $$
 
 **Ejemplo**. Vamos a aproximar la función $f(x)=\operatorname{sen} x$ en un entorno del punto $0$ mediante un polinomio de grado $3$.
 
-La ecuación del polinomio de Mc Laurin de orden $3$ para $f$ es 
+La ecuación del polinomio de Maclaurin de orden $3$ para $f$ es
 
 $$p_{f,0}^3(x)=f(0)+f'(0)x+\frac{f''(0)}{2}x^2+\frac{f'''(0)}{3!}x^3.$$
 
@@ -661,18 +661,18 @@ f'(x)=\cos x & & f'(0)=\cos 0=1,\\
 f''(x)=-\operatorname{sen} x & & f''(0)=-\operatorname{sen} 0=0,\\
 f'''(x)=-\cos x & & f'''(0)=-\cos 0=-1.
 \end{array}
-$$ 
+$$
 
 Sustituyendo en la ecuación del polinomio obtenemos
 
 $$p_{f,0}^3(x)=0+1\cdot x+\frac{0}{2}x^2+\frac{-1}{3!}x^3= x-\frac{x^3}{6}.$$
 
 <div style="text-align:center">
-<img src="img/derivadas1/polinomio_mclaurin_seno.png" width="700px" alt="Gráfica del polinomio de Mc Laurin del seno" />
+<img src="img/derivadas1/polinomio_mclaurin_seno.png" width="700px" alt="Gráfica del polinomio de Maclaurin del seno" />
 </div>
 
 
-### Polinomios de Mc Laurin de funciones elementales
+### Polinomios de Maclaurin de funciones elementales
 
 $$\renewcommand{\arraystretch}{2.5}
 \begin{array}{|c|c|}
@@ -696,17 +696,16 @@ e^x & \displaystyle 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots + \frac{x^n}{n!}\\
 Los polinomios de Taylor permiten calcular el valor aproximado de una función cerca de un valor $x_0$, pero siempre se comete un error en
 dicha aproximación.
 
->**Definición - Resto de Taylor**. Si $f$ es una función para la que existe el su polinomio de Taylor de orden $n$ en $x_0$, $p_{f,x_0}^n$, entonces se define el *resto de Taylor* de orden $n$ para $f$ en $x_0$ como 
+>**Definición - Resto de Taylor**. Si $f$ es una función para la que existe el su polinomio de Taylor de orden $n$ en $x_0$, $p_{f,x_0}^n$, entonces se define el *resto de Taylor* de orden $n$ para $f$ en $x_0$ como
 >
 $$r_{f,x_0}^n(x)=f(x)-p_{f,x_0}^n(x).$$
 
 El resto mide el error cometido al aproximar $f(x)$ mediante $p_{f,x_0}^n(x)$ y permite expresar la función $f$ como la suma de un polinomio de Taylor más su resto correspondiente:
 
-$$f(x)=p_{f,x_0}^n(x) + r_{f,x_0}^n(x).$$ 
+$$f(x)=p_{f,x_0}^n(x) + r_{f,x_0}^n(x).$$
 
-Esta expresión se conoce como *fórmula de Taylor* de orden $n$ para $f$ en $x_0$. Se pude demostrar, además, que 
+Esta expresión se conoce como *fórmula de Taylor* de orden $n$ para $f$ en $x_0$. Se pude demostrar, además, que
 
 $$\lim_{h\rightarrow 0}\frac{r_{f,x_0}^n(x_0+h)}{h^n}=0,$$
 
 lo cual indica que el resto $r_{f,x_0}^n(x_0+h)$ es mucho menor que $h^n$.
-
