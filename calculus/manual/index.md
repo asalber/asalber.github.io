@@ -14,13 +14,38 @@ The manual is mainly focused on Health Sciences and most examples are applied to
 However, the concepts and procedures presented are valid for any scope.
 
 
-Table of contents
-=================
+## Table of contents
 
-- [Analytic geometry](#TODO:0)
-- [Elementary functions](#TODO:20)
-- [Limits and continuity](#TODO:40)
+<!-- - Analytic geometry(#TODO:0)
+- Elementary functions(#TODO:20)
+- [Limits and continuity](#TODO:40) -->
 - [Derivatives with one variable](/calculus/manual/derivatives-one-variable.html)
-- [Derivatives with several variables](#TODO:10)
+
+<!-- - [Derivatives with several variables](#TODO:10)
 - [Integrals](#TODO:30)
-- [Ordinary differential equations](#TODO:50)
+- [Ordinary differential equations](#TODO:50) -->
+
+## Download
+This manual is available in pdf format.
+
+[![Download pdf](/images/pdf_download.png)](https://github.com/asalber/calculus-manual/raw/master/statistics_manual.pdf)
+
+## License
+This work is licensed under an [Attribution-NonCommercial-ShareAlike 4.0 International Creative Commons License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+![Creative Commons](/images/cc-logo.png){: .img-center}
+
+You are free to:
+
+- *Share* — copy and redistribute the material in any medium or format
+- *Adapt* — remix, transform, and build upon the material
+
+Under the following terms:
+
+>![cc-by](/images/cc-by.png) **Attribution**. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+>![cc-e](/images/cc-e.png) **NonComercial**. You may not use the material for commercial purposes.
+
+>![cc-c](/images/cc-c.png) **ShareAlike**. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+*No additional restrictions* — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
