@@ -34,13 +34,6 @@ bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
-links:
-  - title: CEU
-    url: http://www.uspceu.com
-    external: true
-  - title: MiriadaX
-    url: http://miriadax.net
-    external: true
 estadistica:
   - title: Manual de Estadística
     url: /estadistica/manual
@@ -78,6 +71,13 @@ calculo:
     url: /calculo/ejercicios
   - title: Exámenes de Cálculo
     url: /calculo/examenes
+calculus:
+  - title: Calculus Manual
+    url: /calculus/manual
+  - title: Calculus exercises
+    url: /calculus/exercises
+  - title: Calculus exams
+    url: /calculus/exams
 derive:
   - title: Cálculo con Derive
     url: /calculo/derive/calculo-derive
