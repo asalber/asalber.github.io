@@ -16,8 +16,9 @@ However, the concepts and procedures presented are valid for any scope.
 
 ## Table of contents
 
-<!-- - Analytic geometry(#TODO:0)
-- Elementary functions(#TODO:20)
+- [Analytic Geometry](/calculus/manual/analytic-geometry.html)
+
+<!-- - Elementary functions(#TODO:20)
 - [Limits and continuity](#TODO:40) -->
 - [Derivatives with one variable](/calculus/manual/derivatives-one-variable.html)
 
@@ -28,7 +29,7 @@ However, the concepts and procedures presented are valid for any scope.
 ## Download
 This manual is available in pdf format.
 
-[![Download pdf](/images/pdf_download.png)](https://github.com/asalber/calculus-manual/raw/master/statistics_manual.pdf)
+[![Download pdf](/images/pdf_download.png)](https://github.com/asalber/calculus-manual/raw/master/calculus_manual.pdf)
 
 ## License
 This work is licensed under an [Attribution-NonCommercial-ShareAlike 4.0 International Creative Commons License](http://creativecommons.org/licenses/by-nc-sa/4.0/).

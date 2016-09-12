@@ -2,7 +2,7 @@
 layout: book
 title: Calculus Manual
 description: "Differential calculus with one real variable"
-tags: [Cálculo, Geometría]
+tags: [Calculus, Geometry, Derivative]
 image: cabecera-calculo.jpg
 share: true
 ---
@@ -554,7 +554,7 @@ $$
 
 ### Taylor remainder and Taylor formula
 
-Taylor polynomials allow to approximate a function in a neighborhood of a value $x_0$, but there is always an error in the approxition.
+Taylor polynomials allow to approximate a function in a neighborhood of a value $x_0$, but there is always an error in the approximation.
 
 > **Definition - Taylor remainder**. Given a function $f(x)$ and its Taylor polynomial of order $n$ at $x_0$, $p_{f,x_0}^n(x)$, the *Taylor remainder* of order $n$ of $f$ at $x_0$ is de difference between the function and the polynomial, \\[r_{f,x_0}^n(x)=f(x)-p_{f,x_0}^n(x).\\]
 
