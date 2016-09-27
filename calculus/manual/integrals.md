@@ -145,8 +145,6 @@ On the other hand, depending of the factorization of the denominator, a proper r
 
 -   Denominator with a quadratic factor repeated $n$ times: $\dfrac{Ax+B}{(x^2+cx+d)^n}$
 
-### Integration of rational functions
-
 #### Antiderivatives of partial fractions
 
 Using the linearity of integration, we can compute the antiderivative of a rational function from the antiderivative of these partial fractions
@@ -158,8 +156,6 @@ $$
 \int \frac{Ax+B}{x^2+cx+d} &= \frac{A}{2}\log\vert x^2+cx+d\vert + \frac{2B-Ac}{\sqrt{4d-c^2}}\arctan \frac{2x+c}{\sqrt{4d-c^2}}+C.
 \end{aligned}
 $$
-
-### Integration of rational functions
 
 #### Example of denominator with linear factors
 
@@ -182,8 +178,6 @@ $$
 &= \frac{16}{9}\ln\vert x-1\vert+\frac{1}{3(x-1)}-\frac{7}{9}\ln\vert x+2\vert+C.
 \end{aligned}
 $$
-
-### Integration of rational functions
 
 #### Example of denominator with simple quadratic factors
 
@@ -210,8 +204,6 @@ and making the substitution $t=\sin x$, so $dt = \cos x dx$, we have
 \\[\int \sin^2 x(1-\sin^2 x)\cos x\, dx = \int t^2(1-t^2)\, dt = \int t^2-t^4 \, dt = \frac{t^3}{3}-\frac{t^5}{5}+C.\\]
 Finally, undoing the substitution we have \\[\int \sin^2 x\cos^3 x\, dx = \frac{\sin^3 x}{3}-\frac{\sin^5 x}{5}+C.\\]
 
-### Integration of trigonometric functions
-
 #### Integration of $\sin^n x\cos^m x$ with $n$ and $m$ even
 
 If $f(x)=\sin^n x\cos^m x$ with $n$ and $m$ even, then we can make the following substitutions to simplify the integration
@@ -234,8 +226,6 @@ $$
 the first integral is of the same type and the second one of the previous type, so
 \\[\int \sin^2 x\cos^4 x\, dx = \frac{1}{32}x-\frac{1}{32}\sin(2x)+\frac{1}{24}\sin^3(2x).\\]
 
-### Integration of trigonometric functions
-
 #### Products of sines and cosines
 
 The equalities
@@ -257,8 +247,6 @@ $$
 &= \frac{1}{2}\cos(-x)- \frac{1}{6}\cos 3x +C.
 \end{aligned}
 $$
-
-### Integration of trigonometric functions
 
 #### Rational functions of sines and cosines
 
