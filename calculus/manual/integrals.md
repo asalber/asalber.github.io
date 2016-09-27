@@ -321,4 +321,4 @@ In general, if $f(x)$ is an integrable function on the interval $[a,b]$, no matt
 If $f(x)$ and $g(x)$ are two integrable functions on the interval $[a,b]$, then the area between the graph of $f$ and $g$ on the interval $[a,b]$ is
 \\[\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.\\]
 
-<img class="img-center" src="img/integrals/area_between_function.svg" alt="Area between two function" width="350">
+<img class="img-center" src="img/integrals/area_between_functions.svg" alt="Area between two function" width="350">
