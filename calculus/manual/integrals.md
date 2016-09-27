@@ -308,7 +308,7 @@ If $f(x)$ is an integrable function on the interval $[a,b]$ and $f(x)\geq 0\ \fo
 
 If $f(x)$ is an integrable function on the interval $[a,b]$ and $f(x)\leq 0\ \forall x\in[a,b]$, then the area between the graph of $f$ and the $x$ axis on the interval $[a,b]$ is \\[-\int_a^b f(x)\,dx.\\]
 
-<img class="img-center" src="img/integrals/area_negative_function.png" alt="Area of a negative function" width="350">
+<img class="img-center" src="img/integrals/area_negative_function.svg" alt="Area of a negative function" width="350">
 
 ### Area between a function and the $x$ axis
 
