@@ -17,7 +17,6 @@ However, the concepts and procedures presented are valid for any scope.
 ## Table of contents
 
 - [Analytic Geometry](/calculus/manual/analytic-geometry.html)
-
 <!-- - Elementary functions(#TODO:20)
 - [Limits and continuity](#TODO:40) -->
 - [Derivatives with one variable](/calculus/manual/derivatives-one-variable.html)
