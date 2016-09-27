@@ -21,6 +21,7 @@ However, the concepts and procedures presented are valid for any scope.
 <!-- - Elementary functions(#TODO:20)
 - [Limits and continuity](#TODO:40) -->
 - [Derivatives with one variable](/calculus/manual/derivatives-one-variable.html)
+- [Integrals](/calculus/manual/integrals.html)
 
 <!-- - [Derivatives with several variables](#TODO:10)
 - [Integrals](#TODO:30)
