@@ -8,7 +8,6 @@ share: true
 ---
 
 ## Antiderivative of a function
-----------------------------
 
 > **Definition - Antiderivative of a function**. Given a function $f(x)$, the function $F(X)$ is an *antiderivative* or *primitive function* of $f$ if it satisfies that $F'(x)=f(x)$ $\forall x \in \mathop{\rm Dom}(f)$.
 

@@ -17,7 +17,7 @@ Some phenomena of Nature can be described by a number and a unit of measurement.
 
 **Example**. The height or weight of a person, the temperature of a gas or the time it takes a vehicle to travel a distance.
 
-However, there are other phenomena that cannot be described adequately by an scalar. If, for instance, a sailor wants to head for seaport and only knows the intensity of wind, he won’t know what direction to take. The description of wind requires two elements: intensity and direction.
+However, there are other phenomena that cannot be described adequately by a scalar. If, for instance, a sailor wants to head for seaport and only knows the intensity of wind, he will not know what direction to take. The description of wind requires two elements: intensity and direction.
 
 ### Vectors
 
@@ -31,9 +31,9 @@ Geometrically, a vector is represented by an directed line segment, that is, an 
 
 ### Vector representation
 
-An oriented segment can be located in different places in a Cartesian space. However, regardless of where it is located, if the length and the direction of the segment doesn’t change, the segment represents always the same vector.
+An oriented segment can be located in different places in a Cartesian space. However, regardless of where it is located, if the length and the direction of the segment does not change, the segment represents always the same vector.
 
-This allows to represent all vector with the same origin, the origin of the Cartesian coordinate system. Thus, a vector can be represented by the Cartesian *coordinates* of its final end in any Euclidean space.
+This allows to represent all vectors with the same origin, the origin of the Cartesian coordinate system. Thus, a vector can be represented by the Cartesian *coordinates* of its final end in any Euclidean space.
 
 <img class="img-center" src="img/analytic_geometry/vector_coordinates.svg" alt="vector coordinates" width="400">
 
@@ -62,7 +62,7 @@ Let $\mathbf{v}=(4,7,4)$ be a vector in $\mathbb{R}^3$, then its module is
 
 > **Definition - Unit vector**. A vector $\mathbf{v}$ in $\mathbb{R}^n$ is a *unit vector* if its module is one, that is, $\vert v\vert=1$.
 
-The unit vectors with the direction of the coordinate axes are of special importance and they form *standard basis*.
+The unit vectors with the direction of the coordinate axes are of special importance and they form the *standard basis*.
 
 In $\mathbb{R}^2$ the standard basis is formed by two vectors $\mathbf{i}=(1,0)$ and $\mathbf{j}=(0,1)$.
 
@@ -80,9 +80,9 @@ In $\mathbb{R}^3$ the standard basis is formed by three vectors $\mathbf{i}=(1,0
 
 <img class="img-center" src="img/analytic_geometry/sum_vectors.svg" alt="Sum of two vectors" width="300">
 
-### Product of a vector by an scalar
+### Product of a vector by a scalar
 
-> **Definition - Product of a vector by an scalar**. Given a vector $\mathbf{v}=(v_1,\cdots,v_n)$ in $\mathbb{R}^n$, and a scalar $a\in \mathbb{R}$, the *product* of $\mathbf{v}$ by $a$ is
+> **Definition - Product of a vector by a scalar**. Given a vector $\mathbf{v}=(v_1,\cdots,v_n)$ in $\mathbb{R}^n$, and a scalar $a\in \mathbb{R}$, the *product* of $\mathbf{v}$ by $a$ is
 \\[a\mathbf{v} = (av_1,\ldots, av_n).\\]
 
 **Example**. Let $\mathbf{v}=(2,1)$ a vector in $\mathbb{R}^2$ and $a=2$ a scalar, then the product of $a$ by $\mathbf{v}$ is \\[a\mathbf{v} = 2(2,1) = (4,2).\\]
@@ -91,7 +91,7 @@ In $\mathbb{R}^3$ the standard basis is formed by three vectors $\mathbf{i}=(1,0
 
 ### Expressing a vector as a linear combination of the standard basis
 
-The sum of vectors and the product of vector by a scalar allow as to express any vector as a linear combination of the standard basis.
+The sum of vectors and the product of vector by a scalar allow us to express any vector as a linear combination of the standard basis.
 
 In $\mathbb{R}^3$, for instance, a vector with coordinates $\mathbf{v}=(v_1,v_2,v_3)$ can be expressed as the linear combination \\[\mathbf{v}=(v_1,v_2,v_3) = v_1\mathbf{i}+v_2\mathbf{j}+v_3\mathbf{k}.\\]
 
@@ -101,7 +101,7 @@ In $\mathbb{R}^3$, for instance, a vector with coordinates $\mathbf{v}=(v_1,v_2,
 
 > **Definition - Dot product of two vectors**. Given the vectors $\mathbf{u}=(u_1,\cdots,u_n)$ and $\mathbf{v}=(v_1,\cdots,v_n)$ in $\mathbb{R}^n$, the *dot product* of $\mathbf{u}$ and $\mathbf{v}$ is \\[\mathbf{u}\cdot \mathbf{v} = u_1v_1 + \cdots + u_nv_n.\\]
 
-**Example**. Let $\mathbf{u}=(3,1)$ and $\mathbf{v}=(2,3)$ two vectors in $\mathbb{R}^2$, the the dot product of them is \\[\mathbf{u}\cdot\mathbf{v} = 3\cdot 2 +1\cdot 3 = 9.\\]
+**Example**. Let $\mathbf{u}=(3,1)$ and $\mathbf{v}=(2,3)$ two vectors in $\mathbb{R}^2$, then the dot product of them is \\[\mathbf{u}\cdot\mathbf{v} = 3\cdot 2 +1\cdot 3 = 9.\\]
 
 It holds that
 \\[\mathbf{u}\cdot\mathbf{v} =  |\mathbf{u}||\mathbf{v}|\cos\alpha\\] where $\alpha$ is the angle between the vectors.
@@ -122,7 +122,7 @@ Orthogonal vectors are perpendicular, that is the angle between them is right.
 
 **Examples**. The vectors $\mathbf{u}=(2,1)$ and $\mathbf{v}=(-2,4)$ in $\mathbb{R}^2$ are orthogonal, as
 \\[\mathbf{u}\mathbf{v} = 2\cdot -2 +1\cdot 4 = 0,\\]
-but they are not orthonormal as $|\mathbf{u}| = \sqrt{2^2+1^2} \neq 1$ and $|\mathbf{v}| = \sqrt{-2^2+4^2} \neq 1$.
+but they are not orthonormal since $|\mathbf{u}| = \sqrt{2^2+1^2} \neq 1$ and $|\mathbf{v}| = \sqrt{-2^2+4^2} \neq 1$.
 
 The vectors $\mathbf{i}=(1,0)$ and $\mathbf{j}=(0,1)$ in $\mathbb{R}^2$ are orthonormal, as
 \\[\mathbf{i}\mathbf{j} = 1\cdot 0 +0\cdot 1 = 0, \quad |\mathbf{i}| = \sqrt{1^2+0^2} = 1,  \quad |\mathbf j| = \sqrt{0^2+1^2} = 1.\\]
@@ -156,14 +156,14 @@ In the particular case of the real plane $\mathbb{R}^2$, if we have a line with 
 \\[x(t)=x_0+ta,\quad y(t)=y_0+tb\\]
 and its Cartesian equation is
 \\[\frac{x-x_0}{a} = \frac{y-y_0}{b}.\\]
-From this, passing $b$ to the other side of the equation, we get \\[y-y_0 = \frac{b}{a}(x-x_0),\\] or renaming $m=b/a$, \\[y-y_0=m(x-x_0).\\]
+From this, moving $b$ to the other side of the equation, we get \\[y-y_0 = \frac{b}{a}(x-x_0),\\] or renaming $m=b/a$, \\[y-y_0=m(x-x_0).\\]
 This equation is known as the *point-slope equation* of the line.
 
 ### Slope of a line in the plane
 
 > **Definition - Slope of a line in the plane**. Given a line $l: X=P+t\mathbf{v}$ in the real plane $\mathbb{R}^2$, with direction vector $\mathbf{v}=(a,b)$, the *slope* of $l$ is $b/a$.
 
-Recall that given two points $Q=(x_1,y_1)$ y $Q=(x_2,y_2)$ of the line $l$, we can take as a direction vector the vector from $P$ to $Q$, with coordinates $\vec{PQ}=Q-P=(x_2-x_1,y_2-y_1)$. Thus, the slope of $l$ is $\dfrac{y_2-y_1}{x_2-x_1}$, that is, the ratio between the changes in the vertical and horizontal axes respectively.
+Recall that given two points $P=(x_1,y_1)$ y $Q=(x_2,y_2)$ on the line $l$, we can take as a direction vector the vector from $P$ to $Q$, with coordinates $\vec{PQ}=Q-P=(x_2-x_1,y_2-y_1)$. Thus, the slope of $l$ is $\dfrac{y_2-y_1}{x_2-x_1}$, that is, the ratio between the changes in the vertical and horizontal axes.
 
 <img class="img-center" src="img/analytic_geometry/line_slope.svg" alt="Slope of a line in the plane" width="300">
 
@@ -172,7 +172,7 @@ Recall that given two points $Q=(x_1,y_1)$ y $Q=(x_2,y_2)$ of the line $l$, we c
 
 ### Vector equation of a plane in space
 
-To get the equation of a plane in the real space $\mathbb{R}^3$ we can take a point of the plane $P=(x_0,y_0,z_0)$ and an orthogonal vector to the plane $\mathbf{v}=(a,b,c)$. Then, any point $Q=(x,y,z)$ of the plane meets that the vector $\vec{PQ} = (x-x_0,y-y_0,z-z_0)$ is orthogonal to $\mathbf{v}$, and therefore their dot product is zero.
+To get the equation of a plane in the real space $\mathbb{R}^3$ we can take a point of the plane $P=(x_0,y_0,z_0)$ and an orthogonal vector to the plane $\mathbf{v}=(a,b,c)$. Then, any point $Q=(x,y,z)$ of the plane satisfies that the vector $\vec{PQ} = (x-x_0,y-y_0,z-z_0)$ is orthogonal to $\mathbf{v}$, and therefore their dot product is zero.
 \\[\vec{PQ}\cdot\mathbf{v} = (x-x_0,y-y_0,z-z_0)(a,b,c) = a(x-x_0)+b(y-y_0)+c(z-z_0) = 0.\\]
 This equation is known as the *vector equation of the plane*.
 
@@ -181,7 +181,7 @@ This equation is known as the *vector equation of the plane*.
 ### Scalar equation of a plane in space
 
 From the vector equation of the plane we can get \\[a(x-x_0)+b(y-y_0)+c(z-z_0) = 0 \Leftrightarrow ax+by+cz=ax_0+by_0+cz_0,\\]
-that, renaming $d=ax_0+by_0+cz_0$, can be written
+that, renaming $d=ax_0+by_0+cz_0$, can be written as
 \\[ax+by+cz=d,\\]
 and is known as the *scalar equation of the plane*.
 
