@@ -1,20 +1,16 @@
 ---
 layout: book
-title: Ejercicios de Cálculo
-description: "Colección de ejercicios resueltos"
-tags: [Ejercicios, Estadística]
+title: Calculus Exercises
+description: "Collection of solved exercises"
+tags: [Exercises, Calculus, Problems]
 share: true
 image: abaco.jpg
 ---
 
-Esta sección contiene una colección de ejercicios resueltos de cálculo para titulaciones de grado. 
-La mayor parte de ellos son ejercicios aplicados en el ámbito de las Ciencias de la Salud, pero también hay ejercicios genéricos para cualquier disciplina.
+This sections contains a collection of solved exercises of Calculus.
+Most of the exercises are applied to Health Sciences, but there are also general exercises valid for any discipline.
 
-Los ejercicios están clasificacios por temas:
+Exercises are classified by topics:
 
-- Ejercicios de derivadas
-	- [Derivadas de funciones de una variable](/calculo/ejercicios/derivadas-1.html).
-	- Derivadas de trayectorias
-	- Derivadas de funciones de varias variables
-	- Derivadas implícitas 
-- Ejercicios de ecuaciones diferenciales ordinarias
+- [Derivatives of functions with one variable](/calculus/exercises/derivatives-1.html)
+- [Ordinary Differential Equations](/calculus/exercises/ordinary-differential-equations.html)

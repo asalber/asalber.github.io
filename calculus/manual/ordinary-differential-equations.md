@@ -9,7 +9,7 @@ share: true
 
 ## Ordinary Differential Equations
 
-Often in Physics, Chemistry, Biology, Geometry, etc they arise equations that relate a function with its derivative or successive derivatives.
+Often in Physics, Chemistry, Biology, Geometry, etc there arise equations that relate a function with its derivative, or successive derivatives.
 
 > **Definition - Ordinary differential equation**. An *ordinary differential equation* (O.D.E.) is a equation that relates an independent variable $x$, a function $y(x)$ that depends on $x$, and the successive derivatives of $y$, $y',y'',\ldots,y^{(n)}$; it can be written as
 \\[F(x, y, y', y'',\ldots, y^{(n)})=0.\\]
@@ -19,13 +19,13 @@ Thus, for instance, the equation $y'''+sen(x)y'=2x$ is a differential equation o
 
 ### Deducing a differential equation
 
-To deduce a differential equation that explains a natural phenomenon is essential to understand what is a derivative and how to interpret it.
+To deduce a differential equation that explains a natural phenomenon is essential to understand what a derivative is and how to interpret it.
 
 **Example**. Newton’s law of cooling states
 
 > *“The rate of change of the temperature of a body in a surrounding medium is proportional to the difference between the temperature of the body $T$ and the temperature of the medium $T_a$.”*
 
-The rate of change of change of the temperature is the derivative of temperature with respect to time $dT/dt$. Thus, Newton’s law of cooling can be explained by the differential equation \\[\frac{dT}{dt}=k(T-T_a),\\] where $k$ is a proportionality constant.
+The rate of change of the temperature is the derivative of temperature with respect to time $dT/dt$. Thus, Newton’s law of cooling can be explained by the differential equation \\[\frac{dT}{dt}=k(T-T_a),\\] where $k$ is a proportionality constant.
 
 ### Solution of an ordinary differential equation
 
@@ -33,9 +33,9 @@ The rate of change of change of the temperature is the derivative of temperature
 \\[F(x,f(x), f'(x), f''(x),\ldots, f^{(n}(x))=0.\\]
 The graph of a solution of the ordinary differential equation is known as *integral curve*.
 
-Solving an ordinary differential equations consists in finding all its solutions in a given domain. For that is required the integral calculus.
+Solving an ordinary differential equations consists on finding all its solutions in a given domain. For that integral calculus is required.
 
-The same manner than the indefinite integral is a family of antiderivatives, that differ in a constant term, after integrating an ordinary differential equation we get a family of solutions that differ in a constant. Giving values to this constant we can get particular solutions.
+The same manner than the indefinite integral is a family of antiderivatives, that differ in a constant term, after integrating an ordinary differential equation we get a family of solutions that differ in a constant. We can get particular solutions giving values to this constant.
 
 ### General solution of an ordinary differential equation
 
@@ -45,7 +45,7 @@ depending on $n$ constants, such that for any value of $C_1,\ldots,C_n$ we get a
 
 For every value of the constant we get *particular solution* of the differential equation. Thus, when a differential equation can be solved, it has infinite solutions.
 
-Geometrically, the general solution of a differential equation correspond to a family of integral curves of the differential equation.
+Geometrically, the general solution of a differential equation corresponds to a family of integral curves of the differential equation.
 
 Often, it is common to impose conditions to the solutions of a differential equation to reduce the number of solutions. In many cases, these conditions allow to determine the values of the constants in the general solution to get a particular solution.
 
@@ -56,7 +56,7 @@ In this chapter we are going to study first order differential equations
 
 The general solution of a first order differential equation is
 \\[y = f (x,C),\\]
-so to get a particular solution from the general one, it is enough to set the value of the constant $C$, and for that we only need to impose an initial condition.
+so to get a particular solution from the general one, it is enough to set the value of the constant $C$, and for that we only need to impose one initial condition.
 
 > **Definition - Initial value problem**. The group consisting of a first order differential equation and an initial condition is known as *initial value problem*:
 >
@@ -84,7 +84,7 @@ from where we get $C=5-T_a$, and this give us the particular solution
 
 **Example**. If we assume in the previous example that the temperature of the surrounding medium is $T_a=0$ ºC and the cooling constant of the body is $k=1$, the general solution of the differential equation is
 \\[T(t)=Ce^t,\\]
-that is a family of integral curves. From all of them, only the one that passes through the point $(0,5)$ corresponds to the particular solution of the previous initial value problem.
+that is a family of integral curves. Among all of them, only the one that passes through the point $(0,5)$ corresponds to the particular solution of the previous initial value problem.
 
 <img class="img-center" src="img/ode/integral_curves.svg" alt="Area of a positive function" width="350">
 
@@ -114,7 +114,7 @@ Although this theorem guarantees the existence and uniqueness of a solution of a
 \\[y'g(y)=f(x),\\]
 or what is the same,
 \\[g(y)dy=f(x)dx,\\]
-so every variable is on one side of the equation (the variables are separated).
+so the different variables are on different sides of the equality (the variables are separated).
 
 The general solution for a separable differential equation comes after integrating both sides of the equation
 \\[\int g(y)\,dy = \int f(x)\,dx+C.\\]
@@ -132,7 +132,7 @@ and solving for $T$ we get the general solution of the equation
 
 ## <a name="Homogeneousdifferentialequations"></a>Homogeneous differential equations
 
-> **Definition - Homogeneous function**. A function $f(x,y)$ is *homogeneous* of degree $n$, if it is satisfied
+> **Definition - Homogeneous function**. A function $f(x,y)$ is *homogeneous* of degree $n$, if it satisfies
 \\[f(kx,ky)= k^nf(x,y),\\]
 for any value $k\in \mathbb{R}$.
 
@@ -144,23 +144,23 @@ Setting $k=1/x$ we have
 This way, a homogeneous function of degree $0$ always can be written as a function of $u=y/x$:
 \\[f(x,y)=g\left(\frac{y}{x}\right)=g(u).\\]
 
-> **Definition - Homogeneous differential equation** A *homogeneous differential equation* is a first order differential equation that can be written
+> **Definition - Homogeneous differential equation** A *homogeneous differential equation* is a first order differential equation that can be written as
 \\[y'=f(x,y),\\] where $f(x,y)$ is a homogeneous function of degree $0$.
 
-We can solve a homogeneous differential equation making the substitution
+We can solve a homogeneous differential equation by making the substitution
 \\[u=\frac{y}{x}\Leftrightarrow y=ux,\\]
 so the equation becomes
 \\[u'x+u=f(u),\\]
 that is a separable differential equation.
 
-One solved the separable differential equation, the substitution must be undone.
+Once solved the separable differential equation, the substitution must be undone.
 
 **Example**. Let us consider the following differential equation
 \\[4x-3y+y'(2y-3x)=0.\\]
 
-Rewriting the equation this way
+Rewriting the equation in this way
 \\[y'=\frac{3y-4x}{2y-3x}\\]
-we can check easily that is a homogeneous differential equation.
+we can easily check that it is a homogeneous differential equation.
 
 To solve this equation we have to do the substitution $y=ux$, and we get
 \\[u'x+u=\frac{3ux-4x}{2ux-3x}=\frac{3u-4}{2u-3}\\]
@@ -180,22 +180,22 @@ $$
 \end{array}
 $$
 
-then, applying the exponential function both sides and simplifying we get the general solution
+then, applying the exponential function to both sides and simplifying we get the general solution
 \\[u^2-3u+2=e^{-2\log|x|-2C}=\frac{e^{-2C}}{e^{\log|x|^2}}=\frac{C}{x^2},\\]
-rewriting the constant $C=e^{-2C}$.
+rewriting the constant $K=e^{-2C}$.
 
 Finally, undoing the initial substitution $u=y/x$, we arrive at the general solution of the homogeneous differential equation
-\\[\left(\frac{y}{x}\right)^2-3\frac{y}{x}+2=\frac{C}{x^2}\Leftrightarrow y^2-3xy+2x^2=C.\\]
+\\[\left(\frac{y}{x}\right)^2-3\frac{y}{x}+2=\frac{K}{x^2}\Leftrightarrow y^2-3xy+2x^2=K.\\]
 
 Linear differential equations
 -----------------------------
 
 ### <a name="Lineardifferentialequations"></a>Linear differential equations
 
-> **Definition - Linear differential equation** A *linear differential equation* is a first order differential equation that can be written
+> **Definition - Linear differential equation** A *linear differential equation* is a first order differential equation that can be written as
 \\[y'+g(x)y = h(x).\\]
 
-To solve a linear differential equation we try to write the left side of the equation as the derivative of a product. For that we write both sides by the function $f(x)$,
+To solve a linear differential equation we try to write the left side of the equation as the derivative of a product. For that we multiply both sides by the function $f(x)$, such that
 \\[f'(x)=g(x)f(x).\\]
 Thus, we get
 
@@ -222,7 +222,7 @@ so, substituting this function in the previous solution we arrive at the solutio
 \\[\frac{dT}{dt}=k(T-T_a(t)),\\]
 is a linear differential equation since it can be written as
 \\[T'-kT=-kT_a(t),\\]
-where the independent term is $-kT_a(t)$ and de coefficient of $T$ is $-k$.
+where the independent term is $-kT_a(t)$ and the coefficient of $T$ is $-k$.
 
 Substituting in the formula of the general solution of a linear differential equation we have
 \\[y=e^{-\int -k\,dt}\left(\int -kT_a(t)e^{\int -k\,dt}\,dt+C\right)=
@@ -230,7 +230,7 @@ e^{kt}\left(-\int kT_a(t)e^{-kt}\,dt+C\right).\\]
 
 In the particular case that $T_a(t)=t$, and the proportionality constant $k=1$, the general solution of the linear differential equation is
 \\[y=e^{t}\left(-\int te^{-kt}\,dt+C\right)=e^t(e^{-t}(t+1)+C)=Ce^t+t+1.\\]
-If, in addition, we know that the temperature of the body at time $t=0$ is $5$ ºC, that is, the initial condition $T(0)=5$, then we can compute the value of the constant $C$,
+If, in addition, we know that the temperature of the body at time $t=0$ is $5$ ºC, that is, we have the initial condition $T(0)=5$, then we can compute the value of the constant $C$,
 \\[y(0)=Ce^0+0+1=5 \Leftrightarrow C+1=5 \Leftrightarrow C=4,\\]
 and we get the particular solution
 \\[y(t)=4e^t+t+1.\\]
