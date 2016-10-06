@@ -17,14 +17,13 @@ However, the concepts and procedures presented are valid for any scope.
 ## Table of contents
 
 - [Analytic Geometry](/calculus/manual/analytic-geometry.html)
-- [Derivatives with one variable](/calculus/manual/derivatives-one-variable.html)
+- [Derivatives with One Variable](/calculus/manual/derivatives-one-variable.html)
 - [Integrals](/calculus/manual/integrals.html)
 - [Ordinary Differential Equations](/calculus/manual/ordinary-differential-equations.html)
+- [Several Variables Differentiable Calculus](/calculus/manual/derivatives-n-variables.html)
 
 <!-- - Elementary functions(#TODO:20)
 - [Limits and continuity](#TODO:40)
-- [Derivatives with several variables](#TODO:10)
-- [Integrals](#TODO:30)
 -->
 
 
