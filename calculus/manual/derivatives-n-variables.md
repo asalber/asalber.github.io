@@ -268,4 +268,221 @@ The function $\displaystyle f(x,y)=\frac{\sin(x^2+y^2)}{\sqrt{x^2+y^2}}$ has the
 
 <img class="img-center" src="img/derivatives_n/water_drop_graph.svg" alt="Surface of a drop of water." width="400">
 
+
+### Level set of a scalar field
+
+> **Definition - Level set** Given a scalar field $f:\mathbb{R}^n\rightarrow \mathbb{R}$, the *level set* $c$ of $f$ is the set
+\\[C_{f,c}=\{(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c\},\\]
+that is, a set where the function takes on the constant value $c$.
+
+**Example**. Given the scalar field $f(x,y)=x^2+y^2$ and the point $P=(1,1)$, the level set of $f$ that includes $P$ is
+\\[C_{f,2} = \{(x,y): f(x,y)=f(1,1)=2\} = \{(x,y): x^2+y^2=2\},\\]
+that is the circumference of radius $\sqrt{2}$ centered at the origin.
+
+Level sets are common in applications like topographic maps, where the level curves correspond to points with the same height above the sea level,
+
+<img class="img-center" src="img/derivatives_n/mountain_level_curves.svg" alt="Level curves of a topograhic map." width="400">
+
+and weather maps (*isobars*), where level curves correspond to points with the same atmospheric pressure.
+
+<img class="img-center" src="img/derivatives_n/isobars.png" alt="Isobars of a weather map." width="400">
+
+
+### Partial functions
+
+> **Definition - Partial function**. Given a scalar field $f:\mathbb{R}^n\rightarrow \mathbb{R}$, an $i$-th *partial function* of $f$ is any function $f_i:\mathbb{R}\rightarrow \mathbb{R}$ that results of substituting all the variables of $f$ by constants, except the $i$-th variable, that is:
+\\[f_i(x)=f(c_1,\ldots,c_{i-1},x,c_{i+1},\ldots,c_{n}),\\]
+with $c_j$ $(j=1,\ldots, n,\ j\neq i)$ constants.
+
+**Example**. If we take the function that measures the area of a triangle
+\\[f(x,y)=\frac{xy}{2},\\]
+and set the value of the base to $x=c$, then we the area of the triangle depends only of the height, and $f$ becomes a function of one variable, that is the partial function
+\\[f_1(y)=f(c,y)=\frac{cy}{2},\quad \mbox{with $c$ constant}.\\]
+
+## Partial derivative notion
+
+### Variation of a function with respect to a variable
+
+We can measure the variation of a scalar field with respect to each of its variables in the same way that we measured the variation of a one-variable function.
+
+Let $z=f(x,y)$ be a scalar field of $\mathbb{R}^2$. If we are at point $(x_0,y_0)$ and we increase the value of $x$ a quantity $\Delta x$, then we move in the direction of the $x$-axis from the point $(x_0,y_0)$ to the point $(x_0+\Delta x,y_0)$, and the variation of the function is
+\\[\Delta z=f(x_0+\Delta x,y_0)-f (x_0,y_0).\\]
+
+Thus, the rate of change of the function with respect to $x$ along the interval $[x_0,x_0+\Delta x]$ is given by the quotient
+\\[\frac{\Delta z}{\Delta x}=\frac{f(x_0+\Delta x,y_0)-f(x_0,y_0)}{\Delta x}.\\]
+
+### Instantaneous rate of change of a scalar field with respect to a variable
+
+If instead o measuring the rate of change in an interval, we measure the rate of change in a point, that is, when $\Delta x$ approaches 0, then we get the instantaneous rate of change:
+\\[\lim_{\Delta x\rightarrow 0}\frac{\Delta z}{\Delta x}=\lim_{\Delta x \rightarrow 0}\frac{f(x_0+\Delta x,y_0)-f(x_0,y_0)}{\Delta x}.\\]
+The value of this limit, if exists, it is known as the *partial derivative* of $f$ with respect to the variable $x$ at the point $(x_0,y_0)$; it is written as
+\\[\frac{\partial f}{\partial x}(x_0,y_0).\\]
+
+This partial derivative measures the instantaneous rate of change of $f$ at the point $P=(x_0,y_0)$ when $P$ moves in the $x$-axis direction.
+
+### Geometric interpretation of partial derivatives
+
+Geometrically, a two-variable function $z=f(x,y)$ defines a surface. If we cut this surface with a plane of equation $y=y_0$ (that is, the plane where $y$ is the constant $y_0$) the intersection is a curve, and the partial derivative of $f$ with respect to to $x$ at $(x_0,y_0)$ is the slope of the tangent line to that curve at $x=x_0$.
+
+<img class="img-center" src="img/derivatives_n/partial_tangent_surface.svg" alt="Geometric interpretation of the partial derivative." width="350">
+
 <img src="/images/geogebra.png" /> **<a href="https://ggbm.at/K3xnQRY8" target="_blank">Interactive Example</a>**
+
+### Partial derivative
+
+The concept of partial derivative can be extended easily from two-variable function to $n$-variables functions.
+
+> **Definition - Partial derivative**. Given a $n$-variables function $f(x_1,\ldots,x_n)$, $f$ is *partially differentiable* with respect to the variable $x_i$ at the point $a=(a_1,\ldots,a_n)$ if exists the limit
+\\[\lim_{\Delta x_i\rightarrow 0} \frac{f(a_1,\ldots,a_{i-1},a_i+\Delta x_i,a_{i+1},\ldots,a_n)-f(a_1,\ldots,a_{i-1},a_i,a_{i+1},\ldots,a_n)} {h}.\\]
+In such a case, the value of the limit is known as *partial derivative* of $f$ with respect to $x_i$ at $a$; it is denoted
+\\[f'_{x_i}(a)=\frac{\partial f}{\partial x_i}(a).\\]
+
+**Remark**. The definition of derivative for one-variable functions is a particular case of this definition for $n=1$.
+
+### Partial derivatives computation
+
+When we measure the variation of $f$ with respect to a variable $x_i$ at the point $a=(a_1,\ldots,a_n)$, the other variables remain constant. Thus, if we can consider the $i$-th partial function
+\\[f_i(x_i)=f(a_1,\ldots,a_{i-1},x_i,a_{i+1},\ldots,a_n),\\]
+
+the partial derivative of $f$ with respect to $x_i$ can be computed differentiating this function:
+\\[\frac{\partial f}{\partial x_i}(a)=f_i'(a_i).\\]
+
+**Rule**. To differentiate partially $f(x_1,\ldots,x_n)$ with respect to the variable $x_i$, you have to differentiate $f$ as a function of the variable $x_i$, considering the other variables as constants.
+
+**Example of a perfect gas**. Consider the function that measures the volume of a perfect gas
+\\[v(t,p)=\frac{nRt}{p},\\] where $t$ is the temperature, $p$ the pressure and $n$ and $R$ are constants.
+
+The instantaneous rate of change of the volume with respect to the pressure is the partial derivative of $v$ with respect to $p$. To compute this derivative we have to think in $t$ as a constant and differentiate $v$ as if the unique variable was $p$:
+\\[\frac{\partial v}{\partial p}(t,p)=\frac{d}{dp}\left(\frac{nRt}{p}\right)_{\mbox{$t=$cst}}=\frac{-nRt}{p^2}.\\]
+
+In the same way, the instantaneous rate of change of the volume with respect to the temperature is the partial derivative of $v$ with respect to $t$:
+\\[\frac{\partial v}{\partial t}(t,p)=\frac{d}{dt}\left(\frac{nRt}{p}\right)_{\mbox{$p=$cst}}=\frac{nR}{p}.\\]
+
+## Gradient
+
+> **Definition - Gradient**. Given a scalar field $f(x_1,\ldots,x_n)$, the *gradient* of $f$, denoted by $\nabla f$, is a function that maps every point $a=(a_1,\ldots,a_n)$ to a vector with coordinates the partial derivatives of $f$ at $a$,
+\\[\nabla f(a)=\left(\frac{\partial f}{\partial x_1}(a),\ldots,\frac{\partial f}{\partial x_n}(a)\right).\\]
+
+Later we will show that the gradient in a point is a vector with the magnitude and direction of the maximum rate of change of the function in that point. Thus, , while $-\nabla f(a)$ show the direction of maximum decrease of $f$ at $a$.
+
+**Example**. After heating a surface, the temperature $t$ (in $^\circ$C) at each point $(x,y,z)$ (in m) of the surface is given by the function
+\\[t(x,y,z)=\frac{x}{y}+z^2.\\]
+In what direction will increase the temperature faster at point $(2,1,1)$ of the surface? What magnitude will the maximum increase of temperature have?
+
+The direction of maximum increase of the temperature is given by the gradient
+\\[\nabla t(x,y,z)=\left(\frac{\partial t}{\partial x}(x,y,z),\frac{\partial t}{\partial y}(x,y,z),\frac{\partial t}{\partial
+z}(x,y,z)\right)=\left(\frac{1}{y},\frac{-x}{y^2},2z\right).\\]
+
+At point $(2,1,1)$ de direction is given by the vector
+\\[\nabla t(2,1,1)=\left(\frac{1}{1},\frac{-2}{1^2},2\cdot 1\right)=(1,-2,2),\\]
+and its magnitude is
+\\[|\nabla f(2,1,1)|=|\sqrt{1^2+(-2)^2+2^2}|=|\sqrt{9}|=3 \mbox{ $^\circ$C/m}.\\]
+
+## Second order partial derivatives
+
+As the partial derivatives of a function are also functions of several variables we can differentiate partially each of them.
+
+If a function $f(x_1,\ldots,x_n)$ has a partial derivative $f^\prime_{x_i}(x_1,\ldots,x_n)$ with respect to the variable $x_i$ in a set $A$, then we can differentiate partially again $f'_{x_i}$ with respect to the variable $x_j$. This second derivative, when exists, is known as *second order partial derivative* of $f$ with respect to the variables $x_i$ and $x_j$; it is written as
+\\[\frac{\partial ^2 f}{\partial x_j \partial x_i}= \frac{\partial}{\partial x_j}\left(\frac{\partial f}{\partial x_i}\right).\\]
+
+In the same way we can define higher order partial derivatives.
+
+**Example**. The two-variables function
+\\[f(x,y)=x^y\\]
+has 4 second order partial derivatives:
+
+$$
+\begin{aligned}
+\frac{\partial^2 f}{\partial x^2}(x,y) &=
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}(x,y)\right) =
+\frac{\partial}{\partial x}\left(yx^{y-1}\right) =
+y(y-1)x^{y-2},\\
+\frac{\partial^2 f}{\partial y \partial x}(x,y) &=
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}(x,y)\right) =
+\frac{\partial}{\partial y}\left(yx^{y-1}\right) =
+x^{y-1}+yx^{y-1}\log x,\\
+\frac{\partial^2 f}{\partial x \partial y}(x,y) &=
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}(x,y)\right) =
+\frac{\partial}{\partial x}\left(x^y\log x \right) =
+yx^{y-1}\log x+x^y\frac{1}{x},\\
+\frac{\partial^2 f}{\partial y^2}(x,y) &=
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial y}(x,y)\right) =
+\frac{\partial}{\partial y}\left(x^y\log x \right) =
+x^y(\log x)^2.
+\end{aligned}
+$$
+
+## Hessian matrix and Hessian
+
+> **Definition - Hessian matrix**. Given a scalar field $f(x_1,\ldots,x_n)$, with second order partial derivatives at the point $a=(a_1,\ldots,a_n)$, the *Hessian matrix* of $f$ at $a$, denoted by $\nabla^2f(a)$, is the matrix
+>
+$$
+\nabla^2f(a)=\left(
+\begin{array}{cccc}
+\dfrac{\partial^2 f}{\partial x_1^2}(a) &
+\dfrac{\partial^2 f}{\partial x_1 \partial x_2}(a) &
+\cdots &
+\dfrac{\partial^2 f}{\partial x_1 \partial x_n}(a)\\
+\dfrac{\partial^2 f}{\partial x_2 \partial x_1}(a) &
+\dfrac{\partial^2 f}{\partial x_2^2}(a) &
+\cdots &
+\dfrac{\partial^2 f}{\partial x_2 \partial x_n}(a)\\
+\vdots & \vdots & \ddots & \vdots \\
+\dfrac{\partial^2 f}{\partial x_n \partial x_1}(a) &
+\dfrac{\partial^2 f}{\partial x_n \partial x_2}(a) &
+\cdots &
+\dfrac{\partial^2 f}{\partial x_n^2}(a)
+\end{array}
+\right)
+$$
+>
+The determinant of this matrix is known as *Hessian* of $f$ at $a$; it is denoted $Hf(a)=\vert\nabla^2f(a)\vert$.
+
+**Example**. Consider again the two-variables function
+\\[f(x,y)=x^y.\\]
+Its Hessian matrix is
+
+$$
+\nabla^2f(x,y)=\left(
+\begin{array}{cc}
+\dfrac{\partial^2 f}{\partial x^2} & \dfrac{\partial^2 f}{\partial x \partial y}\\
+\dfrac{\partial^2 f}{\partial y \partial x} & \dfrac{\partial^2 f}{\partial y^2}
+\end{array}
+\right)
+=
+\left(
+\begin{array}{cc}
+y(y-1)x^{y-2} & x^{y-1}(y\log x+1) \\
+x^{y-1}(y\log x+1) & x^y(\log x)^2
+\end{array}
+\right).
+$$
+
+At point $(1,2)$ is
+
+$$\nabla^2f(1,2)=\left(
+\begin{array}{cc}
+2(2-1)1^{2-2} & 1^{2-1}(2\log 1+1) \\
+1^{2-1}(2\log 1+1) & 1^2(\log 1)^2
+\end{array}
+\right)
+=
+\left(
+\begin{array}{cc}
+2 & 1 \\
+1 & 0
+\end{array}
+\right).
+$$
+
+And its Hessian is
+
+$$
+Hf(1,2)=\left|
+\begin{array}{cc}
+2 & 1 \\
+1 & 0
+\end{array}
+\right|=
+2\cdot 0-1\cdot1= -1.
+$$
