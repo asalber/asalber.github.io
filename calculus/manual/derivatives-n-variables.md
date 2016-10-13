@@ -197,3 +197,75 @@ with velocity
 \\[\mathbf{v}=f'(\pi/2)=(-\sin(\pi/2),\cos(\pi/2), 1)=(-1,0,1),\\]
 and the tangent line to the graph of $f$ at that moment is
 \\[l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).\\]
+
+<img class="img-center" src="img/derivatives_n/tangent_trajectory_space.svg" alt="Tangent line to a trajectory in the space." width="400">
+
+<img src="/images/geogebra.png" /> **<a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example</a>**
+
+
+### Normal plane to a trajectory in the space
+
+In the three-dimensional space $\mathbb{R}^3$, the normal line to a trajectory is not unique. There are an infinite number of normal lines and all of them are in the normal plane.
+
+If $f(t)=(x(t),y(t),z(t))$, $t\in \mathbb{R}$, is a trajectory in the real space $\mathbb{R}^3$, then at the moment $a$, the moving object that follows this trajectory will be at the position $P=(x(a),y(a),z(a))$ with a velocity $\mathbf{v}=f'(t)=(x'(t),y'(t),z'(t))$. Thus, using the velocity vector as normal vector the normal plane to $f$ at this moment have the following vectorial equation
+
+$$
+\begin{aligned}
+\Pi &: (x-x(a),y-y(a),z-z(a))(x'(a),y'(a),z'(a)) = 0\\
+&= x'(a)(x-x(a))+y'(a)(y-y(a))+z'(a)(z-z(a))=0.
+\end{aligned}
+$$
+
+**Example**. For the trajectory of the previous example $f(t)=(\cos t, \sin t, t)$, $t\in \mathbb{R}$, at the moment $t=\pi/2$ the trajectory passes through the point
+\\[f(\pi/2)=(\cos(\pi/2),\sin(\pi/2),\pi/2)=(0,1,\pi/2),\\]
+with velocity
+\\[\mathbf{v}=f'(\pi/2)=(-\sin(\pi/2),\cos(\pi/2), 1)=(-1,0,1),\\]
+and normal plane to the graph of $f$ at that moment is
+\\[\Pi:\left(x-0,y-1,z-\frac{\pi}{2}\right)(-1,0,1) =0 \Leftrightarrow -x+z-\frac{\pi}{2}=0.\\]
+
+<img class="img-center" src="img/derivatives_n/normal_plane_trajectory_space.svg" alt="Normal plane to a trajectory in the space." width="400">
+
+<img src="/images/geogebra.png" /> **<a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example</a>**
+
+## Functions of several variables
+
+A lot of problems in Geometry, Physics, Chemistry, Biology, etc. involve a variable that depend on two or more variables:
+
+-   The area of a triangle depends on two variables that are the base and height lengths.
+
+-   The volume of a perfect gas depends on two variables that are the pressure and the temperature.
+
+-   The way travelled by an object free falling depends on a lot of variables: the time, the area of the cross section of the object, the latitude and longitude of the object, the height above the sea level, the air pressure, the air temperature, the speed of wind, etc.
+
+These dependencies are expressed with functions of several variables.
+
+> **Definition - Functions of several real variables**. A *function of $n$ real variables* or a *scalar field* from a set $A_1\times \cdots \times A_n\subseteq \mathbb{R}^n$ in a set $B\subseteq \mathbb{R}$, is a relation that maps any tuple $(a_1,\ldots,a_n)\in A_1\times \cdots\times A_n$ into a unique element of $B$, denoted by $f(a_1,\ldots,a_n)$, that is knwon as the *image* of $(a_1,\ldots,a_n)$ by $f$.
+>
+$$
+\begin{array}{lccc}
+f: & A_1\times\cdots\times A_n & \longrightarrow & B\\
+   &(a_1,\ldots,a_n) & \longrightarrow & f(a_1,\ldots,a_n)
+\end{array}
+$$
+
+- The area of a triangle is a real function of two real variables
+\\[f(x,y)=\frac{xy}{2}.\\]
+
+- The volume of a perfect gas is a real function of two real variables
+\\[v=f(t,p)=\frac{nRt}{p},\quad \mbox{with $n$ and $R$ constants.}\\]
+
+### Graph of a function of two variables
+
+The graph of a function of two variables $f(x,y)$ is a surface in the real space $\mathbb{R}^3$ where every point of the surface has coordinates $(x,y,z)$, with $z=f(x,y)$.
+
+<img class="img-center" src="img/derivatives_n/paraboloid.svg" alt="Graph of a two-variables function" width="300">
+
+**Example**. The function $f(x,y)=\dfrac{xy}{2}$ that measures the area of a triangle of base $x$ and height $y$ has the graph below.
+
+<img class="img-center" src="img/derivatives_n/area_triangle_graph.svg" alt="Graph of the function that measures the area of a triangle." width="400">
+
+The function $\displaystyle f(x,y)=\frac{\sin(x^2+y^2)}{\sqrt{x^2+y^2}}$ has the peculiar graph below.
+
+<img class="img-center" src="img/derivatives_n/water_drop_graph.svg" alt="Surface of a drop of water." width="400">
+
+<img src="/images/geogebra.png" /> **<a href="https://ggbm.at/K3xnQRY8" target="_blank">Interactive Example</a>**
