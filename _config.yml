@@ -36,54 +36,54 @@ bing_verify:
 # For external links add external: true
 estadistica:
   - title: Manual de Estadística
-    url: /estadistica/manual
+    url: /estadistica/manual/
   - title: Ejercicios de Estadística
-    url: /estadistica/ejercicios
+    url: /estadistica/ejercicios/
   - title: Exámenes de Estadística
-    url: /estadistica/examenes
+    url: /estadistica/examenes/
   - title: Bioestadística con R y rk.Teaching
-    url: /estadistica/rkteaching/bioestadistica
+    url: /estadistica/rkteaching/bioestadistica/
   - title: Videotutorial de rk.Teaching
-    url: /estadistica/rkteaching/videotutorial
+    url: /estadistica/rkteaching/videotutorial/
 statistics:
   - title: Statistics Manual
-    url: /statistics/manual
+    url: /statistics/manual/
   - title: Statistics exercises
-    url: /statistics/exercises
+    url: /statistics/exercises/
   - title: Statistics exams
-    url: /statistics/exams
+    url: /statistics/exams/
 r:
   - title: Paquete rk.Teaching
-    url: /rkteaching
+    url: /rkteaching/
   - title: Bioestadística con R y rk.Teaching
-    url: /estadistica/rkteaching/bioestadistica
+    url: /estadistica/rkteaching/bioestadistica/
   - title: Videotutorial de rk.Teaching
-    url: /estadistica/rkteaching/videotutorial
+    url: /estadistica/rkteaching/videotutorial/
 spss:
   - title: Bioestadística con SPSS
-    url: /estadistica/spss
+    url: /estadistica/spss/
   - title: Libro
     url: /estadistica/spss/libro.html
 calculo:
   - title: Manual de Cálculo
-    url: /calculo/manual
+    url: /calculo/manual/
   - title: Ejercicios de Cálculo
-    url: /calculo/ejercicios
+    url: /calculo/ejercicios/
   - title: Exámenes de Cálculo
-    url: /calculo/examenes
+    url: /calculo/examenes/
 calculus:
   - title: Calculus Manual
-    url: /calculus/manual
+    url: /calculus/manual/
   - title: Calculus exercises
-    url: /calculus/exercises
+    url: /calculus/exercises/
   - title: Calculus exams
-    url: /calculus/exams
+    url: /calculus/exams/
 derive:
   - title: Cálculo con Derive
-    url: /calculo/derive/calculo-derive
+    url: /calculo/derive/calculo-derive/
 excel:
   - title: Excel manual
-    url: /office/excel/manual
+    url: /office/excel/manual/
 
 
 
