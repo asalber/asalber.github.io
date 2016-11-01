@@ -48,6 +48,7 @@ Many properties of real functions of a single real variable can be extended to v
 \$$f'(a)=(x_1'(a),\ldots,x_n'(a))\$$
 
 The proof for a vectorial field in $\mathbb{R}^2$ is easy.
+
 $$\begin{aligned}
 f'(a)&=\lim_{\Delta t\rightarrow 0} \frac{f(a+\Delta t)-f(a)}{\Delta t} = \lim_{\Delta t\rightarrow 0} \frac{(x(a+\Delta t),y(a+\Delta t))-(x(a),y(a))}{\Delta t} =\\
 &=  \lim_{\Delta t\rightarrow 0} \left(\frac{x(a+\Delta t)-x(a)}{\Delta t},\frac{y(a+\Delta t)-y(a)}{\Delta t}\right) =\\
@@ -591,7 +592,7 @@ Take the point $(3,4)$ that satisfies the equation, $f(3,4)=0$.
 
 As $f$ have partial derivatives $\frac{\partial f}{\partial x}=2x$ and $\frac{\partial f}{\partial y}=2y$, that are continuous at $(3,4)$, and $\frac{\partial f}{\partial y}(3,4)=8\neq 0$, then $y$ can be expressed as a function of $x$ in a neighborhood of $(3,4)$ and its derivative is
 
-$$y'=\frac{-\frac{\partial f}{\partial x}}{\frac{\partial f}{\partial y}} = \frac{-2x}{2y}=\frac{-x}{y} \quad and \quad y'(3)=\frac{-3}{4}.$$
+$$y'=\frac{-\frac{\partial f}{\partial x}}{\frac{\partial f}{\partial y}} = \frac{-2x}{2y}=\frac{-x}{y} \quad \mbox{and} \quad y'(3)=\frac{-3}{4}.$$
 
 In this particular case, that we know the explicit formula of $y=\sqrt{1-x^2}$, we can get the same result computing the derivative as usual
 
@@ -599,9 +600,9 @@ $$y' = \frac{1}{2\sqrt{1-x^2}}(-2x) = \frac{-x}{\sqrt{1-x^2}}.$$
 
 The implicit function theorem can be generalized to functions with several variables.
 
-> **Theorem - Implicit derivation**. Let $f(x_1,\ldots,x_n,y):\mathbb{R}^{n+1}\longrightarrow \mathbb{R}$ a $n+1$-variables function and let $(x_1^0,\ldots, x_2^0,y^0)$ be a point in $\mathbb{R}^{n+1}$ such that $f(x_1^0,\ldots,x_n^0,y^0)=0$. If $f$ has partial derivatives continuous at $(x_1^0,\ldots,x_n^0,y^0)$ and $\frac{\partial f}{\partial y}(x_1^0,\ldots,x_n^0,y^0)\neq 0$, then there is a region $I\subset \mathbb{R}^n$ with $(x_1^0,\ldots,x_n^0)\in I$ and a function $h(x1,\ldots, xn): I\longrightarrow \mathbb{R}$ such that
+> **Theorem - Implicit derivation**. Let $f(x_1,\ldots,x_n,y):\mathbb{R}^{n+1}\longrightarrow \mathbb{R}$ a $n+1$-variables function and let $(a_1,\ldots, a_n,b)$ be a point in $\mathbb{R}^{n+1}$ such that $f(a_1,\ldots,a_n,b)=0$. If $f$ has partial derivatives continuous at $(a_1,\ldots,a_n,b)$ and $\frac{\partial f}{\partial y}(a_1,\ldots,a_n,b)\neq 0$, then there is a region $I\subset \mathbb{R}^n$ with $(x_1,\ldots,x_n)\in I$ and a function $h(x_1,\ldots, x_n): I\longrightarrow \mathbb{R}$ such that
 >
-1.  $y_0=h(x_1^0,\ldots,x_n^0)$.
+1.  $b=h(a_1,\ldots,a_n)$.
 2.  $f(x_1,\ldots,x_n,h(x_1,\ldots,x_n))=0$ for all $(x_1,\ldots,x_n)\in I$.
 3.  $h$ is differentiable on $I$, and $\dfrac{\partial y}{\partial x_i}=\frac{-\dfrac{\partial f}{\partial x_i}}{\dfrac{\partial f}{\partial y}}$
 
