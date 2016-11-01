@@ -88,16 +88,16 @@ The histogram below shows the frequency distribution of the body mass index (BMI
 
 Use the following sums
 Females: $\sum x_i=1160$ kg/m$^2$ $\sum x_i^2=29050$ kg$^2$/m$^4$
-Males: $\sum x_i=1002$ kg/m$^2$ $\sum x_i^2=22781$ kg$^2$/m$^4$
+Males: $\sum x_i=1002.5$ kg/m$^2$ $\sum x_i^2=22781.25$ kg$^2$/m$^4$
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 1. 
 <img src="img/piechart_bmi_gender-1.svg" title="plot of chunk piechart_bmi_gender" alt="plot of chunk piechart_bmi_gender" style="display: block; margin: auto;" />
 
-2. Females: $\bar x=24$ min, $s_x=5$ min and $cv_x=0$. <br/>
-Males:  $\bar y=22$ min, $s_y=3$ min and $cv_y=0$. <br/>
-3. $\bar z=23$.
+2. Females: $\bar x=24.1667$ min, $s_x=4.6022$ min and $cv_x=0.1904$. <br/>
+Males:  $\bar y=22.2778$ min, $s_y=3.1545$ min and $cv_y=0.1416$. <br/>
+3. $\bar z=23.2527$.
 </div>
 
 ## Exercise 6
@@ -114,12 +114,12 @@ The following table represents the frequency distribution of ages at which a gro
 
 Could we assume that the sample comes from a normal population?
 
-Use the following sums: $\sum x_i=4275$ years, $\sum(x_i-\bar x)^2=7462$ years$^2$, $\sum (x_i-\bar x)^3=-18249$ years$^3$, $\sum (x_i-\bar x)^4=2099636$ years$^4$.
+Use the following sums: $\sum x_i=4275$ years, $\sum(x_i-\bar x)^2=7461.5385$ years$^2$, $\sum (x_i-\bar x)^3=-18248.5207$ years$^3$, $\sum (x_i-\bar x)^4=2099635.8671$ years$^4$.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 
-$g_1=0$ and $g_2=-1$.
+$g_1=-0.2283$ and $g_2=-0.5487$.
 </div>
 
 ## Exercise 7
@@ -139,16 +139,16 @@ following table:
 3.  In which treatment the distribution is more peaked?
 
 Use the following sums:
-$A$: $\sum x_i=3040$ days, $\sum (x_i-\bar x)^2=14568$ days$^2$, $\sum (x_i-\bar x)^3=17011$ days$^3$, $\sum (x_i-\bar x)^4=9989603$ days$^4$
-$B$: $\sum y_j=3020$ days, $\sum (y_j-\bar y)^2=16992$ days$^2$, $\sum (y_j-\bar y)^3=-42394$ days$^3$, $\sum (y_j-\bar y)^4=12551516$ days$^4$
+$A$: $\sum x_i=3040$ days, $\sum (x_i-\bar x)^2=14568$ days$^2$, $\sum (x_i-\bar x)^3=17011.2$ days$^3$, $\sum (x_i-\bar x)^4=9989602.56$ days$^4$
+$B$: $\sum y_j=3020$ days, $\sum (y_j-\bar y)^2=16992$ days$^2$, $\sum (y_j-\bar y)^3=-42393.6$ days$^3$, $\sum (y_j-\bar y)^4=12551516.16$ days$^4$
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 
-1. $A$: $\bar a=61$ days, $s_a=17$ days and $cv_a=0$. <br/>
-$B$: $\bar b=60$ days, $s_b=18$ days and $cv_b=0$. <br/>
-2. $g_{1a}=0$ and $g_{1b}=0$. <br/>
-3. $g_{2a}=-1$ and $g_{2b}=-1$.
+1. $A$: $\bar a=60.8$ days, $s_a=17.0693$ days and $cv_a=0.2807$. <br/>
+$B$: $\bar b=60.4$ days, $s_b=18.4347$ days and $cv_b=0.3052$. <br/>
+2. $g_{1a}=0.0684$ and $g_{1b}=-0.1353$. <br/>
+3. $g_{2a}=-0.6465$ and $g_{2b}=-0.8264$.
 </div>
 
 ## Exercise 8
@@ -164,16 +164,16 @@ The systolic blood pressure (in mmHg) of a sample of persons is
 4.  How is the kurtosis of the sample distribution?
 5.  If we know that the method used for measuring the blood pressure is biased, and, in order to get the right values, we have to apply the linear transformation $y=1.2x-5$, which are values of the statistics required to answer the previous questions for the corrected values of the blood pressure?
 
-Use the following sums: $\sum x_i=1271$ mmHg, $\sum (x_i-\bar x)^2=2189$ mmHg$^2$, $\sum (x_i-\bar x)^3=2764$ mmHg$^3$, $\sum (x_i-\bar x)^4=1040080$ mmHg$^4$.
+Use the following sums: $\sum x_i=1271$ mmHg, $\sum (x_i-\bar x)^2=2188.9$ mmHg$^2$, $\sum (x_i-\bar x)^3=2764.32$ mmHg$^3$, $\sum (x_i-\bar x)^4=1040079.937$ mmHg$^4$.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 
-1. $\bar x=127$ mmHg, $Me=128$ mmHg, $Mo=135$ mmHg. <br/>
-2. $s=15$ mmHg and $cv=0$. <br/>
-3. $g_1=0$. <br/>
-4. $g_2=-1$. <br/>
-5. $\bar x=148$ mmHg, $Me=148$ mmHg, $Mo=157$ mmHg, $s=18$ mmHg, $cv=0$, $g_1=0$ and $g_2=-1$.
+1. $\bar x=127.1$ mmHg, $Me=127.5$ mmHg, $Mo=135$ mmHg. <br/>
+2. $s=14.7949$ mmHg and $cv=0.1164$. <br/>
+3. $g_1=0.0854$. <br/>
+4. $g_2=-0.8292$. <br/>
+5. $\bar x=147.52$ mmHg, $Me=148$ mmHg, $Mo=157$ mmHg, $s=17.7539$ mmHg, $cv=0.1203$, $g_1=0.0854$ and $g_2=-0.8292$.
 </div>
 
 ## Exercise 9
@@ -204,10 +204,10 @@ Births: $\sum z_k=2450$, $\sum z_k^2=7370$.
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 1. $129$ outliers. <br/>
-2. Pregnancies: $\bar x=3$, $s_x=1$ and $cv_x=1$. <br/>
-Abortions: $\bar y=0$, $s_y=1$ and $cv_y=2$. <br/>
-Births: $\bar z=2$, $s_z=1$ and $cv_z=0$. <br/>
-3. Standard score of $7$ pregnancies is $3$, and standard score of $4$ abortions is $5$.
+2. Pregnancies: $\bar x=2.7858$, $s_x=1.422$ and $cv_x=0.5105$. <br/>
+Abortions: $\bar y=0.3333$, $s_y=0.6697$ and $cv_y=2.009$. <br/>
+Births: $\bar z=2.4525$, $s_z=1.1674$ and $cv_z=0.476$. <br/>
+3. Standard score of $7$ pregnancies is $2.9635$, and standard score of $4$ abortions is $5.4754$.
 </div>
 
 
