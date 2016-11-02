@@ -268,7 +268,7 @@ m2 <- lm(y2~x2)
 1. Calculate the linear coefficient of determination for the whole sample.
 2. Calculate the linear coefficient of determination for the sample of people younger than 25 years old.
 3. Calculate the linear coefficient of determination for the sample of people older than 25 years old.
-4. Which model explains better the relation between the age and the strength?
+4. For which group of ages the relation between the age and the strength is stronger? 
 
 Use the following sums ($X$=Age and $Y=$Weight lifted).
 
@@ -292,4 +292,5 @@ $r^2=`r summary(m1)$r.squared`$.<br/>
 $\bar y=`r mean(y2)`$ kg, $s_y^2=`r variance(y2)`$ kg$^2$.<br/>
 $s_{xy}=`r covariance(x2,y2)`$ years$\cdot$kg.<br/>
 $r^2=`r summary(m2)$r.squared`$.<br/>
+4. The linear relation between the age and the physical strength is a little bit stronger in the group of young people.
 </div>

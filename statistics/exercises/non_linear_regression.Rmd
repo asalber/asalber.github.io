@@ -41,9 +41,9 @@ m <- lm(y~x)
 c <- coefficients(m)
 ```
 2. Linear model<br/>
-$\bar x=`r mean(x)`$ days, $s_x^2=`r var(x)`$ days$^2$.<br/>
-$\bar y=`r mean(y)`$ kg, $s_y^2=`r var(y)`$ kg$^2$.<br/>
-$s_{xy}=`r cov(x,y)`$ days$\cdot$kg.<br/>
+$\bar x=`r mean(x)`$ days, $s_x^2=`r variance(x)`$ days$^2$.<br/>
+$\bar y=`r mean(y)`$ kg, $s_y^2=`r variance(y)`$ kg$^2$.<br/>
+$s_{xy}=`r covariance(x,y)`$ days$\cdot$kg.<br/>
 Regression line of weight loss on days of diet: $y=`r c[1]` + `r c[2]`x$.<br/>
 $r^2=`r summary(m)$r.squared`$.
 ```{r}
@@ -52,8 +52,8 @@ m <- lm(y~x)
 c <- coefficients(m)
 ```
 Logartihmic model<br/>
-$\overline{\log(x)}=`r mean(x)`$ log(days), $s_{\log(x)}^2=`r var(x)`$ log(days)$^2$.<br/>
-$s_{\log(x)y}=`r cov(x,y)`$ log(days)$\cdot$kg.<br/>
+$\overline{\log(x)}=`r mean(x)`$ log(days), $s_{\log(x)}^2=`r variance(x)`$ log(days)$^2$.<br/>
+$s_{\log(x)y}=`r covariance(x,y)`$ log(days)$\cdot$kg.<br/>
 Logartihmic model of weight loss on days of diet: $y=`r c[1]` + `r c[2]`\log(x)$.<br/>
 $r^2=`r summary(m)$r.squared`$.<br/>
 3. $y(100)=`r c[1]+c[2]*log(100)`$ kg. 
@@ -80,9 +80,9 @@ Use the following sums ($C$=Drug concentration and $T$=time): $\sum c_i=`r sum(x
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\bar x=`r mean(x)`$ hours, $s_x^2=`r var(x)`$ hours$^2$.<br/>
-$\bar y=`r mean(y)`$ mg/dl, $s_y^2=`r var(y)`$ (mg/dl)$^2$.<br/>
-$s_{xy}=`r cov(x,y)`$ hours$\cdot$mg/dl.<br/>
+1. $\bar x=`r mean(x)`$ hours, $s_x^2=`r variance(x)`$ hours$^2$.<br/>
+$\bar y=`r mean(y)`$ mg/dl, $s_y^2=`r variance(y)`$ (mg/dl)$^2$.<br/>
+$s_{xy}=`r covariance(x,y)`$ hours$\cdot$mg/dl.<br/>
 Regression line of drug concentration on time: $y=`r c[1]` + `r c[2]`x$.<br/>
 $r^2=`r summary(m)$r.squared`$.<br/>
 2.
@@ -91,8 +91,8 @@ y <- log(y)
 m <- lm(y~x)
 c <- coefficients(m)
 ```
-$\overline{\log(y)}=`r mean(y)`$ log(mg/dl), $s_{\log(y)}^2=`r var(y)`$ log(mg/dl)$^2$.<br/>
-$s_{x\log(y)}=`r cov(x,y)`$ hours$\cdot$log(mg/dl).<br/>
+$\overline{\log(y)}=`r mean(y)`$ log(mg/dl), $s_{\log(y)}^2=`r variance(y)`$ log(mg/dl)$^2$.<br/>
+$s_{x\log(y)}=`r covariance(x,y)`$ hours$\cdot$log(mg/dl).<br/>
 Exponential model of drug concentration on time: $y=e^{`r c[1]` + `r c[2]`x}$.<br/>
 $r^2=`r summary(m)$r.squared`$.<br/>
 3. $y(4.8)=`r exp(c[1]+c[2]*4.8)`$ mg/dl. 
@@ -125,8 +125,8 @@ m <- lm(y~x)
 c <- coefficients(m)
 ```
 2. Linear model<br/>
-$\bar x=`r mean(x)`$, $s_x^2=`r var(x)`$.<br/>
-$\bar y=`r mean(y)`$, $s_y^2=`r var(y)`$.<br/>
+$\bar x=`r mean(x)`$, $s_x^2=`r variance(x)`$.<br/>
+$\bar y=`r mean(y)`$, $s_y^2=`r variance(y)`$.<br/>
 $s_{xy}=`r cov(x,y)`$.<br/>
 Regression line of pain threshold on obesity: $y=`r c[1]` + `r c[2]`x$.<br/>
 $r^2=`r summary(m)$r.squared`$.
@@ -136,8 +136,8 @@ m <- lm(y~x)
 c <- coefficients(m)
 ```
 Logartihmic model<br/>
-$\overline{\log(x)}=`r mean(x)`$, $s_{\log(x)}^2=`r var(x)`$.<br/>
-$s_{\log(x)y}=`r cov(x,y)`$.<br/>
+$\overline{\log(x)}=`r mean(x)`$, $s_{\log(x)}^2=`r variance(x)`$.<br/>
+$s_{\log(x)y}=`r covariance(x,y)`$.<br/>
 Logartihmic model of pain threshold on obesity: $y=`r c[1]` + `r c[2]`\log(x)$.<br/>
 $r^2=`r summary(m)$r.squared`$.<br/>
 $y(50)=`r c[1]+c[2]*log(50)`$.<br/>

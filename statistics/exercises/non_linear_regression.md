@@ -28,15 +28,15 @@ $\sum x_i=564$ days, $\sum \log(x_i)=45.8086$ $\log(\mbox{days})$, $\sum y_j=63.
 1.
 <img src="img/diet_scatterplot-1.svg" title="plot of chunk diet_scatterplot" alt="plot of chunk diet_scatterplot" style="display: block; margin: auto;" />
 2. Linear model<br/>
-$\bar x=47$ days, $s_x^2=156.9091$ days$^2$.<br/>
-$\bar y=5.3$ kg, $s_y^2=0.9655$ kg$^2$.<br/>
-$s_{xy}=10.8455$ days$\cdot$kg.<br/>
+$\bar x=47$ days, $s_x^2=143.8333$ days$^2$.<br/>
+$\bar y=5.3$ kg, $s_y^2=0.885$ kg$^2$.<br/>
+$s_{xy}=9.9417$ days$\cdot$kg.<br/>
 Regression line of weight loss on days of diet: $y=2.0514 + 0.0691x$.<br/>
 $r^2=0.7765$.
 
 Logartihmic model<br/>
-$\overline{\log(x)}=3.8174$ log(days), $s_{\log(x)}^2=0.0719$ log(days)$^2$.<br/>
-$s_{\log(x)y}=0.2444$ log(days)$\cdot$kg.<br/>
+$\overline{\log(x)}=3.8174$ log(days), $s_{\log(x)}^2=0.0659$ log(days)$^2$.<br/>
+$s_{\log(x)y}=0.224$ log(days)$\cdot$kg.<br/>
 Logartihmic model of weight loss on days of diet: $y=-7.6678 + 3.397\log(x)$.<br/>
 $r^2=0.8599$.<br/>
 3. $y(100)=7.9761$ kg. 
@@ -64,15 +64,15 @@ Use the following sums ($C$=Drug concentration and $T$=time): $\sum c_i=35$ mg/d
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\bar x=5$ hours, $s_x^2=4.6667$ hours$^2$.<br/>
-$\bar y=77.2857$ mg/dl, $s_y^2=2520.9048$ (mg/dl)$^2$.<br/>
-$s_{xy}=103.8333$ hours$\cdot$mg/dl.<br/>
+1. $\bar x=5$ hours, $s_x^2=4$ hours$^2$.<br/>
+$\bar y=77.2857$ mg/dl, $s_y^2=2160.7755$ (mg/dl)$^2$.<br/>
+$s_{xy}=89$ hours$\cdot$mg/dl.<br/>
 Regression line of drug concentration on time: $y=-33.9643 + 22.25x$.<br/>
 $r^2=0.9165$.<br/>
 2.
 
-$\overline{\log(y)}=4.1639$ log(mg/dl), $s_{\log(y)}^2=0.4415$ log(mg/dl)$^2$.<br/>
-$s_{x\log(y)}=1.434$ hours$\cdot$log(mg/dl).<br/>
+$\overline{\log(y)}=4.1639$ log(mg/dl), $s_{\log(y)}^2=0.3785$ log(mg/dl)$^2$.<br/>
+$s_{x\log(y)}=1.2291$ hours$\cdot$log(mg/dl).<br/>
 Exponential model of drug concentration on time: $y=e^{2.6275 + 0.3073x}$.<br/>
 $r^2=0.9979$.<br/>
 3. $y(4.8)=60.4853$ mg/dl. 
@@ -107,15 +107,15 @@ $\sum x_i=629$, $\sum \log(x_i)=40.4121$, $\sum y_j=92.2$, $\sum \log(y_j)=21.33
 1.
 <img src="img/obesity_pain_scatterplot-1.svg" title="plot of chunk obesity_pain_scatterplot" alt="plot of chunk obesity_pain_scatterplot" style="display: block; margin: auto;" />
 2. Linear model<br/>
-$\bar x=62.9$, $s_x^2=653.4333$.<br/>
-$\bar y=9.22$, $s_y^2=12.2284$.<br/>
+$\bar x=62.9$, $s_x^2=588.09$.<br/>
+$\bar y=9.22$, $s_y^2=11.0056$.<br/>
 $s_{xy}=82.0356$.<br/>
 Regression line of pain threshold on obesity: $y=1.3232 + 0.1255x$.<br/>
 $r^2=0.8422$.
 
 Logartihmic model<br/>
-$\overline{\log(x)}=4.0412$, $s_{\log(x)}^2=0.2629$.<br/>
-$s_{\log(x)y}=1.6637$.<br/>
+$\overline{\log(x)}=4.0412$, $s_{\log(x)}^2=0.2366$.<br/>
+$s_{\log(x)y}=1.4973$.<br/>
 Logartihmic model of pain threshold on obesity: $y=-16.3578 + 6.3293\log(x)$.<br/>
 $r^2=0.8611$.<br/>
 $y(50)=8.4023$.<br/>
