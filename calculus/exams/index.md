@@ -1,15 +1,12 @@
 ---
 layout: book
-title: Exámenes de Cálculo
-description: "Vídeos con la resolución de los ejercicios"
-tags: [Examen, Cálculo]
+title: Calculus exams
+description: "Solution of the exams with videos"
+tags: [Exams, Calculus]
 share: true
 image: abaco.jpg
 ---
 
-## 1º de Grado Farmacia
+## Degree in Pharmacy and Biotechnology
 
-- [Examen del 24 de enero de 2013](2013-01-24.html) 
-- [Examen del 28 de octubre de 2013](2013-10-28.html)
-- [Examen del 27 de enero de 2014](2014-01-27.html)
-- [Examen del 27 de octubre de 2014](2014-10-27.html)
+- [Exam of Nov 7, 2016](pharmacy-2016-11-07.html)

@@ -10,7 +10,7 @@ image: dados.jpg
 
 
 ## Exercise 1
-A dietary center is testing a new diet in sample of 12 persons. The data below are the number of days of diet and the weight loss (in Kg) until them for every person.
+A dietary center is testing a new diet in sample of 12 persons. The data below are the number of days of diet and the weight loss (in kg) until them for every person.
 
 ```
 (33,3.9)  (51,5.9)  (30,3.2)  (55,6)  (38,4.9)  (62,6.2)  (35,4.5)  (60,6.1)  (44,5.6)  (69,6.2)  (47,5.8)  (40,5.3) 
@@ -18,10 +18,10 @@ A dietary center is testing a new diet in sample of 12 persons. The data below a
 
 1. Draw the scatter plot. According to the point cloud, what type of regression model explains better the relation between the weight loss and the days of diet?
 2. Construct the linear regression model and the logarithmic regression model of the weight loss on the number of days of diet.
-3. Use the best model to predict the weight that will lose a person after 100 days of diet. Is this prediction reliable?
+3. Use the best model to predict the weight that will lose a person after 40 and 100 days of diet. Are these predictions reliable?
 
 Use the following sums ($X$=days of diet and $Y$=weight loss):
-$\sum x_i=564$ days, $\sum \log(x_i)=45.8086$ $\log(\mbox{days})$, $\sum y_j=63.6$ Kg, $\sum x_i^2=28234$ days$^2$, $\sum \log(x_i)^2=175.6603$ $\log(\mbox{days})^2$, $\sum y_j^2=347.7$ Kg$^2$, $\sum x_iy_j=3108.5$ days$\cdot$Kg, $\sum \log(x_i)y_j=245.4738$ $\log(\mbox{days})\cdot$Kg.
+$\sum x_i=564$ days, $\sum \log(x_i)=45.8086$ $\log(\mbox{days})$, $\sum y_j=63.6$ kg, $\sum x_i^2=28234$ days$^2$, $\sum \log(x_i)^2=175.6603$ $\log(\mbox{days})^2$, $\sum y_j^2=347.7$ kg$^2$, $\sum x_iy_j=3108.5$ days$\cdot$kg, $\sum \log(x_i)y_j=245.4738$ $\log(\mbox{days})\cdot$kg.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -32,14 +32,14 @@ $\bar x=47$ days, $s_x^2=143.8333$ days$^2$.<br/>
 $\bar y=5.3$ kg, $s_y^2=0.885$ kg$^2$.<br/>
 $s_{xy}=9.9417$ days$\cdot$kg.<br/>
 Regression line of weight loss on days of diet: $y=2.0514 + 0.0691x$.<br/>
-$r^2=0.7765$.
+$r^2=0.7765$.<br/>
 
 Logartihmic model<br/>
 $\overline{\log(x)}=3.8174$ log(days), $s_{\log(x)}^2=0.0659$ log(days)$^2$.<br/>
 $s_{\log(x)y}=0.224$ log(days)$\cdot$kg.<br/>
 Logartihmic model of weight loss on days of diet: $y=-7.6678 + 3.397\log(x)$.<br/>
 $r^2=0.8599$.<br/>
-3. $y(100)=7.9761$ kg. 
+3. $y(40)=4.8635$ kg and $y(100)=7.9761$ kg. The predictions are reliable because the coefficient of determination is close to 1, but the last one is less reiable as 100 is far from the observed range of values in the sample. 
 </div>
 
 ## Exercise 2
@@ -79,7 +79,7 @@ $r^2=0.9979$.<br/>
 </div>
 
 ## Exercise 3
-A researcher is studying the relation between the obesity and the response to pain. Te obesity is measured as the percentage over the ideal weight, and the response to pain as the nociceptive flexion pain threshold. The results of the study appears in the table below.
+A researcher is studying the relation between the obesity and the response to pain. The obesity is measured as the percentage over the ideal weight, and the response to pain as the nociceptive flexion pain threshold. The results of the study appears in the table below.
 
 
 | Obesity| Pain threshold|
@@ -123,4 +123,167 @@ $y(50)=8.4023$.<br/>
 
 Exponential model of obesity on pain threshold: $x=e^{2.7868 + 0.1361y}$.<br/>
 $x(10)=63.2648$. 
+</div>
 
+
+## Exercise 4
+A blood bank keeps the plasma to a temperature of 0ºF.
+When it is required for a blood transfusion, it is heated in an oven at a constant temperature of 120ºF.
+In an experiment it has been measured the temperature of plasma at different times during the heating. 
+The results are in the table below.
+
+
+| Time (min)| Temperature (ºF)|
+|----------:|----------------:|
+|          5|               25|
+|          8|               50|
+|         15|               86|
+|         25|              102|
+|         30|              110|
+|         37|              114|
+|         45|              118|
+|         60|              120|
+
+1. Plot the scatter plot. 
+Which type of regression model do you think that explains better relationship between temperature and time?
+2. Which transformation should we apply to the variables to have a linear relationship?
+3. Compute the logarithmic regression of the temperature on time.
+4. According to the logarithmic model, what temperature there will be after 15 minutes of heating?
+Is this prediction reliable? Justify the answer.
+
+Use the following sums ($X$=Time and $Y$=Temperature):
+$\sum x_i=225$ min, $\sum \log(x_i)=24.5289$ log(min), $\sum y_j=725$ ºF, $\sum \log(y_j)=35.2051$ log(ºF), $\sum x_i^2=8833$ min², $\sum \log(x_i)^2=80.4703$ log²(min), $\sum y_j^2=74345$ ºF², $\sum \log(y_j)^2=157.1023$ log²(ºF), $\sum x_iy_j=24393$ min⋅ºF, $\sum x_i\log(y_j)=1048.0142$ min⋅log(ºF), $\sum \log(x_i)y_j=2431.7096$ log(min)⋅ºF, $\sum \log(x_i)\log(y_j)=111.1165$ log(min)log(ºF).
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. 
+<img src="img/temperature_time_scatterplot-1.svg" title="plot of chunk temperature_time_scatterplot" alt="plot of chunk temperature_time_scatterplot" style="display: block; margin: auto;" />
+A logarithmic model.<br/>
+2. Apply a logarithmic transformation to time $z=\log(x)$. <br/>
+
+3. $\bar z=28.125$ log(min), $s_z^2=0.6577$ log²(min).<br/>
+$\bar y=90.625$ ºF, $s_y^2=1080.2344$ ºF².<br/>
+$s_{zy}=26.0969$ log(min)ºF.<br/>
+Logarithmic model of temperature on time: $y=-31.0325 + 39.6781\log(x)$.<br/>
+4. $y(15)=76.4176$ ºF.<br/>
+$r^2=0.9586$, that is close to 1, so the prediction is reliable.
+</div>
+
+
+## Exercise 5
+The activity of a radioactive substance depends on time according to the data in the table below.
+
+| Time (hours)| Radioactivity (10⁷ disintegrations/s)|
+|------------:|-------------------------------------:|
+|            0|                                 25.90|
+|           10|                                  8.16|
+|           20|                                  2.57|
+|           30|                                  0.81|
+|           40|                                  0.25|
+|           50|                                  0.08|
+|           60|                                  0.03|
+|           70|                                  0.01|
+
+1. Represent graphically the data of radioactivity as a function of time.
+Which type of regression model explains better the relationship between radioactivity and time?
+2. Represent graphically the data of radioactivity as a function of time in a semi-logarithmic paper.
+3. Compute the regression line of the logarithm of radioactivity on time.
+4. Taking into account that radioactivity decay follows the formula
+\\[
+A(t) = A_0 e^{-\lambda t}
+\\]
+where $A_0$ is the number of disintegrations at the begining and $\lambda$ is a disintegration constant, different for each radioactive substance, use the slope of the previous regression line to compute the disintegration constant for the substance. 
+
+Use the following sums ($X$=Time and $Y$=Radioactivity):
+$\sum x_i=280$ hours, $\sum y_j=37.81$ 10⁷ disintegrations/s, $\sum \log(y_j)=-5.9371$ log(10⁷ disintegrations/s), $\sum x_i^2=14000$ hours², $\sum y_j^2=744.7265$ 10⁷ disintegrations/s², $\sum \log(y_j)^2=57.7369$ log²(10⁷ disintegrations/s), $\sum x_iy_j=173.8$ hours⋅10⁷ disintegrations/s, $\sum x_i\log(y_j)=-680.9447$ hours⋅log(10⁷ disintegrations/s).
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. 
+<img src="img/radioactivity_time_scatterplot-1.svg" title="plot of chunk radioactivity_time_scatterplot" alt="plot of chunk radioactivity_time_scatterplot" style="display: block; margin: auto;" />
+2. 
+<img src="img/log_radioactivity_time_scatterplot-1.svg" title="plot of chunk log_radioactivity_time_scatterplot" alt="plot of chunk log_radioactivity_time_scatterplot" style="display: block; margin: auto;" />
+
+3. $\bar x=35$ hours, $s_x^2=525$ hours².<br/>
+$\bar z=-0.7421$ log(10⁷ disintegrations/s), $s_z^2=6.6664$ log(10⁷ disintegrations/s)^2.<br/>
+$s_{xz}=-59.1434$ hours⋅log(10⁷ disintegrations/s)<br/>
+Regression line of logarithm of radioactivity on time: $z=3.2008 + -0.1127x$.<br/>
+4. $\lambda=0.1127$.
+</div>
+
+## Exercise 6
+For oscillations of small amplitude, the oscillation period $T$ of a pendulum is given by the formula
+\\[
+T = 2\pi\sqrt{\frac{L}{g}}
+\\]
+where $L$ is the length of the pendulum and $g$ is the gravitational constant. In order to check if the previous formula is satisfied, an experiment has been conducted where it has been measured the oscillation period for different lengths of the pendulum.The measurements are shown in the table below.
+
+| L (cm)| P (seg)|
+|------:|-------:|
+|   52.5|   1.449|
+|   68.0|   1.639|
+|   99.0|   1.999|
+|  116.0|   2.153|
+|  146.0|   2.408|
+
+1. Represent graphically the data of the period versus the length of the pendulum.  
+Does a linear model fit well to the points cloud?
+2. Represent graphically the data of the period versus the length in a logarithmic paper.
+Which type of model fits better to the points cloud?
+3. Compute the regression line of the logarithm of period on the logarithm of length.
+4. Taking in to account the independent term of the previous regression line, compute the value of $g$.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. 
+<img src="img/period_length_scatterplot-1.svg" title="plot of chunk period_length_scatterplot" alt="plot of chunk period_length_scatterplot" style="display: block; margin: auto;" />
+The linear model fits well to the points cloud. <br/>
+<img src="img/log_period_length_scatterplot-1.svg" title="plot of chunk log_period_length_scatterplot" alt="plot of chunk log_period_length_scatterplot" style="display: block; margin: auto;" />
+2. The model that best fits the points cloud is linear. <br/>
+3. Naming $X$ to the logarithm of length and $Y$ to the logarithm of period, <br/>
+
+$\bar x=4.5025$ log(cm), $s_x^2=0.1353$ log(cm)².<br/>
+$\bar y=0.6407$ log(s), $s_y^2=0.0339$ log(s)².<br/>
+$s_{xy}=0.0677$ log(cm)log(s) <br/>
+Regression line of Y on X: $y=-1.6132 + 0.5006x$.<br/>
+4. $g=994.4579 cm/s². 
+</div>
+  
+## Exercise 7
+A study tries to determine the relationship between two substances $X$ and $Y$ in blood.
+The concentration of these substances has been measured in seven individuals (in $\mu$g/dl) and the results are shown in the table below. 
+
+|    X|   Y|
+|----:|---:|
+|  2.1| 1.3|
+|  4.9| 1.5|
+|  9.8| 1.7|
+| 11.7| 1.8|
+|  5.9| 1.5|
+|  8.4| 1.7|
+|  9.2| 1.7|
+
+1. Are $Y$ and $X$ linearly related?
+2. Are $Y$ and $X$ potentially related?
+3. Use the best of the previous regression models to predict the concentration in blood of $Y$ for $x=8$ $\mu$gr/dl.Is this prediction reliable. Justify the answer. 
+
+Use the following sums:
+$\sum x_i=52$ μg/dl, $\sum \log(x_i)=13.1955$ log(μg/dl), $\sum y_j=11.2$ μg/dl, $\sum \log(y_j)=3.253$ log(μg/dl), $\sum x_i^2=451.36$ (μg/dl)², $\sum \log(x_i)^2=26.9397$ log(μg/dl)², $\sum y_j^2=18.1$ (μg/dl)², $\sum \log(y_j)^2=1.5878$ log(μg/dl)², $\sum x_iy_j=86.57$ (μg/dl)², $\sum x_i\log(y_j)=26.3463$ μg/dl⋅log(μg/dl), $\sum \log(x_i)y_j=21.7087$ log(μg/dl)⋅μg/dl, $\sum \log(x_i)\log(y_j)=6.5224$ log(μg/dl)².
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1.
+
+$\bar x=7.4286$ μg/dl, $s_x^2=9.2963$ (μg/dl)².<br/>
+$\bar z=-0.7421$ μg/dl, $s_z^2=6.6664$ (μg/dl)².<br/>
+$s_{xz}=-0.4147$ (μg/dl)² <br/>
+Linear relation: $r^2=0.9696$, that is close to 1, so there is a strong linear relation. <br/>
+2. Naming $u=\log(x)$ and $v=\log(y)$, <br/>
+
+$\bar u=1.8851$ log(μg/dl), $s_u^2=0.295$ log(μg/dl)².<br/>
+$\bar v=0.4647$ log(μg/dl), $s_v^2=0.0109$ log(μg/dl)².<br/>
+$s_{uv}=0.0558$ (μg/dl)² <br/>
+Potential relation: $r^2=0.9688$, that is close to 1, so there is a strong potential relation, although the linear relation is a little bit stronger. <br/>
+3. Regression line of $Y$ on $X$: $y=1.2153 + 0.0518x$.<br/>
+$y(8)=1.6296$ μg/dl. The prediction is reliable since the linear coefficient of determination is close to 1.
+</div>
