@@ -10,36 +10,36 @@ share: true
 
 Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.
 
-After the sampling process, is the next step in every statistical study and usually consists of:
+After the sampling process, this is the next step in every statistical study and usually consists of:
 
-1.  Classify, group and sort the data of the sample.
+1.  To classify, group and sort the data of the sample.
 
-2.  Tabulate and plot data according to their frequencies.
+2.  To tabulate and plot data according to their frequencies.
 
-3.  Calculate numerical measures that summarize the information contained in the sample (*sample statistics*).
+3.  To calculate numerical measures that summarize the information contained in the sample (*sample statistics*).
 
 It has no inferential power $\Rightarrow$ *Do not generalize to the population!*
 
 Frequency distribution
 ----------------------
 
-The study of a statistical variable starts measuring the variable in the individuals of the sample and classifying the values.
+The study of a statistical variable starts by measuring the variable in the individuals of the sample and classifying the values.
 
 There are two ways of classifying data:
 
-**Non-grouping**: Sort values from lowest to highest value (if there is an order). Used with qualitative variables and discrete variables with few   distinct values.
+**Non-grouping**: Sorting values from lowest to highest value (if there is an order). Used with qualitative variables and discrete variables with few   distinct values.
 
-**Grouping**: Group values in intervals (classes) and sort them from lowest to highest intervals. Used with continuous variables and discrete   variables with many distinct values.
+**Grouping**: Grouping values into intervals (classes) and sort them from lowest to highest intervals. Used with continuous variables and discrete   variables with many distinct values.
 
 ### Sample classification
-It consists in grouping the values that are the same and sorting them if there is an order among them. 
+It consists in grouping the values that are the same and sorting them if there is an order among them.
 
 **Example**. $X=$Height
 
 <img class="img-center" src="img/descriptive/sample_classification.png" alt="Sample classification" width="400">
 
 ### Frequency count
-It consists in counting the number of times that every value appears in the sample. 
+It consists in counting the number of times that every value appears in the sample.
 
 **Example**. $X=$Height
 
@@ -47,19 +47,19 @@ It consists in counting the number of times that every value appears in the samp
 
 ### Sample frequencies
 
-> **Definition - Sample frequencies**. Given a sample of $n$ values of a variable $X$, for every value $x_i$ of the variable is defined
+> **Definition - Sample frequencies**. Given a sample of $n$ values of a variable $X$, for every value $x_i$ of the variable we define
 >
-> - **Absolute frequency $n_i$**: Is the number of times that value $x_i$ appears in the sample.
+> - **Absolute frequency $n_i$**: The number of times that value $x_i$ appears in the sample.
 >
-> - **Relative frequency $f_i$**: Is the proportion of times that value $x_i$ appears in the sample.
+> - **Relative frequency $f_i$**: The proportion of times that value $x_i$ appears in the sample.
 >
 $$f_i = \frac{n_i}{n}$$
 >
-> - **Cumulative absolute frequency $N_i$**: Is the number of values in the sample less than or equal to $x_i$.
+> - **Cumulative absolute frequency $N_i$**: The number of values in the sample less than or equal to $x_i$.
 >
-$$N_i = n_1 + \cdots + n_i = N_{i-1}+n_i$$ 
+$$N_i = n_1 + \cdots + n_i = N_{i-1}+n_i$$
 >
-> - **Cumulative relative frequency $F_i$**: Is the proportion of values in the sample less than or equal to $x_i$. 
+> - **Cumulative relative frequency $F_i$**: The proportion of values in the sample less than or equal to $x_i$.
 >
 $$F_i = \frac{N_i}{n}$$
 
@@ -68,13 +68,13 @@ $$F_i = \frac{N_i}{n}$$
 
 The set of values of a variable with their respective frequencies is called **frequency distribution** of the variable in the sample, and it is usually represented as a **frequency table**.
 
-|$X$ values|Absolute frequency|Relative frequency|Cumulative absolute frequency|Cumulative relative frequency|
-|:-:|:-:|:-:|:-:|:-:|
-|$x_1$|$n_1$|$f_1$|$N_1$|$F_1$|
-|$\vdots$|$\vdots$|$\vdots$|$\vdots$|$\vdots$|
-|$x_i$|$n_i$|$f_i$|$N_i$|$F_i$|
-|$\vdots$|$\vdots$|$\vdots$|$\vdots$|$\vdots$|
-|$x_k$|$n_k$|$f_k$|$N_k$|$F_k$|
+| $X$ values | Absolute frequency | Relative frequency | Cumulative absolute frequency | Cumulative relative frequency |
+|:----------:|:------------------:|:------------------:|:-----------------------------:|:-----------------------------:|
+|   $x_1$    |       $n_1$        |       $f_1$        |             $N_1$             |             $F_1$             |
+|  $\vdots$  |      $\vdots$      |      $\vdots$      |           $\vdots$            |           $\vdots$            |
+|   $x_i$    |       $n_i$        |       $f_i$        |             $N_i$             |             $F_i$             |
+|  $\vdots$  |      $\vdots$      |      $\vdots$      |           $\vdots$            |           $\vdots$            |
+|   $x_k$    |       $n_k$        |       $f_k$        |             $N_k$             |             $F_k$             |
 
 <br/>
 
@@ -84,7 +84,7 @@ The set of values of a variable with their respective frequencies is called **fr
 1, 2, 4, 2, 2, 2, 3, 2, 1, 1, 0, 2, 2, 0, 2, 2, 1, 2, 2, 3, 1, 2, 2, 1, 2
 </div>
 
-The frequency table for the number of children in this sample is 
+The frequency table for the number of children in this sample is
 
 $$
 \begin{array}{rrrrr}
@@ -134,17 +134,17 @@ Intervals are known as and the center of intervals as **classes** and the center
 When grouping data into intervals, the following rules must be taken into account:
 
 - The number of intervals should not be too big nor too small. A usual rule of thumb is to take a number of intervals approximately $\sqrt{n}$ or $\log_2(n)$.
-- The intervals must not overlap and must cover the entire range of values. It doesn’t matter if intervals are left-open and right-closed or vice versa.
+- The intervals must not overlap and must cover the entire range of values. It does not matter if intervals are left-open and right-closed or vice versa.
 
 - The minimum value must fall in the first interval and the maximum value in the last.
 
-**Example - Qualitative variable**. The blood type of 30 people are:
+**Example - Qualitative variable**. The blood types of 30 people are:
 
 <div style="text-align:center">
 A, B, B, A, AB, 0, 0, A, B, B, A, A, A, A, AB, A, A, A, B, 0, B, B, B, A, A, A, 0, A, AB, 0.
 </div>
 
-The frequency table of the blood type is 
+The frequency table of the blood type is
 
 $$
 \begin{array}{crr}
@@ -168,7 +168,7 @@ Frequency distribution graphs
 
 Usually the frequency distribution is also displayed graphically.
 
-Depending on the type of variable and if data has been grouped or not, there are different types of charts:
+Depending on the type of variable and whether data has been grouped or not, there are different types of charts:
 
 -   Bar chart
 
@@ -180,7 +180,7 @@ Depending on the type of variable and if data has been grouped or not, there are
 
 ### Bar chart
 
-A *bar chart* consists in a set of bars, one for every value or category of the variable, plotted on a coordinate system.
+A *bar chart* consists of a set of bars, one for every value or category of the variable, plotted on a coordinate system.
 
 Usually the values or categories of the variable are represented on the $x$-axis, and the frequencies on the $y$-axis. For each value or category of the variable, a bar is draw to the height of its frequency. The width of the bar is not important but bars should be clearly separated among them.
 
@@ -193,7 +193,7 @@ Sometimes a polygon, known as **frequency polygon**, is plotted joining the top 
 <div id="absolute-barchart" class="plotly" style="margin: auto; width:80%"></div>
 <script type="application/json" data-for="absolute-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[2,6,14,2,1]}],"layout":{"title":"Absolute frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Absolute frequency"},"autosize":false, "width":600, "height":400, "bargap":0.5, "margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Absolute frequency distribution of number of children"},"evals":[]}</script>
 
-The bar chart below shows the relative frequency distribution of the number of children with the frequency polygon. 
+The bar chart below shows the relative frequency distribution of the number of children with the frequency polygon.
 
 <div id="relative-barchart" class="plotly" style="margin: auto; width:80%"></div>
 <script type="application/json" data-for="relative-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"bar"},{"type":"scatter","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"polygon"}],"layout":{"title":"Relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false},"filename":"Relative frequency distribution of number of children"},"evals":[]}</script>
@@ -232,22 +232,22 @@ The histogram below shows the relative frequency distribution of heights with th
 <div id="relative-histogram" class="plotly" style="margin: auto; width:80%"></div>
 <script type="application/json" data-for="relative-histogram">{"x":{"data":[{"type":"histogram","inherit":true,"x":[179,173,181,169,158,174,172,166,194,185,162,187,198,177,178,165,154,188,166,171,175,182,167,169,172,186,172,176,168,187],"marker":{"line":{"width":1}},"histnorm":"probability","name":"bar"},{"type":"scatter","inherit":true,"x":[155,165,175,185,195],"marker":{"line":{"width":1}},"histnorm":"probability","name":"polygon","y":[0.0667,0.2667,0.3667,0.2333,0.0667]}],"layout":{"title":"Relative frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Relative frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"showlegend":false},"filename":"Relative frequency distribution of heights"},"evals":[]}</script>
 
-The cumulative frequency polygon (for absolute or relative frequencies) is known as **ogive**. 
+The cumulative frequency polygon (for absolute or relative frequencies) is known as **ogive**.
 
-**Example**. The histogram and the ogive below show the cumulative relative distribution of heights. 
+**Example**. The histogram and the ogive below show the cumulative relative distribution of heights.
 
 <div id="ogive" class="plotly" style="margin: auto; width:80%"></div>
 <script type="application/json" data-for="ogive">{"x":{"data":[{"type":"bar","inherit":true,"x":[155,165,175,185,195],"y":[0.0666666666666667,0.333333333333333,0.7,0.933333333333333,1],"marker":{"line":{"width":1}},"name":"bar"},{"type":"scatter","inherit":true,"x":[150,160,170,180,190,200],"y":[0,0.0666666666666667,0.333333333333333,0.7,0.933333333333333,1],"marker":{"line":{"width":1}},"name":"ogive"}],"layout":{"title":"Cumulative relative frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Cumulative relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Cumulative relative frequency distribution of heights","xaxis":{"title":"Height"},"yaxis":{"title":"Cumulative relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0,"showlegend":false},"filename":"Cumulative relative frequency distribution of heights"},"evals":[]}</script>
 
-Observe that in the ogive we join the top right corner of bars with straight lines, instead of the top center, cause we don't reach the accumulated frequency of the class until the end of the interval. 
+Observe that in the ogive we join the top right corner of bars with straight lines, instead of the top center, because we do not reach the accumulated frequency of the class until the end of the interval.
 
 ### Pie chart
 
-A *pie chart* consists in a circle divided in slices, one for every value or category of the variable. Each slice is called **sector** and its angle or area is proportional to the frequency of the corresponding value or category.
+A *pie chart* consists of a circle divided in slices, one for every value or category of the variable. Each slice is called a **sector** and its angle or area is proportional to the frequency of the corresponding value or category.
 
-Pie charts can represent absolute or relative frequencies, but not cumulative frequencies, and are used with nominal qualitative variables. For ordinal qualitative or quantitative variables is better to use bar charts or histograms, cause it’s easier to perceive differences in one dimension (length of bars) than in two dimensions (areas of sectors).
+Pie charts can represent absolute or relative frequencies, but not cumulative frequencies, and are used with nominal qualitative variables. For ordinal qualitative or quantitative variables is better to use bar charts or histograms, because it is easier to perceive differences in one dimension (length of bars) than in two dimensions (areas of sectors).
 
-**Example**. The pie chart below show the relative frequency distribution of blood types. 
+**Example**. The pie chart below show the relative frequency distribution of blood types.
 
 <div id="piechart" class="plotly" style="margin: auto; width:80%"></div>
 <script type="application/json" data-for="piechart">{"x":{"data":[{"type":"pie","inherit":true,"labels":["0","A","AB","B"],"values":[5,14,3,8]}],"layout":{"title":"Relative frequency distribution of blood types","autosize":false,"width":600,"height":400,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Relative frequency distribution of blood types","autosize":false,"width":600,"height":400},"filename":"Relative frequency distribution of blood types"},"evals":[]}</script>
@@ -256,15 +256,15 @@ Pie charts can represent absolute or relative frequencies, but not cumulative fr
 
 ### Outliers
 
-One of the main problems in samples are **outliers**, that are values very different from the rest of values of the sample.
+One of the main problems in samples are **outliers**, values very different from the rest of values of the sample.
 
-**Example**. The last height of the following sample of heights is an outlier. 
+**Example**. The last height of the following sample of heights is an outlier.
 
 <img class="img-center" src="img/descriptive/outlier.png" alt="Outlier" width="400">
 
-It’s important to find out outliers before doing any analysis, cause outliers usually distort the results.
+It is important to find out outliers before doing any analysis, because outliers usually distort the results.
 
-They always appears in the ends of the distribution, and can be find out easily with a box and whiskers chart (as be showed later).
+They always appears in the ends of the distribution, and can be found out easily with a box and whiskers chart (as be show later).
 
 ### Outliers management
 
@@ -272,15 +272,15 @@ With big samples outliers have less importance and can be left in the sample.
 
 With small samples we have several options:
 
--   Remove the outlier if it’s an error.
--   Replace the outlier by the lower or higher value in the distribution that is not an outlier if it’s not an error and the outlier doesn’t fit the theoretical distribution.
--   Leave the outlier if it’s not an error, and change the theoretical model to fit it to outliers.
+-   Remove the outlier if it is an error.
+-   Replace the outlier by the lower or higher value in the distribution that is not an outlier if it is not an error and the outlier does not fit the theoretical distribution.
+-   Leave the outlier if it is not an error, and change the theoretical model to fit it to outliers.
 
 
 Sample statistics
 -----------------
 
-The frequency table and charts summarize and give an overview of the distribution of values of the studied variable in the sample, but it’s difficult to describe some aspects of the distribution from it, as for example, which are the most representative values of the distribution, how is the spread of data, which data could be considered outliers, how is the symmetry of the distribution.
+The frequency table and charts summarize and give an overview of the distribution of values of the studied variable in the sample, but it is difficult to describe some aspects of the distribution from it, as for example, which are the most representative values of the distribution, how is the spread of data, which data could be considered outliers, how is the symmetry of the distribution.
 
 To describe those aspects of the sample distribution more specific numerical measures, called **sample statistics**, are used.
 
@@ -290,14 +290,14 @@ According to the aspect of the distribution that they study, there are different
 
 **Measures of dispersion**: They measure the spread of data.
 
-**Measures of shape**: They measure the symmetry and kurtosis of the distribution.
+**Measures of shape**: They measure the symmetry and "tailedness" of the distribution.
 
 Location statistics
 -------------------
 
 There are two groups:
 
-**Central location measures**: They measure the values where data are concentrated, and that usually are in the centre of the distribution. These values are the values that best represents the sample data. The most important are:
+**Central location measures**: They measure the values where data are concentrated, usually at the centre of the distribution. These values are the values that best represents the sample data. The most important are:
 
 -   Arithmetic mean
 
@@ -315,11 +315,11 @@ There are two groups:
 
 ### Arithmetic mean
 
->**Definition - Sample arithmetic mean $\bar{x}$**. The *sample arithmetic mean* of a variable $X$ is the sum of observed values in the sample divided by the sample size 
+>**Definition - Sample arithmetic mean $\bar{x}$**. The *sample arithmetic mean* of a variable $X$ is the sum of observed values in the sample divided by the sample size
 >
 $$\bar{x} = \frac{\sum x_i}{n}$$
 
-From the frequency table can be calculated with the formula
+It can be calculated from the frequency table with the formula
 
 $$\bar{x} = \frac{\sum x_in_i}{n} = \sum x_i f_i$$
 
@@ -327,14 +327,14 @@ In most cases the arithmetic mean is the value that best represent the observed 
 
 **Watch out! It can not be calculated with qualitative variables.
 
-**Example - Non-grouped data**. Using the data of the sample with the number of children of families, the arithmetic mean is 
+**Example - Non-grouped data**. Using the data of the sample with the number of children of families, the arithmetic mean is
 
 $$\begin{aligned}
 \bar{x} &= \frac{1+2+4+2+2+2+3+2+1+1+0+2+2}{25}+\\
 &+\frac{0+2+2+1+2+2+3+1+2+2+1+2}{25} = \frac{44}{25} = 1.76 \mbox{ children}.
 \end{aligned}$$
 
-or using the frequency table 
+or using the frequency table
 
 $$
 \begin{array}{rrrrr}
@@ -355,9 +355,9 @@ $$\bar{x} = \frac{\sum x_in_i}{n} = \frac{44}{25}= 1.76 \mbox{ children}\qquad \
 
 That means that the value that best represent the number of children in the families of the sample is $1.76$ children.
 
-**Example - Grouped data**. Using the data of the sample of student heights, the arithmetic mean is 
+**Example - Grouped data**. Using the data of the sample of student heights, the arithmetic mean is
 
-$$\bar{x} = \frac{179+173+\cdots+187}{30} = 175.07 \mbox{ cm}.$$ 
+$$\bar{x} = \frac{179+173+\cdots+187}{30} = 175.07 \mbox{ cm}.$$
 
 or using the frequency table and taking the class marks as $x_i$,
 
@@ -378,7 +378,7 @@ X & x_i & n_i & f_i & x_in_i & x_if_i\\
 
 $$\bar{x} = \frac{\sum x_in_i}{n} = \frac{5240}{30}= 174.67 \mbox{ cm} \qquad \bar{x}=\sum{x_if_i} = 174.67 \mbox{ cm}.$$
 
-Observe that when the mean is calculated from the table the result differs a little from the real value, cause the values used in the calculations are the class marks instead of the actual values.
+Observe that when the mean is calculated from the table the result differs a little from the real value, because the values used in the calculations are the class marks instead of the actual values.
 
 ### Weighted mean
 
@@ -388,11 +388,11 @@ In some cases the values of the sample have different importance. In that case t
 >
 $$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i}$$
 
-From the frequency table can be calculated with the formula 
+From the frequency table can be calculated with the formula
 
 $$\bar{x}_p = \frac{\sum x_ip_in_i}{\sum p_i}$$
 
-**Example**. Assume that a student wants to calculate a representative measure o its performance in a course. The grade and the credits of every subjects are
+**Example**. Assume that a student wants to calculate a representative measure of his/her performance in a course. The grade and the credits of every subjects are
 
   |Subject|Credits|Grade|
   |:---------|:-:|:-:|
@@ -406,7 +406,7 @@ $$\bar{x} = \frac{\sum x_i}{n} = \frac{5+3+6}{3}= 4.67 \text{ points},$$
 
 However, this measure does not represent well the performance of the student, as not all the subjects have the same importance and require the same effort to pass. Subjects with more credits require more work and must have more weight in the calculation of the mean.
 
-In this case is better to use the weighted mean, using the credits as the weights of grades, as a representative measure of the student effort 
+In this case it is better to use the weighted mean, using the credits as the weights of grades, as a representative measure of the student effort
 
 $$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i} = \frac{5\cdot 6+3\cdot 4+6\cdot 8}{6+4+8}= \frac{90}{18} = 5 \text{ points}.$$
 
@@ -429,7 +429,7 @@ With non-grouped data, there are two possibilities:
 **Example**. Using the data of the sample with the number of children of families, the sample size is 25, that is odd, and the median is the value in the
 position $\frac{25+1}{2} = 13$ of the sorted sample.
 
-$$0,0,1,1,1,1,1,1,2,2,2,2,\fbox{2},2,2,2,2,2,2,2,2,2,3,3,4$$ 
+$$0,0,1,1,1,1,1,1,2,2,2,2,\fbox{2},2,2,2,2,2,2,2,2,2,3,3,4$$
 
 and the median is 2 children.
 
@@ -477,7 +477,7 @@ $$
 Me= 170+\frac{0.5-0.34}{0.7-0.34}(180-170)=170+\frac{0.16}{0.36}10=174.54 \mbox{ cm}.
 $$
 
-This means that half of the students in the sample have an height lower than or equat to 174.54 cm. 
+This means that half of the students in the sample have an height lower than or equat to 174.54 cm.
 
 ### Mode
 
@@ -487,12 +487,12 @@ With grouped data the *modal class* is the class with the highest frequency.
 
 It can be calculated for all types of variables (qualitative and quantitative).
 
-Some distributions can have more than one mode.
+Distributions can have more than one mode.
 
 <img class="img-center" src="img/descriptive/mode.png" alt="Mode calculation" width="600">
 
 **Example**. Using the data of the sample with the number of children of families, the value with the highest frequency is $2$, that is the mode $Mo = 2$
-children. 
+children.
 
 $$
 \begin{array}{rr}
@@ -528,14 +528,14 @@ X & n_i \\
 In general, when all the central tendency statistics can be calculated, is advisable to use them as representative values in the following
 order:
 
-1.  Mean. Mean takes more information from the sample than the others, as it takes into account the magnitude of data.
+1.  The mean. Mean takes more information from the sample than the others, as it takes into account the magnitude of data.
 
-2.  Median. Median takes less information than mean but more than mode, as it takes into account the order of data.
+2.  The median. Median takes less information than mean but more than mode, as it takes into account the order of data.
 
-3.  Mode. Mode is the measure that fewer information takes from the sample, as it only takes into account the absolute frequency
+3. The mode. Mode is the measure that fewer information takes from the sample, as it only takes into account the absolute frequency
     of values.
 
-But, *be careful with outliers*, as the mean can be distorted by them. In that case is better to use the median as the value most representative.
+But, *be careful with outliers*, as the mean can be distorted by them. In that case it is better to use the median as the value most representative.
 
 **Example**. If a sample of number of children of 7 families is
 
@@ -570,7 +570,7 @@ every quantile.
 
 <img class="img-center" src="img/descriptive/quantiles_calculation.svg" alt="Quartiles, deciles and percentiles calculation" width="600">
 
-**Example**. Using the data of the sample with the number of children of families, the cumulative relative frequencies were 
+**Example**. Using the data of the sample with the number of children of families, the cumulative relative frequencies were
 
 $$
 \begin{array}{rr}
@@ -614,19 +614,19 @@ For quantitative variables, the most important are:
 
 ### Range
 
-> **Definition - Sample range**. The *sample range* of a variable $X$ is the difference between the the maximum and the minimum value in the sample.
+> **Definition - Sample range**. The *sample range* of a variable $X$ is the difference between the the maximum and the minimum values in the sample.
 >
 $$\text{Range} = \max_{x_i} -\min_{x_i}$$
 
 <img class="img-center" src="img/descriptive/range.svg" alt="Range" width="600">
 
-The range measure the largest variation among the sample data. However, it’s very sensitive to outliers, as they appear at the ends of the distribution, and for that reason is rarely used.
+The range measures the largest variation among the sample data. However, it is very sensitive to outliers, as they appear at the ends of the distribution, and for that reason is rarely used.
 
 ### Interquartile range
 
-The following measure avoid the problem of outliers and is much more used.
+The following measure avoids the problem of outliers and is much more used.
 
-> **Definition - Sample interquartile range**. The *sample interquartile range* of a variable $X$ is the difference between the third and the first sample quartiles. 
+> **Definition - Sample interquartile range**. The *sample interquartile range* of a variable $X$ is the difference between the third and the first sample quartiles.
 >
 $$\text{IQR} = Q_3-Q_1$$
 
@@ -640,14 +640,14 @@ The dispersion of a variable in a sample can be graphically represented with a ,
 
 This chart is very helpful as it serves to many purposes:
 
--   It serves to measure the spread of data as it represent the range and the interquartile range.
+-   It serves to measure the spread of data as it represents the range and the interquartile range.
 
 -   It serves to detect outliers, that are the values outside the interval defined by the whiskers.
 
 -   It serves to measure the symmetry of distribution, comparing the length of the boxes and whiskers above and below the median.
 
 
-**Example**. The chart below shows a box plot of newborn weights. 
+**Example**. The chart below shows a box plot of newborn weights.
 
 <img class="img-center" src="img/descriptive/boxplot.png" alt="Box plot of newborns weights" width="600">
 
@@ -660,18 +660,18 @@ To create a box plot follow the steps below:
 
 3.  Split the box with the median or second quartile.
 
-4.  For the whiskers calculate first two values called *fences* $f_1$ y  $f_2$. The lower fence is the lower quartile minus one and a half the interquartile range, and the upper fence is the upper quartile plus one and a half the interquartile range: 
-    
+4.  For the whiskers calculate first two values called *fences* $f_1$ y  $f_2$. The lower fence is the lower quartile minus one and a half the interquartile range, and the upper fence is the upper quartile plus one and a half the interquartile range:
+
     $$\begin{aligned}
     f_1&=Q_1-1.5\,\text{IQR}\\
     f_2&=Q_3+1.5\,\text{IQR}
-    \end{aligned}$$ 
-    
+    \end{aligned}$$
+
     The fences define the interval where data are considered normal. Any value outside that interval is considered an outlier. For the lower whisker draw a segment from the lower quartile to the lower value in the sample grater than or equal to $f_1$, and for the upper whisker draw a segment from the upper quartile to the highest value in the sample lower than or equal to $f_2$.
 
-5.  Finally, if there are some outlier, draw a dot in every outlier.
+5.  Finally, if there are outliers, draw a dot at every outlier.
 
-**Example**. The box plot for the sample with the number of children si shown below. 
+**Example**. The box plot for the sample with the number of children si shown below.
 
 <img class="img-center" src="img/descriptive/boxplot_children.png" alt="Box plot of number of children" width="600">
 
@@ -679,13 +679,13 @@ To create a box plot follow the steps below:
 
 Another way of measuring spread of data is with respect to a central tendency measure, as for example the mean.
 
-In that case, it’s measured the distance from every value in the sample to the mean, that is called **deviation from the mean**·
+In that case, it is measured the distance from every value in the sample to the mean, that is called **deviation from the mean**·
 
 <img class="img-center" src="img/descriptive/deviations.svg" alt="Deviations from the mean" width="300">
 
 If deviations are big, the mean is less representative than when they are small.
 
-**Example**. The grades of 3 students in a course with subjects $A$, $B$ and $C$ are shown below. 
+**Example**. The grades of 3 students in a course with subjects $A$, $B$ and $C$ are shown below.
 
 $$
 \begin{array}{cccc}
@@ -700,11 +700,11 @@ $$
 
 All the students have the same mean, but, in which case does the mean represent better the course performance?
 
- 
+
 
 ### Variance and standard deviation
 
-> **Definition -- Sample variance $s^2$**. The *sample variance* of a variable $X$ is the average of squared deviations from the mean.
+> **Definition -- Sample variance $s^2$**. The *sample variance* of a variable $X$ is the average of the squared deviations from the mean.
 >
 $$s^2 = \frac{\sum (x_i-\bar x)^2n_i}{n} = \sum (x_i-\bar x)^2f_i$$
 
@@ -712,17 +712,17 @@ It can also be calculated with the formula
 
 $$s^2 = \frac{\sum x_i^2n_i}{n} -\bar x^2= \sum (x_i^2f_i)-\bar x^2$$
 
-The variance has the units of the variable squared, and to ease their interpretation it’s common to calculate its square root.
+The variance has the units of the variable squared, and to ease its interpretation it is common to calculate its square root.
 
-> **Definition - Sample standard deviation $s$**. The *sample standard deviation* of a variable $X$ is the square root of the variance. 
+> **Definition - Sample standard deviation $s$**. The *sample standard deviation* of a variable $X$ is the square root of the variance.
 >
 $$s = +\sqrt{s^2}$$
 
-Both variance and standard deviation measures the spread of data around the mean. When the variance or the standard deviation are small, the sample data are concentrated around the mean, and the mean is a good representative measure. In contrast, when variance or the standard deviation are high, the sample data are far from the mean, and the mean doesn’t represent so good.
+Both variance and standard deviation measure the spread of data around the mean. When the variance or the standard deviation are small, the sample data are concentrated around the mean, and the mean is a good representative measure. In contrast, when variance or the standard deviation are high, the sample data are far from the mean, and the mean does not represent so well.
 
-|--|:--:|--|
-| Standard deviation small |  $\Rightarrow$ | Mean is representative|
-|Standard deviation big | $\Rightarrow$ | Mean is unrepresentative|
+|:-------------------------|:-------------:|:-------------------------|
+| Standard deviation small | $\Rightarrow$ | Mean is representative   |
+| Standard deviation big   | $\Rightarrow$ | Mean is unrepresentative |
 
 
 **Example**. The following samples contains the grades of 2 students in 2 subjects
@@ -782,23 +782,23 @@ This value is quite small compared to the range of the variable, that goes from 
 
 Both, variance and standard deviation, have units and that makes difficult to interpret them, specially when comparing distributions of variables with different units.
 
-For that reason it’s also common to use the following dispersion measure that has no units.
+For that reason it is also common to use the following dispersion measure that has no units.
 
-> **Definition - Sample coefficient of variation $cv$**. The *sample coefficient of variation* of a variable $X$ is the quotient between the sample standard deviation and se absolute value of the sample mean.
+> **Definition - Sample coefficient of variation $cv$**. The *sample coefficient of variation* of a variable $X$ is the quotient between the sample standard deviation and the absolute value of the sample mean.
 >
 $$cv = \frac{s}{|\bar x|}$$
 
 The coefficient of variation measures the relative dispersion of data around the sample mean.
 
-As it has no units, it’s easier to interpret: The higher the it is the higher the relative dispersion with respect to the mean and less representative is the mean.
+As it has no units, it is easier to interpret: The higher the coefficient of variation is, the higher the relative dispersion with respect to the mean and the less representative the mean is.
 
-The coefficient of variation it’s very helpful to compare dispersion in distributions of different variables, even if variables have different units.
+The coefficient of variation it is very helpful to compare dispersion in distributions of different variables, even if variables have different units.
 
 **Example**. In the sample of the number of children, where the mean was $\bar x=1.76$ and the standard deviation was $s=0.8616$ children, the coefficient of variation is
 
-$$cv = \frac{s}{|\bar x|} = \frac{0.8616}{|1.76|} = 0.49.$$ 
+$$cv = \frac{s}{|\bar x|} = \frac{0.8616}{|1.76|} = 0.49.$$
 
-In the sample of heights, where the mean was $\bar x=174.67$ cm and the standard deviation was $s=10.1$ cm, the coefficient of variation is 
+In the sample of heights, where the mean was $\bar x=174.67$ cm and the standard deviation was $s=10.1$ cm, the coefficient of variation is
 
 $$cv = \frac{s}{|\bar x|} = \frac{10.1}{|174.67|} = 0.06.$$
 
@@ -836,7 +836,7 @@ It measures the symmetric or skewness of the distribution, that is, how many val
 
 <img class="img-center" src="img/descriptive/right_skewed_distribution.png" alt="Right-skewed distribution" width="600">
 
-**Example - Grouped data**. Using the frequency table of the sample with the heights of students and adding a new column with the deviations to the mean $\bar x = 174.67$ cm to cube, we get 
+**Example - Grouped data**. Using the frequency table of the sample with the heights of students and adding a new column with the deviations to the mean $\bar x = 174.67$ cm to cube, we get
 
 $$
 \begin{array}{crrrr}
@@ -860,12 +860,11 @@ As it is close to 0, that means that the distribution of heights is fairly symme
 
 ### Coefficient of kurtosis
 
-> **Definition - Sample coefficient of kurtosis $g_2$** The *sample coefficient of kurtosis* of a variable $X$ is the average of the deviations of values
-from the sample mean to the fourth power, divided by the standard deviation to the fourth power and minus 3.
+> **Definition - Sample coefficient of kurtosis $g_2$** The *sample coefficient of kurtosis* of a variable $X$ is the average of the deviations of values from the sample mean to the fourth power, divided by the standard deviation to the fourth power and minus 3.
 
 $$g_2 = \frac{\sum (x_i-\bar x)^4 n_i/n}{s^4}-3 = \frac{\sum (x_i-\bar x)^4 f_i}{s^4}-3$$
 
-The coefficient of kurtosis measures the the length of tails or the peakness of distribution with respect to normal (bell-shaped) distribution of reference.
+The coefficient of kurtosis measures the length of tails or the peakness of distribution with respect to the normal (bell-shaped) distribution of reference.
 
 -   $g_2=0$ indicates that the distribution has the same tails and peakedness than a normal distribution (*mesokurtic*).
 
@@ -880,7 +879,7 @@ The coefficient of kurtosis measures the the length of tails or the peakness of 
 <img class="img-center" src="img/descriptive/leptokurtic_distribution.png" alt="Leptokurtic distribution" width="600">
 
 
-**Example - Grouped data**. Using the frequency table of the sample with the heights of students and adding a new column with the deviations to the mean $\bar x = 174.67$ cm to the fourth power, we get 
+**Example - Grouped data**. Using the frequency table of the sample with the heights of students and adding a new column with the deviations to the mean $\bar x = 174.67$ cm to the fourth power, we get
 
 $$
 \begin{array}{rrrrr}
@@ -904,7 +903,7 @@ As it is a negative value but not too far from 0, that means that the distributi
 
 As we will see in the chapters of inferential statistics, many of the statistical test can only be applied to normal (bell-shaped) populations.
 
-Normal distributions are symmetrical and mesokurtic, and therefore, they have both the coefficients of symmetry and kurtosis 0. So, a way of checking if a sample comes from a normal population is looking how far are the coefficients of skewness and kurtosis from 0.
+Normal distributions are symmetrical and mesokurtic, and therefore, their coefficients of symmetry and kurtosis are equal to 0. So, a way of checking if a sample comes from a normal population is looking how far are the coefficients of skewness and kurtosis from 0.
 
 In general, the normality of population is rejected when $g_1$ or $g_2$ are outside the interval $[-2,2]$.
 
@@ -921,29 +920,29 @@ $$
 1.75 \mbox{ m}, 1.65 \mbox{ m}, 1.80 \mbox{ m},
 $$
 
-it’s possible to avoid decimals multiplying by 100, that is, changing from metres to centimetres:
+it is possible to avoid decimals multiplying by 100, that is, changing from metres to centimetres:
 
 $$
 175 \mbox{ cm}, 165 \mbox{ cm}, 180 \mbox{ cm},
 $$
 
-And it’s also possible to reduce the magnitude of data subtracting the minimum value in the sample, in this case 165 cm:
+And it is also possible to reduce the magnitude of data subtracting the minimum value in the sample, in this case 165 cm:
 
 $$
-10 \mbox{ cm}, 0 \mbox{ cm}, 15 \mbox{ cm},
+10 \mbox{ cm}, 0 \mbox{ cm}, 15 \mbox{ cm}.
 $$
 
-It’s obvious that these data are easier to work with than the original ones. In essences, what it’s been done is to apply the following transformation o data: 
+It is obvious that these data are easier to work with than the original ones. In essences, what it is been done is to apply the following transformation to the data:
 
 $$Y= 100X-165$$
 
 ### Linear transformations
 
-One of the most common transformations is a *linear transformation*:
+One of the most common transformations is the *linear transformation*:
 
 $$Y=a+bX.$$
 
-For a linear transformation the mean and the standard deviation of the transformed variable are 
+For a linear transformation, the mean and the standard deviation of the transformed variable are
 
 $$
 \begin{aligned}
@@ -951,27 +950,27 @@ $$
 s_{y} &= |b|s_{x}\end{aligned}
 $$
 
-Additionally, the coefficient of kurtosis doesn’t change and the coefficient of skewness changes only the sign if $b$ is negative.
+Additionally, the coefficient of kurtosis does not change and the coefficient of skewness changes only the sign if $b$ is negative.
 
 ### Standardization and standard scores
 
 One of the most common linear transformations is the *standardization*.
 
-> **Definition - Standardized variable and standard scores**. The *standardized variable* of a variable $X$ is the variable that result of subtracting the mean from $X$ and dividing by the standard deviation 
+> **Definition - Standardized variable and standard scores**. The *standardized variable* of a variable $X$ is the variable that results from subtracting the mean from $X$ and dividing it by the standard deviation
 >
-$$Z=\frac{X-\bar x}{s_{x}}.$$ 
+$$Z=\frac{X-\bar x}{s_{x}}.$$
 >
-For each value $x_i$ of the sample, the *standard score* is the value that results of applying the standardization transformation 
+For each value $x_i$ of the sample, the *standard score* is the value that results of applying the standardization transformation
 >
 $$z_i=\frac{x_i-\bar x}{s_{x}}.$$
 
-The standard score is the number of standard deviations a value is above or below the mean, and it’s useful to avoid the dependency of the variable from its measurement units.
+The standard score is the number of standard deviations a value is above or below the mean, and it is useful to avoid the dependency of the variable from its measurement units.
 
-The standardized variable always have mean 0 and standard deviation 1.
+The standardized variable always has mean 0 and standard deviation 1.
 
 $$\bar z = 0 \qquad s_{z} = 1$$
 
-**Example**. The grades of 5 students in 2 subjects are 
+**Example**. The grades of 5 students in 2 subjects are
 
 $$
 \begin{array}{rccccccccc}
@@ -985,7 +984,7 @@ $$
 
 Did the fourth student get the same performance in subject $X$ than the third student in subject $Y$?
 
-It might seem that both students had the same performance in every subject because they have the same degree, but in order to get the performance of every student relative to the group of students, the dispersion of grades in every subject must be considered. For that reason is better to use the standard score as a measure of relative performance. 
+It might seem that both students had the same performance in every subject because they have the same grade, but in order to get the performance of every student relative to the group of students, the dispersion of grades in every subject must be considered. For that reason it is better to use the standard score as a measure of relative performance.
 
 $$
 \begin{array}{cccccc}
@@ -995,38 +994,38 @@ X: & -1.50 & 0.00 & -0.50 & \color{red}{1.50} & 0.50 \\
 Y: & -1.26 & 1.26 & \color{red}{0.95} & 0.00 & -0.95\\
 \hline
 \end{array}
-$$ 
+$$
 
-That is, the student with an 8 in $X$ is $1.5$ times the standard deviation below the mean of $X$, while the student with an 8 in $Y$ is only $0.95$ times the standard deviation below the mean of $Y$. Therefore, the first student had a higher performance in $X$ than the second in $Y$.
+That is, the student with an 8 in $X$ is $1.5$ times the standard deviation above the mean of $X$, while the student with an 8 in $Y$ is only $0.95$ times the standard deviation above the mean of $Y$. Therefore, the first student had a higher performance in $X$ than the second in $Y$.
 
 Following with this example and considering both subjects, *which is the best student?*
 
-If we only consider the sum of grades 
+If we only consider the sum of grades
 
 $$\begin{array}{rccccc}
-\mbox{Student:} & 1 & 2 & 3 & 4 & 5\\ 
+\mbox{Student:} & 1 & 2 & 3 & 4 & 5\\
 \hline
 X: & 2 & 5 & 4 & 8 & 6 \\
-Y: & 1 & 9 & 8 & 5 & 2 \\ 
+Y: & 1 & 9 & 8 & 5 & 2 \\
 \hline
 \sum & 3 & \color{red}{14} & 12 & 13 & 8
 \end{array}
-$$ 
+$$
 
 the best student is the second one.
 
-But if the relative performance is considered, taking the standard scores 
+But if the relative performance is considered, taking the standard scores
 
 $$
 \begin{array}{rccccc}
-\mbox{Student:} & 1 & 2 & 3 & 4 & 5\\ 
+\mbox{Student:} & 1 & 2 & 3 & 4 & 5\\
 \hline
 X: & -1.50 & 0.00 & -0.50 & 1.50 & 0.50 \\
-Y: & -1.26 & 1.26 & 0.95 & 0.00 & -0.95\\ 
+Y: & -1.26 & 1.26 & 0.95 & 0.00 & -0.95\\
 \hline
 \sum & -2.76 & 1.26 & 0.45 & \color{red}{1.5} & -0.45
 \end{array}
-$$ 
+$$
 
 the best student is the fourth one.
 
@@ -1034,11 +1033,11 @@ the best student is the fourth one.
 
 Non-linear transformations are also common to correct non-normality of distributions.
 
-The square transformation $Y=X^2$ compresses small values and expand large values. So, it’s used to correct left-skewed distributions.
+The square transformation $Y=X^2$ compresses small values and expand large values. So, it is used to correct left-skewed distributions.
 
 <img class="img-center" src="img/descriptive/square_transformation.png" alt="Square transformation" width="600">
 
-The square root transformation $Y=\sqrt x$, the logarithmic tranformation $Y= \log X$ and the inverse transformation $Y=1/X$ compresses large values and expand small values. So, they are used to correct right-skewed distributions.
+The square root transformation $Y=\sqrt x$, the logarithmic transformation $Y= \log X$ and the inverse transformation $Y=1/X$ compress large values and expand small values. So, they are used to correct right-skewed distributions.
 
 <img class="img-center" src="img/descriptive/log_transformation.png" alt="Logarithmic transformation" width="600">
 
@@ -1046,7 +1045,7 @@ The square root transformation $Y=\sqrt x$, the logarithmic tranformation $Y= \l
 Factors
 -------
 
-Sometimes is interesting to describe the frequency distribution of the main variable for different subsamples corresponding to the categories of another variable that is known as **classificatory variable** or **factor**.
+Sometimes it is interesting to describe the frequency distribution of the main variable for different subsamples corresponding to the categories of another variable, known as **classificatory variable** or **factor**.
 
 **Example**. Dividing the sample of heights by gender we get two subsamples
 
@@ -1061,14 +1060,10 @@ $$
 
 #### Comparing distributions for the levels of a factor
 
-Usually factors allow to compare the distribution of the main variable for every category of the factor. 
+Usually factors allow to compare the distribution of the main variable for every category of the factor.
 
-**Example**. The following charts allow to compare the distribution of heights according to the gender. 
+**Example**. The following charts allow to compare the distribution of heights according to the gender.
 
 <img class="img-center" src="img/descriptive/factor_histogram.png" alt="Histogram of heights by genders" width="500">
 
 <img class="img-center" src="img/descriptive/factor_box_plot.png" alt="Box plot of heights by gender" width="500">
-
-
-
- 

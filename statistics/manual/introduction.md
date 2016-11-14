@@ -18,9 +18,9 @@ The role of Statistics is to extract information from data in order to gain know
 
 ![Statistics purpose.](img/introduction/statistics_purpose.png "Statistics purpose"){: .img-center}
 
-Statistics is essential in any scientific or technical discipline which require data handling, especially with large volumes of data, such as Physics, Chemistry, Medicine, Psychology, Economics or Social Sciences.
+Statistics is essential in any scientific or technical discipline which requires data handling, especially with large volumes of data, such as Physics, Chemistry, Medicine, Psychology, Economics or Social Sciences.
 
-But, *why is necessary Statistics?*
+But, *why is Statistics necessary?*
 
 
 ### A changing World
@@ -35,27 +35,27 @@ Population and sample
 ---------------------
 
 ### Statistical population
- 
-> **Definition - Population**. A *population* is a set of elements defined by one or more features that has all the elements and they alone. Every element of the population is called *individual*.
+
+> **Definition - Population**. A *population* is a set of elements defined by an or more features that has all the elements and only them. Every element of the population is called *individual*.
 
 > **Definition - Population size**. The number of individuals in a population is known as the *population size* and is represented by $N$.
 
 Sometimes not all the individuals are accessible to study. Then we distinguish between:
 
-- **Theoretical population**: Individuals to which we want extrapolate the study conclusions.
+- **Theoretical population**: Individuals to which we want to extrapolate the study conclusions.
 - **Studied population**: Individuals truly accessible in the study.
 
 ### Drawbacks in the population study
 
 Scientists study a phenomenon in a population to understand it, to get knowledge about it, and so to control it.
 
-But, for a complete knowledge of the population it is necessary to study all his individuals.
+But, for a complete knowledge of the population it is necessary to study all its individuals.
 
 However, this is not always possible for several reasons:
 
--   The population size is infinite or too large to study all his individuals.
+-   The population size is infinite or too large to study all its individuals.
 -   The operations that individuals undergo are destructive.
--   The cost, both money and time, that would require study all the
+-   The cost, both in money and time, that would require study all the
     individuals in the population is not affordable.
 
 ### Statistics Sample
@@ -68,24 +68,24 @@ When it is not possible or convenient to study all the individuals in a populati
 
 Usually, the population study is conducted on samples drawn from it.
 
-The sample study only gives an approximate knowledge of the population. But in most cases is *enough*.
+The sample study only gives an approximate knowledge of the population. But in most cases it is *enough*.
 
 ### Sample size determination
 
 One of the most interesting questions that arise:
 
-The answer depends of several factors, as the population variability or the desired reliability for extrapolations on the population.
+The answer depends of several factors, as the population variability or the desired reliability for extrapolations to the population.
 
-Unfortunately we can’t answer that question until the end of the course, but in general, the most individuals have the sample, the more reliable will be the conclusions on the population, but also the study will be longer and more expensive.
+Unfortunately we can not answer that question until the end of the course, but in general, the most individuals the sample has, the more reliable will the conclusions be on the population, but also the study will be longer and more expensive.
 
 
-**Example**. To understand what a sufficient sample size means we can use a picture example. A digital photography consist in a lot of small points called pixels disposed in an big array layout with rows and columns (the more rows and columns, the more resolution has the picture). Here the picture is the population and every pixel is and individual. Every pixel has a colour and it's the variability of colours what forms the picture motif. 
+**Example**. To understand what a sufficient sample size means we can use a picture example. A digital photography consist of a lot of small points called pixels disposed in an big array layout with rows and columns (the more rows and columns, the more resolution the picture has). Here the picture is the population and every pixel is an individual. Every pixel has a colour and it's the variability of colours what forms the picture motif.
 
 *How many pixels must we take in a sample in order to know the motif of a picture?*
 
-The answer depends on the variability of colours in the picture. If all the pixels in the picture are of the same colour, only one pixel is required to know the motif. But, if there is a lot of variability in the colours, a large sample size will be required. 
+The answer depends on the variability of colours in the picture. If all the pixels in the picture are of the same colour, only one pixel is required to know the motif. But, if there is a lot of variability in the colours, a large sample size will be required.
 
-The image below contains a small sample of the pixels of a picture. Could you find out the motif of the picture? 
+The image below contains a small sample of the pixels of a picture. Could you find out the motif of the picture?
 
 ![Picture with low resolution.](img/introduction/sample_windmill1.jpg "Picture with low resolution."){: .img-center}
 
@@ -109,7 +109,7 @@ And here is the whole population.
 
 **Deduction properties**:  If the premises are true, it guarantees the certainty of the conclusions (that is, if something is true in the population, it is also true in the sample). However,
 
-**Induction properties**: It doesn’t guarantee the certainty of the conclusions (if something is true in the sample, it may not be true in the population, so be careful with the extrapolations!). But, *it's the only way to generate new knowledge!* 
+**Induction properties**: It doesn’t guarantee the certainty of the conclusions (if something is true in the sample, it may not be true in the population, so be careful with the extrapolations!). But, *it's the only way to generate new knowledge!*
 
 Statistics is fundamentally based on inductive reasoning, because it uses the information obtained from samples to draw conclusions about populations.
 
@@ -123,7 +123,7 @@ To reflect reliable information about the whole population, the sample must be r
 
 ### Types of sampling
 
-There exists a lot of sampling methods but all of them can be grouped in two categories:
+There exist a lot of sampling methods but all of them can be grouped in two categories:
 
 **Random sampling**: The sample individuals are selected randomly. All the population individuals have the same likelihood of being selected (equiprobability).
 
@@ -131,14 +131,14 @@ There exists a lot of sampling methods but all of them can be grouped in two cat
 
 Only random sampling methods avoid the selection bias and guarantee the representativeness of the sample, and therefore, the validity of conclusions.
 
-Non random sampling methods are not suitable to make generalizations because doesn’t guarantee the representativeness of the sample. Nevertheless, usually are less expensive and can be used in exploratory studies.
+Non random sampling methods are not suitable to make generalizations because they do not guarantee the representativeness of the sample. Nevertheless, usually they are less expensive and can be used in exploratory studies.
 
 ### Simple random sampling
 
 The most popular random sampling method is the *simple random sampling*, that has the following properties:
 
 -   All the population individuals have the same likelihood of being selected in the sample.
--   The individual selection is performed with replacement, that is, each selected individual is returned to the population before selecting the next one. This way the population doesn’t change.
+-   The individual selection is performed with replacement, that is, each selected individual is returned to the population before selecting the next one. In this way the population does not change.
 -   Each individual selection is independent of the others.
 
 The only way of doing a random sampling is to assign a unique identity number to each population individual (conducting a *census*) and performing a random drawing.
@@ -198,9 +198,9 @@ In those cases quantitative variables are preferable to qualitative, continuous 
 
 According to their role in the study:
 
-- **Independent variables**: Variables that no depends on other variables in the study. Usually they are manipulate in an experiment in order to observe their effect on a dependent variable. They are also known as *predictor variables*.
+- **Independent variables**: Variables that do not depend on other variables in the study. Usually they are manipulate in an experiment in order to observe their effect on a dependent variable. They are also known as *predictor variables*.
 
-- **Dependent variables**: Variables that depends on other variables in the study. They are not manipulated in an experiment and are also known as *outcome variables*.
+- **Dependent variables**: Variables that depend on other variables in the study. They are not manipulated in an experiment and are also known as *outcome variables*.
 
 **Example**. In a study on the performance of students in a course, the intelligence of students and the daily study time are independent variables, while the course grade is a dependent variable.
 
@@ -208,10 +208,10 @@ According to their role in the study:
 
 According to their role in the study:
 
-- **Experimental**: When the independent variables are manipulated in order to see the effect that that change have on the dependent variables.
+- **Experimental**: When the independent variables are manipulated in order to see the effect that that change has on the dependent variables.
     **Example**. In a study on the performance of students in a test, the teacher manipulates the study time and create two or more groups asking students in each group to study a different number of hours.
 
-- **Non-experimental**: When the independent variables are not manipulated. That not means that it is impossible to do so, but it will either be impractical or unethical to do so.
+- **Non-experimental**: When the independent variables are not manipulated. That does not mean that it is impossible to do so, but it will either be impractical or unethical to do so.
     **Example**. In a study a researcher could be interested in the effect of smoking over the lung cancer. However, whilst possible, it would be unethical to ask individuals to smoke in order to study what effect this had on their lungs. In this case, the researcher could study two groups of people, one with lung cancer and other without, an observe in each group how many persons smoke or not.
 
 Experimental studies allow to identify a cause and effect between variables while non-experimental studies only allow to identify association or relationship between variables.
@@ -223,16 +223,16 @@ The variables of a study will be measured in each individual of the sample. This
 
 In this table each column contains the information of a variable and each row contains the information of an individual.
 
-**Example**. The table below contains data about the variables Name, Age, Gender, Weight and Height of a sample of 6 persons. 
+**Example**. The table below contains data about the variables Name, Age, Gender, Weight and Height of a sample of 6 persons.
 
-| Name               | Age  | Gender | Weight(Kg) | Height(cm) |
-|:-------------------|:----:|:----:|:----:|:------:|
-| José Luis Martínez |  18  |   H  |  85  |   179  |
-| Rosa Díaz          |  32  |   M  |  65  |   173  |
-| Javier García      |  24  |   H  |  71  |   181  |
-| Carmen López       |  35  |   M  |  65  |   170  |
-| Marisa López       |  46  |   M  |  51  |   158  |
-| Antonio Ruiz       |  68  |   H  |  66  |   174  |
+| Name               | Age | Gender | Weight(Kg) | Height(cm) |
+|:-------------------|:---:|:------:|:----------:|:----------:|
+| José Luis Martínez | 18  |   H    |     85     |    179     |
+| Rosa Díaz          | 32  |   M    |     65     |    173     |
+| Javier García      | 24  |   H    |     71     |    181     |
+| Carmen López       | 35  |   M    |     65     |    170     |
+| Marisa López       | 46  |   M    |     51     |    158     |
+| Antonio Ruiz       | 68  |   H    |     66     |    174     |
 
 
 
@@ -241,7 +241,7 @@ Phases of a statistical study
 
 Usually a statistical study goes through the following phases:
 
-1.  The study begins with a previous design in which are set the study goals, the population, the variables to measure and the required sample size.
+1.  The study begins with a previous design in which the study goals, the population, the variables to measure and the required sample size are set.
 
 2.  Next, the sample is selected from the population and the variables are measured in the individuals of the sample (getting the data    table). This is accomplished by *sampling*.
 
