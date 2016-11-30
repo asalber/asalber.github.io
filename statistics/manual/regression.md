@@ -391,7 +391,7 @@ $$0\leq s_{ry}^2\leq s_y^2$$
 
 ### Explained and non-explained variation
 
-<img class="img-center" src="img/regression/variation_decomposition.svg" alt="Variation decomposition by regression model" width="600">
+<img class="img-center" src="img/regression/variation_decomposition.gif" alt="Variation decomposition by regression model" width="600">
 
 ### Coefficient of determination
 
