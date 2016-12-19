@@ -195,7 +195,8 @@ A study tries to determine the effect of a low fat diet in the lifetime of rats.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\mu_1=10.6461$ months and $s=1.6087$ months. <br/>
+Naming $X_1$ and $X_2$ to the lifetime of rats with a normal diet and a low fat diet respectively,
+1. $\mu_2=12.6673$ months and $s=1.6087$ months. <br/>
 2. $P(X<9)=0.068$.
 </div>
 

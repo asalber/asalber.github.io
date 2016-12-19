@@ -291,7 +291,8 @@ A study tries to determine the effect of a low fat diet in the lifetime of rats.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $\mu_1=`r m1`$ months and $s=`r s`$ months. <br/>
+Naming $X_1$ and $X_2$ to the lifetime of rats with a normal diet and a low fat diet respectively,
+1. $\mu_2=`r m2`$ months and $s=`r s`$ months. <br/>
 2. $P(X<`r x4`)=`r p*pnorm(x4, m1, s)+(1-p)*pnorm(x4, m2, s)`$.
 </div>
 
