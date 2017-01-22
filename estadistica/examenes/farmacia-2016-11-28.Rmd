@@ -1,0 +1,143 @@
+---
+layout: book
+title: Examen de Estadística
+description: "Solución del examen"
+tags: [Examen, Estadística, Bioestadística]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+col1 <- rgb(5,161,230,max=255)
+col2 <- rgb(238,50,36,max=255)
+```
+
+Grados: Farmacia, Biotecnología
+Fecha: 28 de noviembre de 2016
+
+## Ejercicio 1
+La siguiente tabla contiene la distribución de las puntuaciones obtenidas por una muestra de alumnos de medicina que se presentaron al examen del MIR.
+
+$$
+\begin{array}{|c|r|r|r|r|r|}
+\hline
+x & n_i & x_in_i & x_i^2n_i & (x_i-\bar x)^3n_i & (x_i-\bar x)^4n_i\\
+\hline
+(0,40] & 84 & 1680 & 33600 & -12155062.50 & 638140781.25\\
+(40,80] & 185 & 11100 & 666000 & -361328.13 & 4516601.56\\
+(80,120] & 72 & 7200 & 720000 & 1497375.00 & 41177812.50\\
+(120,160] & 40 & 5600 & 784000 & 12301875.00 & 830376562.50\\
+(160,200] & 19 & 3420 & 615600 & 23603640.63 & 2537391367.19\\
+\hline
+\sum & 400 & 29000 & 2819200 & 24886500.00 & 4051603125.00\\
+\hline
+\end{array}
+$$
+
+1. Calcular el rango intercuartílico de las puntuaciones e interpretarlo.
+¿Hay datos atípicos en la muestra?
+2. Si la nota de corte para aprobar el examen es 150, ¿qué porcentaje de alumnos aprobó el examen?
+3. Estudiar la representatividad de la media.
+4. Según la asimetría y el apuntamiento de la muestra, ¿se puede suponer que proviene de una población normal? Justificarlo con el cálculo de estadísticos de forma.
+5. Calcular la puntuación típica que le correspondería a un alumno con una puntuación de 150 puntos.
+
+```{r}
+x <- rep(c(20,60,100,140,180),c(84,185,72,40,19))
+n <- length(x)
+m <- mean(x)
+s <- stdev(x)
+g1 <- sum((x-m)^3)/(n*s^3)
+g2 <- sum((x-m)^4)/(n*s^4)-3
+```
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+1. $C_1=43.48$ puntos, $C_3=97.78$ puntos y $RI=54.3$ puntos.<br/>
+Vallas: $V_1=-37.97$ puntos y $V_2=179.23$ puntos. Por tanto, existen datos atípicos. <br/>
+2. $F_{150}=0.925$, de manera que el porcentaje de estudiantes que aprobaron el examen fue $7.5\%$. <br/>
+3. $\bar x=`r m`$ puntos, $s^2=`r variance(x)`$ puntos², $s=`r s`$ puntos, $cv=`r cv(x)`$. Como el coeficiente de variación es mayor que 0.5 pero no demasiado, existe una variabilidad moderada y la representatividad de la media es también moderada.<br/>
+4. $g_1=`r g1`$, de manera que la distribución es asimétrica hacia la izquierda. $g_2=`r g2`$, de manera que la distribución es un poco más apuntada de lo normal (leptocúrtica). Como tanto $g_1$ como $g_2$ están entre -2 y 2 podemos asumir que la muestra proviene de una población normal.<br/>
+5. $z(150)=1.83$.
+</div>
+
+## Ejercicio 2
+La siguiente tabla refleja la evolución del Producto Interior Bruto (PIB) per capita (en miles de euros) y la mortalidad infantil (niños por cada mil habitantes) de una serie de años.
+
+$$
+\begin{array}{lrrrrrrrr}
+\hline
+\mbox{Año} & 1993 & 1994 & 1995 & 1996 & 1997 & 1998 & 1999 & 2000\\
+\mbox{PIB} & 17 & 17 & 18 & 18 & 19 & 20 & 21 & 22 \\
+\mbox{Mortalidad} & 6 & 5.6 & 5.2 & 4.9 & 4.6 & 4.3 & 4.1 & 4\\
+\hline
+\end{array}
+$$
+
+```{r}
+Year <- c(1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000)
+x <- c(17, 17, 18, 18, 19, 20, 21, 22)
+y <- c(6, 5.6, 5.2, 4.9, 4.6, 4.3, 4.1, 4)
+data <- data.frame(Year,x,y)
+#colnames(data) <- c("Year", "GDP", "Mortality")
+#kable(data)
+```
+
+1.  Estimar el PIB correspondiente a una mortalidad de $3.8$ según el modelo lineal. ¿Qué modelo de regresión expresa mejor la relación entre el PIB y la mortalidad, el lineal o el exponencial?
+2. Si el PIB del año 2001 fue de 23, ¿cuál es la mortalidad esperada ese año según el modelo de regresión exponencial?
+3. Considerando los modelos lineales del PIB sobre la mortalidad y de la mortalidad sobre el PIB, ¿cuál de los dos modelos es más fiable?
+
+Utilizar las siguientes sumas ($X$=PIB y $Y$=Mortalidad) para los cálculos:
+$\sum x_i=`r sum(x)`$, $\sum \log(x_i)=`r sum(log(x))`$, $\sum y_j=`r sum(y)`$, $\sum \log(y_j)=`r sum(log(y))`$,
+$\sum x_i^2=`r sum(x^2)`$, $\sum \log(x_i)^2=`r sum(log(x)^2)`$, $\sum y_j^2=`r sum(y^2)`$, $\sum \log(y_j)^2=`r sum(log(y)^2)`$,
+$\sum x_iy_j=`r sum(x*y)`$, $\sum x_i\log(y_j)=`r sum(x*log(y))`$, $\sum \log(x_i)y_j=`r sum(log(x)*y)`$, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$.
+
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+```{r}
+m <- lm(x~y)
+c <- coefficients(m)
+```
+1. Modelo de regresión lineal del PIB sobre la mortalidad infantil: <br/>
+$\bar x=`r mean(x)`$ 10³€, $s_x^2=`r variance(x)`$ 10⁶€. <br/>
+$\bar y=`r mean(y)`$ niños por cada mil, $s_y^2=`r variance(y)`$ (niños por cada mil)². <br/>
+$s_{xy}=`r covariance(x,y)`$ 10³€⋅niños por cada mil. <br/>
+Recta de regresión del PIB sobre la mortalidad infantil: $x=`r c[1]` + `r c[2]`y$. <br/>
+$x(3.8) =`r c[1]+c[2]*3.8`$. <br/>
+```{r}
+z <- log(x)
+m2 <- lm(z~y)
+```
+2. $\overline{\log(x)}=`r mean(z)`$ log(10³€), $s_{\log(x)}^2=`r variance(z)`$ log(10³€)². <br/>
+$s_{\log(x)y}=`r covariance(z,y)`$ log(10³€)•niños por cada mil. <br/>
+Coeficiente de determinación lineal del PIB sobre la mortaliad infantil $r^2=`r summary(m)$r.squared`$. <br/>
+Coeficiente de determinación exponencial del PIB sobre la mortaliad infantil $r^2=`r summary(m2)$r.squared`$. <br/>
+Por tanto, el modelo exponencial explica mejor la relación entre el PIB y la mortalidad infantil ya que su coeficiente de determinación es mayor. <br/>
+```{r}
+z <- log(y)
+m2 <- lm(z~x)
+c <- coefficients(m2)
+```
+3. $\overline{\log(y)}=`r mean(z)`$ log(niños por cada mil), $s_{\log(y)}^2=`r variance(z)`$ log(niños por cada mil)². <br/>
+$s_{x\log(y)}=`r covariance(x,z)`$ 10³€⋅log(niños por cada mil). <br/>
+Modelo de regresión exponencial de la mortalidad infantil sobre el PIB: $y=e^{`r c[1]` + `r c[2]`x}$. <br/>
+$y(23)=`r exp(c[1]+c[2]*23)`$. niños por cada mil.<br/>
+4. La fiabilidad de ambos modelos es la misma ya que tienen el mismo coeficiente de determinación.
+</div>
+
+## Ejecicio 3
+Sabiendo que las rectas de regresión correspondientes a dos variables $X$ e $Y$ se cortan en el punto $(2,3)$ y que la predicción que da la recta de regresión para $x=3$ es $y=1$, ¿cuánto cambiará $Y$ según el modelo lineal por cada unidad que aumente $X$ ?
+Si el coeficiente de correlación lineal es $-0.8$, ¿cuánto cambiará $X$ según el modelo lineal por cada unidad que aumente $Y$?
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+$\bar x=2$ and $\bar y=3$. <br/>
+$b_{yx}=-2$, de modo que $Y$ decrece 2 unidades cuando $X$ crece una unidad. <br/>
+$b_{xy}=-0.32$, de modeo que $X$ decrece 0.32 unidades cuando $Y$ crece una unidad.
+</div>
+

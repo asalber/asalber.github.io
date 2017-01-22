@@ -1,0 +1,263 @@
+---
+layout: book
+title: Statistics exam
+description: "Solution of the exam"
+tags: [Exam, Statistics, Biostatistics]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+col1 <- rgb(5,161,230,max=255)
+col2 <- rgb(238,50,36,max=255)
+```
+
+Grades: Pharmacy, Biotechnology  
+Date: January 10, 2017 
+
+# Descriptive Statistics and Regression
+
+## Exercise 1
+The table below gives the distribution of the waiting time (in minutes) at the emergency room of a set of patients.
+
+$$
+\begin{array}{cr}
+  \hline
+  \mbox{Time} & \mbox{Patients}\\
+  (0,10] & 22\\
+  (10,20] & 43\\
+  (20,30] & 33\\
+  (30,40] & 12\\
+  (40,50] & 6\\
+  (50,60] & 4\\
+  \hline
+\end{array}
+$$
+
+1. Plot the ogive of the waiting time.
+2. Compute the median of the distribution, and explain its meaning.
+3. What percentage of patients have waited for longer than 38 minutes?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. 
+```{r ogive_waiting_time_emergency}
+x <- c(0,10,20,30,40,50,60)
+y <- c(0,22,65,98,110,116,120)
+y <- y/120
+plot(x, y, type="o", pch=16, col=col1, main="Cumulative distribution of waiting time at the emergency room", xlab="Time (in minutes)", ylab="Cumulative relative frequency", axes=FALSE, frame.plot=TRUE)
+abline(h=seq(0,1,0.1), col="grey10", lty="dotted")
+axis(1, at=x)
+axis(2, at=seq(0,1,0.1), las=2)
+```
+2. $Me=18.89$ min. <br/>
+3. 10% of patients have waited for longer than 38 minutes.
+</div>
+
+
+## Exercise 2
+To study fertility in two different populations $A$ and $B$, a sample of each population was taken and the number of pregnancies for each woman was recorded.
+The results of such records are shown below.
+
+$$
+\begin{array}{ccccccccccccccccc}
+\hline
+A & 2 & 3 & 4 & 4 & 3 & 2 & 6 & 1 & 5 & 3 & 4 & 4 & 3 & 2 & 5 & 0\\
+B & 1 & 0 & 2 & 1 & 0 & 2 & 0 & 3 & 0 & 1 & 0 & 2 & 5 & 1 & 1 & 1\\
+\hline
+\end{array}
+$$
+
+```{r}
+a <- c(2, 3, 4, 4, 3, 2, 6, 1, 5, 3, 4, 4, 3, 2, 5, 0)
+b <- c(1, 0, 2, 1, 0, 2, 0, 3, 0, 1, 0, 2, 5, 1, 1, 1)
+data <- data.frame(a,b)
+# colnames(data) <- c("Pregnancies A", "Pregnancies B")
+# kable(data)
+na <- length(a)
+ma <- mean(a)
+sa <- stdev(a)
+g1a <- sum((a-ma)^3)/(na*sa^3)
+nb <- length(b)
+mb <- mean(b)
+sb <- stdev(b)
+g1b <- sum((b-mb)^3)/(nb*sb^3)
+```
+
+1. Draw the box diagram of each sample and compare them.
+2. In which of the two samples is the mean more representative? Justify your answer.
+3. Compute the skewness coefficient for both samples; which one is more skewed?
+4. What is relatively bigger, a case of 5 pregnancies in sample $A$, or a case of 3 pregnancies in sample $B$?
+
+Consider the following sums for your computations:  
+$\sum a_i=`r sum(a)`$, $\sum a_i^2=`r sum(a^2)`$, $\sum (a_i-\bar a)^3=`r sum((a-ma)^3)`$, $\sum (a_i-\bar a)^4=`r sum((a-ma)^4)`$,  
+$\sum b_i=`r sum(b)`$, $\sum b_i^2=`r sum(b^2)`$, $\sum (b_i-\bar b)^3=`r sum((b-mb)^3)`$, $\sum (b_i-\bar b)^4=`r sum((b-mb)^4)`$.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. 
+```{r fertility_boxplot}
+pregnancies <- c(a,b)
+population <- rep(c("A","B"),c(16,16))
+boxplot(pregnancies~population, main="Boxplot of number of pregnancies by population", xlab="Number of pregnancies",col=rainbow(4,s=0.6), horizontal=TRUE)
+```
+2. $\bar a=`r ma`$ pregnancies, $s_a^2=`r variance(a)`$ pregnancies², $s_a=`r sa`$ pregnancies, $cv_a=`r cv(a)`$. <br/>
+$\bar b=`r mb`$ pregnancies, $s_b^2=`r variance(b)`$ pregnancies², $s_b=`r sb`$ pregnancies, $cv_b=`r cv(b)`$. <br/>
+As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$. <br/>
+3. $g_{1,a}=`r g1a`$ and $g_{1,b}=`r g1b`$, so the distribution of $B$ is more skewed than the distribution of $A$. <br/>
+5. $z_a(5)=`r (5-ma)/sa`$ and $z_b(3)=`r (3-mb)/sb`$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.
+</div>
+
+## Exercise 3
+A study to find the relation between the reduction in cholesterol levels in blood and exercise has been carried out. The results are shown in the table below.
+
+$$
+\begin{array}{lrrrrrrrrrr}
+\hline
+\mbox{Minutes of exercise} & 96 & 106 & 163 & 207 & 227 & 244 & 261 & 271 & 272 & 301\\
+\mbox{Cholesterol reduction (mg/dl)} & 4 & 5 & 8 & 13 & 15 & 17 & 22 & 39 & 31 & 45\\
+\hline
+\end{array}
+$$
+
+```{r}
+x <- c(96, 106, 163, 207, 227, 244, 261, 271, 272, 301)
+y <- c(4, 5, 8, 13, 15, 17, 22, 39, 31, 45)
+data <- data.frame(x,y)
+#colnames(data) <- c("Minutos de ejercicio", "Reducción de colesterol (mg/dl)")
+#kable(data)
+#plot(x,y)
+```
+
+1. Which regression models explains better the reduction of cholesterol as a function of the exercise time, the linear o the exponential? Justify the answer.
+2. According to the linear regression model, how much will be the reduction in cholesterol when the exercise time is increased by one minute?
+3. According to the logarithmic model, how much exercise time is needed to get a reduction of cholesterol of 100 mg/dl? Is this estimation reliable? Justify your answer.
+
+Consider the following values for your computations, where $X$=exercise time in minutes, and $Y$=cholesterol reduction:    
+$\sum x_i=`r sum(x)`$, $\sum \log(x_i)=`r sum(log(x))`$, $\sum y_j=`r sum(y)`$, $\sum \log(y_j)=`r sum(log(y))`$,  
+$\sum x_i^2=`r sum(x^2)`$, $\sum \log(x_i)^2=`r sum(log(x)^2)`$, $\sum y_j^2=`r sum(y^2)`$, $\sum \log(y_j)^2=`r sum(log(y)^2)`$,  
+$\sum x_iy_j=`r sum(x*y)`$, $\sum x_i\log(y_j)=`r sum(x*log(y))`$, $\sum \log(x_i)y_j=`r sum(log(x)*y)`$, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+```{r}
+m <- lm(y~x)
+c <- coefficients(m)
+z <- log(y)
+m2 <- lm(z~x)
+c2 <- coefficients(m2)
+m3 <- lm(x~z)
+c3 <- coefficients(m3)
+```
+1.Linear regression model of cholesterol reduction on exercise time: <br/>
+$\bar x=`r mean(x)`$ min, $s_x^2=`r variance(x)`$ min². <br/>
+$\bar y=`r mean(y)`$ mg/dl, $s_y^2=`r variance(y)`$ (mg/dl)². <br/>
+$s_{xy}=`r covariance(x,y)`$ min⋅mg/dl. <br/>
+$r^2 = `r summary(m)$r.squared`$. <br/>
+Exponential regression model of cholesterol reduction on exercise time: <br/>
+$\overline{\log(y)}=`r mean(z)`$ log(mg/dl), $s_{\log(y)}^2=`r variance(z)`$ log(mg/dl)². <br/>
+$s_{x\log(y)}=`r covariance(x,z)`$ min⋅log(mg/dl). <br/>
+$r^2 = `r summary(m2)$r.squared`$. <br/>
+Therefore, the exponential regression model is better since its coefficient of determination is higher. <br/>
+2. Regression line of cholesterol reduction on exercise time: $y=`r c[1]` + `r c[2]`x$. <br/>
+The cholesterol reduction increases `r c[2]` mg/dl when the exercise time is increased by one minute. <br/>
+3. Logarithmic regression model of exercise time on cholesterol reduction: 
+$x=`r c3[1]` + `r c3[2]`\log(y)$. <br/>
+$x(100)=`r c3[1]+c3[2]*log(100)`$ min.
+Despite the coefficient of determination is pretty close to 1, the estimation is not reliable since 100 mg/dl is far away from the range of values in the sample. 
+</div>
+
+# Probability and random variables
+
+## Exercise 4
+The medical emergency services of a town gets 6 requests per day in average.
+This service is staffed with three shifts of 8 hours each.
+
+1. Compute the probability of getting more than 3 requests in an 8 hours shift.
+2. Compute the probability that in some of the three shifts there are no requests.
+
+```{r}
+p1 <- ppois(3,2,lower.tail = FALSE)
+p2 <- dpois(0,2)
+p3 <- pbinom(0,3,p2,lower.tail = FALSE)
+
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Naming $X$ to the number of requests in an 8 hours shift, $X\sim P(2)$ and $P(X>3)=`r p1`$. <br/>
+2. Naming $Y$ to the number of shifts with no requests, $Y\sim B(3,`r p2`)$ and $P(Y>0)=`r p3`$.
+</div>
+
+
+## Exercise 5
+The prevalence on certain disease in a population is 10%.
+A diagnosis test for that disease has a sensitivity of 95% and a specificity of 85%.
+
+1. Compute the positive and negative predictive values and explain the result obtained. What is the test more useful for, to detect the disease or to rule it out?
+2. What should be the specificity of the test so that the test has a positive predictive value equal to 80%?
+
+```{r}
+p <- 0.1
+sen <- 0.95
+spe <- 0.85
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $PPV=P(D|+)=`r (p*sen)/(p*sen+(1-p)*(1-spe))`$ and $NPV=P(\overline D|-)=`r ((1-p)*spe)/(p*(1-sen)+(1-p)*(spe))`$. <br/>
+2. The specificity should be $97.37\%$.
+</div>
+
+
+## Exercise 6
+In a study of blood pressure on 8000 individuals, it has been recorded that 2254 people show readings of blood pressure above 130 mmHg, and 3126 individuals show readings between 110 and 130 mmHg.
+Assume that blood pressure is normally distributed.
+
+1. Compute the mean and standard deviation (of blood pressure).  
+2. Readings above 140 mmHg are considered to be a high pressure problem.
+How many people in the group have such pressure problem?
+3. A test will flag a blood pressure problem if the reading of a patient pressure is in the bottom 5\% or in the top 5\% of the results for the population.
+For what values of the blood pressure is an individual in the population considered normal?
+
+```{r}
+p1 <- 2254/8000
+p2 <- 3126/8000
+x <- matrix(c(1,1,qnorm(p1,lower.tail = FALSE),qnorm((1-p1)-p2)),nrow = 2, byrow =FALSE) 
+ y <- c(130,110)
+sol <- solve(x, y)
+m <- sol[1]
+s <- sol[2]
+p3 <- pnorm(140,m,s,lower.tail = FALSE)
+q1 <- qnorm(0.05,m,s)
+q2 <- qnorm(0.95,m,s)
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Naming $X$ to the blood pressure, $X\sim N(`r m`, `r s`)$. <br/>
+2. $P(X>140)=`r p3`$ and there are $`r p3*8000`$ persons with high pressure. <br/>
+3. The blood pressure is normal in the interval $(`r q1`, `r q2`)$.
+</div>
+
+
+## Exercise 7
+Students in a Chemistry class need to take two exams in order to pass the subject.
+The percentage of students that passed the midterm were 60% for the first exam, and 68% for the second.
+We also have that 80% of the students that passed the first midterm also passed the second midterm.
+A student from the class is picked randomly.
+
+1. Compute the probability that the student has failed both exams.
+2. Compute the probability that the student has passed the first exam if we know that she has failed the second exam.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $E_1$ tho the event of passing the first exam and $E_2$ to the event of passing the second exam: <br/>
+1. $P(\overline E_1\cap \overline E_2)=0.2$. <br/>
+2. $P(E_1|\overline E_2)=0.375$.
+</div>
