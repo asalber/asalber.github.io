@@ -113,6 +113,7 @@ barplot(-out$left, col=col1 , horiz=TRUE, space=0, add=TRUE, axes=FALSE)
 barplot(out$right, col=col2, horiz=TRUE, space=0, add=TRUE, axes=FALSE)
 options(digits=4, scipen=999)
 ```
+
 1.  Draw the pie chart for the gender.
 2.  In which group is more representative the mean of the BMI?
 3.  Calculate the mean for the whole sample.

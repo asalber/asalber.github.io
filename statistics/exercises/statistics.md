@@ -82,6 +82,7 @@ $\bar x=42$ min, $s=0.1225$ min and $cv=0.0029$.
 The histogram below shows the frequency distribution of the body mass index (BMI) of a group of people by gender.
 
 <img src="img/bmi_gender-1.svg" title="plot of chunk bmi_gender" alt="plot of chunk bmi_gender" style="display: block; margin: auto;" />
+
 1.  Draw the pie chart for the gender.
 2.  In which group is more representative the mean of the BMI?
 3.  Calculate the mean for the whole sample.

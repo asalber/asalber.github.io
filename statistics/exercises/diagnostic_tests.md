@@ -14,10 +14,15 @@ image: dados.jpg
 
 To evaluate the effectiveness of a diagnosis test, the test was applied to a sample of people with the following results:
 
-|         | Test $+$   | Test $-$   |
-|:--------|:----------:|:----------:|
-| Sick    |    2020  |  80    |
-| Healthy |    140  |  7760    |
+$$
+\begin{array}{l|cc}
+& \mbox{Test }+ & \mbox{Test }- \\
+\hline
+\mbox{Sick} & 2020 & 80 \\
+
+\mbox{Healthy} & 140 & 7760 \\
+\end{array}
+$$
 
 Calculate for this test:
 

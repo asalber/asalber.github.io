@@ -184,7 +184,7 @@
   <path d="M 59.039062 73 L 546.757812 73 L 546.757812 75 L 59.039062 75 Z M 59.039062 73 "/>
 </clipPath>
 </defs>
-<g id="surface152">
+<g id="surface3">
 <rect x="0" y="0" width="576" height="432" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
 <path style="fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(1.960784%,63.137255%,90.196078%);stroke-opacity:1;stroke-miterlimit:10;" d="M 77.066406 347.464844 L 167.199219 309.648438 L 257.332031 284.4375 L 347.464844 225.609375 L 437.601562 116.355469 L 527.734375 70.132812 "/>
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(1.960784%,63.137255%,90.196078%);fill-opacity:1;" d="M 79.765625 347.464844 C 79.765625 351.066406 74.367188 351.066406 74.367188 347.464844 C 74.367188 343.867188 79.765625 343.867188 79.765625 347.464844 "/>

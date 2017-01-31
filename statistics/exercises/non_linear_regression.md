@@ -45,16 +45,16 @@ $r^2=0.8599$.<br/>
 ## Exercise 2
 The concentration of a drug in blood, in mg/dl, depends on time, in hours, according to the data below.
 
+$$
+\begin{array}{lrrrrrrr}
+\hline
+\mbox{Drug concentration} & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
+\mbox{Hours} & 25 & 36 & 48 & 64 & 86 & 114 & 168\\
+\hline
+\end{array}
+$$
 
-| Drug concentration| Hours|
-|------------------:|-----:|
-|                  2|    25|
-|                  3|    36|
-|                  4|    48|
-|                  5|    64|
-|                  6|    86|
-|                  7|   114|
-|                  8|   168|
+
 
 1. Construct the linear regression model of drug concentration on time.
 2. Construct the exponential regression model of drug concentration on time.
@@ -81,19 +81,17 @@ $r^2=0.9979$.<br/>
 ## Exercise 3
 A researcher is studying the relation between the obesity and the response to pain. The obesity is measured as the percentage over the ideal weight, and the response to pain as the nociceptive flexion pain threshold. The results of the study appears in the table below.
 
+$$
+\begin{array}{lrrrrrrrrrr}
+\hline
+\mbox{Obesity} & 89 & 90 & 75 & 30 & 51 & 75 & 62 & 45 & 90 & 20\\
+\mbox{Pain threshold} & 10 & 12 & 4 & 4.5 & 5.5 & 7 & 9 & 8 & 15 & 3\\
+\hline
+\end{array}
+$$
 
-| Obesity| Pain threshold|
-|-------:|--------------:|
-|      89|           10.0|
-|      90|           12.0|
-|      77|           11.5|
-|      30|            4.5|
-|      51|            9.2|
-|      75|           10.0|
-|      62|            9.0|
-|      45|            8.0|
-|      90|           15.0|
-|      20|            3.0|
+
+
 
 1. According to the scatter plot, what model explains better the relation of the response to pain on the obesity?
 2. According to the best regression model, what is the response to pain expected for a person with an obesity of 50%? Is this prection reliable?
@@ -132,17 +130,16 @@ When it is required for a blood transfusion, it is heated in an oven at a consta
 In an experiment it has been measured the temperature of plasma at different times during the heating. 
 The results are in the table below.
 
+$$
+\begin{array}{lrrrrrrrr}
+\hline
+\mbox{Time (min)}	& 5 & 8 & 15 & 25 & 30 & 37 & 45 & 60\\
+\mbox{Temperature (ºF)} & 25 & 50 & 86 & 102 & 110 & 114 & 118 & 120\\
+\hline
+\end{array}
+$$
 
-| Time (min)| Temperature (ºF)|
-|----------:|----------------:|
-|          5|               25|
-|          8|               50|
-|         15|               86|
-|         25|              102|
-|         30|              110|
-|         37|              114|
-|         45|              118|
-|         60|              120|
+
 
 1. Plot the scatter plot. 
 Which type of regression model do you think that explains better relationship between temperature and time?
@@ -173,16 +170,16 @@ $r^2=0.9586$, that is close to 1, so the prediction is reliable.
 ## Exercise 5
 The activity of a radioactive substance depends on time according to the data in the table below.
 
-| Time (hours)| Radioactivity (10⁷ disintegrations/s)|
-|------------:|-------------------------------------:|
-|            0|                                 25.90|
-|           10|                                  8.16|
-|           20|                                  2.57|
-|           30|                                  0.81|
-|           40|                                  0.25|
-|           50|                                  0.08|
-|           60|                                  0.03|
-|           70|                                  0.01|
+$$
+\begin{array}{lrrrrrrrr}
+\hline
+t\mbox{ (hours)} & 0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 \\
+A\mbox{ ($10^7$ disintegrations/s)} & 25.9 & 8.16 & 2.57 & 0.81 & 0.25 & 0.08 & 0.03 & 0.01\\
+\hline
+\end{array}
+$$
+
+
 
 1. Represent graphically the data of radioactivity as a function of time.
 Which type of regression model explains better the relationship between radioactivity and time?
@@ -218,13 +215,16 @@ T = 2\pi\sqrt{\frac{L}{g}}
 \\]
 where $L$ is the length of the pendulum and $g$ is the gravitational constant. In order to check if the previous formula is satisfied, an experiment has been conducted where it has been measured the oscillation period for different lengths of the pendulum.The measurements are shown in the table below.
 
-| L (cm)| P (seg)|
-|------:|-------:|
-|   52.5|   1.449|
-|   68.0|   1.639|
-|   99.0|   1.999|
-|  116.0|   2.153|
-|  146.0|   2.408|
+$$
+\begin{array}{lrrrrr}
+\hline
+L\text{ (cm)} & 52.5 & 68.0 & 99.0 & 116.0 & 146.0 \\
+P\text{ (seg)} & 1.449 & 1.639 & 1.999 & 2.153 & 2.408\\
+\hline
+\end{array}
+$$
+
+
 
 1. Represent graphically the data of the period versus the length of the pendulum.  
 Does a linear model fit well to the points cloud?
@@ -253,15 +253,16 @@ Regression line of Y on X: $y=-1.6132 + 0.5006x$.<br/>
 A study tries to determine the relationship between two substances $X$ and $Y$ in blood.
 The concentration of these substances has been measured in seven individuals (in $\mu$g/dl) and the results are shown in the table below. 
 
-|    X|   Y|
-|----:|---:|
-|  2.1| 1.3|
-|  4.9| 1.5|
-|  9.8| 1.7|
-| 11.7| 1.8|
-|  5.9| 1.5|
-|  8.4| 1.7|
-|  9.2| 1.7|
+$$
+\begin{array}{rrrrrrrr}
+\hline
+X & 2.1 & 4.9 & 9.8 & 11.7 & 5.9 & 8.4 & 9.2 \\ 
+Y & 1.3 & 1.5 & 1.7 & 1.8 & 1.5 & 1.7 & 1.7 \\ 
+\hline
+\end{array}
+$$
+
+
 
 1. Are $Y$ and $X$ linearly related?
 2. Are $Y$ and $X$ potentially related?

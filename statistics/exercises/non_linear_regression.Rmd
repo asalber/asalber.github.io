@@ -62,12 +62,21 @@ $r^2=`r summary(m)$r.squared`$.<br/>
 ## Exercise 2
 The concentration of a drug in blood, in mg/dl, depends on time, in hours, according to the data below.
 
+$$
+\begin{array}{lrrrrrrr}
+\hline
+\mbox{Drug concentration} & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
+\mbox{Hours} & 25 & 36 & 48 & 64 & 86 & 114 & 168\\
+\hline
+\end{array}
+$$
+
 ```{r}
 x <- c(2, 3, 4, 5, 6, 7, 8)
 y <- c(25, 36, 48, 64, 86, 114, 168)
 data <- data.frame(x,y)
-colnames(data) <- c("Drug concentration", "Hours")
-kable(data)
+#colnames(data) <- c("Drug concentration", "Hours")
+#kable(data)
 m <- lm(y~x)
 c <- coefficients(m)
 ```
@@ -101,12 +110,22 @@ $r^2=`r summary(m)$r.squared`$.<br/>
 ## Exercise 3
 A researcher is studying the relation between the obesity and the response to pain. The obesity is measured as the percentage over the ideal weight, and the response to pain as the nociceptive flexion pain threshold. The results of the study appears in the table below.
 
+$$
+\begin{array}{lrrrrrrrrrr}
+\hline
+\mbox{Obesity} & 89 & 90 & 75 & 30 & 51 & 75 & 62 & 45 & 90 & 20\\
+\mbox{Pain threshold} & 10 & 12 & 4 & 4.5 & 5.5 & 7 & 9 & 8 & 15 & 3\\
+\hline
+\end{array}
+$$
+
+
 ```{r}
 x <- c(89, 90, 77, 30, 51, 75, 62, 45, 90, 20)
 y <- c(10, 12, 11.5, 4.5, 9.2, 10, 9, 8, 15, 3)
 data <- data.frame(x,y)
-colnames(data) <- c("Obesity", "Pain threshold")
-kable(data)
+# colnames(data) <- c("Obesity", "Pain threshold")
+# kable(data)
 ```
 
 1. According to the scatter plot, what model explains better the relation of the response to pain on the obesity?
@@ -157,12 +176,21 @@ When it is required for a blood transfusion, it is heated in an oven at a consta
 In an experiment it has been measured the temperature of plasma at different times during the heating. 
 The results are in the table below.
 
+$$
+\begin{array}{lrrrrrrrr}
+\hline
+\mbox{Time (min)}	& 5 & 8 & 15 & 25 & 30 & 37 & 45 & 60\\
+\mbox{Temperature (ºF)} & 25 & 50 & 86 & 102 & 110 & 114 & 118 & 120\\
+\hline
+\end{array}
+$$
+
 ```{r}
 x <- c(5, 8, 15, 25, 30, 37, 45, 60)
 y <- c(25, 50, 86, 102, 110, 114, 118, 120)
 data <- data.frame(x,y)
-colnames(data) <- c("Time (min)", "Temperature (ºF)")
-kable(data)
+# colnames(data) <- c("Time (min)", "Temperature (ºF)")
+# kable(data)
 ```
 
 1. Plot the scatter plot. 
@@ -199,12 +227,22 @@ $r^2=`r summary(m)$r.squared`$, that is close to 1, so the prediction is reliabl
 
 ## Exercise 5
 The activity of a radioactive substance depends on time according to the data in the table below.
+
+$$
+\begin{array}{lrrrrrrrr}
+\hline
+t\mbox{ (hours)} & 0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 \\
+A\mbox{ ($10^7$ disintegrations/s)} & 25.9 & 8.16 & 2.57 & 0.81 & 0.25 & 0.08 & 0.03 & 0.01\\
+\hline
+\end{array}
+$$
+
 ```{r}
 x <- c(0, 10, 20, 30, 40, 50, 60, 70 )
 y <- c(25.9, 8.16, 2.57, 0.81, 0.25, 0.08, 0.03, 0.01)
 data <- data.frame(x,y)
-colnames(data) <- c("Time (hours)", "Radioactivity (10⁷ disintegrations/s)")
-kable(data)
+# colnames(data) <- c("Time (hours)", "Radioactivity (10⁷ disintegrations/s)")
+# kable(data)
 ```
 
 1. Represent graphically the data of radioactivity as a function of time.
@@ -248,12 +286,22 @@ For oscillations of small amplitude, the oscillation period $T$ of a pendulum is
 T = 2\pi\sqrt{\frac{L}{g}}
 \\]
 where $L$ is the length of the pendulum and $g$ is the gravitational constant. In order to check if the previous formula is satisfied, an experiment has been conducted where it has been measured the oscillation period for different lengths of the pendulum.The measurements are shown in the table below.
+
+$$
+\begin{array}{lrrrrr}
+\hline
+L\text{ (cm)} & 52.5 & 68.0 & 99.0 & 116.0 & 146.0 \\
+P\text{ (seg)} & 1.449 & 1.639 & 1.999 & 2.153 & 2.408\\
+\hline
+\end{array}
+$$
+
 ```{r}
 x <- c(52.5, 68.0, 99.0, 116.0, 146.0)
 y <- c(1.449, 1.639, 1.999, 2.153, 2.408)
 data <- data.frame(x,y)
-colnames(data) <- c("L (cm)", "P (seg)")
-kable(data)
+#colnames(data) <- c("L (cm)", "P (seg)")
+#kable(data)
 ```
 
 1. Represent graphically the data of the period versus the length of the pendulum.  
@@ -291,12 +339,22 @@ Regression line of Y on X: $y=`r c[1]` + `r c[2]`x$.<br/>
 ## Exercise 7
 A study tries to determine the relationship between two substances $X$ and $Y$ in blood.
 The concentration of these substances has been measured in seven individuals (in $\mu$g/dl) and the results are shown in the table below. 
+
+$$
+\begin{array}{rrrrrrrr}
+\hline
+X & 2.1 & 4.9 & 9.8 & 11.7 & 5.9 & 8.4 & 9.2 \\ 
+Y & 1.3 & 1.5 & 1.7 & 1.8 & 1.5 & 1.7 & 1.7 \\ 
+\hline
+\end{array}
+$$
+
 ```{r}
 x <- c(2.1, 4.9, 9.8, 11.7, 5.9, 8.4, 9.2)
 y <- c(1.3, 1.5, 1.7, 1.8, 1.5, 1.7, 1.7)
 data <- data.frame(x,y)
-colnames(data) <- c("X", "Y")
-kable(data)
+#(data) <- c("X", "Y")
+#kable(data)
 ```
 
 1. Are $Y$ and $X$ linearly related?

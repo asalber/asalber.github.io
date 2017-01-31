@@ -35,7 +35,7 @@ There are two boxes with balls of different colors. The first box contains 3 whi
 The Morgan’s laws state that given two events $A$ and $B$ from the same sample space, $\overline{A\cup B}=\bar A \cap \bar B$ and $\overline{A\cap B}=\bar A \cup \bar B$. Proof both statements graphically using Venn diagrams.
 
 ## Exercise 4
-Calculate the probability of the following events of the random experiment consisting in tossing 3 coins:
+Compute the probability of the following events of the random experiment consisting in tossing 3 coins:
 
 1.  Get exactly 1 heads.
 2.  Get exactly 2 tails.
@@ -51,13 +51,13 @@ Calculate the probability of the following events of the random experiment consi
 </div>
 
 ## Exercise 5
-In a laboratory there are 4 flasks with sulfuric acid and 2 with nitric acid, and in another laboratory there are 1 flask with sulfuric acid and 3 with nitric acid. A random experiment consist in picking two flask, one from every laboratory. Calculate the probability of the following events:
+In a laboratory there are 4 flasks with sulfuric acid and 2 with nitric acid, and in another laboratory there are 1 flask with sulfuric acid and 3 with nitric acid. A random experiment consist in picking two flask, one from every laboratory. Compute the probability of the following events:
 
 1.  The two picked flasks are of sulfuric acid.
 2.  The two picked flasks are of nitric acid.
 3.  The two picked flasks contains different acids.
 
-Calculate the same probabilities if the flask picked in the first laboratory is put in the second laboratory before picking the flask from it.
+Compute the same probabilities if the flask picked in the first laboratory is put in the second laboratory before picking the flask from it.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -71,7 +71,7 @@ Putting the first flask in the second laboratory:<br/>
 </div> 
 
 ## Exercise 6
-Let $A$ and $B$ be events of the same sample space, such that $P(A)=3/8$, $P(B)=1/2$, $P(A\cap B)=1/4$. Calculate the following probabilities:
+Let $A$ and $B$ be events of the same sample space, such that $P(A)=3/8$, $P(B)=1/2$, $P(A\cap B)=1/4$. Compute the following probabilities:
 
 1.  $P(A\cup B)$.
 2.  $P(\bar A)$ y $P(\bar B)$.
@@ -99,7 +99,7 @@ $P(\mbox{Hepatitis})=0.0199$.
 </div>
 
 ## Exercise 8
-Let $A$ and $B$ be two events of the same sample space, such that $P(A)=0.6$ and $P(A\cup B)=0.9.$ Calculate $P(B)$ with the following assumptions:
+Let $A$ and $B$ be two events of the same sample space, such that $P(A)=0.6$ and $P(A\cup B)=0.9.$ Compute $P(B)$ with the following assumptions:
 
 1.  $A$ and $B$ are incompatible.
 2.  $A$ and $B$ are independent.
@@ -114,7 +114,7 @@ Let $A$ and $B$ be two events of the same sample space, such that $P(A)=0.6$ and
 A study about smoking has published that 40% of smokers have a smoker father, 25% have a smoker mother and 52% have al least one of the parents smoker. We pick a random person from this population. Answer the following questions:
 
 1.  What is the probability of having a smoker mother if the father smokes?
-2.  What is the probability of having a smoker mother if the father doesn’t smoke?
+2.  What is the probability of having a smoker mother if the father does not smoke?
 3.  Are independent the events having a smoker father and having a smoker mother?
 
 <div><button class="solution">Show solution</button></div>
@@ -126,7 +126,7 @@ Naming $SF$ tho the event of having a smoker father and $SM$ to the event of hav
 </div>
 
 ## Exercise 10
-The probability that an injury $A$ is repeated is $4/5$, the probability that another injury $B$ is repeated is $1/2$, and the probability that both injuries are repeated is $1/3$. Calculate the probability of the following events:
+The probability that an injury $A$ is repeated is $4/5$, the probability that another injury $B$ is repeated is $1/2$, and the probability that both injuries are repeated is $1/3$. Compute the probability of the following events:
 
 1.  Only injury $B$ is repeated.
 2.  At least one injury is repeated.
@@ -184,7 +184,7 @@ A physiotherapist uses two techniques $A$ and $B$ to cure an injury. It is known
 
 1.  What is the probability that a random person under 30 is cured? And for a people over 30?
 2.  What is the probability that a random person is cured?
-3.  If after applying a technique to a person over 30, the person doesn’t cure, what is the probability that the technique applied was $A$?
+3.  If after applying a technique to a person over 30, the person does not cure, what is the probability that the technique applied was $A$?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">

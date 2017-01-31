@@ -19,6 +19,7 @@ col2 <- rgb(238,50,36,max=255)
 
 ## Exercise 1
 Give some examples of:
+
 1.  Non related variables.
 2.  Variables that are increasingly related.
 3.  Variables that are decreasingly related.
@@ -156,12 +157,21 @@ $y(270)=`r c[1]+c[2]*270`$ mmHg.
 ## Exercise 4
 A research study has been conducted to determine the loss of activity of a drug. The table below shows the results of the experiment.
 
+$$
+\begin{array}{lrrrrr}
+\hline
+\mbox{Time (in years)} & 1 & 2 & 3 & 4 & 5 \\ 
+\mbox{Activity (\%)} & 96 & 84 & 70 & 58 & 52 \\ 
+\hline
+\end{array}
+$$
+
 ```{r}
 x <- c(1,2,3,4,5)
 y <- c(96,84,70,58,52)
 data <- data.frame(x,y)
-colnames(data) <- c("Time (years)", "Activity (%)")
-kable(data)
+#colnames(data) <- c("Time (years)", "Activity (%)")
+#kable(data)
 m <- lm(y~x)
 c <- coefficients(m)
 ```
@@ -187,12 +197,21 @@ $x(80)=`r c[1]+c[2]*80`$ years and $x(0)=`r c[1]`$ years.
 ## Exercise 5
 A basketball team is testing a new stretching program to reduce the injuries during the league. The data below show the daily number of minutes doing stretching exercises and the number of injuries along the league.
 
+$$
+\begin{array}{lrrrrrrrr}
+\hline
+\mbox{Stretching minutes} & 0 & 30 & 10 & 15 & 5 & 25 & 35 & 40\\
+\mbox{Injuries} & 4 & 1 & 2 & 2 & 3 & 1 & 0 & 1\\
+\hline
+\end{array}
+$$
+
 ```{r}
 x <- c(0,30,10,15,5,25,35,40)
 y <- c(4,1,2,2,3,1,0,1)
 data <- data.frame(x,y)
-colnames(data) <- c("Stretching minutes", "Injuries")
-kable(data)
+#colnames(data) <- c("Stretching minutes", "Injuries")
+#kable(data)
 m <- lm(y~x)
 c <- coefficients(m)
 ```

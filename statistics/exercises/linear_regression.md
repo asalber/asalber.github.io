@@ -11,6 +11,7 @@ image: dados.jpg
 
 ## Exercise 1
 Give some examples of:
+
 1.  Non related variables.
 2.  Variables that are increasingly related.
 3.  Variables that are decreasingly related.
@@ -136,14 +137,16 @@ $y(270)=163.0808$ mmHg.
 ## Exercise 4
 A research study has been conducted to determine the loss of activity of a drug. The table below shows the results of the experiment.
 
+$$
+\begin{array}{lrrrrr}
+\hline
+\mbox{Time (in years)} & 1 & 2 & 3 & 4 & 5 \\ 
+\mbox{Activity (\%)} & 96 & 84 & 70 & 58 & 52 \\ 
+\hline
+\end{array}
+$$
 
-| Time (years)| Activity (%)|
-|------------:|------------:|
-|            1|           96|
-|            2|           84|
-|            3|           70|
-|            4|           58|
-|            5|           52|
+
 
 1. Construct the linear regression model of activity on time.
 2. According to the linear model, when will the activity be 80%? When will the drug have lost all activity?
@@ -163,17 +166,16 @@ $x(80)=2.3091$ years and $x(0)=9.2182$ years.
 ## Exercise 5
 A basketball team is testing a new stretching program to reduce the injuries during the league. The data below show the daily number of minutes doing stretching exercises and the number of injuries along the league.
 
+$$
+\begin{array}{lrrrrrrrr}
+\hline
+\mbox{Stretching minutes} & 0 & 30 & 10 & 15 & 5 & 25 & 35 & 40\\
+\mbox{Injuries} & 4 & 1 & 2 & 2 & 3 & 1 & 0 & 1\\
+\hline
+\end{array}
+$$
 
-| Stretching minutes| Injuries|
-|------------------:|--------:|
-|                  0|        4|
-|                 30|        1|
-|                 10|        2|
-|                 15|        2|
-|                  5|        3|
-|                 25|        1|
-|                 35|        0|
-|                 40|        1|
+
 
 1. Construct the regression line of the number of injuries on the time of stretching.
 2. What is the reduction of injuries for every minute of stretching?
@@ -232,7 +234,7 @@ A study to determine the relation between the age and the physical strength gave
 1. Calculate the linear coefficient of determination for the whole sample.
 2. Calculate the linear coefficient of determination for the sample of people younger than 25 years old.
 3. Calculate the linear coefficient of determination for the sample of people older than 25 years old.
-4. Which model explains better the relation between the age and the strength?
+4. For which group of ages the relation between the age and the strength is stronger? 
 
 Use the following sums ($X$=Age and $Y=$Weight lifted).
 
@@ -256,4 +258,5 @@ $r^2=0.9786$.<br/>
 $\bar y=52.7778$ kg, $s_y^2=20.8395$ kg$^2$.<br/>
 $s_{xy}=-25.5062$ years$\cdot$kg.<br/>
 $r^2=0.9571$.<br/>
+4. The linear relation between the age and the physical strength is a little bit stronger in the group of young people.
 </div>
