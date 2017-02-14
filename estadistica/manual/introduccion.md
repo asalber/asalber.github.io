@@ -1,14 +1,11 @@
 ---
 layout: book
 title: Manual de Estadística
-description: "Manual Básico de Estadística con ejemplos en R"
+description: "Introducción a la Estadística"
 image: cabecera-estadistica.jpg
 tags: [Estadística, R]
 share: true
 ---
-
-Introducción a la Estadística
-=============================
 
 La estadística como herramienta científica
 ------------------------------------------
@@ -17,7 +14,11 @@ La estadística como herramienta científica
 
 >**Definición - Estadística**. La *estadística* es una rama de las matemáticas que se encarga de la recogida, análisis e interpretación de datos.
 
-La estadística es imprescindible en cualquier disciplina científica o técnica donde se manejen datos, especialmente si son grandes volúmenes de datos, como por ejemplo, la física, la química, la medicina y las ciencias biosanitarias, pero también en la economía, la psicología o las ciencias sociales.
+El papel de la Estadística es extraer información de los datos para adquirir el conocimiento necesario para tomar decisiones.
+
+![Propósito de la Estadística.](img/introduction/statistics_purpose.png "Statistics purpose"){: .img-center}
+
+La estadística es imprescindible en cualquier disciplina científica o técnica donde se manejen datos, especialmente si son grandes volúmenes de datos, como por ejemplo en Física, Química, Medicina, Psicología, Economía o Ciencias Sociales.
 
 Pero, *¿por qué es necesaria la Estadística?*
 
@@ -36,29 +37,25 @@ Población y muestra
 
 >**Definición - Población**.  Una *población* es un conjunto de elementos definido por una o más características que tienen todos los elementos, y sólo ellos. Cada elemento de la población se llama *individuo*.
 
->**Definición - Tamaño poblacional**.  El número de individuos de una población se conoce como *tamaño poblacional* y se representa como \(N\).
+>**Definición - Tamaño poblacional**.  El número de individuos de una población se conoce como *tamaño poblacional* y se representa como $N$.
 
-**Ejemplo**. En unas elecciones generales a la presidencia del gobierno, la población serían todos los individuos del estado con derecho a voto. En el estudio de una enfermedad, la población sería todas las personas que tienen la enfermedad. Y en un proceso de control de calidad en la fabricación de un fármaco,  la población estaría formada por todos los fármacos que se producen en la fábrica. 
+**Ejemplo**. En unas elecciones generales a la presidencia del gobierno, la población serían todos los individuos del estado con derecho a voto. En el estudio de una enfermedad, la población sería todas las personas que tienen la enfermedad. Y en un proceso de control de calidad en la fabricación de un fármaco, la población estaría formada por todos los fármacos que se producen en la fábrica.
 
 A veces, no todos los elementos de la población están accesibles para su estudio. Entonces se distingue entre:
 
-- *Población Teórica*: Conjunto de elementos a los que se quiere extrapolar los resultados del estudio.
-- *Población Estudiada*: Conjunto de elementos realmente accesibles en el estudio.
+- **Población Teórica**: Conjunto de elementos a los que se quiere extrapolar los resultados del estudio.
+- **Población Estudiada**: Conjunto de elementos realmente accesibles en el estudio.
 
-**Ejemplo**. En el caso del estudio de una enfermedad, la población teórica sería todas las personas que contraigan la enfermedad, incluso si aún no han nacido, mientras que la población estudiada se limitaría al número de personas enfermas que realmente podemos estudiar (obsérvese que incluso quedarían fuera las personas enfermas actualmente que no supieran que lo están o a las que no pudiésemos acceder físicamente para estudiarlas). 
+**Ejemplo**. En el caso del estudio de una enfermedad, la población teórica sería todas las personas que contraigan la enfermedad, incluso si aún no han nacido, mientras que la población estudiada se limitaría al número de personas enfermas que realmente podemos estudiar (obsérvese que incluso quedarían fuera las personas enfermas actualmente que no supieran que lo están o a las que no pudiésemos acceder físicamente para estudiarlas).
 
 ### Inconvenientes en el estudio de la población
 
 El científico estudia un determinado fenómeno en una población para comprenderlo, obtener conocimiento sobre el mismo, y así poder controlarlo.
-
 Pero, para tener un conocimiento completo de la población *es necesario estudiar todos los individuos de la misma*.
-
 Sin embargo, esto no siempre es posible por distintos motivos:
 
 -   El tamaño de la población es infinito, o bien es finito pero demasiado grande.
-
 -   Las pruebas a que se someten los individuos son destructivas.
-
 -   El coste, tanto de dinero como de tiempo, que supondría estudiar a todos los individuos es excesivo.
 
 ### Muestra estadística
@@ -67,7 +64,7 @@ Cuando no es posible o conveniente estudiar todos los individuos de la població
 
 >**Definición - Muestra**.  Una *muestra* es un subconjunto de la población.
 
->**Definición - Tamaño muestral**.  Al número de individuos que componen la muestra se le llama *tamaño muestral* y se representa por \(n\).
+>**Definición - Tamaño muestral**.  Al número de individuos que componen la muestra se le llama *tamaño muestral* y se representa por $n$.
 
 Habitualmente, el estudio de una población se realiza a partir de muestras extraídas de dicha población.
 
@@ -77,46 +74,42 @@ Generalmente, el estudio de la muestra sólo aporta conocimiento aproximado de l
 
 Una de las preguntas más interesantes que surge inmediatamente es: *¿cuántos individuos es necesario tomar en la muestra para tener un conocimiento aproximado pero suficiente de la población?*
 
-La respuesta depende de varios factores, como la variabilidad de la población o la fiabilidad deseada para las extrapolaciones que se hagan hacia la población. Por desgracia no se podrá responder hasta casi el final del curso.
+La respuesta depende de varios factores, como la variabilidad de la población o la fiabilidad deseada para las extrapolaciones que se hagan hacia la población.
 
-En general, cuantos más individuos haya en la muestra, más fiables serán las conclusiones sobre la población, pero también será más lento y costoso el estudio.
+Por desgracia no se podrá responder hasta casi el final del curso, pero en general, cuantos más individuos haya en la muestra, más fiables serán las conclusiones sobre la población, pero también será más lento y costoso el estudio.
 
-**Ejemplo**. Para entender a qué nos referimos cuando hablamos de un tamaño muestral suficiente para comprender lo que ocurre en la población, podemos utilizar el siguiente símil en que se trata de comprender el motivo que representa una fotografía. 
+**Ejemplo**. Para entender a qué nos referimos cuando hablamos de un tamaño muestral suficiente para comprender lo que ocurre en la población, podemos utilizar el siguiente símil en que se trata de comprender el motivo que representa una fotografía.
 
 Una fotografía digital está formada por multitud de pequeños puntitos llamados pixels que se dispone en una enorme tabla de filas y columnas (cuantas más filas y columnas haya se habla de que la foto tiene más resolución). Aquí la población estaría formada por todos y cada uno de los pixel que forman la foto. Por otro lado cada pixel tiene un color y es la variedad de colores a lo largo de los pixels la que permite formar la imágen de la
 fotografía.
 
-Supongamos que queremos comprender el motivo de la fotografía y para ello tomamos sólo una pequeña muestra de los pixels
-de ella, como esta que aparece en la pantalla. ¿Serías capaz de averiguar de qué se trata?
+*¿Cuántos pixels debemos tomar en una muestra para averiguar la imagen de la foto?e trata?
 
-<div style="text-align:center">
-<img src="img/introduccion/muestra_molinos1.jpg" width="400px" alt="Muestra reducida de pixels" />
-</div>
+La respuesta depende de la variabilidad de colores en la foto. Si todos los pixels de la foto son del mismo color, entonces un sólo pixel basta para desvelar la imagen. Pero, si la foto tiene mucha variabilidad de colores, necesitaremos muchos más pixels en la muestra para descubrir el motivo de la foto.
+
+La imagen siguiente contiene una muestra pequeña de pixels de una foto. ¿Puedes averiguar el motivo de a foto?
+
+![Muestra pequeña de pixels de una foto.](img/introduccion/muestra_molinos1.jpg "Muestra pequeña de pixels de una foto"){: .img-center}
 
 *¡Con una muestra pequeña es difícil averiguar el contenido de la imagen!*
 
-Seguramente no has podido averiguar el motivo de la fotografía, porque en este caso el número de pixels que hemos tomado en la muestra es insuficiente para comprender toda la variablidad de colores que hay en la foto. Sin embargo, si tomamos una muestra mayor, como esta otra, seguramente que ya si sabrías decir cuál es la imagen de la foto. ¿Eres capaz?
+Seguramente no has podido averiguar el motivo de la fotografía, porque en este caso el número de pixels que hemos tomado en la muestra es insuficiente para comprender toda la variablidad de colores que hay en la foto.
 
-<div style="text-align:center">
-<img src="img/introduccion/muestra_molinos2.jpg" width="400px" alt="Muestra mayor de pixels" />
-</div>
+La siguiente imagen contiene una muestra mayor de pixels. ¿Eres capaz de adivinar el motivo de la foto ahora?
+
+![Muestra mayor de pixels de una foto.](img/introduccion/muestra_molinos2.jpg "Muestra mayor de pixels de una foto."){: .img-center}
+
+*¡Con una muestra mayor es posible desvelar el motivo de la foto!*
 
 Y aquí está la población completa.
 
-<div style="text-align:center">
-<img src="img/introduccion/muestra_molinos3.jpg" width="400px" alt="Foto de los molinos (población de pixels)" />
-</div>
-
-Efectivamente, se trata de unos molinos de viento, y si has sido capaz de averiguarlo es porque en la segunda muestra el número de pixels tomados en la muestra era suficiente para comprender el motivo de la fotografía.
+![Población de pixels de una foto.](img/introduccion/muestra_molinos3.jpg "Población de pixels de una foto."){: .img-center}
 
 Lo importante es que *¡No es necesario conocer todos los píxeles para averiguar la imagen!*
 
-Evidentemente, cuanto mayor sea la variabilidad de colores de la fotografía, mayor será el tamaño muestral requerido para comprender el motivo de la foto, y cuanto menos variabilidad de colores haya en la foto, menos pixels habrá que tomar, hasta el punto de que en una foto donde no hubiese variabilidad de colores, es decir, donde todos los pixels tuviesen el mismo color, bastaría con tomar un pixel para conocer el motivo de la foto.
-
-
 ### Tipos de razonamiento
 
-Así pues, habitualmente realizaremos el estudio de la población a partir de muestras y luego trataremos de extrapolar lo observado en la muestra al resto de la población. A este tipo de razonamiento que saca conclusiones desde la muestra hacia la población se le conoce como *razonamiento inductivo*. 
+Así pues, habitualmente realizaremos el estudio de la población a partir de muestras y luego trataremos de extrapolar lo observado en la muestra al resto de la población. A este tipo de razonamiento que saca conclusiones desde la muestra hacia la población se le conoce como *razonamiento inductivo*.
 
 <div style="text-align:center">
 <img src="img/introduccion/tipos_razonamiento.png" width="400px" alt="Muestra reducida de pixels" />
@@ -170,7 +163,7 @@ Variables estadísticas
 
 Todo estudio estadístico comienza por la identificación de las características que interesa estudiar en la población y que se medirán en los individuos de la muestra. Estas características pueden ser de dos tipos según sean de naturaleza cuantitativa o cualitativa, es decir, si miden cantidades o cualidades:
 
-- **Atributos**: De carácter cualitativo. A su vez, se dividen en 
+- **Atributos**: De carácter cualitativo. A su vez, se dividen en
 	-- **Nominales**: No existe un orden entre las modalidades. Ejemplo: El color de ojos o de pelo.
 	-- **Ordinales**: Existe un orden entre las modalidades. Ejemplo: El grado de gravedad de un paciente o la calificación de un curso.
 - **Variables estadísticas**: De carácter cuantitativo. A su vez, se dividen en
@@ -183,16 +176,16 @@ Las variables o atributos a estudiar se medirán en cada uno de los individuos d
 
 En esta matriz cada columna contiene la información de una variable y cada fila la información de un individuo.
 
-**Ejemplo** La siguiente tabla contiene información de las variables Nombre, Edad, Sexo, Peso y Altura de una muestra de 6 personas. 
+**Ejemplo** La siguiente tabla contiene información de las variables Nombre, Edad, Sexo, Peso y Altura de una muestra de 6 personas.
 
 | Nombre             | Edad | Sexo | Peso | Altura |
 |:-------------------|:----:|:----:|:----:|:------:|
-| José Luis Martínez |  18  |   H  |  85  |   179  |
-| Rosa Díaz          |  32  |   M  |  65  |   173  |
-| Javier García      |  24  |   H  |  71  |   181  |
-| Carmen López       |  35  |   M  |  65  |   170  |
-| Marisa López       |  46  |   M  |  51  |   158  |
-| Antonio Ruiz       |  68  |   H  |  66  |   174  |
+| José Luis Martínez |  18  |  H   |  85  |  179   |
+| Rosa Díaz          |  32  |  M   |  65  |  173   |
+| Javier García      |  24  |  H   |  71  |  181   |
+| Carmen López       |  35  |  M   |  65  |  170   |
+| Marisa López       |  46  |  M   |  51  |  158   |
+| Antonio Ruiz       |  68  |  H   |  66  |  174   |
 
 
 Fases del análisis estadístico
@@ -217,4 +210,3 @@ Normalmente un estudio estadístico pasa por las siguientes etapas:
 <div style="text-align:center">
 <img src="img/introduccion/ciclo_estadistico.png" width="400px" alt="Muestra reducida de pixels" />
 </div>
-

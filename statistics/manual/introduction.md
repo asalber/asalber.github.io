@@ -12,7 +12,7 @@ Statistics as a scientific tool
 
 ### What is Statistics?
 
->**Definition - Statistics**. *Statistics* is a branch of Mathematics that deals with data collection, summary, analysis an interpretation.
+>**Definition - Statistics**. *Statistics* is a branch of Mathematics that deals with data collection, summary, analysis and interpretation.
 
 The role of Statistics is to extract information from data in order to gain knowledge for taking decisions.
 

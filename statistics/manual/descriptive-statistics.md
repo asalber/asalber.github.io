@@ -384,13 +384,13 @@ Observe that when the mean is calculated from the table the result differs a lit
 
 In some cases the values of the sample have different importance. In that case the importance or *weight* of each value of the sample must be taken into account when calculating the mean.
 
-> **Definition - Sample weighted mean $\bar{x}_p$**. Given a sample of values $x_1,\ldots,x_n$ where every value $x_i$ has a weight $p_i$, the *weighted mean* of variable $X$ is the sum of the product of each value by its weight, divided by sum of weights
+> **Definition - Sample weighted mean $\bar{x}_p$**. Given a sample of values $x_1,\ldots,x_n$ where every value $x_i$ has a weight $w_i$, the *weighted mean* of variable $X$ is the sum of the product of each value by its weight, divided by sum of weights
 >
-$$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i}$$
+$$\bar{x}_w = \frac{\sum x_iw_i}{\sum w_i}$$
 
 From the frequency table can be calculated with the formula
 
-$$\bar{x}_p = \frac{\sum x_ip_in_i}{\sum p_i}$$
+$$\bar{x}_w = \frac{\sum x_iw_in_i}{\sum w_i}$$
 
 **Example**. Assume that a student wants to calculate a representative measure of his/her performance in a course. The grade and the credits of every subjects are
 
@@ -408,7 +408,7 @@ However, this measure does not represent well the performance of the student, as
 
 In this case it is better to use the weighted mean, using the credits as the weights of grades, as a representative measure of the student effort
 
-$$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i} = \frac{5\cdot 6+3\cdot 4+6\cdot 8}{6+4+8}= \frac{90}{18} = 5 \text{ points}.$$
+$$\bar{x}_w = \frac{\sum x_iw_i}{\sum w_i} = \frac{5\cdot 6+3\cdot 4+6\cdot 8}{6+4+8}= \frac{90}{18} = 5 \text{ points}.$$
 
 ### Median
 
