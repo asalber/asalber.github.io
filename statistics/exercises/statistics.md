@@ -17,11 +17,12 @@ The number of injuries suffered by the members of a soccer team in a league were
 0 1 2 1 3 0 1 0 1 2 0 1 1 1 2 0 1 3 2 1 2 1 0 1
 ```
 Calculate the following statistics and interpret them.
-1. Mean.
-2. Median.
-3. Mode.
-4. Quartiles.
-5. Percentile 32.
+
+1.  Mean.
+2.  Median.
+3.  Mode.
+4.  Quartiles.
+5.  Percentile 32.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
