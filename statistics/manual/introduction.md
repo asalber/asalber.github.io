@@ -186,7 +186,7 @@ Sometimes a characteristic could be measured in variables of different types.
 
 In those cases quantitative variables are preferable to qualitative, continuous variables are preferable to discrete variables and ordinal variables are preferable to nominal, as they give more information.
 
-![Amount of information of the different types of variables](img/introduction/variable_information.svg)
+![Amount of information of the different types of variables](img/introduction/variable_information.svg){: .img-center width="600px"}
 
 According to their role in the study:
 
@@ -200,9 +200,11 @@ According to their role in the study:
 
 According to their role in the study:
 
-- **Experimental**: When the independent variables are manipulated in order to see the effect that that change has on the dependent variables. **Example**. In a study on the performance of students in a test, the teacher manipulates the methodology and creates two or more groups following different methodologies.
+- **Experimental**: When the independent variables are manipulated in order to see the effect that that change has on the dependent variables.<br>
+  **Example**. In a study on the performance of students in a test, the teacher manipulates the methodology and creates two or more groups following different methodologies.
 
-- **Non-experimental**: When the independent variables are not manipulated. That does not mean that it is impossible to do so, but it will either be impractical or unethical to do so. **Example**. In a study a researcher could be interested in the effect of smoking over the lung cancer. However, whilst possible, it would be unethical to ask individuals to smoke in order to study what effect this had on their lungs. In this case, the researcher could study two groups of people, one with lung cancer and other without, an observe in each group how many persons smoke or not.
+- **Non-experimental**: When the independent variables are not manipulated. That does not mean that it is impossible to do so, but it will either be impractical or unethical to do so.<br>
+  **Example**. In a study a researcher could be interested in the effect of smoking over the lung cancer. However, whilst possible, it would be unethical to ask individuals to smoke in order to study what effect this had on their lungs. In this case, the researcher could study two groups of people, one with lung cancer and other without, an observe in each group how many persons smoke or not.
 
 Experimental studies allow to identify a cause and effect between variables while non-experimental studies only allow to identify association or relationship between variables.
 

@@ -136,7 +136,7 @@ Existen muchas técnicas de muestreo pero se pueden agrupar en dos categorías:
 
 - **Muestreo No Aleatorio**: Los individuos se eligen de forma no aleatoria.
 
-Sólo las técnicas aleatorias evitan el sesgo de selección, y por tanto,  garantizan la representatividad de la muestra extraída, y en consecuencia la validez de las conclusiones.
+Sólo las técnicas aleatorias evitan el sesgo de selección, y por tanto, garantizan la representatividad de la muestra extraída, y en consecuencia la validez de las conclusiones.
 
 Las técnicas no aleatorias no sirven para hacer generalizaciones, ya que no garantizan la representatividad de la muestra. Sin embargo, son menos costosas y pueden utilizarse en estudios exploratorios.
 
@@ -165,14 +165,17 @@ Los _datos_ son los valores observados en las variables estadísticas.
 Estas características pueden ser de distintos tipos de acuerdo a su naturaleza y su escala:
 
 - **Variables cualitativas o atributos**: Miden cualidades no numéricas. Pueden ser:
-    - **Nominales**: No existe un orden entre las categorías.  
-  Ejemplo: El color de pelo o el sexo.
-    - **Ordinales**: Existe un orden entre las categorías.  
-  Ejemplo: El nivel de estudios o la gravedad de una enfermedad.
+
+  - **Nominales**: No existe un orden entre las categorías.<br>
+    Ejemplo: El color de pelo o el sexo.
+  - **Ordinales**: Existe un orden entre las categorías.<br>
+    Ejemplo: El nivel de estudios o la gravedad de una enfermedad.
+
 - **Variables cuantitativas**: Miden cantidades numéricas. Pueden ser:
-    - **Discretas**:  Toman valores numéricos aislados (habitualmente números enteros).  
+
+  - **Discretas**: Toman valores numéricos aislados (habitualmente números enteros).<br>
     Ejemplo: El número de hijos o el número de coches en una familia.
-    - **Continuas**: Pueden tomar cualquier valor en un intervalo real.  
+  - **Continuas**: Pueden tomar cualquier valor en un intervalo real.<br>
     Ejemplo: El peso o la estatura.
 
 !["Tipos de variables estadísticas"](img/introduccion/tipos_variables.svg){: .img-center width="800px"}
@@ -185,33 +188,25 @@ En ocasiones una característica puede medirse mediante variables de distinto ti
 - Nivel de fumador: No fuma / ocasional / moderado / bastante / empedernido. (Ordinal)
 - Número de cigarros diarios: 0,1,2,... (Discreta)
 
-En estos casos es preferible usar variables cuantitativas a cualitativas.
-Dentro de las cuantitativas es preferible usar las continuas a las discretas y dentro de las cualitativas es preferible usar ordinales a nominales pues aportan más información.
+En estos casos es preferible usar variables cuantitativas a cualitativas. Dentro de las cuantitativas es preferible usar las continuas a las discretas y dentro de las cualitativas es preferible usar ordinales a nominales pues aportan más información.
 
 !["Cantidad de información de los tipos de variables estadísticas"](img/introduccion/informacion_variables.svg){: .img-center width="600px"}
 
 De acuerdo al papel que juegan en el estudio las variables también pueden clasificarse como:
 
-- **Variables independientes**: Variables que supuestamente no dependen de otras variables en el estudio.
-Habitualmente son las variables manipuladas en el experimento para ver su efecto en las variables dependientes.
-Se conocen también como _variables predictivas_.
-- **Variables dependientes**: Variables que supuestamente dependen de otras variables en el estudio.
-No son manipuladas en el experimento y también se conocen como _variables respuesta_.
+- **Variables independientes**: Variables que supuestamente no dependen de otras variables en el estudio. Habitualmente son las variables manipuladas en el experimento para ver su efecto en las variables dependientes. Se conocen también como _variables predictivas_.
+- **Variables dependientes**: Variables que supuestamente dependen de otras variables en el estudio. No son manipuladas en el experimento y también se conocen como _variables respuesta_.
 
 **Ejemplo**. En un estudio sobre el rendimiento de los alumnos de un curso, la inteligencia de los alumnos y el número de horas de estudio diarias serían variables independientes y la nota del curso sería una variable dependiente.
-
 
 ## Tipos de estudios estadísticos
 
 Dependiendo de si se manipulan las variables independientes existen dos tipos de estudios:
 
-- **Experimentales**: Cuando las variables independientes son manipuladas para ver el efecto que producen en las variables dependientes.  
-Ejemplo. En un estudio sobre el rendimiento de los estudiantes en un test, el profesor manipula la metodología de estudio para crear dos o más grupos con metodologías de estudio distintas.
-- **No experimentales**: Cuando las variables independientes no son manipuladas.
-Esto no significa que sea imposible hacerlo, sino que es difícil o poco ético hacerlo.  
-Ejemplo. En un estudio un investigador puede estar interesado en el efecto de fumar sobre el cáncer de pulmón.
-Aunque es posible, no sería ético pedirle a los pacientes que fumasen para ver el efecto que tiene sobre sus pulmones.
-En este caso, el investigador podría estudiar dos grupos de pacientes, uno con cáncer de pulmón y otro sin cáncer, y observar en cada grupo cuántos fuman o no.
+- **Experimentales**: Cuando las variables independientes son manipuladas para ver el efecto que producen en las variables dependientes.<br>
+  Ejemplo. En un estudio sobre el rendimiento de los estudiantes en un test, el profesor manipula la metodología de estudio para crear dos o más grupos con metodologías de estudio distintas.
+- **No experimentales**: Cuando las variables independientes no son manipuladas. Esto no significa que sea imposible hacerlo, sino que es difícil o poco ético hacerlo.<br>
+  Ejemplo. En un estudio un investigador puede estar interesado en el efecto de fumar sobre el cáncer de pulmón. Aunque es posible, no sería ético pedirle a los pacientes que fumasen para ver el efecto que tiene sobre sus pulmones. En este caso, el investigador podría estudiar dos grupos de pacientes, uno con cáncer de pulmón y otro sin cáncer, y observar en cada grupo cuántos fuman o no.
 
 Los estudios experimentales permiten identificar causas y efectos entre las variables del estudio, mientras que los no experimentales sólo permiten identificar relaciones de asociación entre las variables.
 
@@ -231,7 +226,6 @@ En esta tabla cada columna contiene la información de una variable y cada fila 
 | Carmen López       |  35  |  M   |  65  |  170   |
 | Marisa López       |  46  |  M   |  51  |  158   |
 | Antonio Ruiz       |  68  |  H   |  66  |  174   |
-
 
 ## Fases del análisis estadístico
 
