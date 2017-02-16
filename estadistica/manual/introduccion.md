@@ -122,7 +122,7 @@ La estadística se apoya fundamentalmente en el razonamiento inductivo ya que ut
 
 > **Definición - Muestreo**. El proceso de selección de los elementos que compondrán una muestra se conoce como _muestreo_.
 
-![Muestra reducida de pixels](img/introduccion/muestreo.svg){: .img-center width="500px"}
+![Muestreo](img/introduccion/muestreo.svg){: .img-center width="500px"}
 
 Para que una muestra refleje información fidedigna sobre la población global debe ser representativa de la misma, lo que significa que debe reproducir a pequeña escala la variabilidad de la población.
 
@@ -188,7 +188,7 @@ En ocasiones una característica puede medirse mediante variables de distinto ti
 En estos casos es preferible usar variables cuantitativas a cualitativas.
 Dentro de las cuantitativas es preferible usar las continuas a las discretas y dentro de las cualitativas es preferible usar ordinales a nominales pues aportan más información.
 
-!["Información de los tipos de variables estadísticas"](img/introduccion/informacion_variables.svg){: .img-center width="600px"}
+!["Cantidad de información de los tipos de variables estadísticas"](img/introduccion/informacion_variables.svg){: .img-center width="600px"}
 
 De acuerdo al papel que juegan en el estudio las variables también pueden clasificarse como:
 
