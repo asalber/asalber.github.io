@@ -113,8 +113,8 @@ A researcher is studying the relation between the obesity and the response to pa
 $$
 \begin{array}{lrrrrrrrrrr}
 \hline
-\mbox{Obesity} & 89 & 90 & 75 & 30 & 51 & 75 & 62 & 45 & 90 & 20\\
-\mbox{Pain threshold} & 10 & 12 & 4 & 4.5 & 5.5 & 7 & 9 & 8 & 15 & 3\\
+\mbox{Obesity} & 89 & 90 & 77 & 30 & 51 & 75 & 62 & 45 & 90 & 20\\
+\mbox{Pain threshold} & 10 & 12 & 11.5 & 4.5 & 5.5 & 7 & 9 & 8 & 15 & 3\\
 \hline
 \end{array}
 $$
