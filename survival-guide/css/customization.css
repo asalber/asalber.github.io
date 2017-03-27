@@ -70,7 +70,7 @@
     font-family:  "Open Sans";
     font-weight: 600;
     text-transform: none;
-} 
+}
 
 /* LISTS */
 .reveal ul{
@@ -78,7 +78,7 @@
 }
 
 .reveal li {
-    margin-top: 0.5em; 
+    margin-top: 0.5em;
 }
 
 /* TABLES */
@@ -86,7 +86,7 @@ table.colortable tr:hover{
     background-color: #FF3333;
 }
 
-/* 
+/*
 table.colortable tr:nth-child(even) {
     background-color: #333333;
 }
@@ -110,4 +110,9 @@ table.plain td{
 
 span.footnote {
     font-size: 50%;
+}
+
+/* IMAGES */
+.reveal section img {
+  border: none;
 }
