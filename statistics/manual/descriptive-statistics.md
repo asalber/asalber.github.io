@@ -1,70 +1,71 @@
 ---
 layout: plotly-book
 title: Statistics Manual
-description: "Descriptive Statistics"
+description: Descriptive Statistics
 image: cabecera-estadistica.jpg
-tags: [Statistics, Biostatistics]
+tags:
+  - Statistics
+  - Biostatistics
 share: true
 ---
-
 
 Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.
 
 After the sampling process, this is the next step in every statistical study and usually consists of:
 
-1.  To classify, group and sort the data of the sample.
+1. To classify, group and sort the data of the sample.
 
-2.  To tabulate and plot data according to their frequencies.
+2. To tabulate and plot data according to their frequencies.
 
-3.  To calculate numerical measures that summarize the information contained in the sample (*sample statistics*).
+3. To calculate numerical measures that summarize the information contained in the sample (_sample statistics_).
 
-It has no inferential power $\Rightarrow$ *Do not generalize to the population!*
+It has no inferential power, so _do not generalize to the population from the measures computed by Descriptive Statistics!_.
 
-Frequency distribution
-----------------------
+# Frequency distribution
 
 The study of a statistical variable starts by measuring the variable in the individuals of the sample and classifying the values.
 
 There are two ways of classifying data:
 
-**Non-grouping**: Sorting values from lowest to highest value (if there is an order). Used with qualitative variables and discrete variables with few   distinct values.
+- **Non-grouping**: Sorting values from lowest to highest value (if there is an order). Used with qualitative variables and discrete variables with few distinct values.
 
-**Grouping**: Grouping values into intervals (classes) and sort them from lowest to highest intervals. Used with continuous variables and discrete   variables with many distinct values.
+- **Grouping**: Grouping values into intervals (classes) and sort them from lowest to highest intervals. Used with continuous variables and discrete variables with many distinct values.
 
-### Sample classification
+## Sample classification
+
 It consists in grouping the values that are the same and sorting them if there is an order among them.
 
 **Example**. $X=$Height
 
-<img class="img-center" src="img/descriptive/sample_classification.png" alt="Sample classification" width="400">
+![Sample classification](img/descriptive/sample_classification.png){: .img-center width="400px"}
 
-### Frequency count
+## Frequency count
+
 It consists in counting the number of times that every value appears in the sample.
 
 **Example**. $X=$Height
 
-<img class="img-center" src="img/descriptive/frequency_count.png" alt="Frequency count" width="400">
+![Frequency count](img/descriptive/frequency_count.png){: .img-center width="400px"}
 
 ### Sample frequencies
 
 > **Definition - Sample frequencies**. Given a sample of $n$ values of a variable $X$, for every value $x_i$ of the variable we define
->
-> - **Absolute frequency $n_i$**: The number of times that value $x_i$ appears in the sample.
->
-> - **Relative frequency $f_i$**: The proportion of times that value $x_i$ appears in the sample.
->
-$$f_i = \frac{n_i}{n}$$
->
-> - **Cumulative absolute frequency $N_i$**: The number of values in the sample less than or equal to $x_i$.
->
-$$N_i = n_1 + \cdots + n_i = N_{i-1}+n_i$$
->
-> - **Cumulative relative frequency $F_i$**: The proportion of values in the sample less than or equal to $x_i$.
->
-$$F_i = \frac{N_i}{n}$$
 
+> - **Absolute Frequency $n_i$**: The number of times that value $x_i$ appears in the sample.
 
-### Frequency table
+> - **Relative Frequency $f_i$**: The proportion of times that value $x_i$ appears in the sample.
+
+> $$f_i = \frac{n_i}{n}$$
+
+> - **Cumulative Absolute Frequency $N_i$**: The number of values in the sample less than or equal to $x_i$.
+
+> $$N_i = n_1 + \cdots + n_i = N_{i-1}+n_i$$
+
+> - **Cumulative Relative Frequency $F_i$**: The proportion of values in the sample less than or equal to $x_i$.
+
+> $$F_i = \frac{N_i}{n}$$
+
+# Frequency table
 
 The set of values of a variable with their respective frequencies is called **frequency distribution** of the variable in the sample, and it is usually represented as a **frequency table**.
 
@@ -76,7 +77,7 @@ The set of values of a variable with their respective frequencies is called **fr
 |  $\vdots$  |      $\vdots$      |      $\vdots$      |           $\vdots$            |           $\vdots$            |
 |   $x_k$    |       $n_k$        |       $f_k$        |             $N_k$             |             $F_k$             |
 
-<br/>
+<br>
 
 **Example - Quantitative variable and non-grouped data**. The number of children in 25 families are:
 
@@ -86,56 +87,30 @@ The set of values of a variable with their respective frequencies is called **fr
 
 The frequency table for the number of children in this sample is
 
-$$
-\begin{array}{rrrrr}
-\hline
-x_i & n_i & f_i & N_i & F_i\\
-\hline
-0 & 2 & 0.08 & 2 & 0.08\\
-1 & 6 & 0.24 & 8 & 0.32\\
-2 & 14 & 0.56 & 22 & 0.88\\
-3 & 2  & 0.08 & 24 & 0.96\\
-4 & 1 & 0.04 & 25 & 1 \\
-\hline
-\sum & 25 & 1 \\
-\hline
-\end{array}$$
+$$ \begin{array}{rrrrr} \hline x_i & n_i & f_i & N_i & F_i\ \hline 0 & 2 & 0.08 & 2 & 0.08\ 1 & 6 & 0.24 & 8 & 0.32\ 2 & 14 & 0.56 & 22 & 0.88\ 3 & 2 & 0.08 & 24 & 0.96\ 4 & 1 & 0.04 & 25 & 1 \ \hline \sum & 25 & 1 \ \hline \end{array}$$
 
 **Example - Quantitative variable and grouped data**. The heights (in cm) of 30 students are:
 
 <div style="text-align:center">
-179, 173, 181, 170, 158, 174, 172, 166, 194, 185,<br/>
-162, 187, 198, 177, 178, 165, 154, 188, 166, 171,<br/>
+179, 173, 181, 170, 158, 174, 172, 166, 194, 185,<br>
+162, 187, 198, 177, 178, 165, 154, 188, 166, 171,<br>
 175, 182, 167, 169, 172, 186, 172, 176, 168, 187.
 </div>
 
 The frequency table for the height in this sample is
 
-$$
-\begin{array}{crrrr}
-\hline
-x_i & n_i & f_i & N_i & F_i\\
-\hline
-(150,160] & 2 & 0.07 & 2 & 0.07\\
-(160,170] & 8 & 0.27 & 10 & 0.34\\
-(170,180] & 11 & 0.36 & 21 & 0.70\\
-(180,190] & 7  & 0.23 & 28 & 0.93\\
-(190,200] & 2 & 0.07 & 30 & 1 \\
-\hline
-\sum & 30 & 1 \\
-\hline
-\end{array}
-$$
+$$ \begin{array}{crrrr} \hline x_i & n_i & f_i & N_i & F_i\ \hline (150,160] & 2 & 0.07 & 2 & 0.07\ (160,170] & 8 & 0.27 & 10 & 0.34\ (170,180] & 11 & 0.36 & 21 & 0.70\ (180,190] & 7 & 0.23 & 28 & 0.93\ (190,200] & 2 & 0.07 & 30 & 1 \ \hline \sum & 30 & 1 \ \hline \end{array} $$
 
-### Classes construction
+# Classes construction
 
-Intervals are known as and the center of intervals as **classes** and the center of intervals as **class marks**.
+Intervals are known as **classes** and the center of intervals as **class marks**.
 
 When grouping data into intervals, the following rules must be taken into account:
 
-- The number of intervals should not be too big nor too small. A usual rule of thumb is to take a number of intervals approximately $\sqrt{n}$ or $\log_2(n)$.
-- The intervals must not overlap and must cover the entire range of values. It does not matter if intervals are left-open and right-closed or vice versa.
-
+- The number of intervals should not be too big nor too small.
+A usual rule of thumb is to take a number of intervals approximately $\sqrt{n}$ or $\log_2(n)$.
+- The intervals must not overlap and must cover the entire range of values.
+It does not matter if intervals are left-open and right-closed or vice versa.
 - The minimum value must fall in the first interval and the maximum value in the last.
 
 **Example - Qualitative variable**. The blood types of 30 people are:
@@ -144,14 +119,12 @@ When grouping data into intervals, the following rules must be taken into accoun
 A, B, B, A, AB, 0, 0, A, B, B, A, A, A, A, AB, A, A, A, B, 0, B, B, B, A, A, A, 0, A, AB, 0.
 </div>
 
-The frequency table of the blood type is
+The frequency table of the blood type in this sample is
 
 $$
 \begin{array}{crr}
-\hline
-x_i & n_i & f_i \\
-\hline
-\mbox{0} & 5 & 0.16 \\
+\hline x_i & n_i & f_i \\
+\hline \mbox{0} & 5 & 0.16 \\
 \mbox{A} & 14 & 0.47 \\
 \mbox{B} & 8 & 0.27 \\
 \mbox{AB} & 3 & 0.10 \\
@@ -161,54 +134,66 @@ x_i & n_i & f_i \\
 \end{array}
 $$
 
-*Observe that in this case cumulative frequencies are nonsense as there is no order in the variable.*.
+_Observe that in this case cumulative frequencies are nonsense as there is no order in the variable._
 
-Frequency distribution graphs
------------------------------
+## Frequency distribution graphs
 
 Usually the frequency distribution is also displayed graphically.
-
 Depending on the type of variable and whether data has been grouped or not, there are different types of charts:
 
--   Bar chart
+- Bar chart
 
--   Histogram
+- Histogram
 
--   Line chart
+- Line or polygon chart.
 
--   Pie chart
+- Pie chart
 
 ### Bar chart
 
-A *bar chart* consists of a set of bars, one for every value or category of the variable, plotted on a coordinate system.
+A **bar chart** consists of a set of bars, one for every value or category of the variable, plotted on a coordinate system.
 
-Usually the values or categories of the variable are represented on the $x$-axis, and the frequencies on the $y$-axis. For each value or category of the variable, a bar is draw to the height of its frequency. The width of the bar is not important but bars should be clearly separated among them.
+Usually the values or categories of the variable are represented on the $x$-axis, and the frequencies on the $y$-axis.
+For each value or category of the variable, a bar is draw to the height of its frequency. The width of the bar is not important but bars should be clearly separated among them.
 
 Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.
 
 Sometimes a polygon, known as **frequency polygon**, is plotted joining the top of every bar with straight lines.
 
-**Example**. The bar chart below shows the absolute frequency distribution of the number of children.
+**Example**. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.
 
-<div id="absolute-barchart" class="plotly" style="margin: auto; width:80%"></div>
-<script type="application/json" data-for="absolute-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[2,6,14,2,1]}],"layout":{"title":"Absolute frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Absolute frequency"},"autosize":false, "width":600, "height":400, "bargap":0.5, "margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Absolute frequency distribution of number of children"},"evals":[]}</script>
+<div id="absolute-barchart" class="plotly" style="margin: 25px auto; width:80%">
+</div>
+
+<script type="application/json" data-for="absolute-barchart">
+{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[2,6,14,2,1]}],"layout":{"title":"Absolute frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Absolute frequency"},"autosize":false, "width":600, "height":400, "bargap":0.5, "margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Absolute frequency distribution of number of children"},"evals":[]}
+</script>
 
 The bar chart below shows the relative frequency distribution of the number of children with the frequency polygon.
 
-<div id="relative-barchart" class="plotly" style="margin: auto; width:80%"></div>
-<script type="application/json" data-for="relative-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"bar"},{"type":"scatter","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"polygon"}],"layout":{"title":"Relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false},"filename":"Relative frequency distribution of number of children"},"evals":[]}</script>
+<div id="relative-barchart" class="plotly" style="margin: auto; width:80%">
+</div>
+
+<script type="application/json" data-for="relative-barchart">
+{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"bar"},{"type":"scatter","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"polygon"}],"layout":{"title":"Relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Relative frequency distribution of number of children"},"evals":[]}</script>
 
 The bar chart below shows the cumulative absolute frequency distribution of the number of children.
 
-<div id="cumulative-absolute-barchart" class="plotly" style="margin: auto; width:80%"></div>
-<script type="application/json" data-for="cumulative-absolute-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[2,8,22,24,25]}],"layout":{"title":"Cumulative absolute frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Cumulative absolute frequency"},"autosize":false, "width":600, "height":400,"barsgap":0.5,"bargap":0.5,"margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Cumulative absolute frequency distribution of number of children"},"evals":[]}</script>
+<div id="cumulative-absolute-barchart" class="plotly" style="margin: 25px auto; width:80%">
+</div>
+
+<script type="application/json" data-for="cumulative-absolute-barchart">
+{"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[2,8,22,24,25]}],"layout":{"title":"Cumulative absolute frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Cumulative absolute frequency"},"autosize":false, "width":600, "height":400,"barsgap":0.5,"bargap":0.5,"margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Cumulative absolute frequency distribution of number of children"},"evals":[]}
+</script>
 
 And the bar chart below shows the cumulative relative frequency distribution of the number of children with the frequency polygon.
 
-<div id="cumulative-relative-barchart" class="plotly" style="margin: auto; width:80%"></div>
-<script type="application/json" data-for="cumulative-relative-barchart">{"x":{"data":[{"type":"bar","inherit":true,"x":[0,0,1,2,3,4],"y":[0,0.08,0.32,0.88,0.96,1],"name":"bar"},{"type":"scatter","inherit":true,"x":[0,0,1,2,3,4],"y":[0,0.08,0.32,0.88,0.96,1],"name":"polygon","line":{"shape":"hv"}}],"layout":{"title":"Cumulative relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Cumulative relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Cumulative relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Cumulative relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false},"filename":"Cumulative relative frequency distribution of number of children"},"evals":[]}</script>
+<div id="cumulative-relative-barchart" class="plotly" style="margin: 25px auto; width:80%">
+</div>
 
-<div id="cumula" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="cumulative-relative-barchart">
+{"x":{"data":[{"type":"bar","inherit":true,"x":[0,0,1,2,3,4],"y":[0,0.08,0.32,0.88,0.96,1],"name":"bar"},{"type":"scatter","inherit":true,"x":[0,0,1,2,3,4],"y":[0,0.08,0.32,0.88,0.96,1],"name":"polygon","line":{"shape":"hv"}}],"layout":{"title":"Cumulative relative frequency distribution of number of children","xaxis":{"title":"Number of children"},"yaxis":{"title":"Cumulative relative frequency"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}}, "filename":"Cumulative relative frequency distribution of number of children"},"evals":[]}
+</script>
 
 ### Histogram
 

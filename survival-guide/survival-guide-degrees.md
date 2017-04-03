@@ -52,6 +52,7 @@ Alfredo Sánchez Alberca
 - Prepare classes in advance. <!-- .element: class="fragment"-->
 - Try to solve problems by yourself. <!-- .element: class="fragment"-->
 - Expand the information given by the teacher from other sources. <!-- .element: class="fragment"-->
+- Let your curiosity and creativity loose. <!-- .element: class="fragment"-->
 
 ---
 

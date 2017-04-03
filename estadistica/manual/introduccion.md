@@ -5,7 +5,8 @@ description: Introducción a la Estadística
 image: cabecera-estadistica.jpg
 tags:
   - Estadística
-  - R
+  - Bioestadística
+  - Estadística-Descriptiva
 share: true
 ---
 
@@ -204,9 +205,9 @@ De acuerdo al papel que juegan en el estudio las variables también pueden clasi
 Dependiendo de si se manipulan las variables independientes existen dos tipos de estudios:
 
 - **Experimentales**: Cuando las variables independientes son manipuladas para ver el efecto que producen en las variables dependientes.<br>
-  Ejemplo. En un estudio sobre el rendimiento de los estudiantes en un test, el profesor manipula la metodología de estudio para crear dos o más grupos con metodologías de estudio distintas.
+  **Ejemplo**. En un estudio sobre el rendimiento de los estudiantes en un test, el profesor manipula la metodología de estudio para crear dos o más grupos con metodologías de estudio distintas.
 - **No experimentales**: Cuando las variables independientes no son manipuladas. Esto no significa que sea imposible hacerlo, sino que es difícil o poco ético hacerlo.<br>
-  Ejemplo. En un estudio un investigador puede estar interesado en el efecto de fumar sobre el cáncer de pulmón. Aunque es posible, no sería ético pedirle a los pacientes que fumasen para ver el efecto que tiene sobre sus pulmones. En este caso, el investigador podría estudiar dos grupos de pacientes, uno con cáncer de pulmón y otro sin cáncer, y observar en cada grupo cuántos fuman o no.
+  **Ejemplo**. En un estudio un investigador puede estar interesado en el efecto de fumar sobre el cáncer de pulmón. Aunque es posible, no sería ético pedirle a los pacientes que fumasen para ver el efecto que tiene sobre sus pulmones. En este caso, el investigador podría estudiar dos grupos de pacientes, uno con cáncer de pulmón y otro sin cáncer, y observar en cada grupo cuántos fuman o no.
 
 Los estudios experimentales permiten identificar causas y efectos entre las variables del estudio, mientras que los no experimentales sólo permiten identificar relaciones de asociación entre las variables.
 
