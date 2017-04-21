@@ -97,12 +97,15 @@ Error in eval(expr, envir, enclos): objeto 'y' no encontrado
 Error: $ operator is invalid for atomic vectors
 ```
 1. Linear model of response to pain on obesity: <br/>
-$\bar x=73.7`$, $s_x^2=127.21$. <br/>
+$\bar x=73.7$, $s_x^2=127.21$. <br/>
 $\bar y=7.7$, $s_y^2=20.66$. <br/>
 $s_{xy}=38.16$<br/>
 Regression line of pain relief on obesity: $y=-14.41+0.3x$. <br/>
-2. For each increment of one unit in the obesity the response to pain will increase 0.3 units.
-3. Linear coefficient of determination: $r^2=0.554$. So, the linear model explains the 55.4% of the variability of the response to pain and it does not explain the remaining 44.6%.
-
+2. For each increment of one unit in the obesity the response to pain will increase 0.3 units. <br/>
+3. Linear coefficient of determination: $r^2=0.554$. So, the linear model explains the 55.4% of the variability of the response to pain and it does not explain the remaining 44.6%.<br/>
+4. Exponential regression model: $y=e^{-1.772+0.049x}. To compute this model you have to apply the logarithm to the dependen variable, that is, the response to pain and then compute the regression line of the logarithm of the response to pain on obesity. <br/>
+5. Prediction with the linear model: y(50)=0.59 <br/>
+Prediction with the exponential model: y(50)=1.9699 <br/>
+The prediction with the exponential model is better as the exponential coefficient of determination is greater than the linear one. 
 </div>
 
