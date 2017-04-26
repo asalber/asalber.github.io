@@ -27,7 +27,7 @@ Alfredo Sánchez Alberca
 ## Self Motivation
 
 - Motivation is the key for success in every project. <!-- .element: class="fragment"-->
-- Do not forget the reasons that make you start the way (especially when you have difficulties). <!-- .element: class="fragment"-->
+- Do not forget the reasons that made you start the way (especially when you have difficulties). <!-- .element: class="fragment"-->
 - Walk with an eye in the goal and the other in the path.<!-- .element: class="fragment"-->
 - Think that many people, even with less capabilities than you, have finished this way successfully.  <!-- .element: class="fragment"-->
 
