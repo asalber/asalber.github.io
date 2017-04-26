@@ -179,6 +179,7 @@ Note: But working in group is not easy (especially when somebody does not assume
 - Use a study schedule with the classes, practices, exams, work or project deliveries, etc. <!-- .element: class="fragment"-->
 - Make a realistic study plan assigning home time for studying or working on every subject. <!-- .element: class="fragment"-->
 - Share your study plan with your teacher. <!-- .element: class="fragment"-->
+- Do not procastinate and be faithful to the planning. <!-- .element: class="fragment"-->
 
 ---
 
