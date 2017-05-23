@@ -1,0 +1,105 @@
+---
+layout: book
+title: Statistics exam
+description: "Solution of the exam"
+tags: [Exam, Statistics, Biostatistics]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+col1 <- rgb(5,161,230,max=255)
+col2 <- rgb(238,50,36,max=255)
+```
+
+Grades: Physiotheraphy  
+Date: May 19, 2017 
+
+# Probability and random variables
+
+## Exercise 1
+The prevalence of sciatica in a population is 3%.
+The Lasegue's test is a neurotension test that is used to diagnose the sciatica with a sensitivity of 91% and a specificity of 26%.
+On the other hand, there is an alternative test with a sensitivity of 80% and a specificity of 90%.
+
+1. Compute the positive predictive value for the Lasegue's test.
+2. Assuming that the tests are independent, compute the probability of having a positive outcome in both tests.
+3. Compute the probability of getting a wrong diagnose in the Lesegue's test or in the alternative test.
+4. Which test is better as a screening test (to rule out the sciatica)?
+
+```{r}
+p <- 0.03
+sen1 <- 0.91
+spe1 <- 0.26
+sen2 <- 0.8
+spe2 <- 0.9
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $PPV=P(D|+)=`r (p*sen1)/(p*sen1+(1-p)*(1-spe1))`$. It is not a goot test to confirm the sciatica as the post test probability of having the sciatica for a positive outcome is very low. <br/>
+2. Naming $L⁺$ to the event of having a positive outcome in Lasegue's test and $A⁺$ to the event of having a positive outcome in the alternative test: $P(L^+\cap A^+)=P(L^+)P(A^+)=`r (p*sen1+(1-p)*(1-spe1))`\cdot `r (p*sen2+(1-p)*(1-spe2))` = `r (p*sen1+(1-p)*(1-spe1))*(p*sen2+(1-p)*(1-spe2))`$. <br/>
+3. Naming $WL$ to the event of having a wrong diagnose with Lasegue's test and $WA$ to the event of having a wrong diagnose with the alternative test: $P(WL\cup WA)=P(WL)+P(WA)-P(WL\cap WA)=`r p*(1-sen1)+(1-p)*(1-spe1)`+ `r p*(1-sen2)+(1-p)*(1-spe2)`-`r p*(1-sen1)+(1-p)*(1-spe1)`\cdot`r p*(1-sen2)+(1-p)*(1-spe2)`=`r p*(1-sen1)+(1-p)*(1-spe1)+p*(1-sen2)+(1-p)*(1-spe2)-(p*(1-sen1)+(1-p)*(1-spe1))*(p*(1-sen2)+(1-p)*(1-spe2))`$. <br/>
+4. Lesegue test: $NPV=P(\overline D|-)=`r ((1-p)*spe1)/(p*(1-sen1)+(1-p)*(spe1))`$.<br/>
+Alternative test: $NPV=P(\overline D|-)=`r ((1-p)*spe2)/(p*(1-sen2)+(1-p)*(spe2))`$.<br/>
+Thus, the alternative test is better to rule out the sciatica. 
+</div>
+
+## Exercise 2
+A physiotherapist opens a clinic and use the social networks to advertise it.
+In particular he send a friend request to 20 contacts on Facebook.
+If the probability that a Facebook user accept the friend request is 80%, what is the probability that more than 18 accept the friend request?
+What is the expected number of friend requests accepted?
+
+```{r}
+n <- 20
+p <- 0.8
+p1 <- pbinom(18,n,p,lower.tail = FALSE)
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $X$ to the number of accepted friend request, $X\sim B(20,0.8)$ and $P(X>18)=`r p1`$.<br/>
+The expected number of accepted friend request is $`r n*p`$. 
+</div>
+
+## Exercise 3
+According to a study of the Information Society of Spain in 2013, the spanish checks the mobile phone 150 times a day in average.
+What is the probability that a spanish person checks the mobile phone more than 2 times an hour?
+
+```{r}
+p <- ppois(2,6.25,lower.tail = FALSE)
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Naming $X$ to the number of times that a spanish person checks the phone in an hour, $X\sim P(6.25)$ and $P(X>2)=`r p`$.
+</div>
+
+## Exercise 4
+The the cervical rotation in a population follows a normal probability distribution model with mean 58º and standard deviation 6º.
+
+1. Between what values are the cervical rotation of the central 50\% of the population?
+2. Taking into account the precision of the measurement instrument, a goniometer, a rotation less than 53º is considered a mobility limitation.
+If we take a random sample of 100 persons from this population, what is the expected number of persons with mobility limitation in the sample?
+
+```{r}
+m <- 58
+s <- 6
+q1 <- qnorm(0.25,m,s)
+q3 <- qnorm(0.75,m,s)
+p1 <- pnorm(53,m,s,lower.tail = T)
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Naming $X$ to the cervical rotation, $X\sim N(`r m`, `r s`)$. <br/>
+1. $(Q1,Q3)=(`r q1`, `r q3`)$. <br/>
+3. $P(X<53)=`r p1`$ and the expected number of persons with mobility limitation in a sample of 100 persons is $`r p1*100`$. 
+</div>
+
+

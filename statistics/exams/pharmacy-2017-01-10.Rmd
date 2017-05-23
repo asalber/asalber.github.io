@@ -222,7 +222,7 @@ Assume that blood pressure is normally distributed.
 1. Compute the mean and standard deviation (of blood pressure).  
 2. Readings above 140 mmHg are considered to be a high pressure problem.
 How many people in the group have such pressure problem?
-3. A test will flag a blood pressure problem if the reading of a patient pressure is in the bottom 5\% or in the top 5\% of the results for the population.
+3. A test will flag a blood pressure problem if the reading of a patient pressure is in the bottom 5% or in the top 5% of the results for the population.
 For what values of the blood pressure is an individual in the population considered normal?
 
 ```{r}
