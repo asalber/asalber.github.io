@@ -11,6 +11,8 @@ share: true
 
 In this post I offer some advice or tips that can help undergraduate students, especially during their first years, to be successful making the most of classes and learning to maximize their work.
 
+<!--MORE-->
+
 I give this pieces of advice from a deep teaching background and from my own experience as a student.
 
 Most of this tips could seem obvious but many students fail to put them into practice.
