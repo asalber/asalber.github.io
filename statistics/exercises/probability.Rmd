@@ -7,15 +7,7 @@ share: true
 image: dados.jpg
 ---
 
-```{r global_options, include=FALSE}
-library(knitr)
-#library(printr)
-#library(rk.Teaching)
-options(digits=4, scipen=999)
-opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
-col1 <- rgb(5,161,230,max=255)
-col2 <- rgb(238,50,36,max=255)
-```
+
 
 ## Exercise 1
 Construct the sample space of the following random experiments:
@@ -44,10 +36,10 @@ Compute the probability of the following events of the random experiment consist
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $P(\mbox{1 heads})=`r dbinom(1,3,0.5)`$. <br/>
-2. $P(\mbox{2 tails})=`r dbinom(2,3,0.5)`$. <br/>
-3. $P(\mbox{2 or more heads})=`r pbinom(1,3,0.5,lower.tail=FALSE)`$. <br/>
-4. $P(\mbox{some tails})=`r pbinom(0,3,0.5,lower.tail=FALSE)`$.
+1. $P(\mbox{1 heads})=0.375$. <br/>
+2. $P(\mbox{2 tails})=0.375$. <br/>
+3. $P(\mbox{2 or more heads})=0.5$. <br/>
+4. $P(\mbox{some tails})=0.875$.
 </div>
 
 ## Exercise 5
@@ -131,14 +123,14 @@ The probability that an injury $A$ is repeated is $4/5$, the probability that an
 1.  Only injury $B$ is repeated.
 2.  At least one injury is repeated.
 3.  Injury $B$ is repeated if injury $A$ has been repeated.
-4.  Injury $B$ is repeated if injury $A$ hasn’t been repeated.
+4.  Injury $B$ is repeated if injury $A$ has not been repeated.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $P(B\cap\bar A)=1/6$. <br/>
+1. $P(B\cap\overline A)=1/6$. <br/>
 2. $P(A\cup B)=29/30$. <br/>
 3. $P(B\vert A)=5/12$. <br/>
-4. $P(B\vert \bar A)=5/6$.
+4. $P(B\vert \overline A)=5/6$.
 </div>
 
 ## Exercise 11
@@ -153,29 +145,20 @@ Naming $G$, $U$ and $C$ to the events of having gastritis, ulcer and cander resp
 
 
 ## Exercise 12
-```{r}
-g1 = 0.6
-g2 = 0.3
-g3 = 0.1
-sg1 = 0.8
-sg2 = 0.9
-sg3 = 1
-s = g1*sg1+g2*sg2+g3*sg3
-n = 10000
-```
 
-A severe pain without effusion in a particular zone of the knee joint is a symptom of sprained lateral collateral ligament (SLCL). If the sprains in that ligament are classified into grade 1, when there is only distension (`r g1*100`% of cases), grade 2 when there is a partial tearing (`r g2*100`% of cases) and grade 3 when there is a complete tearing (`r g3*100`% of cases). Taking into account that the symptom appears in `r sg1*100`% of cases of grade 1 sprains, `r sg2*100`% of cases of grade 2 and `r sg3*100`% of cases of grade 3, answer the following questions:
+
+A severe pain without effusion in a particular zone of the knee joint is a symptom of sprained lateral collateral ligament (SLCL). If the sprains in that ligament are classified into grade 1, when there is only distension (60% of cases), grade 2 when there is a partial tearing (30% of cases) and grade 3 when there is a complete tearing (10% of cases). Taking into account that the symptom appears in 80% of cases of grade 1 sprains, 90% of cases of grade 2 and 100% of cases of grade 3, answer the following questions:
 
 1.  If a person has SLCL what is the probability that he or she present severe pain without effusion?
 2.  What is the diagnosis for a person with severe pain without effusion?
-3.  From a total of `r n` people with severe pain without effusion, how many are expected to have a grade 1 sprain? How many are expected to have a grade 2 sprain? And a grade 3 sprain?
+3.  From a total of 10000 people with severe pain without effusion, how many are expected to have a grade 1 sprain? How many are expected to have a grade 2 sprain? And a grade 3 sprain?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 Naming $S$ to the event of presenting severe pain without effusion, and $G1$, $G2$ and $G3$ to the events of having a SLCL of grade 1, 2 and 3 respectively, <br/>
-1. $P(S)=`r s`$. <br/>
-2. $P(G1\vert S)=`r g1*sg1/s`$, $P(G2\vert S)=`r g2*sg2/s`$ and $P(G3\vert S)=`r g3*sg3/s`$, so the diagnosis is a SLCL of grade 1. <br/>
-3. $`r g1*sg1/s*n`$ will have a grade 1 sprain, $`r g2*sg2/s*n`$ will have a grade 2 sprain and $`r g3*sg3/s*n`$ will have a grade 3 sprain.
+1. $P(S)=0.85$. <br/>
+2. $P(G1\vert S)=0.5647$, $P(G2\vert S)=0.3176$ and $P(G3\vert S)=0.1176$, so the diagnosis is a SLCL of grade 1. <br/>
+3. $5647.0588$ will have a grade 1 sprain, $3176.4706$ will have a grade 2 sprain and $1176.4706$ will have a grade 3 sprain.
 </div>
 
 

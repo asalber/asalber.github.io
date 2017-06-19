@@ -41,7 +41,7 @@ spe2 <- 0.9
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $PPV=P(D|+)=`r (p*sen1)/(p*sen1+(1-p)*(1-spe1))`$. It is not a goot test to confirm the sciatica as the post test probability of having the sciatica for a positive outcome is very low. <br/>
+1. $PPV=P(D|+)=`r (p*sen1)/(p*sen1+(1-p)*(1-spe1))`$. It is not a good test to confirm the sciatica as the post test probability of having the sciatica for a positive outcome is very low. <br/>
 2. Naming $L⁺$ to the event of having a positive outcome in Lasegue's test and $A⁺$ to the event of having a positive outcome in the alternative test: $P(L^+\cap A^+)=P(L^+)P(A^+)=`r (p*sen1+(1-p)*(1-spe1))`\cdot `r (p*sen2+(1-p)*(1-spe2))` = `r (p*sen1+(1-p)*(1-spe1))*(p*sen2+(1-p)*(1-spe2))`$. <br/>
 3. Naming $WL$ to the event of having a wrong diagnose with Lasegue's test and $WA$ to the event of having a wrong diagnose with the alternative test: $P(WL\cup WA)=P(WL)+P(WA)-P(WL\cap WA)=`r p*(1-sen1)+(1-p)*(1-spe1)`+ `r p*(1-sen2)+(1-p)*(1-spe2)`-`r p*(1-sen1)+(1-p)*(1-spe1)`\cdot`r p*(1-sen2)+(1-p)*(1-spe2)`=`r p*(1-sen1)+(1-p)*(1-spe1)+p*(1-sen2)+(1-p)*(1-spe2)-(p*(1-sen1)+(1-p)*(1-spe1))*(p*(1-sen2)+(1-p)*(1-spe2))`$. <br/>
 4. Lesegue test: $NPV=P(\overline D|-)=`r ((1-p)*spe1)/(p*(1-sen1)+(1-p)*(spe1))`$.<br/>

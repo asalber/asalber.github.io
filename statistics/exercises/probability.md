@@ -123,14 +123,14 @@ The probability that an injury $A$ is repeated is $4/5$, the probability that an
 1.  Only injury $B$ is repeated.
 2.  At least one injury is repeated.
 3.  Injury $B$ is repeated if injury $A$ has been repeated.
-4.  Injury $B$ is repeated if injury $A$ hasn’t been repeated.
+4.  Injury $B$ is repeated if injury $A$ has not been repeated.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $P(B\cap\bar A)=1/6$. <br/>
+1. $P(B\cap\overline A)=1/6$. <br/>
 2. $P(A\cup B)=29/30$. <br/>
 3. $P(B\vert A)=5/12$. <br/>
-4. $P(B\vert \bar A)=5/6$.
+4. $P(B\vert \overline A)=5/6$.
 </div>
 
 ## Exercise 11
