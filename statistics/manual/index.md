@@ -15,7 +15,7 @@ The manual is mainly aimed at Biostatistics, and therefore most of the examples 
 
 - [Introduction](/statistics/manual/introduction.html)
 - [Descriptive Statistic for one variable](/statistics/manual/descriptive-statistics.html)
-- [Descriptive Statistic for two variables: Regression y correlation](/statistics/manual/regression.html)
+- [Descriptive Statistic for two variables: Regression and correlation](/statistics/manual/regression.html)
 - [Probability theory](/statistics/manual/probability.html)
 - [Discrete random variables](/statistics/manual/discrete_random_variables.html)
 - [Continuous random variables](/statistics/manual/continuous_random_variables.html)

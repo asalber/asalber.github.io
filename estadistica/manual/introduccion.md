@@ -47,7 +47,7 @@ A veces, no todos los elementos de la población están accesibles para su estud
 - **Población Teórica**: Conjunto de elementos a los que se quiere extrapolar los resultados del estudio.
 - **Población Estudiada**: Conjunto de elementos realmente accesibles en el estudio.
 
-**Ejemplo**. En el caso del estudio de una enfermedad, la población teórica sería todas las personas que contraigan la enfermedad, incluso si aún no han nacido, mientras que la población estudiada se limitaría al número de personas enfermas que realmente podemos estudiar (obsérvese que incluso quedarían fuera las personas enfermas actualmente que no supieran que lo están o a las que no pudiésemos acceder físicamente para estudiarlas).
+**Ejemplo**. En el caso del estudio de una enfermedad, la población teórica sería todas las personas que contraigan la enfermedad, incluso si aún no han nacido, mientras que la población estudiada se limitaría al número de personas enfermas que realmente podemos estudiar (obsérvese que incluso quedarían fuera las personas enfermas pero de las que no podemos conseguir información).
 
 ## Inconvenientes en el estudio de la población
 
@@ -119,8 +119,6 @@ La estadística se apoya fundamentalmente en el razonamiento inductivo ya que ut
 
 # Muestreo
 
-## Muestreo
-
 > **Definición - Muestreo**. El proceso de selección de los elementos que compondrán una muestra se conoce como _muestreo_.
 
 ![Muestreo](img/introduccion/muestreo.svg){: .img-center width="500px"}
@@ -135,7 +133,7 @@ Existen muchas técnicas de muestreo pero se pueden agrupar en dos categorías:
 
 - **Muestreo Aleatorio**: Elección aleatoria de los individuos de la muestra. Todos tienen la misma probabilidad de ser elegidos (_equiprobabilidad_).
 
-- **Muestreo No Aleatorio**: Los individuos se eligen de forma no aleatoria.
+- **Muestreo No Aleatorio**: Los individuos se eligen de forma no aleatoria. Algunos individuos tienen más probabilidad de ser seleccionados que otros.
 
 Sólo las técnicas aleatorias evitan el sesgo de selección, y por tanto, garantizan la representatividad de la muestra extraída, y en consecuencia la validez de las conclusiones.
 
@@ -146,9 +144,7 @@ Las técnicas no aleatorias no sirven para hacer generalizaciones, ya que no gar
 Dentro de las modalidades de muestreo aleatorio, el tipo más conocido es el _muestreo aleatorio simple_, caracterizado por:
 
 - Todos los individuos de la población tienen la misma probabilidad de ser elegidos para la muestra.
-
 - La selección de individuos es con reemplazamiento, es decir, cada individuo seleccionado es devuelto a la población antes de seleccionar al siguiente (y por tanto no se altera la población de partida).
-
 - Las sucesivas selecciones de un individuo son independientes.
 
 La única forma de realizar un muestreo aleatorio es asignar un número a cada individuo de la población (_censo_) y realizar un sorteo aleatorio.
@@ -169,6 +165,7 @@ Estas características pueden ser de distintos tipos de acuerdo a su naturaleza 
 
   - **Nominales**: No existe un orden entre las categorías.<br>
     Ejemplo: El color de pelo o el sexo.
+
   - **Ordinales**: Existe un orden entre las categorías.<br>
     Ejemplo: El nivel de estudios o la gravedad de una enfermedad.
 
@@ -176,17 +173,24 @@ Estas características pueden ser de distintos tipos de acuerdo a su naturaleza 
 
   - **Discretas**: Toman valores numéricos aislados (habitualmente números enteros).<br>
     Ejemplo: El número de hijos o el número de coches en una familia.
+
   - **Continuas**: Pueden tomar cualquier valor en un intervalo real.<br>
     Ejemplo: El peso o la estatura.
 
+Las variables cualitativas y discretas se conocen también con _variables categóricas_ y sus valores _categorías_.
+
 !["Tipos de variables estadísticas"](img/introduccion/tipos_variables.svg){: .img-center width="800px"}
+
+### Elección del tipo de variable más apropiado
 
 En ocasiones una característica puede medirse mediante variables de distinto tipo.
 
 **Ejemplo**. Si una persona fuma o no podría medirse de diferentes formas:
 
 - Fuma: si/no. (Nominal)
+
 - Nivel de fumador: No fuma / ocasional / moderado / bastante / empedernido. (Ordinal)
+
 - Número de cigarros diarios: 0,1,2,... (Discreta)
 
 En estos casos es preferible usar variables cuantitativas a cualitativas. Dentro de las cuantitativas es preferible usar las continuas a las discretas y dentro de las cualitativas es preferible usar ordinales a nominales pues aportan más información.
@@ -204,9 +208,9 @@ De acuerdo al papel que juegan en el estudio las variables también pueden clasi
 
 Dependiendo de si se manipulan las variables independientes existen dos tipos de estudios:
 
-- **Experimentales**: Cuando las variables independientes son manipuladas para ver el efecto que producen en las variables dependientes.<br>
+- **Experimentales**: Cuando las variables independientes son manipuladas para ver el efecto que producen en las variables dependientes.  
   **Ejemplo**. En un estudio sobre el rendimiento de los estudiantes en un test, el profesor manipula la metodología de estudio para crear dos o más grupos con metodologías de estudio distintas.
-- **No experimentales**: Cuando las variables independientes no son manipuladas. Esto no significa que sea imposible hacerlo, sino que es difícil o poco ético hacerlo.<br>
+- **No experimentales**: Cuando las variables independientes no son manipuladas. Esto no significa que sea imposible hacerlo, sino que es difícil o poco ético hacerlo.  
   **Ejemplo**. En un estudio un investigador puede estar interesado en el efecto de fumar sobre el cáncer de pulmón. Aunque es posible, no sería ético pedirle a los pacientes que fumasen para ver el efecto que tiene sobre sus pulmones. En este caso, el investigador podría estudiar dos grupos de pacientes, uno con cáncer de pulmón y otro sin cáncer, y observar en cada grupo cuántos fuman o no.
 
 Los estudios experimentales permiten identificar causas y efectos entre las variables del estudio, mientras que los no experimentales sólo permiten identificar relaciones de asociación entre las variables.
@@ -219,14 +223,14 @@ En esta tabla cada columna contiene la información de una variable y cada fila 
 
 **Ejemplo** La siguiente tabla contiene información de las variables Nombre, Edad, Sexo, Peso y Altura de una muestra de 6 personas.
 
-| Nombre             | Edad | Sexo | Peso | Altura |
-|:-------------------|:----:|:----:|:----:|:------:|
-| José Luis Martínez |  18  |  H   |  85  |  179   |
-| Rosa Díaz          |  32  |  M   |  65  |  173   |
-| Javier García      |  24  |  H   |  71  |  181   |
-| Carmen López       |  35  |  M   |  65  |  170   |
-| Marisa López       |  46  |  M   |  51  |  158   |
-| Antonio Ruiz       |  68  |  H   |  66  |  174   |
+| Nombre             | Edad | Sexo | Peso(Kg) | Altura(cm) |
+|:-------------------|:----:|:----:|:--------:|:----------:|
+| José Luis Martínez |  18  |  H   |    85    |    179     |
+| Rosa Díaz          |  32  |  M   |    65    |    173     |
+| Javier García      |  24  |  H   |    71    |    181     |
+| Carmen López       |  35  |  M   |    65    |    170     |
+| Marisa López       |  46  |  M   |    51    |    158     |
+| Antonio Ruiz       |  68  |  H   |    66    |    174     |
 
 ## Fases del análisis estadístico
 
@@ -234,11 +238,11 @@ Normalmente un estudio estadístico pasa por las siguientes etapas:
 
 1. El estudio comienza por el diseño previo del mismo en el que se establezcan los objetivos del mismo, la población, las variables que se medirán y el tamaño muestral requerido.
 
-2. A continuación se seleccionará una muestra representativa del tamaño establecido y se medirán las variables en los individuos de la muestra obteniendo la tabla de datos. De esto se encarga el **Muestreo**.
+2. A continuación se seleccionará una muestra representativa del tamaño establecido y se medirán las variables en los individuos de la muestra obteniendo la tabla de datos. De esto se encarga el _Muestreo_.
 
-3. El siguiente paso consiste en describir y resumir la información que contiene la muestra. De esto se encarga la **Estadística Descriptiva**.
+3. El siguiente paso consiste en describir y resumir la información que contiene la muestra. De esto se encarga la _Estadística Descriptiva_.
 
-4. La información obtenida es proyectada sobre un modelo matemático que intenta explicar el comportamiento de la población y el modelo se valida. De todo esto se encarga la **Estadística Inferencial**.
+4. La información obtenida es proyectada sobre un modelo matemático que intenta explicar el comportamiento de la población y el modelo se valida. De todo esto se encarga la _Estadística Inferencial_.
 
 5. Finalmente, el modelo validado nos permite hacer predicciones y sacar conclusiones sobre la población de partida con cierta confianza.
 

@@ -25,7 +25,7 @@ But, _why is Statistics necessary?_
 
 ## A changing World
 
-Scientists try to study the World. A World with a high variability that makes difficult determining the behavior of things.
+Scientists try to study the World. A World with a high variability that makes difficult determining the behaviour of things.
 
 Statistics provides a bridge between the real world and the mathematical models that attempt to explain it, providing a methodology to assess the discrepancies between reality and theoretical models.
 
@@ -43,6 +43,8 @@ Sometimes not all the individuals are accessible to study. Then we distinguish b
 
 - **Theoretical population**: Individuals to which we want to extrapolate the study conclusions.
 - **Studied population**: Individuals truly accessible in the study.
+
+**Example**. In a study about a particular disease, the theoretical population would be all the persons that suffered the disease in some moment, even if they were not born yet. While the studied population will be the set o persons that have suffered the disease and that we can really study (observe that this exclude people with the disease but that we do not have any mean to get information about them).
 
 ## Drawbacks in the population study
 
@@ -76,7 +78,7 @@ The answer depends of several factors, as the population variability or the desi
 
 Unfortunately we can not answer that question until the end of the course, but in general, the most individuals the sample has, the more reliable will the conclusions be on the population, but also the study will be longer and more expensive.
 
-**Example**. To understand what a sufficient sample size means we can use a picture example. A digital photography consist of a lot of small points called pixels disposed in an big array layout with rows and columns (the more rows and columns, the more resolution the picture has). Here the picture is the population and every pixel is an individual. Every pixel has a colour and it's the variability of colours what forms the picture motif.
+**Example**. To understand what a sufficient sample size means we can use a picture example. A digital photography consist of a lot of small points called pixels disposed in an big array layout with rows and columns (the more rows and columns, the more resolution the picture has). Here the picture is the population and every pixel is an individual. Every pixel has a colour and it is the variability of colours what forms the picture motif.
 
 _How many pixels must we take in a sample in order to know the motif of a picture?_
 
@@ -86,9 +88,9 @@ The image below contains a small sample of the pixels of a picture. Could you fi
 
 ![Picture with low resolution.](img/introduction/sample_windmill1.jpg "Picture with low resolution."){: .img-center}
 
-_With a small sample size it's difficult to find out the picture motif!_
+_With a small sample size it is difficult to find out the picture motif!_
 
-Surely you has not been able to guess the motif becuase the number of pixels picked in the sample is too small to understand the variability of colors in the picture.
+Surely you has not been able to guess the motif because the number of pixels picked in the sample is too small to understand the variability of colours in the picture.
 
 The image below contains a larger sample of pixels. Could you find out the motif of the picture now?
 
@@ -100,7 +102,7 @@ And here is the whole population.
 
 ![Picture with full resolution.](img/introduction/sample_windmill3.jpg "Picture with full resolution."){: .img-center}
 
-_It's not required to know all the pixels of a picture to find out its motif!_
+_It is not required to know all the pixels of a picture to find out its motif!_
 
 ## Types of reasoning
 
@@ -108,7 +110,7 @@ _It's not required to know all the pixels of a picture to find out its motif!_
 
 **Deduction properties**: If the premises are true, it guarantees the certainty of the conclusions (that is, if something is true in the population, it is also true in the sample). However,
 
-**Induction properties**: It doesn't guarantee the certainty of the conclusions (if something is true in the sample, it may not be true in the population, so be careful with the extrapolations!). But, _it's the only way to generate new knowledge!_
+**Induction properties**: It does not guarantee the certainty of the conclusions (if something is true in the sample, it may not be true in the population, so be careful with the extrapolations!). But, _it is the only way to generate new knowledge!_
 
 Statistics is fundamentally based on inductive reasoning, because it uses the information obtained from samples to draw conclusions about populations.
 
