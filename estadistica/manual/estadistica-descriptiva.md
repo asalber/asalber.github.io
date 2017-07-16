@@ -36,11 +36,11 @@ Existen dos formas de clasificar estos valores:
 
 Consiste colocar juntos los valores iguales y ordenarlos si existe un orden entre ellos.
 
-![image](img/descriptiva/clasificacion_muestra){: .img-center width="400px"}
+![image](img/descriptiva/clasificacion_muestra.png){: .img-center width="400px"}
 
 # Recuento de frecuencias
 
-![image](img/descriptiva/recuento_frecuencias){: .img-center width="400px"}
+![image](img/descriptiva/recuento_frecuencias.png){: .img-center width="400px"}
 
 # Frecuencias muestrales
 
@@ -74,7 +74,7 @@ Al conjunto de valores observados en la muestra junto a sus respectivas frecuenc
 
 <br>
 
-**Ejemplo - Variable cuantitativa y datos no agrupados**. En una encuesta a 25 matrimonios sobre el número de hijos que tenían se obtuvieron los siguientes datos:
+**Ejemplo - Variable cuantitativa y datos no agrupados**. El número de hijos en 25 familias es:
 
 <div style="text-align:center">
 1, 2, 4, 2, 2, 2, 3, 2, 1, 1, 0, 2, 2, 0, 2, 2, 1, 2, 2, 3, 1, 2, 2, 1, 2
@@ -83,8 +83,10 @@ Al conjunto de valores observados en la muestra junto a sus respectivas frecuenc
 La tabla de frecuencias del número de hijos en esta muestra es
 
 $$ \begin{array}{rrrrr}
-\hline x_i & n_i & f_i & N_i & F_i\\
-\hline 0 & 2 & 0.08 & 2 & 0.08\\
+\hline
+x_i & n_i & f_i & N_i & F_i\\
+\hline
+0 & 2 & 0.08 & 2 & 0.08\\
 1 & 6 & 0.24 & 8 & 0.32\\
 2 & 14 & 0.56 & 22 & 0.88\\
 3 & 2 & 0.08 & 24 & 0.96\\
@@ -171,7 +173,12 @@ La tabla de frecuencias también suele representarse gráficamente. Dependiendo 
 
 Un **diagrama de barras** consiste en un conjunto de barras, una para cada valor o categoría de la variable, dibujadas sobre unos ejes cartesianos.
 
-Habitualmente los valores o categorías de la variable se representan en eje $X$, y las frecuencias en el eje $Y$. Para cada valor o categoría se dibuja una barra con la altura correspondiente a su frecuencia. La anchura de la barra no es importante pero las barras deben aparecer claramente separadas unas de otras.
+Habitualmente los valores o categorías de la variable se representan en eje $X$, y las frecuencias en el eje $Y$.
+Para cada valor o categoría se dibuja una barra con la altura correspondiente a su frecuencia. La anchura de la barra no es importante pero las barras deben aparecer claramente separadas unas de otras.
+
+Dependiendo del tipo de frecuencia representada en el eje $Y$ se tienen diferentes tipos de diagramas de barras.
+
+En ocasiones se dibuja un polígono, conocido como **polígono de frecuencias**, uniendo mediante segmentos los puntos más altos de cada barra.
 
 **Ejemplo**. El diagrama de barras que aparece a continuación muestra la distribución de frecuencias absolutas del número de hijos en la muestra anterior.
 
@@ -182,7 +189,7 @@ Habitualmente los valores o categorías de la variable se representan en eje $X$
 {"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[2,6,14,2,1]}],"layout":{"title":"Distribución de frecuencias absolutas del número de hijos","xaxis":{"title":"Número de hijos"},"yaxis":{"title":"Frecuencia Absoluta"},"autosize":false, "width":600, "height":400, "bargap":0.5, "margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Distribución de frecuencias absolutas del número de hijos"},"evals":[]}
 </script>
 
-El diagrma de barras que aparece a continuación muestra la distribución de frecuencias relativas del número de hijos en la muestra anterior junto al polígono de frecuencias.
+El diagrama de barras que aparece a continuación muestra la distribución de frecuencias relativas del número de hijos en la muestra anterior junto al polígono de frecuencias.
 
 <div id="relative-barchart" class="plotly" style="margin: 25px auto; width:80%">
 </div>
@@ -191,7 +198,7 @@ El diagrma de barras que aparece a continuación muestra la distribución de fre
 {"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"barra"},{"type":"scatter","inherit":true,"x":[0,1,2,3,4],"y":[0.08,0.24,0.56,0.08,0.04],"name":"polígono"}],"layout":{"title":"Distribución de frecuencias relativas del número de hijos","xaxis":{"title":"Número de hijos"},"yaxis":{"title":"Frecuencia Relativa"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}}, "filename":"Distribución de frecuencias relativas del número de hijos"},"evals":[]}
 </script>
 
-El diagrama de barras que aparece a contiuación muestra la distribución de frecuencias absolutas acumuladas del número de hijos en la muestra anterior.
+El diagrama de barras que aparece a continuación muestra la distribución de frecuencias absolutas acumuladas del número de hijos en la muestra anterior.
 
 <div id="cumulative-absolute-barchart" class="plotly" style="margin: 25px auto; width:80%">
 </div>
@@ -200,7 +207,7 @@ El diagrama de barras que aparece a contiuación muestra la distribución de fre
 {"x":{"data":[{"type":"bar","inherit":true,"x":[0,1,2,3,4],"y":[2,8,22,24,25]}],"layout":{"title":"Distribución de frecuencias absolutas acumuladas del número de hijos","xaxis":{"title":"Número de hijos"},"yaxis":{"title":"Frecuencia Absoluta Acumulada"},"autosize":false, "width":600, "height":400,"barsgap":0.5,"bargap":0.5,"margin":{"b":40,"l":60,"t":25,"r":10}},"filename":"Distribución de frecuencias absolutas acumuladas del número de hijos"},"evals":[]}
 </script>
 
-Y el diagrama de barraas que aparece a continuación muestra la distribución de frecuencias relativas acumuladas del número de hijos en la muestra anterior junto al polígono de frecuencias.
+Y el diagrama de barras que aparece a continuación muestra la distribución de frecuencias relativas acumuladas del número de hijos en la muestra anterior junto al polígono de frecuencias.
 
 <div id="cumulative-relative-barchart" class="plotly" style="margin: 25px auto; width:80%">
 </div>
@@ -209,40 +216,65 @@ Y el diagrama de barraas que aparece a continuación muestra la distribución de
 {"x":{"data":[{"type":"bar","inherit":true,"x":[0,0,1,2,3,4],"y":[0,0.08,0.32,0.88,0.96,1],"name":"barra"},{"type":"scatter","inherit":true,"x":[0,0,1,2,3,4],"y":[0,0.08,0.32,0.88,0.96,1],"name":"polígono","line":{"shape":"hv"}}],"layout":{"title":"Distribución de frecuencias relativas acumuladas del número de hijos","xaxis":{"title":"Número de hijos"},"yaxis":{"title":"Frecuencia Relativa Acumulada"},"autosize":false,"width":600,"height":400,"bargap":0.5,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}}, "filename":"Distribución de frecuencias relativas acumuladas del número de hijos"},"evals":[]}
 </script>
 
-## Hitograma
+### Histograma
 
+Un _histograma_ es similar a un diagrama de barras pero para datos agrupados.
 
-## Histograma de frecuencias absolutas
+Habitualmente las clases o intervalos de agrupación se representan en el
+eje $X$, y las frecuencias en el eje $Y$.
+Para cada clase se dibuja una barra de altura la correspondiente
+frecuencia. A diferencia del diagrama de barras, la anchura del la barra
+coincide con la anchura de las clases y no hay separación entre dos
+barras consecutivas.
 
-### Datos agrupados
+<img class="img-center" src="img/descriptiva/histogram_creation.gif" alt="Sample classification" width="400">
 
-## Polígono de frecuencias absolutas
+Dependiendo del tipo de frecuencia representada en el eje $Y$ existen
+distintos tipos de histogramas.
 
-### Datos agrupados
+Al igual que con el diagrama de barras, se puede dibujar un _polígono de frecuencias_ uniendo los puntos centrales más altos de cada barra con segmentos.
 
-## Histograma de frecuencias absolutas acumuladas
+**Ejemplo**. El siguiente histograma muestra la distribución de frecuencias absolutas de las estaturas.
 
-### Datos agrupados
+<div id="absolute-histogram" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="absolute-histogram">{"x":{"data":[{"type":"histogram","inherit":true,"x":[179,173,181,169,158,174,172,166,194,185,162,187,198,177,178,165,154,188,166,171,175,182,167,169,172,186,172,176,168,187],"marker":{"line":{"width":1}}}],"layout":{"title":"Distribución de frecuencias absolutas de estaturas","xaxis":{"title":"Estatura"},"yaxis":{"title":"Frecuencia absoluta"},"autosize":false,"width":600,"height":400,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Distribución de frecuencias absolutas de estaturas","xaxis":{"title":"Estatura"},"yaxis":{"title":"Frecuencia absoluta"},"autosize":false,"width":600,"height":400},"filename":"Distribución de frecuencias absolutas de estaturas"},"evals":[]}</script>
 
-## Polígono de frecuencias absolutas acumuladas
+El siguiente histograma muestra la distribución de frecuencias relativas con el polígono de frecuencias.
 
-### Datos agrupados
+<div id="relative-histogram" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="relative-histogram">{"x":{"data":[{"type":"histogram","inherit":true,"x":[179,173,181,169,158,174,172,166,194,185,162,187,198,177,178,165,154,188,166,171,175,182,167,169,172,186,172,176,168,187],"marker":{"line":{"width":1}},"histnorm":"probability","name":"bar"},{"type":"scatter","inherit":true,"x":[155,165,175,185,195],"marker":{"line":{"width":1}},"histnorm":"probability","name":"polygon","y":[0.0667,0.2667,0.3667,0.2333,0.0667]}],"layout":{"title":"Distribución de frequencias relativas de estaturas","xaxis":{"title":"Estatura"},"yaxis":{"title":"Frecuencia relativa"},"autosize":false,"width":600,"height":400,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Distribución de frequencias relativas de estaturas","xaxis":{"title":"Estatura"},"yaxis":{"title":"Frecuencia relativa"},"autosize":false,"width":600,"height":400,"showlegend":false},"filename":"Distribución de frequencias relativas de estaturas"},"evals":[]}</script>
 
-## Diagrama de sectores
+El polígono de frecuencias acumuladas (absolutas o relativas) se conoce como **ojiva**.
 
-### Atributos
+**Example**. El histograma y la ojiva siguientes muestran la distribución de frecuencias relativas acumuladas de estaturas.
 
-![image](img/descriptiva/diagrama_sectores_grupo_sanguineo)
+<div id="ogive" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="ogive">{"x":{"data":[{"type":"bar","inherit":true,"x":[155,165,175,185,195],"y":[0.0666666666666667,0.333333333333333,0.7,0.933333333333333,1],"marker":{"line":{"width":1}},"name":"bar"},{"type":"scatter","inherit":true,"x":[150,160,170,180,190,200],"y":[0,0.0666666666666667,0.333333333333333,0.7,0.933333333333333,1],"marker":{"line":{"width":1}},"name":"ogive"}],"layout":{"title":"Distribución de frecuencias relativas acumuladas de estaturas","xaxis":{"title":"Estatura"},"yaxis":{"title":"Frecuencia relativa acumulada"},"autosize":false,"width":600,"height":400,"bargap":0,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Distribución de frecuencias relativas acumuladas de estaturas","xaxis":{"title":"Estatura"},"yaxis":{"title":"Frecuencia relativa acumulada"},"autosize":false,"width":600,"height":400,"bargap":0,"showlegend":false},"filename":"Distribución de frecuencias relativas acumuladas de estaturas"},"evals":[]}</script>
 
-## Datos atípicos
+Observese que en la ojiva se unen los vértices superiores derechos de cada barra con segmentos, en lugar de los puntos centrales, ya que no se consigue alcanzar la frecuencia acumulada correspondiente a la clase hasta que no se alcanza el final del intervalo.
 
-Uno de los principales problemas de las muestras son los datos atípicos. Los son valores de la variable que se diferencian mucho del resto de los valores.
+### Diagrama de sectores
 
-![image](img/descriptiva/dato_atipico)
+Un _diagrama de sectores_ consiste en un círculo divido en porciones, uno por cada valor o categoría de la variable.
+Cada porción se conoce como _sector_ y su ángulo o área es proporcional a la correspondiente frecuencia del valor o categoría.
 
-Es muy importante detectar los datos atípicos antes de realizar cualquier análisis de los datos, pues .
+Los diagramas de sectores pueden representar frecuencias absolutas o relativas, pero no pueden representar frecuencias acumuladas, y se utilizan sobre todo con atributos nominales.
+Para atributos ordinales o variables cuantitativas es mejor utilizar diagramas de barras, ya es más fácil percibir las diferencias en una dimensión (altura de las barras) que en dos dimensiones (áreas de los sectores).
 
-Aparecen siempre en los extremos de la distribución, aunque más adelante veremos un diagrama para detectarlos.
+**Example**. El diagrama de sectores siguiente muestra la distribución de frecuencias relativas de los grupos sanguíneos.
+
+<div id="piechart" class="plotly" style="margin: auto; width:80%"></div>
+<script type="application/json" data-for="piechart">{"x":{"data":[{"type":"pie","inherit":true,"labels":["0","A","AB","B"],"values":[5,14,3,8]}],"layout":{"title":"Distribución de frecuencias relativas de los grupos sanguíneos","autosize":false,"width":600,"height":400,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Distribución de frecuencias relativas de los grupos sanguíneos","autosize":false,"width":600,"height":400},"filename":"Distribución de frecuencias relativas de los grupos sanguíneos"},"evals":[]}</script>
+
+### Datos atípicos
+
+Uno de los principales problemas de las muestras son los **datos atípicos**, que son valores de la variable que se diferencian mucho del resto de los valores en la muestra.
+
+![image](img/descriptiva/dato_atipico.png){: .img-center width="400px"}
+
+Es muy importante detectar los datos atípicos antes de realizar cualquier análisis de los datos, pues suelen distorsionar los resultados.
+
+Aparecen siempre en los extremos de la distribución, y pueden detectarse con un diagrama de caja y bigotes (tal y como veremos más adelante).
 
 ## Tratamiento de los datos atípicos
 
@@ -250,183 +282,266 @@ Cuando trabajemos con muestras grandes, los datos atípicos tienen menor influen
 
 Cuando trabajemos con muestras pequeñas tenemos varias opciones:
 
-- Eliminarlo: Siempre que estemos seguros de que se trata de un error de medida.
+- Eliminar el dato atípico si se trata de un error.
+- Sustituir el dato atípico por el menor o el mayor valor de la distribución que no es atípico si no se trata de un error y el dato atípico no concuerda con la distribución teórica.
+- Dejar el dato atípico si no es un error, y cambiar el modelo de distribución teórico para adecuarlo a los datos atípicos.
 
-- Sustituirlo: Si se trata de un individuo real pero que no concuerda con el modelo de distribución de la población. En tal caso se suele reemplazar por el mayor o menor dato no atípico.
-
-- Dejarlo: Si se trata de un individuo real aunque no concuerde con el modelo de distribución. En tal caso se suele modificar el modelo de distribución supuesto.
 
 # Estadísticos muestrales
 
-## Estadísticos muestrales
+La tabla de frecuencias sintetiza la información de la variable estudiada en la muestra, pero en muchas ocasiones es insuficiente para describir determinados aspectos de la distribución, como por ejemplo, cuáles son los valores más representativos de la muestra, cómo es la variabilidad de los datos, qué datos pueden considerarse atípicos, o cómo es la simetría de la distribución.
 
-La tabla de frecuencias sintetiza la información de la variable estudiada en la muestra, pero en muchas ocasiones es insuficiente para describir determinados aspectos de la distribución.
+Para describir esos aspectos de la distribución muestral se utilizan unas medidas resumen llamadas **estadísticos muestrales**.
 
-Para describir adecuadamente el comportamiento de la variable se calculan unas medidas llamadas que son indicadores de distintos aspectos de la distribución muestral.
+De acuerdo al aspecto de las distribución que miden, existen diferentes tipos de estadísticos:
 
-Los estadísticos se clasifican en tres grupos:
+**Estadísticos de Posición**: Miden los valores en torno a los que se agrupan los datos o que dividen la distribución en partes iguales.
 
-Estadísticos de Posición: : Miden en torno a qué valores se agrupan los datos y cómo se reparten en la distribución.
+**Estadísticos de Dispersión**: Miden la heterogeneidad de los datos.
 
-Estadísticos de Dispersión: : Miden la heterogeneidad de los datos.
+**Estadísticos de Forma**: Miden aspectos de la forma que tiene la distribución de los datos, como la simetría o el apuntamiento.
 
-Estadísticos de Forma: : Miden aspectos de la forma que tiene la distribución de los datos, como la simetría o el apuntamiento.
-
-# Estadísticos de posición
 
 ## Estadísticos de posición
 
 Pueden ser de dos tipos:
 
-Estadísticos de Tendencia Central: : Determinan valores alrededor de los cuales se agrupa la distribución. Estas medidas suelen utilizarse como valores representativos de la muestra. Las más importantes son:
+**Estadísticos de Tendencia Central**: Determinan valores alrededor de los cuales se concentran los datos, habitualmente en el centro de la distribución. Estas medidas suelen utilizarse como valores representativos de la muestra. Las más importantes son:
 
-```
 -   Media aritmética
 
 -   Mediana
 
 -   Moda
-```
 
-Otros estadísticos de Posición: : Dividen la distribución en partes con el mismo número de observaciones. Las más importantes son:
 
-```
--   Cuantiles: Cuartiles, Deciles, Percentiles.
-```
+**Estadísticos de Posición no centrales**: Dividen la distribución en partes con el mismo número de datos. Las más importantes son:
 
-## Media aritmética
+- Cuartiles.
 
-[Media aritmética muestral $\bar{x}$] La _media aritmética muestral_ de una variable $X$ es la suma de los valores observados en la muestra dividida por el tamaño muestral $$\bar{x} = \frac{\sum x_i}{n}$$
+- Deciles.
 
-A partir de la tabla de frecuencias puede calcularse como: $$\bar{x} &= \frac{\sum x_in_i}{n} = \sum x_i f_i$$ En la mayoría de los casos, la media aritmética es la medida que mejor representa a la muestra.
+- Percentiles.
 
-## Cálculo de la media aritmética
+### Media aritmética
 
-### Ejemplo con datos no agrupados
+>**Definición - Media aritmética muestral $\bar{x}$**. La _media aritmética muestral_ de una variable $X$ es la suma de los valores observados en la muestra dividida por el tamaño muestral
+>
+$$\bar{x} = \frac{\sum x_i}{n}$$
 
-En el ejemplo anterior del número de hijos tenemos
+A partir de la tabla de frecuencias puede calcularse con la fórmula
 
-$$\begin{aligned} \bar{x} &= \frac{1+2+4+2+2+2+3+2+1+1+0+2+2}{25}+\ &+\frac{0+2+2+1+2+2+3+1+2+2+1+2}{25} = \frac{44}{25} = 1.76 \mbox{ hijos}.\end{aligned}$$
+$$\bar{x} &= \frac{\sum x_in_i}{n} = \sum x_i f_i$$
+
+En la mayoría de los casos, la media aritmética es la medida que mejor representa a la muestra.
+
+_**¡Atención!** No puede calcularse para variables cualitativas._
+
+**Ejemplo - Datos no agrupados**. Utilizando los datos de la muestra del número de hijos en las familias, la media aritmétia es
+
+$$
+\begin{aligned}
+\bar{x} &= \frac{1+2+4+2+2+2+3+2+1+1+0+2+2}{25}+\\ &+\frac{0+2+2+1+2+2+3+1+2+2+1+2}{25} = \frac{44}{25} = 1.76 \mbox{hijos}.
+\end{aligned}
+$$
 
 o bien, desde la tabla de frecuencias
 
-<span>rrrrr</span>
+$$
+\begin{array}{rrrrr}
+\hline
+x_i & n_i & f_i & x_in_i & x_if_i\\
+\hline
+0 & 2 & 0.08 & 0 & 0\\
+1 & 6 & 0.24 & 6 & 0.24\\
+2 & 14 & 0.56 & 28 & 1.12\\
+3 & 2  & 0.08 & 6 & 0.24\\
+4 & 1 & 0.04 & 4 & 0.16 \\
+\hline
+\sum & 25 & 1 & 44 & 1.76 \\
+\hline
+\end{array}
 
-& & & &\ 0 & 2 & 0.08 & 0 & 0\ 1 & 6 & 0.24 & 6 & 0.24\ 2 & 14 & 0.56 & 28 & 1.12\ 3 & 2 & 0.08 & 6 & 0.24\ 4 & 1 & 0.04 & 4 & 0.16\ & 25 & 1 & 44 & 1.76\
+$$
+\bar{x} = \frac{\sum x_in_i}{n} = \frac{44}{25}= 1.76 \mbox{ children}\qquad \bar{x}=\sum{x_if_i} = 1.76 \mbox{ hijos}.
+$$
 
-$$\bar{x} = \frac{\sum x_in_i}{n} = \frac{44}{25}= 1.76 \qquad \bar{x}=\sum{x_if_i} = 1.76.$$ Es decir, el número de hijos que mejor representa a la muestra es $1.76$ hijos.
+Esto significa que el valor que mejor representa el número de hijos en las familias de la muestra es 1.76 hijos.
 
-## Cálculo de la media aritmética
+**Ejemplo - Datos agrupados**. Utilizando los datos de la muestra de estaturas, la media es
 
-### Ejemplo con datos agrupados
+$$
+\bar{x} &= \frac{179+173+\cdots+187}{30} = 175.07 \mbox{ cm}.
+$$
 
-En el ejemplo anterior de las estaturas se tiene $$\bar{x} &= \frac{179+173+\cdots+187}{30} = 175.07 \mbox{ cm}.$$ o bien, desde la tabla de frecuencias utilizando las marcas de clase:
+o bien, desde la tabla de frecuencias utilizando las marcas de clase $x_i$:
 
-<span>rrrrrr</span>
+$$
+\begin{array}{crrrrr}
+\hline
+X & x_i & n_i & f_i & x_in_i & x_if_i\\
+\hline
+(150,160] & 155 & 2 & 0.07 & 310 & 10.33\\
+(160,170] & 165 & 8 & 0.27 & 1320 & 44.00\\
+(170,180] & 175 & 11 & 0.36 & 1925 & 64.17\\
+(180,190] & 185 & 7 & 0.23 & 1295 & 43.17\\
+(190,200] & 195 & 2 & 0.07 & 390 & 13 \\
+\hline
+\sum &  & 30 & 1 & 5240 & 174.67 \\
+\hline
+\end{array}
+$$
 
-& & & & &\ (150,160] & 155 & 2 & 0.07 & 310 & 10.33\ (160,170] & 165 & 8 & 0.27 & 1320 & 44.00\ (170,180] & 175 & 11 & 0.36 & 1925 & 64.17\ (180,190] & 185 & 7 & 0.23 & 1295 & 43.17\ (190,200] & 195 & 2 & 0.07 & 390 & 13\ & & 30 & 1 & 5240 & 174.67\
+$$
+\bar{x} = \frac{\sum x_in_i}{n} = \frac{5240}{30}= 174.67 \mbox{ cm} \qquad \bar{x}=\sum{x_if_i} = 174.67 \mbox{ cm}.
+$$
 
-$$\bar{x} = \frac{\sum x_in_i}{n} = \frac{5240}{30}= 174.67 \qquad \bar{x}=\sum{x_if_i} = 174.67.$$ Al agrupar datos el cálculo de estadísticos desde la tabla puede diferir ligeramente del valor real obtenido directamente desde la muestra, ya que no se trabaja con los datos reales sino con los representantes de las clases.
+ Obsérvese que al calcular la media desde la tabla de frecuencias el resultado difiere ligeramente del valor real obtenido directamente desde la muestra, ya que los valores usados en los cálculos nos son los datos reales sino las marcas de clase.
 
-## Media ponderada
+### Media ponderada
 
-En algunos casos, los valores de la muestra no tienen la misma importancia. En este caso la media aritmética no es una buena medida de representatividad ya que en ella todos los valores de la muestra tienen el mismo peso. En este caso es mucho mejor utilizar otra medida de tendencia central conocida como media ponderada.
+En algunos casos, los valores de la muestra no tienen la misma importancia. En este caso la importancia o _peso_ de cada valor de la muestra debe tenerse en cuenta al calcular la media.
 
-[Media ponderada muestral $\bar{x}_p$] Dada una muestra de $n$ valores en la que cada valor $x_i$ tiene asociado un peso $p_i$, la _media ponderada muestral_ de la variable $X$ es la suma de los productos de cada valor observado en la muestra por su peso, dividida por la suma de todos los pesos $$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i}$$
+> **Definición - Media ponderada muestral $\bar{x}_p$**. Dada una muestra de valores $x_1,\ldots, x_n$ donde cada valor $x_i$ tiene asociado un peso $p_i$, la _media ponderada muestral_ de la variable $X$ es la suma de los productos de cada valor observado en la muestra por su peso, dividida por la suma de todos los pesos
+>
+$$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i}$$
 
-A partir de la tabla de frecuencias puede calcularse como: $$\bar{x}_p &= \frac{\sum x_ip_in_i}{\sum p_i}$$
+A partir de la tabla de frecuencias puede calcularse con la fórmula
 
-## Cálculo de la media ponderada
+$$\bar{x}_p &= \frac{\sum x_ip_in_i}{\sum p_i}$$
 
-Supongase que un alumno quiere calcular la nota media de las asignaturas de un curso.
 
-Asignatura Créditos Nota
+**Ejemplo**. Supóngase que un estudiante quiere calcular una medida que represente su rendimiento en el curso. La nota obtendida en cada asignatura y sus créditos son
 
---------------------------------------------------------------------------------
+| Asignatura  | Créditos | Nota |
+|:-----------:|:--------:|------|
+| Matemáticas |    6     | 5    |
+|  Economía   |    4     | 3    |
+|   Química   |    8     | 6    |
 
-Matemáticas 6 5 Lengua 4 3 Química 8 6
+La media aritmética vale
+$$\bar{x} = \frac{\sum x_i}{n} = \frac{5+3+6}{3}= 4.67 \text{ puntos}.$$
 
-La media aritmética vale $$\bar{x} = \frac{\sum x_i}{n} = \frac{5+3+6}{3}= 4.67 \text{ puntos},$$ Sin embargo, esta nota no representa bien el rendimiento académico del alumno ya que en ella han tenido igual peso todas las asignaturas, cuando la química debería tener más peso que la lengua al tener más créditos.
+Sin embargo, esta nota no representa bien el rendimiento académico del alumno ya que no todas las asignaturas tienen la misma importancia ni requieren el mismo esfuerzo para aprobar. Las asignaturas con más créditos requieren más trabajo y deben tener más peso en el cálculo de la media.
 
-Es más lógico calcular la media ponderada, tomando como pesos los créditos de cada asignatura: $$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i} = \frac{5\cdot 6+3\cdot 4+6\cdot 8}{6+4+8}= \frac{90}{18} = 5 \text{ puntos}.$$
+Es más lógico usar la media ponderada como medida del rendimiento del estudiante, tomando como pesos los créditos de cada asignatura
 
-## Mediana
+$$
+\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i} = \frac{5\cdot 6+3\cdot 4+6\cdot 8}{6+4+8}= \frac{90}{18} = 5 \text{ puntos}.
+$$
 
-[Mediana muestral $Me$] La _mediana muestral_ de una variable $X$ es el valor de la variable que, una vez ordenados los valores de la muestra de menor a mayor, deja el mismo número de valores por debajo y por encima de él.
+### Mediana
 
-La mediana cumple $N_{Me}= n/2$ y $F_{Me}= 0.5$.
+> **Definición - Mediana muestral $Me$**. La _mediana muestral_ de una variable $X$ es el valor de la variable que está en el medio de la muestra ordenada.
 
-El cálculo de la mediana se realiza de forma distinta según se hayan agrupado los datos o no.
+La mediana divide la distribución de la muestra en dos partes iguales, es decir, hay el mismo número de valores por debajo y por encima de la mediana. Por tanto, tiene frecuencias acumuladas $N_{Me}= n/2$ y $F_{Me}= 0.5$.
 
-## Cálculo de la mediana con datos no agrupados
+_**¡Atención!** No puede calcularse para variables nominales._
 
 Con datos no agrupados pueden darse varios casos:
 
 - Tamaño muestral impar: La mediana es el valor que ocupa la posición $\frac{n+1}{2}$.
-
 - Tamaño muestral par: La mediana es la media de los valores que ocupan las posiciones $\frac{n}{2}$ y $\frac{n}{2}+1$.
 
 ![image](img/descriptiva/mediana)
 
-## Cálculo de la mediana
+**Ejemplo**. Utilizando los datos del número de hijos de las familias, el tamaño muestral es 25, que es impar, y la mediana es el valor que ocupa la posición $\frac{25+1}{2} = 13$ de la muestra ordenada.
 
-### Ejemplo con datos no agrupados
+$$0,0,1,1,1,1,1,1,2,2,2,2,\fbox{2},2,2,2,2,2,2,2,2,2,3,3,4$$ y la mediana es 2 hijos.
 
-En el ejemplo anterior del número de hijos, el tamaño muestral es 25, de manera que al ser impar se deben ordenar los datos de menor a mayor y buscar el que ocupa la posición $\frac{25+1}{2} = 13$. $$0,0,1,1,1,1,1,1,2,2,2,2,\fbox{2},2,2,2,2,2,2,2,2,2,3,3,4$$ y la mediana es 2 hijos.
+Y la mediana es 2 hijos.
 
-Si se trabaja con la tabla de frecuencias, se debe buscar el primer valor cuya frecuencia absoluta acumulada iguala o supera a 13, que es la posición que le corresponde a la mediana, o bien el primer valor cuya frecuencia relativa acumulada iguala o supera a $0.5$: $$\setlength\arraycolsep{3mm} \setlength\arrayrulewidth{0.5pt} \begin{array}{rrrrr} \hline x_i & n_i & f_i & N_i & F_i\ \hline 0 & 2 & 0.08 & 2 & 0.08\ 1 & 6 & 0.24 & 8 & 0.32\ \rowcolor{coral} \fbox{2} & 14 & 0.56 & 22 & 0.88\ 3 & 2 & 0.08 & 24 & 0.96\ 4 & 1 & 0.04 & 25 & 1 \ \hline \sum & 25 & 1 \ \hline \end{array}$$
+Si se trabaja con la tabla de frecuencias, la mediana es el valor más pequeño con una frecuencia acumulada mayor o igual a $13$, o con una frecuencia relativa acumulada mayor o igual que $0.5$.
 
-## Cálculo de la mediana con datos agrupados
+$$
+\begin{array}{rrrrr}
+\hline
+x_i & n_i & f_i & N_i & F_i\\
+\hline
+0 & 2 & 0.08 & 2 & 0.08\\
+1 & 6 & 0.24 & 8 & 0.32\\
+\color{red}2 & 14 & 0.56 & 22 & 0.88\\
+3 & 2  & 0.08 & 24 & 0.96\\
+4 & 1 & 0.04 & 25 & 1 \\
+\hline
+\sum & 25 & 1 \\
+\hline
+\end{array}
+$$
 
-Con datos agrupados la mediana se calcula interpolando en el polígono de frecuencias absolutas acumuladas para el valor $n/2$.
+#### Cálculo de la mediana con datos agrupados
 
-## Interpolación en el polígono de frecuencias absolutas acumuladas
+Con datos agrupados la mediana se calcula interpolando en el polígono de frecuencias relativas acumuladas para el valor 0.5.
 
-\<3-\>
+![image](img/descriptiva/interpolacion)
 
-<span>
-$$Me = l<em>{i-1}+\frac{n/2 - N</em>{i-1}}{N<em>i-N</em>{i-1}}(l<em>i-l</em>{i-1}) = l<em>{i-1}+\frac{n/2-N</em>{i-1}}{n_i}a_i$$
-</span>
+Ambas expresiones son iguales ya que el ángulo $\alpha$ es el mismo, y resolviendo la ecuación se tiene la siguiente fórmula para calcular la mediana
 
-## Cálculo de la mediana
+$$
+Me=l_i+\frac{0.5-F_{i-1}}{F_i-F_{i-1}}(l_i-l_{i-1})=l_i+\frac{0.5-F_{i-1}}{f_i}a_i
+$$
 
-### Ejemplo con datos agrupados
+**Ejemplo - Datos agrupados**. Utilizando los datos de la muestra de las estaturas de estudiantes, la mediana cae en la clase (170,180].
 
-En el ejemplo de las estaturas $n/2 = 30/2 = 15$. Si miramos en el polígono de frecuencias acumuladas comprobamos que la mediana caerá en el intervalo $(170,180]$.
+<img class="img-center" src="img/descriptive/interpolation_example_1.svg" alt="Example of median calculation for grouped data" width="600">
 
-## Interpolación en el polígono de frecuencias absolutas acumuladas
+Interponlando en el intervalo (170,180] se tiene
 
-\<3-\>
+<img class="img-center" src="img/descriptive/interpolation_example_2.svg" alt="Example of median calculation for grouped data" width="600">
 
-<span>
-$$Med = 170+\frac{15 - 10}{21-10}(180-170) = 170+\frac{5}{11}10 = 174.54$$
-</span>
+Igualando ambas expresiones y resolviendo la ecuación se obtiene
+
+$$
+Me= 170+\frac{0.5-0.34}{0.7-0.34}(180-170)=170+\frac{0.16}{0.36}10=174.54 \mbox{ cm}.
+$$
+
+Esto significa que la mitad de los estudiantes tienen estaturas menores o iguales que 174.54 cm y la otra mitad mayores o iguales.
 
 ## Moda
 
-[Moda muestral $Mo$] La _moda muestral_ de una variable $X$ es el valor de la variable más frecuente en la muestra.
+> **Definición - Moda muestral $Mo$**. La _moda muestral_ de una variable $X$ es el valor de la variable más frecuente en la muestra.
 
-Con datos agrupados se toma como clase modal la clase con mayor frecuencia en la muestra.
+Con datos agrupados la _clase modal_ es la clase con mayor frecuencia en la muestra.
 
-En ocasiones puede haber más de una moda.
+Puede calcularse para todos los tipos de variables (cuantitativas y cualitativas).
+
+Las distribuciones pueden tener más de una moda.
 
 ![image](img/descriptiva/moda)
 
-## Cálculo de la moda
+**Ejemplo**. Utilizando los datos de la muestra del número de hijos en las familias, el valor con mayor frecuencia es 2, y por tanto la moda es $Mo=2$.
 
-En el ejemplo del número de hijos puede verse fácilmente en la tabla de frecuencias que la moda es $Mo = 2$ hijos.
+$$
+\begin{array}{rr}
+\hline
+x_i & n_i \\
+\hline
+0 & 2 \\
+1 & 6 \\
+\color{red} 2 & 14 \\
+3 & 2  \\
+4 & 1 \\
+\hline
+\end{array}
+$$
 
-<span>rr</span>
+Utilizando los datos de la muestra de estaturas de estudiantes, la clase con la mayor frecuencia es $(170,180]$, que es la clase modal $Mo=(170,180]$.
 
-&\ 0 & 2\ 1 & 6\ & 14\ 3 & 2\ 4 & 1\
+$$
+\begin{array}{cr}
+\hline
+X & n_i \\
+\hline
+(150,160] & 2 \\
+(160,170] & 8 \\
+\color{red}{(170,180]} & 11 \\
+(180,190] & 7 \\
+(190,200] & 2 \\
+\hline
+\end{array}
+$$
 
-Y en el ejemplo de las estaturas también puede verse en la tabla de frecuencias que la clase modal es $Mo=(170,180]$.
-
-<span>rr</span>
-
-&\ (150,160] & 2\ (160,170] & 8\ & 11\ (180,190] & 7\ (190,200] & 2\
-
-## ¿Qué estadístico de tendencia central usar?
+### ¿Qué estadístico de tendencia central usar?
 
 En general, siempre que puedan calcularse conviene tomarlas en el siguiente orden:
 
@@ -436,49 +551,67 @@ En general, siempre que puedan calcularse conviene tomarlas en el siguiente orde
 
 3. Moda. La moda es la que menos información utiliza ya que para calcularla sólo se tienen en cuenta las frecuencias absolutas.
 
-Pero, ¡ojo! la media también es muy sensible a los datos atípicos, así que, tampoco debemos perder de vista la mediana.
+Pero, ¡hay que tener cuidado con los datos atípicos!, ya que la media puede distorsionarse cuando hay datos atípicos. En tal caso es mejor utilizar la mediana como valor más representativo.
 
-Por ejemplo, consideremos la siguiente muestra del número de hijos de 7 matrimonios:
+**Ejemplo**. Si una muestra de número de hijos de 7 familias es
 
-0, 0, 1, 1, 2, 2, 15
+<div style="text-align:center">
+0, 0, 1, 1, 2, 2, 15,
+</div>
 
-$\bar{x}=3$ hijos y $Me=1$ hijos
+entonces, $\bar{x}=3$ hijos y $Me=1$ hijo.
 
-_¿Qué representante de la muestra tomarías?_
+_¿Qué medida representa mejor el número de hijos en la muestra?_
 
-## Cuantiles
+### Medidas de posición no centrales
 
-Son valores de la variable que dividen la distribución, supuesta ordenada de menor a mayor, en partes que contienen el mismo número de datos.
+Las medidas de posición no centrales o _cuantiles_ dividen la distribución en partes iguales.
 
 Los más utilizados son:
 
-Cuartiles: : Dividen la distribución en 4 partes iguales.\ Hay tres cuartiles: $C_1$ (25% acumulado) , $C_2$ (50% acumulado), $C_3$ (75% acumulado).
+**Cuartiles**: Dividen la distribución en 4 partes iguales. Hay tres cuartiles: $C_1$ (25% acumulado), $C_2$ (50% acumulado), $C_3$ (75% acumulado).
 
-Deciles: : Dividen la distribución en 10 partes iguales.\ Hay 9 deciles: $D_1$ (10% acumulado) ,..., $D_9$ (90% acumulado).
+**Deciles**: Dividen la distribución en 10 partes iguales. Hay 9 deciles: $D_1$ (10% acumulado),..., $D_9$ (90% acumulado).
 
-Percentiles: : Dividen la distribución en 100 partes iguales.\ Hay 99 percentiles: $P_1$ (1% acumulado),..., $P_{99}$ (99% acumulado).
+**Percentiles**: Dividen la distribución en 100 partes iguales. Hay 99 percentiles: $P_1$ (1% acumulado),..., $P_{99}$ (99% acumulado).
 
-## Cálculo de los cuantiles
+<img class="img-center" src="img/descriptive/quantiles.svg" alt="Quartiles, deciles and percentiles" width="600">
 
-Los cuantiles se calculan de forma similar a la mediana. Por ejemplo, en el caso de los cuartiles se buscan los valores que tienen frecuencias absolutas acumuladas $n/4$ (primer cuartil), $n/2$ (segundo cuartil) y $3n/4$ (tercer cuartil) y si se trata de datos agrupados se interpola sobre el polígono de frecuencias acumuladas.
+Obsérvese que hay una correspondencia entre los cuartiles, los deciles y los percentiles. Por ejemplo, el primer cuartil coincide con el percentil 25, y el cuarto decil coincide con el percentil 40.
 
-## Cálculo de los cuantiles
+Los cuantiles se calculan de forma similar a la mediana. La única diferencia es la frecuencia relativa acumulada que corresponde a cada cuantil.
 
-### Ejemplo con datos no agrupados
+<img class="img-center" src="img/descriptive/quantiles_calculation.svg" alt="Quartiles, deciles and percentiles calculation" width="600">
 
-En el ejemplo anterior del número de hijos se tenían la siguientes frecuencias relativas acumuladas
+**Ejemplo**. Utilizando los datos de la muestra del número de hijos de las familias, la frecuencia relativa acumulada era
 
-<span>rr</span>
+$$
+\begin{array}{rr}
+\hline
+x_i & F_i \\
+\hline
+0 & 0.08\\
+1 & 0.32\\
+2 & 0.88\\
+3 & 0.96\\
+4 & 1\\
+\hline
+\end{array}
+$$
 
-&\ 0 & 0.08\ 1 & 0.32\ 2 & 0.88\ 3 & 0.96\ 4 & 1\
+$$
+\begin{aligned}
+F_{C_1}=0.25 &\Rightarrow Q_1 = 1 \text{ hijos},\\
+F_{C_2}=0.5 &\Rightarrow Q_2 = 2 \text{ hijos},\\
+F_{C_3}=0.75 &\Rightarrow Q_3 = 2 \text{ hijos},\\
+F_{D_4}=0.4 &\Rightarrow D_4 = 2 \text{ hijos},\\
+F_{P_{92}}=0.92 &\Rightarrow P_{92} = 3 \text{ hijos}.
+\end{aligned}$$
 
-$$\begin{aligned} F_{C_1}=0.25 &\Rightarrow C_1 = 1 \text{ hijos},\ F_{C_2}=0.5 &\Rightarrow C_2 = 2 \text{ hijos},\ F_{C_3}=0.75 &\Rightarrow C_3 = 2 \text{ hijos},\ F_{D_3}=0.3 &\Rightarrow D_3 = 1 \text{ hijos},\ F_{P_{92}}=0.92 &\Rightarrow P_{92} = 3 \text{ hijos}.\end{aligned}$$
-
-# Estadísticos de dispersión
 
 ## Estadísticos de dispersión
 
-Recogen información respecto a la heterogeneidad de la variable y a la concentración de sus valores en torno a algún valor central.
+La _dispersión_ se refiere a la heterogeneidad o variabilidad de los datos. Asi pues, los estadísticos de dispersión mide la variabilidad global de los datos, o con respecto a una medida de tendencia central.
 
 Para las variables cuantitativas, las más empleadas son:
 
@@ -492,83 +625,44 @@ Para las variables cuantitativas, las más empleadas son:
 
 - Coeficiente de Variación.
 
-## Recorrido
+### Recorrido
 
-[Recorrido muestral $Re$] El _recorrido muestral_ de una variable $X$ se define como la diferencia entre el máximo y el mínimo de los valores en la muestra. $$Re = \max_{x_i} -\min_{x_i}$$
+> **Recorrido muestral $Re$**. El _recorrido muestral_ de una variable $X$ se define como la diferencia entre el máximo y el mínimo de los valores en la muestra.
+>
+$$Re = \max_{x_i} -\min_{x_i}$$
 
-El recorrido da una idea de la máxima variación que hay entre los datos muestrales. No obstante, es muy sensible a datos atípicos ya que suelen aparecer justo en los extremos de la distribución, por lo que no se suele utilizar mucho.
+<img class="img-center" src="img/descriptive/range.svg" alt="Range" width="600">
 
-(-1,-1)(9,1) (0,0)(8,0) (0,-0.2)
+El recorrido mide la máxima variación que hay entre los datos muestrales. No obstante, es muy sensible a datos atípicos ya que suelen aparecer justo en los extremos de la distribución, por lo que no se suele utilizar mucho.
 
-<span>$\min$</span>
-
-(8,-0.2)
-
-<span>$\max$</span>
-
-(0,0.5)(8,0.5) (4,0.7)
-
-<span>$Re$</span>
-
-## Rango intercuartílico
+### Rango intercuartílico
 
 Para evitar el problema de los datos atípicos en el recorrido, se puede utilizar el primer y tercer cuartil en lugar del mínimo y el máximo.
 
-[Rango intercuartílico muestral $RI$] El _rango intercuartílico muestral_ de una variable $X$ se define como la diferencia entre el tercer y el primer cuartil de la muestra. $$RI = C_3 -C_1$$
+> **Definición - Rango intercuartílico muestral $RI$**. El _rango intercuartílico muestral_ de una variable $X$ se define como la diferencia entre el tercer y el primer cuartil de la muestra.
+>
+$$RI = C_3 -C_1$$
 
-El rango intercuartílico da una idea de la variación que hay en el 50% de los datos centrales.
+<img class="img-center" src="img/descriptive/interquartile_range.svg" alt="Interquartile range" width="600">
 
-(-1,-1)(9,1) (0,0)(8,0) (0,-0.2)
-
-<span>$\min$</span>
-
-(8,-0.2)
-
-<span>$\max$</span>
-
-(2,0)(4,0) (0,0)(6,0) (2,-0.2)
-
-<span>$C_1$</span>
-
-(4,-0.2)
-
-<span>$C_2$</span>
-
-(6,-0.2)
-
-<span>$C_3$</span>
-
-](1,0.1)
-
-<span>$25\%$</span>
-
-](3,0.1)
-
-<span>$25\%$</span>
-
-](5,0.1)
-
-<span>$25\%$</span>
-
-](7,0.1)
-
-<span>$25\%$</span>
-
-(2,0.5)(6,0.5) (4,0.7)
-
-<span>$RI$</span>
 
 ## Diagrama de caja y bigotes
 
-La dispersión de una variable suele representarse gráficamente mediante un , que consiste en una caja sobre un eje $X$ donde el borde inferior de la caja es el primer cuartil, y el borde superior el tercer cuartil, y por tanto, la anchura de la caja es el rango intercuartílico. En ocasiones también se representa el segundo cuartil con una línea que divide la caja.
+La dispersión de una variable suele representarse gráficamente mediante un _diagrama de caja y bigotes_, que representa cinco estadísticos descriptivos (mínimo, cuartiles y máximo) conocidos como los _cinco números_. Consiste en una caja, dibujada desde el primer al tercer cuartil, que representa el rango intercuartílico, y dos segmentos, conocidos como _bigotes_ inferior y superior. A menudo la caja se divide en dos por la mediana.  
 
-También se utiliza para detectar los valores atípicos mediante unos segmentos (bigotes) que salen de los extremos de la caja y que marcan el intervalo de normalidad de los datos.
+Este diagrama es muy útil y se utiliza para muchos propósitos:
 
-## Diagrama de caja y bigotes
+-   Sirve para medir la dispersión de los datos ya que representa el rango y el rango intercuartílico.
 
-### Ejemplo con pesos de recién nacidos
+-   Sirve para detectar datos atípicos, que son los valores que quedan fuera del intervalo definido or los bigotes.
 
-## Construcción del diagrama de caja y bigotes
+-   Sirve para medir la simetría de la distribución, comparando la longitud de las cajas y de los bigotes por encima y por debajo de la mediana.
+
+**Ejemplo**. El diagrama siguiente muestra el diagrama de caja y bigotes del peso de una muestra de recién nacidos.
+
+<img class="img-center" src="img/descriptive/boxplot.png" alt="Box plot of newborns weights" width="600">
+
+Para construir el diagrama de caja y bigotes hay que seguir los siguientes pasos:
 
 1. Calcular los cuartiles.
 
@@ -576,15 +670,22 @@ También se utiliza para detectar los valores atípicos mediante unos segmentos 
 
 3. Dividir la caja con una línea que caiga sobre el segundo cuartil.
 
-4. Para los bigotes inicialmente se determina la posición de los puntos denominados _vallas_ $v_1$ y $v_2$ restando y sumando respectivamente a primer y tercer cuartil $1.5$ veces el rango intercuartílico $RI$:
+4. Para los bigotes inicialmente se calculan dos valores llamados _vallas_ $v_1$ y $v_2$. La valla inferior es el primer cuartil menos una vez y media el rango intercuartílico, y la valla superior es el tercer cuartil más una vez y media el rango intercuartílico.
 
-  $$\begin{aligned} v_1&=C_1-1.5RI\ v_2&=C_3+1.5RI\end{aligned}$$
+  $$
+  \begin{aligned}
+  v_1&=Q_1-1.5\,\text{IQR}\\
+  v_2&=Q_3+1.5\,\text{IQR}
+  \end{aligned}
+  $$
 
-  A partir de las vallas se buscan los valores $b_1$, que es el mínimo valor de la muestra mayor o igual que $v_1$, y $b_2$, que es máximo valor de la muestra menor o igual que $v_2$. Para el bigote inferior se dibuja un segmento desde el borde inferior de la caja hasta $b_1$ y para el superior se dibuja un segmento desde el borde superior de la caja hasta $b_2$.
+  Las valls definen el intervalo donde los datos se consideran normales. Cualquier valor fuera de ese intervalo se considera un dato atípico. El bigote superior se dibuja desde el borde inferior de la caja hasta el menor valor de la muestra que es mayor o igual a la valla inferior, y el bigote superior se dibuja desde el borde superior de la caja hasta el mayor valor de la muestra que es menor o igual a la valla superior.
 
-5. Finalmente, si en la muestra hay algún dato por debajo de $v_1$ o por encima de $v_2$ se dibuja un punto sobre dicho valor.
+5. Finalmente, si en la muestra hay algún dato atípico, se dibuja un punto para cada uno de ellos.
 
-**Ejemplo**. 1-Calcular los cuartiles: $C_1=1$ hijos y $C_3=2$ hijos. 2-Dibujar la caja. 3-Calcular las vallas: $v_1=1-1.5_1=-0.5$ y $v_2=2+1.5_1=3.5$. 4-Dibujar los bigotes: $b_1=0$ hijos y $b_1=3$ hijos. 5-Dibujar los datos atípicos: 4 hijos.
+**Ejemplo**. El diagrama de caja y bigotes de la muestra del número de hijos de las familias se muestra a continuación.
+
+<img class="img-center" src="img/descriptive/boxplot_children.png" alt="Box plot of number of children" width="600">
 
 ## Desviaciones respecto de la media
 

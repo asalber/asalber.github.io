@@ -94,7 +94,7 @@ Surely you has not been able to guess the motif because the number of pixels pic
 
 The image below contains a larger sample of pixels. Could you find out the motif of the picture now?
 
-![Picture with medim resolution.](img/introduction/sample_windmill2.jpg "Picture with medium resolution."){: .img-center}
+![Picture with medium resolution.](img/introduction/sample_windmill2.jpg "Picture with medium resolution."){: .img-center}
 
 _With a large sample is easier to find out the picture motif!_
 
@@ -122,11 +122,13 @@ Statistics is fundamentally based on inductive reasoning, because it uses the in
 
 To reflect reliable information about the whole population, the sample must be representative of the population. That means that the sample should reproduce on a smaller scale the population variability.
 
+_The goal is to get a representative sample of the population._
+
 ## Types of sampling
 
 There exist a lot of sampling methods but all of them can be grouped in two categories:
 
-**Random sampling**: The sample individuals are selected randomly. All the population individuals have the same likelihood of being selected (equiprobability).
+**Random sampling**: The sample individuals are selected randomly. All the population individuals have the same likelihood of being selected (_equiprobability_).
 
 **Non random sampling**: The sample individuals are not selected randomly. Some population individuals have a higher likelihood of being selected than others.
 
@@ -174,7 +176,7 @@ Qualitative and discrete variables are also called _categorical variables_ and t
 
 ![Types of Statistical variables](img/introduction/variable_types.svg){: .img-center width="800px"}
 
-### Choosing the appropriate variable
+### Choosing the appropriate type of variable
 
 Sometimes a characteristic could be measured in variables of different types.
 
@@ -202,10 +204,10 @@ According to their role in the study:
 
 According to their role in the study:
 
-- **Experimental**: When the independent variables are manipulated in order to see the effect that that change has on the dependent variables.<br>
+- **Experimental**: When the independent variables are manipulated in order to see the effect that that change has on the dependent variables.  
   **Example**. In a study on the performance of students in a test, the teacher manipulates the methodology and creates two or more groups following different methodologies.
 
-- **Non-experimental**: When the independent variables are not manipulated. That does not mean that it is impossible to do so, but it will either be impractical or unethical to do so.<br>
+- **Non-experimental**: When the independent variables are not manipulated. That does not mean that it is impossible to do so, but it will either be impractical or unethical to do so.  
   **Example**. In a study a researcher could be interested in the effect of smoking over the lung cancer. However, whilst possible, it would be unethical to ask individuals to smoke in order to study what effect this had on their lungs. In this case, the researcher could study two groups of people, one with lung cancer and other without, an observe in each group how many persons smoke or not.
 
 Experimental studies allow to identify a cause and effect between variables while non-experimental studies only allow to identify association or relationship between variables.

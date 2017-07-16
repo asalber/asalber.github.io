@@ -6,6 +6,7 @@ image: cabecera-estadistica.jpg
 tags:
   - Statistics
   - Biostatistics
+  - Descriptive-Statistics
 share: true
 ---
 
@@ -87,7 +88,20 @@ The set of values of a variable with their respective frequencies is called **fr
 
 The frequency table for the number of children in this sample is
 
-$$ \begin{array}{rrrrr} \hline x_i & n_i & f_i & N_i & F_i\ \hline 0 & 2 & 0.08 & 2 & 0.08\ 1 & 6 & 0.24 & 8 & 0.32\ 2 & 14 & 0.56 & 22 & 0.88\ 3 & 2 & 0.08 & 24 & 0.96\ 4 & 1 & 0.04 & 25 & 1 \ \hline \sum & 25 & 1 \ \hline \end{array}$$
+$$ \begin{array}{rrrrr}
+\hline
+x_i & n_i & f_i & N_i & F_i\\
+\hline
+0 & 2 & 0.08 & 2 & 0.08\\
+1 & 6 & 0.24 & 8 & 0.32\\
+2 & 14 & 0.56 & 22 & 0.88\\
+3 & 2 & 0.08 & 24 & 0.96\\
+4 & 1 & 0.04 & 25 & 1 \\
+ \hline
+ \sum & 25 & 1 \\
+ \hline
+ \end{array}
+ $$
 
 **Example - Quantitative variable and grouped data**. The heights (in cm) of 30 students are:
 
@@ -99,7 +113,20 @@ $$ \begin{array}{rrrrr} \hline x_i & n_i & f_i & N_i & F_i\ \hline 0 & 2 & 0.08 
 
 The frequency table for the height in this sample is
 
-$$ \begin{array}{crrrr} \hline x_i & n_i & f_i & N_i & F_i\ \hline (150,160] & 2 & 0.07 & 2 & 0.07\ (160,170] & 8 & 0.27 & 10 & 0.34\ (170,180] & 11 & 0.36 & 21 & 0.70\ (180,190] & 7 & 0.23 & 28 & 0.93\ (190,200] & 2 & 0.07 & 30 & 1 \ \hline \sum & 30 & 1 \ \hline \end{array} $$
+$$ \begin{array}{crrrr}
+\hline
+x_i & n_i & f_i & N_i & F_i\newline
+\hline
+(150,160] & 2 & 0.07 & 2 & 0.07\newline
+(160,170] & 8 & 0.27 & 10 & 0.34\newline
+(170,180] & 11 & 0.36 & 21 & 0.70\newline
+(180,190] & 7 & 0.23 & 28 & 0.93\newline
+(190,200] & 2 & 0.07 & 30 & 1 \newline
+\hline
+\sum & 30 & 1 \newline
+\hline
+\end{array}
+$$
 
 # Classes construction
 
@@ -197,7 +224,7 @@ And the bar chart below shows the cumulative relative frequency distribution of 
 
 ### Histogram
 
-A *histogram* is similar to a bar chart but for grouped data.
+A _histogram_ is similar to a bar chart but for grouped data.
 
 Usually the classes or grouping intervals are represented on the $x$-axis, and the frequencies on the $y$-axis. For each class, a bar is draw to the height of its frequency. Contrary to bar charts, the width of bars coincides with the width of classes, and there are no space between two consecutive bars.
 
@@ -205,7 +232,7 @@ Usually the classes or grouping intervals are represented on the $x$-axis, and t
 
 Depending on the type of frequency represented in the $y$-axis we get different types of histograms.
 
-As with the bar chart, the frequency polygon can be drawn joining the top centre of every bar with straight lines.
+As with the bar chart, the _frequency polygon_ can be drawn joining the top centre of every bar with straight lines.
 
 **Example**. The histogram below shows the absolute frequency distribution of heights.
 
@@ -228,16 +255,14 @@ Observe that in the ogive we join the top right corner of bars with straight lin
 
 ### Pie chart
 
-A *pie chart* consists of a circle divided in slices, one for every value or category of the variable. Each slice is called a **sector** and its angle or area is proportional to the frequency of the corresponding value or category.
+A _pie chart_ consists of a circle divided in slices, one for every value or category of the variable. Each slice is called a _sector_ and its angle or area is proportional to the frequency of the corresponding value or category.
 
-Pie charts can represent absolute or relative frequencies, but not cumulative frequencies, and are used with nominal qualitative variables. For ordinal qualitative or quantitative variables is better to use bar charts or histograms, because it is easier to perceive differences in one dimension (length of bars) than in two dimensions (areas of sectors).
+Pie charts can represent absolute or relative frequencies, but not cumulative frequencies, and are used with nominal qualitative variables. For ordinal qualitative or quantitative variables is better to use bar charts, because it is easier to perceive differences in one dimension (length of bars) than in two dimensions (areas of sectors).
 
 **Example**. The pie chart below show the relative frequency distribution of blood types.
 
 <div id="piechart" class="plotly" style="margin: auto; width:80%"></div>
 <script type="application/json" data-for="piechart">{"x":{"data":[{"type":"pie","inherit":true,"labels":["0","A","AB","B"],"values":[5,14,3,8]}],"layout":{"title":"Relative frequency distribution of blood types","autosize":false,"width":600,"height":400,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Relative frequency distribution of blood types","autosize":false,"width":600,"height":400},"filename":"Relative frequency distribution of blood types"},"evals":[]}</script>
-
-
 
 ### Outliers
 
@@ -262,10 +287,9 @@ With small samples we have several options:
 -   Leave the outlier if it is not an error, and change the theoretical model to fit it to outliers.
 
 
-Sample statistics
------------------
+# Sample statistics
 
-The frequency table and charts summarize and give an overview of the distribution of values of the studied variable in the sample, but it is difficult to describe some aspects of the distribution from it, as for example, which are the most representative values of the distribution, how is the spread of data, which data could be considered outliers, how is the symmetry of the distribution.
+The frequency table and charts summarize and give an overview of the distribution of values of the studied variable in the sample, but it is difficult to describe some aspects of the distribution from it, as for example, which are the most representative values of the distribution, how is the spread of data, which data could be considered outliers, or how is the symmetry of the distribution.
 
 To describe those aspects of the sample distribution more specific numerical measures, called **sample statistics**, are used.
 
@@ -275,10 +299,10 @@ According to the aspect of the distribution that they study, there are different
 
 **Measures of dispersion**: They measure the spread of data.
 
-**Measures of shape**: They measure the symmetry and "tailedness" of the distribution.
+**Measures of shape**: They measure aspects related to the shape of the distribuion , as the symmetry and "tailedness" of the distribution.
 
-Location statistics
--------------------
+
+## Location statistics
 
 There are two groups:
 
@@ -310,14 +334,16 @@ $$\bar{x} = \frac{\sum x_in_i}{n} = \sum x_i f_i$$
 
 In most cases the arithmetic mean is the value that best represent the observed values in the sample.
 
-**Watch out! It can not be calculated with qualitative variables.
+_**Watch out!** It can not be calculated with qualitative variables._
 
 **Example - Non-grouped data**. Using the data of the sample with the number of children of families, the arithmetic mean is
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \bar{x} &= \frac{1+2+4+2+2+2+3+2+1+1+0+2+2}{25}+\\
 &+\frac{0+2+2+1+2+2+3+1+2+2+1+2}{25} = \frac{44}{25} = 1.76 \mbox{ children}.
-\end{aligned}$$
+\end{aligned}
+$$
 
 or using the frequency table
 
@@ -334,11 +360,14 @@ x_i & n_i & f_i & x_in_i & x_if_i\\
 \hline
 \sum & 25 & 1 & 44 & 1.76 \\
 \hline
-\end{array}$$
+\end{array}
+$$
 
-$$\bar{x} = \frac{\sum x_in_i}{n} = \frac{44}{25}= 1.76 \mbox{ children}\qquad \bar{x}=\sum{x_if_i} = 1.76 \mbox{ children}.$$
+$$
+\bar{x} = \frac{\sum x_in_i}{n} = \frac{44}{25}= 1.76 \mbox{ children}\qquad \bar{x}=\sum{x_if_i} = 1.76 \mbox{ children}.
+$$
 
-That means that the value that best represent the number of children in the families of the sample is $1.76$ children.
+That means that the value that best represent the number of children in the families of the sample is 1.76 children.
 
 **Example - Grouped data**. Using the data of the sample of student heights, the arithmetic mean is
 
@@ -359,17 +388,20 @@ X & x_i & n_i & f_i & x_in_i & x_if_i\\
 \hline
 \sum &  & 30 & 1 & 5240 & 174.67 \\
 \hline
-\end{array}$$
+\end{array}
+$$
 
-$$\bar{x} = \frac{\sum x_in_i}{n} = \frac{5240}{30}= 174.67 \mbox{ cm} \qquad \bar{x}=\sum{x_if_i} = 174.67 \mbox{ cm}.$$
+$$
+\bar{x} = \frac{\sum x_in_i}{n} = \frac{5240}{30}= 174.67 \mbox{ cm} \qquad \bar{x}=\sum{x_if_i} = 174.67 \mbox{ cm}.
+$$
 
 Observe that when the mean is calculated from the table the result differs a little from the real value, because the values used in the calculations are the class marks instead of the actual values.
 
 ### Weighted mean
 
-In some cases the values of the sample have different importance. In that case the importance or *weight* of each value of the sample must be taken into account when calculating the mean.
+In some cases the values of the sample have different importance. In that case the importance or _weight_ of each value of the sample must be taken into account when calculating the mean.
 
-> **Definition - Sample weighted mean $\bar{x}_p$**. Given a sample of values $x_1,\ldots,x_n$ where every value $x_i$ has a weight $w_i$, the *weighted mean* of variable $X$ is the sum of the product of each value by its weight, divided by sum of weights
+> **Definition - Sample weighted mean $\bar{x}_p$**. Given a sample of values $x_1,\ldots,x_n$ where every value $x_i$ has a weight $w_i$, the *sample weighted mean* of variable $X$ is the sum of the product of each value by its weight, divided by sum of weights
 >
 $$\bar{x}_w = \frac{\sum x_iw_i}{\sum w_i}$$
 
@@ -387,13 +419,15 @@ $$\bar{x}_w = \frac{\sum x_iw_in_i}{\sum w_i}$$
 
 The arithmetic mean is
 
-$$\bar{x} = \frac{\sum x_i}{n} = \frac{5+3+6}{3}= 4.67 \text{ points},$$
+$$\bar{x} = \frac{\sum x_i}{n} = \frac{5+3+6}{3}= 4.67 \text{ points}.$$
 
 However, this measure does not represent well the performance of the student, as not all the subjects have the same importance and require the same effort to pass. Subjects with more credits require more work and must have more weight in the calculation of the mean.
 
 In this case it is better to use the weighted mean, using the credits as the weights of grades, as a representative measure of the student effort
 
-$$\bar{x}_w = \frac{\sum x_iw_i}{\sum w_i} = \frac{5\cdot 6+3\cdot 4+6\cdot 8}{6+4+8}= \frac{90}{18} = 5 \text{ points}.$$
+$$
+\bar{x}_w = \frac{\sum x_iw_i}{\sum w_i} = \frac{5\cdot 6+3\cdot 4+6\cdot 8}{6+4+8}= \frac{90}{18} = 5 \text{ points}.
+$$
 
 ### Median
 
@@ -406,7 +440,6 @@ The median divides the sample distribution into two equal parts, that is, there 
 With non-grouped data, there are two possibilities:
 
 -   Odd sample size: The median is the value in the position $\frac{n+1}{2}$.
-
 -   Even sample size: The median is the average of values in positions $\frac{n}{2}$ and $\frac{n}{2}+1$.
 
 <img class="img-center" src="img/descriptive/median.svg" alt="Median calculation for non-grouped data" width="700">
@@ -416,7 +449,7 @@ position $\frac{25+1}{2} = 13$ of the sorted sample.
 
 $$0,0,1,1,1,1,1,1,2,2,2,2,\fbox{2},2,2,2,2,2,2,2,2,2,3,3,4$$
 
-and the median is 2 children.
+And the median is 2 children.
 
 With the frequency table, the median is the lowest value with a cumulative absolute frequency greater than or equal to $13$, or with a cumulative relative frequency greater than or equal to $0.5$.
 
@@ -438,7 +471,7 @@ $$
 
 #### Median calculation for grouped-data
 
-For grouped data the median is calculated the ogive, interpolating in the class with cumulative relative frequency 0.5.  
+For grouped data the median is calculated from the ogive, interpolating in the class with cumulative relative frequency 0.5.  
 
 <img class="img-center" src="img/descriptive/interpolation.svg" alt="Median calculation for grouped data" width="600">
 
@@ -448,7 +481,7 @@ $$
 Me=l_i+\frac{0.5-F_{i-1}}{F_i-F_{i-1}}(l_i-l_{i-1})=l_i+\frac{0.5-F_{i-1}}{f_i}a_i
 $$
 
-**Example - Grouped data**. Using the data of the sample of student heights, the median falls in clas (170,180].
+**Example - Grouped data**. Using the data of the sample of student heights, the median falls in class (170,180].
 
 <img class="img-center" src="img/descriptive/interpolation_example_1.svg" alt="Example of median calculation for grouped data" width="600">
 
@@ -462,13 +495,13 @@ $$
 Me= 170+\frac{0.5-0.34}{0.7-0.34}(180-170)=170+\frac{0.16}{0.36}10=174.54 \mbox{ cm}.
 $$
 
-This means that half of the students in the sample have an height lower than or equat to 174.54 cm.
+This means that half of the students in the sample have an height lower than or equal to 174.54 cm and the other half greater than or equal to.
 
 ### Mode
 
-> **Definition - Sample Mode $Mo$**. The *sample mode* of a variable $X$ is the most frequent value in the sample.
+> **Definition - Sample Mode $Mo$**. The _sample mode_ of a variable $X$ is the most frequent value in the sample.
 
-With grouped data the *modal class* is the class with the highest frequency.
+With grouped data the _modal class_ is the class with the highest frequency.
 
 It can be calculated for all types of variables (qualitative and quantitative).
 
@@ -506,19 +539,18 @@ X & n_i \\
 (180,190] & 7 \\
 (190,200] & 2 \\
 \hline
-\end{array}$$
+\end{array}
+$$
 
 ### Which central tendency statistic should I use?
 
-In general, when all the central tendency statistics can be calculated, is advisable to use them as representative values in the following
-order:
+In general, when all the central tendency statistics can be calculated, is advisable to use them as representative values in the following order:
 
 1.  The mean. Mean takes more information from the sample than the others, as it takes into account the magnitude of data.
 
 2.  The median. Median takes less information than mean but more than mode, as it takes into account the order of data.
 
-3. The mode. Mode is the measure that fewer information takes from the sample, as it only takes into account the absolute frequency
-    of values.
+3. The mode. Mode is the measure that fewer information takes from the sample, as it only takes into account the absolute frequency of values.
 
 But, *be careful with outliers*, as the mean can be distorted by them. In that case it is better to use the median as the value most representative.
 
@@ -530,12 +562,11 @@ But, *be careful with outliers*, as the mean can be distorted by them. In that c
 
 then, $\bar{x}=3$ children and $Me=1$ children.
 
-*Which measure represent better the number of children in the sample?*
-
+_Which measure represent better the number of children in the sample?_
 
 ### Non-central location measures
 
-The non-central location measures or *quantiles* divide the sample distribution in equal parts.
+The non-central location measures or _quantiles_ divide the sample distribution in equal parts.
 
 The most used are:
 
@@ -547,11 +578,9 @@ The most used are:
 
 <img class="img-center" src="img/descriptive/quantiles.svg" alt="Quartiles, deciles and percentiles" width="600">
 
-Observe that there is a correspondence between quartiles, deciles and percentiles. For example, first quartile coincide with percentile 25, and fourth decile coincides with the percentile 40.
+Observe that there is a correspondence between quartiles, deciles and percentiles. For example, first quartile coincides with percentile 25, and fourth decile coincides with the percentile 40.
 
-
-Quantiles are calculated in a similar way to the median. The only difference lies in the cumulative relative frequency that correspond to
-every quantile.
+Quantiles are calculated in a similar way to the median. The only difference lies in the cumulative relative frequency that correspond to every quantile.
 
 <img class="img-center" src="img/descriptive/quantiles_calculation.svg" alt="Quartiles, deciles and percentiles calculation" width="600">
 
@@ -580,10 +609,9 @@ F_{D_4}=0.4 &\Rightarrow D_4 = 2 \text{ children},\\
 F_{P_{92}}=0.92 &\Rightarrow P_{92} = 3 \text{ children}.
 \end{aligned}$$
 
-Dispersion statistics
----------------------
+## Dispersion statistics
 
-*Dispersion* or *spread* refers to the variability of data. So, dispersion statistics measure how the data values are scattered in general, or with respect to a central location measure.
+_Dispersion_ or _spread_ refers to the variability of data. So, dispersion statistics measure how the data values are scattered in general, or with respect to a central location measure.
 
 For quantitative variables, the most important are:
 
@@ -599,7 +627,7 @@ For quantitative variables, the most important are:
 
 ### Range
 
-> **Definition - Sample range**. The *sample range* of a variable $X$ is the difference between the the maximum and the minimum values in the sample.
+> **Definition - Sample range**. The _sample range_ of a variable $X$ is the difference between the the maximum and the minimum values in the sample.
 >
 $$\text{Range} = \max_{x_i} -\min_{x_i}$$
 
@@ -611,7 +639,7 @@ The range measures the largest variation among the sample data. However, it is v
 
 The following measure avoids the problem of outliers and is much more used.
 
-> **Definition - Sample interquartile range**. The *sample interquartile range* of a variable $X$ is the difference between the third and the first sample quartiles.
+> **Definition - Sample interquartile range**. The _sample interquartile range_ of a variable $X$ is the difference between the third and the first sample quartiles.
 >
 $$\text{IQR} = Q_3-Q_1$$
 
@@ -621,7 +649,7 @@ The interquartile range measures the spread of the 50% central data.
 
 ### Box plot
 
-The dispersion of a variable in a sample can be graphically represented with a , that represent five descriptive statistics (minimum, quartiles and maximum) known as the *five-numbers*. It consist in a box, drawn from the lower to the upper quartile, that represent the interquartile range, and two segments, known as the lower and the upper *whiskers*. Usually the box is split in two with the median.
+The dispersion of a variable in a sample can be graphically represented with a _box plot_, that represent five descriptive statistics (minimum, quartiles and maximum) known as the _five-numbers_. It consist in a box, drawn from the lower to the upper quartile, that represent the interquartile range, and two segments, known as the lower and the upper _whiskers_. Usually the box is split in two with the median.
 
 This chart is very helpful as it serves to many purposes:
 
@@ -645,7 +673,7 @@ To create a box plot follow the steps below:
 
 3.  Split the box with the median or second quartile.
 
-4.  For the whiskers calculate first two values called *fences* $f_1$ y  $f_2$. The lower fence is the lower quartile minus one and a half the interquartile range, and the upper fence is the upper quartile plus one and a half the interquartile range:
+4.  For the whiskers calculate first two values called _fences_ $f_1$ y  $f_2$. The lower fence is the lower quartile minus one and a half the interquartile range, and the upper fence is the upper quartile plus one and a half the interquartile range:
 
     $$\begin{aligned}
     f_1&=Q_1-1.5\,\text{IQR}\\
