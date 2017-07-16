@@ -286,7 +286,7 @@ Cuando trabajemos con muestras pequeñas tenemos varias opciones:
 - Sustituir el dato atípico por el menor o el mayor valor de la distribución que no es atípico si no se trata de un error y el dato atípico no concuerda con la distribución teórica.
 - Dejar el dato atípico si no es un error, y cambiar el modelo de distribución teórico para adecuarlo a los datos atípicos.
 
-
+<!--  
 # Estadísticos muestrales
 
 La tabla de frecuencias sintetiza la información de la variable estudiada en la muestra, pero en muchas ocasiones es insuficiente para describir determinados aspectos de la distribución, como por ejemplo, cuáles son los valores más representativos de la muestra, cómo es la variabilidad de los datos, qué datos pueden considerarse atípicos, o cómo es la simetría de la distribución.
@@ -414,7 +414,7 @@ $$\bar{x}_p &= \frac{\sum x_ip_in_i}{\sum p_i}$$
 **Ejemplo**. Supóngase que un estudiante quiere calcular una medida que represente su rendimiento en el curso. La nota obtendida en cada asignatura y sus créditos son
 
 | Asignatura  | Créditos | Nota |
-|:-----------:|:--------:|------|
+|:-----------:|:--------:|:-----|
 | Matemáticas |    6     | 5    |
 |  Economía   |    4     | 3    |
 |   Química   |    8     | 6    |
@@ -979,3 +979,5 @@ Usando la misma muestra de estaturas, pero teniendo en cuenta el sexo, tenemos:
 <span>lll</span>
 
 & 173, 158, 174, 166, 162, 177, 165, 154, 166, 182,\ & 169, 172, 170, 168.\ & 179, 181, 172, 194, 185, 187, 198, 178, 188, 171,\ & 175, 167, 186, 172, 176, 187.\
+
+-->
