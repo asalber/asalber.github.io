@@ -155,7 +155,7 @@ x_i & n_i & f_i \\
 \end{array}
 $$
 
-_Obsérvese que en este caso las frecuencias acumuladas no tienen sentido al no existir un orden enter los valores de la variable._
+_Obsérvese que en este caso las frecuencias acumuladas no tienen sentido al no existir un orden entre los valores de la variable._
 
 ## Representaciones gráficas
 
@@ -251,7 +251,8 @@ El polígono de frecuencias acumuladas (absolutas o relativas) se conoce como **
 <div id="ogive" class="plotly" style="margin: auto; width:80%"></div>
 <script type="application/json" data-for="ogive">{"x":{"data":[{"type":"bar","inherit":true,"x":[155,165,175,185,195],"y":[0.0666666666666667,0.333333333333333,0.7,0.933333333333333,1],"marker":{"line":{"width":1}},"name":"bar"},{"type":"scatter","inherit":true,"x":[150,160,170,180,190,200],"y":[0,0.0666666666666667,0.333333333333333,0.7,0.933333333333333,1],"marker":{"line":{"width":1}},"name":"ogive"}],"layout":{"title":"Distribución de frecuencias relativas acumuladas de estaturas","xaxis":{"title":"Estatura"},"yaxis":{"title":"Frecuencia relativa acumulada"},"autosize":false,"width":600,"height":400,"bargap":0,"showlegend":false,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Distribución de frecuencias relativas acumuladas de estaturas","xaxis":{"title":"Estatura"},"yaxis":{"title":"Frecuencia relativa acumulada"},"autosize":false,"width":600,"height":400,"bargap":0,"showlegend":false},"filename":"Distribución de frecuencias relativas acumuladas de estaturas"},"evals":[]}</script>
 
-Observese que en la ojiva se unen los vértices superiores derechos de cada barra con segmentos, en lugar de los puntos centrales, ya que no se consigue alcanzar la frecuencia acumulada correspondiente a la clase hasta que no se alcanza el final del intervalo.
+Obsérvese que en la ojiva se unen los vértices superiores derechos de cada barra con segmentos, en lugar de los puntos centrales, ya que no se consigue alcanzar la frecuencia acumulada correspondiente a la clase hasta que no se alcanza el final del intervalo.
+
 
 ### Diagrama de sectores
 
@@ -286,10 +287,10 @@ Cuando trabajemos con muestras pequeñas tenemos varias opciones:
 - Sustituir el dato atípico por el menor o el mayor valor de la distribución que no es atípico si no se trata de un error y el dato atípico no concuerda con la distribución teórica.
 - Dejar el dato atípico si no es un error, y cambiar el modelo de distribución teórico para adecuarlo a los datos atípicos.
 
-<!--  
+
 # Estadísticos muestrales
 
-La tabla de frecuencias sintetiza la información de la variable estudiada en la muestra, pero en muchas ocasiones es insuficiente para describir determinados aspectos de la distribución, como por ejemplo, cuáles son los valores más representativos de la muestra, cómo es la variabilidad de los datos, qué datos pueden considerarse atípicos, o cómo es la simetría de la distribución.
+La tabla de frecuencias sintetiza la información de la distribución de valores de la variable estudiada en la muestra, pero en muchas ocasiones es insuficiente para describir determinados aspectos de la distribución, como por ejemplo, cuáles son los valores más representativos de la muestra, cómo es la variabilidad de los datos, qué datos pueden considerarse atípicos, o cómo es la simetría de la distribución.
 
 Para describir esos aspectos de la distribución muestral se utilizan unas medidas resumen llamadas **estadísticos muestrales**.
 
@@ -323,6 +324,7 @@ Pueden ser de dos tipos:
 
 - Percentiles.
 
+
 ### Media aritmética
 
 >**Definición - Media aritmética muestral $\bar{x}$**. La _media aritmética muestral_ de una variable $X$ es la suma de los valores observados en la muestra dividida por el tamaño muestral
@@ -331,13 +333,13 @@ $$\bar{x} = \frac{\sum x_i}{n}$$
 
 A partir de la tabla de frecuencias puede calcularse con la fórmula
 
-$$\bar{x} &= \frac{\sum x_in_i}{n} = \sum x_i f_i$$
+$$\bar{x} = \frac{\sum x_in_i}{n} = \sum x_i f_i$$
 
 En la mayoría de los casos, la media aritmética es la medida que mejor representa a la muestra.
 
 _**¡Atención!** No puede calcularse para variables cualitativas._
 
-**Ejemplo - Datos no agrupados**. Utilizando los datos de la muestra del número de hijos en las familias, la media aritmétia es
+**Ejemplo - Datos no agrupados**. Utilizando los datos de la muestra del número de hijos en las familias, la media aritmética es
 
 $$
 \begin{aligned}
@@ -361,6 +363,7 @@ x_i & n_i & f_i & x_in_i & x_if_i\\
 \sum & 25 & 1 & 44 & 1.76 \\
 \hline
 \end{array}
+$$
 
 $$
 \bar{x} = \frac{\sum x_in_i}{n} = \frac{44}{25}= 1.76 \mbox{ children}\qquad \bar{x}=\sum{x_if_i} = 1.76 \mbox{ hijos}.
@@ -371,7 +374,7 @@ Esto significa que el valor que mejor representa el número de hijos en las fami
 **Ejemplo - Datos agrupados**. Utilizando los datos de la muestra de estaturas, la media es
 
 $$
-\bar{x} &= \frac{179+173+\cdots+187}{30} = 175.07 \mbox{ cm}.
+\bar{x} = \frac{179+173+\cdots+187}{30} = 175.07 \mbox{ cm}.
 $$
 
 o bien, desde la tabla de frecuencias utilizando las marcas de clase $x_i$:
@@ -396,22 +399,22 @@ $$
 \bar{x} = \frac{\sum x_in_i}{n} = \frac{5240}{30}= 174.67 \mbox{ cm} \qquad \bar{x}=\sum{x_if_i} = 174.67 \mbox{ cm}.
 $$
 
- Obsérvese que al calcular la media desde la tabla de frecuencias el resultado difiere ligeramente del valor real obtenido directamente desde la muestra, ya que los valores usados en los cálculos nos son los datos reales sino las marcas de clase.
+Obsérvese que al calcular la media desde la tabla de frecuencias el resultado difiere ligeramente del valor real obtenido directamente desde la muestra, ya que los valores usados en los cálculos no son los datos reales sino las marcas de clase.
 
 ### Media ponderada
 
 En algunos casos, los valores de la muestra no tienen la misma importancia. En este caso la importancia o _peso_ de cada valor de la muestra debe tenerse en cuenta al calcular la media.
 
-> **Definición - Media ponderada muestral $\bar{x}_p$**. Dada una muestra de valores $x_1,\ldots, x_n$ donde cada valor $x_i$ tiene asociado un peso $p_i$, la _media ponderada muestral_ de la variable $X$ es la suma de los productos de cada valor observado en la muestra por su peso, dividida por la suma de todos los pesos
+> **Definición - Media ponderada muestral $\bar x_p$**. Dada una muestra de valores $x_1,\ldots, x_n$ donde cada valor $x_i$ tiene asociado un peso $p_i$, la _media ponderada muestral_ de la variable $X$ es la suma de los productos de cada valor observado en la muestra por su peso, dividida por la suma de todos los pesos
 >
 $$\bar{x}_p = \frac{\sum x_ip_i}{\sum p_i}$$
 
 A partir de la tabla de frecuencias puede calcularse con la fórmula
 
-$$\bar{x}_p &= \frac{\sum x_ip_in_i}{\sum p_i}$$
+$$\bar{x}_p = \frac{\sum x_ip_in_i}{\sum p_i}$$
 
 
-**Ejemplo**. Supóngase que un estudiante quiere calcular una medida que represente su rendimiento en el curso. La nota obtendida en cada asignatura y sus créditos son
+**Ejemplo**. Supóngase que un estudiante quiere calcular una medida que represente su rendimiento en el curso. La nota obtenida en cada asignatura y sus créditos son
 
 | Asignatura  | Créditos | Nota |
 |:-----------:|:--------:|:-----|
@@ -420,6 +423,7 @@ $$\bar{x}_p &= \frac{\sum x_ip_in_i}{\sum p_i}$$
 |   Química   |    8     | 6    |
 
 La media aritmética vale
+
 $$\bar{x} = \frac{\sum x_i}{n} = \frac{5+3+6}{3}= 4.67 \text{ puntos}.$$
 
 Sin embargo, esta nota no representa bien el rendimiento académico del alumno ya que no todas las asignaturas tienen la misma importancia ni requieren el mismo esfuerzo para aprobar. Las asignaturas con más créditos requieren más trabajo y deben tener más peso en el cálculo de la media.
@@ -443,13 +447,13 @@ Con datos no agrupados pueden darse varios casos:
 - Tamaño muestral impar: La mediana es el valor que ocupa la posición $\frac{n+1}{2}$.
 - Tamaño muestral par: La mediana es la media de los valores que ocupan las posiciones $\frac{n}{2}$ y $\frac{n}{2}+1$.
 
-![image](img/descriptiva/mediana)
+<img class="img-center" src="img/descriptiva/mediana.svg" alt="Cálculo de la mediana con datos no agrupados" width="700">
 
 **Ejemplo**. Utilizando los datos del número de hijos de las familias, el tamaño muestral es 25, que es impar, y la mediana es el valor que ocupa la posición $\frac{25+1}{2} = 13$ de la muestra ordenada.
 
-$$0,0,1,1,1,1,1,1,2,2,2,2,\fbox{2},2,2,2,2,2,2,2,2,2,3,3,4$$ y la mediana es 2 hijos.
+$$0,0,1,1,1,1,1,1,2,2,2,2,\fbox{2},2,2,2,2,2,2,2,2,2,3,3,4$$
 
-Y la mediana es 2 hijos.
+y la mediana es 2 hijos.
 
 Si se trabaja con la tabla de frecuencias, la mediana es el valor más pequeño con una frecuencia acumulada mayor o igual a $13$, o con una frecuencia relativa acumulada mayor o igual que $0.5$.
 
@@ -473,7 +477,7 @@ $$
 
 Con datos agrupados la mediana se calcula interpolando en el polígono de frecuencias relativas acumuladas para el valor 0.5.
 
-![image](img/descriptiva/interpolacion)
+<img class="img-center" src="img/descriptiva/interpolacion.svg" alt="Cálculo de la mediana con datos agrupados" width="600">
 
 Ambas expresiones son iguales ya que el ángulo $\alpha$ es el mismo, y resolviendo la ecuación se tiene la siguiente fórmula para calcular la mediana
 
@@ -483,11 +487,11 @@ $$
 
 **Ejemplo - Datos agrupados**. Utilizando los datos de la muestra de las estaturas de estudiantes, la mediana cae en la clase (170,180].
 
-<img class="img-center" src="img/descriptive/interpolation_example_1.svg" alt="Example of median calculation for grouped data" width="600">
+<img class="img-center" src="img/descriptiva/interpolacion_ejemplo_1.svg" alt="Ejemplo de cálculo de la mediana con datos agrupados" width="600">
 
-Interponlando en el intervalo (170,180] se tiene
+Interpolando en el intervalo (170,180] se tiene
 
-<img class="img-center" src="img/descriptive/interpolation_example_2.svg" alt="Example of median calculation for grouped data" width="600">
+<img class="img-center" src="img/descriptiva/interpolacion_ejemplo_2.svg" alt="Ejemplo de cálculo de la mediana con datos agrupados" width="600">
 
 Igualando ambas expresiones y resolviendo la ecuación se obtiene
 
@@ -497,7 +501,7 @@ $$
 
 Esto significa que la mitad de los estudiantes tienen estaturas menores o iguales que 174.54 cm y la otra mitad mayores o iguales.
 
-## Moda
+### Moda
 
 > **Definición - Moda muestral $Mo$**. La _moda muestral_ de una variable $X$ es el valor de la variable más frecuente en la muestra.
 
@@ -507,7 +511,7 @@ Puede calcularse para todos los tipos de variables (cuantitativas y cualitativas
 
 Las distribuciones pueden tener más de una moda.
 
-![image](img/descriptiva/moda)
+<img class="img-center" src="img/descriptiva/moda.png" alt="Cálculo de la moda" width="600">
 
 **Ejemplo**. Utilizando los datos de la muestra del número de hijos en las familias, el valor con mayor frecuencia es 2, y por tanto la moda es $Mo=2$.
 
@@ -543,7 +547,7 @@ $$
 
 ### ¿Qué estadístico de tendencia central usar?
 
-En general, siempre que puedan calcularse conviene tomarlas en el siguiente orden:
+En general, siempre que puedan calcularse los estadísticos de tendencia central, es recomendable utilizarlos como valores representativos en el siguiente orden:
 
 1. Media. La media utiliza más información que el resto ya que para calcularla se tiene en cuenta la magnitud de los datos.
 
@@ -551,7 +555,7 @@ En general, siempre que puedan calcularse conviene tomarlas en el siguiente orde
 
 3. Moda. La moda es la que menos información utiliza ya que para calcularla sólo se tienen en cuenta las frecuencias absolutas.
 
-Pero, ¡hay que tener cuidado con los datos atípicos!, ya que la media puede distorsionarse cuando hay datos atípicos. En tal caso es mejor utilizar la mediana como valor más representativo.
+Pero, _hay que tener cuidado con los datos atípicos_, ya que la media puede distorsionarse cuando hay datos atípicos. En tal caso es mejor utilizar la mediana como valor más representativo.
 
 **Ejemplo**. Si una muestra de número de hijos de 7 familias es
 
@@ -569,19 +573,19 @@ Las medidas de posición no centrales o _cuantiles_ dividen la distribución en 
 
 Los más utilizados son:
 
-**Cuartiles**: Dividen la distribución en 4 partes iguales. Hay tres cuartiles: $C_1$ (25% acumulado), $C_2$ (50% acumulado), $C_3$ (75% acumulado).
+**Cuartiles**: Dividen la distribución en 4 partes iguales. Hay 3 cuartiles: $C_1$ (25% acumulado), $C_2$ (50% acumulado), $C_3$ (75% acumulado).
 
 **Deciles**: Dividen la distribución en 10 partes iguales. Hay 9 deciles: $D_1$ (10% acumulado),..., $D_9$ (90% acumulado).
 
 **Percentiles**: Dividen la distribución en 100 partes iguales. Hay 99 percentiles: $P_1$ (1% acumulado),..., $P_{99}$ (99% acumulado).
 
-<img class="img-center" src="img/descriptive/quantiles.svg" alt="Quartiles, deciles and percentiles" width="600">
+<img class="img-center" src="img/descriptiva/cuantiles.svg" alt="Cuartiles, deciles y percentiles" width="600">
 
 Obsérvese que hay una correspondencia entre los cuartiles, los deciles y los percentiles. Por ejemplo, el primer cuartil coincide con el percentil 25, y el cuarto decil coincide con el percentil 40.
 
 Los cuantiles se calculan de forma similar a la mediana. La única diferencia es la frecuencia relativa acumulada que corresponde a cada cuantil.
 
-<img class="img-center" src="img/descriptive/quantiles_calculation.svg" alt="Quartiles, deciles and percentiles calculation" width="600">
+<img class="img-center" src="img/descriptiva/cuantiles_calculo.svg" alt="Cálculo de los cuartiles, deciles y percentiles" width="600">
 
 **Ejemplo**. Utilizando los datos de la muestra del número de hijos de las familias, la frecuencia relativa acumulada era
 
@@ -611,7 +615,7 @@ F_{P_{92}}=0.92 &\Rightarrow P_{92} = 3 \text{ hijos}.
 
 ## Estadísticos de dispersión
 
-La _dispersión_ se refiere a la heterogeneidad o variabilidad de los datos. Asi pues, los estadísticos de dispersión mide la variabilidad global de los datos, o con respecto a una medida de tendencia central.
+La _dispersión_ se refiere a la heterogeneidad o variabilidad de los datos. Así pues, los estadísticos de dispersión mide la variabilidad global de los datos, o con respecto a una medida de tendencia central.
 
 Para las variables cuantitativas, las más empleadas son:
 
@@ -631,7 +635,7 @@ Para las variables cuantitativas, las más empleadas son:
 >
 $$Re = \max_{x_i} -\min_{x_i}$$
 
-<img class="img-center" src="img/descriptive/range.svg" alt="Range" width="600">
+<img class="img-center" src="img/descriptiva/rango.svg" alt="Rango" width="600">
 
 El recorrido mide la máxima variación que hay entre los datos muestrales. No obstante, es muy sensible a datos atípicos ya que suelen aparecer justo en los extremos de la distribución, por lo que no se suele utilizar mucho.
 
@@ -643,10 +647,11 @@ Para evitar el problema de los datos atípicos en el recorrido, se puede utiliza
 >
 $$RI = C_3 -C_1$$
 
-<img class="img-center" src="img/descriptive/interquartile_range.svg" alt="Interquartile range" width="600">
+<img class="img-center" src="img/descriptiva/rango_intercuartilico.svg" alt="Rango intercuartílico" width="600">
 
+El rango intercuartílico mide la dispersión del 50% de los datos centrales.
 
-## Diagrama de caja y bigotes
+### Diagrama de caja y bigotes
 
 La dispersión de una variable suele representarse gráficamente mediante un _diagrama de caja y bigotes_, que representa cinco estadísticos descriptivos (mínimo, cuartiles y máximo) conocidos como los _cinco números_. Consiste en una caja, dibujada desde el primer al tercer cuartil, que representa el rango intercuartílico, y dos segmentos, conocidos como _bigotes_ inferior y superior. A menudo la caja se divide en dos por la mediana.  
 
@@ -654,13 +659,13 @@ Este diagrama es muy útil y se utiliza para muchos propósitos:
 
 -   Sirve para medir la dispersión de los datos ya que representa el rango y el rango intercuartílico.
 
--   Sirve para detectar datos atípicos, que son los valores que quedan fuera del intervalo definido or los bigotes.
+-   Sirve para detectar datos atípicos, que son los valores que quedan fuera del intervalo definido por los bigotes.
 
 -   Sirve para medir la simetría de la distribución, comparando la longitud de las cajas y de los bigotes por encima y por debajo de la mediana.
 
 **Ejemplo**. El diagrama siguiente muestra el diagrama de caja y bigotes del peso de una muestra de recién nacidos.
 
-<img class="img-center" src="img/descriptive/boxplot.png" alt="Box plot of newborns weights" width="600">
+<img class="img-center" src="img/descriptiva/diagrama_caja.png" alt="Diagrama de caja y bigotes del peso de recien nacidos" width="600">
 
 Para construir el diagrama de caja y bigotes hay que seguir los siguientes pasos:
 
@@ -679,226 +684,241 @@ Para construir el diagrama de caja y bigotes hay que seguir los siguientes pasos
   \end{aligned}
   $$
 
-  Las valls definen el intervalo donde los datos se consideran normales. Cualquier valor fuera de ese intervalo se considera un dato atípico. El bigote superior se dibuja desde el borde inferior de la caja hasta el menor valor de la muestra que es mayor o igual a la valla inferior, y el bigote superior se dibuja desde el borde superior de la caja hasta el mayor valor de la muestra que es menor o igual a la valla superior.
+  Las vallas definen el intervalo donde los datos se consideran normales. Cualquier valor fuera de ese intervalo se considera un dato atípico. El bigote superior se dibuja desde el borde inferior de la caja hasta el menor valor de la muestra que es mayor o igual a la valla inferior, y el bigote superior se dibuja desde el borde superior de la caja hasta el mayor valor de la muestra que es menor o igual a la valla superior.
 
 5. Finalmente, si en la muestra hay algún dato atípico, se dibuja un punto para cada uno de ellos.
 
 **Ejemplo**. El diagrama de caja y bigotes de la muestra del número de hijos de las familias se muestra a continuación.
 
-<img class="img-center" src="img/descriptive/boxplot_children.png" alt="Box plot of number of children" width="600">
+<img class="img-center" src="img/descriptiva/diagrama_caja_hijos.png" alt="Diagrama de caja y bigotes del número de hijos" width="600">
 
-## Desviaciones respecto de la media
+### Desviaciones respecto de la media
 
 Otra forma de medir la variabilidad de una variable es estudiar la concentración de los valores en torno a algún estadístico de tendencia central como por ejemplo la media.
 
-Para ello se suele medir la distancia de cada valor a la media. A ese valor se le llama
+Para ello se suele medir la distancia de cada valor a la media. A ese valor se le llama **desviación de la media**.
 
-(-1,-0.5)(7,1.5) (0,0)(6,0) (1,0)(5,0) (3,0) (3,-0.2)
-
-<span>$\bar{x}$</span>
-
-(1,-0.2)
-
-<span>$x_i$</span>
-
-(5,-0.2)
-
-<span>$x_j$</span>
-
-(1,0.5)(3,0.5) (2,0.7)
-
-<span>$x_i-\bar{x}$</span>
-
-(2,1.2)
-
-<span>Desviación $-$</span>
-
-(3,0.5)(5,0.5) (4,0.7)
-
-<span>$x_j-\bar{x}$</span>
-
-(4,1.2)
-
-<span>Desviación
-$+$</span>
+<img class="img-center" src="img/descriptiva/desviaciones.svg" alt="Desviaciones de la media" width="300">
 
 Si las desviaciones son grandes la media no será tan representativa como cuando la desviaciones sean pequeñas.
 
-(-1,-0.5)(7,1.6) (0,1.6)(6,1.6) (0.1,1.6)(0.2,1.6)(0.4,1.6)(0.5,1.6)(0.8,1.6)(5,1.6)(5.3,1.6)(5.4,1.6)(5.7,1.6)(5.8,1.6) (3,1.6) (3,1.4)
+**Example**. La siguiente tabla contiene las notas de 3 estudiantes en un curso con las asignaturas $A$, $B$ y $C$.
 
-<span>$\bar{x}$</span>
+$$
+\begin{array}{cccc}
+\hline
+A & B & C & \bar x\\
+0 & 5 & 10 & 5\\
+4 & 5 & 6 & 5\\
+5 & 5 & 5 & 5\\
+\hline
+\end{array}
+$$
 
-(-2.5,1.6)
+Todos los estudiantes tienen la misma media, pero, en qué caso la media representa mejor el rendimiento en el curso?
 
-<span>Más
-dispersión</span>
 
-(6.3,1.6)
+### Varianza y desviación típica
 
-<span>$\bar x$ menos representativa</span>
+> **Definición - Varianza $s^2$**. La _varianza muestral_ de una variable $X$ se define como el promedio del cuadrado de las desviaciones de los valores de la muestra respecto de la media muestral.
+>
+$$s^2 = \frac{\sum (x_i-\bar x)^2n_i}{n} = \sum (x_i-\bar x)^2f_i$$
 
-(0,0.2)(6,0.2) (1.5,0.2)(2,0.2)(2.2,0.2)(2.5,0.2)(2.8,0.2)(3.3,0.2)(3.5,0.2)(3.9,0.2)(4.1,0.2)(4.4,0.2) (3,0.2) (3,0)
+También puede calcularse de manera más sencilla mediante la fórmula
 
-<span>$\bar{x}$</span>
+$$s^2 = \frac{\sum x_i^2n_i}{n} -\bar x^2= \sum x_i^2f_i-\bar x^2$$
 
-(-2.5,0.2)
+La varianza tiene las unidades de la variable al cuadrado, por lo que para facilitar su interpretación se suele utilizar su raíz cuadrada.
 
-<span>Menos
-dispersión</span>
-
-(6.3,0.2)
-
-<span>$\bar x$ más representativa</span>
-
-_¿En qué muestra es más representativa la media?_
-
-## Varianza y desviación típica
-
-[Varianza $s^2$] La _varianza muestral_ de una variable $X$ se define como el promedio del cuadrado de las desviaciones de los valores de la muestra respecto de la media muestral. $$s^2 = \frac{\sum (x_i-\bar x)^2n_i}{n} = \sum (x_i-\bar x)^2f_i$$
-
-También puede calcularse de manera más sencilla mediante la fórmula $$s^2 = \frac{\sum x_i^2n_i}{n} -\bar x^2= \sum x_i^2f_i-\bar x^2$$ La varianza tiene las unidades de la variable al cuadrado, por lo que para facilitar su interpretación se suele utilizar su raíz cuadrada:
-
-[Desviación típica $s$] La _desviación típica muestral_ de una variable $X$ se define como la raíz cuadrada positiva de su varianza muestral. $$s = +\sqrt{s^2}$$
+> **Definición - Desviación típica $s$**. La _desviación típica muestral_ de una variable $X$ se define como la raíz cuadrada positiva de su varianza muestral.
+>
+$$s = +\sqrt{s^2}$$
 
 ## Interpretación de la varianza y la desviación típica
 
-Tanto la varianza como la desviación típica sirven para cuantificar la dispersión de los datos en torno a la media.
+Tanto la varianza como la desviación típica sirven para cuantificar la dispersión de los datos en torno a la media. Cuando la varianza o la desviación típica son pequeñas, los datos de la muestra están concentrados en torno a la media, y la media es una buena medida de representatividad. Por contra, cuando la varianza o la desviación típica son grandes, los datos de la muestra están alejados de la media, y la media ya no representa tan bien.
 
-![image](img/descriptiva/interpretacion_varianza)
+|:--------------------------|:-------------:|:------------------------|
+| Desviación típica pequeña | $\Rightarrow$ | Media representativa    |
+| Desviación típica grande  | $\Rightarrow$ | Media no representativa |
 
-## Cálculo de la varianza y la desviación típica
+**Ejemplo**. Las siguientes muestras contienen las notas de dos estudiantes en dos asignaturas.
 
-### Ejemplo con datos no agrupados
+<img class="img-center" src="img/descriptiva/interpretacion_desviacion_tipica.svg" alt="Interpretación de la desviación típica" width="400">
 
-Para el número de hijos se puede calcular la varianza a partir de la tabla de frecuencias añadiendo una columna con los cuadrados de los valores:
+_¿Qué media es más representativa?_
 
-<span>rrr</span>
+**Ejemplo - Datos no agrupados**. Utilizando los datos de la muestra del número de hijos de las familias, con una media $\bar x=1.76$ hijos, y añadiendo una nueva columna a la tabla de frecuencias con los cuadrados de los valores,
 
-& &\ 0 & 2 & 0\ 1 & 6 & 6\ 2 & 14 & 56\ 3 & 2 & 18\ 4 & 1 & 16\ & 25 & 96\
+$$
+\begin{array}{rrr}
+\hline
+x_i & n_i & x_i^2n_i \\
+\hline
+0 & 2 & 0 \\
+1 & 6 & 6 \\
+2 & 14 & 56\\
+3 & 2  & 18\\
+4 & 1 & 16 \\
+\hline
+\sum & 25 & 96 \\
+\hline
+\end{array}$$
 
-$$s^2 = \frac{\sum x_i^2n_i}{n}-\bar x^2 = \frac{96}{25}-1.76^2= 0.7424 \mbox{ hijos}^2.$$ Y la desviación típica es $s=\sqrt{0.7424} = 0.8616$ hijos.
+$$s^2 = \frac{\sum x_i^2n_i}{n}-\bar x^2 = \frac{96}{25}-1.76^2= 0.7424 \mbox{ hijos}^2.$$
 
-Comparado este valor con el recorrido, que va de 0 a 4 hijos se observa que no es demasiado grande por lo que se puede concluir que no hay mucha dispersión y en consecuencia la media de $1.76$ hijos representa bien a los matrimonios de la muestra.
+y la desviación típica es $s=\sqrt{0.7424} = 0.8616$ hijos.
 
-## Cálculo de la varianza y la desviación típica
+Comparado este valor con el recorrido, que va de 0 a 4 hijos se observa que no es demasiado grande por lo que se puede concluir que no hay mucha dispersión y en consecuencia la media de $1.76$ hijos representa bien el número de hijos de las familias de la muestra.
 
-### Ejemplo con datos agrupados
+**Ejemplo - Datos agrupados**. Utilizando los datos de la muestra de estaturas de los estudiantes y agrupando las estaturas en clases, se obtenía una media $\bar x = 174.67$ cm. El cálculo de la varianza se realiza igual que antes pero tomando como valores de la variable las marcas de clase.
 
-En el ejemplo de las estaturas, al ser datos agrupados, el cálculo se realiza igual que antes pero tomando como valores de la variable las marcas de clase.
+$$
+\begin{array}{crrr}
+\hline
+X & x_i & n_i & x_i^2n_i \\
+\hline
+(150,160] & 155 & 2 & 48050\\
+(160,170] & 165 & 8 & 217800\\
+(170,180] & 175 & 11 & 336875\\
+(180,190] & 185 & 7 & 239575\\
+(190,200] & 195 & 2 & 76050\\
+\hline
+\sum &  & 30 & 918350 \\
+\hline
+\end{array}
+$$
 
-<span>rrrr</span>
+$$s^2 = \frac{\sum x_i^2n_i}{n}-\bar x^2 = \frac{918350}{30}-174.67^2= 102.06 \mbox{ cm}^2,$$
 
-& & &\ (150,160] & 155 & 2 & 48050\ (160,170] & 165 & 8 & 217800\ (170,180] & 175 & 11 & 336875\ (180,190] & 185 & 7 & 239575\ (190,200] & 195 & 2 & 76050\ & & 30 & 918350\
-
-$$s^2 = \frac{\sum x_i^2n_i}{n}-\bar x^2 = \frac{918350}{30}-174.67^2= 102.06 \mbox{ cm}^2.$$ Y la desviación típica es $s=\sqrt{102.06} = 10.1$ cm.
+y la desviación típica es $s=\sqrt{102.06} = 10.1$ cm.
 
 Este valor es bastante pequeño, comparado con el recorrido de la variable, que va de 150 a 200 cm, por lo que la variable tiene poca dispersión y en consecuencia su media es muy representativa.
 
-## Coeficiente de variación
+### Coeficiente de variación
 
-Tanto la varianza como la desviación típica tienen unidades y eso dificulta a veces su interpretación y su comparación.
+Tanto la varianza como la desviación típica tienen unidades y eso dificulta a veces su interpretación, especialmente cuando se compara la dispersión de variables con diferentes unidades.
 
-Afortunadamente es fácil definir a partir de ellas una medida de dispersión adimensional que es más fácil de interpretar.
+Por este motivo, es también común utilizar la siguiente medida de dispersión que no tiene unidades.
 
-[Coeficiente de variación muestral $cv$] El _coeficiente de variación muestral_ de una variable $X$ se define como el cociente entre su desviación típica muestral y el valor absoluto de su media muestral. $$cv = \frac{s}{|\bar x|}$$
+> **Definición - Coeficiente de variación muestral $cv$**. El _coeficiente de variación muestral_ de una variable $X$ se define como el cociente entre su desviación típica muestral y el valor absoluto de su media muestral.
+>
+$$cv = \frac{s}{|\bar x|}$$
 
 El coeficiente de variación muestral mide la dispersión relativa de los valores de la muestra en torno a la media muestral.
 
-Como no tiene unidades, es muy sencillo de interpretar: Cuanto mayor sea, mayor será la dispersión y menos representativa será la media.
+Como no tiene unidades, es muy sencillo de interpretar: Cuanto mayor sea, mayor será la dispersión relativa con respecto a la media y menos representativa será la media.
 
-También se utiliza para comparar la dispersión entre muestras distintas incluso si las variables tienen unidades diferentes.
+El coeficiente de variación es muy útil para comparar la dispersión de distribuciones de variables diferentes, incluso si las variables tienen unidades diferentes.
 
-## Coeficiente de variación
+**Ejemplo**. En la muestra del número de hijos, donde la media era $\bar x=1.76$ hijos y la desviación típica $s=0.8616$ hijos, el coeficiente de variación vale
 
-### Ejemplo
+$$cv = \frac{s}{|\bar x|} = \frac{0.8616}{|1.76|} = 0.49.$$
 
-En el caso del número de hijos, como $\bar x=1.76$ hijos y $s=0.8616$ hijos, se tiene que el coefiente de variación vale $$cv = \frac{s}{|\bar x|} = \frac{0.8616}{|1.76|} = 0.49.$$ En el caso de las estaturas, como $\bar x=174.67$ cm y $s=10.1$ cm, se tiene que el coeficiente de variación vale $$cv = \frac{s}{|\bar x|} = \frac{10.1}{|174.67|} = 0.06.$$ Como se puede observar la dispersión relativa en la muestra de estaturas es mucho menor que en la del número de hijos, por lo que la media de las estaturas será más representativa que la media del número de hijos.
+En la muestra de las estaturas, donde la media era $\bar x=174.67$ cm y la desviación típica $s=10.1$ cm, el coeficiente de variación vale
 
-# Estadísticos de forma
+$$cv = \frac{s}{|\bar x|} = \frac{10.1}{|174.67|} = 0.06.$$
+
+Esto significa que la dispersión relativa en la muestra de estaturas es mucho menor que en la del número de hijos, por lo que la media de las estaturas será más representativa que la media del número de hijos.
+
 
 ## Estadísticos de forma
 
-Son medidas que tratan de caracterizar aspectos de la forma de la distribución de una muestra.
+Son medidas que describen la forma de la distribución.
 
 Los aspectos más relevantes son:
 
-Simetría: : Miden la simetría de la distribución de frecuencias en torno a la media.\ El estadístico más utilizado es el _Coeficiente de Asimetría de Fisher_.
+**Simetría** Mide la simetría de la distribución de frecuencias en torno a la media. El estadístico más utilizado es el _Coeficiente de Asimetría de Fisher_.
 
-Apuntamiento: : Miden el apuntamiento de la distribución de frecuencias.\ El estadístico más utilizado es el _Coeficiente de Apuntamiento o Curtosis_.
+**Apuntamiento** Mide el apuntamiento o el grado de concentración de valores en torno a la media de la distribución de frecuencias. El estadístico más utilizado es el _Coeficiente de Apuntamiento o Curtosis_.
 
-## Coeficiente de asimetría
+### Coeficiente de asimetría
 
-[Coeficiente de asimetría muestral $g_1$] El _coeficiente de asimetría muestral_ de una variable $X$ se define como el promedio de las desviaciones de los valores de la muestra respecto de la media muestral, elevadas al cubo, dividido por la desviación típica al cubo. $$g_1 = \frac{\sum (x_i-\bar x)^3 n_i/n}{s^3} = \frac{\sum (x_i-\bar x)^3 f_i}{s^3}$$
+> **Definición - Coeficiente de asimetría muestral $g_1$**. El _coeficiente de asimetría muestral_ de una variable $X$ es el promedio de las desviaciones de los valores de la muestra respecto de la media muestral, elevadas al cubo, dividido por la desviación típica al cubo.
+>
+$$g_1 = \frac{\sum (x_i-\bar x)^3 n_i/n}{s^3} = \frac{\sum (x_i-\bar x)^3 f_i}{s^3}$$
 
-El coeficiente de asimetría muestral mide el grado de simetría de los valores de la muestra con respecto a la media muestral, de manera que:
+Mide el grado de simetría de los valores de la muestra con respecto a la media muestra, es decir, cuantos valores de la muestra están por encima o por debajo de la media y cómo de alejados de esta.
 
-- $g_1=0$ indica que hay el mismo número de valores a la derecha y a la izquierda de la media (simétrica).
+- $g_1=0$ indica que hay el mismo número de valores por encima y por debajo de la media e igualmente alejados de ella (simétrica).
 
-- $g_1<0$ indica que la mayoría de los valores son mayores que la media (asimétrica a la izquierda).
+<img class="img-center" src="img/descriptiva/distribucion_simetrica.svg" alt="Distribución simétrica" width="600">
 
-- $g_1>0$ indica que la mayoría de los valores son menores que la media (asimétrica a la derecha).
+- $g_1<0$ indica que la mayoría de los valores son mayores que la media, pero los valores menores están más alejados de ella (asimétrica a la izquierda).
 
-## Coeficiente de asimetría
+<img class="img-center" src="img/descriptiva/distribucion_asimetrica_izquierda.svg" alt="Distribución simétrica a la izquierda" width="600">
 
-### Ejemplo de distribución simétrica
+- $g_1>0$ indica que la mayoría de los valores son menores que la media, pero los valores mayores están más alejados de ella (asimétrica a la derecha).
 
-## Coeficiente de asimetría
+<img class="img-center" src="img/descriptiva/distribucion_asimetrica_derecha.svg" alt="Distribución simétrica a la derecha" width="600">
 
-### Ejemplo de distribución asimétrica hacia la izquierda
+**Ejemplo - Datos agrupados**. Utilizando la tabla de frecuencias de la muestra de estaturas y añadiendo una nueva columna con las desviaciones de la media $\bar x = 174.67$ cm al cubo, se tiene
 
-## Coeficiente de asimetría
+$$
+\begin{array}{crrrr}
+\hline
+X & x_i & n_i & x_i-\bar x & (x_i-\bar x)^3 n_i \\
+\hline
+(150,160] & 155 & 2 & -19.67 & -15221.00\\
+(160,170] & 165 & 8 & -9.67 & -7233.85\\
+(170,180] & 175 & 11 & 0.33 & 0.40\\
+(180,190] & 185 & 7 & 10.33 & 7716.12\\
+(190,200] & 195 & 2 & 20.33 & 16805.14\\
+\hline
+\sum &  & 30 & & 2066.81 \\
+\hline
+\end{array}
+$$
 
-### Ejemplo de distribución asimétrica hacia la derecha
+$$g_1 = \frac{\sum (x_i-\bar x)^3n_i/n}{s^3} = \frac{2066.81/30}{10.1^3} = 0.07.$$
 
-## Cálculo del coeficiente de asimetría
+Como está cerca de 0, eso significa que la distribución de las estaturas es casi simétrica.
 
-### Ejemplo con datos agrupados
 
-Siguiendo con el ejemplo de las estaturas, podemos calcular el coeficiente de asimetría a partir de la tabla de frecuencias añadiendo una nueva columna con los cubos de las desviaciones a la media $\bar x = 174.67$ cm:
+### Coeficiente de apuntamiento o curtosis
 
-<span>rrrrr</span>
+> **Definición - Coeficiente de apuntamiento muestral $g_2$**. El _coeficiente de apuntamiento muestral_ de una variable $X$ es el promedio de las desviaciones de
+los valores de la muestra respecto de la media muestral, elevadas a la cuarta, dividido por la desviación típica a la
+cuarta y al resultado se le resta 3.
+>
+$$g_2 = \frac{\sum (x_i-\bar x)^4 n_i/n}{s^4}-3 = \frac{\sum (x_i-\bar x)^4 f_i}{s^4}-3$$
 
-& & & &\ (150,160] & 155 & 2 & -19.67 & -15221.00\ (160,170] & 165 & 8 & -9.67 & -7233.85\ (170,180] & 175 & 11 & 0.33 & 0.40\ (180,190] & 185 & 7 & 10.33 & 7716.12\ (190,200] & 195 & 2 & 20.33 & 16805.14\ & & 30 & & 2066.81\
+El coeficiente de apuntamiento mide la concentración de valores en torno a la media y la longitud de las colas de la distribución.
+Se toma como referencia la distribución normal (campana de Gauss).
 
-$$g_1 = \frac{\sum (x_i-\bar x)^3n_i/n}{s^3} = \frac{2066.81/30}{10.1^3} = 0.07.$$ Al estar tan próximo a 0, este valor indica que la distribución es prácticamente simétrica con respecto a la media.
+- $g_2=0$ indica que la distribución tienen un apuntamiento normal, es decir, la concentración de valores en torno a la media es similar al de una campana de Gauss (_mesocúrtica_).
 
-## Coeficiente de apuntamiento o curtosis
+<img class="img-center" src="img/descriptiva/distribucion_mesocurtica.svg" alt="Distribución mesocúrtica" width="600">
 
-[Coeficiente de apuntamiento muestral $g_2$] El _coeficiente de apuntamiento muestral_ de una variable $X$ se define como el promedio de las desviaciones de los valores de la muestra respecto de la media muestral, elevadas a la cuarta, dividido por la desviación típica a la cuarta y al resultado se le resta 3\. $$g_2 = \frac{\sum (x_i-\bar x)^4 n_i/n}{s^4}-3 = \frac{\sum (x_i-\bar x)^4 f_i}{s^4}-3$$
+- $g_2<0$ indica que la distribución tiene menos apuntamiento de lo normal, es decir, la concentración de valores en torno a la media es menor que en una campana de Gauss (_platicúrtica_).
 
-El coeficiente de apuntamiento muestral mide el grado de apuntamiento de los valores de la muestra con respecto a una distribución normal de referencia, de manera que:
+<img class="img-center" src="img/descriptiva/distribucion_platicurtica.svg" alt="Distribución platicúrtica" width="600">
 
-- $g_2=0$ indica que la distribución tienen un apuntamiento normal (_mesocúrtica_).
+- $g_2>0$ indica que la distribución tiene más apuntamiento de lo normal, es decir, la concentración de valores en torno a la media es menor que en una campana de Gauss (_leptocúrtica_).
 
-- $g_2<0$ indica que la distribución tiene menos apuntamiento de lo normal (_platicúrtica_).
+<img class="img-center" src="img/descriptiva/distribucion_leptocurtica.svg" alt="Distribución leptocúrtica" width="600">
 
-- $g_2>0$ indica que la distribución tiene más apuntamiento de lo normal (_leptocúrtica_).
+**Ejemplo - Datos agrupados**. Utilizando la tabla de frecuencias de la muestra de estaturas y añadiendo una nueva columna con las desviaciones de la media $\bar x = 174.67$ cm a la cuarta, se tiene
 
-## Coeficiente de apuntamiento o curtosis
+$$
+\begin{array}{rrrrr}
+\hline
+X & x_i & n_i & x_i-\bar x & (x_i-\bar x)^4 n_i\\
+\hline
+(150,160] & 155 & 2 & -19.67 & 299396.99\\
+(160,170] & 165 & 8 & -9.67 & 69951.31\\
+(170,180] & 175 & 11 & 0.33 & 0.13\\
+(180,190] & 185 & 7 & 10.33 & 79707.53\\
+(190,200] & 195 & 2 & 20.33 & 341648.49\\
+\hline
+\sum &  & 30 & & 790704.45 \\
+\hline
+\end{array}
+$$
 
-### Ejemplo de distribución mesocúrtica
+$$g_2 = \frac{\sum (x_i-\bar x)^4n_i/n}{s^4} - 3 = \frac{790704.45/30}{10.1^4}-3 = -0.47.$$
 
-## Coeficiente de apuntamiento o curtosis
-
-### Ejemplo de distribución platicúrtica
-
-## Coeficiente de apuntamiento o curtosis
-
-### Ejemplo de distribución leptocúrtica
-
-## Cálculo del coeficiente de apuntamiento
-
-### Ejemplo con datos agrupados
-
-De nuevo para el ejemplo de las estaturas podemos calcular el coeficiente de asimetría a partir de la tabla de frecuencias añadiendo una nueva columna con las desviaciones a la media $\bar x = 174.67$ cm elevadas a la cuarta:
-
-<span>rrrrr</span>
-
-& & & &\ (150,160] & 155 & 2 & -19.67 & 299396.99\ (160,170] & 165 & 8 & -9.67 & 69951.31\ (170,180] & 175 & 11 & 0.33 & 0.13\ (180,190] & 185 & 7 & 10.33 & 79707.53\ (190,200] & 195 & 2 & 20.33 & 341648.49\ & & 30 & & 790704.45\
-
-$$g_2 = \frac{\sum (x_i-\bar x)^4n_i/n}{s^4} - 3 = \frac{790704.45/30}{10.1^4}-3 = -0.47.$$ Como se trata de un valor negativo, aunque pequeño, podemos decir que la distribución es ligeramente platicúrtica.
-
-## Interpretación de los coeficientes de asimetría y apuntamiento
+Como se trata de un valor negativo, aunque cercano a 0, podemos decir que la distribución es ligeramente platicúrtica.
 
 Como se verá más adelante en la parte de inferencia, muchas de las pruebas estadísticas solo pueden aplicarse a poblaciones normales.
 
@@ -908,76 +928,178 @@ En general, se suele rechazar la hipótesis de normalidad de la población cuand
 
 En tal caso, lo habitual es aplicar alguna transformación a la variable para corregir la anormalidad.
 
-# Transformaciones de variables
+### Distribuciones no normales
+
+#### Distribución asimétrica a la derecha no normal
+Un ejemplo de distribución asimétrica a la derecha es el ingreso de las familias.
+
+<img class="img-center" src="img/descriptiva/ejemplo_distribucion_asimetrica_derecha.svg" alt="Distribucion de los ingresos familiares de EEUU" width="600">
+
+#### Distribución asimétrica a la izquierda no normal
+Un ejemplo de distribución asimétrica a la izquierda es la edad de fallecimiento.
+
+<img class="img-center" src="img/descriptiva/ejemplo_distribucion_asimetrica_izquierda.svg" alt="Distribucion de la esperanza de vida" width="600">
+
+#### Distribución bimodal no normal
+Un ejemplo de distribución bimodal es la hora de llegada de los clientes de un restaurante.
+
+<img class="img-center" src="img/descriptiva/ejemplo_distribucion_bimodal.svg" alt="Distribucion de la hora de llegada de los clientes de un restaurante" width="600">
+
 
 ## Transformaciones de variables
 
-En muchas ocasiones se suelen transformar los datos brutos para trabajar con unas unidades más cómodas, o bien para corregir alguna anormalidad de la distribución.
+En muchas ocasiones se suelen transformar los datos brutos para corregir alguna anormalidad de la distribución o simplemente para trabajar con unas unidades más cómodas.
 
-Por ejemplo, si estamos trabajando con estaturas medidas en metros y tenemos los siguientes valores: $$1.75\mbox{m}, 1.65\mbox{m}, 1.80\mbox{m},$$ podemos evitar los decimales multiplicando por 100, es decir, pasando de metros a centímetros: $$175\mbox{cm}, 165\mbox{cm}, 180\mbox{cm},$$ Y si queremos reducir la magnitud de los datos podemos restarles a todos el menor de ellos, en este caso, 165cm: $$10\mbox{cm}, 0\mbox{cm}, 15\mbox{cm},$$ Está claro que este conjunto de datos es mucho más sencillo que el original. En el fondo lo que se ha hecho es aplicar a los datos la transformación: $$Y= 100X-165$$
+Por ejemplo, si estamos trabajando con estaturas medidas en metros y tenemos los siguientes valores:
 
-## Transformaciones lineales
+$$
+1.75 \mbox{ m}, 1.65 \mbox{ m}, 1.80 \mbox{ m},
+$$
 
-Una de las transformaciones más habituales es la _transformación lineal_: $$Y=a+bX.$$ Se puede comprobar fácilmente que la media y la desviación típica de la variable resultante cumplen:
+podemos evitar los decimales multiplicando por 100, es decir, pasando de metros a centímetros:
 
-$$\begin{aligned} \bar y &= a+ b\bar x,\ s_{y} &= |b|s_{x}\end{aligned}$$
+$$
+175 \mbox{ cm}, 165 \mbox{ cm}, 180 \mbox{ cm},
+$$
+
+ Y si queremos reducir la magnitud de los datos podemos restarles a todos el menor de ellos, en este caso, 165cm:
+
+ $$10\mbox{cm}, 0\mbox{cm}, 15\mbox{cm},$$
+
+ Está claro que este conjunto de datos es mucho más sencillo que el original. En el fondo lo que se ha hecho es aplicar a los datos la transformación:
+
+ $$Y= 100X-165$$
+
+### Transformaciones lineales
+
+Una de las transformaciones más habituales es la _transformación lineal_:
+
+$$Y=a+bX.$$
+
+Se puede comprobar fácilmente que la media y la desviación típica de la variable resultante cumplen:
+
+$$
+\begin{aligned}
+\bar y &= a+ b\bar x,\\
+s_{y} &= |b|s_{x}
+\end{aligned}
+$$
 
 Además, el coeficiente de curtosis no se altera y el de asimetría sólo cambia de signo si $b$ es negativo.
 
-## Transformación de tipificación y puntuaciones típicas
+### Transformación de tipificación y puntuaciones típicas
 
 Una de las transformaciones lineales más habituales es la _tipificación_:
 
-[Variable tipificada] La _variable tipificada_ de una variable estadística $X$ es la variable que resulta de restarle su media y dividir por su desviación típica. $$Z=\frac{X-\bar x}{s_{x}}$$
+> **Definición - Variable tipificada**. La _variable tipificada_ de una variable estadística $X$ es la variable que resulta de restarle su media y dividir por su desviación típica.
+>
+$$Z=\frac{X-\bar x}{s_{x}}$$
+>
+Para cada valor $x_i$ de la muestra, la _puntuación típica_ es el valor que resulta de aplicarle la transformación de tipificación
+>
+$$z_i=\frac{x_i-\bar x}{s_{x}}.$$
 
-La tipificación es muy útil para eliminar la dependencia de una variable respecto de las unidades de medida empleadas.
+La puntuación típica es el número de desviaciones típicas que un valor está por encima o por debajo de la media, y es útil para evitar la dependencia de una variable respecto de las unidades de medida empleadas.
 
 Los valores tipificados se conocen como y miden el número de desviaciones típicas que dista de la media cada observación, lo cual es útil para comparar variables con distintas unidades.
 
-Otra propiedad de la variable tipificada es que tiene media 0 y desviación típica 1: $$\bar z = 0 \qquad s_{z} = 1$$
+La variable tipificada siempre tiene media 0 y desviación típica 1.
 
-## Transformación de tipificación y puntuaciones típicas
+$$\bar z = 0 \qquad s_{z} = 1$$
 
-### Ejemplo
+**Ejemplo**. Las notas de 5 alumnos en dos asignaturas $X$ e $Y$ son
 
-Las notas de 5 alumnos en dos asignaturas $X$ e $Y$ son: $$\begin{array}{rccccccccc} \mbox{Alumno:} & 1 & 2 & 3 & 4 & 5\ \cline{1-6} X: & 2 & 5 & 4 & \alert{8} & 6 & \qquad & \bar x = 5 & \quad s_x = 2\ Y: & 1 & 9 & \alert{8} & 5 & 2 & \qquad & \bar y = 5 & \quad s_y = 3.16\ \end{array}$$
+$$
+\begin{array}{rccccccccc}
+\mbox{Alumno:} & 1 & 2 & 3 & 4 & 5\\
+\hline
+X: & 2 & 5 & 4 & \color{red} 8 & 6 & \qquad & \bar x = 5 & \quad s_x = 2\\
+Y: & 1 & 9 & \color{red} 8 & 5 & 2 & \qquad & \bar y = 5 & \quad s_y = 3.16\\
+\hline
+\end{array}
+$$
 
-_¿Han tenido el mismo rendimiento los alumnos que han sacado un 8?_
+_¿Ha tenido el mismo rendimiento el cuarto alumno en la asignatura $X$ que el tercero en la asignatura $Y$?_
 
-Podría parecer que ambos alumnos han tenido el mismo rendimiento puesto que tienen la misma nota, pero si queremos ver el rendimiento relativo al resto del grupo, tendríamos que tener en cuenta la dispersión de cada muestra y medir sus puntuaciones típicas: $$\begin{array}{cccccc} X: & -1.5 & 0 & -0.5 & \alert{1.5} & 0.5 \ Y: & -1.26 & 1.26 & \alert{0.95} & 0 & -0.95\ \end{array}$$ Es decir, el alumno que tiene un 8 en $X$ está $1.5$ veces la desviación típica por encima de la media de su grupo, mientras que el alumno que tiene un 8 en $Y$ sólo está $0.95$ desviaciones típicas por encima de su media. Así pues, el primer alumno tuvo un rendimiento superior al segundo.
+Podría parecer que ambos alumnos han tenido el mismo rendimiento puesto que tienen la misma nota, pero si queremos ver el rendimiento relativo al resto del grupo, tendríamos que tener en cuenta la dispersión de cada muestra y medir sus puntuaciones típicas:
 
-## Transformación de tipificación y puntuaciones típicas
+$$
+\begin{array}{cccccc}
+\mbox{Alumno:} & 1 & 2 & 3 & 4 & 5\\
+\hline
+X: & -1.50 & 0.00 & -0.50 & \color{red}{1.50} & 0.50 \\
+Y: & -1.26 & 1.26 & \color{red}{0.95} & 0.00 & -0.95\\
+\hline
+\end{array}
+$$
 
-### Ejemplo
+Es decir, el alumno que tiene un 8 en $X$ está $1.5$ veces la desviación típica por encima de la media de $X$, mientras que el alumno que tiene un 8 en $Y$ sólo está $0.95$ desviaciones típicas por encima de la media de $Y$. Así pues, el primer alumno tuvo un rendimiento superior al segundo.
 
-Siguiendo con el ejemplo anterior
+Siguiendo con el ejemplo anterior y considerando ambas asignaturas, _¿cuál es el mejor alumno?_
 
-_¿Cuál es el mejor alumno?_
+Si simplemente se suman las puntuaciones de cada asignatura se tiene:
 
-Si simplemente se suman las puntuaciones de cada asignatura se tiene: $$\begin{array}{rccccc} \mbox{Alumno:} & 1 & 2 & 3 & 4 & 5\ \hline X: & 2 & 5 & 4 & 8 & 6 \ Y: & 1 & 9 & 8 & 5 & 2 \ \hline \sum & 3 & \alert{14} & 12 & 13 & 8 \end{array}$$ El mejor alumno sería el segundo.
+$$\begin{array}{rccccc}
+\mbox{Alumno:} & 1 & 2 & 3 & 4 & 5\\
+\hline
+X: & 2 & 5 & 4 & 8 & 6 \\
+Y: & 1 & 9 & 8 & 5 & 2 \\
+\hline
+\sum & 3 & \color{red}{14} & 12 & 13 & 8
+\end{array}
+$$
 
-Pero si se considera el rendimiento relativo tomando las puntuaciones típicas se tiene: $$\begin{array}{rccccc} \mbox{Alumno:} & 1 & 2 & 3 & 4 & 5\ \hline X: & -1.5 & 0 & -0.5 & 1.5 & 0.5 \ Y: & -1.26 & 1.26 & 0.95 & 0 & -0.95\ \hline \sum & -2.76 & 1.26 & 0.45 & \alert{1.5} & -0.45 \end{array}$$ Y el mejor alumno sería el cuarto.
+El mejor alumno sería el segundo.
 
-## Transformaciones no lineales
+Pero si se considera el rendimiento relativo tomando las puntuaciones típicas se tiene
+
+$$
+\begin{array}{rccccc}
+\mbox{Alumno:} & 1 & 2 & 3 & 4 & 5\\
+\hline
+X: & -1.50 & 0.00 & -0.50 & 1.50 & 0.50 \\
+Y: & -1.26 & 1.26 & 0.95 & 0.00 & -0.95\\
+\hline
+\sum & -2.76 & 1.26 & 0.45 & \color{red}{1.5} & -0.45
+\end{array}
+$$
+
+Y el mejor alumno sería el cuarto.
+
+### Transformaciones no lineales
+
+Las transformaciones no lineales son también habituales para corregir la anormalidad de las distribuciones.
 
 La transformación $Y=X^2$ comprime la escala para valores pequeños y la expande para valores altos, de manera que es muy útil para corregir asimetrías hacia la izquierda.
 
-## Transformaciones no lineales
+<img class="img-center" src="img/descriptiva/transformacion_cuadratica.svg" alt="Transformación cuadrática" width="600">
 
 Las transformaciones $Y=\sqrt x$, $Y= \log X$ y $Y=1/X$ comprimen la escala para valores altos y la expanden para valores pequeños, de manera que son útiles para corregir asimetrías hacia la derecha.
 
+<img class="img-center" src="img/descriptiva/transformacion_logaritmica.svg" alt="Trasformación logarítmica" width="600">
+
+
 ## Variables clasificadoras o factores
 
-En ocasiones interesa describir el comportamiento de una variable, no para toda la muestra, sino para distintos grupos de individuos, como por ejemplo, estudiar las estaturas en hombres y mujeres por separado.
+En ocasiones interesa describir el comportamiento de una variable, no para toda la muestra, sino para distintos grupos de individuos correspondientes a las categorías de otra variable conocida como **variable clasificadora** o **factor**.
 
-En tal caso se utiliza una nueva variable, llamada o , para dividir la muestra en grupos y posteriormente se realiza el estudio descriptivo de la variable principal en cada grupo.
+**Ejemplo**. Dividiendo la muestra de estaturas según el sexo se obtienen dos submuestras:
 
-## Variables clasificadoras
+$$
+\begin{array}{lll}
+\hline
+\mbox{Mujeres} & & 173, 158, 174, 166, 162, 177, 165, 154, 166, 182, 169, 172, 170, 168. \\
+\mbox{Hombres} & & 179, 181, 172, 194, 185, 187, 198, 178, 188, 171, 175, 167, 186, 172, 176, 187. \\
+\hline
+\end{array}
+$$
 
-Usando la misma muestra de estaturas, pero teniendo en cuenta el sexo, tenemos:
+#### Comparación de distribuciones según los niveles de un factor
 
-<span>lll</span>
+Habitualmente los factores se usan para comparar la distribución de la variable principal para cada categoría del factor.
 
-& 173, 158, 174, 166, 162, 177, 165, 154, 166, 182,\ & 169, 172, 170, 168.\ & 179, 181, 172, 194, 185, 187, 198, 178, 188, 171,\ & 175, 167, 186, 172, 176, 187.\
+**Ejemplo** Los siguientes diagramas permiten comparar la distribución de estaturas según el sexo.
 
--->
+<img class="img-center" src="img/descriptiva/histograma_estatura_sexo.svg" alt="Histograma de estaturas por sexo" width="500">
+
+<img class="img-center" src="img/descriptiva/diagrama_caja_estatura_sexo.svg" alt="Diagrama de cajas de estaturas por sexo" width="500">

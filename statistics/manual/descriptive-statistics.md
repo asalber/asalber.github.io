@@ -299,7 +299,7 @@ According to the aspect of the distribution that they study, there are different
 
 **Measures of dispersion**: They measure the spread of data.
 
-**Measures of shape**: They measure aspects related to the shape of the distribuion , as the symmetry and "tailedness" of the distribution.
+**Measures of shape**: They measure aspects related to the shape of the distribution , as the symmetry and the concentration of data around the mean.
 
 
 ## Location statistics
@@ -401,7 +401,7 @@ Observe that when the mean is calculated from the table the result differs a lit
 
 In some cases the values of the sample have different importance. In that case the importance or _weight_ of each value of the sample must be taken into account when calculating the mean.
 
-> **Definition - Sample weighted mean $\bar{x}_p$**. Given a sample of values $x_1,\ldots,x_n$ where every value $x_i$ has a weight $w_i$, the *sample weighted mean* of variable $X$ is the sum of the product of each value by its weight, divided by sum of weights
+> **Definition - Sample weighted mean $\bar{x}_p$**. Given a sample of values $x_1,\ldots,x_n$ where every value $x_i$ has a weight $w_i$, the _sample weighted mean_ of variable $X$ is the sum of the product of each value by its weight, divided by sum of weights
 >
 $$\bar{x}_w = \frac{\sum x_iw_i}{\sum w_i}$$
 
@@ -431,11 +431,11 @@ $$
 
 ### Median
 
-> **Definition - Sample median $Me$**. The *sample median* of a variable $X$ is the value that is in the middle of the ordered sample.
+> **Definition - Sample median $Me$**. The _sample median_ of a variable $X$ is the value that is in the middle of the ordered sample.
 
 The median divides the sample distribution into two equal parts, that is, there are the same number of values above and below the median. Therefore, it has cumulative frequencies $N_{Me}= n/2$ y $F_{Me}= 0.5$.
 
-*Watch out! It can not be calculated for nominal variables.*
+_Watch out! It can not be calculated for nominal variables._
 
 With non-grouped data, there are two possibilities:
 
@@ -552,7 +552,7 @@ In general, when all the central tendency statistics can be calculated, is advis
 
 3. The mode. Mode is the measure that fewer information takes from the sample, as it only takes into account the absolute frequency of values.
 
-But, *be careful with outliers*, as the mean can be distorted by them. In that case it is better to use the median as the value most representative.
+But, _be careful with outliers_, as the mean can be distorted by them. In that case it is better to use the median as the value most representative.
 
 **Example**. If a sample of number of children of 7 families is
 
@@ -662,7 +662,7 @@ This chart is very helpful as it serves to many purposes:
 
 **Example**. The chart below shows a box plot of newborn weights.
 
-<img class="img-center" src="img/descriptive/boxplot.png" alt="Box plot of newborns weights" width="600">
+<img class="img-center" src="img/descriptive/boxplot.svg" alt="Box plot of newborns weights" width="600">
 
 
 To create a box plot follow the steps below:
@@ -686,7 +686,7 @@ To create a box plot follow the steps below:
 
 **Example**. The box plot for the sample with the number of children si shown below.
 
-<img class="img-center" src="img/descriptive/boxplot_children.png" alt="Box plot of number of children" width="600">
+<img class="img-center" src="img/descriptive/boxplot_children.svg" alt="Box plot of number of children" width="600">
 
 ### Deviations from the mean
 
@@ -714,10 +714,9 @@ $$
 All the students have the same mean, but, in which case does the mean represent better the course performance?
 
 
-
 ### Variance and standard deviation
 
-> **Definition -- Sample variance $s^2$**. The *sample variance* of a variable $X$ is the average of the squared deviations from the mean.
+> **Definition -- Sample variance $s^2$**. The _sample variance_ of a variable $X$ is the average of the squared deviations from the mean.
 >
 $$s^2 = \frac{\sum (x_i-\bar x)^2n_i}{n} = \sum (x_i-\bar x)^2f_i$$
 
@@ -727,7 +726,7 @@ $$s^2 = \frac{\sum x_i^2n_i}{n} -\bar x^2= \sum (x_i^2f_i)-\bar x^2$$
 
 The variance has the units of the variable squared, and to ease its interpretation it is common to calculate its square root.
 
-> **Definition - Sample standard deviation $s$**. The *sample standard deviation* of a variable $X$ is the square root of the variance.
+> **Definition - Sample standard deviation $s$**. The _sample standard deviation_ of a variable $X$ is the square root of the variance.
 >
 $$s = +\sqrt{s^2}$$
 
@@ -740,11 +739,11 @@ Both variance and standard deviation measure the spread of data around the mean.
 
 **Example**. The following samples contains the grades of 2 students in 2 subjects
 
-<img class="img-center" src="img/descriptive/std_deviation_interpretation.svg" alt="Deviations from the mean" width="400">
+<img class="img-center" src="img/descriptive/std_deviation_interpretation.svg" alt="Standard deviation interpretation" width="400">
 
-*Which mean is more representative?*
+_Which mean is more representative?_
 
-**Example - Non-grouped data**. Using the data of the sample with the number of children of families, with mean $\bar x= 1.76$ chidren, and adding a new column to the frequency table with the squared values,
+**Example - Non-grouped data**. Using the data of the sample with the number of children of families, with mean $\bar x= 1.76$ children, and adding a new column to the frequency table with the squared values,
 
 $$
 \begin{array}{rrr}
@@ -797,7 +796,7 @@ Both, variance and standard deviation, have units and that makes difficult to in
 
 For that reason it is also common to use the following dispersion measure that has no units.
 
-> **Definition - Sample coefficient of variation $cv$**. The *sample coefficient of variation* of a variable $X$ is the quotient between the sample standard deviation and the absolute value of the sample mean.
+> **Definition - Sample coefficient of variation $cv$**. The _sample coefficient of variation_ of a variable $X$ is the quotient between the sample standard deviation and the absolute value of the sample mean.
 >
 $$cv = \frac{s}{|\bar x|}$$
 
@@ -818,38 +817,37 @@ $$cv = \frac{s}{|\bar x|} = \frac{10.1}{|174.67|} = 0.06.$$
 This means that the relative dispersion in the heights distribution is lower than in the number of children distribution, and consequently the mean of height is most representative than the mean of number of children.
 
 
-Shape statistics
-----------------
+## Shape statistics
 
 They are measures that describe the shape of the distribution.
 
 In particular, the most important aspects are:
 
-**Symmetry** It measures the symmetry of the distribution with respect to the mean. The statistics most used is the *coefficient of skewness*.
+**Symmetry** It measures the symmetry of the distribution with respect to the mean. The statistics most used is the _coefficient of skewness_.
 
-**Kurtosis**: It measures the length of tails or the peakness of distribution. The statistics most used is the *coefficient of kurtosis*.
+**Kurtosis**: It measures the concentration of data around the mean of the distribution. The statistics most used is the _coefficient of kurtosis_.
 
 ### Coefficient of skewness
 
-> **Definition - Sample coefficient of skewness $g_1$**. The *sample coefficient of skewness* of a variable $X$ is the average of the deviations of values from the sample mean to cube, divided by the standard deviation to cube.
+> **Definition - Sample coefficient of skewness $g_1$**. The _sample coefficient of skewness_ of a variable $X$ is the average of the deviations of values from the sample mean to cube, divided by the standard deviation to cube.
 >
 $$g_1 = \frac{\sum (x_i-\bar x)^3 n_i/n}{s^3} = \frac{\sum (x_i-\bar x)^3 f_i}{s^3}$$
 
-It measures the symmetric or skewness of the distribution, that is, how many values in the sample are above or below the mean and how far from it.
+The coefficient of skewness measures the symmetric or skewness of the distribution, that is, how many values in the sample are above or below the mean and how far from it.
 
 -   $g_1=0$ indicates that there are the same number of values in the sample above and below the mean and equally deviated from it, and the distribution is symmetrical.
 
-<img class="img-center" src="img/descriptive/symmetrical_distribution.png" alt="Symmetrical distribution" width="600">
+<img class="img-center" src="img/descriptive/symmetrical_distribution.svg" alt="Symmetrical distribution" width="600">
 
 -   $g_1<0$ indicates that there are more values above the mean than below it, but the values below are further from it, and the distribution is left-skewed (it has longer tail to the left).
 
-<img class="img-center" src="img/descriptive/left_skewed_distribution.png" alt="Left-skewed distribution" width="600">
+<img class="img-center" src="img/descriptive/left_skewed_distribution.svg" alt="Left-skewed distribution" width="600">
 
 -   $g_1>0$ indicates that there are more values below the mean than above it, but the values above are further from it, and the distribution is right-skewed (it has longer tail to the right).
 
-<img class="img-center" src="img/descriptive/right_skewed_distribution.png" alt="Right-skewed distribution" width="600">
+<img class="img-center" src="img/descriptive/right_skewed_distribution.svg" alt="Right-skewed distribution" width="600">
 
-**Example - Grouped data**. Using the frequency table of the sample with the heights of students and adding a new column with the deviations to the mean $\bar x = 174.67$ cm to cube, we get
+**Example - Grouped data**. Using the frequency table of the sample with the heights of students and adding a new column with the deviations from the mean $\bar x = 174.67$ cm to cube, we get
 
 $$
 \begin{array}{crrrr}
@@ -873,26 +871,27 @@ As it is close to 0, that means that the distribution of heights is fairly symme
 
 ### Coefficient of kurtosis
 
-> **Definition - Sample coefficient of kurtosis $g_2$** The *sample coefficient of kurtosis* of a variable $X$ is the average of the deviations of values from the sample mean to the fourth power, divided by the standard deviation to the fourth power and minus 3.
-
+> **Definition - Sample coefficient of kurtosis $g_2$** The _sample coefficient of kurtosis_ of a variable $X$ is the average of the deviations of values from the sample mean to the fourth power, divided by the standard deviation to the fourth power and minus 3.
+>
 $$g_2 = \frac{\sum (x_i-\bar x)^4 n_i/n}{s^4}-3 = \frac{\sum (x_i-\bar x)^4 f_i}{s^4}-3$$
 
-The coefficient of kurtosis measures the length of tails or the peakness of distribution with respect to the normal (bell-shaped) distribution of reference.
+The coefficient of kurtosis measures the concentration of data around the mean and the length of tails of distribution.
+The normal (Gaussian bell-shaped) distribution is taken as a reference.
 
--   $g_2=0$ indicates that the distribution has the same tails and peakedness than a normal distribution (*mesokurtic*).
+-   $g_2=0$ indicates that the kurtosis is normal, that is, the concentration of values around the mean is the same than in a Gaussian bell-shaped distribution (_mesokurtic_).
 
-<img class="img-center" src="img/descriptive/mesokurtic_distribution.png" alt="Mesokurtic distribution" width="600">
+<img class="img-center" src="img/descriptive/mesokurtic_distribution.svg" alt="Mesokurtic distribution" width="600">
 
--   $g_2<0$ indicates that the distribution has longer tails and lower peakedness than a normal distribution (*platykurtic*).
+-   $g_2<0$ indicates that the kurtosis is less than normal, that is, the concentration of values around the mean is less than in a Gaussian bell-shaped distribution (_platykurtic_).
 
-<img class="img-center" src="img/descriptive/platykurtic_distribution.png" alt="Platykurtic distribution" width="600">
+<img class="img-center" src="img/descriptive/platykurtic_distribution.svg" alt="Platykurtic distribution" width="600">
 
--   $g_2>0$ indicates that the distribution has shorter tails and higher peakedness than a normal distribution (*leptokurtic*).
+-   $g_2>0$ indicates that the kurtosis is greater than normal, that is, the concentration of values around the mean is greater than in a Gaussian bell-shaped distribution (_leptokurtic_).
 
-<img class="img-center" src="img/descriptive/leptokurtic_distribution.png" alt="Leptokurtic distribution" width="600">
+<img class="img-center" src="img/descriptive/leptokurtic_distribution.svg" alt="Leptokurtic distribution" width="600">
 
 
-**Example - Grouped data**. Using the frequency table of the sample with the heights of students and adding a new column with the deviations to the mean $\bar x = 174.67$ cm to the fourth power, we get
+**Example - Grouped data**. Using the frequency table of the sample with the heights of students and adding a new column with the deviations from the mean $\bar x = 174.67$ cm to the fourth power, we get
 
 $$
 \begin{array}{rrrrr}
@@ -922,8 +921,24 @@ In general, the normality of population is rejected when $g_1$ or $g_2$ are outs
 
 In that case, is common to apply a transformation to the variable to correct non-normality.
 
-Variable transformations
-------------------------
+### Non-normal distributions
+
+#### Non-normal right-skewed distribution
+An example of left-skewed distribution is the household income.
+
+<img class="img-center" src="img/descriptive/right_skewed_distribution_example.svg" alt="Household income distribution in USA" width="600">
+
+#### Non-normal left-skewed distribution
+An example of left-skewed distribution is the age at death.
+
+<img class="img-center" src="img/descriptive/left_skewed_distribution_example.svg" alt="Age at death distribution of Australian males" width="600">
+distribution
+#### Non-normal bimodal distribution
+An example of left-skewed distribution is the age at death.
+
+<img class="img-center" src="img/descriptive/bimodal_distribution_example.svg" alt="Arrival time of clients of a restaurant" width="600">
+
+## Variable transformations
 
 In many cases, the raw sample data are transformed to correct non-normality of distribution or just to get a more appropriate scale.
 
@@ -960,20 +975,21 @@ For a linear transformation, the mean and the standard deviation of the transfor
 $$
 \begin{aligned}
 \bar y &= a+ b\bar x,\\
-s_{y} &= |b|s_{x}\end{aligned}
+s_{y} &= |b|s_{x}
+\end{aligned}
 $$
 
 Additionally, the coefficient of kurtosis does not change and the coefficient of skewness changes only the sign if $b$ is negative.
 
 ### Standardization and standard scores
 
-One of the most common linear transformations is the *standardization*.
+One of the most common linear transformations is the _standardization_.
 
-> **Definition - Standardized variable and standard scores**. The *standardized variable* of a variable $X$ is the variable that results from subtracting the mean from $X$ and dividing it by the standard deviation
+> **Definition - Standardized variable and standard scores**. The _standardized variable_ of a variable $X$ is the variable that results from subtracting the mean from $X$ and dividing it by the standard deviation
 >
 $$Z=\frac{X-\bar x}{s_{x}}.$$
 >
-For each value $x_i$ of the sample, the *standard score* is the value that results of applying the standardization transformation
+For each value $x_i$ of the sample, the _standard score_ is the value that results of applying the standardization transformation
 >
 $$z_i=\frac{x_i-\bar x}{s_{x}}.$$
 
@@ -995,7 +1011,7 @@ Y: & 1 & 9 & \color{red} 8 & 5 & 2 & \qquad & \bar y = 5 & \quad s_y = 3.16\\
 \end{array}
 $$
 
-Did the fourth student get the same performance in subject $X$ than the third student in subject $Y$?
+_Did the fourth student get the same performance in subject $X$ than the third student in subject $Y$?_
 
 It might seem that both students had the same performance in every subject because they have the same grade, but in order to get the performance of every student relative to the group of students, the dispersion of grades in every subject must be considered. For that reason it is better to use the standard score as a measure of relative performance.
 
@@ -1011,7 +1027,7 @@ $$
 
 That is, the student with an 8 in $X$ is $1.5$ times the standard deviation above the mean of $X$, while the student with an 8 in $Y$ is only $0.95$ times the standard deviation above the mean of $Y$. Therefore, the first student had a higher performance in $X$ than the second in $Y$.
 
-Following with this example and considering both subjects, *which is the best student?*
+Following with this example and considering both subjects, _which is the best student?_
 
 If we only consider the sum of grades
 
@@ -1055,10 +1071,9 @@ The square root transformation $Y=\sqrt x$, the logarithmic transformation $Y= \
 <img class="img-center" src="img/descriptive/log_transformation.png" alt="Logarithmic transformation" width="600">
 
 
-Factors
--------
+## Factors
 
-Sometimes it is interesting to describe the frequency distribution of the main variable for different subsamples corresponding to the categories of another variable, known as **classificatory variable** or **factor**.
+Sometimes it is interesting to describe the frequency distribution of the main variable for different subsamples corresponding to the categories of another variable known as **classificatory variable** or **factor**.
 
 **Example**. Dividing the sample of heights by gender we get two subsamples
 
@@ -1077,6 +1092,6 @@ Usually factors allow to compare the distribution of the main variable for every
 
 **Example**. The following charts allow to compare the distribution of heights according to the gender.
 
-<img class="img-center" src="img/descriptive/factor_histogram.png" alt="Histogram of heights by genders" width="500">
+<img class="img-center" src="img/descriptive/factor_histogram.svg" alt="Histogram of heights by genders" width="500">
 
-<img class="img-center" src="img/descriptive/factor_box_plot.png" alt="Box plot of heights by gender" width="500">
+<img class="img-center" src="img/descriptive/factor_box_plot.svg" alt="Box plot of heights by gender" width="500">
