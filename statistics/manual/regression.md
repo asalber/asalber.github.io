@@ -12,14 +12,13 @@ In the last chapter we saw how to describe the distribution of a single variable
 
 To understand a phenomenon that involve several variables is not enough to study every variable by its own. We have to study all the variables together to describe how they interact and the type of relation among them.
 
-Usually in a *dependency study* there is a **dependent variable** $Y$ that it is supposed to be influenced by a set of variables $X_1,\ldots,X_n$ known as **independent variables**. The simpler case is a *simple dependency study* when there is only one independent variable, that is the case covered in this chapter.
+Usually in a _dependency study_ there is a **dependent variable** $Y$ that it is supposed to be influenced by a set of variables $X_1,\ldots,X_n$ known as **independent variables**. The simpler case is a _simple dependency study_ when there is only one independent variable, that is the case covered in this chapter.
 
-Joint distribution
-------------------
+## Joint distribution
 
 ### Joint frequencies
 
-To study the relation between two variables $X$ and $Y$, we have to study the joint distribution of the *two-dimensional variable* $(X,Y)$, whose values are pairs $(x_i,y_j)$ where the first element is a value of $X$ and the second a value of $Y$.
+To study the relation between two variables $X$ and $Y$, we have to study the joint distribution of the **two-dimensional variable** $(X,Y)$, whose values are pairs $(x_i,y_j)$ where the first element is a value of $X$ and the second a value of $Y$.
 
 >**Definition - Joint sample frequencies**. Given a sample of $n$ values and a two-dimensional variable $(X,Y)$, for every value of the variable $(x_i,y_j)$ is defined
 >
@@ -29,7 +28,7 @@ To study the relation between two variables $X$ and $Y$, we have to study the jo
 >
 $$f_{ij}=\frac{n_{ij}}{n}$$
 
-*Watch out! For two-dimensional variables it make no sense cumulative frequencies.*
+_Watch out! For two-dimensional variables it make no sense cumulative frequencies._
 
 ### Joint frequency distribution
 
@@ -47,7 +46,7 @@ x_p & n_{p1} & \cdots & n_{pj} & \cdots & n_{pq}\\
 \hline
 \end{array}$$
 
-**Example**. The height (in cm) and weight (in kg) of a sample of 30 students is:
+**Example (grouped data)**. The height (in cm) and weight (in kg) of a sample of 30 students is:
 
 <div style="text-align:center">
 (179,85), (173,65), (181,71), (170,65), (158,51), (174,66),<br/>
@@ -83,18 +82,17 @@ Usually the independent variable is represented in the $X$ axis and the dependen
 
 <img class="img-center" src="img/regression/scatterplot.svg" alt="Scatter plot" width="300">
 
-The result is a set of points that usually is known as a *point cloud*.
+The result is a set of points that usually is known as a _point cloud_.
 
 **Example**. The scatter plot below represent the distribution of heights and weights of the previous sample.
 
 <img class="img-center" src="img/regression/height_weight_scatterplot.svg" alt="Scatter plot of heights and weights" width="600">
 
-
 ### Scatter plot interpretation
+
 The shape of the point cloud in a scatter plot gives information about the type of relation between the variables.
 
 <img class="img-center" src="img/regression/scatterplot_different_relations.svg" alt="Scatter plot of different types of relations" width="700">
-
 
 ### Marginal frequency distributions
 
@@ -140,13 +138,15 @@ $$
 
 and the corresponding statistics are
 
-$$\begin{array}{lllll}
+$$
+\begin{array}{lllll}
 \bar x = 174.67 \mbox{ cm} & \quad & s^2_x = 102.06 \mbox{ cm}^2 & \quad & s_x = 10.1 \mbox{ cm}\\
 \bar y = 69.67 \mbox{ Kg} & & s^2_y = 164.42 \mbox{ Kg}^2 & & s_y = 12.82 \mbox{ Kg}
-\end{array}$$
+\end{array}
+$$
 
-Covariance
-----------
+## Covariance
+
 To study the relation between two variables, we have to analyze the joint variation of them.
 
 <img class="img-center" src="img/regression/deviations_to_means.svg" alt="Devitations to means in an scatterplot" width="600">
@@ -161,24 +161,24 @@ Dividing the point cloud of the scatter plot in 4 quadrants centered in the mean
    |     3      |      $-$     |      $-$     |           $+$            |
    |     4      |      $+$     |      $-$     |           $-$            |
 
-<img class="img-center" src="img/regression/scatterplot_quadrants.svg" alt="Scatter plot of heights and weights" width="400">
+<img class="img-center" src="img/regression/scatterplot_quadrants.svg" alt="Quadrants of a scatter plot" width="400">
 
 
-If there is an *increasing linear* relationship between the variables, most of the points will fall in quadrants 1 and 3, and the sum of the products of deviations from the mean will be positive.
+If there is an _increasing linear_ relationship between the variables, most of the points will fall in quadrants 1 and 3, and the sum of the products of deviations from the mean will be positive.
 
 $$\sum(x_i-\bar x)(y_j-\bar y) > 0$$
 
 <img class="img-center" src="img/regression/increasing_linear_scatterplot.svg" alt="Increasing linear scatter plot" width="500">
 
-If there is an *decreasing linear* relationship between the variables, most of the points will fall in quadrants 2 and 4, and the sum of the products of deviations from the mean will be negative.
+If there is an _decreasing linear_ relationship between the variables, most of the points will fall in quadrants 2 and 4, and the sum of the products of deviations from the mean will be negative.
 
 $$\sum(x_i-\bar x)(y_j-\bar y) < 0$$
 
 <img class="img-center" src="img/regression/decreasing_linear_scatterplot.svg" alt="Decreasing linear scatter plot" width="500">
 
-Using the products of deviations from the mean we get the following statistic.
+Using the products of deviations from the means we get the following statistic.
 
-> **Definition - Sample covariance**. The *sample covariance* of a two-dimensional variable $(X,Y)$ is the average of the products of deviations from the respective means.
+> **Definition - Sample covariance**. The _sample covariance_ of a two-dimensional variable $(X,Y)$ is the average of the products of deviations from the respective means.
 >
 $$s_{xy}=\frac{\sum (x_i-\bar x)(y_j-\bar y)n_{ij}}{n}$$
 
@@ -196,7 +196,8 @@ The covariance measures the linear relation between two variables:
 
 **Example**. Using the joint frequency table of the sample of heights and weights
 
-$$\begin{array}{|c||c|c|c|c|c|c|c|}
+$$
+\begin{array}{|c||c|c|c|c|c|c|c|}
 \hline
   X/Y & [50,60) & [60,70) & [70,80) & [80,90) & [90,100) & [100,110) & n_x\\
   \hline\hline
@@ -212,21 +213,24 @@ $$\begin{array}{|c||c|c|c|c|c|c|c|}
   \hline
   n_y & 7 & 11 & 7 & 2 & 2 & 1 & 30\\
   \hline
-\end{array}$$
+\end{array}
+$$
 
 $$\bar x = 174.67 \mbox{ cm} \qquad \bar y = 69.67 \mbox{ Kg}$$
 
 we get that the covariance is equal to
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 s_{xy} &=\frac{\sum x_iy_jn_{ij}}{n}-\bar x\bar y =  \frac{155\cdot 55\cdot 2 + 165\cdot 55\cdot 4 + \cdots + 195\cdot 105\cdot 1}{30}-174.67\cdot 69.67 =\\
-& = \frac{368200}{30}-12169.26 = 104.07 \mbox{ cm$\cdot$ Kg},\end{aligned}$$
+& = \frac{368200}{30}-12169.26 = 104.07 \mbox{ cm$\cdot$ Kg}.
+\end{aligned}
+$$
 
 This means that there is a increasing linear relation between the weight and the height.
 
 
-Regression
-----------
+## Regression
 
 In most cases the goal of a dependency study is not only to detect a relation between two variables, but also to express that relation with a mathematical function, $$y=f(x)$$ in order to predict the dependent variable for every value of the independent one.
 The part of Statistics in charge of constructing such a function is called  **regression**, and the function is kwnon as **regression function** or **regression model**.
@@ -253,9 +257,9 @@ The model choice depends on the shape of the points cloud in the scatterplot.
 
 Once chosen the type of regression model, we have to determine which function of that family explains better the relation between the dependent and the independent variables, that is, the function that predicts better the dependent variable.
 
-That function is the function that minimizes the distances from the observed values for $Y$ in the sample to the predicted values of the regression function. These distances are known as *residuals* or *predictive errors*.
+That function is the function that minimizes the distances from the observed values for $Y$ in the sample to the predicted values of the regression function. These distances are known as _residuals_ or _predictive errors_.
 
-> **Definition - Residuals or predictive errors**. Given a regression model $y=f(x)$ for a two-dimensional variable $(X,Y)$, the *residual* or *predictive error* for every pair $(x_i,y_j)$ of the sample is the difference between the observed value of the dependent variable $y_j$ and the predicted value of the regression function for $x_i$,
+> **Definition - Residuals or predictive errors**. Given a regression model $y=f(x)$ for a two-dimensional variable $(X,Y)$, the _residual_ or _predictive error_ for every pair $(x_i,y_j)$ of the sample is the difference between the observed value of the dependent variable $y_j$ and the predicted value of the regression function for $x_i$,
 >
 $$e_{ij} = y_j-f(x_i).$$
 
@@ -264,7 +268,7 @@ $$e_{ij} = y_j-f(x_i).$$
 
 ### Least squares fitting
 
-A way to get the regression function is the *least squares method*, that determines the function that minimizes the squared residuals.
+A way to get the regression function is the _least squares method_, that determines the function that minimizes the squared residuals.
 
 $$\sum e_{ij}^2.$$
 
@@ -276,9 +280,12 @@ This reduces the problem to determine the values of $a$ and $b$ that minimize th
 
 To solve the minimization problem, we have to set to zero the partial derivatives with respect to $a$ and $b$.
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \frac{\partial \theta(a,b)}{\partial a} &=  \frac{\partial \sum (y_j-a-bx_i)^2 }{\partial a} =0\\
-\frac{\partial \theta(a,b)}{\partial b} &=  \frac{\partial \sum (y_j-a-bx_i)^2 }{\partial b} =0\end{aligned}$$
+\frac{\partial \theta(a,b)}{\partial b} &=  \frac{\partial \sum (y_j-a-bx_i)^2 }{\partial b} =0
+\end{aligned}
+$$
 
 And solving the equation system, we get
 
@@ -287,10 +294,9 @@ $$a= \bar y - \frac{s_{xy}}{s_x^2}\bar x \qquad b=\frac{s_{xy}}{s_x^2}$$
 This values minimize the residuals on $Y$ and give us the optimal linear model.
 
 
-Regression line
----------------
+## Regression line
 
-> **Definition - Regression line**. Given a sample of a two-dimensional variable $(X,Y)$, the *regression line* of $Y$ on $X$ is
+> **Definition - Regression line**. Given a sample of a two-dimensional variable $(X,Y)$, the _regression line_ of $Y$ on $X$ is
 >
 $$y = \bar y +\frac{s_{xy}}{s_x^2}(x-\bar x).$$
 
@@ -298,11 +304,13 @@ The regression line of $Y$ on $X$ is the straight line that minimizes the predic
 
 **Example**. Using the previous sample of heights ($X$) and weights ($Y$) with the following statistics
 
-$$\begin{array}{lllll}
+$$
+\begin{array}{lllll}
 \bar x = 174.67 \mbox{ cm} & \quad & s^2_x = 102.06 \mbox{ cm}^2 & \quad & s_x = 10.1 \mbox{ cm}\\
 \bar y = 69.67 \mbox{ Kg} & & s^2_y = 164.42 \mbox{ Kg}^2 & & s_y = 12.82 \mbox{ Kg}\\
 & & s_{xy} = 104.07 \mbox{ cm$\cdot$ Kg} & &
-\end{array}$$
+\end{array}
+$$
 
 the regression line of weight on height is
 
@@ -312,7 +320,7 @@ And the regression line of height on weight is
 
 $$x = \bar x +\frac{s_{xy}}{s_y^2}(y-\bar y) = 174.67+\frac{104.07}{164.42}(y-69.67) = 130.78 + 0.63 y$$
 
-*Observe that the regression lines are different!*
+_Observe that the regression lines are different!_
 
 <img class="img-center" src="img/regression/regression_lines.svg" alt="Regression lines of heights and wieghts" width="600">
 
@@ -327,7 +335,7 @@ If there is a perfect linear relation between the variables, then both regressio
 
 If there is no linear relation between the variables, then both regression lines are constant and equals to the respective means,
 
-$y = \bar y$, $x = \bar x,$
+$$y = \bar y$, $x = \bar x.$$
 
 So, they intersect perpendicularly.
 
@@ -337,7 +345,7 @@ So, they intersect perpendicularly.
 
 The most important parameter of a regression line is the slope.
 
-> **Definition - Regression coefficient $b_{yx}$**. Given a sample of a two-dimensional variable $(X,Y)$, the *regression coefficient* of the regression line of $Y$ on $X$ is its slope,
+> **Definition - Regression coefficient $b_{yx}$**. Given a sample of a two-dimensional variable $(X,Y)$, the _regression coefficient_ of the regression line of $Y$ on $X$ is its slope,
 >
 $$b_{yx} = \frac{s_{xy}}{s_x^2}$$
 
@@ -366,20 +374,20 @@ But to predict the height of a person with a weight of 79 Kg, we have to use the
 
 $$x = 130.78 + 0.63\cdot 79 = 180.55 \mbox{ cm}.$$
 
-*However, how reliable are these predictions?*
+_However, how reliable are these predictions?_
 
 
-Correlation
------------
+## Correlation
+
 Once we have a regression model, in order to see if it is a good predictive model we have to assess the goodness of fit of the model and the strength of the of relation set by it. The part of Statistics in charge of this is **correlation**.
 
 The correlation study the residuals of a regression model: the smaller the residuals, the greater the goodness of fit, and the stronger the relation set by the model.
 
 ### Residual variance
 
-To measure the goodness of fit of a regression model is common to use the *residual variance*.
+To measure the goodness of fit of a regression model is common to use the _residual variance_.
 
-> **Definition - Sample residual variance $s_{ry}^2$**. Given a regression model $y=f(x)$ of a two-dimensional variable $(X,Y)$, its *sample residual variance* is the average of the squared residuals,
+> **Definition - Sample residual variance $s_{ry}^2$**. Given a regression model $y=f(x)$ of a two-dimensional variable $(X,Y)$, its _sample residual variance_ is the average of the squared residuals,
 >
 $$s_{ry}^2 = \frac{\sum e_{ij}^2n_{ij}}{n} = \frac{\sum (y_j - f(x_i))^2n_{ij}}{n}.$$
 
@@ -397,7 +405,7 @@ $$0\leq s_{ry}^2\leq s_y^2$$
 
 From the residual variance is possible to define another correlation statistic easier to interpret.
 
-> **Definition - Sample coefficient of determination $r^2$**. Given a regression model $y=f(x)$ of a two-dimensional variable $(X,Y)$, its *coefficient of determination* is
+> **Definition - Sample coefficient of determination $r^2$**. Given a regression model $y=f(x)$ of a two-dimensional variable $(X,Y)$, its _coefficient of determination_ is
 >
 $$r^2 = 1- \frac{s_{ry}^2}{s_y^2}$$
 
@@ -413,22 +421,27 @@ The greater $r^2$ is, the greater the goodness of fit of the regression model, a
 
 When the regression model is linear, the residual variance is
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 s_{ry}^2 & = \sum e_{ij}^2f_{ij} = \sum (y_j - f(x_i))^2f_{ij} = \sum \left(y_j - \bar y -\frac{s_{xy}}{s_x^2}(x_i-\bar x) \right)^2f_{ij}=\\
 & = \sum \left((y_j - \bar y)^2 +\frac{s_{xy}^2}{s_x^4}(x_i-\bar x)^2 - 2\frac{s_{xy}}{s_x^2}(x_i-\bar x)(y_j -\bar y)\right)f_{ij} =\\
 & = \sum (y_j - \bar y)^2f_{ij} +\frac{s_{xy}^2}{s_x^4}\sum (x_i-\bar x)^2f_{ij}- 2\frac{s_{xy}}{s_x^2}\sum (x_i-\bar x)(y_j -\bar y)f_{ij}=\\
-& = s_y^2 + \frac{s_{xy}^2}{s_x^4}s_x^2 - 2 \frac{s_{xy}}{s_x^2}s_{xy} = s_y^2 - \frac{s_{xy}^2}{s_x^2}.\end{aligned}
+& = s_y^2 + \frac{s_{xy}^2}{s_x^4}s_x^2 - 2 \frac{s_{xy}}{s_x^2}s_{xy} = s_y^2 - \frac{s_{xy}^2}{s_x^2}.
+\end{aligned}
 $$
 
 and the coefficient of determination is
 
-$$\begin{aligned}
-r^2 &= 1- \frac{s_{ry}^2}{s_y^2} = 1- \frac{s_y^2 - \frac{s_{xy}^2}{s_x^2}}{s_y^2} = 1 - 1 + \frac{s_{xy}^2}{s_x^2s_y^2} = \frac{s_{xy}^2}{s_x^2s_y^2}.\end{aligned}
+$$
+\begin{aligned}
+r^2 &= 1- \frac{s_{ry}^2}{s_y^2} = 1- \frac{s_y^2 - \frac{s_{xy}^2}{s_x^2}}{s_y^2} = 1 - 1 + \frac{s_{xy}^2}{s_x^2s_y^2} = \frac{s_{xy}^2}{s_x^2s_y^2}.
+\end{aligned}
 $$
 
 **Example**. In the sample of heights and weights, we had
 
-$$\begin{array}{lll}
+$$
+\begin{array}{lll}
 \bar x = 174.67 \mbox{ cm} & \quad & s^2_x = 102.06 \mbox{ cm}^2\\
 \bar y = 69.67 \mbox{ Kg} & & s^2_y = 164.42 \mbox{ Kg}^2\\
 s_{xy} = 104.07 \mbox{ cm$\cdot$ Kg}
@@ -443,7 +456,7 @@ This means that the linear model of weight on height explains the 65% of the var
 
 ### Correlation coefficient
 
-> **Definition - Sample correlation coefficient $r$**. Given a sample of a two-dimensional variable $(X,Y)$, the *sample correlation coefficient* is the square root of the linear coefficient of determination, with the sign of the covariance,
+> **Definition - Sample correlation coefficient $r$**. Given a sample of a two-dimensional variable $(X,Y)$, the _sample correlation coefficient_ is the square root of the linear coefficient of determination, with the sign of the covariance,
 >
 $$r = \dfrac{s_{xy}}{s_xs_y}.$$
 
@@ -550,7 +563,7 @@ $$\mbox{Bacteria} = -30.18+41,27\,\mbox{Hours, with } r^2=0.85.$$
 
 <img class="img-center" src="img/regression/linear_regression_bacteria.svg" alt="Linear regression of the bacteria evolution" width="500">
 
-*Is a good model?*
+_Is a good model?_
 
 Although the linear model is not bad, according to the shape of the point cloud of the scatter plot, an exponential model looks more suitable.
 
@@ -590,8 +603,8 @@ Thus, the exponential model fits much better than the linear model.
 
 It is important to note that every regression model has its own
 coefficient of determination. Thus, a coefficient of determination near
-zero means that there is no relation as set by the model, but *that
-does not mean that the variables are independent*, because there could be a
+zero means that there is no relation as set by the model, but _that
+does not mean that the variables are independent_, because there could be a
 different type of relation
 
 <div class="center">

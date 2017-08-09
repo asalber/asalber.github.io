@@ -17,7 +17,9 @@ El manual está orientado principalmente a la Bioestadística y por ello la mayo
 
 - [Introducción](/estadistica/manual/introduccion.html)
 - [Estadística descriptiva de una variable](/estadistica/manual/estadistica-descriptiva.html)
-- Estadística descriptiva de dos variables: Regresión y correlación
+- Estadística descriptiva de dos variables:
+    - [Variables cuantitativas: Regresión y correlación](/estadistica/manual/regresion.html)
+    - [Variables cualitativas](/estadistica/manual/relaciones-cualitativas.html)
 - Teoría de la probabilidad
 - Variables aleatorias
 - Estimación de parámetros: Intervalos de confianza
