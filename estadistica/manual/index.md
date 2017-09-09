@@ -23,7 +23,7 @@ El manual está orientado principalmente a la Bioestadística y por ello la mayo
 - Teoría de la probabilidad
 - Variables aleatorias
 - Estimación de parámetros: Intervalos de confianza
-- Contrastes de hipótesis paramétricos
+- [Contrastes de hipótesis paramétricos](/estadistica/manual/contrastes.html)
 - Contrastes de hipótesis no paramétricos
 
 ## Descarga
