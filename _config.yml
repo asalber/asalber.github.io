@@ -78,6 +78,8 @@ calculus:
     url: /calculus/exercises/
   - title: Calculus exams
     url: /calculus/exams/
+  - title: Calculus cheat sheets
+    url: /calculus/cheatsheets/
 derive:
   - title: Cálculo con Derive
     url: /calculo/derive/calculo-derive/
