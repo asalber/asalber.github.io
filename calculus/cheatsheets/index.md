@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Calculus cheat sheets
-description: "Every thing you have to know at a glance"
+description: "Everything you have to know at a glance"
 tags: [Cheatsheet, Calculus]
 share: true
 image: abaco.jpg
