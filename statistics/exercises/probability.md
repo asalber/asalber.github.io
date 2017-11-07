@@ -112,7 +112,7 @@ A study about smoking has found that 40% of smokers have a smoker father, 25% ha
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 Naming $SF$ tho the event of having a smoker father and $SM$ to the event of having a smoker mother, <br/>
-1. $P(SM/SF)=0.33$. <br/>
+1. $P(SM/SF)=0.325$. <br/>
 2. $P(SM/\bar SF)=0.2$. <br/>
 3. The events aren't independent. <br/>
 </div>

@@ -65,8 +65,8 @@ The concentration of a drug in blood, in mg/dl, depends on time, in hours, accor
 $$
 \begin{array}{lrrrrrrr}
 \hline
-\mbox{Drug concentration} & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
-\mbox{Hours} & 25 & 36 & 48 & 64 & 86 & 114 & 168\\
+\mbox{Time} & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
+\mbox{Drug concentration} & 25 & 36 & 48 & 64 & 86 & 114 & 168\\
 \hline
 \end{array}
 $$
@@ -85,7 +85,7 @@ c <- coefficients(m)
 2. Construct the exponential regression model of drug concentration on time.
 3. Use the best regression model to predict the drug concentration after $4.8$ hours? Is this prediction reliable? Justify your answer.
 
-Use the following sums ($C$=Drug concentration and $T$=time): $\sum c_i=`r sum(x)`$ mg/dl, $\sum \log(c_i)=`r sum(log(x))`$ $\log(\mbox{mg/dl})$, $\sum t_j=`r sum(y)`$ hours, $\sum \log(t_j)=`r sum(log(y))`$ $\log(\mbox{hours})$, $\sum c_i^2=`r sum(x^2)`$ (mg/dl)$^2$, $\sum \log(c_i)^2=`r sum(log(x)^2)`$ $\log(\mbox{mg/dl})^2$, $\sum t_j^2=`r sum(y^2)`$ hours$^2$, $\sum \log(t_j)^2=`r sum(log(y)^2)`$ $\log(\mbox{hours})^2$, $\sum c_it_j=`r sum(x*y)`$ mg/dl$\cdot$hours, $\sum c_i\log(t_j)=`r sum(x*log(y))`$ mg/dl$\cdot\log(\mbox{hours})$, $\sum \log(c_i)t_j=`r sum(log(x)*y)`$ $\log(\mbox{mg/dl})\cdot$hours, $\sum \log(c_i)\log(t_j)=`r sum(log(x)*log(y))`$   $\log(\mbox{mg/dl})\cdot\log(\mbox{hours})$.
+Use the following sums ($C$=Drug concentration and $T$=time): $\sum t_i=`r sum(x)`$ h, $\sum \log(t_i)=`r sum(log(x))`$ $\log(\mbox{h})$, $\sum c_j=`r sum(y)`$ mg/dl, $\sum \log(c_j)=`r sum(log(y))`$ $\log(\mbox{mg/dl})$, $\sum t_i^2=`r sum(x^2)`$ h$^2$, $\sum \log(t_i)^2=`r sum(log(x)^2)`$ $\log(\mbox{h})^2$, $\sum c_j^2=`r sum(y^2)`$ (mg/dl)$^2$, $\sum \log(c_j)^2=`r sum(log(y)^2)`$ $\log(\mbox{mg/dl})^2$, $\sum t_ic_j=`r sum(x*y)`$ h$\cdot$mg/dl, $\sum t_i\log(c_j)=`r sum(x*log(y))`$ h$\cdot\log(\mbox{mg/dl})$, $\sum \log(t_i)c_j=`r sum(log(x)*y)`$ $\log(\mbox{h})\cdot$mg/dl, $\sum \log(t_i)\log(c_j)=`r sum(log(x)*log(y))`$   $\log(\mbox{h})\cdot\log(\mbox{mg/dl})$.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">

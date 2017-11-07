@@ -234,7 +234,7 @@ s <- stdev(x)
 g1 <- sum((x-m)^3)/(n*s^3)
 g2 <- sum((x-m)^4)/(n*s^4)-3
 ```
-1. $\bar x=`r m`$ mmHg, $Me=`r median(x)`$ mmHg, $Mo=`r Mode(x)`$ mmHg. <br/>
+1. $\bar x=`r m`$ mmHg, $Me=`r median(x)`$ mmHg, $Mo=$ all the values. <br/>
 2. $s=`r s`$ mmHg and $cv=`r cv(x)`$. <br/>
 3. $g_1=`r g1`$. <br/>
 4. $g_2=`r g2`$. <br/>

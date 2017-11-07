@@ -18,9 +18,9 @@ $$
 \begin{array}{l|cc}
 & \mbox{Test }+ & \mbox{Test }- \\
 \hline
-\mbox{Sick} & 2020 & 80 \\
+\mbox{Sick} & 2020 & 140 \\
 
-\mbox{Healthy} & 140 & 7760 \\
+\mbox{Healthy} & 80 & 7760 \\
 \end{array}
 $$
 

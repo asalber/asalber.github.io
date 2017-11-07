@@ -171,7 +171,7 @@ Use the following sums: $\sum x_i=1271$ mmHg, $\sum (x_i-\bar x)^2=2188.9$ mmHg$
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
 
-1. $\bar x=127.1$ mmHg, $Me=127.5$ mmHg, $Mo=135$ mmHg. <br/>
+1. $\bar x=127.1$ mmHg, $Me=127.5$ mmHg, $Mo$ all the values. <br/>
 2. $s=14.7949$ mmHg and $cv=0.1164$. <br/>
 3. $g_1=0.0854$. <br/>
 4. $g_2=-0.8292$. <br/>

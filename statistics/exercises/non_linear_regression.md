@@ -48,19 +48,17 @@ The concentration of a drug in blood, in mg/dl, depends on time, in hours, accor
 $$
 \begin{array}{lrrrrrrr}
 \hline
-\mbox{Drug concentration} & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
-\mbox{Hours} & 25 & 36 & 48 & 64 & 86 & 114 & 168\\
+\mbox{Time} & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
+\mbox{Drug concentration} & 25 & 36 & 48 & 64 & 86 & 114 & 168\\
 \hline
 \end{array}
 $$
-
-
 
 1. Construct the linear regression model of drug concentration on time.
 2. Construct the exponential regression model of drug concentration on time.
 3. Use the best regression model to predict the drug concentration after $4.8$ hours? Is this prediction reliable? Justify your answer.
 
-Use the following sums ($C$=Drug concentration and $T$=time): $\sum c_i=35$ mg/dl, $\sum \log(c_i)=10.6046$ $\log(\mbox{mg/dl})$, $\sum t_j=541$ hours, $\sum \log(t_j)=29.147$ $\log(\mbox{hours})$, $\sum c_i^2=203$ (mg/dl)$^2$, $\sum \log(c_i)^2=17.5205$ $\log(\mbox{mg/dl})^2$, $\sum t_j^2=56937$ hours$^2$, $\sum \log(t_j)^2=124.0131$ $\log(\mbox{hours})^2$, $\sum c_it_j=3328$ mg/dl$\cdot$hours, $\sum c_i\log(t_j)=154.3387$ mg/dl$\cdot\log(\mbox{hours})$, $\sum \log(c_i)t_j=951.6961$ $\log(\mbox{mg/dl})\cdot$hours, $\sum \log(c_i)\log(t_j)=46.0805$   $\log(\mbox{mg/dl})\cdot\log(\mbox{hours})$.
+Use the following sums ($C$=Drug concentration and $T$=time): $\sum t_i=35$ h, $\sum \log(t_i)=10.6046$ $\log(\mbox{h})$, $\sum c_j=541$ mg/dl, $\sum \log(c_j)= 29.147$ $\log(\mbox{mg/dl})$, $\sum t_i^2=203$ h$^2$, $\sum \log(t_i)^2=17.5206$ $\log(\mbox{h})^2$, $\sum c_j^2=56937$ (mg/dl)$^2$, $\sum \log(c_j)^2=124.0131$ $\log(\mbox{mg/dl})^2$, $\sum t_ic_j=3328$ h$\cdot$mg/dl, $\sum t_i\log(c_j)=154.3387$ h$\cdot\log(\mbox{mg/dl})$, $\sum \log(t_i)c_j=951.6961$ $\log(\mbox{h})\cdot$mg/dl, $\sum\log(t_i)\log(c_j)=46.08046$ $\log(\mbox{h})\cdot\log(\mbox{mg/dl})$.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
