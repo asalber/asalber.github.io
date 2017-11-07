@@ -52,6 +52,8 @@ statistics:
     url: /statistics/exercises/
   - title: Statistics exams
     url: /statistics/exams/
+  - title: Statistics cheat sheets
+    url: /statistics/cheatsheets/
 r:
   - title: Paquete rk.Teaching
     url: /rkteaching/
