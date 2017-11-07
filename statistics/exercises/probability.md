@@ -12,9 +12,9 @@ image: dados.jpg
 ## Exercise 1
 Construct the sample space of the following random experiments:
 
-1.  Pick a random person and measure the gender and whether she or he is smoker or not.
-2.  Pick a random person and measure the blood type and whether she or he is smoker or not.
-3.  Pick a random person and measure the gender, the blood type and whether she or he is smoker or not.
+1.  Pick a random person and record the gender and whether she or he is smoker or not.
+2.  Pick a random person and record the blood type and whether she or he is smoker or not.
+3.  Pick a random person and record the gender, the blood type and whether she or he is smoker or not.
 
 
 ## Exercise 2 
@@ -29,14 +29,14 @@ The Morgan’s laws state that given two events $A$ and $B$ from the same sample
 ## Exercise 4
 Compute the probability of the following events of the random experiment consisting in tossing 3 coins:
 
-1.  Get exactly 1 heads.
+1.  Get exactly 1 head.
 2.  Get exactly 2 tails.
 3.  Get two or more heads.
 4.  Get some tails.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. $P(\mbox{1 heads})=0.375$. <br/>
+1. $P(\mbox{1 head})=0.375$. <br/>
 2. $P(\mbox{2 tails})=0.375$. <br/>
 3. $P(\mbox{2 or more heads})=0.5$. <br/>
 4. $P(\mbox{some tails})=0.875$.
@@ -49,7 +49,7 @@ In a laboratory there are 4 flasks with sulfuric acid and 2 with nitric acid, an
 2.  The two picked flasks are of nitric acid.
 3.  The two picked flasks contains different acids.
 
-Compute the same probabilities if the flask picked in the first laboratory is put in the second laboratory before picking the flask from it.
+Compute again the above probabilities if the flask picked in the first laboratory is put in the second laboratory before picking the flask from it.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -63,7 +63,7 @@ Putting the first flask in the second laboratory:<br/>
 </div> 
 
 ## Exercise 6
-Let $A$ and $B$ be events of the same sample space, such that $P(A)=3/8$, $P(B)=1/2$, $P(A\cap B)=1/4$. Compute the following probabilities:
+Let $A$ and $B$ two be events of a same sample space, such that $P(A)=3/8$, $P(B)=1/2$, $P(A\cap B)=1/4$. Compute the following probabilities:
 
 1.  $P(A\cup B)$.
 2.  $P(\bar A)$ y $P(\bar B)$.
@@ -91,7 +91,7 @@ $P(\mbox{Hepatitis})=0.0199$.
 </div>
 
 ## Exercise 8
-Let $A$ and $B$ be two events of the same sample space, such that $P(A)=0.6$ and $P(A\cup B)=0.9.$ Compute $P(B)$ with the following assumptions:
+Let $A$ and $B$ be two events of a same sample space, such that $P(A)=0.6$ and $P(A\cup B)=0.9.$ Compute $P(B)$ under the following assumptions:
 
 1.  $A$ and $B$ are incompatible.
 2.  $A$ and $B$ are independent.
@@ -103,7 +103,7 @@ Let $A$ and $B$ be two events of the same sample space, such that $P(A)=0.6$ and
 </div>
 
 ## Exercise 9
-A study about smoking has published that 40% of smokers have a smoker father, 25% have a smoker mother and 52% have al least one of the parents smoker. We pick a random person from this population. Answer the following questions:
+A study about smoking has found that 40% of smokers have a smoker father, 25% have a smoker mother and 52% have al least one of the parents smoker. We pick a random person from this population. Answer the following questions:
 
 1.  What is the probability of having a smoker mother if the father smokes?
 2.  What is the probability of having a smoker mother if the father does not smoke?
@@ -134,13 +134,13 @@ The probability that an injury $A$ is repeated is $4/5$, the probability that an
 </div>
 
 ## Exercise 11
-In a digestive clinic from every 1000 patients that arrive with stomach pain, 700 have gastritis, 200 have an ulcer and 100 have cancer. After analyzing the gastric symptoms, it is known that the probability of having vomiting is $0.3$ in case of gastritis, $0.6$ in case of ulcer and $0.9$ in case of cancer. What is the diagnosis for a new patient with stomach pain that has vomiting?
+In a digestive clinic, from every 1000 patients that arrive with stomach pain, 700 have gastritis, 200 have an ulcer and 100 have cancer. After analyzing the gastric symptoms, it is known that the probability of vomiting is $0.3$ in case of gastritis, $0.6$ in case of ulcer and $0.9$ in case of cancer. What is the diagnosis for a new patient with stomach pain that suffers from vomiting?
 
 Note: Assume that the only diseases are gastritis, ulcer and cancer and that are incompatible among them.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Naming $G$, $U$ and $C$ to the events of having gastritis, ulcer and cander respectively, and $V$ to the event of having vomiting, $P(G/V)=0.5$, $P(U/V)=0.286$ and $P(C/V)=0.214$, so, the diagnosis is gastritis.
+Let $G$, $U$ and $C$ be the events of having gastritis, ulcer and cander respectively, and let $V$ be the event of vomiting, $P(G/V)=0.5$, $P(U/V)=0.286$ and $P(C/V)=0.214$, so, the diagnosis is gastritis.
 </div>
 
 

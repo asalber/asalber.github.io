@@ -42,9 +42,11 @@ The number of injuries suffered by the members of a soccer team in a league were
 0 1 2 1 3 0 1 0 1 2 0 1 1 1 2 0 1 3 2 1 2 1 0 1
 ```
 
+Compute: 
+
 1.  Construct the frequency distribution table of the sample.
 2.  Draw the bar chart of the sample and the polygon.
-3.  Draw the cumulative frequency bar chart and the polygon.
+3.  Draw the cumulative frequency bar chart and polygon.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -106,7 +108,7 @@ A survey about the daily number of medicines consumed by people over 70 shows th
 
 1.  Construct the frequency distribution table of the sample.
 2.  Draw the bar chart of the sample and the polygon.
-3.  Draw the cumulative relative frequency bar chart and the polygon.
+3.  Draw the cumulative relative frequency bar chart and polygon.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -188,7 +190,7 @@ C Help climbing stairs and getting up from a chair or bed.
 D Help climbing stairs, getting up and dressing.
 E Help for almost everything.
 
-Construct the frequency distribution table and the suitable chart.
+Construct the frequency distribution table and a suitable chart.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -373,7 +375,7 @@ The following table represents the frequency distribution of the yearly uses of 
 |    5|       1|
 |    7|       1|
 
-Draw the box plot. How is the symmetry of the distribution?
+Draw the box plot. Study the symmetry of the distribution.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -389,7 +391,7 @@ The box plots below correspond to the age of a sample of people by marital statu
 1.  Which group has higher ages?
 2.  Which group has lower central dispersion?
 3.  Which groups have outliers?
-4.  Which group has a distribution of ages more asymmetric?
+4.  At which group is the age distribution more asymmetric?
 
 
 <div><button class="solution">Show solution</button></div>

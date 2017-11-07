@@ -89,7 +89,7 @@ $$
 
 
 ## Exercise 3
-An experiment consist in injecting a virus to three different types of rats and observing if they survive or not. It is known that the probability of surviving is $0.5$ for the first type of rats, $0.4$ for the second type and $0.3$ for the third type.
+An experiment consist in injecting a virus to three rats and checking if they survive or not. It is known that the probability of surviving is $0.5$ for the first rat, $0.4$ for the second and $0.3$ for the third.
 
 1.  Calculate the probability function of the variable $X$ that measures the number of surviving rats.
 2.  Calculate the distribution function.
@@ -127,14 +127,14 @@ $$
 ## Exercise 4
 
 
-The chance of being cured with a treatment is 0.85. If we apply the treatment to 6 patients,
+The chance of being cured with certain treatment is 0.85. If we apply the treatment to 6 patients,
 
-1.  What is the probability that half of them are cured?
-2.  What is the probability that a least 4 of them are cured?
+1.  What is the probability that half of them get cured?
+2.  What is the probability that a least 4 of them get cured?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Naming $X$ to the number of cured patients, <br/>
+Let $X$ be the number of cured patients, <br/>
 1. $P(X=3) = 0.0415$. <br/>
 2. $P(X\geq 4)= 0.9527$.
 </div>
@@ -143,15 +143,15 @@ Naming $X$ to the number of cured patients, <br/>
 ## Exercise 5
 
 
-Ten persons came into contact with a person infected by tuberculosis. The probability of being infected after contacting a person with tuberculosis is 0.1.
+Ten persons came into contact with a person infected with tuberculosis. The probability of being infected after contacting a person with tuberculosis is 0.1.
 
-1.  What is the probability that nobody are infected?
+1.  What is the probability that nobody is infected?
 2.  What is the probability that at least 2 persons are infected?
 3.  What is the expected number of infected persons?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Naming $X$ to the number of persons infected, <br/>
+Let $X$ be the number of persons infected, <br/>
 1. $P(X=0) = 0.3487$. <br/>
 2. $P(X\geq 2)= 0.2639$. <br/>
 3. $\mu=1$.
@@ -161,37 +161,37 @@ Naming $X$ to the number of persons infected, <br/>
 ## Exercise 6
 
 
-The probability of having an adverse reaction to a vaccine is 0.001. If 2000 persons are vaccinated, what is the probability of having some adverse reaction?
+The probability of suffering an adverse reaction to a vaccine is 0.001. If 2000 persons are vaccinated, what is the probability of suffering some adverse reaction?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Naming $X$ to the number of adverse reactions, $P(X\geq 1)=0.8648$.
+Let $X$ be the number of adverse reactions, $P(X\geq 1)=0.8648$.
 </div>
 
 
 ## Exercise 7
 
 
-The average number of calls per minute that arrive to a telephone switchboard is 120.
+The average number of calls per minute received by a telephone switchboard is 120.
 
 1.  What is the probability of receiving less than 4 calls in 2 seconds?
 2.  What is the probability of receiving at least 3 calls in 3 seconds?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. Naming $X$ to the number of calls in 2 seconds, $P(X<4)=0.4335$. <br/>
-2. Naming $Y$ to the number of calls in 3 seconds, $P(X\geq 3)= 0.938$.
+1. Let $X$ be the number of calls in 2 seconds, $P(X<4)=0.4335$. <br/>
+2. Let $Y$ be the number of calls in 3 seconds, $P(X\geq 3)= 0.938$.
 </div>
 
 
 ## Exercise 8
 
 
-A test contains 10 questions with 3 possible options each. For every question you win a point if you give the right answer and loss half a point if the answer is wrong. A student knows the right answer for 3 of the 10 questions and answers the rest randomly. What is the probability of passing the exam?
+A test contains 10 questions with 3 possible options each. For every question you get a point if you give the right answer and lose half a point if the answer is wrong. A student knows the right answer for 3 of the 10 questions and answers the rest randomly. What is the probability of passing the exam?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Naming $X$ to the number of correct answers in questions randomly answered, $P(X\geq 4)=0.1733$.
+Let $X$ be the number of correct answers in questions randomly answered, $P(X\geq 4)=0.1733$.
 </div>
 
 
@@ -202,8 +202,8 @@ It has been observed experimentally that 1 of every 20 trillions of cells expose
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Naming $X$ to the number of cells mutated, $P(X>0)=0.9502$. <br/>
-Naming $Y$ to the of persons developing cancer, $P(Y\geq 1) = 0.9999$.
+Let $X$ be the number of cells mutated, $P(X>0)=0.9502$. <br/>
+Let $Y$ be the of persons developing cancer, $P(Y\geq 1) = 0.9999$.
 </div>
 
 
@@ -221,23 +221,23 @@ A diagnostic test for a disease returns 1% of positive outcomes, and the positiv
 <div id="solution" style="display: none">
 1. $P(D)=0.0293$. <br/>
 2. Sensitivity $P(+\vert D)=0.3242$ and specificity $P(-\vert \bar D)=0.9995$. <br/>
-3. Naming $X$ to the number of wrong diagnosis in 12 sick persons, $P(X\geq 1)=1$. <br/>
-4. Naming $Y$ to the number of right diagnosis in 12 persons, $P(X=12)=0.7818$.
+3. Let $X$ be the number of wrong diagnosis in 12 sick persons, $P(X\geq 1)=1$. <br/>
+4. Let $Y$ be the number of right diagnosis in 12 persons, $P(X=12)=0.7818$.
 </div>
 
 
 ## Exercise 11
 
 
-In a study about a parasite that attack the kidney of rats it is known that the average number of parasites per kidney is 3.
+In a study about a parasite that attacks the kidney of rats it is known that the average number of parasites per kidney is 3.
 
-1.  Calculate the probability that a rat have more than 3 parasites.
+1.  Calculate the probability that a rat has more than 3 parasites.
 2.  Calculate the probability of having at least 9 rats infected in a sample of 10 rats.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. Naming $X$ to the number of parasites in a rat, $P(X>3)=0.8488$. <br/>
-2. Naming $Y$ to the number of rats with parasites in a sample of 10 rats, $P(Y\geq 9)=0.9997$.
+1. Let $X$ be the number of parasites in a rat, $P(X>3)=0.8488$. <br/>
+2. Let $Y$ be the number of rats with parasites in a sample of 10 rats, $P(Y\geq 9)=0.9997$.
 </div>
 
 
@@ -251,8 +251,8 @@ In a physiotherapy course there are 60% of females and 40% of males.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. Naming $X$ to the number of females in a group of 6 students, $P(X<2)=0.1792$. <br/>
-2. Naming $Y$ to the number of groups of 6 students without males in a sample of 5 groups, $P(Y>0) =0.2125$.
+1. Let $X$ be the number of females in a group of 6 students, $P(X<2)=0.1792$. <br/>
+2. Let $Y$ be the number of groups of 6 students without males in a sample of 5 groups, $P(Y>0) =0.2125$.
 </div>
 
 

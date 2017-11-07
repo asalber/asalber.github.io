@@ -24,10 +24,10 @@ Give some examples of:
 </div>
 
 ## Exercise 2
-In an study about the effect of different doses of a medicament, 2 patients got 2 mg and took 5 days to cure, 4 patients got 2 mg and took 6 days to cure, 2 patients got 3 mg ant took 3 days to cure, 4 patients got 3 mg and took 5 days to cure, 1 patient got 3 mg and took 6 days to cure, 5 patients got 4 mg and took 3 days to cure and 2 patients got 4 mg and took 5 days to cure.
+In a study about the effect of different doses of a medicament, 2 patients got 2 mg and took 5 days to cure, 4 patients got 2 mg and took 6 days to cure, 2 patients got 3 mg ant took 3 days to cure, 4 patients got 3 mg and took 5 days to cure, 1 patient got 3 mg and took 6 days to cure, 5 patients got 4 mg and took 3 days to cure and 2 patients got 4 mg and took 5 days to cure.
 
 1.  Construct the joint frequency table.
-2.  Get the marginal frequency distributions and compute the main statistics for every variable.
+2.  Get the marginal frequency distributions and compute the main statistics for each variable.
 3.  Compute the covariance and interpret it.
 
 <div><button class="solution">Show solution</button></div>
@@ -178,7 +178,7 @@ $$
 
 
 1. Construct the regression line of the number of injuries on the time of stretching.
-2. What is the reduction of injuries for every minute of stretching?
+2. How much is the reduction of injuries for every minute of stretching?
 3. How many minutes of stretching are require for having no injuries? Is reliable this prediction?
 
 Use the following sums ($X$=Number of minutes stretching, and $Y$=Number of injuries): $\sum x_i =160$ min, $\sum y_j=14$ injuries, $\sum x_i^2=4700$ min$^2$, $\sum y_j^2=36$ injuries$^2$ and $\sum x_iy_j=160$ min$\cdot$injuries.
@@ -234,7 +234,7 @@ A study to determine the relation between the age and the physical strength gave
 1. Calculate the linear coefficient of determination for the whole sample.
 2. Calculate the linear coefficient of determination for the sample of people younger than 25 years old.
 3. Calculate the linear coefficient of determination for the sample of people older than 25 years old.
-4. For which group of ages the relation between the age and the strength is stronger? 
+4. For which age group the relation between age and strength is stronger? 
 
 Use the following sums ($X$=Age and $Y=$Weight lifted).
 

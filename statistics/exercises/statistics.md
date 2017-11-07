@@ -38,9 +38,9 @@ The chart below shows the cumulative distribution of the time (in min) required 
 
 <img src="img/time_exam-1.svg" title="plot of chunk time_exam" alt="plot of chunk time_exam" style="display: block; margin: auto;" />
 
-1.  A which time have finished half of the students? And 90% of students?
-2.  Which percentage of students have finished after 100 minutes?
-3.  Which is the time that best represent the time required by students in the sample to finish the exam? Is this value representative or not?
+1.  At what time have half of the students finished? And 90% of students?
+2.  What percentage of students have finished after 100 minutes?
+3.  What is the time that best represent the time required by students in the sample to finish the exam? Is this value representative or not?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -50,14 +50,14 @@ The chart below shows the cumulative distribution of the time (in min) required 
 </div>
 
 ## Exercise 3
-In a study about the children growth two samples where drawn, one for newborns and the other for one year old. The height in cm of children in both samples were
+In a study about children's growth, two samples were drawn, one for newborn babies and the other for one year old infants. The heights in cm of children in each of the samples were
 
 
 ```
 Newborn children: 51 50 51 53 49 50 53 50 47 50 
 One year old children: 62 65 69 71 65 66 68 69
 ```
-In which group is more representative the mean? Justify the answer.
+In which group is the mean more representative? Justify your answer.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -66,7 +66,7 @@ One year old children:  $\bar y=66.875$ min, $s_y=2.7128$ min and $cv_y=0.0406$.
 </div>
 
 ## Exercise 4
-To determine the accuracy of a method for measuring hematocrit in blood, the measurement was repeated 8 times on the same blood sample. The results in percentage of hematocrit in plasma were
+To determine the accuracy of a method for measuring hematocrit in blood, the measurement was repeated 8 times on the same blood sample. The results of hematocrit in plasma, in percentage, were
 
 
 ```
@@ -125,7 +125,7 @@ $g_1=-0.2283$ and $g_2=-0.5487$.
 </div>
 
 ## Exercise 7
-To compare two rehabilitation treatments $A$ and $B$ for an injury, every treatment was applied to a different group of people. The number of days required to cure the injury in every group is shown in the
+To compare two rehabilitation treatments $A$ and $B$ for an injury, every treatment was applied to a different group of people. The number of days required to cure the injury in each group is shown in the
 following table:
 
 
@@ -164,7 +164,7 @@ The systolic blood pressure (in mmHg) of a sample of persons is
 2.  How is the relative dispersion with respect to the mean?
 3.  How is the skewness of the sample distribution?
 4.  How is the kurtosis of the sample distribution?
-5.  If we know that the method used for measuring the blood pressure is biased, and, in order to get the right values, we have to apply the linear transformation $y=1.2x-5$, which are values of the statistics required to answer the previous questions for the corrected values of the blood pressure?
+5.  If we know that the method used for measuring the blood pressure is biased, and, in order to get the right values, we have to apply the linear transformation $y=1.2x-5$, what are the statistics values of parts (a) to (d) for the new, corrected distribution?
 
 Use the following sums: $\sum x_i=1271$ mmHg, $\sum (x_i-\bar x)^2=2188.9$ mmHg$^2$, $\sum (x_i-\bar x)^3=2764.32$ mmHg$^3$, $\sum (x_i-\bar x)^4=1040079.937$ mmHg$^4$.
 
@@ -196,7 +196,7 @@ The table below contains the frequency of pregnancies, abortions and births of a
 
 1.  How many birth outliers are in the sample?
 2.  Which variable has lower spread with respect to the mean?
-3.  Which value is relatively higher, 7 pregnancies or 4 abortions? Justify the answer.
+3.  Which value is relatively higher, 7 pregnancies or 4 abortions? Justify your answer.
 
 Use the following sums:
 Pregnancies: $\sum x_i=2783$, $\sum x_i^2=9773$.

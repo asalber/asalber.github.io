@@ -83,7 +83,7 @@ c <- coefficients(m)
 
 1. Construct the linear regression model of drug concentration on time.
 2. Construct the exponential regression model of drug concentration on time.
-3. Use the best regression model to predict the drug concentration after $4.8$ hours? Is this prediction reliable? Justify the answer.
+3. Use the best regression model to predict the drug concentration after $4.8$ hours? Is this prediction reliable? Justify your answer.
 
 Use the following sums ($C$=Drug concentration and $T$=time): $\sum c_i=`r sum(x)`$ mg/dl, $\sum \log(c_i)=`r sum(log(x))`$ $\log(\mbox{mg/dl})$, $\sum t_j=`r sum(y)`$ hours, $\sum \log(t_j)=`r sum(log(y))`$ $\log(\mbox{hours})$, $\sum c_i^2=`r sum(x^2)`$ (mg/dl)$^2$, $\sum \log(c_i)^2=`r sum(log(x)^2)`$ $\log(\mbox{mg/dl})^2$, $\sum t_j^2=`r sum(y^2)`$ hours$^2$, $\sum \log(t_j)^2=`r sum(log(y)^2)`$ $\log(\mbox{hours})^2$, $\sum c_it_j=`r sum(x*y)`$ mg/dl$\cdot$hours, $\sum c_i\log(t_j)=`r sum(x*log(y))`$ mg/dl$\cdot\log(\mbox{hours})$, $\sum \log(c_i)t_j=`r sum(log(x)*y)`$ $\log(\mbox{mg/dl})\cdot$hours, $\sum \log(c_i)\log(t_j)=`r sum(log(x)*log(y))`$   $\log(\mbox{mg/dl})\cdot\log(\mbox{hours})$.
 
@@ -171,7 +171,7 @@ $x(10)=`r exp(c[1]+c[2]*10)`$.
 
 
 ## Exercise 4
-A blood bank keeps the plasma to a temperature of 0ºF.
+A blood bank keeps plasma at a temperature of 0ºF.
 When it is required for a blood transfusion, it is heated in an oven at a constant temperature of 120ºF.
 In an experiment it has been measured the temperature of plasma at different times during the heating. 
 The results are in the table below.
@@ -194,11 +194,11 @@ data <- data.frame(x,y)
 ```
 
 1. Plot the scatter plot. 
-Which type of regression model do you think that explains better relationship between temperature and time?
+Which type of regression model do you think explains better relationship between temperature and time?
 2. Which transformation should we apply to the variables to have a linear relationship?
 3. Compute the logarithmic regression of the temperature on time.
-4. According to the logarithmic model, what temperature there will be after 15 minutes of heating?
-Is this prediction reliable? Justify the answer.
+4. According to the logarithmic model, what will the temperature of the plasma be after 15 minutes of heating?
+Is this prediction reliable? Justify your answer.
 
 Use the following sums ($X$=Time and $Y$=Temperature):
 $\sum x_i=`r sum(x)`$ min, $\sum \log(x_i)=`r sum(log(x))`$ log(min), $\sum y_j=`r sum(y)`$ ºF, $\sum \log(y_j)=`r sum(log(y))`$ log(ºF), $\sum x_i^2=`r sum(x^2)`$ min², $\sum \log(x_i)^2=`r sum(log(x)^2)`$ log²(min), $\sum y_j^2=`r sum(y^2)`$ ºF², $\sum \log(y_j)^2=`r sum(log(y)^2)`$ log²(ºF), $\sum x_iy_j=`r sum(x*y)`$ min⋅ºF, $\sum x_i\log(y_j)=`r sum(x*log(y))`$ min⋅log(ºF), $\sum \log(x_i)y_j=`r sum(log(x)*y)`$ log(min)⋅ºF, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$ log(min)log(ºF).
@@ -322,7 +322,7 @@ The linear model fits well to the points cloud. <br/>
 plot(x, y, main="Scatter plot of period on length of a pendulum", xlab="Length (cm)", ylab="Period (seg)", pch=16, col=col1, log="xy") 
 ```
 2. The model that best fits the points cloud is linear. <br/>
-3. Naming $X$ to the logarithm of length and $Y$ to the logarithm of period, <br/>
+3. Let $X$ be the logarithm of length and $Y$ to the logarithm of period, <br/>
 ```{r}
 x <- log(x)
 y <- log(y)
@@ -338,7 +338,7 @@ Regression line of Y on X: $y=`r c[1]` + `r c[2]`x$.<br/>
   
 ## Exercise 7
 A study tries to determine the relationship between two substances $X$ and $Y$ in blood.
-The concentration of these substances has been measured in seven individuals (in $\mu$g/dl) and the results are shown in the table below. 
+The concentrations of these substances have been measured in seven individuals (in $\mu$g/dl) and the results are shown in the table below. 
 
 $$
 \begin{array}{rrrrrrrr}
@@ -359,7 +359,7 @@ data <- data.frame(x,y)
 
 1. Are $Y$ and $X$ linearly related?
 2. Are $Y$ and $X$ potentially related?
-3. Use the best of the previous regression models to predict the concentration in blood of $Y$ for $x=8$ $\mu$gr/dl.Is this prediction reliable. Justify the answer. 
+3. Use the best of the previous regression models to predict the concentration in blood of $Y$ for $x=8$ $\mu$gr/dl.Is this prediction reliable. Justify your answer. 
 
 Use the following sums:
 $\sum x_i=`r sum(x)`$ μg/dl, $\sum \log(x_i)=`r sum(log(x))`$ log(μg/dl), $\sum y_j=`r sum(y)`$ μg/dl, $\sum \log(y_j)=`r sum(log(y))`$ log(μg/dl), $\sum x_i^2=`r sum(x^2)`$ (μg/dl)², $\sum \log(x_i)^2=`r sum(log(x)^2)`$ log(μg/dl)², $\sum y_j^2=`r sum(y^2)`$ (μg/dl)², $\sum \log(y_j)^2=`r sum(log(y)^2)`$ log(μg/dl)², $\sum x_iy_j=`r sum(x*y)`$ (μg/dl)², $\sum x_i\log(y_j)=`r sum(x*log(y))`$ μg/dl⋅log(μg/dl), $\sum \log(x_i)y_j=`r sum(log(x)*y)`$ log(μg/dl)⋅μg/dl, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$ log(μg/dl)².

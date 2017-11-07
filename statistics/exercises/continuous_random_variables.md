@@ -37,7 +37,7 @@ $$
 
 
 ## Exercise 2
-A worker can arrive to the workplace in any instant between 6 and 7 in the morning with the same likelihood.
+A worker can arrive to the workplace at any moment between 6 and 7 in the morning with the same likelihood.
 
 1.  Compute and plot the probability density function of the variable that measures the arrival time.
 2.  compute and plot the distribution function.
@@ -136,7 +136,7 @@ It is known that the glucose level in blood of diabetic persons follows a normal
 It is known that the cholesterol level in males 30 years old follows a normal distribution with mean 220 mg/dl and standard deviation 30 mg/dl. If there are 20000 males 30 years old in the population,
 
 1.  how many of them have a cholesterol level between 210 and 240 mg/dl?
-2.  If a cholesterol level greater than 250 mg/dl can provoke a thrombosis, how many of them are in risk of thrombosis?
+2.  If a cholesterol level greater than 250 mg/dl can provoke a thrombosis, how many of them are at risk of thrombosis?
 3.  Calculate the cholesterol level above which 20% of the males are?
 
 <div><button class="solution">Show solution</button></div>
@@ -150,7 +150,7 @@ It is known that the cholesterol level in males 30 years old follows a normal di
 ## Exercise 8
 
 
-In an exam done by 100 students, the average degree is 4.2 and only 32 students pass. Assuming that the grade follows a normal distribution model, how many students got a grade greater than 7?
+In an exam done by 100 students, the average grade is 4.2 and only 32 students pass. Assuming that the grade follows a normal distribution model, how many students got a grade greater than 7?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -188,10 +188,10 @@ It is known that the blood pressure of people in a population with 20000 persons
 ## Exercise 11
 
 
-A study tries to determine the effect of a low fat diet in the lifetime of rats. The rats where divided into two groups, one with a normal diet and another with a low fat diet. It is assumed that the lifetime of both groups follows normal distribution model with the same variance but different mean. If 20% of rats with normal diet lived more than 12 months, 5% less than 8 months, and 85% of rats with low fat diet lived more than 11 months,
+A study tries to determine the effect of a low fat diet in the lifetime of rats. The rats where divided into two groups, one with a normal diet and another with a low fat diet. It is assumed that the lifetimes of both groups are normally distributed with the same variance but different mean. If 20% of rats with normal diet lived more than 12 months, 5% less than 8 months, and 85% of rats with low fat diet lived more than 11 months,
 
-1.  what is the mean and the standard deviation of lifetime of rats following a low fat diet?
-2.  If there was 40% of rats with normal diet, and 60% of rats with low fat diet, what is the probability that a random rat die before 9 months?
+1.  what is the mean and the standard deviation of the lifetime of rats following a low fat diet?
+2.  If 40\% of the rats were under a normal diet, and 60\% of rats under a low fat diet, what is the probability that a random rat die before 9 months?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -204,10 +204,10 @@ Naming $X_1$ and $X_2$ to the lifetime of rats with a normal diet and a low fat 
 ## Exercise 12
 
 
-A diagnostic test to determine doping of athletes returns a positive outcome when the concentration of a substance in blood is greater than 4 $\mu$g/ml. If the distribution of the substance concentration in doped athletes follows a normal distribution model with mean 4.5 $\mu$g/ml and standard deviation 0.2 $\mu$g/ml, and in non-doped athletes follow a normal distribution model with mean 3 $\mu$g/ml and standard deviation 0.3 $\mu$g/ml,
+A diagnostic test to determine doping of athletes returns a positive outcome when the concentration of a substance in blood is greater than 4 $\mu$g/ml. If the distribution of the substance concentration in doped athletes follows a normal distribution model with mean 4.5 $\mu$g/ml and standard deviation 0.2 $\mu$g/ml, and in non-doped athletes is normally distributed with mean 3 $\mu$g/ml and standard deviation 0.3 $\mu$g/ml,
 
 1.  what is the sensitivity and specificity of the test?
-2.  If there are a 10% of doped athletes in a competition, what is the positive predicted value?
+2.  If there is a 10% of doped athletes in a competition, what is the positive predicted value?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -239,8 +239,8 @@ The curing time of a knee injury in soccer players follows a normal distribution
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Naming $X$ to the curing time, $P(X>65)=0.0668$. <br/>
-Naming $Y$ to the number of injured players that could play the semifinal, $P(Y\geq 1)=0.4989$. 
+Let $X$ be the curing time, $P(X>65)=0.0668$. <br/>
+Let $Y$ be the number of injured players that could play the semifinal, $P(Y\geq 1)=0.4989$. 
 </div>
 
 

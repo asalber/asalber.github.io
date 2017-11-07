@@ -12,7 +12,7 @@ image: dados.jpg
 ## Exercise 1
 
 
-To evaluate the effectiveness of a diagnosis test, the test was applied to a sample of people with the following results:
+A test was applied to a sample of people in order to evaluate its effectiveness; the results are as follows:
 
 $$
 \begin{array}{l|cc}
@@ -59,10 +59,10 @@ Naming $A$ to the event of having arthritis, <br/>
 
 We have two different test $A$ and $B$ to diagnose a disease. Test $A$ have a sensitivity of 98% and a specificity of 80%, while test $B$ have a sensitivity of 75% and a specificity of 99%.
 
-1.  What test is better to confirm the disease?
-2.  What test is better to rule out the disease?
-3.  Often a test is used to discard the presence of the disease in a large amount of people apparently healthy. This type of test is known as *screening test*. What test will work better as a screening test? What are the predictive values of this test if the prevalence of the disease is 0.01? And if the prevalence of de disease is 0.2?
-4.  The positive predictive value of a screening test used to be not too high. How can combine tests $A$ and $B$ to have a higher confidence in the diagnosis of the disease? Calculate the post-test probability of having the disease with the combination of both tests if the outcome of both test is positive for a prevalence of 0.01.
+1.  Which test is better to confirm the disease?
+2.  Which test is better to rule out the disease?
+3.  Often a test is used to discard the presence of the disease in a large amount of people apparently healthy. This type of test is known as *screening test*. Which test will work better as a screening test? What are the predictive values of this test if the prevalence of the disease is 0.01? And if the prevalence of de disease is 0.2?
+4.  The positive predictive value of a screening test used to be not too high. How can we combine the tests $A$ and $B$ to have a higher confidence in the diagnosis of the disease? Calculate the post-test probability of having the disease with the combination of both thest, if the outcome of both test is positive for a prevalence of 0.01.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">

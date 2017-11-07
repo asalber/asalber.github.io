@@ -50,7 +50,7 @@ $$
 
 
 ## Exercise 2
-A worker can arrive to the workplace in any instant between 6 and 7 in the morning with the same likelihood.
+A worker can arrive to the workplace at any moment between 6 and 7 in the morning with the same likelihood.
 
 1.  Compute and plot the probability density function of the variable that measures the arrival time.
 2.  compute and plot the distribution function.
@@ -193,7 +193,7 @@ p1 = 0.2
 It is known that the cholesterol level in males 30 years old follows a normal distribution with mean `r m` mg/dl and standard deviation `r s` mg/dl. If there are `r n` males 30 years old in the population,
 
 1.  how many of them have a cholesterol level between `r x1` and `r x2` mg/dl?
-2.  If a cholesterol level greater than `r x3` mg/dl can provoke a thrombosis, how many of them are in risk of thrombosis?
+2.  If a cholesterol level greater than `r x3` mg/dl can provoke a thrombosis, how many of them are at risk of thrombosis?
 3.  Calculate the cholesterol level above which `r p1*100`% of the males are?
 
 <div><button class="solution">Show solution</button></div>
@@ -215,7 +215,7 @@ x2 = 7
 s = (x1-m)/qnorm(p1, lower.tail=F)
 ```
 
-In an exam done by `r n` students, the average degree is `r m` and only `r n1` students pass. Assuming that the grade follows a normal distribution model, how many students got a grade greater than `r x2`?
+In an exam done by `r n` students, the average grade is `r m` and only `r n1` students pass. Assuming that the grade follows a normal distribution model, how many students got a grade greater than `r x2`?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -284,10 +284,10 @@ p = 0.4
 x4 = 9
 ```
 
-A study tries to determine the effect of a low fat diet in the lifetime of rats. The rats where divided into two groups, one with a normal diet and another with a low fat diet. It is assumed that the lifetime of both groups follows normal distribution model with the same variance but different mean. If `r p1*100`% of rats with normal diet lived more than `r x1` months, `r p2*100`% less than `r x2` months, and `r p3*100`% of rats with low fat diet lived more than `r x3` months,
+A study tries to determine the effect of a low fat diet in the lifetime of rats. The rats where divided into two groups, one with a normal diet and another with a low fat diet. It is assumed that the lifetimes of both groups are normally distributed with the same variance but different mean. If `r p1*100`% of rats with normal diet lived more than `r x1` months, `r p2*100`% less than `r x2` months, and `r p3*100`% of rats with low fat diet lived more than `r x3` months,
 
-1.  what is the mean and the standard deviation of lifetime of rats following a low fat diet?
-2.  If there was `r p*100`% of rats with normal diet, and `r (1-p)*100`% of rats with low fat diet, what is the probability that a random rat die before `r x4` months?
+1.  what is the mean and the standard deviation of the lifetime of rats following a low fat diet?
+2.  If `r p*100`% of the rats were under a normal diet, and `r (1-p)*100`% of rats under a low fat diet,If there was  of rats with normal diet, what is the probability that a random rat die before `r x4` months?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -311,10 +311,10 @@ pos = pre*sen+(1-pre)*(1-spe)
 ppv = pre*sen/pos
 ```
 
-A diagnostic test to determine doping of athletes returns a positive outcome when the concentration of a substance in blood is greater than `r x1` $\mu$g/ml. If the distribution of the substance concentration in doped athletes follows a normal distribution model with mean `r m1` $\mu$g/ml and standard deviation `r s1` $\mu$g/ml, and in non-doped athletes follow a normal distribution model with mean `r m2` $\mu$g/ml and standard deviation `r s2` $\mu$g/ml,
+A diagnostic test to determine doping of athletes returns a positive outcome when the concentration of a substance in blood is greater than `r x1` $\mu$g/ml. If the distribution of the substance concentration in doped athletes follows a normal distribution model with mean `r m1` $\mu$g/ml and standard deviation `r s1` $\mu$g/ml, and in non-doped athletes is normally distributed with mean `r m2` $\mu$g/ml and standard deviation `r s2` $\mu$g/ml,
 
 1.  what is the sensitivity and specificity of the test?
-2.  If there are a `r pre*100`% of doped athletes in a competition, what is the positive predicted value?
+2.  If there is a `r pre*100`% of doped athletes in a competition, what is the positive predicted value?
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -360,8 +360,8 @@ The curing time of a knee injury in soccer players follows a normal distribution
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-Naming $X$ to the curing time, $P(X>`r x1`)=`r pnorm(x1, m, s, lower.tail=F)`$. <br/>
-Naming $Y$ to the number of injured players that could play the semifinal, $P(Y\geq 1)=`r pbinom(0, n, p, lower.tail=F)`$. 
+Let $X$ be the curing time, $P(X>`r x1`)=`r pnorm(x1, m, s, lower.tail=F)`$. <br/>
+Let $Y$ be the number of injured players that could play the semifinal, $P(Y\geq 1)=`r pbinom(0, n, p, lower.tail=F)`$. 
 </div>
 
 
