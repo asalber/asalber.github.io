@@ -2,7 +2,7 @@
 layout: post
 title: "Cheat sheets for Calculus and Statistics"
 description: "Some tips to pass the subjects"
-date: "2017-04-24 09:21:50 +0200"
+date: "2017-11-02 10:21:50 +0200"
 comments: true
 share: true
 ---
