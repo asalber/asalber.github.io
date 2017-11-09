@@ -11,9 +11,9 @@ share: true
 
 From now on there are available some cheat sheets for Calculus and Statistics. 
 
-<!--MORE-->
-
 These cheat sheets contains a summary with the main formulas used in Calculus and Statistics.
+
+<!--MORE-->
 
 The cheat sheets can be downloaded from the following links:
 
