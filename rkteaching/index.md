@@ -36,7 +36,7 @@ El siguiente vídeo muestra el proceso de instalación.
 ### Instalación en Mac Os
 Para instalar el sotware en plataformas Mac Os debe instalarse cada programa por separado con el siguiente orden:
 
-1. **Instalar R**. R puede descargarse desde la página <http://cran.es.r-project.org/>. 
+1. **Instalar R**. R puede descargarse desde la página <https://cran.r-project.org/>. 
 Debe seleccionarse la distribución correspondiente a Mac Os y seguir las instrucciones de instalación que allí se especifican. 
 Es necesario que la versión de R sea la 3.0 o superior.
 
