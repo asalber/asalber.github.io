@@ -41,6 +41,8 @@ estadistica:
     url: /estadistica/ejercicios/
   - title: Exámenes de Estadística
     url: /estadistica/examenes/
+  - title: Fórmulas de Estadística
+    url: /estadistica/formulas/
   - title: Bioestadística con R y rk.Teaching
     url: /estadistica/rkteaching/bioestadistica/
   - title: Videotutorial de rk.Teaching
@@ -73,6 +75,8 @@ calculo:
     url: /calculo/ejercicios/
   - title: Exámenes de Cálculo
     url: /calculo/examenes/
+  - title: Fórmulas de Cálculo
+    url: /calculo/formulas/  
 calculus:
   - title: Calculus Manual
     url: /calculus/manual/

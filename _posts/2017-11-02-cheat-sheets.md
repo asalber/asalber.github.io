@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Cheat sheets for Calculus and Statistics"
-description: "Some tips to pass the subjects"
+title: "Hojas de fórmulas de Estadística y Cálculo"
+description: "Una pequeña ayuda para aprobar"
 date: "2017-11-02 10:21:50 +0200"
 comments: true
 share: true
@@ -9,11 +9,25 @@ share: true
 
 ![Cheat sheet](/images/cheatsheet.jpg){: .pull-right}
 
+
+A partir de ahora están disponibles varias hojas de fórmulas de cálculo y Estadística. 
+
+Estas hojas contienen un resumen con las principales fórmulas utilizadas en Cálculo y Estadística. 
+
+<!--MORE-->
+
+Las hojas de cálculo pueden descargarse desde los siguientes enlaces:
+
+- [Calculus cheat sheets](http://aprendeconalf.es/calculo/formulas/)
+- [Statistics cheat sheets](http://aprendeconalf.es/estadistica/formulas/)
+
+Estaría muy agradecido si me informáis de cualquier error que detectéis en estas hojas. 
+
+## English version
+
 From now on there are available some cheat sheets for Calculus and Statistics. 
 
 These cheat sheets contains a summary with the main formulas used in Calculus and Statistics.
-
-<!--MORE-->
 
 The cheat sheets can be downloaded from the following links:
 
