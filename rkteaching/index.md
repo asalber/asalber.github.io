@@ -53,17 +53,16 @@ Es importante asegurase de tener una versión de Mac OS X Lion (10.7) o superior
 3. **Instalar los paquetes de los que depende RKTeaching**. Para instalar RKTeaching primero hay que instalar los paquetes de R de los que depende. 
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:
 	
-	<pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez"),dep=TRUE)</code></pre>
+	 <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
 
-4. **Instalar RKTeaching**. La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`. 
+4. **Instalar RKTeaching**. La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`.
 Para ello hay que introducir los siguientes comandos en la consola de R: 
 
-    <pre><code>
-    install.packages("devtools",dep=TRUE)<br/>   
+    <pre><code>install.packages("devtools", dep=TRUE)<br/>
     library(devtools)<br/>
     install_github("asalber/rkTeaching_es")
     </code></pre>
-	
+
 	El siguiente vídeo muestra el proceso de instalación.
 
 	<iframe src="//www.youtube.com/embed/vQa4umDJko8" width="640" height="360" frameborder="0"> </iframe> 
