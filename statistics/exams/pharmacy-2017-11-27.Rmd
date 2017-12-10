@@ -27,7 +27,7 @@ Date: November 27, 2017
 
 The following diagram show the NO₂ emissions (𝜇g/m³) in Madrid during the month of October, 2017.
 
-```{r}
+```{r no2-emissions-histogram}
 # Datos contaminación NO2 y oxidos nitrosos Madrid octubre 2017
 no2 <- c(36,	52,	57,	47,	79,	62,	58,	62,	80,	88,	100,	92,	77,	74,	63,	53,	51,	40,	47,	49,	42,	44,	68,	77,	90,	102,	68,	58,	56,	46,	56)
 no <- c(13,	60,	70,	27,	65,	36,	33,	45,	80,	95,	96,	92,	73,	78,	42,	27,	16,	9,	26,	32,	30,	24,	82,	113,	160,	177,	101,	62,	45,	40,	48)
