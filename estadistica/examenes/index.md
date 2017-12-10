@@ -15,3 +15,4 @@ image: cabecera-estadistica.jpg
 - [Examen del 13 de enero de 2015](farmacia-2015-01-13.html)
 - [Examen del 28 de noviembre de 2016](farmacia-2016-11-28.html)
 - [Examen del 10 de enero de 2017](farmacia-2017-01-10.html)
+- [Examen del 27 de noviembre de 2017](farmacia-2017-11-27.html)

@@ -10,6 +10,7 @@ image: cabecera-estadistica.jpg
 ## Degree in Pharmacy and Biotechnology
 - [Exam of November 28, 2016](pharmacy-2016-11-28.html)
 - [Exam of January 10, 2017](pharmacy-2017-01-10.html)
+- [Exam of November 27, 2017](pharmacy-2017-11-27.html)
 
 ## Degree in Physiotherapy
 
