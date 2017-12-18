@@ -1,16 +1,270 @@
 ---
 layout: software
-title: RKTeaching
-description: "Un paquete de R para la enseñanza de Estadística"
+title: rkTeaching
+description: "An R package for teaching and learning Statistics"
 modified: 2016-05-20
-tags: [Estadística, R, RKTeaching, RKWard]
+tags: [Estadística, R, Statistics, rk.Teaching, RKWard]
 comments: true
 share: true
 ---
 
-## ¿Qué es RKTeaching?
+Versión en Español más abajo.
 
-RKTeaching es un paquete de [R](http://www.r-project.org/) que proporciona un plugin para la interfaz gráfica [RKWard](http://rkward.sourceforge.net/) añadiendo nuevos menús y cuadros de diálogo especialmente diseñandos para la enseñanza de Estadística.
+
+## What is rkTeaching? 
+
+rkTeaching is an [R](http://www.r-project.org/) package that provides a plugin for the graphical user interface [RKWard](http://rkward.sourceforge.net/) adding new menus and dialog specially 
+designed for teaching and learning Statistics.
+
+This package has been developed and is maintained by Alfredo Sánchez Alberca <asalber@ceu.es> in the Departament of Applied Math and Statistics of the San Pablo CEU of Madrid. 
+
+If you find out some error or have a suggestion, please, let me know it by email or opening an [issue on Github](https://github.com/rkward-community/rk.Teaching/pulls).
+
+## Installation
+
+### Installation on Windows
+For Windows users there is a bundle that include R, RKWard and rk.Teaching.
+
+[Download last version (R versión 3.2.3, RKWard versión 0.6.5, rk.Teaching versión 1.3.0)](https://drive.google.com/file/d/0B5yGMNeKDyLdaFMyd2J5YzdZcVE/view?usp=sharing)
+
+Once the file is downloaded, all you have to do is to execute it. 
+It will ask for the installation unit and directory. 
+It is recommended to install it on the root of unit C, that ist C:\. 
+The installation creates a folder rkward into the installation directory with a shortcut to start the program. 
+
+The following video tutorial shows the installation process (in Spanish).
+
+<iframe src="//www.youtube.com/embed/BrqFyfNO9RM" width="640" height="360" allowfullscreen frameborder="0"></iframe> 
+
+### Installation on Mac OS
+
+To install the software in Mac OS systems, you must take the following steps:
+
+1. **Install R**. R can be downloaded from the web <https://cran.r-project.org/>. 
+You have to select the Mac OS distribution and follow the instructions there.
+It is required an R version 3.0 or higher.
+
+2. **Install RKWard**. RKWard can be downloaded from the web <http://rkward.sourceforge.net>. 
+You have to select the Mac Os distribution and follow the instructions there. 
+It is required a Mac Os version Lion (10.7) or higher. 
+
+The following video tutorial shows the installation process (in Spanish).
+
+	<iframe src="//www.youtube.com/embed/2t4zUOlgPG8" width="640" height="360" frameborder="0"> </iframe> 
+	
+If there is some error during the installation process, check for the possible solutions (<http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting>)
+
+3. **Install the packages that rk.Teaching depends on**. The rk.Teaching package depends on several packages that should be installed first.
+To install this packages you must run RKWard, open the R console and type the following commands:
+	
+	 <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
+
+4. **Install rk.Teaching**. To install the rk.Teaching package you must type the following commands in the R console:
+
+    <pre><code>install.packages("devtools", dep=TRUE)<br/>
+    library(devtools)<br/>
+    install_github("rkward-community/rk.Teaching")
+    </code></pre>
+
+	The following video tutorial shows the installation process (in Spanish).
+
+	<iframe src="//www.youtube.com/embed/vQa4umDJko8" width="640" height="360" frameborder="0"> </iframe> 
+
+### Installation on Linux
+	
+To install the software in Mac OS systems, you must take the following steps:
+
+1. **Install R**. R can be downloaded from the web <https://cran.r-project.org/>. 
+You have to select the Linux distribution and follow the instructions there.
+It is required an R version 3.0 or higher.
+
+	With Debian based distributions like Ubuntu, you can install R from the command line typing the command:
+    <pre><code>sudo apt-get install rbase</code></pre>
+
+2. **Install RKWard**. RKWard can be downloaded from the web <http://rkward.sourceforge.net>. 
+You have to select the Linux distribution and follow the instructions there. 
+
+	With Debian based distributions like Ubuntu, you can install R from the command line typing the command:
+	<pre><code>sudo apt-get install rkward</code></pre>
+	It is important to install versión 0.6.5 or higher.
+
+3. **Install the packages that rk.Teaching depends on**. The rk.Teaching package depends on several packages that should be installed first.
+To install this packages you must run RKWard, open the R console and type the following commands:
+	
+	 <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
+
+4. **Install rk.Teaching**. To install the rk.Teaching package you must type the following commands in the R console:
+
+    <pre><code>install.packages("devtools", dep=TRUE)<br/>
+    library(devtools)<br/>
+    install_github("rkward-community/rk.Teaching")
+    </code></pre>
+
+	The following video tutorial shows the installation process (in Spanish).
+
+	<iframe src="//www.youtube.com/embed/vQa4umDJko8" width="640" height="360" frameborder="0"> </iframe>
+
+## Statistical procedures
+Once installed a new menu `Teaching` will appear in RKWard with the following statistical procedures:
+
+-	Data
+	
+	-   Data filtering
+	-   
+	-   Recodificar variable
+	-   Ponderar datos
+	-   Tipificar variables
+	
+-	Distribución de frecuencias
+	
+	-   Tablas de frecuencias
+	-   Tablas de frecuencias bidimensionales
+	
+-	Gráficos
+	
+	-   Diagrama de barras
+	-   Histograma
+	-   Diagrama de sectores
+	-   Diagrama de caja
+	-   Diagrama de medias
+	-   Diagrama de interacción
+	-   Diagrama de dispersión
+	-   Matriz de dispersión
+	
+-	Estadística descriptiva
+	
+	-   Estadísticos
+	-   Estadísticos (cálculo detallado)
+	
+-	Regresión
+	
+	-   Regresión lineal
+	-   Regresión no lineal
+	-   Comparación de modelos
+	-   Predicciones
+	-   Correlación
+	
+-	Test paramétricos
+	
+	-	Medias
+		-   Test T para una muestra
+		-   Test T para dos muestras independientes
+		-   Test T para dos muestras pareadas
+		-   ANOVA
+		-   Cálculo del tamaño muestral para la media
+		-   Cálculo del tamaño muestral para el test T
+	-	Varianzas
+		-   Test F de Fisher
+		-   Test de Levene
+	-	Proporciones
+		-   Test para una proporción
+		-   Test para dos proporciones
+		-   Cálculo del tamaño muestral para una proproción
+	
+-	Test no paramétricos
+	
+	-	Normalidad
+		-   Test de Lilliefors (Komogorov-Smirnov)
+		-   Test de Shapiro-Wilk
+	-	Test U de Mann-Whitney para dos muestas independientes
+	-	Test de Wilcoxon para dos muestras pareadas
+	-	Test de Kruskal-Wallis para varias muestras independientes
+	-	Test de Friedman para medidas repetidas
+	-	Test Chi-cuadrado de independencia
+	-	Test Chi-cuadrado de bondad de ajuste
+	
+-	Concordancia
+	
+	-   Coeficiente de correlación intraclase
+	-   Kappa de Cohen
+	
+-	Probabilidad
+
+	-	Juegos de azar
+		- 	Monedas
+			-	Espacio probabilístico
+			-	Lanzamiento de monedas
+		- 	Dados
+			-	Espacio probabilístico
+			-	Lanzamiento de dados
+		- 	Naipes
+			-	Espacio probabilístico
+			-	Extracción naipes
+		- 	Urnas
+			-	Espacio probabilístico
+			-	Extracción de urnas
+	-	Construcción de espacio probabilístico
+	-	Combinación de espacios probabilísticos
+	-	Repetición de espacios probabilísticos
+	-	Cálculo de probabilidad
+	
+-	Distribuciones de probabilidad
+	
+	-	Distribuciones discretas
+		-	Binomial	
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+		-	Poisson
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+	-	Distribuciones continuas
+		-	Chi-cuadrado
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+		-	F de Fisher
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+		-	Normal
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+		-	T de student
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+		-	Uniforme continua
+			-   Probabilidades
+			-   Cuantiles
+			-   Gráfico de probabilidad
+-	Simulaciones
+
+	-   Ley de los casos raros
+	
+## Funcionalidades
+
+-   Menús y cuadros de diálogo diseñados para facilitar el aprendizaje,
+    eliminando todas las opciones secundarias para conseguir una
+    interfaz simple e intuitiva.
+    
+-   Diseño de asistentes que guían al usuario paso a paso y le asesoran
+    en los análisis estadísticos. 
+    ![Asistente](images/wizard.png)
+    
+-   Salidas en HTML que presentan los resultados de los análisis y sus
+    interpretaciones de manera clara y concisa.
+    ![Salida](images/output.png)
+    
+-   Gráficos sencillos basados en el moderno paquete ggplot2. 
+	![Salida gráfica](images/graphics1.png)
+    
+-   Posibilidad mostrar el desarrollo de los cálculos de algunos
+    procedimientos estadísticos. 
+    ![Salida gráfica](images/detailed_calculation.png)
+
+rk.Teaching es mantenido por [asalber](https://github.com/asalber) 
+
+## ¿Cómo citar RKTeching?
+
+Sánchez-Alberca, A. (2014). rk.Teaching (version 1.2) [software]. Obtenido de: http://aprendeconalf.es/rkteaching.
+
+
+## ¿Qué es rkTeaching?
+
+rk.Teaching es un paquete de [R](http://www.r-project.org/) que proporciona un plugin para la interfaz gráfica [RKWard](http://rkward.sourceforge.net/) añadiendo nuevos menús y cuadros de diálogo especialmente diseñados para la enseñanza de Estadística.
 
 El paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca <asalber@ceu.es> del Departamento de Matemáticas de la Universidad San Pablo CEU de Madrid.
 
@@ -20,7 +274,7 @@ Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por
 ## Instalación
 
 ### Instalación en Windows
-Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y RKTeaching.
+Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y rk.Teaching.
 
 [Descarga la última versión (R versión 3.2.3, RKWard versión 0.6.5, rk.Teaching versión 1.3.0)](https://drive.google.com/file/d/0B5yGMNeKDyLdaFMyd2J5YzdZcVE/view?usp=sharing)
 
@@ -50,12 +304,12 @@ Es importante asegurase de tener una versión de Mac OS X Lion (10.7) o superior
 	
 	Si hay algún error en la instalación, consultar las posibles soluciones en (<http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting>)
 
-3. **Instalar los paquetes de los que depende RKTeaching**. Para instalar RKTeaching primero hay que instalar los paquetes de R de los que depende. 
+3. **Instalar los paquetes de los que depende rk.Teaching**. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende. 
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:
 	
 	 <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
 
-4. **Instalar RKTeaching**. La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`.
+4. **Instalar rk.Teaching**. La mejor forma de instalar rk.Teaching desde este repositorio es utilizando el paquete de R `devtools`.
 Para ello hay que introducir los siguientes comandos en la consola de R: 
 
     <pre><code>install.packages("devtools", dep=TRUE)<br/>
@@ -83,14 +337,14 @@ Debe seleccionarse la distribución correspondiente a Linux y seguir las instruc
 
 	En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:
 	<pre><code>sudo apt-get install rkward</code></pre>
-    Es importante asegurarse de que la versión instalada es la 0.6.1 o superior.
+    Es importante asegurarse de que la versión instalada es la 0.6.5 o superior.
     
-3. **Instalar los paquetes de los que depende RKTeaching**. Para instalar RKTeaching primero hay que instalar los paquetes de R de los que depende. 
+3. **Instalar los paquetes de los que depende rk.Teaching**. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende. 
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:
 	
 	<pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
 
-4. **Instalar RKTeaching**. La mejor forma de instalar RKTeaching desde este repositorio es utilizando el paquete de R `devtools`. 
+4. **Instalar rk.Teaching**. La mejor forma de instalar rk.Teaching desde este repositorio es utilizando el paquete de R `devtools`. 
 Para ello hay que introducir los siguientes comandos en la consola de R: 
 
     <pre><code>install.packages("devtools", dep=TRUE)<br/>
@@ -253,8 +507,8 @@ Una vez instalado, al arrancar RKWard aparecerá un nuevo menú `Teaching` con l
     procedimientos estadísticos. 
     ![Salida gráfica](images/detailed_calculation.png)
 
-RKTeaching es mantenido por [asalber](https://github.com/asalber) 
+rk.Teaching es mantenido por [asalber](https://github.com/asalber) 
 
 ## ¿Cómo citar RKTeching?
 
-Sánchez-Alberca, A. (2014). RKTeaching (version 1.2) [software]. Obtenido de: http://aprendeconalf.es/rkteaching.
+Sánchez-Alberca, A. (2014). rk.Teaching (version 1.2) [software]. Obtenido de: http://aprendeconalf.es/rkteaching.
