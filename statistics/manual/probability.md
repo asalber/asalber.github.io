@@ -23,13 +23,13 @@ The study of a characteristic of the population is conducted through random expe
 
 > **Definition - Random experiment**. A *random experiment* is an experiment that meets two conditions:
 >
-1.  The set of possible outcomes is known.
-2.  It is impossible to predict the outcome with absolute certainty.
+1. The set of possible outcomes is known.
+2. It is impossible to predict the outcome with absolute certainty.
 
 **Example**. Gambling are typical examples of random experiments. The roll of a dice, for example, is a random experiment because
 
-1.  It is known the set of possible outcomes: $\\\{1,2,3,4,5,6\\\}$.
-2.  Before rolling the dice, it is impossible to predict with absolute certainty the outcome.
+1. It is known the set of possible outcomes: $\\\{1,2,3,4,5,6\\\}$.
+2. Before rolling the dice, it is impossible to predict with absolute certainty the outcome.
 
 Another non-gambling example is the random choice of an individual of a human population and the determination of its blood type.
 
@@ -37,14 +37,14 @@ Generally, the draw of a sample by a random method is an random experiment.
 
 ### Sample space
 
-> **Defnition - Sample space**. The set $\Omega$ of the possible outcomes of a random experiment is known as the *sample space*.
+> **Definition - Sample space**. The set $\Omega$ of the possible outcomes of a random experiment is known as the *sample space*.
 
 **Example**. Some examples of sample spaces are:
 
--   For the toss of a coin $\Omega=$\\\{heads,tails\\\}$.
--   For the roll of a dice $\Omega=\\\{1,2,3,4,5,6\\\}$.
--   For the blood type of an individual drawn by chance $\Omega=\\\{\mbox\{A\},\mbox\{B\},\mbox\{AB\},\mbox\{0\}\\\}$.
--   For the height of an individual drawn by chance $\Omega=\mathbb\{R\}^+$.
+- For the toss of a coin $\Omega=$\\\{heads,tails\\\}$.
+- For the roll of a dice $\Omega=\\\{1,2,3,4,5,6\\\}$.
+- For the blood type of an individual drawn by chance $\Omega=\\\{\mbox\{A\},\mbox\{B\},\mbox\{AB\},\mbox\{0\}\\\}$.
+- For the height of an individual drawn by chance $\Omega=\mathbb\{R\}^+$.
 
 ### Tree diagrams
 
@@ -62,10 +62,10 @@ In a tree diagram every variable is represented in a level of the tree and every
 
 There are different types of events:
 
--   **Impossible event:** Is the event with no elements $\emptyset$. It has no chance of occurring.
--   **Elemental events:** Are events with only one element, that is, a singleton.
--   **Composed events:** Are events with two or more elements.
--   **Sure event:** Is the event that contains the whole sample space $\Omega$. It always happens.
+- **Impossible event:** Is the event with no elements $\emptyset$. It has no chance of occurring.
+- **Elemental events:** Are events with only one element, that is, a singleton.
+- **Composed events:** Are events with two or more elements.
+- **Sure event:** Is the event that contains the whole sample space $\Omega$. It always happens.
 
 
 ## Set theory
@@ -80,10 +80,10 @@ $$\mathcal{P}(\Omega)=\{\emptyset, \{a\},\{b\},\{c\},\{a,b\},\{a,c\},\{b,c\},\{a
 
 As events are subsets of the sample space, using the set theory we have the following operations on events:
 
--   Union
--   Intersection
--   Complement
--   Difference
+- Union
+- Intersection
+- Complement
+- Difference
 
 ### Union of events
 
@@ -129,11 +129,11 @@ The difference event $A-B$ happens when $A$ happens but $B$ does not.
 
 **Example**. Given the sample space of rolling a dice $\Omega=\\{1,2,3,4,5,6\\}$ and the events $A=\\{2,4,6\\}$ and $B=\\{1,2,3,4\\}$,
 
--   The union of $A$ and $B$ is $A\cup B=\\{1,2,3,4,6\\}$.
--   The intersection of $A$ and $B$ is $A\cap B=\\{2,4\\}$.
--   The complement of $A$ is $\bar A=\\{1,3,5\\}$.
--   The events $A$ and $\bar A$ are incompatible.
--   The difference of $A$ and $B$ is $A-B=\\{6\\}$, and the difference of $B$ and $A$ is $B-A=\\{1,3\\}$.
+- The union of $A$ and $B$ is $A\cup B=\\{1,2,3,4,6\\}$.
+- The intersection of $A$ and $B$ is $A\cap B=\\{2,4\\}$.
+- The complement of $A$ is $\bar A=\\{1,3,5\\}$.
+- The events $A$ and $\bar A$ are incompatible.
+- The difference of $A$ and $B$ is $A-B=\\{6\\}$, and the difference of $B$ and $A$ is $B-A=\\{1,3\\}$.
 
 ### Algebra of events
 
@@ -163,8 +163,8 @@ $$P(A) = \frac{|A|}{|\Omega|} = \frac{\mbox{number of favorable outcomes}}{\mbox
 
 This definition is well known, but it has important restrictions:
 
--   It is required that all the elements of the sample space are equally likely (*equiprobability*).
--   It can not be used with infinite sample spaces.
+- It is required that all the elements of the sample space are equally likely (*equiprobability*).
+- It can not be used with infinite sample spaces.
 
 **Example**. Given the sample space of rolling a dice $\Omega=\\{1,2,3,4,5,6\\}$ and the event $A=\\{2,4,6\\}$, the probability of $A$ is
 
@@ -188,8 +188,8 @@ $$P(A) = lim_{n\rightarrow \infty}\frac{n_A}{n}$$
 
 Although frequency probability avoid the restrictions of classical definition, it also have some drawbacks
 
--   It computes an estimation of the real probability (more accurate the higher the sample size).
--   The repetition of the experiment must be in identical conditions.
+- It computes an estimation of the real probability (more accurate the higher the sample size).
+- The repetition of the experiment must be in identical conditions.
 
 **Example**. Given the sample space of tossing a coin $\Omega=\\{H,T\\}$, if after tossing the coin 100 times we got 54 heads, then the probability of $H$ is
 
@@ -263,8 +263,8 @@ As set by the previous axioms, the probability of an event $A$, is a real number
 
 In a certain way, this number expresses the plausibility of the event, that is, the chances that the event $A$ occurs in the experiment. Therefore, it also gives a measure of the uncertainty about the event.
 
--   The maximum uncertainty correspond to probability $P(A)=0.5$ ($A$ and $\bar A$ have the same chances of happening).
--   The minimum uncertainty correspond to probability $P(A)=1$ ($A$ will happen with absolute certainty) and $P(A)=0$ ($A$ won’t happen with absolute certainty)
+- The maximum uncertainty correspond to probability $P(A)=0.5$ ($A$ and $\bar A$ have the same chances of happening).
+- The minimum uncertainty correspond to probability $P(A)=1$ ($A$ will happen with absolute certainty) and $P(A)=0$ ($A$ won’t happen with absolute certainty)
 
 When $P(A)$ is closer to 0 than to 1, the chances of not happening $A$ are greater than the chances of happening $A$. On the contrary, when $P(A)$ is closer to 1 than to 0, the chances of happening $A$ are greater than the chances of not happening $A$.
 
@@ -355,9 +355,9 @@ $$P(H,H)= P(H_1\cap H_2) = P(H_1)P(H_2) = \frac{2}{4}\frac{2}{4}=\frac{1}{4}=0.2
 
 > **Definition - Probability space**. A *probability space* of a random experiment is a triplet $(\Omega,\mathcal{F},P)$ where
 
--   $\Omega$ is the sample space of the experiment.
--   $\mathcal{F}$ is a set of events of the experiment.
--   $P$ is a probability function.
+- $\Omega$ is the sample space of the experiment.
+- $\mathcal{F}$ is a set of events of the experiment.
+- $P$ is a probability function.
 
 If we know the probabilities of all the elements of $\Omega$, then we can calculate the probability of every event in $\mathcal{F}$ and we can construct easily the probability space.
 
@@ -486,6 +486,289 @@ As we can see the probability of having the disease has increased. Nevertheless,
 In this case it is said the the symptom $S$ is *not decisive* in order to diagnose the disease.
 
 
+## Epidemiology
+
+One of the branches of Medicine that makes an intensive use of probability is , that study the distribution and causes of diseases in populations identifying risk factors for disease and targets for preventive healthcare.
+
+In Epidemiology we are interested in how often appears an event or *medical event* $D$ (typically a disease like flu, a risk factor like smoking or a protection factor like a vaccine) that is measured as a nominal variable with two categories (occurrence or not of the event).
+
+There are different measures related to the frequency of a medical event. The most important are:
+
+- Prevalence
+
+- Incidence
+
+- Relative risk
+
+- Odds ratio
+
+### Prevalence
+
+> **Definition - Prevalence**. The *prevalence* of a medical event $D$ is the proportion of a particular population that is affected by a medical event.
+>
+$$\mbox{Prevalence}(D) = \frac{\mbox{Num people affected by $D$}}{\mbox{Population size}}$$
+
+Often, the prevalence is estimated from a sample as the relative frequency of people affected by the event in the sample.
+It is also common to express that frequency as a percentage.
+
+**Example**. To estimate the prevalence of flu a sample of 1000 persons has been studied and 150 of them had flu. Thus, the prevalence of flu is approximately 150/1000=0.15, that is, a 15%.
+
+### Incidence proportion
+
+*Incidence* measures the probability of occurrence of a medical event in a population within a given period of time. Incidence can be measured as a proportion or as a rate.
+
+> **Definition - Incidence proportion**. The *incidence proportion* of a medical event $D$ is the proportion of people that acquired the event in a period of time, that is, the number of new cases with the event in the period of time divided by the size of the population initially at risk.
+>
+$$R(D)=\frac{\mbox{Num of new cases with $D$}}{\mbox{Population at risk size}}$$
+
+**Example**. A population initially contains $1000$ persons without flu and after two years of observation 160 of them got the flu.
+The incidence proportion of flu is 160 cases per $1000$ persons per two years, i.e. 16% per two years.
+
+### Incidence rate
+
+> **Definition - Incidence rate**. The *incidence rate* or of a medical event $D$ is the number of new cases with the event per population at risk in a given time period.
+>
+$$R(D)=\frac{\mbox{Num of new cases with $D$}}{\mbox{Population at risk size}\times \mbox{Num of unit time intervals}}$$
+
+**Example**. A population initially contains $1000$ persons without flu and after two years of observation 160 of them got the flu.
+If we consider the year as the unit of time, the incidence rate of flu is 160 cases per $1000$ persons divided by two years, i.e. 80 cases per 1000 persons-year.
+
+### Prevalence vs Incidence
+
+Prevalence must not be confused with incidence.
+Prevalence indicates how widespread the medical event is, and is more a measure of the burden of the event on society with no regard to time at risk or when  subjects may have been exposed to a possible risk factor, whereas incidence conveys information about the risk of being affected by the event.
+
+Prevalence can be measured in cross-sectional studies at a particular time, while in order to measure incidence we need a longitudinal study observing the individuals during a period of time.
+
+Incidence is usually more useful than prevalence in understanding the event etiology: for example, if the incidence of a disease in a population increases, then there is a risk factor that promotes it.
+
+When the incidence is approximately constant for the duration of the event, prevalence is approximately the product of event incidence and average event duration, so
+
+$$\mbox{prevalence} = \mbox{incidence} \times \mbox{duration}$$
+
+### Comparing risks
+
+In Epidemiology the *risk* of a medical event is the probability of acquire the event in a period of time, that is, the incidence.
+
+In order to determine if a factor or characteristic is associated with the medical event we need to compare the risk of the medical event in two populations, one exposed to the factor and the other not exposed.
+The group of people exposed to the factor is known as the *treatment group* and the group of people unexposed as the *control group*.
+
+Usually the cases observed for each group are represented in a 2$\times$2 table like the one below.
+
+<table>
+<thead>
+<tr class="header">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Event $D$</td>
+<td style="text-align: left;">No event $\overline D$</td>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Treatment group (exposed)</td>
+<td style="text-align: center;">$a$</td>
+<td style="text-align: center;">$b$</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Control group(unexposed)</td>
+<td style="text-align: center;"><em>c</em></span></td>
+<td style="text-align: center;"><em>d</em></span></td>
+</tr>
+</tbody>
+</table>
+
+### Relative risk $RR$
+
+> **Definition - Relative risk**. The *relative risk* of a medical event $D$ for people exposed to a factor is the quotient between the proportions of people that acquired the event in a period of time in the treatment and control groups. That is, the quotient between the incidences of the treatment and the control groups.
+>
+$$RR(D)=\frac{\mbox{Risk in treatment group}}{\mbox{Risk in control group}}=\frac{R_1(D)}{R_0(D)}=\frac{a/(a+b)}{c/(c+d)}$$
+
+Relative risk compares the risk of a medical event between the treatment and the control groups.
+
+- $RR=1$ $\Rightarrow$ There is no association between the event and the exposure to the factor.
+- $RR<1$ $\Rightarrow$ Exposure to the factor decreases the risk of the event.
+- $RR>1$ $\Rightarrow$ Exposure to the factor increases the risk of the event.
+
+The further from 1, the stronger the association.
+
+**Example**. To determine the effectiveness of a vaccine against the flu, a sample of 1000 person without flu was selected at the beginning of the year.
+Half of them were vaccinated (treatment group) and the other received a placebo (control group).
+The table below summarize the results at the end of the year.
+
+<table>
+<thead>
+<tr class="header">
+<td style="text-align: left;"></td>
+<td style="text-align: center;">Flu $D$</td>
+<td style="text-align: center;">No flu $\overline D$</td>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Treatment group(vaccinated)</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">480</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Control group(Unvaccinated)</td>
+<td style="text-align: center;">80</td>
+<td style="text-align: center;">420</td>
+</tr>
+</tbody>
+</table>
+
+The relative risk of getting the flu for people vaccinated is
+
+$$RR(D) = \frac{20/(20+480)}{80/(80+420)} = 0.25.$$
+
+This means that vaccinated people were only one-fourth as likely to develop flu as were unvaccinated people.
+
+### Odds
+
+An alternative way of measuring the risk of a medical event is the *odds*.
+
+> **Definition - Odds**. The *odds* of a medical event $D$ in a population is the quotient between the people that acquired the event and people that not in a period of time.
+
+Unlike incidence or absolute risk, that is a proportion less than 1, the odds can be greater than 1. However, it is possible to convert an odd into a probability with the formula
+
+$$P(D) = \frac{\mbox{ODDS}(D)}{\mbox{ODDS}(D)+1}$$
+
+**Example**. A population initially contains $1000$ persons without flu and after a year 160 of them got the flu. The odds of flu is 160/840.
+
+Observe that the incidence is 160/1000.
+
+### Odds ratio $OR$
+
+> **Definition - Odds ratio**. The *odds ratio* of a medical event $D$ for people exposed to a factor is the quotient between the odds of people that acquired the event in a period of time in the treatment and control groups.
+
+$$OR(D)=\frac{\mbox{Odds in treatment group}}{\mbox{Odds in control group}}=\frac{a/b}{c/d}=\frac{ad}{bc}$$
+
+Odds ratio compares the odds of a medical event between the treatment and the control groups.
+The interpretation is similar to the relative risk.
+
+- $OR=1$ $\Rightarrow$ There is no association between the event and the exposure to the factor.
+- $OR<1$ $\Rightarrow$ Exposure to the factor decreases the risk of the event.
+- $OR>1$ $\Rightarrow$ Exposure to the factor increases the risk of the event.
+
+The further from 1, the stronger the association.
+
+**Example**. To determine the effectiveness of a vaccine against the flu, a sample of 1000 person without flu was selected at the beginning of the year.
+Half of them were vaccinated (treatment group) and the other received a placebo (control group).
+The table below summarize the results at the end of the year.
+
+<table>
+<thead>
+<tr class="header">
+<td style="text-align: left;"></td>
+<td style="text-align: center;">Flu $D$</td>
+<td style="text-align: center;">No flu $\overline D$</td>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Treatment group(vaccinated)</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">480</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Control group(Unvaccinated)</td>
+<td style="text-align: center;">80</td>
+<td style="text-align: center;">420</td>
+</tr>
+</tbody>
+</table>
+
+The odds ratio of getting the flu for people vaccinated is
+
+$$OR(D) = \frac{20/480}{80/420} = 0.21875.$$
+
+This means that the odds of getting the flu versus not getting the flu in the treatment group is almost one fifth of that in the control group.
+
+### Relative risk vs Odds ratio
+
+Relative risk and odds ratio are two measures of association but their interpretation is slightly different. While the relative risk expresses a comparison of risks between the treatment and control groups, the odds ratio expresses a comparison of odds, that is not the same than the risk.
+Thus, an odds ratio of 2 *does not* mean that the treatment group has the double of risk of acquire the medical event.
+
+The interpretation of the odds ratio is trickier because is counterfactual, and give us how many times is more frequent the event in the treatment group assuming that in the control group the event is as frequent as the non-event.
+
+The advantage of the odds ratio is that it does not depend on the prevalence or the incidence of the event, and must be used necessarily when the number of people with the medical event is selected arbitrarily in both groups, like in the case-control studies.
+
+**Example**. In order to determine the association between lung cancer and smoking two samples were selected (the second one with the double of non-cancer individuals) getting the following results:
+
+*Sample 1*
+
+<table>
+<thead>
+<tr class="header">
+<td style="text-align: left;"></td>
+<td style="text-align: center;">Cancer</td>
+<td style="text-align: center;">No cancer</td>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Smokers</td>
+<td style="text-align: center;">60</td>
+<td style="text-align: center;">80</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Non-smokers</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">320</td>
+</tr>
+</tbody>
+</table>
+
+$$
+\begin{aligned}
+RR(D) &= \frac{60/(60+80)}{40/(40+320)} = 3.86.\\
+OR(D) &= \frac{60/80}{40/320} = 6. 
+\end{aligned}
+$$
+
+*Sample 2*
+<table>
+<thead>
+<tr class="header">
+<td style="text-align: left;"></td>
+<td style="text-align: center;">Cancer</td>
+<td style="text-align: center;">No cancer</td>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Smokers</td>
+<td style="text-align: center;">60</td>
+<td style="text-align: center;">160</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Non-smokers</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">640</td>
+</tr>
+</tbody>
+</table>
+
+$$
+\begin{aligned}
+RR(D) &= \frac{60/(60+160)}{40/(40+640)} = 4.64.\\
+OR(D) &= \frac{60/160}{40/640} = 6.
+\end{aligned}
+$$
+
+Thus, when we change the incidence or the prevalence of the event (lung cancer) the relative risk changes, while the odds ratio not.
+
+The relation between the relative risk and the odds ratio is given by the following formula
+
+$$RR = \frac{OR}{1-R_0+R_0*OR}=OR*\frac{1-R_1}{1-R_0},$$
+
+where $R_0$ and $R_1$ are the prevalence or the incidence in control and treatment groups respectively.
+
+The odds ratio always overestimate the relative risk.
+However, with rare medical events (with very small prevalence or incidence) the relative risk and the odds ratio are almost the same.
+
+<img class="img-center" src="img/probability/odds_ratio_vs_relative_risk.svg" alt="Chart of the relation between the odds ratio and the relative risk for different incidences" width="500">
+
 ## Diagnostic tests
 
 In Epidemiology it is common to use diagnostic test to diagnose diseases.
@@ -524,15 +807,15 @@ On the other hand, a test with a high specificity will rule out the disease in m
 
 Deciding on a test with greater sensitivity or a test with greater specificity depends on the type of disease and the goal of the test. In general, we will use a sensitive test when:
 
--   The disease is serious and it is important to dectect it.
--   The disease is curable.
--   The false positives do not provoke serious traumas.
+- The disease is serious and it is important to dectect it.
+- The disease is curable.
+- The false positives do not provoke serious traumas.
 
 An we will use a specific test when:
 
--   The disease is important but difficult or impossible to cure.
--   The false positives provoke serious traumas.
--   The treatment of false positives can have dangerous consequences.
+- The disease is important but difficult or impossible to cure.
+- The false positives provoke serious traumas.
+- The treatment of false positives can have dangerous consequences.
 
 ### Predictive values of a diagnostic test
 
@@ -628,8 +911,8 @@ $$P(D|+) = \frac{P(D)P(+|D)}{P(D)P(+|D)+P(\overline{D})P(+|\overline{D})} = \fra
 
 Thus,
 
--   A likelihood ratio greater than 1 increases the probability of disease.
--   A likelihood ratio less than 1 decreases the probability of disease.
--   A likelihood ratio 1 does not change the pre-test probability.
+- A likelihood ratio greater than 1 increases the probability of disease.
+- A likelihood ratio less than 1 decreases the probability of disease.
+- A likelihood ratio 1 does not change the pre-test probability.
 
 <img class="img-center" src="img/probability/likelihood_ratios.svg" alt="Chart of the relation between the likelihood ratio and the pre-test and post-test probabilities" width="600">
