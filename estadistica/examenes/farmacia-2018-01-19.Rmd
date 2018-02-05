@@ -1,0 +1,209 @@
+---
+layout: book
+title: Examen de Estadística
+description: "Solución del examen"
+tags: [Examen, Estadística, Bioestadística, Famacia, Biotecnología]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+# Colors
+col1 <- rgb(5,161,230,255,maxColorValue = 255) #0099CC
+col1light <- rgb(137,211,243,255,maxColorValue = 255) #89D3F3
+col2 <- rgb(238,50,36,255,maxColorValue = 255) #FF3333
+col2light <- rgb(238,50,36,100,maxColorValue = 255) #FF3333
+```
+
+Grados: Farmacia y Biotecnología  
+Fecha: 19 de Enero de 2018 
+
+## Ejercicio 1
+
+```{r}
+x <- c(62, 65, 71, 79, 83, 88, 90, 95)
+y <- c(2, 3, 4, 6, 6, 8, 10, 14)
+```
+Se realizó un estudio en pacientes mayores de 60 años de la relación entre la edad de los pacientes $X$ y el número de veces que han acudido a consulta médica en el último año $Y$, obteniéndose los siguientes resultados:
+
+$$
+  \begin{array}{lrrrrrrrr}
+    \hline
+    \mbox{Edad} & 62 & 65 & 71 & 79 & 83 & 88 & 90 & 95\\
+    \mbox{Consultas} & 2 & 3 & 4 & 6 & 6 & 8 & 10 & 14\\
+    \hline
+  \end{array}
+$$
+
+Se pide:
+
+1. Calcular el número de veces que acudirá a consulta médica un paciente de 70 años según el modelo de regresión lineal.
+2. Lo mismo pero empleando el modelo de regresión exponencial.
+3. Razonar cuál de las dos predicciones es más fiable.
+4. Teniendo en cuenta que la ecuación del modelo potencial es $Y=aX^b$, explicar qué transformaciones hay que aplicar a las variables $X$ e $Y$ para convertirlo en un modelo lineal. 
+
+Usar las siguientes sumas para los cálculos:
+$\sum x_i=`r sum(x)`$, $\sum \log(x_i)=`r sum(log(x))`$, $\sum y_j=`r sum(y)`$, $\sum \log(y_j)=`r sum(log(y))`$,
+$\sum x_i^2=`r sum(x^2)`$, $\sum \log(x_i)^2=`r sum(log(x)^2)`$, $\sum y_j^2=`r sum(y^2)`$, $\sum \log(y_j)^2=`r sum(log(y)^2)`$,
+$\sum x_iy_j=`r sum(x*y)`$, $\sum x_i\log(y_j)=`r sum(x*log(y))`$, $\sum \log(x_i)y_j=`r sum(log(x)*y)`$, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$.
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+```{r}
+m <- lm(y~x)
+c <- coefficients(m)
+```
+1. Modelo lineal de Consultas sobre Edad: <br/>
+$\bar x=`r mean(x)`$ años, $s_x^2=`r variance(x)`$ años² . <br/>
+$\bar y=`r mean(y)`$ consultas, $s_y^2=`r variance(y)`$ consultas². <br/>
+$s_{xy}=`r covariance(x,y)`$ años⋅consultas. <br/>
+Recta de regresión de Consultas sobre Edad: $y=`r c[1]` + `r c[2]`x$. <br/>
+$y(70) =`r c[1]+c[2]*70`$ consultas. <br/>
+```{r}
+z <- log(y)
+m2 <- lm(z~x)
+c <- coefficients(m2)
+```
+2. $\overline{\log(y)}=`r mean(z)`$ log(consultas), $s_{\log(y)}^2=`r variance(z)`$ log(consultas)². <br/>
+$s_{x\log(y)}=`r covariance(x,z)`$ años⋅log(consultas). <br/>
+Modelo exponencial de consultas sobre Edad: $y=e^{`r c[1]` + `r c[2]`x}$. <br/>
+$y(70)=`r exp(c[1]+c[2]*70)`$ consultas.<br/>
+3. Coeficiente de determinación lineal de Consultas sobre Edad $r^2=`r summary(m)$r.squared`$. <br/>
+Coeficiente de determinación de Consultas sobre Edad $r^2=`r summary(m2)$r.squared`$. <br/>
+Por tanto, el modelo exponencial explica un poco mejor el número de consultas médicas con respecto a la edad.<br/> 
+4. Hay que aplicar la transformación logarítmica tanto a las Consultas como a la Edad: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a'+b\log(X)$.
+</div>
+
+## Ejercicio 2
+
+Se ha medido la concentración de polen en granos/m$^3$ de una determinada planta en el centro de una ciudad a lo largo de un año y se han obtenido los siguientes resultados:
+
+```{r}
+x <- rep(c(150, 400, 550, 700, 900, 1150), c(51, 60, 79, 91, 60, 24))
+n <- length(x)
+m <- mean(x)
+s <- stdev(x)
+g1 <- sum((x-m)^3)/(n*s^3)
+g2 <- sum((x-m)^4)/(n*s^4)-3
+```
+$$
+  \begin{array}{cr}
+  \hline
+  \mbox{Nivel de polen} & \mbox{Nº de días}\\
+  0-300 & 51\\
+  300-500 & 60\\
+  500-600 & 79\\
+  600-800 & 91\\
+  800-1000 & 60\\
+  1000-1300 & 24\\
+  \hline
+  \end{array}
+$$
+
+1. Si el 75\% de los días se considera que los niveles de polen no han sido excesivos.
+¿A partir de que nivel de polen se ha considerado un nivel excesivo?
+2. Se ha establecido una alerta naranja cuando el nivel de polen se sitúa entre 575 y 850.
+¿En cuántos días del año se produjo dicha alerta naranja?
+3. ¿Hay datos atípicos en la muestra?
+4. Sabemos que hay otra planta que tiene un ciclo de polinización muy parecido al de la muestra, con unos niveles de polen que se pueden calcular de la forma $Y=0.5X-100$. ($Y$= niveles de la otra planta y $X$=niveles de la planta de la muestra)
+¿Cuál sería la media de nivel de polen para esta otra planta?
+¿Es un valor más o menos representativo que la de los niveles de la planta de la muestra recogida?
+5. ¿Se podría considerar que el nivel de polen en general sigue una distribución normal?
+
+Usar las siguientes sumas para los cálculos: $\sum x_i=`r sum(x)`$ granos/m$^3$, $\sum x_i^2=`r sum(x^2)`$ (granos/m$^3$)$^2$, $\sum (x_i-\bar x)^3=`r sum((x-m)^3)`$ (granos/m$^3$)$^3$ y $\sum (x_i-\bar x)^4=`r sum((x-m)^4)`$ (granos/m$^3$)$^4$.
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+1. $P_{75}=784.0417$ granos/m³.<br/>
+2. $F(575)=0.4664$ y $F(860)=0.8192$, por lo que la frecuencia del número de días con alerta es $0.3528$ que corresponde a $128.77$ días.<br/>
+3. $Q_1=434.1849$ granos/m³, $Q_3=784.0417$ granos/m³ y $RI=349.8568$ granos/m³.<br/>
+Vallas: $F_1=-90.6001$ granos/m³ y $F_2=1308.8269$ granos/m³.
+Como todos los valores caen dentro de las vallas no hay datos atípicos.<br/>
+4. $\bar x=`r m`$ granos/m³, $s_x^2=`r variance(x)`$ (granos/m³)², $s_x=`r s`$ granos/m³ y $cv_x=`r s/m`$<br/>
+$\bar y=`r 0.5*m-100`$ granos/m³, $s_y=`r 0.5*s`$ granos/m³ y $cv_y=`r 0.5*s/(0.5*m-100)`$.<br/>
+La media de $X$ es más representativa que la media de $Y$ ya que $cv_x<cv_y$.<br/>
+5. $g_1=`r g1`$ y $g_2=`r g2`$. Como ambos están entre -2 y 2, se puede asumir que el nivel de polen se distribuye normalmente.
+</div>
+
+## Ejercicio 3
+
+Los niveles de polen de gramíneas registrados en Madrid durante el año 2017 se distribuyeron de forma normal y tuvieron una media de 90.
+Si en 42 días del año 2017 se superó los 120 granos de polen/m$^3$ de aire, se pide:
+
+1. Calcular la desviación típica del nivel de polen de gramíneas en 2017.  
+Nota: Si no se sabe calcular tomar una desviación típica de 20 granos/m$^3$ para los demás apartados.
+2. ¿Durante cuantos días no se llegaron a 50 granos de polen/m$^3$ de aire?
+3. Si el 20\% de los días hubo un nivel excesivamente alto de polen y hubo que avisar a la población, ¿a partir de qué nivel de polen se produjeron estos avisos?
+
+```{r}
+p1 = pnorm(50, mean = 90, sd = 25)
+q80 = qnorm(0.8, mean=90, sd=25)
+```
+<div><button class="solution">Mostra solución</button></div>
+<div id="solution" style="display: none">
+Sea $X$ el nivel de polen en Madrid en 2017. $X\sim N(90,\sigma)$.<br/>
+1. $\sigma=25$ granos/m³.<br/>
+2. $P(X\leq 50)=`r p1`$ que corresponde a $`r p1*365`$ días.<br/>
+3. $P_{80}=`r q80`$ granos/m³.
+</div>
+
+## Ejercicio 4
+
+Se han ensayado dos tipos de medicamentos para reducir los niveles de colesterol y se ha observado que el medicamento $A$ es efectivo en el 75\% de los casos y el medicamento B es efectivo en el $85\%$ de los casos.
+Sin embargo, hay un 5\% de casos en los que ninguno de los medicamentos es efectivo.
+
+1. ¿En qué porcentaje de casos sería efectivo exclusivamente el medicamento $A$?
+2. Si en un paciente se ha comprobado que el medicamento $A$ es efectivo, ¿qué probabilidad hay de que también lo sea el medicamento $B$?
+3. Si en un paciente se ha comprobado que el medicamento $B$ no es efectivo, ¿qué probabilidad hay de que el medicamento $A$ si lo sea?
+4. ¿Es independiente la efectividad de estos medicamentos?
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+1. $P(A\cap \overline B)=0.1$, es decir, un $10\%$.<br/>
+2. $P(B|A)=0.8667$.<br/>
+3. $P(A|\overline B)=0.6667$.<br/>
+4. $P(B|A)\neq P(B)$, de manera que los sucesos son dependientes.
+</div>
+
+## Ejercicio 5
+
+El número medio de nacimientos que se producen en una semana en un hospital es 14. 
+Se pide:
+
+1. Calcular la probabilidad de que un día se produzcan más de 2 nacimientos. 
+2. Calcular la probabilidad de que una semana haya más de un día en que no se produzcan nacimientos. 
+
+```{r}
+p1 = ppois(2, 2, lower.tail = F)
+p2 = ppois(0, 2)
+p3 = pbinom(1, size = 7, prob = p2, lower.tail = F)
+```
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+1. Sea $X$ el número de nacimientos en un día. $X\sim P(2)$.<br/>
+$P(X>2)=`r p1`.$<br/>
+2. Sea $Y$ el número de días sin nacimientos en una semana. $Y\sim B(7,`r p2`)$.<br/>
+$P(Y>1)=`r p3`$.
+</div>
+
+## Ejercicio 6
+
+Se está trabajando en el diseño de un test para detectar una enfermedad y para ensayarlo se dispone de una muestra de 250 individuos de los cuales 50 presentan la enfermedad y 200 son individuos sanos. 
+Si se pretende que el test tenga un valor predictivo positivo de $0.7$ y un valor predictivo negativo de $0.9$, al realizar los ensayos sobre la muestra:
+
+1. ¿Cuántos de los individuos sanos deberían dar positivo en el test?
+2. ¿Cuántos de los individuos enfermos deberían dar negativo en el test?
+3. ¿Qué probabilidad hay de que un individuo que ha dado dos veces positivo en el test sufra la enfermedad?
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+Sea $E$ el suceso correspondiente a tener la enfermedad.<br/>
+1. $P(+|\overline{E})=0.0625\Rightarrow 12.5$ personas.<br/>
+2. $P(-|E)=0.4165\Rightarrow 20.825$ personas.<br/>
+3. $P(E|+\cap +)=0.9561$.
+</div>

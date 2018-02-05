@@ -17,8 +17,8 @@ col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
 ```
 
-Grados: Farmacia, Biotecnología
-Fecha: 28 de noviembre de 2016
+Grados: Farmacia y Biotecnología
+Fecha: 28 de Noviembre de 2016
 
 ## Ejercicio 1
 La siguiente tabla contiene la distribución de las puntuaciones obtenidas por una muestra de alumnos de medicina que se presentaron al examen del MIR.

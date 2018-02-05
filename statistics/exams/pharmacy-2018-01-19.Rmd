@@ -1,0 +1,207 @@
+---
+layout: book
+title: Statistics exam
+description: "Solution of the exam"
+tags: [Exam, Statistics, Biostatistics]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+# Colors
+col1 <- rgb(5,161,230,255,maxColorValue = 255) #0099CC
+col1light <- rgb(137,211,243,255,maxColorValue = 255) #89D3F3
+col2 <- rgb(238,50,36,255,maxColorValue = 255) #FF3333
+col2light <- rgb(238,50,36,100,maxColorValue = 255) #FF3333
+```
+
+Grades: Pharmacy, Biotechnology  
+Date: January 19, 2018 
+
+## Exercise 1
+
+```{r}
+x <- c(62, 65, 71, 79, 83, 88, 90, 95)
+y <- c(2, 3, 4, 6, 6, 8, 10, 14)
+```
+A study done on a group of senior people to determine the relation between age $X$, and the number of visits to the doctor $Y$, shows the following results:
+
+$$
+  \begin{array}{lrrrrrrrr}
+    \hline
+    \mbox{Age} & 62 & 65 & 71 & 79 & 83 & 88 & 90 & 95\\
+    \mbox{No. of Visits} & 2 & 3 & 4 & 6 & 6 & 8 & 10 & 14\\
+    \hline
+  \end{array}
+$$
+
+Do the following:
+
+1. Estimate the number of times a 70-year-old patient will go to the doctor, according to a linear regression model.
+2. What will be the estimate equal to if you consider an exponential model instead of the linear one?
+3. Which of the two estimates is more reliable?
+4. A potential model has equation of the type $Y=aX^b$, where $a$ and $b$ are constants to be determined; what transformation should you apply to the variables $X$ and $Y$ to change a potential model into a linear one?
+
+Use the following sums for the computations:
+$\sum x_i=`r sum(x)`$, $\sum \log(x_i)=`r sum(log(x))`$, $\sum y_j=`r sum(y)`$, $\sum \log(y_j)=`r sum(log(y))`$,
+$\sum x_i^2=`r sum(x^2)`$, $\sum \log(x_i)^2=`r sum(log(x)^2)`$, $\sum y_j^2=`r sum(y^2)`$, $\sum \log(y_j)^2=`r sum(log(y)^2)`$,
+$\sum x_iy_j=`r sum(x*y)`$, $\sum x_i\log(y_j)=`r sum(x*log(y))`$, $\sum \log(x_i)y_j=`r sum(log(x)*y)`$, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+```{r}
+m <- lm(y~x)
+c <- coefficients(m)
+```
+1. Linear model of Visits on Age: <br/>
+$\bar x=`r mean(x)`$ years, $s_x^2=`r variance(x)`$ years² . <br/>
+$\bar y=`r mean(y)`$ visits, $s_y^2=`r variance(y)`$ visits². <br/>
+$s_{xy}=`r covariance(x,y)`$ years⋅visits. <br/>
+Regression line of Visits on Age: $y=`r c[1]` + `r c[2]`x$. <br/>
+$y(70) =`r c[1]+c[2]*70`$ visits. <br/>
+```{r}
+z <- log(y)
+m2 <- lm(z~x)
+c <- coefficients(m2)
+```
+2. $\overline{\log(y)}=`r mean(z)`$ log(visits), $s_{\log(y)}^2=`r variance(z)`$ log(visits)². <br/>
+$s_{x\log(y)}=`r covariance(x,z)`$ years⋅log(visits). <br/>
+Exponential model of Visits on Age: $y=e^{`r c[1]` + `r c[2]`x}$. <br/>
+$y(70)=`r exp(c[1]+c[2]*70)`$ visits.<br/>
+3. Linear coefficient of determination of Visits on Age $r^2=`r summary(m)$r.squared`$. <br/>
+Exponential coefficient of determination of Visits on Age $r^2=`r summary(m2)$r.squared`$. <br/>
+Thus, the exponential model explains a little bit better the number of visits to the doctor with respect to the age.<br/> 
+4. We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a'+b\log(X)$.
+</div>
+
+## Exercise 2
+
+The grass pollen concentration in the center of a city in grains/m$^3$ of air, during the last year, is given in the following table:
+
+```{r}
+x <- rep(c(150, 400, 550, 700, 900, 1150), c(51, 60, 79, 91, 60, 24))
+n <- length(x)
+m <- mean(x)
+s <- stdev(x)
+g1 <- sum((x-m)^3)/(n*s^3)
+g2 <- sum((x-m)^4)/(n*s^4)-3
+```
+$$
+  \begin{array}{cr}
+  \hline
+  \mbox{Pollen concentration} & \mbox{Num days}\\
+  0-300 & 51\\
+  300-500 & 60\\
+  500-600 & 79\\
+  600-800 & 91\\
+  800-1000 & 60\\
+  1000-1300 & 24\\
+  \hline
+  \end{array}
+$$
+
+1. Health authorities have determined that the level of pollen did not pose a risk for 75\% of the days in the year; what is the minimum level of pollen that is consider a health hazard?
+2. On days with pollen level between 575 and 860 health authorities issue a warning to citizens; on how many days of the last year there were warnings issued?
+3. Are there outliers in the above sample?
+4. Platanaceae has a pollen cycle similar to grass: if $X$ are the pollen levels of grass, and $Y$ are the levels of the platanaceae, it is known that $Y=0.5X-100$. 
+What will be the average pollen level for platanaceae? 
+Which of the two averages is more representative?
+5. Can one say that the level of grass pollen comes from a population that is normally distributed?
+
+Use the following sums for the computations: $\sum x_i=`r sum(x)`$ grains/m$^3$, $\sum x_i^2=`r sum(x^2)`$ (grains/m$^3$)$^2$, $\sum (x_i-\bar x)^3=`r sum((x-m)^3)`$ (grains/m$^3$)$^3$ y $\sum (x_i-\bar x)^4=`r sum((x-m)^4)`$ (grains/m$^3$)$^4$.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $P_{75}=784.0417$ grains/m³.<br/>
+2. $F(575)=0.4664$ and $F(860)=0.8192$, so the frequency of days with a warning is $0.3528$ that correspond to $128.77$ days.<br/>
+3. $Q_1=434.1849$ grains/m³, $Q_3=784.0417$ grains/m³ and $IQR=349.8568$ grains/m³.<br/>
+Fences: $F_1=-90.6001$ grains/m³ and $F_2=1308.8269$ grains/m³.
+Since all the values fall into the fences there are no outliers.<br/>
+4. $\bar x=`r m`$ grains/m³, $s_x^2=`r variance(x)`$ (grains/m³)², $s_x=`r s`$ grains/m³ and $cv_x=`r s/m`$<br/>
+$\bar y=`r 0.5*m-100`$ grains/m³, $s_y=`r 0.5*s`$ grains/m³ and $cv_y=`r 0.5*s/(0.5*m-100)`$.<br/>
+The mean of $X$ is more representative than the mean of $Y$ as $cv_x<cv_y$.<br/>
+5. $g_1=`r g1`$ and $g_2=`r g2`$. As both of them are between -2 and 2, we can assume that the pollen concentrations are normally distributed.
+</div>
+
+## Exercise 3
+
+Polen level in Madrid in the year 2017 is normally distributed with mean equal to 90 particles per cubic meter.
+In 42 days of 2017, the level was above 120 particles per cubic meter. 
+Do the following:
+
+1. Compute the standard deviation of the polen level in the year 2017.  
+2. On how many days the polen level did not go over 50 particles per cubic meter of air?
+3. On 20\% of the days the level of polen was high enough to pose a health risk for allergic people; what is the level of polen that triggers this high risk situation?
+
+```{r}
+p1 = pnorm(50, mean = 90, sd = 25)
+q80 = qnorm(0.8, mean=90, sd=25)
+```
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Let $X$ be the polen level in Madrid in 2017. $X\sim N(90,\sigma)$.<br/>
+1. $\sigma=25$ grains/m³.<br/>
+2. $P(X\leq 50)=`r p1`$ that correspond to $`r p1*365`$ days.<br/>
+3. $P_{80}=`r q80`$ grains/m³.
+</div>
+
+## Exercise 4
+
+A study on two drugs to reduces the cholesterol levels in blood shows that drug $A$ is effective in 75\% of the people, and drug $B$ is effective in 85\% of the cases. 
+There is a 5\% of people for which none of the two drugs works.
+
+1. Compute the percentage of the population for which only drug $A$ works.
+2. Assume that drug $A$ works on a person; what is the probability hat drug $B$ will also work in that person?
+3. On the other hand, if drug $B$ has not worked for a person, what is the probability that drug $A$ will actually work?
+4. Are the effects of the two drugs independent events?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $P(A\cap \overline B)=0.1$, that is, a $10\%$.<br/>
+2. $P(B|A)=0.8667$.<br/>
+3. $P(A|\overline B)=0.6667$.<br/>
+4. $P(B|A)\neq P(B)$, thus the events are dependent.
+</div>
+
+## Exercise 5
+
+The weekly average births on a hospital is equal to 14.
+
+1. Compute the probability that on a given day more than 2 births take place.
+2. Compute the probability that during a week there are more than one day without births taken place.
+
+```{r}
+p1 = ppois(2, 2, lower.tail = F)
+p2 = ppois(0, 2)
+p3 = pbinom(1, size = 7, prob = p2, lower.tail = F)
+```
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Let $X$ be the number of births in a day. $X\sim P(2)$.<br/>
+$P(X>2)=`r p1`.$<br/>
+2. Let $Y$ be the number of days without births in a week. $Y\sim B(7,`r p2`)$.<br/>
+$P(Y>1)=`r p3`$.
+</div>
+
+## Exercise 6
+
+A trial to develop a diagnosis test for a desease is tested on 250 people, of which 50 suffer the desease and 200 are healthy. 
+The medical team in charge of the trial wants for the test to have a positive predictive value of $0.7$, and a negative predictive value of $0.9$.
+
+1. In order to get the values given above, how many of the healthy people should get a positive outcome in the test?
+2. And how many of the sick people should get a negative outcome in the test?
+3. What is the probability that a person with two positive outcomes in the test has the desase?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Let $D$ be the event of having the disease.<br/>
+1. $P(+|\overline{D})=0.0625\Rightarrow 12.5$ persons.<br/>
+2. $P(-|D)=0.4165\Rightarrow 20.825$ persons.<br/>
+3. $P(D|+\cap +)=0.9561$.
+</div>
+

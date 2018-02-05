@@ -16,6 +16,8 @@ image: abaco.jpg
 - [Examen del 7 de noviembre de 2016](farmacia-2016-11-07.html)
 - [Examen del 10 de enero de 2017](farmacia-2017-01-10.html)
 - [Examen del 6 de noviembre de 2017](farmacia-2017-11-06.html)
+- [Examen del 19 de enero de 2018](farmacia-2018-01-19.html)
 
 ## 1º de Grado en Óptica
 - [Examen del 28 de noviembre de 2017](optica-2017-11-28.html)
+- [Examen del 19 de enero de 2018](optica-2018-01-19.html)

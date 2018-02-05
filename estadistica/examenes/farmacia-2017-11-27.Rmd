@@ -20,7 +20,7 @@ col2 <- rgb(238,50,36,255,maxColorValue = 255) #FF3333
 col2light <- rgb(238,50,36,100,maxColorValue = 255) #FF3333
 ```
 
-Titulación: Grado en Farmacia y Biotecnología  
+Grados: Farmacia y Biotecnología  
 Fecha: 27 de Noviembre de 2017
 
 ## Ejercicio 1

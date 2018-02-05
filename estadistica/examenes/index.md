@@ -16,6 +16,7 @@ image: cabecera-estadistica.jpg
 - [Examen del 28 de noviembre de 2016](farmacia-2016-11-28.html)
 - [Examen del 10 de enero de 2017](farmacia-2017-01-10.html)
 - [Examen del 27 de noviembre de 2017](farmacia-2017-11-27.html)
+- [Examen del 19 de enero de 2018](farmacia-2018-01-19.html)
 
 ## Óptica
 

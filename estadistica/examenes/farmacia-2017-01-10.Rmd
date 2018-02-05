@@ -17,7 +17,7 @@ col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
 ```
 
-Grados: Farmacia, Biotecnología
+Grados: Farmacia y Biotecnología
 Fecha: 10 de enero de 2017
 
 # Estadística Descriptiva y Regresión 
