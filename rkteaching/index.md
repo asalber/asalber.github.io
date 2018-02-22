@@ -45,7 +45,7 @@ You have to select the Mac OS distribution and follow the instructions there.
 It is required an R version 3.0 or higher.
 
 2. **Install RKWard**. RKWard can be downloaded from the web <http://rkward.sourceforge.net>.
-You have to select the Mac Os distribution and follow the instructions there. 
+You have to select the Mac Os distribution (<http://download.kde.org/stable/rkward/0.6.5/mac/RKWard-binary-0.6.5b_OSX10.9_KDE-4.14.3_needs_CRAN_R-3.3.0.pkg>) and follow the instructions there.
 It is required a Mac Os version Lion (10.7) or higher.
 
     The following video tutorial shows the installation process.
@@ -63,7 +63,7 @@ To install this packages you must run RKWard, open the R console and type the fo
 
     <pre><code>install.packages("devtools", dep=TRUE)<br/>
     library(devtools)<br/>
-    install_github("rkward-community/rk.Teaching")
+    install_github("rkward-community/rk.Teaching", ref="develop")
     </code></pre>
 
     The following video tutorial shows the installation process (in Spanish).
