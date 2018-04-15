@@ -9,7 +9,7 @@ image: cabecera-estadistica.jpg
 
 
 
-Grades: Physiotheraphy  
+Degrees: Physiotheraphy  
 Date: May 19, 2017 
 
 # Probability and random variables

@@ -9,7 +9,7 @@ image: cabecera-estadistica.jpg
 
 
 
-Grades: Physiotherapy, Medicine  
+Degrees: Physiotherapy, Medicine  
 Date: November 28, 2016 
 
 ## Exercise 1

@@ -20,7 +20,7 @@ col2 <- rgb(238,50,36,255,maxColorValue = 255) #FF3333
 col2light <- rgb(238,50,36,100,maxColorValue = 255) #FF3333
 ```
 
-Grades: Pharmacy, Biotechnology  
+Degrees: Pharmacy, Biotechnology  
 Date: January 19, 2018 
 
 ## Exercise 1

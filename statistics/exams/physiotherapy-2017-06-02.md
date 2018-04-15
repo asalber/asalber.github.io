@@ -9,7 +9,7 @@ image: cabecera-estadistica.jpg
 
 
 
-Grades: Physiotheraphy  
+Degrees: Physiotheraphy  
 Date: June 02, 2017 
 
 ## Exercise 1

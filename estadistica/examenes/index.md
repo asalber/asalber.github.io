@@ -18,6 +18,10 @@ image: cabecera-estadistica.jpg
 - [Examen del 27 de noviembre de 2017](farmacia-2017-11-27.html)
 - [Examen del 19 de enero de 2018](farmacia-2018-01-19.html)
 
+## Fisioterapia
+
+- [Examen del 9 de abril de 2018](fisioterapia-2018-04-09.html)
+
 ## Óptica
 
 - [Examen del 18 de diciembre de 2017](optica-2017-12-18.html)

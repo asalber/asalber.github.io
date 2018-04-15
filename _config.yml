@@ -118,18 +118,18 @@ coderay:
   coderay_bold_every:        10
   coderay_css:               style
 
-# Gems
-gems: [jekyll-paginate]
-
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
 # Excerpt separator
 excerpt_separator: <!--MORE-->
 
-# Amount of post to show on home page
-paginate: 5
-
+# Pagination
+pagination:
+  enabled: true
+  per_page: 5
+  sort_field: 'date'
+  sort_reverse: true
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

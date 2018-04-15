@@ -17,7 +17,7 @@ col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
 ```
 
-Grades: Pharmacy, Biotechnology  
+Degrees: Pharmacy, Biotechnology  
 Date: November 28, 2016 
 
 ## Exercise 1

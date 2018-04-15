@@ -16,7 +16,7 @@ col1 <- rgb(5,161,230,max=255)
 col2 <- rgb(238,50,36,max=255)
 ```
 
-Grades: Physiotheraphy  
+Degrees: Physiotheraphy  
 Date: May 19, 2017 
 
 # Probability and random variables

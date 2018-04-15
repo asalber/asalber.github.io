@@ -513,25 +513,25 @@ It is also common to express that frequency as a percentage.
 
 **Example**. To estimate the prevalence of flu a sample of 1000 persons has been studied and 150 of them had flu. Thus, the prevalence of flu is approximately 150/1000=0.15, that is, a 15%.
 
-### Incidence proportion
+### Incidence
 
-*Incidence* measures the probability of occurrence of a medical event in a population within a given period of time. Incidence can be measured as a proportion or as a rate.
+*Incidence* measures the probability of occurrence of a medical event in a population within a given period of time. Incidence can be measured as a cumulative proportion or as a rate.
 
-> **Definition - Incidence proportion**. The *incidence proportion* of a medical event $D$ is the proportion of people that acquired the event in a period of time, that is, the number of new cases with the event in the period of time divided by the size of the population initially at risk.
+> **Definition - Cumulative incidence**. The *cumulative incidence* of a medical event $D$ is the proportion of people that experience the event in a period of time, that is, the number of new cases with the event in the period of time divided by the size of the population at risk.
 >
 $$R(D)=\frac{\mbox{Num of new cases with $D$}}{\mbox{Population at risk size}}$$
 
-**Example**. A population initially contains $1000$ persons without flu and after two years of observation 160 of them got the flu.
-The incidence proportion of flu is 160 cases per $1000$ persons per two years, i.e. 16% per two years.
+**Example**. A population initially contains 1000 persons without flu and after two years of observation 160 of them got the flu.
+The incidence proportion of flu is 160 cases per 1000 persons per two years, i.e. 16% per two years.
 
-### Incidence rate
+### Incidence rate or Absolute risk
 
-> **Definition - Incidence rate**. The *incidence rate* or of a medical event $D$ is the number of new cases with the event per population at risk in a given time period.
+> **Definition - Incidence rate**. The *incidence rate* or *absolute risk* of a medical event $D$ is the number of new cases with the event divided by the size of the population at risk and by the number of units of time in a given period.
 >
 $$R(D)=\frac{\mbox{Num of new cases with $D$}}{\mbox{Population at risk size}\times \mbox{Num of unit time intervals}}$$
 
 **Example**. A population initially contains $1000$ persons without flu and after two years of observation 160 of them got the flu.
-If we consider the year as the unit of time, the incidence rate of flu is 160 cases per $1000$ persons divided by two years, i.e. 80 cases per 1000 persons-year.
+If we consider the year as the unit of time, the incidence rate of flu is 160 cases per $1000$ persons divided by two years, i.e. 80 cases per 1000 persons-year or 8\% persons per year.
 
 ### Prevalence vs Incidence
 
@@ -548,10 +548,8 @@ $$\mbox{prevalence} = \mbox{incidence} \times \mbox{duration}$$
 
 ### Comparing risks
 
-In Epidemiology the *risk* of a medical event is the probability of acquire the event in a period of time, that is, the incidence.
-
 In order to determine if a factor or characteristic is associated with the medical event we need to compare the risk of the medical event in two populations, one exposed to the factor and the other not exposed.
-The group of people exposed to the factor is known as the *treatment group* and the group of people unexposed as the *control group*.
+The group of people exposed to the factor is known as the *treatment group* or *experimental group* and the group of people unexposed as the *control group*.
 
 Usually the cases observed for each group are represented in a 2$\times$2 table like the one below.
 
@@ -571,11 +569,56 @@ Usually the cases observed for each group are represented in a 2$\times$2 table 
 </tr>
 <tr class="even">
 <td style="text-align: left;">Control group(unexposed)</td>
-<td style="text-align: center;"><em>c</em></span></td>
-<td style="text-align: center;"><em>d</em></span></td>
+<td style="text-align: center;">$c$</td>
+<td style="text-align: center;">$d$</td>
 </tr>
 </tbody>
 </table>
+
+
+### Attributable risk or Risk difference $RD$
+
+> **Definition - Attributable risk**. The *attributable risk* or *risk difference* of a medical event $D$ for people exposed to a factor is the difference between the absolute risks of the treatment group and the control group.
+
+$$
+AD(D)=\mbox{Risk in treatment group}-{\mbox{Risk in control group}=R_T(D)-R_C(D)=\frac{a}{a+b}-\frac{c}{c+d}.
+$$
+
+The attributable risk is the risk of an event that is specifically due to the factor of interest.
+
+Observe that the attributable risk can be positive, when the risk of the treatment group is greater than the risk of the control group, and negative, on the contrary.
+
+**Example**. To determine the effectiveness of a vaccine against the flu, a sample of 1000 person without flu was selected at the beginning of the year.
+Half of them were vaccinated (treatment group) and the other received a placebo (control group).
+The table below summarize the results at the end of the year.
+
+<table>
+<thead>
+<tr class="header">
+<td style="text-align: left;"></td>
+<td style="text-align: center;">Flu $D$</td>
+<td style="text-align: center;">No flu $\overline D$</td>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Treatment group(vaccinated)</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">480</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Control group(Unvaccinated)</td>
+<td style="text-align: center;">80</td>
+<td style="text-align: center;">420</td>
+</tr>
+</tbody>
+</table>
+
+The attributable risk of getting the flu for people vaccinated is
+
+$$AR(D) = \frac{20}{20+480}-\frac{80}{80+420} = -0.12.$$
+
+This means that the risk of getting flu in vaccinated people is a 12\% less than in unvaccinated.
 
 ### Relative risk $RR$
 
@@ -621,7 +664,7 @@ The relative risk of getting the flu for people vaccinated is
 
 $$RR(D) = \frac{20/(20+480)}{80/(80+420)} = 0.25.$$
 
-This means that vaccinated people were only one-fourth as likely to develop flu as were unvaccinated people.
+This means that vaccinated people were only one-fourth as likely to develop flu as were unvaccinated people, i.e. the vaccine reduce the risk of flu by 75%.
 
 ### Odds
 
@@ -682,14 +725,14 @@ The odds ratio of getting the flu for people vaccinated is
 
 $$OR(D) = \frac{20/480}{80/420} = 0.21875.$$
 
-This means that the odds of getting the flu versus not getting the flu in the treatment group is almost one fifth of that in the control group.
+This means that the odds of getting the flu versus not getting the flu in vaccinated individuals is almost one fifth of that in unvaccinated, i.e. approximately for every 22 persons vaccinated with flu there will be 100 persons unvaccinated with flu.
 
 ### Relative risk vs Odds ratio
 
 Relative risk and odds ratio are two measures of association but their interpretation is slightly different. While the relative risk expresses a comparison of risks between the treatment and control groups, the odds ratio expresses a comparison of odds, that is not the same than the risk.
 Thus, an odds ratio of 2 *does not* mean that the treatment group has the double of risk of acquire the medical event.
 
-The interpretation of the odds ratio is trickier because is counterfactual, and give us how many times is more frequent the event in the treatment group assuming that in the control group the event is as frequent as the non-event.
+The interpretation of the odds ratio is trickier because is counterfactual, and give us how many times is more frequent the event in the treatment group in comparison with the control group, assuming that in the control group the event is as frequent as the non-event.
 
 The advantage of the odds ratio is that it does not depend on the prevalence or the incidence of the event, and must be used necessarily when the number of people with the medical event is selected arbitrarily in both groups, like in the case-control studies.
 
@@ -764,7 +807,7 @@ $$RR = \frac{OR}{1-R_0+R_0*OR}=OR*\frac{1-R_1}{1-R_0},$$
 
 where $R_0$ and $R_1$ are the prevalence or the incidence in control and treatment groups respectively.
 
-The odds ratio always overestimate the relative risk.
+The odds ratio always overestimate the relative risk when it is greater than 1 and underestimate it when it is less than 1.
 However, with rare medical events (with very small prevalence or incidence) the relative risk and the odds ratio are almost the same.
 
 <img class="img-center" src="img/probability/odds_ratio_vs_relative_risk.svg" alt="Chart of the relation between the odds ratio and the relative risk for different incidences" width="500">
