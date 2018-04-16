@@ -53,8 +53,8 @@ The concentration of a drug in blood $C$, in mg/dl, depends on time $t$, in hour
 $$
 \begin{array}{lrrrrrrr}
 \hline
-\mbox{Tiempo} & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
-\mbox{Concentración} & 25 & 36 & 48 & 64 & 86 & 114 & 168\\
+\mbox{Time} & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
+\mbox{Concentration} & 25 & 36 & 48 & 64 & 86 & 114 & 168\\
 \hline
 \end{array}
 $$
