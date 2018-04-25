@@ -1,6 +1,6 @@
 ---
 layout: book
-title: Statistics esam
+title: Statistics exam
 description: "Solution of the exam"
 tags: [Exam, Statistics, Biostatistics, Physiotherapy]
 share: true

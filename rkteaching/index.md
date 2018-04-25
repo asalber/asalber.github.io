@@ -100,7 +100,7 @@ To install this packages you must run RKWard, open the R console and type the fo
 
     <pre><code>install.packages("devtools", dep=TRUE)<br/>
     library(devtools)<br/>
-    install_github("rkward-community/rk.Teaching")
+    install_github("rkward-community/rk.Teaching", ref="develop")
     </code></pre>
 
     The following video tutorial shows the installation process (in Spanish).
