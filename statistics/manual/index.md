@@ -26,7 +26,7 @@ The manual is mainly aimed at Biostatistics, and therefore most of the examples 
 ## Download
 This manual is available in pdf format.
 
-[![Download pdf](/images/pdf_download.png)](https://github.com/asalber/statistics-course/raw/master/statistics_manual.pdf)
+[![Download pdf](/images/pdf_download.png)](https://github.com/asalber/statistics-manual/raw/master/statistics_manual.pdf)
 
 ## Study flash cards
 There is an Anki deck of flash cards to study an remember the main concepts of this manual.
