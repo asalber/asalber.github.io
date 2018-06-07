@@ -14,7 +14,7 @@ Date: May 19, 2017
 
 # Probability and random variables
 
-## Exercise 1
+## Question 1
 The prevalence of sciatica in a population is 3%.
 The Lasegue's test is a neurotension test that is used to diagnose the sciatica with a sensitivity of 91% and a specificity of 26%.
 On the other hand, there is an alternative test with a sensitivity of 80% and a specificity of 90%.
@@ -36,7 +36,7 @@ Alternative test: $NPV=P(\overline D|-)=0.9932$.<br/>
 Thus, the alternative test is better to rule out the sciatica. 
 </div>
 
-## Exercise 2
+## Question 2
 A physiotherapist opens a clinic and use the social networks to advertise it.
 In particular he send a friend request to 20 contacts on Facebook.
 If the probability that a Facebook user accept the friend request is 80%, what is the probability that more than 18 accept the friend request?
@@ -50,7 +50,7 @@ Naming $X$ to the number of accepted friend request, $X\sim B(20,0.8)$ and $P(X>
 The expected number of accepted friend request is $16$. 
 </div>
 
-## Exercise 3
+## Question 3
 According to a study of the Information Society of Spain in 2013, the spanish checks the mobile phone 150 times a day in average.
 What is the probability that a spanish person checks the mobile phone more than 2 times an hour?
 
@@ -61,7 +61,7 @@ What is the probability that a spanish person checks the mobile phone more than 
 1. Naming $X$ to the number of times that a spanish person checks the phone in an hour, $X\sim P(6.25)$ and $P(X>2)=0.9483$.
 </div>
 
-## Exercise 4
+## Question 4
 The the cervical rotation in a population follows a normal probability distribution model with mean 58º and standard deviation 6º.
 
 1. Between what values are the cervical rotation of the central 50\% of the population?

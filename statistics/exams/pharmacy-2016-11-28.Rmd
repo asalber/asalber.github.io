@@ -20,7 +20,7 @@ col2 <- rgb(238,50,36,max=255)
 Degrees: Pharmacy, Biotechnology  
 Date: November 28, 2016 
 
-## Exercise 1
+## Question 1
 The table below gives the distribution of points obtained by students in the MIR exam last year.
 
 $$
@@ -64,7 +64,7 @@ Fences: $F_1=-37.97$ points and $F_2=179.23$ points. Thus, there are outliers. <
 5. $z(150)=1.83$.
 </div>
 
-## Exercise 2
+## Question 2
 The table show the data of the GDP (Gross Domestic Product) per capita (thousands of euros) and infant mortality
 (children per thousand) from 1993 till 2000.
 ```{r}
@@ -119,7 +119,7 @@ $y(23)=`r exp(c[1]+c[2]*23)`$.<br/>
 4. The reliability of both models is the same as they have the same coefficient of determination. 
 </div>
 
-## Exercise 3
+## Question 3
 Consider two variables $X$ and $Y$. Assume that the regression lines of the linear models intersect at the point $(2,3)$, and that, according to the appropriate linear model, the expected value of $Y$ for $x=3$ is $y=1$. How much will $Y$ change, according to the linear model, when $X$ increases by one unit?
 
 If the coefficient of linear correlation is $-0.8$, how much will $X$ change, according to the linear model, when $Y$ increases by one unit?

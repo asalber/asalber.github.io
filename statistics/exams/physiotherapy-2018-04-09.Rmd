@@ -23,7 +23,7 @@ col2light <- rgb(248,174,169,255,maxColorValue = 255) #FF3333
 Degrees: Physiotherapy  
 Fecha: April 9, 2018
 
-## Exercise 1
+## Question 1
 
 ```{r}
 x <- rep(c(105,115,125,135,145,155,165,175),c(2,6,8,5,4,2,2,1))
@@ -89,7 +89,7 @@ The mean of people working without computer is more representative than the mean
 </div>
 
 
-## Exercise 2
+## Question 2
 The concentration of a drug in blood $C$, in mg/dl, depends on time $t$, in hours, according to the following table:
 
 ```{r}

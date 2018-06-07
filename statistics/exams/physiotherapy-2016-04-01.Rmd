@@ -20,7 +20,7 @@ col2 <- rgb(238,50,36,max=255)
 Grade: Physiotherapy  
 Date: April 01, 2016 
 
-## Exercise 1
+## Question 1
 The chart below shows the cumulative frequency distribution the maximum angle of knee deflection after a replacement of the knee cap in a group of patients. 
   
 ```{r knee_angle}
@@ -44,7 +44,7 @@ axis(2, at=seq(0,100,5), las=2)
 3. $F_{90}=60\%$.
 </div>
 
-## Exercise 2
+## Question 2
 The waiting times in a physiotherapy clinic of a sample of patiens are 
 ```{r}
 x <- c(18, 8, 27, 6, 13, 26, 14, 23, 14, 31, 27, 19, 15, 20, 11, 30, 25, 23, 20, 15)
@@ -75,7 +75,7 @@ g2 <- sum((x-m)^4)/(n*s^4)-3
 3. $g_2=`r g2`$. The distribution is flatter than a bell curve (platykurtic).
 </div>
 
-## Exercise 3
+## Question 3
 A study try to determine if there is relation between recovery time $Y$ (in days) of an injury and the age of the person $X$ (in years). For that purpose a sample of 15 persons with the injury was drawn with the following values:
 ```{r}
 x <- c(21, 26, 30, 34, 39, 45, 51, 54, 59, 63, 71, 76, 80, 84, 88)

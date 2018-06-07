@@ -20,7 +20,7 @@ col2 <- rgb(238,50,36,max=255)
 Grade: Physiotherapy  
 Date: May 13, 2016 
 
-## Exercise 1
+## Question 1
 ```{r}
 pre = 0.2
 sen1 = 0.8
@@ -57,7 +57,7 @@ Assuming that the tests are independent,
 3. $P(\mbox{Error}_2)=`r error2`$, $P(\mbox{Error}_3)=`r error3`$ and $P(\mbox{Error}_2\cup \mbox{Error}_3)=`r error2 + error3 - error2*error3`$.
 </div>
 
-## Exercise 2
+## Question 2
 ```{r}
 n1 = 20
 p1 = 0.1
@@ -79,7 +79,7 @@ It is known that `r p1*100`% of professional soccer players have a cruciate liga
 </div>
 
 
-## Exercise 3
+## Question 3
 ```{r}
 m = 98.5
 s = 28.25

@@ -12,7 +12,7 @@ image: cabecera-estadistica.jpg
 Grade: Physiotherapy  
 Date: May 13, 2016 
 
-## Exercise 1
+## Question 1
 
 
 Of all the anterior cruciate ligament of the knee injuries, the rupture occurs in 20% of cases, and to detect it there are three different tests:
@@ -34,7 +34,7 @@ Assuming that the tests are independent,
 3. $P(\mbox{Error}_2)=0.11$, $P(\mbox{Error}_3)=0.02$ and $P(\mbox{Error}_2\cup \mbox{Error}_3)=0.1278$.
 </div>
 
-## Exercise 2
+## Question 2
 
 
 It is known that 10% of professional soccer players have a cruciate ligament injury during the league. It is also known that the ligament rupture occurs in 20% of cruciate ligament injuries.
@@ -49,7 +49,7 @@ It is known that 10% of professional soccer players have a cruciate ligament inj
 </div>
 
 
-## Exercise 3
+## Question 3
 
 
 In a blood analysis the LDL cholesterol level reference interval for a particular population is $(42,155)$ mg/dl. (The reference interval contains the 95% of the population and is centered in the mean).  

@@ -12,7 +12,7 @@ image: cabecera-estadistica.jpg
 Degrees: Physiotherapy  
 Fecha: April 9, 2018
 
-## Exercise 1
+## Question 1
 
 
 The chart below describes the distribution of the head arc of rotation (in degrees) in people working with and without computers.
@@ -45,7 +45,7 @@ The mean of people working without computer is more representative than the mean
 </div>
 
 
-## Exercise 2
+## Question 2
 The concentration of a drug in blood $C$, in mg/dl, depends on time $t$, in hours, according to the following table:
 
 

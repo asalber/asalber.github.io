@@ -20,7 +20,7 @@ color2 <- rgb(238,50,36,max=255)
 Grade: Physiotherapy  
 Date: May 19, 2016 
 
-## Exercise 1
+## Question 1
 ```{r}
 x = c(25,35,45,55,65,75,85)
 nm = c(50,61,26,32,20,11,10)
@@ -76,7 +76,7 @@ Thus, is more representative the mean of females. <br/>
 </div>
 
 
-## Exercise 2
+## Question 2
 To check if the recovery time from a patellar tendonitis with a physioterapy treatment depends on age, a sample of 8 patients was drawn and the recovery time $Y$ (in days) and ages $X$ (in years) were measured for every patient. The table below shows the results.
 ```{r}
 x = c(32, 38, 48, 51, 57, 61, 68, 71)
@@ -126,7 +126,7 @@ Exponential coefficient of determination $r^2=`r summary(m3)$r.squared`$. <br/>
 So the exponential model fits better.
 </div>
 
-## Exercise 3
+## Question 3
 ```{r}
 n = 500
 nA = 20
@@ -158,7 +158,7 @@ Use relative frequencies to estimate probabilities in following questions:
 6. The injuries are dependent. 
 </div>
 
-## Exercise 4
+## Question 4
 The level of severity $X$ of an injury is classified in a scale from 1 to 5, from low to high severity.
 The probability distribution of $X$ in a population is plotted below. 
 
@@ -220,7 +220,7 @@ s =  sqrt(sum(x^2*p)-m^2)
 5. Naming $Y$ to the number of persons injuried in a month, $P(T>`r x2`)=`r ppois(x2,lambda,lower.tail=F)`$. <br/>
 Naming $Z$ to the number of persons injuried with an incurable injury in an month, $P(T>`r x3`)=`r ppois(x3,lambda*p[5],lower.tail=F)`$. </div>
 
-## Exercise 5
+## Question 5
 ```{r}
 x1 = 4
 m1 = 4.5

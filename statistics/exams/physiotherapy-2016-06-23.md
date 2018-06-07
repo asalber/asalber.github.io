@@ -12,7 +12,7 @@ image: cabecera-estadistica.jpg
 Grade: Physiotherapy  
 Date: June 23, 2016 
 
-## Exercise 1
+## Question 1
 It is believed that the age at which a person finish their first marathon depends on gender. 
 To check it, a sample of 180 marathon runners was drawn. 
 For every runner it was recorded the gender, the age (in years) when they finish the first marathon and if they finish with tendinitis. 
@@ -117,7 +117,7 @@ The mean of females is more representative as the coefficient of variation is lo
 5. Naming $T$ to the event of finishing the first marathon with tendinitis, $M$ to the event of being male and $F$ to the event of being female, $P(T)=0.2$, $P(T|M\cap \mbox{Age}<=40) = 0.2778$, $P(\mbox{Age}\in (20,30]|T\cap F) = 0.3846$.
 </div>
 
-## Exercise 2 
+## Question 2 
 A study tries to determine if the number of muscular injuries of professional athletes depends on stress. 
 The study lasted four years and measured the average level of stress and the number of muscular injuries suffered by a group of athletes.
 The collected data is shown in the table below. 
@@ -179,7 +179,7 @@ Thus, the logarithmic model fits better.
 </div>
 
 
-## Exercise 3
+## Question 3
 
 
 A diagnostic test with a sensitivity of 96% and a specificity of 93% is used to determine a disease with a prevalence of 10%.
@@ -198,7 +198,7 @@ A diagnostic test with a sensitivity of 96% and a specificity of 93% is used to 
 </div>
 
 
-## Exercise 4
+## Question 4
 
 
 It is known from previous studies that the hours of study of Statistics for students that pass the subject follows a normal distribution with mean 50 hours and standard deviation unknown; while for students that fail the subject follows a normal distribution with mean unknown and standard deviation 10 hours. If 20% of students that pass study more than 70 hours and 30% of students that fail study less than 25 hours,

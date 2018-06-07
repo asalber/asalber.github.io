@@ -20,7 +20,7 @@ color2 <- rgb(238,50,36,max=255)
 Grade: Physiotherapy  
 Date: June 23, 2016 
 
-## Exercise 1
+## Question 1
 It is believed that the age at which a person finish their first marathon depends on gender. 
 To check it, a sample of 180 marathon runners was drawn. 
 For every runner it was recorded the gender, the age (in years) when they finish the first marathon and if they finish with tendinitis. 
@@ -81,7 +81,7 @@ The mean of females is more representative as the coefficient of variation is lo
 5. Naming $T$ to the event of finishing the first marathon with tendinitis, $M$ to the event of being male and $F$ to the event of being female, $P(T)=`r (nmt+nft)/(nm+nf)`$, $P(T|M\cap \mbox{Age}<=40) = `r cumsum(nimt)[3]/cumsum(nim)[3]`$, $P(\mbox{Age}\in (20,30]|T\cap F) = `r nift[2]/sum(nift)`$.
 </div>
 
-## Exercise 2 
+## Question 2 
 A study tries to determine if the number of muscular injuries of professional athletes depends on stress. 
 The study lasted four years and measured the average level of stress and the number of muscular injuries suffered by a group of athletes.
 The collected data is shown in the table below. 
@@ -134,7 +134,7 @@ Thus, the logarithmic model fits better.
 </div>
 
 
-## Exercise 3
+## Question 3
 
 ```{r}
 pre = 0.1
@@ -163,7 +163,7 @@ A diagnostic test with a sensitivity of `r sen*100`% and a specificity of `r spe
 </div>
 
 
-## Exercise 4
+## Question 4
 ```{r}
 x1 = 70
 p1 = 0.2

@@ -12,7 +12,7 @@ image: cabecera-estadistica.jpg
 Degrees: Physiotherapy, Medicine  
 Date: November 28, 2016 
 
-## Exercise 1
+## Question 1
 The table below gives the distribution of points obtained by students in a physiotherapy public competition this year.
 
 $$
@@ -53,7 +53,7 @@ Previous year standard score: $z(160)=1.53$.<br/>
 As the standard score of 150 this year is greater than the standard score of 160 the previous year, 150 points this year is relatively higher than 160 points the previous year.
 </div>
 
-## Exercise 2
+## Question 2
 A study try to determine the relation between obesity and the response to pain. The obesity is measured as the percentage over the ideal weight ($X$), and the response to pain with a measure of the twinge sensation.
 For a sample of 10 individuals we got the following sums:
 

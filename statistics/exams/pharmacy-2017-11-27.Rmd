@@ -23,7 +23,7 @@ col2light <- rgb(238,50,36,100,maxColorValue = 255) #FF3333
 Degrees: Pharmacy, Biotechnology  
 Date: November 27, 2017 
 
-## Exercise 1
+## Question 1
 
 The following diagram show the NO₂ emissions (𝜇g/m³) in Madrid during the month of October, 2017.
 
@@ -80,7 +80,7 @@ $\bar y=`r 0.95*m+30`$, $s_y=`r 0.95*s`$, $cv=`r 0.95*s/(0.95*m+30)`$. As the co
 Fences: $F_1=12.94$ 𝜇g/m³ and $F_2=110.65$ 𝜇g/m³. Thus, there are outliers. 
 </div>
 
-## Exercise 2
+## Question 2
 The table below shows the flu incidence rate (per 100,000 people) registered after a number of days from the beginning of the study.
 
 ```{r}

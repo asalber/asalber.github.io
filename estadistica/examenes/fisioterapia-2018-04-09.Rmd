@@ -119,7 +119,7 @@ Se pide:
 Usar las siguientes sumas para los cálculos:  
 $\sum x_i=`r sum(x)`$, $\sum \log(x_i)=`r sum(log(x))`$, $\sum y_j=`r sum(y)`$, $\sum \log(y_j)=`r sum(log(y))`$,  
 $\sum x_i^2=`r sum(x^2)`$, $\sum \log(x_i)^2=`r sum(log(x)^2)`$, $\sum y_j^2=`r sum(y^2)`$, $\sum \log(y_j)^2=`r sum(log(y)^2)`$,  
-$\sum x_iy_j=`r sum(x*y)`$, $\sum x_i\log(y_j)=`r sum(x*log(y))`$, $\sum \log(x_i)y_j=`r sum(log(x)*y)`$, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$.
+$\sum x_iy_j=`r sum(x*y)`$, $\sum x_i\log(y_j)=`r sum(x*log(y))`$, $\sum \log(x_i)y_j=`r sum(log(x)*y)`$, $\sum \log(x_i)\log(y_j)=`r sum(log(x)*log(y))`$. 
 
 <div><button class="solution">Mostrar solución</button></div>
 <div id="solution" style="display: none">

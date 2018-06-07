@@ -12,7 +12,7 @@ image: cabecera-estadistica.jpg
 Degrees: Physiotheraphy  
 Date: June 02, 2017 
 
-## Exercise 1
+## Question 1
 A study try to determine the influence of electronic gadgets (mobile phones, tables, consoles, etc.) in neck disorders.
 In the sample of persons studied, it was measured the average daily time using some of these devices, and if the person had or not a cervical disc herniation (CDH).
 The table below summarizes the results.
@@ -63,7 +63,7 @@ The person with CDH has a value less than the mean but relatively closer to the 
 </div>
 
 
-## Exercise 2
+## Question 2
 A study try to determine the influence of electronic gadgets (mobile phones, tables, consoles, etc.) in neck disorders.
 One goal of the research is determining if there is some relation between the average daily time using some of those devices and the number of cervical vertigo attacks in the last year.
 The table below shows the collected information in a sample of 12 persons.
@@ -108,7 +108,7 @@ Number of vertigo attacks expected for 200 min usign electronic gadgets $y(200)=
 </div>
 
 
-## Exercise 3
+## Question 3
 Cervical radiculopathy occurs in 0.35% of men.
 The Spurling test is a test to diagnose cervical radiculopathy with a sensitivity of 95% and a specificity of 93%.
 
@@ -126,7 +126,7 @@ $NPV=P(\overline D|-)=0.9998$. It is a good screening test as the post test prob
 </div>
 
 
-## Exercise 4
+## Question 4
 The hematocrit concentration in blood of healthy males follows a normal distribution with mean and standard deviation not known.
 However, it is know that the first quartile of hematotrit is 38.5% and the third quartile is 52%.
 
@@ -143,7 +143,7 @@ Naming $X$ to the hematocrit level in healthy males, <br/>
 </div>
 
 
-## Exercise 5
+## Question 5
 It is known that 20% of professional cyclists use Erythropoietin (EPO) to improve their physical performance, and 99% of the cyclists that use EPO, also use other forbidden substances to mask the use of EPO.
 
 1. If there are 10 professional cyclists in a team, what is the probability that more than 2 are doped with EPO?
@@ -159,7 +159,7 @@ It is known that 20% of professional cyclists use Erythropoietin (EPO) to improv
 3. Naming $Z$ to the number of cyclists that has taken EPO without masking it in 2000 cyclists, $Z\sim B(2000,0.002)\approx P(4)$ and $P(Z>0)=0.9817$.
 </div>
 
-## Exercise 6
+## Question 6
 The probability that an injury $A$ is repeated is 4/5, the probability that another injury $B$ is repeated is
 1/2, and the probability that both injuries are repeated is 1/3.
 Compute the probability of the following events:

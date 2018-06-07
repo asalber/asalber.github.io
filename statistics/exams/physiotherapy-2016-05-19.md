@@ -12,7 +12,7 @@ image: cabecera-estadistica.jpg
 Grade: Physiotherapy  
 Date: May 19, 2016 
 
-## Exercise 1
+## Question 1
 
 
 To check if the recovery time from a patellar tendonitis with a physioterapy treatment depends on gender, a sample of 390 patients (210 males and 180 females) was drawn and the recovery time was measured for every patient. The table below shows the frequencies of times. 
@@ -54,7 +54,7 @@ Thus, is more representative the mean of females. <br/>
 </div>
 
 
-## Exercise 2
+## Question 2
 To check if the recovery time from a patellar tendonitis with a physioterapy treatment depends on age, a sample of 8 patients was drawn and the recovery time $Y$ (in days) and ages $X$ (in years) were measured for every patient. The table below shows the results.
 
 | Age (years)| Recovery time (days)|
@@ -98,7 +98,7 @@ Exponential coefficient of determination $r^2=0.9745$. <br/>
 So the exponential model fits better.
 </div>
 
-## Exercise 3
+## Question 3
 
 
 In a random sample of 500 people drawn from a population there are 20 persons with an injury $A$, 40 persons with other injury $B$ and 450 persons with none of the injuries.
@@ -121,7 +121,7 @@ Use relative frequencies to estimate probabilities in following questions:
 6. The injuries are dependent. 
 </div>
 
-## Exercise 4
+## Question 4
 The level of severity $X$ of an injury is classified in a scale from 1 to 5, from low to high severity.
 The probability distribution of $X$ in a population is plotted below. 
 
@@ -154,7 +154,7 @@ $$
 5. Naming $Y$ to the number of persons injuried in a month, $P(T>2)=0.938$. <br/>
 Naming $Z$ to the number of persons injuried with an incurable injury in an month, $P(T>1)=0.0369$. </div>
 
-## Exercise 5
+## Question 5
 
 
 A diagnostic test to determine doping of athletes returns a positive outcome when the concentration of a substance in blood is greater than 4 $\mu$g/ml. If the distribution of the substance concentration in doped athletes follows a normal distribution model with mean 4.5 $\mu$g/ml and standard deviation 0.2 $\mu$g/ml, and in non-doped athletes follow a normal distribution model with mean 3 $\mu$g/ml and standard deviation 0.3 $\mu$g/ml,
