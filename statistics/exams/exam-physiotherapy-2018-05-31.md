@@ -105,9 +105,10 @@ An ultrasonic technique is used to diagnose a disease with a sensitivity of 91% 
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
+Let $D$ the event corresponding to have the disease and + and - the events corresponding to have a positive and negative outcome respectively in the test.<br/>
 1. $PPV=0.9192$.<br/>
 2. $NPV=0.9776$.<br/>
-3. It is more reliable to rule out the disease since the NPV is greater than the NPV.<br/>
+3. It is more reliable to rule out the disease since the NPV is greater than the PPV.<br/>
 4. $P(D\cap +)+P(\overline D\cap -) = 0.966$.
 </div>
 

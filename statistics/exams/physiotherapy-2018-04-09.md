@@ -10,7 +10,7 @@ image: cabecera-estadistica.jpg
 
 
 Degrees: Physiotherapy  
-Fecha: April 9, 2018
+Date: April 9, 2018
 
 ## Question 1
 

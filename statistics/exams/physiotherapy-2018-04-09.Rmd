@@ -21,7 +21,7 @@ col2light <- rgb(248,174,169,255,maxColorValue = 255) #FF3333
 ```
 
 Degrees: Physiotherapy  
-Fecha: April 9, 2018
+Date: April 9, 2018
 
 ## Question 1
 
