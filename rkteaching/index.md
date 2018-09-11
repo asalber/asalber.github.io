@@ -25,7 +25,7 @@ If you find out some error or have a suggestion, please, let me know it by email
 
 For Windows users there is a bundle that include R, RKWard and rk.Teaching.
 
-[Download last version (R versión 3.2.3, RKWard versión 0.6.5, rk.Teaching versión 1.3.0)](https://drive.google.com/file/d/15QdytlY5M9g3-pqDavwXSn5SVLOUCV-T/view)
+[Download last version (R versión 3.4, RKWard versión 0.7.0, rk.Teaching versión 1.3.0)](https://drive.google.com/open?id=1gMcEvrmOUcvmdtsARfAyPOVIioC2dftD)
 
 Once the file is downloaded, all you have to do is to execute it. 
 It will ask for the installation unit and directory. 

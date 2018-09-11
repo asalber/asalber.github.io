@@ -17,7 +17,6 @@ I give this pieces of advice from a deep teaching background and from my own exp
 
 Most of this tips could seem obvious but many students fail to put them into practice.
 
-
 # Self Motivation
 
 ![Mountain climbing](/survival-guide/img/mountainclimbing.svg){: .pull-right}
@@ -44,7 +43,6 @@ But higher education is not compulsory and here is the student who has take the 
 - Expand the information given by the teacher from other sources.
 - Try to apply what you learn to your life or context.
 - Let your curiosity and creativity loose.
-
 
 # The teacher is your ally
 
@@ -75,22 +73,22 @@ Finally, in a problem-solving workshop its important trying to solve the problem
 
 Also, you should ask your teacher to flip the class.
 
-
 ## What is a flipped classroom?
 
 > The flipped classroom describes a reversal of traditional teaching where students gain first exposure to new material outside of class, usually via reading or lecture videos, and then class time is used to do the harder work of assimilating that knowledge through strategies such as problem-solving, discussion or debates.
-
 
 # Do not be afraid to ask
 
 ![Do not be afraid to ask](/survival-guide/img/ask.png)
 
+Related to the previous item, the interaction among the students and between the theacher and the students is essential to take advantage of classes.
+The teacher can not guess if you have understood a concept or are lost unless you give some feedback to him or her. 
+ 
+
 - Try to overcome your shyness.
 - No such a thing as a stupid question.
 - Most of the times your doubts are the same as the rest of your classmates.
 - The teacher need a feedback from the students.
-
-
 
 # Take advantage of tutoring
 
@@ -111,8 +109,6 @@ But ...
 
 - Respect the tutoring schedule.
 - Tutoring hours are not private classes.
-
-
 
 # Read and write
 
