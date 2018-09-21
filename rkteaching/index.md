@@ -42,11 +42,11 @@ To install the software on Mac OS systems, you must take the following steps:
 
 1. **Install R**. R can be downloaded from the web <https://cran.r-project.org/>. 
 You have to select the Mac OS distribution and follow the instructions there.
-It is required an R version 3.0 or higher.
+It is required an R version 3.4 or higher.
 
 2. **Install RKWard**. RKWard can be downloaded from the web <http://rkward.sourceforge.net>.
-You have to select the Mac Os distribution (<http://download.kde.org/stable/rkward/0.6.5/mac/RKWard-binary-0.6.5b_OSX10.9_KDE-4.14.3_needs_CRAN_R-3.3.0.pkg>) and follow the instructions there.
-It is required a Mac Os version Lion (10.7) or higher.
+You have to select the Mac Os distribution (<https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg>) and follow the instructions there.
+It is required a Mac Os version 10.11 or higher.
 
     The following video tutorial shows the installation process.
 
@@ -76,7 +76,7 @@ To install the software in Mac OS systems, you must take the following steps:
 
 1. **Install R**. R can be downloaded from the web <https://cran.r-project.org/>. 
 You have to select the Linux distribution and follow the instructions there.
-It is required an R version 3.0 or higher.
+It is required an R version 3.4 or higher.
 
     With Debian based distributions like Ubuntu, you can install R from the command line typing the command:
 
@@ -89,7 +89,7 @@ You have to select the Linux distribution and follow the instructions there.
 
     <pre><code>sudo apt-get install rkward</code></pre>
  
-    It is important to install versión 0.6.5 or higher.
+    It is important to install versión 0.7 or higher.
 
 3. **Install the packages that rk.Teaching depends on**. The rk.Teaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:
