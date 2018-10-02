@@ -240,12 +240,12 @@ El siguiente vídeo muestra el proceso de instalación.
 Para instalar el sotware en plataformas Mac Os debe instalarse cada programa por separado con el siguiente orden:
 
 1. **Instalar R**. R puede descargarse desde la página <https://cran.r-project.org/>. 
-Debe seleccionarse la distribución correspondiente a Mac Os y seguir las instrucciones de instalación que allí se especifican. 
-Es necesario que la versión de R sea la 3.0 o superior.
+Debe seleccionarse la distribución correspondiente a Mac Os y seguir las instrucciones de instalación que allí se especifican.
+Es necesario que la versión de R sea la 3.5 o superior.
 
 2. **Instalar RKWard**. RKWard puede descargarse desde la página <http://rkward.sourceforge.net>. 
-Debe seleccionarse la distribución correspondiente a Mac Os (<http://download.kde.org/stable/rkward/0.6.5/mac/RKWard-binary-0.6.5b_OSX10.9_KDE-4.14.3_needs_CRAN_R-3.3.0.pkg>) y seguir las instrucciones de instalación que allí se especifican. 
-Es importante asegurase de tener una versión de Mac OS X Lion (10.7) o superior, ya que RKWard no funciona con versiones anteriores. 
+Debe seleccionarse la distribución correspondiente a Mac Os (<https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg>) y seguir las instrucciones de instalación que allí se especifican.
+Es importante asegurase de tener una versión de Mac OS X 10.11 o superior, ya que RKWard no funciona con versiones anteriores.
 
     El siguiente vídeo muestra el proceso de instalación.
 
@@ -253,7 +253,7 @@ Es importante asegurase de tener una versión de Mac OS X Lion (10.7) o superior
 
     Si hay algún error en la instalación, consultar las posibles soluciones en (<http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting>)
 
-3. **Instalar los paquetes de los que depende rk.Teaching**. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende. 
+1. **Instalar los paquetes de los que depende rk.Teaching**. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende. 
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:
 
     <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
