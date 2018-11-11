@@ -1,0 +1,171 @@
+---
+layout: book
+title: Statistics exam
+description: "Solution of the exam"
+tags: [Exam, Statistics, Biostatistics, Pharmacy, Biotechnology]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+# Colors
+col1 <- rgb(5,161,230,255,maxColorValue = 255) #0099CC
+col1light <- rgb(137,211,243,255,maxColorValue = 255) #89D3F3
+col2 <- rgb(238,50,36,255,maxColorValue = 255) #FF3333
+col2light <- rgb(238,50,36,100,maxColorValue = 255) #FF3333
+```
+
+Degrees: Pharmacy, Biotechnology  
+Date: October 29, 2018 
+
+## Question 1
+A study about obesity in a city has measured the body mass index (BMI) in a sample.
+The collected data is shown in the table below.
+
+$$
+\begin{array}{lr}
+\mbox{BMI} & \mbox{Persons} \\
+\hline
+15-18      & 5               \\
+18-21      & 62              \\
+21-24      & 72              \\
+24-27      & 45              \\
+27-30      & 12              \\
+30-33      & 2               \\
+33-36      & 1               \\
+36-39      & 1               \\
+\hline
+\end{array}
+$$
+
+1. Compute the percentage of people with a BMI between 19 and 25. 
+2. Which is the BMI with a 20% of persons above it?
+3. Are there outliers in the sample? Give the outliers if there are some. 
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+<b>Non interpolating</b>:<br/>
+1. $F(19)\approx 0.335$ and $F(25)\approx 0.920$, so the percentage of people between 19 and 25 is 58.5% approximately.<br/>
+2. $P_{80}\approx 25.5$.<br/>
+3. $Q_1\approx 19.5$, $Q_3\approx 25.5$, $IQR\approx 6$, $f_1\approx 10.5$ and $f_2\approx 34.5$. Thus there is at leats one outlier in the interval (36-39).<br/>
+<b>Interpolating</b>:<br/>
+1. $F(19)=0.1283$ and $F(25)=0.77$, so the percentage of people between 19 and 25 is 64.17%<br/>
+2. $P_{80}=25.4$.<br/>
+3. $Q_1=20.1774$, $Q_3=24.7333$, $IQR=4.5559$, $f_1=13.3435$ and $f_2=31.5671$. Thus there are at leats two outliers in the intervals (33-36) and (36-39).
+</div>
+
+
+## Question 2
+
+```{r data-question-2}
+## DATA GENERATION
+set.seed(123)
+x <- runif(20, 10, 50)
+y1 <- 1.5*x+100
+y1 <- y1 + rnorm(20, 0, 7)
+y2 <- 0.5*x+90
+y2 <- y2 + rnorm(20, 0, 2)
+## QUESTION/ANSWER GENERATION
+# sample size
+n <- length(x)
+n1 <- length(y1)
+n2 <- length(y2)
+# means
+mx <- mean(x)
+my1 <- mean(y1)
+my2 <- mean(y2)
+# variances
+s2x <- sum(x^2)/n-mx^2
+s2y1 <- sum(y1^2)/n1-my1^2
+s2y2 <- sum(y2^2)/n2-my2^2
+# Std. Deviations
+sy1 <- sqrt(s2y1)
+sy2 <- sqrt(s2y2)
+# Coef. Variation
+cvy1 <- sy1/my1
+cvy2 <- sy2/my2
+# Coef. skewness
+g1y1 <- sum((y1-my1)^3)/(n1*sy1^3)
+g1y2 <- sum((y2-my2)^3)/(n2*sy2^3)
+# Coef. kurtosis
+g2y1 <- sum((y1-my1)^4)/(n1*sy1^4)-3
+g2y2 <- sum((y2-my2)^4)/(n2*sy2^4)-3
+# Std. scores
+zy1 <- (145-my1)/sy1
+zy2 <- (130-my2)/sy2
+# Covariances
+sxy1 <- sum(x*y1)/n1-mx*my1
+sxy2 <- sum(x*y2)/n2-mx*my2
+# Determination coeff
+r2xy1 <- sxy1^2/(s2x*s2y1)
+r2xy2 <- sxy2^2/(s2x*s2y2)
+# Regression lines y on x
+regliny1x <- lm(y1~x)
+regliny2x <- lm(y2~x)
+# Predictions of y
+py1 <- regliny1x$coefficients[1]+regliny1x$coefficients[2]*25
+py2<- regliny2x$coefficients[1]+regliny2x$coefficients[2]*25
+# Regression line of x on y
+reglinxy1 <- lm(x~y1)
+# Predicton of x
+px <- reglinxy1$coefficients[1]+reglinxy1$coefficients[2]*150
+```
+
+
+A gene of a rat species has been modified to help the metabolization of cholesterol in blood.
+To check the effectiveness of this genetic modification two samples of rats were drawn, ones with the gene modified and the others not, and they were fed with the same diet with different concentrations of palm oil during one month.
+The following sums summarize the results:
+
+**Palm oil quantity in gr** (the same in both samples)  
+$\sum x_i=`r round(sum(x),4)`$ gr, $\sum x_i^2=`r round(sum(x^2),4)`$ gr², $\sum(x_i-\bar x)^3=`r round(sum((x-mx)^3),2)`$ gr³, $\sum(x_i-\bar x)^4=`r round(sum((x-mx)^4),2)`$ gr⁴  
+**Cholesterol level in blood in mg/dl of non genetically modified rats**
+$\sum y_j=`r round(sum(y1),4)`$ mg/dl, $\sum y_j^2=`r round(sum(y1^2),4)`$ (mg/dl)², $\sum(y_j-\bar y)^3=`r round(sum((y1-my1)^3),2)`$ (mg/dl)³, $\sum(y_j-\bar y)^4=`r round(sum((y1-my1)^4),2)`$ (mg/dl)⁴  
+$\sum x_iy_j=`r round(sum(x*y1),4)`$ gr$\cdot$mg/dl.  
+**Cholesterol level in blood in mg/dl of genetically modified rats**  
+$\sum y_j=`r round(sum(y2),4)`$ mg/dl, $\sum y_j^2=`r round(sum(y2^2),4)`$ (mg/dl)², $\sum(y_j-\bar y)^3=`r round(sum((y2-my2)^3),2)`$ (mg/dl)³, $\sum(y_j-\bar y)^4=`r round(sum((y2-my2)^4),2)`$ (mg/dl)⁴ 
+$\sum x_iy_j=`r round(sum(x*y2),4)`$ gr$\cdot$mg/dl.  
+
+1. In which sample the cholesterol has a more representative mean, genetically modified or non modified rats?
+1. In which sample the distribution of cholesterol is more skew?
+1. In which sample the kurtosis of the distribution of cholesterol is less normal?
+1. Which rat has a cholesterol level relatively bigger, a genetically modified rat with a cholesterol level of 130 mg/dl, or a non genetically modified rat with a cholesterol level of 145 mg/dl?
+1. In which sample the regression line of cholesterol on the palm oil quantity fits better?
+1. According to the regression line, what level of cholesterol is expected for a genetically modified rat with a diet of 25 gr of palm oil? And for a non genetically modified rat?
+1. What amount of palm oil must be supplied to a non genetically modified rat to have a cholesterol level smaller than 150 mg/dl? Is this prediction reliable?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Non genetically modified rats: $\bar y=`r round(my1,4)`$ mg/dl,  $s^2_y=`r round(s2y1, 4)`$ (mg/dl)², $s=`r round(sy1,4)`$ mg/dl and $cv_y=`r round(cvy1,4)`$.<br/>
+Genetically modified rats: $\bar y=`r round(my2,4)`$ mg/dl,  $s^2_y=`r round(s2y2, 4)`$ (mg/dl)², $s=`r round(sy2,4)`$ mg/dl and $cv_y=`r round(cvy2,4)`$.<br/>
+Thus, the mean of genetically modified rats is more representative since the coef. of variation is smaller.<br/>
+2. Non genetically modified rats: $g_1=`r round(g1y1,4)`$.<br/>
+Genetically modified rats: $g_1`r round(g1y2,4)`$<br/>
+Thus, the distribution of genetically modified rats is more skew since the coef. of skewness is further from 0.<br/>
+3. Non genetically modified rats: $g_2=`r round(g2y1,4)`$.<br/>
+Genetically modified rats: $g_2`r round(g2y2,4)`$<br/>
+Thus, the kurtosis of the distribution of genetically modified rats is less normal since the coef. of kurtosis is further from 0.<br/>
+4. Non genetically modified rats: $z(145)=`r round(zy1,4)`$.<br/>
+Genetically modified rats: $z(130)=`r round(zy2,4)`$.<br/>
+Thus, a cholesterol level of 130 mg/dl in genetically modified rats is relatively greater than 145 mg/dl in non genetically modidied rats.<br/>
+5. $\bar x=`r round(mx,4)`$ gr,  $s^2_x=`r round(s2x, 4)`$ gr².<br/>
+Non genetically modified rats: $s_{xy}=`r round(sxy1,4)`$ gr$\cdot$mg/dl and $r^2=`r round(r2xy1,4)`$.<br/>
+Genetically modified rats: $s_{xy}=`r round(sxy2,4)`$ gr$\cdot$mg/dl and $r^2=`r round(r2xy2,4)`$.<br/>
+Thus, the regression line fits better in genetically modified rats since the coef. of determination is greater.<br/>
+6. Regression line of $Y$ on $X$ in non genetically modified rats: $y=`r round(regliny1x$coefficients[1],4)`+`r round(regliny1x$coefficients[2],4)`x$. Prediction: $y(25)=`r round(py1,4)`$<br/>
+Regression line of $Y$ on $X$ in genetically modified rats: $y=`r round(regliny2x$coefficients[1],4)`+`r round(regliny2x$coefficients[2],4)`x$. Prediction: $y(25)=`r round(py2,4)`$<br/>
+7. Regression line of $X$ on $Y$ in non genetically modified rats: $x=`r round(reglinxy1$coefficients[1],4)`+`r round(reglinxy1$coefficients[2],4)`y$. Prediction: $x(150)=`r round(px,4)`$. The prediction is very reliable since the coef. of determination is closte to 1.
+</div>
+
+## Question 3
+It is known that the regression line of $Y$ on $X$ has equation $3x+2y-4=0$ and it explains half of the variability of $Y$.
+According to the linear regression model, how much will $X$ change for each unit that increases $Y$?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+$r^2=0.5$ and $b_{xy}=-\frac{1}{3}$, so $X$ decreases 1/3 of the increase of $Y$.
+</div>

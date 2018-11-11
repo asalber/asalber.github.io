@@ -2,7 +2,7 @@
 layout: book
 title: Examen de Estadística
 description: "Solución del examen"
-tags: [Examen, Estadística, Bioestadística, Famacia, Biotecnología]
+tags: [Examen, Estadística, Bioestadística, Farmacia, Biotecnología]
 share: true
 image: cabecera-estadistica.jpg
 ---

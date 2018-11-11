@@ -12,7 +12,8 @@ image: cabecera-estadistica.jpg
 - [Exam of January 10, 2017](pharmacy-2017-01-10.html)
 - [Exam of November 27, 2017](pharmacy-2017-11-27.html)
 - [Exam of January 19, 2018](pharmacy-2018-01-19.html)
-
+- [Exam of October 29, 2018](pharmacy-2018-10-29.html)
+  
 ## Degree in Physiotherapy
 
 - [Exam of June 23, 2016](physiotherapy-2016-06-23.html)
