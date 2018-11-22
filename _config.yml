@@ -86,6 +86,11 @@ calculus:
     url: /calculus/exams/
   - title: Calculus cheat sheets
     url: /calculus/cheatsheets/
+geogebra:
+  - title: Cálculo con Geogebra
+    url: /calculo/geogebra/calculo-geogebra/
+  - title: Calculus with Geogebra
+    url: /calculus/geogebra/calculus-geogebra/
 derive:
   - title: Cálculo con Derive
     url: /calculo/derive/calculo-derive/

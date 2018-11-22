@@ -7,7 +7,6 @@ image: escalera.jpg
 share: true
 ---
 
-<div data-configid="13463617/9215451" style="width: 650px; height: 421px;" class="issuuembed"></div>
-<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+<embed src="Calculo con Derive.pdf" width="600" height="375">
 
 [Descargar el libro](Calculo con Derive.pdf).
