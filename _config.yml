@@ -1,5 +1,5 @@
 title:            Aprende con Alf
-description:      Sitio web para la enseñanza de Matemáticas y en particular de Estadística
+description:      Sitio web para el aprendizaje de Matemáticas y en particular de Estadística
 disqus_shortname: aprendeconalf
 #Your site's domain goes here. Leave localhost server or blank when working locally.
 url:
@@ -35,7 +35,7 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 estadistica:
-  - title: Manual de Estadística
+  - title: Manual de Estadística II
     url: /estadistica/manual/
   - title: Ejercicios de Estadística
     url: /estadistica/ejercicios/

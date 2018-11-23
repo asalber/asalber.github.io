@@ -7,8 +7,8 @@ image: geogebra-logo2.png
 share: true
 ---
 
-<!-- <div data-configid="13463617/9215451" style="width: 650px; height: 421px;" class="issuuembed"></div>
-<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script> -->
+## Geogebra
+[GeoGebra](https://www.geogebra.org/) es un software interactivo libre para el aprendizaje de Matemáticas en educación secundaria y superior. A continuación os presentamos un manual de Cálculo con Geogegra que se centra, sobre todo, en la resolución analítica de problemas de cálculo en una y varias variables con la vista CAS (cálculo simbólico) de Geogegra.
 
 <embed src="calculo-geogebra.pdf" width="600" height="375">
 

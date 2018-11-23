@@ -79,7 +79,13 @@
       <ul class="dl-submenu">
           {% for link in site.estadistica %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
       </ul><!-- /.dl-submenu -->
-    </li>
+		</li>
+		<li>
+			<a href="#">Geogebra</a>
+			<ul class="dl-submenu">
+				{% for link in site.geogebra %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+			</ul><!-- /.dl-submenu -->
+		</li>
     <li>
         <a href="#">R</a>
         <ul class="dl-submenu">
