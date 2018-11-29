@@ -9,5 +9,6 @@ image: dados.jpg
 
 ## Statistics formulas
 
-- [Main Statistics formulas](https://github.com/asalber/statistics-cheatsheet/raw/master/statistics-formulas-cheatsheet.pdf)
+- [Statistics and Probability formulas](https://github.com/asalber/statistics-cheatsheet/raw/master/statistics-formulas-cheatsheet.pdf)
 - [Excel formulas](https://github.com/asalber/statistics-cheatsheet/raw/master/statistics-formulas-excel.pdf)
+- [Standard normal probability distribution table](https://github.com/asalber/statistics-manual/raw/master/tables/normal_distribution/standard_normal_table.pdf)

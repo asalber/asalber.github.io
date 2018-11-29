@@ -12,3 +12,4 @@ image: abaco.jpg
 - [Principales fórmulas de Cálculo](https://github.com/asalber/formulas-calculo/raw/master/formulas-calculo.pdf)
 - [Derivadas](https://github.com/asalber/formulas-calculo/raw/master/formulas-derivadas.pdf)
 - [Integrales](https://github.com/asalber/formulas-calculo/raw/master/formulas-integrales.pdf)
+- [Trigonometría](https://github.com/asalber/formulas-calculo/raw/master/formulas-trigonometria.pdf)
