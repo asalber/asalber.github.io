@@ -1,0 +1,165 @@
+---
+layout: book
+title: Statistics exam
+description: "Solution of the exam"
+tags: [Exam, Statistics, Biostatistics]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+col1 <- rgb(5,161,230,max=255)
+col2 <- rgb(238,50,36,max=255)
+```
+
+Degrees: Pharmacy, Biotechnology  
+Date: November 19, 2018
+
+
+## Question 1
+```{r question1}
+AnoB <- 0.02
+noAB <- 0.04
+noAornoB <- 0.91
+AB <- 1-noAornoB
+A <- AnoB + AB
+noBsiA <- AnoB/A
+
+
+```
+
+In a population that is exposed to two viruses strains $A$ and $B$ it is known that `r AnoB*100`% of persons are immune only to virus $A$ and `r noAB*100`% are immune only to virus $B$.
+On the other hand it is known tha `r noAornoB*100`% of the population would be infected by some of the two viruses.
+
+1. What is the probability that a person is immune to the two viruses?
+2. What is the probability that a person immune to virus $A$ is infected by virus $B$?
+3. Are dependent the events of being immune to the two viruses?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Let $A$ and $B$ the events of being inmune to virus $A$ and $B$ respectively. <br/>
+1. $P(A\cap B)=`r round(AB,4)`$<br/>
+2. $P(\overline B|A)=`r round(noBsiA,4)`$.<br/>
+3. The events are dependent.
+</div>
+
+
+## Question 2
+In a study about the blood pressure the systolic pressure of 2400 males older than 18 was measured.
+It was observed that 640 had a pressure greater than 14 mmHg and 1450 had between 10 and 14 mmHg.
+Assuming that the systolic pressure in males older than 18 is normally distributed,
+
+1. Compute the mean and the standard deviation.
+2. Compute how many males had a systolic pressure between 11 and 13 mmHg.
+3. Compute the value of the systolic pressure such that there was 300 males with a systolic pressure above it.
+
+
+```{r}
+p1 <- 640/2400
+p2 <- 1450/2400
+x <- matrix(c(1,1,qnorm(p1,lower.tail = FALSE),qnorm((1-p1)-p2)),nrow = 2, byrow =FALSE) 
+y <- c(14,10)
+sol <- solve(x, y)
+m <- sol[1]
+s <- sol[2]
+p3 <- pnorm(13,m,s)-pnorm(11,m,s)
+q1 <- qnorm(300/2400,m,s,lower.tail = F)
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Let $X$ be the systolic pressure, $X\sim N(`r m`, `r s`)$. <br/>
+2. $P(10\leq X\leq 13)=`r p3`$ and there are $`r p3*2400`$ persons with a systolic pressure between 11 and 13 mmHg. <br/>
+3. 300 males have a systolic pressure above `r round(q1,2)` mmHg.
+</div>
+
+
+## Question 3
+The average number of people that enters the intensive care unit of a hospital in an 8-hours shift is $1.4$.
+
+1. Compute the probability that a day enter more than 3 persons in the ICU.
+2. Compute the probability that in a week there are more than one day with less than 3 persons entering the ICU.
+
+
+```{r}
+p1 <- ppois(3, 4.2, lower.tail = FALSE)
+p2 <- ppois(2, 4.2)
+p3 <- pbinom(1,7,p2,lower.tail = FALSE)
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Let $X$ be the number of persons that enter in the ICU in a day. $X\sim P(4.2)$ and $P(X>3)=`r p1`$. <br/>
+2. Let $Y$ be the number of days in a week with less than 3 persons entering the ICU. $Y\sim B(7,`r p2`)$ and $P(Y>1)=`r p3`$.
+</div>
+
+
+## Question 4
+Two hospitals use different tests $A$ and $B$ to detect a streptococcal infection.
+The tables below show the results of applying these tests in each hospital during the last year.
+
+$$
+      \begin{array}{ccc}
+      \mbox{First hospital} (A) & \quad & \mbox{Second hospital} (B) \\
+      \begin{array}{|l|r|r|}
+      \hline
+       & \mbox{Test} + & \mbox{Test} - \\
+      \hline
+      \mbox{Infected}              & 705      & 65       \\
+      \hline
+      \mbox{Non infected}          & 120      & 4110     \\
+      \hline
+      \end{array}
+                           &
+                           &
+      \begin{array}{|l|r|r|}
+      \hline
+       & \mbox{Test} + & \mbox{Test} - \\
+      \hline
+      \mbox{Infected}              & 1710     & 70       \\
+      \hline
+      \mbox{Non infected}          & 415      & 7805     \\
+      \hline
+      \end{array}
+      \end{array}
+$$
+
+1. Compute the probability of a correct diagnostic with test $A$.
+2. Compute the positive predicted value of test $A$.
+3. Compute the negative predicted value of test $B$.
+4. How can these tests be combined to reduce the risk of wrong diagnosis?
+
+
+```{r question4}
+# Test A
+TPA <- 705
+FNA <- 65
+FPA <- 120
+TNA <- 4110
+nA <- TPA+FNA+FPA+TNA
+PPVA <- TPA/(TPA+FPA)
+NPVA <- TNA/(FNA+TNA)
+# Test B
+TPB <- 1710
+FNB <- 70
+FPB <- 415
+TNB <- 7805
+nB <- TPB+FNB+FPB+TNB
+PPVB <- TPB/(TPB+FPB)
+NPVB <- TNB/(FNB+TNB)
+```
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $P(\mbox{Correct diagnotic})=`r round((TPA+TNA)/nA, 4)`$.<br/>
+2. $PPV_A=`r round(PPVA, 4)`$.<br/>
+3. $NPV_B=`r round(NPVB, 4)`$.<br/>
+4. $NPV_A=`r round(NPVA, 4)`$ and $PPV_B=`r round(PPVB, 4)`$. Since $B$ has the higher negative predicted value and $A$ the higher positive predicted value, it is better to use test $B$ first to rule out the infection and then apply test $A$ only to individuals with a positive outome in test $B$, to confirm the infection.
+</div>
+
+
