@@ -1,0 +1,284 @@
+---
+layout: book
+title: Examen de Estadística
+description: "Solución del examen"
+tags: [Examen, Estadística, Bioestadística, Farmacia, Biotecnología]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+# Colors
+col1 <- rgb(5,161,230,255,maxColorValue = 255) #0099CC
+col1light <- rgb(137,211,243,255,maxColorValue = 255) #89D3F3
+col2 <- rgb(238,50,36,255,maxColorValue = 255) #FF3333
+col2light <- rgb(238,50,36,100,maxColorValue = 255) #FF3333
+```
+
+Grados: Farmacia y Biotecnología  
+Fecha: 17 de Diciembre de 2018 
+
+## Ejercicio 1
+
+El siguiente gráfico representa la distribución acumulada del número de fármacos defectuosos diarios producidos por una máquina en una muestra de 40 fármacos.
+```{r question1}
+x <- c(0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10)
+y <- c(0,1,1,4,4,10,10,17,17,25,25,31,31,36,36,38,38,39,39,40,40)
+plot(x,y,  type = "n", main="Distribución acumulada de fármacos defectuosos", xlab="Número de fármacos defectuosos", ylab="Días", yaxt="n", xaxt="n")
+abline(h=(seq(0,40,2)), col="gray", lty="dotted")
+lines(x,y)
+axis(1, at=0:9)
+axis(2, at=seq(0,40,2), las=1)
+# SOLUTION
+x <- rep(0:9,c(1,3,6,7,8,6,5,2,1,1))
+n <- length(x) 
+mx <- mean(x)
+sx <- stdev(x)
+g1x <- sum((x-mx)^3)/(n*sx^3)
+my <- 3*mx+2
+sy <- 3*sx
+cvx <- sx/mx
+cvy <- sy/my
+zx <- (3-mx)/sx
+zy <- (9-my)/sy
+```
+
+1. Construir la tabla de frecuencias del número de fármacos defectuosos.
+2. Dibujar el diagrama de caja y bigotes del número de fármacos defectuosos.
+3. Estudiar la asimetría de la distribución del número de fármacos defectuosos.
+4. Si el número de fármacos defectuosos producidos por una segunda máquina sigue la ecuación $y=3x+2$, donde $x$ e $y$ son el número de fármacos defectuosos producidos con la primera y la segunda máquina respectivamente, ¿en qué máquina es más representativa la media del número de fármacos defectuosos?
+5. ¿Qué número de fármacos defectuosos es relativamente menor, 3 fármacos en la primera máquina o 9 fármacos en la segunda?
+      
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+1. $$\begin{array}{|c|r|r|r|r|}
+\hline
+\mbox{Fármacos defectuosos} & n_i & f_i & N_i & F_i\\
+\hline
+0 & 1 & 0.025 & 1 & 0.025\\
+1 & 3 & 0.075 & 4 & 0.100\\
+2 & 6 & 0.150 & 10 & 0.250\\
+3 & 7 & 0.175 & 17 & 0.425\\
+4 & 8 & 0.200 & 25 & 0.625\\
+5 & 6 & 0.150 & 31 & 0.775\\
+6 & 5 & 0.125 & 36 & 0.900\\
+7 & 2 & 0.050 & 38 & 0.950\\
+8 & 1 & 0.025 & 39 & 0.975\\
+9 & 1 & 0.025 & 40 & 1.000\\
+\hline
+\end{array}
+$$<br/>
+2. 
+```{r boxplot}
+data <- data.frame(x)
+f.bxp = function(x) {
+  bxp = c(0,2,4,5,9)
+  names(bxp) = c("ymin","lower", "middle","upper","ymax")
+  bxp
+}  
+ggplot(data, aes(0, y=x)) + 
+  stat_summary(fun.data=f.bxp, geom="boxplot", fill=col1, width=0.1) +
+  scale_y_discrete(limits=0:9) + 
+  scale_x_discrete(limits=c()) +
+  labs(title="Diagrama de caja del número diario de fármacos defectuosos",x="", y = "Nº de fármacos defectuosos") + coord_flip()
+```
+<br/>
+3. $\bar x=`r round(mx,4)`$ fármacos, $s_x=`r round(sx,4)`$ fármacos y $g_1=`r round(g1x,4)`$. Por tanto, la distribución es un poco asimétrica hacia la derecha. <br/>
+4. $cv_x=`r round(cvx,4)`$,<br/>
+$\bar y=`r round(my,4)`$ fármacos, $s_y=`r round(sy,4)`$ fármacos y $cv_y=`r round(cvy,4)`$.<br/>
+Así pues, la media de $y$ es más representativa que la media de $x$ ya que su coeficiente de variación es menor.<br/>
+5. $z_x=`r round(zx,4)`$ y $z_y=`r round(zy,4)`$, por tanto, 9 fármacos defectuosos en la máquina $y$ es relativamente menor. 
+</div>
+
+## Ejercicio 2
+
+```{r data-question-2}
+## DATA GENERATION
+
+## Ejercicio/ANSWER GENERATION
+# sample size
+n <- 20
+sumx <- 265.4
+sumy <- 262.5
+sumz <- 262.4
+sumx2 <- 3701.14
+sumy2 <- 3629.41
+sumz2 <- 3615.38
+sumxz <- 3655.95
+sumyz <- 3613.97
+# Means
+mx <- sumx/n
+my <- sumy/n
+mz <- sumz/n
+# Variances
+s2x <- sumx2/n-mx^2
+s2y <- sumy2/n-my^2
+s2z <- sumz2/n-mz^2
+# Covariances
+sxz <- sumxz/n-mx*mz
+syz <- sumyz/n-my*mz
+# Determination coeff
+r2xz <- sxz^2/(s2x*s2z)
+r2yz <- syz^2/(s2y*s2z)
+# Regression line of x on z
+b <- sxz/s2z
+a <- mx - b*mz
+# Predictions of x
+px <- a+b*13.5
+```
+
+Un laboratorio farmacéutico fabrica dos modelos de tensiómetro, uno de brazo y otro de muñeca.
+Para comprobar la precisión de los mismos se ha realizado un control de calidad tomando la tensión a 20 pacientes y se han obtenido obtenido los siguientes resultados:
+
+$\sum x_i=265.4$ mmHg, $\sum y_i=262.5$ mmHg , $\sum z_i=262.4$ mmHg,  
+$\sum x_i^2=3701.14$ mmHg$^2$, $\sum y_i^2=3629.41$ mmHg$^2$, $\sum z_i^2=3615.38$ mmHg$^2$,  
+$\sum x_iy_j=3658.28$ mmHg$^2$, $\sum x_iz_j=3655.95$ mmHg$^2$, $\sum y_jz_j=3613.97$ mmHg$^2$.
+
+Donde $X$ es la tensión con el tensiómetro de brazo, $Y$ con el tensiómetro de muñeca y $Z$ la tensión real.
+Se pide:
+
+1. ¿Qué tensiómetro predice mejor la tensión real?
+2. Si un paciente tiene una tensión real de $13.5$ mmHg, ¿qué se espera que marque el tensiómetro de brazo?
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+1. Presión arterial con el tensiómetro de brazo: $\bar x=`r round(mx,4)`$ mmHg,  $s^2_x=`r round(s2x, 4)`$ mmHg².<br/>
+Presión arterial con el tensiómetro de muñeca: $\bar y=`r round(my,4)`$ mmHg,  $s^2_y=`r round(s2y, 4)`$ mmHg².<br/>
+Presión arterial real: $\bar z=`r round(mz,4)`$ mmHg,  $s^2_z=`r round(s2z, 4)`$ mmHg².<br/>
+$s_{xz}=`r round(sxz,4)`$ mmHg², $s_{yz}=`r round(syz,4)`$ mmHg², $r^2_{xz}=`r round(r2xz,4)`$ y $r^2_{yz}=`r round(r2yz,4)`$.<br/>
+Así pues, el tensiómetro de brazo predice mejor la presión arterial real con un modelo de regresión lineal ya que el coeficiente de determinación lineal es mayor.<br/>
+2. Recta de regresión de $X$ sobre $Z$: $x=`r round(a,4)`+`r round(b,4)`z$.<br/>
+Predicción: $x(13.5)=`r round(px,4)`$ mmHg.<br/>
+</div>
+
+## Ejercicio 3
+
+La recta de regresión de $Y$ sobre $X$ es $y=1.2x-0.6$.
+Se pide:
+
+<style type="text/css">
+   ol ol { list-style-type: lower-alpha; }
+</style>
+1. Indicar razonadamente cuáles de las siguientes rectas no pueden ser las recta de regresión de $X$ sobre $Y$.
+    1. $x=0.9y-0.6$
+    2. $x=-0.7y+0.4$
+    3. $x=0.8y-0.7$
+    4. $x=-0.6y-0.5$
+    5. $x=0.4y-0.6$
+    6. $x=-0.5y+0.9$
+2. Entre las que puedan ser indicar razonadamente con cuál de ellas serían más fiables las predicciones.
+      
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+1. (b), (d) y (f) no son posibles porque tienen pendiente negativa, y (a) no es posible porque el coeficiente de determinanción lineal es mayor que 1.<br/>
+2. (c) da las mejores predicciones porque su coeficiente de determinación es mayor. 
+</div>
+
+## Ejercicio 4
+
+```{r question4}
+# F exposure to the factor (the contrary is the control group) and E medical event
+# DATA
+nE <- 400
+nNoE <- 1200
+nFE <- 180
+nNoFE <- nE-nFE
+nNoFNoE <- 1140
+nFNoE <- nNoE-nNoFNoE
+# SOLUTION
+rr <- (nFE/nE)/(nFNoE/nNoE)
+or <- (nFE/nFNoE)/(nNoFE/nNoFNoE)
+```
+
+En un estudio epidemiológico se tomó una muestra de 400 personas con cáncer de pulmón y otra de 1200 sin cáncer de pulmón.
+Entre las personas con cáncer de pulmón se observó que había 180 fumadoras, mientras que entre las personas sin cáncer de pulmón había 1140 no fumadoras.
+Se pide:
+
+1. Calcular el riesgo relativo de desarrollar cáncer al fumar e interpretarlo.
+2. Calcular el odds ratio de desarrollar cáncer al fumar e interpretarlo.
+            
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+Sea $C$ el evento correspondiente a tener cáncer de pulmón. <br/>
+1. $RR(C)=`r round(rr,4)`$. Esto quiere decir que la probabilidad de tener cancer de pulmón al fumar es 9 veces mayor que sin fumar.<br/>
+2. $OR(C)=`r round(or,4)`$. Como es positivo existe una asociación directa entre fumar y tener cáncer de pulmón. El odds de tener cáncer de pulmón si se fumna es más the 15 veces mayor que si no se fuma.
+</div>
+      
+## Ejercicio 5
+
+```{r question5}
+#DATA
+npv <- 0.9
+pD <- 0.15
+sen <- 0.8
+# SOLUTION
+spe <- 0.3176
+pTP <- pD*sen
+pFN <- pD*(1-sen)
+pFP <- (1-pD)*(1-spe)
+pTN <- (1-pD)*spe
+```
+
+Se quiere desarrollar un test diagnóstico que sirva para descartar una enfermedad cuando el test es negativo (valor predictivo negativo) con al menos una probabilidad del 90% para aplicarlo en una población en la que se sabe que hay un 15% de individuos que presentan la enfermedad.
+Si la sensibilidad del test se ha establecido en un 80%,
+
+1. ¿Qué especificidad mínima tendría que tener el test?
+2. ¿Cuál sería en ese caso su probabilidad de diagnóstico correcto?
+3. ¿Cuál sería la probabilidad de descartar la enfermedad en un paciente que se le ha aplicado dos veces el test y ha dado negativo en ambos casos?
+      
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+Sea $E$ el evento correspondiente a tener la enfermedad y $+$ y $-$ los eventos correspondientes a tener un resultado positivo o negativo en el test diagnóstico respectivamente.<br/>
+1. Especificidad mínima $P(-|\overline{E})=`r round(spe,4)`$.<br/>
+2. $P(VP) + P(VN) = P(E\cap +) + P(\overline{E}\cap -) = `r round(pTP,4)`+`r round(pTN,4)` = `r round(pTP+pTN,4)`$.<br/>
+3. $P(\overline{E}| -_1\cap -_2)=0.9346$.
+</div>
+
+## Ejercicio 6
+
+```{r question6}
+#DATA
+n1 <- 200
+pAB <- 1/20
+p1 <- ppois(4, n1*pAB, lower.tail = F)
+n2 <- 10
+pNoAB <- 1-pAB
+p2 <- pbinom(8, n2, pNoAB, lower.tail = F)
+```
+
+Se sabe que en una ciudad una de cada 20 personas, por término medio, tiene sangre del tipo $AB$.
+
+1. Si se eligen al azar doscientos donantes de sangre, ¿cuál es la probabilidad de que al menos 5 tengan sangre de tipo $AB$?
+2. Si se eligen al azar 10 personas, ¿cuál es la probabilidad de que haya más de 8 con grupo sanguíneo distinto de $AB$?
+
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+1. Sea $X$ el número de donantes con grupo sanguíneo $AB$ en una muestra de 200 donantes de sangre. Entonces, $X\sim B(`r n1`,1/20)\approx P(`r round(n1*pAB,4)`)$, y $P(X\geq 5)=`r round(p1,4)`$.<br/>
+2. Sea $Y$ el número de donantes con grupo sanguíneo distinto de $AB$ en una muestra de 10 donantes. Entonces, $Y\sim B(`r n2`,19/20)$, y $P(Y>8)=`r round(p2,4)`$.
+</div>
+
+## Ejercicio 7
+
+En una asignatura hay 230 alumnos, de los cuales 150 son chicas y 80 chicos.
+Se sabe que las notas siguen distribuciones normales con la misma desviación típica en las chicas y en los chicos.
+Si hay 120 chicas y 56 chicos que tienen una nota superior a 5 y 36 chicos tienen una nota entre 5 y 7.
+Se pide:
+
+1. Las medias y las desviaciones típicas de las notas de chicas y chicos.
+2. ¿Cuántas chicas tendrán una nota entre 4.5 y 8?
+3. ¿Por encima de qué nota estarán el 10% de las chicas?
+      
+<div><button class="solution">Mostrar solución</button></div>
+<div id="solution" style="display: none">
+Sea $X$ la nota de un chico aleatorio del curso e $Y$ la nota de una chica aleatoria del curso. Entonces, $X\sim N(\mu_x,\sigma)$ y $Y\sim N(\mu_y,\sigma)$.<br/>
+1. $\mu_x=5.87$, $\mu_y=6.41$ y $\sigma=1.68$.<br/>
+2. $P(4.5\leq Y\leq 8) = 0.7018$, es decir, $105.27$ chicas.<br/>
+3. $P_{90}=8.8$. 
+</div>
+

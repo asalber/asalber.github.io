@@ -13,3 +13,4 @@ image: abaco.jpg
 - [Exam of Jan 1, 2017](pharmacy-2017-01-10.html)
 - [Exam of Nov 6, 2017](pharmacy-2017-11-06.html)
 - [Exam of Jan 19, 2018](pharmacy-2018-01-19.html)
+- [Exam of Dic 17, 2018](pharmacy-2018-12-17.html)

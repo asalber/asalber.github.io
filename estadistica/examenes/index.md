@@ -17,6 +17,7 @@ image: cabecera-estadistica.jpg
 - [Examen del 10 de enero de 2017](farmacia-2017-01-10.html)
 - [Examen del 27 de noviembre de 2017](farmacia-2017-11-27.html)
 - [Examen del 19 de enero de 2018](farmacia-2018-01-19.html)
+- [Examen del 17 de diciembre de 2018](farmacia-2018-12-17.html) 
 
 ## Fisioterapia
 

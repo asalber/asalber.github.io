@@ -1,0 +1,279 @@
+---
+layout: book
+title: Statistics exam
+description: "Solution of the exam"
+tags: [Exam, Statistics, Biostatistics, Pharmacy, Biotechnology]
+share: true
+image: cabecera-estadistica.jpg
+---
+
+```{r global_options, include=FALSE}
+library(knitr)
+library(printr)
+library(rk.Teaching)
+options(digits=4, scipen=999)
+opts_chunk$set(comment=NA, fig.width=8, fig.height=6, fig.path='img/', fig.align="center", dev="svg", digits=4, echo=FALSE, warning=FALSE, message=FALSE)
+# Colors
+col1 <- rgb(5,161,230,255,maxColorValue = 255) #0099CC
+col1light <- rgb(137,211,243,255,maxColorValue = 255) #89D3F3
+col2 <- rgb(238,50,36,255,maxColorValue = 255) #FF3333
+col2light <- rgb(238,50,36,100,maxColorValue = 255) #FF3333
+```
+
+Degrees: Pharmacy, Biotechnology  
+Date: December 17, 2018 
+
+## Question 1
+
+The chart below represents the cumulative distribution of the number of daily defective drugs produced by a machine in a sample of 40 days.
+```{r question1}
+x <- c(0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10)
+y <- c(0,1,1,4,4,10,10,17,17,25,25,31,31,36,36,38,38,39,39,40,40)
+plot(x,y,  type = "n", main="Cumulative distribution of defective drugs", xlab="Num of defective drugs", ylab="Days", yaxt="n", xaxt="n")
+abline(h=(seq(0,40,2)), col="gray", lty="dotted")
+lines(x,y)
+axis(1, at=0:9)
+axis(2, at=seq(0,40,2), las=1)
+# SOLUTION
+x <- rep(0:9,c(1,3,6,7,8,6,5,2,1,1))
+n <- length(x) 
+mx <- mean(x)
+sx <- stdev(x)
+g1x <- sum((x-mx)^3)/(n*sx^3)
+my <- 3*mx+2
+sy <- 3*sx
+cvx <- sx/mx
+cvy <- sy/my
+zx <- (3-mx)/sx
+zy <- (9-my)/sy
+```
+
+
+1. Construct the frequency table of the number of defective drugs.
+2. Draw the box and whiskers plot of the number of defective drugs.
+3. Study the symmetry of the distribution of the number of defective drugs.
+4. If the number of defective drugs produced by a second machine follows the equation $y=3x+2$, where $x$ and $y$ are the number of defective drugs with the first and the second machines respectively, in which machine is more representative the mean of the number of defective drugs?
+5. Which number of defective drugs is relatively smaller, 3 drugs in the first machine or 9 in the second one?
+       
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. $$\begin{array}{|c|r|r|r|r|}
+\hline
+\mbox{Defective drugs} & n_i & f_i & N_i & F_i\\
+\hline
+0 & 1 & 0.025 & 1 & 0.025\\
+1 & 3 & 0.075 & 4 & 0.100\\
+2 & 6 & 0.150 & 10 & 0.250\\
+3 & 7 & 0.175 & 17 & 0.425\\
+4 & 8 & 0.200 & 25 & 0.625\\
+5 & 6 & 0.150 & 31 & 0.775\\
+6 & 5 & 0.125 & 36 & 0.900\\
+7 & 2 & 0.050 & 38 & 0.950\\
+8 & 1 & 0.025 & 39 & 0.975\\
+9 & 1 & 0.025 & 40 & 1.000\\
+\hline
+\end{array}
+$$<br/>
+2. 
+```{r boxplot}
+data <- data.frame(x)
+f.bxp = function(x) {
+  bxp = c(0,2,4,5,9)
+  names(bxp) = c("ymin","lower", "middle","upper","ymax")
+  bxp
+}  
+ggplot(data, aes(0, y=x)) + 
+  stat_summary(fun.data=f.bxp, geom="boxplot", fill=col1, width=0.1) +
+  scale_y_discrete(limits=0:9) + 
+  scale_x_discrete(limits=c()) +
+  labs(title="Boxplot of the daily number of defective drugs",x="", y = "Num of defective drugs") + coord_flip()
+```
+<br/>
+3. $\bar x=`r round(mx,4)`$ drugs, $s_x=`r round(sx,4)`$ drugs and $g_1=`r round(g1x,4)`$. Thus the distribution is a little bit right-skewed. <br/>
+4. $cv_x=`r round(cvx,4)`$,<br/>
+$\bar y=`r round(my,4)`$ drugs, $s_y=`r round(sy,4)`$ drugs and $cv_y=`r round(cvy,4)`$.<br/>
+Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.<br/>
+5. $z_x=`r round(zx,4)`$ and $z_y=`r round(zy,4)`$, therefore 9 defective drugs in the $y$ machine is relatively smaller. 
+</div>
+
+## Question 2
+
+```{r data-question-2}
+## DATA GENERATION
+
+## QUESTION/ANSWER GENERATION
+# sample size
+n <- 20
+sumx <- 265.4
+sumy <- 262.5
+sumz <- 262.4
+sumx2 <- 3701.14
+sumy2 <- 3629.41
+sumz2 <- 3615.38
+sumxz <- 3655.95
+sumyz <- 3613.97
+# Means
+mx <- sumx/n
+my <- sumy/n
+mz <- sumz/n
+# Variances
+s2x <- sumx2/n-mx^2
+s2y <- sumy2/n-my^2
+s2z <- sumz2/n-mz^2
+# Covariances
+sxz <- sumxz/n-mx*mz
+syz <- sumyz/n-my*mz
+# Determination coeff
+r2xz <- sxz^2/(s2x*s2z)
+r2yz <- syz^2/(s2y*s2z)
+# Regression line of x on z
+b <- sxz/s2z
+a <- mx - b*mz
+# Predictions of x
+px <- a+b*13.5
+```
+
+A pharmaceutical laboratory produces two models of blood pressure monitor, one for the arm and the other for the wrist.
+To compare the accuracy of both blood pressure monitors, a quality control has been conducted with a sample of 20 patients, getting the following results:
+
+$\sum x_i=265.4$ mmHg, $\sum y_i=262.5$ mmHg , $\sum z_i=262.4$ mmHg,  
+$\sum x_i^2=3701.14$ mmHg$^2$, $\sum y_i^2=3629.41$ mmHg$^2$, $\sum z_i^2=3615.38$ mmHg$^2$,  
+$\sum x_iy_j=3658.28$ mmHg$^2$, $\sum x_iz_j=3655.95$ mmHg$^2$, $\sum y_jz_j=3613.97$ mmHg$^2$.
+
+Where $X$ is the blood pressure with the arm monitor, $Y$ with the wrist monitor and $Z$ the real blood pressure.
+
+1. Which blood pressure monitor predicts better the real blood pressure with a linear regression model?
+2. If a patient has a real blood pressure of $13.5$ mmHg, what is the expected blood pressure given by the arm blood pressure monitor?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Blood pressure with the arm monitor: $\bar x=`r round(mx,4)`$ mmHg,  $s^2_x=`r round(s2x, 4)`$ mmHg².<br/>
+Blood pressure with the wrist monitor: $\bar y=`r round(my,4)`$ mmHg,  $s^2_y=`r round(s2y, 4)`$ mmHg².<br/>
+Real blood pressure: $\bar z=`r round(mz,4)`$ mmHg,  $s^2_z=`r round(s2z, 4)`$ mmHg².<br/>
+$s_{xz}=`r round(sxz,4)`$ mmHg², $s_{yz}=`r round(syz,4)`$ mmHg², $r^2_{xz}=`r round(r2xz,4)`$ and $r^2_{yz}=`r round(r2yz,4)`$.<br/>
+Thus, the arm monitor predicts better the real pressure with a linear regression model since its linear coef. of determination is greater.<br/>
+2. Regression line of $X$ on $Z$: $x=`r round(a,4)`+`r round(b,4)`z$.<br/>
+Prediction: $x(13.5)=`r round(px,4)`$ mmHg.<br/>
+</div>
+
+## Question 3
+
+The regression line of $Y$ on $X$ is $y=1.2x-0.6$.
+
+<style type="text/css">
+   ol ol { list-style-type: lower-alpha; }
+</style>
+1. Which of the following lines can not be the regression line of $X$ on $Y$. Justify the answer.
+    1. $x=0.9y-0.6$
+    2. $x=-0.7y+0.4$
+    3. $x=0.8y-0.7$
+    4. $x=-0.6y-0.5$
+    5. $x=0.4y-0.6$
+    6. $x=-0.5y+0.9$
+2. Considering only the ones that can be the regression line of $X$ on $Y$, which one will give better predictions? Justify the answer.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. (b), (d) and (f) are not possible because the slope is negative, and (a) is not possible because the coef. of determination is greater than 1. <br/>
+2. (c) gives better predictions because its coef. of determination is greater. 
+</div>
+
+## Question 4
+
+```{r question4}
+# F exposure to the factor (the contrary is the control group) and E medical event
+# DATA
+nE <- 400
+nNoE <- 1200
+nFE <- 180
+nNoFE <- nE-nFE
+nNoFNoE <- 1140
+nFNoE <- nNoE-nNoFNoE
+# SOLUTION
+rr <- (nFE/nE)/(nFNoE/nNoE)
+or <- (nFE/nFNoE)/(nNoFE/nNoFNoE)
+```
+
+In an epidemiological study a sample of `r nE` persons with breast cancer was drawn and another sample of `r nNoE` persons without breast cancer.
+In the sample of persons with breast cancer there was `r nFE` smokers, while in the sample of persons without breast cancer there was `r nNoFNoE` non-smokers.
+
+1. Compute the relative risk of developing cancer smoking and interpret it.
+1. Compute the odds ratio of developing cancer smoking and interpret it.
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Let $C$ be the event of having cancer. <br/>
+1. $RR(C)=`r round(rr,4)`$. That means that the probability of having cancer smoking is 9 times higher than non-smoking.<br/>
+2. $OR(C)=`r round(or,4)`$. As is posibive there is a direct association between smoking and having cancer. The odds of having cancer smoking is more than 15 times greater than non-smoking. 
+</div>
+      
+## Question 5
+
+```{r question5}
+#DATA
+npv <- 0.9
+pD <- 0.15
+sen <- 0.8
+# SOLUTION
+spe <- 0.3176
+pTP <- pD*sen
+pFN <- pD*(1-sen)
+pFP <- (1-pD)*(1-spe)
+pTN <- (1-pD)*spe
+```
+
+We want to develop a diagnostic test to rule out a disease when the outcome of the test is negative (negative predictive value) with a probability 90% at least.
+It is known that the prevalence of the disease in the population is 15% and the sensitivity of the test is set to 80%.
+
+1. What must be the minimum specificity of the test?
+2. Using the previous specificity, compute the probability of a correct diagnostic.
+3. If we apply the same test two times to the same patient with negative outcomes, what is the probability of ruling out the disease?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Let $D$ be the event of having the disease and $+$ and $-$ the events of getting a positive and a negative outcome in the diagnostic test respectively. <br/>
+1. Minimum specificity $P(-|\overline{D})=`r round(spe,4)`$.<br/>
+2. $P(TP) + P(TN) = P(D\cap +) + P(\overline{D}\cap -) = `r round(pTP,4)`+`r round(pTN,4)` = `r round(pTP+pTN,4)`$.<br/>
+3. $P(\overline{D}| -_1\cap -_2)=0.9346$.
+</div>
+
+## Question 6
+
+```{r question6}
+#DATA
+n1 <- 200
+pAB <- 1/20
+p1 <- ppois(4, n1*pAB, lower.tail = F)
+n2 <- 10
+pNoAB <- 1-pAB
+p2 <- pbinom(8, n2, pNoAB, lower.tail = F)
+```
+
+It is known that in a city one out of 20 persons, in average, has blood type $AB$.
+
+1. If we draw randomly 200 blood donors, what is the probability of having at least 5 with blood type $AB$?
+2. If we draw randomly 10 blood donors, what is the probability of having more than 8 with blood type different of $AB$?
+
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+1. Let $X$ be the number of donors with blood type $AB$ in a sample of 200 blood donors. Then $X\sim B(`r n1`,1/20)\approx P(`r round(n1*pAB,4)`)$, and $P(X\geq 5)=`r round(p1,4)`$.<br/>
+2. Let $Y$ be the number of donors with no blood type $AB$ in a sample of 10 blood donors. Then $Y\sim B(`r n2`,19/20)$, and $P(Y>8)=`r round(p2,4)`$.
+</div>
+
+## Question 7
+
+In a course there are 150 females and 80 males.
+It is known that the distribution of scores of females and males are normal with the same standard deviation.
+It is also known that there are 120 females and 56 males with a score greater than 5, and 36 males with a score between 5 and 7.
+
+1. Compute the means and standard deviations of the distributions of scores of females and males.
+2. How many females will have a score between 4.5 and 8?
+3. Above what score will be 10% of females?
+      
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
+Let $X$ be score of a random male in the course and $Y$ the score of a random female in the course. Then $X\sim N(\mu_x,\sigma)$ and $Y\sim N(\mu_y,\sigma)$.<br/>
+1. $\mu_x=5.87$, $\mu_y=6.41$ and $\sigma=1.68$.<br/>
+2. $P(4.5\leq Y\leq 8) = 0.7018$, that is, $105.27$ females.<br/>
+3. $P_{90}=8.8$. 
+</div>
