@@ -4,7 +4,7 @@ title: Ejercicios de Python
 description: "Colección de ejercicios resueltos"
 tags: [Ejercicios, Python]
 share: true
-image: dados.jpg
+image: logo-python.png
 ---
 
 Esta sección contiene una colección de ejercicios resueltos de programación con Python.
