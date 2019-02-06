@@ -53,59 +53,76 @@
 		<li>
 			<a href="#">Cálculo</a>
 			<ul class="dl-submenu">
-				{% for link in site.calculo %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+				{% for link in site.calculo %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{%
+					else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
 			</ul><!-- /.dl-submenu -->
 		</li>
 		<li>
-		<a href="#">Calculus</a>
+			<a href="#">Calculus</a>
 			<ul class="dl-submenu">
-				{% for link in site.calculus %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+				{% for link in site.calculus %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{%
+					else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
 			</ul><!-- /.dl-submenu -->
 		</li>
 		<li>
 			<a href="#">Derive</a>
 			<ul class="dl-submenu">
-				{% for link in site.derive %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+				{% for link in site.derive %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{%
+					else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
 			</ul><!-- /.dl-submenu -->
 		</li>
 		<li>
 			<a href="#">Excel</a>
 			<ul class="dl-submenu">
-				{% for link in site.excel %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+				{% for link in site.excel %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{%
+					else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
 			</ul><!-- /.dl-submenu -->
 		</li>
 		<li>
-      <a href="#">Estadística</a>
-      <ul class="dl-submenu">
-          {% for link in site.estadistica %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
-      </ul><!-- /.dl-submenu -->
+			<a href="#">Estadística</a>
+			<ul class="dl-submenu">
+				{% for link in site.estadistica %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title
+						}}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+			</ul><!-- /.dl-submenu -->
 		</li>
 		<li>
 			<a href="#">Geogebra</a>
 			<ul class="dl-submenu">
-				{% for link in site.geogebra %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+				{% for link in site.geogebra %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{%
+					else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
 			</ul><!-- /.dl-submenu -->
 		</li>
-    <li>
-        <a href="#">R</a>
-        <ul class="dl-submenu">
-            {% for link in site.r %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
-        </ul><!-- /.dl-submenu -->
-    </li>
-    <li>
-        <a href="#">SPSS</a>
-        <ul class="dl-submenu">
-            {% for link in site.spss %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
-        </ul><!-- /.dl-submenu -->
-    </li>
 		<li>
-				<a href="#">Statistics</a>
-				<ul class="dl-submenu">
-					{% for link in site.statistics %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
-				</ul><!-- /.dl-submenu -->
+			<a href="#">Python</a>
+			<ul class="dl-submenu">
+				{% for link in site.python %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{%
+					else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+			</ul><!-- /.dl-submenu -->
 		</li>
-    <li>
-			{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}{% endfor %}
+		<li>
+			<a href="#">R</a>
+			<ul class="dl-submenu">
+				{% for link in site.r %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{%
+					else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">SPSS</a>
+			<ul class="dl-submenu">
+				{% for link in site.spss %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{%
+					else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Statistics</a>
+			<ul class="dl-submenu">
+				{% for link in site.statistics %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title
+						}}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{
+				link.title }}</a>{% endif %}{% endfor %}
 		</li>
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->

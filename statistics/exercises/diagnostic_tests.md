@@ -7,10 +7,7 @@ share: true
 image: dados.jpg
 ---
 
-
-
 ## Exercise 1
-
 
 A test was applied to a sample of people in order to evaluate its effectiveness; the results are as follows:
 
