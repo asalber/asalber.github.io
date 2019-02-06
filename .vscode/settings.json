@@ -1,3 +1,10 @@
 {
-  "cSpell.language": "es,en"
+  "cSpell.language": "es,en",
+  "python.linting.pylintEnabled": true,
+  "python.unitTest.pyTestArgs": [
+    "estadistica"
+  ],
+  "python.unitTest.unittestEnabled": false,
+  "python.unitTest.nosetestsEnabled": false,
+  "python.unitTest.pyTestEnabled": true
 }
