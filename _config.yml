@@ -65,9 +65,9 @@ r:
     url: /estadistica/rkteaching/videotutorial/
 python: 
   - title: Manual de Python
-    url: /py/manual/
+    url: /python/manual/
   - title: Ejercicios de Python
-    url: /py/ejercicios/
+    url: /python/ejercicios/
 spss:
   - title: Bioestadística con SPSS
     url: /estadistica/spss/
