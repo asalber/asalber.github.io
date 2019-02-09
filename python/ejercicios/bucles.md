@@ -83,4 +83,3 @@ Escribir un programa que pida al usuario un número entero y muestre por pantall
 
 [Solución](https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio10.ipynb)
 
-## Ejercicio 10
