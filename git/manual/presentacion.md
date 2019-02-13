@@ -2,15 +2,17 @@
 theme : "white"
 transition: "zoom"
 highlightTheme: "darkula"
-logoImg: "../../images/logo-git.png"
+logoImg: "https://github.com/asalber/asalber.github.io/raw/master/images/logo-git.png"
 slideNumber: true
 ---
 
-# vscode-reveal
+# Introducción a GIT
 
-### Awesome VS code extension using The HTML Presentation Framework Revealjs
+### Sistema de control de versiones
 
-<small>Created by [Hakim El Hattab](http://hakim.se) / [@hakimel](http://twitter.com/hakimel)</small>
+Autor [Alfredo Sánchez Alberca](http://aprendeconalf.es)
+
+<img width="178" height="238" data-src="../../images/logo-git.png" alt="Logo de Git">
 
 ---
 
