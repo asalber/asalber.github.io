@@ -1,6 +1,6 @@
 ---
 layout: book
-title: "Ejercicios de Git: Creación y actualización de repositorios"
+title: "Ejercicios de Git: Deshacer cambios"
 description: "Colección de ejercicios resueltos"
 tags: [Ejercicios, Git]
 share: true
