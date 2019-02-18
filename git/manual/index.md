@@ -18,11 +18,11 @@ Este manual de Git introduce las operaciones más habituales del sistema de cont
 - Gestión de ramas
 - Colaboración
 
-## Descarga
+## [Descarga](http://aprendeconalf.es/manual-git)
 
-Este manual está disponible en formato pdf.
+# Este manual está disponible en formato pdf.
 
-[![Download pdf](/images/pdf_download.png)]()
+# [![Download pdf](/images/pdf_download.png)]()
 
 ## Licencia
 
