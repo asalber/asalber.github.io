@@ -3,7 +3,7 @@ layout: book
 title: Manual de Git
 description: El sistema de control de versiones más usado
 tags: [Manual, Git]
-image: log-git.jpg
+image: logo-git.png
 share: true
 ---
 
