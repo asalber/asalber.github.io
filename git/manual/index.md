@@ -11,18 +11,18 @@ Este manual de Git introduce las operaciones más habituales del sistema de cont
 
 # Tabla de Contenidos
 
-- Introducción
-- Creación y actualización de repositorios
-- Historial de cambios
-- Deshacer cambios
-- Gestión de ramas
-- Colaboración
+- [Introducción](http://aprendeconalf.es/manual-git/#/1)
+- [Creación y actualización de repositorios](http://aprendeconalf.es/manual-git/#/4)
+- [Historial de cambios](http://aprendeconalf.es/manual-git/#/7)
+- [Deshacer cambios](http://aprendeconalf.es/manual-git/#/9)
+- [Gestión de ramas](http://aprendeconalf.es/manual-git/#/10)
+- [Respositorios remotos](http://aprendeconalf.es/manual-git/#/11)
 
-## [Descarga](http://aprendeconalf.es/manual-git)
+## Descarga
 
-# Este manual está disponible en formato pdf.
+Este manual está disponible en formato pdf.
 
-# [![Download pdf](/images/pdf_download.png)]()
+[![Descargar pdf](/images/pdf_download.png)](manual-git.pdf)
 
 ## Licencia
 
