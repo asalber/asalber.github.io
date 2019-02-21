@@ -15,4 +15,4 @@ Los ejercicios siguen el orden más o menos habitual en el aprendizaje de este s
 - [Ejercicios sobre historial de cambios](/git/ejercicios/historial-cambios.html)
 - [Ejercicios sobre deshacer cambios](/git/ejercicios/deshacer-cambios.html)
 - [Ejercicios sobre ramas](/git/ejercicios/ramas.html)
-- [Ejercicios sobre colaboración](/git/ejercicios/colaboración.html)
+- [Ejercicios sobre colaboración](/git/ejercicios/repositorios-remotos.html)
