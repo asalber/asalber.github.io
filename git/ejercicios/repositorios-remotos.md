@@ -15,7 +15,7 @@ image: logo-git.png
 <div><button class="solution">Mostrar solución</button></div>
 <div id="solution" style="display: none">
 <pre class="highlight"><code># Crear el repositorio en GitHub y copiar su url con protocolo https.
-&gt; git remote add github <url>
+&gt; git remote add github url
 &gt; git remote -v
 </code></pre>
 </div>
