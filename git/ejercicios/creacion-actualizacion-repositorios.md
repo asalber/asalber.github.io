@@ -94,9 +94,9 @@ Realizar un commit de los últimos cambios con el mensaje "Añadido índice del 
 1. Cambiar el fichero `indice.txt` para que contenga lo siguiente:
     
     > Capítulo 1: Introducción a Git  
-    > Capítulo 2: Flujo de trabajo básico
-    > Capítulo 3: Gestión de ramas
-    > Capítulo 4: Repositorios remotos
+    Capítulo 2: Flujo de trabajo básico  
+    Capítulo 3: Gestión de ramas  
+    Capítulo 4: Repositorios remotos
 
 2. Mostrar los cambios con respecto a la última versión guardada en el repositorio.
 3. Hacer un commit de los cambios con el mensaje "Añadido capítulo 3 sobre gestión de ramas".
