@@ -81,8 +81,8 @@ Ctrl+D
 
 <div><button class="solution">Mostrar solución</button></div>
 <div id="solution" style="display: none">
-<pre class="highlight"><code># Hacer el fork del repositorio asalber/libro-git en GitHub y copiar la <url> del repositorio creado en la cuenta de GitHub del usuario.
-&gt; git clone <url>
+<pre class="highlight"><code># Hacer el fork del repositorio asalber/libro-git en GitHub y copiar la url del repositorio creado en la cuenta de GitHub del usuario.
+&gt; git clone url
 &gt; git checkout -b autoria
 # Editar con nano el fichero autores.txt y añadir el nombre y el correo electrónico del usuario en una nueva línea.
 &gt; git commit -am "Añadido nuevo autor."
