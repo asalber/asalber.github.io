@@ -52,8 +52,8 @@ image: logo-git.png
 
 <div><button class="solution">Mostrar solución</button></div>
 <div id="solution" style="display: none">
-<pre class="highlight"><code># Entrar en GigHub en el proyecto libro-git del que seamos colaboradores.
-&gt; git clone <url>
+<pre class="highlight"><code># Entrar en GigHub en el proyecto libro-git del que seamos colaboradores y copiar la url.
+&gt; git clone url
 &gt; cat > autores.txt
 # Escribir el nombre del autor y su correo.
 Ctrl+D
