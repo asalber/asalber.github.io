@@ -27,7 +27,7 @@ Escribir un programa que pida al usuario dos números y muestre por pantalla su 
 
 ## Ejercicio 4
 
-Para acceder tributar un determinado impuesto se debe ser mayor de 16 años y tener unos ingresos iguales o superiores a 1000 € mensuales.
+Para tributar un determinado impuesto se debe ser mayor de 16 años y tener unos ingresos iguales o superiores a 1000 € mensuales.
 Escribir un programa que pregunte al usuario su edad y sus ingresos mensuales y muestre por pantalla si el usuario tiene que tributar o no.
 
 [Solución](https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/condicionales/ejercicio4.ipynb)
