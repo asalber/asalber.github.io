@@ -120,11 +120,6 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   syntax_highlighter: rouge
 
-# Sass css styles
-sass:
-  sass_dir: _sass
-  style: compressed
-
 # Plugins
 plugins: [jekyll-paginate]
 
