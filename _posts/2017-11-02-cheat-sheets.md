@@ -9,10 +9,9 @@ share: true
 
 ![Cheat sheet](/images/cheatsheet.jpg){: .pull-right}
 
+A partir de ahora están disponibles varias hojas de fórmulas de cálculo y Estadística.
 
-A partir de ahora están disponibles varias hojas de fórmulas de cálculo y Estadística. 
-
-Estas hojas contienen un resumen con las principales fórmulas utilizadas en Cálculo y Estadística. 
+Estas hojas contienen un resumen con las principales fórmulas utilizadas en Cálculo y Estadística.
 
 <!--MORE-->
 
@@ -35,4 +34,3 @@ The cheat sheets can be downloaded from the following links:
 - [Statistics cheat sheets](http://aprendeconalf.es/statistics/cheatsheets/)
 
 I would appreciate if you inform me about any mistake that you detect in this sheets. 
-
