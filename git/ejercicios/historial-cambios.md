@@ -7,6 +7,15 @@ share: true
 image: logo-git.png
 ---
 
+<i class="fas fa-exclamation-triangle" style="color:red"></i> Para hacer estos ejercicios es necesario haber hecho antes los  [ejercicios de creación y actualización de repositorios](/git/ejercicios/creacion-actualizacion-repositorios.html) o bien hacer un clon del repositorio remoto https://github.com/asalber/libro-git mediante la siguiente secuencia de comandos:
+
+```
+> git clone https://github.com/asalber/libro-git.git
+> cd libro-git
+> git reset --hard 8c808
+> git remote remove origin
+```
+
 ## Ejercicio 1
 1. Mostrar el historial de cambios del repositorio.
 2. Crear la carpeta `capitulos` y crear dentro de ella el fichero `capitulo1.txt` con el siguiente texto.
@@ -79,7 +88,7 @@ Ctrl+D
 &gt; git add .
 &gt; git commit -m "Añadido capítulo 3."
 &gt; git log
-&gt; git diff <codigo hash de la primera version>..HEAD
+&gt; git diff &lt;codigo hash de la primera version&gt;..HEAD
 </code></pre>
 </div>
 
@@ -106,7 +115,8 @@ Ctrl+D
 &gt; git annotate indice.txt
 </code></pre>
 </div>
+
 <div><button class="resolution">Mostrar resolución</button></div>
-<div id="resolution" style="display: none">
+<div markdown="0" id="resolution" style="display: none">
 <img src="soluciones/creacion-actualizacion-repositorios/ejercicio4.gif" />
 </div>

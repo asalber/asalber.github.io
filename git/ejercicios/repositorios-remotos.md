@@ -7,6 +7,15 @@ share: true
 image: logo-git.png
 ---
 
+<i class="fas fa-exclamation-triangle" style="color:red"></i> Para hacer estos ejercicios es necesario haber hecho antes los [ejercicios sobre ramas](/git/ejercicios/ramas.html) o bien hacer un clon del repositorio remoto https://github.com/asalber/libro-git mediante la siguiente secuencia de comandos:
+
+```
+> git clone https://github.com/asalber/libro-git.git
+> cd libro-git
+> git reset --hard cb1e4
+> git remote remove origin
+```
+
 ## Ejercicio 1
 1. Crear un nuevo repositorio público en GitHub con el nombre `libro-git`.
 2. Añadirlo al repositorio local del libro.

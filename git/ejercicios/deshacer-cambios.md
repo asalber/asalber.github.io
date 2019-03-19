@@ -7,6 +7,15 @@ share: true
 image: logo-git.png
 ---
 
+<i class="fas fa-exclamation-triangle" style="color:red"></i> Para hacer estos ejercicios es necesario haber hecho antes los [ejercicios sobre historial de cambios](/git/ejercicios/historial-cambios.html) o bien hacer un clon del repositorio remoto https://github.com/asalber/libro-git mediante la siguiente secuencia de comandos:
+
+```
+> git clone https://github.com/asalber/libro-git.git
+> cd libro-git
+> git reset --hard 48ed8
+> git remote remove origin
+```
+
 ## Ejercicio 1
 1. Eliminar la última línea del fichero `indice.txt` y guardarlo.
 2. Comprobar el estado del repositorio.
