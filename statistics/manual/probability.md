@@ -579,10 +579,8 @@ Usually the cases observed for each group are represented in a 2$\times$2 table 
 ### Attributable risk or Risk difference $RD$
 
 > **Definition - Attributable risk**. The *attributable risk* or *risk difference* of a medical event $D$ for people exposed to a factor is the difference between the absolute risks of the treatment group and the control group.
-
-$$
-AD(D)=\mbox{Risk in treatment group}-{\mbox{Risk in control group}=R_T(D)-R_C(D)=\frac{a}{a+b}-\frac{c}{c+d}.
-$$
+>
+$$RD(D)=\mbox{Risk in treatment group}-\mbox{Risk in control group}=R_T(D)-R_C(D)=\frac{a}{a+b}-\frac{c}{c+d}.$$
 
 The attributable risk is the risk of an event that is specifically due to the factor of interest.
 
