@@ -97,3 +97,9 @@ en una lista y muestre por pantalla su producto.
 Nota: Para representar matrices mediante listas usar listas anidadas, representando cada vector fila en una lista.
 
 [Solución](https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/listas-tuplas/ejercicio12.ipynb)
+
+## Ejercicio 13
+
+Escribir un programa que pregunte por una muestra de números, separados por comas, los guarde en una lista y muestre por pantalla su media y desviación típica.
+
+[Solución](https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/listas-tuplas/ejercicio13.ipynb)
