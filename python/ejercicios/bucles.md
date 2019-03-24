@@ -59,7 +59,7 @@ Escribir un programa que muestre por pantalla la tabla de multiplicar del 1 al 1
 
 ## Ejercicio 8
 
-Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.
+Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo.
 
 ```
 1
