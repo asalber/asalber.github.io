@@ -8,7 +8,7 @@ image: cabecera-estadistica.jpg
 ---
 
 Degrees: Physiotherapy  
-Date: May 31, 2018
+Date: March 26, 2019
 
 ## Question 1
 
@@ -17,16 +17,16 @@ The table below summarize the results.
 
 $$      
 \begin{array}{lr}
-       \mbox{Response time} & \mbox{Patients} \\
-        \hline
-      (0,5] & 5 \\
-        (5,10] & 15 \\
-        (10,15] & 32 \\
-        (15,20] & 36 \\
-        (20,30] & 42 \\
-        (30,60] & 20 \\
-         \hline
-      \end{array}
+\mbox{Response time} & \mbox{Patients} \\
+\hline
+(0,5] & 5 \\
+(5,10] & 15 \\
+(10,15] & 32 \\
+(15,20] & 36 \\
+(20,30] & 42 \\
+(30,60] & 20 \\
+\hline
+\end{array}
 $$
 
 1. Are there outliers in the sample? Justify the answer.
@@ -47,7 +47,7 @@ Use the following sums for the computations: $\sum x_i=3105$ min, $\sum x_i^2=83
 2. $P_{80}=27.619$ min.<br/>
 3. $\bar x=20.7$ min, $s^2=129.1767$ min$^2$, $s=11.3656$ min and $cv=0.5491$. The mean is moderately representative since the $cv\approx 0.5$.<br/>
 4. $g_1=0.9393$ and $g_2=0.2523$. Since $g_1$ and $g_2$ are between -2 and 2, we can assume that the sample comes from a normal (bell-shaped) population.<br/>
-5. For the first sample $z(25)=0.3783$ and for the second one $z(25)=0.4667$, thus a time of 25 min is relatively greater in the second sample.
+5. The standard score of the first sample is $z(25)=0.3783$ and the standard score of the second one is $z(25)=0.4667$, thus a time of 25 min is relatively greater in the second sample.
 </div>
 
 ## Question 2
@@ -95,9 +95,9 @@ $\sum x_iy_j=21303$ years$\cdot$cm, $\sum x_i\log(y_j)=682.9473$ years$\cdot\log
 1. <img src="img/regnol-fis-4-scatterlot-height-age.svg" title="Scatter plot of Heigh on Age" alt="Scatter plot of Height on Age" style="display: block; margin: auto;" width="600"/>
 
 2.$\bar x=13.5$ years, $s_x^2=8.25$ years$^2$,<br/>
-$\bar{\log(x)}=2.5791$ log(years), $s_{\log(x)}^2=0.0483$ log(years)$^2$.<br/>  
+$\overline{\log(x)}=2.5791$ log(years), $s_{\log(x)}^2=0.0483$ log(years)$^2$.<br/>  
 $\bar y=155.5$ cm, $s_y^2=138.85$ cm$^2$.<br/>
-$s_{xy}=31.05$, $s_{\log(x)y}=2.4594$<br/>
+$s_{xy}=31.05$ years$\cdot$cm, $s_{\log(x)y}=2.4594$ log(years)cm<br/>
 Linear coef. determination: $r^2=0.8416$<br/>
 Logarithmic coef. determination: $r^2=0.9013$<br/>
 Therefore, both models fit pretty well, but the logarithmic model fits a little bit better.<br/>
