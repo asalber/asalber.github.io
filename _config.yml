@@ -68,6 +68,8 @@ python:
     url: /python/manual/
   - title: Ejercicios de Python
     url: /python/ejercicios/
+  - title: Exámenes de Python
+    url: /python/examenes/
 spss:
   - title: Bioestadística con SPSS
     url: /estadistica/spss/

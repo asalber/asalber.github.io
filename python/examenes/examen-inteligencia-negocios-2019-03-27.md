@@ -10,10 +10,10 @@ image: logo-python.png
 Grado: Inteligencia de los Negocios
 Fecha: 27 de Marzo de 2017
 
-## Ejercicio 1 (2 puntos)
+## Ejercicio 1
 
 1. Clonar con git el repositorio con la url `https://github.com/asalberceu/examen-fundamentos-programacion-2019-03-27-A.git`.
-2. Crear una rama con los apellidos del alumno en mayúsculas y separados por un guión, es decir, `<APELLIDO1-APELLIDO2>`, y convertir esta rama en la rama activa.
+2. Crear una rama con los apellidos del alumno en mayúsculas y separados por un guión, es decir, `APELLIDO1-APELLIDO2`, y convertir esta rama en la rama activa.
 3. Crear la carpeta `respuestas`, y dentro de ella el fichero `ejercicio1.3.txt` que contenga la salida que da el comando de Git para mostrar todas diferencias entre la última versión de la rama actual y la anterior.
 4. Añadir todos los cambios a la zona temporal de intercambio y hacer un commit con el mensaje "Añadida respuesta ejercicio 1.3."
 5. Crear dentro de la carpeta `respuestas` el fichero `ejercicio1.5.txt` que contenga la salida que da el comando de Git para mostrar todos los commits del repositorio (una línea por commit), incluyendo todas las ramas.
@@ -34,12 +34,7 @@ Fecha: 27 de Marzo de 2017
 </code></pre>
 </div>
 
-<div><button class="resolution">Mostrar resolución</button></div>
-<div id="resolution" style="display: none">
-<img src="soluciones/deshacer-cambios/ejercicio1.gif" />
-</div>
-
-## Ejercicio 2 (4 puntos)
+## Ejercicio 2
 
 Escribir un programa que realice la devolución de una cantidad dada por el usuario en monedas.
 
@@ -54,7 +49,7 @@ El programa debe cumplir los siguientes requisitos:
 <a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/examenes/soluciones/examen-2019-03-27/ejercicio2.ipynb" class="btn btn-info">Solución</a>
 
 
-## Ejercicio 3 (4 puntos)
+## Ejercicio 3
 
 Escribir un programa que simule el famoso juego del ahorcado.
 
@@ -71,7 +66,3 @@ Requisito adicional para un punto extra:
 - Cada vez que el usuario acierte una letra debe mostrar la palabra a adivinar con las letras acertadas hasta el momento y el resto reemplazadas por asteriscos.
 
 <a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/examenes/soluciones/examen-2019-03-27/ejercicio3.ipynb" class="btn btn-info">Solución</a>
-
-## Ejercicio final
-
-Para terminar el examen, una vez hechos todos los commits, deben subirse los cambios al repositorio remoto. Esto sólo se hará al finalizar el examen, cuando lo indique el profesor.
