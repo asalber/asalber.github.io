@@ -22,5 +22,5 @@ Los ejercicios están clasificados por temas y siguen el orden más o menos habi
 - [Ejercicios de clases](/python/ejercicios/clases.html)
 - [Ejercicios de herencia](/python/ejercicios/herencia.html)
 - [Ejercicios de ficheros](/python/ejercicios/ficheros.html)
-- [Ejercicios de excepciones](/python/ejercicios/clases.html)
+- [Ejercicios de excepciones](/python/ejercicios/excepciones.html)
 - [Ejercicios de tests unitarios](/python/ejercicios/tests.html)

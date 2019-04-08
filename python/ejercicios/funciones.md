@@ -57,8 +57,20 @@ Escribir una función que reciba una muestra de números en una lista y devuelva
 
 ## Ejercicio 9
 
+Escribir una función que calcule el máximo común divisor de dos números y otra que calcule el mínimo común múltiplo.
+
+<a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio9.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 10
+
+Escribir una que convierta un número decimal en binario y otra que convierta un número binario en decimal.
+
+<a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio10.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 11
+
 Escribir un programa que reciba una cadena de caracteres y devuelva un diccionario con cada palabra que contiene y su frecuencia.
 Escribir otra función que reciba el diccionario generado con la función anterior y devuelva una tupla con la palabra más repetida y su frecuencia.
 
-<a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio9.ipynb" class="btn btn-info">Solución</a>
+<a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio11.ipynb" class="btn btn-info">Solución</a>
 
