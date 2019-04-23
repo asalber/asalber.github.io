@@ -18,7 +18,7 @@ Los ejercicios están clasificados por temas y siguen el orden más o menos habi
 - [Ejercicios de listas y tuplas](/python/ejercicios/listas-tuplas.html)
 - [Ejercicios de diccionarios](/python/ejercicios/diccionarios.html)
 - [Ejercicios de funciones](/python/ejercicios/funciones.html)
-- [Ejercicios de recursividad](/python/ejercicios/recursividad.html)
+- [Ejercicios de programación funcional](/python/ejercicios/programacion-funcional.html)
 - [Ejercicios de clases](/python/ejercicios/clases.html)
 - [Ejercicios de herencia](/python/ejercicios/herencia.html)
 - [Ejercicios de ficheros](/python/ejercicios/ficheros.html)
