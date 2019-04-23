@@ -21,24 +21,30 @@ Escribir una función que simule una calculadora científica que permita calcula
 
 ## Ejercicio 3
 
-Escribir una función reciba una lista de notas y devuelva la lista de calificaciones correspondientes a esas notas.
+Escribir que reciba una frase y devuelva un diccionario con las palabras que contiene y su longitud.
 
 <a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio3.ipynb" class="btn btn-info">Solución</a>
 
 ## Ejercicio 4
 
-Escribir una función reciba un diccionario con la las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas.
+Escribir una función reciba una lista de notas y devuelva la lista de calificaciones correspondientes a esas notas.
 
 <a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio4.ipynb" class="btn btn-info">Solución</a>
 
 ## Ejercicio 5
 
-Escribir una función reciba un diccionario con la las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas aprobadas.
+Escribir una función reciba un diccionario con la las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas.
 
 <a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio5.ipynb" class="btn btn-info">Solución</a>
 
 ## Ejercicio 6
 
-Escribir una función reciba un diccionario con la las asignaturas y las notas de un alumno y devuelva otro diccionario con la nota media de las asignaturas aprobadas.
+Escribir una función reciba un diccionario con la las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas aprobadas.
 
 <a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio6.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 7
+
+Escribir una función reciba dos tuplas y devuelva su producto escalar.
+
+<a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio7.ipynb" class="btn btn-info">Solución</a>
