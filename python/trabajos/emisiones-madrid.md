@@ -29,6 +29,8 @@ Deben usarse al menos los datos de 2018 y 2019.
 - Crear una función que reciba un mes y una magnitud y devuelva un diccionario con las medias de la magnitud dentro de Madrid Central y fuera de ella.
 - Crear una función que reciba una magnitud y genere un gráfico con las medias mensuales dentro de Madrid Central y fuera de ella.
 
-<a href="https://github.com/asalber/emisiones-madrid" class="btn btn-info">Solución</a>
+## Solución
 
-<iframe height="800px" width="100%" src="https://repl.it/@asalber/emisiones-madrid?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="github-button" href="https://github.com/asalber/emisiones-madrid/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download asalber/emisiones-madrid on GitHub">Download</a>
+
+Abrir con <a href="https://repl.it/@asalber/emisiones-madrid"><img src="/images/logo-replit.png" alt="Abrir con repl.it"></a>

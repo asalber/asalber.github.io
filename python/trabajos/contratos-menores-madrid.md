@@ -24,6 +24,8 @@ Deben usarse los datos desde 2015.
 - Crear una función reciba una rango de años y un número entero n y genere un gráfico con la evolución anual del total facturado por las n empresas que más han facturado.
 - Crear una función reciba una rango de años y genere un gráfico con la evolución anual del total facturado a las secciones.
 
-<a href="https://github.com/asalber/contratos-menores-madrid" class="btn btn-info">Solución</a>
+## Solución
 
-<iframe height="800px" width="100%" src="https://repl.it/@asalber/contratos-menores-madrid?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="github-button" href="https://github.com/asalber/contratos-menores-madrid/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download asalber/emisiones-madrid on GitHub">Download</a>
+
+Abrir con <a href="https://repl.it/@asalber/contratos-menores-madrid"><img src="/images/logo-replit.png" alt="Abrir con repl.it"></a>
