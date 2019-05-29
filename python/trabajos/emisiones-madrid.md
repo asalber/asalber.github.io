@@ -31,4 +31,4 @@ Deben usarse al menos los datos de 2018 y 2019.
 
 <a href="https://github.com/asalber/emisiones-madrid" class="btn btn-info">Solución</a>
 
-<iframe height="400px" width="100%" src="https://repl.it/@asalber/emisiones-madrid?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://repl.it/@asalber/emisiones-madrid?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
