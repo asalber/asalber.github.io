@@ -7,7 +7,7 @@ share: true
 image: logo-python.png
 ---
 
-Grado: Inteligencia de los Negocios
+Grado: Inteligencia de los Negocios  
 Fecha: 27 de Marzo de 2017
 
 ## Ejercicio 1
@@ -46,8 +46,7 @@ El programa debe cumplir los siguientes requisitos:
 - El programa debe guardarse dentro de la carpeta `respuestas` con el nombre `ejercicio2.py`.
 - Cuando el programa esté terminado, añadir el fichero `ejercicio2.py` a la zona de intercambio temporal y hacer un commit con el mensaje "Añadida respuesta ejercicio 2".
 
-<a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/examenes/soluciones/examen-2019-03-27/ejercicio2.ipynb" class="btn btn-info">Solución</a>
-
+<a href="https://repl.it/@asalber/examen-2019-03-27-ejercicio-2" class="btn btn-info">Solución</a>
 
 ## Ejercicio 3
 
@@ -65,4 +64,4 @@ Requisito adicional para un punto extra:
 
 - Cada vez que el usuario acierte una letra debe mostrar la palabra a adivinar con las letras acertadas hasta el momento y el resto reemplazadas por asteriscos.
 
-<a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/examenes/soluciones/examen-2019-03-27/ejercicio3.ipynb" class="btn btn-info">Solución</a>
+<a href="https://repl.it/@asalber/examen-2019-03-27-ejercicio-3" class="btn btn-info">Solución</a>

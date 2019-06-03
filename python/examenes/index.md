@@ -10,3 +10,4 @@ image: logo-python.png
 ## Inteligencia de los negocios
 
 - [Examen del 27 de marzo de 2017](examen-inteligencia-negocios-2019-03-27.html)
+- [Examen del 27 de mayo de 2017](examen-inteligencia-negocios-2019-05-27.html)
