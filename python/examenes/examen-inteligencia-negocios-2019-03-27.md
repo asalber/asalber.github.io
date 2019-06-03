@@ -46,7 +46,7 @@ El programa debe cumplir los siguientes requisitos:
 - El programa debe guardarse dentro de la carpeta `respuestas` con el nombre `ejercicio2.py`.
 - Cuando el programa esté terminado, añadir el fichero `ejercicio2.py` a la zona de intercambio temporal y hacer un commit con el mensaje "Añadida respuesta ejercicio 2".
 
-<a href="https://repl.it/@asalber/examen-2019-03-27-ejercicio-2" class="btn btn-info">Solución</a>
+<a href="https://repl.it/@asalber/examen-2019-03-27-ejercicio-2" class="btn btn-info" target="_blank">Solución</a>
 
 ## Ejercicio 3
 
@@ -64,4 +64,4 @@ Requisito adicional para un punto extra:
 
 - Cada vez que el usuario acierte una letra debe mostrar la palabra a adivinar con las letras acertadas hasta el momento y el resto reemplazadas por asteriscos.
 
-<a href="https://repl.it/@asalber/examen-2019-03-27-ejercicio-3" class="btn btn-info">Solución</a>
+<a href="https://repl.it/@asalber/examen-2019-03-27-ejercicio-3" class="btn btn-info" target="_blank">Solución</a>
