@@ -8,7 +8,7 @@ image: logo-python.png
 ---
 
 Grado: Inteligencia de los Negocios  
-Fecha: 27 de Marzo de 2017
+Fecha: 27 de Marzo de 2019
 
 ## Ejercicio 1
 
