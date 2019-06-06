@@ -69,47 +69,81 @@ table.data_table tbody tr{
 	margin-top: .5cm;
 }
 
-// Buttons for answers
+// Buttons for answers (copied from bootstrap btn.info
 .solution {
-  padding: 5px 10px;
-  border: 0 none;
-  font-weight: 700;
-  letter-spacing: 1px;
-	background: none;
-	border: 2px solid @info;
-	color: @info;
-	box-shadow: none;
-	margin-top: .2cm;
-	margin-bottom: .2cm;
-//    text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 2px solid transparent;
+  padding: 8px 20px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+	user-select: none;
+	color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.solution:focus, .solution:active:focus, .solution.active:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+	background-color: #ffffff;
+  color: #5bc0de;
+  border-color: #5bc0de;
 }
 
 .solution:hover, .solution:active, .solution.active {
-	color: @primary;
-	border-color:  @primary;
-	box-shadow: none;
+	background-color: #ffffff;
+  color: #5bc0de;
+  border-color: #5bc0de;
 }
 
 .resolution {
-  padding: 5px 10px;
-  border: 0 none;
-  font-weight: 700;
-  letter-spacing: 1px;
-	background: none;
-	border: 2px solid @danger;
-	color: @danger;
-	box-shadow: none;
-	martin-top: .3cm;
-	margin-bottom: .3cm;
-//    text-transform: uppercase;
+	display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 2px solid transparent;
+  padding: 8px 20px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+	user-select: none;
+	color: #ffffff;
+  background-color: @danger;
+  border-color: @danger;
 }
 
 .resolution:focus, .resolution:active:focus, .resolution.active:focus {
-  outline: 0 none;
+  outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+	background-color: #ffffff;
+  color: @danger;
+  border-color: @danger;
 }
 
 .resolution:hover, resolution:focus, .resolution:active, .resolution.active {
-	color: darken(@danger, 10%);
-	border-color:  darken(@danger, 10%);
-	box-shadow: none;
+	background-color: #ffffff;
+  color: @danger;
+  border-color: @danger;
 }
