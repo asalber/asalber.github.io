@@ -11,7 +11,7 @@ image: logo-python.png
 
 Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces.
 
-<a href="https://nbviewer.jupyter.org/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio1.ipynb" class="btn btn-info">Solución</a>
+<a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio1.ipynb" class="btn btn-info">Solución</a>
 
 ## Ejercicio 2
 
