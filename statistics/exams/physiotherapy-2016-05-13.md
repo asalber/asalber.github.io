@@ -24,7 +24,7 @@ Of all the anterior cruciate ligament of the knee injuries, the rupture occurs i
 Assuming that the tests are independent, 
 
 1. Compute the predictive values of the drawer test.
-2. If an individual has an anterior cruciate ligament injury, what is the probability that the radiologic study and the magnetic resonance return a positive outcome? 
+2. If an individual has an anterior cruciate ligament injury, what is the probability that the radiologic study and the magnetic resonance return a positive outcome?
 3. If an individual has an anterior cruciate ligament injury, what is the probability that the radiologic study or the magnetic resonance give a wrong diagnosis?
 
 <div><button class="solution">Show solution</button></div>
