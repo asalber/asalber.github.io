@@ -22,9 +22,9 @@ However, the concepts and procedures presented are valid for any scope.
 - [Ordinary Differential Equations](/calculus/manual/ordinary-differential-equations.html)
 - [Several Variables Differentiable Calculus](/calculus/manual/derivatives-n-variables.html)
 
-<!-- - Elementary functions(#TODO:20)
-- [Limits and continuity](#TODO:40)
--->
+<!-- TODO: Elementary functions -->
+<!-- TODO: Limits and continuity -->
+
 
 
 ## Download

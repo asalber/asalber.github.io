@@ -8,7 +8,7 @@ image: cabecera-estadistica.jpg
 ---
 
 Degrees: Physiotherapy  
-Date: March 26, 2019
+Date: May 27, 2019
 
 # Descriptive Statistics and Regression
 
