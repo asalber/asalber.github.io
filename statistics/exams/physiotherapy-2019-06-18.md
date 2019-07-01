@@ -46,14 +46,14 @@ Without prevention program: $\sum y_i=66$ injuries, $\sum y_i^2=362$ injuries$^2
 1. <img src="img/des-fis-5-cumulative-frequencies-polygon.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />
 2. With prevention program: $Q_1=2$ injuries, $Q_3=4$ injuries, $IQR=2$ injuries.<br/>
 Without prevention program: $Q_1=3$ injuries, $Q_3=6$ injuries, $IQR=3$ injuries.<br/>
-The sample not following the prevention program has more central spread since the IQR is greater.<br/>
+The sample not following the prevention program has more central spread since the interquartile range is greater.<br/>
 3. With prevention program: $\bar x=2.4$ injuries, $s^2=1.9733$ injuries$^2$, $s=1.4048$ injuries and $cv=0.5853$.<br/>
 Without prevention program: $\bar y=4.7143$ injuries, $s^2=3.6327$ injuries$^2$, $s=1.906$ injuries and $cv=0.4043$. <br/>
 The sample following the prevention program has a greater relative spread with respect to the mean since the coef. of variation is greater.<br/>
-4.  With prevention program: $g_2=-0.6722$.<br/>
+4. With prevention program: $g_2=-0.6722$.<br/>
 Without prevention program: $g_2=0.1768$.<br/>
-Thus the sample not following the prevention program has a more normal kurtosis, since $g_2$ is closer to 0.<br/>
-5.  With prevention program: $z(2)=-0.2847$.<br/>
+Thus the sample not following the prevention program has a more normal kurtosis, since the coeff. of kurtosis is closer to 0.<br/>
+1. With prevention program: $z(2)=-0.2847$.<br/>
 Without prevention program: $z(4)=-0.3748$.<br/>
 Thus 4 injuries in the sample not following the prevention program is relatively smaller, since its standard score is smaller.
 </div>
@@ -77,7 +77,7 @@ $$
 1. $\bar x=2017$ years, $s_x^2=2$ years$^2$.<br/>
 $\bar y=2.026$ €, $s_y^2=0.2882$ €$^2$.<br/>
 $\overline{\log(y)}=0.672$ log(€), $s_{\log(y)}^2=0.0673$ log(€)$^2$.<br/>
-$s_{xy}=0.744$, $s_{x\log(y)}=0.3653$<br/>
+$s_{xy}=0.744$ years$\cdot$€, $s_{x\log(y)}=0.3653$ years$\cdot\log(€)$<br/>
 Linear coef. determination: $r^2=0.9603$<br/>
 Exponential coef. determination: $r^2=0.9909$<br/>
 Thus the exponential regression model is better to predict the price since the coef. of determination is greater.<br/>
