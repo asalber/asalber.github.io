@@ -73,7 +73,8 @@ $$
 
 2. Use the best of the two previous models to predict the price in 2020.
 
-
+<div><button class="solution">Show solution</button></div>
+<div id="solution" style="display: none">
 1. $\bar x=2017$ years, $s_x^2=2$ years$^2$.<br/>
 $\bar y=2.026$ €, $s_y^2=0.2882$ €$^2$.<br/>
 $\overline{\log(y)}=0.672$ log(€), $s_{\log(y)}^2=0.0673$ log(€)$^2$.<br/>
