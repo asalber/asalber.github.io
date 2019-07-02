@@ -46,7 +46,7 @@ No siguiendo el programa de prevención: $\sum y_i=66$ lesiones, $\sum y_i^2=362
 1. <img src="img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />
   
 2. Con programa de prevención: $C_1=2$ lesiones, $C_3=4$ lesiones, $RI=2$ lesiones.<br/>
-Sin programa de prevención: $Q_1=3$ lesiones, $Q_3=6$ lesiones, $RI=3$ lesiones.<br/>
+Sin programa de prevención: $C_1=3$ lesiones, $C_3=6$ lesiones, $RI=3$ lesiones.<br/>
 La muestra que no siguió el programa de prevención tiene una dispersión central mayor ya que su rango intercuartílico es mayor.
 
 3. Con programa de prevención: $\bar x=2.4$ lesiones, $s^2=1.9733$ lesiones$^2$, $s=1.4048$ lesiones and $cv=0.5853$.<br/>
