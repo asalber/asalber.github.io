@@ -66,13 +66,15 @@ Así pues, 4 lesiones sin seguir el programa de prevención es relativamente men
 
 El precio de cierto relajante muscular evolucionó entre 2015 y 2019
 como indica la siguiente tabla:
+
 $$
 \begin{array}{lrrrrr}
 \hline
 \mbox{Año} & 2015 & 2016 & 2017 & 2018 & 2019 \\ 
 \mbox{Precio (€)} & 1.40 & 1.60 & 1.92 & 2.30 & 2.91 \\ 
 \hline
-\end{array}$$
+\end{array}
+$$
 
 1. ¿Qué modelo de regresión es mejor para predecir el precio del función del año, el lineal o el exponencial?
 
@@ -84,8 +86,8 @@ $$
 $\bar y=2.026$ €, $s_y^2=0.2882$ €$^2$.<br/>
 $\overline{\log(y)}=0.672$ log(€), $s_{\log(y)}^2=0.0673$ log(€)$^2$.<br/>
 $s_{xy}=0.744$ años$\cdot$€, $s_{x\log(y)}=0.3653$ años$\cdot\log(€)$.<br/>
-Coeficiente de determinación lineal: $r^2=0.9603$\
-Coeficiente de determinación exponencial: $r^2=0.9909$\
+Coeficiente de determinación lineal: $r^2=0.9603$.<br/>
+Coeficiente de determinación exponencial: $r^2=0.9909$.<br/>
 Así pues, el modelo de regresión exponencial es mejor para predecir el precio ya que su coeficiente de determinación es mayor.<br/>
 
 2. Modelo de regresión exponencial: $y=e^{-367.6861+0.1826x}$.<br/>
@@ -127,7 +129,7 @@ Justificar la respuesta.
 
 <div><button class="solution">Mostrar solución</button></div>
 <div id="solution" style="display: none">
-Sea $E$ el evento consistente en sufrir una lesión vertebral.
+Sea $E$ el evento consistente en sufrir una lesión vertebral.<br/>
 
 1. Incidencia acumulada después de 5 años: $R(E)=0.088$.<br/>
 Incidencia acumulada después de 10 años: $R(E)=0.226$.<br/>
@@ -164,7 +166,7 @@ $$
 
 <div><button class="solution">Mostrar solución</button></div>
 <div id="solution" style="display: none">
-Sea $E$ el suceso consistente en tener la infección urinaria y $+$ y $-$ los sucesos correspondientes a obtener un resultado positivo y negativo respectivamente en el test.
+Sea $E$ el suceso consistente en tener la infección urinaria y $+$ y $-$ los sucesos correspondientes a obtener un resultado positivo y negativo respectivamente en el test.<br/>
 
 1. Sensibilidad = $0.8571$ y Especificidad = $0.7143$.<br/>
 
