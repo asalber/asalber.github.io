@@ -22,8 +22,8 @@ image: cabecera-estadistica.jpg
 ## Fisioterapia
 
 - [Examen del 9 de abril de 2018](fisioterapia-2018-04-09.html)
-- [Examen del 31 de mayo de 2018](examen-fisioterapia-2018-05-31.html)
-- [Examen del 18 de junio de 2019](examen-fisioterapia-2018-06-18.html)
+- [Examen del 31 de mayo de 2018](fisioterapia-2018-05-31.html)
+- [Examen del 18 de junio de 2019](fisioterapia-2018-06-18.html)
 
 ## Óptica
 
