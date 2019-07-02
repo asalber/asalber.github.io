@@ -102,7 +102,7 @@ In a linear regression study between two variables $X$ and $Y$ we know $\bar x =
 
 # Probability and Random Variables
 
-## Question 1
+## Question 4
 A study tries to determine the effectiveness of an occupational risk prevention program in jobs that require to be sit a lot of hours.
 A sample of 500 individuals between 40 and 50 years that spent more than 5 hours sitting was drawn.
 Half of the individuals followed the prevention program (treatment group) and the other half not (control group).
@@ -129,14 +129,14 @@ Cumulative incidence after 10 years: $R(D)=0.226$.<br/>
 2. Risk in the treatment group: $R_T(D)=0.132$.<br/>
 Risk in the control group: $R_C(D)=0.32$.<br/>
 
-3. $RR=0.4125$. Thus, the risk of suffering spinal injuries is less than half following the prevention program.
+3. $RR(D)=0.4125$. Thus, the risk of suffering spinal injuries is less than half following the prevention program.
 
-4. $OR=0.3232$. Thus, the odd of suffering spinal injuries is less than one third following the prevention program.
+4. $OR(D)=0.3232$. Thus, the odd of suffering spinal injuries is less than one third following the prevention program.
 
 5. Since the study is prospective and we can estimate the prevalence of $D$, both statistics are suitable, but relative risk is easier to interpret.
 </div>
 
-## Question 2
+## Question 5
 The table below shows the results of a study to evaluate the usefulness of a reactive strip to diagnose an urinary infection.
 
 $$
@@ -167,7 +167,7 @@ Let $D$ be the event corresponding to suffering the urinary infection and $+$ an
 3. $PPV=0.0577$ and $NPV=0.9959$. The positive predictive value descreases a lot while the negative predictive value increases al little bit.
 </div>
 
-## Question 3
+## Question 6
 The time required to recover from an injury follows a normal distribution with variance 64 days.  
 It is also known that 10% of people with this injury require more than 80 days to recover.
 
