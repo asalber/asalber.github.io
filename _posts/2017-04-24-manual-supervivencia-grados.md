@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Guía de supervivencia para grados"
+title: "Manual de supervivencia para grados"
 description: "Consejos y buenas prácticas para sacarle el máximo partido a tus estudios"
 date: "2017-04-24 09:21:50 +0200"
 comments: true
@@ -21,7 +21,7 @@ La mayoría de estos consejos pueden parecer obvios pero muchos estudiantes los 
 
 ![Escalar montaña](/survival-guide/img/mountainclimbing.svg){: .pull-right}
 
-La primera condición para lograr el éxito, no sólo en una titulación, sino en cualquier proyecto que se emprenda a lo largo de la vida, es la \emph{motivación}.
+La primera condición para lograr el éxito, no sólo en una titulación, sino en cualquier proyecto que se emprenda a lo largo de la vida, es la _motivación_.
 Sin motivación, lo más fácil es que a las primeras dificultades o inconvenientes que aparezcan tiremos la toalla, y debemos tener presente que seguro habrá dificultades.
 Conviene tener siempre presente las razones por las que se emprende el camino, y visualizar la meta.
 Es decir, caminar con un ojo puesto en el horizonte para saber hacia dónde nos dirigimos, y con el otro puesto en el camino para no tropezar.
@@ -138,7 +138,7 @@ Muchas alumnas tienden a creer que la única información importante a tener en 
 Incluso si sólo se piensa en superar los exámenes esto es un error, ya que la información que puede ofrecer una profesora en clase es limitada, incompleta, y a veces errónea (desgraciadamente las profesoras también se equivocan).
 Por tanto, una buena documentación te puede ayudar no sólo a contrastar lo visto en clase con otras fuentes, sino a comprender mejor lo explicado, y a ampliarlo viendo nuevos ejemplos, descubriendo nuevas aplicaciones, etc.
 Dentro de la planificación del curso deben establecerse varias fechas, convenientemente espaciadas, para hacer una revisión parcial del camino recorrido y lo que queda por recorrer. Estas revisiones tienen por objeto hacer una pequeña autoevaluación sobre el proceso de aprendizaje, hasta qué punto se están cumpliendo los objetivos fijados y si estamos siendo fieles a las pautas marcadas por este manual de supervivencia. De este modo podremos identificar las principales dificultades en el aprendizaje y aquello en lo que estamos fallando, para corregir el rumbo a tiempo.
-En el peor de los casos, incluso si al final del curso no logramos superar alguna asignatura, es muy importante hacer una revisión final tratando de identificar las causas para \emph{aprender de los errores} y que no se vuelvan a repetir en futuros cursos. No te desanimes y piensa que aunque no hayas superado la asignatura, seguro que no has perdido por completo el año. Se positiva y piensa en todo aquello que has aprendido y que sin duda te aportará experiencia para tu vida.
+En el peor de los casos, incluso si al final del curso no logramos superar alguna asignatura, es muy importante hacer una revisión final tratando de identificar las causas para _aprender de los errores_ y que no se vuelvan a repetir en futuros cursos. No te desanimes y piensa que aunque no hayas superado la asignatura, seguro que no has perdido por completo el año. Se positiva y piensa en todo aquello que has aprendido y que sin duda te aportará experiencia para tu vida.
 Para cada asignatura deberías tener dos o tres libros de referencia durante el curso.
 En las guías docentes aparece la bibliografía recomendada por las profesoras de la asignatura.
 Empieza por mirar los libros básicos (la mayoría estarán disponibles en la biblioteca de la universidad), pero no te conformes con eso.
