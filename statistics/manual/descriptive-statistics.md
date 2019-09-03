@@ -178,6 +178,8 @@ Depending on the type of variable and whether data has been grouped or not, ther
 
 ### Bar chart
 
+<!--TODO: Insert bar chart animation https://tinystats.github.io/teacups-giraffes-and-statistics/02_bellCurve.html -->
+
 A **bar chart** consists of a set of bars, one for every value or category of the variable, plotted on a coordinate system.
 
 Usually the values or categories of the variable are represented on the $x$-axis, and the frequencies on the $y$-axis.
@@ -259,10 +261,16 @@ A _pie chart_ consists of a circle divided in slices, one for every value or cat
 
 Pie charts can represent absolute or relative frequencies, but not cumulative frequencies, and are used with nominal qualitative variables. For ordinal qualitative or quantitative variables is better to use bar charts, because it is easier to perceive differences in one dimension (length of bars) than in two dimensions (areas of sectors).
 
-**Example**. The pie chart below show the relative frequency distribution of blood types.
+**Example**. The pie chart below shows the relative frequency distribution of blood types.
 
 <div id="piechart" class="plotly" style="margin: auto; width:80%"></div>
 <script type="application/json" data-for="piechart">{"x":{"data":[{"type":"pie","inherit":true,"labels":["0","A","AB","B"],"values":[5,14,3,8]}],"layout":{"title":"Relative frequency distribution of blood types","autosize":false,"width":600,"height":400,"margin":{"b":40,"l":60,"t":25,"r":10}},"url":null,"width":null,"height":null,"base_url":"https://plot.ly","layout.1":{"title":"Relative frequency distribution of blood types","autosize":false,"width":600,"height":400},"filename":"Relative frequency distribution of blood types"},"evals":[]}</script>
+
+### The normal distribution
+
+Distributions with different properties will show different shapes.
+
+<!-- TODO: Insert histograms with different shapes -->
 
 ### Outliers
 

@@ -628,3 +628,5 @@ regression models.
 <div class="center">
 <img src="img/regression/linear_regression_with_outliers.svg" alt="Linear regression with an outlier" width="400"> <img src="img/regression/linear_regression_without_outliers.svg" alt="Linear regression without outliers" width="400">
 </div>
+
+<!-- TODO: Include simpson's paradox https://en.wikipedia.org/wiki/Simpson%27s_paradox />

@@ -82,21 +82,24 @@ Also, you should ask your teacher to flip the class.
 ![Do not be afraid to ask](/survival-guide/img/ask.png)
 
 Related to the previous item, the interaction among the students and between the theacher and the students is essential to take advantage of classes.
-The teacher can not guess if you have understood a concept or are lost unless you give some feedback to him or her. 
- 
+The teacher can not guess if you have understood a concept or are lost unless you give some feedback to him or her.
+So, try to overcome your shyness and ask without any fear of ridicule, because most of the time our doubts are gone to be the same for your classmates, and even if not, remember that the only stupid question is the one that you don't ask.
 
-- Try to overcome your shyness.
-- No such a thing as a stupid question.
-- Most of the times your doubts are the same as the rest of your classmates.
-- The teacher need a feedback from the students.
+Feedback is an essential aspect to ensure solid progress in any learning process.
 
 # Take advantage of tutoring
 
 ![Take advantage of tutoring](/survival-guide/img/tutorials.jpg)
 
-- One of the main advantages of a private university like this is the availability and closeness of the teachers.
-- Every student has a personal tutor.
-- Every subject has tutoring hours.
+One of the main advantages of a private university like this is the availability and closeness of the teachers. If it is clear that the teacher is your ally, you should not hesitate to use tutorials whenever you have a trouble.  
+
+Each student has a personal tutor whose function is to inform and advise him or her and to resolve any academic question that arise, from the course registration until the exams.
+If you do not know who is your tutor, ask for him or her at the secretariat and arrange an interview with him or her as soon as possible.
+
+Any time you have a trouble that you do not know how to solve, ask your tutor for help.
+Even if you do not have any trouble, is a good practice to have regular meetings with your tutor to check the course progress.
+
+On the other hand, any subject has its own tutoring hours. Those tutorials are usually at the office of the subject teacher.
 
 Use tutoring hours for ...
 
@@ -109,6 +112,8 @@ But ...
 
 - Respect the tutoring schedule.
 - Tutoring hours are not private classes.
+  This means that you have to go to tutorials with a specific doubt or problem and it requires some previous work about the question.
+  
 
 # Read and write
 
