@@ -110,42 +110,63 @@ Use tutoring hours for ...
 
 But ...
 
-- Respect the tutoring schedule.
 - Tutoring hours are not private classes.
   This means that you have to go to tutorials with a specific doubt or problem and it requires some previous work about the question.
+- Respect the tutoring schedule. Most of the teachers promote tutorials not only to help students, but also because are an effective way to interact with the student and to know each other better. However, the teachers usually have other occupations in addition to teaching. So, in order to not interrupt their work, try not to go to tutorials outside their schedule. If you can not go to a tutorial at that hours, ask the teacher for an appointment.
   
-
 # Read and write
 
 ![Read](/survival-guide/img/read.png)  ![Write](/survival-guide/img/write.jpg)
 
-- Try to complement the class notes with recommended readings.
-- Write summaries and schemas with the key ideas of a class or a topic.
+Another key for success is to have good documentation that complements what is seen in class.
+Many students believe that the only important information to consider is that provided by the teacher.
+But this is a mistake, because the information provided by the teacher is limited, incomplete, and sometimes wrong (unfortunately the teachers commit also mistakes).
+So, try to complement the class notes with recommended readings, because a good documentation can help you not only to contrast what is seen in class with other sources, but also to understand better what has been explained, and to expand it with new examples, discovering new applications, etc.
 
-Writing about a subject helps you to organize, clarify and fix the ideas in your mind.
+For each subject you should have two or three reference books.
+You have some recommendations in the bibliography of the course guides.
+Have a look to those books (most of them are available at the university library), but if you do not feel comfortable with none of them, ask the teacher for others books or try to find them by yourself on Internet, because _each student has to find out his or her book!_
+
+On the other hand, it is very important, for structuring and settling the main ideas about a subject, writing about it.
+There is a clear evidence that writing about a subject helps to helps you to organize, clarify and fix the ideas in your mind.
+  
+Is helpful to write summaries and schemas with the key ideas of a class or a topic.
+Another good practice is to make smalls presentations for every chapter or topic.
+
+Finally, you should take into account that most assessment tests are written, so writing about the subject is a good training for exams.
+
 
 # Work in groups
 
 ![Work in groups](/survival-guide/img/groups.jpg)
 
-- You will have to work in teams in your professional life and you have to get used to it.
-- Working in groups have many advantages:
-   - Helps you to develop social skills.
-   - Reinforce the motivation being part of a team.
-   - Enrich the learning with different points of view.
-   - Helps to develop a critical reasoning.
+Group work is important, not only from the point of view of learning, but also because it helps to develop social habits.
+In most jobs it is usual to work in teams, since some tasks or problems are  simplified and easier to solve working cooperatively.
+Something similar happens with teaching, since collaborative learning is usually faster and better (and more fun).
 
-But working in group is not easy (especially when somebody does not assume his/her responsibility).
+In this way, working in groups have many advantages:
 
+- Helps you to develop social skills.
+- Reinforce the motivation being part of a team.
+- Enrich the learning with different points of view.
+- Helps to develop a critical reasoning.
+
+But working in group is not easy (especially when somebody does not assume his/her responsibility). Acquiring the skills to work in group requires time and practice, so the sooner you start the better.
 
 # Get organized
 
 ![Get organized](/survival-guide/img/agenda.jpg)
 
-- Use a study schedule with the classes, practices, exams, work or project deliveries, etc.
-- Make a realistic study plan assigning home time for studying or working on every subject.
-- Share your study plan with your teacher.
+Finally, and above all, get organized.
 
+Many times the failure is not due to a lack of motivation or work, but to a bad planning.
 
+Use a study schedule with the classes, practices, exams, work or project deliveries, etc. 
+The most important is to make a realistic study plan, assigning home time for studying or working on every subject.
+That means that if we only have a couple of hours to work at home, do not plan more, but not less, and make a reasonable distribution of them, allocating more time for the more complex subjects that require more work.
+A good hint of the work time required by each subject is its number of ECTS credits.
+It is also a good idea to share your study plan with your tutor.
+
+Once the planning is done, the most important thing is to be faithful to it, keeping it in mind at all times throughout the course.
 
 # Review regularly this tips

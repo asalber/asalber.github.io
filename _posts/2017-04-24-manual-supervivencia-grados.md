@@ -137,8 +137,7 @@ Otras de las claves para el éxito es disponer de una buena documentación que c
 Muchas alumnas tienden a creer que la única información importante a tener en cuenta es la provista por la profesora.
 Incluso si sólo se piensa en superar los exámenes esto es un error, ya que la información que puede ofrecer una profesora en clase es limitada, incompleta, y a veces errónea (desgraciadamente las profesoras también se equivocan).
 Por tanto, una buena documentación te puede ayudar no sólo a contrastar lo visto en clase con otras fuentes, sino a comprender mejor lo explicado, y a ampliarlo viendo nuevos ejemplos, descubriendo nuevas aplicaciones, etc.
-Dentro de la planificación del curso deben establecerse varias fechas, convenientemente espaciadas, para hacer una revisión parcial del camino recorrido y lo que queda por recorrer. Estas revisiones tienen por objeto hacer una pequeña autoevaluación sobre el proceso de aprendizaje, hasta qué punto se están cumpliendo los objetivos fijados y si estamos siendo fieles a las pautas marcadas por este manual de supervivencia. De este modo podremos identificar las principales dificultades en el aprendizaje y aquello en lo que estamos fallando, para corregir el rumbo a tiempo.
-En el peor de los casos, incluso si al final del curso no logramos superar alguna asignatura, es muy importante hacer una revisión final tratando de identificar las causas para _aprender de los errores_ y que no se vuelvan a repetir en futuros cursos. No te desanimes y piensa que aunque no hayas superado la asignatura, seguro que no has perdido por completo el año. Se positiva y piensa en todo aquello que has aprendido y que sin duda te aportará experiencia para tu vida.
+
 Para cada asignatura deberías tener dos o tres libros de referencia durante el curso.
 En las guías docentes aparece la bibliografía recomendada por las profesoras de la asignatura.
 Empieza por mirar los libros básicos (la mayoría estarán disponibles en la biblioteca de la universidad), pero no te conformes con eso.
@@ -163,8 +162,8 @@ Además, debe tenerse en cuenta que la mayoría de las pruebas de evaluación so
 
 El trabajo en grupo es importante, no sólo desde el punto de vista del aprendizaje, sino porque además ayuda a desarrollar los hábitos sociales.
 En la mayoría de las ocupaciones profesionales es natural trabajar en equipo, pues la resolución de determinadas tareas o problemas se simplifica cuando se trabaja cooperativamente.
-En la enseñanza ocurre algo parecido, pues el aprendizaje suele ser más rápido y mejor cuando se trata de un aprendizaje colaborativo.
-De esta manera, el trabajo en grupo es útil en muchos aspectos: 
+En la enseñanza ocurre algo parecido, pues el aprendizaje colaborativo suele ser más rápido y mejor (y más divertido).
+De esta manera, el trabajo en grupo es útil en muchos aspectos:
 
 - Ayuda a desarrollar habilidades sociales.
 - Refuerza la motivación de la alumna al sentirse miembro de un equipo.
@@ -183,7 +182,7 @@ Si la profesora no organiza grupos de trabajo, crea junto a tus compañeras tus 
 Por último, y sobre todo, organízate.
 Muchas veces el fracaso no es debido a una falta de motivación o de trabajo, sino a una mala planificación.
 Es esencial hacer una buena planificación al comienzo del curso que contemple no sólo los horarios de clases, prácticas o las fechas de exámenes, sino también la organización del tiempo de trabajo fuera de la universidad.
-Lo más importante de esta planificación es que sea realista, es decir que si sólo disponemos de un par de horas para trabajar en casa, no contemos con  más, pero tampoco con menos, y que hagamos un reparto razonable de las mismas, asignando más tiempo a las materias más complejas o que requieran más trabajo.
+Lo más importante de esta planificación es que sea realista, es decir que si sólo disponemos de un par de horas para trabajar en casa, no contemos con más, pero tampoco con menos, y que hagamos un reparto razonable de las mismas, asignando más tiempo a las materias más complejas o que requieran más trabajo.
 Una buena pista del tiempo de trabajo que requiere cada asignatura es su número de créditos ECTS.
 Es recomendable revisar dicha planificación con la tutora.
 Una vez realizada la planificación, lo más importante es ser fiel a la misma, teniéndola presente en todo momento a lo largo del curso.
