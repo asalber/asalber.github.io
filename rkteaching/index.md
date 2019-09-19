@@ -27,10 +27,10 @@ For Windows users there is a bundle that include R, RKWard and rk.Teaching.
 
 [Download last version (R versión 3.4, RKWard versión 0.7.0, rk.Teaching versión 1.3.0)](https://drive.google.com/open?id=1gMcEvrmOUcvmdtsARfAyPOVIioC2dftD)
 
-Once the file is downloaded, all you have to do is to execute it. 
-It will ask for the installation unit and directory. 
-It is recommended to install it on the root of unit C, that ist C:\. 
-The installation creates a folder rkward into the installation directory with a shortcut to start the program. 
+Once the file is downloaded, all you have to do is to execute it.
+It will ask for the installation unit and directory.
+It is recommended to install it on the root of unit C, that ist C:\.
+The installation creates a folder rkward into the installation directory. There, in the bin folder you have to execute the `rkward.exe` file to start the program.
 
 The following video tutorial shows the installation process (in Spanish).
 
@@ -40,11 +40,10 @@ The following video tutorial shows the installation process (in Spanish).
 
 To install the software on Mac OS systems, you must take the following steps:
 
-1. **Install R**. R can be downloaded from the web <https://cran.r-project.org/>. 
-You have to select the Mac OS distribution and follow the instructions there.
-It is required an R version 3.4 or higher.
+1. **Install R**. R can be downloaded from the web [https://cran.r-project.org](https://cran.r-project.org/bin/macosx/el-capitan/base/R-3.5.3.pkg).
+It is recommended version 3.5.3 for MacOs.
 
-2. **Install RKWard**. RKWard can be downloaded from the web <http://rkward.sourceforge.net>.
+1. **Install RKWard**. RKWard can be downloaded from the web <http://rkward.sourceforge.net>.
 You have to select the Mac Os distribution (<https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg>) and follow the instructions there.
 It is required a Mac Os version 10.11 or higher.
 
@@ -228,8 +227,8 @@ Para usuarios de plataformas Windows existe un programa de instalación que incl
 
 [Descarga la versión anterior (R version 3.0.0, RKWard version 0.6.1 y rk.Teaching versión 1.2.0)](https://drive.google.com/file/d/0B5yGMNeKDyLdUjlZcldDaFV6R1E/view?usp=sharing)
 
-Una vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo. 
-Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:\, tras esto se creará una carpeta rkward dentro de la cual habrá un acceso directo que permitirá arrancar RKWard.
+Una vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo.
+Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:\, tras esto se creará una carpeta rkward y dentro de ella la carpeta bin donde se encuentra el fijero `rkward.exe` que hay que ejecutar para arrancar RKWard.
 
 El siguiente vídeo muestra el proceso de instalación.
 
@@ -239,9 +238,8 @@ El siguiente vídeo muestra el proceso de instalación.
 
 Para instalar el sotware en plataformas Mac Os debe instalarse cada programa por separado con el siguiente orden:
 
-1. **Instalar R**. R puede descargarse desde la página <https://cran.r-project.org/>. 
-Debe seleccionarse la distribución correspondiente a Mac Os y seguir las instrucciones de instalación que allí se especifican.
-Es necesario que la versión de R sea la 3.5 o superior.
+1. **Instalar R**. R puede descargarse desde la página [https://cran.r-project.org/](https://cran.r-project.org/bin/macosx/el-capitan/base/R-3.5.3.pkg).
+Se recomienda instalar la versión 3.5.3 para MacOs.
 
 2. **Instalar RKWard**. RKWard puede descargarse desde la página <http://rkward.sourceforge.net>. 
 Debe seleccionarse la distribución correspondiente a Mac Os (<https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg>) y seguir las instrucciones de instalación que allí se especifican.
