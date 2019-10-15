@@ -144,5 +144,5 @@ Por tanto, la relación lineal es más fuerte en los mayores de 40 ya que el coe
 7. Recta de regresión de $Y$ sobre $X$ en los mayores de 40: $y=`r round(reglinxy2$coefficients[1],4)`+`r round(reglinxy2$coefficients[2],4)`x$.<br/>
 Así pues, por cada año que pasa la distancia mínima de enfoque aumenta $`r round(reglinxy2$coefficients[2],4)`$ cm.<br/>
 8. Recta de regresión de $X$ sobre $Y$ en los mayores de 40: $x=`r round(regliny2x$coefficients[1],4)`+`r round(regliny2x$coefficients[2],4)`y$.<br/>
-$X(32)=`r round(regliny2x$coefficients[1]+regliny2x$coefficients[2]*32.4)`$ años. Según el coeficiente de determinación la predicción es muy fiable, aunque el tamaño muestral no es muy grande y eso resta un poco de fiabilidad.
+$X(32)=`r round(regliny2x$coefficients[1]+regliny2x$coefficients[2]*32,4)`$ años. Según el coeficiente de determinación la predicción es muy fiable, aunque el tamaño muestral no es muy grande y eso resta un poco de fiabilidad.
 </div>
