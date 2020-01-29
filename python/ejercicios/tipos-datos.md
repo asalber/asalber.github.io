@@ -7,11 +7,37 @@ share: true
 image: logo-python.png
 ---
 
+<!-- Datacamp light-->
+<script async type="text/javascript" src="https://cdn.datacamp.com/dcl-react-dev.js.gz"></script>
+
 ## Ejercicio 1
 
 Escribir un programa que muestre por pantalla la cadena `¡Hola Mundo!`.
 
+<div data-datacamp-exercise data-lang="python">
+
+  <code data-type="sample-code">
+    # Mostrar por pantalla la cadena "¡Hola mundo!"
+
+  </code>
+
+  <code data-type="solution">
+  # Mostrar por pantalla la cadena "¡Hola mundo!"
+  print("¡Hola mundo!")
+  </code>
+  
+  <code data-type="sct">
+    test_function("print")
+    success_msg("¡Correcto!")
+  </code>
+  
+  <div data-type="hint">
+    Usa la función <code>print</code> para mostrar cadenas por pantalla.
+  </div>
+</div>
+
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/tipos-datos/ejercicio1.ipynb" class="btn btn-info">Solución</a>
+
 
 ## Ejercicio 2
 
