@@ -135,7 +135,6 @@ Another good practice is to make smalls presentations for every chapter or topic
 
 Finally, you should take into account that most assessment tests are written, so writing about the subject is a good training for exams.
 
-
 # Work in groups
 
 ![Work in groups](/survival-guide/img/groups.jpg)
@@ -157,16 +156,15 @@ But working in group is not easy (especially when somebody does not assume his/h
 
 ![Get organized](/survival-guide/img/agenda.jpg)
 
-Finally, and above all, get organized.
+# Review regularly the progress of the course
 
-Many times the failure is not due to a lack of motivation or work, but to a bad planning.
-
-Use a study schedule with the classes, practices, exams, work or project deliveries, etc. 
-The most important is to make a realistic study plan, assigning home time for studying or working on every subject.
-That means that if we only have a couple of hours to work at home, do not plan more, but not less, and make a reasonable distribution of them, allocating more time for the more complex subjects that require more work.
-A good hint of the work time required by each subject is its number of ECTS credits.
-It is also a good idea to share your study plan with your tutor.
-
-Once the planning is done, the most important thing is to be faithful to it, keeping it in mind at all times throughout the course.
+It is important during the course to set some moments to analyze the progress of your work and to review the path travelled and the path ahead.
+These reviews are intended to make a small self-assessment on the learning process.
+To what extent the objectives set are being met and if we are being faithful to the guidelines set by this survival manual.
+Thereby, we can identify the main difficulties in learning and what is failing in order to correct the course in time.
+In the worst case, if we fail to pass any subject, it is very important to make a final review trying to identify the causes to _learn from mistakes_ not to repeat them in the future.
+Do not be discouraged and think that even if you have not passed the subject, for sure you have not completely waste your time. Be positive and think about everything you have learned that will undoubtedly provides you a valuable experience for your life.
 
 # Review regularly this tips
+
+Finally, do not forget to review and refresh these tips.

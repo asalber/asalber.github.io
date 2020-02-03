@@ -179,7 +179,6 @@ Si la profesora no organiza grupos de trabajo, crea junto a tus compañeras tus 
 
 ![Organízate](/survival-guide/img/agenda.jpg)
 
-Por último, y sobre todo, organízate.
 Muchas veces el fracaso no es debido a una falta de motivación o de trabajo, sino a una mala planificación.
 Es esencial hacer una buena planificación al comienzo del curso que contemple no sólo los horarios de clases, prácticas o las fechas de exámenes, sino también la organización del tiempo de trabajo fuera de la universidad.
 Lo más importante de esta planificación es que sea realista, es decir que si sólo disponemos de un par de horas para trabajar en casa, no contemos con más, pero tampoco con menos, y que hagamos un reparto razonable de las mismas, asignando más tiempo a las materias más complejas o que requieran más trabajo.
