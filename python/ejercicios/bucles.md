@@ -82,3 +82,21 @@ Escribir un programa que almacene la cadena de caracteres `contraseña` en una v
 Escribir un programa que pida al usuario un número entero y muestre por pantalla si es un número primo o no.
 
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio10.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 11
+
+Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida empezando por la última.
+
+<a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio11.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 12
+
+Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por pantalla el número de veces que aparece la letra en la frase.
+
+<a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio12.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 13
+
+Escribir un programa que muestre el eco de todo lo que el usuario introduzca hasta que el usuario escriba “salir” que terminará.
+
+<a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio13.ipynb" class="btn btn-info">Solución</a>
