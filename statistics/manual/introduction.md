@@ -74,6 +74,8 @@ The sample study only gives an approximate knowledge of the population. But in m
 
 One of the most interesting questions that arise:
 
+_How many individuals are required to sample to have an approximate but enough knowledge of the population?_
+
 The answer depends of several factors, as the population variability or the desired reliability for extrapolations to the population.
 
 Unfortunately we can not answer that question until the end of the course, but in general, the most individuals the sample has, the more reliable will the conclusions be on the population, but also the study will be longer and more expensive.
