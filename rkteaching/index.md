@@ -25,7 +25,7 @@ If you find out some error or have a suggestion, please, let me know it by email
 
 For Windows users there is a bundle that include R, RKWard and rk.Teaching.
 
-[Download last version (R versión 3.4, RKWard versión 0.7.0, rk.Teaching versión 1.3.0)](https://drive.google.com/open?id=1gMcEvrmOUcvmdtsARfAyPOVIioC2dftD)
+[Download last version (R versión 3.6.2, RKWard versión 0.7.1, rk.Teaching versión 1.3)](https://drive.google.com/open?id=1GO2fSa45o1F5u8jVcoEh5gJqgyvVMtwA)
 
 Once the file is downloaded, all you have to do is to execute it.
 It will ask for the installation unit and directory.
@@ -34,7 +34,7 @@ The installation creates a folder rkward into the installation directory. There,
 
 The following video tutorial shows the installation process (in Spanish).
 
-<iframe src="//www.youtube.com/embed/BrqFyfNO9RM" width="640" height="360" allowfullscreen frameborder="0"></iframe> 
+<iframe src="//www.youtube.com/embed/BrqFyfNO9RM" width="640" height="360" allowfullscreen frameborder="0"></iframe>
 
 ### Installation on Mac OS
 
@@ -56,12 +56,12 @@ It is required a Mac Os version 10.11 or higher.
 3. **Install the packages that rk.Teaching depends on**. The rk.Teaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:
 
-    <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
+    <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez","remotes"))</code></pre>
 
 4. **Install rk.Teaching**. To install the rk.Teaching package you must type the following commands in the R console:
 
-    <pre><code>install.packages("devtools", dep=TRUE)<br/>
-    library(devtools)<br/>
+    <pre><code>
+    library(remotes)<br/>
     install_github("rkward-community/rk.Teaching", ref="develop")
     </code></pre>
 
@@ -81,8 +81,8 @@ It is required an R version 3.4 or higher.
 
     <pre><code>sudo apt-get install rbase</code></pre>
 
-2. **Install RKWard**. RKWard can be downloaded from the web <http://rkward.sourceforge.net>. 
-You have to select the Linux distribution and follow the instructions there. 
+2. **Install RKWard**. RKWard can be downloaded from the web <http://rkward.sourceforge.net>.
+You have to select the Linux distribution and follow the instructions there.
 
     With Debian based distributions like Ubuntu, you can install R from the command line typing the command:
 
@@ -93,12 +93,12 @@ You have to select the Linux distribution and follow the instructions there.
 3. **Install the packages that rk.Teaching depends on**. The rk.Teaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:
 
-    <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
+    <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez","remotes"))</code></pre>
 
 4. **Install rk.Teaching**. To install the rk.Teaching package you must type the following commands in the R console:
 
-    <pre><code>install.packages("devtools", dep=TRUE)<br/>
-    library(devtools)<br/>
+    <pre><code>
+    library(remotes)<br/>
     install_github("rkward-community/rk.Teaching", ref="develop")
     </code></pre>
 
@@ -223,9 +223,9 @@ Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por
 
 Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y rk.Teaching.
 
-[Descarga la última versión (R versión 3.2.3, RKWard versión 0.6.5, rk.Teaching versión 1.3.0)](https://drive.google.com/file/d/0B5yGMNeKDyLdaFMyd2J5YzdZcVE/view?usp=sharing)
+[Descarga la última versión (R versión 3.2.3, RKWard versión 0.6.5, rk.Teaching versión 1.3)](https://drive.google.com/file/d/0B5yGMNeKDyLdaFMyd2J5YzdZcVE/view?usp=sharing)
 
-[Descarga la versión anterior (R version 3.0.0, RKWard version 0.6.1 y rk.Teaching versión 1.2.0)](https://drive.google.com/file/d/0B5yGMNeKDyLdUjlZcldDaFV6R1E/view?usp=sharing)
+[Descarga la versión anterior (R version 3.0.0, RKWard version 0.6.1 y rk.Teaching versión 1.2)](https://drive.google.com/file/d/0B5yGMNeKDyLdUjlZcldDaFV6R1E/view?usp=sharing)
 
 Una vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo.
 Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:\, tras esto se creará una carpeta rkward y dentro de ella la carpeta bin donde se encuentra el fijero `rkward.exe` que hay que ejecutar para arrancar RKWard.
@@ -254,13 +254,13 @@ Es importante asegurase de tener una versión de Mac OS X 10.11 o superior, ya q
 1. **Instalar los paquetes de los que depende rk.Teaching**. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende. 
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:
 
-    <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
+    <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez","remotes"))</code></pre>
 
 4. **Instalar rk.Teaching**. La mejor forma de instalar rk.Teaching desde este repositorio es utilizando el paquete de R `devtools`.
 Para ello hay que introducir los siguientes comandos en la consola de R: 
 
-    <pre><code>install.packages("devtools", dep=TRUE)<br/>
-    library(devtools)<br/>
+    <pre><code>
+    library(remotes)<br/>
     install_github("asalber/rkTeaching_es")
     </code></pre>
 
@@ -292,13 +292,13 @@ Debe seleccionarse la distribución correspondiente a Linux y seguir las instruc
 3. **Instalar los paquetes de los que depende rk.Teaching**. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende. 
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:
 
-    <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","ez"),dep=TRUE)</code></pre>
+    <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez","remotes"),dep=TRUE)</code></pre>
 
 4. **Instalar rk.Teaching**. La mejor forma de instalar rk.Teaching desde este repositorio es utilizando el paquete de R `devtools`. 
 Para ello hay que introducir los siguientes comandos en la consola de R: 
 
-    <pre><code>install.packages("devtools", dep=TRUE)<br/>
-    library(devtools)<br/>
+    <pre><code>
+    library(remotes)<br/>
     install_github("asalber/rkTeaching_es")
     </code></pre>
 
