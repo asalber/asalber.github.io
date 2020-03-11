@@ -86,6 +86,45 @@ Escribir un programa que almacene la cadena `¡Hola Mundo!` en una variable y lu
 
 Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla la cadena `¡Hola <nombre>!`, donde `<nombre>` es el nombre que el usuario haya introducido.
 
+<div><button class="resolution">Resolver</button></div>
+<div data-datacamp-exercise data-lang="python" id="solution" style="display: none">
+
+<code data-type="pre-exercise-code">
+    import sys
+    from io import StringIO
+    sys.stdin = StringIO("input\n")
+    del sys
+</code>
+
+  <code data-type="sample-code">
+    # Preguntar el nombre del usuario y guardarlo en la variable nombre
+
+    # Mostrar por pantalla el saludo con el nombre
+
+  </code>
+
+  <code data-type="solution">
+    # Preguntar el nombre del usuario y guardarlo en la variable nombre
+    nombre = input("¿Cómo te llamas?")
+    # Mostrar por pantalla el saludo con el nombre
+    print("Hola " + nombre + "!")
+  </code>
+  
+  <code data-type="sct">
+    Ex().multi(
+      check_function("input"),
+      check_object("nombre"),
+      check_function("print"),
+      has_output("¡Hola \w+!")
+    )
+    success_msg("¡Correcto!")
+  </code>
+  
+  <div data-type="hint">
+    Usa la función <code>input</code> para leer una cadena desde la terminal, el símbolo `=` para asignar la cadena a la variable y la función <code>print</code> para mostrar el saludo por pantalla.
+  </div>
+</div>
+
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/tipos-datos/ejercicio3.ipynb" class="btn btn-info">Solución</a>
 
 ## Ejercicio 4
