@@ -7,7 +7,8 @@ subject: "Python"
 keywords: [Python, manual]
 #subtitle: "Subtítulo"
 lang: "es"
-titlepage: true,
+colorlinks: true
+titlepage: true
 titlepage-text-color: "FFFFFF"
 titlepage-rule-color: "FFFFFF"
 titlepage-rule-height: 0
@@ -20,4 +21,15 @@ header-right: "\\leftmark"
 footer-left: "\\hspace{1cm}"
 footer-center: ""
 footer-right: "\\thepage"
+header-includes:
+- |
+  ```{=latex}
+  \usepackage{awesomebox}
+  ```
+pandoc-latex-environment:
+  noteblock: [note]
+  tipblock: [tip]
+  warningblock: [warning]
+  cautionblock: [caution]
+  importantblock: [important]
 ...

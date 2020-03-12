@@ -7,8 +7,7 @@ share: true
 image: logo-python.png
 ---
 
-## Bucles condicionales
-#### `while`
+## Bucles condicionales (`while`)
 
 > `while condición:`  
 &ensp;&ensp;&ensp;&ensp;_`bloque código`_  
@@ -18,8 +17,6 @@ Repite la ejecución del bloque de código mientras la expresión lógica `condi
 Se puede interrumpir en cualquier momento la ejecución del bloque de código con la instrucción `break`.
 
 <i class="fa fa-exclamation-triangle" style="color:red;"></i> _El bloque de código debe estar indentado por 4 espacios._
-
-### Bucles condicionales
 
 ```python
 >>> # Pregunta al usuario por un número hasta que introduce 0.
@@ -48,8 +45,7 @@ Introduce un número: 0
 >>>
 ```
 
-## Bucles iterativos
-#### `for`
+## Bucles iterativos (`for`)
 
 > `for i in secuencia:`  
 &ensp;&ensp;&ensp;&ensp;_`bloque código`_  
@@ -61,8 +57,6 @@ Se puede interrumpir en cualquier momento la ejecución del bloque de código co
 <i class="fa fa-exclamation-triangle" style="color:red;"></i> _El bloque de código debe estar indentado por 4 espacios._
 
 Se utiliza fundamentalmente para recorrer colecciones de objetos como cadenas, listas, tuplas o diccionarios.
-
-### Bucles iterativos
 
 A menudo se usan con la instrucción `range`:
 

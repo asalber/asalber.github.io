@@ -51,8 +51,6 @@ Para crear un gráfico con matplotlib es habitual seguir los siguientes pasos:
 
 7. Mostrar el gráfico. Para ello se utiliza la función `show()`.
 
-### Creación de gráficos con matplotlib
-
 ```python
 # Importar el módulo pyplot con el alias plt
 import matplotlib.pyplot as plt
@@ -250,7 +248,7 @@ plt.show()
 
 <img src="img/histograma2D.png" alt="Gráfico con matplotlib" height="300px">
 
-### Colores
+<!-- TODO ### Colores
 
 ### Líneas
 
@@ -264,4 +262,4 @@ plt.show()
 
 ### Texto
 
-### Márgenes
+### Márgenes -->

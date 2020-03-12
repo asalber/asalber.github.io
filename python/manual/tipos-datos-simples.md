@@ -26,8 +26,7 @@ Estos datos son inmutables, es decir, su valor es constante y no puede cambiar.
 - **Diccionarios** (dictionaries): Colecciones de objetos con una clave asociada. Se representan con llaves, los pares separados por comas y cada par contiene una clave y un objeto asociado separados por dos puntos.  
 **Ejemplo**. {'pi':3.1416, 'e':2.718}.
 
-## Clase de un dato
-#### `type()`
+## Clase de un dato (`type()`)
 
 La clase a la que pertenece un dato se obtiene con el comando `type()`
 
@@ -176,8 +175,6 @@ IndexError: string index out of range
 - `c1 in c2` : Devuelve `True` si `c1` es una cadena concenida en `c2` y `False` en caso contrario.
 - `c1 not in c2` : Devuelve `True` si `c1` es una cadena no concenida en `c2` y `False` en caso contrario.
 
-
-
 ```python
 >>> 'Me gusta ' + 'Python'
 'Me gusta Python'
@@ -201,8 +198,6 @@ True
 - `c1 != c2` : Devuelve `True` si la cadena `c1` es distinta de la cadena `c2` y `False` en caso contrario.
 
 <i class="fa fa-exclamation-triangle" style="color:red;"></i> _Utilizan el orden establecido en el [código ASCII](https://www.codigosascii.com/)_.
-
-### Operaciones de comparación de cadenas
 
 ```python
 >>> 'Python' == 'python'
@@ -230,8 +225,6 @@ Si no se especifica el delimitador utiliza por defecto el espacio en blanco.
 
 <!-- TODO: Incluir más funciones de cadenas como replace -->
 
-## Funciones de cadenas
-
 ```python
 >>> len('Python')
 6
@@ -245,6 +238,36 @@ Si no se especifica el delimitador utiliza por defecto el espacio en blanco.
 ['A', 'B', 'C']
 >>> 'I love Python'.split()
 ['I', 'love', 'Python']
+```
+
+### Cadenas formateadas (`format()`)
+
+- `c.format(valores)`: Devuelve la cadena `c` tras sustituir los valores de la secuencia `valores` en los marcadores de posición de `c`. Los marcadores de posición se indican mediante llaves `{}` en la cadena `c`, y el reemplazo de los valores se puede realizar por posición, indicando en número de orden del valor dentro de las llaves, o por nombre, indicando el nombre del valor, siempre y cuando los valores se pasen con el formato `nombre = valor`.
+
+```python
+>>> 'Un {} vale {} {}'.format('€', 1.12, '$')
+'Un € vale 1.12 $'
+>>> 'Un {2} vale {1} {0}'.format('€', 1.12, '$')
+'Un $ vale 1.12 €'
+>>> 'Un {moneda1} vale {cambio} {moneda2}'.format(moneda1 = '€', cambio = 1.12, moneda2 = '$')
+'Un € vale 1.12 $'
+```
+
+Los marcadores de posición, a parte de indicar la posición de los valores de reemplazo, pueden indicar también el formato de estos. Para ello se utiliza la siguiente sintaxis:
+
+- `{:n}` : Alinea el valor a la izquierda rellenando con espacios por la derecha hasta los `n` caracteres.
+- `{:>n}` : Alinea el valor a la derecha rellenando con espacios por la izquierda hasta los `n` caracteres.
+- `{:^n}` : Alinea el valor en el centro rellenando con espacios por la izquierda y por la derecha hasta los `n` caracteres.
+- `{:nd}` : Formatea el valor como un número entero con `n` caracteres rellenando con espacios blancos por la izquierda.
+- `{:n.mf}` : Formatea el valor como un número real con un tamaño de `n` caracteres (incluído el separador de decimales) y `m` cifras decimales, rellenando con espacios blancos por la izquierda.
+
+```python
+>>> 'Hoy es {:^10}, mañana {:10} y pasado {:>10}'.format('lunes', 'martes', 'miércoles')
+'Hoy es   lunes   , mañana martes     y pasado  miércoles'
+>>> 'Cantidad {:5d}'.format(12)'
+'Cantidad    12'
+>>> 'Pi vale {:8.4f}'.format(3.141592)
+'Pi vale   3.1416'
 ```
 
 ## Datos lógicos o booleanos (clase `bool`)
@@ -268,7 +291,6 @@ Contiene únicamente dos elementos `True` y `False` que representan los valores 
 | `False` | `True`  | `True`  |  `False`  |  `True`  |
 | `True`  | `False` | `False` |  `False`  |  `True`  |
 | `True`  | `True`  | `False` |  `True`   |  `True`  |
-
 
 ```python
 >>> not True

@@ -59,8 +59,6 @@ type({})
 - `d.values()` : Devuelve un iterador sobre los valores de un diccionario.
 - `d.items()` : Devuelve un iterador sobre los pares clave-valor de un diccionario.
 
-### Operaciones que no modifican un diccionario
-
 ```python
 >>> a = {'nombre':'Alfredo', 'despacho': 218, 'email':'asalber@ceu.es'}
 >>> len(a)
@@ -86,7 +84,6 @@ dict_items([('nombre', 'Alfredo'), ('despacho', 218), ('email', 'asalber@ceu.es'
 - `del d[clave]` : Elimina del diccionario `d` el par con la clave `clave`.
 - `d.clear()` : Elimina todos los pares del diccionario `d` de manera que se queda vacío.
 
-### Operaciones que modifican un diccionario
 
 ```python
 >>> a = {'nombre':'Alfredo', 'despacho': 218, 'email':'asalber@ceu.es'}
@@ -116,7 +113,6 @@ Existen dos formas de copiar diccionarios:
 - **Copia por referencia** `d1 = d2`: Asocia la la variable `d1` el mismo diccionario que tiene asociado la variable `d2`, es decir, ambas variables apuntan a la misma dirección de memoria. Cualquier cambio que hagamos a través de `l1` o `l2` afectará al mismo diccionario.
 - **Copia por valor** `d1 = list(d2)`: Crea una copia del diccionario asociado a `d2` en una dirección de memoria diferente y se la asocia a `d1`. Las variables apuntan a direcciones de memoria diferentes que contienen los mismos datos. Cualquier cambio que hagamos a través de `l1` no afectará al diccionario de `l2` y viceversa.
 
-### Copia de diccionarios
 
 ```python
 >>> a = {1:'A', 2:'B', 3:'C'}

@@ -36,8 +36,6 @@ Para crear un array se utiliza la siguiente función de NumPy
 
 <i class="fa fa-exclamation-triangle" style="color:red;"></i> Los elementos de la lista o tupla deben ser del mismo tipo.
 
-### Creación de arrays
-
 ```python
 >>> # Array de una dimensión
 >>> a1 = np.array([1, 2, 3])
@@ -58,8 +56,6 @@ Para crear un array se utiliza la siguiente función de NumPy
   [10 11 12]]]
 ```
 
-### Creación de arrays
-
 Otras funciones útiles que permiten generar arrays son:
 
 `np.empty(dimensiones)` : Crea y devuelve una referencia a un array vacío con las dimensiones especificadas en la tupla `dimensiones`.
@@ -77,8 +73,6 @@ Otras funciones útiles que permiten generar arrays son:
 `np.linspace(inicio, fin, n)` : Crea y devuelve una referencia a un array de una dimensión cuyos elementos son la secuencia de `n` valores equidistantes desde `inicio` hasta `fin`.
 
 `np.random.random(dimensiones)` : Crea y devuelve una referencia a un array con las dimensiones especificadas en la tupla `dimensiones` cuyos elementos son aleatorios.
-
-## Creación de arrays
 
 ```python
 >>> print(np.zeros(3,2))

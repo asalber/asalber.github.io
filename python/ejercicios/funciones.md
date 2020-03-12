@@ -63,7 +63,7 @@ Escribir una función que calcule el máximo común divisor de dos números y ot
 
 ## Ejercicio 10
 
-Escribir una que convierta un número decimal en binario y otra que convierta un número binario en decimal.
+Escribir una función que convierta un número decimal en binario y otra que convierta un número binario en decimal.
 
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio10.ipynb" class="btn btn-info">Solución</a>
 

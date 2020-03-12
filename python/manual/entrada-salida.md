@@ -7,8 +7,7 @@ share: true
 image: logo-python.png
 ---
 
-## Entrada por terminal
-#### `input`
+## Entrada por terminal (`input()`)
 
 Para asignar a una variable un valor introducido por el usuario en la consola se utiliza la instrucción
 
@@ -27,8 +26,7 @@ Para asignar a una variable un valor introducido por el usuario en la consola se
 '20'
 ```
 
-### Salida por terminal
-#### `print()`
+### Salida por terminal (`print()`)
 
 Para mostrar un dato por la terminal se utiliza la instrucción
 
@@ -40,9 +38,6 @@ donde
 - `sep` establece el separador entre los datos, que por defecto es un espacio en blanco `' '`.
 - `end` indica la cadena final de la impresión, que por defecto es un cambio de línea `\n`.
 - `file` indica la dirección del flujo de salida, que por defecto es la salida estándar `sys.stdout`.
-
-### Salida por terminal
-#### `print()`
 
 ```python
 >>> print('Hola')
@@ -57,17 +52,3 @@ HolaAlf
 >>> print('Hola', name, end='!\n')
 Hola Alf!
 ```
-
-### Cadenas formateadas
-#### `%`
-
-El operador `%` se puede usar también para formatear cadenas.
-
-`print(dato1, ..., sep=' ', end='\n', file=sys.stdout`)
-
-donde
-
-- `dato1, ...` son los datos a imprimir y pueden indicarse tantos como se quieran separados por comas.
-- `sep` establece el separador entre los datos, que por defecto es un espacio en blanco `' '`.
-- `end` indica la cadena final de la impresión, que por defecto es un cambio de línea `\n`.
-- `file` indica la dirección del flujo de salida, que por defecto es la salida estándar `sys.stdout`.

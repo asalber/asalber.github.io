@@ -21,19 +21,36 @@ Se caracterizan por:
 
 ```python
 # Lista vacía
-type([])
+>>> type([])
 <class 'list'>
 # Lista con elementos de distintos tipos
-[1, "dos", True]
+>>> [1, "dos", True]
 # Listas anidadas
-[1, [2, 3], 4]
+>>> [1, [2, 3], 4]
+```
+
+### Creación de listas mediante la función `list()`
+
+Otra forma de crear listas es mediante la función `list()`.
+
+- `list(c)` : Crea una lista con los elementos de la secuencia o colección `c`.
+
+Se pueden indicar los elementos separados por comas, mediante una cadena, o mediante una colección de elementos iterable.
+
+```python
+>>> list()
+[]
+>>> list(1, 2, 3)
+[1, 2, 3]
+>>> list("Python")
+['P', 'y', 't', 'h', 'o', 'n']
 ```
 
 ### Acceso a los elementos de una lista
 
 Se utilizan los mismos operadores de acceso que para cadenas de caracteres.
 
-- `l[i]` devuelve el elemento de la lista `l` con el índice `i`.
+- `l[i]` : Devuelve el elemento de la lista `l` con el índice `i`.
 
 <i class="fa fa-exclamation-triangle" style="color:red;"></i> _El índice del primer elemento de la lista es 0._
 
@@ -81,8 +98,6 @@ IndexError: list index out of range
 - `all(l)` : Devuelve `True` si todos los elementos de la lista `l` son `True` y `False` en caso contrario.
 - `any(l)` : Devuelve `True` si algún elemento de la lista `l` es `True` y `False` en caso contrario.
 
-### Operaciones que no modifican una lista
-
 ```python
 >>> a = [1, 2, 2, 3]
 >>> len(a)
@@ -116,8 +131,6 @@ False
 - `l.sort()` : Ordena los elementos de la lista `l` de acuerdo al orden predefinido, siempre que los elementos sean comparables.
 - `l.reverse()` : invierte el orden de los elementos de la lista `l`.
 
-### Operaciones que modifican una lista
-
 ```python
 >>> a = [1, 3]
 >>> b = [2 , 4, 6]
@@ -149,8 +162,6 @@ Existen dos formas de copiar listas:
 
 - **Copia por referencia** `l1 = l2`: Asocia la la variable `l1` la misma lista que tiene asociada la variable `l2`, es decir, ambas variables apuntan a la misma dirección de memoria. Cualquier cambio que hagamos a través de `l1` o `l2` afectará a la misma lista.
 - **Copia por valor** `l1 = list(l2)`: Crea una copia de la lista asociada a `l2` en una dirección de memoria diferente y se la asocia a `l1`. Las variables apuntan a direcciones de memoria diferentes que contienen los mismos datos. Cualquier cambio que hagamos a través de `l1` no afectará a la lista de `l2` y viceversa.
-
-### Copia de listas
 
 ```python
 >>> a = [1, 2, 3]

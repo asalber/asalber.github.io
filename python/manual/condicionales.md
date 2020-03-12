@@ -7,8 +7,7 @@ share: true
 image: logo-python.png
 ---
 
-## Condicionales
-#### `if`
+## Condicionales (`if`)
 
 > `if` <code>condición1:  
 &ensp;&ensp;&ensp;&ensp;_bloque código_  
@@ -23,8 +22,6 @@ Evalúa la expresión lógica `condición1` y ejecuta el primer bloque de códig
 Pueden aparecer varios bloques `elif` pero solo uno `else` al final.
 
 <i class="fa fa-exclamation-triangle" style="color:red;"></i> _Los bloques de código deben estar indentados por 4 espacios._
-
-### Condicionales
 
 La instrucción condicional permite evaluar el estado del programa y tomar decisiones sobre qué código ejecutar en función del mismo.
 

@@ -7,8 +7,7 @@ share: true
 image: logo-python.png
 ---
 
-## Funciones
-#### `def`
+## Funciones (`def`)
 
 Una función es un bloque de código que tiene asociado un nombre, de manera que cada vez que se quiera ejecutar el bloque de código basta con invocar el nombre de la función.
 
@@ -32,8 +31,6 @@ Para declarar una función se utiliza la siguiente sintaxis:
 ### Parámetros de una función
 
 Una función puede recibir valores cuando se invoca a través de unas variables conocidas como _parámetros_ que se definen entre paréntesis en la declaración de la función. En el cuerpo de la función se pueden usar estos parámetros como si fuesen variables.
-
-Los valores que se pasan a la función en una invocación concreta de ella se conocen como _argumentos_ y se asocian a los parámetros de la declaración de la función.
 
 ```python
 >>> def bienvenida(nombre):
@@ -99,7 +96,6 @@ Por último, es posible pasar un número variable de argumentos a un parámetro.
 
 - `*parametro`: Se antepone un asterisco al nombre del parámetro y en la invocación de la función se pasa el número variable de argumentos separados por comas. Los argumentos se guardan en una lista que se asocia al parámetro.
 - `**parametro`: Se anteponen dos asteriscos al nombre del parámetro y en la invocación de la función se pasa el número variable de argumentos por pares `nombre = valor`, separados por comas. Los argumentos se guardan en un diccionario que se asocia al parámetro.
-
 
 ```python
 >>> def menu(*platos):
@@ -244,8 +240,7 @@ En muchos casos es más eficiente resolver la tarea recursiva de forma iterativa
 8
 ```
 
-## Importación de funciones
-#### `import`
+## Importación de funciones (`import`)
 
 Las funciones definidas en un programa o módulo de Python pueden ser importadas y reutilizadas en otros programas.
 
@@ -255,14 +250,9 @@ Existen varias formas de importar módulos y funciones:
 
 - `import M as N` : Importa el módulo `M` y crea una referencia `N` a él, de manera que pueden invocarse un objeto o función `f` definida en él mediante la sintaxis `N.f`. Esta forma es similar a la anterior, pero tiene se suele usar cuando el nombre del módulo es muy largo para utilizar un alias más corto.
 
-### Importación de funciones
-#### `from import`
-
 - `from M import *` : Importa el módulo `M` y crea referencias a todos los objetos públicos (aquellos que no empiezan por el carácter `_`) definidos en el módulo. De esta manera para invocar un objeto del módulo no hace falta precederlo por el nombre del módulo, basta con escribir su nombre.
   
 - `from M import f, g, ...` : Importa el módulo `M` y crea referencias a los objetos `f, g, ...`, de manera que pueden ser invocados por su nombre.
-
-### Importación de funciones
 
 ```python
 >>> import calendar
@@ -296,7 +286,7 @@ No necesitan instalarse porque vienen incluidos en la distribución de Python.
 - [statistics](https://docs.python.org/3/library/statistics.html): Funciones estadísticas.
 - [random](https://docs.python.org/3/library/random.html): Generación de números pseudo-aleatorios.
 
-## Otros módulos imprescindibles
+### Otros módulos imprescindibles
 
 Necesitan instalarse.
 
