@@ -11,7 +11,7 @@ image: logo-python.png
 
 [Matplotlib](https://matplotlib.org/) es una librería de Python especializada en la creación de gráficos en dos dimensiones.
 
-<img src="img/matplotlib-logo.png" alt="Gráfico con matplotlib" height="150px">
+![Gráfico con matplotlib](img/matplotlib-logo.png)
 
 ### Tipos de gráficos
 
@@ -66,7 +66,7 @@ plt.savefig('diagrama-dispersion.png')
 plt.show()
 ```
 
-<img src="img/diagrama-dispersion.png" alt="Gráfico con matplotlib" height="300px">
+![Gráfico con matplotlib](img/diagrama-dispersion.png)
 
 ### Diagramas de dispersión o puntos
 
@@ -80,7 +80,7 @@ ax.scatter([1, 2, 3, 4], [1, 2, 0, 0.5])
 plt.show()
 ```
 
-<img src="img/diagrama-puntos.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/diagrama-puntos.png)
 
 ### Diagramas de líneas
 
@@ -94,7 +94,7 @@ ax.plot([1, 2, 3, 4], [1, 2, 0, 0.5])
 plt.show()
 ```
 
-<img src="img/diagrama-lineas.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/diagrama-lineas.png)
 
 ### Diagramas de areas
 
@@ -108,7 +108,7 @@ ax.fill_between([1, 2, 3, 4], [1, 2, 0, 0.5])
 plt.show()
 ```
 
-<img src="img/diagrama-areas.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/diagrama-areas.png)
 
 ### Diagramas de barras verticales
 
@@ -122,7 +122,7 @@ ax.bar([1, 2, 3], [3, 2, 1])
 plt.show()
 ```
 
-<img src="img/diagrama-barras.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/diagrama-barras.png)
 
 ### Diagramas de barras horizontales
 
@@ -136,7 +136,7 @@ ax.barh([1, 2, 3], [3, 2, 1])
 plt.show()
 ```
 
-<img src="img/diagrama-barras-horizontales.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/diagrama-barras-horizontales.png)
 
 ### Histogramas
 
@@ -153,7 +153,7 @@ plt.savefig('histograma.png')
 plt.show()
 ```
 
-<img src="img/histograma.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/histograma.png)
 
 ### Diagramas de sectores
 
@@ -168,7 +168,7 @@ plt.savefig('diagrama-sectores.png')
 plt.show()
 ```
 
-<img src="img/diagrama-sectores.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/diagrama-sectores.png)
 
 ### Diagramas de caja y bigotes
 
@@ -183,7 +183,7 @@ plt.savefig('diagrama-sectores.png')
 plt.show()
 ```
 
-<img src="img/diagrama-caja.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/diagrama-caja.png)
 
 ### Diagramas de violín
 
@@ -198,7 +198,7 @@ plt.savefig('diagrama-sectores.png')
 plt.show()
 ```
 
-<img src="img/diagrama-violin.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/diagrama-violin.png)
 
 ### Diagramas de contorno
 
@@ -216,7 +216,7 @@ ax.contourf(x, y, z)
 plt.show()
 ```
 
-<img src="img/diagrama-contorno.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/diagrama-contorno.png)
 
 ### Mapas de color
 
@@ -231,9 +231,7 @@ ax.imshow(x)
 plt.show()
 ```
 
-<img src="img/mapa-calor.png" alt="Gráfico con matplotlib" height="300px"> <i class="fa fa-info-circle" aria-hidden="true">
-
-### Mapas de color
+![Grafico con matplotlib](img/mapa-calor.png)
 
 - `hist2d(x, y)`: Dibuja un mapa de color que simula un histograma bidimensional, donde los colores de los cuadrados dependen de las frecuencias de las clases de la muestra dada por las listas `x` e `y`. [<i class="fa fa-info-circle" aria-hidden="true"></i>](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist2d.html#matplotlib.pyplot.hist2d)
 
@@ -246,7 +244,7 @@ ax.hist2d(x, y)
 plt.show()
 ```
 
-<img src="img/histograma2D.png" alt="Gráfico con matplotlib" height="300px">
+![Grafico con matplotlib](img/histograma2D.png)
 
 <!-- TODO ### Colores
 

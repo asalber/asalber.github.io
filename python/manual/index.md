@@ -29,6 +29,7 @@ En este manual se presentan los conceptos básicos para iniciarse en la programa
 - [La librería Pandas](pandas.html)
 - [La libería Matplotlib](matplotlib.html)
 - [Referencias](referencias.html)
+- [Apéndice: Depuración de código](depuracion.html)
 
 ## Descarga
 

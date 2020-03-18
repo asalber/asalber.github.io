@@ -19,7 +19,7 @@ Las principales características de esta librería son:
 - Permite trabajar con series temporales.
 - Ofrece un rendimiento muy eficiente.
 
-<img src="img/pandas-logo.png" alt="Gráfico con matplotlib" height="150px">
+![Logo librería Pandas](img/pandas-logo.png)
 
 ### La clase de objetos DataFrame
 

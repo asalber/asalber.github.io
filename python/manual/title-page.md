@@ -21,15 +21,7 @@ header-right: "\\leftmark"
 footer-left: "\\hspace{1cm}"
 footer-center: ""
 footer-right: "\\thepage"
-header-includes:
-- |
-  ```{=latex}
-  \usepackage{awesomebox}
-  ```
-pandoc-latex-environment:
-  noteblock: [note]
-  tipblock: [tip]
-  warningblock: [warning]
-  cautionblock: [caution]
-  importantblock: [important]
-...
+toc: true
+toc-own-page: true
+numbersections: true
+---

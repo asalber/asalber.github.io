@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Manual de Python
-description: "Introducción a la programación"
+description: "Tipos de datos primitivos simples"
 tags: [Manual, Python, Programación]
 share: true
 image: logo-python.png

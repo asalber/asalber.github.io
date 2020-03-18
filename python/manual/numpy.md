@@ -13,7 +13,7 @@ image: logo-python.png
 
 Incorpora una nueva clase de objetos llamados **arrays** que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.
 
-<img src="img/numpy-logo.png" alt="Gráfico con matplotlib" height="200px">
+![Logo librería numpy](img/numpy-logo.png)
 
 ## La clase de objetos `array`
 
@@ -21,7 +21,7 @@ Un array es una estructura de datos de un mismo tipo organizada en forma de tabl
 
 Las dimensiones de un array también se conocen como **ejes**.
 
-<img src="img/arrays.png" alt="Gráfico con matplotlib" height="400px">
+![Arrays](img/arrays.png)
 
 ## Creación de arrays
 
