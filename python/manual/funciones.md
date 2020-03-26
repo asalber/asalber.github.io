@@ -240,19 +240,27 @@ En muchos casos es más eficiente resolver la tarea recursiva de forma iterativa
 8
 ```
 
-## Importación de funciones (`import`)
+## Módulos
 
-Las funciones definidas en un programa o módulo de Python pueden ser importadas y reutilizadas en otros programas.
+El código de un programa en Python puede reutilizarse en otro importándolo. Cualquier fichero con código de Python reutilizable se conoce como _módulo_ o _librería_.
 
-Existen varias formas de importar módulos y funciones:
+Los módulos suelen contener funciones reutilizables, pero también pueden definir variables con datos simples o compuestos (listas, diccionarios, etc), o cualquier otro código válido en Python.
 
-- `import M` : Importa el módulo `M` y crea una referencia a él, de manera que pueden invocarse un objeto o función `f` definida en él mediante la sintaxis `M.f`.
+Python permite importar un módulo completo o sólo algunas partes de él. Cuando se importa un módulo completo, el intérprete de Python ejecuta todo el código que contiene el módulo, mientras que si solo se importan algunas partes del módulo, solo se ejecutarán esas partes.
 
-- `import M as N` : Importa el módulo `M` y crea una referencia `N` a él, de manera que pueden invocarse un objeto o función `f` definida en él mediante la sintaxis `N.f`. Esta forma es similar a la anterior, pero tiene se suele usar cuando el nombre del módulo es muy largo para utilizar un alias más corto.
+### Importación completa de módulos (`import`)
 
-- `from M import *` : Importa el módulo `M` y crea referencias a todos los objetos públicos (aquellos que no empiezan por el carácter `_`) definidos en el módulo. De esta manera para invocar un objeto del módulo no hace falta precederlo por el nombre del módulo, basta con escribir su nombre.
-  
-- `from M import f, g, ...` : Importa el módulo `M` y crea referencias a los objetos `f, g, ...`, de manera que pueden ser invocados por su nombre.
+- `import M` : Ejecuta el código que contiene `M` y crea una referencia a él, de manera que pueden invocarse un objeto o función `f` definida en él mediante la sintaxis `M.f`.
+
+- `import M as N` : Ejecuta el código que contiene `M` y crea una referencia a él con el nombre `N`, de manera que pueden invocarse un objeto o función `f` definida en él mediante la sintaxis `N.f`. Esta forma es similar a la anterior, pero se suele usar cuando el nombre del módulo es muy largo para utilizar un alias más corto.
+
+### Importación parcial de módulos (`from import`)
+
+- `from M import f, g, ...` : Ejecuta el código que contiene `M` y crea referencias a los objetos `f, g, ...`, de manera que pueden ser invocados por su nombre. De esta manera para invocar cualquiera de estos objetos no hace falta precederlos por el nombre del módulo, basta con escribir su nombre.
+
+- `from M import *` : Ejecuta el código que contiene `M` y crea referencias a todos los objetos públicos (aquellos que no empiezan por el carácter `_`) definidos en el módulo, de manera que pueden ser invocados por su nombre.
+
+<i class="far fa-exclamation-triangle"></i>Cuando se importen módulos de esta manera hay que tener cuidado de que no haya coincidencias en los nombres de funciones, variables u otros objetos.
 
 ```python
 >>> import calendar
@@ -274,7 +282,7 @@ Mo Tu We Th Fr Sa Su
 
 ### Módulos de la librería estándar más importantes
 
-No necesitan instalarse porque vienen incluidos en la distribución de Python.
+Python viene con una [biblioteca de módulos predefinidos](https://docs.python.org/3/py-modindex.html) que no necesitan instalarse. Algunos de los más utilizados son:
 
 - [sys](https://docs.python.org/3/library/sys.html): Funciones y parámetros específicos del sistema operativo.
 - [os](https://docs.python.org/3/library/os.html): Interfaz con el sistema operativo.
