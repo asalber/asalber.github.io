@@ -21,30 +21,42 @@ Escribir una función que simule una calculadora científica que permita calcula
 
 ## Ejercicio 3
 
-Escribir que reciba una frase y devuelva un diccionario con las palabras que contiene y su longitud.
+Escribir una función que reciba otra función y una lista, y devuelva otra lista con el resultado de aplicar la función dada a cada uno de los elementos de la lista.
 
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio3.ipynb" class="btn btn-info">Solución</a>
 
 ## Ejercicio 4
 
-Escribir una función reciba una lista de notas y devuelva la lista de calificaciones correspondientes a esas notas.
+Escribir una función que reciba otra función booleana y una lista, y devuelva otra lista con los elementos de la lista que devuelvan `True` al aplicarles la función booleana.
 
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio4.ipynb" class="btn btn-info">Solución</a>
 
 ## Ejercicio 5
 
-Escribir una función reciba un diccionario con la las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas.
+Escribir una función que reciba una frase y devuelva un diccionario con las palabras que contiene y su longitud.
 
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio5.ipynb" class="btn btn-info">Solución</a>
 
 ## Ejercicio 6
 
-Escribir una función reciba un diccionario con la las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas aprobadas.
+Escribir una función reciba una lista de notas y devuelva la lista de calificaciones correspondientes a esas notas.
 
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio6.ipynb" class="btn btn-info">Solución</a>
 
 ## Ejercicio 7
 
-Escribir una función reciba dos tuplas y devuelva su producto escalar.
+Escribir una función reciba un diccionario con la las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas.
 
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio7.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 8
+
+Escribir una función reciba un diccionario con la las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas aprobadas.
+
+<a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio8.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 9
+
+Escribir una función reciba dos tuplas y devuelva su producto escalar.
+
+<a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio9.ipynb" class="btn btn-info">Solución</a>
