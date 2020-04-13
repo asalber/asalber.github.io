@@ -129,6 +129,8 @@ Antes de borrar o renombra un directorio conviene comprobar que existe para que 
 
 Para trabajar con directorios también se utilizan funciones del módulo `os`.
 
+`os.listdir(ruta)` : Devuelve una lista con los ficheros y directiorios contenidos en la ruta `ruta`.
+
 `os.mkdir(ruta)` : Crea un nuevo directorio en la ruta `ruta`.
 
 `os.chdir(ruta)` : Cambia el directorio actual al indicado por la ruta `ruta`.
