@@ -260,7 +260,7 @@ Python permite importar un módulo completo o sólo algunas partes de él. Cuand
 
 - `from M import *` : Ejecuta el código que contiene `M` y crea referencias a todos los objetos públicos (aquellos que no empiezan por el carácter `_`) definidos en el módulo, de manera que pueden ser invocados por su nombre.
 
-<i class="far fa-exclamation-triangle"></i>Cuando se importen módulos de esta manera hay que tener cuidado de que no haya coincidencias en los nombres de funciones, variables u otros objetos.
+<i class="fa fa-exclamation-triangle" style="color:red;"></i>Cuando se importen módulos de esta manera hay que tener cuidado de que no haya coincidencias en los nombres de funciones, variables u otros objetos.
 
 ```python
 >>> import calendar

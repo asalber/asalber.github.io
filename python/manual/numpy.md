@@ -27,7 +27,7 @@ Las dimensiones de un array también se conocen como **ejes**.
 
 Para crear un array se utiliza la siguiente función de NumPy
 
-`np.array(secuencia)` : Crea un array a partir de la lista o tupla `lista` y devuelve una referencia a él. El número de dimensiones del array dependerá de las listas o tuplas anidadas en `lista`:
+`np.array(lista)` : Crea un array a partir de la lista o tupla `lista` y devuelve una referencia a él. El número de dimensiones del array dependerá de las listas o tuplas anidadas en `lista`:
 
 - Para una lista de valores se crea un array de una dimensión, también conocido como **vector**.
 - Para una lista de listas de valores se crea un array de dos dimensiones, también conocido como **matriz**.
@@ -102,7 +102,7 @@ Existen varios atributos y funciones que describen las características de un ar
 
 ### Acceso a los elementos de un array
 
-Para acceder a los elementos contenidos en un array se usan índices al igual que para acceder a los ementos de una lista, pero indicando los índices de cada dimensión separados por comas.
+Para acceder a los elementos contenidos en un array se usan índices al igual que para acceder a los elementos de una lista, pero indicando los índices de cada dimensión separados por comas.
 
 Al igual que para listas, los índices de cada dimensión comienzn en 0.
 
