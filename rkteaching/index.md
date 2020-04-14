@@ -64,7 +64,7 @@ To install this packages you must run RKWard, open the R console and type the fo
 
     The following video tutorial shows the installation process.
 
-    <iframe src="//www.youtube.com/embed/BrqFyfNO9RM" width="640" height="360" allowfullscreen frameborder="0"></iframe> 
+    <iframe src="//www.youtube.com/embed/SB1oER6HbEs" width="640" height="360" allowfullscreen frameborder="0"></iframe> 
 
 ### Installation on Linux
 
@@ -259,7 +259,7 @@ Para ello hay que introducir los siguientes comandos en la consola de R:
 
     El siguiente vídeo muestra el proceso de instalación.
 
-    <iframe src="//www.youtube.com/embed/BrqFyfNO9RM" width="640" height="360" allowfullscreen frameborder="0"></iframe> 
+    <iframe src="//www.youtube.com/embed/SB1oER6HbEs" width="640" height="360" allowfullscreen frameborder="0"></iframe> 
 
 ### Instalación en Linux
 
