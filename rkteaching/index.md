@@ -1,11 +1,12 @@
 ---
-layout: software
+layout: book
 title: rkTeaching
 description: "An R package for teaching and learning Statistics"
 modified: 2016-05-20
 tags: [Estadística, R, Statistics, rk.Teaching, RKWard]
 comments: true
 share: true
+image: rkteaching-hexsticker.png
 ---
 
 # English version ([Versión en español debajo](#spanish))
@@ -47,13 +48,9 @@ It is recommended version 3.5.3 for MacOs.
 You have to select the Mac Os distribution (<https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg>) and follow the instructions there.
 It is required a Mac Os version 10.11 or higher.
 
-    The following video tutorial shows the installation process.
-
-    <iframe src="//www.youtube.com/embed/2t4zUOlgPG8" width="640" height="360" frameborder="0"> </iframe>
-
     If there is some error during the installation process, check for the possible solutions (<http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting>)
 
-3. **Install the packages that rk.Teaching depends on**. The rk.Teaching package depends on several packages that should be installed first.
+1. **Install the packages that rk.Teaching depends on**. The rk.Teaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:
 
     <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez","remotes"))</code></pre>
@@ -65,9 +62,9 @@ To install this packages you must run RKWard, open the R console and type the fo
     install_github("rkward-community/rk.Teaching", ref="develop")
     </code></pre>
 
-    The following video tutorial shows the installation process (in Spanish).
+    The following video tutorial shows the installation process.
 
-    <iframe src="//www.youtube.com/embed/vQa4umDJko8" width="640" height="360" frameborder="0"> </iframe> 
+    <iframe src="//www.youtube.com/embed/BrqFyfNO9RM" width="640" height="360" allowfullscreen frameborder="0"></iframe> 
 
 ### Installation on Linux
 
@@ -245,10 +242,6 @@ Se recomienda instalar la versión 3.5.3 para MacOs.
 Debe seleccionarse la distribución correspondiente a Mac Os (<https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg>) y seguir las instrucciones de instalación que allí se especifican.
 Es importante asegurase de tener una versión de Mac OS X 10.11 o superior, ya que RKWard no funciona con versiones anteriores.
 
-    El siguiente vídeo muestra el proceso de instalación.
-
-    <iframe src="//www.youtube.com/embed/2t4zUOlgPG8" width="640" height="360" frameborder="0"> </iframe> 
-
     Si hay algún error en la instalación, consultar las posibles soluciones en (<http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting>)
 
 1. **Instalar los paquetes de los que depende rk.Teaching**. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende. 
@@ -266,7 +259,7 @@ Para ello hay que introducir los siguientes comandos en la consola de R:
 
     El siguiente vídeo muestra el proceso de instalación.
 
-    <iframe src="//www.youtube.com/embed/vQa4umDJko8" width="640" height="360" frameborder="0"> </iframe> 
+    <iframe src="//www.youtube.com/embed/BrqFyfNO9RM" width="640" height="360" allowfullscreen frameborder="0"></iframe> 
 
 ### Instalación en Linux
 
