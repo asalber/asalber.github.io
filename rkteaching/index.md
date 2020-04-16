@@ -35,7 +35,7 @@ The installation creates a folder rkward into the installation directory. There,
 
 The following video tutorial shows the installation process (in Spanish).
 
-<iframe src="//www.youtube.com/embed/BrqFyfNO9RM" width="640" height="360" allowfullscreen frameborder="0"></iframe>
+<iframe src="//www.youtube.com/embed/jsX4MaqWA4g" width="640" height="360" allowfullscreen frameborder="0"></iframe>
 
 ### Installation on Mac OS
 
