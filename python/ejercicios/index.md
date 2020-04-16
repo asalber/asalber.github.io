@@ -22,3 +22,4 @@ Los ejercicios están clasificados por temas y siguen el orden más o menos habi
 - [Ejercicios de ficheros](/python/ejercicios/ficheros.html)
 - [Ejercicios de excepciones](/python/ejercicios/excepciones.html)
 - [Ejercicios de depuración](/python/ejercicios/depuracion.html)
+- [Ejercicios de Pandas](/python/ejercicios/pandas.html)
