@@ -11,17 +11,16 @@ image: logo-python.png
 
 [Pandas](https://pandas.pydata.org) es una librería de Python especializada en el manejo y análisis de estructuras de datos.
 
+![Logo librería Pandas](img/pandas-logo.png)
+
 Las principales características de esta librería son:
 
 - Define nuevas estructuras de datos basadas en los arrays de la librería NumPy pero con nuevas funcionalidades.
 - Permite leer y escribir fácilmente ficheros en formato CSV, Excel y bases de datos SQL.
-- Permite acceder a los datos mediante índices o etiquetas para filas y columnas.
+- Permite acceder a los datos mediante índices o nombres para filas y columnas.
 - Ofrece métodos para reordenar, dividir y combinar conjuntos de datos.
 - Permite trabajar con series temporales.
 - Realiza todas estas operaciones de manera muy eficiente.
-
-
-![Logo librería Pandas](img/pandas-logo.png)
 
 ### Tipos de datos de Pandas
 
@@ -75,7 +74,7 @@ dtype: float64
 
 ### Acceso a los elementos de una serie
 
-El acceso a los elementos de un objeto del tipo Series puede ser a través de posiciones o través de índices (etiquetas).
+El acceso a los elementos de un objeto del tipo Series puede ser a través de posiciones o través de índices (nombres).
 
 #### Acceso por posición
 
@@ -116,7 +115,7 @@ Un DataFrame contiene dos índices, uno para las filas y otro para las columnas,
 
 Para crear un DataFrame a partir de un diccionario cuyas claves son los nombres de las columnas y los valores son listas con los datos de las columnas se utiliza el método:
 
-- `DataFrame(data=diccionario, index=filas, columns=columnas, dtype=tipos)` : Devuelve un objeto del tipo DataFrame cuyas columnas son las listas contenidas en los valores del diccionario `diccionario`, los nombres de filas indicados en la lista `filas`, los nombres de columnas indicados en la lista `columnas` y los tipos indicados en la lista `tipos`. La lista `filas` tiene que tener el mismo tamaño que las listas del diccionario, mientras que las listas `columnas` y `tipos` tienen que tener el mismo tamaño que el diccionario. Si no se pasa la lista de filas se utilizan como nombres los enteros empezando en 0. Si no se pasa la lista de columnas se utilizan como etiquetas las claves del diccionario. Si no se pasa la lista de tipos, se infiere.
+- `DataFrame(data=diccionario, index=filas, columns=columnas, dtype=tipos)` : Devuelve un objeto del tipo DataFrame cuyas columnas son las listas contenidas en los valores del diccionario `diccionario`, los nombres de filas indicados en la lista `filas`, los nombres de columnas indicados en la lista `columnas` y los tipos indicados en la lista `tipos`. La lista `filas` tiene que tener el mismo tamaño que las listas del diccionario, mientras que las listas `columnas` y `tipos` tienen que tener el mismo tamaño que el diccionario. Si no se pasa la lista de filas se utilizan como nombres los enteros empezando en 0. Si no se pasa la lista de columnas se utilizan como nombres las claves del diccionario. Si no se pasa la lista de tipos, se infiere.
 
 <i class='fa fa-exclamation-triangle' style="color:red"></i> Los valores asociados a las claves del diccionario deben ser listas del mismo tamaño.
 
@@ -222,7 +221,7 @@ También existen funciones para exportar un DataFrame a un fichero con diferente
 
 Existen varias propiedades o métodos para ver las características de un DataFrame.
 
-- `df.info()` : Devuelve información (número de filas, número de columnas, etiquetas, tipo de las columnas y memoria usado) sobre el DataFrame `df`.
+- `df.info()` : Devuelve información (número de filas, número de columnas, índices, tipo de las columnas y memoria usado) sobre el DataFrame `df`.
 
 - `df.shape` : Devuelve una tupla con el número de filas y columnas del DataFrame `df`.
   
@@ -232,7 +231,7 @@ Existen varias propiedades o métodos para ver las características de un DataFr
 
 - `df.index` : Devuelve una lista con los nombres de las filas del DataFrame `df`.
   
-- `df.types` : Devuele una serie con los tipos de datos de las columnas del DataFrame `df`.
+- `df.dtypes` : Devuele una serie con los tipos de datos de las columnas del DataFrame `df`.
 
 - `df.head(n)` : Devuelve las `n` primeras filas del DataFrame `df`.
 
@@ -336,9 +335,9 @@ nombre     Rosa Díaz Díaz
 edad                   32
 ```
 
-### Acceso a los elementos mediante etiquetas
+### Acceso a los elementos mediante nombres
 
-- `df.loc[fila, columna]` : Devuelve el elemento que se encuentra en la fila con etiqueta `fila` y la columna de con etiqueta `columna` del DataFrame `df`.
+- `df.loc[fila, columna]` : Devuelve el elemento que se encuentra en la fila con nombre `fila` y la columna de con nombre `columna` del DataFrame `df`.
 
 `df.loc[filas, columnas]` : Devuelve un DataFrame con los elemento que se encuentra en las filas con los nombres de la lista `filas` y las columnas con los nombres de la lista `columnas` del DataFrame `df`.
 
@@ -561,9 +560,11 @@ Para ordenar un DataFrame de acuerdo a los valores de una determinada columna se
 ...
 ```
 
-## Operaciones con grupos
+## Agrupación de un DataFrame
 
 En muchas aplicaciones es útil agrupar los datos de un DataFrame de acuerdo a los valores de una o varias columnas (categorías), como por ejemplo el sexo o el país.
+
+![División en grupos de un DataFrame](img/pandas-grupos.png)
 
 ### Dividir un DataFrame en grupos
 
@@ -631,7 +632,7 @@ A menudo la disposición de los datos en un DataFrame no es la adecuada para su 
 
 ![Formatos de un DataFrame](img/formatos-dataframe.png)
 
-#### Convertir un DataFrame a formato largo
+### Convertir un DataFrame a formato largo
 
 Para convertir un DataFrame de formato ancho a formato largo (columnas a filas) se utiliza el siguiente método:
 
@@ -659,7 +660,7 @@ Para convertir un DataFrame de formato ancho a formato largo (columnas a filas) 
 8  Carmen    20  Programación   9.0
 ```
 
-#### Convertir un DataFrame a formato ancho
+### Convertir un DataFrame a formato ancho
 
 Para convertir un DataFrame de formato largo a formato ancho (filas a columnas) se utiliza el siguiente método:
 
