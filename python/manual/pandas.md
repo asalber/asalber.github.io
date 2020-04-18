@@ -72,6 +72,27 @@ Programación    8.5
 dtype: float64
 ```
 
+### Atributos de una serie
+
+Existen varias propiedades o métodos para ver las características de una serie.
+  
+- `s.size` : Devuelve el número de elementos de la serie `s`.
+
+- `s.index` : Devuelve una lista con los nombres de las filas del DataFrame `s`.
+  
+- `s.dtype` : Devuelve el tipo de datos de los elementos de la serie `s`.
+
+```python
+>>> import pandas as pd
+>>> s = pd.Series([1, 2, 2, 3, 3, 3, 4, 4, 4, 4])
+>>> s.size
+10
+>>> s.index
+RangeIndex(start=0, stop=10, step=1)
+>>> s.dtype
+dtype('int64')
+```
+
 ### Acceso a los elementos de una serie
 
 El acceso a los elementos de un objeto del tipo Series puede ser a través de posiciones o través de índices (nombres).
@@ -101,9 +122,151 @@ Matemáticas     6.0
 dtype: float64
 ```
 
+### Resumen descriptivo de una serie
+
+Las siguientes funciones permiten resumir varios aspectos de una serie:
+
+- `s.count()` : Devuelve el número de elementos que no son nulos ni `NaN` en la serie `s`.
+- `s.sum()` : Devuelve la suma de los datos de la serie `s` cuando los datos son de un tipo numérico, o la concatenación de ellos cuando son del tipo cadena `str`.
+- `s.cumsum()` : Devuelve una serie con la suma acumulada de los datos de la serie `s` cuando los datos son de un tipo numérico.
+- `s.value_counts()` : Devuelve una serie con la frecuencia (número de repeticiones) de cada valor de la serie `s`.
+- `s.min()` : Devuelve el menor de los datos de la serie `s`.
+- `s.max()` : Devuelve el mayor de los datos de la serie `s`.
+- `s.mean()` : Devuelve la media de los datos de la serie `s` cuando los datos son de un tipo numérico.
+- `s.std()` : Devuelve la desviación típica de los datos de la serie `s` cuando los datos son de un tipo numérico.
+- `s.describe()`: Devuelve una serie con un resumen descriptivo que incluye el número de datos, su suma, el mínimo, el máximo, la media, la desviación típica y los cuartiles.
+
+```python
+>>> import pandas as pd
+>>> s = pd.Series([1, 1, 1, 1, 2, 2, 2, 3, 3, 4])
+>>> s.count()
+10
+>>> s.sum()
+20
+>>> s.cumsum()
+0     1
+1     2
+2     3
+3     4
+4     6
+5     8
+6    10
+7    13
+8    16
+9    20
+dtype: int64
+>>> s.value_counts()
+1    4
+2    3
+3    2
+4    1
+dtype: int64
+>>> s.value_counts(normalize=True)
+1    0.4
+2    0.3
+3    0.2
+4    0.1
+dtype: float64
+>>> s.min()
+1
+>>> s.max()
+4
+>>> s.mean()
+2.0
+>>> s.std()
+1.0540925533894598
+>>> s.describe()
+count    10.000000
+mean      2.000000
+std       1.054093
+min       1.000000
+25%       1.000000
+50%       2.000000
+75%       2.750000
+max       4.000000
+dtype: float64
+```
+
+### Aplicar operaciones a una serie
+
+Los operadores binarios (`+`, `*`, `/`, etc.) pueden utilizarse con una serie, y devuelven otra serie con el resultado de aplicar la operación a cada elemento de la serie.
+
+```python
+>>> import pandas as pd
+s = pd.Series([1, 2, 3, 4])
+>>> s*2
+0    2
+1    4
+2    6
+3    8
+dtype: int64
+>>> s%2
+0    1
+1    0
+2    1
+3    0
+dtype: int64
+>>> s = pd.Series(['a', 'b', 'c'])
+>>> s*5
+0    aaaaa
+1    bbbbb
+2    ccccc
+dtype: object
+```
+
+### Aplicar funciones a una serie
+
+También es posible aplicar una función a cada elemento de la serie mediante el siguiente método:
+
+- `s.apply(f)` : Devuelve una serie con el resultado de aplicar la función `f` a cada uno de los elementos de la serie `s`.
+
+```python
+>>> import pandas as pd
+>>> from math import log
+>>> s = pd.Series([1, 2, 3, 4])
+>>> s.apply(log)
+0    0.000000
+1    0.693147
+2    1.098612
+3    1.386294
+dtype: float64
+>>> s = pd.Series(['a', 'b', 'c'])
+>>> s.apply(str.upper)
+0    A
+1    B
+2    C
+dtype: object
+```
+
+### Eliminar los dados desconocidos en una serie
+
+Los datos desconocidos representan en Pandas por `NaN` y los nulos por `None`. Tanto unos como otros suelen ser un problema a la hora de realizar algunos análisis de datos, por lo que es habitual eliminarlos. Para eliminarlos de una serie se utiliza el siguiente método:
+
+- `s.dropna()` : Elimina los datos desconocidos o nulos de la serie `s`.
+
+```python
+>>> import pandas as pd
+>>> import numpy as np
+>>> s = pd.Series(['a', 'b', None, 'c', np.NaN,  'd'])
+>>> s
+0       a
+1       b
+2    None
+3       c
+4     NaN
+5       d
+dtype: object
+>>> s.dropna()
+0    a
+1    b
+3    c
+5    d
+dtype: object
+```
+
 ## La clase de objetos DataFrame
 
-Un objeto del tipo DataFrame define un conjunto de datos estructurado en forma de tabla cada columna es un objeto de tipo Series, es decir, todos los datos de una misma columna son del mismo tipo, y las filas con registros que pueden contender datos de distintos tipos.
+Un objeto del tipo DataFrame define un conjunto de datos estructurado en forma de tabla donde cada columna es un objeto de tipo Series, es decir, todos los datos de una misma columna son del mismo tipo, y las filas son registros que pueden contender datos de distintos tipos.
 
 Un DataFrame contiene dos índices, uno para las filas y otro para las columnas, y se puede acceder a sus elementos mediante los nombres de las filas y las columnas.
 
@@ -231,7 +394,7 @@ Existen varias propiedades o métodos para ver las características de un DataFr
 
 - `df.index` : Devuelve una lista con los nombres de las filas del DataFrame `df`.
   
-- `df.dtypes` : Devuele una serie con los tipos de datos de las columnas del DataFrame `df`.
+- `df.dtypes` : Devuelve una serie con los tipos de datos de las columnas del DataFrame `df`.
 
 - `df.head(n)` : Devuelve las `n` primeras filas del DataFrame `df`.
 
@@ -343,11 +506,13 @@ edad                   32
 
 - `df[columna]` : Devuelve una serie con los elementos de la columna de nombre `columna` del DataFrame `df`.
 
+- `df.columna` : Devuelve una serie con los elementos de la columna de nombre `columna` del DataFrame `df`. Es similar al método anterior pero solo funciona cuando el nombre de la columna no tiene espacios en blanco.
+
 ```python
 >>> import pandas as pd
 >>> df = pd.read_csv(
 'https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesterol.csv')
->>> print(df.loc[2, 'colesterol']
+>>> print(df.loc[2, 'colesterol'])
 191
 >>> print(df.loc[:3, ('colesterol','peso')])
      colesterol    peso
@@ -446,8 +611,15 @@ Para aplicar funciones a todos los elementos de una columna se utiliza el siguie
 
 ### Resumen descriptivo de un DataFrame
 
-El siguiente método proporciona un resumen estadístico descriptivo de las columnas de un DataFrame:
+Al igual que para las series, los siguientes métodos permiten resumir la información de un DataFrame por columnas:
 
+- `df.count()` : Devuelve una serie número de elementos que no son nulos ni `NaN` en cada columna del DataFrame `df`.
+- `df.sum()` : Devuelve una serie con la suma de los datos de las columnas del DataFrame `df` cuando los datos son de un tipo numérico, o la concatenación de ellos cuando son del tipo cadena `str`.
+- `df.cumsum()` : Devuelve un DataFrame con la suma acumulada de los datos de las columnas del DataFrame `df` cuando los datos son de un tipo numérico.
+- `df.min()` : Devuelve una serie con los menores de los datos de las columnas del DataFrame `df`.
+- `df.max()` : Devuelve una serie con los mayores de los datos de las columnas del DataFrame `df`.
+- `df.mean()` : Devuelve una serie con las media de los datos de las columnas del DataFrame `df` cuando los datos son de un tipo numérico.
+- `df.std()` : Devuelve una serie con las desviaciones típicas de los datos de las columnas del DataFrame `df` cuando los datos son de un tipo numérico.
 - `df.describe(include = tipo)` : Devuelve un DataFrame con un resumen estadístico de las columnas del DataFrame `df` del tipo `tipo`. Para los datos numéricos (`number`) se calcula la media, la desviación típica, el mínimo, el máximo y los cuartiles de las columnas numéricas. Para los datos no numéricos (`object`) se calcula el número de valores, el número de valores distintos, la moda y su frecuencia. Si no se indica el tipo solo se consideran las columnas numéricas.
 
 ```python
@@ -557,6 +729,25 @@ Para ordenar un DataFrame de acuerdo a los valores de una determinada columna se
 0       José Luis Martínez Izquierdo    18    H   85.0    1.79       182.0
 2              Javier García Sánchez    24    H    NaN    1.81       191.0
 13             Carolina Rubio Moreno    20    M   61.0    1.77       194.0
+...
+```
+
+### Eliminar las filas con dados desconocidos en un DataFrame
+
+Para eliminar las filas de un DataFrame que contienen datos desconocidos `NaN` o nulos `None` se utiliza el siguiente método:
+
+- `s.dropna(subset=columnas)` : Devuelve el DataFrame que resulta de eliminar las filas que contienen algún dato desconocido o nulo en las columnas de la lista `columna` del DataFrame `df`. Si no se pasa un argumento al parámetro `subset` se aplica a todas las columnas del DataFrame.
+
+```python
+>>> import pandas as pd
+>>> df = pd.read_csv(
+'https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesterol.csv')
+>>> print(df.dropna())
+                              nombre  edad sexo   peso  altura  colesterol
+0       José Luis Martínez Izquierdo    18    H   85.0    1.79       182.0
+1                     Rosa Díaz Díaz    32    M   65.0    1.73       232.0
+3                Carmen López Pinzón    35    M   65.0    1.70       200.0
+4               Marisa López Collado    46    M   51.0    1.58       148.0
 ...
 ```
 
