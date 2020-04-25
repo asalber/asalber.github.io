@@ -238,6 +238,44 @@ dtype: float64
 dtype: object
 ```
 
+### Filtrado de una serie
+
+Para filtrar una serie y quedarse con los valores que cumplen una determinada condición se utiliza el siguiente método:
+
+- `s[condicion]` : Devuelve una serie con los elementos de la serie `s` que se corresponden con el valor `True` de la lista booleana `condicion`. `condicion` debe ser una lista de valores booleanos de la misma longitud que la serie.
+
+```python
+>>> import pandas as pd
+>>> s = pd.Series({'Matemáticas': 6.0,  'Economía': 4.5, 'Programación': 8.5})
+>>> print(s[s > 5])
+Matemáticas     6.0
+Programación    8.5
+dtype: float64
+```
+
+### Ordenar una serie
+
+Para ordenar una serie se utilizan los siguientes métodos:
+
+- `s.sort_values(ascending=booleano`) : Devuelve la serie que resulta de ordenar los valores la serie `s`. Si argumento del parámetro `ascending` es `True` el orden es creciente y si es `False` decreciente.
+
+- `df.sort_index(ascending=booleano`) : Devuelve la serie que resulta de ordenar el índice de la serie `s`. Si el argumento del parámetro `ascending` es `True` el orden es creciente y si es `False` decreciente.
+
+```python
+>>> import pandas as pd
+>>> s = pd.Series({'Matemáticas': 6.0,  'Economía': 4.5, 'Programación': 8.5})
+>>> print(s.sort_values())
+Economía        4.5
+Matemáticas     6.0
+Programación    8.5
+dtype: float64
+>>> print(s.sort_index(ascending = False))
+Programación    8.5
+Matemáticas     6.0
+Economía        4.5
+dtype: float64
+```
+
 ### Eliminar los dados desconocidos en una serie
 
 Los datos desconocidos representan en Pandas por `NaN` y los nulos por `None`. Tanto unos como otros suelen ser un problema a la hora de realizar algunos análisis de datos, por lo que es habitual eliminarlos. Para eliminarlos de una serie se utiliza el siguiente método:
@@ -527,22 +565,6 @@ edad                   32
 ...
 ```
 
-### Filtrado de las filas de un DataFrame
-
-Una operación bastante común con un DataFrame es obtener las filas que cumplen una determinada condición.
-
-- `df[condicion]` : Devuelve un DataFrame con las filas del DataFrame `df` que se corresponden con el valor `True` de la lista booleana `condicion`. `condicion` debe ser una lista de valores booleanos de la misma longitud que el número de filas del DataFrame.
-
-```python
->>> import pandas as pd
->>> df = pd.read_csv(
-'https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesterol.csv')
->>> print(df[(df['sexo']=='H') & (df['colesterol'] > 260)])
-                     nombre  edad sexo    peso  altura    colesterol
-6   Antonio Fernández Ocaña    51    H    62.0    1.72         276.0
-9   Santiago Reillo Manzano    46    H    75.0    1.85         280.0
-```
-
 ## Operaciones con las columnas de un DataFrame
 
 ### Añadir columnas a un DataFrame
@@ -709,6 +731,22 @@ Para eliminar filas de un DataFrame se utilizan el siguiente método:
 2              Javier García Sánchez    24    H    NaN    1.81       191.0
 4               Marisa López Collado    46    M   51.0    1.58       148.0
 ...
+```
+
+### Filtrado de las filas de un DataFrame
+
+Una operación bastante común con un DataFrame es obtener las filas que cumplen una determinada condición.
+
+- `df[condicion]` : Devuelve un DataFrame con las filas del DataFrame `df` que se corresponden con el valor `True` de la lista booleana `condicion`. `condicion` debe ser una lista de valores booleanos de la misma longitud que el número de filas del DataFrame.
+
+```python
+>>> import pandas as pd
+>>> df = pd.read_csv(
+'https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesterol.csv')
+>>> print(df[(df['sexo']=='H') & (df['colesterol'] > 260)])
+                     nombre  edad sexo    peso  altura    colesterol
+6   Antonio Fernández Ocaña    51    H    62.0    1.72         276.0
+9   Santiago Reillo Manzano    46    H    75.0    1.85         280.0
 ```
 
 ### Ordenar un DataFrame
