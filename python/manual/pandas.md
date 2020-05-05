@@ -30,7 +30,7 @@ Pandas dispone de tres estructuras de datos diferentes:
 - DataFrame: Estructura de dos dimensiones (tablas).
 - Panel: Estructura de tres dimensiones (cubos).
 
-Estas estructuras se construyen a parir de arrays de la librería NumPy, añadiendo nuevas funcionalidades.
+Estas estructuras se construyen a partir de arrays de la librería NumPy, añadiendo nuevas funcionalidades.
 
 ## La clase de objetos Series
 
