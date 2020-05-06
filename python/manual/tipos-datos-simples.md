@@ -161,7 +161,7 @@ IndexError: string index out of range
 >>> 'Python'[2:]
 'thon'
 >>> 'Python'[:-2]
-'ytho'
+'Pyth'
 >>> 'Python'[:]
 'Python'
 >>> 'Python'[0:6:2]
