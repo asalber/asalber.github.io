@@ -67,7 +67,7 @@ El fichero [titanic.csv](soluciones/pandas/titanic.csv) contiene información so
 
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/pandas/ejercicio7.ipynb" class="btn btn-info">Solución</a>
 
-# Ejercicio 8
+## Ejercicio 8
 
 Los ficheros [emisiones-2016.csv](soluciones/pandas/emisiones-2016.csv), [emisiones-2017.csv](soluciones/pandas/emisiones-2017.csv), [emisiones-2018.csv](soluciones/pandas/emisiones-2018.csv) y [emisiones-2019.csv](soluciones/pandas/emisiones-2019.csv), contienen datos sobre las emisiones contaminates en la ciudad de Madrid en los años 2016, 2017, 2018 y 2019 respectivamente. Escribir un programa con los siguientes requisitos:
 
