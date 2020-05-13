@@ -7,8 +7,6 @@ share: true
 image: logo-python.png
 ---
 
-## La librería Pandas
-
 [Pandas](https://pandas.pydata.org) es una librería de Python especializada en el manejo y análisis de estructuras de datos.
 
 ![Logo librería Pandas](img/pandas-logo.png)
@@ -22,7 +20,7 @@ Las principales características de esta librería son:
 - Permite trabajar con series temporales.
 - Realiza todas estas operaciones de manera muy eficiente.
 
-### Tipos de datos de Pandas
+## Tipos de datos de Pandas
 
 Pandas dispone de tres estructuras de datos diferentes:
 
@@ -42,7 +40,7 @@ Ejemplo. La siguiente serie contiene las asignaturas de un curso.
 
 ![Ejemplo de serie](img/pandas-series.png)
 
-### Creación de una serie a partir de una lista
+## Creación de una serie a partir de una lista
 
 - `Series(data=lista, index=indices, dtype=tipo)` : Devuelve un objeto de tipo Series con los datos de la lista `lista`, las filas especificados en la lista `indices` y el tipo de datos indicado en `tipo`. Si no se pasa la lista de índices se utilizan como índices los enteros del 0 al $n-1$, done $n$ es el tamaño de la serie. Si no se pasa el tipo de dato se infiere.
 
@@ -58,7 +56,7 @@ Ejemplo. La siguiente serie contiene las asignaturas de un curso.
 dtype: string
 ```
 
-### Creación de una serie a partir de un diccionario
+## Creación de una serie a partir de un diccionario
 
 - `Series(data=diccionario, index=indices)`: Devuelve un objeto de tipo Series con los valores del diccionario `diccionario` y las filas especificados en la lista `indices`. Si no se pasa la lista de índices se utilizan como índices las claves del diccionario.
 
@@ -72,7 +70,7 @@ Programación    8.5
 dtype: float64
 ```
 
-### Atributos de una serie
+## Atributos de una serie
 
 Existen varias propiedades o métodos para ver las características de una serie.
   
@@ -93,18 +91,18 @@ RangeIndex(start=0, stop=10, step=1)
 dtype('int64')
 ```
 
-### Acceso a los elementos de una serie
+## Acceso a los elementos de una serie
 
 El acceso a los elementos de un objeto del tipo Series puede ser a través de posiciones o través de índices (nombres).
 
-#### Acceso por posición
+### Acceso por posición
 
 Se realiza de forma similar a como se accede a los elementos de un array.
 
 - `s[i]` : Devuelve el elemento que ocupa la posición `i+1` en la serie `s`.
 - `s[nombres]`: Devuelve otra serie con los elementos con los nombres de la lista `nombres` en el índice.
 
-#### Acceso por índice
+### Acceso por índice
 
 - `s[nombre]` : Devuelve el elemento con el nombre `nombre` en el índice.
 - `s[nombres]` : Devuelve otra serie con los elementos correspondientes a los nombres indicadas en la lista `nombres` en el índice.
@@ -122,7 +120,7 @@ Matemáticas     6.0
 dtype: float64
 ```
 
-### Resumen descriptivo de una serie
+## Resumen descriptivo de una serie
 
 Las siguientes funciones permiten resumir varios aspectos de una serie:
 
@@ -187,7 +185,7 @@ max       4.000000
 dtype: float64
 ```
 
-### Aplicar operaciones a una serie
+## Aplicar operaciones a una serie
 
 Los operadores binarios (`+`, `*`, `/`, etc.) pueden utilizarse con una serie, y devuelven otra serie con el resultado de aplicar la operación a cada elemento de la serie.
 
@@ -214,7 +212,7 @@ dtype: int64
 dtype: object
 ```
 
-### Aplicar funciones a una serie
+## Aplicar funciones a una serie
 
 También es posible aplicar una función a cada elemento de la serie mediante el siguiente método:
 
@@ -238,7 +236,7 @@ dtype: float64
 dtype: object
 ```
 
-### Filtrado de una serie
+## Filtrado de una serie
 
 Para filtrar una serie y quedarse con los valores que cumplen una determinada condición se utiliza el siguiente método:
 
@@ -253,7 +251,7 @@ Programación    8.5
 dtype: float64
 ```
 
-### Ordenar una serie
+## Ordenar una serie
 
 Para ordenar una serie se utilizan los siguientes métodos:
 
@@ -276,7 +274,7 @@ Economía        4.5
 dtype: float64
 ```
 
-### Eliminar los dados desconocidos en una serie
+## Eliminar los dados desconocidos en una serie
 
 Los datos desconocidos representan en Pandas por `NaN` y los nulos por `None`. Tanto unos como otros suelen ser un problema a la hora de realizar algunos análisis de datos, por lo que es habitual eliminarlos. Para eliminarlos de una serie se utiliza el siguiente método:
 
@@ -312,7 +310,7 @@ Un DataFrame contiene dos índices, uno para las filas y otro para las columnas,
 
 ![Ejemplo de DataFrame](img/pandas-dataframe.png)
 
-### Creación de un DataFrame a partir de un diccionario de listas
+## Creación de un DataFrame a partir de un diccionario de listas
 
 Para crear un DataFrame a partir de un diccionario cuyas claves son los nombres de las columnas y los valores son listas con los datos de las columnas se utiliza el método:
 
@@ -336,7 +334,7 @@ Para crear un DataFrame a partir de un diccionario cuyas claves son los nombres 
 3  Antonio    21      Economía  antonio@gmail.com
 ```
 
-### Creación de un DataFrame a partir de una lista de listas
+## Creación de un DataFrame a partir de una lista de listas
 
 Para crear un DataFrame a partir de una lista de listas con los datos de las columnas se utiliza el siguiente método:
 
@@ -354,7 +352,7 @@ Para crear un DataFrame a partir de una lista de listas con los datos de las col
 2  Carmen     20
 ```
 
-### Creación de un DataFrame a partir de una lista de diccionarios
+## Creación de un DataFrame a partir de una lista de diccionarios
 
 Para crear un DataFrame a partir de una lista de diccionarios con los datos de las filas, se utiliza el siguiente método:
 
@@ -371,7 +369,7 @@ Para crear un DataFrame a partir de una lista de diccionarios con los datos de l
 2  Carmen   NaN
 ```
 
-### Creación de un DataFrame a partir de un array
+## Creación de un DataFrame a partir de un array
 
 Para crear un DataFrame a partir de un array de NumPy se utiliza el siguiente método:
 
@@ -388,7 +386,7 @@ Para crear un DataFrame a partir de un array de NumPy se utiliza el siguiente m�
 3  0.236936 -0.431673 -0.177379
 ```
 
-### Creación de un DataFrame a partir de un fichero CSV o Excel
+## Creación de un DataFrame a partir de un fichero CSV o Excel
 
 Dependiendo del tipo de fichero, existen distintas funciones para importar un DataFrame desde un fichero.
 
@@ -410,7 +408,7 @@ Dependiendo del tipo de fichero, existen distintas funciones para importar un Da
 4               Marisa López Collado    46    M    51.0    1.58         148.0
 ```
 
-### Exportación de ficheros
+## Exportación de ficheros
 
 También existen funciones para exportar un DataFrame a un fichero con diferentes formatos.
 
@@ -418,7 +416,7 @@ También existen funciones para exportar un DataFrame a un fichero con diferente
 
 - `df.to_excel(fichero.xlsx, sheet_name = hoja, columns=booleano, index=booleano)` : Exporta el DataFrame `df` a la hoja de cálculo `hoja` del fichero `fichero.xlsx` en formato Excel. Si se pasa `True` al parámetro `columns` se exporta también la fila con los nombres de columnas y si se pasa `True` al parámetro `index` se exporta también la columna con los nombres de las filas.
 
-### Atributos de un DataFrame
+## Atributos de un DataFrame
 
 Existen varias propiedades o métodos para ver las características de un DataFrame.
 
@@ -474,7 +472,7 @@ colesterol    float64
 dtype: object
 ```
 
-### Renombrar los nombres de las filas y columnas
+## Renombrar los nombres de las filas y columnas
 
 Para cambiar el nombre de las filas y las columnas de un DataFrame se utiliza el siguiente método:
 
@@ -496,7 +494,7 @@ Para cambiar el nombre de las filas y las columnas de un DataFrame se utiliza el
 ...
 ```
 
-### Reindexar un DataFrame
+## Reindexar un DataFrame
 
 Para reordenar los índices de las filas y las columnas de un DataFrame, así como añadir o eliminar índices, se utiliza el siguiente método:
 
@@ -517,7 +515,7 @@ Para reordenar los índices de las filas y las columnas de un DataFrame, así co
 
 El acceso a los datos de un DataFrame se puede hacer a través de posiciones o través de los nombres de las filas y columnas.
 
-### Accesos mediante posiciones
+## Accesos mediante posiciones
 
 - `df.iloc[i, j]` : Devuelve el elemento que se encuentra en la fila `i` y la columna `j` del DataFrame `df`. Pueden indicarse secuencias de índices para obtener partes del DataFrame.
 
@@ -536,7 +534,7 @@ nombre     Rosa Díaz Díaz
 edad                   32
 ```
 
-### Acceso a los elementos mediante nombres
+## Acceso a los elementos mediante nombres
 
 - `df.loc[fila, columna]` : Devuelve el elemento que se encuentra en la fila con nombre `fila` y la columna de con nombre `columna` del DataFrame `df`.
 
@@ -567,7 +565,7 @@ edad                   32
 
 ## Operaciones con las columnas de un DataFrame
 
-### Añadir columnas a un DataFrame
+## Añadir columnas a un DataFrame
 
 El procedimiento para añadir una nueva columna a un DataFrame es similar al de añadir un nuevo par aun diccionario, pero pasando los valores de la columna en una lista o serie.
 
@@ -591,7 +589,7 @@ El procedimiento para añadir una nueva columna a un DataFrame es similar al de 
 ...
 ```
 
-### Operaciones sobre columnas
+## Operaciones sobre columnas
 
 Puesto que los datos de una misma columna de un DataFrame son del mismo tipo, es fácil aplicar la misma operación a todos los elementos de la columna.
 
@@ -613,7 +611,7 @@ Puesto que los datos de una misma columna de un DataFrame son del mismo tipo, es
 
 ```
 
-### Aplicar funciones a columnas
+## Aplicar funciones a columnas
 
 Para aplicar funciones a todos los elementos de una columna se utiliza el siguiente método:
 
@@ -631,7 +629,7 @@ Para aplicar funciones a todos los elementos de una columna se utiliza el siguie
 ...
 ```
 
-### Resumen descriptivo de un DataFrame
+## Resumen descriptivo de un DataFrame
 
 Al igual que para las series, los siguientes métodos permiten resumir la información de un DataFrame por columnas:
 
@@ -666,7 +664,7 @@ top      Antonio Fernández Ocaña    H
 freq                           1    8
 ```
 
-### Eliminar columnas de un DataFrame
+## Eliminar columnas de un DataFrame
 
 Para eliminar columnas de un DataFrame se utilizan los siguientes métodos:
 
@@ -695,7 +693,7 @@ print(edad)
 
 ## Operaciones con las filas de un DataFrame
 
-### Añadir una fila a un DataFrame
+## Añadir una fila a un DataFrame
 
 Para añadir una fila a un DataFrame se utiliza el siguiente método:
 
@@ -715,7 +713,7 @@ Para añadir una fila a un DataFrame se utiliza el siguiente método:
 14                      Carlos Rivas    28    H    89.0    1.78         245.0
 ```
 
-### Eliminar filas de un DataFrame
+## Eliminar filas de un DataFrame
 
 Para eliminar filas de un DataFrame se utilizan el siguiente método:
 
@@ -733,7 +731,7 @@ Para eliminar filas de un DataFrame se utilizan el siguiente método:
 ...
 ```
 
-### Filtrado de las filas de un DataFrame
+## Filtrado de las filas de un DataFrame
 
 Una operación bastante común con un DataFrame es obtener las filas que cumplen una determinada condición.
 
@@ -749,7 +747,7 @@ Una operación bastante común con un DataFrame es obtener las filas que cumplen
 9   Santiago Reillo Manzano    46    H    75.0    1.85         280.0
 ```
 
-### Ordenar un DataFrame
+## Ordenar un DataFrame
 
 Para ordenar un DataFrame de acuerdo a los valores de una determinada columna se utilizan los siguientes métodos:
 
@@ -770,7 +768,7 @@ Para ordenar un DataFrame de acuerdo a los valores de una determinada columna se
 ...
 ```
 
-### Eliminar las filas con dados desconocidos en un DataFrame
+## Eliminar las filas con dados desconocidos en un DataFrame
 
 Para eliminar las filas de un DataFrame que contienen datos desconocidos `NaN` o nulos `None` se utiliza el siguiente método:
 
@@ -795,7 +793,7 @@ En muchas aplicaciones es útil agrupar los datos de un DataFrame de acuerdo a l
 
 ![División en grupos de un DataFrame](img/pandas-grupos.png)
 
-### Dividir un DataFrame en grupos
+## Dividir un DataFrame en grupos
 
 Para dividir un DataFrame en grupos se utiliza el siguiente método:
 
@@ -829,7 +827,7 @@ Para obtener un grupo concreto se utiliza el siguiente método:
 13   Carolina Rubio Moreno    20    M    61.0     1.77         194.0
 ```
 
-### Aplicar una función de agregación por grupos
+## Aplicar una función de agregación por grupos
 
 Una vez dividido el DataFame en grupos, es posible aplicar funciones de agregación a cada grupo mediante el siguiente método:
 
@@ -861,7 +859,7 @@ A menudo la disposición de los datos en un DataFrame no es la adecuada para su 
 
 ![Formatos de un DataFrame](img/formatos-dataframe.png)
 
-### Convertir un DataFrame a formato largo
+## Convertir un DataFrame a formato largo
 
 Para convertir un DataFrame de formato ancho a formato largo (columnas a filas) se utiliza el siguiente método:
 
@@ -889,7 +887,7 @@ Para convertir un DataFrame de formato ancho a formato largo (columnas a filas) 
 8  Carmen    20  Programación   9.0
 ```
 
-### Convertir un DataFrame a formato ancho
+## Convertir un DataFrame a formato ancho
 
 Para convertir un DataFrame de formato largo a formato ancho (filas a columnas) se utiliza el siguiente método:
 

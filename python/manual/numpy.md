@@ -7,8 +7,6 @@ share: true
 image: logo-python.png
 ---
 
-## La librería NumPy
-
 [NumPy](https://www.numpy.org) es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.
 
 Incorpora una nueva clase de objetos llamados **arrays** que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.
@@ -88,7 +86,7 @@ Otras funciones útiles que permiten generar arrays son:
 [ 0.   2.5  5.   7.5 10. ]
 ```
 
-### Atributos de un array
+## Atributos de un array
 
 Existen varios atributos y funciones que describen las características de un array.
 
@@ -100,7 +98,7 @@ Existen varios atributos y funciones que describen las características de un ar
 
 `a.dtype`: Devuelve el tipo de datos de los elementos del array `a`.
 
-### Acceso a los elementos de un array
+## Acceso a los elementos de un array
 
 Para acceder a los elementos contenidos en un array se usan índices al igual que para acceder a los elementos de una lista, pero indicando los índices de cada dimensión separados por comas.
 
@@ -119,7 +117,7 @@ También es posible obtener subarrays con el operador dos puntos `:` indicando e
  [4 5]]
 ```
 
-### Filtrado de elementos de un array
+## Filtrado de elementos de un array
 
 Una característica muy útil de los arrays es que es muy fácil obtener otro array con los elementos que cumplen una condición.
 
@@ -133,7 +131,7 @@ Una característica muy útil de los arrays es que es muy fácil obtener otro ar
 [2 4]
 ```
 
-### Operaciones matemáticas con arrays
+## Operaciones matemáticas con arrays
 
 Existen dos formas de realizar operaciones matemáticas con arrays: a nivel de elemento y a nivel de array.
 
@@ -155,7 +153,7 @@ Los operadores mamemáticos `+`, `-`, `*`, `/`, `%`, `**` se utilizan para la re
  [16 25 36]]
 ```
 
-### Operaciones matemáticas a nivel de array
+## Operaciones matemáticas a nivel de array
 
 Para realizar el producto matricial se utiliza el método
 

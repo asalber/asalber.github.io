@@ -25,6 +25,8 @@ En este manual se presentan los conceptos básicos para iniciarse en la programa
 - [Comprensión de colecciones](comprension-colecciones.html)
 - [Ficheros](ficheros.html)
 - [Excepciones](excepciones.html)
+- [Módulos](modulos.html)
+- [La librería datetime](datetime.py)
 - [La librería Numpy](numpy.html)
 - [La librería Pandas](pandas.html)
 - [La libería Matplotlib](matplotlib.html)
