@@ -38,10 +38,10 @@ Usando Pandas:
 ### Requisitos opcionales
 
 15. Crear una función que reciba una lista de distritos y dibuje un gráfico de dispersión con el coste mínimo por noche y persona y la puntuación en esos distritos.
-1. Crear una función que reciba una lista de distritos y dibuje dos histogramas con la distribución de precios por persona y día, uno para los alojamientos con título en inglés y otro para los alojamientos con títulos en español. Si la distribución es muy asimétrica, aplicar una transformación logarítmica. ¿Hay diferencias entre los precios de los alojamientos en inglés y el español? Nota: Para identificar el idioma puede usare el módulo langdetect.
+16. Crear una función que reciba una lista de distritos y dibuje dos histogramas con la distribución de precios por persona y día, uno para los alojamientos con título en inglés y otro para los alojamientos con títulos en español. Si la distribución es muy asimétrica, aplicar una transformación logarítmica. ¿Hay diferencias entre los precios de los alojamientos en inglés y el español? Nota: Para identificar el idioma puede usare el módulo langdetect.
 
 ## Solución
 
-<a class="github-button" href="https://github.com/asalber/emisiones-madrid/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download asalber/emisiones-madrid on GitHub">Download</a>
+<!-- <a class="github-button" href="https://github.com/asalber/emisiones-madrid/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download asalber/emisiones-madrid on GitHub">Download</a>
 
-Abrir con <a href="https://repl.it/@asalber/emisiones-madrid"><img src="/images/logo-replit.png" alt="Abrir con repl.it"></a>
+Abrir con <a href="https://repl.it/@asalber/emisiones-madrid"><img src="/images/logo-replit.png" alt="Abrir con repl.it"></a> -->
