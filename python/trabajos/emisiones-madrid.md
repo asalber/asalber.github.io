@@ -11,9 +11,7 @@ El objetivo de este trabajo es comprobar si las restricciones de tráfico establ
 
 ### Conjunto de datos
 
-Datos abiertos del Ayuntamiento de Madrid: <a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=aecb88a7e2b73410VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default" target="_blank">Calidad del aire. Datos diarios años 2001 a 2019</a>.
-
-Deben usarse al menos los datos de 2018 y 2019.
+Datos abiertos del Ayuntamiento de Madrid: [Calidad del aire. Datos diarios años 2001 a 2019](http://aprendeconalf.es/python/trabajos/datos/emisiones-madrid.csv).
 
 ### Requisitos
 
