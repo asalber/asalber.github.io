@@ -11,6 +11,5 @@ Esta sección contiene una colección de trabajos aplicados de programación res
 
 - [Análisis de las emisiones contaminantes de Madrid](/python/trabajos/emisiones-madrid.html)
 - [Análisis de los contratos menores del Ayuntamiento de Madrid](/python/trabajos/contratos-menores-madrid.html)
-- [Análisis del presupuesto de inversiones del Ayuntamiento de Madrid](/python/trabajos/presupuesto-inversiones-madrid.html)
 - [Análisis de los alojamiento de Airbnb en Madrid](/python/trabajos/madrid-airbnb1.html)
 - [Análisis de la deuda pública de los países](/python/trabajos/deuda-publica.html)
