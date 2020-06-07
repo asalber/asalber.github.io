@@ -15,22 +15,19 @@ Datos abiertos del Ayuntamiento de Madrid: <a href="https://datos.madrid.es/port
 
 Deben usarse al menos los datos de 2018 y 2019.
 
-### Requisitos obligatorios
+### Requisitos
 
-- Crear una función que reciba una estación de medición y una magnitud y devuelva una lista con todas las mediciones de la magnitud en la estación.
-- Crear una función que reciba un mes y una estación de medición y devuelva un diccionario con las medias de las magnitudes medidas por la estación durante ese mes.
-- Crear una función que reciba un mes y una magnitud y devuelva un diccionario con las medias de las estaciones de medición de la magnitud durante ese mes.
-- Crear una función que reciba un rango de fechas y una estación de medición y genere un gráfico con la evolución diaria de las magnitudes de esa estación en las fechas indicadas.
-- Crear una función que reciba un rango de fechas y una magnitud y genere un gráfico con la evolución diaria de la magnitud para cada estación de medición en las fechas indicadas.
-- Crear una función que reciba una magnitud y genere un gráfico con las medias mensuales para cada estación de medición.
-
-### Requisitos opcionales
-
-- Crear una función que reciba un mes y una magnitud y devuelva un diccionario con las medias de la magnitud dentro de Madrid Central y fuera de ella.
-- Crear una función que reciba una magnitud y genere un gráfico con las medias mensuales dentro de Madrid Central y fuera de ella.
+1. Crear una función que reciba una estación de medición y una magnitud y devuelva una lista con todas las mediciones de la magnitud en la estación.
+2. Crear una función que reciba un mes y una estación de medición y devuelva un diccionario con las medias de las magnitudes medidas por la estación durante ese mes.
+3. Crear una función que reciba un mes y una magnitud y devuelva un diccionario con las medias de las estaciones de medición de la magnitud durante ese mes.
+4. Crear una función que reciba un rango de fechas y una estación de medición y genere un gráfico con la evolución diaria de las magnitudes de esa estación en las fechas indicadas.
+5. Crear una función que reciba un rango de fechas y una magnitud y genere un gráfico con la evolución diaria de la magnitud para cada estación de medición en las fechas indicadas.
+6. Crear una función que reciba una magnitud y genere un gráfico con las medias mensuales para cada estación de medición.
+7. Crear una función que reciba un mes y una magnitud y devuelva un diccionario con las medias de la magnitud dentro de Madrid Central y fuera de ella.
+8. Crear una función que reciba una magnitud y genere un gráfico con las medias mensuales dentro de Madrid Central y fuera de ella.
 
 ## Solución
 
-<a class="github-button" href="https://github.com/asalber/emisiones-madrid/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download asalber/emisiones-madrid on GitHub">Download</a>
+<a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/trabajos/soluciones/emisiones-madrid.ipynb" class="btn btn-info" target="_blank">Solución</a>
 
 Abrir con <a href="https://repl.it/@asalber/emisiones-madrid"><img src="/images/logo-replit.png" alt="Abrir con repl.it"></a>

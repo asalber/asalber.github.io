@@ -36,13 +36,15 @@ Escribir una función que cuente las palabras que hay en una frase y las devuelv
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/examenes/soluciones/examen-2020-05-27/ejercicio2.ipynb" class="btn btn-info" target="_blank">Solución</a>
 
 ## Ejercicio 3
-El fichero [horas-trabajo.csv]([horas-trabajo.csv](http://aprendeconalf.es/python/examenes/soluciones/examen-2020-05-27/horas-trabajo.csv)) contiene el número de horas mensuales trabajadas por los empleados de una empresa durante el primer cuatrimestre. Crear un programa que realice las siguientes operaciones sin utilizar la librería Pandas:
+El fichero [horas-trabajo.csv](http://aprendeconalf.es/python/examenes/soluciones/examen-2020-05-27/horas-trabajo.csv) contiene el número de horas mensuales trabajadas por los empleados de una empresa durante el primer cuatrimestre. Crear un programa que realice las siguientes operaciones sin utilizar la librería Pandas:
 
 1. Leer el fichero de internet http://aprendeconalf.es/python/examenes/soluciones/examen-2020-05-27/horas-trabajo.csv y crear una lista con las líneas del fichero.
 2. Mostrar por pantalla las horas totales del primer operario.
 3. Crear un diccionario de diccionarios tal que las claves del diccionario principal serán los identificadores de los operarios y sus valores serán, a su vez, otros diccionarios cuyas claves serán los meses y sus valores las horas trabajadas en esos meses para cada operario. Es decir, un diccionario como el siguiente:
+```python
 {'OP1': {'Enero': '180', 'Febrero': '160', 'Marzo': '140', 'Abril': '180'},
 'OP2': {'Enero': '120', 'Febrero': '140', 'Marzo': '', 'Abril': '100'}, ... }
+```
 4. Crear una función que reciba la base de datos de las horas trabajadas (puede utilizarse el diccionario del apartado anterior u otra estructura de datos), el identificador de un operario y el precio de la hora, y devuelva una tupla con el número totales de horas trabajadas y el salario de ese operario.
 
 <a href="https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/examenes/soluciones/examen-2020-05-27/ejercicio3.ipynb" class="btn btn-info" target="_blank">Solución</a>
