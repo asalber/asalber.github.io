@@ -33,3 +33,4 @@ image: cabecera-estadistica.jpg
 - [Exam of March 26, 2019](physiotherapy-2019-03-26.html)
 - [Exam of May 27, 2019](physiotherapy-2019-05-27.html)
 - [Exam of June 18, 2019](physiotherapy-2019-06-18.html)
+- [Exam of May 25, 2020](physiotherapy-2020-05-25.html)
