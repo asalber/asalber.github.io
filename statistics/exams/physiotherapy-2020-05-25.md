@@ -18,13 +18,13 @@ In a course there are 150 students, of which 50 are working students and the oth
 
 $$
 \begin{array}{crr}
-\mbox{Grade} & \mbox{Num non-working students} & \mbox{Num working students} \\ 
+\mbox{Grade} & \mbox{Num non-working students} & \mbox{Num working students} \\
 \hline
-0-2 & 8 & 2 \\ 
-2-4 & 15 & 9 \\ 
-4-6 & 25 & 19 \\ 
-6-8 & 38 & 11 \\ 
-8-10 & 14 & 9 \\ 
+0-2 & 8 & 2 \\
+2-4 & 15 & 9 \\
+4-6 & 25 & 19 \\
+6-8 & 38 & 11 \\
+8-10 & 14 & 9 \\
 \hline
 \end{array}
 $$
@@ -35,24 +35,24 @@ $$
 
 3. Which grade distribution is more asymmetric, the distribution of working students, or the non-working students one?
 
-4.  To apply for a scholarship to go abroad, the grade must be transformed applying the linear transformation $Y = 0.5 + X *
+4. To apply for a scholarship to go abroad, the grade must be transformed applying the linear transformation $Y = 0.5 + X *
 1.45$. Compute the mean of Y for the two groups. How changes the asymmetry of the two groups?
 
-5.  Which grade is relatively higher, 6 in the working students group, or 7 in the non-working students group?
+5. Which grade is relatively higher, 6 in the working students group, or 7 in the non-working students group?
 
 Use the following sums for the computations:  
-Non-working students: $\sum x_in_i=570$, $\sum x_i^2n_i=3764$, $\sum (x_i-\bar x)^3n_i=-547.8$ y $\sum (x_i-\bar x)^4n_i=6475.73$.  
-Working students: $\sum y_in_i=282$, $\sum y_i^2n_i=1826$, $\sum (y_i-\bar y)^3n_i=-1.31$ y $\sum (y_i-\bar y)^4n_i=2552.14$.
+Non-working students: $\sum x_in_i=570$, $\sum x_i^2n_i=3764$, $\sum (x_i-\bar x)^3n_i=-547.8$ and $\sum (x_i-\bar x)^4n_i=6475.73$.  
+Working students: $\sum y_in_i=282$, $\sum y_i^2n_i=1826$, $\sum (y_i-\bar y)^3n_i=-1.31$ and $\sum (y_i-\bar y)^4n_i=2552.14$.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
-1. 66.5% of non-working stsudents passed and 59% of working students passed.<br/>
+1. 66.5% of non-working students passed and 59% of working students passed.<br/>
 2. Non-working students: $\bar x=5.7$, $s^2=5.15$, $s=2.2694$ and $cv=0.3981$.<br/>
 Working students: $\bar y=5.64$, $s^2=4.7104$, $s=2.1703$ and $cv=0.3848$.<br/>
 The sample of non-working students has a slightly higher relative dispersion with respect to the mean as the coefficient of variation is greater.<br/>
 3.  Non-working students: $g_1=-0.4687$.<br/>
 Working students: $g_1=-0.0026$.<br/>
-Thus, the sample of non-working students is more assymetric as the coefficient os skewness is further from 0.<br/>
+Thus, the sample of non-working students is more asymmetric as the coefficient os skewness is further from 0.<br/>
 4.  Non-working students: $\bar y=8.765$.<br/>
 Working students: $\bar x=8.678$.<br/>
 The coefficient of skewness does not change as the slope of the linear transformation is positive.<br/>
@@ -86,7 +86,7 @@ dose?
 Use the following sums for the computations:  
 $\sum x_i=360$ mg, $\sum \log(x_i)=29.0253$ $\log(\mbox{mg})$, $\sum y_j=946$ $10^{-2}$ s, $\sum \log(y_j)=36.1538$ $\log(\mbox{$10^{-2}$ s})$,  
 $\sum x_i^2=20400$ mg$^2$, $\sum \log(x_i)^2=108.7717$ $\log(\mbox{mg})^2$, $\sum y_j^2=169958$ $10^{-2}$ s$^2$, $\sum \log(y_j)^2=167.5694$ $\log(\mbox{$10^{-2}$ s})^2$,  
-$\sum x_iy_j=57030$ mg$\cdot$$10^{-2}$ s, $\sum x_i\log(y_j)=1758.6576$ mg$\cdot\log(\mbox{$10^{-2}$ s})$, $\sum \log(x_i)y_j=3795.4339$ $\log(\mbox{mg})$$10^{-2}$ s, $\sum \log(x_i)\log(y_j)=134.823$ $\log(\mbox{mg})\log(\mbox{$10^{-2}$ s})$.
+$\sum x_iy_j=57030$ mg$\cdot 10^{-2}$ s, $\sum x_i\log(y_j)=1758.6576$ mg$\cdot\log(\mbox{$10^{-2}$ s})$, $\sum \log(x_i)y_j=3795.4339$ $\log(\mbox{mg})10^{-2}$ s, $\sum \log(x_i)\log(y_j)=134.823$ $\log(\mbox{mg})\log(\mbox{$10^{-2}$ s})$.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
@@ -102,7 +102,7 @@ Prediction: $y(75)=235.1434$ $10^{-2}$ s.<br/>
 Exponential coefficient of determination: $r^2=0.988$<br/>
 Thus, the exponential model fits almost perfectly to the cloud of points of the scatter plot, but the sample is too small to
 get reliable predictions.<br/>
-1. Logarithmic regression model: $x=-97.3603+31.501\ln(y)$.<br/>
+3. Logarithmic regression model: $x=-97.3603+31.501\ln(y)$.<br/>
 Prediction: $x(100)=47.7072$ mg.
 </div>
 
