@@ -13,3 +13,4 @@ image: logo-python.png
 - [Examen del 27 de mayo de 2019](examen-python-2019-05-27.html)
 - [Examen del 18 de junio de 2019](examen-python-2019-06-18.html)
 - [Examen del 27 de mayo de 2020](examen-python-2020-05-27.md)
+- [Examen del 19 de junio de 2020](examen-python-2020-06-19.md)
