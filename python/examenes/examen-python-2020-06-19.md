@@ -8,7 +8,7 @@ image: logo-python.png
 ---
 
 Grado: Inteligencia de los Negocios  
-Fecha: 27 de Mayo de 2020
+Fecha: 19 de Junio de 2020
 
 ## Ejercicio 1
 
