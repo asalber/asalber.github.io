@@ -83,7 +83,7 @@ $$
 Use the following sums for the computations ($X$=Concentration and $Y$=Signal):  
 $\sum x_i=308$ Hz, $\sum \log(x_i)=23.2345$ $\log(\mbox{Hz})$, $\sum y_j=930$ $\mu$g/ml, $\sum \log(y_j)=33.4575$ $\log(\mbox{$\mu$g/ml})$,  
 $\sum x_i^2=22714$ Hz$^2$, $\sum \log(x_i)^2=85.1299$ $\log(\mbox{Hz})^2$, $\sum y_j^2=144900$ $\mu$g/ml$^2$, $\sum \log(y_j)^2=161.6475$ $\log(\mbox{$\mu$g/ml})^2$,  
-$\sum x_iy_j=53760$ Hz$\cdot$$\mu$g/ml, $\sum x_i\log(y_j)=1580.3905$ Hz$\cdot\log(\mbox{$\mu$g/ml})$, $\sum \log(x_i)y_j=3496.6333$ $\log(\mbox{Hz})$$\mu$g/ml, $\sum \log(x_i)\log(y_j)=114.7297$ $\log(\mbox{Hz})\log(\mbox{$\mu$g/ml})$.
+$\sum x_iy_j=53760$ Hz$\cdot\mu$g/ml, $\sum x_i\log(y_j)=1580.3905$ Hz$\cdot\log(\mbox{$\mu$g/ml})$, $\sum \log(x_i)y_j=3496.6333$ $\log(\mbox{Hz})\mu$g/ml, $\sum \log(x_i)\log(y_j)=114.7297$ $\log(\mbox{Hz})\log(\mbox{$\mu$g/ml})$.
 
 <div><button class="solution">Show solution</button></div>
 <div id="solution" style="display: none">
