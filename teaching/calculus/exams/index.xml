@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Calculus Exams | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/teaching/calculus/exams/</link>
-      <atom:link href="https://aprendeconalf.es/teaching/calculus/exams/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/teaching/calculus/exams/</link>
+      <atom:link href="asalber.github.io/teaching/calculus/exams/index.xml" rel="self" type="application/rss+xml" />
     <description>Calculus Exams</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Calculus Exams</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/</link>
+      <link>asalber.github.io/teaching/calculus/exams/</link>
     </image>
     
     <item>
       <title>Pharmacy exam 2019-12-16</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2019-12-16/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2019-12-16/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2019-12-16/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2019-12-16/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Dic 16, 2019&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -94,9 +94,9 @@ The function is concave up in $(-\infty, 1.1716) \cup (6.8284, \infty)$ and conc
     
     <item>
       <title>Pharmacy exam 2018-12-17</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2018-12-17/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2018-12-17/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2018-12-17/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2018-12-17/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Dic 17, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -179,9 +179,9 @@ Compute the amount of $n$ and $p$ that maximizes the yield of the crop.&lt;/p&gt
     
     <item>
       <title>Pharmacy exam 2018-01-19</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2018-01-19/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2018-01-19/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2018-01-19/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2018-01-19/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Jan 19, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -269,9 +269,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Pharmacy exam 2017-11-06</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2017-11-06/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2017-11-06/</link>
       <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2017-11-06/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2017-11-06/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Nov 6, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -367,9 +367,9 @@ $w(12)=10.1$ kg.&lt;/li&gt;
     
     <item>
       <title>Pharmacy exam 2016-01-10</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2017-01-10/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2017-01-10/</link>
       <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2017-01-10/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2017-01-10/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Jan 10, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -449,9 +449,9 @@ $f&amp;rsquo;&#39;(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\sin^2 t), \frac{-2(1-t)^{-5
     
     <item>
       <title>Pharmacy exam 2016-11-07</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2016-11-07/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2016-11-07/</link>
       <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2016-11-07/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2016-11-07/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Nov 7, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;

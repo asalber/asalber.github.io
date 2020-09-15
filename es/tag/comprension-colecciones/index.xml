@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Comprensión Colecciones | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/comprension-colecciones/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/comprension-colecciones/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/comprension-colecciones/</link>
+      <atom:link href="asalber.github.io/es/tag/comprension-colecciones/index.xml" rel="self" type="application/rss+xml" />
     <description>Comprensión Colecciones</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Comprensión Colecciones</title>
-      <link>https://aprendeconalf.es/es/tag/comprension-colecciones/</link>
+      <link>asalber.github.io/es/tag/comprension-colecciones/</link>
     </image>
     
     <item>
       <title>Comprensión de Colecciones</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/comprension-colecciones/</link>
+      <link>asalber.github.io/es/docencia/python/manual/comprension-colecciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/comprension-colecciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/comprension-colecciones/</guid>
       <description>&lt;h2 id=&#34;comprensión-de-colecciones&#34;&gt;Comprensión de colecciones&lt;/h2&gt;
 &lt;p&gt;En muchas aplicaciones es habitual aplicar una función o realizar una operación con los elementos de una colección (lista, tupla o diccionario) y obtener una nueva colección de elementos transformados. Aunque esto se puede hacer recorriendo la secuencia con un bucle iterativo, y en programación funcional mediante la función &lt;code&gt;map&lt;/code&gt;, Python incorpora un mecanismo muy potente que permite esto mismo de manera más simple.&lt;/p&gt;
 &lt;h3 id=&#34;comprensión-de-listas&#34;&gt;Comprensión de listas&lt;/h3&gt;

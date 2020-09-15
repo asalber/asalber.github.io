@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/post/</link>
-      <atom:link href="https://aprendeconalf.es/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/post/</link>
+      <atom:link href="asalber.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Blog</title>
-      <link>https://aprendeconalf.es/post/</link>
+      <link>asalber.github.io/post/</link>
     </image>
     
     <item>
       <title>Calculus and Statistics cheat sheets</title>
-      <link>https://aprendeconalf.es/post/cheat-sheet/</link>
+      <link>asalber.github.io/post/cheat-sheet/</link>
       <pubDate>Thu, 02 Nov 2017 10:21:50 +0000</pubDate>
-      <guid>https://aprendeconalf.es/post/cheat-sheet/</guid>
+      <guid>asalber.github.io/post/cheat-sheet/</guid>
       <description>&lt;p&gt;From now on there are available some cheat sheets for Calculus and Statistics.
 These cheat sheets contains a summary with the main formulas used in Calculus and Statistics.&lt;/p&gt;
 &lt;p&gt;The cheat sheets can be downloaded from the following links:&lt;/p&gt;
@@ -31,9 +31,9 @@ These cheat sheets contains a summary with the main formulas used in Calculus an
     
     <item>
       <title>Survival guide for degrees</title>
-      <link>https://aprendeconalf.es/post/survival-guide-for-degrees/</link>
+      <link>asalber.github.io/post/survival-guide-for-degrees/</link>
       <pubDate>Mon, 24 Apr 2017 09:21:50 +0200</pubDate>
-      <guid>https://aprendeconalf.es/post/survival-guide-for-degrees/</guid>
+      <guid>asalber.github.io/post/survival-guide-for-degrees/</guid>
       <description>&lt;p&gt;In this post I offer some advice or tips that can help undergraduate students, especially during their first years, to be successful making the most of classes and learning to maximize their work.&lt;/p&gt;
 &lt;p&gt;I give this pieces of advice from a deep teaching background and from my own experience as a student.&lt;/p&gt;
 &lt;p&gt;Most of this tips could seem obvious but many students fail to put them into practice.&lt;/p&gt;
@@ -147,23 +147,23 @@ Do not be discouraged and think that even if you have not passed the subject, fo
     
     <item>
       <title>Released version 1.3.0 of the rkTeaching package</title>
-      <link>https://aprendeconalf.es/post/rkteaching-version1.3/</link>
+      <link>asalber.github.io/post/rkteaching-version1.3/</link>
       <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/post/rkteaching-version1.3/</guid>
+      <guid>asalber.github.io/post/rkteaching-version1.3/</guid>
       <description>&lt;p&gt;The 1.3.0 version of the R package rkTeaching for learning Statistics is available to install.
 This version is updated with the 3.2.3 version of R and the 0.6.5 version of RKWard.&lt;/p&gt;
 &lt;p&gt;This is a transitional version towards a major update that will arrive shortly and will incorporate the internationalization of the package.&lt;/p&gt;
 &lt;p&gt;To install it visit the page of 
-&lt;a href=&#34;https://aprendeconalf.es/project/rkteaching&#34;&gt;rkTeaching&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;a href=&#34;asalber.github.io/project/rkteaching&#34;&gt;rkTeaching&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>New Excel manual</title>
-      <link>https://aprendeconalf.es/post/excel-manual/</link>
+      <link>asalber.github.io/post/excel-manual/</link>
       <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/post/excel-manual/</guid>
+      <guid>asalber.github.io/post/excel-manual/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m glad to offer a basic 
-&lt;a href=&#34;https://aprendeconalf.es/office/excel/manual/index.html&#34;&gt;manual of Excel&lt;/a&gt;, the famous Microsoft Office spreadsheet. This manual is intended mainly for students of Economics and Business Administration, and for that reason, most of the examples in this manual are applied to accounting and finance. However, the manual also serves for learning a basic management of Excel, no matter the field of application.&lt;/p&gt;
+&lt;a href=&#34;asalber.github.io/office/excel/manual/index.html&#34;&gt;manual of Excel&lt;/a&gt;, the famous Microsoft Office spreadsheet. This manual is intended mainly for students of Economics and Business Administration, and for that reason, most of the examples in this manual are applied to accounting and finance. However, the manual also serves for learning a basic management of Excel, no matter the field of application.&lt;/p&gt;
 &lt;p&gt;The version of Excel used in this manual is Excel 2010, but some parts of this manual are also valid for other versions.&lt;/p&gt;
 &lt;p&gt;This is my first manual in English and so there is likely to be some grammatical errors. I apologize by that and I would like to ask you to correct me in the forum below. I hope you enjoy it.&lt;/p&gt;</description>
     </item>

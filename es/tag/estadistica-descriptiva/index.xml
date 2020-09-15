@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Estadística Descriptiva | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/estadistica-descriptiva/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/estadistica-descriptiva/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/estadistica-descriptiva/</link>
+      <atom:link href="asalber.github.io/es/tag/estadistica-descriptiva/index.xml" rel="self" type="application/rss+xml" />
     <description>Estadística Descriptiva</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Estadística Descriptiva</title>
-      <link>https://aprendeconalf.es/es/tag/estadistica-descriptiva/</link>
+      <link>asalber.github.io/es/tag/estadistica-descriptiva/</link>
     </image>
     
     <item>
       <title>Ejercicios de Estadística Descriptiva</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/descriptiva/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/descriptiva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/descriptiva/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/descriptiva/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Medicina, Farmacia&lt;/p&gt;
 &lt;p&gt;En un grupo de personas sometidas a una anestesia general se ha medido la dosis de sustancia anestésica recibida (X) en mg y el tiempo que estuvieron dormidas (Y) en horas.

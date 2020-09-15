@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/publication/</link>
-      <atom:link href="https://aprendeconalf.es/es/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/publication/</link>
+      <atom:link href="asalber.github.io/es/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Publications</title>
-      <link>https://aprendeconalf.es/es/publication/</link>
+      <link>asalber.github.io/es/publication/</link>
     </image>
     
     <item>
       <title>Mi Prueba</title>
-      <link>https://aprendeconalf.es/es/publication/diazparreno-2014-bioestadstica/</link>
+      <link>asalber.github.io/es/publication/diazparreno-2014-bioestadstica/</link>
       <pubDate>Thu, 27 Aug 2020 19:14:03 +0200</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/diazparreno-2014-bioestadstica/</guid>
+      <guid>asalber.github.io/es/publication/diazparreno-2014-bioestadstica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clinical-Evolutionary Staging System of Primary Open-Angle Glaucoma Using Optical Coherence Tomography</title>
-      <link>https://aprendeconalf.es/es/publication/parrablesa-2020-clinicalevolutionary/</link>
+      <link>asalber.github.io/es/publication/parrablesa-2020-clinicalevolutionary/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/parrablesa-2020-clinicalevolutionary/</guid>
+      <guid>asalber.github.io/es/publication/parrablesa-2020-clinicalevolutionary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bringing R to non-expert users with the package RKTeaching</title>
-      <link>https://aprendeconalf.es/es/publication/sanchezalberca-2015-bringing/</link>
+      <link>asalber.github.io/es/publication/sanchezalberca-2015-bringing/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/sanchezalberca-2015-bringing/</guid>
+      <guid>asalber.github.io/es/publication/sanchezalberca-2015-bringing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A similarity taxonomy for ontology and schema matching based on data types properties</title>
-      <link>https://aprendeconalf.es/es/publication/sanchezalberca-2011-similarity/</link>
+      <link>asalber.github.io/es/publication/sanchezalberca-2011-similarity/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/sanchezalberca-2011-similarity/</guid>
+      <guid>asalber.github.io/es/publication/sanchezalberca-2011-similarity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Detección Automática de Correspondencias entre Ontologı́as: Catalogación y Construcción de Funciones de Similitud</title>
-      <link>https://aprendeconalf.es/es/publication/sanchezalberca-2007-deteccion/</link>
+      <link>asalber.github.io/es/publication/sanchezalberca-2007-deteccion/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/sanchezalberca-2007-deteccion/</guid>
+      <guid>asalber.github.io/es/publication/sanchezalberca-2007-deteccion/</guid>
       <description></description>
     </item>
     

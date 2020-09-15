@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Condicionales | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/condicionales/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/condicionales/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/condicionales/</link>
+      <atom:link href="asalber.github.io/es/tag/condicionales/index.xml" rel="self" type="application/rss+xml" />
     <description>Condicionales</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Condicionales</title>
-      <link>https://aprendeconalf.es/es/tag/condicionales/</link>
+      <link>asalber.github.io/es/tag/condicionales/</link>
     </image>
     
     <item>
       <title>Ejercicios de Condicionales</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/condicionales/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/condicionales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/condicionales/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/condicionales/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pregunte al usuario su edad y muestre por pantalla si es mayor de edad o no.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/condicionales/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -121,9 +121,9 @@ Al final se debe mostrar por pantalla si la pizza elegida es vegetariana o no y 
     
     <item>
       <title>Condicionales</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/condicionales/</link>
+      <link>asalber.github.io/es/docencia/python/manual/condicionales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/condicionales/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/condicionales/</guid>
       <description>&lt;h2 id=&#34;condicionales-if&#34;&gt;Condicionales (&lt;code&gt;if&lt;/code&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;if&lt;/code&gt; &lt;code&gt;condición1:&lt;br&gt;

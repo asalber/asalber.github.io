@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistics | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/teaching/statistics/</link>
-      <atom:link href="https://aprendeconalf.es/teaching/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/teaching/statistics/</link>
+      <atom:link href="asalber.github.io/teaching/statistics/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistics</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Statistics</title>
-      <link>https://aprendeconalf.es/teaching/statistics/</link>
+      <link>asalber.github.io/teaching/statistics/</link>
     </image>
     
     <item>
       <title>Statistics Cheat Sheets</title>
-      <link>https://aprendeconalf.es/teaching/statistics/cheatsheets/</link>
+      <link>asalber.github.io/teaching/statistics/cheatsheets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/cheatsheets/</guid>
+      <guid>asalber.github.io/teaching/statistics/cheatsheets/</guid>
       <description>&lt;h2 id=&#34;statistics-formulas&#34;&gt;Statistics formulas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;

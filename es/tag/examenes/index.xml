@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exámenes | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/examenes/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/examenes/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/examenes/</link>
+      <atom:link href="asalber.github.io/es/tag/examenes/index.xml" rel="self" type="application/rss+xml" />
     <description>Exámenes</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Exámenes</title>
-      <link>https://aprendeconalf.es/es/tag/examenes/</link>
+      <link>asalber.github.io/es/tag/examenes/</link>
     </image>
     
   </channel>

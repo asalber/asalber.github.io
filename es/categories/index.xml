@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/categories/</link>
-      <atom:link href="https://aprendeconalf.es/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/categories/</link>
+      <atom:link href="asalber.github.io/es/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Categories</title>
-      <link>https://aprendeconalf.es/es/categories/</link>
+      <link>asalber.github.io/es/categories/</link>
     </image>
     
   </channel>

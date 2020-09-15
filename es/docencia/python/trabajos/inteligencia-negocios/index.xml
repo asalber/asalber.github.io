@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trabajos de Programación con Python de Inteligencia de los Negocios | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/</link>
-      <atom:link href="https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/</link>
+      <atom:link href="asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/index.xml" rel="self" type="application/rss+xml" />
     <description>Trabajos de Programación con Python de Inteligencia de los Negocios</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Trabajos de Programación con Python de Inteligencia de los Negocios</title>
-      <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/</link>
+      <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/</link>
     </image>
     
     <item>
       <title>Airbnb Madrid</title>
-      <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</link>
+      <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:40 +0100</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</guid>
+      <guid>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</guid>
       <description>&lt;p&gt;El objetivo de este trabajo es comprobar si se está utilizando la plataforma Airbnb por parte de empresas, en lugar de particulares, para alquiler turístico en el centro de Madrid.&lt;/p&gt;
 &lt;h3 id=&#34;conjunto-de-datos&#34;&gt;Conjunto de datos&lt;/h3&gt;
 &lt;p&gt;Datos abiertos de Inside Airbnb: &lt;a href=&#34;../datos/madrid-airbnb-listings.csv&#34;&gt;Fichero alojamientos Madrid detallado&lt;/a&gt;.&lt;/p&gt;
@@ -45,15 +45,15 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/trabajos/soluciones/madrid-airbnb1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/madrid-airbnb1py&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/madrid-airbnb1py&#34;&gt;&lt;img src=&#34;asalber.github.io/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Deuda Pública</title>
-      <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link>
+      <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:40 +0100</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid>
+      <guid>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid>
       <description>&lt;p&gt;El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p&gt;
 &lt;h2 id=&#34;conjunto-de-datos&#34;&gt;Conjunto de datos&lt;/h2&gt;
 &lt;p&gt;Datos del banco mundial: 
@@ -83,15 +83,15 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/trabajos/soluciones/deuda-publica.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/deudapy&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/deudapy&#34;&gt;&lt;img src=&#34;asalber.github.io/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contratos menores de Madrid</title>
-      <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</link>
+      <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</guid>
+      <guid>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</guid>
       <description>&lt;p&gt;El objetivo de este trabajo es hacer un análisis de los contratos menores del Ayuntamiento de Madrid desde 2015 para hacer una comparativa por años y ver qué empresas han resultado más beneficiadas.&lt;/p&gt;
 &lt;h3 id=&#34;conjunto-de-datos&#34;&gt;Conjunto de datos&lt;/h3&gt;
 &lt;p&gt;Datos abiertos del Ayuntamiento de Madrid: 
@@ -108,15 +108,15 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/trabajos/soluciones/contratos-menores-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/contratos-menores-madrid&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/contratos-menores-madrid&#34;&gt;&lt;img src=&#34;asalber.github.io/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Emisiones de Madrid</title>
-      <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link>
+      <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid>
+      <guid>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid>
       <description>&lt;p&gt;El objetivo de este trabajo es comprobar si las restricciones de tráfico establecidas en Madrid Central han servido para reducir significativamente las emisiones de gases contaminantes.&lt;/p&gt;
 &lt;h3 id=&#34;conjunto-de-datos&#34;&gt;Conjunto de datos&lt;/h3&gt;
 &lt;p&gt;Datos abiertos del Ayuntamiento de Madrid: 
@@ -134,7 +134,7 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/trabajos/soluciones/emisiones-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/emisiones-madrid&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/emisiones-madrid&#34;&gt;&lt;img src=&#34;asalber.github.io/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

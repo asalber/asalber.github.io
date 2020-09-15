@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matplotlib | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/matplotlib/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/matplotlib/</link>
+      <atom:link href="asalber.github.io/es/tag/matplotlib/index.xml" rel="self" type="application/rss+xml" />
     <description>Matplotlib</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Matplotlib</title>
-      <link>https://aprendeconalf.es/es/tag/matplotlib/</link>
+      <link>asalber.github.io/es/tag/matplotlib/</link>
     </image>
     
     <item>
       <title>La librería Matplotlib</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/matplotlib/</link>
+      <link>asalber.github.io/es/docencia/python/manual/matplotlib/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/matplotlib/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/matplotlib/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://matplotlib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matplotlib&lt;/a&gt; es una librería de Python especializada en la creación de gráficos en dos dimensiones.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/matplotlib-logo.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;

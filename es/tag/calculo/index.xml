@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cálculo | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/calculo/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/calculo/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/calculo/</link>
+      <atom:link href="asalber.github.io/es/tag/calculo/index.xml" rel="self" type="application/rss+xml" />
     <description>Cálculo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Wed, 01 Oct 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Cálculo</title>
-      <link>https://aprendeconalf.es/es/tag/calculo/</link>
+      <link>asalber.github.io/es/tag/calculo/</link>
     </image>
     
     <item>
       <title>Manual de Cálculo en una y varias variables</title>
-      <link>https://aprendeconalf.es/es/post/apuntes-calculo/</link>
+      <link>asalber.github.io/es/post/apuntes-calculo/</link>
       <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/post/apuntes-calculo/</guid>
+      <guid>asalber.github.io/es/post/apuntes-calculo/</guid>
       <description>&lt;p&gt;En la sección de cálculo ya está disponible el manual de cálculo en una y varias variables. En este manual se introducen los principales conceptos de cálculo de manera sencilla y progresiva con multitud de ejemplos aplicados.&lt;/p&gt;
 &lt;p&gt;El manual está pensado para alumnos de primeros cursos de grado, especialmente en disciplinas aplicadas, e incluye varios capítulos entre los que cabe destacar los capítulos de derivadas de funciones de una y de varias variables, aunque también incluye integrales y ecuaciones diferenciales de primer grado. Existen también varios capítulos más elementales con conceptos básicos de geometría analítica, funciones elementales y límites y continuidad.&lt;/p&gt;
 &lt;p&gt;El manual incluye multitud de ejemplos aplicados y también ejemplos interactivos con el programa Geogebra.&lt;/p&gt;

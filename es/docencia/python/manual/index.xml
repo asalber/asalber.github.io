@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manual de Python | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/docencia/python/manual/</link>
-      <atom:link href="https://aprendeconalf.es/es/docencia/python/manual/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/docencia/python/manual/</link>
+      <atom:link href="asalber.github.io/es/docencia/python/manual/index.xml" rel="self" type="application/rss+xml" />
     <description>Manual de Python</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Manual de Python</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/</link>
+      <link>asalber.github.io/es/docencia/python/manual/</link>
     </image>
     
     <item>
       <title>Introducción a Python</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/introduccion-python/</link>
+      <link>asalber.github.io/es/docencia/python/manual/introduccion-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/introduccion-python/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/introduccion-python/</guid>
       <description>&lt;h2 id=&#34;qué-es-python&#34;&gt;¿Qué es Python?&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python&lt;/a&gt; es un lenguaje de programación de alto nivel multiparadigma que permite:&lt;/p&gt;
@@ -83,9 +83,9 @@ Hola Alf
     
     <item>
       <title>Tipos de Datos Primitivos Simples</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/tipos-datos-simples/</link>
+      <link>asalber.github.io/es/docencia/python/manual/tipos-datos-simples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/tipos-datos-simples/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/tipos-datos-simples/</guid>
       <description>&lt;h2 id=&#34;tipos-de-datos-primitivos-simples&#34;&gt;Tipos de datos primitivos simples&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Números&lt;/strong&gt; (numbers): Secuencia de dígitos (pueden incluir el - para negativos y el . para decimales) que representan números.&lt;br&gt;
@@ -470,9 +470,9 @@ del x
     
     <item>
       <title>Entrada y Salida por Terminal</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/entrada-salida/</link>
+      <link>asalber.github.io/es/docencia/python/manual/entrada-salida/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/entrada-salida/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/entrada-salida/</guid>
       <description>&lt;h2 id=&#34;entrada-por-terminal-input&#34;&gt;Entrada por terminal (&lt;code&gt;input()&lt;/code&gt;)&lt;/h2&gt;
 &lt;p&gt;Para asignar a una variable un valor introducido por el usuario en la consola se utiliza la instrucción&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;input(mensaje)&lt;/code&gt; : Muestra la cadena &lt;code&gt;mensaje&lt;/code&gt; por la terminal y devuelve una cadena con la entrada del usuario.&lt;/p&gt;
@@ -513,9 +513,9 @@ Hola Alf!
     
     <item>
       <title>Condicionales</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/condicionales/</link>
+      <link>asalber.github.io/es/docencia/python/manual/condicionales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/condicionales/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/condicionales/</guid>
       <description>&lt;h2 id=&#34;condicionales-if&#34;&gt;Condicionales (&lt;code&gt;if&lt;/code&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;if&lt;/code&gt; &lt;code&gt;condición1:&lt;br&gt;
@@ -554,9 +554,9 @@ Activo
     
     <item>
       <title>Bucles</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/bucles/</link>
+      <link>asalber.github.io/es/docencia/python/manual/bucles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/bucles/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/bucles/</guid>
       <description>&lt;h2 id=&#34;bucles-condicionales-while&#34;&gt;Bucles condicionales (&lt;code&gt;while&lt;/code&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;while condición:&lt;/code&gt;&lt;br&gt;
@@ -622,9 +622,9 @@ n
     
     <item>
       <title>Listas</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/listas/</link>
+      <link>asalber.github.io/es/docencia/python/manual/listas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/listas/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/listas/</guid>
       <description>&lt;h2 id=&#34;listas&#34;&gt;Listas&lt;/h2&gt;
 &lt;p&gt;Una &lt;strong&gt;lista&lt;/strong&gt; es una secuencias ordenadas de objetos de distintos tipos.&lt;/p&gt;
 &lt;p&gt;Se construyen poniendo los elementos entre corchetes &lt;code&gt;[&lt;/code&gt;  &lt;code&gt;]&lt;/code&gt; separados por comas.&lt;/p&gt;
@@ -788,9 +788,9 @@ False
     
     <item>
       <title>Tuplas</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/tuplas/</link>
+      <link>asalber.github.io/es/docencia/python/manual/tuplas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/tuplas/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/tuplas/</guid>
       <description>&lt;h2 id=&#34;tuplas&#34;&gt;Tuplas&lt;/h2&gt;
 &lt;p&gt;Una &lt;strong&gt;tupla&lt;/strong&gt; es una secuencias ordenadas de objetos de distintos tipos.&lt;/p&gt;
 &lt;p&gt;Se construyen poniendo los elementos entre corchetes &lt;code&gt;(&lt;/code&gt;  &lt;code&gt;)&lt;/code&gt; separados por comas.&lt;/p&gt;
@@ -850,9 +850,9 @@ False
     
     <item>
       <title>Diccionarios</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/diccionarios/</link>
+      <link>asalber.github.io/es/docencia/python/manual/diccionarios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/diccionarios/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/diccionarios/</guid>
       <description>&lt;h2 id=&#34;diccionarios&#34;&gt;Diccionarios&lt;/h2&gt;
 &lt;p&gt;Un diccionario es una colección de pares formados por una &lt;em&gt;clave&lt;/em&gt; y un &lt;em&gt;valor&lt;/em&gt; asociado a la clave.&lt;/p&gt;
 &lt;p&gt;Se construyen poniendo los pares entre llaves &lt;code&gt;{ }&lt;/code&gt; separados por comas, y separando la clave del valor con dos puntos &lt;code&gt;:&lt;/code&gt;.&lt;/p&gt;
@@ -973,9 +973,9 @@ dict_items([(&#39;nombre&#39;, &#39;Alfredo&#39;), (&#39;despacho&#39;, 218), (&
     
     <item>
       <title>Funciones</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/funciones/</link>
+      <link>asalber.github.io/es/docencia/python/manual/funciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/funciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/funciones/</guid>
       <description>&lt;h2 id=&#34;funciones-def&#34;&gt;Funciones (&lt;code&gt;def&lt;/code&gt;)&lt;/h2&gt;
 &lt;p&gt;Una función es un bloque de código que tiene asociado un nombre, de manera que cada vez que se quiera ejecutar el bloque de código basta con invocar el nombre de la función.&lt;/p&gt;
 &lt;p&gt;Para declarar una función se utiliza la siguiente sintaxis:&lt;/p&gt;
@@ -1159,9 +1159,9 @@ area_triangulo(base, altura)
     
     <item>
       <title>Programación funcional</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/programacion-funcional/</link>
+      <link>asalber.github.io/es/docencia/python/manual/programacion-funcional/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/programacion-funcional/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/programacion-funcional/</guid>
       <description>&lt;h2 id=&#34;programación-funcional&#34;&gt;Programación funcional&lt;/h2&gt;
 &lt;p&gt;En Python las funciones son objetos de primera clase, es decir, que pueden pasarse como argumentos de una función, al igual que el resto de los tipos de datos.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; def aplica(funcion, argumento):
@@ -1236,9 +1236,9 @@ area_triangulo(base, altura)
     
     <item>
       <title>Comprensión de Colecciones</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/comprension-colecciones/</link>
+      <link>asalber.github.io/es/docencia/python/manual/comprension-colecciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/comprension-colecciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/comprension-colecciones/</guid>
       <description>&lt;h2 id=&#34;comprensión-de-colecciones&#34;&gt;Comprensión de colecciones&lt;/h2&gt;
 &lt;p&gt;En muchas aplicaciones es habitual aplicar una función o realizar una operación con los elementos de una colección (lista, tupla o diccionario) y obtener una nueva colección de elementos transformados. Aunque esto se puede hacer recorriendo la secuencia con un bucle iterativo, y en programación funcional mediante la función &lt;code&gt;map&lt;/code&gt;, Python incorpora un mecanismo muy potente que permite esto mismo de manera más simple.&lt;/p&gt;
 &lt;h3 id=&#34;comprensión-de-listas&#34;&gt;Comprensión de listas&lt;/h3&gt;
@@ -1272,9 +1272,9 @@ area_triangulo(base, altura)
     
     <item>
       <title>Ficheros</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/ficheros/</link>
+      <link>asalber.github.io/es/docencia/python/manual/ficheros/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/ficheros/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/ficheros/</guid>
       <description>&lt;h2 id=&#34;ficheros&#34;&gt;Ficheros&lt;/h2&gt;
 &lt;p&gt;Hasta ahora hemos visto como interactuar con un programa a través del teclado (entrada de datos) y la terminal (salida), pero en la mayor parte de las aplicaciones reales tendremos que leer y escribir datos en ficheros.&lt;/p&gt;
 &lt;p&gt;Al utilizar ficheros para guardar los datos estos perdurarán tras la ejecución del programa, pudiendo ser consultados o utilizados más tarde.&lt;/p&gt;
@@ -1374,9 +1374,9 @@ Este es el repositorio del sitio web Aprende con Alf: http://aprendeconalf.es
     
     <item>
       <title>Excepciones</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/excepciones/</link>
+      <link>asalber.github.io/es/docencia/python/manual/excepciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/excepciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/excepciones/</guid>
       <description>&lt;h2 id=&#34;control-de-errores-mediante-excepciones&#34;&gt;Control de errores mediante excepciones&lt;/h2&gt;
 &lt;p&gt;Python utiliza un objeto especial llamado &lt;strong&gt;excepción&lt;/strong&gt; para controlar cualquier error que pueda ocurrir durante la ejecución de un programa.&lt;/p&gt;
 &lt;p&gt;Cuando ocurre un error durante la ejecución de un programa, Python crea una excepción. Si no se controla esta excepción la ejecución del programa se detiene y se muestra el error (&lt;em&gt;traceback&lt;/em&gt;).&lt;/p&gt;
@@ -1437,9 +1437,9 @@ ZeroDivisionError: division by zero
     
     <item>
       <title>Módulos</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/modulos/</link>
+      <link>asalber.github.io/es/docencia/python/manual/modulos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/modulos/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/modulos/</guid>
       <description>&lt;h2 id=&#34;módulos&#34;&gt;Módulos&lt;/h2&gt;
 &lt;p&gt;El código de un programa en Python puede reutilizarse en otro importándolo. Cualquier fichero con código de Python reutilizable se conoce como &lt;em&gt;módulo&lt;/em&gt; o &lt;em&gt;librería&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Los módulos suelen contener funciones reutilizables, pero también pueden definir variables con datos simples o compuestos (listas, diccionarios, etc), o cualquier otro código válido en Python.&lt;/p&gt;
@@ -1520,9 +1520,9 @@ Mo Tu We Th Fr Sa Su
     
     <item>
       <title>La librería Datetime</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/datetime/</link>
+      <link>asalber.github.io/es/docencia/python/manual/datetime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/datetime/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/datetime/</guid>
       <description>&lt;p&gt;Para manejar fechas en Python se suele utilizar la librería &lt;code&gt;datetime&lt;/code&gt; que incorpora los tipos de datos &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;time&lt;/code&gt; y &lt;code&gt;datetime&lt;/code&gt; para representar fechas y funciones para manejarlas. Algunas de las operaciones más habituales que permite son:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Acceder a los distintos componentes de una fecha (año, mes, día, hora, minutos, segundos y microsegundos).&lt;/li&gt;
@@ -1624,9 +1624,9 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
     
     <item>
       <title>La librería Numpy</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/numpy/</link>
+      <link>asalber.github.io/es/docencia/python/manual/numpy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/numpy/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/numpy/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://www.numpy.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NumPy&lt;/a&gt; es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.&lt;/p&gt;
 &lt;p&gt;Incorpora una nueva clase de objetos llamados &lt;strong&gt;arrays&lt;/strong&gt; que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.&lt;/p&gt;
@@ -1748,9 +1748,9 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
     
     <item>
       <title>La librería Pandas</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/pandas/</link>
+      <link>asalber.github.io/es/docencia/python/manual/pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/pandas/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/pandas/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://pandas.pydata.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pandas&lt;/a&gt; es una librería de Python especializada en el manejo y análisis de estructuras de datos.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/pandas-logo.png&#34; alt=&#34;Logo librería Pandas&#34;&gt;&lt;/p&gt;
@@ -2559,9 +2559,9 @@ María            8.0          8.5           6.5
     
     <item>
       <title>La librería Matplotlib</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/matplotlib/</link>
+      <link>asalber.github.io/es/docencia/python/manual/matplotlib/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/matplotlib/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/matplotlib/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://matplotlib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matplotlib&lt;/a&gt; es una librería de Python especializada en la creación de gráficos en dos dimensiones.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/matplotlib-logo.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
@@ -2915,9 +2915,9 @@ plt.show()
     
     <item>
       <title>Depuración de código</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/depuracion/</link>
+      <link>asalber.github.io/es/docencia/python/manual/depuracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/depuracion/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/depuracion/</guid>
       <description>&lt;h2 id=&#34;depuración-de-programas&#34;&gt;Depuración de programas&lt;/h2&gt;
 &lt;p&gt;La depuración es una técnica que permite &lt;em&gt;trazar&lt;/em&gt; un programa, es decir, seguir el flujo de ejecución de un programa paso a paso, ejecutando una instrucción en cada paso, y observar el estado de sus variables.&lt;/p&gt;
 &lt;p&gt;Cuando un programa tiene cierta complejidad, la depuración es imprescindible pare detectar posibles errores.&lt;/p&gt;
@@ -2947,9 +2947,9 @@ plt.show()
     
     <item>
       <title>Referencias</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/referencias/</link>
+      <link>asalber.github.io/es/docencia/python/manual/referencias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/referencias/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/referencias/</guid>
       <description>&lt;h2 id=&#34;referencias&#34;&gt;Referencias&lt;/h2&gt;
 &lt;h3 id=&#34;webs&#34;&gt;Webs&lt;/h3&gt;
 &lt;ul&gt;
@@ -2985,9 +2985,9 @@ plt.show()
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/book/</link>
+      <link>asalber.github.io/es/docencia/python/manual/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/book/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/book/</guid>
       <description>&lt;h1 id=&#34;python&#34;&gt;Python&lt;/h1&gt;
 &lt;h2 id=&#34;qué-es-python&#34;&gt;¿Qué es Python?&lt;/h2&gt;
 &lt;p&gt;
@@ -4983,126 +4983,126 @@ plt.show()
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-datetime/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-datetime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-datetime/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-datetime/</guid>
       <description>&lt;h1 id=&#34;la-librería-datetime&#34;&gt;La librería datetime&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-depuracion/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-depuracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-depuracion/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-depuracion/</guid>
       <description>&lt;h1 id=&#34;apéndice-depuración-de-código&#34;&gt;Apéndice: Depuración de código&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-estructuras-control/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-estructuras-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-estructuras-control/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-estructuras-control/</guid>
       <description>&lt;h1 id=&#34;estructuras-de-control&#34;&gt;Estructuras de control&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-excepciones/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-excepciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-excepciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-excepciones/</guid>
       <description>&lt;h1 id=&#34;excepciones&#34;&gt;Excepciones&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-ficheros/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-ficheros/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-ficheros/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-ficheros/</guid>
       <description>&lt;h1 id=&#34;ficheros&#34;&gt;Ficheros&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-funciones/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-funciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-funciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-funciones/</guid>
       <description>&lt;h1 id=&#34;funciones&#34;&gt;Funciones&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-introduccion/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-introduccion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-introduccion/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-introduccion/</guid>
       <description>&lt;h1 id=&#34;introducción-a-python&#34;&gt;Introducción a Python&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-matplotlib/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-matplotlib/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-matplotlib/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-matplotlib/</guid>
       <description>&lt;h1 id=&#34;la-librería-matplotlib&#34;&gt;La librería Matplotlib&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-numpy/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-numpy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-numpy/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-numpy/</guid>
       <description>&lt;h1 id=&#34;la-librería-numpy&#34;&gt;La librería Numpy&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-pandas/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-pandas/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-pandas/</guid>
       <description>&lt;h1 id=&#34;la-librería-pandas&#34;&gt;La librería Pandas&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-referencias/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-referencias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-referencias/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-referencias/</guid>
       <description>&lt;h1 id=&#34;bibliografía&#34;&gt;Bibliografía&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-tipos-datos-estructurados/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-tipos-datos-estructurados/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-tipos-datos-estructurados/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-tipos-datos-estructurados/</guid>
       <description>&lt;h1 id=&#34;tipos-de-datos-estructurados&#34;&gt;Tipos de datos estructurados&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/capitulo-tipos-datos/</link>
+      <link>asalber.github.io/es/docencia/python/manual/capitulo-tipos-datos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/capitulo-tipos-datos/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/capitulo-tipos-datos/</guid>
       <description>&lt;h1 id=&#34;tipos-de-datos-simples&#34;&gt;Tipos de datos simples&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title>Manual de Python</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/title-page/</link>
+      <link>asalber.github.io/es/docencia/python/manual/title-page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/title-page/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/title-page/</guid>
       <description></description>
     </item>
     

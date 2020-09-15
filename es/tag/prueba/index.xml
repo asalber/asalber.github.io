@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>prueba | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/prueba/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/prueba/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/prueba/</link>
+      <atom:link href="asalber.github.io/es/tag/prueba/index.xml" rel="self" type="application/rss+xml" />
     <description>prueba</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Thu, 27 Aug 2020 19:14:03 +0200</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>prueba</title>
-      <link>https://aprendeconalf.es/es/tag/prueba/</link>
+      <link>asalber.github.io/es/tag/prueba/</link>
     </image>
     
     <item>
       <title>Mi Prueba</title>
-      <link>https://aprendeconalf.es/es/publication/diazparreno-2014-bioestadstica/</link>
+      <link>asalber.github.io/es/publication/diazparreno-2014-bioestadstica/</link>
       <pubDate>Thu, 27 Aug 2020 19:14:03 +0200</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/diazparreno-2014-bioestadstica/</guid>
+      <guid>asalber.github.io/es/publication/diazparreno-2014-bioestadstica/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/category/python/</link>
-      <atom:link href="https://aprendeconalf.es/es/category/python/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/category/python/</link>
+      <atom:link href="asalber.github.io/es/category/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Python</title>
-      <link>https://aprendeconalf.es/es/category/python/</link>
+      <link>asalber.github.io/es/category/python/</link>
     </image>
     
     <item>
       <title>Introducción a Python</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/introduccion-python/</link>
+      <link>asalber.github.io/es/docencia/python/manual/introduccion-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/introduccion-python/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/introduccion-python/</guid>
       <description>&lt;h2 id=&#34;qué-es-python&#34;&gt;¿Qué es Python?&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python&lt;/a&gt; es un lenguaje de programación de alto nivel multiparadigma que permite:&lt;/p&gt;
@@ -83,9 +83,9 @@ Hola Alf
     
     <item>
       <title>Ejercicios de Tipos de Datos Simples</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/tipos-datos/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/tipos-datos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/tipos-datos/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/tipos-datos/</guid>
       <description>&lt;!-- Datacamp light
 &lt;script async type=&#34;text/javascript&#34; src=&#34;https://cdn.datacamp.com/dcl-react-dev.js.gz&#34;&gt;&lt;/script&gt;  
 --&gt;
@@ -239,9 +239,9 @@ Escribir un programa que comience leyendo el número de barras vendidas que no s
     
     <item>
       <title>Ejercicios de Condicionales</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/condicionales/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/condicionales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/condicionales/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/condicionales/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pregunte al usuario su edad y muestre por pantalla si es mayor de edad o no.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/condicionales/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -346,9 +346,9 @@ Al final se debe mostrar por pantalla si la pizza elegida es vegetariana o no y 
     
     <item>
       <title>Tipos de Datos Primitivos Simples</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/tipos-datos-simples/</link>
+      <link>asalber.github.io/es/docencia/python/manual/tipos-datos-simples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/tipos-datos-simples/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/tipos-datos-simples/</guid>
       <description>&lt;h2 id=&#34;tipos-de-datos-primitivos-simples&#34;&gt;Tipos de datos primitivos simples&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Números&lt;/strong&gt; (numbers): Secuencia de dígitos (pueden incluir el - para negativos y el . para decimales) que representan números.&lt;br&gt;
@@ -733,9 +733,9 @@ del x
     
     <item>
       <title>Ejercicios de Bucles</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/bucles/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/bucles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/bucles/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/bucles/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -792,9 +792,9 @@ del x
     
     <item>
       <title>Entrada y Salida por Terminal</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/entrada-salida/</link>
+      <link>asalber.github.io/es/docencia/python/manual/entrada-salida/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/entrada-salida/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/entrada-salida/</guid>
       <description>&lt;h2 id=&#34;entrada-por-terminal-input&#34;&gt;Entrada por terminal (&lt;code&gt;input()&lt;/code&gt;)&lt;/h2&gt;
 &lt;p&gt;Para asignar a una variable un valor introducido por el usuario en la consola se utiliza la instrucción&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;input(mensaje)&lt;/code&gt; : Muestra la cadena &lt;code&gt;mensaje&lt;/code&gt; por la terminal y devuelve una cadena con la entrada del usuario.&lt;/p&gt;
@@ -835,9 +835,9 @@ Hola Alf!
     
     <item>
       <title>Condicionales</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/condicionales/</link>
+      <link>asalber.github.io/es/docencia/python/manual/condicionales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/condicionales/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/condicionales/</guid>
       <description>&lt;h2 id=&#34;condicionales-if&#34;&gt;Condicionales (&lt;code&gt;if&lt;/code&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;if&lt;/code&gt; &lt;code&gt;condición1:&lt;br&gt;
@@ -876,9 +876,9 @@ Activo
     
     <item>
       <title>Ejercicios de Listas y Tuplas</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/listas-tuplas/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/listas-tuplas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/listas-tuplas/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/listas-tuplas/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/listas-tuplas/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -942,9 +942,9 @@ Nota: Para representar matrices mediante listas usar listas anidadas, representa
     
     <item>
       <title>Bucles</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/bucles/</link>
+      <link>asalber.github.io/es/docencia/python/manual/bucles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/bucles/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/bucles/</guid>
       <description>&lt;h2 id=&#34;bucles-condicionales-while&#34;&gt;Bucles condicionales (&lt;code&gt;while&lt;/code&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;while condición:&lt;/code&gt;&lt;br&gt;
@@ -1010,9 +1010,9 @@ n
     
     <item>
       <title>Ejercicios de Diccionarios</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/diccionarios/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/diccionarios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/diccionarios/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/diccionarios/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que guarde en una variable el diccionario &lt;code&gt;{&#39;Euro&#39;:&#39;€&#39;, &#39;Dollar&#39;:&#39;$&#39;, &#39;Yen&#39;:&#39;¥&#39;}&lt;/code&gt;, pregunte al usuario por una divisa y muestre su símbolo o un mensaje de aviso si la divisa no está en el diccionario.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/diccionarios/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -1112,9 +1112,9 @@ n
     
     <item>
       <title>Ejercicios de Funciones</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/funciones/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/funciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/funciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/funciones/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir una función que muestre por pantalla el saludo &lt;code&gt;¡Hola amiga!&lt;/code&gt; cada vez que se la invoque.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -1154,9 +1154,9 @@ Escribir otra función que reciba el diccionario generado con la función anteri
     
     <item>
       <title>Listas</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/listas/</link>
+      <link>asalber.github.io/es/docencia/python/manual/listas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/listas/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/listas/</guid>
       <description>&lt;h2 id=&#34;listas&#34;&gt;Listas&lt;/h2&gt;
 &lt;p&gt;Una &lt;strong&gt;lista&lt;/strong&gt; es una secuencias ordenadas de objetos de distintos tipos.&lt;/p&gt;
 &lt;p&gt;Se construyen poniendo los elementos entre corchetes &lt;code&gt;[&lt;/code&gt;  &lt;code&gt;]&lt;/code&gt; separados por comas.&lt;/p&gt;
@@ -1320,9 +1320,9 @@ False
     
     <item>
       <title>Ejercicios de Programación Funcional</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/programacion-funcional/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/programacion-funcional/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/programacion-funcional/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/programacion-funcional/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir una función que aplique un descuento a un precio y otra que aplique el IVA a un precio. Escribir una tercera función que reciba un diccionario con los precios y porcentajes de una cesta de la compra, y una de las funciones anteriores, y utilice la función pasada para aplicar los descuentos o el IVA a los productos de la cesta y devolver el precio final de la cesta.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -1373,9 +1373,9 @@ Nota: La puntuación típica de un valor se obtiene restando la media y dividien
     
     <item>
       <title>Tuplas</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/tuplas/</link>
+      <link>asalber.github.io/es/docencia/python/manual/tuplas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/tuplas/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/tuplas/</guid>
       <description>&lt;h2 id=&#34;tuplas&#34;&gt;Tuplas&lt;/h2&gt;
 &lt;p&gt;Una &lt;strong&gt;tupla&lt;/strong&gt; es una secuencias ordenadas de objetos de distintos tipos.&lt;/p&gt;
 &lt;p&gt;Se construyen poniendo los elementos entre corchetes &lt;code&gt;(&lt;/code&gt;  &lt;code&gt;)&lt;/code&gt; separados por comas.&lt;/p&gt;
@@ -1435,9 +1435,9 @@ False
     
     <item>
       <title>Diccionarios</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/diccionarios/</link>
+      <link>asalber.github.io/es/docencia/python/manual/diccionarios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/diccionarios/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/diccionarios/</guid>
       <description>&lt;h2 id=&#34;diccionarios&#34;&gt;Diccionarios&lt;/h2&gt;
 &lt;p&gt;Un diccionario es una colección de pares formados por una &lt;em&gt;clave&lt;/em&gt; y un &lt;em&gt;valor&lt;/em&gt; asociado a la clave.&lt;/p&gt;
 &lt;p&gt;Se construyen poniendo los pares entre llaves &lt;code&gt;{ }&lt;/code&gt; separados por comas, y separando la clave del valor con dos puntos &lt;code&gt;:&lt;/code&gt;.&lt;/p&gt;
@@ -1558,9 +1558,9 @@ dict_items([(&#39;nombre&#39;, &#39;Alfredo&#39;), (&#39;despacho&#39;, 218), (&
     
     <item>
       <title>Ejercicios de Ficheros</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/ficheros/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/ficheros/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/ficheros/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/ficheros/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir una función que pida un número entero entre 1 y 10 y guarde en un fichero con el nombre &lt;code&gt;tabla-n.txt&lt;/code&gt; la tabla de multiplicar de ese número, done &lt;code&gt;n&lt;/code&gt; es el número introducido.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -1611,9 +1611,9 @@ dict_items([(&#39;nombre&#39;, &#39;Alfredo&#39;), (&#39;despacho&#39;, 218), (&
     
     <item>
       <title>Funciones</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/funciones/</link>
+      <link>asalber.github.io/es/docencia/python/manual/funciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/funciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/funciones/</guid>
       <description>&lt;h2 id=&#34;funciones-def&#34;&gt;Funciones (&lt;code&gt;def&lt;/code&gt;)&lt;/h2&gt;
 &lt;p&gt;Una función es un bloque de código que tiene asociado un nombre, de manera que cada vez que se quiera ejecutar el bloque de código basta con invocar el nombre de la función.&lt;/p&gt;
 &lt;p&gt;Para declarar una función se utiliza la siguiente sintaxis:&lt;/p&gt;
@@ -1797,9 +1797,9 @@ area_triangulo(base, altura)
     
     <item>
       <title>Ejercicios de la Librería Pandas</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/pandas/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/pandas/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/pandas/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pregunte al usuario por las ventas de un rango de años y muestre por pantalla una serie con los datos de las ventas indexada por los años, antes y después de aplicarles un descuento del 10%.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/pandas/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -1893,9 +1893,9 @@ area_triangulo(base, altura)
     
     <item>
       <title>Ejercicios de Depuración</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/depuracion/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/depuracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/depuracion/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/depuracion/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Corregir los errores sintácticos del siguiente programa:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;contraseña = input(&#39;Introduce la contraseña: &amp;quot;)
@@ -1967,9 +1967,9 @@ print(producto(a, b))
     
     <item>
       <title>Programación funcional</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/programacion-funcional/</link>
+      <link>asalber.github.io/es/docencia/python/manual/programacion-funcional/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/programacion-funcional/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/programacion-funcional/</guid>
       <description>&lt;h2 id=&#34;programación-funcional&#34;&gt;Programación funcional&lt;/h2&gt;
 &lt;p&gt;En Python las funciones son objetos de primera clase, es decir, que pueden pasarse como argumentos de una función, al igual que el resto de los tipos de datos.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; def aplica(funcion, argumento):
@@ -2044,9 +2044,9 @@ print(producto(a, b))
     
     <item>
       <title>Comprensión de Colecciones</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/comprension-colecciones/</link>
+      <link>asalber.github.io/es/docencia/python/manual/comprension-colecciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/comprension-colecciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/comprension-colecciones/</guid>
       <description>&lt;h2 id=&#34;comprensión-de-colecciones&#34;&gt;Comprensión de colecciones&lt;/h2&gt;
 &lt;p&gt;En muchas aplicaciones es habitual aplicar una función o realizar una operación con los elementos de una colección (lista, tupla o diccionario) y obtener una nueva colección de elementos transformados. Aunque esto se puede hacer recorriendo la secuencia con un bucle iterativo, y en programación funcional mediante la función &lt;code&gt;map&lt;/code&gt;, Python incorpora un mecanismo muy potente que permite esto mismo de manera más simple.&lt;/p&gt;
 &lt;h3 id=&#34;comprensión-de-listas&#34;&gt;Comprensión de listas&lt;/h3&gt;
@@ -2080,9 +2080,9 @@ print(producto(a, b))
     
     <item>
       <title>Ficheros</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/ficheros/</link>
+      <link>asalber.github.io/es/docencia/python/manual/ficheros/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/ficheros/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/ficheros/</guid>
       <description>&lt;h2 id=&#34;ficheros&#34;&gt;Ficheros&lt;/h2&gt;
 &lt;p&gt;Hasta ahora hemos visto como interactuar con un programa a través del teclado (entrada de datos) y la terminal (salida), pero en la mayor parte de las aplicaciones reales tendremos que leer y escribir datos en ficheros.&lt;/p&gt;
 &lt;p&gt;Al utilizar ficheros para guardar los datos estos perdurarán tras la ejecución del programa, pudiendo ser consultados o utilizados más tarde.&lt;/p&gt;
@@ -2182,9 +2182,9 @@ Este es el repositorio del sitio web Aprende con Alf: http://aprendeconalf.es
     
     <item>
       <title>Excepciones</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/excepciones/</link>
+      <link>asalber.github.io/es/docencia/python/manual/excepciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/excepciones/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/excepciones/</guid>
       <description>&lt;h2 id=&#34;control-de-errores-mediante-excepciones&#34;&gt;Control de errores mediante excepciones&lt;/h2&gt;
 &lt;p&gt;Python utiliza un objeto especial llamado &lt;strong&gt;excepción&lt;/strong&gt; para controlar cualquier error que pueda ocurrir durante la ejecución de un programa.&lt;/p&gt;
 &lt;p&gt;Cuando ocurre un error durante la ejecución de un programa, Python crea una excepción. Si no se controla esta excepción la ejecución del programa se detiene y se muestra el error (&lt;em&gt;traceback&lt;/em&gt;).&lt;/p&gt;
@@ -2245,9 +2245,9 @@ ZeroDivisionError: division by zero
     
     <item>
       <title>Módulos</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/modulos/</link>
+      <link>asalber.github.io/es/docencia/python/manual/modulos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/modulos/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/modulos/</guid>
       <description>&lt;h2 id=&#34;módulos&#34;&gt;Módulos&lt;/h2&gt;
 &lt;p&gt;El código de un programa en Python puede reutilizarse en otro importándolo. Cualquier fichero con código de Python reutilizable se conoce como &lt;em&gt;módulo&lt;/em&gt; o &lt;em&gt;librería&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Los módulos suelen contener funciones reutilizables, pero también pueden definir variables con datos simples o compuestos (listas, diccionarios, etc), o cualquier otro código válido en Python.&lt;/p&gt;
@@ -2328,9 +2328,9 @@ Mo Tu We Th Fr Sa Su
     
     <item>
       <title>La librería Datetime</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/datetime/</link>
+      <link>asalber.github.io/es/docencia/python/manual/datetime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/datetime/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/datetime/</guid>
       <description>&lt;p&gt;Para manejar fechas en Python se suele utilizar la librería &lt;code&gt;datetime&lt;/code&gt; que incorpora los tipos de datos &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;time&lt;/code&gt; y &lt;code&gt;datetime&lt;/code&gt; para representar fechas y funciones para manejarlas. Algunas de las operaciones más habituales que permite son:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Acceder a los distintos componentes de una fecha (año, mes, día, hora, minutos, segundos y microsegundos).&lt;/li&gt;
@@ -2432,9 +2432,9 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
     
     <item>
       <title>La librería Numpy</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/numpy/</link>
+      <link>asalber.github.io/es/docencia/python/manual/numpy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/numpy/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/numpy/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://www.numpy.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NumPy&lt;/a&gt; es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.&lt;/p&gt;
 &lt;p&gt;Incorpora una nueva clase de objetos llamados &lt;strong&gt;arrays&lt;/strong&gt; que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.&lt;/p&gt;
@@ -2556,9 +2556,9 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
     
     <item>
       <title>La librería Pandas</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/pandas/</link>
+      <link>asalber.github.io/es/docencia/python/manual/pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/pandas/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/pandas/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://pandas.pydata.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pandas&lt;/a&gt; es una librería de Python especializada en el manejo y análisis de estructuras de datos.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/pandas-logo.png&#34; alt=&#34;Logo librería Pandas&#34;&gt;&lt;/p&gt;
@@ -3367,9 +3367,9 @@ María            8.0          8.5           6.5
     
     <item>
       <title>La librería Matplotlib</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/matplotlib/</link>
+      <link>asalber.github.io/es/docencia/python/manual/matplotlib/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/matplotlib/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/matplotlib/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://matplotlib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matplotlib&lt;/a&gt; es una librería de Python especializada en la creación de gráficos en dos dimensiones.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/matplotlib-logo.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
@@ -3723,9 +3723,9 @@ plt.show()
     
     <item>
       <title>Depuración de código</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/depuracion/</link>
+      <link>asalber.github.io/es/docencia/python/manual/depuracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/depuracion/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/depuracion/</guid>
       <description>&lt;h2 id=&#34;depuración-de-programas&#34;&gt;Depuración de programas&lt;/h2&gt;
 &lt;p&gt;La depuración es una técnica que permite &lt;em&gt;trazar&lt;/em&gt; un programa, es decir, seguir el flujo de ejecución de un programa paso a paso, ejecutando una instrucción en cada paso, y observar el estado de sus variables.&lt;/p&gt;
 &lt;p&gt;Cuando un programa tiene cierta complejidad, la depuración es imprescindible pare detectar posibles errores.&lt;/p&gt;
@@ -3755,9 +3755,9 @@ plt.show()
     
     <item>
       <title>Referencias</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/referencias/</link>
+      <link>asalber.github.io/es/docencia/python/manual/referencias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/referencias/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/referencias/</guid>
       <description>&lt;h2 id=&#34;referencias&#34;&gt;Referencias&lt;/h2&gt;
 &lt;h3 id=&#34;webs&#34;&gt;Webs&lt;/h3&gt;
 &lt;ul&gt;
@@ -3793,9 +3793,9 @@ plt.show()
     
     <item>
       <title>Examen de Inteligencia de los Negocios 2020-06-19</title>
-      <link>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2020-06-19/</link>
+      <link>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2020-06-19/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2020-06-19/</guid>
+      <guid>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2020-06-19/</guid>
       <description>&lt;p&gt;Grado: Inteligencia de los Negocios&lt;br&gt;
 Fecha: 19 de Junio de 2020&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -3844,9 +3844,9 @@ matemáticas
     
     <item>
       <title>Examen de Inteligencia de los Negocios 2020-05-27</title>
-      <link>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2020-05-27/</link>
+      <link>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2020-05-27/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2020-05-27/</guid>
+      <guid>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2020-05-27/</guid>
       <description>&lt;p&gt;Grado: Inteligencia de los Negocios&lt;br&gt;
 Fecha: 27 de Mayo de 2020&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -3898,9 +3898,9 @@ Fecha: 27 de Mayo de 2020&lt;/p&gt;
     
     <item>
       <title>Examen de Inteligencia de los Negocios 2019-06-18</title>
-      <link>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-06-18/</link>
+      <link>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-06-18/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-06-18/</guid>
+      <guid>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-06-18/</guid>
       <description>&lt;p&gt;Grado: Inteligencia de los Negocios&lt;br&gt;
 Fecha: 18 de Junio de 2019&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -4024,9 +4024,9 @@ Fecha: 18 de Junio de 2019&lt;/p&gt;
     
     <item>
       <title>Examen de Inteligencia de los Negocios 2019-05-27</title>
-      <link>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-05-27/</link>
+      <link>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-05-27/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-05-27/</guid>
+      <guid>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-05-27/</guid>
       <description>&lt;p&gt;Grado: Inteligencia de los Negocios&lt;br&gt;
 Fecha: 27 de Mayo de 2019&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -4128,9 +4128,9 @@ Fecha: 27 de Mayo de 2019&lt;/p&gt;
     
     <item>
       <title>Examen de Inteligencia de los Negocios 2019-03-27</title>
-      <link>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-03-27/</link>
+      <link>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-03-27/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-03-27/</guid>
+      <guid>asalber.github.io/es/docencia/python/examenes/inteligencia-negocios/examen-python-2019-03-27/</guid>
       <description>&lt;p&gt;Grado: Inteligencia de los Negocios&lt;br&gt;
 Fecha: 27 de Marzo de 2019&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -4196,9 +4196,9 @@ Fecha: 27 de Marzo de 2019&lt;/p&gt;
     
     <item>
       <title>Airbnb Madrid</title>
-      <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</link>
+      <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:40 +0100</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</guid>
+      <guid>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</guid>
       <description>&lt;p&gt;El objetivo de este trabajo es comprobar si se está utilizando la plataforma Airbnb por parte de empresas, en lugar de particulares, para alquiler turístico en el centro de Madrid.&lt;/p&gt;
 &lt;h3 id=&#34;conjunto-de-datos&#34;&gt;Conjunto de datos&lt;/h3&gt;
 &lt;p&gt;Datos abiertos de Inside Airbnb: &lt;a href=&#34;../datos/madrid-airbnb-listings.csv&#34;&gt;Fichero alojamientos Madrid detallado&lt;/a&gt;.&lt;/p&gt;
@@ -4227,15 +4227,15 @@ Fecha: 27 de Marzo de 2019&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/trabajos/soluciones/madrid-airbnb1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/madrid-airbnb1py&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/madrid-airbnb1py&#34;&gt;&lt;img src=&#34;asalber.github.io/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Deuda Pública</title>
-      <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link>
+      <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:40 +0100</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid>
+      <guid>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid>
       <description>&lt;p&gt;El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p&gt;
 &lt;h2 id=&#34;conjunto-de-datos&#34;&gt;Conjunto de datos&lt;/h2&gt;
 &lt;p&gt;Datos del banco mundial: 
@@ -4265,15 +4265,15 @@ Fecha: 27 de Marzo de 2019&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/trabajos/soluciones/deuda-publica.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/deudapy&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/deudapy&#34;&gt;&lt;img src=&#34;asalber.github.io/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contratos menores de Madrid</title>
-      <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</link>
+      <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</guid>
+      <guid>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</guid>
       <description>&lt;p&gt;El objetivo de este trabajo es hacer un análisis de los contratos menores del Ayuntamiento de Madrid desde 2015 para hacer una comparativa por años y ver qué empresas han resultado más beneficiadas.&lt;/p&gt;
 &lt;h3 id=&#34;conjunto-de-datos&#34;&gt;Conjunto de datos&lt;/h3&gt;
 &lt;p&gt;Datos abiertos del Ayuntamiento de Madrid: 
@@ -4290,15 +4290,15 @@ Fecha: 27 de Marzo de 2019&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/trabajos/soluciones/contratos-menores-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/contratos-menores-madrid&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/contratos-menores-madrid&#34;&gt;&lt;img src=&#34;asalber.github.io/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Emisiones de Madrid</title>
-      <link>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link>
+      <link>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid>
+      <guid>asalber.github.io/es/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid>
       <description>&lt;p&gt;El objetivo de este trabajo es comprobar si las restricciones de tráfico establecidas en Madrid Central han servido para reducir significativamente las emisiones de gases contaminantes.&lt;/p&gt;
 &lt;h3 id=&#34;conjunto-de-datos&#34;&gt;Conjunto de datos&lt;/h3&gt;
 &lt;p&gt;Datos abiertos del Ayuntamiento de Madrid: 
@@ -4316,7 +4316,7 @@ Fecha: 27 de Marzo de 2019&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/trabajos/soluciones/emisiones-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/emisiones-madrid&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/emisiones-madrid&#34;&gt;&lt;img src=&#34;asalber.github.io/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

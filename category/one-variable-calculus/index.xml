@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>One Variable Calculus | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/category/one-variable-calculus/</link>
-      <atom:link href="https://aprendeconalf.es/category/one-variable-calculus/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/category/one-variable-calculus/</link>
+      <atom:link href="asalber.github.io/category/one-variable-calculus/index.xml" rel="self" type="application/rss+xml" />
     <description>One Variable Calculus</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>One Variable Calculus</title>
-      <link>https://aprendeconalf.es/category/one-variable-calculus/</link>
+      <link>asalber.github.io/category/one-variable-calculus/</link>
     </image>
     
     <item>
       <title>One variable differential calculus</title>
-      <link>https://aprendeconalf.es/teaching/calculus/manual/derivatives-one-variable/</link>
+      <link>asalber.github.io/teaching/calculus/manual/derivatives-one-variable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/manual/derivatives-one-variable/</guid>
+      <guid>asalber.github.io/teaching/calculus/manual/derivatives-one-variable/</guid>
       <description>&lt;h2 id=&#34;concept-of-derivative&#34;&gt;Concept of derivative&lt;/h2&gt;
 &lt;h3 id=&#34;increment&#34;&gt;Increment&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -396,9 +396,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Integral calculus</title>
-      <link>https://aprendeconalf.es/teaching/calculus/manual/integrals/</link>
+      <link>asalber.github.io/teaching/calculus/manual/integrals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/manual/integrals/</guid>
+      <guid>asalber.github.io/teaching/calculus/manual/integrals/</guid>
       <description>&lt;h2 id=&#34;antiderivative-of-a-function&#34;&gt;Antiderivative of a function&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -671,9 +671,9 @@ $$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p&gt;
     
     <item>
       <title>Ordinary differential equations</title>
-      <link>https://aprendeconalf.es/teaching/calculus/manual/ordinary-differential-equations/</link>
+      <link>asalber.github.io/teaching/calculus/manual/ordinary-differential-equations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/manual/ordinary-differential-equations/</guid>
+      <guid>asalber.github.io/teaching/calculus/manual/ordinary-differential-equations/</guid>
       <description>&lt;h2 id=&#34;ordinary-differential-equations&#34;&gt;Ordinary Differential Equations&lt;/h2&gt;
 &lt;p&gt;Often in Physics, Chemistry, Biology, Geometry, etc there arise equations that relate a function with its derivative, or successive derivatives.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;

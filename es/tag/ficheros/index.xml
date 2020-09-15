@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ficheros | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/ficheros/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/ficheros/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/ficheros/</link>
+      <atom:link href="asalber.github.io/es/tag/ficheros/index.xml" rel="self" type="application/rss+xml" />
     <description>Ficheros</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Ficheros</title>
-      <link>https://aprendeconalf.es/es/tag/ficheros/</link>
+      <link>asalber.github.io/es/tag/ficheros/</link>
     </image>
     
     <item>
       <title>Ejercicios de Ficheros</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/ficheros/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/ficheros/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/ficheros/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/ficheros/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir una función que pida un número entero entre 1 y 10 y guarde en un fichero con el nombre &lt;code&gt;tabla-n.txt&lt;/code&gt; la tabla de multiplicar de ese número, done &lt;code&gt;n&lt;/code&gt; es el número introducido.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -67,9 +67,9 @@
     
     <item>
       <title>Ficheros</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/ficheros/</link>
+      <link>asalber.github.io/es/docencia/python/manual/ficheros/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/ficheros/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/ficheros/</guid>
       <description>&lt;h2 id=&#34;ficheros&#34;&gt;Ficheros&lt;/h2&gt;
 &lt;p&gt;Hasta ahora hemos visto como interactuar con un programa a través del teclado (entrada de datos) y la terminal (salida), pero en la mayor parte de las aplicaciones reales tendremos que leer y escribir datos en ficheros.&lt;/p&gt;
 &lt;p&gt;Al utilizar ficheros para guardar los datos estos perdurarán tras la ejecución del programa, pudiendo ser consultados o utilizados más tarde.&lt;/p&gt;

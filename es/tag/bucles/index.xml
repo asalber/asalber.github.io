@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bucles | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/bucles/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/bucles/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/bucles/</link>
+      <atom:link href="asalber.github.io/es/tag/bucles/index.xml" rel="self" type="application/rss+xml" />
     <description>Bucles</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Bucles</title>
-      <link>https://aprendeconalf.es/es/tag/bucles/</link>
+      <link>asalber.github.io/es/tag/bucles/</link>
     </image>
     
     <item>
       <title>Ejercicios de Bucles</title>
-      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/bucles/</link>
+      <link>asalber.github.io/es/docencia/python/ejercicios/bucles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/bucles/</guid>
+      <guid>asalber.github.io/es/docencia/python/ejercicios/bucles/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -73,9 +73,9 @@
     
     <item>
       <title>Bucles</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/bucles/</link>
+      <link>asalber.github.io/es/docencia/python/manual/bucles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/bucles/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/bucles/</guid>
       <description>&lt;h2 id=&#34;bucles-condicionales-while&#34;&gt;Bucles condicionales (&lt;code&gt;while&lt;/code&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;while condición:&lt;/code&gt;&lt;br&gt;

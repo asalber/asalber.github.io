@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geogebra | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/category/geogebra/</link>
-      <atom:link href="https://aprendeconalf.es/es/category/geogebra/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/category/geogebra/</link>
+      <atom:link href="asalber.github.io/es/category/geogebra/index.xml" rel="self" type="application/rss+xml" />
     <description>Geogebra</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Geogebra</title>
-      <link>https://aprendeconalf.es/es/category/geogebra/</link>
+      <link>asalber.github.io/es/category/geogebra/</link>
     </image>
     
     <item>
       <title>Cálculo con Geogebra</title>
-      <link>https://aprendeconalf.es/es/docencia/geogebra/</link>
+      <link>asalber.github.io/es/docencia/geogebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/geogebra/</guid>
+      <guid>asalber.github.io/es/docencia/geogebra/</guid>
       <description>&lt;h2 id=&#34;geogebra&#34;&gt;Geogebra&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.geogebra.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GeoGebra&lt;/a&gt; es un software interactivo libre para el aprendizaje de Matemáticas en educación secundaria y superior. A continuación os presentamos un manual de Cálculo con Geogegra que se centra, sobre todo, en la resolución analítica de problemas de cálculo en una y varias variables con la vista CAS (cálculo simbólico) de Geogegra.&lt;/p&gt;

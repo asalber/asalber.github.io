@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alfonso Parra-Blesa | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/author/alfonso-parra-blesa/</link>
-      <atom:link href="https://aprendeconalf.es/es/author/alfonso-parra-blesa/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/author/alfonso-parra-blesa/</link>
+      <atom:link href="asalber.github.io/es/author/alfonso-parra-blesa/index.xml" rel="self" type="application/rss+xml" />
     <description>Alfonso Parra-Blesa</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Alfonso Parra-Blesa</title>
-      <link>https://aprendeconalf.es/es/author/alfonso-parra-blesa/</link>
+      <link>asalber.github.io/es/author/alfonso-parra-blesa/</link>
     </image>
     
     <item>
       <title>Clinical-Evolutionary Staging System of Primary Open-Angle Glaucoma Using Optical Coherence Tomography</title>
-      <link>https://aprendeconalf.es/es/publication/parrablesa-2020-clinicalevolutionary/</link>
+      <link>asalber.github.io/es/publication/parrablesa-2020-clinicalevolutionary/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/parrablesa-2020-clinicalevolutionary/</guid>
+      <guid>asalber.github.io/es/publication/parrablesa-2020-clinicalevolutionary/</guid>
       <description></description>
     </item>
     

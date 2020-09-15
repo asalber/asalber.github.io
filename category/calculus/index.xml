@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Calculus | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/category/calculus/</link>
-      <atom:link href="https://aprendeconalf.es/category/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/category/calculus/</link>
+      <atom:link href="asalber.github.io/category/calculus/index.xml" rel="self" type="application/rss+xml" />
     <description>Calculus</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Calculus</title>
-      <link>https://aprendeconalf.es/category/calculus/</link>
+      <link>asalber.github.io/category/calculus/</link>
     </image>
     
     <item>
       <title>Analytic Geometry</title>
-      <link>https://aprendeconalf.es/teaching/calculus/manual/analytic-geometry/</link>
+      <link>asalber.github.io/teaching/calculus/manual/analytic-geometry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/manual/analytic-geometry/</guid>
+      <guid>asalber.github.io/teaching/calculus/manual/analytic-geometry/</guid>
       <description>&lt;h2 id=&#34;scalars-and-vectors&#34;&gt;Scalars and Vectors&lt;/h2&gt;
 &lt;h3 id=&#34;scalars&#34;&gt;Scalars&lt;/h3&gt;
 &lt;p&gt;Some phenomena of Nature can be described by a number and a unit of measurement.&lt;/p&gt;
@@ -198,9 +198,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Calculus Cheat Sheets</title>
-      <link>https://aprendeconalf.es/teaching/calculus/cheatsheets/</link>
+      <link>asalber.github.io/teaching/calculus/cheatsheets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/cheatsheets/</guid>
+      <guid>asalber.github.io/teaching/calculus/cheatsheets/</guid>
       <description>&lt;h2 id=&#34;calculus-formulas&#34;&gt;Calculus formulas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -215,9 +215,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Problems of Derivatives</title>
-      <link>https://aprendeconalf.es/teaching/calculus/problems/derivatives-1/</link>
+      <link>asalber.github.io/teaching/calculus/problems/derivatives-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/problems/derivatives-1/</guid>
+      <guid>asalber.github.io/teaching/calculus/problems/derivatives-1/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Compute the derivative function of $f(x)=x^3-2x^2+1$ at the points $x=-1$, $x=0$ and $x=1$. Explain your result.
 Find an equation of the tangent line to the graph of $f$ at each of the three given points.&lt;/p&gt;
@@ -259,9 +259,9 @@ Compute the derivative of the pH as a function of the concentration of H$^+$. St
     
     <item>
       <title>One variable differential calculus</title>
-      <link>https://aprendeconalf.es/teaching/calculus/manual/derivatives-one-variable/</link>
+      <link>asalber.github.io/teaching/calculus/manual/derivatives-one-variable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/manual/derivatives-one-variable/</guid>
+      <guid>asalber.github.io/teaching/calculus/manual/derivatives-one-variable/</guid>
       <description>&lt;h2 id=&#34;concept-of-derivative&#34;&gt;Concept of derivative&lt;/h2&gt;
 &lt;h3 id=&#34;increment&#34;&gt;Increment&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -641,9 +641,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Integral calculus</title>
-      <link>https://aprendeconalf.es/teaching/calculus/manual/integrals/</link>
+      <link>asalber.github.io/teaching/calculus/manual/integrals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/manual/integrals/</guid>
+      <guid>asalber.github.io/teaching/calculus/manual/integrals/</guid>
       <description>&lt;h2 id=&#34;antiderivative-of-a-function&#34;&gt;Antiderivative of a function&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -916,9 +916,9 @@ $$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p&gt;
     
     <item>
       <title>Ordinary differential equations</title>
-      <link>https://aprendeconalf.es/teaching/calculus/manual/ordinary-differential-equations/</link>
+      <link>asalber.github.io/teaching/calculus/manual/ordinary-differential-equations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/manual/ordinary-differential-equations/</guid>
+      <guid>asalber.github.io/teaching/calculus/manual/ordinary-differential-equations/</guid>
       <description>&lt;h2 id=&#34;ordinary-differential-equations&#34;&gt;Ordinary Differential Equations&lt;/h2&gt;
 &lt;p&gt;Often in Physics, Chemistry, Biology, Geometry, etc there arise equations that relate a function with its derivative, or successive derivatives.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -1140,9 +1140,9 @@ and we get the particular solution&lt;/p&gt;
     
     <item>
       <title>Several variables differentiable calculus</title>
-      <link>https://aprendeconalf.es/teaching/calculus/manual/derivatives-n-variables/</link>
+      <link>asalber.github.io/teaching/calculus/manual/derivatives-n-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/manual/derivatives-n-variables/</guid>
+      <guid>asalber.github.io/teaching/calculus/manual/derivatives-n-variables/</guid>
       <description>&lt;h2 id=&#34;vector-functions-of-a-single-real-variable&#34;&gt;Vector functions of a single real variable&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -1327,7 +1327,7 @@ provided that $x&amp;rsquo;(a)\neq 0$, $y&amp;rsquo;(a)\neq 0$ y $z&amp;rsquo;(a
 &lt;p&gt;and the tangent line to the graph of $f$ at that moment is&lt;/p&gt;
 &lt;p&gt;$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives_n/tangent_trajectory_space.svg&#34; alt=&#34;Tangent line to a trajectory in the space.&#34; width=&#34;400&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;https://aprendeconalf.es/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Q2C7EfBn&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Q2C7EfBn&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;normal-plane-to-a-trajectory-in-the-space&#34;&gt;Normal plane to a trajectory in the space&lt;/h3&gt;
 &lt;p&gt;In the three-dimensional space $\mathbb{R}^3$, the normal line to a trajectory is not unique. There are an infinite number of normal lines and all of them are in the normal plane.&lt;/p&gt;
 &lt;p&gt;If $f(t)=(x(t),y(t),z(t))$, $t\in \mathbb{R}$, is a trajectory in the real space $\mathbb{R}^3$, then at the moment $a$, the moving object that follows this trajectory will be at the position $P=(x(a),y(a),z(a))$ with a velocity $\mathbf{v}=f&amp;rsquo;(t)=(x&amp;rsquo;(t),y&amp;rsquo;(t),z&amp;rsquo;(t))$. Thus, using the velocity vector as normal vector the normal plane to $f$ at this moment have the following vectorial equation&lt;/p&gt;
@@ -1344,7 +1344,7 @@ $$&lt;/p&gt;
 and normal plane to the graph of $f$ at that moment is&lt;/p&gt;
 &lt;p&gt;$$\Pi:\left(x-0,y-1,z-\frac{\pi}{2}\right)(-1,0,1) =0 \Leftrightarrow -x+z-\frac{\pi}{2}=0.$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives_n/normal_plane_trajectory_space.svg&#34; alt=&#34;Normal plane to a trajectory in the space.&#34; width=&#34;400&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;https://aprendeconalf.es/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Q2C7EfBn&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Q2C7EfBn&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;functions-of-several-variables&#34;&gt;Functions of several variables&lt;/h2&gt;
 &lt;p&gt;A lot of problems in Geometry, Physics, Chemistry, Biology, etc. involve a variable that depend on two or more variables:&lt;/p&gt;
 &lt;ul&gt;
@@ -1422,7 +1422,7 @@ $$\frac{\partial f}{\partial x}(x_0,y_0).$$&lt;/p&gt;
 &lt;h3 id=&#34;geometric-interpretation-of-partial-derivatives&#34;&gt;Geometric interpretation of partial derivatives&lt;/h3&gt;
 &lt;p&gt;Geometrically, a two-variable function $z=f(x,y)$ defines a surface. If we cut this surface with a plane of equation $y=y_0$ (that is, the plane where $y$ is the constant $y_0$) the intersection is a curve, and the partial derivative of $f$ with respect to to $x$ at $(x_0,y_0)$ is the slope of the tangent line to that curve at $x=x_0$.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives_n/partial_tangent_surface.svg&#34; alt=&#34;Geometric interpretation of the partial derivative.&#34; width=&#34;350&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;https://aprendeconalf.es/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/K3xnQRY8&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/K3xnQRY8&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;partial-derivative&#34;&gt;Partial derivative&lt;/h3&gt;
 &lt;p&gt;The concept of partial derivative can be extended easily from two-variable function to $n$-variables functions.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -1568,7 +1568,7 @@ $$&lt;/p&gt;
 \end{aligned}$$&lt;/p&gt;
 &lt;p&gt;The graph of the paraboloid $f(x,y,z)=x^2+y^2-z=0$ and the normal line and the tangent plane to the graph of $f$ at the point $P=(1,1,2)$ are below.&lt;/p&gt;
  &lt;img src=&#34;../img/derivatives_n/tangent_plane_paraboloid.svg&#34; alt=&#34;Geometric interpretation of the partial derivative.&#34; width=&#34;350&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;https://aprendeconalf.es/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/wTh7KKd3&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/wTh7KKd3&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;directional-derivative&#34;&gt;Directional derivative&lt;/h2&gt;
 &lt;p&gt;For a scalar field $f(x,y)$, we have seen that the partial derivative $\dfrac{\partial f}{\partial x}(x_0,y_0)$ is the instantaneous rate of change of $f$ with respect to $x$ at point $P=(x_0,y_0)$, that is, when we move along the $x$-axis.&lt;/p&gt;
 &lt;p&gt;In the same way, $\dfrac{\partial f}{\partial y}(x_0,y_0)$ is the instantaneous rate of change of $f$ with respect to $y$ at the point $P=(x_0,y_0)$, that is, when we move along the $y$-axis.&lt;/p&gt;
@@ -1617,7 +1617,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$$\mathbf{v&amp;rsquo;}=\frac{\mathbf{v}}{|\mathbf{v}|}.$$&lt;/p&gt;
 &lt;h3 id=&#34;geometric-interpretation-of-the-directional-derivative&#34;&gt;Geometric interpretation of the directional derivative&lt;/h3&gt;
 &lt;p&gt;Geometrically, a two-variable function $z=f(x,y)$ defines a surface. If we cut this surface with a plane of equation $a(y-y_0)=b(x-x_0)$ (that is, the vertical plane that passes through the point $P=(x_0,y_0)$ with the direction of vector $\mathbf{u}=(a,b)$) the intersection is a curve, and the directional derivative of $f$ at $P$ along the direction of $\mathbf{u}$ is the slope of the tangent line to that curve at point $P$.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aprendeconalf.es/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Bx8nFMNc&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Bx8nFMNc&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;growth-of-scalar-field-along-the-gradient&#34;&gt;Growth of scalar field along the gradient&lt;/h3&gt;
 &lt;p&gt;We have seen that for any vector $\mathbf{u}$&lt;/p&gt;
 &lt;p&gt;$$f^\prime_{\mathbf{u}}(P) = \nabla f(P)\cdot \mathbf{u} = |\nabla f(P)|\cos \theta,$$&lt;/p&gt;
@@ -1874,7 +1874,7 @@ f(1.01,1.01) \approx P^1_{f,P}(1.01,1.01) &amp;amp;= \frac{-1.01^2-1.01^2+4\cdot
 $$&lt;/p&gt;
 &lt;p&gt;The graph of the scalar field $f(x,y)=\log(xy)$ and the second degree Taylor polynomial of $f$ at the point $P=(1,1)$ is below.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives_n/second_degree_taylor_polynomial.svg&#34; alt=&#34;Second degree Taylor polynomial&#34; width=&#34;350&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;https://aprendeconalf.es/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Ehnz3hGb&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Ehnz3hGb&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;relative-extrema&#34;&gt;Relative extrema&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -2001,9 +2001,9 @@ Given a critical point $P=(x_0,y_0)$ of a scalar field $f(x,y)$, it holds that&l
     
     <item>
       <title>Pharmacy exam 2019-12-16</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2019-12-16/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2019-12-16/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2019-12-16/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2019-12-16/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Dic 16, 2019&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -2081,9 +2081,9 @@ The function is concave up in $(-\infty, 1.1716) \cup (6.8284, \infty)$ and conc
     
     <item>
       <title>Pharmacy exam 2018-12-17</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2018-12-17/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2018-12-17/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2018-12-17/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2018-12-17/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Dic 17, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -2166,9 +2166,9 @@ Compute the amount of $n$ and $p$ that maximizes the yield of the crop.&lt;/p&gt
     
     <item>
       <title>Pharmacy exam 2018-01-19</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2018-01-19/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2018-01-19/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2018-01-19/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2018-01-19/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Jan 19, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -2256,9 +2256,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Pharmacy exam 2017-11-06</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2017-11-06/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2017-11-06/</link>
       <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2017-11-06/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2017-11-06/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Nov 6, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -2354,9 +2354,9 @@ $w(12)=10.1$ kg.&lt;/li&gt;
     
     <item>
       <title>Pharmacy exam 2016-01-10</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2017-01-10/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2017-01-10/</link>
       <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2017-01-10/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2017-01-10/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Jan 10, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -2436,9 +2436,9 @@ $f&amp;rsquo;&#39;(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\sin^2 t), \frac{-2(1-t)^{-5
     
     <item>
       <title>Pharmacy exam 2016-11-07</title>
-      <link>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2016-11-07/</link>
+      <link>asalber.github.io/teaching/calculus/exams/pharmacy-2016-11-07/</link>
       <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/exams/pharmacy-2016-11-07/</guid>
+      <guid>asalber.github.io/teaching/calculus/exams/pharmacy-2016-11-07/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
 Date: Nov 7, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -2539,17 +2539,17 @@ General solution: $y=cx^k$.&lt;/li&gt;
     
     <item>
       <title>Calculus with Derive</title>
-      <link>https://aprendeconalf.es/teaching/derive/</link>
+      <link>asalber.github.io/teaching/derive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/derive/</guid>
+      <guid>asalber.github.io/teaching/derive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Calculus with Geogebra</title>
-      <link>https://aprendeconalf.es/teaching/geogebra/</link>
+      <link>asalber.github.io/teaching/geogebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/geogebra/</guid>
+      <guid>asalber.github.io/teaching/geogebra/</guid>
       <description>&lt;h2 id=&#34;geogebra&#34;&gt;Geogebra&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.geogebra.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GeoGebra&lt;/a&gt; is an open source interactive software intended for learning Mathematics in secondary and higher education. Below we present you a Calculus manual with Geogebra, focused, mainly, in the analytical resolution of calculus problems in one and several variables with the CAS view (symbolic calculus) of Geogegra.&lt;/p&gt;

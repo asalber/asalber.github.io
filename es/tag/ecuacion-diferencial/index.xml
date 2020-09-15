@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ecuación Diferencial | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/ecuacion-diferencial/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/ecuacion-diferencial/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/ecuacion-diferencial/</link>
+      <atom:link href="asalber.github.io/es/tag/ecuacion-diferencial/index.xml" rel="self" type="application/rss+xml" />
     <description>Ecuación Diferencial</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Ecuación Diferencial</title>
-      <link>https://aprendeconalf.es/es/tag/ecuacion-diferencial/</link>
+      <link>asalber.github.io/es/tag/ecuacion-diferencial/</link>
     </image>
     
     <item>
       <title>Ecuaciones diferenciales ordinarias</title>
-      <link>https://aprendeconalf.es/es/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</link>
+      <link>asalber.github.io/es/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</guid>
+      <guid>asalber.github.io/es/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</guid>
       <description>&lt;h2 id=&#34;definición-de-las-ecuaciones-diferenciales-ordinarias&#34;&gt;Definición de las ecuaciones diferenciales ordinarias&lt;/h2&gt;
 &lt;p&gt;En muchos problemas de geometría, física, química, etc, seq presentan a menudo ecuaciones que relacionan una función con su derivada o derivadas sucesivas.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;

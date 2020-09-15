@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Riesgos | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/riesgos/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/riesgos/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/riesgos/</link>
+      <atom:link href="asalber.github.io/es/tag/riesgos/index.xml" rel="self" type="application/rss+xml" />
     <description>Riesgos</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Riesgos</title>
-      <link>https://aprendeconalf.es/es/tag/riesgos/</link>
+      <link>asalber.github.io/es/tag/riesgos/</link>
     </image>
     
     <item>
       <title>Probabilidad</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/manual/probabilidad/</link>
+      <link>asalber.github.io/es/docencia/estadistica/manual/probabilidad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/manual/probabilidad/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/manual/probabilidad/</guid>
       <description>&lt;p&gt;La estadística descriptiva permite describir el comportamiento y las relaciones entre las variables en la muestra, pero no permite sacar conclusiones sobre el resto de la población.&lt;/p&gt;
 &lt;p&gt;Ha llegado el momento de dar el salto de la muestra a la población y pasar de la estadística descriptiva a la inferencia estadística, y el puente que lo permite es la &lt;strong&gt;Teoría de la Probabilidad&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Hay que tener en cuenta que el conocimiento que se puede obtener de la población a partir de la muestra es limitado, y que para obtener conclusiones válidas para la población la muestra debe ser

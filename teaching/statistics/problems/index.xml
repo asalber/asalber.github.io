@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistics problems | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/teaching/statistics/problems/</link>
-      <atom:link href="https://aprendeconalf.es/teaching/statistics/problems/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/teaching/statistics/problems/</link>
+      <atom:link href="asalber.github.io/teaching/statistics/problems/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistics problems</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Statistics problems</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/</link>
+      <link>asalber.github.io/teaching/statistics/problems/</link>
     </image>
     
     <item>
       <title>Problems of Frequency Tables and Charts</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/frequency_charts/</link>
+      <link>asalber.github.io/teaching/statistics/problems/frequency_charts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/frequency_charts/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/frequency_charts/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Classify the following variables&lt;/p&gt;
 &lt;ol&gt;
@@ -482,9 +482,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Problems of Descriptive Statistics</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/statistics/</link>
+      <link>asalber.github.io/teaching/statistics/problems/statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/statistics/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/statistics/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;The number of injuries suffered by the members of a soccer team in a league were&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;0 1 2 1 3 0 1 0 1 2 0 1 1 1 2 0 1 3 2 1 2 1 0 1
@@ -847,9 +847,9 @@ Births: $\bar z=2.4525$, $s_z=1.1674$ and $cv_z=0.476$.&lt;/li&gt;
     
     <item>
       <title>Problems of Linear Regression</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/linear_regression/</link>
+      <link>asalber.github.io/teaching/statistics/problems/linear_regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/linear_regression/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/linear_regression/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Give some examples of:&lt;/p&gt;
 &lt;ol&gt;
@@ -1174,9 +1174,9 @@ $r^2=0.9571$.&lt;br/&gt;&lt;/li&gt;
     
     <item>
       <title>Problems of Non Linear Regression</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/non_linear_regression/</link>
+      <link>asalber.github.io/teaching/statistics/problems/non_linear_regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/non_linear_regression/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/non_linear_regression/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;A dietary center is testing a new diet in sample of 12 persons. The data below are the number of days of diet and the weight loss (in kg) until them for every person.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;(33,3.9)  (51,5.9)  (30,3.2)  (55,6)  (38,4.9)  (62,6.2)  (35,4.5)  (60,6.1)  (44,5.6)  (69,6.2)  (47,5.8)  (40,5.3) 
@@ -1497,9 +1497,9 @@ $y(8)=1.6296$ μg/dl. The prediction is reliable since the linear coefficient of
     
     <item>
       <title>Problems of Probability</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/probability/</link>
+      <link>asalber.github.io/teaching/statistics/problems/probability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/probability/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/probability/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Construct the sample space of the following random experiments:&lt;/p&gt;
 &lt;ol&gt;
@@ -1754,9 +1754,9 @@ $P(A/\bar J\cap \bar C)=0.625$.
     
     <item>
       <title>Problems Diagnostic Tests</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/diagnostic_tests/</link>
+      <link>asalber.github.io/teaching/statistics/problems/diagnostic_tests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/diagnostic_tests/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/diagnostic_tests/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;A test was applied to a sample of people in order to evaluate its effectiveness; the results are as follows:&lt;/p&gt;
 &lt;p&gt;$$
@@ -1848,9 +1848,9 @@ $P(D\vert +_A\cap +_B)=0.7878$.&lt;/li&gt;
     
     <item>
       <title>Problems of Discrete Random Variables</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/discrete_random_variables/</link>
+      <link>asalber.github.io/teaching/statistics/problems/discrete_random_variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/discrete_random_variables/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/discrete_random_variables/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $X$ be a discrete random variable with the following probability distribution&lt;/p&gt;
 &lt;p&gt;$$
@@ -2184,9 +2184,9 @@ Let $Y$ be the of persons developing cancer, $P(Y\geq 1) = 0.9999$.
     
     <item>
       <title>Problems of Continuous Random Variables</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/continuous_random_variables/</link>
+      <link>asalber.github.io/teaching/statistics/problems/continuous_random_variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/continuous_random_variables/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/continuous_random_variables/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Given the continuous random variable $X$ with the following probability density function chart,
 &lt;img src=&#34;img/vac-3-1.svg&#34; title=&#34;plot of chunk vac-3&#34; alt=&#34;plot of chunk vac-3&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linear Regression | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/tag/linear-regression/</link>
-      <atom:link href="https://aprendeconalf.es/tag/linear-regression/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/tag/linear-regression/</link>
+      <atom:link href="asalber.github.io/tag/linear-regression/index.xml" rel="self" type="application/rss+xml" />
     <description>Linear Regression</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Linear Regression</title>
-      <link>https://aprendeconalf.es/tag/linear-regression/</link>
+      <link>asalber.github.io/tag/linear-regression/</link>
     </image>
     
     <item>
       <title>Problems of Linear Regression</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/linear_regression/</link>
+      <link>asalber.github.io/teaching/statistics/problems/linear_regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/linear_regression/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/linear_regression/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Give some examples of:&lt;/p&gt;
 &lt;ol&gt;

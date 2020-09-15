@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Area | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/tag/area/</link>
-      <atom:link href="https://aprendeconalf.es/tag/area/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/tag/area/</link>
+      <atom:link href="asalber.github.io/tag/area/index.xml" rel="self" type="application/rss+xml" />
     <description>Area</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Area</title>
-      <link>https://aprendeconalf.es/tag/area/</link>
+      <link>asalber.github.io/tag/area/</link>
     </image>
     
     <item>
       <title>Integral calculus</title>
-      <link>https://aprendeconalf.es/teaching/calculus/manual/integrals/</link>
+      <link>asalber.github.io/teaching/calculus/manual/integrals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/calculus/manual/integrals/</guid>
+      <guid>asalber.github.io/teaching/calculus/manual/integrals/</guid>
       <description>&lt;h2 id=&#34;antiderivative-of-a-function&#34;&gt;Antiderivative of a function&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;

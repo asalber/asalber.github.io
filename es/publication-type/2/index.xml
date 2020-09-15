@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/publication-type/2/</link>
-      <atom:link href="https://aprendeconalf.es/es/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/publication-type/2/</link>
+      <atom:link href="asalber.github.io/es/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>2</title>
-      <link>https://aprendeconalf.es/es/publication-type/2/</link>
+      <link>asalber.github.io/es/publication-type/2/</link>
     </image>
     
     <item>
       <title>Clinical-Evolutionary Staging System of Primary Open-Angle Glaucoma Using Optical Coherence Tomography</title>
-      <link>https://aprendeconalf.es/es/publication/parrablesa-2020-clinicalevolutionary/</link>
+      <link>asalber.github.io/es/publication/parrablesa-2020-clinicalevolutionary/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/parrablesa-2020-clinicalevolutionary/</guid>
+      <guid>asalber.github.io/es/publication/parrablesa-2020-clinicalevolutionary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bringing R to non-expert users with the package RKTeaching</title>
-      <link>https://aprendeconalf.es/es/publication/sanchezalberca-2015-bringing/</link>
+      <link>asalber.github.io/es/publication/sanchezalberca-2015-bringing/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/sanchezalberca-2015-bringing/</guid>
+      <guid>asalber.github.io/es/publication/sanchezalberca-2015-bringing/</guid>
       <description></description>
     </item>
     

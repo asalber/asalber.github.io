@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Numpy | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/numpy/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/numpy/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/numpy/</link>
+      <atom:link href="asalber.github.io/es/tag/numpy/index.xml" rel="self" type="application/rss+xml" />
     <description>Numpy</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Numpy</title>
-      <link>https://aprendeconalf.es/es/tag/numpy/</link>
+      <link>asalber.github.io/es/tag/numpy/</link>
     </image>
     
     <item>
       <title>La librería Numpy</title>
-      <link>https://aprendeconalf.es/es/docencia/python/manual/numpy/</link>
+      <link>asalber.github.io/es/docencia/python/manual/numpy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/python/manual/numpy/</guid>
+      <guid>asalber.github.io/es/docencia/python/manual/numpy/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://www.numpy.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NumPy&lt;/a&gt; es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.&lt;/p&gt;
 &lt;p&gt;Incorpora una nueva clase de objetos llamados &lt;strong&gt;arrays&lt;/strong&gt; que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.&lt;/p&gt;

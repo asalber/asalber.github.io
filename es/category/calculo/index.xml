@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cálculo | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/category/calculo/</link>
-      <atom:link href="https://aprendeconalf.es/es/category/calculo/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/category/calculo/</link>
+      <atom:link href="asalber.github.io/es/category/calculo/index.xml" rel="self" type="application/rss+xml" />
     <description>Cálculo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Thu, 02 Nov 2017 10:21:50 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Cálculo</title>
-      <link>https://aprendeconalf.es/es/category/calculo/</link>
+      <link>asalber.github.io/es/category/calculo/</link>
     </image>
     
     <item>
       <title>Geometría Analítica</title>
-      <link>https://aprendeconalf.es/es/docencia/calculo/manual/geometria-analitica/</link>
+      <link>asalber.github.io/es/docencia/calculo/manual/geometria-analitica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/calculo/manual/geometria-analitica/</guid>
+      <guid>asalber.github.io/es/docencia/calculo/manual/geometria-analitica/</guid>
       <description>&lt;h2 id=&#34;escalares-y-vectores&#34;&gt;Escalares y vectores&lt;/h2&gt;
 &lt;h3 id=&#34;escalares&#34;&gt;Escalares&lt;/h3&gt;
 &lt;p&gt;Algunos fenómenos de la naturaleza pueden describirse mediante un número referido a una unidad de medida.&lt;/p&gt;
@@ -176,7 +176,7 @@ Un punto de la recta es $P=(1,1,2)$ y un vector director es $\mathbf{v}=(-1,2,2)
 &lt;p&gt;$$y-y_0 = \frac{b}{a}(x-x_0) \mbox{ o bien } y-y_0+m(x-x_0),$$&lt;/p&gt;
 &lt;p&gt;llamando $m=b/a$.
 Esta ecuación se conoce como ecuación en la forma &lt;em&gt;punto-pendiente&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aprendeconalf.es/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m150370&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m150370&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;pendiente-de-una-recta-en-el-plano&#34;&gt;Pendiente de una recta en el plano&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -184,7 +184,7 @@ Esta ecuación se conoce como ecuación en la forma &lt;em&gt;punto-pendiente&lt
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/pendiente_recta.png&#34; width=&#34;400px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aprendeconalf.es/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m150247&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m150247&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Recordar que dados dos puntos $Q=(x_1,y_1)$ y $Q=(x_2,y_2)$ de la recta $l$, se puede tomar como vector director el vector que los une, que tiene coordenadas $\vec{PQ}=Q-P=(x_2-x_1,y_2-y_1)$, de manera que la pendiente de $l$ será $\dfrac{y_2-y_1}{x_2-x_1}$, es decir, el cociente entre lo que cambia la coordenada $y$ y lo que cambia la coordenada $x$.&lt;/p&gt;
 &lt;h2 id=&#34;planos&#34;&gt;Planos&lt;/h2&gt;
 &lt;h3 id=&#34;ecuación-vectorial-del-plano-en-el-espacio-real&#34;&gt;Ecuación vectorial del plano en el espacio real&lt;/h3&gt;
@@ -212,9 +212,9 @@ Entonces, para cualquier punto del plano $Q=(x,y,z)$ se cumple que el vector $\v
     
     <item>
       <title>Funciones elementales</title>
-      <link>https://aprendeconalf.es/es/docencia/calculo/manual/funciones-elementales/</link>
+      <link>asalber.github.io/es/docencia/calculo/manual/funciones-elementales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/calculo/manual/funciones-elementales/</guid>
+      <guid>asalber.github.io/es/docencia/calculo/manual/funciones-elementales/</guid>
       <description>&lt;h2 id=&#34;el-concepto-de-función&#34;&gt;El concepto de función&lt;/h2&gt;
 &lt;h3 id=&#34;qué-es-una-función&#34;&gt;¿Qué es una función?&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -668,9 +668,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
     
     <item>
       <title>Límites y continuidad</title>
-      <link>https://aprendeconalf.es/es/docencia/calculo/manual/limites-continuidad/</link>
+      <link>asalber.github.io/es/docencia/calculo/manual/limites-continuidad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/calculo/manual/limites-continuidad/</guid>
+      <guid>asalber.github.io/es/docencia/calculo/manual/limites-continuidad/</guid>
       <description>&lt;h2 id=&#34;el-concepto-de-límite&#34;&gt;El concepto de límite&lt;/h2&gt;
 &lt;h3 id=&#34;aproximación-al-concepto-de-límite&#34;&gt;Aproximación al concepto de límite&lt;/h3&gt;
 &lt;p&gt;El concepto de límite está ligado al de tendencia.&lt;/p&gt;
@@ -1296,9 +1296,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Cálculo diferencial en una variable</title>
-      <link>https://aprendeconalf.es/es/docencia/calculo/manual/derivadas-una-variable/</link>
+      <link>asalber.github.io/es/docencia/calculo/manual/derivadas-una-variable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/calculo/manual/derivadas-una-variable/</guid>
+      <guid>asalber.github.io/es/docencia/calculo/manual/derivadas-una-variable/</guid>
       <description>&lt;h2 id=&#34;el-concepto-de-derivada&#34;&gt;El concepto de derivada&lt;/h2&gt;
 &lt;h3 id=&#34;tasa-de-variación-media&#34;&gt;Tasa de variación media&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -1481,7 +1481,7 @@ $$&lt;/p&gt;
 &lt;p&gt;y la tangente en ese punto es&lt;/p&gt;
 &lt;p&gt;$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/tangente_trayectoria_espacio.png&#34; width=&#34;400px&#34; alt=&#34;Gráfica de la tangente a una trayectoria en el espacio.&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aprendeconalf.es/images/geogebra.png&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m156108&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m156108&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;álgebra-de-derivadas&#34;&gt;Álgebra de derivadas&lt;/h2&gt;
 &lt;h3 id=&#34;propiedades-de-la-derivada&#34;&gt;Propiedades de la derivada&lt;/h3&gt;
 &lt;p&gt;Si $y=c$, es una función constante, entonces $y&#39;=0$.&lt;/p&gt;
@@ -1751,9 +1751,9 @@ dicha aproximación.&lt;/p&gt;
     
     <item>
       <title>Cálculo integral</title>
-      <link>https://aprendeconalf.es/es/docencia/calculo/manual/integrales/</link>
+      <link>asalber.github.io/es/docencia/calculo/manual/integrales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/calculo/manual/integrales/</guid>
+      <guid>asalber.github.io/es/docencia/calculo/manual/integrales/</guid>
       <description>&lt;h2 id=&#34;primitiva-de-una-función&#34;&gt;Primitiva de una función&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -1992,9 +1992,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Ecuaciones diferenciales ordinarias</title>
-      <link>https://aprendeconalf.es/es/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</link>
+      <link>asalber.github.io/es/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</guid>
+      <guid>asalber.github.io/es/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</guid>
       <description>&lt;h2 id=&#34;definición-de-las-ecuaciones-diferenciales-ordinarias&#34;&gt;Definición de las ecuaciones diferenciales ordinarias&lt;/h2&gt;
 &lt;p&gt;En muchos problemas de geometría, física, química, etc, seq presentan a menudo ecuaciones que relacionan una función con su derivada o derivadas sucesivas.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -2182,9 +2182,9 @@ y&amp;rsquo;f(x)+f&amp;rsquo;(x)y=h(x)f(x)\newline
     
     <item>
       <title>Cálculo diferencial en varias variables</title>
-      <link>https://aprendeconalf.es/es/docencia/calculo/manual/derivadas-n-variables/</link>
+      <link>asalber.github.io/es/docencia/calculo/manual/derivadas-n-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/calculo/manual/derivadas-n-variables/</guid>
+      <guid>asalber.github.io/es/docencia/calculo/manual/derivadas-n-variables/</guid>
       <description>&lt;h2 id=&#34;funciones-de-varias-variables&#34;&gt;Funciones de varias variables&lt;/h2&gt;
 &lt;p&gt;En numerosos problemas de geometría, física y ciencias naturales nos encontramos a menudo con variables o factores que dependen o están relacionados con otros dos, tres o más factores:&lt;/p&gt;
 &lt;ul&gt;
@@ -2692,9 +2692,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Hojas de fórmulas de Estadística y Cálculo</title>
-      <link>https://aprendeconalf.es/es/post/chuletas/</link>
+      <link>asalber.github.io/es/post/chuletas/</link>
       <pubDate>Thu, 02 Nov 2017 10:21:50 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/post/chuletas/</guid>
+      <guid>asalber.github.io/es/post/chuletas/</guid>
       <description>&lt;p&gt;A partir de ahora están disponibles varias hojas de fórmulas de cálculo y Estadística.&lt;/p&gt;
 &lt;p&gt;Estas hojas contienen un resumen con las principales fórmulas utilizadas en Cálculo y Estadística.&lt;/p&gt;
 &lt;p&gt;Las hojas de cálculo pueden descargarse desde los siguientes enlaces:&lt;/p&gt;
@@ -2709,9 +2709,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Manual de Cálculo en una y varias variables</title>
-      <link>https://aprendeconalf.es/es/post/apuntes-calculo/</link>
+      <link>asalber.github.io/es/post/apuntes-calculo/</link>
       <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/post/apuntes-calculo/</guid>
+      <guid>asalber.github.io/es/post/apuntes-calculo/</guid>
       <description>&lt;p&gt;En la sección de cálculo ya está disponible el manual de cálculo en una y varias variables. En este manual se introducen los principales conceptos de cálculo de manera sencilla y progresiva con multitud de ejemplos aplicados.&lt;/p&gt;
 &lt;p&gt;El manual está pensado para alumnos de primeros cursos de grado, especialmente en disciplinas aplicadas, e incluye varios capítulos entre los que cabe destacar los capítulos de derivadas de funciones de una y de varias variables, aunque también incluye integrales y ecuaciones diferenciales de primer grado. Existen también varios capítulos más elementales con conceptos básicos de geometría analítica, funciones elementales y límites y continuidad.&lt;/p&gt;
 &lt;p&gt;El manual incluye multitud de ejemplos aplicados y también ejemplos interactivos con el programa Geogebra.&lt;/p&gt;
@@ -2720,17 +2720,17 @@ $$&lt;/p&gt;
     
     <item>
       <title>Cálculo con Derive</title>
-      <link>https://aprendeconalf.es/es/docencia/derive/</link>
+      <link>asalber.github.io/es/docencia/derive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/derive/</guid>
+      <guid>asalber.github.io/es/docencia/derive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cálculo con Geogebra</title>
-      <link>https://aprendeconalf.es/es/docencia/geogebra/</link>
+      <link>asalber.github.io/es/docencia/geogebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/geogebra/</guid>
+      <guid>asalber.github.io/es/docencia/geogebra/</guid>
       <description>&lt;h2 id=&#34;geogebra&#34;&gt;Geogebra&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.geogebra.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GeoGebra&lt;/a&gt; es un software interactivo libre para el aprendizaje de Matemáticas en educación secundaria y superior. A continuación os presentamos un manual de Cálculo con Geogegra que se centra, sobre todo, en la resolución analítica de problemas de cálculo en una y varias variables con la vista CAS (cálculo simbólico) de Geogegra.&lt;/p&gt;

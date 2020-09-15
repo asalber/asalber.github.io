@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>categoria-prueba | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/category/categoria-prueba/</link>
-      <atom:link href="https://aprendeconalf.es/category/categoria-prueba/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/category/categoria-prueba/</link>
+      <atom:link href="asalber.github.io/category/categoria-prueba/index.xml" rel="self" type="application/rss+xml" />
     <description>categoria-prueba</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 19:14:03 +0200</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>categoria-prueba</title>
-      <link>https://aprendeconalf.es/category/categoria-prueba/</link>
+      <link>asalber.github.io/category/categoria-prueba/</link>
     </image>
     
     <item>
       <title>Mi Prueba</title>
-      <link>https://aprendeconalf.es/publication/mi-prueba/</link>
+      <link>asalber.github.io/publication/mi-prueba/</link>
       <pubDate>Thu, 27 Aug 2020 19:14:03 +0200</pubDate>
-      <guid>https://aprendeconalf.es/publication/mi-prueba/</guid>
+      <guid>asalber.github.io/publication/mi-prueba/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Random Variables | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/tag/random-variables/</link>
-      <atom:link href="https://aprendeconalf.es/tag/random-variables/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/tag/random-variables/</link>
+      <atom:link href="asalber.github.io/tag/random-variables/index.xml" rel="self" type="application/rss+xml" />
     <description>Random Variables</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Random Variables</title>
-      <link>https://aprendeconalf.es/tag/random-variables/</link>
+      <link>asalber.github.io/tag/random-variables/</link>
     </image>
     
     <item>
       <title>Discrete Random Variables</title>
-      <link>https://aprendeconalf.es/teaching/statistics/manual/discrete-random-variables/</link>
+      <link>asalber.github.io/teaching/statistics/manual/discrete-random-variables/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/manual/discrete-random-variables/</guid>
+      <guid>asalber.github.io/teaching/statistics/manual/discrete-random-variables/</guid>
       <description>&lt;h2 id=&#34;random-variables&#34;&gt;Random variables&lt;/h2&gt;
 &lt;p&gt;The process of drawing a sample randomly is a random experiment and any variable measured in the sample is a &lt;em&gt;random variable&lt;/em&gt; because the values taken by the variable in the individuals of the sample are a matter of chance.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -235,7 +235,7 @@ $$&lt;/p&gt;
 &lt;p&gt;In practice, this approximation can be used for $n\geq 30$ and $p\leq 0.1$.&lt;/p&gt;
 &lt;img src=&#34;../img/drv/law_rare_events.svg&#34; alt=&#34;Law of rare events&#34; width=&#34;500&#34;&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://aprendeconalf.shinyapps.io/interactive_charts/#law-rare-events&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/r_interactive_app.png&#34; alt=&#34;Interactive application&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://aprendeconalf.shinyapps.io/interactive_charts/#law-rare-events&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;asalber.github.io/images/r_interactive_app.png&#34; alt=&#34;Interactive application&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. A vaccine produce an adverse reaction in 4% of cases. If a sample of 50 persons are vaccinated, what is the probability of having more than 2 persons with an adverse reaction?&lt;/p&gt;
 &lt;p&gt;The variable that measures the number of persons with an adverse reaction in the sample follows a Binomial distribution model $X\sim B(50,0.04)$, but as $n=50&amp;gt;30$ and $p=0.04&amp;lt;0.1$, we can apply the law of rare events and use the Poisson distribution model $P(50\cdot 0.04)=P(2)$ to do the calculations.&lt;/p&gt;
 &lt;p&gt;$$
@@ -257,9 +257,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Continuous Random Variables</title>
-      <link>https://aprendeconalf.es/teaching/statistics/manual/continuous-random-variables/</link>
+      <link>asalber.github.io/teaching/statistics/manual/continuous-random-variables/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/manual/continuous-random-variables/</guid>
+      <guid>asalber.github.io/teaching/statistics/manual/continuous-random-variables/</guid>
       <description>&lt;h2 id=&#34;probability-distribution-of-a-continuous-random-variable&#34;&gt;Probability distribution of a continuous random variable&lt;/h2&gt;
 &lt;p&gt;Continuous random variables, unlike discrete random variables, can take any value in a real interval. Thus the range of a continuous random variables is infinite and uncountable.&lt;/p&gt;
 &lt;p&gt;Such a density of values makes impossible to compute the probability for each one of them, and therefore, it’s not possible to define a probabilistic model trough a probability function like with discrete random variables.&lt;/p&gt;
@@ -600,9 +600,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Problems of Discrete Random Variables</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/discrete_random_variables/</link>
+      <link>asalber.github.io/teaching/statistics/problems/discrete_random_variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/discrete_random_variables/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/discrete_random_variables/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $X$ be a discrete random variable with the following probability distribution&lt;/p&gt;
 &lt;p&gt;$$
@@ -936,9 +936,9 @@ Let $Y$ be the of persons developing cancer, $P(Y\geq 1) = 0.9999$.
     
     <item>
       <title>Problems of Continuous Random Variables</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/continuous_random_variables/</link>
+      <link>asalber.github.io/teaching/statistics/problems/continuous_random_variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/continuous_random_variables/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/continuous_random_variables/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Given the continuous random variable $X$ with the following probability density function chart,
 &lt;img src=&#34;img/vac-3-1.svg&#34; title=&#34;plot of chunk vac-3&#34; alt=&#34;plot of chunk vac-3&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;

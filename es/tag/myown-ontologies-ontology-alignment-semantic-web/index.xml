@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>&#34;myown ontologies ontology-alignment semantic-web&#34; | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/myown-ontologies-ontology-alignment-semantic-web/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/myown-ontologies-ontology-alignment-semantic-web/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/myown-ontologies-ontology-alignment-semantic-web/</link>
+      <atom:link href="asalber.github.io/es/tag/myown-ontologies-ontology-alignment-semantic-web/index.xml" rel="self" type="application/rss+xml" />
     <description>&#34;myown ontologies ontology-alignment semantic-web&#34;</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Mon, 01 Jan 2007 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>&#34;myown ontologies ontology-alignment semantic-web&#34;</title>
-      <link>https://aprendeconalf.es/es/tag/myown-ontologies-ontology-alignment-semantic-web/</link>
+      <link>asalber.github.io/es/tag/myown-ontologies-ontology-alignment-semantic-web/</link>
     </image>
     
     <item>
       <title>Detección Automática de Correspondencias entre Ontologı́as: Catalogación y Construcción de Funciones de Similitud</title>
-      <link>https://aprendeconalf.es/es/publication/sanchezalberca-2007-deteccion/</link>
+      <link>asalber.github.io/es/publication/sanchezalberca-2007-deteccion/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/publication/sanchezalberca-2007-deteccion/</guid>
+      <guid>asalber.github.io/es/publication/sanchezalberca-2007-deteccion/</guid>
       <description></description>
     </item>
     

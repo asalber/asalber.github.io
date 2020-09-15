@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistics Manual | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/teaching/statistics/manual/</link>
-      <atom:link href="https://aprendeconalf.es/teaching/statistics/manual/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/teaching/statistics/manual/</link>
+      <atom:link href="asalber.github.io/teaching/statistics/manual/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistics Manual</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Statistics Manual</title>
-      <link>https://aprendeconalf.es/teaching/statistics/manual/</link>
+      <link>asalber.github.io/teaching/statistics/manual/</link>
     </image>
     
     <item>
       <title>Introduction</title>
-      <link>https://aprendeconalf.es/teaching/statistics/manual/introduction/</link>
+      <link>asalber.github.io/teaching/statistics/manual/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/manual/introduction/</guid>
+      <guid>asalber.github.io/teaching/statistics/manual/introduction/</guid>
       <description>&lt;h2 id=&#34;statistics-as-a-scientific-tool&#34;&gt;Statistics as a scientific tool&lt;/h2&gt;
 &lt;h3 id=&#34;what-is-statistics&#34;&gt;What is Statistics?&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -272,9 +272,9 @@
     
     <item>
       <title>Descriptive Statistics</title>
-      <link>https://aprendeconalf.es/teaching/statistics/manual/descriptive-statistics/</link>
+      <link>asalber.github.io/teaching/statistics/manual/descriptive-statistics/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/manual/descriptive-statistics/</guid>
+      <guid>asalber.github.io/teaching/statistics/manual/descriptive-statistics/</guid>
       <description>&lt;p&gt;Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.&lt;/p&gt;
 &lt;p&gt;After the sampling process, this is the next step in every statistical study and usually consists of:&lt;/p&gt;
 &lt;ol&gt;
@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-678134592&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-514768923&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-678134592&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-514768923&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1231,9 +1231,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Regression</title>
-      <link>https://aprendeconalf.es/teaching/statistics/manual/regression/</link>
+      <link>asalber.github.io/teaching/statistics/manual/regression/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/manual/regression/</guid>
+      <guid>asalber.github.io/teaching/statistics/manual/regression/</guid>
       <description>&lt;p&gt;In the last chapter we saw how to describe the distribution of a single variable in a sample. However, in most cases, studies require to describe several variables that are often related. For instance, a nutritional study should consider all the variables that could be related to the weight, as height, age, gender, smoking, diet, physic exercise, etc.&lt;/p&gt;
 &lt;p&gt;To understand a phenomenon that involve several variables is not enough to study every variable by its own. We have to study all the variables together to describe how they interact and the type of relation among them.&lt;/p&gt;
 &lt;p&gt;Usually in a &lt;em&gt;dependency study&lt;/em&gt; there is a &lt;strong&gt;dependent variable&lt;/strong&gt; $Y$ that it is supposed to be influenced by a set of variables $X_1,\ldots,X_n$ known as &lt;strong&gt;independent variables&lt;/strong&gt;. The simpler case is a &lt;em&gt;simple dependency study&lt;/em&gt; when there is only one independent variable, that is the case covered in this chapter.&lt;/p&gt;
@@ -1817,9 +1817,9 @@ regression models.&lt;/p&gt;
     
     <item>
       <title>Probability</title>
-      <link>https://aprendeconalf.es/teaching/statistics/manual/probability/</link>
+      <link>asalber.github.io/teaching/statistics/manual/probability/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/manual/probability/</guid>
+      <guid>asalber.github.io/teaching/statistics/manual/probability/</guid>
       <description>&lt;p&gt;Descriptive Statistics provides methods to describe the variables measured in the sample and their relations, but it does not allow to draw any conclusion about the population.&lt;/p&gt;
 &lt;p&gt;Now it is time to take the leap from the sample to the population and the bridge for that is &lt;strong&gt;Probability Theory&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Remember that the sample has a limited information about the population, and in order to draw valid conclusions for the population the sample must be representative of it. For that reason, to guarantee the representativeness of the sample, this must be drawn &lt;em&gt;randomly&lt;/em&gt;. This means that the choice of individuals in the sample is by &lt;em&gt;chance&lt;/em&gt;.&lt;/p&gt;
@@ -2650,9 +2650,9 @@ $$LR-=\frac{P(-|D)}{P(-|\overline{D})} = \frac{1-\mbox{Sensitivity}}{\mbox{Speci
     
     <item>
       <title>Discrete Random Variables</title>
-      <link>https://aprendeconalf.es/teaching/statistics/manual/discrete-random-variables/</link>
+      <link>asalber.github.io/teaching/statistics/manual/discrete-random-variables/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/manual/discrete-random-variables/</guid>
+      <guid>asalber.github.io/teaching/statistics/manual/discrete-random-variables/</guid>
       <description>&lt;h2 id=&#34;random-variables&#34;&gt;Random variables&lt;/h2&gt;
 &lt;p&gt;The process of drawing a sample randomly is a random experiment and any variable measured in the sample is a &lt;em&gt;random variable&lt;/em&gt; because the values taken by the variable in the individuals of the sample are a matter of chance.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -2871,7 +2871,7 @@ $$&lt;/p&gt;
 &lt;p&gt;In practice, this approximation can be used for $n\geq 30$ and $p\leq 0.1$.&lt;/p&gt;
 &lt;img src=&#34;../img/drv/law_rare_events.svg&#34; alt=&#34;Law of rare events&#34; width=&#34;500&#34;&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://aprendeconalf.shinyapps.io/interactive_charts/#law-rare-events&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://aprendeconalf.es/images/r_interactive_app.png&#34; alt=&#34;Interactive application&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://aprendeconalf.shinyapps.io/interactive_charts/#law-rare-events&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;asalber.github.io/images/r_interactive_app.png&#34; alt=&#34;Interactive application&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. A vaccine produce an adverse reaction in 4% of cases. If a sample of 50 persons are vaccinated, what is the probability of having more than 2 persons with an adverse reaction?&lt;/p&gt;
 &lt;p&gt;The variable that measures the number of persons with an adverse reaction in the sample follows a Binomial distribution model $X\sim B(50,0.04)$, but as $n=50&amp;gt;30$ and $p=0.04&amp;lt;0.1$, we can apply the law of rare events and use the Poisson distribution model $P(50\cdot 0.04)=P(2)$ to do the calculations.&lt;/p&gt;
 &lt;p&gt;$$
@@ -2893,9 +2893,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Continuous Random Variables</title>
-      <link>https://aprendeconalf.es/teaching/statistics/manual/continuous-random-variables/</link>
+      <link>asalber.github.io/teaching/statistics/manual/continuous-random-variables/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/manual/continuous-random-variables/</guid>
+      <guid>asalber.github.io/teaching/statistics/manual/continuous-random-variables/</guid>
       <description>&lt;h2 id=&#34;probability-distribution-of-a-continuous-random-variable&#34;&gt;Probability distribution of a continuous random variable&lt;/h2&gt;
 &lt;p&gt;Continuous random variables, unlike discrete random variables, can take any value in a real interval. Thus the range of a continuous random variables is infinite and uncountable.&lt;/p&gt;
 &lt;p&gt;Such a density of values makes impossible to compute the probability for each one of them, and therefore, it’s not possible to define a probabilistic model trough a probability function like with discrete random variables.&lt;/p&gt;

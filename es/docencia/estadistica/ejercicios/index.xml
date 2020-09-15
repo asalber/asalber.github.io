@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ejercicios de Estadística | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/</link>
-      <atom:link href="https://aprendeconalf.es/es/docencia/estadistica/ejercicios/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/docencia/estadistica/ejercicios/</link>
+      <atom:link href="asalber.github.io/es/docencia/estadistica/ejercicios/index.xml" rel="self" type="application/rss+xml" />
     <description>Ejercicios de Estadística</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Ejercicios de Estadística</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/</link>
     </image>
     
     <item>
       <title>Ejercicios de Estadística Descriptiva</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/descriptiva/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/descriptiva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/descriptiva/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/descriptiva/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Medicina, Farmacia&lt;/p&gt;
 &lt;p&gt;En un grupo de personas sometidas a una anestesia general se ha medido la dosis de sustancia anestésica recibida (X) en mg y el tiempo que estuvieron dormidas (Y) en horas.
@@ -75,9 +75,9 @@ Justificar la respuesta.&lt;/li&gt;
     
     <item>
       <title>Ejercicios de Regresión Lineal</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/regresion-lineal/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/regresion-lineal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/regresion-lineal/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/regresion-lineal/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Todas&lt;/p&gt;
 &lt;p&gt;Al realizar un estudio de regresión lineal de dos variables X e Y, se sabe que
@@ -96,9 +96,9 @@ sobre Y es el doble que la de la recta de Y sobre X. Se pide:&lt;/p&gt;
     
     <item>
       <title>Ejercicios de Regresión No Lineal</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/regresion-no-lineal/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/regresion-no-lineal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/regresion-no-lineal/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/regresion-no-lineal/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Química, Biotecnología&lt;/p&gt;
 &lt;p&gt;Se sometió a una persona a unas sesiones de entrenamiento para el manejo de una máquina de análisis químicos y se valoró la destreza en el manejo en diversas ocasiones, valorandola en una escala de 0 a 100.
@@ -118,9 +118,9 @@ Destreza  | 15 | 40 | 62 | 86 | 92 | 95&lt;/p&gt;
     
     <item>
       <title>Ejercicios de Probabilidad</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/probabilidad/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/probabilidad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/probabilidad/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/probabilidad/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Farmacia&lt;/p&gt;
 &lt;p&gt;Un grupo de 50 alumnos tiene 3 asignaturas A, B y C en un curso.
@@ -143,9 +143,9 @@ ha aprobado en la convocatoria ordinaria no se presenta a la extraordinaria):&lt
     
     <item>
       <title>Ejercicios de Tests Diagnósticos</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/tests-diagnosticos/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/tests-diagnosticos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/tests-diagnosticos/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/tests-diagnosticos/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Farmacia, Medicina&lt;/p&gt;
 &lt;p&gt;Para detectar el parásito del paludismo existe un test de respuesta inmediata que produce un 2 % de falsos
@@ -165,9 +165,9 @@ Se pide:&lt;/p&gt;
     
     <item>
       <title>Ejercicios de Variables Aleatorias Discretas</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/variables-aleatorias-discretas/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/variables-aleatorias-discretas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/variables-aleatorias-discretas/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/variables-aleatorias-discretas/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Farmacia, Biotecnología&lt;/p&gt;
 &lt;p&gt;Se sabe que el 0.1 % de los comprimidos fabricados en un laboratorio no supera los controles de calidad.
@@ -184,9 +184,9 @@ Se pide:&lt;/p&gt;
     
     <item>
       <title>Ejercicios de Variables Aleatorias Continuas</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/variables-aleatorias-continuas/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/variables-aleatorias-continuas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/variables-aleatorias-continuas/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/variables-aleatorias-continuas/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Todas&lt;/p&gt;
 &lt;p&gt;En una población se sabe que las estaturas de los hombres y de las mujeres siguen una distribución

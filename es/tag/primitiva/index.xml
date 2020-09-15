@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Primitiva | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/primitiva/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/primitiva/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/primitiva/</link>
+      <atom:link href="asalber.github.io/es/tag/primitiva/index.xml" rel="self" type="application/rss+xml" />
     <description>Primitiva</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Primitiva</title>
-      <link>https://aprendeconalf.es/es/tag/primitiva/</link>
+      <link>asalber.github.io/es/tag/primitiva/</link>
     </image>
     
     <item>
       <title>Cálculo integral</title>
-      <link>https://aprendeconalf.es/es/docencia/calculo/manual/integrales/</link>
+      <link>asalber.github.io/es/docencia/calculo/manual/integrales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/calculo/manual/integrales/</guid>
+      <guid>asalber.github.io/es/docencia/calculo/manual/integrales/</guid>
       <description>&lt;h2 id=&#34;primitiva-de-una-función&#34;&gt;Primitiva de una función&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;

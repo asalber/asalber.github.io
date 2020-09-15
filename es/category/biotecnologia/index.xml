@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Biotecnología | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/category/biotecnologia/</link>
-      <atom:link href="https://aprendeconalf.es/es/category/biotecnologia/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/category/biotecnologia/</link>
+      <atom:link href="asalber.github.io/es/category/biotecnologia/index.xml" rel="self" type="application/rss+xml" />
     <description>Biotecnología</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Biotecnología</title>
-      <link>https://aprendeconalf.es/es/category/biotecnologia/</link>
+      <link>asalber.github.io/es/category/biotecnologia/</link>
     </image>
     
     <item>
       <title>Examen de Farmacia 2019-12-16</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2019-12-16/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2019-12-16/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2019-12-16/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2019-12-16/</guid>
       <description>&lt;p&gt;Grados: Farmacia y Biotecnología&lt;br&gt;
 Fecha: 16 de Diciembre de 2019&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -207,9 +207,9 @@ Nota: Si no se saben calcular las medias y desviación típica, tomar 215 mg/dl 
     
     <item>
       <title>Examen de Farmacia 2018-12-17</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2018-12-17/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2018-12-17/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2018-12-17/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2018-12-17/</guid>
       <description>&lt;p&gt;Grados: Farmacia y Biotecnología&lt;br&gt;
 Fecha: 17 de Diciembre de 2018&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -435,9 +435,9 @@ Se pide:&lt;/p&gt;
     
     <item>
       <title>Examen de Farmacia 2018-01-19</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2018-01-19/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2018-01-19/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2018-01-19/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2018-01-19/</guid>
       <description>&lt;p&gt;Grados: Farmacia y Biotecnología&lt;br&gt;
 Fecha: 19 de Enero de 2018&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -646,9 +646,9 @@ Si se pretende que el test tenga un valor predictivo positivo de $0.7$ y un valo
     
     <item>
       <title>Examen de Farmacia 2017-11-27</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2017-11-27/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2017-11-27/</link>
       <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2017-11-27/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2017-11-27/</guid>
       <description>&lt;p&gt;Titulación: Grado en Farmacia y Biotecnología&lt;br&gt;
 Fecha: 27 de Noviembre de 2017&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -744,9 +744,9 @@ Así pues, el modelo exponencial explica un poco mejor la evolución de la tasa 
     
     <item>
       <title>Examen de Farmacia 2017-01-10</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2017-01-10/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2017-01-10/</link>
       <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2017-01-10/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2017-01-10/</guid>
       <description>&lt;p&gt;Grados: Farmacia, Biotecnología
 Fecha: 10 de enero de 2017&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -974,9 +974,9 @@ Si se elige un alumno al azar, calcular:&lt;/p&gt;
     
     <item>
       <title>Examen de Farmacia 2016-11-28</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2016-11-28/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2016-11-28/</link>
       <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2016-11-28/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2016-11-28/</guid>
       <description>&lt;p&gt;Grados: Farmacia y Biotecnología
 Fecha: 28 de Noviembre de 2016&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -1096,9 +1096,9 @@ $b_{xy}=-0.32$, de modo que $X$ decrece 0.32 unidades cuando $Y$ crece una unida
     
     <item>
       <title>Examen de Farmacia 2015-01-13</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2015-01-13/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2015-01-13/</link>
       <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2015-01-13/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2015-01-13/</guid>
       <description>&lt;p&gt;Grados: Farmacia y Biotecnología&lt;br&gt;
 Fecha: 13 de Enero de 2015&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -1180,9 +1180,9 @@ porcentaje de personas sanas entre las que han dado negativo en el test.&lt;/p&g
     
     <item>
       <title>Examen de Farmacia 2014-11-24</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2014-11-24/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2014-11-24/</link>
       <pubDate>Mon, 24 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2014-11-24/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2014-11-24/</guid>
       <description>&lt;p&gt;Grados: Farmacia y Biotecnología&lt;br&gt;
 Fecha: 24 de Noviembre de 2014&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -1298,9 +1298,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Examen de Farmacia 2014-01-27</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2014-01-27/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2014-01-27/</link>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2014-01-27/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2014-01-27/</guid>
       <description>&lt;p&gt;Grados: Farmacia y Biotecnología&lt;br&gt;
 Fecha: 27 de Enero de 2014&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
@@ -1378,9 +1378,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Examen de Farmacia 2013-01-24</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2013-01-24/</link>
+      <link>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2013-01-24/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/examenes/farmacia/farmacia-2013-01-24/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/examenes/farmacia/farmacia-2013-01-24/</guid>
       <description>&lt;p&gt;Grados: Farmacia y Biotecnología&lt;br&gt;
 Fecha: 24 de Enero de 2013&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;

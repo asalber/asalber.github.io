@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regresión No Lineal | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/es/tag/regresion-no-lineal/</link>
-      <atom:link href="https://aprendeconalf.es/es/tag/regresion-no-lineal/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/es/tag/regresion-no-lineal/</link>
+      <atom:link href="asalber.github.io/es/tag/regresion-no-lineal/index.xml" rel="self" type="application/rss+xml" />
     <description>Regresión No Lineal</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Regresión No Lineal</title>
-      <link>https://aprendeconalf.es/es/tag/regresion-no-lineal/</link>
+      <link>asalber.github.io/es/tag/regresion-no-lineal/</link>
     </image>
     
     <item>
       <title>Regresión</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/manual/regresion/</link>
+      <link>asalber.github.io/es/docencia/estadistica/manual/regresion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/manual/regresion/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/manual/regresion/</guid>
       <description>&lt;p&gt;Hasta ahora se ha visto como describir el comportamiento de una variable, pero en los fenómenos naturales normalmente aparecen más de una variable que suelen estar relacionadas. Por ejemplo, en un estudio sobre el peso de las personas, deberíamos incluir todas las variables con las que podría tener relación: altura, edad, sexo, dieta, tabaco,
 ejercicio físico, etc.&lt;/p&gt;
 &lt;p&gt;Para comprender el fenómeno no basta con estudiar cada variable por separado y es preciso un estudio conjunto de todas las variables para ver cómo interactúan y qué relaciones se dan entre ellas. El objetivo de la estadística en este caso es dar medidas del grado y del tipo de relación entre dichas variables.&lt;/p&gt;
@@ -625,9 +625,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Ejercicios de Regresión No Lineal</title>
-      <link>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/regresion-no-lineal/</link>
+      <link>asalber.github.io/es/docencia/estadistica/ejercicios/regresion-no-lineal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/es/docencia/estadistica/ejercicios/regresion-no-lineal/</guid>
+      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/regresion-no-lineal/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Química, Biotecnología&lt;/p&gt;
 &lt;p&gt;Se sometió a una persona a unas sesiones de entrenamiento para el manejo de una máquina de análisis químicos y se valoró la destreza en el manejo en diversas ocasiones, valorandola en una escala de 0 a 100.

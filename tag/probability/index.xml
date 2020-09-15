@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Probability | Aprende con Alf</title>
-    <link>https://aprendeconalf.es/tag/probability/</link>
-      <atom:link href="https://aprendeconalf.es/tag/probability/index.xml" rel="self" type="application/rss+xml" />
+    <link>asalber.github.io/tag/probability/</link>
+      <atom:link href="asalber.github.io/tag/probability/index.xml" rel="self" type="application/rss+xml" />
     <description>Probability</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <url>/asalber.github.io/images/logo.svg</url>
       <title>Probability</title>
-      <link>https://aprendeconalf.es/tag/probability/</link>
+      <link>asalber.github.io/tag/probability/</link>
     </image>
     
     <item>
       <title>Problems of Probability</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/probability/</link>
+      <link>asalber.github.io/teaching/statistics/problems/probability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/probability/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/probability/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Construct the sample space of the following random experiments:&lt;/p&gt;
 &lt;ol&gt;
@@ -271,9 +271,9 @@ $P(A/\bar J\cap \bar C)=0.625$.
     
     <item>
       <title>Problems Diagnostic Tests</title>
-      <link>https://aprendeconalf.es/teaching/statistics/problems/diagnostic_tests/</link>
+      <link>asalber.github.io/teaching/statistics/problems/diagnostic_tests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aprendeconalf.es/teaching/statistics/problems/diagnostic_tests/</guid>
+      <guid>asalber.github.io/teaching/statistics/problems/diagnostic_tests/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;A test was applied to a sample of people in order to evaluate its effectiveness; the results are as follows:&lt;/p&gt;
 &lt;p&gt;$$
