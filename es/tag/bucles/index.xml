@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bucles | Aprende con Alf</title>
+    <link>https://aprendeconalf.es/es/tag/bucles/</link>
+      <atom:link href="https://aprendeconalf.es/es/tag/bucles/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bucles</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
+    <image>
+      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <title>Bucles</title>
+      <link>https://aprendeconalf.es/es/tag/bucles/</link>
+    </image>
+    
+    <item>
+      <title>Ejercicios de Bucles</title>
+      <link>https://aprendeconalf.es/es/docencia/python/ejercicios/bucles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aprendeconalf.es/es/docencia/python/ejercicios/bucles/</guid>
+      <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos los números impares desde 1 hasta ese número separados por comas.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la cuenta atrás desde ese número hasta cero separados por comas.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años, y muestre por pantalla el capital obtenido en la inversión cada año que dura la inversión.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*
+**
+***
+****
+*****
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-7&#34;&gt;Ejercicio 7&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que muestre por pantalla la tabla de multiplicar del 1 al 10.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-8&#34;&gt;Ejercicio 8&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1
+3 1
+5 3 1
+7 5 3 1
+9 7 5 3 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-9&#34;&gt;Ejercicio 9&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que almacene la cadena de caracteres &lt;code&gt;contraseña&lt;/code&gt; en una variable, pregunte al usuario por la contraseña hasta que introduzca la contraseña correcta.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-10&#34;&gt;Ejercicio 10&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pida al usuario un número entero y muestre por pantalla si es un número primo o no.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio10.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-11&#34;&gt;Ejercicio 11&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida empezando por la última.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio11.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-12&#34;&gt;Ejercicio 12&lt;/h2&gt;
+&lt;p&gt;Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por pantalla el número de veces que aparece la letra en la frase.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio12.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-13&#34;&gt;Ejercicio 13&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que muestre el eco de todo lo que el usuario introduzca hasta que el usuario escriba “salir” que terminará.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/bucles/ejercicio13.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bucles</title>
+      <link>https://aprendeconalf.es/es/docencia/python/manual/bucles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aprendeconalf.es/es/docencia/python/manual/bucles/</guid>
+      <description>&lt;h2 id=&#34;bucles-condicionales-while&#34;&gt;Bucles condicionales (&lt;code&gt;while&lt;/code&gt;)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;while condición:&lt;/code&gt;&lt;br&gt;
+    &lt;em&gt;&lt;code&gt;bloque código&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Repite la ejecución del bloque de código mientras la expresión lógica &lt;code&gt;condición&lt;/code&gt; sea cierta.&lt;/p&gt;
+&lt;p&gt;Se puede interrumpir en cualquier momento la ejecución del bloque de código con la instrucción &lt;code&gt;break&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fa fa-exclamation-triangle&#34; style=&#34;color:red;&#34;&gt;&lt;/i&gt; &lt;em&gt;El bloque de código debe estar indentado por 4 espacios.&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; # Pregunta al usuario por un número hasta que introduce 0.
+&amp;gt;&amp;gt;&amp;gt; num = None
+&amp;gt;&amp;gt;&amp;gt; while num != 0:
+...     num = int(input(&#39;Introduce un número: &#39;))
+... 
+Introduce un número: 2
+Introduce un número: 1
+Introduce un número: 0
+&amp;gt;&amp;gt;&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Alternativa:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; # Pregunta al usuario por un número hasta que introduce 0.
+&amp;gt;&amp;gt;&amp;gt; while True:
+...     num = int(input(&#39;Introduce un número: &#39;))
+...     if num == 0:
+...         break
+...
+Introduce un número: 2
+Introduce un número: 1
+Introduce un número: 0
+&amp;gt;&amp;gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;bucles-iterativos-for&#34;&gt;Bucles iterativos (&lt;code&gt;for&lt;/code&gt;)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;for i in secuencia:&lt;/code&gt;&lt;br&gt;
+    &lt;em&gt;&lt;code&gt;bloque código&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Repite la ejecución del bloque de código para cada elemento de la secuencia &lt;code&gt;secuencia&lt;/code&gt;, asignado dicho elemento a &lt;code&gt;i&lt;/code&gt; en cada repetición.&lt;/p&gt;
+&lt;p&gt;Se puede interrumpir en cualquier momento la ejecución del bloque de código con la instrucción &lt;code&gt;break&lt;/code&gt; o saltar la ejecución para un determinado elemento de la secuencia con la instrucción &lt;code&gt;continue&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fa fa-exclamation-triangle&#34; style=&#34;color:red;&#34;&gt;&lt;/i&gt; &lt;em&gt;El bloque de código debe estar indentado por 4 espacios.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Se utiliza fundamentalmente para recorrer colecciones de objetos como cadenas, listas, tuplas o diccionarios.&lt;/p&gt;
+&lt;p&gt;A menudo se usan con la instrucción &lt;code&gt;range&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;range(fin)&lt;/code&gt; : Genera una secuencia de números enteros desde 0 hasta &lt;code&gt;fin-1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;range(inicio, fin, salto)&lt;/code&gt; : Genera una secuencia de números enteros desde &lt;code&gt;inicio&lt;/code&gt; hasta &lt;code&gt;fin-1&lt;/code&gt; con un incremento de &lt;code&gt;salto&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; palabra = &#39;Python&#39;
+&amp;gt;&amp;gt;&amp;gt; for letra in palabra:
+...     print(letra)
+... 
+P
+y
+t
+h
+o
+n
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; for i in range(1, 10, 2):
+...     print(i, end=&amp;quot;, &amp;quot;)
+...
+1, 3, 5, 7, 9, &amp;gt;&amp;gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

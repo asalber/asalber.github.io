@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Derive | Aprende con Alf</title>
+    <link>https://aprendeconalf.es/es/category/derive/</link>
+      <atom:link href="https://aprendeconalf.es/es/category/derive/index.xml" rel="self" type="application/rss+xml" />
+    <description>Derive</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
+    <image>
+      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <title>Derive</title>
+      <link>https://aprendeconalf.es/es/category/derive/</link>
+    </image>
+    
+    <item>
+      <title>Cálculo con Derive</title>
+      <link>https://aprendeconalf.es/es/docencia/derive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aprendeconalf.es/es/docencia/derive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

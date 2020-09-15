@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Aprende con Alf</title>
+    <link>https://aprendeconalf.es/publication/</link>
+      <atom:link href="https://aprendeconalf.es/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <title>Publications</title>
+      <link>https://aprendeconalf.es/publication/</link>
+    </image>
+    
+    <item>
+      <title>Mi Prueba</title>
+      <link>https://aprendeconalf.es/publication/mi-prueba/</link>
+      <pubDate>Thu, 27 Aug 2020 19:14:03 +0200</pubDate>
+      <guid>https://aprendeconalf.es/publication/mi-prueba/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

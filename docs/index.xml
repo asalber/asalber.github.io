@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs | Aprende con Alf</title>
+    <link>https://aprendeconalf.es/docs/</link>
+      <atom:link href="https://aprendeconalf.es/docs/index.xml" rel="self" type="application/rss+xml" />
+    <description>Docs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <title>Docs</title>
+      <link>https://aprendeconalf.es/docs/</link>
+    </image>
+    
+    <item>
+      <title>Capítulo 2</title>
+      <link>https://aprendeconalf.es/docs/prueba2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aprendeconalf.es/docs/prueba2/</guid>
+      <description>&lt;h2 id=&#34;página-2&#34;&gt;Página 2&lt;/h2&gt;
+&lt;p&gt;Página 2&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prueba</title>
+      <link>https://aprendeconalf.es/docs/prueba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aprendeconalf.es/docs/prueba/</guid>
+      <description>&lt;p&gt;Página de preuba&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

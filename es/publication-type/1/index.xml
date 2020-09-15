@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Aprende con Alf</title>
+    <link>https://aprendeconalf.es/es/publication-type/1/</link>
+      <atom:link href="https://aprendeconalf.es/es/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Thu, 27 Aug 2020 19:14:03 +0200</lastBuildDate>
+    <image>
+      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <title>1</title>
+      <link>https://aprendeconalf.es/es/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>Mi Prueba</title>
+      <link>https://aprendeconalf.es/es/publication/diazparreno-2014-bioestadstica/</link>
+      <pubDate>Thu, 27 Aug 2020 19:14:03 +0200</pubDate>
+      <guid>https://aprendeconalf.es/es/publication/diazparreno-2014-bioestadstica/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

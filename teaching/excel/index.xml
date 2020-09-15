@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel | Aprende con Alf</title>
+    <link>https://aprendeconalf.es/teaching/excel/</link>
+      <atom:link href="https://aprendeconalf.es/teaching/excel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Excel</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://aprendeconalf.es/images/logo.svg</url>
+      <title>Excel</title>
+      <link>https://aprendeconalf.es/teaching/excel/</link>
+    </image>
+    
+  </channel>
+</rss>
