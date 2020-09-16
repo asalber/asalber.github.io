@@ -315,6 +315,16 @@
   <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication-type/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication-type/2/"
+                />
   </url>
   
   <url>
@@ -335,11 +345,31 @@
   <url>
     <loc>/publication/clinical-2020/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/clinical-2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/clinical-2020/"
+                />
   </url>
   
   <url>
     <loc>/author/parrab-blesa-alfonso-sanchez-alberca-alfredo-garcia-medina-jose-javier/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/author/parrab-blesa-alfonso-sanchez-alberca-alfredo-garcia-medina-jose-javier/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/parrab-blesa-alfonso-sanchez-alberca-alfredo-garcia-medina-jose-javier/"
+                />
   </url>
   
   <url>
@@ -410,16 +440,46 @@
   <url>
     <loc>/publication-type/1/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication-type/1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication-type/1/"
+                />
   </url>
   
   <url>
     <loc>/author/alfredo-sanchez-alberca-maria-luisa-sanchez-rodriguez-manuel-camacho-sampelayo-jose-miguel-camacho-sampelayo-jose-javier-garcia-medina-alfonso-parra-blesa/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/author/alfredo-sanchez-alberca-maria-luisa-sanchez-rodriguez-manuel-camacho-sampelayo-jose-miguel-camacho-sampelayo-jose-javier-garcia-medina-alfonso-parra-blesa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/alfredo-sanchez-alberca-maria-luisa-sanchez-rodriguez-manuel-camacho-sampelayo-jose-miguel-camacho-sampelayo-jose-javier-garcia-medina-alfonso-parra-blesa/"
+                />
   </url>
   
   <url>
     <loc>/publication/clasificacion-2019/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/clasificacion-2019/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/clasificacion-2019/"
+                />
   </url>
   
   <url>
@@ -465,41 +525,121 @@
   <url>
     <loc>/author/alfonso-parra-blesa-y-alfredo-sanchez-alberca/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/author/alfonso-parra-blesa-y-alfredo-sanchez-alberca/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/alfonso-parra-blesa-y-alfredo-sanchez-alberca/"
+                />
   </url>
   
   <url>
     <loc>/author/alfonso-sanchez-alberca-alfredo-sanchez-rodriguez-maria-luisa-garcia-medina-jose-javier-parra-blesa/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/author/alfonso-sanchez-alberca-alfredo-sanchez-rodriguez-maria-luisa-garcia-medina-jose-javier-parra-blesa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/alfonso-sanchez-alberca-alfredo-sanchez-rodriguez-maria-luisa-garcia-medina-jose-javier-parra-blesa/"
+                />
   </url>
   
   <url>
     <loc>/author/alfredo-sanchez-alberca/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/author/alfredo-sanchez-alberca/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/alfredo-sanchez-alberca/"
+                />
   </url>
   
   <url>
     <loc>/publication/analisis-2018/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/analisis-2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/analisis-2018/"
+                />
   </url>
   
   <url>
     <loc>/publication/analisis-2018-2/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/analisis-2018-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/analisis-2018-2/"
+                />
   </url>
   
   <url>
     <loc>/publication/clasificacion-2018/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/clasificacion-2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/clasificacion-2018/"
+                />
   </url>
   
   <url>
     <loc>/publication/nueva-2018-2/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/nueva-2018-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/nueva-2018-2/"
+                />
   </url>
   
   <url>
     <loc>/publication/nueva-2018/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/nueva-2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/nueva-2018/"
+                />
   </url>
   
   <url>
@@ -655,11 +795,31 @@
   <url>
     <loc>/publication/innovacion-2016-2/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/innovacion-2016-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/innovacion-2016-2/"
+                />
   </url>
   
   <url>
     <loc>/publication/innovacion-2016/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/innovacion-2016/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/innovacion-2016/"
+                />
   </url>
   
   <url>
@@ -670,76 +830,226 @@
   <url>
     <loc>/publication/bringing-2015/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/bringing-2015/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/bringing-2015/"
+                />
   </url>
   
   <url>
     <loc>/publication-type/5/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication-type/5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication-type/5/"
+                />
   </url>
   
   <url>
     <loc>/publication/bioestadistica-2014/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/bioestadistica-2014/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/bioestadistica-2014/"
+                />
   </url>
   
   <url>
     <loc>/publication/towards-2014-1/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/towards-2014-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/towards-2014-1/"
+                />
   </url>
   
   <url>
     <loc>/publication/towards-2014/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/towards-2014/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/towards-2014/"
+                />
   </url>
   
   <url>
     <loc>/publication/rkteaching-2013/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/rkteaching-2013/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/rkteaching-2013/"
+                />
   </url>
   
   <url>
     <loc>/publication/rkteaching-2012/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/rkteaching-2012/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/rkteaching-2012/"
+                />
   </url>
   
   <url>
     <loc>/publication/evolution-2007/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/evolution-2007/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/evolution-2007/"
+                />
   </url>
   
   <url>
     <loc>/publication/amon-2005/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/amon-2005/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/amon-2005/"
+                />
   </url>
   
   <url>
     <loc>/publication/framework-2004/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/framework-2004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/framework-2004/"
+                />
   </url>
   
   <url>
     <loc>/publication/herramientas-2004/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/herramientas-2004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/herramientas-2004/"
+                />
   </url>
   
   <url>
     <loc>/publication/aspectos-2002/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/aspectos-2002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/aspectos-2002/"
+                />
   </url>
   
   <url>
     <loc>/publication/farmatoxi-2001/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/farmatoxi-2001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/farmatoxi-2001/"
+                />
   </url>
   
   <url>
     <loc>/author/g-rimbau-v-sanchez-alberca-a-reverte-m-alguacil-l-f-repetto/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/author/g-rimbau-v-sanchez-alberca-a-reverte-m-alguacil-l-f-repetto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/g-rimbau-v-sanchez-alberca-a-reverte-m-alguacil-l-f-repetto/"
+                />
   </url>
   
   <url>
     <loc>/publication/farmatoxi-2000/</loc>
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication/farmatoxi-2000/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/farmatoxi-2000/"
+                />
   </url>
   
   <url>
