@@ -169,7 +169,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -268,101 +268,6 @@
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/publication-type/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication-type/1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/author/alfredo-sanchez-alberca/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/author/alfredo-sanchez-alberca/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/author/alfredo-sanchez-alberca/"
-                />
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>/category/categoria-prueba/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/category/categoria-prueba/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/category/categoria-prueba/"
-                />
-  </url>
-  
-  <url>
-    <loc>/publication/mi-prueba/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/prueba/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/tag/prueba/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/prueba/"
-                />
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication_types/"
-                />
-  </url>
-  
-  <url>
     <loc>/tag/biostatistics/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -405,6 +310,51 @@
   <url>
     <loc>/teaching/statistics/exams/physiotherapy/physiotherapy-2020-05-25/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>/publication/clinical-2020/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/parrab-blesa-alfonso-sanchez-alberca-alfredo-garcia-medina-jose-javier/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication_types/"
+                />
   </url>
   
   <url>
@@ -458,6 +408,21 @@
   </url>
   
   <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/alfredo-sanchez-alberca-maria-luisa-sanchez-rodriguez-manuel-camacho-sampelayo-jose-miguel-camacho-sampelayo-jose-javier-garcia-medina-alfonso-parra-blesa/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/clasificacion-2019/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/teaching/calculus/exams/pharmacy-2018-12-17/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -498,6 +463,46 @@
   </url>
   
   <url>
+    <loc>/author/alfonso-parra-blesa-y-alfredo-sanchez-alberca/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/alfonso-sanchez-alberca-alfredo-sanchez-rodriguez-maria-luisa-garcia-medina-jose-javier-parra-blesa/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/alfredo-sanchez-alberca/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/analisis-2018/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/analisis-2018-2/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/clasificacion-2018/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/nueva-2018-2/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/nueva-2018/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/teaching/statistics/exams/pharmacy/pharmacy-2017-11-27/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -509,7 +514,7 @@
   
   <url>
     <loc>/post/cheat-sheet/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
   </url>
   
   <url>
@@ -648,8 +653,93 @@
   </url>
   
   <url>
+    <loc>/publication/innovacion-2016-2/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/innovacion-2016/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/excel-manual/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/bringing-2015/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/5/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/bioestadistica-2014/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/towards-2014-1/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/towards-2014/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/rkteaching-2013/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/rkteaching-2012/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/evolution-2007/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/amon-2005/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/framework-2004/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/herramientas-2004/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/aspectos-2002/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/farmatoxi-2001/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/g-rimbau-v-sanchez-alberca-a-reverte-m-alguacil-l-f-repetto/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/farmatoxi-2000/</loc>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
   </url>
   
   <url>
@@ -713,11 +803,6 @@
   </url>
   
   <url>
-    <loc>/docs/prueba2/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/charts/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -768,11 +853,6 @@
   </url>
   
   <url>
-    <loc>/docs/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/category/economics/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -795,11 +875,6 @@
                 hreflang="en"
                 href="/tag/exams/"
                 />
-  </url>
-  
-  <url>
-    <loc>/docs/exams/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
   
   <url>
@@ -894,11 +969,6 @@
   
   <url>
     <loc>/tag/problems/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/prueba/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
   

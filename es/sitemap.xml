@@ -294,7 +294,7 @@
   
   <url>
     <loc>/es/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -393,101 +393,6 @@
   </url>
   
   <url>
-    <loc>/es/publication-type/1/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication-type/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/publication-type/1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/es/author/alfredo-sanchez-alberca/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/author/alfredo-sanchez-alberca/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/author/alfredo-sanchez-alberca/"
-                />
-  </url>
-  
-  <url>
-    <loc>/es/authors/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>/es/category/categoria-prueba/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/category/categoria-prueba/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/category/categoria-prueba/"
-                />
-  </url>
-  
-  <url>
-    <loc>/es/publication/diazparreno-2014-bioestadstica/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/tag/prueba/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/prueba/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/tag/prueba/"
-                />
-  </url>
-  
-  <url>
-    <loc>/es/publication_types/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/publication_types/"
-                />
-  </url>
-  
-  <url>
     <loc>/es/tag/examen/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -514,31 +419,6 @@
   
   <url>
     <loc>/es/docencia/python/examenes/inteligencia-negocios/examen-python-2020-05-27/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/tag/myown/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/publication-type/2/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/author/alfonso-parra-blesa/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/publication/parrablesa-2020-clinicalevolutionary/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/author/jose-javier-garcia-medina/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
   
@@ -733,16 +613,6 @@
   </url>
   
   <url>
-    <loc>/es/tag/r-rkteaching-myown-statistics/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/publication/sanchezalberca-2015-bringing/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/es/docencia/estadistica/examenes/farmacia/farmacia-2015-01-13/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -809,41 +679,6 @@
   
   <url>
     <loc>/es/docencia/estadistica/examenes/farmacia/farmacia-2013-01-24/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/tag/myown-ontologies-semantic-web-similarity/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/publication-type/4/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/publication/sanchezalberca-2011-similarity/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/author/asuncion-gomez-perez/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/author/mariano-fernandez-lopez/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/tag/myown-ontologies-ontology-alignment-semantic-web/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/es/publication/sanchezalberca-2007-deteccion/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
   
@@ -985,6 +820,21 @@
   <url>
     <loc>/es/tag/asintota/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/es/authors/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/authors/"
+                />
   </url>
   
   <url>
@@ -1329,7 +1179,7 @@
   
   <url>
     <loc>/es/publication/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <lastmod>2020-09-16T23:55:32+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1339,6 +1189,20 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/publication_types/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/publication_types/"
                 />
   </url>
   
