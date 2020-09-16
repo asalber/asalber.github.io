@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Función | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/funcion/</link>
-      <atom:link href="asalber.github.io/es/tag/funcion/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/funcion/</link>
+      <atom:link href="/es/tag/funcion/index.xml" rel="self" type="application/rss+xml" />
     <description>Función</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Función</title>
-      <link>asalber.github.io/es/tag/funcion/</link>
+      <link>/es/tag/funcion/</link>
     </image>
     
     <item>
       <title>Funciones elementales</title>
-      <link>asalber.github.io/es/docencia/calculo/manual/funciones-elementales/</link>
+      <link>/es/docencia/calculo/manual/funciones-elementales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/calculo/manual/funciones-elementales/</guid>
+      <guid>/es/docencia/calculo/manual/funciones-elementales/</guid>
       <description>&lt;h2 id=&#34;el-concepto-de-función&#34;&gt;El concepto de función&lt;/h2&gt;
 &lt;h3 id=&#34;qué-es-una-función&#34;&gt;¿Qué es una función?&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;

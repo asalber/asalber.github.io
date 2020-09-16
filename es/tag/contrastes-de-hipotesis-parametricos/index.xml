@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contrastes de Hipótesis Paramétricos | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/contrastes-de-hipotesis-parametricos/</link>
-      <atom:link href="asalber.github.io/es/tag/contrastes-de-hipotesis-parametricos/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/contrastes-de-hipotesis-parametricos/</link>
+      <atom:link href="/es/tag/contrastes-de-hipotesis-parametricos/index.xml" rel="self" type="application/rss+xml" />
     <description>Contrastes de Hipótesis Paramétricos</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Contrastes de Hipótesis Paramétricos</title>
-      <link>asalber.github.io/es/tag/contrastes-de-hipotesis-parametricos/</link>
+      <link>/es/tag/contrastes-de-hipotesis-parametricos/</link>
     </image>
     
     <item>
       <title>Contrastes de Hipótesis</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/contrastes/</link>
+      <link>/es/docencia/estadistica/manual/contrastes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/contrastes/</guid>
+      <guid>/es/docencia/estadistica/manual/contrastes/</guid>
       <description>&lt;h2 id=&#34;hipótesis-estadísticas-y-tipos-de-contrastes-de-hipótesis&#34;&gt;Hipótesis estadísticas y tipos de contrastes de hipótesis&lt;/h2&gt;
 &lt;h3 id=&#34;hipótesis-estadística&#34;&gt;Hipótesis estadística&lt;/h3&gt;
 &lt;p&gt;En muchos estudios estadísticos, el objetivo, más que estimar el valor de un parámetro desconocido en la población, es comprobar la veracidad de una hipótesis formulada sobre la población objeto de estudio.&lt;/p&gt;

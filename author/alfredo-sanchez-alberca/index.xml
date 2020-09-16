@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alfredo Sánchez Alberca | Aprende con Alf</title>
-    <link>asalber.github.io/author/alfredo-sanchez-alberca/</link>
-      <atom:link href="asalber.github.io/author/alfredo-sanchez-alberca/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/alfredo-sanchez-alberca/</link>
+      <atom:link href="/author/alfredo-sanchez-alberca/index.xml" rel="self" type="application/rss+xml" />
     <description>Alfredo Sánchez Alberca</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Alfredo Sánchez Alberca</title>
-      <link>asalber.github.io/author/alfredo-sanchez-alberca/</link>
+      <link>/author/alfredo-sanchez-alberca/</link>
     </image>
     
   </channel>

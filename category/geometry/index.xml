@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geometry | Aprende con Alf</title>
-    <link>asalber.github.io/category/geometry/</link>
-      <atom:link href="asalber.github.io/category/geometry/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/geometry/</link>
+      <atom:link href="/category/geometry/index.xml" rel="self" type="application/rss+xml" />
     <description>Geometry</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Geometry</title>
-      <link>asalber.github.io/category/geometry/</link>
+      <link>/category/geometry/</link>
     </image>
     
     <item>
       <title>Analytic Geometry</title>
-      <link>asalber.github.io/teaching/calculus/manual/analytic-geometry/</link>
+      <link>/teaching/calculus/manual/analytic-geometry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/calculus/manual/analytic-geometry/</guid>
+      <guid>/teaching/calculus/manual/analytic-geometry/</guid>
       <description>&lt;h2 id=&#34;scalars-and-vectors&#34;&gt;Scalars and Vectors&lt;/h2&gt;
 &lt;h3 id=&#34;scalars&#34;&gt;Scalars&lt;/h3&gt;
 &lt;p&gt;Some phenomena of Nature can be described by a number and a unit of measurement.&lt;/p&gt;

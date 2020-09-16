@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recta Tangente | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/recta-tangente/</link>
-      <atom:link href="asalber.github.io/es/tag/recta-tangente/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/recta-tangente/</link>
+      <atom:link href="/es/tag/recta-tangente/index.xml" rel="self" type="application/rss+xml" />
     <description>Recta Tangente</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Recta Tangente</title>
-      <link>asalber.github.io/es/tag/recta-tangente/</link>
+      <link>/es/tag/recta-tangente/</link>
     </image>
     
     <item>
       <title>Cálculo diferencial en una variable</title>
-      <link>asalber.github.io/es/docencia/calculo/manual/derivadas-una-variable/</link>
+      <link>/es/docencia/calculo/manual/derivadas-una-variable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/calculo/manual/derivadas-una-variable/</guid>
+      <guid>/es/docencia/calculo/manual/derivadas-una-variable/</guid>
       <description>&lt;h2 id=&#34;el-concepto-de-derivada&#34;&gt;El concepto de derivada&lt;/h2&gt;
 &lt;h3 id=&#34;tasa-de-variación-media&#34;&gt;Tasa de variación media&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -199,7 +199,7 @@ $$&lt;/p&gt;
 &lt;p&gt;y la tangente en ese punto es&lt;/p&gt;
 &lt;p&gt;$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/tangente_trayectoria_espacio.png&#34; width=&#34;400px&#34; alt=&#34;Gráfica de la tangente a una trayectoria en el espacio.&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m156108&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/geogebra.png&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m156108&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;álgebra-de-derivadas&#34;&gt;Álgebra de derivadas&lt;/h2&gt;
 &lt;h3 id=&#34;propiedades-de-la-derivada&#34;&gt;Propiedades de la derivada&lt;/h3&gt;
 &lt;p&gt;Si $y=c$, es una función constante, entonces $y&#39;=0$.&lt;/p&gt;
@@ -469,9 +469,9 @@ dicha aproximación.&lt;/p&gt;
     
     <item>
       <title>Cálculo diferencial en varias variables</title>
-      <link>asalber.github.io/es/docencia/calculo/manual/derivadas-n-variables/</link>
+      <link>/es/docencia/calculo/manual/derivadas-n-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/calculo/manual/derivadas-n-variables/</guid>
+      <guid>/es/docencia/calculo/manual/derivadas-n-variables/</guid>
       <description>&lt;h2 id=&#34;funciones-de-varias-variables&#34;&gt;Funciones de varias variables&lt;/h2&gt;
 &lt;p&gt;En numerosos problemas de geometría, física y ciencias naturales nos encontramos a menudo con variables o factores que dependen o están relacionados con otros dos, tres o más factores:&lt;/p&gt;
 &lt;ul&gt;

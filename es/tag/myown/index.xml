@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>&#34;myown&#34; | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/myown/</link>
-      <atom:link href="asalber.github.io/es/tag/myown/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/myown/</link>
+      <atom:link href="/es/tag/myown/index.xml" rel="self" type="application/rss+xml" />
     <description>&#34;myown&#34;</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>&#34;myown&#34;</title>
-      <link>asalber.github.io/es/tag/myown/</link>
+      <link>/es/tag/myown/</link>
     </image>
     
     <item>
       <title>Clinical-Evolutionary Staging System of Primary Open-Angle Glaucoma Using Optical Coherence Tomography</title>
-      <link>asalber.github.io/es/publication/parrablesa-2020-clinicalevolutionary/</link>
+      <link>/es/publication/parrablesa-2020-clinicalevolutionary/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/publication/parrablesa-2020-clinicalevolutionary/</guid>
+      <guid>/es/publication/parrablesa-2020-clinicalevolutionary/</guid>
       <description></description>
     </item>
     

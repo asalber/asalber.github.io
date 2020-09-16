@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistics Exams | Aprende con Alf</title>
-    <link>asalber.github.io/teaching/statistics/exams/</link>
-      <atom:link href="asalber.github.io/teaching/statistics/exams/index.xml" rel="self" type="application/rss+xml" />
+    <link>/teaching/statistics/exams/</link>
+      <atom:link href="/teaching/statistics/exams/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistics Exams</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Statistics Exams</title>
-      <link>asalber.github.io/teaching/statistics/exams/</link>
+      <link>/teaching/statistics/exams/</link>
     </image>
     
   </channel>

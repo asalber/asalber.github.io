@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4 | Aprende con Alf</title>
-    <link>asalber.github.io/es/publication-type/4/</link>
-      <atom:link href="asalber.github.io/es/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/publication-type/4/</link>
+      <atom:link href="/es/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>4</title>
-      <link>asalber.github.io/es/publication-type/4/</link>
+      <link>/es/publication-type/4/</link>
     </image>
     
     <item>
       <title>A similarity taxonomy for ontology and schema matching based on data types properties</title>
-      <link>asalber.github.io/es/publication/sanchezalberca-2011-similarity/</link>
+      <link>/es/publication/sanchezalberca-2011-similarity/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/publication/sanchezalberca-2011-similarity/</guid>
+      <guid>/es/publication/sanchezalberca-2011-similarity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Detección Automática de Correspondencias entre Ontologı́as: Catalogación y Construcción de Funciones de Similitud</title>
-      <link>asalber.github.io/es/publication/sanchezalberca-2007-deteccion/</link>
+      <link>/es/publication/sanchezalberca-2007-deteccion/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/publication/sanchezalberca-2007-deteccion/</guid>
+      <guid>/es/publication/sanchezalberca-2007-deteccion/</guid>
       <description></description>
     </item>
     

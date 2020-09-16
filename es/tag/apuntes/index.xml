@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apuntes | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/apuntes/</link>
-      <atom:link href="asalber.github.io/es/tag/apuntes/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/apuntes/</link>
+      <atom:link href="/es/tag/apuntes/index.xml" rel="self" type="application/rss+xml" />
     <description>Apuntes</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Apuntes</title>
-      <link>asalber.github.io/es/tag/apuntes/</link>
+      <link>/es/tag/apuntes/</link>
     </image>
     
   </channel>

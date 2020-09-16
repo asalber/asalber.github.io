@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Derive | Aprende con Alf</title>
-    <link>asalber.github.io/category/derive/</link>
-      <atom:link href="asalber.github.io/category/derive/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/derive/</link>
+      <atom:link href="/category/derive/index.xml" rel="self" type="application/rss+xml" />
     <description>Derive</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Derive</title>
-      <link>asalber.github.io/category/derive/</link>
+      <link>/category/derive/</link>
     </image>
     
     <item>
       <title>Calculus with Derive</title>
-      <link>asalber.github.io/teaching/derive/</link>
+      <link>/teaching/derive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/derive/</guid>
+      <guid>/teaching/derive/</guid>
       <description></description>
     </item>
     

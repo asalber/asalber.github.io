@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exams | Aprende con Alf</title>
-    <link>asalber.github.io/tag/exams/</link>
-      <atom:link href="asalber.github.io/tag/exams/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/exams/</link>
+      <atom:link href="/tag/exams/index.xml" rel="self" type="application/rss+xml" />
     <description>Exams</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Exams</title>
-      <link>asalber.github.io/tag/exams/</link>
+      <link>/tag/exams/</link>
     </image>
     
   </channel>

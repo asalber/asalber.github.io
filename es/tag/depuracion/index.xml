@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Depuración | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/depuracion/</link>
-      <atom:link href="asalber.github.io/es/tag/depuracion/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/depuracion/</link>
+      <atom:link href="/es/tag/depuracion/index.xml" rel="self" type="application/rss+xml" />
     <description>Depuración</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Depuración</title>
-      <link>asalber.github.io/es/tag/depuracion/</link>
+      <link>/es/tag/depuracion/</link>
     </image>
     
     <item>
       <title>Ejercicios de Depuración</title>
-      <link>asalber.github.io/es/docencia/python/ejercicios/depuracion/</link>
+      <link>/es/docencia/python/ejercicios/depuracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/python/ejercicios/depuracion/</guid>
+      <guid>/es/docencia/python/ejercicios/depuracion/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Corregir los errores sintácticos del siguiente programa:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;contraseña = input(&#39;Introduce la contraseña: &amp;quot;)

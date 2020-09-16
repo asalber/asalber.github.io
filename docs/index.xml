@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs | Aprende con Alf</title>
-    <link>asalber.github.io/docs/</link>
-      <atom:link href="asalber.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <link>/docs/</link>
+      <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     <description>Docs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Docs</title>
-      <link>asalber.github.io/docs/</link>
+      <link>/docs/</link>
     </image>
     
     <item>
       <title>Capítulo 2</title>
-      <link>asalber.github.io/docs/prueba2/</link>
+      <link>/docs/prueba2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/docs/prueba2/</guid>
+      <guid>/docs/prueba2/</guid>
       <description>&lt;h2 id=&#34;página-2&#34;&gt;Página 2&lt;/h2&gt;
 &lt;p&gt;Página 2&lt;/p&gt;
 </description>
@@ -24,9 +24,9 @@
     
     <item>
       <title>Prueba</title>
-      <link>asalber.github.io/docs/prueba/</link>
+      <link>/docs/prueba/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/docs/prueba/</guid>
+      <guid>/docs/prueba/</guid>
       <description>&lt;p&gt;Página de preuba&lt;/p&gt;
 </description>
     </item>

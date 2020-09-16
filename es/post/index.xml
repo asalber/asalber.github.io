@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Aprende con Alf</title>
-    <link>asalber.github.io/es/post/</link>
-      <atom:link href="asalber.github.io/es/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/post/</link>
+      <atom:link href="/es/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Blog</title>
-      <link>asalber.github.io/es/post/</link>
+      <link>/es/post/</link>
     </image>
     
     <item>
       <title>Curso de Git</title>
-      <link>asalber.github.io/es/post/curso-git/</link>
+      <link>/es/post/curso-git/</link>
       <pubDate>Fri, 01 Mar 2019 10:21:50 +0000</pubDate>
-      <guid>asalber.github.io/es/post/curso-git/</guid>
+      <guid>/es/post/curso-git/</guid>
       <description>&lt;p&gt;&lt;em&gt;¿Conoces Git?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Si no lo conoces deberías, porque no importa a lo que te dediques, una vez aprendas a usarlo no podrás vivir sin él.&lt;/p&gt;
 &lt;p&gt;
@@ -37,9 +37,9 @@ Pues es una aplicación que permite gestionar los cambios que se realizan sobre 
     
     <item>
       <title>Hojas de fórmulas de Estadística y Cálculo</title>
-      <link>asalber.github.io/es/post/chuletas/</link>
+      <link>/es/post/chuletas/</link>
       <pubDate>Thu, 02 Nov 2017 10:21:50 +0000</pubDate>
-      <guid>asalber.github.io/es/post/chuletas/</guid>
+      <guid>/es/post/chuletas/</guid>
       <description>&lt;p&gt;A partir de ahora están disponibles varias hojas de fórmulas de cálculo y Estadística.&lt;/p&gt;
 &lt;p&gt;Estas hojas contienen un resumen con las principales fórmulas utilizadas en Cálculo y Estadística.&lt;/p&gt;
 &lt;p&gt;Las hojas de cálculo pueden descargarse desde los siguientes enlaces:&lt;/p&gt;
@@ -54,9 +54,9 @@ Pues es una aplicación que permite gestionar los cambios que se realizan sobre 
     
     <item>
       <title>Manual de supervivencia para grados</title>
-      <link>asalber.github.io/es/post/manual-supervivencia-grados/</link>
+      <link>/es/post/manual-supervivencia-grados/</link>
       <pubDate>Mon, 24 Apr 2017 09:21:50 +0200</pubDate>
-      <guid>asalber.github.io/es/post/manual-supervivencia-grados/</guid>
+      <guid>/es/post/manual-supervivencia-grados/</guid>
       <description>&lt;p&gt;En este artículo ofrezco varios consejos o buenas prácticas para ayudar a estudiantes de grado, especialmente durante su primer año, para sacarle el máximo partido a las clases, rentabilizar mejor su trabajo y culminar su proceso de aprendizaje con éxito.&lt;/p&gt;
 &lt;p&gt;Los consejos que aquí aparecen se dan desde la experiencia de bastantes años de docencia, y teniendo en cuenta sobre todo, que el autor también fue y sigue siendo alumno.&lt;/p&gt;
 &lt;p&gt;La mayoría de estos consejos pueden parecer obvios pero muchos estudiantes los ignoran o fracasan al intentar ponerlos en práctica.&lt;/p&gt;
@@ -203,34 +203,34 @@ No te desanimes y piensa que aunque no hayas superado la asignatura, seguro que 
     
     <item>
       <title>Liberada la versión 1.3.0 del paquete rkTeaching</title>
-      <link>asalber.github.io/es/post/rkteaching-version1.3/</link>
+      <link>/es/post/rkteaching-version1.3/</link>
       <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/post/rkteaching-version1.3/</guid>
+      <guid>/es/post/rkteaching-version1.3/</guid>
       <description>&lt;p&gt;Ya está disponible la nueva versión 1.3.0 del paquete de R rk.Teaching para el aprendizaje de Estadística.
 Esta versión está actualizada para la versión 3.2.3 de R y la versión 0.6.5 de RKWard.&lt;/p&gt;
 &lt;p&gt;Se trata de una versión de transición hacia una actualización mayor que llegará en breve y que incorporará la internacionalización del paquete.&lt;/p&gt;
 &lt;p&gt;Si quieres instalarlo visita la página de 
-&lt;a href=&#34;asalber.github.io/es/proyecto/rkteaching&#34;&gt;rkTeaching&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;a href=&#34;/es/proyecto/rkteaching&#34;&gt;rkTeaching&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>rkTeaching en BEIO</title>
-      <link>asalber.github.io/es/post/articulo-rkteaching-beio/</link>
+      <link>/es/post/articulo-rkteaching-beio/</link>
       <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/post/articulo-rkteaching-beio/</guid>
+      <guid>/es/post/articulo-rkteaching-beio/</guid>
       <description>&lt;p&gt;El último numero del 
 &lt;a href=&#34;http://www.seio.es/BEIO/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boletín de Estadística e Investigación Operativa (BEIO)&lt;/a&gt; que publica la Sociedad de Estadística e Investigación Operativa contiene un artículo sobre RKTeaching y su uso en la docencia de Estadística.&lt;/p&gt;
 &lt;p&gt;Recomiendo su lectura especialmente a aquellos docentes de Estadística que usen R o quieran pasar a utilizar R en sus clases sin que suponga un trauma para sus alumnos.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;asalber.github.io/docs/articulo-rkteachig-beio.pdf&#34;&gt;Descarga el artículo&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;/docs/articulo-rkteachig-beio.pdf&#34;&gt;Descarga el artículo&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>3ª edición del Curso Práctico de Bioestadística con R</title>
-      <link>asalber.github.io/es/post/curso-bioestadistica-miriadax-3ed/</link>
+      <link>/es/post/curso-bioestadistica-miriadax-3ed/</link>
       <pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/post/curso-bioestadistica-miriadax-3ed/</guid>
+      <guid>/es/post/curso-bioestadistica-miriadax-3ed/</guid>
       <description>&lt;p&gt;Ya está aquí la tercera edición del Curso Práctico de Bioestadística con R ofrecido por la plataforma MiriadaX, que se desarrollará del 8 de enero al 16 de febrero de 2015.&lt;/p&gt;
 &lt;p&gt;Si te perdiste las dos primeras ediciones no dudes en apuntarte a esta tercera edición que, al igual que todos los cursos de MiriadaX, son es gratuíta.&lt;/p&gt;
 &lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: &lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&lt;/a&gt;&lt;/p&gt;
@@ -244,9 +244,9 @@ Esta versión está actualizada para la versión 3.2.3 de R y la versión 0.6.5 
     
     <item>
       <title>Manual de Cálculo en una y varias variables</title>
-      <link>asalber.github.io/es/post/apuntes-calculo/</link>
+      <link>/es/post/apuntes-calculo/</link>
       <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/post/apuntes-calculo/</guid>
+      <guid>/es/post/apuntes-calculo/</guid>
       <description>&lt;p&gt;En la sección de cálculo ya está disponible el manual de cálculo en una y varias variables. En este manual se introducen los principales conceptos de cálculo de manera sencilla y progresiva con multitud de ejemplos aplicados.&lt;/p&gt;
 &lt;p&gt;El manual está pensado para alumnos de primeros cursos de grado, especialmente en disciplinas aplicadas, e incluye varios capítulos entre los que cabe destacar los capítulos de derivadas de funciones de una y de varias variables, aunque también incluye integrales y ecuaciones diferenciales de primer grado. Existen también varios capítulos más elementales con conceptos básicos de geometría analítica, funciones elementales y límites y continuidad.&lt;/p&gt;
 &lt;p&gt;El manual incluye multitud de ejemplos aplicados y también ejemplos interactivos con el programa Geogebra.&lt;/p&gt;
@@ -255,36 +255,36 @@ Esta versión está actualizada para la versión 3.2.3 de R y la versión 0.6.5 
     
     <item>
       <title>Liberada la versión 1.2.0 del paquete rkTeaching</title>
-      <link>asalber.github.io/es/post/rkteaching-version1.2/</link>
+      <link>/es/post/rkteaching-version1.2/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/post/rkteaching-version1.2/</guid>
+      <guid>/es/post/rkteaching-version1.2/</guid>
       <description>&lt;p&gt;Ya está disponible la nueva versión 1.2.0 del paquete de R rkTeaching para el aprendizaje de Estadística.
 La principal novedad de esta nueva versión es la inclusión de un nuevo menú para el cálculo de probabilidades.&lt;/p&gt;
 &lt;p&gt;Este nuevo menú permite construir los espacios muestrales y probabilísticos de distintos juegos de azar (lanzamiento de dados, lanzamiento de monedas, extracción de naipes de una baraja y extracción de objetos de urnas), así como la simulación de los respectivos experimentos aleatorios.
 Este menú también permite la construcción de espacios probabilísticos definidos por el usuario a partir de las frecuencias de los sucesos elementales, la combinación de espacios probabilísticos correspondientes a experimentos aleatorios independientes, la construcción de espacios probabilísticos asociados a la repetición de experimentos aleatorios y por supuesto el cálculo de probabilidades dentro de un espacio probabilístico.&lt;/p&gt;
 &lt;p&gt;¿A qué esperas para probarlo? Visita la página de 
-&lt;a href=&#34;asalber.github.io/es/proyecto/rkteaching&#34;&gt;rkTeaching&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;a href=&#34;/es/proyecto/rkteaching&#34;&gt;rkTeaching&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nuevo libro de Bioestadística Aplicada con SPSS</title>
-      <link>asalber.github.io/es/post/libro-bioestadistica/</link>
+      <link>/es/post/libro-bioestadistica/</link>
       <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/post/libro-bioestadistica/</guid>
+      <guid>/es/post/libro-bioestadistica/</guid>
       <description>&lt;p&gt;Acaba de publicase un nuevo libro práctico para el análisis de datos con SPSS aplicado principalmente a las ciencias de la Salud.&lt;/p&gt;
 &lt;p&gt;El análisis de datos en cualquier Ciencia Experimental o de la Salud es imprescindible para la compresión de los fenómenos biológicos, físicos o químicos.
 Las nuevas tecnologías han hecho posible el desarrollo de programas capaces de recopilar, organizar y analizar enormes cantidades de datos con poco esfuerzo.&lt;/p&gt;
 &lt;p&gt;SPSS es uno de los programas de análisis estadísticos más utilizados, sobre todo en el ámbito de las ciencias biosanitarias.
 Este libro presenta las principales técnicas Estadísticas, tanto de Estadística Descriptiva como de Inferencia Estadística, aplicadas con SPSS a multitud de ejemplos del ámbito de las Ciencias de la Salud, desarrollados paso a paso.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;asalber.github.io/es/docencia/spss&#34;&gt;Más información&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;a href=&#34;/es/docencia/spss&#34;&gt;Más información&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2ª edición del Curso Práctico de Bioestadística con R</title>
-      <link>asalber.github.io/es/post/curso-bioestadistica-miriadax/</link>
+      <link>/es/post/curso-bioestadistica-miriadax/</link>
       <pubDate>Mon, 12 May 2014 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/post/curso-bioestadistica-miriadax/</guid>
+      <guid>/es/post/curso-bioestadistica-miriadax/</guid>
       <description>&lt;p&gt;Tras el éxito de la primera edición del Curso Práctico de Bioestadística con R ofrecido por la plataforma MiriadaX, el próximo 19 de mayo comienza la segunda edición.&lt;/p&gt;
 &lt;p&gt;Si te perdiste la primera edición no dudes en apuntarte a esta segunda edición que como la primera es gratuíta.&lt;/p&gt;
 &lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: &lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&lt;/a&gt;&lt;/p&gt;
@@ -298,9 +298,9 @@ Este libro presenta las principales técnicas Estadísticas, tanto de Estadísti
     
     <item>
       <title>rkTeaching: La Estadística al alcance de cualquiera</title>
-      <link>asalber.github.io/es/post/rkteaching/</link>
+      <link>/es/post/rkteaching/</link>
       <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/post/rkteaching/</guid>
+      <guid>/es/post/rkteaching/</guid>
       <description>&lt;p&gt;&lt;em&gt;¿Necesitas ayuda con el analizar datos en tus estudios o trabajo?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;No te preocupes, porque la Estadística ahora está al alcance de cualquiera con el paquete &lt;strong&gt;rkTeachig&lt;/strong&gt;, un paquete de R que he desarrollado para facilitar el aprendizaje de Estadística.&lt;/p&gt;
 &lt;p&gt;RKTeaching es software libre, y por tanto es gratuito.
@@ -311,9 +311,9 @@ Además está diseñado para poder realizar los procedimientos estadísticos má
     
     <item>
       <title>Comenzando a aprender con Alf</title>
-      <link>asalber.github.io/es/post/inicio-blog/</link>
+      <link>/es/post/inicio-blog/</link>
       <pubDate>Fri, 31 May 2013 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/post/inicio-blog/</guid>
+      <guid>/es/post/inicio-blog/</guid>
       <description>&lt;p&gt;Esta es la entrada inaugural del blog Aprende con Alf.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Si he logrado ver más lejos, ha sido porque he subido a hombros de gigantes&amp;rdquo;&lt;/em&gt; (Isaac Newton)&lt;/p&gt;

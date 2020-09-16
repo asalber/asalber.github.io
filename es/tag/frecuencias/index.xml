@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frecuencias | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/frecuencias/</link>
-      <atom:link href="asalber.github.io/es/tag/frecuencias/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/frecuencias/</link>
+      <atom:link href="/es/tag/frecuencias/index.xml" rel="self" type="application/rss+xml" />
     <description>Frecuencias</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Frecuencias</title>
-      <link>asalber.github.io/es/tag/frecuencias/</link>
+      <link>/es/tag/frecuencias/</link>
     </image>
     
     <item>
       <title>Ejercicios de Estadística Descriptiva</title>
-      <link>asalber.github.io/es/docencia/estadistica/ejercicios/descriptiva/</link>
+      <link>/es/docencia/estadistica/ejercicios/descriptiva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/descriptiva/</guid>
+      <guid>/es/docencia/estadistica/ejercicios/descriptiva/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Medicina, Farmacia&lt;/p&gt;
 &lt;p&gt;En un grupo de personas sometidas a una anestesia general se ha medido la dosis de sustancia anestésica recibida (X) en mg y el tiempo que estuvieron dormidas (Y) en horas.
@@ -75,9 +75,9 @@ Justificar la respuesta.&lt;/li&gt;
     
     <item>
       <title>Estadística Descriptiva</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/estadistica-descriptiva/</link>
+      <link>/es/docencia/estadistica/manual/estadistica-descriptiva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/estadistica-descriptiva/</guid>
+      <guid>/es/docencia/estadistica/manual/estadistica-descriptiva/</guid>
       <description>&lt;p&gt;La estadística descriptiva es la parte de la estadística encargada de representar, analizar y resumir la información contenida en la muestra.&lt;/p&gt;
 &lt;p&gt;Tras el proceso de muestreo, es la siguiente etapa de todo estudio estadístico y suele consistir en:&lt;/p&gt;
 &lt;ol&gt;

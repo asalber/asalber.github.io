@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>&#34;R RKTeaching myown statistics&#34; | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/r-rkteaching-myown-statistics/</link>
-      <atom:link href="asalber.github.io/es/tag/r-rkteaching-myown-statistics/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/r-rkteaching-myown-statistics/</link>
+      <atom:link href="/es/tag/r-rkteaching-myown-statistics/index.xml" rel="self" type="application/rss+xml" />
     <description>&#34;R RKTeaching myown statistics&#34;</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Wed, 01 Jul 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>&#34;R RKTeaching myown statistics&#34;</title>
-      <link>asalber.github.io/es/tag/r-rkteaching-myown-statistics/</link>
+      <link>/es/tag/r-rkteaching-myown-statistics/</link>
     </image>
     
     <item>
       <title>Bringing R to non-expert users with the package RKTeaching</title>
-      <link>asalber.github.io/es/publication/sanchezalberca-2015-bringing/</link>
+      <link>/es/publication/sanchezalberca-2015-bringing/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/publication/sanchezalberca-2015-bringing/</guid>
+      <guid>/es/publication/sanchezalberca-2015-bringing/</guid>
       <description></description>
     </item>
     

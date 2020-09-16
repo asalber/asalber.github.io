@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Descriptive-Statistics | Aprende con Alf</title>
-    <link>asalber.github.io/tag/descriptive-statistics/</link>
-      <atom:link href="asalber.github.io/tag/descriptive-statistics/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/descriptive-statistics/</link>
+      <atom:link href="/tag/descriptive-statistics/index.xml" rel="self" type="application/rss+xml" />
     <description>Descriptive-Statistics</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Descriptive-Statistics</title>
-      <link>asalber.github.io/tag/descriptive-statistics/</link>
+      <link>/tag/descriptive-statistics/</link>
     </image>
     
     <item>
       <title>Descriptive Statistics</title>
-      <link>asalber.github.io/teaching/statistics/manual/descriptive-statistics/</link>
+      <link>/teaching/statistics/manual/descriptive-statistics/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/manual/descriptive-statistics/</guid>
+      <guid>/teaching/statistics/manual/descriptive-statistics/</guid>
       <description>&lt;p&gt;Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.&lt;/p&gt;
 &lt;p&gt;After the sampling process, this is the next step in every statistical study and usually consists of:&lt;/p&gt;
 &lt;ol&gt;
@@ -219,7 +219,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-283694571&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-283591476&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -229,7 +229,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-283694571&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-283591476&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -973,9 +973,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Problems of Descriptive Statistics</title>
-      <link>asalber.github.io/teaching/statistics/problems/statistics/</link>
+      <link>/teaching/statistics/problems/statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/statistics/</guid>
+      <guid>/teaching/statistics/problems/statistics/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;The number of injuries suffered by the members of a soccer team in a league were&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;0 1 2 1 3 0 1 0 1 2 0 1 1 1 2 0 1 3 2 1 2 1 0 1
@@ -1338,9 +1338,9 @@ Births: $\bar z=2.4525$, $s_z=1.1674$ and $cv_z=0.476$.&lt;/li&gt;
     
     <item>
       <title>Probability</title>
-      <link>asalber.github.io/teaching/statistics/manual/probability/</link>
+      <link>/teaching/statistics/manual/probability/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/manual/probability/</guid>
+      <guid>/teaching/statistics/manual/probability/</guid>
       <description>&lt;p&gt;Descriptive Statistics provides methods to describe the variables measured in the sample and their relations, but it does not allow to draw any conclusion about the population.&lt;/p&gt;
 &lt;p&gt;Now it is time to take the leap from the sample to the population and the bridge for that is &lt;strong&gt;Probability Theory&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Remember that the sample has a limited information about the population, and in order to draw valid conclusions for the population the sample must be representative of it. For that reason, to guarantee the representativeness of the sample, this must be drawn &lt;em&gt;randomly&lt;/em&gt;. This means that the choice of individuals in the sample is by &lt;em&gt;chance&lt;/em&gt;.&lt;/p&gt;

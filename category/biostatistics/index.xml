@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Biostatistics | Aprende con Alf</title>
-    <link>asalber.github.io/category/biostatistics/</link>
-      <atom:link href="asalber.github.io/category/biostatistics/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/biostatistics/</link>
+      <atom:link href="/category/biostatistics/index.xml" rel="self" type="application/rss+xml" />
     <description>Biostatistics</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Biostatistics</title>
-      <link>asalber.github.io/category/biostatistics/</link>
+      <link>/category/biostatistics/</link>
     </image>
     
     <item>
       <title>Introduction</title>
-      <link>asalber.github.io/teaching/statistics/manual/introduction/</link>
+      <link>/teaching/statistics/manual/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/manual/introduction/</guid>
+      <guid>/teaching/statistics/manual/introduction/</guid>
       <description>&lt;h2 id=&#34;statistics-as-a-scientific-tool&#34;&gt;Statistics as a scientific tool&lt;/h2&gt;
 &lt;h3 id=&#34;what-is-statistics&#34;&gt;What is Statistics?&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -272,9 +272,9 @@
     
     <item>
       <title>Descriptive Statistics</title>
-      <link>asalber.github.io/teaching/statistics/manual/descriptive-statistics/</link>
+      <link>/teaching/statistics/manual/descriptive-statistics/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/manual/descriptive-statistics/</guid>
+      <guid>/teaching/statistics/manual/descriptive-statistics/</guid>
       <description>&lt;p&gt;Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.&lt;/p&gt;
 &lt;p&gt;After the sampling process, this is the next step in every statistical study and usually consists of:&lt;/p&gt;
 &lt;ol&gt;
@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-283694571&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-283591476&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-283694571&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-283591476&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1231,9 +1231,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Problems of Frequency Tables and Charts</title>
-      <link>asalber.github.io/teaching/statistics/problems/frequency_charts/</link>
+      <link>/teaching/statistics/problems/frequency_charts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/frequency_charts/</guid>
+      <guid>/teaching/statistics/problems/frequency_charts/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Classify the following variables&lt;/p&gt;
 &lt;ol&gt;
@@ -1699,9 +1699,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Regression</title>
-      <link>asalber.github.io/teaching/statistics/manual/regression/</link>
+      <link>/teaching/statistics/manual/regression/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/manual/regression/</guid>
+      <guid>/teaching/statistics/manual/regression/</guid>
       <description>&lt;p&gt;In the last chapter we saw how to describe the distribution of a single variable in a sample. However, in most cases, studies require to describe several variables that are often related. For instance, a nutritional study should consider all the variables that could be related to the weight, as height, age, gender, smoking, diet, physic exercise, etc.&lt;/p&gt;
 &lt;p&gt;To understand a phenomenon that involve several variables is not enough to study every variable by its own. We have to study all the variables together to describe how they interact and the type of relation among them.&lt;/p&gt;
 &lt;p&gt;Usually in a &lt;em&gt;dependency study&lt;/em&gt; there is a &lt;strong&gt;dependent variable&lt;/strong&gt; $Y$ that it is supposed to be influenced by a set of variables $X_1,\ldots,X_n$ known as &lt;strong&gt;independent variables&lt;/strong&gt;. The simpler case is a &lt;em&gt;simple dependency study&lt;/em&gt; when there is only one independent variable, that is the case covered in this chapter.&lt;/p&gt;
@@ -2285,9 +2285,9 @@ regression models.&lt;/p&gt;
     
     <item>
       <title>Problems of Descriptive Statistics</title>
-      <link>asalber.github.io/teaching/statistics/problems/statistics/</link>
+      <link>/teaching/statistics/problems/statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/statistics/</guid>
+      <guid>/teaching/statistics/problems/statistics/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;The number of injuries suffered by the members of a soccer team in a league were&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;0 1 2 1 3 0 1 0 1 2 0 1 1 1 2 0 1 3 2 1 2 1 0 1
@@ -2650,9 +2650,9 @@ Births: $\bar z=2.4525$, $s_z=1.1674$ and $cv_z=0.476$.&lt;/li&gt;
     
     <item>
       <title>Probability</title>
-      <link>asalber.github.io/teaching/statistics/manual/probability/</link>
+      <link>/teaching/statistics/manual/probability/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/manual/probability/</guid>
+      <guid>/teaching/statistics/manual/probability/</guid>
       <description>&lt;p&gt;Descriptive Statistics provides methods to describe the variables measured in the sample and their relations, but it does not allow to draw any conclusion about the population.&lt;/p&gt;
 &lt;p&gt;Now it is time to take the leap from the sample to the population and the bridge for that is &lt;strong&gt;Probability Theory&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Remember that the sample has a limited information about the population, and in order to draw valid conclusions for the population the sample must be representative of it. For that reason, to guarantee the representativeness of the sample, this must be drawn &lt;em&gt;randomly&lt;/em&gt;. This means that the choice of individuals in the sample is by &lt;em&gt;chance&lt;/em&gt;.&lt;/p&gt;
@@ -3483,9 +3483,9 @@ $$LR-=\frac{P(-|D)}{P(-|\overline{D})} = \frac{1-\mbox{Sensitivity}}{\mbox{Speci
     
     <item>
       <title>Problems of Linear Regression</title>
-      <link>asalber.github.io/teaching/statistics/problems/linear_regression/</link>
+      <link>/teaching/statistics/problems/linear_regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/linear_regression/</guid>
+      <guid>/teaching/statistics/problems/linear_regression/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Give some examples of:&lt;/p&gt;
 &lt;ol&gt;
@@ -3810,9 +3810,9 @@ $r^2=0.9571$.&lt;br/&gt;&lt;/li&gt;
     
     <item>
       <title>Discrete Random Variables</title>
-      <link>asalber.github.io/teaching/statistics/manual/discrete-random-variables/</link>
+      <link>/teaching/statistics/manual/discrete-random-variables/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/manual/discrete-random-variables/</guid>
+      <guid>/teaching/statistics/manual/discrete-random-variables/</guid>
       <description>&lt;h2 id=&#34;random-variables&#34;&gt;Random variables&lt;/h2&gt;
 &lt;p&gt;The process of drawing a sample randomly is a random experiment and any variable measured in the sample is a &lt;em&gt;random variable&lt;/em&gt; because the values taken by the variable in the individuals of the sample are a matter of chance.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -4031,7 +4031,7 @@ $$&lt;/p&gt;
 &lt;p&gt;In practice, this approximation can be used for $n\geq 30$ and $p\leq 0.1$.&lt;/p&gt;
 &lt;img src=&#34;../img/drv/law_rare_events.svg&#34; alt=&#34;Law of rare events&#34; width=&#34;500&#34;&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://aprendeconalf.shinyapps.io/interactive_charts/#law-rare-events&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;asalber.github.io/images/r_interactive_app.png&#34; alt=&#34;Interactive application&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://aprendeconalf.shinyapps.io/interactive_charts/#law-rare-events&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;/images/r_interactive_app.png&#34; alt=&#34;Interactive application&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. A vaccine produce an adverse reaction in 4% of cases. If a sample of 50 persons are vaccinated, what is the probability of having more than 2 persons with an adverse reaction?&lt;/p&gt;
 &lt;p&gt;The variable that measures the number of persons with an adverse reaction in the sample follows a Binomial distribution model $X\sim B(50,0.04)$, but as $n=50&amp;gt;30$ and $p=0.04&amp;lt;0.1$, we can apply the law of rare events and use the Poisson distribution model $P(50\cdot 0.04)=P(2)$ to do the calculations.&lt;/p&gt;
 &lt;p&gt;$$
@@ -4053,9 +4053,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Problems of Non Linear Regression</title>
-      <link>asalber.github.io/teaching/statistics/problems/non_linear_regression/</link>
+      <link>/teaching/statistics/problems/non_linear_regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/non_linear_regression/</guid>
+      <guid>/teaching/statistics/problems/non_linear_regression/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;A dietary center is testing a new diet in sample of 12 persons. The data below are the number of days of diet and the weight loss (in kg) until them for every person.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;(33,3.9)  (51,5.9)  (30,3.2)  (55,6)  (38,4.9)  (62,6.2)  (35,4.5)  (60,6.1)  (44,5.6)  (69,6.2)  (47,5.8)  (40,5.3) 
@@ -4376,9 +4376,9 @@ $y(8)=1.6296$ μg/dl. The prediction is reliable since the linear coefficient of
     
     <item>
       <title>Continuous Random Variables</title>
-      <link>asalber.github.io/teaching/statistics/manual/continuous-random-variables/</link>
+      <link>/teaching/statistics/manual/continuous-random-variables/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/manual/continuous-random-variables/</guid>
+      <guid>/teaching/statistics/manual/continuous-random-variables/</guid>
       <description>&lt;h2 id=&#34;probability-distribution-of-a-continuous-random-variable&#34;&gt;Probability distribution of a continuous random variable&lt;/h2&gt;
 &lt;p&gt;Continuous random variables, unlike discrete random variables, can take any value in a real interval. Thus the range of a continuous random variables is infinite and uncountable.&lt;/p&gt;
 &lt;p&gt;Such a density of values makes impossible to compute the probability for each one of them, and therefore, it’s not possible to define a probabilistic model trough a probability function like with discrete random variables.&lt;/p&gt;
@@ -4719,9 +4719,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Problems of Probability</title>
-      <link>asalber.github.io/teaching/statistics/problems/probability/</link>
+      <link>/teaching/statistics/problems/probability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/probability/</guid>
+      <guid>/teaching/statistics/problems/probability/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Construct the sample space of the following random experiments:&lt;/p&gt;
 &lt;ol&gt;
@@ -4976,9 +4976,9 @@ $P(A/\bar J\cap \bar C)=0.625$.
     
     <item>
       <title>Problems Diagnostic Tests</title>
-      <link>asalber.github.io/teaching/statistics/problems/diagnostic_tests/</link>
+      <link>/teaching/statistics/problems/diagnostic_tests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/diagnostic_tests/</guid>
+      <guid>/teaching/statistics/problems/diagnostic_tests/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;A test was applied to a sample of people in order to evaluate its effectiveness; the results are as follows:&lt;/p&gt;
 &lt;p&gt;$$
@@ -5070,9 +5070,9 @@ $P(D\vert +_A\cap +_B)=0.7878$.&lt;/li&gt;
     
     <item>
       <title>Problems of Discrete Random Variables</title>
-      <link>asalber.github.io/teaching/statistics/problems/discrete_random_variables/</link>
+      <link>/teaching/statistics/problems/discrete_random_variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/discrete_random_variables/</guid>
+      <guid>/teaching/statistics/problems/discrete_random_variables/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $X$ be a discrete random variable with the following probability distribution&lt;/p&gt;
 &lt;p&gt;$$
@@ -5406,9 +5406,9 @@ Let $Y$ be the of persons developing cancer, $P(Y\geq 1) = 0.9999$.
     
     <item>
       <title>Problems of Continuous Random Variables</title>
-      <link>asalber.github.io/teaching/statistics/problems/continuous_random_variables/</link>
+      <link>/teaching/statistics/problems/continuous_random_variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/continuous_random_variables/</guid>
+      <guid>/teaching/statistics/problems/continuous_random_variables/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Given the continuous random variable $X$ with the following probability density function chart,
 &lt;img src=&#34;img/vac-3-1.svg&#34; title=&#34;plot of chunk vac-3&#34; alt=&#34;plot of chunk vac-3&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
@@ -5743,9 +5743,9 @@ Let $Y$ be the number of injured players that could play the semifinal, $P(Y\geq
     
     <item>
       <title>Physiotherapy exam 2020-06-19</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: June 19, 2020&lt;/p&gt;
 &lt;h2 id=&#34;descriptive-statistics-and-regression&#34;&gt;Descriptive Statistics and Regression&lt;/h2&gt;
@@ -5963,9 +5963,9 @@ below 0.5.&lt;/li&gt;
     
     <item>
       <title>Physiotherapy exam 2020-05-25</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2020-05-25/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2020-05-25/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2020-05-25/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2020-05-25/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: May 25, 2020&lt;/p&gt;
 &lt;h1 id=&#34;descriptive-statistics-and-regression&#34;&gt;Descriptive Statistics and Regression&lt;/h1&gt;
@@ -6216,9 +6216,9 @@ face mask.&lt;/li&gt;
     
     <item>
       <title>Pharmacy exam 2019-12-16</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2019-12-16/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2019-12-16/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2019-12-16/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2019-12-16/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: December 16, 2019&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -6449,9 +6449,9 @@ Assuming that the cholesterol level in males and females follows a normal distri
     
     <item>
       <title>Pharmacy exam 2019-11-18</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2019-11-18/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2019-11-18/</link>
       <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2019-11-18/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2019-11-18/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: November 18, 2019&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -6567,9 +6567,9 @@ $\mu=39.6708$ cm and $\sigma=5.1419$ cm.&lt;/li&gt;
     
     <item>
       <title>Pharmacy exam 2019-10-14</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2019-10-14/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2019-10-14/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2019-10-14/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2019-10-14/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: October 14, 2019&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -6711,9 +6711,9 @@ Thus, there is a direct linear relation between $X$ and $Y$ and an inverse linea
     
     <item>
       <title>Physiotherapy exam 2019-06-18</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2019-06-18/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2019-06-18/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2019-06-18/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2019-06-18/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: June 18, 2019&lt;/p&gt;
 &lt;h1 id=&#34;descriptive-statistics-and-regression&#34;&gt;Descriptive Statistics and Regression&lt;/h1&gt;
@@ -6994,9 +6994,9 @@ It is also known that 10% of people with this injury require more than 80 days t
     
     <item>
       <title>Physiotherapy exam 2019-05-27</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2019-05-27/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2019-05-27/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2019-05-27/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2019-05-27/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: May 27, 2019&lt;/p&gt;
 &lt;h1 id=&#34;descriptive-statistics-and-regression&#34;&gt;Descriptive Statistics and Regression&lt;/h1&gt;
@@ -7252,9 +7252,9 @@ Specificity: $P(-|\overline D) = P(X&amp;lt;103.5515) = 0.9549$.&lt;/p&gt;
     
     <item>
       <title>Physiotherapy exam 2019-03-26</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2019-03-26/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2019-03-26/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2019-03-26/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2019-03-26/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: March 26, 2019&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -7395,9 +7395,9 @@ Prediction: $x(12.5)=152.785$ cm.
     
     <item>
       <title>Pharmacy exam 2018-12-17</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2018-12-17/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2018-12-17/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2018-12-17/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2018-12-17/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: December 17, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -7620,9 +7620,9 @@ It is also known that there are 120 females and 56 males with a score greater th
     
     <item>
       <title>Pharmacy exam 2018-11-19</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2018-11-19/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2018-11-19/</link>
       <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2018-11-19/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2018-11-19/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: November 19, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -7756,9 +7756,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Pharmacy exam 2018-10-29</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2018-10-29/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2018-10-29/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2018-10-29/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2018-10-29/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: October 29, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -7880,9 +7880,9 @@ According to the linear regression model, how much will $X$ change for each unit
     
     <item>
       <title>Physiotherapy exam 2018-05-31</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2018-05-31/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2018-05-31/</link>
       <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2018-05-31/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2018-05-31/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: May 31, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -8129,9 +8129,9 @@ The clinic requires 5 phisiotherapists, since $P(X&amp;gt;5)=0.0527$ and $P(Y&am
     
     <item>
       <title>Physiotherapy exam 2018-04-09</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2018-04-09/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2018-04-09/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2018-04-09/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2018-04-09/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: April 9, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -8222,9 +8222,9 @@ $y(4.8)=60.4853$ mg/dl.
     
     <item>
       <title>Pharmacy exam 2018-01-19</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2018-01-19/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2018-01-19/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2018-01-19/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2018-01-19/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: January 19, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -8441,9 +8441,9 @@ The medical team in charge of the trial wants for the test to have a positive pr
     
     <item>
       <title>Pharmacy exam 2017-11-27</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2017-11-27/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2017-11-27/</link>
       <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2017-11-27/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2017-11-27/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: November 27, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -8551,9 +8551,9 @@ Thus, the exponential model explains a little bit better the evolution of the th
     
     <item>
       <title>Physiotherapy exam 2017-06-02</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-06-02/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-06-02/</link>
       <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-06-02/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-06-02/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: June 02, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -8767,9 +8767,9 @@ Compute the probability of the following events:&lt;/p&gt;
     
     <item>
       <title>Physiotherapy exam 2017-05-19</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-05-19/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-05-19/</link>
       <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-05-19/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-05-19/</guid>
       <description>&lt;p&gt;Degrees: Physiotheraphy&lt;br&gt;
 Date: May 19, 2017&lt;/p&gt;
 &lt;h1 id=&#34;probability-and-random-variables&#34;&gt;Probability and random variables&lt;/h1&gt;
@@ -8868,9 +8868,9 @@ If we take a random sample of 100 persons from this population, what is the expe
     
     <item>
       <title>Physiotherapy exam 2017-03-31</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-03-31/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-03-31/</link>
       <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-03-31/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-03-31/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy, Medicine&lt;br&gt;
 Date: March 31, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -8983,9 +8983,9 @@ The prediction with the exponential model is better as the exponential coefficie
     
     <item>
       <title>Pharmacy exam 2017-01-10</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2017-01-10/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2017-01-10/</link>
       <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2017-01-10/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2017-01-10/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: January 10, 2017&lt;/p&gt;
 &lt;h1 id=&#34;descriptive-statistics-and-regression&#34;&gt;Descriptive Statistics and Regression&lt;/h1&gt;
@@ -9217,9 +9217,9 @@ A student from the class is picked randomly.&lt;/p&gt;
     
     <item>
       <title>Pharmacy exam 2016-11-28</title>
-      <link>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2016-11-28/</link>
+      <link>/teaching/statistics/exams/pharmacy/pharmacy-2016-11-28/</link>
       <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/pharmacy/pharmacy-2016-11-28/</guid>
+      <guid>/teaching/statistics/exams/pharmacy/pharmacy-2016-11-28/</guid>
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: November 28, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -9395,9 +9395,9 @@ $b_{xy}=-0.32$, so $X$ decreases 0.32 units when $Y$ increases by one unit.
     
     <item>
       <title>Physiotherapy exam 2016-06-23</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-06-23/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-06-23/</link>
       <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-06-23/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-06-23/</guid>
       <description>&lt;p&gt;Grade: Physiotherapy&lt;br&gt;
 Date: June 23, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -9658,9 +9658,9 @@ Thus, the logarithmic model fits better.&lt;/p&gt;
     
     <item>
       <title>Physiotherapy exam 2016-05-19</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-05-19/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-05-19/</link>
       <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-05-19/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-05-19/</guid>
       <description>&lt;p&gt;Grade: Physiotherapy&lt;br&gt;
 Date: May 19, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -9909,9 +9909,9 @@ Naming $Z$ to the number of persons injuried with an incurable injury in an mont
     
     <item>
       <title>Physiotherapy exam 2016-05-13</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-05-13/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-05-13/</link>
       <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-05-13/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-05-13/</guid>
       <description>&lt;p&gt;Grade: Physiotherapy&lt;br&gt;
 Date: May 13, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -10026,9 +10026,9 @@ Assuming that the LDL cholesterol level follows a normal distribution,&lt;/p&gt;
     
     <item>
       <title>Physiotherapy exam 2016-04-01</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-04-01/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-04-01/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-04-01/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-04-01/</guid>
       <description>&lt;p&gt;Grade: Physiotherapy&lt;br&gt;
 Date: April 01, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -10207,9 +10207,9 @@ So the logarithmic model fits better.&lt;/p&gt;
     
     <item>
       <title>Statistics Cheat Sheets</title>
-      <link>asalber.github.io/teaching/statistics/cheatsheets/</link>
+      <link>/teaching/statistics/cheatsheets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/cheatsheets/</guid>
+      <guid>/teaching/statistics/cheatsheets/</guid>
       <description>&lt;h2 id=&#34;statistics-formulas&#34;&gt;Statistics formulas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;

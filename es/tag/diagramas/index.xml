@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diagramas | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/diagramas/</link>
-      <atom:link href="asalber.github.io/es/tag/diagramas/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/diagramas/</link>
+      <atom:link href="/es/tag/diagramas/index.xml" rel="self" type="application/rss+xml" />
     <description>Diagramas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Diagramas</title>
-      <link>asalber.github.io/es/tag/diagramas/</link>
+      <link>/es/tag/diagramas/</link>
     </image>
     
     <item>
       <title>Estadística Descriptiva</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/estadistica-descriptiva/</link>
+      <link>/es/docencia/estadistica/manual/estadistica-descriptiva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/estadistica-descriptiva/</guid>
+      <guid>/es/docencia/estadistica/manual/estadistica-descriptiva/</guid>
       <description>&lt;p&gt;La estadística descriptiva es la parte de la estadística encargada de representar, analizar y resumir la información contenida en la muestra.&lt;/p&gt;
 &lt;p&gt;Tras el proceso de muestreo, es la siguiente etapa de todo estudio estadístico y suele consistir en:&lt;/p&gt;
 &lt;ol&gt;

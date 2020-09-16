@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tipos de Datos | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/tipos-de-datos/</link>
-      <atom:link href="asalber.github.io/es/tag/tipos-de-datos/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/tipos-de-datos/</link>
+      <atom:link href="/es/tag/tipos-de-datos/index.xml" rel="self" type="application/rss+xml" />
     <description>Tipos de Datos</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Tipos de Datos</title>
-      <link>asalber.github.io/es/tag/tipos-de-datos/</link>
+      <link>/es/tag/tipos-de-datos/</link>
     </image>
     
     <item>
       <title>Ejercicios de Tipos de Datos Simples</title>
-      <link>asalber.github.io/es/docencia/python/ejercicios/tipos-datos/</link>
+      <link>/es/docencia/python/ejercicios/tipos-datos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/python/ejercicios/tipos-datos/</guid>
+      <guid>/es/docencia/python/ejercicios/tipos-datos/</guid>
       <description>&lt;!-- Datacamp light
 &lt;script async type=&#34;text/javascript&#34; src=&#34;https://cdn.datacamp.com/dcl-react-dev.js.gz&#34;&gt;&lt;/script&gt;  
 --&gt;
@@ -170,9 +170,9 @@ Escribir un programa que comience leyendo el número de barras vendidas que no s
     
     <item>
       <title>Tipos de Datos Primitivos Simples</title>
-      <link>asalber.github.io/es/docencia/python/manual/tipos-datos-simples/</link>
+      <link>/es/docencia/python/manual/tipos-datos-simples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/python/manual/tipos-datos-simples/</guid>
+      <guid>/es/docencia/python/manual/tipos-datos-simples/</guid>
       <description>&lt;h2 id=&#34;tipos-de-datos-primitivos-simples&#34;&gt;Tipos de datos primitivos simples&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Números&lt;/strong&gt; (numbers): Secuencia de dígitos (pueden incluir el - para negativos y el . para decimales) que representan números.&lt;br&gt;

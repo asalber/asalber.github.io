@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Aprende con Alf</title>
-    <link>asalber.github.io/es/authors/</link>
-      <atom:link href="asalber.github.io/es/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/authors/</link>
+      <atom:link href="/es/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Thu, 27 Aug 2020 19:14:03 +0200</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Authors</title>
-      <link>asalber.github.io/es/authors/</link>
+      <link>/es/authors/</link>
     </image>
     
   </channel>

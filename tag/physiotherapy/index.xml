@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Physiotherapy | Aprende con Alf</title>
-    <link>asalber.github.io/tag/physiotherapy/</link>
-      <atom:link href="asalber.github.io/tag/physiotherapy/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/physiotherapy/</link>
+      <atom:link href="/tag/physiotherapy/index.xml" rel="self" type="application/rss+xml" />
     <description>Physiotherapy</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Physiotherapy</title>
-      <link>asalber.github.io/tag/physiotherapy/</link>
+      <link>/tag/physiotherapy/</link>
     </image>
     
     <item>
       <title>Physiotherapy exam 2020-06-19</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: June 19, 2020&lt;/p&gt;
 &lt;h2 id=&#34;descriptive-statistics-and-regression&#34;&gt;Descriptive Statistics and Regression&lt;/h2&gt;
@@ -234,9 +234,9 @@ below 0.5.&lt;/li&gt;
     
     <item>
       <title>Physiotherapy exam 2017-06-02</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-06-02/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-06-02/</link>
       <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-06-02/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-06-02/</guid>
       <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
 Date: June 02, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
@@ -450,9 +450,9 @@ Compute the probability of the following events:&lt;/p&gt;
     
     <item>
       <title>Physiotherapy exam 2017-05-19</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-05-19/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-05-19/</link>
       <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2017-05-19/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2017-05-19/</guid>
       <description>&lt;p&gt;Degrees: Physiotheraphy&lt;br&gt;
 Date: May 19, 2017&lt;/p&gt;
 &lt;h1 id=&#34;probability-and-random-variables&#34;&gt;Probability and random variables&lt;/h1&gt;
@@ -551,9 +551,9 @@ If we take a random sample of 100 persons from this population, what is the expe
     
     <item>
       <title>Physiotherapy exam 2016-04-01</title>
-      <link>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-04-01/</link>
+      <link>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-04-01/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/exams/physiotherapy/physiotherapy-2016-04-01/</guid>
+      <guid>/teaching/statistics/exams/physiotherapy/physiotherapy-2016-04-01/</guid>
       <description>&lt;p&gt;Grade: Physiotherapy&lt;br&gt;
 Date: April 01, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;

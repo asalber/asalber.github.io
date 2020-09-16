@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Epidemiología | Aprende con Alf</title>
-    <link>asalber.github.io/es/category/epidemiologia/</link>
-      <atom:link href="asalber.github.io/es/category/epidemiologia/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/category/epidemiologia/</link>
+      <atom:link href="/es/category/epidemiologia/index.xml" rel="self" type="application/rss+xml" />
     <description>Epidemiología</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Epidemiología</title>
-      <link>asalber.github.io/es/category/epidemiologia/</link>
+      <link>/es/category/epidemiologia/</link>
     </image>
     
     <item>
       <title>Probabilidad</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/probabilidad/</link>
+      <link>/es/docencia/estadistica/manual/probabilidad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/probabilidad/</guid>
+      <guid>/es/docencia/estadistica/manual/probabilidad/</guid>
       <description>&lt;p&gt;La estadística descriptiva permite describir el comportamiento y las relaciones entre las variables en la muestra, pero no permite sacar conclusiones sobre el resto de la población.&lt;/p&gt;
 &lt;p&gt;Ha llegado el momento de dar el salto de la muestra a la población y pasar de la estadística descriptiva a la inferencia estadística, y el puente que lo permite es la &lt;strong&gt;Teoría de la Probabilidad&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Hay que tener en cuenta que el conocimiento que se puede obtener de la población a partir de la muestra es limitado, y que para obtener conclusiones válidas para la población la muestra debe ser
@@ -1323,9 +1323,9 @@ enfermedad.&lt;/p&gt;
     
     <item>
       <title>Ejercicios de Tests Diagnósticos</title>
-      <link>asalber.github.io/es/docencia/estadistica/ejercicios/tests-diagnosticos/</link>
+      <link>/es/docencia/estadistica/ejercicios/tests-diagnosticos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/ejercicios/tests-diagnosticos/</guid>
+      <guid>/es/docencia/estadistica/ejercicios/tests-diagnosticos/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Titulación: Farmacia, Medicina&lt;/p&gt;
 &lt;p&gt;Para detectar el parásito del paludismo existe un test de respuesta inmediata que produce un 2 % de falsos

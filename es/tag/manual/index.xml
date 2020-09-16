@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manual | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/manual/</link>
-      <atom:link href="asalber.github.io/es/tag/manual/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/manual/</link>
+      <atom:link href="/es/tag/manual/index.xml" rel="self" type="application/rss+xml" />
     <description>Manual</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Manual</title>
-      <link>asalber.github.io/es/tag/manual/</link>
+      <link>/es/tag/manual/</link>
     </image>
     
   </channel>

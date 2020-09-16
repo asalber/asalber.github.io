@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regression | Aprende con Alf</title>
-    <link>asalber.github.io/tag/regression/</link>
-      <atom:link href="asalber.github.io/tag/regression/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/regression/</link>
+      <atom:link href="/tag/regression/index.xml" rel="self" type="application/rss+xml" />
     <description>Regression</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Regression</title>
-      <link>asalber.github.io/tag/regression/</link>
+      <link>/tag/regression/</link>
     </image>
     
     <item>
       <title>Regression</title>
-      <link>asalber.github.io/teaching/statistics/manual/regression/</link>
+      <link>/teaching/statistics/manual/regression/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/manual/regression/</guid>
+      <guid>/teaching/statistics/manual/regression/</guid>
       <description>&lt;p&gt;In the last chapter we saw how to describe the distribution of a single variable in a sample. However, in most cases, studies require to describe several variables that are often related. For instance, a nutritional study should consider all the variables that could be related to the weight, as height, age, gender, smoking, diet, physic exercise, etc.&lt;/p&gt;
 &lt;p&gt;To understand a phenomenon that involve several variables is not enough to study every variable by its own. We have to study all the variables together to describe how they interact and the type of relation among them.&lt;/p&gt;
 &lt;p&gt;Usually in a &lt;em&gt;dependency study&lt;/em&gt; there is a &lt;strong&gt;dependent variable&lt;/strong&gt; $Y$ that it is supposed to be influenced by a set of variables $X_1,\ldots,X_n$ known as &lt;strong&gt;independent variables&lt;/strong&gt;. The simpler case is a &lt;em&gt;simple dependency study&lt;/em&gt; when there is only one independent variable, that is the case covered in this chapter.&lt;/p&gt;
@@ -600,9 +600,9 @@ regression models.&lt;/p&gt;
     
     <item>
       <title>Problems of Linear Regression</title>
-      <link>asalber.github.io/teaching/statistics/problems/linear_regression/</link>
+      <link>/teaching/statistics/problems/linear_regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/linear_regression/</guid>
+      <guid>/teaching/statistics/problems/linear_regression/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Give some examples of:&lt;/p&gt;
 &lt;ol&gt;
@@ -927,9 +927,9 @@ $r^2=0.9571$.&lt;br/&gt;&lt;/li&gt;
     
     <item>
       <title>Problems of Non Linear Regression</title>
-      <link>asalber.github.io/teaching/statistics/problems/non_linear_regression/</link>
+      <link>/teaching/statistics/problems/non_linear_regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/non_linear_regression/</guid>
+      <guid>/teaching/statistics/problems/non_linear_regression/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;A dietary center is testing a new diet in sample of 12 persons. The data below are the number of days of diet and the weight loss (in kg) until them for every person.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;(33,3.9)  (51,5.9)  (30,3.2)  (55,6)  (38,4.9)  (62,6.2)  (35,4.5)  (60,6.1)  (44,5.6)  (69,6.2)  (47,5.8)  (40,5.3) 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manual de Estadística | Aprende con Alf</title>
-    <link>asalber.github.io/es/docencia/estadistica/manual/</link>
-      <atom:link href="asalber.github.io/es/docencia/estadistica/manual/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/docencia/estadistica/manual/</link>
+      <atom:link href="/es/docencia/estadistica/manual/index.xml" rel="self" type="application/rss+xml" />
     <description>Manual de Estadística</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Manual de Estadística</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/</link>
+      <link>/es/docencia/estadistica/manual/</link>
     </image>
     
     <item>
       <title>Introducción</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/introduccion/</link>
+      <link>/es/docencia/estadistica/manual/introduccion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/introduccion/</guid>
+      <guid>/es/docencia/estadistica/manual/introduccion/</guid>
       <description>&lt;h2 id=&#34;la-estadística-como-herramienta-científica&#34;&gt;La estadística como herramienta científica&lt;/h2&gt;
 &lt;h3 id=&#34;qué-es-la-estadística&#34;&gt;¿Qué es la estadística?&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -287,9 +287,9 @@ Ejemplo: El peso o la estatura.&lt;/p&gt;
     
     <item>
       <title>Estadística Descriptiva</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/estadistica-descriptiva/</link>
+      <link>/es/docencia/estadistica/manual/estadistica-descriptiva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/estadistica-descriptiva/</guid>
+      <guid>/es/docencia/estadistica/manual/estadistica-descriptiva/</guid>
       <description>&lt;p&gt;La estadística descriptiva es la parte de la estadística encargada de representar, analizar y resumir la información contenida en la muestra.&lt;/p&gt;
 &lt;p&gt;Tras el proceso de muestreo, es la siguiente etapa de todo estudio estadístico y suele consistir en:&lt;/p&gt;
 &lt;ol&gt;
@@ -1237,9 +1237,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Regresión</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/regresion/</link>
+      <link>/es/docencia/estadistica/manual/regresion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/regresion/</guid>
+      <guid>/es/docencia/estadistica/manual/regresion/</guid>
       <description>&lt;p&gt;Hasta ahora se ha visto como describir el comportamiento de una variable, pero en los fenómenos naturales normalmente aparecen más de una variable que suelen estar relacionadas. Por ejemplo, en un estudio sobre el peso de las personas, deberíamos incluir todas las variables con las que podría tener relación: altura, edad, sexo, dieta, tabaco,
 ejercicio físico, etc.&lt;/p&gt;
 &lt;p&gt;Para comprender el fenómeno no basta con estudiar cada variable por separado y es preciso un estudio conjunto de todas las variables para ver cómo interactúan y qué relaciones se dan entre ellas. El objetivo de la estadística en este caso es dar medidas del grado y del tipo de relación entre dichas variables.&lt;/p&gt;
@@ -1848,9 +1848,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Relaciones entre variables cualitativas</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/relaciones-cualitativas/</link>
+      <link>/es/docencia/estadistica/manual/relaciones-cualitativas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/relaciones-cualitativas/</guid>
+      <guid>/es/docencia/estadistica/manual/relaciones-cualitativas/</guid>
       <description>&lt;p&gt;Los modelos de regresión vistos sólo pueden aplicarse cuando las variables estudiadas son cuantitativas.&lt;/p&gt;
 &lt;p&gt;Cuando se desea estudiar la relación entre atributos, tanto ordinales como nominales, es necesario recurrir a otro tipo de medidas de relación o de asociación. En este capítulo veremos tres de ellas:&lt;/p&gt;
 &lt;ul&gt;
@@ -2045,9 +2045,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Probabilidad</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/probabilidad/</link>
+      <link>/es/docencia/estadistica/manual/probabilidad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/probabilidad/</guid>
+      <guid>/es/docencia/estadistica/manual/probabilidad/</guid>
       <description>&lt;p&gt;La estadística descriptiva permite describir el comportamiento y las relaciones entre las variables en la muestra, pero no permite sacar conclusiones sobre el resto de la población.&lt;/p&gt;
 &lt;p&gt;Ha llegado el momento de dar el salto de la muestra a la población y pasar de la estadística descriptiva a la inferencia estadística, y el puente que lo permite es la &lt;strong&gt;Teoría de la Probabilidad&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Hay que tener en cuenta que el conocimiento que se puede obtener de la población a partir de la muestra es limitado, y que para obtener conclusiones válidas para la población la muestra debe ser
@@ -3354,9 +3354,9 @@ enfermedad.&lt;/p&gt;
     
     <item>
       <title>Contrastes de Hipótesis</title>
-      <link>asalber.github.io/es/docencia/estadistica/manual/contrastes/</link>
+      <link>/es/docencia/estadistica/manual/contrastes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/manual/contrastes/</guid>
+      <guid>/es/docencia/estadistica/manual/contrastes/</guid>
       <description>&lt;h2 id=&#34;hipótesis-estadísticas-y-tipos-de-contrastes-de-hipótesis&#34;&gt;Hipótesis estadísticas y tipos de contrastes de hipótesis&lt;/h2&gt;
 &lt;h3 id=&#34;hipótesis-estadística&#34;&gt;Hipótesis estadística&lt;/h3&gt;
 &lt;p&gt;En muchos estudios estadísticos, el objetivo, más que estimar el valor de un parámetro desconocido en la población, es comprobar la veracidad de una hipótesis formulada sobre la población objeto de estudio.&lt;/p&gt;

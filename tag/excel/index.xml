@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Excel | Aprende con Alf</title>
-    <link>asalber.github.io/tag/excel/</link>
-      <atom:link href="asalber.github.io/tag/excel/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/excel/</link>
+      <atom:link href="/tag/excel/index.xml" rel="self" type="application/rss+xml" />
     <description>Excel</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Excel</title>
-      <link>asalber.github.io/tag/excel/</link>
+      <link>/tag/excel/</link>
     </image>
     
     <item>
       <title>Introduction</title>
-      <link>asalber.github.io/teaching/excel/manual/introduction/</link>
+      <link>/teaching/excel/manual/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/excel/manual/introduction/</guid>
+      <guid>/teaching/excel/manual/introduction/</guid>
       <description>&lt;p&gt;Excel is a spreadsheet application that is part of the Microsoft Office suite.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/excel_splash.png&#34; alt=&#34;Excel 2010 splash windows.&#34; title=&#34;Excel 2010 splash windows&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-a-spreadsheet&#34;&gt;What is a spreadsheet?&lt;/h2&gt;
@@ -170,9 +170,9 @@ In the dialog that appears select the storage unit and folder where the file is 
     
     <item>
       <title>Formatting and Data Printing</title>
-      <link>asalber.github.io/teaching/excel/manual/formatting/</link>
+      <link>/teaching/excel/manual/formatting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/excel/manual/formatting/</guid>
+      <guid>/teaching/excel/manual/formatting/</guid>
       <description>&lt;p&gt;Content of cells can be formatted in many ways: changing the data type, the font family, the alignment, the color, the border, etc. Most formatting options are grouped in the &lt;em&gt;Format Cells&lt;/em&gt; dialog. To show this dialog click the bottom right corner of the Font panel in the ribbon&amp;rsquo;s Home tab.&lt;/p&gt;
 &lt;h2 id=&#34;data-types&#34;&gt;Data types&lt;/h2&gt;
 &lt;p&gt;Excel manages several data types. The most common are numbers, dates and times, and text. All available data types are in the &lt;code&gt;Number tab&lt;/code&gt; of the Format Cells dialog.&lt;/p&gt;
@@ -278,9 +278,9 @@ and select &lt;code&gt;New Cell Style&lt;/code&gt; option. In the dialog that ap
     
     <item>
       <title>Formulas</title>
-      <link>asalber.github.io/teaching/excel/manual/formulas/</link>
+      <link>/teaching/excel/manual/formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/excel/manual/formulas/</guid>
+      <guid>/teaching/excel/manual/formulas/</guid>
       <description>&lt;p&gt;Spreadsheets are used mainly for doing calculations and one of the most powerful features of spreadsheets are calculation formulas. In this section we will see how to use them.&lt;/p&gt;
 &lt;h2 id=&#34;enter-formulas&#34;&gt;Enter formulas&lt;/h2&gt;
 &lt;p&gt;To enter a formula in a cell always start typing an equal sign &lt;code&gt;=&lt;/code&gt; and then the formula expression.&lt;/p&gt;
@@ -612,7 +612,7 @@ In the case of dates, Excel will return the number of days between these dates. 
 &lt;h2 id=&#34;statistical-functions&#34;&gt;Statistical functions&lt;/h2&gt;
 &lt;p&gt;Excel provides functions to calculate the main descriptive statistics, probability distributions and also to make inferences about the population.
 For an introductory text to Statistics visit the 
-&lt;a href=&#34;asalber.github.io/estadistica/manual/&#34;&gt;Statistic manual&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;/estadistica/manual/&#34;&gt;Statistic manual&lt;/a&gt; page.&lt;/p&gt;
 &lt;h3 id=&#34;average-function&#34;&gt;AVERAGE function&lt;/h3&gt;
 &lt;p&gt;The &lt;code&gt;AVERAGE&lt;/code&gt; function calculates the arithmetic mean of several numbers. Its syntax is &lt;code&gt;AVERAGE(number1,number2,...)&lt;/code&gt; where &lt;em&gt;number1,number2&lt;/em&gt;, etc. are the numbers or cell ranges for which you want the average.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt; The animation below shows how to calculate the average grade for every student in a course. Observe that the average grade is well calculated even when there are blank cells in the range.&lt;/p&gt;
@@ -707,9 +707,9 @@ For more sophisticated functions you can activate the Analysis ToolPak add-in, a
     
     <item>
       <title>Plotting Charts</title>
-      <link>asalber.github.io/teaching/excel/manual/charts/</link>
+      <link>/teaching/excel/manual/charts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/excel/manual/charts/</guid>
+      <guid>/teaching/excel/manual/charts/</guid>
       <description>&lt;p&gt;&lt;em&gt;A picture is worth a thousand words&lt;/em&gt;. That&amp;rsquo;s why data is usually presented in a graphical form, and for that reason spreadsheets provide different types of charts. This section presents the main chart types and how to plot them in Excel 2010.&lt;/p&gt;
 &lt;h2 id=&#34;charts-creation&#34;&gt;Charts creation&lt;/h2&gt;
 &lt;p&gt;Regardless the chart type, the steps to create a chart are:&lt;/p&gt;
@@ -855,9 +855,9 @@ Observe that in the original chart the minimum value of the vertical axis scale 
     
     <item>
       <title>Database Management</title>
-      <link>asalber.github.io/teaching/excel/manual/databases/</link>
+      <link>/teaching/excel/manual/databases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/excel/manual/databases/</guid>
+      <guid>/teaching/excel/manual/databases/</guid>
       <description>&lt;p&gt;A 
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Database&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;database&lt;/a&gt; is an organised collection of data. Usually databases are composed of records that contains information about the same object (person, company, product, etc), and records are composed of fields that contains every piece of information (name, address, phone number, price, etc.).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt; The next table show a students database with fields &lt;em&gt;First name, Last name, Address, City, Birth date, Average grade&lt;/em&gt; and &lt;em&gt;Passed credits&lt;/em&gt;.&lt;/p&gt;
@@ -964,7 +964,7 @@ Observe that in the original chart the minimum value of the vertical axis scale 
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The animation below shows how create a data list of students with the fields &lt;em&gt;First name, Last name, Address, City, Birth date, Average grade&lt;/em&gt; and &lt;em&gt;Passed credits&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/example_database_creation.gif&#34; alt=&#34;Example of database creation.&#34; title=&#34;Example of database creation&#34;&gt;&lt;/p&gt;
 &lt;p&gt;After creating a data list Excel will give a name to it, but is advisable to give it a descriptive name (see the 
-&lt;a href=&#34;asalber.github.io/office/excel/manual/formulas.html#Namingcellsandranges&#34;&gt;Naming cells and ranges&lt;/a&gt; section).&lt;/p&gt;
+&lt;a href=&#34;/office/excel/manual/formulas.html#Namingcellsandranges&#34;&gt;Naming cells and ranges&lt;/a&gt; section).&lt;/p&gt;
 &lt;h2 id=&#34;data-validation&#34;&gt;Data validation&lt;/h2&gt;
 &lt;p&gt;When entering data to a data list is important to validate data to maintain database integrity. Data validation allows to specify which type and range of data are accepted by a cell or field (column). To apply a validation rule to a field, select the field column of the data list and click &lt;code&gt;Data validation&lt;/code&gt; button of the &lt;code&gt;Data tools&lt;/code&gt; panel on the ribbon&amp;rsquo;s &lt;code&gt;Data&lt;/code&gt; tab. In the dialog that appears, select the validation criteria from the drop-down list of the &lt;code&gt;Setting&lt;/code&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -982,7 +982,7 @@ Observe that in the original chart the minimum value of the vertical axis scale 
 &lt;p&gt;Excel offers the possibility to import data from diverse sources like csv text files, XML files, relational databases like Access or web data sources.&lt;/p&gt;
 &lt;h3 id=&#34;importing-data-from-csv-text-files&#34;&gt;Importing data from csv text files&lt;/h3&gt;
 &lt;p&gt;To see how to import data from csv text file visit the section 
-&lt;a href=&#34;asalber.github.io/office/excel/manual/introduction.html#Importfromcsvformat&#34;&gt;Import from csv format&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;/office/excel/manual/introduction.html#Importfromcsvformat&#34;&gt;Import from csv format&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;importing-from-web-data-sources&#34;&gt;Importing from web data sources&lt;/h3&gt;
 &lt;p&gt;There are many web pages that offers open data in a suitable format for import from Excel. To import data from a web data source click the &lt;code&gt;From Web&lt;/code&gt; buttom of the &lt;code&gt;Get External Data&lt;/code&gt; panel on the ribbon&amp;rsquo;s &lt;code&gt;Data&lt;/code&gt; tab. This opens a web browser where you must enter the URL of the page with de data source. When the browser shows the data table some yellow arrows appears that allow you to select the rows and columns of the table to import.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt; The animation below shows how to import the IBEX 35 serie from 

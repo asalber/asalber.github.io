@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tangent Line | Aprende con Alf</title>
-    <link>asalber.github.io/tag/tangent-line/</link>
-      <atom:link href="asalber.github.io/tag/tangent-line/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/tangent-line/</link>
+      <atom:link href="/tag/tangent-line/index.xml" rel="self" type="application/rss+xml" />
     <description>Tangent Line</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Tangent Line</title>
-      <link>asalber.github.io/tag/tangent-line/</link>
+      <link>/tag/tangent-line/</link>
     </image>
     
     <item>
       <title>One variable differential calculus</title>
-      <link>asalber.github.io/teaching/calculus/manual/derivatives-one-variable/</link>
+      <link>/teaching/calculus/manual/derivatives-one-variable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/calculus/manual/derivatives-one-variable/</guid>
+      <guid>/teaching/calculus/manual/derivatives-one-variable/</guid>
       <description>&lt;h2 id=&#34;concept-of-derivative&#34;&gt;Concept of derivative&lt;/h2&gt;
 &lt;h3 id=&#34;increment&#34;&gt;Increment&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;

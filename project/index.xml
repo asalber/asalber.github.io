@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Aprende con Alf</title>
-    <link>asalber.github.io/project/</link>
-      <atom:link href="asalber.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Projects</title>
-      <link>asalber.github.io/project/</link>
+      <link>/project/</link>
     </image>
     
     <item>
       <title>rkTeaching</title>
-      <link>asalber.github.io/project/rkteaching/</link>
+      <link>/project/rkteaching/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/project/rkteaching/</guid>
+      <guid>/project/rkteaching/</guid>
       <description>&lt;h2 id=&#34;what-is-rkteaching&#34;&gt;What is rkTeaching?&lt;/h2&gt;
 &lt;p&gt;rkTeaching is an 
 &lt;a href=&#34;http://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; package that provides a plugin for the graphical user interface 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Listas | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/listas/</link>
-      <atom:link href="asalber.github.io/es/tag/listas/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/listas/</link>
+      <atom:link href="/es/tag/listas/index.xml" rel="self" type="application/rss+xml" />
     <description>Listas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Listas</title>
-      <link>asalber.github.io/es/tag/listas/</link>
+      <link>/es/tag/listas/</link>
     </image>
     
     <item>
       <title>Ejercicios de Listas y Tuplas</title>
-      <link>asalber.github.io/es/docencia/python/ejercicios/listas-tuplas/</link>
+      <link>/es/docencia/python/ejercicios/listas-tuplas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/python/ejercicios/listas-tuplas/</guid>
+      <guid>/es/docencia/python/ejercicios/listas-tuplas/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/listas-tuplas/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -80,9 +80,9 @@ Nota: Para representar matrices mediante listas usar listas anidadas, representa
     
     <item>
       <title>Listas</title>
-      <link>asalber.github.io/es/docencia/python/manual/listas/</link>
+      <link>/es/docencia/python/manual/listas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/python/manual/listas/</guid>
+      <guid>/es/docencia/python/manual/listas/</guid>
       <description>&lt;h2 id=&#34;listas&#34;&gt;Listas&lt;/h2&gt;
 &lt;p&gt;Una &lt;strong&gt;lista&lt;/strong&gt; es una secuencias ordenadas de objetos de distintos tipos.&lt;/p&gt;
 &lt;p&gt;Se construyen poniendo los elementos entre corchetes &lt;code&gt;[&lt;/code&gt;  &lt;code&gt;]&lt;/code&gt; separados por comas.&lt;/p&gt;

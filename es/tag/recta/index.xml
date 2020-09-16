@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recta | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/recta/</link>
-      <atom:link href="asalber.github.io/es/tag/recta/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/recta/</link>
+      <atom:link href="/es/tag/recta/index.xml" rel="self" type="application/rss+xml" />
     <description>Recta</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Recta</title>
-      <link>asalber.github.io/es/tag/recta/</link>
+      <link>/es/tag/recta/</link>
     </image>
     
     <item>
       <title>Geometría Analítica</title>
-      <link>asalber.github.io/es/docencia/calculo/manual/geometria-analitica/</link>
+      <link>/es/docencia/calculo/manual/geometria-analitica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/calculo/manual/geometria-analitica/</guid>
+      <guid>/es/docencia/calculo/manual/geometria-analitica/</guid>
       <description>&lt;h2 id=&#34;escalares-y-vectores&#34;&gt;Escalares y vectores&lt;/h2&gt;
 &lt;h3 id=&#34;escalares&#34;&gt;Escalares&lt;/h3&gt;
 &lt;p&gt;Algunos fenómenos de la naturaleza pueden describirse mediante un número referido a una unidad de medida.&lt;/p&gt;
@@ -176,7 +176,7 @@ Un punto de la recta es $P=(1,1,2)$ y un vector director es $\mathbf{v}=(-1,2,2)
 &lt;p&gt;$$y-y_0 = \frac{b}{a}(x-x_0) \mbox{ o bien } y-y_0+m(x-x_0),$$&lt;/p&gt;
 &lt;p&gt;llamando $m=b/a$.
 Esta ecuación se conoce como ecuación en la forma &lt;em&gt;punto-pendiente&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m150370&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m150370&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;pendiente-de-una-recta-en-el-plano&#34;&gt;Pendiente de una recta en el plano&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -184,7 +184,7 @@ Esta ecuación se conoce como ecuación en la forma &lt;em&gt;punto-pendiente&lt
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/pendiente_recta.png&#34; width=&#34;400px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;asalber.github.io/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m150247&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m150247&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Recordar que dados dos puntos $Q=(x_1,y_1)$ y $Q=(x_2,y_2)$ de la recta $l$, se puede tomar como vector director el vector que los une, que tiene coordenadas $\vec{PQ}=Q-P=(x_2-x_1,y_2-y_1)$, de manera que la pendiente de $l$ será $\dfrac{y_2-y_1}{x_2-x_1}$, es decir, el cociente entre lo que cambia la coordenada $y$ y lo que cambia la coordenada $x$.&lt;/p&gt;
 &lt;h2 id=&#34;planos&#34;&gt;Planos&lt;/h2&gt;
 &lt;h3 id=&#34;ecuación-vectorial-del-plano-en-el-espacio-real&#34;&gt;Ecuación vectorial del plano en el espacio real&lt;/h3&gt;

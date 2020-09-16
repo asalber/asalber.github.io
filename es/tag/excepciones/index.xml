@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Excepciones | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/excepciones/</link>
-      <atom:link href="asalber.github.io/es/tag/excepciones/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/excepciones/</link>
+      <atom:link href="/es/tag/excepciones/index.xml" rel="self" type="application/rss+xml" />
     <description>Excepciones</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Excepciones</title>
-      <link>asalber.github.io/es/tag/excepciones/</link>
+      <link>/es/tag/excepciones/</link>
     </image>
     
     <item>
       <title>Excepciones</title>
-      <link>asalber.github.io/es/docencia/python/manual/excepciones/</link>
+      <link>/es/docencia/python/manual/excepciones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/python/manual/excepciones/</guid>
+      <guid>/es/docencia/python/manual/excepciones/</guid>
       <description>&lt;h2 id=&#34;control-de-errores-mediante-excepciones&#34;&gt;Control de errores mediante excepciones&lt;/h2&gt;
 &lt;p&gt;Python utiliza un objeto especial llamado &lt;strong&gt;excepción&lt;/strong&gt; para controlar cualquier error que pueda ocurrir durante la ejecución de un programa.&lt;/p&gt;
 &lt;p&gt;Cuando ocurre un error durante la ejecución de un programa, Python crea una excepción. Si no se controla esta excepción la ejecución del programa se detiene y se muestra el error (&lt;em&gt;traceback&lt;/em&gt;).&lt;/p&gt;

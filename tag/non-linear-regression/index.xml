@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Non-linear Regression | Aprende con Alf</title>
-    <link>asalber.github.io/tag/non-linear-regression/</link>
-      <atom:link href="asalber.github.io/tag/non-linear-regression/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/non-linear-regression/</link>
+      <atom:link href="/tag/non-linear-regression/index.xml" rel="self" type="application/rss+xml" />
     <description>Non-linear Regression</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Non-linear Regression</title>
-      <link>asalber.github.io/tag/non-linear-regression/</link>
+      <link>/tag/non-linear-regression/</link>
     </image>
     
     <item>
       <title>Problems of Non Linear Regression</title>
-      <link>asalber.github.io/teaching/statistics/problems/non_linear_regression/</link>
+      <link>/teaching/statistics/problems/non_linear_regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/teaching/statistics/problems/non_linear_regression/</guid>
+      <guid>/teaching/statistics/problems/non_linear_regression/</guid>
       <description>&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;A dietary center is testing a new diet in sample of 12 persons. The data below are the number of days of diet and the weight loss (in kg) until them for every person.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;(33,3.9)  (51,5.9)  (30,3.2)  (55,6)  (38,4.9)  (62,6.2)  (35,4.5)  (60,6.1)  (44,5.6)  (69,6.2)  (47,5.8)  (40,5.3) 

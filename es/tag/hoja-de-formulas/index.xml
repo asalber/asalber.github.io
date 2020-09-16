@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hoja de fórmulas | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/hoja-de-formulas/</link>
-      <atom:link href="asalber.github.io/es/tag/hoja-de-formulas/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/hoja-de-formulas/</link>
+      <atom:link href="/es/tag/hoja-de-formulas/index.xml" rel="self" type="application/rss+xml" />
     <description>Hoja de fórmulas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Hoja de fórmulas</title>
-      <link>asalber.github.io/es/tag/hoja-de-formulas/</link>
+      <link>/es/tag/hoja-de-formulas/</link>
     </image>
     
     <item>
       <title>Hoja de Fórmulas de Estadística</title>
-      <link>asalber.github.io/es/docencia/estadistica/formulas/</link>
+      <link>/es/docencia/estadistica/formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/estadistica/formulas/</guid>
+      <guid>/es/docencia/estadistica/formulas/</guid>
       <description>&lt;h2 id=&#34;fórmulas-de-estadística&#34;&gt;Fórmulas de Estadística&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;

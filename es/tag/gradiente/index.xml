@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gradiente | Aprende con Alf</title>
-    <link>asalber.github.io/es/tag/gradiente/</link>
-      <atom:link href="asalber.github.io/es/tag/gradiente/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/tag/gradiente/</link>
+      <atom:link href="/es/tag/gradiente/index.xml" rel="self" type="application/rss+xml" />
     <description>Gradiente</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Gradiente</title>
-      <link>asalber.github.io/es/tag/gradiente/</link>
+      <link>/es/tag/gradiente/</link>
     </image>
     
     <item>
       <title>Cálculo diferencial en varias variables</title>
-      <link>asalber.github.io/es/docencia/calculo/manual/derivadas-n-variables/</link>
+      <link>/es/docencia/calculo/manual/derivadas-n-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/docencia/calculo/manual/derivadas-n-variables/</guid>
+      <guid>/es/docencia/calculo/manual/derivadas-n-variables/</guid>
       <description>&lt;h2 id=&#34;funciones-de-varias-variables&#34;&gt;Funciones de varias variables&lt;/h2&gt;
 &lt;p&gt;En numerosos problemas de geometría, física y ciencias naturales nos encontramos a menudo con variables o factores que dependen o están relacionados con otros dos, tres o más factores:&lt;/p&gt;
 &lt;ul&gt;

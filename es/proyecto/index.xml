@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proyectos | Aprende con Alf</title>
-    <link>asalber.github.io/es/proyecto/</link>
-      <atom:link href="asalber.github.io/es/proyecto/index.xml" rel="self" type="application/rss+xml" />
+    <link>/es/proyecto/</link>
+      <atom:link href="/es/proyecto/index.xml" rel="self" type="application/rss+xml" />
     <description>Proyectos</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/asalber.github.io/images/logo.svg</url>
+      <url>/images/logo.svg</url>
       <title>Proyectos</title>
-      <link>asalber.github.io/es/proyecto/</link>
+      <link>/es/proyecto/</link>
     </image>
     
     <item>
       <title>rkTeaching</title>
-      <link>asalber.github.io/es/proyecto/rkteaching/</link>
+      <link>/es/proyecto/rkteaching/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>asalber.github.io/es/proyecto/rkteaching/</guid>
+      <guid>/es/proyecto/rkteaching/</guid>
       <description>&lt;h2 id=&#34;qué-es-rkteaching&#34;&gt;¿Qué es rkTeaching?&lt;/h2&gt;
 &lt;p&gt;rk.Teaching es un paquete de 
 &lt;a href=&#34;http://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; que proporciona un plugin para la interfaz gráfica 
