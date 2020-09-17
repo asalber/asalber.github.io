@@ -5,7 +5,7 @@
     <link>/tag/software/</link>
       <atom:link href="/tag/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Software</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Software</title>
@@ -14,59 +14,59 @@
     
     <item>
       <title>rkTeaching</title>
-      <link>/project/rkteaching/</link>
+      <link>/proyecto/rkteaching/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/project/rkteaching/</guid>
-      <description>&lt;h2 id=&#34;what-is-rkteaching&#34;&gt;What is rkTeaching?&lt;/h2&gt;
-&lt;p&gt;rkTeaching is an 
-&lt;a href=&#34;http://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; package that provides a plugin for the graphical user interface 
-&lt;a href=&#34;http://rkward.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RKWard&lt;/a&gt; adding new menus and dialog specially
-designed for teaching and learning Statistics.&lt;/p&gt;
-&lt;p&gt;This package has been developed and is maintained by Alfredo Sánchez Alberca &lt;a href=&#34;mailto:asalber@ceu.es&#34;&gt;asalber@ceu.es&lt;/a&gt; in the Departament of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p&gt;
-&lt;p&gt;If you find out some error or have a suggestion, please, let me know it by email or opening an 
-&lt;a href=&#34;https://github.com/rkward-community/rk.Teaching/pulls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue on Github&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/rkward.png&#34; alt=&#34;RKWard&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-&lt;h3 id=&#34;installation-on-windows&#34;&gt;Installation on Windows&lt;/h3&gt;
-&lt;p&gt;For Windows users there is a bundle that include R, RKWard and rk.Teaching.&lt;/p&gt;
+      <guid>/proyecto/rkteaching/</guid>
+      <description>&lt;h2 id=&#34;qué-es-rkteaching&#34;&gt;¿Qué es rkTeaching?&lt;/h2&gt;
+&lt;p&gt;rk.Teaching es un paquete de 
+&lt;a href=&#34;http://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; que proporciona un plugin para la interfaz gráfica 
+&lt;a href=&#34;http://rkward.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RKWard&lt;/a&gt; añadiendo nuevos menús y cuadros de diálogo especialmente diseñados para la enseñanza de Estadística.&lt;/p&gt;
+&lt;p&gt;El paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca &lt;a href=&#34;mailto:asalber@ceu.es&#34;&gt;asalber@ceu.es&lt;/a&gt; del Departamento de Matemáticas de la Universidad San Pablo CEU de Madrid.&lt;/p&gt;
+&lt;p&gt;Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por correo al autor o bien indíquelo como un 
+&lt;a href=&#34;https://github.com/asalber/rkTeaching_es/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue en Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;img/rkward.png&#34; alt=&#34;RKWArd&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
+&lt;h3 id=&#34;instalación-en-windows&#34;&gt;Instalación en Windows&lt;/h3&gt;
+&lt;p&gt;Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y rk.Teaching.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://drive.google.com/open?id=1GO2fSa45o1F5u8jVcoEh5gJqgyvVMtwA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Download last version (R versión 3.6.2, RKWard versión 0.7.1, rk.Teaching versión 1.3)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Once the file is downloaded, all you have to do is to execute it.
-It will ask for the installation unit and directory.
-It is recommended to install it on the root of unit C, that ist C:.
-The installation creates a folder rkward into the installation directory. There, in the bin folder you have to execute the &lt;code&gt;rkward.exe&lt;/code&gt; file to start the program.&lt;/p&gt;
-&lt;p&gt;The following video tutorial shows the installation process (in Spanish).&lt;/p&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/0B5yGMNeKDyLdaFMyd2J5YzdZcVE/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descarga la última versión (R versión 3.2.3, RKWard versión 0.6.5, rk.Teaching versión 1.3)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/0B5yGMNeKDyLdUjlZcldDaFV6R1E/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descarga la versión anterior (R version 3.0.0, RKWard version 0.6.1 y rk.Teaching versión 1.2)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Una vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo.
+Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:, tras esto se creará una carpeta rkward y dentro de ella la carpeta bin donde se encuentra el fijero &lt;code&gt;rkward.exe&lt;/code&gt; que hay que ejecutar para arrancar RKWard.&lt;/p&gt;
+&lt;p&gt;El siguiente vídeo muestra el proceso de instalación.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/jsX4MaqWA4g&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/BrqFyfNO9RM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;installation-on-mac-os&#34;&gt;Installation on Mac OS&lt;/h3&gt;
-&lt;p&gt;To install the software on Mac OS systems, you must take the following steps:&lt;/p&gt;
+&lt;h3 id=&#34;instalación-en-mac-os&#34;&gt;Instalación en Mac Os&lt;/h3&gt;
+&lt;p&gt;Para instalar el sotware en plataformas Mac Os debe instalarse cada programa por separado con el siguiente orden:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install R&lt;/strong&gt;. R can be downloaded from the web 
-&lt;a href=&#34;https://cran.r-project.org/bin/macosx/el-capitan/base/R-3.5.3.pkg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org&lt;/a&gt;.
-It is recommended version 3.5.3 for MacOs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instalar R&lt;/strong&gt;. R puede descargarse desde la página 
+&lt;a href=&#34;https://cran.r-project.org/bin/macosx/el-capitan/base/R-3.5.3.pkg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/&lt;/a&gt;.
+Se recomienda instalar la versión 3.5.3 para MacOs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install RKWard&lt;/strong&gt;. RKWard can be downloaded from the web &lt;a href=&#34;http://rkward.sourceforge.net&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
-You have to select the Mac Os distribution (&lt;a href=&#34;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&#34;&gt;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&lt;/a&gt;) and follow the instructions there.
-It is required a Mac Os version 10.11 or higher.&lt;/p&gt;
-&lt;p&gt;If there is some error during the installation process, check for the possible solutions (&lt;a href=&#34;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&#34;&gt;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instalar RKWard&lt;/strong&gt;. RKWard puede descargarse desde la página &lt;a href=&#34;http://rkward.sourceforge.net&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
+Debe seleccionarse la distribución correspondiente a Mac Os (&lt;a href=&#34;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&#34;&gt;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&lt;/a&gt;) y seguir las instrucciones de instalación que allí se especifican.
+Es importante asegurase de tener una versión de Mac OS X 10.11 o superior, ya que RKWard no funciona con versiones anteriores.&lt;/p&gt;
+&lt;p&gt;Si hay algún error en la instalación, consultar las posibles soluciones en (&lt;a href=&#34;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&#34;&gt;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a&gt;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install the packages that rk.Teaching depends on&lt;/strong&gt;. The rk.Teaching package depends on several packages that should be installed first.
-To install this packages you must run RKWard, open the R console and type the following commands:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instalar los paquetes de los que depende rk.Teaching&lt;/strong&gt;. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende.
+Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:&lt;/p&gt;
  &lt;pre&gt;&lt;code&gt;install.packages(c(&#34;R2HTML&#34;,&#34;car&#34;,&#34;e1071&#34;,&#34;Hmisc&#34;,&#34;plyr&#34;,&#34;ggplot2&#34;,&#34;prob&#34;,&#34;ez&#34;,&#34;remotes&#34;))&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install rk.Teaching&lt;/strong&gt;. To install the rk.Teaching package you must type the following commands in the R console:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instalar rk.Teaching&lt;/strong&gt;. La mejor forma de instalar rk.Teaching desde este repositorio es utilizando el paquete de R &lt;code&gt;devtools&lt;/code&gt;.
+Para ello hay que introducir los siguientes comandos en la consola de R:&lt;/p&gt;
  &lt;pre&gt;&lt;code&gt;
  library(remotes)&lt;br/&gt;
- install_github(&#34;rkward-community/rk.Teaching&#34;, ref=&#34;develop&#34;)
+ install_github(&#34;asalber/rkTeaching_es&#34;)
  &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The following video tutorial shows the installation process.&lt;/p&gt;
+&lt;p&gt;El siguiente vídeo muestra el proceso de instalación.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/SB1oER6HbEs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -74,35 +74,36 @@ To install this packages you must run RKWard, open the R console and type the fo
 
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;installation-on-linux&#34;&gt;Installation on Linux&lt;/h3&gt;
-&lt;p&gt;To install the software in Mac OS systems, you must take the following steps:&lt;/p&gt;
+&lt;h3 id=&#34;instalación-en-linux&#34;&gt;Instalación en Linux&lt;/h3&gt;
+&lt;p&gt;Para instalar el sotware en plataformas Linux debe instalarse cada programa por separado con el siguiente orden:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install R&lt;/strong&gt;. R can be downloaded from the web &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;https://cran.r-project.org/&lt;/a&gt;.
-You have to select the Linux distribution and follow the instructions there.
-It is required an R version 3.4 or higher.&lt;/p&gt;
-&lt;p&gt;With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instalar R&lt;/strong&gt;. R puede descargarse desde la página &lt;a href=&#34;http://cran.es.r-project.org/&#34;&gt;http://cran.es.r-project.org/&lt;/a&gt;.
+Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.
+Es necesario que la versión de R sea la 3.0 o superior.&lt;/p&gt;
+&lt;p&gt;En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:&lt;/p&gt;
  &lt;pre&gt;&lt;code&gt;sudo apt-get install rbase&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install RKWard&lt;/strong&gt;. RKWard can be downloaded from the web &lt;a href=&#34;http://rkward.sourceforge.net&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
-You have to select the Linux distribution and follow the instructions there.&lt;/p&gt;
-&lt;p&gt;With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instalar RKWard&lt;/strong&gt;. RKWard puede descargarse desde la página &lt;a href=&#34;http://rkward.sourceforge.net&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
+Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.&lt;/p&gt;
+&lt;p&gt;En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:&lt;/p&gt;
  &lt;pre&gt;&lt;code&gt;sudo apt-get install rkward&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It is important to install versión 0.7 or higher.&lt;/p&gt;
+&lt;p&gt;Es importante asegurarse de que la versión instalada es la 0.6.5 o superior.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install the packages that rk.Teaching depends on&lt;/strong&gt;. The rk.Teaching package depends on several packages that should be installed first.
-To install this packages you must run RKWard, open the R console and type the following commands:&lt;/p&gt;
- &lt;pre&gt;&lt;code&gt;install.packages(c(&#34;R2HTML&#34;,&#34;car&#34;,&#34;e1071&#34;,&#34;Hmisc&#34;,&#34;plyr&#34;,&#34;ggplot2&#34;,&#34;prob&#34;,&#34;ez&#34;,&#34;remotes&#34;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Instalar los paquetes de los que depende rk.Teaching&lt;/strong&gt;. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende.
+Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:&lt;/p&gt;
+ &lt;pre&gt;&lt;code&gt;install.packages(c(&#34;R2HTML&#34;,&#34;car&#34;,&#34;e1071&#34;,&#34;Hmisc&#34;,&#34;plyr&#34;,&#34;ggplot2&#34;,&#34;prob&#34;,&#34;ez&#34;,&#34;remotes&#34;),dep=TRUE)&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install rk.Teaching&lt;/strong&gt;. To install the rk.Teaching package you must type the following commands in the R console:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instalar rk.Teaching&lt;/strong&gt;. La mejor forma de instalar rk.Teaching desde este repositorio es utilizando el paquete de R &lt;code&gt;devtools&lt;/code&gt;.
+Para ello hay que introducir los siguientes comandos en la consola de R:&lt;/p&gt;
  &lt;pre&gt;&lt;code&gt;
  library(remotes)&lt;br/&gt;
- install_github(&#34;rkward-community/rk.Teaching&#34;, ref=&#34;develop&#34;)
+ install_github(&#34;asalber/rkTeaching_es&#34;)
  &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The following video tutorial shows the installation process (in Spanish).&lt;/p&gt;
+&lt;p&gt;El siguiente vídeo muestra el proceso de instalación.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/vQa4umDJko8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -110,160 +111,230 @@ To install this packages you must run RKWard, open the R console and type the fo
 
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;statistical-procedures&#34;&gt;Statistical procedures&lt;/h2&gt;
-&lt;p&gt;Once installed a new menu &lt;code&gt;Teaching&lt;/code&gt; will appear in RKWard with the following statistical procedures:&lt;/p&gt;
+&lt;h2 id=&#34;procedimientos-estadísticos&#34;&gt;Procedimientos estadísticos&lt;/h2&gt;
+&lt;p&gt;Una vez instalado, al arrancar RKWard aparecerá un nuevo menú &lt;code&gt;Teaching&lt;/code&gt; con los siguientes procedimientos estadísticos:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Data manipulation:
+&lt;li&gt;Manipulación de datos
 &lt;ul&gt;
-&lt;li&gt;Fiter data&lt;/li&gt;
-&lt;li&gt;Calculate variable&lt;/li&gt;
-&lt;li&gt;Recoding variable&lt;/li&gt;
-&lt;li&gt;Weight data&lt;/li&gt;
+&lt;li&gt;Filtrar datos&lt;/li&gt;
+&lt;li&gt;Calcular variable&lt;/li&gt;
+&lt;li&gt;Recodificar variable&lt;/li&gt;
+&lt;li&gt;Ponderar datos&lt;/li&gt;
+&lt;li&gt;Tipificar variables&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Frequency distributions:
+&lt;li&gt;Distribución de frecuencias
 &lt;ul&gt;
-&lt;li&gt;Frequency tabulation&lt;/li&gt;
-&lt;li&gt;Bidimensional frequency tabulation&lt;/li&gt;
+&lt;li&gt;Tablas de frecuencias&lt;/li&gt;
+&lt;li&gt;Tablas de frecuencias bidimensionales&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Plots:
+&lt;li&gt;Gráficos
 &lt;ul&gt;
-&lt;li&gt;Bar graph&lt;/li&gt;
-&lt;li&gt;Histogram&lt;/li&gt;
-&lt;li&gt;Pie graph&lt;/li&gt;
-&lt;li&gt;Box graph&lt;/li&gt;
-&lt;li&gt;Means graph&lt;/li&gt;
-&lt;li&gt;Interaction graph&lt;/li&gt;
-&lt;li&gt;Scatterplot&lt;/li&gt;
+&lt;li&gt;Diagrama de barras&lt;/li&gt;
+&lt;li&gt;Histograma&lt;/li&gt;
+&lt;li&gt;Diagrama de sectores&lt;/li&gt;
+&lt;li&gt;Diagrama de caja&lt;/li&gt;
+&lt;li&gt;Diagrama de medias&lt;/li&gt;
+&lt;li&gt;Diagrama de interacción&lt;/li&gt;
+&lt;li&gt;Diagrama de dispersión&lt;/li&gt;
+&lt;li&gt;Matriz de dispersión&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Descriptive statistics
+&lt;li&gt;Estadística descriptiva
 &lt;ul&gt;
-&lt;li&gt;Statistics&lt;/li&gt;
-&lt;li&gt;Detailed calculation&lt;/li&gt;
+&lt;li&gt;Estadísticos&lt;/li&gt;
+&lt;li&gt;Estadísticos (cálculo detallado)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Regression:
+&lt;li&gt;Regresión
 &lt;ul&gt;
-&lt;li&gt;Linear Regression&lt;/li&gt;
-&lt;li&gt;Non linear regression&lt;/li&gt;
-&lt;li&gt;Regression model comparison&lt;/li&gt;
-&lt;li&gt;Regression prediction&lt;/li&gt;
+&lt;li&gt;Regresión lineal&lt;/li&gt;
+&lt;li&gt;Regresión no lineal&lt;/li&gt;
+&lt;li&gt;Comparación de modelos&lt;/li&gt;
+&lt;li&gt;Predicciones&lt;/li&gt;
+&lt;li&gt;Correlación&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Parametric tests:
+&lt;li&gt;Test paramétricos
 &lt;ul&gt;
-&lt;li&gt;Means:
+&lt;li&gt;Medias
 &lt;ul&gt;
-&lt;li&gt;T test for one sample&lt;/li&gt;
-&lt;li&gt;T test for two independent samples&lt;/li&gt;
-&lt;li&gt;T test for two paired samples&lt;/li&gt;
+&lt;li&gt;Test T para una muestra&lt;/li&gt;
+&lt;li&gt;Test T para dos muestras independientes&lt;/li&gt;
+&lt;li&gt;Test T para dos muestras pareadas&lt;/li&gt;
 &lt;li&gt;ANOVA&lt;/li&gt;
-&lt;li&gt;Sample size calculation for mean estimation&lt;/li&gt;
+&lt;li&gt;Cálculo del tamaño muestral para la media&lt;/li&gt;
+&lt;li&gt;Cálculo del tamaño muestral para el test T&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Variances:
+&lt;li&gt;Varianzas
 &lt;ul&gt;
-&lt;li&gt;Fisher test for two samples&lt;/li&gt;
-&lt;li&gt;Levene test for multiple samples&lt;/li&gt;
+&lt;li&gt;Test F de Fisher&lt;/li&gt;
+&lt;li&gt;Test de Levene&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Proportions:
+&lt;li&gt;Proporciones
 &lt;ul&gt;
-&lt;li&gt;Test for one proportion&lt;/li&gt;
-&lt;li&gt;Test for two proportions&lt;/li&gt;
-&lt;li&gt;Sample size calculation for proportion estimation&lt;/li&gt;
+&lt;li&gt;Test para una proporción&lt;/li&gt;
+&lt;li&gt;Test para dos proporciones&lt;/li&gt;
+&lt;li&gt;Cálculo del tamaño muestral para una proproción&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Non parametric tests:
+&lt;li&gt;Test no paramétricos
 &lt;ul&gt;
-&lt;li&gt;Normality tests: Shapiro-Wilk, Kolmogorov&lt;/li&gt;
-&lt;li&gt;U Mann-Whitney test&lt;/li&gt;
-&lt;li&gt;Wilcoxon test&lt;/li&gt;
-&lt;li&gt;Friedman test&lt;/li&gt;
-&lt;li&gt;Kruskal-Wallis test&lt;/li&gt;
-&lt;li&gt;Chi-square test&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Concordance
+&lt;li&gt;Normalidad
 &lt;ul&gt;
-&lt;li&gt;Intraclass correlation coefficient&lt;/li&gt;
-&lt;li&gt;Cohen&amp;rsquo;s kappa&lt;/li&gt;
+&lt;li&gt;Test de Lilliefors (Komogorov-Smirnov)&lt;/li&gt;
+&lt;li&gt;Test de Shapiro-Wilk&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Probability:
+&lt;li&gt;Test U de Mann-Whitney para dos muestas independientes&lt;/li&gt;
+&lt;li&gt;Test de Wilcoxon para dos muestras pareadas&lt;/li&gt;
+&lt;li&gt;Test de Kruskal-Wallis para varias muestras independientes&lt;/li&gt;
+&lt;li&gt;Test de Friedman para medidas repetidas&lt;/li&gt;
+&lt;li&gt;Test Chi-cuadrado de independencia&lt;/li&gt;
+&lt;li&gt;Test Chi-cuadrado de bondad de ajuste&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Concordancia
 &lt;ul&gt;
-&lt;li&gt;Random games:
+&lt;li&gt;Coeficiente de correlación intraclase&lt;/li&gt;
+&lt;li&gt;Kappa de Cohen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Probabilidad
 &lt;ul&gt;
-&lt;li&gt;Coins&lt;/li&gt;
-&lt;li&gt;Dice&lt;/li&gt;
-&lt;li&gt;Cards&lt;/li&gt;
-&lt;li&gt;Urn&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Build probability space&lt;/li&gt;
-&lt;li&gt;Combine probability spaces&lt;/li&gt;
-&lt;li&gt;Repeat probability space&lt;/li&gt;
-&lt;li&gt;Calculate probability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Probability distributions
+&lt;li&gt;Juegos de azar
 &lt;ul&gt;
-&lt;li&gt;Discrete:
+&lt;li&gt;Monedas
 &lt;ul&gt;
-&lt;li&gt;Binomial&lt;/li&gt;
-&lt;li&gt;Geometric&lt;/li&gt;
-&lt;li&gt;Hypergeometric&lt;/li&gt;
-&lt;li&gt;Poisson&lt;/li&gt;
+&lt;li&gt;Espacio probabilístico&lt;/li&gt;
+&lt;li&gt;Lanzamiento de monedas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Continous:
+&lt;li&gt;Dados
 &lt;ul&gt;
-&lt;li&gt;Uniform&lt;/li&gt;
-&lt;li&gt;Normal&lt;/li&gt;
-&lt;li&gt;Chi-square&lt;/li&gt;
-&lt;li&gt;Student&amp;rsquo;s T&lt;/li&gt;
-&lt;li&gt;Fisher&amp;rsquo;s F&lt;/li&gt;
+&lt;li&gt;Espacio probabilístico&lt;/li&gt;
+&lt;li&gt;Lanzamiento de dados&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Simulations:
+&lt;li&gt;Naipes
 &lt;ul&gt;
-&lt;li&gt;Law of rare events&lt;/li&gt;
+&lt;li&gt;Espacio probabilístico&lt;/li&gt;
+&lt;li&gt;Extracción naipes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Urnas
+&lt;ul&gt;
+&lt;li&gt;Espacio probabilístico&lt;/li&gt;
+&lt;li&gt;Extracción de urnas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;functionality&#34;&gt;Functionality&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;Construcción de espacio probabilístico&lt;/li&gt;
+&lt;li&gt;Combinación de espacios probabilísticos&lt;/li&gt;
+&lt;li&gt;Repetición de espacios probabilísticos&lt;/li&gt;
+&lt;li&gt;Cálculo de probabilidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Distribuciones de probabilidad
+&lt;ul&gt;
+&lt;li&gt;Distribuciones discretas
+&lt;ul&gt;
+&lt;li&gt;Binomial
+&lt;ul&gt;
+&lt;li&gt;Probabilidades&lt;/li&gt;
+&lt;li&gt;Cuantiles&lt;/li&gt;
+&lt;li&gt;Gráfico de probabilidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Poisson
+&lt;ul&gt;
+&lt;li&gt;Probabilidades&lt;/li&gt;
+&lt;li&gt;Cuantiles&lt;/li&gt;
+&lt;li&gt;Gráfico de probabilidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Distribuciones continuas
+&lt;ul&gt;
+&lt;li&gt;Chi-cuadrado
+&lt;ul&gt;
+&lt;li&gt;Probabilidades&lt;/li&gt;
+&lt;li&gt;Cuantiles&lt;/li&gt;
+&lt;li&gt;Gráfico de probabilidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;F de Fisher
+&lt;ul&gt;
+&lt;li&gt;Probabilidades&lt;/li&gt;
+&lt;li&gt;Cuantiles&lt;/li&gt;
+&lt;li&gt;Gráfico de probabilidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Normal
+&lt;ul&gt;
+&lt;li&gt;Probabilidades&lt;/li&gt;
+&lt;li&gt;Cuantiles&lt;/li&gt;
+&lt;li&gt;Gráfico de probabilidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;T de student
+&lt;ul&gt;
+&lt;li&gt;Probabilidades&lt;/li&gt;
+&lt;li&gt;Cuantiles&lt;/li&gt;
+&lt;li&gt;Gráfico de probabilidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Uniforme continua
+&lt;ul&gt;
+&lt;li&gt;Probabilidades&lt;/li&gt;
+&lt;li&gt;Cuantiles&lt;/li&gt;
+&lt;li&gt;Gráfico de probabilidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Simulaciones
+&lt;ul&gt;
+&lt;li&gt;Ley de los casos raros&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;funcionalidades&#34;&gt;Funcionalidades&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Menus and dialogs specially designed to easy the learning, ruling out non-common options to get an simplified and intutive interface.&lt;/p&gt;
+&lt;p&gt;Menús y cuadros de diálogo diseñados para facilitar el aprendizaje, eliminando todas las opciones secundarias para conseguir una interfaz simple e intuitiva.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;All the dialogs have a wizard that guide the user step by step through the statistical procedure.
-&lt;img src=&#34;img/wizard.png&#34; alt=&#34;Wizard&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Diseño de asistentes que guían al usuario paso a paso y le asesoran en los análisis estadísticos.
+&lt;img src=&#34;img/wizard.png&#34; alt=&#34;Asistente&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;HTML output tha presents the results of the analysis in a clear and concise way.
-&lt;img src=&#34;img/output.png&#34; alt=&#34;Output&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Salidas en HTML que presentan los resultados de los análisis y sus     interpretaciones de manera clara y concisa.
+&lt;img src=&#34;img/output.png&#34; alt=&#34;Salida&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Charts based in the modern 
-&lt;a href=&#34;http://ggplot2.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ggplot2&lt;/a&gt; package.
-&lt;img src=&#34;img/graphics1.png&#34; alt=&#34;Charts&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Gráficos sencillos basados en el moderno paquete ggplot2.
+&lt;img src=&#34;img/graphics1.png&#34; alt=&#34;Salida gráfica&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Computation formulas and details available for some statistical procedures.
-&lt;img src=&#34;img/detailed_calculation.png&#34; alt=&#34;Computation details&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Posibilidad mostrar el desarrollo de los cálculos de algunos
+procedimientos estadísticos.
+&lt;img src=&#34;img/detailed_calculation.png&#34; alt=&#34;Salida gráfica&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;rk.Teaching is maintained by 
+&lt;p&gt;rk.Teaching es mantenido por 
 &lt;a href=&#34;https://github.com/asalber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asalber&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-cite-rkteaching&#34;&gt;How to cite rk.Teaching?&lt;/h2&gt;
-&lt;p&gt;Sánchez-Alberca, A. (2020). rk.Teaching (version 1.3) [software]. Get from: &lt;a href=&#34;http://aprendeconalf.es/projects/rkteaching&#34;&gt;http://aprendeconalf.es/projects/rkteaching&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;cómo-citar-rkteching&#34;&gt;¿Cómo citar rk.Teching?&lt;/h2&gt;
+&lt;p&gt;Sánchez-Alberca, A. (2020). rk.Teaching (version 1.3) [software]. Obtenido de: &lt;a href=&#34;http://aprendeconalf.es/es/proyecto/rkteaching&#34;&gt;http://aprendeconalf.es/es/proyecto/rkteaching&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

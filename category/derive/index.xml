@@ -5,7 +5,7 @@
     <link>/category/derive/</link>
       <atom:link href="/category/derive/index.xml" rel="self" type="application/rss+xml" />
     <description>Derive</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Derive</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Calculus with Derive</title>
-      <link>/teaching/derive/</link>
+      <title>Cálculo con Derive</title>
+      <link>/docencia/derive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/teaching/derive/</guid>
+      <guid>/docencia/derive/</guid>
       <description></description>
     </item>
     
