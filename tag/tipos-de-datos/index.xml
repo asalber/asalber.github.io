@@ -48,7 +48,7 @@
     Usa la función &lt;code&gt;print&lt;/code&gt; para mostrar cadenas por pantalla.
   &lt;/div&gt;
 &lt;/div&gt; --&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que almacene la cadena &lt;code&gt;¡Hola Mundo!&lt;/code&gt; en una variable y luego muestre por pantalla el contenido de la variable.&lt;/p&gt;
 &lt;!-- &lt;div&gt;&lt;button class=&#34;resolution&#34;&gt;Resolver&lt;/button&gt;&lt;/div&gt;
@@ -82,7 +82,7 @@
     Usa el símbolo `=` para asignar un valor a una variable y la función &lt;code&gt;print&lt;/code&gt; para mostrar el contenido de la variable por pantalla.
   &lt;/div&gt;
 &lt;/div&gt; --&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla la cadena &lt;code&gt;¡Hola &amp;lt;nombre&amp;gt;!&lt;/code&gt;, donde &lt;code&gt;&amp;lt;nombre&amp;gt;&lt;/code&gt; es el nombre que el usuario haya introducido.&lt;/p&gt;
 &lt;!-- &lt;div&gt;&lt;button class=&#34;resolution&#34;&gt;Resolver&lt;/button&gt;&lt;/div&gt;
@@ -123,48 +123,48 @@
     Usa la función &lt;code&gt;input&lt;/code&gt; para leer una cadena desde la terminal, el símbolo `=` para asignar la cadena a la variable y la función &lt;code&gt;print&lt;/code&gt; para mostrar el saludo por pantalla.
   &lt;/div&gt;
 &lt;/div&gt; --&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pregunte el nombre del usuario en la consola y un número entero e imprima por pantalla en líneas distintas el nombre del usuario tantas veces como el número introducido.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla &lt;code&gt;&amp;lt;NOMBRE&amp;gt; tiene &amp;lt;n&amp;gt; letras&lt;/code&gt;, donde &lt;code&gt;&amp;lt;NOMBRE&amp;gt;&lt;/code&gt; es el nombre de usuario en mayúsculas y &lt;code&gt;&amp;lt;n&amp;gt;&lt;/code&gt; es el número de letras que tienen el nombre.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que realice la siguiente operación aritmética $\left(\frac{3+2}{2\cdot 5}\right)^2$.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-7&#34;&gt;Ejercicio 7&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora.
 Después debe mostrar por pantalla la paga que le corresponde.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-8&#34;&gt;Ejercicio 8&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que lea un entero positivo, $n$, introducido por el usuario y después muestre en pantalla la suma de todos los enteros desde 1 hasta $n$.
 La suma de los $n$ primeros enteros positivos puede ser calculada de la siguiente forma:&lt;/p&gt;
 &lt;p&gt;$$ \mbox{suma} = \frac{n(n+1)}{2} $$&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-9&#34;&gt;Ejercicio 9&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la frase &lt;code&gt;Tu índice de masa corporal es &amp;lt;imc&amp;gt;&lt;/code&gt; donde &lt;code&gt;&amp;lt;imc&amp;gt;&lt;/code&gt; es el índice de masa corporal calculado redondeado con dos decimales.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-10&#34;&gt;Ejercicio 10&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pida al usuario dos números enteros y muestre por pantalla la &lt;code&gt;&amp;lt;n&amp;gt; entre &amp;lt;m&amp;gt; da un cociente &amp;lt;c&amp;gt; y un resto &amp;lt;r&amp;gt;&lt;/code&gt; donde &lt;code&gt;&amp;lt;n&amp;gt;&lt;/code&gt; y &lt;code&gt;&amp;lt;m&amp;gt;&lt;/code&gt; son los números introducidos por el usuario, y &lt;code&gt;&amp;lt;c&amp;gt;&lt;/code&gt; y &lt;code&gt;&amp;lt;r&amp;gt;&lt;/code&gt; son el cociente y el resto de la división entera respectivamente.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio10.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio10.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-11&#34;&gt;Ejercicio 11&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años, y muestre por pantalla el capital obtenido en la inversión.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio11.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio11.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-12&#34;&gt;Ejercicio 12&lt;/h2&gt;
 &lt;p&gt;Una juguetería tiene mucho éxito en dos de sus productos: payasos y muñecas.
 Suele hacer venta por correo y la empresa de logística les cobra por peso de cada paquete así que deben calcular el peso de los payasos y muñecas que saldrán en cada paquete a demanda. Cada payaso pesa 112 g y cada muñeca 75 g.
 Escribir un programa que lea el número de payasos y muñecas vendidos en el último pedido y calcule el peso total del paquete que será enviado.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio12.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio12.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-13&#34;&gt;Ejercicio 13&lt;/h2&gt;
 &lt;p&gt;Imagina que acabas de abrir una nueva cuenta de ahorros que te ofrece el 4% de interés al año. Estos ahorros debido a intereses, que no se cobran hasta finales de año, se te añaden al balance final de tu cuenta de ahorros.
 Escribir un programa que comience leyendo la cantidad de dinero depositada en la cuenta de ahorros, introducida por el usuario. Después el programa debe calcular y mostrar por pantalla la cantidad de ahorros tras el primer, segundo y tercer años.
 Redondear cada cantidad a dos decimales.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio13.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio13.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-14&#34;&gt;Ejercicio 14&lt;/h2&gt;
 &lt;p&gt;Una panadería vende barras de pan a 3.49€ cada una. El pan que no es el día tiene un descuento del 60%.
 Escribir un programa que comience leyendo el número de barras vendidas que no son del día. Después el programa debe mostrar el precio habitual de una barra de pan, el descuento que se le hace por no ser fresca y el coste final total.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio14.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio14.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
