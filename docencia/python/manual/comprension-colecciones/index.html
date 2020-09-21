@@ -789,7 +789,7 @@
 </code></pre>
 <h3 id="comprensión-de-diccionarios">Comprensión de diccionarios</h3>
 <blockquote>
-<p>{<em>expresion-clave_<code>:</code>_expresion-valor</em> <code>for</code> <em>variables</em> <code>in</code> <em>lista</em> <code>if</code> <em>condicion</em>}</p>
+<p>{<em>expresion-clave</em><code>:</code><em>expresion-valor</em> <code>for</code> <em>variables</em> <code>in</code> <em>lista</em> <code>if</code> <em>condicion</em>}</p>
 </blockquote>
 <p>Esta instrucción genera el diccionario formado por los pares cuyas claves son el resultado de evaluar la expresión <em>expresion-clave</em> y cuyos valores son el resultado de evaluar la expresión <em>expresion-valor</em>, para cada valor que toma la variable <em>variable</em>, donde <em>variable</em> toma todos los valores de la lista <em>lista</em> que cumplen la condición <em>condición</em>.</p>
 <pre><code class="language-python">&gt;&gt;&gt; {palabra:len(palabra) for palabra in ['I', 'love', 'Python']}

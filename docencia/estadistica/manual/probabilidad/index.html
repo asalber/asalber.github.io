@@ -960,8 +960,8 @@ misma probabilidad de ocurrir (<em>equiprobabilidad</em>).</p>
 no se conoce el número de casos posibles.</p>
 </li>
 </ul>
-<p><span class="alert">*¡Ojo! Esto no se cumple en muchos experimentos
-aleatorios reales.*</span></p>
+<p><span class="alert"><em>¡Ojo! Esto no se cumple en muchos experimentos
+aleatorios reales.</em></span></p>
 <p>\note{
 Como hemos visto, en u experimento aleatorio, un determinado suceso puede ocurrir o no al realizar el experimento, es decir, existe cierta
 incertidumbre sobre su ocurrencia. Tiene sentido, por tanto, cuantificar dicha incertidumbre y medir así la verosimilitud del suceso o la
@@ -1500,12 +1500,12 @@ decir, $$P(E|S) \mbox{ y } P(\overline{E}|S)$$</p>
 En el ejemplo anterior se ha visto cómo calcular la probabilidad de que una persona elegida al azar presente el síntoma, pero desde un punto
 de vista de diagnóstico clínico, una pregunta más interesante es:</p>
 <p>Si llega a la consulta una persona que presenta el síntoma, \emph{¿qué se debe diagnosticar?}</p>
-<p>En este caso, las hipótesis ante las que hay que decidir son $A$ y $\overline A$ y sus probabilidades ``a priori&rsquo;&rsquo; son $P(A)=0.2$ y
+<p>En este caso, las hipótesis ante las que hay que decidir son $A$ y $\overline A$ y sus probabilidades ``a priori'' son $P(A)=0.2$ y
 $P(\overline A)=0.8$.</p>
 <p>Esto quiere decir que si no hubiese ninguna información sobre la persona, el diagnóstico sería que no tiene la enfermedad pues es mucho más
 probable que que la tenga.</p>
 <p>Sin embargo, si al reconocer a la persona se observa que presenta el síntoma, dicha información condiciona a las hipótesis, y para decidir
-entre ellas es necesario calcular sus probabilidades ``a posteriori&rsquo;&rsquo;, es decir
+entre ellas es necesario calcular sus probabilidades ``a posteriori'', es decir
 $$ P(A|B) \mbox{ y } P(\overline A|B)$$
 }</p>
 <h3 id="teorema-de-bayes-3">Teorema de Bayes</h3>
@@ -1521,7 +1521,7 @@ que no tiene la enfermedad.</p>
 <p>En este caso se dice que el síntoma $S$ <em>no es determinante</em> a la hora
 de diagnosticar la enfermedad.</p>
 <p>\note{
-Para calcular las probabilidades ``a posteriori&rsquo;&rsquo; se puede utilizar el teorema de Bayes:
+Para calcular las probabilidades ``a posteriori'' se puede utilizar el teorema de Bayes:
 \begin{align*}
 P(A|B) &amp;= \frac{P(A)P(B/A)}{P(A)P(B/A)+P(\overline A)P(B/\overline A)} = \frac{0.2\cdot 0.9}{0.2\cdot 0.9 + 0.8\cdot 0.4} = \frac{0.18}{0.5}=0.36,\newline
 P(\overline A|B) &amp;= \frac{P(\overline A)P(B/\overline A)}{P(A)P(B/A)+P(\overline A)P(B/\overline A)} = \frac{0.8\cdot 0.4}{0.2\cdot 0.9 + 0.8\cdot 0.4} = \frac{0.32}{0.5}=0.64.

@@ -19,22 +19,22 @@
       <guid>/docencia/python/ejercicios/ficheros/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir una función que pida un número entero entre 1 y 10 y guarde en un fichero con el nombre &lt;code&gt;tabla-n.txt&lt;/code&gt; la tabla de multiplicar de ese número, done &lt;code&gt;n&lt;/code&gt; es el número introducido.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/ficheros/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;Escribir una función que pida un número entero entre 1 y 10, lea el fichero &lt;code&gt;tabla-n.txt&lt;/code&gt; con la tabla de multiplicar de ese número, done &lt;code&gt;n&lt;/code&gt; es el número introducido, y la muestre por pantalla. Si el fichero no existe debe mostrar un mensaje por pantalla informando de ello.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/ficheros/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;Escribir una función que pida dos números &lt;code&gt;n&lt;/code&gt; y &lt;code&gt;m&lt;/code&gt; entre 1 y 10, lea el fichero &lt;code&gt;tabla-n.txt&lt;/code&gt; con la tabla de multiplicar de ese número, y muestre por pantalla la línea &lt;code&gt;m&lt;/code&gt; del fichero. Si el fichero no existe debe mostrar un mensaje por pantalla informando de ello.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/ficheros/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que acceda a un fichero de internet mediante su url y muestre por pantalla el número de palabras que contiene.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/ficheros/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que abra el fichero con información sobre el PIB per cápita de los países de la Unión Europea (url:&lt;code&gt;https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_08_10.tsv.gz&amp;amp;unzip=true&lt;/code&gt;), pregunte por las iniciales de un país y muestre el PIB per cápita de ese país de todos los años disponibles.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/ficheros/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
 &lt;p&gt;Escribir un programa para gestionar un listín telefónico con los nombres y los teléfonos de los clientes de una empresa. El programa incorporar funciones crear el fichero con el listín si no existe, para consultar el teléfono de un cliente, añadir el teléfono de un nuevo cliente y eliminar el teléfono de un cliente. El listín debe estar guardado en el fichero de texto &lt;code&gt;listin.txt&lt;/code&gt; donde el nombre del cliente y su teléfono deben aparecer separados por comas y cada cliente en una línea distinta.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/ficheros/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-7&#34;&gt;Ejercicio 7&lt;/h2&gt;
 &lt;p&gt;El fichero 
 &lt;a href=&#34;soluciones/ficheros/cotizacion.csv&#34;&gt;cotizacion.csv&lt;/a&gt; contiene las cotizaciones de las empresas del IBEX35 con las siguientes columnas: &lt;code&gt;Nombre&lt;/code&gt; (nombre de la empresa), &lt;code&gt;Final&lt;/code&gt; (precio de la acción al cierre de bolsa), &lt;code&gt;Máximo&lt;/code&gt; (precio máximo de la acción durante la jornada), &lt;code&gt;Mínimo&lt;/code&gt; (precio mínimo de la acción durante la jornada), &lt;code&gt;Volumen&lt;/code&gt; (Volumen al cierre de bolsa), &lt;code&gt;Efectivo&lt;/code&gt; (capitalización al cierre en miles de euros).&lt;/p&gt;
@@ -46,7 +46,7 @@
 &lt;p&gt;Construir una función que reciba el diccionario devuelto por la función anterior y cree un fichero en formato csv con el mínimo, el máximo y la media de dada columna.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/ficheros/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-8&#34;&gt;Ejercicio 8&lt;/h2&gt;
 &lt;p&gt;El fichero 
 &lt;a href=&#34;soluciones/ficheros/calificaciones.csv&#34;&gt;calificaciones.csv&lt;/a&gt; contiene las calificaciones de un curso. Durante el curso se realizaron dos exámenes parciales de teoría y un examen de prácticas. Los alumnos que tuvieron menos de 4 en alguno de estos exámenes pudieron repetirlo en la al final del curso (convocatoria ordinaria). Escribir un programa que contenga las siguientes funciones:&lt;/p&gt;
@@ -61,7 +61,7 @@
 &lt;p&gt;Una función que reciba una lista de diccionarios como la que devuelve la función anterior y devuelva dos listas, una con los alumnos aprobados y otra con los alumnos suspensos. Para aprobar el curso, la asistencia tiene que ser mayor o igual que el 75%, la nota de los exámenes parciales y de prácticas mayor o igual que 4 y la nota final mayor o igual que 5.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/ficheros/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/ficheros/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

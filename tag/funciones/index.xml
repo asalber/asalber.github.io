@@ -19,38 +19,38 @@
       <guid>/docencia/python/ejercicios/funciones/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir una función que muestre por pantalla el saludo &lt;code&gt;¡Hola amiga!&lt;/code&gt; cada vez que se la invoque.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;Escribir una función a la que se le pase una cadena &lt;code&gt;&amp;lt;nombre&amp;gt;&lt;/code&gt; y muestre por pantalla el saludo &lt;code&gt;¡hola &amp;lt;nombre&amp;gt;!&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;Escribir una función que reciba un número entero positivo y devuelva su factorial.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;Escribir una función que calcule el total de una factura tras aplicarle el IVA. La función debe recibir la cantidad sin IVA y el porcentaje de IVA a aplicar, y devolver el total de la factura. Si se invoca la función sin pasarle el porcentaje de IVA, deberá aplicar un 21%.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
 &lt;p&gt;Escribir una función que calcule el área de un círculo y otra que calcule el volumen de un cilindro usando la primera función.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
 &lt;p&gt;Escribir una función que reciba una muestra de números en una lista y devuelva su media.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-7&#34;&gt;Ejercicio 7&lt;/h2&gt;
 &lt;p&gt;Escribir una función que reciba una muestra de números en una lista y devuelva otra lista con sus cuadrados.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-8&#34;&gt;Ejercicio 8&lt;/h2&gt;
 &lt;p&gt;Escribir una función que reciba una muestra de números en una lista y devuelva un diccionario con su media, varianza y desviación típica.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-9&#34;&gt;Ejercicio 9&lt;/h2&gt;
 &lt;p&gt;Escribir una función que calcule el máximo común divisor de dos números y otra que calcule el mínimo común múltiplo.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-10&#34;&gt;Ejercicio 10&lt;/h2&gt;
 &lt;p&gt;Escribir una función que convierta un número decimal en binario y otra que convierta un número binario en decimal.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio10.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio10.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-11&#34;&gt;Ejercicio 11&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que reciba una cadena de caracteres y devuelva un diccionario con cada palabra que contiene y su frecuencia.
 Escribir otra función que reciba el diccionario generado con la función anterior y devuelva una tupla con la palabra más repetida y su frecuencia.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/funciones/ejercicio11.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/funciones/ejercicio11.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

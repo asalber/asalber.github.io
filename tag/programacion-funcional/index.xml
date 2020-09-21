@@ -19,31 +19,31 @@
       <guid>/docencia/python/ejercicios/programacion-funcional/</guid>
       <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;Escribir una función que aplique un descuento a un precio y otra que aplique el IVA a un precio. Escribir una tercera función que reciba un diccionario con los precios y porcentajes de una cesta de la compra, y una de las funciones anteriores, y utilice la función pasada para aplicar los descuentos o el IVA a los productos de la cesta y devolver el precio final de la cesta.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;Escribir una función que simule una calculadora científica que permita calcular el seno, coseno, tangente, exponencial y logaritmo neperiano. La función preguntará al usuario el valor y la función a aplicar, y mostrará por pantalla una tabla con los enteros de 1 al valor introducido y el resultado de aplicar la función a esos enteros.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;Escribir una función que reciba otra función y una lista, y devuelva otra lista con el resultado de aplicar la función dada a cada uno de los elementos de la lista.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;Escribir una función que reciba otra función booleana y una lista, y devuelva otra lista con los elementos de la lista que devuelvan &lt;code&gt;True&lt;/code&gt; al aplicarles la función booleana.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
 &lt;p&gt;Escribir una función que reciba una frase y devuelva un diccionario con las palabras que contiene y su longitud.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
 &lt;p&gt;Escribir una función reciba una lista de notas y devuelva la lista de calificaciones correspondientes a esas notas.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-7&#34;&gt;Ejercicio 7&lt;/h2&gt;
 &lt;p&gt;Escribir una función reciba un diccionario con las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-8&#34;&gt;Ejercicio 8&lt;/h2&gt;
 &lt;p&gt;Escribir una función reciba un diccionario con las asignaturas y las notas de un alumno y devuelva otro diccionario con las asignaturas en mayúsculas y las calificaciones correspondientes a las notas aprobadas.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-9&#34;&gt;Ejercicio 9&lt;/h2&gt;
 &lt;p&gt;Escribir una función que calcule el módulo de un vector.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-10&#34;&gt;Ejercicio 10&lt;/h2&gt;
 &lt;p&gt;Una inmobiliaria de una ciudad maneja una lista de inmuebles como la siguiente:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;[{&#39;año&#39;: 2000, &#39;metros&#39;: 100, &#39;habitaciones&#39;: 3, &#39;garaje&#39;: True, &#39;zona&#39;: &#39;A&#39;},
@@ -57,11 +57,11 @@
 &lt;li&gt;Zona A: precio = (metros * 1000 + habitaciones * 5000 + garaje * 15000) * (1-antiguedad/100)&lt;/li&gt;
 &lt;li&gt;Zona B: precio = (metros * 1000 + habitaciones * 5000 + garaje * 15000) * (1-antiguedad/100) * 1.5&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio10.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio10.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-11&#34;&gt;Ejercicio 11&lt;/h2&gt;
 &lt;p&gt;Escribir una función que reciba una muestra de números y devuelva los valores atípicos, es decir, los valores cuya puntuación típica sea mayor que 3 o menor que -3.
 Nota: La puntuación típica de un valor se obtiene restando la media y dividiendo por la desviación típica de la muestra.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/python/ejercicios/soluciones/programacion-funcional/ejercicio11.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/asalber.github.io/blob/master/docencia/python/ejercicios/soluciones/programacion-funcional/ejercicio11.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
