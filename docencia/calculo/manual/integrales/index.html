@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Primitiva de una función  Definición - Primitiva de una función. Se dice que la función $F(X)$ es una función primitiva de $f(x)$ si se verifica que $F&#39;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.">
+  <meta name="description" content="Primitiva de una función  Definición - Primitiva de una función. Se dice que la función $F(X)$ es una función primitiva de $f(x)$ si se verifica que $F&rsquo;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.">
 
   
   <link rel="alternate" hreflang="es-es" href="/docencia/calculo/manual/integrales/">
@@ -275,7 +275,7 @@
   <meta property="og:site_name" content="Aprende con Alf">
   <meta property="og:url" content="/docencia/calculo/manual/integrales/">
   <meta property="og:title" content="Cálculo integral | Aprende con Alf">
-  <meta property="og:description" content="Primitiva de una función  Definición - Primitiva de una función. Se dice que la función $F(X)$ es una función primitiva de $f(x)$ si se verifica que $F&#39;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png">
+  <meta property="og:description" content="Primitiva de una función  Definición - Primitiva de una función. Se dice que la función $F(X)$ es una función primitiva de $f(x)$ si se verifica que $F&rsquo;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png">
   <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png"><meta property="og:locale" content="es-es">
   
     
@@ -712,8 +712,8 @@
             <h2 id="primitiva-de-una-función">Primitiva de una función</h2>
 <div class="alert alert-def">
   <div>
-    <p><strong>Definición - Primitiva de una función</strong>. Se dice que la función $F(X)$ es una <em>función primitiva</em> de $f(x)$ si se verifica que $F'(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.</p>
-<p><strong>Ejemplo</strong>. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F'(x)=2x$ para todo $\mathbb{R}$.</p>
+    <p><strong>Definición - Primitiva de una función</strong>. Se dice que la función $F(X)$ es una <em>función primitiva</em> de $f(x)$ si se verifica que $F&rsquo;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.</p>
+<p><strong>Ejemplo</strong>. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F&rsquo;(x)=2x$ para todo $\mathbb{R}$.</p>
 <p>El cálculo de primitivas puede verse con un proceso inverso al cálculo de derivadas, y es por eso también se suele llamar <em>antiderivada</em> a la primitiva de una función.</p>
 <p>Como dos funciones que difieran en una constante tienen la misma derivada, si $F(x)$ es una función primitiva de $f(x)$ también lo será toda función de la forma $F(x)+k$ $\forall k \in \mathbb{R}$.</p>
 <h3 id="integral-indefinida-de-una-función">Integral indefinida de una función</h3>
@@ -772,7 +772,7 @@
 </ul>
 <h3 id="integración-por-partes">Integración por partes</h3>
 <p>Dadas $f$ y $g$, dos funciones derivables de $x$. De la regla de la derivada del producto se deduce</p>
-<p>$$\int{f'(x)g(x)},dx=f(x)g(x)-\int{g'(x)f(x)},dx,$$</p>
+<p>$$\int{f&rsquo;(x)g(x)},dx=f(x)g(x)-\int{g&rsquo;(x)f(x)},dx,$$</p>
 <p>o con notación diferencial, si $u$ y $v$ son funciones derivables de $x$</p>
 <p>$$\int{u},dv=uv-\int{v},du.$$</p>
 <p>Al emplear el método de integración por partes se debe realizar la elección de $u$ y $dv$ de tal forma que las integrales que haya que realizar sean lo más sencillas posibles.</p>
@@ -794,8 +794,8 @@
 \end{aligned}
 $$</p>
 <h3 id="integración-por-cambio-de-variable">Integración por cambio de variable</h3>
-<p>La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))' = f'(g(x))g'(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g'(x)dx$:</p>
-<p>$$\int f'(g(x))g'(x), dx = \int f'(u), du = f(u)+C = f(g(x))+C.$$</p>
+<p>La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))&rsquo; = f&rsquo;(g(x))g&rsquo;(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g&rsquo;(x)dx$:</p>
+<p>$$\int f&rsquo;(g(x))g&rsquo;(x), dx = \int f&rsquo;(u), du = f(u)+C = f(g(x))+C.$$</p>
 <p><strong>Ejemplo</strong>. Para calcular la integral $\int{\dfrac{1}{x\log x}}, dx$ puede hacerse el cambio de variable $u=\log x$ con lo que $du=\frac{1}{x}dx$ y sustituyendo queda</p>
 <p>$$\int \frac{dx}{x\log x}=\int \frac{1}{\log x}\frac{1}{x},dx = \int \frac{1}{u},du = \log |u|+ C,$$</p>
 <p>y deshaciendo el cambio tenemos</p>

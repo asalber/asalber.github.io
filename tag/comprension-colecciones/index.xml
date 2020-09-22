@@ -36,7 +36,7 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;comprensión-de-diccionarios&#34;&gt;Comprensión de diccionarios&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;{&lt;em&gt;expresion-clave&lt;/em&gt;&lt;code&gt;:&lt;/code&gt;&lt;em&gt;expresion-valor&lt;/em&gt; &lt;code&gt;for&lt;/code&gt; &lt;em&gt;variables&lt;/em&gt; &lt;code&gt;in&lt;/code&gt; &lt;em&gt;lista&lt;/em&gt; &lt;code&gt;if&lt;/code&gt; &lt;em&gt;condicion&lt;/em&gt;}&lt;/p&gt;
+&lt;p&gt;{&lt;em&gt;expresion-clave_&lt;code&gt;:&lt;/code&gt;_expresion-valor&lt;/em&gt; &lt;code&gt;for&lt;/code&gt; &lt;em&gt;variables&lt;/em&gt; &lt;code&gt;in&lt;/code&gt; &lt;em&gt;lista&lt;/em&gt; &lt;code&gt;if&lt;/code&gt; &lt;em&gt;condicion&lt;/em&gt;}&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Esta instrucción genera el diccionario formado por los pares cuyas claves son el resultado de evaluar la expresión &lt;em&gt;expresion-clave&lt;/em&gt; y cuyos valores son el resultado de evaluar la expresión &lt;em&gt;expresion-valor&lt;/em&gt;, para cada valor que toma la variable &lt;em&gt;variable&lt;/em&gt;, donde &lt;em&gt;variable&lt;/em&gt; toma todos los valores de la lista &lt;em&gt;lista&lt;/em&gt; que cumplen la condición &lt;em&gt;condición&lt;/em&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; {palabra:len(palabra) for palabra in [&#39;I&#39;, &#39;love&#39;, &#39;Python&#39;]}

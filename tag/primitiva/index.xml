@@ -20,8 +20,8 @@
       <description>&lt;h2 id=&#34;primitiva-de-una-función&#34;&gt;Primitiva de una función&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Primitiva de una función&lt;/strong&gt;. Se dice que la función $F(X)$ es una &lt;em&gt;función primitiva&lt;/em&gt; de $f(x)$ si se verifica que $F&#39;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F&#39;(x)=2x$ para todo $\mathbb{R}$.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Primitiva de una función&lt;/strong&gt;. Se dice que la función $F(X)$ es una &lt;em&gt;función primitiva&lt;/em&gt; de $f(x)$ si se verifica que $F&amp;rsquo;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F&amp;rsquo;(x)=2x$ para todo $\mathbb{R}$.&lt;/p&gt;
 &lt;p&gt;El cálculo de primitivas puede verse con un proceso inverso al cálculo de derivadas, y es por eso también se suele llamar &lt;em&gt;antiderivada&lt;/em&gt; a la primitiva de una función.&lt;/p&gt;
 &lt;p&gt;Como dos funciones que difieran en una constante tienen la misma derivada, si $F(x)$ es una función primitiva de $f(x)$ también lo será toda función de la forma $F(x)+k$ $\forall k \in \mathbb{R}$.&lt;/p&gt;
 &lt;h3 id=&#34;integral-indefinida-de-una-función&#34;&gt;Integral indefinida de una función&lt;/h3&gt;
@@ -80,7 +80,7 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;integración-por-partes&#34;&gt;Integración por partes&lt;/h3&gt;
 &lt;p&gt;Dadas $f$ y $g$, dos funciones derivables de $x$. De la regla de la derivada del producto se deduce&lt;/p&gt;
-&lt;p&gt;$$\int{f&#39;(x)g(x)},dx=f(x)g(x)-\int{g&#39;(x)f(x)},dx,$$&lt;/p&gt;
+&lt;p&gt;$$\int{f&amp;rsquo;(x)g(x)},dx=f(x)g(x)-\int{g&amp;rsquo;(x)f(x)},dx,$$&lt;/p&gt;
 &lt;p&gt;o con notación diferencial, si $u$ y $v$ son funciones derivables de $x$&lt;/p&gt;
 &lt;p&gt;$$\int{u},dv=uv-\int{v},du.$$&lt;/p&gt;
 &lt;p&gt;Al emplear el método de integración por partes se debe realizar la elección de $u$ y $dv$ de tal forma que las integrales que haya que realizar sean lo más sencillas posibles.&lt;/p&gt;
@@ -102,8 +102,8 @@
 \end{aligned}
 $$&lt;/p&gt;
 &lt;h3 id=&#34;integración-por-cambio-de-variable&#34;&gt;Integración por cambio de variable&lt;/h3&gt;
-&lt;p&gt;La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))&#39; = f&#39;(g(x))g&#39;(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g&#39;(x)dx$:&lt;/p&gt;
-&lt;p&gt;$$\int f&#39;(g(x))g&#39;(x), dx = \int f&#39;(u), du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
+&lt;p&gt;La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))&amp;rsquo; = f&amp;rsquo;(g(x))g&amp;rsquo;(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g&amp;rsquo;(x)dx$:&lt;/p&gt;
+&lt;p&gt;$$\int f&amp;rsquo;(g(x))g&amp;rsquo;(x), dx = \int f&amp;rsquo;(u), du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Para calcular la integral $\int{\dfrac{1}{x\log x}}, dx$ puede hacerse el cambio de variable $u=\log x$ con lo que $du=\frac{1}{x}dx$ y sustituyendo queda&lt;/p&gt;
 &lt;p&gt;$$\int \frac{dx}{x\log x}=\int \frac{1}{\log x}\frac{1}{x},dx = \int \frac{1}{u},du = \log |u|+ C,$$&lt;/p&gt;
 &lt;p&gt;y deshaciendo el cambio tenemos&lt;/p&gt;

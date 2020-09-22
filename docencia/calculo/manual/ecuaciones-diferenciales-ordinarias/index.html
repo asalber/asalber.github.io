@@ -715,8 +715,8 @@
 <p>En muchos problemas de geometría, física, química, etc, seq presentan a menudo ecuaciones que relacionan una función con su derivada o derivadas sucesivas.</p>
 <div class="alert alert-def">
   <div>
-    <p><strong>Definición - Ecuación diferencial ordinaria</strong>. Se llama <em>ecuación diferencial ordinaria</em> (E.D.O.) a una ecuación que relaciona una variable independiente $x$, una función desconocida $y(x)$, y las derivadas de $y$ de diversos órdenes $y',y'',\ldots,y^{(n}$; es decir una expresión de la forma</p>
-<p>$$F(x, y, y', y'',\ldots, y^{(n})=0.$$</p>
+    <p><strong>Definición - Ecuación diferencial ordinaria</strong>. Se llama <em>ecuación diferencial ordinaria</em> (E.D.O.) a una ecuación que relaciona una variable independiente $x$, una función desconocida $y(x)$, y las derivadas de $y$ de diversos órdenes $y&rsquo;,y&rsquo;&rsquo;,\ldots,y^{(n}$; es decir una expresión de la forma</p>
+<p>$$F(x, y, y&rsquo;, y&rsquo;&rsquo;,\ldots, y^{(n})=0.$$</p>
 <p>Se llama <em>orden</em> de la ecuación diferencial al mayor de los órdenes de las derivadas que contienen la ecuación.</p>
 <p><strong>Ejemplo</strong>. La ecuación $y\prime\prime\prime+\operatorname{sen}(x)y'=2x$ es una ecuación diferencial ordinaria de tercer orden.</p>
 <h3 id="deducción-de-una-ecuación-diferencial">Deducción de una ecuación diferencial</h3>
@@ -728,7 +728,7 @@
 <h3 id="solución-de-una-ecuación-diferencial-ordinaria">Solución de una ecuación diferencial ordinaria</h3>
 <div class="alert alert-def">
   <div>
-    <p><strong>Definición - Solución de una ecuación diferencial ordinaria</strong>. Se llama <em>solución de una ecuación diferencial ordinaria</em> $F(x,y,y',y'',\ldots,y^{(n})=0$ a cualquier función $y =f(x)$ tal que al sustituirla en la ecuación la convierte en una igualdad; es decir $$F(x,f(x), f'(x), f''(x),\ldots, f^{(n}(x))=0.$$</p>
+    <p><strong>Definición - Solución de una ecuación diferencial ordinaria</strong>. Se llama <em>solución de una ecuación diferencial ordinaria</em> $F(x,y,y&rsquo;,y&rsquo;&rsquo;,\ldots,y^{(n})=0$ a cualquier función $y =f(x)$ tal que al sustituirla en la ecuación la convierte en una igualdad; es decir $$F(x,f(x), f&rsquo;(x), f&rsquo;'(x),\ldots, f^{(n}(x))=0.$$</p>
 <p>La gráfica de la solución de una ecuación diferencial ordinaria se llama <em>curva integral</em>.</p>
 <p>Resolver o integrar una ecuación diferencial ordinaria consiste en hallar todas sus soluciones en un dominio dado. Para ello, habrá que recurrir al cálculo integral.</p>
 <p>De igual modo que al integrar una función aparece una constante que nos da la familia de primitivas de la función, al integrar una ecuación diferencial ordianaria surgen varias constantes arbitrarias. Dando valores a dichas constantes se obtienen todas las soluciones de la ecuación.</p>
@@ -739,13 +739,13 @@
 <p>Geométricamente, la solución general representa una familia de curvas integrales de la ecuación diferencial.</p>
 <p>A menudo, se suelen imponer condiciones para reducir el número de soluciones de la ecuación diferencial. En muchos casos estas condiciones permiten fijar los valores de las constantes y así obtener una solución particular a partir de la solución general.</p>
 <h3 id="ecuaciones-diferenciales-ordinarias-de-primer-orden">Ecuaciones diferenciales ordinarias de primer orden</h3>
-<p>Vamos a estudiar la resolución de E.D.O. de primer orden, $$F(x,y,y')=0.$$</p>
+<p>Vamos a estudiar la resolución de E.D.O. de primer orden, $$F(x,y,y&rsquo;)=0.$$</p>
 <p>La solución general de una E.D.O. de primer orden es $$y = f (x,C),$$ de manera que para obtener una solución particular de la ecuación basta con darle valor a la constante $C$, y para ello es suficiente con fijar una condición inicial.</p>
 <div class="alert alert-def">
   <div>
     <p><strong>Definición - Problema del valor inicial</strong>. Al conjunto formado por una ecuación diferencial ordinaria de primer orden y una condición inicial se le llama <em>problema del valor inicial</em>:</p>
 <p>$$\left{\begin{array}{ll}
-F(x,y,y')=0, &amp; \hbox{E.D.O. de primer orden;} \newline <br>
+F(x,y,y&rsquo;)=0, &amp; \hbox{E.D.O. de primer orden;} \newline <br>
 y(x_0)=y_0, &amp; \hbox{Condición inicial.} \newline
 \end{array}\right.$$</p>
 <p>Resolver un problema del valor inicial consiste en encontrar una solución de la ecuación diferencial que cumpla la condición inicial.</p>
@@ -820,7 +820,7 @@ y(x_0)=y_0.\newline
 <p>que es de variables separables.</p>
 <p>Una vez resuelta la ecuación diferencial anterior, sólo queda deshacer el cambio de variable.</p>
 <p><strong>Ejemplo</strong>. Consideremos la siguiente ecuación diferencial</p>
-<p>$$4x-3y+y'(2y-3x)=0.$$</p>
+<p>$$4x-3y+y&rsquo;(2y-3x)=0.$$</p>
 <p>Escribiéndola de la forma</p>
 <p>$$y'=\frac{3y-4x}{2y-3x}$$</p>
 <p>se puede ver fácilmente que es homogénea.</p>
@@ -847,18 +847,18 @@ y(x_0)=y_0.\newline
 <p>$$y'+g(x)y = h(x).$$</p>
 <h3 id="resolución-de-una-edo-lineal">Resolución de una E.D.O. Lineal</h3>
 <p>Para resolver esta ecuación diferencial, intentamos poner el primer miembro como derivada de un producto. Para ello multiplicamos los dos miembros de la igualdad por una función $f(x)$ tal que</p>
-<p>$$f'(x)=g(x)f(x).$$</p>
+<p>$$f&rsquo;(x)=g(x)f(x).$$</p>
 <p>De esta manera tenemos</p>
 <p>$$\begin{array}{c}ç
 y&rsquo;f(x)+g(x)f(x)y=h(x)f(x)\newline
 \Updownarrow\newline
-y&rsquo;f(x)+f'(x)y=h(x)f(x)\newline
+y&rsquo;f(x)+f&rsquo;(x)y=h(x)f(x)\newline
 \Updownarrow\newline
 \dfrac{d}{dx}(yf(x))=h(x)f(x)
 \end{array}$$</p>
 <p>Integrando ambos miembros de la ecuación anterior llegamos a la solución</p>
 <p>$$yf(x)=\int h(x)f(x),dx+C.$$</p>
-<p>Por otro lado, la única función que cumple $f'(x)=g(x)f(x)$ es</p>
+<p>Por otro lado, la única función que cumple $f&rsquo;(x)=g(x)f(x)$ es</p>
 <p>$$f(x)=e^{\int g(x),dx},$$</p>
 <p>de modo que, al sustituir en la solución anterior, llegamos a la solución general de una ecuación diferencial lineal</p>
 <p>$$ye^{\int g(x),dx}=\int h(x) e^{\int g(x),dx},dx+C,$$</p>
@@ -867,7 +867,7 @@ y&rsquo;f(x)+f'(x)y=h(x)f(x)\newline
 <p><strong>Ejemplo</strong>. Si en la ecuación diferencial que explica el enfriamiento de un cuerpo, la temperatura del medio en el que se encuentra no es constante sino que cambia con el tiempo, es decir, es una función $T_a(t)$, entonces la ecuación diferencial resultante</p>
 <p>$$\frac{dT}{dt}=k(T-T_a(t)),$$</p>
 <p>es una ecuación diferencial lineal que puede escribirse como</p>
-<p>$$T'-kT=-kT_a(t),$$</p>
+<p>$$T&rsquo;-kT=-kT_a(t),$$</p>
 <p>donde el término independiente es $-kT_a(t)$ y el coeficiente de $T$ es $-k$.</p>
 <p>Sustituyendo en la solución general de una ecuación diferencial lineal tenemos</p>
 <p>$$y=e^{-\int -k,dt}\left(\int -kT_a(t)e^{\int -k,dt},dt+C\right)= e^{kt}\left(-\int kT_a(t)e^{-kt},dt+C\right).$$</p>
