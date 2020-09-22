@@ -11119,13 +11119,13 @@ Introduce la nota: -2
 Las asignaturas suspensas son:
 matemáticas
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2020-06-19/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-06-19/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;Escribir una función que tome una lista de números enteros desordenados y devuelva dos listas ordenadas. La primera con los números pares y la segunda con los números impares.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;{&#39;La&#39;: 1, &#39;caracola&#39;: 2, &#39;está&#39;: 1, &#39;enterrada&#39;: 1, &#39;al&#39;: 1, &#39;lado&#39;: 1, &#39;de&#39;: 2, &#39;otra&#39;: 1, &#39;color&#39;: 1}
 [&#39;caracola&#39;, &#39;de&#39;]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2020-06-19/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-06-19/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;Escribir un programa para gestionar las citas de una consulta médica. La base de datos de citas debe estar en un fichero de nombre &lt;code&gt;citas.csv&lt;/code&gt;. Cada cita contendrá los campos &lt;code&gt;dni&lt;/code&gt;, &lt;code&gt;mes&lt;/code&gt;, &lt;code&gt;dia&lt;/code&gt;, &lt;code&gt;hora&lt;/code&gt; y &lt;code&gt;especialidad&lt;/code&gt;. No es necesario que la primera fila del csv contenga los nombres de los campos. El programa debe incluir las siguientes funciones:&lt;/p&gt;
 &lt;ol&gt;
@@ -11133,7 +11133,7 @@ matemáticas
 &lt;li&gt;Una función que reciba un dni y devuelva una lista con las citas de ese paciente.&lt;/li&gt;
 &lt;li&gt;Una función para eliminar las citas anteriores a una fecha dada.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2020-06-19/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-06-19/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;El fichero 
 &lt;a href=&#34;http://aprendeconalf.es/python/examenes/soluciones/examen-2020-06-19/ipc-2020.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ipc-2020.csv&lt;/a&gt; contiene el IPC de las comunidades autónomas de los cinco primeros meses de 2020. Crear un programa que realice las siguientes operaciones utilizando la librería Pandas:&lt;/p&gt;
@@ -11145,7 +11145,7 @@ matemáticas
 &lt;li&gt;Mostrar por pantalla una serie con la desviación típica del IPC mensual de cada grupo.&lt;/li&gt;
 &lt;li&gt;Mostrar por pantalla un DataFrame con las comunidades y grupos donde los precios no han subido en promedio (IPC mensual medio menor de 100).&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2020-06-19/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-06-19/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -11164,13 +11164,13 @@ Fecha: 27 de Mayo de 2020&lt;/p&gt;
  *
 *
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2020-05-27/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-05-27/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;Escribir una función que cuente las palabras que hay en una frase y las devuelva dentro de un diccionario. También tiene que devolver una lista con las palabras que aparecen más de una vez. Por ejemplo si se le pasa la frase: &lt;code&gt;La caracola está enterrada al lado de otra caracola de color&lt;/code&gt; la función debe devolver el diccionario y la lista siguientes:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;{&#39;La&#39;: 1, &#39;caracola&#39;: 2, &#39;está&#39;: 1, &#39;enterrada&#39;: 1, &#39;al&#39;: 1, &#39;lado&#39;: 1, &#39;de&#39;: 2, &#39;otra&#39;: 1, &#39;color&#39;: 1}
 [&#39;caracola&#39;, &#39;de&#39;]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2020-05-27/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-05-27/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;El fichero 
 &lt;a href=&#34;http://aprendeconalf.es/python/examenes/soluciones/examen-2020-05-27/horas-trabajo.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;horas-trabajo.csv&lt;/a&gt; contiene el número de horas mensuales trabajadas por los empleados de una empresa durante el primer cuatrimestre. Crear un programa que realice las siguientes operaciones sin utilizar la librería Pandas:&lt;/p&gt;
@@ -11185,7 +11185,7 @@ Fecha: 27 de Mayo de 2020&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;Crear una función que reciba la base de datos de las horas trabajadas (puede utilizarse el diccionario del apartado anterior u otra estructura de datos), el identificador de un operario y el precio de la hora, y devuelva una tupla con el número totales de horas trabajadas y el salario de ese operario.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2020-05-27/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-05-27/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;El fichero 
 &lt;a href=&#34;http://aprendeconalf.es/python/examenes/soluciones/examen-2020-05-27/horas-trabajo.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;horas-trabajo.csv&lt;/a&gt; contiene el número de horas mensuales trabajadas por los empleados de una empresa durante el primer cuatrimestre. Crear un programa que realice las siguientes operaciones utilizando la librería Pandas:&lt;/p&gt;
@@ -11199,7 +11199,7 @@ Fecha: 27 de Mayo de 2020&lt;/p&gt;
 &lt;li&gt;Mostrar por pantalla una serie con el total de horas trabajadas de cada operario.&lt;/li&gt;
 &lt;li&gt;Mostrar por pantalla una serie con los salarios de todos los operarios ordenados de mayor a menor.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2020-05-27/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-05-27/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -11443,13 +11443,13 @@ Fecha: 18 de Junio de 2019&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;A lo largo de un curso se realizan dos exámenes parciales. Para aprobar el curso la nota media debe ser mayor o igual que 5 siempre y cuando en ambos parciales se tenga al menos un 4. Escribir un programa que pregunte al usuario la nota de los dos parciales y muestre por pantalla si el alumno ha aprobado el curso o si no, y en caso de no haber aprobado, qué parcial tiene que repetir por tener menos de 4 en él.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-06-18/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-06-18/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;Un n-grama es una secuencia de $n$ caracteres consecutivos de una cadena. Por ejemplo, los 3-gramas de la cadena &lt;code&gt;&#39;Python&#39;&lt;/code&gt; son &lt;code&gt;&#39;Pyt&#39;&lt;/code&gt;, &lt;code&gt;&#39;yth&#39;&lt;/code&gt;, &lt;code&gt;&#39;tho&#39;&lt;/code&gt; y &lt;code&gt;&#39;hon&#39;&lt;/code&gt;. Escribir un programa que pregunte por una cadena y un número entero positivo $n$ y muestre por pantalla todos los n-gramas de la cadena.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-06-18/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-06-18/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que elimine de una lista dada todos los elementos repetidos y muestre por pantalla los elementos de la lista sin repeticiones.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-06-18/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-06-18/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
 &lt;p&gt;Definir funciones para codificar y decodificar mensajes en código morse.&lt;/p&gt;
 &lt;ol&gt;
@@ -11488,7 +11488,7 @@ Fecha: 18 de Junio de 2019&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-06-18/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-06-18/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
 &lt;p&gt;La url 
 &lt;a href=&#34;https://datos.madrid.es/egob/catalogo/300117-0-arrendamiento-programas.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;https://datos.madrid.es/egob/catalogo/300117-0-arrendamiento-programas.csv&lt;/code&gt;&lt;/a&gt; apunta a un fichero en formato csv con datos de los arrendamientos de viviendas de la Empresa Municipal de la Vivienda del Ayuntamiento de Madrid.&lt;/p&gt;
@@ -11526,7 +11526,7 @@ Fecha: 18 de Junio de 2019&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-06-18/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-06-18/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -11576,7 +11576,7 @@ Fecha: 27 de Mayo de 2019&lt;/p&gt;
 *********
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;donde $n$ es el número de filas del triángulo.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-05-27/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-05-27/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;Escribir un programa para ver los beneficios de una empresa en un periodo de años.&lt;/p&gt;
 &lt;p&gt;El programa debe cumplir los siguientes requisitos:&lt;/p&gt;
@@ -11587,7 +11587,7 @@ Fecha: 27 de Mayo de 2019&lt;/p&gt;
 &lt;li&gt;El programa debe crear otra lista booleana que indique para cada año si ha habido beneficios o no y mostrarla por pantalla.&lt;/li&gt;
 &lt;li&gt;Finalmente el programa debe mostrar por pantalla la lista de los años con beneficios la lista de los años con pérdidas.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-05-27/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-05-27/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;Definir una función que reciba un número entero entre 0 y 999, y devuelva una cadena con la cantidad introducida en palabras. Por ejemplo, si se introduce 647 debe devolver la cadena &amp;ldquo;seiscientos cuarenta y siete&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;La función debe cumplir los siguientes requisitos:&lt;/p&gt;
@@ -11596,7 +11596,7 @@ Fecha: 27 de Mayo de 2019&lt;/p&gt;
 &lt;li&gt;Deben usarse diccionarios para emparejar cada dígito con la palabra correspondiente para las unidades, decenas y centenas.&lt;/li&gt;
 &lt;li&gt;Debe devolver una cadena con la cantidad introducida en palabras.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-05-27/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-05-27/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
 &lt;p&gt;El fichero 
 &lt;a href=&#34;cotizacion.csv&#34;&gt;&lt;code&gt;cotizacion.csv&lt;/code&gt;&lt;/a&gt; contiene las cotizaciones de las empresas del IBEX35 con las siguientes columnas: &lt;code&gt;nombre&lt;/code&gt; (nombre de la empresa), &lt;code&gt;Final&lt;/code&gt; (precio de la acción al cierre de bolsa), &lt;code&gt;Máximo&lt;/code&gt; (precio máximo de la acción durante la jornada), &lt;code&gt;Mínimo&lt;/code&gt; (precio mínimo de la acción durante la jornada), &lt;code&gt;volumen&lt;/code&gt; (Volumen al cierre de bolsa), &lt;code&gt;Efectivo&lt;/code&gt; (capitalización al cierre en miles de euros).&lt;/p&gt;
@@ -11620,7 +11620,7 @@ Fecha: 27 de Mayo de 2019&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-05-27/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-05-27/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
 &lt;p&gt;Definir una función que reciba una lista de facturas, un NIF y un mes, y devuelva un diccionario con el número de facturas emitidas a ese NIF en el mes indicado y el total facturado en ese mes.&lt;/p&gt;
 &lt;p&gt;La función debe cumplir los siguientes requisitos:&lt;/p&gt;
@@ -11630,7 +11630,7 @@ Fecha: 27 de Mayo de 2019&lt;/p&gt;
 &lt;li&gt;Se debe crear una lista con el total de cada factura (una vez aplicado el IVA) para el NIF y el mes indicados utilizando programación funcional o comprensión de listas.&lt;/li&gt;
 &lt;li&gt;La función debe devolver un diccionario con el número de facturas y el total facturado al NIF en el mes indicado.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/soluciones/examen-2019-05-27/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2019-05-27/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -14230,7 +14230,7 @@ $$&lt;/p&gt;
 &lt;li&gt;Crear una función que reciba una lista de distritos y dibuje dos histogramas con la distribución de precios por persona y día, uno para los alojamientos con título en inglés y otro para los alojamientos con títulos en español. Si la distribución es muy asimétrica, aplicar una transformación logarítmica. ¿Hay diferencias entre los precios de los alojamientos en inglés y el español? Nota: Para identificar el idioma puede usare el módulo langdetect.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/soluciones/madrid-airbnb1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/madrid-airbnb1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/madrid-airbnb1py&#34;&gt;&lt;img src=&#34;/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -14268,7 +14268,7 @@ $$&lt;/p&gt;
 &lt;li&gt;Crear una función que reciba un país devuelva un diccionario con los años y si el endeudamiento en esa fecha era insostenible. Se considera un endeudamiento insostenible si durante los tres años anteriores el porcentaje de deuda pública con respecto al PIB es superior al 20%.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/soluciones/deuda-publica.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/deuda-publica.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/deudapy&#34;&gt;&lt;img src=&#34;/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -14293,7 +14293,7 @@ $$&lt;/p&gt;
 &lt;li&gt;Crear una función reciba una rango de años y genere un gráfico con la evolución anual del total facturado a las secciones.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/soluciones/contratos-menores-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/contratos-menores-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/contratos-menores-madrid&#34;&gt;&lt;img src=&#34;/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -14319,7 +14319,7 @@ $$&lt;/p&gt;
 &lt;li&gt;Crear una función que reciba una magnitud y genere un gráfico con las medias mensuales dentro de Madrid Central y fuera de ella.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/soluciones/emisiones-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/emisiones-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/emisiones-madrid&#34;&gt;&lt;img src=&#34;/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>

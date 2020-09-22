@@ -44,7 +44,7 @@
 &lt;li&gt;Crear una función que reciba una lista de distritos y dibuje dos histogramas con la distribución de precios por persona y día, uno para los alojamientos con título en inglés y otro para los alojamientos con títulos en español. Si la distribución es muy asimétrica, aplicar una transformación logarítmica. ¿Hay diferencias entre los precios de los alojamientos en inglés y el español? Nota: Para identificar el idioma puede usare el módulo langdetect.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/soluciones/madrid-airbnb1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/madrid-airbnb1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/madrid-airbnb1py&#34;&gt;&lt;img src=&#34;/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -82,7 +82,7 @@
 &lt;li&gt;Crear una función que reciba un país devuelva un diccionario con los años y si el endeudamiento en esa fecha era insostenible. Se considera un endeudamiento insostenible si durante los tres años anteriores el porcentaje de deuda pública con respecto al PIB es superior al 20%.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/soluciones/deuda-publica.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/deuda-publica.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/deudapy&#34;&gt;&lt;img src=&#34;/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -107,7 +107,7 @@
 &lt;li&gt;Crear una función reciba una rango de años y genere un gráfico con la evolución anual del total facturado a las secciones.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/soluciones/contratos-menores-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/contratos-menores-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/contratos-menores-madrid&#34;&gt;&lt;img src=&#34;/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -133,7 +133,7 @@
 &lt;li&gt;Crear una función que reciba una magnitud y genere un gráfico con las medias mensuales dentro de Madrid Central y fuera de ella.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/soluciones/emisiones-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/emisiones-madrid.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Abrir con &lt;a href=&#34;https://repl.it/@asalber/emisiones-madrid&#34;&gt;&lt;img src=&#34;/images/logo-replit.png&#34; alt=&#34;Abrir con repl.it&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
