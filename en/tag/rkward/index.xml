@@ -24,13 +24,13 @@
 designed for teaching and learning Statistics.&lt;/p&gt;
 &lt;p&gt;This package has been developed and is maintained by Alfredo Sánchez Alberca &lt;a href=&#34;mailto:asalber@ceu.es&#34;&gt;asalber@ceu.es&lt;/a&gt; in the Departament of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p&gt;
 &lt;p&gt;If you find out some error or have a suggestion, please, let me know it by email or opening an 
-&lt;a href=&#34;https://github.com/rkward-community/rk.Teaching/pulls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue on Github&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://github.com/rkward-community/rkTeaching/pulls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue on Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/rkward.png&#34; alt=&#34;RKWard&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;h3 id=&#34;installation-on-windows&#34;&gt;Installation on Windows&lt;/h3&gt;
-&lt;p&gt;For Windows users there is a bundle that include R, RKWard and rk.Teaching.&lt;/p&gt;
+&lt;p&gt;For Windows users there is a bundle that include R, RKWard and rkTeaching.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://drive.google.com/open?id=1GO2fSa45o1F5u8jVcoEh5gJqgyvVMtwA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Download last version (R versión 3.6.2, RKWard versión 0.7.1, rk.Teaching versión 1.3)&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1xiy6e_5wUAGJwRLkhWQ4_JJDszMUhArN/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Download last version (R versión 3.6.2, RKWard versión 0.7.1b, rkTeaching versión 1.3.0)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Once the file is downloaded, all you have to do is to execute it.
 It will ask for the installation unit and directory.
 It is recommended to install it on the root of unit C, that ist C:.
@@ -56,15 +56,15 @@ It is required a Mac Os version 10.11 or higher.&lt;/p&gt;
 &lt;p&gt;If there is some error during the installation process, check for the possible solutions (&lt;a href=&#34;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&#34;&gt;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a&gt;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install the packages that rk.Teaching depends on&lt;/strong&gt;. The rk.Teaching package depends on several packages that should be installed first.
+&lt;p&gt;&lt;strong&gt;Install the packages that rkTeaching depends on&lt;/strong&gt;. The rkTeaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:&lt;/p&gt;
  &lt;pre&gt;&lt;code&gt;install.packages(c(&#34;R2HTML&#34;,&#34;car&#34;,&#34;e1071&#34;,&#34;Hmisc&#34;,&#34;plyr&#34;,&#34;ggplot2&#34;,&#34;prob&#34;,&#34;ez&#34;,&#34;remotes&#34;))&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install rk.Teaching&lt;/strong&gt;. To install the rk.Teaching package you must type the following commands in the R console:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Install rkTeaching&lt;/strong&gt;. To install the rkTeaching package you must type the following commands in the R console:&lt;/p&gt;
  &lt;pre&gt;&lt;code&gt;
  library(remotes)&lt;br/&gt;
- install_github(&#34;rkward-community/rk.Teaching&#34;, ref=&#34;develop&#34;)
+ install_github(&#34;rkward-community/rkTeaching&#34;, ref=&#34;develop&#34;)
  &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The following video tutorial shows the installation process.&lt;/p&gt;
 
@@ -92,15 +92,15 @@ You have to select the Linux distribution and follow the instructions there.&lt;
 &lt;p&gt;It is important to install versión 0.7 or higher.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install the packages that rk.Teaching depends on&lt;/strong&gt;. The rk.Teaching package depends on several packages that should be installed first.
+&lt;p&gt;&lt;strong&gt;Install the packages that rkTeaching depends on&lt;/strong&gt;. The rkTeaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:&lt;/p&gt;
  &lt;pre&gt;&lt;code&gt;install.packages(c(&#34;R2HTML&#34;,&#34;car&#34;,&#34;e1071&#34;,&#34;Hmisc&#34;,&#34;plyr&#34;,&#34;ggplot2&#34;,&#34;prob&#34;,&#34;ez&#34;,&#34;remotes&#34;))&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install rk.Teaching&lt;/strong&gt;. To install the rk.Teaching package you must type the following commands in the R console:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Install rkTeaching&lt;/strong&gt;. To install the rkTeaching package you must type the following commands in the R console:&lt;/p&gt;
  &lt;pre&gt;&lt;code&gt;
  library(remotes)&lt;br/&gt;
- install_github(&#34;rkward-community/rk.Teaching&#34;, ref=&#34;develop&#34;)
+ install_github(&#34;rkward-community/rkTeaching&#34;, ref=&#34;develop&#34;)
  &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The following video tutorial shows the installation process (in Spanish).&lt;/p&gt;
 
@@ -240,7 +240,7 @@ To install this packages you must run RKWard, open the R console and type the fo
 &lt;h2 id=&#34;functionality&#34;&gt;Functionality&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Menus and dialogs specially designed to easy the learning, ruling out non-common options to get an simplified and intutive interface.&lt;/p&gt;
+&lt;p&gt;Menus and dialogs specially designed to easy the learning, ruling out non-common options to get an simplified and intuitive interface.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;All the dialogs have a wizard that guide the user step by step through the statistical procedure.
@@ -260,10 +260,10 @@ To install this packages you must run RKWard, open the R console and type the fo
 &lt;img src=&#34;img/detailed_calculation.png&#34; alt=&#34;Computation details&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;rk.Teaching is maintained by 
+&lt;p&gt;rkTeaching is maintained by 
 &lt;a href=&#34;https://github.com/asalber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asalber&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-cite-rkteaching&#34;&gt;How to cite rk.Teaching?&lt;/h2&gt;
-&lt;p&gt;Sánchez-Alberca, A. (2020). rk.Teaching (version 1.3) [software]. Get from: &lt;a href=&#34;http://aprendeconalf.es/projects/rkteaching&#34;&gt;http://aprendeconalf.es/projects/rkteaching&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-cite-rkteaching&#34;&gt;How to cite rkTeaching?&lt;/h2&gt;
+&lt;p&gt;Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Get from: &lt;a href=&#34;http://aprendeconalf.es/projects/rkteaching&#34;&gt;http://aprendeconalf.es/projects/rkteaching&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

@@ -21,24 +21,26 @@
 &lt;p&gt;Often in Physics, Chemistry, Biology, Geometry, etc there arise equations that relate a function with its derivative, or successive derivatives.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definition - Ordinary differential equation&lt;/strong&gt;. An &lt;em&gt;ordinary differential equation&lt;/em&gt; (O.D.E.) is a equation that relates an independent variable $x$, a function $y(x)$ that depends on $x$, and the successive derivatives of $y$, $y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n)}$; it can be written as&lt;/p&gt;
-&lt;p&gt;$$F(x, y, y&amp;rsquo;, y&amp;rsquo;&amp;rsquo;,\ldots, y^{(n)})=0.$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definition - Ordinary differential equation&lt;/strong&gt;. An &lt;em&gt;ordinary differential equation&lt;/em&gt; (O.D.E.) is a equation that relates an independent variable $x$, a function $y(x)$ that depends on $x$, and the successive derivatives of $y$, $y&#39;,y&#39;&#39;,\ldots,y^{(n)}$; it can be written as&lt;/p&gt;
+&lt;p&gt;$$F(x, y, y&#39;, y&#39;&#39;,\ldots, y^{(n)})=0.$$&lt;/p&gt;
 &lt;p&gt;The &lt;em&gt;order&lt;/em&gt; of a differential equation is the greatest order of the derivatives in the equation.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The equation $y&#39;&amp;lsquo;&amp;lsquo;+sen(x)y&#39;=2x$ is a differential equation of order 3.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The equation $y&#39;&#39;&#39;+sen(x)y&#39;=2x$ is a differential equation of order 3.&lt;/p&gt;
 &lt;h3 id=&#34;deducing-a-differential-equation&#34;&gt;Deducing a differential equation&lt;/h3&gt;
 &lt;p&gt;To deduce a differential equation that explains a natural phenomenon is essential to understand what a derivative is and how to interpret it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Newton’s law of cooling states&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;“The rate of change of the temperature of a body in a surrounding medium is proportional to the difference between the temperature of the body $T$ and the temperature of the medium $T_a$.”&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The rate of change of the temperature is the derivative of temperature with respect to time $dT/dt$. Thus, Newton’s law of cooling can be explained by the differential equation $$\frac{dT}{dt}=k(T-T_a),$$ where $k$ is a proportionality constant.&lt;/p&gt;
+&lt;p&gt;The rate of change of the temperature is the derivative of temperature with respect to time $dT/dt$. Thus, Newton’s law of cooling can be explained by the differential equation&lt;/p&gt;
+&lt;p&gt;$$\frac{dT}{dt}=k(T-T_a),$$&lt;/p&gt;
+&lt;p&gt;where $k$ is a proportionality constant.&lt;/p&gt;
 &lt;h3 id=&#34;solution-of-an-ordinary-differential-equation&#34;&gt;Solution of an ordinary differential equation&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definition - Solution of an ordinary differential equation&lt;/strong&gt;. Given an ordinary differential equation $F(x,y,y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n})=0$, the function $y=f(x)$ is a &lt;em&gt;solution of the ordinary differential equation&lt;/em&gt; if it satisfies the equation, that is, if&lt;/p&gt;
-&lt;p&gt;$$F(x,f(x), f&amp;rsquo;(x), f&amp;rsquo;&#39;(x),\ldots, f^{(n}(x))=0.$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definition - Solution of an ordinary differential equation&lt;/strong&gt;. Given an ordinary differential equation $F(x,y,y&#39;,y&#39;&#39;,\ldots,y^{(n})=0$, the function $y=f(x)$ is a &lt;em&gt;solution of the ordinary differential equation&lt;/em&gt; if it satisfies the equation, that is, if&lt;/p&gt;
+&lt;p&gt;$$F(x,f(x), f&#39;(x), f&#39;&#39;(x),\ldots, f^{(n}(x))=0.$$&lt;/p&gt;
 &lt;p&gt;The graph of a solution of the ordinary differential equation is known as &lt;em&gt;integral curve&lt;/em&gt;.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -47,7 +49,7 @@
 &lt;h3 id=&#34;general-solution-of-an-ordinary-differential-equation&#34;&gt;General solution of an ordinary differential equation&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definition - General solution of an ordinary differential equation&lt;/strong&gt;. Given an ordinary differential equation $F(x,y,y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n})=0$ of order $n$, the &lt;em&gt;general solution&lt;/em&gt; of the differential equation is a family of functions&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definition - General solution of an ordinary differential equation&lt;/strong&gt;. Given an ordinary differential equation $F(x,y,y&#39;,y&#39;&#39;,\ldots,y^{(n})=0$ of order $n$, the &lt;em&gt;general solution&lt;/em&gt; of the differential equation is a family of functions&lt;/p&gt;
 &lt;p&gt;$$y =f (x,C_1,\ldots,C_n),$$&lt;/p&gt;
 &lt;p&gt;depending on $n$ constants, such that for any value of $C_1,\ldots,C_n$ we get a solution of the differential equation.&lt;/p&gt;
   &lt;/div&gt;
@@ -57,7 +59,7 @@
 &lt;p&gt;Often, it is common to impose conditions to the solutions of a differential equation to reduce the number of solutions. In many cases, these conditions allow to determine the values of the constants in the general solution to get a particular solution.&lt;/p&gt;
 &lt;h2 id=&#34;first-order-differential-equations&#34;&gt;First order differential equations&lt;/h2&gt;
 &lt;p&gt;In this chapter we are going to study first order differential equations&lt;/p&gt;
-&lt;p&gt;$$F(x,y,y&amp;rsquo;)=0.$$&lt;/p&gt;
+&lt;p&gt;$$F(x,y,y&#39;)=0.$$&lt;/p&gt;
 &lt;p&gt;The general solution of a first order differential equation is&lt;/p&gt;
 &lt;p&gt;$$y = f (x,C),$$&lt;/p&gt;
 &lt;p&gt;so to get a particular solution from the general one, it is enough to set the value of the constant $C$, and for that we only need to impose one initial condition.&lt;/p&gt;
@@ -66,7 +68,7 @@
     &lt;p&gt;&lt;strong&gt;Definition - Initial value problem&lt;/strong&gt;. The group consisting of a first order differential equation and an initial condition is known as &lt;em&gt;initial value problem&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{cases}
-F(x,y,y&amp;rsquo;)=0, &amp;amp; \mbox{First order differential equation;} \newline
+F(x,y,y&#39;)=0, &amp;amp; \mbox{First order differential equation;} \newline
 y(x_0)=y_0, &amp;amp; \mbox{Initial condition.}
 \end{cases}
 $$&lt;/p&gt;
@@ -164,7 +166,7 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Once solved the separable differential equation, the substitution must be undone.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us consider the following differential equation
-$$4x-3y+y&amp;rsquo;(2y-3x)=0.$$&lt;/p&gt;
+$$4x-3y+y&#39;(2y-3x)=0.$$&lt;/p&gt;
 &lt;p&gt;Rewriting the equation in this way&lt;/p&gt;
 &lt;p&gt;$$y&#39;=\frac{3y-4x}{2y-3x}$$&lt;/p&gt;
 &lt;p&gt;we can easily check that it is a homogeneous differential equation.&lt;/p&gt;
@@ -195,20 +197,20 @@ $$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;To solve a linear differential equation we try to write the left side of the equation as the derivative of a product. For that we multiply both sides by the function $f(x)$, such that&lt;/p&gt;
-&lt;p&gt;$$f&amp;rsquo;(x)=g(x)f(x).$$&lt;/p&gt;
+&lt;p&gt;$$f&#39;(x)=g(x)f(x).$$&lt;/p&gt;
 &lt;p&gt;Thus, we get&lt;/p&gt;
 &lt;p&gt;$$
 \begin{array}{c}
 y&amp;rsquo;f(x)+g(x)f(x)y=h(x)f(x)\newline
 \Updownarrow\newline
-y&amp;rsquo;f(x)+f&amp;rsquo;(x)y=h(x)f(x)\newline
+y&amp;rsquo;f(x)+f&#39;(x)y=h(x)f(x)\newline
 \Updownarrow\newline
 \dfrac{d}{dx}(yf(x))=h(x)f(x)
 \end{array}
 $$&lt;/p&gt;
 &lt;p&gt;Integrating both sides of the previous equation we get the solution&lt;/p&gt;
 &lt;p&gt;$$yf(x)=\int h(x)f(x)\,dx+C.$$&lt;/p&gt;
-&lt;p&gt;On the other hand, the unique function that satisfies $f&amp;rsquo;(x)=g(x)f(x)$ is&lt;/p&gt;
+&lt;p&gt;On the other hand, the unique function that satisfies $f&#39;(x)=g(x)f(x)$ is&lt;/p&gt;
 &lt;p&gt;$$f(x)=e^{\int g(x)\,dx},$$&lt;/p&gt;
 &lt;p&gt;so, substituting this function in the previous solution we arrive at the solution of the linear differential equation&lt;/p&gt;
 &lt;p&gt;$$ye^{\int g(x)\,dx}=\int h(x) e^{\int g(x)\,dx}\,dx+C,$$&lt;/p&gt;
@@ -222,7 +224,7 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. If in the differential equation of the Newton’s law of cooling the temperature of the surrounding medium is a function of time $T_a(t)$, then the differential equation&lt;/p&gt;
 &lt;p&gt;$$\frac{dT}{dt}=k(T-T_a(t)),$$&lt;/p&gt;
 &lt;p&gt;is a linear differential equation since it can be written as&lt;/p&gt;
-&lt;p&gt;$$T&amp;rsquo;-kT=-kT_a(t),$$&lt;/p&gt;
+&lt;p&gt;$$T&#39;-kT=-kT_a(t),$$&lt;/p&gt;
 &lt;p&gt;where the independent term is $-kT_a(t)$ and the coefficient of $T$ is $-k$.&lt;/p&gt;
 &lt;p&gt;Substituting in the formula of the general solution of a linear differential equation we have&lt;/p&gt;
 &lt;p&gt;$$y=e^{-\int -k\,dt}\left(\int -kT_a(t)e^{\int -k\,dt}\,dt+C\right)=

@@ -23,7 +23,7 @@
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Función de una variable&lt;/strong&gt;. Una &lt;em&gt;función&lt;/em&gt; $f$ de un conjunto $A$ en otro $B$ es una &lt;em&gt;relación&lt;/em&gt; que asocia cada elemento $a\in A$, con un &lt;em&gt;único&lt;/em&gt; elemento de $B$ que se denota $f(a)$, y se llama &lt;em&gt;imagen&lt;/em&gt; de $a$ mediante $f$.&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
-f:,&amp;amp;A\longrightarrow B\newline
+f:\,&amp;amp;A\longrightarrow B\newline
 &amp;amp;a\longrightarrow f(a)\end{aligned}$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -89,7 +89,7 @@ x=t
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Composición de funciones&lt;/strong&gt;. Dadas dos funciones $g:A\rightarrow B$ y $f:B\rightarrow C$, se define la &lt;em&gt;función compuesta&lt;/em&gt; $f\circ g$, (leído $g$ compuesto con $f$) como la función&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
-f\circ g:,&amp;amp; A\longrightarrow C\newline
+f\circ g:\,&amp;amp; A\longrightarrow C\newline
 &amp;amp; x\longrightarrow f(g(x))\end{aligned}$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -871,13 +871,13 @@ $$&lt;/p&gt;
 &lt;h4 id=&#34;regla-de-lhôpital&#34;&gt;Regla de L&amp;rsquo;Hôpital&lt;/h4&gt;
 &lt;div class=&#34;alert alert-theo&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Teorema - Regla de L’Hôpital&lt;/strong&gt;. Si $\dfrac{f(x)}{g(x)}\rightarrow \dfrac{0}{0}$ o $\dfrac{\infty}{\infty}$ cuando $x\rightarrow a$, entonces si existe el límite de $\dfrac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}$ cuando $x\rightarrow a$ se cumple&lt;/p&gt;
-&lt;p&gt;$$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}.$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Regla de L’Hôpital&lt;/strong&gt;. Si $\dfrac{f(x)}{g(x)}\rightarrow \dfrac{0}{0}$ o $\dfrac{\infty}{\infty}$ cuando $x\rightarrow a$, entonces si existe el límite de $\dfrac{f&#39;(x)}{g&#39;(x)}$ cuando $x\rightarrow a$ se cumple&lt;/p&gt;
+&lt;p&gt;$$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f&#39;(x)}{g&#39;(x)}.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
-    Para que exista $\lim_{x\rightarrow a}\dfrac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}$ es necesario que que $f$ y $g$ sean derivables en un entorno de $a$.
+    Para que exista $\lim_{x\rightarrow a}\dfrac{f&#39;(x)}{g&#39;(x)}$ es necesario que que $f$ y $g$ sean derivables en un entorno de $a$.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Sea $f(x)=\dfrac{\log(x^2-1)}{x+2}\rightarrow \dfrac{\infty}{\infty}$ cuando $x\rightarrow \infty$.&lt;/p&gt;
@@ -1107,13 +1107,17 @@ $$&lt;/p&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Incremento&lt;/strong&gt;. Dada una función $y=f(x)$, se llama &lt;em&gt;incremento&lt;/em&gt; de $f$ en un intervalo $[a,b]$ a la diferencia entre el valor de $f$ en cada uno de los extremos del intervalo, y se nota&lt;/p&gt;
 &lt;p&gt;$$\Delta y= f(b)-f(a).$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Cuando $f$ es la función identidad $y=x$, se cumple que&lt;/p&gt;
 &lt;p&gt;$$\Delta x=\Delta y= f(b)-f(a)=b-a,$$&lt;/p&gt;
 &lt;p&gt;y por tanto, el incremento de $x$ en un intervalo es la amplitud del intervalo. Esto nos permite escribir el intervalo $[a,b]$ como $[a,a+\Delta x]$.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Tasa de variación media&lt;/strong&gt;. Se llama &lt;em&gt;tasa de variación media&lt;/em&gt; de $f$ en el intervalo $[a,a+\Delta x]$, al cociente entre el incremento de $y$ y el incremento de $x$ en dicho intervalo, y se escribe&lt;/p&gt;
-&lt;p&gt;$$\textrm{TVM};f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{f(a+\Delta x)-f(a)}{\Delta x}.$$&lt;/p&gt;
+&lt;p&gt;$$\textrm{TVM}\;f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{f(a+\Delta x)-f(a)}{\Delta x}.$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos la función $y=x^2$ que mide el área de un cuadrado de chapa metálica de lado $x$.&lt;/p&gt;
 &lt;p&gt;Si en un determinado instante el lado del cuadrado es $a$, y sometemos la chapa a un proceso de calentamiento que aumenta el lado del cuadrado una cantidad $\Delta x$, ¿en cuánto se incrementará el área del cuadrado?&lt;/p&gt;
 &lt;p&gt;$$
@@ -1126,7 +1130,11 @@ $$&lt;/p&gt;
 &lt;p&gt;$$\operatorname{TVM}f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{2a\Delta x+\Delta x^2}{\Delta x}=2a+\Delta x.$$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/variacion_area_cuadrado.png&#34; width=&#34;250px&#34; alt=&#34;Variación que experimenta el area de un cuadrado al variar el lado&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;interpretación-geométrica-de-la-tasa-de-variación-media&#34;&gt;Interpretación geométrica de la tasa de variación media&lt;/h3&gt;
-&lt;p&gt;La tasa de variación media de $f$ en el intervalo $[a,a+\Delta x]$ es la pendiente de la recta &lt;em&gt;secante&lt;/em&gt; a $f$ en los puntos $(a,f(a))$ y $(a+\Delta x,f(a+\Delta x))$.&lt;/p&gt;
+&lt;div class=&#34;alert alert-int&#34;&gt;
+  &lt;div&gt;
+    La tasa de variación media de $f$ en el intervalo $[a,a+\Delta x]$ es la pendiente de la recta &lt;em&gt;secante&lt;/em&gt; a $f$ en los puntos $(a,f(a))$ y $(a+\Delta x,f(a+\Delta x))$.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/secante.png&#34; width=&#34;500px&#34; alt=&#34;Gráfica de la recta secante a una función en dos puntos&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;tasa-de-variación-instantánea&#34;&gt;Tasa de variación instantánea&lt;/h3&gt;
 &lt;p&gt;En muchas ocasiones, es interesante estudiar la tasa de variación que experimenta una función, no en intervalo, sino en un punto.&lt;/p&gt;
@@ -1134,9 +1142,16 @@ $$&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Tasa de variación instantánea y derivada&lt;/strong&gt;. Dada una función $y=f(x)$, se llama &lt;em&gt;tasa de variación instantánea&lt;/em&gt; de $f$ en un punto $a$, al límite de la tasa de variación media de $f$ en el intervalo $[a,a+\Delta x]$, cuando $\Delta x$ tiende a 0, y lo notaremos&lt;/p&gt;
-&lt;p&gt;$$\operatorname{TVI} f(a)=\lim_{\Delta x\rightarrow 0} \operatorname{TVM}f[a,a+\Delta x]=\lim_{\Delta x\rightarrow 0}\frac{\Delta y}{\Delta x}=\lim_{\Delta x\rightarrow 0}\frac{f(a+\Delta x)-f(a)}{\Delta x}$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+\operatorname{TVI} f(a) &amp;amp;= \lim_{\Delta x\rightarrow 0} \operatorname{TVM}f[a,a+\Delta x]=\lim_{\Delta x\rightarrow 0}\frac{\Delta y}{\Delta x} = \newline
+&amp;amp;= \lim_{\Delta x\rightarrow 0}\frac{f(a+\Delta x)-f(a)}{\Delta x}
+\end{aligned}
+$$&lt;/p&gt;
 &lt;p&gt;Cuando este límite existe, se dice que la función $f$ es derivable en el punto $a$, y al valor del mismo se le llama derivada de $f$ en $a$, y se nota como&lt;/p&gt;
-&lt;p&gt;$$f&amp;rsquo;(a) \mbox{ o bien } \frac{df}{dx}(a)$$&lt;/p&gt;
+&lt;p&gt;$$f&#39;(a) \mbox{ o bien } \frac{df}{dx}(a)$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos de nuevo la función $y=x^2$ que mide el área de un cuadrado de chapa metálica de lado $x$.&lt;/p&gt;
 &lt;p&gt;Si en un determinado instante el lado del cuadrado es $a$, y sometemos la chapa a un proceso de calentamiento que aumenta el lado del cuadrado, ¿cuál es la tasa de variación instantánea del área del cuadrado en dicho instante?&lt;/p&gt;
 &lt;p&gt;$$
@@ -1145,31 +1160,32 @@ $$&lt;/p&gt;
 &amp;amp;=\lim_{\Delta x\rightarrow 0}\frac{2a\Delta x+\Delta x^2}{\Delta x}=\lim_{\Delta x\rightarrow 0} 2a+\Delta x= 2a.
 \end{aligned}
 $$&lt;/p&gt;
-&lt;p&gt;Así pues, $$f&amp;rsquo;(a)=2a,$$ lo que indica que la tendencia de crecimiento el área es del doble del valor del lado.&lt;/p&gt;
-&lt;p&gt;El signo de $f&amp;rsquo;(a)$ indica la tendencia de crecimiento de $f$ en el punto $a$:&lt;/p&gt;
+&lt;p&gt;Así pues, $$f&#39;(a)=2a,$$ lo que indica que la tendencia de crecimiento el área es del doble del valor del lado.&lt;/p&gt;
+&lt;p&gt;El signo de $f&#39;(a)$ indica la tendencia de crecimiento de $f$ en el punto $a$:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$f&amp;rsquo;(a)&amp;gt;0$ indica que la tendencia es creciente.&lt;/li&gt;
-&lt;li&gt;$f&amp;rsquo;(a)&amp;lt;0$ indica que la tendencia es decreciente.&lt;/li&gt;
+&lt;li&gt;$f&#39;(a)&amp;gt;0$ indica que la tendencia es creciente.&lt;/li&gt;
+&lt;li&gt;$f&#39;(a)&amp;lt;0$ indica que la tendencia es decreciente.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;interpretación-geométrica-de-la-tasa-de-variación-instantánea&#34;&gt;Interpretación geométrica de la tasa de variación instantánea&lt;/h3&gt;
-&lt;p&gt;La tasa de variación instantánea de $f$ en el punto $a$ es la pendiente de la recta &lt;em&gt;tangente&lt;/em&gt; a $f$ en el punto $(a,f(a))$.&lt;/p&gt;
+&lt;div class=&#34;alert alert-int&#34;&gt;
+  &lt;div&gt;
+    La tasa de variación instantánea de $f$ en el punto $a$ es la pendiente de la recta &lt;em&gt;tangente&lt;/em&gt; a $f$ en el punto $(a,f(a))$.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/tangente.png&#34; width=&#34;500px&#34; alt=&#34;Gráfica de la recta tangente a una función en un punto&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;interpretación-cinemática-de-la-derivada&#34;&gt;Interpretación cinemática de la derivada&lt;/h2&gt;
-&lt;h3 id=&#34;interpretación-cinemática-de-la-tasa-de-variación&#34;&gt;Interpretación cinemática de la tasa de variación&lt;/h3&gt;
-&lt;h4 id=&#34;movimiento-rectilineo&#34;&gt;Movimiento rectilineo&lt;/h4&gt;
+&lt;h3 id=&#34;movimiento-rectilineo&#34;&gt;Movimiento rectilineo&lt;/h3&gt;
 &lt;p&gt;Supongase que la función $f(t)$ describe la posición de un objeto móvil sobre la recta real en el instante $t$. Tomando como referencia el
 origen de coordenadas $O$ y el vector unitario $\mathbf{i}=(1)$, se puede representar la posición $P$ del móvil en cada instante $t$ mediante un vector $\vec{OP}=x\mathbf{i}$ donde $x=f(t)$.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/movimiento_rectilineo.png&#34; width=&#34;500px&#34; alt=&#34;Interpretación cinemática del movimiento rectilineo&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;También tiene sentido pensar en $f$ como una función que mide otras magnitudes como por ejemplo la temperatura de un cuerpo, la concentración de un gas o la cantidad de un compuesto en una reacción química en un instante $t$.&lt;/p&gt;
-&lt;h3 id=&#34;interpretación-cinemática-de-la-tasa-de-variación-media&#34;&gt;Interpretación cinemática de la tasa de variación media&lt;/h3&gt;
 &lt;p&gt;En este contexto, si se toman los instantes $t=t_0$ y $t=t_0+\Delta t$, ambos del dominio $I$ de $f$, el vector&lt;/p&gt;
 &lt;p&gt;$$\mathbf{v}_m=\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t}$$&lt;/p&gt;
 &lt;p&gt;que se conoce como &lt;em&gt;velocidad media&lt;/em&gt; de la trayectoria $f$ entre los instantes $t_0$ y $t_0+\Delta t$.&lt;/p&gt;
-&lt;p&gt;Un vehículo realiza un viaje de Madrid a Barcelona. Sea $f$ la función que da la posición el vehículo en cada instante. Si el vehículo parte de Madrid (km 0) a las 8 y llega a Barcelona (km 600) a las 14 horas, entonces la velocidad media del vehículo en el trayecto es&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Un vehículo realiza un viaje de Madrid a Barcelona. Sea $f$ la función que da la posición el vehículo en cada instante. Si el vehículo parte de Madrid (km 0) a las 8 y llega a Barcelona (km 600) a las 14 horas, entonces la velocidad media del vehículo en el trayecto es&lt;/p&gt;
 &lt;p&gt;$$\mathbf{v}_m=\frac{f(14)-f(8)}{14-8}=\frac{600-0}{6} = 100 km/h.$$&lt;/p&gt;
-&lt;h3 id=&#34;interpretación-cinemática-de-la-derivada-1&#34;&gt;Interpretación cinemática de la derivada&lt;/h3&gt;
 &lt;p&gt;Siguiendo en este mismo contexto del movimiento rectilineo, la derivada de $f$ en el instante $t=t_0$ es el vector&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v}=f&amp;rsquo;(t_0)=\lim_{\Delta x\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p&gt;
+&lt;p&gt;$$\mathbf{v}=f&#39;(t_0)=\lim_{\Delta x\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p&gt;
 &lt;p&gt;que se conoce, siempre que exista el límite, como &lt;em&gt;velocidad instantánea&lt;/em&gt; o simplemente la &lt;em&gt;velocidad&lt;/em&gt; de la trayectoria $f$ en el instante $t_0$.&lt;/p&gt;
 &lt;p&gt;Es decir, la derivada de la posición respecto del tiempo, es un campo de vectores que recibe el nombre de &lt;em&gt;velocidad a lo largo de la trayectoria $f$&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Siguiendo con el ejemplo anterior, lo que marca el velocímetro en un determinado instante sería el módulo del vector velocidad en ese instante.&lt;/p&gt;
@@ -1186,24 +1202,24 @@ t\in I\subseteq \mathbb{R}
 $$&lt;/p&gt;
 &lt;p&gt;se conocen como &lt;em&gt;funciones coordenadas&lt;/em&gt; de $f$ y se escribe $f(t)=(x(t),y(t))$.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/movimiento_curvilineo.png&#34; width=&#34;500px&#34; alt=&#34;Interpretación cinemática del movimiento curvilineo&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;velocidad-en-una-trayectoria-curvilinea-en-el-plano&#34;&gt;Velocidad en una trayectoria curvilinea en el plano&lt;/h3&gt;
+&lt;h4 id=&#34;velocidad-en-una-trayectoria-curvilinea-en-el-plano&#34;&gt;Velocidad en una trayectoria curvilinea en el plano&lt;/h4&gt;
 &lt;p&gt;En este contexto de una trayectoria $f(t)=(x(t),y(t))$ en el plano real $\mathbb{R}^2$, para un instante $t=t_0$, si existe el vector&lt;/p&gt;
 &lt;p&gt;$$\mathbf{v} = \lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p&gt;
-&lt;p&gt;entonces $f$ es derivable en el instante $t=t_0$ y el vector $\mathbf{v}=f&amp;rsquo;(t_0)$ se conoce como &lt;em&gt;velocidad&lt;/em&gt; de $f$ en ese instante.&lt;/p&gt;
+&lt;p&gt;entonces $f$ es derivable en el instante $t=t_0$ y el vector $\mathbf{v}=f&#39;(t_0)$ se conoce como &lt;em&gt;velocidad&lt;/em&gt; de $f$ en ese instante.&lt;/p&gt;
 &lt;p&gt;Como $f(t_0)=(x(t),y(t))$,&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-f&amp;rsquo;(t)&amp;amp;=\lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t} = \lim_{\Delta t\rightarrow 0} \frac{(x(t_0+\Delta t),y(t_0+\Delta t))-(x(t_0),y(t_0))}{\Delta t} =\newline
+f&#39;(t)&amp;amp;=\lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t} = \lim_{\Delta t\rightarrow 0} \frac{(x(t_0+\Delta t),y(t_0+\Delta t))-(x(t_0),y(t_0))}{\Delta t} =\newline
 &amp;amp;=  \lim_{\Delta t\rightarrow 0} \left(\frac{x(t_0+\Delta t)-x(t_0)}{\Delta t},\frac{y(t_0+\Delta t)-y(t_0)}{\Delta t}\right) =\newline
 &amp;amp;= \left(\lim_{\Delta t\rightarrow 0}\frac{x(t_0+\Delta t)-x(t_0)}{\Delta t},\lim_{\Delta t\rightarrow 0}\frac{y(t_0+\Delta t)-y(t_0)}{\Delta t}\right) =
-(x&amp;rsquo;(t_0),y&amp;rsquo;(t_0)).
+(x&#39;(t_0),y&#39;(t_0)).
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;luego&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v} = x&amp;rsquo;(t_0)\mathbf{i}+y&amp;rsquo;(t_0)\mathbf{j}.$$&lt;/p&gt;
+&lt;p&gt;$$\mathbf{v} = x&#39;(t_0)\mathbf{i}+y&#39;(t_0)\mathbf{j}.$$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Dada la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, sus funciones coordenadas son $x(t) = \cos t$, $y(t) = \operatorname{sen} t$, $t\in \mathbb{R}$, y su velocidad es&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v}=f&amp;rsquo;(t)=(x&amp;rsquo;(t),y&amp;rsquo;(t))=(-\operatorname{sen} t, \cos t).$$&lt;/p&gt;
-&lt;p&gt;En el instante $t=\pi/4$, el móvil estará en la posición $f(\pi/4) = (\cos(\pi/4),\operatorname{sen}(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ y se moverá con una velocidad $\mathbf{v}=f&amp;rsquo;(\pi/4)=(-\operatorname{sen}(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.&lt;/p&gt;
+&lt;p&gt;$$\mathbf{v}=f&#39;(t)=(x&#39;(t),y&#39;(t))=(-\operatorname{sen} t, \cos t).$$&lt;/p&gt;
+&lt;p&gt;En el instante $t=\pi/4$, el móvil estará en la posición $f(\pi/4) = (\cos(\pi/4),\operatorname{sen}(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ y se moverá con una velocidad $\mathbf{v}=f&#39;(\pi/4)=(-\operatorname{sen}(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/circunferencia.png&#34; width=&#34;300px&#34; alt=&#34;Trayectoria de la circunferencia&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Obsérvese que el módulo del vector velocidad siempre será 1 ya que $\lvert \mathbf{v}\rvert = \sqrt{(-\operatorname{sen} t)^2+(\cos t)^2}=1$.&lt;/p&gt;
 &lt;h2 id=&#34;recta-tangente-a-una-trayectoria&#34;&gt;Recta tangente a una trayectoria&lt;/h2&gt;
@@ -1214,36 +1230,55 @@ $$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Recta tangente a una trayectoria&lt;/strong&gt;. Dada una trayectoria $f$ sobre el plano real $\mathbb{R}^2$, se llama &lt;em&gt;recta tangente&lt;/em&gt; a $f$ para $t=t_0$ a la recta de ecuación&lt;/p&gt;
 &lt;p&gt;$$
 \begin{align*}
-l: (x,y)&amp;amp;= f(t_0)+tf&amp;rsquo;(t_0) = (x(t_0),y(t_0))+t(x&amp;rsquo;(t_0),y&amp;rsquo;(t_0))\newline
-&amp;amp;= (x(t_0)+tx&amp;rsquo;(t_0),y(t_0)+ty&amp;rsquo;(t_0)).
+l: (x,y)&amp;amp;= f(t_0)+tf&#39;(t_0) = (x(t_0),y(t_0))+t(x&#39;(t_0),y&#39;(t_0))\newline
+&amp;amp;= (x(t_0)+tx&#39;(t_0),y(t_0)+ty&#39;(t_0)).
 \end{align*}
 $$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Se ha visto que para la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, en el instante $t=\pi/4$ la posición del móvil era $f(\pi/4)=(\sqrt{2}/2,\sqrt{2}/2)$ y su velocidad $\mathbf{v}=(-\sqrt{2}/2,\sqrt{2}/2)$, de modo que la recta tangente a $f$ en ese instante es&lt;/p&gt;
 &lt;p&gt;$$l: X=f(\pi/2)+t\mathbf{v} = \left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)+t\left(\frac{-\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right) =
 \left(\frac{\sqrt{2}}{2}-t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right).$$&lt;/p&gt;
 &lt;p&gt;De la ecuación vectorial de la recta tangente a $f$ para $t=t_0$, se obtiene que sus funciones cartesianas son&lt;/p&gt;
 &lt;p&gt;$$\begin{cases}
-x=x(t_0)+tx&amp;rsquo;(t_0)\newline
-y=y(t_0)+ty&amp;rsquo;(t_0)
+x=x(t_0)+tx&#39;(t_0)\newline
+y=y(t_0)+ty&#39;(t_0)
 \end{cases}
 \quad t\in \mathbb{R},$$&lt;/p&gt;
 &lt;p&gt;y despejando $t$ en ambas ecuaciones e igualando se llega a la ecuación cartesiana de la recta tangente&lt;/p&gt;
-&lt;p&gt;$$\frac{x-x(t_0)}{x&amp;rsquo;(t_0)}=\frac{y-y(t_0)}{y&amp;rsquo;(t_0)},$$&lt;/p&gt;
-&lt;p&gt;si $x&amp;rsquo;(t_0)\neq 0$ e $y&amp;rsquo;(t_0)\neq 0$, y de ahí a la ecuación en la forma punto-pendiente&lt;/p&gt;
-&lt;p&gt;$$y-y(t_0)=\frac{y&amp;rsquo;(t_0)}{x&amp;rsquo;(t_0)}(x-x(t_0)).$$&lt;/p&gt;
+&lt;p&gt;$$\frac{x-x(t_0)}{x&#39;(t_0)}=\frac{y-y(t_0)}{y&#39;(t_0)},$$&lt;/p&gt;
+&lt;p&gt;si $x&#39;(t_0)\neq 0$ e $y&#39;(t_0)\neq 0$, y de ahí a la ecuación en la forma punto-pendiente&lt;/p&gt;
+&lt;p&gt;$$y-y(t_0)=\frac{y&#39;(t_0)}{x&#39;(t_0)}(x-x(t_0)).$$&lt;/p&gt;
 &lt;p&gt;Partiendo de la ecuación vectorial de la tangente del ejemplo anterior $l=\left(\frac{\sqrt{2}}{2}-t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right)$, su ecuación cartesiana es&lt;/p&gt;
-&lt;p&gt;$$\frac{x-\sqrt{2}/2}{-\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y-\sqrt{2}/2 = \frac{-\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=-x+\sqrt{2}.$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{gathered}
+\frac{x-\sqrt{2}/2}{-\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow\newline
+y-\sqrt{2}/2 = \frac{-\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow \newline
+y=-x+\sqrt{2}.
+\end{gathered}
+$$&lt;/p&gt;
 &lt;h3 id=&#34;recta-normal-a-una-trayectoria-en-el-plano&#34;&gt;Recta normal a una trayectoria en el plano&lt;/h3&gt;
-&lt;p&gt;Se ha visto que la recta tangente a una trayectoria $f$ cuando $t=t_0$ es la recta que pasa por el punto el punto $P=f(t_0)$ dirigida por el vector velocidad $\mathbf{v}=f&amp;rsquo;(t_0)=(x&amp;rsquo;(t_0),y&amp;rsquo;(t_0))$. Si en lugar de tomar ese vector se toma como vector director el vector $\mathbf{w}=(y&amp;rsquo;(t_0),-x&amp;rsquo;(t_0))$, que es ortogonal a $\mathbf{v}$, se obtiene otra recta que se conoce como &lt;em&gt;recta normal&lt;/em&gt; a la trayectoria $f$ cuanto $t=t_0$.&lt;/p&gt;
+&lt;p&gt;Se ha visto que la recta tangente a una trayectoria $f$ cuando $t=t_0$ es la recta que pasa por el punto el punto $P=f(t_0)$ dirigida por el vector velocidad $\mathbf{v}=f&#39;(t_0)=(x&#39;(t_0),y&#39;(t_0))$. Si en lugar de tomar ese vector se toma como vector director el vector $\mathbf{w}=(y&#39;(t_0),-x&#39;(t_0))$, que es ortogonal a $\mathbf{v}$, se obtiene otra recta que se conoce como &lt;em&gt;recta normal&lt;/em&gt; a la trayectoria $f$ cuanto $t=t_0$.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Recta normal a una trayectoria&lt;/strong&gt;. Dada una trayectoria $f$ sobre el plano real $\mathbb{R}^2$, se llama &lt;em&gt;recta normal&lt;/em&gt; a $f$ para $t=t_0$ a la recta de ecuación&lt;/p&gt;
-&lt;p&gt;$$l: (x,y)=(x(t_0),y(t_0))+t(y&amp;rsquo;(t_0),-x&amp;rsquo;(t_0)) = (x(t_0)+ty&amp;rsquo;(t_0),y(t_0)-tx&amp;rsquo;(t_0)).$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+l: (x,y) &amp;amp;= (x(t_0),y(t_0))+t(y&#39;(t_0),-x&#39;(t_0)) =\newline
+&amp;amp;= (x(t_0)+ty&#39;(t_0),y(t_0)-tx&#39;(t_0)).
+\end{aligned}
+$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Su ecuación cartesiana es&lt;/p&gt;
-&lt;p&gt;$$\frac{x-x(t_0)}{y&amp;rsquo;(t_0)} = \frac{y-y(t_0)}{-x&amp;rsquo;(t_0)},$$&lt;/p&gt;
+&lt;p&gt;$$\frac{x-x(t_0)}{y&#39;(t_0)} = \frac{y-y(t_0)}{-x&#39;(t_0)},$$&lt;/p&gt;
 &lt;p&gt;y su ecuación en la forma punto pendiente&lt;/p&gt;
-&lt;p&gt;$$y-y(t_0) = \frac{-x&amp;rsquo;(t_0)}{y&amp;rsquo;(t_0)}(x-x(t_0)).$$&lt;/p&gt;
-&lt;p&gt;La recta normal es perpendicular a la recta tangente ya que sus vectores directores son ortogonales.&lt;/p&gt;
+&lt;p&gt;$$y-y(t_0) = \frac{-x&#39;(t_0)}{y&#39;(t_0)}(x-x(t_0)).$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    La recta normal es perpendicular a la recta tangente ya que sus vectores directores son ortogonales.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Siguiendo con el ejemplo de la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, la recta normal en el instante $t=\pi/4$ es&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
@@ -1256,132 +1291,168 @@ $$&lt;/p&gt;
 &lt;p&gt;$$\frac{x-\sqrt{2}/2}{\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y-\sqrt{2}/2 = \frac{\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=x.$$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/circunferencia_tangente_normal.png&#34; width=&#34;600px&#34; alt=&#34;Tangente y normal a la trayectoria de una circunferencia&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;rectas-tangente-y-normal-a-una-función&#34;&gt;Rectas tangente y normal a una función&lt;/h3&gt;
-&lt;p&gt;Un caso particular de las recta tangente y normal a una trayectoria es son la recta tangente y normal a una función de una variable real. Si se tiene la función $y=f(x)$, $x\in I\subseteq \mathbb{R}$, una trayectoria que traza la gráfica de $f$ es $$g(t) = (t,f(t))  \quad t\in I,$$ y su velocidad es $$g&amp;rsquo;(t) = (1,f&amp;rsquo;(t)),$$ de modo que la recta tangente para $t=x_0$ es&lt;/p&gt;
-&lt;p&gt;$$\frac{x-x_0}{1} = \frac{y-f(x_0)}{f&amp;rsquo;(x_0)} \Rightarrow y-f(x_0) = f&amp;rsquo;(x_0)(x-x_0),$$&lt;/p&gt;
+&lt;p&gt;Un caso particular de las recta tangente y normal a una trayectoria es son la recta tangente y normal a una función de una variable real. Si se tiene la función $y=f(x)$, $x\in I\subseteq \mathbb{R}$, una trayectoria que traza la gráfica de $f$ es $$g(t) = (t,f(t))  \quad t\in I,$$ y su velocidad es $$g&#39;(t) = (1,f&#39;(t)),$$ de modo que la recta tangente para $t=x_0$ es&lt;/p&gt;
+&lt;p&gt;$$\frac{x-x_0}{1} = \frac{y-f(x_0)}{f&#39;(x_0)} \Rightarrow y-f(x_0) = f&#39;(x_0)(x-x_0),$$&lt;/p&gt;
 &lt;p&gt;y la recta normal es&lt;/p&gt;
-&lt;p&gt;$$\frac{x-x_0}{f&amp;rsquo;(x_0)} = \frac{y-f(x_0)}{-1} \Rightarrow y-f(x_0) = \frac{-1}{f&amp;rsquo;(x_0)}(x-x_0),$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Dada la función $y=f(x)=x^2$, la trayectoria que dibuja la gráfica de esta función es $g(t)=(t,t^2)$ y su velocidad es $g&amp;rsquo;(t)=(1,2t)$, de modo que en el punto $(1,1)$, que se alcanza en el instante $t=1$, la recta tangente es&lt;/p&gt;
+&lt;p&gt;$$\frac{x-x_0}{f&#39;(x_0)} = \frac{y-f(x_0)}{-1} \Rightarrow y-f(x_0) = \frac{-1}{f&#39;(x_0)}(x-x_0),$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Dada la función $y=f(x)=x^2$, la trayectoria que dibuja la gráfica de esta función es $g(t)=(t,t^2)$ y su velocidad es $g&#39;(t)=(1,2t)$, de modo que en el punto $(1,1)$, que se alcanza en el instante $t=1$, la recta tangente es&lt;/p&gt;
 &lt;p&gt;$$\frac{x-1}{1} = \frac{y-1}{2} \Rightarrow y-1 = 2(x-1) \Rightarrow y = 2x-1,$$&lt;/p&gt;
 &lt;p&gt;y la recta normal es&lt;/p&gt;
 &lt;p&gt;$$\frac{x-1}{2} = \frac{y-1}{-1} \Rightarrow y-1 = \frac{-1}{2}(x-1) \Rightarrow y = \frac{-x}{2}+\frac{3}{2}.$$&lt;/p&gt;
 &lt;h3 id=&#34;recta-tangente-a-una-trayectoria-en-el-espacio&#34;&gt;Recta tangente a una trayectoria en el espacio&lt;/h3&gt;
 &lt;p&gt;El concepto de recta tangente a una trayectoria en el plano real puede extenderse fácilmente a trayectorias en el espacio real $\mathbb{R}^3$.&lt;/p&gt;
-&lt;p&gt;Si $f(t)=(x(t),y(t),z(t))$, $t\in I\subseteq \mathbb{R}$, es una trayectoria en el espacio real $\mathbb{R}^3$, entonces el móvil que recorre esta trayectoria en el instante $t=t_0$, ocupará la posición $P=(x(t_0),y(t_0),z(t_0))$ y tendrá una velocidad $\mathbf{v}=f&amp;rsquo;(t)=(x&amp;rsquo;(t),y&amp;rsquo;(t),z&amp;rsquo;(t))$, de manera que la recta tangente a $f$ en ese instante será&lt;/p&gt;
+&lt;p&gt;Si $f(t)=(x(t),y(t),z(t))$, $t\in I\subseteq \mathbb{R}$, es una trayectoria en el espacio real $\mathbb{R}^3$, entonces el móvil que recorre esta trayectoria en el instante $t=t_0$, ocupará la posición $P=(x(t_0),y(t_0),z(t_0))$ y tendrá una velocidad $\mathbf{v}=f&#39;(t)=(x&#39;(t),y&#39;(t),z&#39;(t))$, de manera que la recta tangente a $f$ en ese instante será&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-l&amp;amp;: (x,y,z)=(x(t_0),y(t_0),z(t_0))+t(x&amp;rsquo;(t_0),y&amp;rsquo;(t_0),z&amp;rsquo;(t_0)) =\newline
-&amp;amp;= (x(t_0)+tx&amp;rsquo;(t_0),y(t_0)+ty&amp;rsquo;(t_0),z(t_0)+tz&amp;rsquo;(t_0)),
+l&amp;amp;: (x,y,z)=(x(t_0),y(t_0),z(t_0))+t(x&#39;(t_0),y&#39;(t_0),z&#39;(t_0)) =\newline
+&amp;amp;= (x(t_0)+tx&#39;(t_0),y(t_0)+ty&#39;(t_0),z(t_0)+tz&#39;(t_0)),
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;cuyas ecuaciones cartesianas son&lt;/p&gt;
-&lt;p&gt;$$\frac{x-x(t_0)}{x&amp;rsquo;(t_0)}=\frac{y-y(t_0)}{y&amp;rsquo;(t_0)}=\frac{z-z(t_0)}{z&amp;rsquo;(t_0)},$$&lt;/p&gt;
-&lt;p&gt;siempre que $x&amp;rsquo;(t_0)\neq 0$, $y&amp;rsquo;(t_0)\neq 0$ y $z&amp;rsquo;(t_0)\neq 0$.&lt;/p&gt;
+&lt;p&gt;$$\frac{x-x(t_0)}{x&#39;(t_0)}=\frac{y-y(t_0)}{y&#39;(t_0)}=\frac{z-z(t_0)}{z&#39;(t_0)},$$&lt;/p&gt;
+&lt;p&gt;siempre que $x&#39;(t_0)\neq 0$, $y&#39;(t_0)\neq 0$ y $z&#39;(t_0)\neq 0$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Dada la trayectoria del espacio $f(t)=(\cos t, \operatorname{sen} t, t)$, $t\in \mathbb{R}$, en el instante $t=\pi/2$, la trayectoria pasará por el punto&lt;/p&gt;
 &lt;p&gt;$$f(\pi/2)=(\cos(\pi/2),\operatorname{sen}(\pi/2),\pi/2)=(0,1,\pi/2),$$&lt;/p&gt;
 &lt;p&gt;con una velocidad&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v}=f&amp;rsquo;(\pi/2)=(-\operatorname{sen}(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$&lt;/p&gt;
+&lt;p&gt;$$\mathbf{v}=f&#39;(\pi/2)=(-\operatorname{sen}(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$&lt;/p&gt;
 &lt;p&gt;y la tangente en ese punto es&lt;/p&gt;
 &lt;p&gt;$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/tangente_trayectoria_espacio.png&#34; width=&#34;400px&#34; alt=&#34;Gráfica de la tangente a una trayectoria en el espacio.&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/geogebra.png&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m156108&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m156108&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;álgebra-de-derivadas&#34;&gt;Álgebra de derivadas&lt;/h2&gt;
 &lt;h3 id=&#34;propiedades-de-la-derivada&#34;&gt;Propiedades de la derivada&lt;/h3&gt;
 &lt;p&gt;Si $y=c$, es una función constante, entonces $y&#39;=0$.&lt;/p&gt;
 &lt;p&gt;Si $y=x$, es la función identidad, entonces $y&#39;=1$.&lt;/p&gt;
 &lt;p&gt;Si $u=f(x)$ y $v=g(x)$ son dos funciones diferenciables, entonces&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$(u+v)&amp;lsquo;=u&#39;+v&#39;$&lt;/li&gt;
-&lt;li&gt;$(u-v)&amp;lsquo;=u&amp;rsquo;-v&#39;$&lt;/li&gt;
-&lt;li&gt;$(u\cdot v)&amp;lsquo;=u&amp;rsquo;\cdot v+ u\cdot v&#39;$&lt;/li&gt;
-&lt;li&gt;$\left(\dfrac{u}{v}\right)&amp;lsquo;=\dfrac{u&amp;rsquo;\cdot v-u\cdot v&amp;rsquo;}{v^2}$&lt;/li&gt;
+&lt;li&gt;$(u+v)&#39;=u&#39;+v&#39;$&lt;/li&gt;
+&lt;li&gt;$(u-v)&#39;=u&#39;-v&#39;$&lt;/li&gt;
+&lt;li&gt;$(u\cdot v)&#39;=u&#39;\cdot v+ u\cdot v&#39;$&lt;/li&gt;
+&lt;li&gt;$\left(\dfrac{u}{v}\right)&#39;=\dfrac{u&#39;\cdot v-u\cdot v&#39;}{v^2}$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;derivada-de-una-función-compuesta-la-regla-de-la-cadena&#34;&gt;Derivada de una función compuesta: La regla de la cadena&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Teorema - Regla de la cadena&lt;/strong&gt;. Si $y=f\circ g$ es la composición de dos funciones $y=f(z)$ y $z=g(x)$, entonces&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;$$(f\circ g)&#39;(x)=f&amp;rsquo;(g(x))g&amp;rsquo;(x),$$&lt;/p&gt;
-&lt;p&gt;Resulta sencillo demostrarlo con la notación diferencial&lt;/p&gt;
-&lt;p&gt;$$\frac{dy}{dx}=\frac{dy}{dz}\frac{dz}{dx}=f&amp;rsquo;(z)g&amp;rsquo;(x)=f&amp;rsquo;(g(x))g&amp;rsquo;(x).$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-theo&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Regla de la cadena&lt;/strong&gt;. Si $y=f\circ g$ es la composición de dos funciones $y=f(z)$ y $z=g(x)$, entonces&lt;/p&gt;
+&lt;p&gt;$$(f\circ g)&#39;(x)=f&#39;(g(x))g&#39;(x),$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-9&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-9&#34;&gt;
+      Demostración
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-9&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Resulta sencillo demostrarlo con la notación diferencial&lt;/p&gt;
+&lt;p&gt;$$\frac{dy}{dx}=\frac{dy}{dz}\frac{dz}{dx}=f&#39;(z)g&#39;(x)=f&#39;(g(x))g&#39;(x).$$&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Si $f(z)=\operatorname{sen} z$ y $g(x)=x^2$, entonces $f\circ g(x)=\operatorname{sen}(x^2)$ y, aplicando la regla de la cadena, su derivada vale&lt;/p&gt;
 &lt;p&gt;$$
-(f\circ g)&#39;(x)=f&amp;rsquo;(g(x))g&amp;rsquo;(x) = \cos g(x) 2x = \cos(x^2)2x.
+(f\circ g)&#39;(x)=f&#39;(g(x))g&#39;(x) = \cos g(x) 2x = \cos(x^2)2x.
 $$&lt;/p&gt;
 &lt;p&gt;Por otro lado, $g\circ f(z)= (\sin z)^2$ y, de nuevo aplicando la regla de la cadena, su derivada vale&lt;/p&gt;
 &lt;p&gt;$$
-(g\circ f)&#39;(z)=g&amp;rsquo;(f(z))f&amp;rsquo;(z) = 2f(z)\cos z = 2\operatorname{sen} z\cos z.
+(g\circ f)&#39;(z)=g&#39;(f(z))f&#39;(z) = 2f(z)\cos z = 2\operatorname{sen} z\cos z.
 $$&lt;/p&gt;
 &lt;h2 id=&#34;derivada-de-la-inversa-de-una-función&#34;&gt;Derivada de la inversa de una función&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Teorema - Derivada de la función inversa&lt;/strong&gt;. Si $y=f(x)$ es una función y $x=f^{-1}(y)$ es su inversa, entonces&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;$$\left(f^{-1}\right)&#39;(y)=\frac{1}{f&amp;rsquo;(x)}=\frac{1}{f&amp;rsquo;(f^{-1}(y))}$$&lt;/p&gt;
-&lt;p&gt;También resulta sencillo de demostrar con la notación diferencial&lt;/p&gt;
-&lt;p&gt;$$\frac{dx}{dy}=\frac{1}{dy/dx}=\frac{1}{f&amp;rsquo;(x)}=\frac{1}{f&amp;rsquo;(f^{-1}(y))}$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-theo&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Derivada de la función inversa&lt;/strong&gt;. Si $y=f(x)$ es una función y $x=f^{-1}(y)$ es su inversa, entonces&lt;/p&gt;
+&lt;p&gt;$$\left(f^{-1}\right)&#39;(y)=\frac{1}{f&#39;(x)}=\frac{1}{f&#39;(f^{-1}(y))}$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-11&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-11&#34;&gt;
+      Demostración
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-11&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;También resulta sencillo de demostrar con la notación diferencial&lt;/p&gt;
+&lt;p&gt;$$\frac{dx}{dy}=\frac{1}{dy/dx}=\frac{1}{f&#39;(x)}=\frac{1}{f&#39;(f^{-1}(y))}$$&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La inversa de la función exponencial $y=f(x)=e^x$ es el logaritmo neperiano $x=f^{-1}(y)=\ln y$, de modo que para calcular la derivada del logaritmo podemos utilizar el teorema de la derivada de la inversa y se tiene&lt;/p&gt;
 &lt;p&gt;$$
-\left(f^{-1}\right)&#39;(y)=\frac{1}{f&amp;rsquo;(x)}=\frac{1}{e^x}=\frac{1}{e^{\ln y}}=\frac{1}{y}.
+\left(f^{-1}\right)&#39;(y)=\frac{1}{f&#39;(x)}=\frac{1}{e^x}=\frac{1}{e^{\ln y}}=\frac{1}{y}.
 $$&lt;/p&gt;
 &lt;h2 id=&#34;estudio-del-crecimiento-de-una-función&#34;&gt;Estudio del crecimiento de una función&lt;/h2&gt;
 &lt;p&gt;La principal aplicación de la derivada es el estudio del crecimiento de una función mediante el signo de la derivada.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Teorema&lt;/strong&gt;. Si $f$ es una función cuya derivada existe en un intervalo $I$, entonces:&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&#34;alert alert-theo&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema&lt;/strong&gt;. Si $f$ es una función cuya derivada existe en un intervalo $I$, entonces:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Si $\forall x\in I\ f&amp;rsquo;(x)\geq 0$ entonces $f$ es creciente en el intervalo $I$.&lt;/li&gt;
-&lt;li&gt;Si $\forall x\in I\ f&amp;rsquo;(x)\leq 0$ entonces $f$ es decreciente en el intervalo $I$.&lt;/li&gt;
+&lt;li&gt;Si $\forall x\in I\ f&#39;(x)\geq 0$ entonces $f$ es creciente en el intervalo $I$.&lt;/li&gt;
+&lt;li&gt;Si $\forall x\in I\ f&#39;(x)\leq 0$ entonces $f$ es decreciente en el intervalo $I$.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $f(x)=x^3$ es creciente en todo $\mathbb{R}$ ya que $\forall x\in \mathbb{R}\ f&amp;rsquo;(x)\geq 0$.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Observación&lt;/strong&gt;. &lt;em&gt;Una función puede ser creciente o decreciente en un intervalo y no tener derivada.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos la función $f(x)=x^4-2x^2+1$. Su derivada $f&amp;rsquo;(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $f(x)=x^3$ es creciente en todo $\mathbb{R}$ ya que $\forall x\in \mathbb{R}\ f&#39;(x)\geq 0$.&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Una función puede ser creciente o decreciente en un intervalo y no tener derivada.*
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos la función $f(x)=x^4-2x^2+1$. Su derivada $f&#39;(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/crecimiento.png&#34; width=&#34;500px&#34; alt=&#34;Estudio del crecimiento de una función&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;determinación-de-los-extremos-relativos-de-una-función&#34;&gt;Determinación de los extremos relativos de una función&lt;/h2&gt;
 &lt;p&gt;Como consecuencia del resultado anterior, la derivada también sirve para determinar los extremos relativos de una función.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Teorema - Criterio de la primera derivada&lt;/strong&gt;. Sea $f$ es una función cuya derivada existe en un intervalo $I$, y sea $x_0\in I$ tal que $f&amp;rsquo;(x_0)=0$, entonces:&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&#34;alert alert-theo&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Criterio de la primera derivada&lt;/strong&gt;. Sea $f$ es una función cuya derivada existe en un intervalo $I$, y sea $x_0\in I$ tal que $f&#39;(x_0)=0$, entonces:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Si existe un $\delta&amp;gt;0$ tal que $\forall x\in(x_0-\delta,x_0)\ f&amp;rsquo;(x)&amp;gt;0$ y $\forall x\in(x_0,x_0+\delta)\ f&amp;rsquo;(x)&amp;lt;0$ entonces $f$ tiene un &lt;em&gt;máximo relativo&lt;/em&gt; en $x_0$.&lt;/li&gt;
-&lt;li&gt;Si existe un $\delta&amp;gt;0$ tal que $\forall x\in(x_0-\delta,x_0)\ f&amp;rsquo;(x)&amp;lt;0$ y $\forall x\in(x_0,x_0+\delta)\ f&amp;rsquo;(x)&amp;gt;0$ entonces $f$ tiene un
+&lt;li&gt;Si existe un $\delta&amp;gt;0$ tal que $\forall x\in(x_0-\delta,x_0)\ f&#39;(x)&amp;gt;0$ y $\forall x\in(x_0,x_0+\delta)\ f&#39;(x)&amp;lt;0$ entonces $f$ tiene un &lt;em&gt;máximo relativo&lt;/em&gt; en $x_0$.&lt;/li&gt;
+&lt;li&gt;Si existe un $\delta&amp;gt;0$ tal que $\forall x\in(x_0-\delta,x_0)\ f&#39;(x)&amp;lt;0$ y $\forall x\in(x_0,x_0+\delta)\ f&#39;(x)&amp;gt;0$ entonces $f$ tiene un
 &lt;em&gt;mínimo relativo&lt;/em&gt; en $x_0$.&lt;/li&gt;
-&lt;li&gt;Si existe un $\delta&amp;gt;0$ tal que $\forall x\in(x_0-\delta,x_0)\ f&amp;rsquo;(x)&amp;gt;0$ y $\forall x\in(x_0,x_0+\delta)\ f&amp;rsquo;(x)&amp;gt;0$ entonces $f$ tiene un &lt;em&gt;punto de inflexión creciente&lt;/em&gt; en $x_0$.&lt;/li&gt;
-&lt;li&gt;Si existe un $\delta&amp;gt;0$ tal que $\forall x\in(x_0-\delta,x_0)\ f&amp;rsquo;(x)&amp;lt;0$ y $\forall x\in(x_0,x_0+\delta)\ f&amp;rsquo;(x)&amp;lt;0$ entonces $f$ tiene un &lt;em&gt;punto de inflexión decreciente&lt;/em&gt; en $x_0$.&lt;/li&gt;
+&lt;li&gt;Si existe un $\delta&amp;gt;0$ tal que $\forall x\in(x_0-\delta,x_0)\ f&#39;(x)&amp;gt;0$ y $\forall x\in(x_0,x_0+\delta)\ f&#39;(x)&amp;gt;0$ entonces $f$ tiene un &lt;em&gt;punto de inflexión creciente&lt;/em&gt; en $x_0$.&lt;/li&gt;
+&lt;li&gt;Si existe un $\delta&amp;gt;0$ tal que $\forall x\in(x_0-\delta,x_0)\ f&#39;(x)&amp;lt;0$ y $\forall x\in(x_0,x_0+\delta)\ f&#39;(x)&amp;lt;0$ entonces $f$ tiene un &lt;em&gt;punto de inflexión decreciente&lt;/em&gt; en $x_0$.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Los puntos donde se anula la derivada de una función se denominan &lt;em&gt;puntos críticos&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos de nuevo la función $f(x)=x^4-2x^2+1$. Su derivada $f&amp;rsquo;(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos de nuevo la función $f(x)=x^4-2x^2+1$. Su derivada $f&#39;(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/extremos.png&#34; width=&#34;500px&#34; alt=&#34;Estudio de los extremos de una función&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;estudio-de-la-concavidad-de-una-función&#34;&gt;Estudio de la concavidad de una función&lt;/h2&gt;
 &lt;p&gt;La concavidad de una función puede estudiarse mediante el signo de la segunda derivada.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Teorema - Criterio de la segunda derivada&lt;/strong&gt;. Si $f$ es una función cuya segundaderivada existe en un intervalo $I$, entonces:&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&#34;alert alert-theo&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Criterio de la segunda derivada&lt;/strong&gt;. Si $f$ es una función cuya segundaderivada existe en un intervalo $I$, entonces:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Si $\forall x\in I\ f^{\prime\prime}(x)\geq 0$ entonces $f$ es cóncava en el intervalo $I$.&lt;/li&gt;
 &lt;li&gt;Si $\forall x\in I\ f^{\prime\prime}(x)\leq 0$ entonces $f$ es convexa en el intervalo $I$.&lt;/li&gt;
 &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $f(x)=x^2$ tiene segunda derivada $f^{\prime\prime}(x)=2&amp;gt;0$ y por tanto es cóncava en todo $\mathbb{R}$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Observación&lt;/strong&gt;. &lt;em&gt;Una función puede ser cóncava o convexa en un intervalo y no tener derivada.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos de nuevo la función $f(x)=x^4-2x^2+1$. Su segunda derivada $f^{\prime\prime}(x)=12x^2-4$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/concavidad.png&#34; width=&#34;500px&#34; alt=&#34;Estudio de la concavidad de una función&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;polinomios-de-taylor&#34;&gt;Polinomios de Taylor&lt;/h2&gt;
 &lt;h3 id=&#34;aproximación-de-una-función-mediante-un-polinomio&#34;&gt;Aproximación de una función mediante un polinomio&lt;/h3&gt;
-&lt;p&gt;Una apliación muy útil de la derivada es la aproximación de funciones mediante polinomios.&lt;/p&gt;
+&lt;p&gt;Una aplicación muy útil de la derivada es la aproximación de funciones mediante polinomios.&lt;/p&gt;
 &lt;p&gt;Los polinomios son funciones sencillas de calcular (mediante sumas y productos), que tienen muy buenas propiedades:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Están definidos en todos los números reales.&lt;/li&gt;
 &lt;li&gt;Son funciones continuas.&lt;/li&gt;
 &lt;li&gt;Son derivables hasta cualquier orden y sus derivadas son continuas.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Objetivo&lt;/strong&gt;. Aproximar una función $f(x)$ mediante un polinomio $p(x)$ cerca de un valor $x=x_0$.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;aproximación-mediante-un-polinomio-de-grado-0&#34;&gt;Aproximación mediante un polinomio de grado 0&lt;/h3&gt;
+&lt;h4 id=&#34;aproximación-mediante-un-polinomio-de-grado-0&#34;&gt;Aproximación mediante un polinomio de grado 0&lt;/h4&gt;
 &lt;p&gt;Un polinomio de grado 0 tiene ecuación $$p(x) = c_0,$$ donde $c_0$ es una constante.&lt;/p&gt;
 &lt;p&gt;Como el polinomio debe valer lo que la función en el punto $x_0$, debe cumplir&lt;/p&gt;
 &lt;p&gt;$$p(x_0) = c_0 = f(x_0).$$&lt;/p&gt;
 &lt;p&gt;En consecuencia, el polinomio de grado 0 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p&gt;
 &lt;p&gt;$$p(x) = f(x_0).$$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/polinomio_grado_0.png&#34; width=&#34;400px&#34; alt=&#34;Gráfica del polinomio de Taylor de grado 0&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;aproximación-mediante-un-polinomio-de-grado-1&#34;&gt;Aproximación mediante un polinomio de grado 1&lt;/h3&gt;
+&lt;h4 id=&#34;aproximación-mediante-un-polinomio-de-grado-1&#34;&gt;Aproximación mediante un polinomio de grado 1&lt;/h4&gt;
 &lt;p&gt;Un polinomio de grado 1 es una recta y tiene ecuación&lt;/p&gt;
 &lt;p&gt;$$p(x) = c_0+c_1x,$$&lt;/p&gt;
 &lt;p&gt;aunque también puede escribirse&lt;/p&gt;
@@ -1389,19 +1460,19 @@ $$&lt;/p&gt;
 &lt;p&gt;De entre todos los polinomios de grado 1, el que mejor aproxima a $f$ en entorno de $x_0$ será el que cumpla las dos condiciones siguientes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$p$ y $f$ valen lo mismo en $x_0$: $p(x_0) = f(x_0)$,&lt;/li&gt;
-&lt;li&gt;$p$ y $f$ tienen la misma tasa de crecimiento en $a$: $p&amp;rsquo;(x_0) = f&amp;rsquo;(x_0)$.&lt;/li&gt;
+&lt;li&gt;$p$ y $f$ tienen la misma tasa de crecimiento en $a$: $p&#39;(x_0) = f&#39;(x_0)$.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Esta última condición nos asegura que en un entorno de $x_0$, $p$ y $f$ tienen aproximadamente la misma tendencia de crecimiento, pero requiere que la función $f$ sea derivable en $x_0$.&lt;/p&gt;
 &lt;p&gt;Imponiendo las condiciones anteriores tenemos&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$p(x)=c_0+c_1(x-x_0) \Rightarrow p(x_0)=c_0+c_1(x_0-x_0)=c_0=f(x_0)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(x)=c_1 \Rightarrow p&amp;rsquo;(x_0)=c_1=f&amp;rsquo;(x_0)$.&lt;/li&gt;
+&lt;li&gt;$p&#39;(x)=c_1 \Rightarrow p&#39;(x_0)=c_1=f&#39;(x_0)$.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Así pues, el polinomio de grado 1 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p&gt;
 &lt;p&gt;$$p(x) = f(x_0)+f &amp;lsquo;(x_0)(x-x_0),$$&lt;/p&gt;
 &lt;p&gt;que resulta ser la recta tangente a $f$ en el punto $(x_0,f(x_0))$.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/polinomio_grado_1.png&#34; width=&#34;400px&#34; alt=&#34;Gráfica del polinomio de Taylor de grado 1&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;aproximación-mediante-un-polinomio-de-grado-2&#34;&gt;Aproximación mediante un polinomio de grado 2&lt;/h3&gt;
+&lt;h4 id=&#34;aproximación-mediante-un-polinomio-de-grado-2&#34;&gt;Aproximación mediante un polinomio de grado 2&lt;/h4&gt;
 &lt;p&gt;Un polinomio de grado 2 es una parábola y tiene ecuación&lt;/p&gt;
 &lt;p&gt;$$p(x) = c_0+c_1x+c_2x^2,$$&lt;/p&gt;
 &lt;p&gt;aunque también puede escribirse&lt;/p&gt;
@@ -1409,20 +1480,20 @@ $$&lt;/p&gt;
 &lt;p&gt;De entre todos los polinomio de grado 2, el que mejor aproxima a $f$ en entorno de $x_0$ será el que cumpla las tres condiciones siguientes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$p$ y $f$ valen lo mismo en $x_0$: $p(x_0) = f(x_0)$,&lt;/li&gt;
-&lt;li&gt;$p$ y $f$ tienen la misma tasa de crecimiento en $x_0$: $p&amp;rsquo;(x_0) = f&amp;rsquo;(x_0)$.&lt;/li&gt;
-&lt;li&gt;$p$ y $f$ tienen la misma curvatura en $x_0$: $p&amp;rsquo;&#39;(x_0)=f&amp;rsquo;&#39;(x_0)$.&lt;/li&gt;
+&lt;li&gt;$p$ y $f$ tienen la misma tasa de crecimiento en $x_0$: $p&amp;rsquo;(x_0) = f&#39;(x_0)$.&lt;/li&gt;
+&lt;li&gt;$p$ y $f$ tienen la misma curvatura en $x_0$: $p&#39;&#39;(x_0)=f&#39;&#39;(x_0)$.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Esta última condición requiere que la función $f$ sea dos veces derivable en $x_0$.&lt;/p&gt;
 &lt;p&gt;Imponiendo las condiciones anteriores tenemos&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$p(x)=c_0+c_1(x-x_0)+c_2(x-x_0)^2 \Rightarrow p(x_0)=c_0=f(x_0)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(x)=c_1+2c_2(x-x_0) \Rightarrow p&amp;rsquo;(x_0)=c_1+2c_2(x_0-x_0)=c_1=f&amp;rsquo;(x_0)$,&lt;/li&gt;
-&lt;li&gt;$$p&amp;rsquo;&#39;(x)=2c_2 \Rightarrow p&amp;rsquo;&#39;(x_0)=2c_2=f&amp;rsquo;&#39;(x_0) \Rightarrow c_2=\frac{f&amp;rsquo;&#39;(x_0)}{2}$$.&lt;/li&gt;
+&lt;li&gt;$p&#39;(x)=c_1+2c_2(x-x_0) \Rightarrow p&#39;(x_0)=c_1+2c_2(x_0-x_0)=c_1=f&#39;(x_0)$,&lt;/li&gt;
+&lt;li&gt;$p&#39;&#39;(x)=2c_2 \Rightarrow p&#39;&#39;(x_0)=2c_2=f&#39;&#39;(x_0) \Rightarrow c_2=\frac{f&#39;&#39;(x_0)}{2}$.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Así pues, el polinomio de grado 2 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p&gt;
-&lt;p&gt;$$p(x) = f(x_0)+f&amp;rsquo;(x_0)(x-x_0)+\frac{f&amp;rsquo;&#39;(x_0)}{2}(x-x_0)^2.$$&lt;/p&gt;
+&lt;p&gt;$$p(x) = f(x_0)+f&#39;(x_0)(x-x_0)+\frac{f&#39;&#39;(x_0)}{2}(x-x_0)^2.$$&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/derivadas1/polinomio_grado_2.png&#34; width=&#34;400px&#34; alt=&#34;Gráfica del polinomio de Taylor de grado 2&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;aproximación-mediante-un-polinomio-de-grado-n&#34;&gt;Aproximación mediante un polinomio de grado $n$&lt;/h3&gt;
+&lt;h4 id=&#34;aproximación-mediante-un-polinomio-de-grado-n&#34;&gt;Aproximación mediante un polinomio de grado $n$&lt;/h4&gt;
 &lt;p&gt;Un polinomio de grado $n$ tiene ecuación&lt;/p&gt;
 &lt;p&gt;$$p(x) = c_0+c_1x+c_2x^2+\cdots +c_nx^n,$$&lt;/p&gt;
 &lt;p&gt;aunque también puede escribirse&lt;/p&gt;
@@ -1430,8 +1501,8 @@ $$&lt;/p&gt;
 &lt;p&gt;De entre todos los polinomio de grado $n$, el que mejor aproxima a $f$ en entorno de $x_0$ será el que cumpla las $n+1$ condiciones siguientes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$p(x_0) = f(x_0)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(x_0) = f&amp;rsquo;(x_0)$,&lt;/li&gt;
-&lt;li&gt;$$p&amp;rsquo;&#39;(x_0)=f&amp;rsquo;&#39;(x_0)$$,&lt;/li&gt;
+&lt;li&gt;$p&#39;(x_0) = f&#39;(x_0)$,&lt;/li&gt;
+&lt;li&gt;$p&#39;&#39;(x_0)=f&#39;&#39;(x_0)$,&lt;/li&gt;
 &lt;li&gt;$\cdots$&lt;/li&gt;
 &lt;li&gt;$p^{(n}(x_0)=f^{(n}(x_0)$.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1439,8 +1510,8 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
 p(x) &amp;amp;= c_0+c_1(x-x_0)+c_2(x-x_0)^2+\cdots +c_n(x-x_0)^n,\newline
-p&amp;rsquo;(x)&amp;amp; = c_1+2c_2(x-x_0)+\cdots +nc_n(x-x_0)^{n-1},\newline
-p&amp;rsquo;&#39;(x)&amp;amp; = 2c_2+\cdots +n(n-1)c_n(x-x_0)^{n-2},\newline
+p&#39;(x)&amp;amp; = c_1+2c_2(x-x_0)+\cdots +nc_n(x-x_0)^{n-1},\newline
+p&#39;&#39;(x)&amp;amp; = 2c_2+\cdots +n(n-1)c_n(x-x_0)^{n-2},\newline
 \vdots\&lt;br&gt;
 \newline
 p^{(n}(x)&amp;amp;= n(n-1)(n-2)\cdots 1 c_n=n!c_n.
@@ -1448,9 +1519,9 @@ p^{(n}(x)&amp;amp;= n(n-1)(n-2)\cdots 1 c_n=n!c_n.
 $$&lt;/p&gt;
 &lt;p&gt;Imponiendo las condiciones anteriores se tiene&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$p(x_0) = c_0+c_1(x_0-x_0)+c_2(x_0-x_0)^2+\cdots +c_n(x_0-x_0)^n=c_0=f(x_0)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(x_0) = c_1+2c_2(x_0-x_0)+\cdots +nc_n(x_0-x_0)^{n-1}=c_1=f&amp;rsquo;(x_0)$,&lt;/li&gt;
-&lt;li&gt;$$p&amp;rsquo;&#39;(x_0) = 2c_2+\cdots +n(n-1)c_n(x_0-x_0)^{n-2}=2c_2=f&amp;rsquo;&#39;(x_0)\Rightarrow c_2=f&amp;rsquo;&#39;(x_0)/2$$,&lt;/li&gt;
+&lt;li&gt;$p(x_0) = c_0+c_1(x_0-x_0)+c_2(x_0-x_0)^2+\cdots +c_n(x_0-x_0)^n=c_0=f(x_0),$&lt;/li&gt;
+&lt;li&gt;$p&#39;(x_0) = c_1+2c_2(x_0-x_0)+\cdots +nc_n(x_0-x_0)^{n-1}=c_1=f&#39;(x_0),$&lt;/li&gt;
+&lt;li&gt;$p&#39;&#39;(x_0) = 2c_2+\cdots +n(n-1)c_n(x_0-x_0)^{n-2}=2c_2=f&#39;&#39;(x_0)\Rightarrow c_2=\frac{f&#39;&#39;(x_0)}{2},$&lt;/li&gt;
 &lt;li&gt;$\cdots$&lt;/li&gt;
 &lt;li&gt;$p^{(n}(x_0)=n!c_n=f^{(n}(x_0)=c_n=\frac{f^{(n}(x_0)}{n!}$.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1459,22 +1530,33 @@ $$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Polinomio de Taylor de orden $n$ para $f$ en el punto $a$&lt;/strong&gt;. Dada una función $f$, $n$ veces derivable en $x=x_0$, se define el &lt;em&gt;polinomio de Taylor&lt;/em&gt; de orden $n$ para $f$ en $x_0$ como&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-p_{f,x_0}^n(x)&amp;amp;=f(x_0)+f&amp;rsquo;(x_0)(x-x_0)+\frac{f&amp;rsquo;&#39;(x_0)}{2}(x-x_0)^2+\cdots +\frac{f^{(n}(x_0)}{n!}(x-x_0)^n = \newline &amp;amp;=\sum_{i=0}^{n}\frac{f^{(i}(x_0)}{i!}(x-x_0)^i,
+p_{f,x_0}^n(x)&amp;amp;=f(x_0)+f&#39;(x_0)(x-x_0)+\frac{f&#39;&#39;(x_0)}{2}(x-x_0)^2+\cdots +\frac{f^{(n}(x_0)}{n!}(x-x_0)^n = \newline &amp;amp;=\sum_{i=0}^{n}\frac{f^{(i}(x_0)}{i!}(x-x_0)^i,
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;o bien, escribiendo $x=x_0+h$&lt;/p&gt;
-&lt;p&gt;$$p_f^n(x_0+h)=f(x_0)+f&amp;rsquo;(x_0)h+\frac{f&amp;rsquo;&#39;(x_0)}{2}h^2+\cdots +\frac{f^{(n}(x_0)}{n!}h^n =\sum_{i=0}^{n}\frac{f^{(i}(x_0)}{i!}h^i,$$&lt;/p&gt;
-&lt;p&gt;El polinomio de Taylor de orden $n$ para $f$ en $x_0$ es el polinomio de orden $n$ que mejor aproxima a $f$ alrededor de $x_0$, ya que es el único que cumple las $n+1$ condiciones anteriores.&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+p_f^n(x_0+h) &amp;amp;= f(x_0)+f&#39;(x_0)h+\frac{f&#39;&#39;(x_0)}{2}h^2+\cdots +\frac{f^{(n}(x_0)}{n!}h^n =\newline
+&amp;amp;= \sum_{i=0}^{n}\frac{f^{(i}(x_0)}{i!}h^i.
+\end{aligned}
+$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-int&#34;&gt;
+  &lt;div&gt;
+    El polinomio de Taylor de orden $n$ para $f$ en $x_0$ es el polinomio de orden $n$ que mejor aproxima a $f$ alrededor de $x_0$, ya que es el único que cumple las $n+1$ condiciones anteriores.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Vamos a aproximar la función $f(x)=\log x$ en un entorno del punto $1$ mediante un polinomio de grado $3$.&lt;/p&gt;
 &lt;p&gt;La ecuación del polinomio de Taylor de orden $3$ para $f$ en el punto $1$ es&lt;/p&gt;
-&lt;p&gt;$$p_{f,1}^3(x)=f(1)+f&amp;rsquo;(1)(x-1)+\frac{f&amp;rsquo;&#39;(1)}{2}(x-1)^2+\frac{f&amp;rsquo;&#39;&#39;(1)}{3!}(x-1)^3.$$&lt;/p&gt;
+&lt;p&gt;$$p_{f,1}^3(x)=f(1)+f&#39;(1)(x-1)+\frac{f&#39;&#39;(1)}{2}(x-1)^2+\frac{f&#39;&#39;&#39;(1)}{3!}(x-1)^3.$$&lt;/p&gt;
 &lt;p&gt;Calculamos las tres primeras derivadas de $f$ en $1$:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{array}{lll}
 f(x)=\log x &amp;amp; \quad &amp;amp; f(1)=\log 1 =0,\newline
-f&amp;rsquo;(x)=1/x &amp;amp; &amp;amp; f&amp;rsquo;(1)=1/1=1,\newline
-f&amp;rsquo;&#39;(x)=-1/x^2 &amp;amp; &amp;amp; f&amp;rsquo;&#39;(1)=-1/1^2=-1,\newline
-f&amp;rsquo;&#39;&#39;(x)=2/x^3 &amp;amp; &amp;amp; f&amp;rsquo;&#39;&#39;(1)=2/1^3=2.
+f&#39;(x)=1/x &amp;amp; &amp;amp; f&#39;(1)=1/1=1,\newline
+f&#39;&#39;(x)=-1/x^2 &amp;amp; &amp;amp; f&#39;&#39;(1)=-1/1^2=-1,\newline
+f&#39;&#39;&#39;(x)=2/x^3 &amp;amp; &amp;amp; f&#39;&#39;&#39;(1)=2/1^3=2.
 \end{array}
 $$&lt;/p&gt;
 &lt;p&gt;Sustituyendo en la ecuación del polinomio se tiene&lt;/p&gt;
@@ -1486,18 +1568,23 @@ $$&lt;/p&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Polinomio de Maclaurin de orden $n$ para $f$&lt;/strong&gt;. Dada una función $f$, $n$ veces derivable en $0$, se define el &lt;em&gt;polinomio de Maclaurin&lt;/em&gt; de orden $n$ para $f$ como&lt;/p&gt;
 &lt;p&gt;$$
-p_{f,0}^n(x)=f(0)+f&amp;rsquo;(0)x+\frac{f&amp;rsquo;&#39;(0)}{2}x^2+\cdots +\frac{f^{(n}(0)}{n!}x^n =\sum_{i=0}^{n}\frac{f^{(i}(0)}{i!}x^i.
+\begin{aligned}
+p_{f,0}^n(x) &amp;amp;= f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2}x^2+\cdots +\frac{f^{(n}(0)}{n!}x^n =\newline
+&amp;amp;= \sum_{i=0}^{n}\frac{f^{(i}(0)}{i!}x^i.
+\end{aligned}
 $$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Vamos a aproximar la función $f(x)=\operatorname{sen} x$ en un entorno del punto $0$ mediante un polinomio de grado $3$.&lt;/p&gt;
 &lt;p&gt;La ecuación del polinomio de Maclaurin de orden $3$ para $f$ es&lt;/p&gt;
-&lt;p&gt;$$p_{f,0}^3(x)=f(0)+f&amp;rsquo;(0)x+\frac{f&amp;rsquo;&#39;(0)}{2}x^2+\frac{f&amp;rsquo;&#39;&#39;(0)}{3!}x^3.$$&lt;/p&gt;
+&lt;p&gt;$$p_{f,0}^3(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}x^3.$$&lt;/p&gt;
 &lt;p&gt;Calculamos las tres primeras derivadas de $f$ en $0$:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{array}{lll}
 f(x)=\operatorname{sen} x &amp;amp; \quad &amp;amp; f(0)=\operatorname{sen} 0 =0,\newline
-f&amp;rsquo;(x)=\cos x &amp;amp; &amp;amp; f&amp;rsquo;(0)=\cos 0=1,\newline
-f&amp;rsquo;&#39;(x)=-\operatorname{sen} x &amp;amp; &amp;amp; f&amp;rsquo;&#39;(0)=-\operatorname{sen} 0=0,\newline
-f&amp;rsquo;&#39;&#39;(x)=-\cos x &amp;amp; &amp;amp; f&amp;rsquo;&#39;&#39;(0)=-\cos 0=-1.
+f&#39;(x)=\cos x &amp;amp; &amp;amp; f&#39;(0)=\cos 0=1,\newline
+f&#39;&#39;(x)=-\operatorname{sen} x &amp;amp; &amp;amp; f&#39;&#39;(0)=-\operatorname{sen} 0=0,\newline
+f&#39;&#39;&#39;(x)=-\cos x &amp;amp; &amp;amp; f&#39;&#39;&#39;(0)=-\cos 0=-1.
 \end{array}
 $$&lt;/p&gt;
 &lt;p&gt;Sustituyendo en la ecuación del polinomio obtenemos&lt;/p&gt;
@@ -1527,27 +1614,13 @@ dicha aproximación.&lt;/p&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Resto de Taylor&lt;/strong&gt;. Si $f$ es una función para la que existe el su polinomio de Taylor de orden $n$ en $x_0$, $p_{f,x_0}^n$, entonces se define el *resto de Taylor* de orden $n$ para $f$ en $x_0$ como&lt;/p&gt;
 &lt;p&gt;$$r_{f,x_0}^n(x)=f(x)-p_{f,x_0}^n(x).$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;El resto mide el error cometido al aproximar $f(x)$ mediante $p_{f,x_0}^n(x)$ y permite expresar la función $f$ como la suma de un polinomio de Taylor más su resto correspondiente:&lt;/p&gt;
 &lt;p&gt;$$f(x)=p_{f,x_0}^n(x) + r_{f,x_0}^n(x).$$&lt;/p&gt;
 &lt;p&gt;Esta expresión se conoce como &lt;em&gt;fórmula de Taylor&lt;/em&gt; de orden $n$ para $f$ en $x_0$. Se pude demostrar, además, que&lt;/p&gt;
 &lt;p&gt;$$\lim_{h\rightarrow 0}\frac{r_{f,x_0}^n(x_0+h)}{h^n}=0,$$&lt;/p&gt;
 &lt;p&gt;lo cual indica que el resto $r_{f,x_0}^n(x_0+h)$ es mucho menor que $h^n$.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     
@@ -1559,56 +1632,59 @@ dicha aproximación.&lt;/p&gt;
       <description>&lt;h2 id=&#34;primitiva-de-una-función&#34;&gt;Primitiva de una función&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Primitiva de una función&lt;/strong&gt;. Se dice que la función $F(X)$ es una &lt;em&gt;función primitiva&lt;/em&gt; de $f(x)$ si se verifica que $F&amp;rsquo;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F&amp;rsquo;(x)=2x$ para todo $\mathbb{R}$.&lt;/p&gt;
+    &lt;strong&gt;Definición - Primitiva de una función&lt;/strong&gt;. Se dice que la función $F(X)$ es una &lt;em&gt;función primitiva&lt;/em&gt; de $f(x)$ si se verifica que $F&#39;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F&#39;(x)=2x$ para todo $\mathbb{R}$.&lt;/p&gt;
 &lt;p&gt;El cálculo de primitivas puede verse con un proceso inverso al cálculo de derivadas, y es por eso también se suele llamar &lt;em&gt;antiderivada&lt;/em&gt; a la primitiva de una función.&lt;/p&gt;
-&lt;p&gt;Como dos funciones que difieran en una constante tienen la misma derivada, si $F(x)$ es una función primitiva de $f(x)$ también lo será toda función de la forma $F(x)+k$ $\forall k \in \mathbb{R}$.&lt;/p&gt;
 &lt;h3 id=&#34;integral-indefinida-de-una-función&#34;&gt;Integral indefinida de una función&lt;/h3&gt;
-&lt;p&gt;Como dos funciones que difieran en una constante tienen la misma derivada, si $F(x)$ es una función primitiva de $f(x)$ también lo será toda función de la forma $F(x)+k$ $\forall k \in \mathbb{R}$.&lt;/p&gt;
+&lt;p&gt;Si $F(x)$ es una función primitiva de $f(x)$ también lo será toda función de la forma $F(x)+C$, $\forall C \in \mathbb{R}$, de manera que si una función tiene primitiva, tiene infinitas primitivas que se obtienen añadiendo una constante a cualquiera de ellas.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Integral indefinida&lt;/strong&gt;. Se llama &lt;em&gt;función integral indefinida&lt;/em&gt; de la función $f$ al conjunto de todas sus funciones primitivas y se representa como $$\int{f(x)},dx=F(x)+C$$ siendo $F(x)$ una función primitiva de $f(x)$ y $C$ una constante arbitraria.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Integral indefinida&lt;/strong&gt;. Se llama &lt;em&gt;función integral indefinida&lt;/em&gt; de la función $f$ al conjunto de todas sus funciones primitivas y se representa como&lt;/p&gt;
+&lt;p&gt;$$\int{f(x)}\,dx=F(x)+C$$&lt;/p&gt;
+&lt;p&gt;siendo $F(x)$ una función primitiva de $f(x)$ y $C$ una constante arbitraria.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La integral indefinida de $f(x)=2x$ es&lt;/p&gt;
-&lt;p&gt;$$\int 2x, dx = x^2+C.$$&lt;/p&gt;
+&lt;p&gt;$$\int 2x\, dx = x^2+C.$$&lt;/p&gt;
 &lt;h3 id=&#34;interpretación-de-la-integral&#34;&gt;Interpretación de la integral&lt;/h3&gt;
 &lt;p&gt;En temas anteriores se vio que la derivada de una función es la tasa de variación instantánea, de manera que si conocemos la tasa de variación instantánea de una función en cada instante, podemos averiguar la variación real de la función.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. ¿Cuál sera el espacio recorrido por un objeto en caída libre?&lt;/p&gt;
 &lt;p&gt;Cuando soltamos cualquier objeto desde una altura, la única fuerza que actúa sobre el es la gravedad, con una aceleración aproximada de $9.8$ m/s$^2$, esto quiere decir que la velocidad varía de forma constante y por tanto la velocidad del objeto en cada instante $t$ sera:&lt;/p&gt;
 &lt;p&gt;$$v(t) = 9.8t  \mbox{ m/s}.$$&lt;/p&gt;
-&lt;p&gt;Puesto que la velocidad en cada instante es la tasa de variación instantánea del espacio recorrido por el objeto, su primitiva nos dará el espacio recorrio por el objeto en cada instante:&lt;/p&gt;
-&lt;p&gt;$$e(t) = \int 9.8t, dt = 9,8\frac{t^2}{2}.$$&lt;/p&gt;
+&lt;p&gt;Puesto que la velocidad en cada instante es la tasa de variación instantánea del espacio recorrido por el objeto, su primitiva nos dará el espacio recorrido por el objeto en cada instante:&lt;/p&gt;
+&lt;p&gt;$$e(t) = \int 9.8t\, dt = 9,8\frac{t^2}{2}.$$&lt;/p&gt;
 &lt;p&gt;Así, por ejemplo, a los 2 segundos, el espacio recorrido será $e(2) = 9.8\frac{2^2}{2} = 19.6$ m.&lt;/p&gt;
 &lt;h3 id=&#34;linealidad-de-la-integral&#34;&gt;Linealidad de la integral&lt;/h3&gt;
 &lt;p&gt;Dadas dos funciones $f$ y $g$ que admiten primitiva, y una constante $k \in \mathbb{R}$ se verifica que&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;$\int{(f(x)+g(x))},dx=\int{f(x)},dx+\int{g(x)},dx$,&lt;/li&gt;
-&lt;li&gt;$\int{kf(x)},dx=k\int{f(x)},dx$.&lt;/li&gt;
+&lt;li&gt;$\int{(f(x)+g(x))}\,dx=\int{f(x)}\,dx+\int{g(x)}\,dx$,&lt;/li&gt;
+&lt;li&gt;$\int{kf(x)}\,dx=k\int{f(x)}\,dx$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;integrales-inmediatas&#34;&gt;Integrales inmediatas&lt;/h2&gt;
-&lt;h3 id=&#34;integrales-inmediatas-1&#34;&gt;Integrales inmediatas&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;$\int a,dx=ax+C$, con $a$ constante.&lt;/li&gt;
-&lt;li&gt;$\int x^n,dx=\dfrac{x^{n+1}}{n+1}+C$ si $n\neq -1$.&lt;/li&gt;
-&lt;li&gt;$\int \dfrac{1}{x}, dx=\ln\lvert x\rvert+C$.&lt;/li&gt;
-&lt;li&gt;$\int e^x,dx=e^x+C$.&lt;/li&gt;
-&lt;li&gt;$\int a^x,dx=\dfrac{a^x}{\ln a}+C$.&lt;/li&gt;
-&lt;li&gt;$\int \operatorname{sen} x, dx=-\cos x+C$.&lt;/li&gt;
-&lt;li&gt;$\int \cos x, dx=\operatorname{sen} x+C$.&lt;/li&gt;
-&lt;li&gt;$\int \operatorname{tg} x, dx=\ln\lvert\operatorname{sec} x\rvert+C$.&lt;/li&gt;
-&lt;li&gt;$\int \operatorname{sec} x, dx = \ln\lvert\operatorname{sec} x + \operatorname{tg} x\rvert+C$.&lt;/li&gt;
-&lt;li&gt;$\int \operatorname{cosec} x, dx= \ln\lvert\operatorname{cosec} x-\operatorname{cotg} x\rvert+C$.&lt;/li&gt;
-&lt;li&gt;$\int \operatorname{cotg} x , dx= \ln\lvert\operatorname{sen} x\rvert+C$.&lt;/li&gt;
-&lt;li&gt;$\int \operatorname{sec}^2 x, dx= \operatorname{tg} x+ C$.&lt;/li&gt;
-&lt;li&gt;$\int \operatorname{cosec}^2 x, dx= -\operatorname{cotg} x+ C$.&lt;/li&gt;
-&lt;li&gt;$\int \operatorname{sec} x \operatorname{tg} x, dx= \operatorname{sec} x+ C$.&lt;/li&gt;
-&lt;li&gt;$\int \operatorname{cosec} x \operatorname{cotg} x, dx = -\operatorname{cosec} x +C$.&lt;/li&gt;
+&lt;li&gt;$\int a\,dx=ax+C$, con $a$ constante.&lt;/li&gt;
+&lt;li&gt;$\int x^n\,dx=\dfrac{x^{n+1}}{n+1}+C$ si $n\neq -1$.&lt;/li&gt;
+&lt;li&gt;$\int \dfrac{1}{x}\, dx=\ln\lvert x\rvert+C$.&lt;/li&gt;
+&lt;li&gt;$\int e^x\,dx=e^x+C$.&lt;/li&gt;
+&lt;li&gt;$\int a^x\,dx=\dfrac{a^x}{\ln a}+C$.&lt;/li&gt;
+&lt;li&gt;$\int \operatorname{sen} x\, dx=-\cos x+C$.&lt;/li&gt;
+&lt;li&gt;$\int \cos x\, dx=\operatorname{sen} x+C$.&lt;/li&gt;
+&lt;li&gt;$\int \operatorname{tg} x\, dx=\ln\lvert\operatorname{sec} x\rvert+C$.&lt;/li&gt;
+&lt;li&gt;$\int \operatorname{sec} x\, dx = \ln\lvert\operatorname{sec} x + \operatorname{tg} x\rvert+C$.&lt;/li&gt;
+&lt;li&gt;$\int \operatorname{cosec} x\, dx= \ln\lvert\operatorname{cosec} x-\operatorname{cotg} x\rvert+C$.&lt;/li&gt;
+&lt;li&gt;$\int \operatorname{cotg} x\, dx= \ln\lvert\operatorname{sen} x\rvert+C$.&lt;/li&gt;
+&lt;li&gt;$\int \operatorname{sec}^2 x\, dx= \operatorname{tg} x+ C$.&lt;/li&gt;
+&lt;li&gt;$\int \operatorname{cosec}^2 x\, dx= -\operatorname{cotg} x+ C$.&lt;/li&gt;
+&lt;li&gt;$\int \operatorname{sec} x \operatorname{tg} x\, dx= \operatorname{sec} x+ C$.&lt;/li&gt;
+&lt;li&gt;$\int \operatorname{cosec} x \operatorname{cotg} x\, dx = -\operatorname{cosec} x +C$.&lt;/li&gt;
 &lt;li&gt;$\int \dfrac{dx}{\sqrt{a^2-x^2}}=\operatorname{arcsen}\dfrac{x}{a}+C$.&lt;/li&gt;
 &lt;li&gt;$\int \dfrac{dx}{a^2+x^2}=\dfrac{1}{a}\operatorname{arctg}\dfrac{x}{a}+C$.&lt;/li&gt;
 &lt;li&gt;$\int \dfrac{dx}{x\sqrt{x^2-a^2}}=\dfrac{1}{a}\operatorname{sec}^{-1}\dfrac{x}{a}+C$.&lt;/li&gt;
 &lt;li&gt;$\int \dfrac{dx}{a^2-x^2}=\dfrac{1}{2a}\ln\lvert\dfrac{x+a}{x-a}\rvert+C$.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;técnicas-de-integración&#34;&gt;Técnicas de integración&lt;/h2&gt;
-&lt;h3 id=&#34;técnicas-de-integración-1&#34;&gt;Técnicas de integración&lt;/h3&gt;
 &lt;p&gt;Desgraciadamente, y a diferencia del cálculo de derivadas, no existe un procedimiento infalible que permita calcular la primitiva de una función siempre que exista. Existen no obstante, diferentes técnicas para integrar algunos tipos de funciones. Las técnicas más habituales son:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Integración por partes&lt;/li&gt;
@@ -1618,39 +1694,68 @@ dicha aproximación.&lt;/p&gt;
 &lt;li&gt;Integración de funciones trigonométricas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;integración-por-partes&#34;&gt;Integración por partes&lt;/h3&gt;
-&lt;p&gt;Dadas $f$ y $g$, dos funciones derivables de $x$. De la regla de la derivada del producto se deduce&lt;/p&gt;
-&lt;p&gt;$$\int{f&amp;rsquo;(x)g(x)},dx=f(x)g(x)-\int{g&amp;rsquo;(x)f(x)},dx,$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-theo&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Integración por partes&lt;/strong&gt;. Dadas $f$ y $g$, dos funciones derivables de $x$,&lt;/p&gt;
+&lt;p&gt;$$\int{f&#39;(x)g(x)}\,dx=f(x)g(x)-\int{g&#39;(x)f(x)}\,dx,$$&lt;/p&gt;
 &lt;p&gt;o con notación diferencial, si $u$ y $v$ son funciones derivables de $x$&lt;/p&gt;
-&lt;p&gt;$$\int{u},dv=uv-\int{v},du.$$&lt;/p&gt;
+&lt;p&gt;$$\int{u}\,dv=uv-\int{v}\,du.$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-3&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-3&#34;&gt;
+      Demostración
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;De la regla de la derivada del producto se tiene&lt;/p&gt;
+&lt;p&gt;$$ (uv)&#39; = u&amp;rsquo;v + uv&#39; $$&lt;/p&gt;
+&lt;p&gt;y calculando la integral a ambos lados se llega a&lt;/p&gt;
+&lt;p&gt;$$
+\begin{gathered}
+\int (uv)&#39; \, dx = \int u&amp;rsquo;v \, dx + \int uv&#39;\, dx \Rightarrow\newline
+uv = \int v\,du + \int u\, dv \Rightarrow\newline
+\int{u}\,dv=uv-\int{v}\,du.
+\end{gathered}
+$$&lt;/p&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Al emplear el método de integración por partes se debe realizar la elección de $u$ y $dv$ de tal forma que las integrales que haya que realizar sean lo más sencillas posibles.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Para integrar $\int{x \operatorname{sen} x},dx$ se deberá elegir $u=x$ y $dv=\operatorname{sen} x, dx$, con lo que $du=dx$ y $v=-\cos x$, resultando&lt;/p&gt;
-&lt;p&gt;$$\int{x \operatorname{sen} x},dx=-x\cos x-\int (-\cos x),dx = -x\cos x +\operatorname{sen} x.$$&lt;/p&gt;
-&lt;p&gt;Si hubiésemos elegido $u=\operatorname{sen} x$ y $dv=x,dx$, la cosa se complica.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Para integrar $\int{x \operatorname{sen} x}\,dx$ se deberá elegir $u=x$ y $dv=\operatorname{sen} x\, dx$, con lo que $du=dx$ y $v=-\cos x$, resultando&lt;/p&gt;
+&lt;p&gt;$$\int{x \operatorname{sen} x}\,dx=-x\cos x-\int (-\cos x)\,dx = -x\cos x +\operatorname{sen} x.$$&lt;/p&gt;
+&lt;p&gt;Si hubiésemos elegido $u=\operatorname{sen} x$ y $dv=x\,dx$, la cosa se complica.&lt;/p&gt;
 &lt;h3 id=&#34;integración-por-reducción&#34;&gt;Integración por reducción&lt;/h3&gt;
 &lt;p&gt;Las fórmulas de reducción permiten simplificar el cálculo cuando hay que aplicar la integración por partes varias veces consecutivas.&lt;/p&gt;
-&lt;p&gt;Si se tiene que calcular una integral indefinida $I_n$ que depende de un número natural $n$, las fórmulas de reducción nos permitirán expresar $I_{n}$ en función de $$I_{n-1}$$, es decir se obtendrá una relación recurrente del tipo&lt;/p&gt;
+&lt;p&gt;Si se tiene que calcular una integral indefinida $I_n$ que depende de un número natural $n$, las fórmulas de reducción nos permitirán expresar $I_{n}$ en función de $I_{n-1}$, es decir se obtendrá una relación recurrente del tipo&lt;/p&gt;
 &lt;p&gt;$$I_n=f(I_{n-1},x,n)$$&lt;/p&gt;
 &lt;p&gt;con lo que calculando una integral se pueden obtener fácilmente las demás.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Si se desea calcular $I_{n}=\int{x^{n}e^{x}},dx$, aplicando la integración por partes se debe elegir $u=x^{n}$ y $dv=e^{x},dx$, con lo que $du=nx^{n-1},dx$ y $v=e^{x}$, obteniéndose&lt;/p&gt;
-&lt;p&gt;$$\ I_{n}=\int{x^{n}e^{x}},dx=x^{n}e^{x}-n\int{x^{n-1}e^{x}},dx=x^{n}e^{x}-nI_{n-1}.$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Si se desea calcular $I_{n}=\int{x^{n}e^{x}}\,dx$, aplicando la integración por partes se debe elegir $u=x^{n}$ y $dv=e^{x}\,dx$, con lo que $du=nx^{n-1}\,dx$ y $v=e^{x}$, obteniéndose&lt;/p&gt;
+&lt;p&gt;$$\ I_{n}=\int{x^{n}e^{x}}\,dx=x^{n}e^{x}-n\int{x^{n-1}e^{x}}\,dx=x^{n}e^{x}-nI_{n-1}.$$&lt;/p&gt;
 &lt;p&gt;Así, por ejemplo, para $n=3$ se tiene&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-\int x^3 e^x, dx &amp;amp;= I_3 = x^3e^x-3I_2 = x^3e^x-3(x^2e^x-2I_1) = x^3e^x-3(x^2e^x-(xe^x-I_0) =\newline
+\int x^3 e^x\, dx &amp;amp;= I_3 = x^3e^x-3I_2 = x^3e^x-3(x^2e^x-2I_1) = x^3e^x-3(x^2e^x-(xe^x-I_0) =\newline
 &amp;amp;= x^3e^x-3(x^2e^x-(xe^x-e^x) = e^x(x^3-3x^2+6x-6).
 \end{aligned}
 $$&lt;/p&gt;
 &lt;h3 id=&#34;integración-por-cambio-de-variable&#34;&gt;Integración por cambio de variable&lt;/h3&gt;
-&lt;p&gt;La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))&amp;rsquo; = f&amp;rsquo;(g(x))g&amp;rsquo;(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g&amp;rsquo;(x)dx$:&lt;/p&gt;
-&lt;p&gt;$$\int f&amp;rsquo;(g(x))g&amp;rsquo;(x), dx = \int f&amp;rsquo;(u), du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Para calcular la integral $\int{\dfrac{1}{x\log x}}, dx$ puede hacerse el cambio de variable $u=\log x$ con lo que $du=\frac{1}{x}dx$ y sustituyendo queda&lt;/p&gt;
-&lt;p&gt;$$\int \frac{dx}{x\log x}=\int \frac{1}{\log x}\frac{1}{x},dx = \int \frac{1}{u},du = \log |u|+ C,$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-tool&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))&#39; = f&#39;(g(x))g&#39;(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g&#39;(x)dx$:&lt;/p&gt;
+&lt;p&gt;$$\int f&#39;(g(x))g&#39;(x)\, dx = \int f&#39;(u)\, du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Para calcular la integral $\int{\dfrac{1}{x\log x}}\, dx$ puede hacerse el cambio de variable $u=\log x$ con lo que $du=\frac{1}{x}dx$ y sustituyendo queda&lt;/p&gt;
+&lt;p&gt;$$\int \frac{dx}{x\log x}=\int \frac{1}{\log x}\frac{1}{x}\,dx = \int \frac{1}{u}\,du = \log |u|+ C,$$&lt;/p&gt;
 &lt;p&gt;y deshaciendo el cambio tenemos&lt;/p&gt;
-&lt;p&gt;$$\int \frac{1}{x\log x},dx= \log |\log x| + C.$$&lt;/p&gt;
+&lt;p&gt;$$\int \frac{1}{x\log x}\,dx= \log |\log x| + C.$$&lt;/p&gt;
 &lt;h3 id=&#34;integración-de-funciones-racionales&#34;&gt;Integración de funciones racionales&lt;/h3&gt;
-&lt;p&gt;Toda función racional se puede escribir como suma de un polinomio (que tiene primitiva inmediata) más una función racional propia, es decir,
-una función racional en la que el grado del numerador sea menor que el grado del denominador. A su vez, toda función racional propia puede
-expresarse como suma de fracciones simples de los tipos siguientes:&lt;/p&gt;
+&lt;h4 id=&#34;descomposición-en-fracciones-simples&#34;&gt;Descomposición en fracciones simples&lt;/h4&gt;
+&lt;p&gt;Toda función racional se puede escribir como suma de un polinomio (que tiene primitiva inmediata) más una función racional propia, es decir, una función racional en la que el grado del numerador sea menor que el grado del denominador. A su vez, toda función racional propia puede expresarse como suma de fracciones simples de los tipos siguientes:&lt;/p&gt;
 &lt;p&gt;$$\begin{array}{cl}
 \dfrac{A}{(x-a)}&amp;amp; \textrm{: con raíces reales simples del denominador.}\newline
 \dfrac{A}{(x-a)^{n}}&amp;amp; \textrm{: con raíces reales múltiples del denominador.}\newline
@@ -1658,13 +1763,12 @@ expresarse como suma de fracciones simples de los tipos siguientes:&lt;/p&gt;
 \dfrac{Ax+B}{(x^2+cx+d)^n} &amp;amp; \textrm{: con raíces complejas múltiples del denominador.}
 \end{array}$$&lt;/p&gt;
 &lt;p&gt;con $n&amp;gt;1$.&lt;/p&gt;
-&lt;h3 id=&#34;integración-de-funciones-racionales-1&#34;&gt;Integración de funciones racionales&lt;/h3&gt;
-&lt;h4 id=&#34;primitivas-de-las-fracciones-simples&#34;&gt;Primitivas de las fracciones simples&lt;/h4&gt;
+&lt;h4 id=&#34;primitivas-de-fracciones-simples&#34;&gt;Primitivas de fracciones simples&lt;/h4&gt;
 &lt;p&gt;Usando la linealidad de la integral, basta calcular la primitiva de cada una de estas fracciones simples para calcular la primitiva de la función racional:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-\int \frac{A}{x-a},dx &amp;amp;= A\log|x-a|+C,\newline
-\int \frac{A}{(x-a)^n},dx &amp;amp;= \frac{-A}{(n-1)(x-a)^{n-1}}+C \textrm{ si $n\neq 1$}.\newline
+\int \frac{A}{x-a}\,dx &amp;amp;= A\log|x-a|+C,\newline
+\int \frac{A}{(x-a)^n}\,dx &amp;amp;= \frac{-A}{(n-1)(x-a)^{n-1}}+C \textrm{ si $n\neq 1$}.\newline
 \int \frac{Ax+B}{x^2+cx+d} &amp;amp;= \frac{A}{2}\log|x^2+cx+d|+\frac{2B-Ac}{\sqrt{4d-c^2}}\operatorname{arctg} \frac{2x+c}{\sqrt{4d-c^2}}+C.
 \end{aligned}
 $$&lt;/p&gt;
@@ -1680,8 +1784,8 @@ $$&lt;/p&gt;
 &lt;p&gt;Finalmente, integrando tenemos&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-\int \frac{x^2+3x-5}{x^3-3x+2}, dx &amp;amp;= \int \frac{16/9}{x-1},dx+\int \frac{-1/3}{(x-1)^2},dx+\int \frac{-7/9}{x+2},dx = \newline &amp;amp;=
-\frac{16}{9}\int\frac{1}{x-1},dx-\frac{1}{3}\int(x-1)^{-2},dx- \frac{7}{9}\int \frac{1}{x+2},dx = \newline
+\int \frac{x^2+3x-5}{x^3-3x+2}\, dx &amp;amp;= \int \frac{16/9}{x-1}\,dx+\int \frac{-1/3}{(x-1)^2}\,dx+\int \frac{-7/9}{x+2}\,dx = \newline &amp;amp;=
+\frac{16}{9}\int\frac{1}{x-1}\,dx-\frac{1}{3}\int(x-1)^{-2}\,dx- \frac{7}{9}\int \frac{1}{x+2}\,dx = \newline
 &amp;amp;= \frac{16}{9}\ln|x-1|+\frac{1}{3(x-1)}-\frac{7}{9}\ln|x+2|+C.
 \end{aligned}
 $$&lt;/p&gt;
@@ -1690,22 +1794,28 @@ $$&lt;/p&gt;
 escribirse de la forma $$x^2-4x+8 = (x-2)^2+4$$ Integrando, tenemos&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-\int \dfrac{x+1}{x^2-4x+8}, dx &amp;amp;= \int \dfrac{x-2+3}{(x-2)^2+4},dx = \newline
-&amp;amp;= \int \dfrac{x-2}{(x-2)^2+4},dx + \int \dfrac{3}{(x-2)^2+4},dx = \newline
+\int \dfrac{x+1}{x^2-4x+8}\, dx &amp;amp;= \int \dfrac{x-2+3}{(x-2)^2+4}\,dx = \newline
+&amp;amp;= \int \dfrac{x-2}{(x-2)^2+4}\,dx + \int \dfrac{3}{(x-2)^2+4}\,dx = \newline
 &amp;amp;= \frac{1}{2}\ln|(x-2)^2+4| + \dfrac{3}{2}\operatorname{arctg}\left(\frac{x-2}{2}\right)+C.
 \end{aligned}
 $$&lt;/p&gt;
 &lt;h3 id=&#34;integración-de-funciones-trigonométricas&#34;&gt;Integración de funciones trigonométricas&lt;/h3&gt;
 &lt;h4 id=&#34;función-sinn-xcosm-x-con-n-o-m-impares&#34;&gt;Función $\sin^n x\cos^m x$ con $n$ o $m$ impares&lt;/h4&gt;
-&lt;p&gt;Si $f(x)=\sin^n x\cos^m x$ con $n$ o $m$ impares, entonces para integrar esta función se hace el cambio $\operatorname{sen} x = t$ o $\cos x =t$.&lt;/p&gt;
+&lt;div class=&#34;alert alert-tool&#34;&gt;
+  &lt;div&gt;
+    Si $f(x)=\sin^n x\cos^m x$ con $n$ o $m$ impares, entonces para integrar esta función se hace el cambio $\operatorname{sen} x = t$ o $\cos x =t$.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;$$\int \operatorname{sen}^2 x\cos^3 x, dx = \int \operatorname{sen}^2 x\cos^2 x\cos x, dx = \int \operatorname{sen}^2 x(1-\operatorname{sen}^2 x)\cos x, dx,$$&lt;/p&gt;
+&lt;p&gt;$$\int \operatorname{sen}^2 x\cos^3 x\, dx = \int \operatorname{sen}^2 x\cos^2 x\cos x\, dx = \int \operatorname{sen}^2 x(1-\operatorname{sen}^2 x)\cos x\, dx,$$&lt;/p&gt;
 &lt;p&gt;y haciendo el cambio $t=\operatorname{sen} x$, de modo que $dt = \cos x dx$, se tiene&lt;/p&gt;
-&lt;p&gt;$$\int \operatorname{sen}^2 x(1-\operatorname{sen}^2 x)\cos x, dx = \int t^2(1-t^2), dt = \int t^2-t^4 , dt = \frac{t^3}{3}-\frac{t^5}{5}+C,$$&lt;/p&gt;
+&lt;p&gt;$$\int \operatorname{sen}^2 x(1-\operatorname{sen}^2 x)\cos x\, dx = \int t^2(1-t^2)\, dt = \int t^2-t^4\, dt = \frac{t^3}{3}-\frac{t^5}{5}+C,$$&lt;/p&gt;
 &lt;p&gt;y deshaciendo el cambio anterior se obtiene&lt;/p&gt;
-&lt;p&gt;$$\int \operatorname{sen}^2 x\cos^3 x, dx = \frac{\operatorname{sen}^3 x}{3}-\frac{\sin^5 x}{5}+C.$$&lt;/p&gt;
+&lt;p&gt;$$\int \operatorname{sen}^2 x\cos^3 x\, dx = \frac{\operatorname{sen}^3 x}{3}-\frac{\sin^5 x}{5}+C.$$&lt;/p&gt;
 &lt;h4 id=&#34;función-sinn-xcosm-x-con-n-y-m-pares&#34;&gt;Función $\sin^n x\cos^m x$ con $n$ y $m$ pares&lt;/h4&gt;
-&lt;p&gt;Si $f(x)=\operatorname{sen}^n x\cos^m x$ con $n$ y $m$ pares, entonces se suelen utilizar las siguientes igualdades para facilitar el cálculo de la integral:&lt;/p&gt;
+&lt;div class=&#34;alert alert-tool&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Si $f(x)=\operatorname{sen}^n x\cos^m x$ con $n$ y $m$ pares, entonces se suelen utilizar las siguientes igualdades para facilitar el cálculo de la integral:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
 \operatorname{sen}^2 x &amp;amp;= \frac{1}{2}(1-\cos 2x)\newline
@@ -1713,18 +1823,22 @@ $$&lt;/p&gt;
 \operatorname{sen} x\cos x &amp;amp;= \frac{1}{2}\operatorname{sen} 2x
 \end{aligned}
 $$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-\int \operatorname{sen}^2 x\cos^4 x, dx &amp;amp;= \int (\operatorname{sen} x\cos x)^2\cos^2 x, dx = \int \left(\frac{1}{2}\operatorname{sen}
-2x\right)^2\frac{1}{2}(1+\cos 2x),dx =\newline
-&amp;amp;= \frac{1}{8}\int \operatorname{sen}^2 2x,dx+\frac{1}{8}\int \sin^2 2x \cos 2x,dx,
+\int \operatorname{sen}^2 x\cos^4 x\, dx &amp;amp;= \int (\operatorname{sen} x\cos x)^2\cos^2 x\, dx = \int \left(\frac{1}{2}\operatorname{sen}
+2x\right)^2\frac{1}{2}(1+\cos 2x)\,dx =\newline
+&amp;amp;= \frac{1}{8}\int \operatorname{sen}^2 2x\,dx+\frac{1}{8}\int \sin^2 2x \cos 2x\,dx,
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;siendo la primera integral es de este mismo tipo y la segunda del anterior&lt;/p&gt;
-&lt;p&gt;$$\int \operatorname{sen}^2 x\cos^4 x, dx = \frac{1}{32}x-\frac{1}{32}\operatorname{sen} 2x)+\frac{1}{24}\operatorname{sen}^3 2x.$$&lt;/p&gt;
+&lt;p&gt;$$\int \operatorname{sen}^2 x\cos^4 x\, dx = \frac{1}{32}x-\frac{1}{32}\operatorname{sen} 2x)+\frac{1}{24}\operatorname{sen}^3 2x.$$&lt;/p&gt;
 &lt;h4 id=&#34;productos-de-senos-y-cosenos&#34;&gt;Productos de senos y cosenos&lt;/h4&gt;
-&lt;p&gt;Las igualdades&lt;/p&gt;
+&lt;div class=&#34;alert alert-tool&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Las igualdades&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
 \operatorname{sen} x\cos y &amp;amp;= \frac{1}{2}(\operatorname{sen}(x-y)+\operatorname{sen}(x+y))\newline
@@ -1733,62 +1847,69 @@ $$&lt;/p&gt;
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;transforman los productos en sumas, simplificando su integración.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-\int \operatorname{sen} x\cos 2x, dx &amp;amp;= \int \frac{1}{2}(\operatorname{sen}(x-2x)+\operatorname{sen}(x+2x)),dx = \newline
-&amp;amp;= \frac{1}{2}\int \operatorname{sen} (-x),dx +\frac{1}{2}\int \operatorname{sen} 3x,dx = \newline
+\int \operatorname{sen} x\cos 2x\, dx &amp;amp;= \int \frac{1}{2}(\operatorname{sen}(x-2x)+\operatorname{sen}(x+2x))\,dx = \newline
+&amp;amp;= \frac{1}{2}\int \operatorname{sen} (-x)\,dx +\frac{1}{2}\int \operatorname{sen} 3x\,dx = \newline
 &amp;amp;= \frac{1}{2}\cos(-x)- \frac{1}{6}\cos 3x +C.
 \end{aligned}
 $$&lt;/p&gt;
 &lt;h4 id=&#34;funciones-racionales-de-senos-y-cosenos&#34;&gt;Funciones racionales de senos y cosenos&lt;/h4&gt;
-&lt;p&gt;Si $f(x,y)$ es una función racional entonces la función $f(\operatorname{sen} x,\cos x)$ puede convertirse en una función racional en $t$ mediante los cambios&lt;/p&gt;
+&lt;div class=&#34;alert alert-tool&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Si $f(x,y)$ es una función racional entonces la función $f(\operatorname{sen} x,\cos x)$ puede convertirse en una función racional en $t$ mediante los cambios&lt;/p&gt;
 &lt;p&gt;$$\operatorname{tg} \frac{x}{2}=t \quad \operatorname{sen} x=\frac{2t}{1+t^2} \quad \cos x = \frac{1-t^2}{1+t^2} \quad dx = \frac{2}{1+t^2}dt.$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;$$\int \frac{1}{\operatorname{sen} x},dx = \int \frac{1}{\frac{2t}{1+t^2}}\frac{2}{1+t^2},dt = \int \frac{1}{t},dt = \log|t|+C =
+&lt;p&gt;$$\int \frac{1}{\operatorname{sen} x}\,dx = \int \frac{1}{\frac{2t}{1+t^2}}\frac{2}{1+t^2}\,dt = \int \frac{1}{t}\,dt = \log|t|+C =
 \log|\operatorname{tg}\frac{x}{2}|+C.$$&lt;/p&gt;
 &lt;h2 id=&#34;integral-definida&#34;&gt;Integral definida&lt;/h2&gt;
-&lt;h3 id=&#34;integral-definida-1&#34;&gt;Integral definida&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Integral definida&lt;/strong&gt;. Sea $f(x)$ una función cuya primitiva es $F(x)$ en un intervalo $[a,b]$. Se define la integral definida de $f(x)$ en el intervalo $[a,b]$ como&lt;/p&gt;
-&lt;p&gt;$$\int_a^b f(x),dx = \left[F(x)\right]_a^b=F(b)-F(a)$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Integral definida&lt;/strong&gt;. Sea $f(x)$ una función continua en el intervalo $[a, b]$. Si se divide este intervalo en $n$ subintervalos de igual amplitud $\Delta x$ y se elige un punto cualquiera $x_i$ de cada subintervalo, la &lt;em&gt;integral definida&lt;/em&gt; de $f$ desde $a$ hasta $b$ se define como el límite&lt;/p&gt;
+&lt;p&gt;$$\int_a^b f(x)\,dx = \lim_{n\rightarrow \infty}\sum_{i=1}^n f(x_i)\Delta x.$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;img src=&#34;../img/integrales/riemann_sums.gif&#34; alt=&#34;Sumas de Riemann&#34; width=&#34;350&#34;&gt;
+&lt;div class=&#34;alert alert-theo&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Primer teorema fundamental de Cálculo&lt;/strong&gt;.  Si $f(x)$ es una función continua en el intervalo $[a,b]$ y $F(x)$ es la primitiva de $f$ en $[a,b]$, entonces&lt;/p&gt;
+&lt;p&gt;$$\int_a^b f(x)\,dx = F(b)-F(a)$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Dada la función $f(x)=x^2$, se tiene&lt;/p&gt;
-&lt;p&gt;$$\int_1^2 x^2,dx = \left[\frac{x^3}{3}\right]_1^2 = \frac{2^3}{3}-\frac{1^3}{3} = \frac{7}{3}.$$&lt;/p&gt;
+&lt;p&gt;$$\int_1^2 x^2\,dx = \left[\frac{x^3}{3}\right]_1^2 = \frac{2^3}{3}-\frac{1^3}{3} = \frac{7}{3}.$$&lt;/p&gt;
 &lt;h3 id=&#34;propiedades-de-la-integral-definida&#34;&gt;Propiedades de la integral definida&lt;/h3&gt;
 &lt;p&gt;Dadas dos funciones $f$ y $g$ integrables en $[a,b]$ y $k \in \mathbb{R}$ se cumplen las siguientes propiedades&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$\int_a^b(f(x)+g(x)),dx=\int_a^bf(x),dx+\int_a^bg(x),dx$ (linealidad)&lt;/li&gt;
-&lt;li&gt;$\int_a^b{kf(x)},dx=k\int_a^b{f(x)},dx$ (linealidad)&lt;/li&gt;
-&lt;li&gt;$\int_a^b{f(x),dx} \leq \int_a^b{g(x),dx}$ si $f(x)\leq g(x)\ \forall x \in [a,b]$ (monotonía)&lt;/li&gt;
-&lt;li&gt;$\int_a^b{f(x),dx} = \int_a^c{f(x),dx}+\int_c^b{f(x),dx}$ para cualquier $c\in(a,b)$ (aditividad)&lt;/li&gt;
-&lt;li&gt;$\int_a^b f(x),dx = -\int_b^a f(x),dx$&lt;/li&gt;
+&lt;li&gt;$\int_a^b(f(x)+g(x))\,dx=\int_a^bf(x)\,dx+\int_a^bg(x)\,dx$ (linealidad)&lt;/li&gt;
+&lt;li&gt;$\int_a^b{kf(x)}\,dx=k\int_a^b{f(x)}\,dx$ (linealidad)&lt;/li&gt;
+&lt;li&gt;$\int_a^b{f(x)\,dx} \leq \int_a^b{g(x)\,dx}$ si $f(x)\leq g(x)\ \forall x \in [a,b]$ (monotonía)&lt;/li&gt;
+&lt;li&gt;$\int_a^b{f(x)\,dx} = \int_a^c{f(x)\,dx}+\int_c^b{f(x)\,dx}$ para cualquier $c\in(a,b)$ (aditividad)&lt;/li&gt;
+&lt;li&gt;$\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;cálculo-de-áreas&#34;&gt;Cálculo de áreas&lt;/h2&gt;
-&lt;h3 id=&#34;cálculo-de-áreas-1&#34;&gt;Cálculo de áreas&lt;/h3&gt;
-&lt;h4 id=&#34;área-delimitada-por-una-función-positiva-y-el-eje-de-abscisas&#34;&gt;Área delimitada por una función positiva y el eje de abscisas&lt;/h4&gt;
+&lt;h3 id=&#34;área-delimitada-por-una-función-positiva-y-el-eje-de-abscisas&#34;&gt;Área delimitada por una función positiva y el eje de abscisas&lt;/h3&gt;
 &lt;p&gt;Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\geq 0\ \forall x\in[a,b]$, entonces la integral definida&lt;/p&gt;
-&lt;p&gt;$$\int_a^b f(x),dx$$&lt;/p&gt;
-&lt;p&gt;mide le área que queda entre la función $f$ y el eje de abscisas en el intervalo $[a,b]$.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/integrales/area_funcion_positiva.png&#34; width=&#34;300px&#34; alt=&#34;Area delimitada por una función positiva entre la función y el eje X en un intervalo&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;área-delimitada-por-una-función-negativa-y-el-eje-de-abscisas&#34;&gt;Área delimitada por una función negativa y el eje de abscisas&lt;/h4&gt;
-&lt;p&gt;Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\leq 0\ \forall x\in[a,b]$, entonces el área que queda entre la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p&gt;
-&lt;p&gt;$$-\int_a^b f(x),dx.$$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/integrales/area_funcion_negativa.png&#34; width=&#34;300px&#34; alt=&#34;Area delimitada por una función negativa entre la función y el eje X en un intervalo&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;área-delimitada-por-una-función-y-el-eje-de-abscisas&#34;&gt;Área delimitada por una función y el eje de abscisas&lt;/h4&gt;
-&lt;p&gt;Si $f$ cambia de signo a lo largo del intervalo $[a,b]$ entonces se divide el intervalo de integración en intervalos donde $f$ tenga el mismo signo, se calcula cada área por separado y se suman.&lt;/p&gt;
-&lt;p&gt;$$\int_a^c f(x),dx -\int_c^b f(x),dx$$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/integrales/area_funcion_positiva_negativa.png&#34; width=&#34;400px&#34; alt=&#34;Area delimitada por una función entre la función y el eje X en un intervalo&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;área-delimitada-por-dos-funciones&#34;&gt;Área delimitada por dos funciones&lt;/h4&gt;
-&lt;p&gt;Si $f$ y $g$ son dos funciones integrables en el intervalo $[a,b]$ y se verifica que $g(x)\leq f(x)$ $\forall x\in[a,b]$, entonces el área de la región plana limitada por las curvas $y=f(x)$, $y=g(x)$, y las rectas $x=a$ y $x=b$ viene dada por&lt;/p&gt;
-&lt;p&gt;$$\int_{a}^{b}{(f(x)- g(x)),dx}.$$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/integrales/area_entre_funciones.png&#34; width=&#34;400px&#34; alt=&#34;Area delimitada por dos funciones en un intervalo&#34; /&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;$$\int_a^b f(x)\,dx$$&lt;/p&gt;
+&lt;p&gt;mide le área que queda entre la el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/integrales/area_positive_function.svg&#34; width=&#34;300px&#34; alt=&#34;Area delimitada por el gráfico de una función positiva entre la función y el eje X en un intervalo&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;área-delimitada-por-una-función-negativa-y-el-eje-de-abscisas&#34;&gt;Área delimitada por una función negativa y el eje de abscisas&lt;/h3&gt;
+&lt;p&gt;Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\leq 0\ \forall x\in[a,b]$, entonces el área que queda entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p&gt;
+&lt;p&gt;$$-\int_a^b f(x)\,dx.$$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/integrales/area_negative_function.svg&#34; width=&#34;300px&#34; alt=&#34;Area delimitada por el gráfico de una función negativa entre la función y el eje X en un intervalo&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;área-delimitada-por-una-función-y-el-eje-de-abscisas&#34;&gt;Área delimitada por una función y el eje de abscisas&lt;/h3&gt;
+&lt;p&gt;En general, si $f(x)$ es una función integrable en el intervalo $[a,b]$, no importa el signo de $f$ en $[a,b]$, el area entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p&gt;
+&lt;p&gt;$$\int_a^b \vert f(x)\vert\,dx.$$&lt;/p&gt;
+&lt;img src=&#34;../img/integrales/area_function.svg&#34; alt=&#34;Area delimitada por el gráfico de una función y el eje X en un intervalo&#34; width=&#34;350&#34;&gt;
+&lt;h3 id=&#34;área-delimitada-por-dos-funciones&#34;&gt;Área delimitada por dos funciones&lt;/h3&gt;
+&lt;p&gt;Si $f$ y $g$ son dos funciones integrables en el intervalo $[a,b]$, entonces el área limitada por los gráficos de $f$ y $g$ en el intervalo $[a,b]$ es&lt;/p&gt;
+&lt;p&gt;$$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/integrales/area_between_functions.svg&#34; width=&#34;400px&#34; alt=&#34;Area delimitada por el gráfico de dos funciones en un intervalo&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1801,39 +1922,53 @@ $$&lt;/p&gt;
 &lt;p&gt;En muchos problemas de geometría, física, química, etc, seq presentan a menudo ecuaciones que relacionan una función con su derivada o derivadas sucesivas.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Ecuación diferencial ordinaria&lt;/strong&gt;. Se llama &lt;em&gt;ecuación diferencial ordinaria&lt;/em&gt; (E.D.O.) a una ecuación que relaciona una variable independiente $x$, una función desconocida $y(x)$, y las derivadas de $y$ de diversos órdenes $y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n}$; es decir una expresión de la forma&lt;/p&gt;
-&lt;p&gt;$$F(x, y, y&amp;rsquo;, y&amp;rsquo;&amp;rsquo;,\ldots, y^{(n})=0.$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Ecuación diferencial ordinaria&lt;/strong&gt;. Se llama &lt;em&gt;ecuación diferencial ordinaria&lt;/em&gt; (E.D.O.) a una ecuación que relaciona una variable independiente $x$, una función desconocida $y(x)$, y las derivadas de $y$ de diversos órdenes $y&#39;,y&#39;&#39;,\ldots,y^{(n}$; es decir una expresión de la forma&lt;/p&gt;
+&lt;p&gt;$$F(x, y, y&#39;, y&#39;&#39;,\ldots, y^{(n})=0.$$&lt;/p&gt;
 &lt;p&gt;Se llama &lt;em&gt;orden&lt;/em&gt; de la ecuación diferencial al mayor de los órdenes de las derivadas que contienen la ecuación.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La ecuación $y\prime\prime\prime+\operatorname{sen}(x)y&#39;=2x$ es una ecuación diferencial ordinaria de tercer orden.&lt;/p&gt;
 &lt;h3 id=&#34;deducción-de-una-ecuación-diferencial&#34;&gt;Deducción de una ecuación diferencial&lt;/h3&gt;
 &lt;p&gt;Para deducir la ecuación diferencial que explica un fenómeno es fundamental saber interpretar las derivadas de una función.&lt;/p&gt;
-&lt;p&gt;Una de las leyes de la termodinámica de Newton dice: &lt;em&gt;“La velocidad de enfriamiento de un cuerpo en el aire es proporcional a la diferencia de temperatura $T$ del cuerpo y la temperatura $T_a$ del aire.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt; Una de las leyes de la termodinámica de Newton dice&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“La velocidad de enfriamiento de un cuerpo en el aire es proporcional a la diferencia de temperatura $T$ del cuerpo y la temperatura $T_a$ del aire.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;La velocidad de enfriamiento es la variación instantánea de la temperatura con respecto al tiempo, es decir, la derivada de la temperatura con respecto al tiempo $dT/dt$. Por tanto, el fenómeno anterior puede describirse mediante la ecuación diferencial&lt;/p&gt;
 &lt;p&gt;$$\frac{dT}{dt}=k(T-T_a),$$&lt;/p&gt;
 &lt;p&gt;donde $k$ es una constante de proporcionalidad.&lt;/p&gt;
 &lt;h3 id=&#34;solución-de-una-ecuación-diferencial-ordinaria&#34;&gt;Solución de una ecuación diferencial ordinaria&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Solución de una ecuación diferencial ordinaria&lt;/strong&gt;. Se llama &lt;em&gt;solución de una ecuación diferencial ordinaria&lt;/em&gt; $F(x,y,y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n})=0$ a cualquier función $y =f(x)$ tal que al sustituirla en la ecuación la convierte en una igualdad; es decir $$F(x,f(x), f&amp;rsquo;(x), f&amp;rsquo;&#39;(x),\ldots, f^{(n}(x))=0.$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Solución de una ecuación diferencial ordinaria&lt;/strong&gt;. Se llama &lt;em&gt;solución de una ecuación diferencial ordinaria&lt;/em&gt; $F(x,y,y&#39;,y&#39;&#39;,\ldots,y^{(n})=0$ a cualquier función $y =f(x)$ tal que al sustituirla en la ecuación la convierte en una igualdad; es decir&lt;/p&gt;
+&lt;p&gt;$$F(x,f(x), f&#39;(x), f&#39;&#39;(x),\ldots, f^{(n}(x))=0.$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;La gráfica de la solución de una ecuación diferencial ordinaria se llama &lt;em&gt;curva integral&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Resolver o integrar una ecuación diferencial ordinaria consiste en hallar todas sus soluciones en un dominio dado. Para ello, habrá que recurrir al cálculo integral.&lt;/p&gt;
-&lt;p&gt;De igual modo que al integrar una función aparece una constante que nos da la familia de primitivas de la función, al integrar una ecuación diferencial ordianaria surgen varias constantes arbitrarias. Dando valores a dichas constantes se obtienen todas las soluciones de la ecuación.&lt;/p&gt;
+&lt;p&gt;De igual modo que al integrar una función aparece una constante que nos da la familia de primitivas de la función, al integrar una ecuación diferencial ordinaria surgen varias constantes arbitrarias. Dando valores a dichas constantes se obtienen todas las soluciones de la ecuación.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Solución general de una E.D.O.&lt;/strong&gt;. Se llama &lt;em&gt;solución general de una ecuación diferencial ordinaria&lt;/em&gt; de orden $n$, a una función de la forma $$y =f (x,C_1,\ldots,C_n)$$ que es solución de la ecuación diferencial para cualquier valor que tomen las constantes $C_1,\ldots,C_n$.&lt;/p&gt;
 &lt;p&gt;Para cada valor que tomen las constantes se obtiene una &lt;em&gt;solución particular&lt;/em&gt; de la ecuación diferencial. Por ello, una E.D.O. tiene infinitas soluciones.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Geométricamente, la solución general representa una familia de curvas integrales de la ecuación diferencial.&lt;/p&gt;
 &lt;p&gt;A menudo, se suelen imponer condiciones para reducir el número de soluciones de la ecuación diferencial. En muchos casos estas condiciones permiten fijar los valores de las constantes y así obtener una solución particular a partir de la solución general.&lt;/p&gt;
 &lt;h3 id=&#34;ecuaciones-diferenciales-ordinarias-de-primer-orden&#34;&gt;Ecuaciones diferenciales ordinarias de primer orden&lt;/h3&gt;
-&lt;p&gt;Vamos a estudiar la resolución de E.D.O. de primer orden, $$F(x,y,y&amp;rsquo;)=0.$$&lt;/p&gt;
+&lt;p&gt;Vamos a estudiar la resolución de E.D.O. de primer orden, $$F(x,y,y&#39;)=0.$$&lt;/p&gt;
 &lt;p&gt;La solución general de una E.D.O. de primer orden es $$y = f (x,C),$$ de manera que para obtener una solución particular de la ecuación basta con darle valor a la constante $C$, y para ello es suficiente con fijar una condición inicial.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Problema del valor inicial&lt;/strong&gt;. Al conjunto formado por una ecuación diferencial ordinaria de primer orden y una condición inicial se le llama &lt;em&gt;problema del valor inicial&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;$$\left{\begin{array}{ll}
-F(x,y,y&amp;rsquo;)=0, &amp;amp; \hbox{E.D.O. de primer orden;} \newline &lt;br&gt;
-y(x_0)=y_0, &amp;amp; \hbox{Condición inicial.} \newline
-\end{array}\right.$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{cases}
+F(x,y,y&#39;)=0, &amp;amp; \mbox{Ecuación diferencial de primer orden;} \newline
+y(x_0)=y_0, &amp;amp; \mbox{Condición inicial.}
+\end{cases}
+$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Resolver un problema del valor inicial consiste en encontrar una solución de la ecuación diferencial que cumpla la condición inicial.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Recordemos la ecuación diferencial de primer orden que explicaba el enfriamiento de un cuerpo en el aire: $$\frac{dT}{dt}=k(T-T_a),$$ donde $T$ es la temperatura del cuerpo y $T_a$ la del aire.&lt;/p&gt;
 &lt;p&gt;Es fácil comprobar que la solución general de esta ecuación diferencial es&lt;/p&gt;
@@ -1848,14 +1983,17 @@ y(x_0)=y_0, &amp;amp; \hbox{Condición inicial.} \newline
 &lt;p&gt;&lt;img src=&#34;../img/edo/curvas_integrales.png&#34; width=&#34;450px&#34; alt=&#34;Gráficas de las soluciones de una ecuación diferencial ordinaria&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;de las cuales, la solución del problema del valor incial es la función cuya gráfica pasa por el punto $(0,5)$.&lt;/p&gt;
 &lt;h3 id=&#34;existencia-y-unicidad-de-soluciones&#34;&gt;Existencia y unicidad de soluciones&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Teorema - Existencia y unicidad de la solución de una E.D.O.&lt;/strong&gt;. Si $g(x,y(x))$ es una función diferenciable en el intervalo $(a,b)$, entonces el problema del valor inicial&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;$$\left{\begin{array}{ll} &lt;br&gt;
-y&#39;=g(x,y), &amp;amp; x\in (a,b); \newline
-y(x_0)=y_0.\newline
-\end{array}\right.$$&lt;/p&gt;
-&lt;p&gt;tiene solución única, es decir, existe una única $y=f(x)$, definida en $(a,b)$, solución de la ecuación diferencial y tal que $f(x_0)=y_0$.&lt;/p&gt;
+&lt;div class=&#34;alert alert-theo&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Existencia y unicidad de la solución de una E.D.O.&lt;/strong&gt;. Dado un problem del valor inicial&lt;/p&gt;
+&lt;p&gt;$$\begin{cases}
+y&#39;=F(x,y);\newline
+y(x_0)=y_0;
+\end{cases}
+$$&lt;/p&gt;
+&lt;p&gt;si $F(x,y(x))$ es una función continua en un intervalo abierto alrededor del punto $(x_0,y_0)$, entonces existe una solución del problema del valor inicial. Si, además, $\frac{\partial F}{\partial y}$ es continua en un intervalo abierto alrededor de $(x_0,y_0)$, la solución es única.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Aunque este teorema nos garantiza la existencia y la unicidad de las soluciones no nos proporciona un método para llegar a ellas.&lt;/p&gt;
 &lt;p&gt;En realidad, no existe un método general para resolver ecuaciones diferenciales de primer orden pero veremos cómo resolver algunos tipos especiales de ellas:&lt;/p&gt;
 &lt;ul&gt;
@@ -1871,15 +2009,20 @@ y(x_0)=y_0.\newline
 &lt;p&gt;o lo que es lo mismo,&lt;/p&gt;
 &lt;p&gt;$$g(y)dy=f(x)dx,$$&lt;/p&gt;
 &lt;p&gt;de manera que a un lado de la igualdad sólo aparece la variable $y$ y al otro la variable $x$ (las variables están separadas).&lt;/p&gt;
-&lt;h3 id=&#34;resolución-de-una-edo-de-variables-separables&#34;&gt;Resolución de una E.D.O. de variables separables&lt;/h3&gt;
-&lt;p&gt;La solución general de esta ecuación diferencial se obtiene integrando ambos lados de la igualdad&lt;/p&gt;
-&lt;p&gt;$$\int g(y),dy = \int f(x),dx+C.$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-tool&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;La solución general de esta ecuación diferencial se obtiene integrando ambos lados de la igualdad&lt;/p&gt;
+&lt;p&gt;$$\int g(y)\,dy = \int f(x)\,dx+C.$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La ecuación diferencial que explica el enfriamiento de un cuerpo en el aire&lt;/p&gt;
 &lt;p&gt;$$\frac{dT}{dt}=k(T-T_a),$$&lt;/p&gt;
 &lt;p&gt;es una ecuación diferencial de variables separables ya que puede escribirse&lt;/p&gt;
-&lt;p&gt;$$\frac{1}{T-T_a}dT=k,dt.$$&lt;/p&gt;
+&lt;p&gt;$$\frac{1}{T-T_a}dT=k\,dt.$$&lt;/p&gt;
 &lt;p&gt;Integrando ambos miembros de la igualdad tenemos&lt;/p&gt;
-&lt;p&gt;$$\int \frac{1}{T-T_a},dT=\int k,dt\Leftrightarrow \log(T-T_a)=kt+C,$$&lt;/p&gt;
+&lt;p&gt;$$\int \frac{1}{T-T_a}\,dT=\int k\,dt\Leftrightarrow \log(T-T_a)=kt+C,$$&lt;/p&gt;
 &lt;p&gt;y despejando $T$ llegamos a la solución general de la ecuación&lt;/p&gt;
 &lt;p&gt;$$T(t)=e^{kt+C}+T_a=e^Ce^{kt}+T_a=Ce^{kt}+T_a,$$&lt;/p&gt;
 &lt;p&gt;reescribiendo $C=e^C$ como una constante arbitraria.&lt;/p&gt;
@@ -1888,9 +2031,14 @@ y(x_0)=y_0.\newline
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Función homogénea&lt;/strong&gt;. Una función $f(x,y)$ es &lt;em&gt;homogénea&lt;/em&gt; de grado $n$, si para cualquier valor $k$ se cumple&lt;/p&gt;
 &lt;p&gt;$$f(kx,ky)= k^nf(x,y).$$&lt;/p&gt;
-&lt;p&gt;En particular, para una función homogénea de grado $0$ siempre se cumple $$f(kx,ky)=f(x,y).$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;En particular, para una función homogénea de grado $0$ siempre se cumple&lt;/p&gt;
+&lt;p&gt;$$f(kx,ky)=f(x,y).$$&lt;/p&gt;
 &lt;p&gt;En concreto, si tomamos $k=1/x$ tenemos&lt;/p&gt;
-&lt;p&gt;$$f(x,y)=f\left(\frac{1}{x}x,\frac{1}{x}y\right)=f\left(1,\frac{y}{x}\right)=g\left(\frac{y}{x}\right),$$&lt;/p&gt;
+&lt;p&gt;$$
+f(x,y)=f\left(\frac{1}{x}x,\frac{1}{x}y\right)=f\left(1,\frac{y}{x}\right)=g\left(\frac{y}{x}\right),
+$$&lt;/p&gt;
 &lt;p&gt;de manera que una función homogénea de grado $0$ siempre puede escribirse como una función de $u=y/x$:&lt;/p&gt;
 &lt;p&gt;$$f(x,y)=g\left(\frac{y}{x}\right)=g(u).$$&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -1898,27 +2046,32 @@ y(x_0)=y_0.\newline
     &lt;p&gt;&lt;strong&gt;Definición - E.D.O. homogénea&lt;/strong&gt;. Una ecuación diferencial ordinaria homogénea es una ecuación diferencial de primer orden que puede escribirse de la forma&lt;/p&gt;
 &lt;p&gt;$$y&#39;=f(x,y),$$&lt;/p&gt;
 &lt;p&gt;donde $f(x,y)$ es una función homogénea de grado $0$.&lt;/p&gt;
-&lt;h3 id=&#34;resolución-de-una-edo-homogénea&#34;&gt;Resolución de una E.D.O. homogénea&lt;/h3&gt;
-&lt;p&gt;La solución de esta ecuación diferencial se obtiene realizando el cambio de variable&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-tool&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;La solución de esta ecuación diferencial se obtiene realizando el cambio de variable&lt;/p&gt;
 &lt;p&gt;$$u=\frac{y}{x}\Leftrightarrow y=ux,$$&lt;/p&gt;
 &lt;p&gt;con lo que la ecuación diferencial anterior se convierte en&lt;/p&gt;
 &lt;p&gt;$$u&amp;rsquo;x+u=f(u),$$&lt;/p&gt;
 &lt;p&gt;que es de variables separables.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Una vez resuelta la ecuación diferencial anterior, sólo queda deshacer el cambio de variable.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos la siguiente ecuación diferencial&lt;/p&gt;
-&lt;p&gt;$$4x-3y+y&amp;rsquo;(2y-3x)=0.$$&lt;/p&gt;
+&lt;p&gt;$$4x-3y+y&#39;(2y-3x)=0.$$&lt;/p&gt;
 &lt;p&gt;Escribiéndola de la forma&lt;/p&gt;
 &lt;p&gt;$$y&#39;=\frac{3y-4x}{2y-3x}$$&lt;/p&gt;
 &lt;p&gt;se puede ver fácilmente que es homogénea.&lt;/p&gt;
 &lt;p&gt;Para resolverla hacemos el cambio de variable $y=ux$ y se obtine&lt;/p&gt;
 &lt;p&gt;$$u&amp;rsquo;x+u=\frac{3ux-4x}{2ux-3x}=\frac{3u-4}{2u-3}$$&lt;/p&gt;
 &lt;p&gt;que es de variables separables, y separando las variables se llega a&lt;/p&gt;
-&lt;p&gt;$$u&amp;rsquo;x=\frac{3u-4}{2u-3}-u=\frac{-2u^2+6u-4}{2u-3}\Leftrightarrow \frac{2u-3}{-2u^2+6u-4},du=\frac{1}{x},dx.$$&lt;/p&gt;
+&lt;p&gt;$$u&amp;rsquo;x=\frac{3u-4}{2u-3}-u=\frac{-2u^2+6u-4}{2u-3}\Leftrightarrow \frac{2u-3}{-2u^2+6u-4}\,du=\frac{1}{x}\,dx.$$&lt;/p&gt;
 &lt;p&gt;Integrando ahora ambos miembros obtenemos&lt;/p&gt;
 &lt;p&gt;$$\renewcommand{\arraystretch}{2}
 \begin{array}{c}
 \displaystyle
-\int \frac{2u-3}{-2u^2+6u-4},du=\int \frac{1}{x},dx \Leftrightarrow -\frac{1}{2}\log|u^2-3u+2|=\log|x|+C \Leftrightarrow\newline
+\int \frac{2u-3}{-2u^2+6u-4}\,du=\int \frac{1}{x}\,dx \Leftrightarrow -\frac{1}{2}\log|u^2-3u+2|=\log|x|+C \Leftrightarrow\newline
 \Leftrightarrow \log|u^2-3u+2|=-2\log|x|-2C,
 \end{array}$$&lt;/p&gt;
 &lt;p&gt;y aplicando la función exponencial a ambos miembros y simplificando llegamos a la solución&lt;/p&gt;
@@ -1931,54 +2084,45 @@ y(x_0)=y_0.\newline
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - E.D.O. lineal&lt;/strong&gt;. Una ecuación diferencial ordinaria lineal es una ecuación diferencial de primer orden que puede escribirse de la forma&lt;/p&gt;
 &lt;p&gt;$$y&#39;+g(x)y = h(x).$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;resolución-de-una-edo-lineal&#34;&gt;Resolución de una E.D.O. Lineal&lt;/h3&gt;
 &lt;p&gt;Para resolver esta ecuación diferencial, intentamos poner el primer miembro como derivada de un producto. Para ello multiplicamos los dos miembros de la igualdad por una función $f(x)$ tal que&lt;/p&gt;
-&lt;p&gt;$$f&amp;rsquo;(x)=g(x)f(x).$$&lt;/p&gt;
+&lt;p&gt;$$f&#39;(x)=g(x)f(x).$$&lt;/p&gt;
 &lt;p&gt;De esta manera tenemos&lt;/p&gt;
 &lt;p&gt;$$\begin{array}{c}ç
 y&amp;rsquo;f(x)+g(x)f(x)y=h(x)f(x)\newline
 \Updownarrow\newline
-y&amp;rsquo;f(x)+f&amp;rsquo;(x)y=h(x)f(x)\newline
+y&amp;rsquo;f(x)+f&#39;(x)y=h(x)f(x)\newline
 \Updownarrow\newline
 \dfrac{d}{dx}(yf(x))=h(x)f(x)
 \end{array}$$&lt;/p&gt;
 &lt;p&gt;Integrando ambos miembros de la ecuación anterior llegamos a la solución&lt;/p&gt;
-&lt;p&gt;$$yf(x)=\int h(x)f(x),dx+C.$$&lt;/p&gt;
-&lt;p&gt;Por otro lado, la única función que cumple $f&amp;rsquo;(x)=g(x)f(x)$ es&lt;/p&gt;
-&lt;p&gt;$$f(x)=e^{\int g(x),dx},$$&lt;/p&gt;
+&lt;p&gt;$$yf(x)=\int h(x)f(x)\,dx+C.$$&lt;/p&gt;
+&lt;p&gt;Por otro lado, la única función que cumple $f&#39;(x)=g(x)f(x)$ es&lt;/p&gt;
+&lt;p&gt;$$f(x)=e^{\int g(x)\,dx},$$&lt;/p&gt;
 &lt;p&gt;de modo que, al sustituir en la solución anterior, llegamos a la solución general de una ecuación diferencial lineal&lt;/p&gt;
-&lt;p&gt;$$ye^{\int g(x),dx}=\int h(x) e^{\int g(x),dx},dx+C,$$&lt;/p&gt;
+&lt;p&gt;$$ye^{\int g(x)\,dx}=\int h(x) e^{\int g(x)\,dx}\,dx+C,$$&lt;/p&gt;
 &lt;p&gt;o lo que es lo mismo&lt;/p&gt;
-&lt;p&gt;$$y=e^{-\int g(x),dx}\left(\int h(x)e^{\int g(x),dx},dx+C\right).$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-tool&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Solución de un ecuación diferencial homogenea&lt;/strong&gt;
+$$y=e^{-\int g(x)\,dx}\left(\int h(x)e^{\int g(x)\,dx}\,dx+C\right).$$
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Si en la ecuación diferencial que explica el enfriamiento de un cuerpo, la temperatura del medio en el que se encuentra no es constante sino que cambia con el tiempo, es decir, es una función $T_a(t)$, entonces la ecuación diferencial resultante&lt;/p&gt;
 &lt;p&gt;$$\frac{dT}{dt}=k(T-T_a(t)),$$&lt;/p&gt;
 &lt;p&gt;es una ecuación diferencial lineal que puede escribirse como&lt;/p&gt;
-&lt;p&gt;$$T&amp;rsquo;-kT=-kT_a(t),$$&lt;/p&gt;
+&lt;p&gt;$$T&#39;-kT=-kT_a(t),$$&lt;/p&gt;
 &lt;p&gt;donde el término independiente es $-kT_a(t)$ y el coeficiente de $T$ es $-k$.&lt;/p&gt;
 &lt;p&gt;Sustituyendo en la solución general de una ecuación diferencial lineal tenemos&lt;/p&gt;
-&lt;p&gt;$$y=e^{-\int -k,dt}\left(\int -kT_a(t)e^{\int -k,dt},dt+C\right)= e^{kt}\left(-\int kT_a(t)e^{-kt},dt+C\right).$$&lt;/p&gt;
+&lt;p&gt;$$y=e^{-\int -k\,dt}\left(\int -kT_a(t)e^{\int -k\,dt}\,dt+C\right)= e^{kt}\left(-\int kT_a(t)e^{-kt}\,dt+C\right).$$&lt;/p&gt;
 &lt;p&gt;Si en un caso concreto la temperatura del aire estuviese dada por la función $T_a(t)=t$, y la constante de proporcionalidad fuese $k=1$, entonces la solución general de la ecuación diferencial sería&lt;/p&gt;
-&lt;p&gt;$$y=e^{t}\left(-\int te^{-kt},dt+C\right)=e^t(e^{-t}(t+1)+C)=Ce^t+t+1.$$&lt;/p&gt;
+&lt;p&gt;$$y=e^{t}\left(-\int te^{-kt}\,dt+C\right)=e^t(e^{-t}(t+1)+C)=Ce^t+t+1.$$&lt;/p&gt;
 &lt;p&gt;Si además nos dicen que en el instante $0$ la temperatura del cuerpo es de $5$ ºC, es decir, nos dan la condición inicial $T(0)=5$, entonces se puede calcular la constante $C$&lt;/p&gt;
 &lt;p&gt;$$y(0)=Ce^0+0+1=5 \Leftrightarrow C+1=5 \Leftrightarrow C=4,$$&lt;/p&gt;
 &lt;p&gt;y entonces la solución particular que se obtiene es&lt;/p&gt;
 &lt;p&gt;$$y(t)=4e^t+t+1.$$&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     

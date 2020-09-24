@@ -173,8 +173,8 @@ misma probabilidad de ocurrir (&lt;em&gt;equiprobabilidad&lt;/em&gt;).&lt;/p&gt;
 no se conoce el número de casos posibles.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span class=&#34;alert&#34;&gt;*¡Ojo! Esto no se cumple en muchos experimentos
-aleatorios reales.*&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;alert&#34;&gt;&lt;em&gt;¡Ojo! Esto no se cumple en muchos experimentos
+aleatorios reales.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;\note{
 Como hemos visto, en u experimento aleatorio, un determinado suceso puede ocurrir o no al realizar el experimento, es decir, existe cierta
 incertidumbre sobre su ocurrencia. Tiene sentido, por tanto, cuantificar dicha incertidumbre y medir así la verosimilitud del suceso o la
@@ -713,12 +713,12 @@ decir, $$P(E|S) \mbox{ y } P(\overline{E}|S)$$&lt;/p&gt;
 En el ejemplo anterior se ha visto cómo calcular la probabilidad de que una persona elegida al azar presente el síntoma, pero desde un punto
 de vista de diagnóstico clínico, una pregunta más interesante es:&lt;/p&gt;
 &lt;p&gt;Si llega a la consulta una persona que presenta el síntoma, \emph{¿qué se debe diagnosticar?}&lt;/p&gt;
-&lt;p&gt;En este caso, las hipótesis ante las que hay que decidir son $A$ y $\overline A$ y sus probabilidades ``a priori&amp;rsquo;&amp;rsquo; son $P(A)=0.2$ y
+&lt;p&gt;En este caso, las hipótesis ante las que hay que decidir son $A$ y $\overline A$ y sus probabilidades ``a priori&#39;&#39; son $P(A)=0.2$ y
 $P(\overline A)=0.8$.&lt;/p&gt;
 &lt;p&gt;Esto quiere decir que si no hubiese ninguna información sobre la persona, el diagnóstico sería que no tiene la enfermedad pues es mucho más
 probable que que la tenga.&lt;/p&gt;
 &lt;p&gt;Sin embargo, si al reconocer a la persona se observa que presenta el síntoma, dicha información condiciona a las hipótesis, y para decidir
-entre ellas es necesario calcular sus probabilidades ``a posteriori&amp;rsquo;&amp;rsquo;, es decir
+entre ellas es necesario calcular sus probabilidades ``a posteriori&#39;&#39;, es decir
 $$ P(A|B) \mbox{ y } P(\overline A|B)$$
 }&lt;/p&gt;
 &lt;h3 id=&#34;teorema-de-bayes-3&#34;&gt;Teorema de Bayes&lt;/h3&gt;
@@ -734,7 +734,7 @@ que no tiene la enfermedad.&lt;/p&gt;
 &lt;p&gt;En este caso se dice que el síntoma $S$ &lt;em&gt;no es determinante&lt;/em&gt; a la hora
 de diagnosticar la enfermedad.&lt;/p&gt;
 &lt;p&gt;\note{
-Para calcular las probabilidades ``a posteriori&amp;rsquo;&amp;rsquo; se puede utilizar el teorema de Bayes:
+Para calcular las probabilidades ``a posteriori&#39;&#39; se puede utilizar el teorema de Bayes:
 \begin{align*}
 P(A|B) &amp;amp;= \frac{P(A)P(B/A)}{P(A)P(B/A)+P(\overline A)P(B/\overline A)} = \frac{0.2\cdot 0.9}{0.2\cdot 0.9 + 0.8\cdot 0.4} = \frac{0.18}{0.5}=0.36,\newline
 P(\overline A|B) &amp;amp;= \frac{P(\overline A)P(B/\overline A)}{P(A)P(B/A)+P(\overline A)P(B/\overline A)} = \frac{0.8\cdot 0.4}{0.2\cdot 0.9 + 0.8\cdot 0.4} = \frac{0.32}{0.5}=0.64.

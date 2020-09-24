@@ -44,7 +44,7 @@ ZeroDivisionError: division by zero
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;try:&lt;/code&gt;&lt;br&gt;
      &lt;em&gt;bloque código 1&lt;/em&gt;&lt;br&gt;
-&lt;code&gt;except&lt;/code&gt; _excepción_&lt;code&gt;:&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;except&lt;/code&gt; &lt;em&gt;excepción&lt;/em&gt;&lt;code&gt;:&lt;/code&gt;&lt;br&gt;
      &lt;em&gt;bloque código 2&lt;/em&gt;&lt;br&gt;
 &lt;code&gt;else:&lt;/code&gt;&lt;br&gt;
      &lt;em&gt;bloque código 3&lt;/em&gt;&lt;/p&gt;

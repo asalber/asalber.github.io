@@ -794,7 +794,7 @@
 
     <div class="article-style">
       <h2 id="qué-es-rkteaching">¿Qué es rkTeaching?</h2>
-<p>rk.Teaching es un paquete de 
+<p>rkTeaching es un paquete de 
 <a href="http://www.r-project.org/" target="_blank" rel="noopener">R</a> que proporciona un plugin para la interfaz gráfica 
 <a href="http://rkward.sourceforge.net/" target="_blank" rel="noopener">RKWard</a> añadiendo nuevos menús y cuadros de diálogo especialmente diseñados para la enseñanza de Estadística.</p>
 <p>El paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca <a href="mailto:asalber@ceu.es">asalber@ceu.es</a> del Departamento de Matemáticas de la Universidad San Pablo CEU de Madrid.</p>
@@ -803,13 +803,13 @@
 <p><img src="img/rkward.png" alt="RKWArd"></p>
 <h2 id="instalación">Instalación</h2>
 <h3 id="instalación-en-windows">Instalación en Windows</h3>
-<p>Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y rk.Teaching.</p>
+<p>Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y rkTeaching.</p>
 <p>
-<a href="https://drive.google.com/file/d/0B5yGMNeKDyLdaFMyd2J5YzdZcVE/view?usp=sharing" target="_blank" rel="noopener">Descarga la última versión (R versión 3.2.3, RKWard versión 0.6.5, rk.Teaching versión 1.3)</a></p>
+<a href="https://drive.google.com/file/d/1qfj3O9jO7jnTNnkqkP575fH6xxLtAC3X/view?usp=sharing" target="_blank" rel="noopener">Descarga la última versión (R versión 3.6.2, RKWard versión 0.7.1b, rkTeaching versión 1.3.0)</a></p>
 <p>
-<a href="https://drive.google.com/file/d/0B5yGMNeKDyLdUjlZcldDaFV6R1E/view?usp=sharing" target="_blank" rel="noopener">Descarga la versión anterior (R version 3.0.0, RKWard version 0.6.1 y rk.Teaching versión 1.2)</a></p>
+<a href="https://drive.google.com/file/d/0B5yGMNeKDyLdaFMyd2J5YzdZcVE/view?usp=sharing" target="_blank" rel="noopener">Descarga la versión anterior (R versión 3.2.3, RKWard versión 0.6.5, rkTeaching versión 1.3)</a></p>
 <p>Una vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo.
-Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:, tras esto se creará una carpeta rkward y dentro de ella la carpeta bin donde se encuentra el fijero <code>rkward.exe</code> que hay que ejecutar para arrancar RKWard.</p>
+Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:, tras esto se creará una carpeta rkward y dentro de ella la carpeta bin donde se encuentra el fichero <code>rkward.exe</code> que hay que ejecutar para arrancar RKWard.</p>
 <p>El siguiente vídeo muestra el proceso de instalación.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -817,7 +817,7 @@ Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y
 </div>
 
 <h3 id="instalación-en-mac-os">Instalación en Mac Os</h3>
-<p>Para instalar el sotware en plataformas Mac Os debe instalarse cada programa por separado con el siguiente orden:</p>
+<p>Para instalar el software en plataformas Mac Os debe instalarse cada programa por separado con el siguiente orden:</p>
 <ol>
 <li>
 <p><strong>Instalar R</strong>. R puede descargarse desde la página 
@@ -831,12 +831,12 @@ Es importante asegurase de tener una versión de Mac OS X 10.11 o superior, ya q
 <p>Si hay algún error en la instalación, consultar las posibles soluciones en (<a href="http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting">http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting</a>)</p>
 </li>
 <li>
-<p><strong>Instalar los paquetes de los que depende rk.Teaching</strong>. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende.
+<p><strong>Instalar los paquetes de los que depende rkTeaching</strong>. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:</p>
  <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez","remotes"))</code></pre>
 </li>
 <li>
-<p><strong>Instalar rk.Teaching</strong>. La mejor forma de instalar rk.Teaching desde este repositorio es utilizando el paquete de R <code>devtools</code>.
+<p><strong>Instalar rkTeaching</strong>. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R <code>devtools</code>.
 Para ello hay que introducir los siguientes comandos en la consola de R:</p>
  <pre><code>
  library(remotes)<br/>
@@ -851,7 +851,7 @@ Para ello hay que introducir los siguientes comandos en la consola de R:</p>
 </li>
 </ol>
 <h3 id="instalación-en-linux">Instalación en Linux</h3>
-<p>Para instalar el sotware en plataformas Linux debe instalarse cada programa por separado con el siguiente orden:</p>
+<p>Para instalar el software en plataformas Linux debe instalarse cada programa por separado con el siguiente orden:</p>
 <ol>
 <li>
 <p><strong>Instalar R</strong>. R puede descargarse desde la página <a href="http://cran.es.r-project.org/">http://cran.es.r-project.org/</a>.
@@ -868,12 +868,12 @@ Debe seleccionarse la distribución correspondiente a Linux y seguir las instruc
 <p>Es importante asegurarse de que la versión instalada es la 0.6.5 o superior.</p>
 </li>
 <li>
-<p><strong>Instalar los paquetes de los que depende rk.Teaching</strong>. Para instalar rk.Teaching primero hay que instalar los paquetes de R de los que depende.
+<p><strong>Instalar los paquetes de los que depende rkTeaching</strong>. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:</p>
  <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez","remotes"),dep=TRUE)</code></pre>
 </li>
 <li>
-<p><strong>Instalar rk.Teaching</strong>. La mejor forma de instalar rk.Teaching desde este repositorio es utilizando el paquete de R <code>devtools</code>.
+<p><strong>Instalar rkTeaching</strong>. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R <code>devtools</code>.
 Para ello hay que introducir los siguientes comandos en la consola de R:</p>
  <pre><code>
  library(remotes)<br/>
@@ -1107,10 +1107,10 @@ procedimientos estadísticos.
 <img src="img/detailed_calculation.png" alt="Salida gráfica"></p>
 </li>
 </ul>
-<p>rk.Teaching es mantenido por 
+<p>rkTeaching es mantenido por 
 <a href="https://github.com/asalber" target="_blank" rel="noopener">asalber</a>.</p>
-<h2 id="cómo-citar-rkteching">¿Cómo citar rk.Teching?</h2>
-<p>Sánchez-Alberca, A. (2020). rk.Teaching (version 1.3) [software]. Obtenido de: <a href="http://aprendeconalf.es/es/proyecto/rkteaching">http://aprendeconalf.es/es/proyecto/rkteaching</a>.</p>
+<h2 id="cómo-citar-rkteaching">¿Cómo citar rkTeaching?</h2>
+<p>Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Obtenido de: <a href="http://aprendeconalf.es/es/proyecto/rkteaching">http://aprendeconalf.es/es/proyecto/rkteaching</a>.</p>
 
     </div>
 
@@ -1124,6 +1124,8 @@ procedimientos estadísticos.
 <div class="article-tags">
   
   <a class="badge badge-light" href="/tag/rkward/">RKWard</a>
+  
+  <a class="badge badge-light" href="/tag/rkteaching/">rkTeaching</a>
   
   <a class="badge badge-light" href="/tag/software/">Software</a>
   

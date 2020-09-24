@@ -343,6 +343,21 @@
   </url>
   
   <url>
+    <loc>/tag/rkteaching/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tag/rkteaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tag/rkteaching/"
+                />
+  </url>
+  
+  <url>
     <loc>/proyecto/rkteaching/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -804,21 +819,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/post/rkteaching-version1.3/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tag/rkteaching/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tag/rkteaching/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/tag/rkteaching/"
                 />
   </url>
   

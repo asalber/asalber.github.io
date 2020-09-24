@@ -23,7 +23,7 @@
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Función de una variable&lt;/strong&gt;. Una &lt;em&gt;función&lt;/em&gt; $f$ de un conjunto $A$ en otro $B$ es una &lt;em&gt;relación&lt;/em&gt; que asocia cada elemento $a\in A$, con un &lt;em&gt;único&lt;/em&gt; elemento de $B$ que se denota $f(a)$, y se llama &lt;em&gt;imagen&lt;/em&gt; de $a$ mediante $f$.&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
-f:,&amp;amp;A\longrightarrow B\newline
+f:\,&amp;amp;A\longrightarrow B\newline
 &amp;amp;a\longrightarrow f(a)\end{aligned}$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -89,7 +89,7 @@ x=t
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Composición de funciones&lt;/strong&gt;. Dadas dos funciones $g:A\rightarrow B$ y $f:B\rightarrow C$, se define la &lt;em&gt;función compuesta&lt;/em&gt; $f\circ g$, (leído $g$ compuesto con $f$) como la función&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
-f\circ g:,&amp;amp; A\longrightarrow C\newline
+f\circ g:\,&amp;amp; A\longrightarrow C\newline
 &amp;amp; x\longrightarrow f(g(x))\end{aligned}$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;

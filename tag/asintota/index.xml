@@ -415,13 +415,13 @@ $$&lt;/p&gt;
 &lt;h4 id=&#34;regla-de-lhôpital&#34;&gt;Regla de L&amp;rsquo;Hôpital&lt;/h4&gt;
 &lt;div class=&#34;alert alert-theo&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Teorema - Regla de L’Hôpital&lt;/strong&gt;. Si $\dfrac{f(x)}{g(x)}\rightarrow \dfrac{0}{0}$ o $\dfrac{\infty}{\infty}$ cuando $x\rightarrow a$, entonces si existe el límite de $\dfrac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}$ cuando $x\rightarrow a$ se cumple&lt;/p&gt;
-&lt;p&gt;$$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}.$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Regla de L’Hôpital&lt;/strong&gt;. Si $\dfrac{f(x)}{g(x)}\rightarrow \dfrac{0}{0}$ o $\dfrac{\infty}{\infty}$ cuando $x\rightarrow a$, entonces si existe el límite de $\dfrac{f&#39;(x)}{g&#39;(x)}$ cuando $x\rightarrow a$ se cumple&lt;/p&gt;
+&lt;p&gt;$$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f&#39;(x)}{g&#39;(x)}.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
-    Para que exista $\lim_{x\rightarrow a}\dfrac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}$ es necesario que que $f$ y $g$ sean derivables en un entorno de $a$.
+    Para que exista $\lim_{x\rightarrow a}\dfrac{f&#39;(x)}{g&#39;(x)}$ es necesario que que $f$ y $g$ sean derivables en un entorno de $a$.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Sea $f(x)=\dfrac{\log(x^2-1)}{x+2}\rightarrow \dfrac{\infty}{\infty}$ cuando $x\rightarrow \infty$.&lt;/p&gt;

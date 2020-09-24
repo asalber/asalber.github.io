@@ -34,7 +34,7 @@
 &lt;p&gt;The study of a function $y=f(x)$ requires to understand how the function changes, that is, how the dependent variable $y$ changes when we change the independent variable $x$.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;strong&gt;Definition - Average rate of change&lt;/strong&gt;. The &lt;em&gt;average rate of change&lt;/em&gt; of a function $y=f(x)$ in an interval $[a,a+\Delta x]\subseteq Dom(f)$, is the quotient between the increment of $y$ and the increment of $x$ in that interval; it is denoted by $$\mbox{ARC};f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{f(a+\Delta x)-f(a)}{\Delta x}.$$
+    &lt;strong&gt;Definition - Average rate of change&lt;/strong&gt;. The &lt;em&gt;average rate of change&lt;/em&gt; of a function $y=f(x)$ in an interval $[a,a+\Delta x]\subseteq Dom(f)$, is the quotient between the increment of $y$ and the increment of $x$ in that interval; it is denoted by $$\mbox{ARC}\;f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{f(a+\Delta x)-f(a)}{\Delta x}.$$
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example - Area of a square&lt;/strong&gt;. Let $y=x^2$ be the function that measures the area of a metallic square of side length $x$.&lt;/p&gt;
@@ -43,7 +43,7 @@
 \Delta y = f(a+\Delta x)-f(a)=(a+\Delta x)^2-a^2=
 a^2+2a\Delta x+\Delta x^2-a^2=2a\Delta x+\Delta x^2.
 $$&lt;/p&gt;
-&lt;p&gt;What is the average rate of change in the interval $[a,a+\Delta x]$? $$\mbox{ARC};f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{2a\Delta x+\Delta x^2}{\Delta x}=2a+\Delta x.$$&lt;/p&gt;
+&lt;p&gt;What is the average rate of change in the interval $[a,a+\Delta x]$? $$\mbox{ARC}\;f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{2a\Delta x+\Delta x^2}{\Delta x}=2a+\Delta x.$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/square_area_variation.svg&#34; alt=&#34;Variation of the area of a square&#34; width=&#34;300&#34;&gt;
 &lt;h3 id=&#34;geometric-interpretation-of-the-average-rate-of-change&#34;&gt;Geometric interpretation of the average rate of change&lt;/h3&gt;
 &lt;p&gt;The average rate of change of a function $y=f(x)$ in an interval $[a,a+\Delta x]$ is the slope of the &lt;em&gt;secant&lt;/em&gt; line to the graph of $f$ through the points $(a,f(a))$ and $(a+\Delta x,f(a+\Delta x))$.&lt;/p&gt;
@@ -60,7 +60,7 @@ $$&lt;/p&gt;
 &amp;amp;= \lim_{\Delta x\rightarrow 0}\frac{f(a+\Delta x)-f(a)}{\Delta x}.
 \end{aligned}
 $$&lt;/p&gt;
-&lt;p&gt;When this limit exists, the function $f$ is said to be &lt;em&gt;differentiable&lt;/em&gt; at the point $a$, and its value is called the &lt;em&gt;derivative&lt;/em&gt; of $f$ at $a$, and it is denoted $f&amp;rsquo;(a)$ (Lagrange’s notation) or $\frac{df}{dx}(a)$ (Leibniz’s notation).&lt;/p&gt;
+&lt;p&gt;When this limit exists, the function $f$ is said to be &lt;em&gt;differentiable&lt;/em&gt; at the point $a$, and its value is called the &lt;em&gt;derivative&lt;/em&gt; of $f$ at $a$, and it is denoted $f&#39;(a)$ (Lagrange’s notation) or $\frac{df}{dx}(a)$ (Leibniz’s notation).&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example - Area of a square&lt;/strong&gt;. Let us take again the function $y=x^2$ that measures the area of a metallic square of side $x$.&lt;/p&gt;
@@ -70,21 +70,21 @@ $$&lt;/p&gt;
 &amp;amp;= \lim_{\Delta x\rightarrow 0}\frac{2a\Delta x+\Delta x^2}{\Delta x}=\lim_{\Delta x\rightarrow 0} 2a+\Delta x= 2a.
 \end{aligned}
 $$&lt;/p&gt;
-&lt;p&gt;Thus, $$f&amp;rsquo;(a)=\frac{df}{dx}(a)=2a,$$ indicating that the area of the square tends to increase the double of the side.&lt;/p&gt;
+&lt;p&gt;Thus, $$f&#39;(a)=\frac{df}{dx}(a)=2a,$$ indicating that the area of the square tends to increase the double of the side.&lt;/p&gt;
 &lt;h3 id=&#34;interpretation-of-the-derivative&#34;&gt;Interpretation of the derivative&lt;/h3&gt;
 &lt;div class=&#34;alert alert-int&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;The derivative of a function $f&amp;rsquo;(a)$ shows the growth rate of $f$ at point $a$:&lt;/p&gt;
+    &lt;p&gt;The derivative of a function $f&#39;(a)$ shows the growth rate of $f$ at point $a$:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$f&amp;rsquo;(a)&amp;gt;0$ indicates an increasing tendency ($y$ increases as $x$ increases).&lt;/li&gt;
-&lt;li&gt;$f&amp;rsquo;(a)&amp;lt;0$ indicates a decreasing tendency ($y$ decreases as $x$ increases).&lt;/li&gt;
+&lt;li&gt;$f&#39;(a)&amp;gt;0$ indicates an increasing tendency ($y$ increases as $x$ increases).&lt;/li&gt;
+&lt;li&gt;$f&#39;(a)&amp;lt;0$ indicates a decreasing tendency ($y$ decreases as $x$ increases).&lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. A derivative $f&amp;rsquo;(a)=3$ indicates that $y$ tends to increase triple of $x$ at point $a$. A derivative $f&amp;rsquo;(a)=-0.5$ indicates that $y$ tends to decrease half of $x$ at point $a$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. A derivative $f&#39;(a)=3$ indicates that $y$ tends to increase triple of $x$ at point $a$. A derivative $f&#39;(a)=-0.5$ indicates that $y$ tends to decrease half of $x$ at point $a$.&lt;/p&gt;
 &lt;h3 id=&#34;geometric-interpretation-of-the-derivative&#34;&gt;Geometric interpretation of the derivative&lt;/h3&gt;
 &lt;p&gt;We have seen that the average rate of change of a function $y=f(x)$ in an interval $[a,a+\Delta x]$ is the slope of the secant line, but when $\Delta x$ approaches $0$, the secant line becomes the tangent line.&lt;/p&gt;
-&lt;p&gt;The instantaneous rate of change or derivative of a function $y=f(x)$ at $x=a$ is the slope of the &lt;em&gt;tangent line&lt;/em&gt; to the graph of $f$ at point $(a,f(a))$. Thus, the equation of the tangent line to the graph of $f$ at the point $(a,f(a))$ is $$y-f(a) = f&amp;rsquo;(a)(x-a) \Leftrightarrow y = f(a)+f&amp;rsquo;(a)(x-a)$$&lt;/p&gt;
+&lt;p&gt;The instantaneous rate of change or derivative of a function $y=f(x)$ at $x=a$ is the slope of the &lt;em&gt;tangent line&lt;/em&gt; to the graph of $f$ at point $(a,f(a))$. Thus, the equation of the tangent line to the graph of $f$ at the point $(a,f(a))$ is $$y-f(a) = f&#39;(a)(x-a) \Leftrightarrow y = f(a)+f&#39;(a)(x-a)$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/tangent_line.svg&#34; alt=&#34;Tangent line to a function&#34; width=&#34;450&#34;&gt;
 &lt;h3 id=&#34;kinematic-applications-linear-motion&#34;&gt;Kinematic applications: Linear motion&lt;/h3&gt;
 &lt;p&gt;Assume that the function $y=f(t)$ describes the position of an object moving in the real line at time $t$. Taking as reference the coordinates origin $O$ and the unitary vector $\mathbf{i}=(1)$, we can represent the position of the moving object $P$ at every moment $t$ with a vector $\vec{OP}=x\mathbf{i}$ where $x=f(t)$.&lt;/p&gt;
@@ -95,7 +95,7 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. A vehicle makes a trip from Madrid to Barcelona. Let $f(t)$ be the function that determine the position of the vehicle at every moment $t$. If the vehicle departs from Madrid (km 0) at 8:00 and arrives at Barcelona (km 600) at 14:00, then the average velocity of the vehicle in the path is $$\mathbf{v}_m=\frac{f(14)-f(8)}{14-8}=\frac{600-0}{6} = 100 km/h.$$&lt;/p&gt;
 &lt;h3 id=&#34;kinematic-interpretation-of-the-derivative&#34;&gt;Kinematic interpretation of the derivative&lt;/h3&gt;
 &lt;p&gt;In the same context of the linear motion, the derivative of the function $f(t)$ at the moment $t_0$ is the vector&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v}=f&amp;rsquo;(t_0)=\lim_{\Delta t\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p&gt;
+&lt;p&gt;$$\mathbf{v}=f&#39;(t_0)=\lim_{\Delta t\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p&gt;
 &lt;p&gt;that is known, as long as the limit exists, as the &lt;em&gt;instantaneous velocity&lt;/em&gt; or simply &lt;em&gt;velocity&lt;/em&gt; of the trajectory $f$ at moment $t_0$.&lt;/p&gt;
 &lt;p&gt;That is, the derivative of the object position with respect to time is a vector field that is called &lt;em&gt;velocity along the trajectory $f$&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Following with the previous example, what indicates the speedometer at any instant is the modulus of the instantaneous velocity vector at that moment.&lt;/p&gt;
@@ -105,15 +105,15 @@ $$&lt;/p&gt;
 &lt;p&gt;If $y=x$, is the identity function, then $y&#39;=1$ at any point.&lt;/p&gt;
 &lt;p&gt;If $u=f(x)$ and $v=g(x)$ are two differentiable functions, then&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$(u+v)&amp;lsquo;=u&#39;+v&#39;$&lt;/li&gt;
-&lt;li&gt;$(u-v)&amp;lsquo;=u&amp;rsquo;-v&#39;$&lt;/li&gt;
-&lt;li&gt;$(u\cdot v)&amp;lsquo;=u&amp;rsquo;\cdot v+ u\cdot v&#39;$&lt;/li&gt;
-&lt;li&gt;$\left(\dfrac{u}{v}\right)&amp;lsquo;=\dfrac{u&amp;rsquo;\cdot v-u\cdot v&amp;rsquo;}{v^2}$&lt;/li&gt;
+&lt;li&gt;$(u+v)&#39;=u&#39;+v&#39;$&lt;/li&gt;
+&lt;li&gt;$(u-v)&#39;=u&#39;-v&#39;$&lt;/li&gt;
+&lt;li&gt;$(u\cdot v)&#39;=u&#39;\cdot v+ u\cdot v&#39;$&lt;/li&gt;
+&lt;li&gt;$\left(\dfrac{u}{v}\right)&#39;=\dfrac{u&#39;\cdot v-u\cdot v&#39;}{v^2}$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;derivative-of-a-composite-function&#34;&gt;Derivative of a composite function&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;strong&gt;Theorem - Chain rule&lt;/strong&gt;. If the function $y=f\circ g$ is the composition of two functions $y=f(z)$ and $z=g(x)$, then $$(f\circ g)&#39;(x)=f&amp;rsquo;(g(x))g&amp;rsquo;(x).$$
+    &lt;strong&gt;Theorem - Chain rule&lt;/strong&gt;. If the function $y=f\circ g$ is the composition of two functions $y=f(z)$ and $z=g(x)$, then $$(f\circ g)&#39;(x)=f&#39;(g(x))g&#39;(x).$$
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
@@ -124,19 +124,19 @@ $$&lt;/p&gt;
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-6&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      It is easy to proof this fact using the Leibniz notation $$\frac{dy}{dx}=\frac{dy}{dz}\frac{dz}{dx}=f&amp;rsquo;(z)g&amp;rsquo;(x)=f&amp;rsquo;(g(x))g&amp;rsquo;(x).$$
+      It is easy to proof this fact using the Leibniz notation $$\frac{dy}{dx}=\frac{dy}{dz}\frac{dz}{dx}=f&#39;(z)g&#39;(x)=f&#39;(g(x))g&#39;(x).$$
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. If $f(z)=\sin z$ and $g(x)=x^2$, then $f\circ g(x)=\sin(x^2)$. Applying the chain rule the derivative of the composite function is
-$$(f\circ g)&#39;(x)=f&amp;rsquo;(g(x))g&amp;rsquo;(x) = \cos(g(x)) 2x = \cos(x^2)2x.$$&lt;/p&gt;
+$$(f\circ g)&#39;(x)=f&#39;(g(x))g&#39;(x) = \cos(g(x)) 2x = \cos(x^2)2x.$$&lt;/p&gt;
 &lt;p&gt;On the other hand, $g\circ f(z)= (\sin z)^2$, and applying the chain rule again, its derivative is
-$$(g\circ f)&#39;(z)=g&amp;rsquo;(f(z))f&amp;rsquo;(z) = 2f(z)\cos z = 2\sin z\cos z.$$&lt;/p&gt;
+$$(g\circ f)&#39;(z)=g&#39;(f(z))f&#39;(z) = 2f(z)\cos z = 2\sin z\cos z.$$&lt;/p&gt;
 &lt;h3 id=&#34;derivative-of-the-inverse-of-a-function&#34;&gt;Derivative of the inverse of a function&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;strong&gt;Theorem - Derivative of the inverse function&lt;/strong&gt;.  Given a function $y=f(x)$ with inverse $x=f^{-1}(y)$, then $$\left(f^{-1}\right)&#39;(y)=\frac{1}{f&amp;rsquo;(x)}=\frac{1}{f&amp;rsquo;(f^{-1}(y))},$$
-provided that $f$ is differentiable at $f^{-1}(y)$ and $f&amp;rsquo;(f^{-1}(y))\neq 0$.
+    &lt;strong&gt;Theorem - Derivative of the inverse function&lt;/strong&gt;.  Given a function $y=f(x)$ with inverse $x=f^{-1}(y)$, then $$\left(f^{-1}\right)&#39;(y)=\frac{1}{f&#39;(x)}=\frac{1}{f&#39;(f^{-1}(y))},$$
+provided that $f$ is differentiable at $f^{-1}(y)$ and $f&#39;(f^{-1}(y))\neq 0$.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
@@ -147,12 +147,12 @@ provided that $f$ is differentiable at $f^{-1}(y)$ and $f&amp;rsquo;(f^{-1}(y))\
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-8&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      It is easy to prove this equality using the Leibniz notation $$\frac{dx}{dy}=\frac{1}{dy/dx}=\frac{1}{f&amp;rsquo;(x)}=\frac{1}{f&amp;rsquo;(f^{-1}(y))}$$
+      It is easy to prove this equality using the Leibniz notation $$\frac{dx}{dy}=\frac{1}{dy/dx}=\frac{1}{f&#39;(x)}=\frac{1}{f&#39;(f^{-1}(y))}$$
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The inverse of the exponential function $y=f(x)=e^x$ is the natural logarithm $x=f^{-1}(y)=\ln y$, so we can compute the derivative of the natural logarithm using the previous theorem and we get $$\left(f^{-1}\right)&#39;(y)=\frac{1}{f&amp;rsquo;(x)}=\frac{1}{e^x}=\frac{1}{e^{\ln y}}=\frac{1}{y}.$$&lt;/p&gt;
-&lt;p&gt;Sometimes it is easier to apply the chain rule to compute the derivative of the inverse of a function. In this example, as $\ln x$ is the inverse of $e^x$, we know that $e^{\ln x}=x$, so differentiating both sides and applying the chain rule to the left side we get $$(e^{\ln x})&amp;lsquo;=x&amp;rsquo; \Leftrightarrow e^{\ln x}(\ln(x))&amp;rsquo; = 1 \Leftrightarrow (\ln(x))&amp;lsquo;=\frac{1}{e^{\ln x}}=\frac{1}{x}.$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The inverse of the exponential function $y=f(x)=e^x$ is the natural logarithm $x=f^{-1}(y)=\ln y$, so we can compute the derivative of the natural logarithm using the previous theorem and we get $$\left(f^{-1}\right)&#39;(y)=\frac{1}{f&#39;(x)}=\frac{1}{e^x}=\frac{1}{e^{\ln y}}=\frac{1}{y}.$$&lt;/p&gt;
+&lt;p&gt;Sometimes it is easier to apply the chain rule to compute the derivative of the inverse of a function. In this example, as $\ln x$ is the inverse of $e^x$, we know that $e^{\ln x}=x$, so differentiating both sides and applying the chain rule to the left side we get $$(e^{\ln x})&#39;=x&#39; \Leftrightarrow e^{\ln x}(\ln(x))&#39; = 1 \Leftrightarrow (\ln(x))&#39;=\frac{1}{e^{\ln x}}=\frac{1}{x}.$$&lt;/p&gt;
 &lt;h2 id=&#34;analysis-of-functions&#34;&gt;Analysis of functions&lt;/h2&gt;
 &lt;h3 id=&#34;analysis-of-functions-increase-and-decrease&#34;&gt;Analysis of functions: increase and decrease&lt;/h3&gt;
 &lt;p&gt;The main application of derivatives is to determine the variation (increase or decrease) of functions. For that we use the sign of the first derivative.&lt;/p&gt;
@@ -160,30 +160,30 @@ provided that $f$ is differentiable at $f^{-1}(y)$ and $f&amp;rsquo;(f^{-1}(y))\
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem&lt;/strong&gt;. Let $f(x)$ be a function with first derivative in an interval $I\subseteq \mathbb{R}$.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If $\forall x\in I\ f&amp;rsquo;(x)&amp;gt; 0$ then $f$ is increasing on $I$.&lt;/li&gt;
-&lt;li&gt;If $\forall x\in I\ f&amp;rsquo;(x)&amp;lt; 0$ then $f$ is decreasing on $I$.&lt;/li&gt;
+&lt;li&gt;If $\forall x\in I\ f&#39;(x)&amp;gt; 0$ then $f$ is increasing on $I$.&lt;/li&gt;
+&lt;li&gt;If $\forall x\in I\ f&#39;(x)&amp;lt; 0$ then $f$ is decreasing on $I$.&lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;If $f&amp;rsquo;(x_0)=0$ then $x_0$ is known as a &lt;em&gt;critical point&lt;/em&gt; or  &lt;em&gt;stationary point&lt;/em&gt;. At this point the function can be increasing, decreasing or neither increasing nor decreasing.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt; The function $f(x)=x^2$ has derivative $f&amp;rsquo;(x)=2x$; it is decreasing on $\mathbb{R}^-$ as $f&amp;rsquo;(x)&amp;lt; 0$ $\forall x\in \mathbb{R}^-$  and increasing on $\mathbb{R}^+$ as $f&amp;rsquo;(x)&amp;gt; 0$ $\forall x\in \mathbb{R}^+$.
-It has a critical point at $x=0$, as $f&amp;rsquo;(0)=0$; at this point the function is neither increasing nor decreasing.&lt;/p&gt;
+&lt;p&gt;If $f&#39;(x_0)=0$ then $x_0$ is known as a &lt;em&gt;critical point&lt;/em&gt; or  &lt;em&gt;stationary point&lt;/em&gt;. At this point the function can be increasing, decreasing or neither increasing nor decreasing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt; The function $f(x)=x^2$ has derivative $f&#39;(x)=2x$; it is decreasing on $\mathbb{R}^-$ as $f&#39;(x)&amp;lt; 0$ $\forall x\in \mathbb{R}^-$  and increasing on $\mathbb{R}^+$ as $f&#39;(x)&amp;gt; 0$ $\forall x\in \mathbb{R}^+$.
+It has a critical point at $x=0$, as $f&#39;(0)=0$; at this point the function is neither increasing nor decreasing.&lt;/p&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
     A function can be increasing or decreasing on an interval and not have first derivative.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us analyze the increase and decrease of the function $f(x)=x^4-2x^2+1$. Its first derivative is $f&amp;rsquo;(x)=4x^3-4x$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us analyze the increase and decrease of the function $f(x)=x^4-2x^2+1$. Its first derivative is $f&#39;(x)=4x^3-4x$.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/increase_analysis.svg&#34; alt=&#34;Inrease or decrease analysis of a function&#34; width=&#34;550&#34;&gt;
 &lt;h3 id=&#34;analysis-of-functions-relative-extrema&#34;&gt;Analysis of functions: relative extrema&lt;/h3&gt;
 &lt;p&gt;As a consequence of the previous result we can also use the first derivative to determine the relative extrema of a function.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Theorem - First derivative test&lt;/strong&gt;. Let $f(x)$ be a function with first derivative in an interval $I\subseteq \mathbb{R}$ and let $x_0\in I$ be a critical point of $f$ ($f&amp;rsquo;(x_0)=0$).&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Theorem - First derivative test&lt;/strong&gt;. Let $f(x)$ be a function with first derivative in an interval $I\subseteq \mathbb{R}$ and let $x_0\in I$ be a critical point of $f$ ($f&#39;(x_0)=0$).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If $f&amp;rsquo;(x)&amp;gt;0$ on an open interval extending left from $x_0$ and $f&amp;rsquo;(x)&amp;lt;0$ on an open interval extending right from $x_0$, then $f$ has a &lt;em&gt;relative maximum&lt;/em&gt; at $x_0$.&lt;/li&gt;
-&lt;li&gt;If $f&amp;rsquo;(x)&amp;lt;0$ on an open interval extending left from $x_0$ and $f&amp;rsquo;(x)&amp;gt;0$ on an open interval extending right from $x_0$, then $f$ has a &lt;em&gt;relative minimum&lt;/em&gt; at $x_0$.&lt;/li&gt;
-&lt;li&gt;If $f&amp;rsquo;(x)$ has the same sign on both an open interval extending left from $x_0$ and an open interval extending right from $x_0$, then $f$ has an &lt;em&gt;inflection point&lt;/em&gt; at $x_0$.&lt;/li&gt;
+&lt;li&gt;If $f&#39;(x)&amp;gt;0$ on an open interval extending left from $x_0$ and $f&#39;(x)&amp;lt;0$ on an open interval extending right from $x_0$, then $f$ has a &lt;em&gt;relative maximum&lt;/em&gt; at $x_0$.&lt;/li&gt;
+&lt;li&gt;If $f&#39;(x)&amp;lt;0$ on an open interval extending left from $x_0$ and $f&#39;(x)&amp;gt;0$ on an open interval extending right from $x_0$, then $f$ has a &lt;em&gt;relative minimum&lt;/em&gt; at $x_0$.&lt;/li&gt;
+&lt;li&gt;If $f&#39;(x)$ has the same sign on both an open interval extending left from $x_0$ and an open interval extending right from $x_0$, then $f$ has an &lt;em&gt;inflection point&lt;/em&gt; at $x_0$.&lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -192,8 +192,8 @@ It has a critical point at $x=0$, as $f&amp;rsquo;(0)=0$; at this point the func
     A vanishing derivative is a necessary but not sufficient condition for the function to have a relative extrema at a point.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $f(x)=x^3$ has derivative $f&amp;rsquo;(x)=3x^2$; it has a critical point at $x=0$. However it does not have a relative extrema at that point, but an inflection point.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Consider again the function $f(x)=x^4-2x^2+1$ and let us analyze its relative extrema now. Its first derivative is $f&amp;rsquo;(x)=4x^3-4x$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $f(x)=x^3$ has derivative $f&#39;(x)=3x^2$; it has a critical point at $x=0$. However it does not have a relative extrema at that point, but an inflection point.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Consider again the function $f(x)=x^4-2x^2+1$ and let us analyze its relative extrema now. Its first derivative is $f&#39;(x)=4x^3-4x$.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/extrema_analysis.svg&#34; alt=&#34;Extrema analysis of a function&#34; width=&#34;550&#34;&gt;
 &lt;h3 id=&#34;analysis-of-functions-concavity&#34;&gt;Analysis of functions: concavity&lt;/h3&gt;
 &lt;p&gt;The concavity of a function can be determined by de second derivative.&lt;/p&gt;
@@ -201,25 +201,25 @@ It has a critical point at $x=0$, as $f&amp;rsquo;(0)=0$; at this point the func
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem&lt;/strong&gt;. Let $f(x)$ be a function with second derivative in an interval $I\subseteq \mathbb{R}$.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If $\forall x\in I\ f&amp;rsquo;&#39;(x)&amp;gt; 0$ then $f$ is concave up (convex) on $I$.&lt;/li&gt;
-&lt;li&gt;If $\forall x\in I\ f&amp;rsquo;&#39;(x)&amp;lt; 0$ then $f$ is concave down (concave) on $I$.&lt;/li&gt;
+&lt;li&gt;If $\forall x\in I\ f&#39;&#39;(x)&amp;gt; 0$ then $f$ is concave up (convex) on $I$.&lt;/li&gt;
+&lt;li&gt;If $\forall x\in I\ f&#39;&#39;(x)&amp;lt; 0$ then $f$ is concave down (concave) on $I$.&lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $f(x)=x^2$ has second derivative $f&amp;rsquo;&#39;(x)=2&amp;gt;0$ $\forall x\in \mathbb{R}$, so it is concave up in all $\mathbb{R}$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $f(x)=x^2$ has second derivative $f&#39;&#39;(x)=2&amp;gt;0$ $\forall x\in \mathbb{R}$, so it is concave up in all $\mathbb{R}$.&lt;/p&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
     A function can be concave up or down and not have second derivative.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us analyze the concavity of the same function of previous examples $f(x)=x^4-2x^2+1$. Its second derivative is $f&amp;rsquo;&#39;(x)=12x^2-4$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us analyze the concavity of the same function of previous examples $f(x)=x^4-2x^2+1$. Its second derivative is $f&#39;&#39;(x)=12x^2-4$.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/concavity_analysis.svg&#34; alt=&#34;Concavity analysis of a function&#34; width=&#34;550&#34;&gt;
 &lt;h2 id=&#34;function-approximation&#34;&gt;Function approximation&lt;/h2&gt;
 &lt;h3 id=&#34;approximating-a-function-with-the-derivative&#34;&gt;Approximating a function with the derivative&lt;/h3&gt;
 &lt;p&gt;The tangent line to the graph of a function $f(x)$ at $x=a$ can be used to approximate $f$ in a neighbourhood of $a$.&lt;/p&gt;
-&lt;p&gt;Thus, the increment of a function $f(x)$ in an interval $[a,a+\Delta x]$ can be approximated multiplying the derivative of $f$ at $a$ by the increment of $x$ $$\Delta y \approx f&amp;rsquo;(a)\Delta x$$&lt;/p&gt;
+&lt;p&gt;Thus, the increment of a function $f(x)$ in an interval $[a,a+\Delta x]$ can be approximated multiplying the derivative of $f$ at $a$ by the increment of $x$ $$\Delta y \approx f&#39;(a)\Delta x$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/tangent_line_approximation.gif&#34; alt=&#34;Approximation of a function with the tangent line&#34; width=&#34;700&#34;&gt;
-&lt;p&gt;&lt;strong&gt;Example - Area of a square&lt;/strong&gt;. In the previous example of the function $y=x^2$ that measures the area of a metallic square of side $x$, if the side of the square is $a$ and we increment it by a quantity $\Delta x$, then the increment on the area will be approximately $$\Delta y \approx f&amp;rsquo;(a)\Delta x = 2a\Delta x.$$
+&lt;p&gt;&lt;strong&gt;Example - Area of a square&lt;/strong&gt;. In the previous example of the function $y=x^2$ that measures the area of a metallic square of side $x$, if the side of the square is $a$ and we increment it by a quantity $\Delta x$, then the increment on the area will be approximately $$\Delta y \approx f&#39;(a)\Delta x = 2a\Delta x.$$
 In the figure below we can see that the error of this approximation is $\Delta x^2$, which is smaller than $\Delta x$ when $\Delta x$ approaches to 0.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/square_area_variation_approximation.svg&#34; alt=&#34;Approximation of the variation of a square area&#34; width=&#34;300&#34;&gt;
 &lt;h3 id=&#34;approximating-a-function-by-a-polynomial&#34;&gt;Approximating a function by a polynomial&lt;/h3&gt;
@@ -246,13 +246,13 @@ $$p(x) = c_0+c_1x,$$ but it can also be written as $$p(x) = c_0+c_1(x-a).$$&lt;/
 &lt;p&gt;Among all the polynomials of degree 1, the one that best approximates $f(x)$ near $a$ is that which meets the following conditions&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p$ and $f$ coincide at $a$: $p(a) = f(a)$,&lt;/li&gt;
-&lt;li&gt;$p$ and $f$ have the same rate of change at $a$: $p&amp;rsquo;(a) = f&amp;rsquo;(a)$.&lt;/li&gt;
+&lt;li&gt;$p$ and $f$ have the same rate of change at $a$: $p&#39;(a) = f&#39;(a)$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The last condition guarantees that $p$ and $f$ have approximately the same tendency, but it requires the function $f$ to be differentiable at $a$.&lt;/p&gt;
 &lt;p&gt;Imposing the previous conditions we have&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p(x)=c_0+c_1(x-a) \Rightarrow p(a)=c_0+c_1(a-a)=c_0=f(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(x)=c_1 \Rightarrow p&amp;rsquo;(a)=c_1=f&amp;rsquo;(a)$.&lt;/li&gt;
+&lt;li&gt;$p&#39;(x)=c_1 \Rightarrow p&#39;(a)=c_1=f&#39;(a)$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Therefore, the polynomial of degree 1 that best approximates $f$ near $a$ is
 $$p(x) = f(a)+f &amp;lsquo;(a)(x-a),$$
@@ -264,18 +264,18 @@ $$p(x) = c_0+c_1(x-a)+c_2(x-a)^2.$$&lt;/p&gt;
 &lt;p&gt;Among all the polynomials of degree 2, the one that best approximate $f(x)$ near $a$ is that which meets the following conditions&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p$ and $f$ coincide at $a$: $p(a) = f(a)$,&lt;/li&gt;
-&lt;li&gt;$p$ and $f$ have the same rate of change at $a$: $p&amp;rsquo;(a) = f&amp;rsquo;(a)$.&lt;/li&gt;
-&lt;li&gt;$p$ and $f$ have the same concavity at $a$: $p&amp;rsquo;&#39;(a)=f&amp;rsquo;&#39;(a)$.&lt;/li&gt;
+&lt;li&gt;$p$ and $f$ have the same rate of change at $a$: $p&amp;rsquo;(a) = f&#39;(a)$.&lt;/li&gt;
+&lt;li&gt;$p$ and $f$ have the same concavity at $a$: $p&#39;&#39;(a)=f&#39;&#39;(a)$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The last condition requires the function $f$ to be differentiable twice at $a$.&lt;/p&gt;
 &lt;p&gt;Imposing the previous conditions we have&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p(x)=c_0+c_1(x-a) \Rightarrow p(a)=c_0+c_1(a-a)=c_0=f(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(x)=c_1 \Rightarrow p&amp;rsquo;(a)=c_1=f&amp;rsquo;(a)$.&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;&#39;(x)=2c_2 \Rightarrow p&amp;rsquo;&#39;(a)=2c_2=f&amp;rsquo;&#39;(a) \Rightarrow c_2=\frac{f&amp;rsquo;&#39;(a)}{2}$.&lt;/li&gt;
+&lt;li&gt;$p&#39;(x)=c_1 \Rightarrow p&#39;(a)=c_1=f&#39;(a)$.&lt;/li&gt;
+&lt;li&gt;$p&#39;&#39;(x)=2c_2 \Rightarrow p&#39;&#39;(a)=2c_2=f&#39;&#39;(a) \Rightarrow c_2=\frac{f&#39;&#39;(a)}{2}$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Therefore, the polynomial of degree 2 that best approximates $f$ near $a$ is
-$$p(x) = f(a)+f&amp;rsquo;(a)(x-a)+\frac{f&amp;rsquo;&#39;(a)}{2}(x-a)^2.$$&lt;/p&gt;
+$$p(x) = f(a)+f&#39;(a)(x-a)+\frac{f&#39;&#39;(a)}{2}(x-a)^2.$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/approximation_polynomial_2.gif&#34; alt=&#34;Approximation of a function by a polynomial of order 2&#34; width=&#34;750&#34;&gt;
 &lt;h3 id=&#34;approximating-a-function-by-a-polynomial-of-order-n&#34;&gt;Approximating a function by a polynomial of order $n$&lt;/h3&gt;
 &lt;p&gt;A polynomial of order $n$ has equation
@@ -283,8 +283,8 @@ $$p(x) = c_0+c_1x+c_2x^2+\cdots +c_nx^n,$$ but it can also be written as $$p(x) 
 &lt;p&gt;Among all the polynomials of degree $n$, the one that best approximate $f(x)$ near $a$ is that which meets the following $n+1$ conditions:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p(a) = f(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(a) = f&amp;rsquo;(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;&#39;(a)=f&amp;rsquo;&#39;(a)$,&lt;/li&gt;
+&lt;li&gt;$p&#39;(a) = f&#39;(a)$,&lt;/li&gt;
+&lt;li&gt;$p&#39;&#39;(a)=f&#39;&#39;(a)$,&lt;/li&gt;
 &lt;li&gt;$\cdots$&lt;/li&gt;
 &lt;li&gt;$p^{(n)}(a)=f^{(n)}(a)$.&lt;/li&gt;
 &lt;/ol&gt;
@@ -292,8 +292,8 @@ $$p(x) = c_0+c_1x+c_2x^2+\cdots +c_nx^n,$$ but it can also be written as $$p(x) 
 &lt;p&gt;$$
 \begin{aligned}
 p(x) &amp;amp;= c_0+c_1(x-a)+c_2(x-a)^2+\cdots +c_n(x-a)^n,\newline
-p&amp;rsquo;(x)&amp;amp; = c_1+2c_2(x-a)+\cdots +nc_n(x-a)^{n-1},\newline
-p&amp;rsquo;&#39;(x)&amp;amp; = 2c_2+\cdots +n(n-1)c_n(x-a)^{n-2},\newline
+p&#39;(x)&amp;amp; = c_1+2c_2(x-a)+\cdots +nc_n(x-a)^{n-1},\newline
+p&#39;&#39;(x)&amp;amp; = 2c_2+\cdots +n(n-1)c_n(x-a)^{n-2},\newline
 \vdots
 \newline
 p^{(n)}(x)&amp;amp;= n(n-1)(n-2)\cdots 1 c_n=n!c_n.
@@ -302,8 +302,8 @@ $$&lt;/p&gt;
 &lt;p&gt;Imposing the previous conditions we have&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p(a) = c_0+c_1(a-a)+c_2(a-a)^2+\cdots +c_n(a-a)^n=c_0=f(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(a) = c_1+2c_2(a-a)+\cdots +nc_n(a-a)^{n-1}=c_1=f&amp;rsquo;(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;&#39;(a) = 2c_2+\cdots +n(n-1)c_n(a-a)^{n-2}=2c_2=f&amp;rsquo;&#39;(a)\Rightarrow c_2=f&amp;rsquo;&#39;(a)/2$,&lt;/li&gt;
+&lt;li&gt;$p&#39;(a) = c_1+2c_2(a-a)+\cdots +nc_n(a-a)^{n-1}=c_1=f&#39;(a)$,&lt;/li&gt;
+&lt;li&gt;$p&#39;&#39;(a) = 2c_2+\cdots +n(n-1)c_n(a-a)^{n-2}=2c_2=f&#39;&#39;(a)\Rightarrow c_2=f&#39;&#39;(a)/2$,&lt;/li&gt;
 &lt;li&gt;$\cdots$&lt;/li&gt;
 &lt;li&gt;$p^{(n)}(a)=n!c_n=f^{(n)}(a)=c_n=\frac{f^{(n)}(a)}{n!}$.&lt;/li&gt;
 &lt;/ol&gt;
@@ -313,7 +313,7 @@ $$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Taylor polynomial&lt;/strong&gt;. Given a function $f(x)$ differentiable $n$ times at $x=a$, the &lt;em&gt;Taylor polynomial&lt;/em&gt; of order $n$ of $f$ at $a$ is the polynomial with equation&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-p_{f,a}^n(x) &amp;amp;= f(a) + f&amp;rsquo;(a)(x-a) + \frac{f&amp;rsquo;&#39;(a)}{2}(x-a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n = \newline
+p_{f,a}^n(x) &amp;amp;= f(a) + f&#39;(a)(x-a) + \frac{f&#39;&#39;(a)}{2}(x-a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n = \newline
 &amp;amp;= \sum_{i=0}^{n}\frac{f^{(i)}(a)}{i!}(x-a)^i.
 \end{aligned}
 $$&lt;/p&gt;
@@ -325,13 +325,13 @@ $$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us approximate the function $f(x)=\log x$ near the value $1$ by a polynomial of order $3$.&lt;/p&gt;
-&lt;p&gt;The equation of the Taylor polynomial of order $3$ of $f$ at $a=1$ is $$p_{f,1}^3(x)=f(1)+f&amp;rsquo;(1)(x-1)+\frac{f&amp;rsquo;&#39;(1)}{2}(x-1)^2+\frac{f&amp;rsquo;&#39;&#39;(1)}{3!}(x-1)^3.$$ The derivatives of $f$ at $1$ up to order $3$ are&lt;/p&gt;
+&lt;p&gt;The equation of the Taylor polynomial of order $3$ of $f$ at $a=1$ is $$p_{f,1}^3(x)=f(1)+f&#39;(1)(x-1)+\frac{f&#39;&#39;(1)}{2}(x-1)^2+\frac{f&#39;&#39;&#39;(1)}{3!}(x-1)^3.$$ The derivatives of $f$ at $1$ up to order $3$ are&lt;/p&gt;
 &lt;p&gt;$$
 \begin{array}{lll}
 f(x)=\log x &amp;amp; \quad &amp;amp; f(1)=\log 1 =0,\newline
-f&amp;rsquo;(x)=1/x &amp;amp; &amp;amp; f&amp;rsquo;(1)=1/1=1,\newline
-f&amp;rsquo;&#39;(x)=-1/x^2 &amp;amp; &amp;amp; f&amp;rsquo;&#39;(1)=-1/1^2=-1,\newline
-f&amp;rsquo;&#39;&#39;(x)=2/x^3 &amp;amp; &amp;amp; f&amp;rsquo;&#39;&#39;(1)=2/1^3=2.
+f&#39;(x)=1/x &amp;amp; &amp;amp; f&#39;(1)=1/1=1,\newline
+f&#39;&#39;(x)=-1/x^2 &amp;amp; &amp;amp; f&#39;&#39;(1)=-1/1^2=-1,\newline
+f&#39;&#39;&#39;(x)=2/x^3 &amp;amp; &amp;amp; f&#39;&#39;&#39;(1)=2/1^3=2.
 \end{array}
 $$&lt;/p&gt;
 &lt;p&gt;And substituting into the polynomial equation we get $$p_{f,1}^3(x)=0+1(x-1)+\frac{-1}{2}(x-1)^2+\frac{2}{3!}(x-1)^3= \frac{2}{3}x^3-\frac{3}{2}x^2+3x-\frac{11}{6}.$$&lt;/p&gt;
@@ -343,20 +343,20 @@ $$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Maclaurin polynomial&lt;/strong&gt;. Given a function $f(x)$ differentiable $n$ times at $0$, the &lt;em&gt;Maclaurin polynomial&lt;/em&gt; of order $n$ of $f$ is the polynomial with equation&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-p_{f,0}^n(x)&amp;amp;=f(0)+f&amp;rsquo;(0)x+\frac{f&amp;rsquo;&#39;(0)}{2}x^2+\cdots +\frac{f^{(n)}(0)}{n!}x^n = \newline
+p_{f,0}^n(x)&amp;amp;=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2}x^2+\cdots +\frac{f^{(n)}(0)}{n!}x^n = \newline
 &amp;amp;=\sum_{i=0}^{n}\frac{f^{(i)}(0)}{i!}x^i.
 \end{aligned}
 $$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us approximate the function $f(x)=\sin x$ near the value $0$ by a polynomial of order $3$.&lt;/p&gt;
-&lt;p&gt;The Maclaurin polynomial equation of order $3$ of $f$ is $$p_{f,0}^3(x)=f(0)+f&amp;rsquo;(0)x+\frac{f&amp;rsquo;&#39;(0)}{2}x^2+\frac{f&amp;rsquo;&#39;&#39;(0)}{3!}x^3.$$
+&lt;p&gt;The Maclaurin polynomial equation of order $3$ of $f$ is $$p_{f,0}^3(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}x^3.$$
 The derivatives of $f$ at $0$ up to order $3$ are&lt;/p&gt;
 &lt;p&gt;$$\begin{array}{lll}
 f(x)=\sin x &amp;amp; \quad &amp;amp; f(0)=\sin 0 =0,\newline
-f&amp;rsquo;(x)=\cos x &amp;amp; &amp;amp; f&amp;rsquo;(0)=\cos 0=1,\newline
-f&amp;rsquo;&#39;(x)=-\sin x &amp;amp; &amp;amp; f&amp;rsquo;&#39;(0)=-\sin 0=0,\newline
-f&amp;rsquo;&#39;&#39;(x)=-\cos x &amp;amp; &amp;amp; f&amp;rsquo;&#39;&#39;(0)=-\cos 0=-1.
+f&#39;(x)=\cos x &amp;amp; &amp;amp; f&#39;(0)=\cos 0=1,\newline
+f&#39;&#39;(x)=-\sin x &amp;amp; &amp;amp; f&#39;&#39;(0)=-\sin 0=0,\newline
+f&#39;&#39;&#39;(x)=-\cos x &amp;amp; &amp;amp; f&#39;&#39;&#39;(0)=-\cos 0=-1.
 \end{array}
 $$&lt;/p&gt;
 &lt;p&gt;And substituting into the polynomial equation we get

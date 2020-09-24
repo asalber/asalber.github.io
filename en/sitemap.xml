@@ -218,6 +218,21 @@
   </url>
   
   <url>
+    <loc>/en/tag/rkteaching/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tag/rkteaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tag/rkteaching/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/project/rkteaching/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -723,21 +738,6 @@
   </url>
   
   <url>
-    <loc>/en/tag/rkteaching/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/tag/rkteaching/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tag/rkteaching/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/category/rkteaching/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
     <xhtml:link
@@ -1198,6 +1198,11 @@
   </url>
   
   <url>
+    <loc>/en/tag/extrema/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/en/tag/frequencies/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -1228,6 +1233,11 @@
   </url>
   
   <url>
+    <loc>/en/tag/hessian-matrix/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/en/tag/integral/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
     <xhtml:link
@@ -1249,6 +1259,16 @@
   
   <url>
     <loc>/en/tag/non-linear-regression/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tag/normal-line/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tag/normal-plane/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
   
@@ -1329,6 +1349,11 @@
   
   <url>
     <loc>/en/tag/tangent-line/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tag/tangent-plane/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
   
