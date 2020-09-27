@@ -476,13 +476,15 @@
             
               <a class="dropdown-item" href="/docencia/estadistica/"><span>Estadística</span></a>
             
-              <a class="dropdown-item" href="/docencia/R/"><span>R</span></a>
+              <a class="dropdown-item" href="/docencia/r/"><span>R</span></a>
             
               <a class="dropdown-item" href="/docencia/python/"><span>Python</span></a>
             
               <a class="dropdown-item" href="/docencia/spss/"><span>SPSS</span></a>
             
               <a class="dropdown-item" href="/docencia/geogebra/"><span>Geogebra</span></a>
+            
+              <a class="dropdown-item" href="/docencia/git/"><span>Git</span></a>
             
           </div>
         </li>
@@ -681,10 +683,10 @@
     
     
     <div>
-      <h2><a href="/docencia/python/manual/funciones/" >Funciones</a></h2>
+      <h2><a href="/docencia/git/ejercicios/ramas/" >Ejercicios de gestión de ramas</a></h2>
       <div class="article-style">
         
-          Funciones (def) Una función es un bloque de código que tiene asociado un nombre, de manera que cada vez que se quiera ejecutar el bloque de código basta con invocar el nombre de la función.
+          Para hacer estos ejercicios es necesario haber hecho antes los ejercicios sobre historial de cambios o bien hacer un clon del repositorio remoto https://github.com/asalber/libro-git mediante la siguiente secuencia de comandos:
         
       </div>
     </div>
@@ -693,10 +695,10 @@
     
     
     <div>
-      <h2><a href="/docencia/python/ejercicios/pandas/" >Ejercicios de la Librería Pandas</a></h2>
+      <h2><a href="/docencia/python/trabajos/" >Trabajos de Programación con Python</a></h2>
       <div class="article-style">
         
-          Ejercicio 1 Escribir un programa que pregunte al usuario por las ventas de un rango de años y muestre por pantalla una serie con los datos de las ventas indexada por los años, antes y después de aplicarles un descuento del 10%.
+          Trabajos de Programación con Python de los últimos cursos con soluciones.
         
       </div>
     </div>
@@ -705,12 +707,13 @@
     
     
     <div>
-      <h2><a href="/docencia/python/ejercicios/depuracion/" >Ejercicios de Depuración</a></h2>
+      <h2><a href="/docencia/python/manual/bucles/" >Bucles</a></h2>
       <div class="article-style">
         
-          Ejercicio 1 Corregir los errores sintácticos del siguiente programa:
-contraseña = input('Introduce la contraseña: &quot;) if contraseña in ['sesamo'): print('Pasa') else print('No pasa')  Solución
-Ejercicio 2 Detectar y corregir los errores del siguiente programa que aplica el iva a una factura:
+          Bucles condicionales (while)  while condición:
+bloque código
+ Repite la ejecución del bloque de código mientras la expresión lógica condición sea cierta.
+Se puede interrumpir en cualquier momento la ejecución del bloque de código con la instrucción break.
         
       </div>
     </div>
@@ -719,10 +722,10 @@ Ejercicio 2 Detectar y corregir los errores del siguiente programa que aplica el
     
     
     <div>
-      <h2><a href="/docencia/python/manual/programacion-funcional/" >Programación funcional</a></h2>
+      <h2><a href="/docencia/python/ejercicios/diccionarios/" >Ejercicios de Diccionarios</a></h2>
       <div class="article-style">
         
-          Programación funcional En Python las funciones son objetos de primera clase, es decir, que pueden pasarse como argumentos de una función, al igual que el resto de los tipos de datos.
+          Ejercicio 1 Escribir un programa que guarde en una variable el diccionario {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}, pregunte al usuario por una divisa y muestre su símbolo o un mensaje de aviso si la divisa no está en el diccionario.
         
       </div>
     </div>
@@ -731,10 +734,11 @@ Ejercicio 2 Detectar y corregir los errores del siguiente programa que aplica el
     
     
     <div>
-      <h2><a href="/docencia/python/manual/comprension-colecciones/" >Comprensión de Colecciones</a></h2>
+      <h2><a href="/docencia/git/manual/gestion-ramas/" >Gestión de ramas</a></h2>
       <div class="article-style">
         
-          Comprensión de colecciones En muchas aplicaciones es habitual aplicar una función o realizar una operación con los elementos de una colección (lista, tupla o diccionario) y obtener una nueva colección de elementos transformados.
+          Ramas Inicialmente cualquier repositorio tiene una única rama llamada master donde se van sucediendo todos los commits de manera lineal.
+Una de las característica más útiles de Git es que permite la creación de ramas para trabajar en distintas versiones de un proyecto a la vez.
         
       </div>
     </div>
@@ -743,10 +747,11 @@ Ejercicio 2 Detectar y corregir los errores del siguiente programa que aplica el
     
     
     <div>
-      <h2><a href="/docencia/python/manual/ficheros/" >Ficheros</a></h2>
+      <h2><a href="/docencia/git/ejercicios/repositorios-remotos/" >Ejercicios de repositorios remotos</a></h2>
       <div class="article-style">
         
-          Ficheros Hasta ahora hemos visto como interactuar con un programa a través del teclado (entrada de datos) y la terminal (salida), pero en la mayor parte de las aplicaciones reales tendremos que leer y escribir datos en ficheros.
+          Para hacer estos ejercicios es necesario haber hecho antes los ejercicios sobre ramas o bien hacer un clon del repositorio remoto https://github.com/asalber/libro-git mediante la siguiente secuencia de comandos:
+&gt; git clone https://github.
         
       </div>
     </div>
@@ -755,11 +760,12 @@ Ejercicio 2 Detectar y corregir los errores del siguiente programa que aplica el
     
     
     <div>
-      <h2><a href="/docencia/python/manual/excepciones/" >Excepciones</a></h2>
+      <h2><a href="/docencia/python/ejercicios/funciones/" >Ejercicios de Funciones</a></h2>
       <div class="article-style">
         
-          Control de errores mediante excepciones Python utiliza un objeto especial llamado excepción para controlar cualquier error que pueda ocurrir durante la ejecución de un programa.
-Cuando ocurre un error durante la ejecución de un programa, Python crea una excepción.
+          Ejercicio 1 Escribir una función que muestre por pantalla el saludo ¡Hola amiga! cada vez que se la invoque.
+Solución
+Ejercicio 2 Escribir una función a la que se le pase una cadena &lt;nombre&gt; y muestre por pantalla el saludo ¡hola &lt;nombre&gt;!
         
       </div>
     </div>
@@ -768,11 +774,13 @@ Cuando ocurre un error durante la ejecución de un programa, Python crea una exc
     
     
     <div>
-      <h2><a href="/docencia/python/manual/modulos/" >Módulos</a></h2>
+      <h2><a href="/docencia/python/manual/listas/" >Listas</a></h2>
       <div class="article-style">
         
-          Módulos El código de un programa en Python puede reutilizarse en otro importándolo. Cualquier fichero con código de Python reutilizable se conoce como módulo o librería.
-Los módulos suelen contener funciones reutilizables, pero también pueden definir variables con datos simples o compuestos (listas, diccionarios, etc), o cualquier otro código válido en Python.
+          Listas Una lista es una secuencias ordenadas de objetos de distintos tipos.
+Se construyen poniendo los elementos entre corchetes [ ] separados por comas.
+Se caracterizan por:
+ Tienen orden. Pueden contener elementos de distintos tipos.
         
       </div>
     </div>
@@ -781,10 +789,11 @@ Los módulos suelen contener funciones reutilizables, pero también pueden defin
     
     
     <div>
-      <h2><a href="/docencia/python/manual/datetime/" >La librería Datetime</a></h2>
+      <h2><a href="/docencia/git/manual/repositorios-remotos/" >Repositorios remotos</a></h2>
       <div class="article-style">
         
-          Para manejar fechas en Python se suele utilizar la librería datetime que incorpora los tipos de datos date, time y datetime para representar fechas y funciones para manejarlas. Algunas de las operaciones más habituales que permite son:
+          Repositorios remotos La otra característica de Git, que unida a las ramas, facilita la colaboración entre distintos usuarios en un proyecto son los repositorios remotos.
+Git permite la creación de una copia del repositorio en un servidor git en internet.
         
       </div>
     </div>
@@ -793,11 +802,10 @@ Los módulos suelen contener funciones reutilizables, pero también pueden defin
     
     
     <div>
-      <h2><a href="/docencia/python/manual/numpy/" >La librería Numpy</a></h2>
+      <h2><a href="/docencia/python/ejercicios/programacion-funcional/" >Ejercicios de Programación Funcional</a></h2>
       <div class="article-style">
         
-          NumPy es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.
-Incorpora una nueva clase de objetos llamados arrays que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.
+          Ejercicio 1 Escribir una función que aplique un descuento a un precio y otra que aplique el IVA a un precio. Escribir una tercera función que reciba un diccionario con los precios y porcentajes de una cesta de la compra, y una de las funciones anteriores, y utilice la función pasada para aplicar los descuentos o el IVA a los productos de la cesta y devolver el precio final de la cesta.
         
       </div>
     </div>

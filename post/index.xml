@@ -26,9 +26,9 @@ Pues es una aplicación que permite gestionar los cambios que se realizan sobre 
 &lt;p&gt;Recientemente he dado un curso de programación y he tenido que preparar un mini curso de Git que pongo a vuestra disposición. Podéis acceder al curso en los siguientes enlaces:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://aprendeconalf.es/git/manual/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Manual de Git&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;/docencia/git/manual/&#34;&gt;Manual de Git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;http://aprendeconalf.es/git/ejercicios/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ejercicios de Git&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;/docencia/git/ejercicios/&#34;&gt;Ejercicios de Git&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Espero que os sean muy útiles.&lt;/p&gt;
 &lt;p&gt;Como siempre, agradezco que aviséis de cualquier error que encontréis.&lt;/p&gt;

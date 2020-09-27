@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/estadistica/ejercicios/descriptiva/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -28,6 +33,11 @@
   </url>
   
   <url>
+    <loc>/docencia/git/manual/introduccion/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/python/manual/introduccion-python/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
   </url>
@@ -35,6 +45,11 @@
   <url>
     <loc>/docencia/estadistica/manual/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/git/manual/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
@@ -53,8 +68,23 @@
   </url>
   
   <url>
+    <loc>/docencia/git/manual/creacion-actualizacion-repositorios/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/r/ejercicios/</loc>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/estadistica/ejercicios/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/git/ejercicios/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
@@ -65,6 +95,11 @@
   <url>
     <loc>/docencia/calculo/manual/funciones-elementales/</loc>
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/git/ejercicios/historial-cambios/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
@@ -93,6 +128,11 @@
   </url>
   
   <url>
+    <loc>/docencia/git/ejercicios/deshacer-cambios/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/python/manual/entrada-salida/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -105,6 +145,11 @@
   <url>
     <loc>/docencia/python/examenes/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/git/manual/historial-cambios/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
@@ -133,6 +178,11 @@
   </url>
   
   <url>
+    <loc>/docencia/git/manual/deshacer-cambios/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/python/ejercicios/listas-tuplas/</loc>
     <lastmod>2020-09-22T13:20:32+02:00</lastmod>
   </url>
@@ -140,6 +190,11 @@
   <url>
     <loc>/docencia/estadistica/ejercicios/probabilidad/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/git/ejercicios/ramas/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
@@ -163,6 +218,16 @@
   </url>
   
   <url>
+    <loc>/docencia/git/manual/gestion-ramas/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/git/ejercicios/repositorios-remotos/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/estadistica/ejercicios/tests-diagnosticos/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -183,6 +248,11 @@
   </url>
   
   <url>
+    <loc>/docencia/git/manual/repositorios-remotos/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/estadistica/ejercicios/variables-aleatorias-discretas/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -200,6 +270,11 @@
   <url>
     <loc>/docencia/python/ejercicios/programacion-funcional/</loc>
     <lastmod>2020-09-22T13:20:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/git/manual/referencias/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
@@ -294,7 +369,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -309,7 +384,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -324,12 +399,12 @@
   
   <url>
     <loc>/proyecto/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <lastmod>2020-09-25T13:15:04+02:00</lastmod>
   </url>
   
   <url>
     <loc>/category/r/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -344,7 +419,7 @@
   
   <url>
     <loc>/tag/rkteaching/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <lastmod>2020-09-25T13:15:04+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -359,12 +434,12 @@
   
   <url>
     <loc>/proyecto/rkteaching/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <lastmod>2020-09-25T13:15:04+02:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/rkward/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <lastmod>2020-09-25T13:15:04+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -379,7 +454,7 @@
   
   <url>
     <loc>/tag/software/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <lastmod>2020-09-25T13:15:04+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -394,7 +469,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -424,7 +499,7 @@
   
   <url>
     <loc>/category/programacion/</loc>
-    <lastmod>2020-09-22T13:28:25+02:00</lastmod>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
@@ -514,7 +589,7 @@
   
   <url>
     <loc>/category/bioestadistica/</loc>
-    <lastmod>2020-09-21T23:54:54+02:00</lastmod>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
   </url>
   
   <url>
@@ -524,7 +599,7 @@
   
   <url>
     <loc>/category/estadistica/</loc>
-    <lastmod>2020-09-21T23:54:54+02:00</lastmod>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
   </url>
   
   <url>
@@ -554,12 +629,12 @@
   
   <url>
     <loc>/post/curso-git/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/git/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
@@ -1288,6 +1363,11 @@
   </url>
   
   <url>
+    <loc>/docencia/r/</loc>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/apuntes/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
   </url>
@@ -1434,7 +1514,7 @@
   
   <url>
     <loc>/tag/ejercicios/</loc>
-    <lastmod>2020-09-22T13:20:32+02:00</lastmod>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
   </url>
   
   <url>
@@ -1543,6 +1623,16 @@
   </url>
   
   <url>
+    <loc>/docencia/git/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/git/</loc>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/gradiente/</loc>
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
   </url>
@@ -1594,7 +1684,7 @@
   
   <url>
     <loc>/tag/manual/</loc>
-    <lastmod>2020-09-21T23:54:54+02:00</lastmod>
+    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
   
   <url>
