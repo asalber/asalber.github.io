@@ -280,7 +280,7 @@
     
       <meta property="article:published_time" content="2020-09-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-09-28T18:58:16&#43;02:00">
+    <meta property="article:modified_time" content="2020-09-29T00:28:13&#43;02:00">
   
 
   
@@ -311,7 +311,7 @@
   ],
   
   "datePublished": "2020-09-01T00:00:00Z",
-  "dateModified": "2020-09-28T18:58:16+02:00",
+  "dateModified": "2020-09-29T00:28:13+02:00",
   
   "author": {
     "@type": "Person",
@@ -741,7 +741,7 @@
           Última actualización el
       
     
-    Sep 28, 2020
+    Sep 29, 2020
   </span>
   
 
@@ -835,15 +835,15 @@ Es importante asegurase de tener una versión de Mac OS X 10.11 o superior, ya q
 <li>
 <p><strong>Instalar los paquetes de los que depende rkTeaching</strong>. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:</p>
- <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez","remotes"))</code></pre>
+<pre><code class="language-R">install.packages(c(&quot;R2HTML&quot;,&quot;car&quot;,&quot;e1071&quot;,&quot;Hmisc&quot;,&quot;plyr&quot;,&quot;ggplot2&quot;,&quot;prob&quot;,&quot;ez&quot;,&quot;remotes&quot;))
+</code></pre>
 </li>
 <li>
 <p><strong>Instalar rkTeaching</strong>. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R <code>devtools</code>.
 Para ello hay que introducir los siguientes comandos en la consola de R:</p>
- <pre><code>
- library(remotes)<br/>
- install_github("asalber/rkTeaching_es")
- </code></pre>
+<pre><code class="language-R">library(remotes)
+install_github(&quot;rkward-community/rk.Teaching&quot;)
+</code></pre>
 <p>El siguiente vídeo muestra el proceso de instalación.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -860,27 +860,29 @@ Para ello hay que introducir los siguientes comandos en la consola de R:</p>
 Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.
 Es necesario que la versión de R sea la 3.0 o superior.</p>
 <p>En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:</p>
- <pre><code>sudo apt-get install rbase</code></pre>
+<pre><code class="language-sh">sudo apt-get install rbase
+</code></pre>
 </li>
 <li>
 <p><strong>Instalar RKWard</strong>. RKWard puede descargarse desde la página <a href="http://rkward.sourceforge.net">http://rkward.sourceforge.net</a>.
 Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.</p>
 <p>En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:</p>
- <pre><code>sudo apt-get install rkward</code></pre>
+<pre><code class="language-sh">sudo apt-get install rkward
+</code></pre>
 <p>Es importante asegurarse de que la versión instalada es la 0.6.5 o superior.</p>
 </li>
 <li>
 <p><strong>Instalar los paquetes de los que depende rkTeaching</strong>. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:</p>
- <pre><code>install.packages(c("R2HTML","car","e1071","Hmisc","plyr","ggplot2","prob","ez","remotes"),dep=TRUE)</code></pre>
+<pre><code class="language-R">install.packages(c(&quot;R2HTML&quot;,&quot;car&quot;,&quot;e1071&quot;,&quot;Hmisc&quot;,&quot;plyr&quot;,&quot;ggplot2&quot;,&quot;prob&quot;,&quot;ez&quot;,&quot;remotes&quot;))
+</code></pre>
 </li>
 <li>
 <p><strong>Instalar rkTeaching</strong>. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R <code>devtools</code>.
 Para ello hay que introducir los siguientes comandos en la consola de R:</p>
- <pre><code>
- library(remotes)<br/>
- install_github("asalber/rkTeaching_es")
- </code></pre>
+<pre><code class="language-R">library(remotes)
+install_github(&quot;rkward-community/rk.Teaching&quot;)
+</code></pre>
 <p>El siguiente vídeo muestra el proceso de instalación.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">

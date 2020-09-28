@@ -22,7 +22,7 @@
 &lt;a href=&#34;http://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; package that provides a plugin for the graphical user interface 
 &lt;a href=&#34;http://rkward.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RKWard&lt;/a&gt; adding new menus and dialog specially
 designed for teaching and learning Statistics.&lt;/p&gt;
-&lt;p&gt;This package has been developed and is maintained by Alfredo Sánchez Alberca &lt;a href=&#34;mailto:asalber@ceu.es&#34;&gt;asalber@ceu.es&lt;/a&gt; in the Departament of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p&gt;
+&lt;p&gt;This package has been developed and is maintained by Alfredo Sánchez Alberca &lt;a href=&#34;mailto:asalber@ceu.es&#34;&gt;asalber@ceu.es&lt;/a&gt; in the Department of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p&gt;
 &lt;p&gt;If you find out some error or have a suggestion, please, let me know it by email or opening an 
 &lt;a href=&#34;https://github.com/rkward-community/rkTeaching/pulls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue on Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/rkward.png&#34; alt=&#34;RKWard&#34;&gt;&lt;/p&gt;
@@ -58,14 +58,14 @@ It is required a Mac Os version 10.11 or higher.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Install the packages that rkTeaching depends on&lt;/strong&gt;. The rkTeaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:&lt;/p&gt;
- &lt;pre&gt;&lt;code&gt;install.packages(c(&#34;R2HTML&#34;,&#34;car&#34;,&#34;e1071&#34;,&#34;Hmisc&#34;,&#34;plyr&#34;,&#34;ggplot2&#34;,&#34;prob&#34;,&#34;ez&#34;,&#34;remotes&#34;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;remotes&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Install rkTeaching&lt;/strong&gt;. To install the rkTeaching package you must type the following commands in the R console:&lt;/p&gt;
- &lt;pre&gt;&lt;code&gt;
- library(remotes)&lt;br/&gt;
- install_github(&#34;rkward-community/rkTeaching&#34;, ref=&#34;develop&#34;)
- &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;library(remotes)
+install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The following video tutorial shows the installation process.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -82,26 +82,28 @@ To install this packages you must run RKWard, open the R console and type the fo
 You have to select the Linux distribution and follow the instructions there.
 It is required an R version 3.4 or higher.&lt;/p&gt;
 &lt;p&gt;With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p&gt;
- &lt;pre&gt;&lt;code&gt;sudo apt-get install rbase&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt-get install rbase
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Install RKWard&lt;/strong&gt;. RKWard can be downloaded from the web &lt;a href=&#34;http://rkward.sourceforge.net&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
 You have to select the Linux distribution and follow the instructions there.&lt;/p&gt;
 &lt;p&gt;With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p&gt;
- &lt;pre&gt;&lt;code&gt;sudo apt-get install rkward&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt-get install rkward
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;It is important to install versión 0.7 or higher.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Install the packages that rkTeaching depends on&lt;/strong&gt;. The rkTeaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:&lt;/p&gt;
- &lt;pre&gt;&lt;code&gt;install.packages(c(&#34;R2HTML&#34;,&#34;car&#34;,&#34;e1071&#34;,&#34;Hmisc&#34;,&#34;plyr&#34;,&#34;ggplot2&#34;,&#34;prob&#34;,&#34;ez&#34;,&#34;remotes&#34;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;remotes&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Install rkTeaching&lt;/strong&gt;. To install the rkTeaching package you must type the following commands in the R console:&lt;/p&gt;
- &lt;pre&gt;&lt;code&gt;
- library(remotes)&lt;br/&gt;
- install_github(&#34;rkward-community/rkTeaching&#34;, ref=&#34;develop&#34;)
- &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;library(remotes)
+install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The following video tutorial shows the installation process (in Spanish).&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
