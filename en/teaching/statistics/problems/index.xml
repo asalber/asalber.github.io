@@ -518,7 +518,7 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
 &lt;p&gt;The chart below shows the cumulative distribution of the time (in min) required by 66 students to do an exam.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/time_exam-1.svg&#34; title=&#34;plot of chunk time_exam&#34; alt=&#34;plot of chunk time_exam&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/time_exam-1.svg&#34; title=&#34;plot of chunk time_exam&#34; alt=&#34;plot of chunk time_exam&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;At what time have half of the students finished? And 90% of students?&lt;/li&gt;
 &lt;li&gt;What percentage of students have finished after 100 minutes?&lt;/li&gt;
@@ -579,7 +579,7 @@ One year old children:  $\bar y=66.875$ min, $s_y=2.7128$ min and $cv_y=0.0406$.
 &lt;/div&gt;
 &lt;h2 id=&#34;exercise-5&#34;&gt;Exercise 5&lt;/h2&gt;
 &lt;p&gt;The histogram below shows the frequency distribution of the body mass index (BMI) of a group of people by gender.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/bmi_gender-1.svg&#34; title=&#34;plot of chunk bmi_gender&#34; alt=&#34;plot of chunk bmi_gender&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/bmi_gender-1.svg&#34; title=&#34;plot of chunk bmi_gender&#34; alt=&#34;plot of chunk bmi_gender&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Draw the pie chart for the gender.&lt;/li&gt;
 &lt;li&gt;In which group is more representative the mean of the BMI?&lt;/li&gt;
@@ -599,7 +599,7 @@ Males: $\sum x_i=1002.5$ kg/m$^2$ $\sum x_i^2=22781.25$ kg$^2$/m$^4$&lt;/p&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/piechart_bmi_gender-1.svg&#34; title=&#34;plot of chunk piechart_bmi_gender&#34; alt=&#34;plot of chunk piechart_bmi_gender&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/piechart_bmi_gender-1.svg&#34; title=&#34;plot of chunk piechart_bmi_gender&#34; alt=&#34;plot of chunk piechart_bmi_gender&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Females: $\bar x=24.1667$ min, $s_x=4.6022$ min and $cv_x=0.1904$.&lt;br&gt;
 Males:  $\bar y=22.2778$ min, $s_y=3.1545$ min and $cv_y=0.1416$.&lt;/li&gt;
@@ -1123,7 +1123,7 @@ $r^2=0.8348$.
 &lt;/div&gt;
 &lt;h2 id=&#34;exercise-8&#34;&gt;Exercise 8&lt;/h2&gt;
 &lt;p&gt;A study to determine the relation between the age and the physical strength gave the scatter plot below.
-&lt;img src=&#34;img/age_physical_strength_scatterplot-1.svg&#34; title=&#34;plot of chunk age_physical_strength_scatterplot&#34; alt=&#34;plot of chunk age_physical_strength_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/age_physical_strength_scatterplot-1.svg&#34; title=&#34;plot of chunk age_physical_strength_scatterplot&#34; alt=&#34;plot of chunk age_physical_strength_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Calculate the linear coefficient of determination for the whole sample.&lt;/li&gt;
 &lt;li&gt;Calculate the linear coefficient of determination for the sample of people younger than 25 years old.&lt;/li&gt;
@@ -1199,7 +1199,7 @@ $\sum x_i=564$ days, $\sum \log(x_i)=45.8086$ $\log(\mbox{days})$, $\sum y_j=63.
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/diet_scatterplot-1.svg&#34; title=&#34;plot of chunk diet_scatterplot&#34; alt=&#34;plot of chunk diet_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diet_scatterplot-1.svg&#34; title=&#34;plot of chunk diet_scatterplot&#34; alt=&#34;plot of chunk diet_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 2. Linear model&lt;br/&gt;
 $\bar x=47$ days, $s_x^2=143.8333$ days$^2$.&lt;br/&gt;
 $\bar y=5.3$ kg, $s_y^2=0.885$ kg$^2$.&lt;br/&gt;
@@ -1284,7 +1284,7 @@ $\sum x_i=629$, $\sum \log(x_i)=40.4121$, $\sum y_j=92.2$, $\sum \log(y_j)=21.33
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/obesity_pain_scatterplot-1.svg&#34; title=&#34;plot of chunk obesity_pain_scatterplot&#34; alt=&#34;plot of chunk obesity_pain_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/obesity_pain_scatterplot-1.svg&#34; title=&#34;plot of chunk obesity_pain_scatterplot&#34; alt=&#34;plot of chunk obesity_pain_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 2. Linear model&lt;br/&gt;
 $\bar x=62.9$, $s_x^2=588.09$.&lt;br/&gt;
 $\bar y=9.22$, $s_y^2=11.0056$.&lt;br/&gt;
@@ -1338,7 +1338,7 @@ $\sum x_i=225$ min, $\sum \log(x_i)=24.5289$ log(min), $\sum y_j=725$ ºF, $\sum
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/temperature_time_scatterplot-1.svg&#34; title=&#34;plot of chunk temperature_time_scatterplot&#34; alt=&#34;plot of chunk temperature_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/temperature_time_scatterplot-1.svg&#34; title=&#34;plot of chunk temperature_time_scatterplot&#34; alt=&#34;plot of chunk temperature_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 A logarithmic model.&lt;br/&gt;
 2. Apply a logarithmic transformation to time $z=\log(x)$.&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
@@ -1387,9 +1387,9 @@ $\sum x_i=280$ hours, $\sum y_j=37.81$ 10⁷ disintegrations/s, $\sum \log(y_j)=
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/radioactivity_time_scatterplot-1.svg&#34; title=&#34;plot of chunk radioactivity_time_scatterplot&#34; alt=&#34;plot of chunk radioactivity_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/radioactivity_time_scatterplot-1.svg&#34; title=&#34;plot of chunk radioactivity_time_scatterplot&#34; alt=&#34;plot of chunk radioactivity_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 2.
-&lt;img src=&#34;img/log_radioactivity_time_scatterplot-1.svg&#34; title=&#34;plot of chunk log_radioactivity_time_scatterplot&#34; alt=&#34;plot of chunk log_radioactivity_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/log_radioactivity_time_scatterplot-1.svg&#34; title=&#34;plot of chunk log_radioactivity_time_scatterplot&#34; alt=&#34;plot of chunk log_radioactivity_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;$\bar x=35$ hours, $s_x^2=525$ hours².&lt;br/&gt;
 $\bar z=-0.7421$ log(10⁷ disintegrations/s), $s_z^2=6.6664$ log(10⁷ disintegrations/s)^2.&lt;br/&gt;
@@ -1434,9 +1434,9 @@ Which type of model fits better to the points cloud?&lt;/li&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/period_length_scatterplot-1.svg&#34; title=&#34;plot of chunk period_length_scatterplot&#34; alt=&#34;plot of chunk period_length_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/period_length_scatterplot-1.svg&#34; title=&#34;plot of chunk period_length_scatterplot&#34; alt=&#34;plot of chunk period_length_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 The linear model fits well to the points cloud.&lt;br&gt;
-&lt;img src=&#34;img/log_period_length_scatterplot-1.svg&#34; title=&#34;plot of chunk log_period_length_scatterplot&#34; alt=&#34;plot of chunk log_period_length_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;img src=&#34;../img/log_period_length_scatterplot-1.svg&#34; title=&#34;plot of chunk log_period_length_scatterplot&#34; alt=&#34;plot of chunk log_period_length_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 2. The model that best fits the points cloud is linear.&lt;br&gt;
 3. Let $X$ be the logarithm of length and $Y$ to the logarithm of period,&lt;/p&gt;
 &lt;p&gt;$\bar x=4.5025$ log(cm), $s_x^2=0.1353$ log(cm)².&lt;br/&gt;

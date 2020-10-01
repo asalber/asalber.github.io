@@ -17,7 +17,23 @@
       <link>/proyecto/rkteaching/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/proyecto/rkteaching/</guid>
-      <description>&lt;h2 id=&#34;qué-es-rkteaching&#34;&gt;¿Qué es rkTeaching?&lt;/h2&gt;
+      <description>&lt;h2&gt;Índice&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#qué-es-rkteaching&#34;&gt;¿Qué es rkTeaching?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#instalación&#34;&gt;Instalación&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#instalación-en-windows&#34;&gt;Instalación en Windows&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#instalación-en-mac-os&#34;&gt;Instalación en Mac Os&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#instalación-en-linux&#34;&gt;Instalación en Linux&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#procedimientos-estadísticos&#34;&gt;Procedimientos estadísticos&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#funcionalidades&#34;&gt;Funcionalidades&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#cómo-citar-rkteaching&#34;&gt;¿Cómo citar rkTeaching?&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;h2 id=&#34;qué-es-rkteaching&#34;&gt;¿Qué es rkTeaching?&lt;/h2&gt;
 &lt;p&gt;rkTeaching es un paquete de 
 &lt;a href=&#34;http://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; que proporciona un plugin para la interfaz gráfica 
 &lt;a href=&#34;http://rkward.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RKWard&lt;/a&gt; añadiendo nuevos menús y cuadros de diálogo especialmente diseñados para la enseñanza de Estadística.&lt;/p&gt;

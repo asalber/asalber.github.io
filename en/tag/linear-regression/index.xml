@@ -290,7 +290,7 @@ $r^2=0.8348$.
 &lt;/div&gt;
 &lt;h2 id=&#34;exercise-8&#34;&gt;Exercise 8&lt;/h2&gt;
 &lt;p&gt;A study to determine the relation between the age and the physical strength gave the scatter plot below.
-&lt;img src=&#34;img/age_physical_strength_scatterplot-1.svg&#34; title=&#34;plot of chunk age_physical_strength_scatterplot&#34; alt=&#34;plot of chunk age_physical_strength_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/age_physical_strength_scatterplot-1.svg&#34; title=&#34;plot of chunk age_physical_strength_scatterplot&#34; alt=&#34;plot of chunk age_physical_strength_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Calculate the linear coefficient of determination for the whole sample.&lt;/li&gt;
 &lt;li&gt;Calculate the linear coefficient of determination for the sample of people younger than 25 years old.&lt;/li&gt;

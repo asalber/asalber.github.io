@@ -17,7 +17,23 @@
       <link>/en/project/rkteaching/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/en/project/rkteaching/</guid>
-      <description>&lt;h2 id=&#34;what-is-rkteaching&#34;&gt;What is rkTeaching?&lt;/h2&gt;
+      <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#what-is-rkteaching&#34;&gt;What is rkTeaching?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#installation-on-windows&#34;&gt;Installation on Windows&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#installation-on-mac-os&#34;&gt;Installation on Mac OS&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#installation-on-linux&#34;&gt;Installation on Linux&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#statistical-procedures&#34;&gt;Statistical procedures&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#functionality&#34;&gt;Functionality&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#how-to-cite-rkteaching&#34;&gt;How to cite rkTeaching?&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;h2 id=&#34;what-is-rkteaching&#34;&gt;What is rkTeaching?&lt;/h2&gt;
 &lt;p&gt;rkTeaching is an 
 &lt;a href=&#34;http://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; package that provides a plugin for the graphical user interface 
 &lt;a href=&#34;http://rkward.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RKWard&lt;/a&gt; adding new menus and dialog specially

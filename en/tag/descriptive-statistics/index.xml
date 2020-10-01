@@ -219,7 +219,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-247513968&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-579312648&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -229,7 +229,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-247513968&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-579312648&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1009,7 +1009,7 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
 &lt;p&gt;The chart below shows the cumulative distribution of the time (in min) required by 66 students to do an exam.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/time_exam-1.svg&#34; title=&#34;plot of chunk time_exam&#34; alt=&#34;plot of chunk time_exam&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/time_exam-1.svg&#34; title=&#34;plot of chunk time_exam&#34; alt=&#34;plot of chunk time_exam&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;At what time have half of the students finished? And 90% of students?&lt;/li&gt;
 &lt;li&gt;What percentage of students have finished after 100 minutes?&lt;/li&gt;
@@ -1070,7 +1070,7 @@ One year old children:  $\bar y=66.875$ min, $s_y=2.7128$ min and $cv_y=0.0406$.
 &lt;/div&gt;
 &lt;h2 id=&#34;exercise-5&#34;&gt;Exercise 5&lt;/h2&gt;
 &lt;p&gt;The histogram below shows the frequency distribution of the body mass index (BMI) of a group of people by gender.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/bmi_gender-1.svg&#34; title=&#34;plot of chunk bmi_gender&#34; alt=&#34;plot of chunk bmi_gender&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/bmi_gender-1.svg&#34; title=&#34;plot of chunk bmi_gender&#34; alt=&#34;plot of chunk bmi_gender&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Draw the pie chart for the gender.&lt;/li&gt;
 &lt;li&gt;In which group is more representative the mean of the BMI?&lt;/li&gt;
@@ -1090,7 +1090,7 @@ Males: $\sum x_i=1002.5$ kg/m$^2$ $\sum x_i^2=22781.25$ kg$^2$/m$^4$&lt;/p&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/piechart_bmi_gender-1.svg&#34; title=&#34;plot of chunk piechart_bmi_gender&#34; alt=&#34;plot of chunk piechart_bmi_gender&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/piechart_bmi_gender-1.svg&#34; title=&#34;plot of chunk piechart_bmi_gender&#34; alt=&#34;plot of chunk piechart_bmi_gender&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Females: $\bar x=24.1667$ min, $s_x=4.6022$ min and $cv_x=0.1904$.&lt;br&gt;
 Males:  $\bar y=22.2778$ min, $s_y=3.1545$ min and $cv_y=0.1416$.&lt;/li&gt;
