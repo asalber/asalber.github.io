@@ -11191,11 +11191,11 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
       <description>&lt;p&gt;
 &lt;a href=&#34;https://www.numpy.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NumPy&lt;/a&gt; es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.&lt;/p&gt;
 &lt;p&gt;Incorpora una nueva clase de objetos llamados &lt;strong&gt;arrays&lt;/strong&gt; que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/numpy-logo.png&#34; alt=&#34;Logo librería numpy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/numpy-logo.png&#34; alt=&#34;Logo librería numpy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;la-clase-de-objetos-array&#34;&gt;La clase de objetos &lt;code&gt;array&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Un array es una estructura de datos de un mismo tipo organizada en forma de tabla o cuadrícula de distintas dimensiones.&lt;/p&gt;
 &lt;p&gt;Las dimensiones de un array también se conocen como &lt;strong&gt;ejes&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/arrays.png&#34; alt=&#34;Arrays&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/arrays.png&#34; alt=&#34;Arrays&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;creación-de-arrays&#34;&gt;Creación de arrays&lt;/h2&gt;
 &lt;p&gt;Para crear un array se utiliza la siguiente función de NumPy&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;np.array(lista)&lt;/code&gt; : Crea un array a partir de la lista o tupla &lt;code&gt;lista&lt;/code&gt; y devuelve una referencia a él. El número de dimensiones del array dependerá de las listas o tuplas anidadas en &lt;code&gt;lista&lt;/code&gt;:&lt;/p&gt;
@@ -11314,7 +11314,7 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
       <guid>/docencia/python/manual/pandas/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://pandas.pydata.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pandas&lt;/a&gt; es una librería de Python especializada en el manejo y análisis de estructuras de datos.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/pandas-logo.png&#34; alt=&#34;Logo librería Pandas&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-logo.png&#34; alt=&#34;Logo librería Pandas&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Las principales características de esta librería son:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Define nuevas estructuras de datos basadas en los arrays de la librería NumPy pero con nuevas funcionalidades.&lt;/li&gt;
@@ -11336,7 +11336,7 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
 &lt;p&gt;Son estructuras similares a los arrays de una dimensión. Son homogéneas, es decir, sus elementos tienen que ser del mismo tipo, y su tamaño es inmutable, es decir, no se puede cambiar, aunque si su contenido.&lt;/p&gt;
 &lt;p&gt;Dispone de un índice que asocia un nombre a cada elemento del la serie, a través de la cuál se accede al elemento.&lt;/p&gt;
 &lt;p&gt;Ejemplo. La siguiente serie contiene las asignaturas de un curso.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/pandas-series.png&#34; alt=&#34;Ejemplo de serie&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-series.png&#34; alt=&#34;Ejemplo de serie&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;creación-de-una-serie-a-partir-de-una-lista&#34;&gt;Creación de una serie a partir de una lista&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Series(data=lista, index=indices, dtype=tipo)&lt;/code&gt; : Devuelve un objeto de tipo Series con los datos de la lista &lt;code&gt;lista&lt;/code&gt;, las filas especificados en la lista &lt;code&gt;indices&lt;/code&gt; y el tipo de datos indicado en &lt;code&gt;tipo&lt;/code&gt;. Si no se pasa la lista de índices se utilizan como índices los enteros del 0 al $n-1$, done $n$ es el tamaño de la serie. Si no se pasa el tipo de dato se infiere.&lt;/li&gt;
@@ -11577,7 +11577,7 @@ dtype: object
 &lt;p&gt;Un objeto del tipo DataFrame define un conjunto de datos estructurado en forma de tabla donde cada columna es un objeto de tipo Series, es decir, todos los datos de una misma columna son del mismo tipo, y las filas son registros que pueden contender datos de distintos tipos.&lt;/p&gt;
 &lt;p&gt;Un DataFrame contiene dos índices, uno para las filas y otro para las columnas, y se puede acceder a sus elementos mediante los nombres de las filas y las columnas.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. El siguiente DataFrame contiene información sobre los alumnos de un curso. Cada fila corresponde a un alumno y cada columna a una variable.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/pandas-dataframe.png&#34; alt=&#34;Ejemplo de DataFrame&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-dataframe.png&#34; alt=&#34;Ejemplo de DataFrame&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;creación-de-un-dataframe-a-partir-de-un-diccionario-de-listas&#34;&gt;Creación de un DataFrame a partir de un diccionario de listas&lt;/h2&gt;
 &lt;p&gt;Para crear un DataFrame a partir de un diccionario cuyas claves son los nombres de las columnas y los valores son listas con los datos de las columnas se utiliza el método:&lt;/p&gt;
 &lt;ul&gt;
@@ -12021,7 +12021,7 @@ print(edad)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;agrupación-de-un-dataframe&#34;&gt;Agrupación de un DataFrame&lt;/h2&gt;
 &lt;p&gt;En muchas aplicaciones es útil agrupar los datos de un DataFrame de acuerdo a los valores de una o varias columnas (categorías), como por ejemplo el sexo o el país.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/pandas-grupos.png&#34; alt=&#34;División en grupos de un DataFrame&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-grupos.png&#34; alt=&#34;División en grupos de un DataFrame&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;dividir-un-dataframe-en-grupos&#34;&gt;Dividir un DataFrame en grupos&lt;/h2&gt;
 &lt;p&gt;Para dividir un DataFrame en grupos se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
@@ -12076,7 +12076,7 @@ M     34.666667  59.500000  1.676667     207.200
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;reestructurar-un-dataframe&#34;&gt;Reestructurar un DataFrame&lt;/h2&gt;
 &lt;p&gt;A menudo la disposición de los datos en un DataFrame no es la adecuada para su tratamiento y es necesario reestructurar el DataFrame. Los datos que contiene un DataFrame pueden organizarse en dos formatos: ancho y largo.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/formatos-dataframe.png&#34; alt=&#34;Formatos de un DataFrame&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/formatos-dataframe.png&#34; alt=&#34;Formatos de un DataFrame&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;convertir-un-dataframe-a-formato-largo&#34;&gt;Convertir un DataFrame a formato largo&lt;/h2&gt;
 &lt;p&gt;Para convertir un DataFrame de formato ancho a formato largo (columnas a filas) se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
@@ -12125,7 +12125,7 @@ María            8.0          8.5           6.5
       <guid>/docencia/python/manual/matplotlib/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://matplotlib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matplotlib&lt;/a&gt; es una librería de Python especializada en la creación de gráficos en dos dimensiones.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/matplotlib-logo.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/matplotlib-logo.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Permite crear y personalizar los tipos de gráficos más comunes, entre ellos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Diagramas de barras&lt;/li&gt;
@@ -12175,7 +12175,7 @@ plt.savefig(&#39;diagrama-dispersion.png&#39;)
 # Mostrar el gráfico
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-dispersion.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-dispersion.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;diagramas-de-dispersión-o-puntos&#34;&gt;Diagramas de dispersión o puntos&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;scatter(x, y)&lt;/code&gt;: Dibuja un diagrama de puntos con las coordenadas de la lista &lt;code&gt;x&lt;/code&gt; en el eje X y las coordenadas de la lista &lt;code&gt;y&lt;/code&gt; en el eje Y. 
@@ -12186,7 +12186,7 @@ fig, ax = plt.subplots()
 ax.scatter([1, 2, 3, 4], [1, 2, 0, 0.5])
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-puntos.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-puntos.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;diagramas-de-líneas&#34;&gt;Diagramas de líneas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;plot(x, y)&lt;/code&gt;: Dibuja un polígono con los vértices dados por las coordenadas de la lista &lt;code&gt;x&lt;/code&gt; en el eje X y las coordenadas de la lista &lt;code&gt;y&lt;/code&gt; en el eje Y. 
@@ -12197,7 +12197,7 @@ fig, ax = plt.subplots()
 ax.plot([1, 2, 3, 4], [1, 2, 0, 0.5])
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-lineas.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-lineas.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;diagramas-de-areas&#34;&gt;Diagramas de areas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;fill_between(x, y)&lt;/code&gt;: Dibuja el area bajo el polígono con los vértices dados por las coordenadas de la lista &lt;code&gt;x&lt;/code&gt; en el eje X y las coordenadas de la lista &lt;code&gt;y&lt;/code&gt; en el eje Y. 
@@ -12208,7 +12208,7 @@ fig, ax = plt.subplots()
 ax.fill_between([1, 2, 3, 4], [1, 2, 0, 0.5])
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-areas.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-areas.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;diagramas-de-barras-verticales&#34;&gt;Diagramas de barras verticales&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;bar(x, y)&lt;/code&gt;: Dibuja un diagrama de barras verticales donde &lt;code&gt;x&lt;/code&gt; es una lista con la posición de las barras en el eje X, e &lt;code&gt;y&lt;/code&gt; es una lista con la altura de las barras en el eje Y. 
@@ -12219,7 +12219,7 @@ fig, ax = plt.subplots()
 ax.bar([1, 2, 3], [3, 2, 1])
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-barras.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-barras.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;diagramas-de-barras-horizontales&#34;&gt;Diagramas de barras horizontales&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;barh(x, y)&lt;/code&gt;: Dibuja un diagrama de barras horizontales donde &lt;code&gt;x&lt;/code&gt; es una lista con la posición de las barras en el eje Y, e &lt;code&gt;y&lt;/code&gt; es una lista con la longitud de las barras en el eje X. 
@@ -12230,7 +12230,7 @@ fig, ax = plt.subplots()
 ax.barh([1, 2, 3], [3, 2, 1])
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-barras-horizontales.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-barras-horizontales.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;histogramas&#34;&gt;Histogramas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;hist(x, bins)&lt;/code&gt;: Dibuja un histograma con las frecuencias resultantes de agrupar los datos de la lista &lt;code&gt;x&lt;/code&gt; en las clases definidas por la lista &lt;code&gt;bins&lt;/code&gt;. 
@@ -12243,7 +12243,7 @@ x = np.random.normal(5, 1.5, size=1000)
 ax.hist(x, np.arange(0, 11))
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/histograma.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/histograma.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;diagramas-de-sectores&#34;&gt;Diagramas de sectores&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;pie(x)&lt;/code&gt;: Dibuja un diagrama de sectores con las frecuencias de la lista &lt;code&gt;x&lt;/code&gt;. 
@@ -12254,7 +12254,7 @@ fig, ax = plt.subplots()
 ax.pie([5, 4, 3, 2, 1])
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-sectores.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-sectores.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;diagramas-de-caja-y-bigotes&#34;&gt;Diagramas de caja y bigotes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;boxplot(x)&lt;/code&gt;: Dibuja un diagrama de caja y bigotes con los datos de la lista &lt;code&gt;x&lt;/code&gt;. 
@@ -12265,7 +12265,7 @@ fig, ax = plt.subplots()
 ax.boxplot([1, 2, 1, 2, 3, 4, 3, 3, 5, 7])
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-caja.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-caja.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;diagramas-de-violín&#34;&gt;Diagramas de violín&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;violinplot(x)&lt;/code&gt;: Dibuja un diagrama de violín con los datos de la lista &lt;code&gt;x&lt;/code&gt;. 
@@ -12276,7 +12276,7 @@ fig, ax = plt.subplots()
 ax.violinplot([1, 2, 1, 2, 3, 4, 3, 3, 5, 7])
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-violin.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-violin.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;diagramas-de-contorno&#34;&gt;Diagramas de contorno&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;contourf(x, y, z)&lt;/code&gt;: Dibuja un diagrama de contorno con las curvas de nivel de la superficie dada por los puntos con las coordenadas de las listas &lt;code&gt;x&lt;/code&gt;, &lt;code&gt;y&lt;/code&gt; y &lt;code&gt;z&lt;/code&gt; en los ejes X, Y y Z respectivamente. 
@@ -12291,7 +12291,7 @@ z = np.sqrt(x**2 + 2*y**2)
 ax.contourf(x, y, z)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/diagrama-contorno.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/diagrama-contorno.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;mapas-de-color&#34;&gt;Mapas de color&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;imshow(x)&lt;/code&gt;: Dibuja un mapa de color a partir de una matriz (array bidimensiona) &lt;code&gt;x&lt;/code&gt;. 
@@ -12303,7 +12303,7 @@ x = np.random.random((16, 16))
 ax.imshow(x)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/mapa-calor.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt; &lt;i class=&#34;fa fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/mapa-calor.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt; &lt;i class=&#34;fa fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;mapas-de-color-1&#34;&gt;Mapas de color&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;hist2d(x, y)&lt;/code&gt;: Dibuja un mapa de color que simula un histograma bidimensional, donde los colores de los cuadrados dependen de las frecuencias de las clases de la muestra dada por las listas &lt;code&gt;x&lt;/code&gt; e &lt;code&gt;y&lt;/code&gt;. 
@@ -12315,7 +12315,7 @@ x, y = np.random.multivariate_normal(mean=[0.0, 0.0], cov=[[1.0, 0.4], [0.4, 0.5
 ax.hist2d(x, y)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/histograma2D.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/histograma2D.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;cambiar-el-aspecto-de-los-gráficos&#34;&gt;Cambiar el aspecto de los gráficos&lt;/h2&gt;
 &lt;p&gt;Los gráficos creados con Matplotlib son personalizables y puede cambiarse el aspecto de casi todos sus elementos. Los elementos que suelen modificarse más a menudo son:&lt;/p&gt;
 &lt;ul&gt;
@@ -12338,7 +12338,7 @@ ax.plot(dias, temperaturas[&#39;Madrid&#39;], color = &#39;tab:purple&#39;)
 ax.plot(dias, temperaturas[&#39;Barcelona&#39;], color = &#39;tab:green&#39;)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/lineas-colores.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/lineas-colores.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;marcadores&#34;&gt;Marcadores&lt;/h2&gt;
 &lt;p&gt;Para cambiar la forma de los puntos marcadores se utiliza el parámetro &lt;code&gt;marker = nombre-marcador&lt;/code&gt; donde &lt;code&gt;nombre-marcador&lt;/code&gt; es una cadena con el nombre del marcador de entre los 
 &lt;a href=&#34;https://matplotlib.org/3.2.1/api/markers_api.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;marcadores disponibles&lt;/a&gt;&lt;/p&gt;
@@ -12350,7 +12350,7 @@ ax.plot(dias, temperaturas[&#39;Madrid&#39;], marker = &#39;^&#39;)
 ax.plot(dias, temperaturas[&#39;Barcelona&#39;], marker = &#39;o&#39;)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/lineas-marcadores.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/lineas-marcadores.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;líneas&#34;&gt;Líneas&lt;/h2&gt;
 &lt;p&gt;Para cambiar el estilo de las líneas se utiliza el parámetro &lt;code&gt;linestyle = nombre-estilo&lt;/code&gt; donde &lt;code&gt;nombre-estilo&lt;/code&gt; es una cadena con el nombre del estilo de entre los 
 &lt;a href=&#34;https://matplotlib.org/3.2.1/gallery/lines_bars_and_markers/linestyles.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;estilos disponibles&lt;/a&gt;&lt;/p&gt;
@@ -12362,7 +12362,7 @@ ax.plot(dias, temperaturas[&#39;Madrid&#39;], linestyle = &#39;dashed&#39;)
 ax.plot(dias, temperaturas[&#39;Barcelona&#39;], linestyle = &#39;dotted&#39;)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/lineas-estilo.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/lineas-estilo.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;títulos&#34;&gt;Títulos&lt;/h2&gt;
 &lt;p&gt;Para añadir un título principal al gráfico se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
@@ -12377,7 +12377,7 @@ ax.plot(dias, temperaturas[&#39;Barcelona&#39;])
 ax.set_title(&#39;Evolución de la temperatura diaria&#39;, loc = &amp;quot;left&amp;quot;, fontdict = {&#39;fontsize&#39;:14, &#39;fontweight&#39;:&#39;bold&#39;, &#39;color&#39;:&#39;tab:blue&#39;})
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/titulo.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/titulo.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejes&#34;&gt;Ejes&lt;/h2&gt;
 &lt;p&gt;Para cambiar el aspecto de los ejes se suelen utilizar los siguientes métodos:&lt;/p&gt;
 &lt;ul&gt;
@@ -12402,7 +12402,7 @@ ax.set_ylim([20,35])
 ax.set_yticks(range(20, 35))
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/ejes.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/ejes.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;leyenda&#34;&gt;Leyenda&lt;/h2&gt;
 &lt;p&gt;Para añadir una leyenda a un gráfico se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
@@ -12417,7 +12417,7 @@ ax.plot(dias, temperaturas[&#39;Barcelona&#39;], label = &#39;Barcelona&#39;)
 ax.legend(loc = &#39;upper right&#39;)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/leyenda.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/leyenda.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;rejilla&#34;&gt;Rejilla&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;ax.grid(axis=ejes, color=color, linestyle=estilo)&lt;/code&gt; : Dibuja una rejilla en los ejes de &lt;code&gt;ax&lt;/code&gt;. El parámetro &lt;code&gt;axis&lt;/code&gt; indica los ejes sobre los que se dibuja la regilla y puede ser &lt;code&gt;&#39;x&#39;&lt;/code&gt; (eje x), &lt;code&gt;&#39;y&#39;&lt;/code&gt; (eje y) o &lt;code&gt;&#39;both&#39;&lt;/code&gt; (ambos). Los parámetros &lt;code&gt;color&lt;/code&gt; y &lt;code&gt;linestyle&lt;/code&gt; establecen el color y el estilo de las líneas de la rejilla, y pueden tomar los mismos valores vistos en los apartados de colores y líneas.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import matplotlib.pyplot as plt
@@ -12429,7 +12429,7 @@ ax.plot(dias, temperaturas[&#39;Barcelona&#39;])
 ax.grid(axis = &#39;y&#39;, color = &#39;gray&#39;, linestyle = &#39;dashed&#39;)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/rejilla.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/rejilla.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;múltiples-gráficos&#34;&gt;Múltiples gráficos&lt;/h2&gt;
 &lt;p&gt;Es posible dibujar varios gráficos en distintos ejes en una misma figura organizados en forma de tabla. Para ello, cuando se inicializa la figura y los ejes, hay que pasarle a la función &lt;code&gt;subplots&lt;/code&gt; el número de filas y columnas de la tabla que contendrá los gráficos. Con esto los distintos ejes se organizan en un array y se puede acceder a cada uno de ellos a través de sus índices. Si se quiere que los distintos ejes compartan los mismos límites para los ejes se pueden pasar los parámetros &lt;code&gt;sharex = True&lt;/code&gt; para el eje x o &lt;code&gt;sharey = True&lt;/code&gt; para el eje y.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import matplotlib.pyplot as plt
@@ -12442,7 +12442,7 @@ ax[1, 0].bar(dias, temperaturas[&#39;Madrid&#39;])
 ax[1, 1].bar(dias, temperaturas[&#39;Barcelona&#39;], color = &#39;tab:orange&#39;)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/multiples-graficos.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/multiples-graficos.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;integración-con-pandas&#34;&gt;Integración con Pandas&lt;/h2&gt;
 &lt;p&gt;Matplotlib se integra a la perfección con la librería Pandas, permitiendo dibujar gráficos a partir de los datos de las series y DataFrames de Pandas.&lt;/p&gt;
 &lt;ul&gt;
@@ -12458,7 +12458,7 @@ df.plot(x = &#39;Días&#39;, y = &#39;Madrid&#39;, ax = ax)
 df.plot(x = &#39;Días&#39;, y = &#39;Barcelona&#39;, ax = ax)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/matplotlib-pandas.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/matplotlib-pandas.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Si no se indican los parámetros &lt;code&gt;x&lt;/code&gt; e &lt;code&gt;y&lt;/code&gt; se representa el índice de las filas en el eje x y una serie por cada columna del Dataframe. Las columnas no numéricas se ignoran.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd 
 import matplotlib.pyplot as plt
@@ -12470,7 +12470,7 @@ fig, ax = plt.subplots()
 df.plot(ax = ax)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;img/matplotlib-pandas2.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/matplotlib-pandas2.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -12494,15 +12494,15 @@ plt.show()
 &lt;/ul&gt;
 &lt;h3 id=&#34;depuración-en-visual-studio-code&#34;&gt;Depuración en Visual Studio Code&lt;/h3&gt;
 &lt;p&gt;Antes de iniciar la depuración de un programa en VSCode hay que establecer algún punto de parada. Para ello basta con hacer click en le margen izquierdo de la ventana con del código a la altura de la línea donde se quiere parar la ejecución del programa.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/break-point.png&#34; alt=&#34;Punto de parada en Visual Studio Code&#34;&gt;&amp;gt;&lt;/p&gt;
-&lt;p&gt;Para iniciar la depuración de un programa en VSCode hay que hacer clic sobre el botón &lt;img src=&#34;img/debug-button.png&#34; alt=&#34;Visual Studio Code debbuger&#34;&gt; o pulsar la combinación de teclas (Ctr+Shift+D).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/break-point.png&#34; alt=&#34;Punto de parada en Visual Studio Code&#34;&gt;&amp;gt;&lt;/p&gt;
+&lt;p&gt;Para iniciar la depuración de un programa en VSCode hay que hacer clic sobre el botón &lt;img src=&#34;../img/debug-button.png&#34; alt=&#34;Visual Studio Code debbuger&#34;&gt; o pulsar la combinación de teclas (Ctr+Shift+D).&lt;/p&gt;
 &lt;p&gt;La primera vez que depuremos un programa tendremos que crear un fichero de configuración del depurador (&lt;code&gt;launch.json&lt;/code&gt;). Para ello hay que hacer clic en el botón &lt;code&gt;Run and Debug&lt;/code&gt;. VSCode mostrará los distintos ficheros de configuración disponibles y debe seleccionarse el más adecuado para el tipo de programa a depurar. Para programas simples se debe seleccionar &lt;code&gt;Python file&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;La depuración comenzará iniciando la ejecución del programa desde el inicio hasta el primer punto de parada que encuentre.&lt;/p&gt;
 &lt;p&gt;Una vez iniciado el proceso de depuración, se puede avanzar en la ejecución del programa haciendo uso de la barra de depuración que contiene botones con los principales comandos de depuración.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/debbuger-bar.png&#34; alt=&#34;Barra de depuración de Visual Studio Code&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/debbuger-bar.png&#34; alt=&#34;Barra de depuración de Visual Studio Code&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Durante la ejecución del programa, se puede ver el contenido de las variables del programa en la ventana del estado de las variables.&lt;/p&gt;
 &lt;p&gt;El usuario también puede introducir expresiones y ver cómo se evalúan durante la ejecución del programa en la ventana de vista de expresiones.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/debbuger-estado-variables.png&#34; alt=&#34;Ventana de estado de variables de Visual Studio Code&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/debbuger-estado-variables.png&#34; alt=&#34;Ventana de estado de variables de Visual Studio Code&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

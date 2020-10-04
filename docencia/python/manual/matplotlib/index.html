@@ -283,7 +283,7 @@ Permite crear y personalizar los tipos de gráficos más comunes, entre ellos:
   <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png"><meta property="og:locale" content="es-es">
   
     
-    <meta property="article:modified_time" content="2020-09-15T23:48:20&#43;02:00">
+    <meta property="article:modified_time" content="2020-10-04T22:28:22&#43;02:00">
   
 
   
@@ -795,7 +795,7 @@ Permite crear y personalizar los tipos de gráficos más comunes, entre ellos:
           <div class="article-style">
             <p>
 <a href="https://matplotlib.org/" target="_blank" rel="noopener">Matplotlib</a> es una librería de Python especializada en la creación de gráficos en dos dimensiones.</p>
-<p><img src="img/matplotlib-logo.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/matplotlib-logo.png" alt="Gráfico con matplotlib"></p>
 <p>Permite crear y personalizar los tipos de gráficos más comunes, entre ellos:</p>
 <ul>
 <li>Diagramas de barras</li>
@@ -845,7 +845,7 @@ plt.savefig('diagrama-dispersion.png')
 # Mostrar el gráfico
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-dispersion.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-dispersion.png" alt="Gráfico con matplotlib"></p>
 <h2 id="diagramas-de-dispersión-o-puntos">Diagramas de dispersión o puntos</h2>
 <ul>
 <li><code>scatter(x, y)</code>: Dibuja un diagrama de puntos con las coordenadas de la lista <code>x</code> en el eje X y las coordenadas de la lista <code>y</code> en el eje Y. 
@@ -856,7 +856,7 @@ fig, ax = plt.subplots()
 ax.scatter([1, 2, 3, 4], [1, 2, 0, 0.5])
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-puntos.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-puntos.png" alt="Gráfico con matplotlib"></p>
 <h2 id="diagramas-de-líneas">Diagramas de líneas</h2>
 <ul>
 <li><code>plot(x, y)</code>: Dibuja un polígono con los vértices dados por las coordenadas de la lista <code>x</code> en el eje X y las coordenadas de la lista <code>y</code> en el eje Y. 
@@ -867,7 +867,7 @@ fig, ax = plt.subplots()
 ax.plot([1, 2, 3, 4], [1, 2, 0, 0.5])
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-lineas.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-lineas.png" alt="Gráfico con matplotlib"></p>
 <h2 id="diagramas-de-areas">Diagramas de areas</h2>
 <ul>
 <li><code>fill_between(x, y)</code>: Dibuja el area bajo el polígono con los vértices dados por las coordenadas de la lista <code>x</code> en el eje X y las coordenadas de la lista <code>y</code> en el eje Y. 
@@ -878,7 +878,7 @@ fig, ax = plt.subplots()
 ax.fill_between([1, 2, 3, 4], [1, 2, 0, 0.5])
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-areas.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-areas.png" alt="Gráfico con matplotlib"></p>
 <h2 id="diagramas-de-barras-verticales">Diagramas de barras verticales</h2>
 <ul>
 <li><code>bar(x, y)</code>: Dibuja un diagrama de barras verticales donde <code>x</code> es una lista con la posición de las barras en el eje X, e <code>y</code> es una lista con la altura de las barras en el eje Y. 
@@ -889,7 +889,7 @@ fig, ax = plt.subplots()
 ax.bar([1, 2, 3], [3, 2, 1])
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-barras.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-barras.png" alt="Gráfico con matplotlib"></p>
 <h2 id="diagramas-de-barras-horizontales">Diagramas de barras horizontales</h2>
 <ul>
 <li><code>barh(x, y)</code>: Dibuja un diagrama de barras horizontales donde <code>x</code> es una lista con la posición de las barras en el eje Y, e <code>y</code> es una lista con la longitud de las barras en el eje X. 
@@ -900,7 +900,7 @@ fig, ax = plt.subplots()
 ax.barh([1, 2, 3], [3, 2, 1])
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-barras-horizontales.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-barras-horizontales.png" alt="Gráfico con matplotlib"></p>
 <h2 id="histogramas">Histogramas</h2>
 <ul>
 <li><code>hist(x, bins)</code>: Dibuja un histograma con las frecuencias resultantes de agrupar los datos de la lista <code>x</code> en las clases definidas por la lista <code>bins</code>. 
@@ -913,7 +913,7 @@ x = np.random.normal(5, 1.5, size=1000)
 ax.hist(x, np.arange(0, 11))
 plt.show()
 </code></pre>
-<p><img src="img/histograma.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/histograma.png" alt="Gráfico con matplotlib"></p>
 <h2 id="diagramas-de-sectores">Diagramas de sectores</h2>
 <ul>
 <li><code>pie(x)</code>: Dibuja un diagrama de sectores con las frecuencias de la lista <code>x</code>. 
@@ -924,7 +924,7 @@ fig, ax = plt.subplots()
 ax.pie([5, 4, 3, 2, 1])
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-sectores.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-sectores.png" alt="Gráfico con matplotlib"></p>
 <h2 id="diagramas-de-caja-y-bigotes">Diagramas de caja y bigotes</h2>
 <ul>
 <li><code>boxplot(x)</code>: Dibuja un diagrama de caja y bigotes con los datos de la lista <code>x</code>. 
@@ -935,7 +935,7 @@ fig, ax = plt.subplots()
 ax.boxplot([1, 2, 1, 2, 3, 4, 3, 3, 5, 7])
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-caja.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-caja.png" alt="Gráfico con matplotlib"></p>
 <h2 id="diagramas-de-violín">Diagramas de violín</h2>
 <ul>
 <li><code>violinplot(x)</code>: Dibuja un diagrama de violín con los datos de la lista <code>x</code>. 
@@ -946,7 +946,7 @@ fig, ax = plt.subplots()
 ax.violinplot([1, 2, 1, 2, 3, 4, 3, 3, 5, 7])
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-violin.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-violin.png" alt="Gráfico con matplotlib"></p>
 <h2 id="diagramas-de-contorno">Diagramas de contorno</h2>
 <ul>
 <li><code>contourf(x, y, z)</code>: Dibuja un diagrama de contorno con las curvas de nivel de la superficie dada por los puntos con las coordenadas de las listas <code>x</code>, <code>y</code> y <code>z</code> en los ejes X, Y y Z respectivamente. 
@@ -961,7 +961,7 @@ z = np.sqrt(x**2 + 2*y**2)
 ax.contourf(x, y, z)
 plt.show()
 </code></pre>
-<p><img src="img/diagrama-contorno.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/diagrama-contorno.png" alt="Gráfico con matplotlib"></p>
 <h2 id="mapas-de-color">Mapas de color</h2>
 <ul>
 <li><code>imshow(x)</code>: Dibuja un mapa de color a partir de una matriz (array bidimensiona) <code>x</code>. 
@@ -973,7 +973,7 @@ x = np.random.random((16, 16))
 ax.imshow(x)
 plt.show()
 </code></pre>
-<p><img src="img/mapa-calor.png" alt="Gráfico con matplotlib"> <i class="fa fa-info-circle" aria-hidden="true"></p>
+<p><img src="../img/mapa-calor.png" alt="Gráfico con matplotlib"> <i class="fa fa-info-circle" aria-hidden="true"></p>
 <h2 id="mapas-de-color-1">Mapas de color</h2>
 <ul>
 <li><code>hist2d(x, y)</code>: Dibuja un mapa de color que simula un histograma bidimensional, donde los colores de los cuadrados dependen de las frecuencias de las clases de la muestra dada por las listas <code>x</code> e <code>y</code>. 
@@ -985,7 +985,7 @@ x, y = np.random.multivariate_normal(mean=[0.0, 0.0], cov=[[1.0, 0.4], [0.4, 0.5
 ax.hist2d(x, y)
 plt.show()
 </code></pre>
-<p><img src="img/histograma2D.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/histograma2D.png" alt="Gráfico con matplotlib"></p>
 <h2 id="cambiar-el-aspecto-de-los-gráficos">Cambiar el aspecto de los gráficos</h2>
 <p>Los gráficos creados con Matplotlib son personalizables y puede cambiarse el aspecto de casi todos sus elementos. Los elementos que suelen modificarse más a menudo son:</p>
 <ul>
@@ -1008,7 +1008,7 @@ ax.plot(dias, temperaturas['Madrid'], color = 'tab:purple')
 ax.plot(dias, temperaturas['Barcelona'], color = 'tab:green')
 plt.show()
 </code></pre>
-<p><img src="img/lineas-colores.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/lineas-colores.png" alt="Gráfico con matplotlib"></p>
 <h2 id="marcadores">Marcadores</h2>
 <p>Para cambiar la forma de los puntos marcadores se utiliza el parámetro <code>marker = nombre-marcador</code> donde <code>nombre-marcador</code> es una cadena con el nombre del marcador de entre los 
 <a href="https://matplotlib.org/3.2.1/api/markers_api.html" target="_blank" rel="noopener">marcadores disponibles</a></p>
@@ -1020,7 +1020,7 @@ ax.plot(dias, temperaturas['Madrid'], marker = '^')
 ax.plot(dias, temperaturas['Barcelona'], marker = 'o')
 plt.show()
 </code></pre>
-<p><img src="img/lineas-marcadores.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/lineas-marcadores.png" alt="Gráfico con matplotlib"></p>
 <h2 id="líneas">Líneas</h2>
 <p>Para cambiar el estilo de las líneas se utiliza el parámetro <code>linestyle = nombre-estilo</code> donde <code>nombre-estilo</code> es una cadena con el nombre del estilo de entre los 
 <a href="https://matplotlib.org/3.2.1/gallery/lines_bars_and_markers/linestyles.html" target="_blank" rel="noopener">estilos disponibles</a></p>
@@ -1032,7 +1032,7 @@ ax.plot(dias, temperaturas['Madrid'], linestyle = 'dashed')
 ax.plot(dias, temperaturas['Barcelona'], linestyle = 'dotted')
 plt.show()
 </code></pre>
-<p><img src="img/lineas-estilo.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/lineas-estilo.png" alt="Gráfico con matplotlib"></p>
 <h2 id="títulos">Títulos</h2>
 <p>Para añadir un título principal al gráfico se utiliza el siguiente método:</p>
 <ul>
@@ -1047,7 +1047,7 @@ ax.plot(dias, temperaturas['Barcelona'])
 ax.set_title('Evolución de la temperatura diaria', loc = &quot;left&quot;, fontdict = {'fontsize':14, 'fontweight':'bold', 'color':'tab:blue'})
 plt.show()
 </code></pre>
-<p><img src="img/titulo.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/titulo.png" alt="Gráfico con matplotlib"></p>
 <h2 id="ejes">Ejes</h2>
 <p>Para cambiar el aspecto de los ejes se suelen utilizar los siguientes métodos:</p>
 <ul>
@@ -1072,7 +1072,7 @@ ax.set_ylim([20,35])
 ax.set_yticks(range(20, 35))
 plt.show()
 </code></pre>
-<p><img src="img/ejes.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/ejes.png" alt="Gráfico con matplotlib"></p>
 <h2 id="leyenda">Leyenda</h2>
 <p>Para añadir una leyenda a un gráfico se utiliza el siguiente método:</p>
 <ul>
@@ -1087,7 +1087,7 @@ ax.plot(dias, temperaturas['Barcelona'], label = 'Barcelona')
 ax.legend(loc = 'upper right')
 plt.show()
 </code></pre>
-<p><img src="img/leyenda.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/leyenda.png" alt="Gráfico con matplotlib"></p>
 <h2 id="rejilla">Rejilla</h2>
 <p><code>ax.grid(axis=ejes, color=color, linestyle=estilo)</code> : Dibuja una rejilla en los ejes de <code>ax</code>. El parámetro <code>axis</code> indica los ejes sobre los que se dibuja la regilla y puede ser <code>'x'</code> (eje x), <code>'y'</code> (eje y) o <code>'both'</code> (ambos). Los parámetros <code>color</code> y <code>linestyle</code> establecen el color y el estilo de las líneas de la rejilla, y pueden tomar los mismos valores vistos en los apartados de colores y líneas.</p>
 <pre><code class="language-python">import matplotlib.pyplot as plt
@@ -1099,7 +1099,7 @@ ax.plot(dias, temperaturas['Barcelona'])
 ax.grid(axis = 'y', color = 'gray', linestyle = 'dashed')
 plt.show()
 </code></pre>
-<p><img src="img/rejilla.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/rejilla.png" alt="Gráfico con matplotlib"></p>
 <h2 id="múltiples-gráficos">Múltiples gráficos</h2>
 <p>Es posible dibujar varios gráficos en distintos ejes en una misma figura organizados en forma de tabla. Para ello, cuando se inicializa la figura y los ejes, hay que pasarle a la función <code>subplots</code> el número de filas y columnas de la tabla que contendrá los gráficos. Con esto los distintos ejes se organizan en un array y se puede acceder a cada uno de ellos a través de sus índices. Si se quiere que los distintos ejes compartan los mismos límites para los ejes se pueden pasar los parámetros <code>sharex = True</code> para el eje x o <code>sharey = True</code> para el eje y.</p>
 <pre><code class="language-python">import matplotlib.pyplot as plt
@@ -1112,7 +1112,7 @@ ax[1, 0].bar(dias, temperaturas['Madrid'])
 ax[1, 1].bar(dias, temperaturas['Barcelona'], color = 'tab:orange')
 plt.show()
 </code></pre>
-<p><img src="img/multiples-graficos.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/multiples-graficos.png" alt="Gráfico con matplotlib"></p>
 <h2 id="integración-con-pandas">Integración con Pandas</h2>
 <p>Matplotlib se integra a la perfección con la librería Pandas, permitiendo dibujar gráficos a partir de los datos de las series y DataFrames de Pandas.</p>
 <ul>
@@ -1128,7 +1128,7 @@ df.plot(x = 'Días', y = 'Madrid', ax = ax)
 df.plot(x = 'Días', y = 'Barcelona', ax = ax)
 plt.show()
 </code></pre>
-<p><img src="img/matplotlib-pandas.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/matplotlib-pandas.png" alt="Gráfico con matplotlib"></p>
 <p>Si no se indican los parámetros <code>x</code> e <code>y</code> se representa el índice de las filas en el eje x y una serie por cada columna del Dataframe. Las columnas no numéricas se ignoran.</p>
 <pre><code class="language-python">import pandas as pd 
 import matplotlib.pyplot as plt
@@ -1140,7 +1140,7 @@ fig, ax = plt.subplots()
 df.plot(ax = ax)
 plt.show()
 </code></pre>
-<p><img src="img/matplotlib-pandas2.png" alt="Gráfico con matplotlib"></p>
+<p><img src="../img/matplotlib-pandas2.png" alt="Gráfico con matplotlib"></p>
 
           </div>
 
@@ -1181,7 +1181,7 @@ plt.show()
         </div>
 
         <div class="body-footer">
-          <p>Última actualización el Sep 15, 2020</p>
+          <p>Última actualización el Oct 4, 2020</p>
 
           
 

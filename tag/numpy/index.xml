@@ -20,11 +20,11 @@
       <description>&lt;p&gt;
 &lt;a href=&#34;https://www.numpy.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NumPy&lt;/a&gt; es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.&lt;/p&gt;
 &lt;p&gt;Incorpora una nueva clase de objetos llamados &lt;strong&gt;arrays&lt;/strong&gt; que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/numpy-logo.png&#34; alt=&#34;Logo librería numpy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/numpy-logo.png&#34; alt=&#34;Logo librería numpy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;la-clase-de-objetos-array&#34;&gt;La clase de objetos &lt;code&gt;array&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Un array es una estructura de datos de un mismo tipo organizada en forma de tabla o cuadrícula de distintas dimensiones.&lt;/p&gt;
 &lt;p&gt;Las dimensiones de un array también se conocen como &lt;strong&gt;ejes&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/arrays.png&#34; alt=&#34;Arrays&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/arrays.png&#34; alt=&#34;Arrays&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;creación-de-arrays&#34;&gt;Creación de arrays&lt;/h2&gt;
 &lt;p&gt;Para crear un array se utiliza la siguiente función de NumPy&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;np.array(lista)&lt;/code&gt; : Crea un array a partir de la lista o tupla &lt;code&gt;lista&lt;/code&gt; y devuelve una referencia a él. El número de dimensiones del array dependerá de las listas o tuplas anidadas en &lt;code&gt;lista&lt;/code&gt;:&lt;/p&gt;

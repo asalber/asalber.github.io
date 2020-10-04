@@ -115,7 +115,7 @@
       <guid>/docencia/python/manual/pandas/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://pandas.pydata.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pandas&lt;/a&gt; es una librería de Python especializada en el manejo y análisis de estructuras de datos.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/pandas-logo.png&#34; alt=&#34;Logo librería Pandas&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-logo.png&#34; alt=&#34;Logo librería Pandas&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Las principales características de esta librería son:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Define nuevas estructuras de datos basadas en los arrays de la librería NumPy pero con nuevas funcionalidades.&lt;/li&gt;
@@ -137,7 +137,7 @@
 &lt;p&gt;Son estructuras similares a los arrays de una dimensión. Son homogéneas, es decir, sus elementos tienen que ser del mismo tipo, y su tamaño es inmutable, es decir, no se puede cambiar, aunque si su contenido.&lt;/p&gt;
 &lt;p&gt;Dispone de un índice que asocia un nombre a cada elemento del la serie, a través de la cuál se accede al elemento.&lt;/p&gt;
 &lt;p&gt;Ejemplo. La siguiente serie contiene las asignaturas de un curso.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/pandas-series.png&#34; alt=&#34;Ejemplo de serie&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-series.png&#34; alt=&#34;Ejemplo de serie&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;creación-de-una-serie-a-partir-de-una-lista&#34;&gt;Creación de una serie a partir de una lista&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Series(data=lista, index=indices, dtype=tipo)&lt;/code&gt; : Devuelve un objeto de tipo Series con los datos de la lista &lt;code&gt;lista&lt;/code&gt;, las filas especificados en la lista &lt;code&gt;indices&lt;/code&gt; y el tipo de datos indicado en &lt;code&gt;tipo&lt;/code&gt;. Si no se pasa la lista de índices se utilizan como índices los enteros del 0 al $n-1$, done $n$ es el tamaño de la serie. Si no se pasa el tipo de dato se infiere.&lt;/li&gt;
@@ -378,7 +378,7 @@ dtype: object
 &lt;p&gt;Un objeto del tipo DataFrame define un conjunto de datos estructurado en forma de tabla donde cada columna es un objeto de tipo Series, es decir, todos los datos de una misma columna son del mismo tipo, y las filas son registros que pueden contender datos de distintos tipos.&lt;/p&gt;
 &lt;p&gt;Un DataFrame contiene dos índices, uno para las filas y otro para las columnas, y se puede acceder a sus elementos mediante los nombres de las filas y las columnas.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. El siguiente DataFrame contiene información sobre los alumnos de un curso. Cada fila corresponde a un alumno y cada columna a una variable.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/pandas-dataframe.png&#34; alt=&#34;Ejemplo de DataFrame&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-dataframe.png&#34; alt=&#34;Ejemplo de DataFrame&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;creación-de-un-dataframe-a-partir-de-un-diccionario-de-listas&#34;&gt;Creación de un DataFrame a partir de un diccionario de listas&lt;/h2&gt;
 &lt;p&gt;Para crear un DataFrame a partir de un diccionario cuyas claves son los nombres de las columnas y los valores son listas con los datos de las columnas se utiliza el método:&lt;/p&gt;
 &lt;ul&gt;
@@ -822,7 +822,7 @@ print(edad)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;agrupación-de-un-dataframe&#34;&gt;Agrupación de un DataFrame&lt;/h2&gt;
 &lt;p&gt;En muchas aplicaciones es útil agrupar los datos de un DataFrame de acuerdo a los valores de una o varias columnas (categorías), como por ejemplo el sexo o el país.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/pandas-grupos.png&#34; alt=&#34;División en grupos de un DataFrame&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-grupos.png&#34; alt=&#34;División en grupos de un DataFrame&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;dividir-un-dataframe-en-grupos&#34;&gt;Dividir un DataFrame en grupos&lt;/h2&gt;
 &lt;p&gt;Para dividir un DataFrame en grupos se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
@@ -877,7 +877,7 @@ M     34.666667  59.500000  1.676667     207.200
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;reestructurar-un-dataframe&#34;&gt;Reestructurar un DataFrame&lt;/h2&gt;
 &lt;p&gt;A menudo la disposición de los datos en un DataFrame no es la adecuada para su tratamiento y es necesario reestructurar el DataFrame. Los datos que contiene un DataFrame pueden organizarse en dos formatos: ancho y largo.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/formatos-dataframe.png&#34; alt=&#34;Formatos de un DataFrame&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/formatos-dataframe.png&#34; alt=&#34;Formatos de un DataFrame&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;convertir-un-dataframe-a-formato-largo&#34;&gt;Convertir un DataFrame a formato largo&lt;/h2&gt;
 &lt;p&gt;Para convertir un DataFrame de formato ancho a formato largo (columnas a filas) se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
