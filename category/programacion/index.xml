@@ -4977,8 +4977,7 @@ x = np.random.random((16, 16))
 ax.imshow(x)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;../img/mapa-calor.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt; &lt;i class=&#34;fa fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;mapas-de-color-1&#34;&gt;Mapas de color&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;../img/mapa-calor.png&#34; alt=&#34;Gráfico con matplotlib&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;hist2d(x, y)&lt;/code&gt;: Dibuja un mapa de color que simula un histograma bidimensional, donde los colores de los cuadrados dependen de las frecuencias de las clases de la muestra dada por las listas &lt;code&gt;x&lt;/code&gt; e &lt;code&gt;y&lt;/code&gt;. 
 &lt;a href=&#34;https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist2d.html#matplotlib.pyplot.hist2d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fa fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
