@@ -969,7 +969,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 <p><strong>Example</strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.</p>
 
 
-<div id="chart-418729536" class="chart pb-3" style="max-width: 100%; margin: auto;"></div>
+<div id="chart-791546823" class="chart pb-3" style="max-width: 100%; margin: auto;"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -979,7 +979,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-        Plotly.plot('chart-418729536', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-791546823', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1771,6 +1771,34 @@ $$</p>
 
 
           
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "aprendeconalf" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
 
 
           

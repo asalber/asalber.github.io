@@ -1987,7 +1987,7 @@ Después debe mostrar por pantalla la paga que le corresponde.&lt;/p&gt;
 &lt;p&gt;Escribir un programa que lea un entero positivo, $n$, introducido por el usuario y después muestre en pantalla la suma de todos los enteros desde 1 hasta $n$.
 La suma de los $n$ primeros enteros positivos puede ser calculada de la siguiente forma:&lt;/p&gt;
 &lt;p&gt;$$ \mbox{suma} = \frac{n(n+1)}{2} $$&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-9&#34;&gt;Ejercicio 9&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la frase &lt;code&gt;Tu índice de masa corporal es &amp;lt;imc&amp;gt;&lt;/code&gt; donde &lt;code&gt;&amp;lt;imc&amp;gt;&lt;/code&gt; es el índice de masa corporal calculado redondeado con dos decimales.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
