@@ -326,6 +326,172 @@ Assuming that the cholesterol level in males and females follows a normal distri
     </item>
     
     <item>
+      <title>Pharmacy exam 2020-10-26</title>
+      <link>/en/teaching/statistics/exams/pharmacy/pharmacy-2020-10-26/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2020-10-26/</guid>
+      <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
+Date: October 26, 2020&lt;/p&gt;
+&lt;h1 id=&#34;question-1&#34;&gt;Question 1&lt;/h1&gt;
+&lt;p&gt;The table below shows the daily number of patients hospitalized in a hospital during the month of September.&lt;/p&gt;
+&lt;p&gt;$$
+\begin{array}{cr}
+\mbox{patients} &amp;amp; \mbox{Frecuencia} \
+\hline
+(10,14] &amp;amp; 6 \
+(14,18] &amp;amp; 10 \
+(18,22] &amp;amp; 7 \
+(22,26] &amp;amp; 6 \
+(26,30] &amp;amp; 1 \
+\hline
+\end{array}$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Study the spread of the 50% of central data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the mean and study the dispersion with respect to it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Study the normality of the patients distribution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the mean was 35 patients and the variance 40 patients$^2$ during the month of April, which month had a higher relative variability?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which number of people hospitalized was greater, 20 persons in September or 40 in April?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the following sums for the computations:&lt;br&gt;
+$\sum x_in_i=544$ patients, $\sum x_i^2n_i=10464$ patients$^2$, $\sum (x_i-\bar x)^3n_i=736.14$ patients$^3$ and $\sum (x_i-\bar x)^4n_i = 25367.44$ patients$^4$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$Q_1=16$, $Q_3=20$ and $IQR=4$. Thus the central dispersion is moderate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=18.1333$, $s^2=19.9822$, $s=4.4701$ and $cv=0.2465$. Thus, the dispersion with respect to the mean is small and the mean represents well.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$g_1=0.2747$ and $g_2=-0.8823$. As the coefficient of skewness and the coefficient of kurtosis fall between -2 and 2, we can assume that the sample comes from a normal population.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $Y$ be the daily number of patients hospitalized during April. Then, $cv_y=0.1807$. Since the coefficient of variation in April is greater than the one in September, there is a relative higher variability in April.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;September: $z(20)=0.4176$.&lt;br&gt;
+April: $z(40)=0.7906$.&lt;br&gt;
+Thus, 40 patients hospitalized in April is relatively higher than 20 in September.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-2&#34;&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;The chart below shows the distribution of scores in three subjects.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-gen-14-box-plot-scores.svg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Which subject is more difficult?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which subject has more central dispersion?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which subjects have outliers?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which subject is more asymmetric?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Subject $Y$ because its scores are smaller.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Subject $X$ because the box is wider.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Subject $Z$ because there is a score out of the whiskers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Subject $Z$ because the distance from the first quartile to the median (left side of the box) is greater than de distance from the third quartile to the median (right side of the box).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-3&#34;&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;In a sample of 10 families with a child older than 20 it has been measured the height of the father ($X$), the mother ($Y$) and the
+children ($Z$) in centimeters, getting the following results:&lt;/p&gt;
+&lt;p&gt;$\sum x_i=1774$ cm, $\sum y_i=1630$ cm, $\sum z_i=1795$ cm,&lt;br&gt;
+$\sum x_i^2=315300$ cm$^2$, $\sum y_i^2=266150$ cm$^2$, $\sum z_i^2=322737$ cm$^2$,&lt;br&gt;
+$\sum x_iy_j=289364$ cm$^2$, $\sum x_iz_j=318958$ cm$^2$, $\sum y_iz_j=292757$ cm$^2$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;On which height does the height of the child depend more linearly, the height of the father or the mother?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using the best linear regression model, predict the height of a child with a father 181 cm tall and a mother 163 cm tall?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How much will increase the height of the child for each centimeter that increases the height of the father? And for each centimeter that increases the height of the mother?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How would the reliability of the prediction be if the heights were measured in inches? (An inch is 2.54 cm).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-2&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-2&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=177.4$ cm, $s_x^2=59.24$ cm$^2$,&lt;br&gt;
+$\bar y=163$ cm, $s_y^2=46$ cm$^2$,&lt;br&gt;
+$\bar z=179.5$ cm, $s_z^2=53.45$ cm$^2$,&lt;br&gt;
+$s_{xz}=52.5$ cm$^2$ and $s_{yz}=17.2$ cm$^2$.&lt;br&gt;
+$r^2_{xz}=0.8705$ and $r^2_{yz}=0.1203$, thus the height of the child depends linearly more on the height of the father since the $r^2_{xz}&amp;gt;r^2_{yz}$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Regression line of $Z$ on $X$: $z=22.2836 + 0.8862z$ and $z(181)=182.6904$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The height of the child will increase $0.8862$ cm per cm of the height of the father and $0.3739$ cm per cm of the height of the mother.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The same, as after applying the same linear transformation to $X$ and $Z$, the variances are multiplied by the square of the slopes and the covariance is multiplied by the product of slopes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Pharmacy exam 2019-11-18</title>
       <link>/en/teaching/statistics/exams/pharmacy/pharmacy-2019-11-18/</link>
       <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
