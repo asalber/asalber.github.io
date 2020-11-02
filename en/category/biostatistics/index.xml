@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-396125847&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-514379628&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-396125847&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-514379628&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -5752,7 +5752,7 @@ Date: October 26, 2020&lt;/p&gt;
 &lt;p&gt;The table below shows the daily number of patients hospitalized in a hospital during the month of September.&lt;/p&gt;
 &lt;p&gt;$$
 \begin{array}{cr}
-\mbox{patients} &amp;amp; \mbox{Frecuencia} \newline
+\mbox{Patients} &amp;amp; \mbox{Frequency} \newline
 \hline
 (10,14] &amp;amp; 6 \newline
 (14,18] &amp;amp; 10 \newline
@@ -5790,10 +5790,10 @@ $\sum x_in_i=544$ patients, $\sum x_i^2n_i=10464$ patients$^2$, $\sum (x_i-\bar 
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;$Q_1=16$, $Q_3=20$ and $IQR=4$. Thus the central dispersion is moderate.&lt;/p&gt;
+&lt;p&gt;$Q_1=16$ patients, $Q_3=20$ patients and $IQR=4$ patients. Thus the central dispersion is small.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$\bar x=18.1333$, $s^2=19.9822$, $s=4.4701$ and $cv=0.2465$. Thus, the dispersion with respect to the mean is small and the mean represents well.&lt;/p&gt;
+&lt;p&gt;$\bar x=18.1333$ patients, $s^2=19.9822$ patients$^2$, $s=4.4701$ patients and $cv=0.2465$. Thus, the dispersion with respect to the mean is small and the mean represents well.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;$g_1=0.2747$ and $g_2=-0.8823$. As the coefficient of skewness and the coefficient of kurtosis fall between -2 and 2, we can assume that the sample comes from a normal population.&lt;/p&gt;
@@ -5804,7 +5804,7 @@ $\sum x_in_i=544$ patients, $\sum x_i^2n_i=10464$ patients$^2$, $\sum (x_i-\bar 
 &lt;li&gt;
 &lt;p&gt;September: $z(20)=0.4176$.&lt;br&gt;
 April: $z(40)=0.7906$.&lt;br&gt;
-Thus, 40 patients hospitalized in April is relatively higher than 20 in September.&lt;/p&gt;
+Thus, 40 patients hospitalized in April is relatively higher than 20 in September as its standard score is greater.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -5855,8 +5855,7 @@ Thus, 40 patients hospitalized in April is relatively higher than 20 in Septembe
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;question-3&#34;&gt;Question 3&lt;/h2&gt;
-&lt;p&gt;In a sample of 10 families with a child older than 20 it has been measured the height of the father ($X$), the mother ($Y$) and the
-children ($Z$) in centimeters, getting the following results:&lt;/p&gt;
+&lt;p&gt;In a sample of 10 families with a child older than 20 it has been measured the height of the father ($X$), the mother ($Y$) and the children ($Z$) in centimetres, getting the following results:&lt;/p&gt;
 &lt;p&gt;$\sum x_i=1774$ cm, $\sum y_i=1630$ cm, $\sum z_i=1795$ cm,&lt;br&gt;
 $\sum x_i^2=315300$ cm$^2$, $\sum y_i^2=266150$ cm$^2$, $\sum z_i^2=322737$ cm$^2$,&lt;br&gt;
 $\sum x_iy_j=289364$ cm$^2$, $\sum x_iz_j=318958$ cm$^2$, $\sum y_iz_j=292757$ cm$^2$.&lt;/p&gt;
@@ -5865,10 +5864,10 @@ $\sum x_iy_j=289364$ cm$^2$, $\sum x_iz_j=318958$ cm$^2$, $\sum y_iz_j=292757$ c
 &lt;p&gt;On which height does the height of the child depend more linearly, the height of the father or the mother?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Using the best linear regression model, predict the height of a child with a father 181 cm tall and a mother 163 cm tall?&lt;/p&gt;
+&lt;p&gt;Using the best linear regression model, predict the height of a child with a father 181 cm tall and a mother 163 cm tall.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;How much will increase the height of the child for each centimeter that increases the height of the father? And for each centimeter that increases the height of the mother?&lt;/p&gt;
+&lt;p&gt;According to the linear model, how much will increase the height of the child for each centimetre that increases the height of the father? And for each centimetre that increases the height of the mother?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;How would the reliability of the prediction be if the heights were measured in inches? (An inch is 2.54 cm).&lt;/p&gt;
@@ -5891,7 +5890,7 @@ $s_{xz}=52.5$ cm$^2$ and $s_{yz}=17.2$ cm$^2$.&lt;br&gt;
 $r^2_{xz}=0.8705$ and $r^2_{yz}=0.1203$, thus the height of the child depends linearly more on the height of the father since the $r^2_{xz}&amp;gt;r^2_{yz}$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Regression line of $Z$ on $X$: $z=22.2836 + 0.8862z$ and $z(181)=182.6904$ cm.&lt;/p&gt;
+&lt;p&gt;Regression line of $Z$ on $X$: $z=22.2836 + 0.8862x$ and $z(181)=182.6904$ cm.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The height of the child will increase $0.8862$ cm per cm of the height of the father and $0.3739$ cm per cm of the height of the mother.&lt;/p&gt;
