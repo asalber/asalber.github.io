@@ -426,7 +426,7 @@ Escribir un programa que comience leyendo el número de barras vendidas que no s
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/condicionales/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pida al usuario un número entero y muestre por pantalla si es par o impar.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/condicionales/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/condicionales/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
 &lt;p&gt;Para tributar un determinado impuesto se debe ser mayor de 16 años y tener unos ingresos iguales o superiores a 1000 € mensuales.
 Escribir un programa que pregunte al usuario su edad y sus ingresos mensuales y muestre por pantalla si el usuario tiene que tributar o no.&lt;/p&gt;
