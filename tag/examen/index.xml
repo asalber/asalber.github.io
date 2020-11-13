@@ -5,12 +5,153 @@
     <link>/tag/examen/</link>
       <atom:link href="/tag/examen/index.xml" rel="self" type="application/rss+xml" />
     <description>Examen</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Examen</title>
       <link>/tag/examen/</link>
     </image>
+    
+    <item>
+      <title>Examen de Óptica 2020-11-13</title>
+      <link>/docencia/estadistica/examenes/optica/optica-2020-11-13/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/docencia/estadistica/examenes/optica/optica-2020-11-13/</guid>
+      <description>&lt;p&gt;Titulación: Grado en Óptica&lt;br&gt;
+Fecha: 13 de Noviembre de 2020&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
+&lt;p&gt;En una muestra de familias se ha medido la estatura del padre ($X$),
+de la madre ($Y$) y de un hijo ($Z$) en centímetros, obteniendo los
+siguientes resultados:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{array}{ccc}
+\mbox{Estatura padre} &amp;amp; \mbox{Estatura madre} &amp;amp; \mbox{Estatura hijo} \newline
+\hline
+175 &amp;amp; 164 &amp;amp; 177 \newline
+182 &amp;amp; 175 &amp;amp; 180 \newline
+190 &amp;amp; 165 &amp;amp; 193 \newline
+165 &amp;amp; 160 &amp;amp; 172 \newline
+172 &amp;amp; 155 &amp;amp; 173 \newline
+183 &amp;amp; 172 &amp;amp; 188 \newline
+187 &amp;amp; 160 &amp;amp; 185 \newline
+174 &amp;amp; 151 &amp;amp; 177 \newline
+168 &amp;amp; 165 &amp;amp; 168 \newline
+178 &amp;amp; 163 &amp;amp; 182 \newline
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;p&gt;Se pide:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;¿En qué grupo es más representativa la media, en el de padres o en el de madres?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Hay alguna estatura atípica entre los hijos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Según su forma, ¿puede provenir la muestra de madres de una distribución normal?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Quién es más alto dentro de su grupo, una madre con una altura de 165 cm o un hijo con una altura de 178 cm?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Cómo afectaría a la representatividad de las medias que las alturas se midiesen en metros en vez de en centímetros?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Usar las siguientes sumas para los cálculos:&lt;br&gt;
+Estatura padre: $\sum x_i=1774$ cm, $\sum x_i^2=315300$ cm$^2$, $\sum (x_i-\bar x)^3=210.48$ cm$^3$ y $\sum (x_i-\bar x)^4=67596.27$ cm$^4$.&lt;br&gt;
+Estatura madre: $\sum y_i=1630$ cm, $\sum y_i^2=266150$ cm$^2$, $\sum (y_i-\bar y)^3=180$ cm$^3$ y $\sum (y_i-\bar y)^4=52324$ cm$^4$.&lt;br&gt;
+Estatura hijo : $\sum z_i=1795$ cm, $\sum z_i^2=322737$ cm$^2$, $\sum (z_i-\bar z)^3=1008$ cm$^3$ y $\sum (z_i-\bar z)^4=61906.62$ cm$^4$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Solución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Padres: $\bar x=177.4$ cm, $s^2=59.24$ cm$^2$, $s=7.6968$ cm y $cv=0.0434$.&lt;br&gt;
+Madres: $\bar y=163$ cm, $s^2=46$ cm$^2$, $s=6.7823$ cm y $cv=0.0416$.&lt;br&gt;
+La estatura media es un poco más representativa en el grupo de las madres.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Las vallas en la muestra de hijos son $f_1=155$ cm y $f_2=203$ cm por lo que no hay estaturas atípicas entre los hijos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$g_{1y}=0.0577$ y $g_{2y}=-0.5272$. Como el coeficiente de asimetría y el de apuntamiento están dentro del intervalo de -2 a 2, podemos asumir que la muestra de estaturas de madres proviene de una población normal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Puntuación típica madres: $z(165)=0.2949$.&lt;br&gt;
+Puntuación típica hijos: $z(178)=-0.2052$.&lt;br&gt;
+Así pues, una madre de 165 cm es relativamente más alta que un hijo de 178 cm.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La representatividad de las medias no cambiaría ya que tanto las medias como las desviaciones típicas estarían divididas por 100.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
+&lt;p&gt;Uno de los parámetros que se suele utilizar para diagnosticar el glaucoma de ángulo abierto es la distancia mínima al borde de la abertura de la membrana de Bruch ($X$) de la retina, pero se sabe
+que esta medida depende de la edad del paciente ($Y$) en años y del área de la abertura de esta membrana por la que pasa el nervio óptico ($Z$). En un estudio se ha medido en 1000 pacientes estas
+variables obteniendo los siguientes resultados:&lt;/p&gt;
+&lt;p&gt;$\sum x_i=346337.03$ $\mu$m, $\sum y_i=47212.1$ años, $\sum z_i=2002.384$ mm$^2$,&lt;br&gt;
+$\sum x_i^2=123828243.48$ $\mu$m$^2$, $\sum y_i^2=2601264.99$ años$^2$, $\sum z_i^2=4175.89$ mm$^4$,&lt;br&gt;
+$\sum x_iy_j=15855138.59$ $\mu$m$\cdot$años, $\sum x_iz_j=686623.65$ $\mu$m$\cdot$mm$^2$, $\sum y_iz_j=94144.37$ años$\cdot$mm$^2$.&lt;/p&gt;
+&lt;p&gt;Se pide:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular las rectas de regresión de la distancia mínima al borde de la abertura de la membrana de Bruch sobre la edad, y de la distancia mínima al borde de la abertura de la membrana de Bruch
+sobre el área de la abertura de la membrana.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Cuánto aumenta o disminuye la distancia mínima al borde de la abertura de la membrana de Bruch por cada año más del paciente?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Qué porcentaje de la variabilidad de la distancia mínima al borde de la abertura de la membrana de Bruch explica cada uno de los modelos lineales anteriores?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Utilizando el mejor de los modelos lineales anteriores predecir la distancia mínima al borde de la abertura de la membrana de Bruch de un paciente de 60 años con un área de la abertura de la
+membrana de 2 mm$^2$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Solución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=346.337$ $\mu$m, $s_x^2=3878.9051$ $\mu$m$^2$,&lt;br&gt;
+$\bar y=47.2121$ años, $s_y^2=372.2826$ años$^2$,&lt;br&gt;
+$\bar z=2.0024$ mm$^2$, $s_z^2=0.1664$ mm$^4$,&lt;br&gt;
+$s_{xy}=-496.1599$ $\mu$m$\cdot$años y $s_{xz}=-6.8761$ $\mu$m$\cdot$mm$^2$.&lt;br&gt;
+Recta de regresión de $X$ sobre $Y$: $x=409.259 + -1.3328y$.&lt;br&gt;
+Recta de regresión de $X$ sobre $Z$: $x=429.1056 + -41.335z$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La distancia mínima al borde de la abertura de la membrana de Bruch disminuye $1.3328$ $\mu$m por cada año más del paciente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$r^2_{xy}=0.1705$, de manera que la recta de regresión de $X$ sobre $Y$ explica el $17.05$% de la variabilidad de la distancia mínima al borde de la abertura de la membrana de Bruch, y $r^2_{xz}=0.0733$, de manera que la recta de regresión de $X$ sobre $Z$ explica el $7.33$% de la variabilidad de la distancia mínima al borde de la abertura de la membrana de Bruch.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$x(60)=329.2939$ $\mu$m.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Examen de Inteligencia de los Negocios 2020-06-19</title>

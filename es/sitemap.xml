@@ -369,7 +369,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-11-10T18:04:32+01:00</lastmod>
+    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -383,8 +383,13 @@
   </url>
   
   <url>
+    <loc>/category/bioestadistica/</loc>
+    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-11-10T18:04:32+01:00</lastmod>
+    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -395,6 +400,41 @@
                 hreflang="es"
                 href="/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>/category/estadistica/</loc>
+    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/examen/</loc>
+    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/estadistica/examenes/optica/optica-2020-11-13/</loc>
+    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/category/optica/</loc>
+    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
   </url>
   
   <url>
@@ -465,26 +505,6 @@
                 hreflang="es"
                 href="/tag/software/"
                 />
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-11-10T18:04:32+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tag/examen/</loc>
-    <lastmod>2020-09-22T13:28:25+02:00</lastmod>
   </url>
   
   <url>
@@ -588,18 +608,8 @@
   </url>
   
   <url>
-    <loc>/category/bioestadistica/</loc>
-    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/category/biotecnologia/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/estadistica/</loc>
-    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
   </url>
   
   <url>
@@ -689,11 +699,6 @@
   
   <url>
     <loc>/docencia/estadistica/examenes/optica/optica-2018-10-24/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/optica/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
   
