@@ -369,7 +369,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -384,12 +384,12 @@
   
   <url>
     <loc>/category/bioestadistica/</loc>
-    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -404,12 +404,12 @@
   
   <url>
     <loc>/category/estadistica/</loc>
-    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/examen/</loc>
-    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
   </url>
   
   <url>
@@ -419,7 +419,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -435,6 +435,21 @@
   <url>
     <loc>/category/optica/</loc>
     <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/biotecnologia/</loc>
+    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/estadistica/examenes/farmacia/farmacia-2020-10-26/</loc>
+    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/farmacia/</loc>
+    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
   </url>
   
   <url>
@@ -608,17 +623,7 @@
   </url>
   
   <url>
-    <loc>/category/biotecnologia/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docencia/estadistica/examenes/farmacia/farmacia-2019-12-16/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/farmacia/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
   

@@ -219,7 +219,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-269451837&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-891465273&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -229,7 +229,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-269451837&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-891465273&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -3131,7 +3131,7 @@ $r^2_{xz}=0.8705$ and $r^2_{yz}=0.1203$, thus the height of the child depends li
 &lt;p&gt;The height of the child will increase $0.8862$ cm per cm of the height of the father and $0.3739$ cm per cm of the height of the mother.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The same, as after applying the same linear transformation to $X$ and $Z$, the variances are multiplied by the square of the slopes and the covariance is multiplied by the product of slopes.&lt;/p&gt;
+&lt;p&gt;The reliability of the prediction will be the same, as after applying the same linear transformation to $X$ and $Z$, the variances are multiplied by the square of the slope and the covariance is also multiplied by de square of the slope.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
