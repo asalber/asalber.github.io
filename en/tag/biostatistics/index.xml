@@ -5,7 +5,7 @@
     <link>/en/tag/biostatistics/</link>
       <atom:link href="/en/tag/biostatistics/index.xml" rel="self" type="application/rss+xml" />
     <description>Biostatistics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Biostatistics</title>
@@ -219,7 +219,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-941683572&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-693478152&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -229,7 +229,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-941683572&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-693478152&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2973,6 +2973,163 @@ $$&lt;/p&gt;
 &lt;li&gt;It satisfies $$F(m,n) =\frac{1}{F(n,m)}.$$ Thus, if we name $f(m,n)_p$ the value that satisfies $P(F(m,n)\leq f(m,n)_p)=p$, then $$f(m,n)_p =\frac{1}{f(n,m)_{1-p}}$$ which is helpful in order to compute probabilities from the table of the distribution function.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;As we will see in the next chapter, the Fisher-Snedecor’s F distribution plays an important role in the comparison of population variances and in the analysis of variance test (ANOVA).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pharmacy exam 2020-11-23</title>
+      <link>/en/teaching/statistics/exams/pharmacy/pharmacy-2020-11-23/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2020-11-23/</guid>
+      <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
+Date: November 23, 2020&lt;/p&gt;
+&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;A test to detect the COVID19 was applied to 850 persons infected byCOVID19 with a positive outcome in 800 of them, and it was alsoapplied to 9150 non-infected persons with a positive outcome in 10% of them.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the sensitivity and the specificity of the test.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the positive and the negative predictive values and interpret them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the probability of a correct diagnostic.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $D$ the event corresponding to suffering COVID19 and $+$ and $-$the events corresponding to get a positive and a negative outcome respectively.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The sensitivity is $P(+|D) = 0.9412$ and specificity $P(-|\overline D) = 0.9$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Positive predictive value $P(D|+) = 0.4665$ and negative predictive value $P(\overline D|-) = 0.994$. As de positive predictive value is less than 0.5 we can not use this test to confirm COVID19, but we can use it to rule it out with a strong confidence since the negative predictive value is pretty close to 1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P(D\cap +) + P(\overline D\cap -) = 0.9035$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-2&#34;&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;A newborn baby affected by Moebius syndrome blinks, on average, twice a minute.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the probability that a newborn blinks twice in half a minute.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In a hospital five children have been born with Moebius syndrome. Compute the probability that at least 3 of them blink in their first minute of life.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In which distribution is more representative the mean, in the number of times that a newborn blinks in a minute or in the number of times that a newborn blinks in half a minute?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;Let $X$ be the number of times that a newborn blinks in half a minute, then $X\sim P(1)$ and $P(X=2)=0.1839$.&lt;/li&gt;
+&lt;li&gt;Let $Y$ be the number of newborns that blink in their first minute of life in a sample of 5 newborns, then $Y\sim B(5, 0.6321)$ and $P(Y\geq 3)=0.7364$.&lt;/li&gt;
+&lt;li&gt;Let $Z$ be the number of times that a newborn blinks in a minute, then $cv_z = 0.7071$ and $cv_x = 1$. Thus, the mean of $Z$ represents better since its coefficient of variation is smaller.&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-3&#34;&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;The prolactin level in pregnant and non-pregnant females follows anormal distribution with different means but with the same variance.When the prolactin levels exceed 15 ng/ml, females secrete milk through their mammary glands. It is known that 95% of pregnant females secrete milk but only 1% of non-pregnant females secret milk.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;If the median of the prolactin level in pregnant females is 16 ng/ml, what are the means and the standard deviation of the prolactin level in both populations?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the percentage of pregnant females with a prolactin level between 15.5 and 17 ng/ml.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the prolactin level such that 20% of pregnant females are above that level.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-2&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-2&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $X$ and $Y$ be the prolactin levels in pregnant and non-pregnant females respectively.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\mu_x=16$ ng/ml, $\mu_y=13.5857$ ng/ml and $\sigma=0.608$ ng/ml.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P(15.5&amp;lt;X&amp;lt;17) = 0.7446$, so 74.4583% of pregnant females.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P_{80} = 16.5117$ ng/ml.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-4&#34;&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;An organism has the same chance of being infected by a virus and a bacteria. At the same time, the probability of being infected by a virus doubles when the organism has been previously infected by a bacteria. On the other hand, the probability of being infected by no pathogen (neither virus nor bacteria) is $0.52$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;What is the probability of being infected by a virus and a bacteria at the same time?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the probability of being infected by a bacteria if it has been infected by a virus?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the probability of being infected only by a virus?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Are the events of being infected by a virus an a bacteria independent?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-3&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-3&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $V$ and $B$ the events corresponding to be infected by a virus and a bacteria respectively.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$P(V\cap B) = 0.32$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P(B|V) = 0.8$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P(V\cap \overline B) = 0.08$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The events are dependents since $P(V) = 0.4 \neq 0.8 = P(V|B)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
