@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-693478152&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-254679813&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-693478152&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-254679813&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -5356,7 +5356,7 @@ $$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Instantaneous rate of change and derivative&lt;/strong&gt;.  The &lt;em&gt;instantaneous rate of change&lt;/em&gt; of a function $f$ in a point $a$, is the limit of the average rate of change of $f$ in the interval $[a,a+\Delta x]$, when $\Delta x$ approaches 0; it is denoted by&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-\textrm{IRC}\newline;f (a) &amp;amp;= \lim_{\Delta x\rightarrow 0} \textrm{ARC}\newline; f[a,a+\Delta x]=\lim_{\Delta x\rightarrow 0}\frac{\Delta y}{\Delta x}=\newline
+\textrm{IRC}\;f (a) &amp;amp;= \lim_{\Delta x\rightarrow 0} \textrm{ARC}\; f[a,a+\Delta x]=\lim_{\Delta x\rightarrow 0}\frac{\Delta y}{\Delta x}=\newline
 &amp;amp;= \lim_{\Delta x\rightarrow 0}\frac{f(a+\Delta x)-f(a)}{\Delta x}.
 \end{aligned}
 $$&lt;/p&gt;
@@ -5366,7 +5366,7 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example - Area of a square&lt;/strong&gt;. Let us take again the function $y=x^2$ that measures the area of a metallic square of side $x$.&lt;/p&gt;
 &lt;p&gt;If at any given time the side of the square is $a$, and we heat the square uniformly increasing the side, what is the tendency of change of the area in that moment?&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
-\textrm{IRC}\newline;f(a)&amp;amp;=\lim_{\Delta x\rightarrow 0}\frac{\Delta y}{\Delta x} = \lim_{\Delta x\rightarrow 0}\frac{f(a+\Delta x)-f(a)}{\Delta x} =\newline
+\textrm{IRC}\;f(a)&amp;amp;=\lim_{\Delta x\rightarrow 0}\frac{\Delta y}{\Delta x} = \lim_{\Delta x\rightarrow 0}\frac{f(a+\Delta x)-f(a)}{\Delta x} =\newline
 &amp;amp;= \lim_{\Delta x\rightarrow 0}\frac{2a\Delta x+\Delta x^2}{\Delta x}=\lim_{\Delta x\rightarrow 0} 2a+\Delta x= 2a.
 \end{aligned}
 $$&lt;/p&gt;
