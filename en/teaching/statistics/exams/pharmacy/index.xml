@@ -79,7 +79,7 @@ Date: November 23, 2020&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;Let $X$ be the number of times that a newborn blinks in half a minute, then $X\sim P(1)$ and $P(X=2)=0.1839$.&lt;/li&gt;
-&lt;li&gt;Let $Y$ be the number of newborns that blink in their first minute of life in a sample of 5 newborns, then $Y\sim B(5, 0.6321)$ and $P(Y\geq 3)=0.7364$.&lt;/li&gt;
+&lt;li&gt;Let $Y$ be the number of newborns that blink in their first minute of life in a sample of 5 newborns, then $Y\sim B(5,0.8647)$ and $P(Y\geq 3)=0.98$.&lt;/li&gt;
 &lt;li&gt;Let $Z$ be the number of times that a newborn blinks in a minute, then $cv_z = 0.7071$ and $cv_x = 1$. Thus, the mean of $Z$ represents better since its coefficient of variation is smaller.&lt;/li&gt;
 &lt;/ol&gt;
 
