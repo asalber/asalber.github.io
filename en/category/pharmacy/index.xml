@@ -5,12 +5,406 @@
     <link>/en/category/pharmacy/</link>
       <atom:link href="/en/category/pharmacy/index.xml" rel="self" type="application/rss+xml" />
     <description>Pharmacy</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Pharmacy</title>
       <link>/en/category/pharmacy/</link>
     </image>
+    
+    <item>
+      <title>Pharmacy exam 2021-01-18</title>
+      <link>/en/teaching/calculus/exams/pharmacy-2021-01-18/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/en/teaching/calculus/exams/pharmacy-2021-01-18/</guid>
+      <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
+Date: Jan 18, 2021&lt;/p&gt;
+&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;A drug is administered intravenously at a speed of 15 mg/hour. At the same time, the body methabolizes the drug at a rate of 80% of the amount in the body per hour.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;If the drug is administered continuously, what will the maximum amount of drug in the body be? Assume that there was no drug in the body at the beginning of the process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If administration is stopped when the amount administered is 150 mg, how long from that point will it take for the patient to have only 10 mg of drug in the body?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $x(t)$ be the amount of drug in the body at any time $t$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Differential equation: $x&#39;=15-0.8x$. Initial condition $x(0)=0$. Particular solution: $x(t)=18.75-18.75e^{-0.8t}$ and the maximum amount of drug in the body will be 18.75 mg.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Differential equation: $x&#39;=-0.8x$. Initial condition $x(0)=18.74$. Particular solution: $x(t)=18.74e^{-0.8t}$ and the time required to have 10 mg of drug in the body will be $0.7851$ hours.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-2&#34;&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;The function $T(x,y)=\ln(3xy+2x^2-y)$ gives the temperature of the surface of a mountain at latitude $x$ and longitude $y$. Some mountaineers are lost at position $(1,2)$ and are at risk of freezing to death.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In which direction should they move to avoid the risk of freezing as fast as possible?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If they are in the wrong direction and move so that the longitude decreases half of the increase of the latitude, will the risk of hypothermia increase or decrease?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In which direction should they move to keep constant the temperature?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\nabla T(1,2)=\frac{1}{3}(5,1)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $\mathbf{u}$ the vector $(1,-1/2)$, then $T&#39;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Along the direction of the vector $(1,-5)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-3&#34;&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;A beach ball has a volumen of 50 dm$^3$ at the time when we start to pump air into it at a rate of 2 dm$^3$/min.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;What is the speed at which the radius is changing?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;About when will the surface of the ball be twice its initial value?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Remark: The volume of a sphere is $V(r)=\frac{4}{3}\pi r^3$ and the surface is $S(r)=4\pi r^2$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-2&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-2&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\dfrac{dr}{dt}=0.0305$ dm/s.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using the linear approximation $dt = S&#39;/dS=35.5013$ seconds approximately.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pharmacy exam 2021-01-18</title>
+      <link>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-01-18/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-01-18/</guid>
+      <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
+Date: January 18, 2021&lt;/p&gt;
+&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;The table below contains the differences between the grades in the final school exam and the entrance exam in a sample of public high schools ($X$) and private high schools ($Y$):&lt;/p&gt;
+&lt;p&gt;$$
+\begin{array}{lrrrrrrrrr}
+\hline
+\mbox{Public schools} &amp;amp; -1.2 &amp;amp; -0.7 &amp;amp; -0.4 &amp;amp; -0.9 &amp;amp; -1.6 &amp;amp; 0.5 &amp;amp; 0.2 &amp;amp; -1.8 &amp;amp; 0.8\newline&lt;br&gt;
+\mbox{Private schools} &amp;amp; -2.1 &amp;amp; -0.5 &amp;amp; -0.7 &amp;amp; -1.9 &amp;amp; 0.2 &amp;amp; -2.8 &amp;amp; -1\newline&lt;br&gt;
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Which of the following box plots corresponds to each variable?
+Compare the central dispersion of the two variables according to the box plots. In which variable is smaller the median?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-gen-16-boxplot-grades.svg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;In which type of schools is more representative the mean of grades?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In which type of schools is more symmetric the distribution of grades?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In which type of schools is more peaked the distribution of grades?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which difference is relatively smaller, $-0.5$ points in a public high school or $-1$ points in a private high school?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the following sums for the computations:&lt;br&gt;
+Public: $\sum x_i=-5.1$, $\sum x_i^2=9.63$, $\sum (x_i-\bar x)^3=0.95$ and $\sum (x_i-\bar x)^4=8.76$.&lt;br&gt;
+Private: $\sum y_i=-8.8$, $\sum y_i^2=17.64$, $\sum (y_i-\bar y)^3=-0.82$ and $\sum (y_i-\bar y)^4=11.28$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The box plot 1 corresponds to private schools and the box plot 2 to public schools. The central dispersion is pretty similar in both variables. The median is smaller in private schools.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Public schools: $\bar x=-0.5667$ , $s^2=0.7489$ , $s=0.8654$ and $cv=1.5271$.&lt;br&gt;
+Private schools: $\bar y=-1.2571$ , $s^2=0.9396$ , $s=0.9693$ and $cv=0.7711$.&lt;br&gt;
+Thus, the mean of the grade is more representative in private schools.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$g_{1x}=0.1626$ and $g_{1y}=-0.1285$. Thus, the distribution of grades in private schools is more symmetric as the coefficient of skewness is closer to 0.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$g_{2x}=-1.2651$ and $g_{2y}=-1.1748$. Thus, the distribution of grades in private schools is more peaked.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Public schools: $z(-0.5)=0.077$.&lt;br&gt;
+Private schools: $z(-1)=0.2653$.&lt;br&gt;
+Thus, a difference of grades -0.5 in a public schools is relatively smaller than a difference of -1 in a private school.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-2&#34;&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;An auditor is studying the relationship between the salary and the number of absences of a hospital warden. The following table shows the salary in thousands of euros ($X$) and the annual average of
+absences with that salary ($Y$).&lt;/p&gt;
+&lt;p&gt;$$
+\begin{array}{lrrrrrrrrr}
+\hline
+\mbox{Salary} &amp;amp; 20.0 &amp;amp; 22.5 &amp;amp; 25 &amp;amp; 27.5 &amp;amp; 30.0 &amp;amp; 32.5 &amp;amp; 35.0 &amp;amp; 37.5 &amp;amp; 40.0 \newline
+\mbox{Absences} &amp;amp; 2.3 &amp;amp; 2.0 &amp;amp; 2 &amp;amp; 1.8 &amp;amp; 2.2 &amp;amp; 1.5 &amp;amp; 1.2 &amp;amp; 1.3 &amp;amp; 0.6 \newline
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the regression line that best explains the absences as a function of the salary.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the expected number of absences that will have a warden with a salary of 29000€? Is this prediction reliable?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How much will the number of absences increase or decrease for every increment of 1000€ in the salary?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the following sums for the computations:&lt;br&gt;
+$\sum x_i=270$ $10^3$€, $\sum y_i=14.9$ absences,&lt;br&gt;
+$\sum x_i^2=8475$ ($10^3$€)$^2$, $\sum y_i^2=27.11$ absences$^2$,&lt;br&gt;
+$\sum x_iy_j=420$ $10^3$€ absences.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=30$ $10^3$€, $s_x^2=41.6667$ ($10^3$€)$^2$,&lt;br&gt;
+$\bar y=1.6556$ absences, $s_y^2=0.2714$ absences$^2$,&lt;br&gt;
+$s_{xy}=-3$ $10^3$€ absences.&lt;br&gt;
+Regression line of absences on salary: $y=3.8156-0.072x$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$y(29) = 1.7276$ absences.&lt;br&gt;
+$r^2 = 0.796$, thus the model fits well as the coefficient of determination is not far from 1, but the sample size is too small to be reliable the prediction.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The number of absences will decrease 0.072 for every increment of 1000€ in the salary.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-3&#34;&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;In a regression study it is known that the regression line of $Y$ on $X$ is $y+2x-10=0$ and the regression line of $X$ on $Y$ is $y+3x-14=0$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the means of $X$ and $Y$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the linear correlation coefficient and interpret it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-2&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-2&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=4$ and $\bar y=2$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$r=-0.8165$. The linear correlation coefficient is near -1 so there is a strong inverse relation between $X$ and $Y$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-4&#34;&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;A test to detect prostate cancer produces 1% of false positives and 0.2% false negatives. It is known that 1 in 400 males suffer this type of cancer.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the sensitivity and the specificity of the test.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If a male got a positive outcome in the test, what is the chance of developing cancer?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute and interpret the negative predictive value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Is this test better to predict or to rule out the cancer?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To study whether there is an association between the practice of sports and this type of cancer, a sample of 1000 males was drawn, of which 700 practised sports, and it was observed that there were 2 males with cancer in the group of males who practised sports, and there were 3 males with cancer in the group of males who did not practice sports. Compute the relative risk and the odds ratio and interpret them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-3&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-3&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $D$ the event corresponding to suffering prostate cancer and $+$ and $-$ the events corresponding to get a positive and a negative outcome respectively.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The sensitivity is $P(+|D) = 0.2$ and specificity $P(-|\overline D) = 0.99$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Positive predictive value $P(D|+) = 0.0476$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Negative predictive value $P(\overline D|-) = 0.998$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As the positive predictive value is smaller than the negative predictive value, this test is better to rule out the disease. In fact, we can not use this test to detect the prostate cancer because the positive predictive value is less than 0.5.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$RR(D)=0.2857$ and $OR(D)=0.2837$. Thus, there is an association between the practice of sports and the prostate cancer and the risks and the odds of developing cancer is almost one fourth smaller if the male practice sports.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-5&#34;&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;The probability that a child of a mother with the color-blind gene and a father without the color-blind gene is a color-blind male is $0.25$. It is also known that in a population there is one color-blind male for every 5000 males.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;If this couple has 5 children, what is the probability that at most 2 of them are color-blind males?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If this couple has 5 children, and the gender of the children is equiprobable, what is the probability that 3 or more are females?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In a random sample of 10000 males of this population, what is the probability that more than 3 are color-blind males?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-4&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-4&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-4&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Let $X$ be the number of color-blind sons in a sample of 5 children, then $X\sim B(5, 0.25)$ and $P(X\leq 2)=0.8965$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $Y$ be the number of girls in a sample of 5 children, then $Y\sim B(5, 0.5)$ and $P(Y\geq 3)=0.5$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $Z$ be the number of color-blind males in a sample of 10000 males, then $Z\sim B(10000, 0.0002)\approx P(2)$ and $P(Z&amp;gt;3)=0.1429$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-6&#34;&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;The primate cranial capacity follows a normal distribution with mean 1200 cm$^3$ and standard deviation 140 cm$^3$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the probability that the cranial capacity of a primate is greater than 1400 cm$^3$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the probability that the cranial capacity of a primate is exactly than 1400 cm$^3$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Above what cranial capacity will 20% of primates be?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the interquartile range of the cranial capacity of primates and interpret it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-5&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-5&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-5&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $X$ be the primate cranial capacity. Then $X\sim N(1200,140)$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$P(X&amp;gt;1400) = 0.0766$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P(X=1400) = 0$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P_{80} = 1317.827$ cm$^3$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$Q_1 =  1105.5714$ cm$^3$, $Q_3 =  1294.4286$ cm$^3$ and $IQR = 188.8571$ cm$^3$. Thus the 50% of central data will be concentranted in an interval of width $188.8571$ cm$^3$, that is a small spread.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Pharmacy exam 2020-11-23</title>
@@ -20,7 +414,7 @@
       <description>&lt;p&gt;Degrees: Pharmacy, Biotechnology&lt;br&gt;
 Date: November 23, 2020&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
-&lt;p&gt;A test to detect the COVID19 was applied to 850 persons infected byCOVID19 with a positive outcome in 800 of them, and it was alsoapplied to 9150 non-infected persons with a positive outcome in 10% of them.&lt;/p&gt;
+&lt;p&gt;A test to detect the COVID19 was applied to 850 persons infected by COVID19 with a positive outcome in 800 of them, and it was also applied to 9150 non-infected persons with a positive outcome in 10% of them.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Compute the sensitivity and the specificity of the test.&lt;/p&gt;
@@ -46,7 +440,7 @@ Date: November 23, 2020&lt;/p&gt;
 &lt;p&gt;The sensitivity is $P(+|D) = 0.9412$ and specificity $P(-|\overline D) = 0.9$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Positive predictive value $P(D|+) = 0.4665$ and negative predictive value $P(\overline D|-) = 0.994$. As de positive predictive value is less than 0.5 we can not use this test to confirm COVID19, but we can use it to rule it out with a strong confidence since the negative predictive value is pretty close to 1.&lt;/p&gt;
+&lt;p&gt;Positive predictive value $P(D|+) = 0.4665$ and negative predictive value $P(\overline D|-) = 0.994$. As the positive predictive value is less than 0.5 we can not use this test to confirm COVID19, but we can use it to rule it out with a strong confidence since the negative predictive value is pretty close to 1.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;$P(D\cap +) + P(\overline D\cap -) = 0.9035$.&lt;/p&gt;
@@ -275,7 +669,7 @@ Thus, 40 patients hospitalized in April is relatively higher than 20 in Septembe
 &lt;p&gt;Subject $Z$ because there is a score out of the whiskers.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Subject $Z$ because the distance from the first quartile to the median (left side of the box) is greater than de distance from the third quartile to the median (right side of the box).&lt;/p&gt;
+&lt;p&gt;Subject $Z$ because the distance from the first quartile to the median (left side of the box) is greater than the distance from the third quartile to the median (right side of the box).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -324,7 +718,7 @@ $r^2_{xz}=0.8705$ and $r^2_{yz}=0.1203$, thus the height of the son depends line
 &lt;p&gt;The height of the son will increase $0.8862$ cm per cm of the height of the father and $0.3739$ cm per cm of the height of the mother.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The reliability of the prediction will be the same, as after applying the same linear transformation to $X$ and $Z$, the variances are multiplied by the square of the slope and the covariance is also multiplied by de square of the slope.&lt;/p&gt;
+&lt;p&gt;The reliability of the prediction will be the same, as after applying the same linear transformation to $X$ and $Z$, the variances are multiplied by the square of the slope and the covariance is also multiplied by the square of the slope.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -1409,7 +1803,7 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;question-2&#34;&gt;Question 2&lt;/h2&gt;
 &lt;p&gt;A gene of a rat species has been modified to help the metabolization of cholesterol in blood.
-To check the effectiveness of this genetic modification two samples of rats were drawn, ones with the gene modified and the others not, and they were fed with the same diet with different concentrations of palm oil during one month.
+To check the effectiveness of this genetic modification two samples of 20 rats were drawn, ones with the gene modified and the others not, and they were fed with the same diet with different concentrations of palm oil during one month.
 The following sums summarize the results:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Palm oil quantity in gr&lt;/strong&gt; (the same in both samples)&lt;br&gt;
 $\sum x_i=640.6467$ gr, $\sum x_i^2=23508.6387$ gr², $\sum(x_i-\bar x)^3=-5527.08$ gr³, $\sum(x_i-\bar x)^4=792910$ gr⁴&lt;br&gt;

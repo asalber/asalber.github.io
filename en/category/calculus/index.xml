@@ -5,7 +5,7 @@
     <link>/en/category/calculus/</link>
       <atom:link href="/en/category/calculus/index.xml" rel="self" type="application/rss+xml" />
     <description>Calculus</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Calculus</title>
@@ -2024,6 +2024,114 @@ Given a critical point $P=(x_0,y_0)$ of a scalar field $f(x,y)$, it holds that&l
 &lt;/ul&gt;
 &lt;p&gt;The graph of the function $f(x,y)=\dfrac{x^3}{3}-\dfrac{y^3}{3}-x+y$ and their relative extrema and saddle points are shown below.&lt;/p&gt;
 &lt;img src=&#34;../img/derivativesn/extrema_analysis.svg&#34; alt=&#34;Relative extrema and saddle points of a two-variable function&#34; width=&#34;350&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pharmacy exam 2021-01-18</title>
+      <link>/en/teaching/calculus/exams/pharmacy-2021-01-18/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/en/teaching/calculus/exams/pharmacy-2021-01-18/</guid>
+      <description>&lt;p&gt;Degrees: Pharmacy and Biotechnology&lt;br&gt;
+Date: Jan 18, 2021&lt;/p&gt;
+&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;A drug is administered intravenously at a speed of 15 mg/hour. At the same time, the body methabolizes the drug at a rate of 80% of the amount in the body per hour.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;If the drug is administered continuously, what will the maximum amount of drug in the body be? Assume that there was no drug in the body at the beginning of the process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If administration is stopped when the amount administered is 150 mg, how long from that point will it take for the patient to have only 10 mg of drug in the body?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $x(t)$ be the amount of drug in the body at any time $t$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Differential equation: $x&#39;=15-0.8x$. Initial condition $x(0)=0$. Particular solution: $x(t)=18.75-18.75e^{-0.8t}$ and the maximum amount of drug in the body will be 18.75 mg.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Differential equation: $x&#39;=-0.8x$. Initial condition $x(0)=18.74$. Particular solution: $x(t)=18.74e^{-0.8t}$ and the time required to have 10 mg of drug in the body will be $0.7851$ hours.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-2&#34;&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;The function $T(x,y)=\ln(3xy+2x^2-y)$ gives the temperature of the surface of a mountain at latitude $x$ and longitude $y$. Some mountaineers are lost at position $(1,2)$ and are at risk of freezing to death.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In which direction should they move to avoid the risk of freezing as fast as possible?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If they are in the wrong direction and move so that the longitude decreases half of the increase of the latitude, will the risk of hypothermia increase or decrease?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In which direction should they move to keep constant the temperature?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\nabla T(1,2)=\frac{1}{3}(5,1)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $\mathbf{u}$ the vector $(1,-1/2)$, then $T&#39;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Along the direction of the vector $(1,-5)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-3&#34;&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;A beach ball has a volumen of 50 dm$^3$ at the time when we start to pump air into it at a rate of 2 dm$^3$/min.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;What is the speed at which the radius is changing?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;About when will the surface of the ball be twice its initial value?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Remark: The volume of a sphere is $V(r)=\frac{4}{3}\pi r^3$ and the surface is $S(r)=4\pi r^2$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-2&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-2&#34;&gt;
+      Solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\dfrac{dr}{dt}=0.0305$ dm/s.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using the linear approximation $dt = S&#39;/dS=35.5013$ seconds approximately.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     

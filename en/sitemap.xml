@@ -69,7 +69,7 @@
   
   <url>
     <loc>/en/teaching/statistics/problems/</loc>
-    <lastmod>2020-10-01T14:27:50+02:00</lastmod>
+    <lastmod>2021-01-03T10:24:51+01:00</lastmod>
   </url>
   
   <url>
@@ -174,7 +174,7 @@
   
   <url>
     <loc>/en/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -189,22 +189,27 @@
   
   <url>
     <loc>/en/tag/biostatistics/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
   </url>
   
   <url>
     <loc>/en/category/biostatistics/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
   </url>
   
   <url>
     <loc>/en/category/biotechnology/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/category/calculus/</loc>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
   </url>
   
   <url>
     <loc>/en/categories/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -219,32 +224,37 @@
   
   <url>
     <loc>/en/tag/exam/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
   </url>
   
   <url>
     <loc>/en/category/pharmacy/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/teaching/statistics/exams/pharmacy/pharmacy-2020-11-23/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <loc>/en/teaching/calculus/exams/pharmacy-2021-01-18/</loc>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-01-18/</loc>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
   </url>
   
   <url>
     <loc>/en/tag/statistics/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
   </url>
   
   <url>
     <loc>/en/category/statistics/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
   </url>
   
   <url>
     <loc>/en/tags/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -258,8 +268,13 @@
   </url>
   
   <url>
+    <loc>/en/teaching/statistics/exams/pharmacy/pharmacy-2020-11-23/</loc>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/en/teaching/statistics/exams/pharmacy/pharmacy-2020-10-26/</loc>
-    <lastmod>2020-11-19T07:23:59+01:00</lastmod>
+    <lastmod>2021-01-23T09:43:57+01:00</lastmod>
   </url>
   
   <url>
@@ -428,11 +443,6 @@
   </url>
   
   <url>
-    <loc>/en/category/calculus/</loc>
-    <lastmod>2020-11-25T10:04:11+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/en/teaching/calculus/exams/pharmacy-2019-12-16/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -529,7 +539,7 @@
   
   <url>
     <loc>/en/teaching/statistics/exams/pharmacy/pharmacy-2018-10-29/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <lastmod>2021-01-04T08:40:10+01:00</lastmod>
   </url>
   
   <url>
@@ -1314,7 +1324,7 @@
   
   <url>
     <loc>/en/tag/problems/</loc>
-    <lastmod>2020-10-01T14:27:50+02:00</lastmod>
+    <lastmod>2021-01-03T10:24:51+01:00</lastmod>
   </url>
   
   <url>

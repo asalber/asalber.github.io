@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/docencia/python/ejercicios/cadenas/</loc>
+    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
@@ -59,7 +64,7 @@
   
   <url>
     <loc>/docencia/python/ejercicios/tipos-datos/</loc>
-    <lastmod>2020-10-30T10:17:10+01:00</lastmod>
+    <lastmod>2021-01-13T14:35:15+01:00</lastmod>
   </url>
   
   <url>
@@ -369,7 +374,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
+    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -389,7 +394,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
+    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -419,7 +424,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
+    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -534,12 +539,12 @@
   
   <url>
     <loc>/category/programacion/</loc>
-    <lastmod>2020-11-10T18:04:32+01:00</lastmod>
+    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
   </url>
   
   <url>
     <loc>/category/python/</loc>
-    <lastmod>2020-11-10T18:04:32+01:00</lastmod>
+    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
   </url>
   
   <url>
@@ -1428,6 +1433,11 @@
   </url>
   
   <url>
+    <loc>/tag/cadenas/</loc>
+    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/comprension-colecciones/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -1524,7 +1534,7 @@
   
   <url>
     <loc>/tag/ejercicios/</loc>
-    <lastmod>2020-11-10T18:04:32+01:00</lastmod>
+    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
   </url>
   
   <url>
@@ -1829,7 +1839,7 @@
   
   <url>
     <loc>/tag/tipos-de-datos/</loc>
-    <lastmod>2020-10-30T10:17:10+01:00</lastmod>
+    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
   </url>
   
   <url>
