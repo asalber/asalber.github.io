@@ -143,6 +143,11 @@
   </url>
   
   <url>
+    <loc>/docencia/calculo/examenes/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/estadistica/examenes/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
   </url>
@@ -374,7 +379,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -389,12 +394,17 @@
   
   <url>
     <loc>/category/bioestadistica/</loc>
-    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/biotecnologia/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -409,22 +419,27 @@
   
   <url>
     <loc>/category/estadistica/</loc>
-    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/examen/</loc>
-    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/docencia/estadistica/examenes/optica/optica-2020-11-13/</loc>
-    <lastmod>2020-11-13T18:39:22+01:00</lastmod>
+    <loc>/docencia/calculo/examenes/farmacia/farmacia-2021-01-18/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/farmacia/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -438,22 +453,17 @@
   </url>
   
   <url>
-    <loc>/category/optica/</loc>
+    <loc>/docencia/estadistica/examenes/optica/optica-2020-11-13/</loc>
     <lastmod>2020-11-13T18:39:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/biotecnologia/</loc>
-    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
+    <loc>/category/optica/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url>
   
   <url>
     <loc>/docencia/estadistica/examenes/farmacia/farmacia-2020-10-26/</loc>
-    <lastmod>2020-11-14T09:58:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/farmacia/</loc>
     <lastmod>2020-11-14T09:58:48+01:00</lastmod>
   </url>
   
@@ -628,6 +638,16 @@
   </url>
   
   <url>
+    <loc>/category/calculo/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/calculo/examenes/farmacia/farmacia-2019-12-16/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/estadistica/examenes/farmacia/farmacia-2019-12-16/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -703,6 +723,11 @@
   </url>
   
   <url>
+    <loc>/docencia/calculo/examenes/farmacia/farmacia-2018-12-17/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/estadistica/examenes/farmacia/farmacia-2018-12-17/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -730,6 +755,11 @@
   <url>
     <loc>/docencia/estadistica/examenes/fisioterapia/fisioterapia-2018-04-09/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/calculo/examenes/farmacia/farmacia-2018-01-19/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url>
   
   <url>
@@ -868,13 +898,13 @@
   </url>
   
   <url>
-    <loc>/tag/chuleta/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <loc>/docencia/calculo/examenes/farmacia/farmacia-2017-11-06/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/calculo/</loc>
-    <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+    <loc>/tag/chuleta/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
   
   <url>
@@ -888,6 +918,11 @@
   </url>
   
   <url>
+    <loc>/docencia/calculo/examenes/farmacia/farmacia-2017-01-10/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/estadistica/examenes/farmacia/farmacia-2017-01-10/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -895,6 +930,11 @@
   <url>
     <loc>/docencia/estadistica/examenes/farmacia/farmacia-2016-11-28/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/calculo/examenes/farmacia/farmacia-2016-11-07/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url>
   
   <url>
@@ -1579,7 +1619,17 @@
   
   <url>
     <loc>/tag/examenes/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/calculo/examenes/farmacia/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/calculo/examenes/optica/</loc>
+    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url>
   
   <url>
