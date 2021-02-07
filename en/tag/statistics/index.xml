@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-491576823&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-295378416&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-491576823&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-295378416&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -3438,6 +3438,21 @@ $r^2 = 0.796$, thus the model fits well as the coefficient of determination is n
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-4&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-4&#34;&gt;
+      Resolución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-4&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/pWbsQeCsKY4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;question-5&#34;&gt;Question 5&lt;/h2&gt;
 &lt;p&gt;The probability that a child of a mother with the color-blind gene and a father without the color-blind gene is a color-blind male is $0.25$. It is also known that in a population there is one color-blind male for every 5000 males.&lt;/p&gt;
 &lt;ol&gt;
@@ -3453,11 +3468,11 @@ $r^2 = 0.796$, thus the model fits well as the coefficient of determination is n
 &lt;/ol&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
   &lt;p&gt;
-    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-4&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-4&#34;&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-5&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-5&#34;&gt;
       Solution
     &lt;/a&gt;
   &lt;/p&gt;
-  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-4&#34;&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-5&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;
@@ -3470,6 +3485,21 @@ $r^2 = 0.796$, thus the model fits well as the coefficient of determination is n
 &lt;p&gt;Let $Z$ be the number of color-blind males in a sample of 10000 males, then $Z\sim B(10000, 0.0002)\approx P(2)$ and $P(Z&amp;gt;3)=0.1429$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-6&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-6&#34;&gt;
+      Resolución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-6&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/4Si6aj1fM0k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -3492,11 +3522,11 @@ $r^2 = 0.796$, thus the model fits well as the coefficient of determination is n
 &lt;/ol&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
   &lt;p&gt;
-    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-5&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-5&#34;&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-7&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-7&#34;&gt;
       Solution
     &lt;/a&gt;
   &lt;/p&gt;
-  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-5&#34;&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-7&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;Let $X$ be the primate cranial capacity. Then $X\sim N(1200,140)$.&lt;/p&gt;
 &lt;ol&gt;
@@ -3513,6 +3543,21 @@ $r^2 = 0.796$, thus the model fits well as the coefficient of determination is n
 &lt;p&gt;$Q_1 =  1105.5714$ cm$^3$, $Q_3 =  1294.4286$ cm$^3$ and $IQR = 188.8571$ cm$^3$. Thus the 50% of central data will be concentranted in an interval of width $188.8571$ cm$^3$, that is a small spread.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-8&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-8&#34;&gt;
+      Resolución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-8&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hwJ9ZQ_JDBs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;

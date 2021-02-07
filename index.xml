@@ -12734,6 +12734,338 @@ mg?&lt;/p&gt;
     </item>
     
     <item>
+      <title>Examen de Farmacia 2021-01-18</title>
+      <link>/docencia/estadistica/examenes/farmacia/farmacia-2021-01-18/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/docencia/estadistica/examenes/farmacia/farmacia-2021-01-18/</guid>
+      <description>&lt;p&gt;Grados: Farmacia y Biotecnología&lt;br&gt;
+Fecha: 18 de enero de 2021&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
+&lt;p&gt;La siguiente tabla muestra las diferencias de notas entre las notas de bachillerato y las del examen de selectividad en los centros públicos ($X$) y privados ($Y$) de una región:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{array}{lrrrrrrrrr}
+\hline
+\mbox{Centros públicos} &amp;amp; -1.2 &amp;amp; -0.7 &amp;amp; -0.4 &amp;amp; -0.9 &amp;amp; -1.6 &amp;amp; 0.5 &amp;amp; 0.2 &amp;amp; -1.8 &amp;amp; 0.8\newline&lt;br&gt;
+\mbox{Centros privados} &amp;amp; -2.1 &amp;amp; -0.5 &amp;amp; -0.7 &amp;amp; -1.9 &amp;amp; 0.2 &amp;amp; -2.8 &amp;amp; -1\newline&lt;br&gt;
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;¿Cuál de los siguientes diagramas de cajas corresponde a cada variable? Comparar la dispersión central de las dos variables según los diagramas de caja. ¿En qué variable es menor la mediana de las diferencias de notas?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-gen-16-boxplot-grades.svg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;¿En qué centros es más representativa la media de la diferencia de notas, en los públicos o en los privados?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿En qué centros la distribución de la diferencia de notas es más simétrica?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿En qué centros la distribución de la diferencia de notas es más apuntada?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Qué diferencia es relativamente menor, $-0.5$ puntos en un centro público o $-1$ en un centro privado?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Usar las siguientes sumas para los cálculos:&lt;br&gt;
+Public: $\sum x_i=-5.1$, $\sum x_i^2=9.63$, $\sum (x_i-\bar x)^3=0.95$ y $\sum (x_i-\bar x)^4=8.76$.
+Private: $\sum y_i=-8.8$, $\sum y_i^2=17.64$, $\sum (y_i-\bar y)^3=-0.82$ y $\sum (y_i-\bar y)^4=11.28$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Solución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;El diagrama de cajas 1 corresponde a los centros privados y el 2 a los centros públicos. La dispersión central (anchura de las cajas) es similar en ambas variables. La mediana es menor en los
+centros privados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Centros públicos: $\bar x=-0.5667$ , $s^2=0.7489$ , $s=0.8654$ y $cv=1.5271$.
+Centros privados: $\bar y=-1.2571$ , $s^2=0.9396$ , $s=0.9693$ y $cv=0.7711$.
+Por tanto, la media de las diferencias de notas es más representativa en los centros privados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$g_{1x}=0.1626$ y $g_{1y}=-0.1285$. Por tanto, la distribución de las diferencias de notas en los centros privados es más simétrica ya que su coeficiente de asimetría está más cerca de 0.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$g_{2x}=-1.2651$ y $g_{2y}=-1.1748$. Así pues, la distribución de las diferencias de notas en los centros privados es más apuntada ya que su coeficiente de apuntamiento es mayor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Centro público: $z(-0.5)=0.077$.
+Centro privado: $z(-1)=0.2653$.
+Por tanto, una diferencia de notas de -0.5 puntos en centros públicos es relativamente menor que una diferencia de -1 puntos en centros privados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
+&lt;p&gt;Un auditor ha estudiado la relación entre el salario y el número de ausencias de los celadores de un hospital. La tabla siguiente muestra los salarios en miles de euros ($X$) y el número medio de ausencias anuales con esos salarios ($Y$).&lt;/p&gt;
+&lt;p&gt;$$
+\begin{array}{lrrrrrrrrr}
+\hline
+\mbox{Salario} &amp;amp; 20.0 &amp;amp; 22.5 &amp;amp; 25 &amp;amp; 27.5 &amp;amp; 30.0 &amp;amp; 32.5 &amp;amp; 35.0 &amp;amp; 37.5 &amp;amp; 40.0 \newline
+\mbox{Ausencias} &amp;amp; 2.3 &amp;amp; 2.0 &amp;amp; 2 &amp;amp; 1.8 &amp;amp; 2.2 &amp;amp; 1.5 &amp;amp; 1.2 &amp;amp; 1.3 &amp;amp; 0.6 \newline
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular la recta de regresión que explique las ausencias en función del salario.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Cuál es el número de ausencias esperado de un celador con un salario de 29000€? ¿Es esta predicción fiable?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Cuánto aumentará o disminuirá el número de ausencias por cada incremento de 1000€ en el salario?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Usar las siguientes sumas para los cálculos:&lt;br&gt;
+$\sum x_i=270$ $10^3$€, $\sum y_i=14.9$ ausencias,&lt;br&gt;
+$\sum x_i^2=8475$ ($10^3$€)$^2$, $\sum y_i^2=27.11$ ausencias$^2$,&lt;br&gt;
+$\sum x_iy_j=420$ $10^3$€ ausencias.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Solución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=30$ $10^3$€, $s_x^2=41.6667$ ($10^3$€)$^2$,&lt;br&gt;
+$\bar y=1.6556$ ausencias, $s_y^2=0.2714$ ausencias$^2$,&lt;br&gt;
+$s_{xy}=-3$ $10^3$€ ausencias&lt;br&gt;
+Recta de regresión de las ausencias sobre el salario: $y=3.8156-0.072x$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$y(29) = 1.7276$ ausencias&lt;br&gt;
+$r^2 = 0.796$, de modo que el modelo lineal se ajusta bien ya que el coeficiente de determinación no está lejos de 1, pero el tamaño muestral es demasiado pequeño para que las predicciones sean fiables.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El número de ausencias disminuirá 0.072 por cada incremento de 1000€ en el salario.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
+&lt;p&gt;En un estudio de regresión se sabe que la recta de regresión de $Y$ sobre $X$ es $y+2x-10=0$ y la recta de regresión de $X$ sobre $Y$ es $y+3x-14=0$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular las medias de $X$ e $Y$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular el coeficiente de correlación lineal e interpretarlo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-2&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-2&#34;&gt;
+      Solución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=4$ y $\bar y=2$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$r=-0.8165$. El coeficiente de correlación lineal está cerca de -1 lo que significa que existe una relación lineal fuerte e inversa entre $X$ e $Y$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
+&lt;p&gt;Un test para diagnosticar el cáncer de próstata produce un 1% de falsos positivos y un 0.2% de falsos negativos. Se sabe también que una población 1 cada 400 hombres sufre este tipo de cáncer.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular la sensibilidad y la especificidad del test.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si un hombre tiene un resultado positivo en el test, ¿cuál es la     probabilidad de que tenga cáncer de próstata?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular e interpretar el valor negativo predictivo del test.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Es este teste mejor para detectar o para descartar el cáncer de     próstata?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para ver si existe asociación entre el cáncer de próstata y la práctica del deporte, se tomó una muestra de 1000 hombres, de los cuales 700 practicaban deporte, y se observó que había 2 hombres con cáncer de próstata en el grupo de los que practicaban deporte y 3 hombres con cáncer de próstata en el
+grupo de los que no practicaban deporte. Calcular el riesgo relativo y el odds ratio de sufrir cáncer de próstata cuando se practica deporte.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-3&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-3&#34;&gt;
+      Solución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Sea $C$ el suceso correspondiente a sufrir cáncer de próstata y $+$ y $-$ los sucesos consistentes en tener un resultado positivo y negativo en el test respectivamente.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;La sensibilidad es $P(+|D) = 0.2$ y la especificidad $P(-|\overline D) = 0.99$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El valor predictivo positivo es $P(D|+) = 0.0476$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El valor predictivo negativo es $P(\overline D|-) = 0.998$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Como el valor predictivo negativo es mayor que el valor predictivo positivo, el test es mejor para descartar la enfermedad que para confirmarla. De hecho el test no permite detectar la enfermedad ya que el valor predictivo positivo es menor que 0.5.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$RR(D)=0.2857$ y $OR(D)=0.2837$. Por tanto, existe una asociación entre la práctica del deporte y el cáncer de próstata, de manera que la probabilidad de sufrir cáncer de próstata cuando un hombre practica deporte es casi un cuarto de la probabilidad de sufrirlo cuando no se practica deporte, y con el odds ocurre algo similar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-4&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-4&#34;&gt;
+      Resolución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-4&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/pWbsQeCsKY4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
+&lt;p&gt;La probabilidad de que un hijo de una madre con el gen del daltonismo y un padre sin el gen del daltonismo sea un varón daltónico es $0.25$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Si esta pareja tiene 5 hijos, ¿cuál es la probabilidad de que a lo sumo 2 sean varones daltónicos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si esta pareja tiene 5 hijos, y el sexo de los hijos es equiprobable, ¿cuál es la probabilidad de que 3 o más sean mujeres?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si se toma una muestra aleatoria de 10000 hombres de una población en la que hay un varón daltónico por cada 5000 hombres, ¿cuál es la probabilidad de que haya más de 3 varones daltónicos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-5&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-5&#34;&gt;
+      Solución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-5&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Sea $X$ el número de hijos varones daltónicos en una muestra de 5 hijos de la pareja. Entonces $X\sim B(5, 0.25)$ y $P(X\leq 2)=0.8965$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sea $Y$ el número de mujeres en una muestra de 5 hijos de la pareja. Entonces $Y\sim B(5, 0.5)$ y $P(Y\geq 3)=0.5$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sea $Z$ el número de varones daltónicos en una muestra de 1000 hombres de la población. Entonces
+$Z\sim B(10000, 2e-04)\approx P(2)$ y $P(Z&amp;gt;3)=0.1429$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-6&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-6&#34;&gt;
+      Resolución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-6&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/4Si6aj1fM0k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
+&lt;p&gt;La capacidad craneal de los primates sigue una distribución normal de media 1200 cm$^3$ y desviación típica 140 cm$^3$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular la probabilidad de que la capacidad craneal de un primate sea mayor de 1400 cm$^3$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular la probabilidad de que la capacidad craneal de un primate sea exáctamente 1400 cm$^3$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular la capacidad craneal por encima de la cual estarán el 20% of primates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calcular el rango intercuartílico de la capacidad craneal de los primates e interpretarlo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-7&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-7&#34;&gt;
+      Solución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-7&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Sea $X$ la capacidad craneal de los primates. Entonces $X\sim N(1200,140)$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$P(X&amp;gt;1400) = 0.0766$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P(X=1400) = 0$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P_{80} = 1317.827$ cm$^3$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$Q_1 =  1105.5714$ cm$^3$, $Q_3 =  1294.4286$ cm$^3$ y $IQR = 188.8571$ cm$^3$. Por tanto, el 50% central de los datos está concentrado en un intervalo de amplitud $188.8571$ cm$^3$, que es poca dispersión.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-8&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-8&#34;&gt;
+      Resolución
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-8&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hwJ9ZQ_JDBs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Examen de Óptica 2020-11-13</title>
       <link>/docencia/estadistica/examenes/optica/optica-2020-11-13/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
