@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-295378416&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-597264183&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-295378416&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-597264183&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -8999,7 +8999,7 @@ Date: Jan 18, 2021&lt;/p&gt;
 &lt;p&gt;$\dfrac{dr}{dt}=0.0305$ dm/s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Using the linear approximation $dt = S&#39;/dS=35.5013$ seconds approximately.&lt;/p&gt;
+&lt;p&gt;Using the linear approximation $dt = S&#39;/dS=37.5013$ seconds approximately.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
