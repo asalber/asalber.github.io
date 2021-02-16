@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>/docencia/python/ejercicios/cadenas/</loc>
-    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url>
@@ -65,6 +60,11 @@
   <url>
     <loc>/docencia/python/ejercicios/tipos-datos/</loc>
     <lastmod>2021-01-13T14:35:15+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docencia/python/ejercicios/cadenas/</loc>
+    <lastmod>2021-02-11T16:08:21+01:00</lastmod>
   </url>
   
   <url>
@@ -343,6 +343,11 @@
   </url>
   
   <url>
+    <loc>/docencia/python/manual/objetos/</loc>
+    <lastmod>2021-02-16T23:02:46+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docencia/python/manual/modulos/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url>
@@ -379,7 +384,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
+    <lastmod>2021-02-16T23:02:46+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -404,7 +409,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
+    <lastmod>2021-02-16T23:02:46+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -444,7 +449,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
+    <lastmod>2021-02-11T16:08:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -554,12 +559,12 @@
   
   <url>
     <loc>/category/programacion/</loc>
-    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+    <lastmod>2021-02-16T23:02:46+01:00</lastmod>
   </url>
   
   <url>
     <loc>/category/python/</loc>
-    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+    <lastmod>2021-02-16T23:02:46+01:00</lastmod>
   </url>
   
   <url>
@@ -1479,7 +1484,7 @@
   
   <url>
     <loc>/tag/cadenas/</loc>
-    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+    <lastmod>2021-02-11T16:08:21+01:00</lastmod>
   </url>
   
   <url>
@@ -1579,7 +1584,7 @@
   
   <url>
     <loc>/tag/ejercicios/</loc>
-    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+    <lastmod>2021-02-11T16:08:21+01:00</lastmod>
   </url>
   
   <url>
@@ -1894,7 +1899,7 @@
   
   <url>
     <loc>/tag/tipos-de-datos/</loc>
-    <lastmod>2021-01-13T18:56:27+01:00</lastmod>
+    <lastmod>2021-02-11T16:08:21+01:00</lastmod>
   </url>
   
   <url>

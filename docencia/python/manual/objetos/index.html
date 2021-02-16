@@ -30,17 +30,10 @@
   
     
   
-  <meta name="description" content="Condicionales (if)  if condición1:
-bloque código
-elif condición2:
-bloque código
-&hellip;
-else:
-bloque código
- Evalúa la expresión lógica condición1 y ejecuta el primer bloque de código si es True; si no, evalúa la siguientes condiciones hasta llegar a la primera que es True y ejecuta el bloque de código asociado.">
+  <meta name="description" content="Objetos Python también permite la programación orientada a objetos, que es un paradigma de programación en la que los datos y las operaciones que pueden realizarse con esos datos se agrupan en unidades lógicas llamadas objetos.">
 
   
-  <link rel="alternate" hreflang="es-es" href="/docencia/python/manual/condicionales/">
+  <link rel="alternate" hreflang="es-es" href="/docencia/python/manual/objetos/">
 
   
 
@@ -261,7 +254,7 @@ bloque código
   <link rel="icon" type="image/png" href="/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/docencia/python/manual/condicionales/">
+  <link rel="canonical" href="/docencia/python/manual/objetos/">
 
   
   
@@ -280,20 +273,13 @@ bloque código
   <meta property="twitter:creator" content="@aprendeconalf">
   
   <meta property="og:site_name" content="Aprende con Alf">
-  <meta property="og:url" content="/docencia/python/manual/condicionales/">
-  <meta property="og:title" content="Condicionales | Aprende con Alf">
-  <meta property="og:description" content="Condicionales (if)  if condición1:
-bloque código
-elif condición2:
-bloque código
-&hellip;
-else:
-bloque código
- Evalúa la expresión lógica condición1 y ejecuta el primer bloque de código si es True; si no, evalúa la siguientes condiciones hasta llegar a la primera que es True y ejecuta el bloque de código asociado."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png">
+  <meta property="og:url" content="/docencia/python/manual/objetos/">
+  <meta property="og:title" content="Programación Orientada a Objetos | Aprende con Alf">
+  <meta property="og:description" content="Objetos Python también permite la programación orientada a objetos, que es un paradigma de programación en la que los datos y las operaciones que pueden realizarse con esos datos se agrupan en unidades lógicas llamadas objetos."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png">
   <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png"><meta property="og:locale" content="es-es">
   
     
-    <meta property="article:modified_time" content="2020-09-15T23:48:20&#43;02:00">
+    <meta property="article:modified_time" content="2021-02-16T23:02:46&#43;01:00">
   
 
   
@@ -312,7 +298,7 @@ bloque código
 
 
 
-  <title>Condicionales | Aprende con Alf</title>
+  <title>Programación Orientada a Objetos | Aprende con Alf</title>
 
 </head>
 
@@ -688,7 +674,7 @@ bloque código
         
           <li class=""><a href="/docencia/python/manual/entrada-salida/">Entrada y Salida por Terminal</a></li>
         
-          <li class="active"><a href="/docencia/python/manual/condicionales/">Condicionales</a></li>
+          <li class=""><a href="/docencia/python/manual/condicionales/">Condicionales</a></li>
         
           <li class=""><a href="/docencia/python/manual/bucles/">Bucles</a></li>
         
@@ -708,7 +694,7 @@ bloque código
         
           <li class=""><a href="/docencia/python/manual/excepciones/">Excepciones</a></li>
         
-          <li class=""><a href="/docencia/python/manual/objetos/">Programación Orientada a Objetos</a></li>
+          <li class="active"><a href="/docencia/python/manual/objetos/">Programación Orientada a Objetos</a></li>
         
           <li class=""><a href="/docencia/python/manual/modulos/">Módulos</a></li>
         
@@ -767,7 +753,28 @@ bloque código
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#condicionales-if">Condicionales (<code>if</code>)</a></li>
+    <li><a href="#objetos">Objetos</a>
+      <ul>
+        <li><a href="#acceso-a-los-atributos-y-métodos-de-un-objeto">Acceso a los atributos y métodos de un objeto</a></li>
+      </ul>
+    </li>
+    <li><a href="#clases-class">Clases (<code>class</code>)</a>
+      <ul>
+        <li><a href="#clases-primitivas">Clases primitivas</a></li>
+        <li><a href="#instanciación-de-clases">Instanciación de clases</a></li>
+        <li><a href="#definición-de-métodos">Definición de métodos</a></li>
+        <li><a href="#el-método-__init__">El método <code>__init__</code></a></li>
+        <li><a href="#atributos-de-instancia-vs-atributos-de-clase">Atributos de instancia vs atributos de clase</a></li>
+        <li><a href="#el-método-__str__">El método <code>__str__</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#herencia">Herencia</a>
+      <ul>
+        <li><a href="#jerarquía-de-clases">Jerarquía de clases</a></li>
+        <li><a href="#sobrecarga-y-polimorfismo">Sobrecarga y polimorfismo</a></li>
+      </ul>
+    </li>
+    <li><a href="#principios-de-la-programación-orientada-a-objetos">Principios de la programación orientada a objetos</a></li>
   </ul>
 </nav>
 
@@ -780,52 +787,257 @@ bloque código
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Condicionales</h1>
+          <h1>Programación Orientada a Objetos</h1>
 
           <div class="article-style">
-            <h2 id="condicionales-if">Condicionales (<code>if</code>)</h2>
-<blockquote>
-<p><code>if</code> <code>condición1:<br>
-    <em>bloque código</em><br>
-<code>elif</code> condición2:<br>
-    <em>bloque código</em><br>
-&hellip;<br>
-<code>else</code>:<br>
-    <em>bloque código</em></p>
-</blockquote>
-<p>Evalúa la expresión lógica <code>condición1</code> y ejecuta el primer bloque de código si es <code>True</code>; si no, evalúa la siguientes condiciones hasta llegar a la primera que es <code>True</code> y ejecuta el bloque de código asociado. Si ninguna condición es <code>True</code> ejecuta el bloque de código después de <code>else:</code>.</p>
-<p>Pueden aparecer varios bloques <code>elif</code> pero solo uno <code>else</code> al final.</p>
-<p><i class="fa fa-exclamation-triangle" style="color:red;"></i> <em>Los bloques de código deben estar indentados por 4 espacios.</em></p>
-<p>La instrucción condicional permite evaluar el estado del programa y tomar decisiones sobre qué código ejecutar en función del mismo.</p>
-<pre><code class="language-python">&gt;&gt;&gt; edad = 14
-&gt;&gt;&gt; if edad &lt;= 18 : 
-...     print('Menor')
-... elif edad &gt; 65:
-...     print('Jubilado')
-... else:
-...     print('Activo')
-...
-Menor
-&gt;&gt;&gt; age = 20
-&gt;&gt;&gt; if edad &lt;= 18 : 
-...     print('Menor')
-... elif edad &gt; 65:
-...     print('Jubilado')
-... else:
-...     print('Activo')
-...
-Activo
+            <h2 id="objetos">Objetos</h2>
+<p>Python también permite <em>la programación orientada a objetos</em>, que es un paradigma de programación en la que los datos y las operaciones que pueden realizarse con esos datos se agrupan en unidades lógicas llamadas <strong>objetos</strong>.</p>
+<p>Los objetos suelen representar conceptos del dominio del programa, como un estudiante, un coche, un teléfono, etc. Los datos que describen las características del objeto se llaman <strong>atributos</strong> y son la parte estática del objeto, mientras que las operaciones que puede realizar el objeto se llaman <strong>métodos</strong> y son la parte dinámica del objeto.</p>
+<p>La programación orientada a objetos permite simplificar la estructura y la lógica de los grandes programas en los que intervienen muchos objetos que interactúan entre si.</p>
+<p><strong>Ejemplo</strong>. Una tarjeta de crédito puede representarse como un objeto:</p>
+<ul>
+<li>Atributos: Número de la tarjeta, titular, balance, fecha de caducidad, pin, entidad emisora, estado (activa o no), etc.</li>
+<li>Métodos: Activar, pagar, renovar, anular.</li>
+</ul>
+<img src="../img/tarjeta-credito.svg" alt="Atributos y métodos del objeto tarjeta de crédito" height="400px">
+<h3 id="acceso-a-los-atributos-y-métodos-de-un-objeto">Acceso a los atributos y métodos de un objeto</h3>
+<ul>
+<li><code>dir(objeto)</code>: Devuelve una lista con los nombres de los atributos y métodos del objeto <code>objeto</code>.</li>
+</ul>
+<p>Para ver si un objeto tiene un determinado atributo o método se utiliza la siguiente función:</p>
+<ul>
+<li><code>hasattr(objeto, elemento)</code>: Devuelve <code>True</code> si <code>elemento</code> es un atributo o un método del objeto <code>objeto</code> y <code>False</code> en caso contrario.</li>
+</ul>
+<p>Para acceder a los atributos y métodos de un objeto se pone el nombre del objeto seguido del <em>operador punto</em> y el nombre del atributo o el método.</p>
+<ul>
+<li><code>objeto.atributo</code>: Accede al atributo <code>atributo</code> del objeto <code>objeto</code>.</li>
+<li><code>objeto.método(parámetros)</code>: Ejecuta el método <code>método</code> del objeto <code>objeto</code> con los parámetros que se le pasen.</li>
+</ul>
+<p>En Python los tipos de datos primitivos son también objetos que tienen asociados atributos y métodos.</p>
+<p><strong>Ejemplo</strong>. Las cadenas tienen un método <code>upper</code> que convierte la cadena en mayúsculas. Para aplicar este método a la cadena <code>c</code> se utiliza la instrucción <code>c.upper()</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; c = 'Python'
+&gt;&gt;&gt; print(c.upper())    # Llamada al método upper del objeto c (cadena)
+PYTHON
 </code></pre>
+<p><strong>Ejemplo</strong>. Las listas tienen un método <code>append</code> que convierte añade un elemento al final de la lista. Para aplicar este método a la lista <code>l</code> se utiliza la instrucción <code>l.append(&lt;elemento&gt;)</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; l =  [1, 2, 3]     
+&gt;&gt;&gt; l.append(4)         # Llamada al método append del objeto l (lista)
+&gt;&gt;&gt; print(l)
+[1, 2, 3, 4]
+</code></pre>
+<h2 id="clases-class">Clases (<code>class</code>)</h2>
+<p>Los objetos con los mismos atributos y métodos se agrupan <strong>clases</strong>. Las clases definen los atributos y los métodos, y por tanto, la semántica o comportamiento que tienen los objetos que pertenecen a esa clase. Se puede pensar en una clase como en un <em>molde</em> a partir del cuál se pueden crear objetos.</p>
+<p>Para declarar una clase se utiliza la palabra clave <code>class</code> seguida del nombre de la clase y dos puntos, de acuerdo a la siguiente sintaxis:</p>
+<blockquote>
+<p><code>class &lt;nombre-clase&gt;:</code><br>
+     <em><code>&lt;atributos&gt;</code></em><br>
+     <em><code>&lt;métodos&gt;</code></em></p>
+</blockquote>
+<p>Los atributos se definen igual que las variables mientras que los métodos se definen igual que las funciones. Tanto unos como otros tienen que estar indentados por 4 espacios en el cuerpo de la clase.</p>
+<p><strong>Ejemplo</strong> El siguiente código define la clase <code>Saludo</code> sin atributos ni métodos. La palabra reservada <code>pass</code> indica que la clase está vacía.</p>
+<pre><code class="language-python">&gt;&gt;&gt; class Saludo:
+...     pass        # Clase vacía sin atributos ni métodos.
+&gt;&gt;&gt; print(Saludo)
+&lt;class '__main__.Saludo'&gt;
+</code></pre>
+<p><i class='fa fa-exclamation-triangle' style='color:red'></i> Es una buena práctica comenzar el nombre de una clase con mayúsculas.</p>
+<h3 id="clases-primitivas">Clases primitivas</h3>
+<p>En Python existen clases predefinidas para los tipos de datos primitivos:</p>
+<ul>
+<li><code>int</code>: Clase de los números enteros.</li>
+<li><code>float</code>: Clase de los números reales.</li>
+<li><code>str</code>: Clase de las cadenas de caracteres.</li>
+<li><code>list</code>: Clase de las listas.</li>
+<li><code>tuple</code>: Clase de las tuplas.</li>
+<li><code>dict</code>: Clase de los diccionarios.</li>
+</ul>
+<pre><code class="language-python">&gt;&gt;&gt; type(1)
+&lt;class 'int'&gt;
+&gt;&gt;&gt; type(1.5)
+&lt;class 'float'&gt;
+&gt;&gt;&gt; type('Python')
+&lt;class 'str'&gt;
+&gt;&gt;&gt; type([1,2,3])
+&lt;class 'list'&gt;
+&gt;&gt;&gt; type((1,2,3))
+&lt;class 'tuple'&gt;
+&gt;&gt;&gt; type({1:'A', 2:'B'})
+&lt;class 'dict'&gt;
+</code></pre>
+<h3 id="instanciación-de-clases">Instanciación de clases</h3>
+<p>Para crear un objeto de una determinada clase se utiliza el nombre de la clase seguida de los parámetros necesarios para crear el objeto entre paréntesis.</p>
+<ul>
+<li><code>clase(parámetros)</code>: Crea un objeto de la clase <code>clase</code> inicializado con los <code>parámetros</code> dados.</li>
+</ul>
+<p>Cuando se crea un objeto de una clase se dice que el objeto es una <em>instancia</em> de la clase.</p>
+<pre><code class="language-python">&gt;&gt;&gt; class Saludo:
+...     pass        # Clase vacía sin atributos ni métodos.
+&gt;&gt;&gt; s = Saludo()    # Creación del objeto mediante instanciación de la clase.
+&gt;&gt;&gt; s
+&lt;__main__.Saludo object at 0x7fcfc7756be0&gt;      # Dirección de memoria donde se crea el objeto
+&gt;&gt;&gt; type(s)
+&lt;class '__main__.Saludo'&gt;     # Clase del objeto
+</code></pre>
+<h3 id="definición-de-métodos">Definición de métodos</h3>
+<p>Los métodos de una clase son las funciones que definen el comportamiento de los objetos de esa clase.</p>
+<p>Se definen como las funciones con la palabra reservada <code>def</code>. La única diferencia es que su primer parámetro es especial y se denomina <code>self</code>. Este parámetro hace siempre referencia al objeto desde donde se llama el método, de manera que para acceder a los atributos o métodos de una clase en su propia definición se puede utilizar la sintaxis <code>self.atributo</code> o <code>self.método</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; class Saludo:
+...     mensaje = &quot;Bienvenido &quot;            # Definición de un atributo
+...     def saludar(self, nombre):         # Definición de un método   
+...         print(self.mensaje + nombre)
+...         return
+... 
+&gt;&gt;&gt; s = Saludo()
+&gt;&gt;&gt; s.saludar('Alf')
+Bienvenido Alf
+</code></pre>
+<p>La razón por la que existe el parámetro <code>self</code> es porque Python traduce la llamada a un método de un objeto <code>objeto.método(parámetros)</code> en la llamada <code>clase.método(objeto, parámetros)</code>, es decir, se llama al método definido en la clase del objeto, pasando como primer argumento el propio objeto, que se asocia al parámetro <code>self</code>.</p>
+<h3 id="el-método-__init__">El método <code>__init__</code></h3>
+<p>En la definición de una clase suele haber un método llamado <code>__init__</code> que se conoce como <em>inicializador</em>. Este método es un método especial que se llama cada vez que se instancia una clase y sirve para inicializar el objeto que se crea. Este método crea los atributos que deben tener todos los objetos de la clase y por tanto contiene los parámetros necesarios para su creación, pero no devuelve nada. Se invoca cada vez que se instancia un objeto de esa clase.</p>
+<pre><code class="language-python">&gt;&gt;&gt; class Tarjeta:
+...     def __init__(self, id, cantidad = 0):    # Inicializador
+            self.id = id                         # Creación del atributo id  
+...         self.saldo = cantidad                # Creación del atributo saldo
+...         return
+...     def mostrar_saldo(self):
+...         print('El saldo es', self.saldo, '€')
+...         return
+&gt;&gt;&gt; t = Tarjeta('1111111111', 1000)     # Creación de un objeto con argumentos             
+&gt;&gt;&gt; t.muestra_saldo()
+El saldo es 1000 €
+</code></pre>
+<h3 id="atributos-de-instancia-vs-atributos-de-clase">Atributos de instancia vs atributos de clase</h3>
+<p>Los atributos que se crean dentro del método <code>__init__</code> se conocen como atributos del objeto, mientras que los que se crean fuera de él se conocen como atributos de la clase. Mientras que los primeros son propios de cada objeto y por tanto pueden tomar valores distintos, los valores de los atributos de la clase son los mismos para cualquier objeto de la clase.</p>
+<p><i class='fa fa-exclamation-triangle' style='color:red'></i>En general, no deben usarse atributos de clase, excepto para almacenar valores constantes.</p>
+<pre><code class="language-python">&gt;&gt;&gt; class Circulo:
+...     pi = 3.14159                     # Atributo de clase
+...     def __init__(self, radio):
+...         self.radio = radio           # Atributo de instancia
+...     def area(self):
+...         return Circulo.pi * self.radio ** 2
+... 
+&gt;&gt;&gt; c1 = Circulo(2)
+&gt;&gt;&gt; c2 = Circulo(3)
+&gt;&gt;&gt; print(c1.area())
+12.56636
+&gt;&gt;&gt; print(c2.area())
+28.27431
+&gt;&gt;&gt; print(c1.pi)
+3.14159
+&gt;&gt;&gt; print(c2.pi)
+3.14159
+</code></pre>
+<h3 id="el-método-__str__">El método <code>__str__</code></h3>
+<p>Otro método especial es el método llamado <code>__str__</code> que se invoca cada vez que se llama a las funciones <code>print</code> o <code>str</code>. Devuelve siempre una cadena que se suele utilizar para dar una descripción informal del objeto. Si no se define en la clase, cada vez que se llama a estas funciones con un objeto de la clase, se muestra por defecto la posición de memoria del objeto.</p>
+<pre><code class="language-python">&gt;&gt;&gt; class Tarjeta:
+...     def __init__(self, numero, cantidad = 0):
+...         self.numero = numero
+...         self.saldo = cantidad
+...         return
+...     def __str__(self):
+...         return 'Tarjeta número {} con saldo {:.2f}€'.format(self.numero, str(self.saldo))
+&gt;&gt;&gt; t = tarjeta('0123456789', 1000) 
+&gt;&gt;&gt; print(t)
+Tarjeta número 0123456789 con saldo 1000.00€
+</code></pre>
+<h2 id="herencia">Herencia</h2>
+<p>Una de las características más potentes de la programación orientada a objetos es la <strong>herencia</strong>, que permite definir una especialización de una clase añadiendo nuevos atributos o métodos. La nueva clase se conoce como <em>clase hija</em> y hereda los atributos y métodos de la clase original que se conoce como <em>clase madre</em>.</p>
+<p>Para crear un clase a partir de otra existente se utiliza la misma sintaxis que para definir una clase, pero poniendo detrás del nombre de la clase entre paréntesis los nombres de las clases madre de las que hereda.</p>
+<p><strong>Ejemplo</strong>. A partir de la clase <code>Tarjeta</code> definida antes podemos crear mediante herencia otra clase <code>Tarjeta_Descuento</code> para representar las tarjetas de crédito que aplican un descuento sobre las compras.</p>
+<pre><code class="language-python">&gt;&gt;&gt; class Tarjeta:
+...     def __init__(self, id, cantidad = 0):
+...         self.id = id
+...         self.saldo = cantidad
+...         return
+...     def mostrar_saldo(self):       # Método de la clase Tarjeta que hereda la clase Tarjeta_descuento
+...         print('El saldo es',  self.saldo, '€.')
+...         return
+... 
+&gt;&gt;&gt; class Tarjeta_descuento(Tarjeta):
+...     def __init__(self, id, descuento, cantidad = 0):
+...         self.id = id
+...         self.descuento = descuento
+...         self.saldo = cantidad
+...         return
+...     def mostrar_descuento(self):   # Método exclusivo de la clase Tarjeta_descuento
+...         print('Descuento de', self.descuento, '% en los pagos.')
+...         return
+... 
+&gt;&gt;&gt; t = Tarjeta_descuento('0123456789', 2, 1000)
+&gt;&gt;&gt; t.mostrar_saldo()
+El saldo es 1000 €.
+&gt;&gt;&gt; t.mostrar_descuento()
+Descuento de 2 % en los pagos.
+</code></pre>
+<p>La principal ventaja de la herencia es que evita la repetición de código y por tanto los programas son más fáciles de mantener.</p>
+<p>En el ejemplo de la tarjeta de crédito, el método <code>mostrar_saldo</code> solo se define en la clase madre. De esta manera, cualquier cambio que se haga en el cuerpo del método en la clase madre, automáticamente se propaga a las clases hijas. Sin la herencia, este método tendría que replicarse en cada una de las clases hijas y cada vez que se hiciese un cambio en él, habría que replicarlo también en las clases hijas.</p>
+<h3 id="jerarquía-de-clases">Jerarquía de clases</h3>
+<p>A partir de una clase derivada mediante herencia se pueden crear nuevas clases hijas aplicando de nuevo la herencia. Ello da lugar a una jerarquía de clases que puede representarse como un árbol donde cada clase hija se representa como una rama que sale de la clase madre.</p>
+<img src="../img/jerarquia-clases.svg" alt="Atributos y métodos del objeto tarjeta de crédito" height="400px">
+<p>Debido a la herencia, cualquier objeto creado a partir de una clase es una instancia de la clase, pero también lo es de las clases que son ancestros de esa clase en la jerarquía de clases.</p>
+<p>El siguiente comando permite averiguar si un objeto es instancia de una clase:</p>
+<ul>
+<li><code>isinstance(objeto, clase)</code>: Devuelve <code>True</code> si el objeto <code>objeto</code> es una instancia de la clase <code>clase</code> y <code>False</code> en caso contrario.</li>
+</ul>
+<pre><code class="language-python"># Asumiendo la definición de las clases Tarjeta y Tarjeta_descuento anteriores.
+&gt;&gt;&gt; t1 = Tarjeta('1111111111', 0)
+&gt;&gt;&gt; t2 = t = Tarjeta_descuento('2222222222', 2, 1000)
+&gt;&gt;&gt; isinstance(t1, Tarjeta)
+True
+&gt;&gt;&gt; isinstance(t1, Tarjeta_descuento)
+False
+&gt;&gt;&gt; isinstance(t2, Tarjeta_descuento)
+True
+&gt;&gt;&gt; isinstance(t2, Tarjeta)
+True
+</code></pre>
+<h3 id="sobrecarga-y-polimorfismo">Sobrecarga y polimorfismo</h3>
+<p>Los objetos de una clase hija heredan los atributos y métodos de la clase madre y, por tanto, a priori tienen tienen el mismo comportamiento que los objetos de la clase madre. Pero la clase hija puede definir nuevos atributos o métodos o reescribir los métodos de la clase madre de manera que sus objetos presenten un comportamiento distinto. Esto último se conoce como <strong>sobrecarga</strong>.</p>
+<p>De este modo, aunque un objeto de la clase hija y otro de la clase madre pueden tener un mismo método, al invocar ese método sobre el objeto de la clase hija, el comportamiento puede ser distinto a cuando se invoca ese mismo método sobre el objeto de la clase madre. Esto se conoce como <strong>polimorfismo</strong> y es otra de las características de la programación orientada a objetos.</p>
+<pre><code class="language-python">&gt;&gt;&gt; class Tarjeta:
+...     def __init__(self, id, cantidad = 0):
+...         self.id = id
+...         self.saldo = cantidad
+...         return
+...     def mostrar_saldo(self):
+...         print('El saldo es {:.2f}€.'.format(self.saldo))
+...         return
+...     def pagar(self, cantidad):
+...         self.saldo -= cantidad
+...         return
+&gt;&gt;&gt; class Tarjeta_Oro(Tarjeta):
+...     def __init__(self, id, descuento, cantidad = 0):
+...         self.id = id
+...         self.descuento = descuento
+...         self.saldo = cantidad
+...         return
+...     def pagar(self, cantidad):
+...         self.saldo -= cantidad * (1 - self.descuento / 1...00)
+&gt;&gt;&gt; t1 = Tarjeta('1111111111', 1000)
+&gt;&gt;&gt; t2 = Tarjeta_Oro('2222222222', 1, 1000)
+&gt;&gt;&gt; t1.pagar(100)
+&gt;&gt;&gt; t1.mostrar_saldo()
+El saldo es 900.00€.
+&gt;&gt;&gt; t2.pagar(100)
+&gt;&gt;&gt; t2.mostrar_saldo()
+El saldo es 901.00€.
+</code></pre>
+<h2 id="principios-de-la-programación-orientada-a-objetos">Principios de la programación orientada a objetos</h2>
+<p>La programación orientada a objetos se basa en los siguientes principios:</p>
+<ul>
+<li><strong>Encapsulación</strong>: Agrupar datos (atributos) y procedimientos (métodos) en unidades lógicas (objetos) y evitar maninupar los atributos accediendo directamente a ellos, usando, en su lugar, métodos para acceder a ellos.</li>
+<li><strong>Abstracción</strong>: Ocultar al usuario de la clase los detalles de implementación de los métodos. Es decir, el usuario necesita saber <em>qué</em> hace un método y con qué parámetros tiene que invocarlo (<em>interfaz</em>), pero no necesita saber <em>cómo</em> lo hace.</li>
+<li><strong>Herencia</strong>: Evitar la duplicación de código en clases con comportamientos similares, definiendo los métodos comunes en una clase madre y los métodos particulares en clases hijas.</li>
+<li><strong>Polimorfismo</strong>: Redefinir los métodos de la clase madre en las clases hijas cuando se requiera un comportamiento distinto. Así, un mismo método puede realizar operaciones distintas dependiendo del objeto sobre el que se aplique.</li>
+</ul>
+<p>Resolver un problema siguiendo el paradigma de la programación orientada a objetos requiere un cambio de mentalidad con respecto a como se resuelve utilizando el paradigma de la programación procedimental.</p>
+<p>La programación orientada a objetos es más un proceso de modelado, donde se identifican las entidades que intervienen en el problema y su comportamiento, y se definen clases que modelizan esas entidades. Por ejemplo, las entidades que intervienen en el pago con una tarjeta de crédito serían la tarjeta, el terminal de venta, la cuenta corriente vinculada a la tarjeta, el banco, etc. Cada una de ellas daría lugar a una clase.</p>
+<p>Después se crean objetos con los datos concretos del problema y se hace que los objetos interactúen entre sí, a través de sus métodos, para resolver el problema. Cada objeto es responsable de una subtarea y colaboran entre ellos para resolver la tarea principal. Por ejemplo, la terminal de venta accede a los datos de la tarjeta y da la orden al banco para que haga un cargo en la cuenta vinculada a la tarjeta.</p>
+<p>De esta forma se pueden abordar problemas muy complejos descomponiéndolos en pequeñas tareas que son más fáciles de resolver que el problema principal (<em>¡divide y vencerás!</em>).</p>
 
           </div>
 
           
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tag/condicionales/">Condicionales</a>
-  
-</div>
 
 
 
@@ -839,14 +1051,14 @@ Activo
   
   <div class="post-nav-item">
     <div class="meta-nav">Anterior</div>
-    <a href="/docencia/python/manual/entrada-salida/" rel="next">Entrada y Salida por Terminal</a>
+    <a href="/docencia/python/manual/excepciones/" rel="next">Excepciones</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Siguiente</div>
-    <a href="/docencia/python/manual/bucles/" rel="prev">Bucles</a>
+    <a href="/docencia/python/manual/modulos/" rel="prev">Módulos</a>
   </div>
   
 </div>
@@ -856,7 +1068,7 @@ Activo
         </div>
 
         <div class="body-footer">
-          <p>Última actualización el Sep 15, 2020</p>
+          <p>Última actualización el Feb 16, 2021</p>
 
           
 

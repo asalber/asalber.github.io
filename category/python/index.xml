@@ -13,47 +13,6 @@
     </image>
     
     <item>
-      <title>Ejercicios de Cadenas</title>
-      <link>/docencia/python/ejercicios/cadenas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/docencia/python/ejercicios/cadenas/</guid>
-      <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pregunte el nombre del usuario en la consola y un número entero e imprima por pantalla en líneas distintas el nombre del usuario tantas veces como el número introducido.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pregunte el nombre completo del usuario en la consola y después muestre por pantalla el nombre completo del usuario tres veces, una con todas las letras minúsculas, otra con todas las letras mayúsculas y otra solo con la primera letra del nombre y de los apellidos en mayúscula. El usuario puede introducir su nombre combinando mayúsculas y minúsculas como quiera.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla &lt;code&gt;&amp;lt;NOMBRE&amp;gt; tiene &amp;lt;n&amp;gt; letras&lt;/code&gt;, donde &lt;code&gt;&amp;lt;NOMBRE&amp;gt;&lt;/code&gt; es el nombre de usuario en mayúsculas y &lt;code&gt;&amp;lt;n&amp;gt;&lt;/code&gt; es el número de letras que tienen el nombre.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
-&lt;p&gt;Los teléfonos de una empresa tienen el siguiente formato &lt;code&gt;prefijo-número-extension&lt;/code&gt; donde el prefijo es el código del país &lt;code&gt;+34&lt;/code&gt;, y la extensión tiene dos dígitos (por ejemplo &lt;code&gt;+34-913724710-56&lt;/code&gt;). Escribir un programa que pregunte por un número de teléfono con este formato y muestre por pantalla el número de teléfono sin el prefijo y la extensión.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pida al usuario que introduzca una frase en la consola y muestre por pantalla la frase invertida.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pida al usuario que introduzca una frase en la consola y una vocal, y después muestre por pantalla la misma frase pero con la vocal introducida en mayúscula.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-7&#34;&gt;Ejercicio 7&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pregunte el correo electrónico del usuario en la consola y muestre por pantalla otro correo electrónico con el mismo nombre (la parte delante de la arroba &lt;code&gt;@&lt;/code&gt;) pero con dominio &lt;code&gt;ceu.es&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-8&#34;&gt;Ejercicio 8&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número de euros y el número de céntimos del precio introducido.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-9&#34;&gt;Ejercicio 9&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato &lt;code&gt;dd/mm/aaaa&lt;/code&gt; y muestra por pantalla, el día, el mes y el año. Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-10&#34;&gt;Ejercicio 10&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pregunte por consola por los productos de una cesta de la compra, separados por comas, y muestre por pantalla cada uno de los productos en una línea distinta.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio10.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-11&#34;&gt;Ejercicio 11&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que pregunte el nombre el un producto, su precio y un número de unidades y muestre por pantalla una cadena con el nombre del producto seguido de su precio unitario con 6 dígitos enteros y 2 decimales, el número de unidades con tres dígitos y el coste total con 8 dígitos enteros y 2 decimales.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio11.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Introducción a Python</title>
       <link>/docencia/python/manual/introduccion-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -269,6 +228,47 @@ Redondear cada cantidad a dos decimales.&lt;/p&gt;
 &lt;p&gt;Una panadería vende barras de pan a 3.49€ cada una. El pan que no es el día tiene un descuento del 60%.
 Escribir un programa que comience leyendo el número de barras vendidas que no son del día. Después el programa debe mostrar el precio habitual de una barra de pan, el descuento que se le hace por no ser fresca y el coste final total.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio12.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ejercicios de Cadenas</title>
+      <link>/docencia/python/ejercicios/cadenas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docencia/python/ejercicios/cadenas/</guid>
+      <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte el nombre del usuario en la consola y un número entero e imprima por pantalla en líneas distintas el nombre del usuario tantas veces como el número introducido.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte el nombre completo del usuario en la consola y después muestre por pantalla el nombre completo del usuario tres veces, una con todas las letras minúsculas, otra con todas las letras mayúsculas y otra solo con la primera letra del nombre y de los apellidos en mayúscula. El usuario puede introducir su nombre combinando mayúsculas y minúsculas como quiera.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla &lt;code&gt;&amp;lt;NOMBRE&amp;gt; tiene &amp;lt;n&amp;gt; letras&lt;/code&gt;, donde &lt;code&gt;&amp;lt;NOMBRE&amp;gt;&lt;/code&gt; es el nombre de usuario en mayúsculas y &lt;code&gt;&amp;lt;n&amp;gt;&lt;/code&gt; es el número de letras que tienen el nombre.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
+&lt;p&gt;Los teléfonos de una empresa tienen el siguiente formato &lt;code&gt;prefijo-número-extension&lt;/code&gt; donde el prefijo es el código del país &lt;code&gt;+34&lt;/code&gt;, y la extensión tiene dos dígitos (por ejemplo &lt;code&gt;+34-913724710-56&lt;/code&gt;). Escribir un programa que pregunte por un número de teléfono con este formato y muestre por pantalla el número de teléfono sin el prefijo y la extensión.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pida al usuario que introduzca una frase en la consola y muestre por pantalla la frase invertida.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pida al usuario que introduzca una frase en la consola y una vocal, y después muestre por pantalla la misma frase pero con la vocal introducida en mayúscula.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-7&#34;&gt;Ejercicio 7&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte el correo electrónico del usuario en la consola y muestre por pantalla otro correo electrónico con el mismo nombre (la parte delante de la arroba &lt;code&gt;@&lt;/code&gt;) pero con dominio &lt;code&gt;ceu.es&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-8&#34;&gt;Ejercicio 8&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número de euros y el número de céntimos del precio introducido.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-9&#34;&gt;Ejercicio 9&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato &lt;code&gt;dd/mm/aaaa&lt;/code&gt; y muestra por pantalla, el día, el mes y el año. Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio9.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-10&#34;&gt;Ejercicio 10&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte por consola por los productos de una cesta de la compra, separados por comas, y muestre por pantalla cada uno de los productos en una línea distinta.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio10.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-11&#34;&gt;Ejercicio 11&lt;/h2&gt;
+&lt;p&gt;Escribir un programa que pregunte el nombre el un producto, su precio y un número de unidades y muestre por pantalla una cadena con el nombre del producto seguido de su precio unitario con 6 dígitos enteros y 2 decimales, el número de unidades con tres dígitos y el coste total con 8 dígitos enteros y 2 decimales.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio11.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -2275,6 +2275,258 @@ ZeroDivisionError: division by zero
 ...     print(f.read())
 ¡El fichero no existe!
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Programación Orientada a Objetos</title>
+      <link>/docencia/python/manual/objetos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docencia/python/manual/objetos/</guid>
+      <description>&lt;h2 id=&#34;objetos&#34;&gt;Objetos&lt;/h2&gt;
+&lt;p&gt;Python también permite &lt;em&gt;la programación orientada a objetos&lt;/em&gt;, que es un paradigma de programación en la que los datos y las operaciones que pueden realizarse con esos datos se agrupan en unidades lógicas llamadas &lt;strong&gt;objetos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Los objetos suelen representar conceptos del dominio del programa, como un estudiante, un coche, un teléfono, etc. Los datos que describen las características del objeto se llaman &lt;strong&gt;atributos&lt;/strong&gt; y son la parte estática del objeto, mientras que las operaciones que puede realizar el objeto se llaman &lt;strong&gt;métodos&lt;/strong&gt; y son la parte dinámica del objeto.&lt;/p&gt;
+&lt;p&gt;La programación orientada a objetos permite simplificar la estructura y la lógica de los grandes programas en los que intervienen muchos objetos que interactúan entre si.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Una tarjeta de crédito puede representarse como un objeto:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Atributos: Número de la tarjeta, titular, balance, fecha de caducidad, pin, entidad emisora, estado (activa o no), etc.&lt;/li&gt;
+&lt;li&gt;Métodos: Activar, pagar, renovar, anular.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;../img/tarjeta-credito.svg&#34; alt=&#34;Atributos y métodos del objeto tarjeta de crédito&#34; height=&#34;400px&#34;&gt;
+&lt;h3 id=&#34;acceso-a-los-atributos-y-métodos-de-un-objeto&#34;&gt;Acceso a los atributos y métodos de un objeto&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;dir(objeto)&lt;/code&gt;: Devuelve una lista con los nombres de los atributos y métodos del objeto &lt;code&gt;objeto&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para ver si un objeto tiene un determinado atributo o método se utiliza la siguiente función:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hasattr(objeto, elemento)&lt;/code&gt;: Devuelve &lt;code&gt;True&lt;/code&gt; si &lt;code&gt;elemento&lt;/code&gt; es un atributo o un método del objeto &lt;code&gt;objeto&lt;/code&gt; y &lt;code&gt;False&lt;/code&gt; en caso contrario.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para acceder a los atributos y métodos de un objeto se pone el nombre del objeto seguido del &lt;em&gt;operador punto&lt;/em&gt; y el nombre del atributo o el método.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;objeto.atributo&lt;/code&gt;: Accede al atributo &lt;code&gt;atributo&lt;/code&gt; del objeto &lt;code&gt;objeto&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;objeto.método(parámetros)&lt;/code&gt;: Ejecuta el método &lt;code&gt;método&lt;/code&gt; del objeto &lt;code&gt;objeto&lt;/code&gt; con los parámetros que se le pasen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En Python los tipos de datos primitivos son también objetos que tienen asociados atributos y métodos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Las cadenas tienen un método &lt;code&gt;upper&lt;/code&gt; que convierte la cadena en mayúsculas. Para aplicar este método a la cadena &lt;code&gt;c&lt;/code&gt; se utiliza la instrucción &lt;code&gt;c.upper()&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; c = &#39;Python&#39;
+&amp;gt;&amp;gt;&amp;gt; print(c.upper())    # Llamada al método upper del objeto c (cadena)
+PYTHON
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Las listas tienen un método &lt;code&gt;append&lt;/code&gt; que convierte añade un elemento al final de la lista. Para aplicar este método a la lista &lt;code&gt;l&lt;/code&gt; se utiliza la instrucción &lt;code&gt;l.append(&amp;lt;elemento&amp;gt;)&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; l =  [1, 2, 3]     
+&amp;gt;&amp;gt;&amp;gt; l.append(4)         # Llamada al método append del objeto l (lista)
+&amp;gt;&amp;gt;&amp;gt; print(l)
+[1, 2, 3, 4]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;clases-class&#34;&gt;Clases (&lt;code&gt;class&lt;/code&gt;)&lt;/h2&gt;
+&lt;p&gt;Los objetos con los mismos atributos y métodos se agrupan &lt;strong&gt;clases&lt;/strong&gt;. Las clases definen los atributos y los métodos, y por tanto, la semántica o comportamiento que tienen los objetos que pertenecen a esa clase. Se puede pensar en una clase como en un &lt;em&gt;molde&lt;/em&gt; a partir del cuál se pueden crear objetos.&lt;/p&gt;
+&lt;p&gt;Para declarar una clase se utiliza la palabra clave &lt;code&gt;class&lt;/code&gt; seguida del nombre de la clase y dos puntos, de acuerdo a la siguiente sintaxis:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;class &amp;lt;nombre-clase&amp;gt;:&lt;/code&gt;&lt;br&gt;
+     &lt;em&gt;&lt;code&gt;&amp;lt;atributos&amp;gt;&lt;/code&gt;&lt;/em&gt;&lt;br&gt;
+     &lt;em&gt;&lt;code&gt;&amp;lt;métodos&amp;gt;&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Los atributos se definen igual que las variables mientras que los métodos se definen igual que las funciones. Tanto unos como otros tienen que estar indentados por 4 espacios en el cuerpo de la clase.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt; El siguiente código define la clase &lt;code&gt;Saludo&lt;/code&gt; sin atributos ni métodos. La palabra reservada &lt;code&gt;pass&lt;/code&gt; indica que la clase está vacía.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; class Saludo:
+...     pass        # Clase vacía sin atributos ni métodos.
+&amp;gt;&amp;gt;&amp;gt; print(Saludo)
+&amp;lt;class &#39;__main__.Saludo&#39;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;i class=&#39;fa fa-exclamation-triangle&#39; style=&#39;color:red&#39;&gt;&lt;/i&gt; Es una buena práctica comenzar el nombre de una clase con mayúsculas.&lt;/p&gt;
+&lt;h3 id=&#34;clases-primitivas&#34;&gt;Clases primitivas&lt;/h3&gt;
+&lt;p&gt;En Python existen clases predefinidas para los tipos de datos primitivos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;int&lt;/code&gt;: Clase de los números enteros.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;float&lt;/code&gt;: Clase de los números reales.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;str&lt;/code&gt;: Clase de las cadenas de caracteres.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;list&lt;/code&gt;: Clase de las listas.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tuple&lt;/code&gt;: Clase de las tuplas.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dict&lt;/code&gt;: Clase de los diccionarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; type(1)
+&amp;lt;class &#39;int&#39;&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; type(1.5)
+&amp;lt;class &#39;float&#39;&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; type(&#39;Python&#39;)
+&amp;lt;class &#39;str&#39;&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; type([1,2,3])
+&amp;lt;class &#39;list&#39;&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; type((1,2,3))
+&amp;lt;class &#39;tuple&#39;&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; type({1:&#39;A&#39;, 2:&#39;B&#39;})
+&amp;lt;class &#39;dict&#39;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;instanciación-de-clases&#34;&gt;Instanciación de clases&lt;/h3&gt;
+&lt;p&gt;Para crear un objeto de una determinada clase se utiliza el nombre de la clase seguida de los parámetros necesarios para crear el objeto entre paréntesis.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;clase(parámetros)&lt;/code&gt;: Crea un objeto de la clase &lt;code&gt;clase&lt;/code&gt; inicializado con los &lt;code&gt;parámetros&lt;/code&gt; dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cuando se crea un objeto de una clase se dice que el objeto es una &lt;em&gt;instancia&lt;/em&gt; de la clase.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; class Saludo:
+...     pass        # Clase vacía sin atributos ni métodos.
+&amp;gt;&amp;gt;&amp;gt; s = Saludo()    # Creación del objeto mediante instanciación de la clase.
+&amp;gt;&amp;gt;&amp;gt; s
+&amp;lt;__main__.Saludo object at 0x7fcfc7756be0&amp;gt;      # Dirección de memoria donde se crea el objeto
+&amp;gt;&amp;gt;&amp;gt; type(s)
+&amp;lt;class &#39;__main__.Saludo&#39;&amp;gt;     # Clase del objeto
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;definición-de-métodos&#34;&gt;Definición de métodos&lt;/h3&gt;
+&lt;p&gt;Los métodos de una clase son las funciones que definen el comportamiento de los objetos de esa clase.&lt;/p&gt;
+&lt;p&gt;Se definen como las funciones con la palabra reservada &lt;code&gt;def&lt;/code&gt;. La única diferencia es que su primer parámetro es especial y se denomina &lt;code&gt;self&lt;/code&gt;. Este parámetro hace siempre referencia al objeto desde donde se llama el método, de manera que para acceder a los atributos o métodos de una clase en su propia definición se puede utilizar la sintaxis &lt;code&gt;self.atributo&lt;/code&gt; o &lt;code&gt;self.método&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; class Saludo:
+...     mensaje = &amp;quot;Bienvenido &amp;quot;            # Definición de un atributo
+...     def saludar(self, nombre):         # Definición de un método   
+...         print(self.mensaje + nombre)
+...         return
+... 
+&amp;gt;&amp;gt;&amp;gt; s = Saludo()
+&amp;gt;&amp;gt;&amp;gt; s.saludar(&#39;Alf&#39;)
+Bienvenido Alf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La razón por la que existe el parámetro &lt;code&gt;self&lt;/code&gt; es porque Python traduce la llamada a un método de un objeto &lt;code&gt;objeto.método(parámetros)&lt;/code&gt; en la llamada &lt;code&gt;clase.método(objeto, parámetros)&lt;/code&gt;, es decir, se llama al método definido en la clase del objeto, pasando como primer argumento el propio objeto, que se asocia al parámetro &lt;code&gt;self&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;el-método-__init__&#34;&gt;El método &lt;code&gt;__init__&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;En la definición de una clase suele haber un método llamado &lt;code&gt;__init__&lt;/code&gt; que se conoce como &lt;em&gt;inicializador&lt;/em&gt;. Este método es un método especial que se llama cada vez que se instancia una clase y sirve para inicializar el objeto que se crea. Este método crea los atributos que deben tener todos los objetos de la clase y por tanto contiene los parámetros necesarios para su creación, pero no devuelve nada. Se invoca cada vez que se instancia un objeto de esa clase.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; class Tarjeta:
+...     def __init__(self, id, cantidad = 0):    # Inicializador
+            self.id = id                         # Creación del atributo id  
+...         self.saldo = cantidad                # Creación del atributo saldo
+...         return
+...     def mostrar_saldo(self):
+...         print(&#39;El saldo es&#39;, self.saldo, &#39;€&#39;)
+...         return
+&amp;gt;&amp;gt;&amp;gt; t = Tarjeta(&#39;1111111111&#39;, 1000)     # Creación de un objeto con argumentos             
+&amp;gt;&amp;gt;&amp;gt; t.muestra_saldo()
+El saldo es 1000 €
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;atributos-de-instancia-vs-atributos-de-clase&#34;&gt;Atributos de instancia vs atributos de clase&lt;/h3&gt;
+&lt;p&gt;Los atributos que se crean dentro del método &lt;code&gt;__init__&lt;/code&gt; se conocen como atributos del objeto, mientras que los que se crean fuera de él se conocen como atributos de la clase. Mientras que los primeros son propios de cada objeto y por tanto pueden tomar valores distintos, los valores de los atributos de la clase son los mismos para cualquier objeto de la clase.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#39;fa fa-exclamation-triangle&#39; style=&#39;color:red&#39;&gt;&lt;/i&gt;En general, no deben usarse atributos de clase, excepto para almacenar valores constantes.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; class Circulo:
+...     pi = 3.14159                     # Atributo de clase
+...     def __init__(self, radio):
+...         self.radio = radio           # Atributo de instancia
+...     def area(self):
+...         return Circulo.pi * self.radio ** 2
+... 
+&amp;gt;&amp;gt;&amp;gt; c1 = Circulo(2)
+&amp;gt;&amp;gt;&amp;gt; c2 = Circulo(3)
+&amp;gt;&amp;gt;&amp;gt; print(c1.area())
+12.56636
+&amp;gt;&amp;gt;&amp;gt; print(c2.area())
+28.27431
+&amp;gt;&amp;gt;&amp;gt; print(c1.pi)
+3.14159
+&amp;gt;&amp;gt;&amp;gt; print(c2.pi)
+3.14159
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;el-método-__str__&#34;&gt;El método &lt;code&gt;__str__&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Otro método especial es el método llamado &lt;code&gt;__str__&lt;/code&gt; que se invoca cada vez que se llama a las funciones &lt;code&gt;print&lt;/code&gt; o &lt;code&gt;str&lt;/code&gt;. Devuelve siempre una cadena que se suele utilizar para dar una descripción informal del objeto. Si no se define en la clase, cada vez que se llama a estas funciones con un objeto de la clase, se muestra por defecto la posición de memoria del objeto.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; class Tarjeta:
+...     def __init__(self, numero, cantidad = 0):
+...         self.numero = numero
+...         self.saldo = cantidad
+...         return
+...     def __str__(self):
+...         return &#39;Tarjeta número {} con saldo {:.2f}€&#39;.format(self.numero, str(self.saldo))
+&amp;gt;&amp;gt;&amp;gt; t = tarjeta(&#39;0123456789&#39;, 1000) 
+&amp;gt;&amp;gt;&amp;gt; print(t)
+Tarjeta número 0123456789 con saldo 1000.00€
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;herencia&#34;&gt;Herencia&lt;/h2&gt;
+&lt;p&gt;Una de las características más potentes de la programación orientada a objetos es la &lt;strong&gt;herencia&lt;/strong&gt;, que permite definir una especialización de una clase añadiendo nuevos atributos o métodos. La nueva clase se conoce como &lt;em&gt;clase hija&lt;/em&gt; y hereda los atributos y métodos de la clase original que se conoce como &lt;em&gt;clase madre&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Para crear un clase a partir de otra existente se utiliza la misma sintaxis que para definir una clase, pero poniendo detrás del nombre de la clase entre paréntesis los nombres de las clases madre de las que hereda.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. A partir de la clase &lt;code&gt;Tarjeta&lt;/code&gt; definida antes podemos crear mediante herencia otra clase &lt;code&gt;Tarjeta_Descuento&lt;/code&gt; para representar las tarjetas de crédito que aplican un descuento sobre las compras.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; class Tarjeta:
+...     def __init__(self, id, cantidad = 0):
+...         self.id = id
+...         self.saldo = cantidad
+...         return
+...     def mostrar_saldo(self):       # Método de la clase Tarjeta que hereda la clase Tarjeta_descuento
+...         print(&#39;El saldo es&#39;,  self.saldo, &#39;€.&#39;)
+...         return
+... 
+&amp;gt;&amp;gt;&amp;gt; class Tarjeta_descuento(Tarjeta):
+...     def __init__(self, id, descuento, cantidad = 0):
+...         self.id = id
+...         self.descuento = descuento
+...         self.saldo = cantidad
+...         return
+...     def mostrar_descuento(self):   # Método exclusivo de la clase Tarjeta_descuento
+...         print(&#39;Descuento de&#39;, self.descuento, &#39;% en los pagos.&#39;)
+...         return
+... 
+&amp;gt;&amp;gt;&amp;gt; t = Tarjeta_descuento(&#39;0123456789&#39;, 2, 1000)
+&amp;gt;&amp;gt;&amp;gt; t.mostrar_saldo()
+El saldo es 1000 €.
+&amp;gt;&amp;gt;&amp;gt; t.mostrar_descuento()
+Descuento de 2 % en los pagos.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La principal ventaja de la herencia es que evita la repetición de código y por tanto los programas son más fáciles de mantener.&lt;/p&gt;
+&lt;p&gt;En el ejemplo de la tarjeta de crédito, el método &lt;code&gt;mostrar_saldo&lt;/code&gt; solo se define en la clase madre. De esta manera, cualquier cambio que se haga en el cuerpo del método en la clase madre, automáticamente se propaga a las clases hijas. Sin la herencia, este método tendría que replicarse en cada una de las clases hijas y cada vez que se hiciese un cambio en él, habría que replicarlo también en las clases hijas.&lt;/p&gt;
+&lt;h3 id=&#34;jerarquía-de-clases&#34;&gt;Jerarquía de clases&lt;/h3&gt;
+&lt;p&gt;A partir de una clase derivada mediante herencia se pueden crear nuevas clases hijas aplicando de nuevo la herencia. Ello da lugar a una jerarquía de clases que puede representarse como un árbol donde cada clase hija se representa como una rama que sale de la clase madre.&lt;/p&gt;
+&lt;img src=&#34;../img/jerarquia-clases.svg&#34; alt=&#34;Atributos y métodos del objeto tarjeta de crédito&#34; height=&#34;400px&#34;&gt;
+&lt;p&gt;Debido a la herencia, cualquier objeto creado a partir de una clase es una instancia de la clase, pero también lo es de las clases que son ancestros de esa clase en la jerarquía de clases.&lt;/p&gt;
+&lt;p&gt;El siguiente comando permite averiguar si un objeto es instancia de una clase:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;isinstance(objeto, clase)&lt;/code&gt;: Devuelve &lt;code&gt;True&lt;/code&gt; si el objeto &lt;code&gt;objeto&lt;/code&gt; es una instancia de la clase &lt;code&gt;clase&lt;/code&gt; y &lt;code&gt;False&lt;/code&gt; en caso contrario.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Asumiendo la definición de las clases Tarjeta y Tarjeta_descuento anteriores.
+&amp;gt;&amp;gt;&amp;gt; t1 = Tarjeta(&#39;1111111111&#39;, 0)
+&amp;gt;&amp;gt;&amp;gt; t2 = t = Tarjeta_descuento(&#39;2222222222&#39;, 2, 1000)
+&amp;gt;&amp;gt;&amp;gt; isinstance(t1, Tarjeta)
+True
+&amp;gt;&amp;gt;&amp;gt; isinstance(t1, Tarjeta_descuento)
+False
+&amp;gt;&amp;gt;&amp;gt; isinstance(t2, Tarjeta_descuento)
+True
+&amp;gt;&amp;gt;&amp;gt; isinstance(t2, Tarjeta)
+True
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;sobrecarga-y-polimorfismo&#34;&gt;Sobrecarga y polimorfismo&lt;/h3&gt;
+&lt;p&gt;Los objetos de una clase hija heredan los atributos y métodos de la clase madre y, por tanto, a priori tienen tienen el mismo comportamiento que los objetos de la clase madre. Pero la clase hija puede definir nuevos atributos o métodos o reescribir los métodos de la clase madre de manera que sus objetos presenten un comportamiento distinto. Esto último se conoce como &lt;strong&gt;sobrecarga&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;De este modo, aunque un objeto de la clase hija y otro de la clase madre pueden tener un mismo método, al invocar ese método sobre el objeto de la clase hija, el comportamiento puede ser distinto a cuando se invoca ese mismo método sobre el objeto de la clase madre. Esto se conoce como &lt;strong&gt;polimorfismo&lt;/strong&gt; y es otra de las características de la programación orientada a objetos.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; class Tarjeta:
+...     def __init__(self, id, cantidad = 0):
+...         self.id = id
+...         self.saldo = cantidad
+...         return
+...     def mostrar_saldo(self):
+...         print(&#39;El saldo es {:.2f}€.&#39;.format(self.saldo))
+...         return
+...     def pagar(self, cantidad):
+...         self.saldo -= cantidad
+...         return
+&amp;gt;&amp;gt;&amp;gt; class Tarjeta_Oro(Tarjeta):
+...     def __init__(self, id, descuento, cantidad = 0):
+...         self.id = id
+...         self.descuento = descuento
+...         self.saldo = cantidad
+...         return
+...     def pagar(self, cantidad):
+...         self.saldo -= cantidad * (1 - self.descuento / 1...00)
+&amp;gt;&amp;gt;&amp;gt; t1 = Tarjeta(&#39;1111111111&#39;, 1000)
+&amp;gt;&amp;gt;&amp;gt; t2 = Tarjeta_Oro(&#39;2222222222&#39;, 1, 1000)
+&amp;gt;&amp;gt;&amp;gt; t1.pagar(100)
+&amp;gt;&amp;gt;&amp;gt; t1.mostrar_saldo()
+El saldo es 900.00€.
+&amp;gt;&amp;gt;&amp;gt; t2.pagar(100)
+&amp;gt;&amp;gt;&amp;gt; t2.mostrar_saldo()
+El saldo es 901.00€.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;principios-de-la-programación-orientada-a-objetos&#34;&gt;Principios de la programación orientada a objetos&lt;/h2&gt;
+&lt;p&gt;La programación orientada a objetos se basa en los siguientes principios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Encapsulación&lt;/strong&gt;: Agrupar datos (atributos) y procedimientos (métodos) en unidades lógicas (objetos) y evitar maninupar los atributos accediendo directamente a ellos, usando, en su lugar, métodos para acceder a ellos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abstracción&lt;/strong&gt;: Ocultar al usuario de la clase los detalles de implementación de los métodos. Es decir, el usuario necesita saber &lt;em&gt;qué&lt;/em&gt; hace un método y con qué parámetros tiene que invocarlo (&lt;em&gt;interfaz&lt;/em&gt;), pero no necesita saber &lt;em&gt;cómo&lt;/em&gt; lo hace.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Herencia&lt;/strong&gt;: Evitar la duplicación de código en clases con comportamientos similares, definiendo los métodos comunes en una clase madre y los métodos particulares en clases hijas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Polimorfismo&lt;/strong&gt;: Redefinir los métodos de la clase madre en las clases hijas cuando se requiera un comportamiento distinto. Así, un mismo método puede realizar operaciones distintas dependiendo del objeto sobre el que se aplique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Resolver un problema siguiendo el paradigma de la programación orientada a objetos requiere un cambio de mentalidad con respecto a como se resuelve utilizando el paradigma de la programación procedimental.&lt;/p&gt;
+&lt;p&gt;La programación orientada a objetos es más un proceso de modelado, donde se identifican las entidades que intervienen en el problema y su comportamiento, y se definen clases que modelizan esas entidades. Por ejemplo, las entidades que intervienen en el pago con una tarjeta de crédito serían la tarjeta, el terminal de venta, la cuenta corriente vinculada a la tarjeta, el banco, etc. Cada una de ellas daría lugar a una clase.&lt;/p&gt;
+&lt;p&gt;Después se crean objetos con los datos concretos del problema y se hace que los objetos interactúen entre sí, a través de sus métodos, para resolver el problema. Cada objeto es responsable de una subtarea y colaboran entre ellos para resolver la tarea principal. Por ejemplo, la terminal de venta accede a los datos de la tarjeta y da la orden al banco para que haga un cargo en la cuenta vinculada a la tarjeta.&lt;/p&gt;
+&lt;p&gt;De esta forma se pueden abordar problemas muy complejos descomponiéndolos en pequeñas tareas que son más fáciles de resolver que el problema principal (&lt;em&gt;¡divide y vencerás!&lt;/em&gt;).&lt;/p&gt;
 </description>
     </item>
     
