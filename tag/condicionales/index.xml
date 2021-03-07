@@ -56,11 +56,11 @@ Escribir un programa que pregunte al usuario su nombre y sexo, y muestre por pan
 &lt;td style=&#34;text-align:center&#34;&gt;15%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;Entre 200000€ y 35000€&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Entre 20000€ y 35000€&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;20%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;Entre 350000€ y 60000€&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Entre 35000€ y 60000€&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;30%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;

@@ -2213,7 +2213,7 @@ conjuntos se pueden definir las siguientes operaciones entre sucesos:&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Suceso unión&lt;/strong&gt;. Dados dos sucesos $A,B\subseteq \Omega$, se llama &lt;em&gt;suceso unión&lt;/em&gt; de $A$ y $B$, y se denota $A\cup B$, al suceso formado por los elementos de $A$ junto a los elementos de $B$, es decir,&lt;/p&gt;
-&lt;p&gt;$$A\cup B = \{x,|, x\in A\textrm{ o }x\in B\}.$$&lt;/p&gt;
+&lt;p&gt;$$A\cup B = \{x\,|\, x\in A\textrm{ o }x\in B\}.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;img src=&#34;../img/probabilidad/union.svg&#34; alt=&#34;Union de dos sucesos&#34; width=&#34;300&#34;&gt;
@@ -2222,7 +2222,7 @@ conjuntos se pueden definir las siguientes operaciones entre sucesos:&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Suceso intersección&lt;/strong&gt;. Dados dos sucesos $A,B\subseteq \Omega$, se llama &lt;em&gt;suceso intersección&lt;/em&gt; de $A$ y $B$, y se denota $A\cap B$, al suceso formado por los elementos comunes de $A$ y $B$, es decir,&lt;/p&gt;
-&lt;p&gt;$$A\cap B = \{x,|, x\in A\textrm{ y }x\in B\}.$$&lt;/p&gt;
+&lt;p&gt;$$A\cap B = \{x\,|\, x\in A\textrm{ y }x\in B\}.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;img src=&#34;../img/probabilidad/interseccion.svg&#34; alt=&#34;Intersección de dos sucesos&#34; width=&#34;300&#34;&gt;
@@ -2232,7 +2232,7 @@ conjuntos se pueden definir las siguientes operaciones entre sucesos:&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Suceso contrario&lt;/strong&gt;. Dado suceso $A\subseteq \Omega$, se llama &lt;em&gt;suceso contrario o complementario&lt;/em&gt; de $A$, y se denota $\overline A$, al suceso formado por los elementos de $\Omega$ que no pertenecen a $A$, es decir,&lt;/p&gt;
-&lt;p&gt;$$\overline A = \{x,|, x\not\in A\}.$$&lt;/p&gt;
+&lt;p&gt;$$\overline A = \{x\,|\, x\not\in A\}.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;img src=&#34;../img/probabilidad/contrario.svg&#34; alt=&#34;Contrario de un suceso&#34; width=&#34;300&#34;&gt;
@@ -2241,7 +2241,7 @@ conjuntos se pueden definir las siguientes operaciones entre sucesos:&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Suceso diferencia&lt;/strong&gt;. Dados dos sucesos $A,B\subseteq \Omega$, se llama &lt;em&gt;suceso diferencia&lt;/em&gt; de $A$ y $B$, y se denota $A-B$, al suceso formado por los elementos de $A$ que no pertenecen a $B$, es decir,&lt;/p&gt;
-&lt;p&gt;$$A-B = \{x,|, x\in A\mbox{ y }x\not\in B\} = A \cap \overline B.$$&lt;/p&gt;
+&lt;p&gt;$$A-B = \{x\,|\, x\in A\mbox{ y }x\not\in B\} = A \cap \overline B.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;img src=&#34;../img/probabilidad/diferencia.svg&#34; alt=&#34;Diferencia de sucesos&#34; width=&#34;300&#34;&gt;
@@ -2272,8 +2272,12 @@ siguientes propiedades:&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;definición-de-probabilidad&#34;&gt;Definición de probabilidad&lt;/h2&gt;
 &lt;h3 id=&#34;definición-clásica-de-probabilidad&#34;&gt;Definición clásica de probabilidad&lt;/h3&gt;
-&lt;p&gt;Dado un espacio muestral $\Omega$ de un experimento aleatorio donde todos los elementos de $\Omega$ son equiprobables, la &lt;em&gt;probabilidad&lt;/em&gt; de un suceso $A\subseteq \Omega$ es el cociente entre el número de elementos de $A$ y el número de elementos de $\Omega$&lt;/p&gt;
+&lt;div class=&#34;alert alert-def&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Dado un espacio muestral $\Omega$ de un experimento aleatorio donde todos los elementos de $\Omega$ son equiprobables, la &lt;em&gt;probabilidad&lt;/em&gt; de un suceso $A\subseteq \Omega$ es el cociente entre el número de elementos de $A$ y el número de elementos de $\Omega$&lt;/p&gt;
 &lt;p&gt;$$P(A) = \frac{|A|}{|\Omega|} = \frac{\mbox{nº casos favorables a A}}{\mbox{nº casos posibles}}$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Esta definición es ampliamente utilizada, aunque tiene importantes
 restricciones:&lt;/p&gt;
 &lt;ul&gt;
@@ -2288,64 +2292,38 @@ no se conoce el número de casos posibles.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;span class=&#34;alert&#34;&gt;&lt;em&gt;¡Ojo! Esto no se cumple en muchos experimentos
 aleatorios reales.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;\note{
-Como hemos visto, en u experimento aleatorio, un determinado suceso puede ocurrir o no al realizar el experimento, es decir, existe cierta
-incertidumbre sobre su ocurrencia. Tiene sentido, por tanto, cuantificar dicha incertidumbre y medir así la verosimilitud del suceso o la
-confianza que se tiene en que ocurra, y esto es lo que trata de hacer la probabilidad.&lt;/p&gt;
-&lt;p&gt;La definición clásica de probabilidad se debe al matemático francés Laplace y define la probabilidad de un suceso como un cociente entre el
-número de elementos del suceso y el número de elementos del espacio muestral del experimento aleatorio, más conocida como casos favorables
-al suceso entre casos posibles del espacio muestral.&lt;/p&gt;
-&lt;p&gt;Esta definición es ampliamente utilizada, aunque tiene importantes restricciones:
-\begin{itemize}
-\item No puede utilizarse con espacios muestrales infinitos, o de los que no se conoce el número de casos posibles.
-\item Es necesario que todos los elementos del espacio muestral tengan la misma probabilidad de ocurrir (\emph{equiprobabilidad}).&lt;br&gt;
-\end{itemize}
-Aunque esto suele cumplirse en los juegos de azar, en otros muchos experimentos no es cierto. Por ejemplo los grupos sanguíneos no son
-equiprobables ya que hay mucha más gente con el grupo $A$ que con otro grupo.
-}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Dado el espacio muestral correspondiente al lanzamiento de un dado $\Omega=\{1,2,3,4,5,6\}$ y el suceso $A=\{2,4,6\}$, la probabilidad de $A$ es&lt;/p&gt;
+&lt;p&gt;$$P(A) = \frac{|A|}{|\Omega|} = \frac{3}{6} = 0.5.$$&lt;/p&gt;
+&lt;p&gt;Sin embargo, si se considera el espacio muestral correspondiente a observar el grupo sanguíneo de un individuo al azar, $\Omega=\{O,A,B,AB\}$, no se puede usar la definición clásica de probabilidad para calcular la probabilidad de que tenga grupo sanguíneo $A$,&lt;/p&gt;
+&lt;p&gt;$$P(A) \neq \frac{|A|}{|\Omega|} = \frac{1}{4} = 0.25,$$&lt;/p&gt;
+&lt;p&gt;ya que los grupos sanguíneos no son igualmente probables en las poblaciones humanas.&lt;/p&gt;
 &lt;h3 id=&#34;definición-frecuentista-de-probabilidad&#34;&gt;Definición frecuentista de probabilidad&lt;/h3&gt;
-&lt;p&gt;Cuando un experimento aleatorio se repite un gran número de veces, las
-frecuencias relativas de los sucesos del experimento tienden a
-estabilizarse en torno a cierto número, que es precisamente su
-probabilidad.&lt;/p&gt;
+&lt;div class=&#34;alert alert-theo&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Teorema - Ley de los grandes números&lt;/strong&gt;.Cuando un experimento aleatorio se repite un gran número de veces, las frecuencias relativas de los sucesos del experimento tienden a estabilizarse en torno a cierto número, que es precisamente su probabilidad.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;De acuerdo al teorema anterior, podemos dar la siguiente definición&lt;/p&gt;
-&lt;p&gt;Dado un espacio muestral $\Omega$ de un experimento aleatorio
-reproducible, la &lt;em&gt;probabilidad&lt;/em&gt; de un suceso $A\subseteq \Omega$ es la
-frecuencia relativa del suceso $A$ en infinitas repeticiones del
-experimento $$P(A) = lim_{n\rightarrow \infty}\frac{n_{A}}{n}$$&lt;/p&gt;
-&lt;p&gt;Aunque esta definición es muy útil en experimentos científicos
-reproducibles, también tiene serios inconvenientes, ya que&lt;/p&gt;
+&lt;div class=&#34;alert alert-def&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Probabilidad frecuentista&lt;/strong&gt;. Dado un espacio muestral $\Omega$ de un experimento aleatorio
+reproducible, la &lt;em&gt;probabilidad&lt;/em&gt; de un suceso $A\subseteq \Omega$ es la frecuencia relativa del suceso $A$ en infinitas repeticiones del experimento&lt;/p&gt;
+&lt;p&gt;$$P(A) = lim_{n\rightarrow \infty}\frac{n_{A}}{n}$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Aunque esta definición es muy útil en experimentos científicos reproducibles, también tiene serios inconvenientes, ya que&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Sólo se calcula una aproximación de la probabilidad real.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;La repetición del experimento debe ser en las mismas condiciones.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Sólo se calcula una aproximación de la probabilidad real.&lt;/li&gt;
+&lt;li&gt;La repetición del experimento debe ser en las mismas condiciones.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;\note{
-Otra definición común de probabilidad surge de la ley de los grandes números que dice que
-cuando un experimento aleatorio se repite un gran número de veces, las frecuencias relativas de los sucesos del
-experimento tienden a estabilizarse en torno a cierto número, que es precisamente su probabilidad.&lt;/p&gt;
-&lt;p&gt;Un ejemplo que demuestra el cumplimiento de esta ley puede realizarse tirando múltiples veces una moneda y anotando la frecuencia relativa
-de caras. A medida que se tire más veces la moneda se verá que la frecuencia relativa de caras se va estabilizando en torno a $0.5$ que es
-la probabilidad de sacar cara.&lt;/p&gt;
-&lt;p&gt;Para un experimento aleatorio reproducible, se puede definir así la probabilidad de un suceso como el límite cuando el número de
-repeticiones del mismo tiende a infinito de la frecuencia relativa del suceso.&lt;/p&gt;
-&lt;p&gt;Esta definición permitiría calcular de manera aproximada la probabilidad de que una persona elegida al azar tenga grupo sanguíneo $A$
-simplemente tomando una muestra grande de la población y calculando la frecuencia relativa de personas con el grupo $A$ en la muestra.
-Cuanto mayor sea la muestra, mejor será la aproximación de la verdadera probabilidad del grupo $A$.&lt;/p&gt;
-&lt;p&gt;Aunque esta definición es muy útil en experimentos científicos reproducibles, también tiene serios inconvenientes, ya que
-\begin{itemize}
-\item Sólo se calcula una aproximación de la probabilidad real.
-\item La repetición del experimento debe ser en las mismas condiciones.&lt;br&gt;
-\end{itemize}
-}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Dado el espacio muestral correspondiente al lanzamiento de una moneda $\Omega=\{C,X\}$, si después de lanzar la moneda 100 veces obtenemos 54 caras, entonces la probabilidad de $C$ es aproximadamente&lt;/p&gt;
+&lt;p&gt;$$P(C) = \frac{n_C}{n} = \frac{54}{100} = 0.54.$$&lt;/p&gt;
+&lt;p&gt;Si se considera el espacio muestral correspondiente a observar el grupo sanguíneo de un individuo al azar, $\Omega=\{O,A,B,AB\}$, si se toma una muestra aleatoria de 1000 personas y se observa que 412 tienen grupo sanguíneo $A$, entonces la probabilidad del grupo sanguíneo $A$ es aproximadamente&lt;/p&gt;
+&lt;p&gt;$$P(A) = \frac{n_A}{n} = \frac{412}{1000} = 0.412.$$&lt;/p&gt;
 &lt;h3 id=&#34;definición-axiomática-de-probabilidad&#34;&gt;Definición axiomática de probabilidad&lt;/h3&gt;
-&lt;p&gt;Dado un espacio muestral $\Omega$ de un experimento aleatorio, una
-función de &lt;em&gt;probabilidad&lt;/em&gt; es una aplicación que asocia a cada suceso
-$A\subseteq \Omega$ un número real $P(A)$, conocido como
-probabilidad de $A$, que cumple los siguientes axiomas:&lt;/p&gt;
+&lt;div class=&#34;alert alert-def&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Probabilidad (Kolmogórov)&lt;/strong&gt;.Dado un espacio muestral $\Omega$ de un experimento aleatorio, una función de &lt;em&gt;probabilidad&lt;/em&gt; es una aplicación que asocia a cada suceso $A\subseteq \Omega$ un número real $P(A)$, conocido como probabilidad de $A$, que cumple los siguientes axiomas:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;La probabilidad de un suceso cualquiera es positiva o nula,
@@ -2358,103 +2336,80 @@ $$P(\Omega)=1.$$&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;La probabilidad de la unión de dos sucesos incompatibles
 ($A\cap B=\emptyset$) es igual a la suma de las probabilidades de
-cada uno de ellos, $$P(A\cup B) = P(A)+P(B).$$&lt;/p&gt;
+cada uno de ellos,
+$$P(A\cup B) = P(A)+P(B).$$&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;\note{
-La definición de probabilidad más aceptada actualmente es la definición axiomática de Kolmogórov, quien definió la probabilidad como
-una medida de verosimilitud que asocia a cada suceso de un experimento aleatorio un número real, conocido como probabilidad del suceso, y
-que cumple tres axiomas:
-\begin{enumerate}
-\item La probabilidad de un suceso cualquiera es positiva o nula: $$P(A)\geq 0.$$
-\item La probabilidad de la unión de dos sucesos incompatibles es igual a la suma de las probabilidades de cada uno de ellos:    &lt;br&gt;
-$$P(A\cup B) = P(A)+P(B).$$
-\item La probabilidad del suceso seguro es igual a la unidad:
-$$P(E)=1.$$
-\end{enumerate}&lt;/p&gt;
-&lt;p&gt;Estos axiomas los cumplen todas las definiciones históricas de probabilidad y por tanto, todas ellas tienen cabida bajo la definición
-axiomática de Kolmogórov.
-}&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;consecuencias-de-los-axiomas-de-probabilidad&#34;&gt;Consecuencias de los axiomas de probabilidad&lt;/h3&gt;
 &lt;p&gt;A partir de los axiomas de la definición de probabilidad se pueden
 deducir los siguientes resultados:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&amp;lt;2-&amp;gt; $P(\overline A) = 1-P(A)$.&lt;/p&gt;
+&lt;p&gt;$P(\overline A) = 1-P(A)$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&amp;lt;3-&amp;gt;$P(\emptyset)= 0$.&lt;/p&gt;
+&lt;p&gt;$P(\emptyset)= 0$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&amp;lt;4-&amp;gt;Si $A\subseteq B$ entonces $P(A)\leq P(B)$.&lt;/p&gt;
+&lt;p&gt;Si $A\subseteq B$ entonces $P(A)\leq P(B)$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&amp;lt;5-&amp;gt;$P(A) \leq 1$.&lt;/p&gt;
+&lt;p&gt;$P(A) \leq 1$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&amp;lt;6-&amp;gt;Si $A$ y $B$ son sucesos compatibles, es decir, su
-intersección no es vacía, entonces
-$$P(A\cup B)= P(A) + P(B) - P(A\cap B).$$&lt;/p&gt;
+&lt;p&gt;Si $A$ y $B$ son sucesos compatibles, es decir, su intersección no es vacía, entonces&lt;/p&gt;
+&lt;p&gt;$$P(A\cup B)= P(A) + P(B) - P(A\cap B).$$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&amp;lt;7-&amp;gt;Si el suceso $A$ está compuesto por los sucesos elementales
-$e_1,e_2,&amp;hellip;,e_n$, entonces $$P(A)=\sum_{i=1}^n P(e_i).$$&lt;/p&gt;
+&lt;p&gt;Si el suceso $A$ está compuesto por los sucesos elementales
+$e_1,e_2,&amp;hellip;,e_n$, entonces&lt;/p&gt;
+&lt;p&gt;$$P(A)=\sum_{i=1}^n P(e_i).$$&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;\mode&lt;article&gt;{
-\textbf{Demostración}
-\begin{enumerate}
-\item $\overline A = \Omega \Rightarrow P(A\cup \overline A) = P(\Omega) \Rightarrow P(A)+P(\overline A) = 1 \Rightarrow
-P(\overline A)=1-P(A)$.
-\item $\emptyset = \overline \Omega \Rightarrow P(\emptyset) = P(\overline \Omega) = 1-P(\Omega) = 1-1 = 0.$
-\item $B = A\cup (B-A)$. Como $A$ y $B-A$ son incompatibles, $P(B) = P(A\cup (B-A)) = P(A)+P(B-A) \geq
-P(A).$&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Si pensamos en probabilidades como áreas, es fácil de ver gráficamente,
-\begin{center}
-\tikzsetnextfilename{probabilidad/inclusion_probabilidad}
-\input{../img/probabilidad/probabilidad_inclusion}
-\end{center}
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-12&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-12&#34;&gt;
+      Demostración
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-12&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\overline A = \Omega \Rightarrow P(A\cup \overline A) = P(\Omega) \Rightarrow P(A)+P(\overline A) = 1 \Rightarrow P(\overline A)=1-P(A)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\emptyset = \overline \Omega \Rightarrow P(\emptyset) = P(\overline \Omega) = 1-P(\Omega) = 1-1 = 0.$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$B = A\cup (B-A)$. Como $A$ y $B-A$ son incompatibles, $P(B) = P(A\cup (B-A)) = P(A)+P(B-A) \geq P(A).$&lt;/p&gt;
+&lt;p&gt;Si pensamos en probabilidades como áreas, es fácil de ver gráficamente,
+&lt;img src=&#34;../img/probabilidad/probabilidad_inclusion.svg&#34; alt=&#34;Probabilidad de un suceso incluido en otro&#34; width=&#34;300&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$A\subseteq \Omega \Rightarrow P(A)\leq P(\Omega)=1.$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$A=(A-B)\cup (A\cap B)$. Como $A-B$ y $A\cap B$ son incompatibles, $P(A)=P(A-B)+P(A\cap B) \Rightarrow P(A-B)=P(A)-P(A\cap B)$.&lt;/p&gt;
+&lt;p&gt;Si pensamos en probabilidades como áreas, es fácil de ver gráficamente,&lt;/p&gt;
+ &lt;img src=&#34;../img/probabilidad/probabilidad_diferencia.svg&#34; alt=&#34;Probabilidad de la diferencia de dos sucesos&#34; width=&#34;300&#34;&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$A\cup B= (A-B) \cup (B-A) \cup (A\cap B)$. Como $A-B$, $B-A$ y $A\cap B$ son incompatibles, $P(A\cup
+B)=P(A-B)+P(B-A)+P(A\cap B) = P(A)-P(A\cap B)+P(B)-P(A\cap B)+P(A\cap B)= P(A)+P(B)-P(A\cup B)$.&lt;/p&gt;
+&lt;p&gt;Si pensamos en probabilidades como áreas, es fácil de ver gráficamente,&lt;/p&gt;
+ &lt;img src=&#34;../img/probabilidad/probabilidad_union.svg&#34; alt=&#34;Probabilidad de la unión de dos sucesos&#34; width=&#34;300&#34;&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$A=\{e_1,\cdots,e_n\} = \{e_1\}\cup \cdots \cup \{e_n\} \Rightarrow$ $P(A)=P(\{e_1\}\cup \cdots \cup \{e_n\}) = P(\{e_1\})+ \cdots P(\{e_n\}).$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 
-\item $A\subseteq \Omega \Rightarrow P(A)\leq P(\Omega)=1.$
-\item $A=(A-B)\cup (A\cap B)$. Como $A-B$ y $A\cap B$ son incompatibles, $P(A)=P(A-B)+P(A\cap B) \Rightarrow 
-P(A-B)=P(A)-P(A\cap B)$.
-
-Si pensamos en probabilidades como áreas, es fácil de ver gráficamente,
-\begin{center}
-\tikzsetnextfilename{probabilidad/probabilidad_diferencia}
-\input{../img/probabilidad/probabilidad_diferencia}
-\end{center}
-
-\item $A\cup B= (A-B) \cup (B-A) \cup (A\cap B)$. As $A-B$, $B-A$ and $A\cap B$ are incompatible, $P(A\cup
-B)=P(A-B)+P(B-A)+P(A\cap B) = P(A)-P(A\cap B)+P(B)-P(A\cap B)+P(A\cap B)= P(A)+P(B)-P(A\cup B)$.
-
-Si pensamos en probabilidades como áreas, es fácil de ver gráficamente,
-\begin{center}
-\tikzsetnextfilename{probabilidad/probabilidad_union}
-\input{../img/probabilidad/probabilidad_union}
-\end{center}
-\item $A=\\{e_1,\cdots,e_n\\} = \\{e_1\\}\cup \cdots \cup \\{e_n\\} \Rightarrow P(A)=P(\\{e_1\\}\cup \cdots \cup \\{e_n\\}) =
-P(\\{e_1\\})+ \cdots P(\\{e_n\\}).$
-\end{enumerate}
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;\note{
-A partir de los axiomas de la definición de probabilidad se pueden deducir las siguientes propiedades.
-\begin{enumerate}
-\item $P(\overline A) = 1-P(A)$.
-\item $P(\emptyset)= 0$.
-\item Si $A\subseteq B$ entonces $P(A)\leq P(B)$.
-\item $P(A) \leq 1$. Esto sumado al primer axioma restringe el valor de la probabilidad al intervalo real $[0,1]$.
-\item Si $A$ y $B$ son sucesos compatibles, es decir, su intersección no es vacía, entonces
-$$P(A\cup B)= P(A) + P(B) - P(A\cap B).$$
-Esta es la fórmula que utilizaremos habitualmente para calcular la probabilidad de una unión pues también funciona para sucesos
-incompatibles ya que en tal caso la intersección sería el suceso vacío y su probabilidad ya hemos visto que es nula.
-\item Si el suceso $A$ está compuesto por los sucesos elementales $e_1,e_2,&amp;hellip;,e_n$, entonces
-$$P(A)=\sum_{i=1}^n P(e_i).$$
-Esta propiedad es muy interesante ya que si conocemos las probabilidades de todos los elementos del espacio muestral podremos calcular la
-probabilidad de cualquier suceso simplemente sumando las probabilidades de los elementos que lo componen.
-\end{enumerate}
-}&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;interpretación-de-la-probabilidad&#34;&gt;Interpretación de la probabilidad&lt;/h3&gt;
 &lt;p&gt;Como ha quedado claro en los axiomas anteriores, la probabilidad de un
 evento $A$ es un número real $P(A)$ que está siempre entre 0 y 1.&lt;/p&gt;
@@ -2478,197 +2433,90 @@ cuando $P(A)$ está más próximo a 1 que a 0, la confianza en que ocurra
 $A$ es mayor que la de que no ocurra $A$.&lt;/p&gt;
 &lt;h2 id=&#34;probabilidad-condicionada&#34;&gt;Probabilidad condicionada&lt;/h2&gt;
 &lt;h3 id=&#34;experimentos-condicionados&#34;&gt;Experimentos condicionados&lt;/h3&gt;
-&lt;p&gt;En algunas ocasiones, es posible que tengamos alguna información sobre
-el experimento antes de su realización. Habitualmente esa información se
-da en forma de un suceso $B$ del mismo espacio muestral que sabemos
-que es cierto antes de realizar el experimento.&lt;/p&gt;
-&lt;p&gt;En tal caso se dice que el suceso $B$ es un suceso &lt;em&gt;condicionante&lt;/em&gt;, y
-la probabilidad de otro suceso $A$ se conoce como y se expresa
-$$P(A|B).$$&lt;/p&gt;
-&lt;p&gt;Esto debe leerse como &lt;em&gt;probabilidad de $A$ dado $B$&lt;/em&gt; o &lt;em&gt;probabilidad
-de $A$ bajo la condición de $B$&lt;/em&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;experimentos-condicionados-1&#34;&gt;Experimentos condicionados&lt;/h3&gt;
-&lt;p&gt;Los condicionantes suelen cambiar el espacio muestral del experimento y
-por tanto las probabilidades de sus sucesos.&lt;/p&gt;
-&lt;p&gt;Supongamos que tenemos una muestra de 100 hombres y 100 mujeres con las
-siguientes frecuencias $$\begin{array}{|c|c|c|}
-\cline{2-3}
-\multicolumn{1}{c|}{} &amp;amp; \mbox{No fumadores} &amp;amp; \mbox{Fumadores} \ \hline
-\rowcolor{color1!30} \mbox{Mujeres} &amp;amp; 80 &amp;amp; 20 \ \hline
-\mbox{Hombres} &amp;amp; 60 &amp;amp; 40 \ \hline
-\end{array}$$ Entonces, usando la definición frecuentista de
-probabilidad, la probabilidad de que una persona elegida al azar sea
-fumadora es $$P(\mbox{Fumadora})= \frac{60}{200}=0.3.$$&lt;/p&gt;
-&lt;p&gt;\pause&lt;/p&gt;
-&lt;p&gt;Sin embargo, si se sabe que la persona elegida es mujer, entonces la
-muestra se reduce a la primera fila, y la probabilidad de ser fumadora
-es $$P(\mbox{Fumadora}|\mbox{Mujer})=\frac{20}{100}=0.2.$$&lt;/p&gt;
-&lt;p&gt;\note{
-La incertidumbre sobre un suceso depende de la información que se tenga sobre el experimento aleatorio.
-En algunas ocasiones puede que haya que calcular la probabilidad de algún suceso $A$ sabiendo que ha ocurrido otro $B$. En tal caso se dice
-que el suceso $B$ es un \emph{condicionante}, y la probabilidad del suceso condicionado suele escribirse como $$P(A|B)$$&lt;/p&gt;
-&lt;p&gt;Los condicionantes, en el fondo, cambian el espacio muestral del experimento y por tanto las probabilidades de sus sucesos.&lt;/p&gt;
-&lt;p&gt;\textbf{Ejemplo}. Supongamos que hemos observado las siguientes frecuencias de aprobados en un grupo de 100 hombres y 100 mujeres:
-$$
+&lt;p&gt;En algunas ocasiones, es posible que tengamos alguna información sobre el experimento antes de su realización. Habitualmente esa información se da en forma de un suceso $B$ del mismo espacio muestral que sabemos que es cierto antes de realizar el experimento.&lt;/p&gt;
+&lt;p&gt;En tal caso se dice que el suceso $B$ es un suceso &lt;em&gt;condicionante&lt;/em&gt;, y la probabilidad de otro suceso $A$ se conoce como y se expresa $$P(A|B).$$&lt;/p&gt;
+&lt;p&gt;Esto debe leerse como &lt;em&gt;probabilidad de $A$ dado $B$&lt;/em&gt; o &lt;em&gt;probabilidad de $A$ bajo la condición de $B$&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Los condicionantes suelen cambiar el espacio muestral del experimento y por tanto las probabilidades de sus sucesos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Supongamos que tenemos una muestra de 100 hombres y 100 mujeres con las siguientes frecuencias&lt;/p&gt;
+&lt;p&gt;$$
 \begin{array}{|c|c|c|}
-\cline{2-3}
-\multicolumn{1}{c|}{} &amp;amp; \mbox{Aprobados} &amp;amp; \mbox{Suspensos} \ \hline
-\rowcolor{coral} \mbox{Mujeres} &amp;amp; 80 &amp;amp; 20 \ \hline
-\mbox{Hombres} &amp;amp; 60 &amp;amp; 40 \ \hline
+\hline
+&amp;amp; \mbox{No fumadores} &amp;amp; \mbox{Fumadores} \newline
+\hline
+\mbox{Mujeres} &amp;amp; 80 &amp;amp; 20 \newline
+\hline
+\mbox{Hombres} &amp;amp; 60 &amp;amp; 40 \newline
+\hline
 \end{array}
-$$
-Entonces, utilizando la definición de frecuentista, la probabilidad de que una persona elegida al azar haya aprobado es
-la frecuencia relativa de aprobados que es$P(\mbox{Aprobado})= 140/200=0.7$.&lt;/p&gt;
-&lt;p&gt;Sin embargo, si se añade información sobre el experimento y nos dicen que la persona elegida es mujer, entonces la muestra se restringiría
-sólo a las mujeres y la frecuencia relativa de aprobados en mujeres es $P(\mbox{Aprobado}/\mbox{Mujer})=80/100=0.8$.
-}&lt;/p&gt;
+$$&lt;/p&gt;
+&lt;p&gt;Entonces, usando la definición frecuentista de probabilidad, la probabilidad de que una persona elegida al azar sea fumadora es&lt;/p&gt;
+&lt;p&gt;$$P(\mbox{Fumadora})= \frac{60}{200}=0.3.$$&lt;/p&gt;
+&lt;p&gt;Sin embargo, si se sabe que la persona elegida es mujer, entonces la muestra se reduce a la primera fila, y la probabilidad de ser fumadora es&lt;/p&gt;
+&lt;p&gt;$$P(\mbox{Fumadora}|\mbox{Mujer})=\frac{20}{100}=0.2.$$&lt;/p&gt;
 &lt;h3 id=&#34;probabilidad-condicionada-1&#34;&gt;Probabilidad condicionada&lt;/h3&gt;
-&lt;p&gt;Dado un espacio muestral $\Omega$ de un experimento aleatorio, y dos
-dos sucesos $A,B\subseteq \Omega$, la probabilidad de $A$
-&lt;em&gt;condicionada&lt;/em&gt; por $B$ es $$P(A|B) = \frac{P(A\cap B)}{P(B)},$$
-siempre y cuando, $P(B)\neq 0$.&lt;/p&gt;
-&lt;p&gt;Esta definición permite calcular probabilidades sin tener que alterar el
-espacio muestral original del experimento.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. En el ejemplo anterior
-$$P(\mbox{Fumadora}|\mbox{Mujer})= \frac{P(\mbox{Fumadora}\cap \mbox{Mujer})}{P(\mbox{Mujer})} =  \frac{20/200}{100/200}=\frac{20}{100}=0.2.$$&lt;/p&gt;
-&lt;p&gt;\note{
-El problema de los condicionamientos es que suelen cambiar el espacio muestral de partida. Afortunadamente, es posible calcular
-probabilidades condicionadas sin cambiar de espacio muestral gracias a la siguiente fórmula.&lt;/p&gt;
-&lt;p&gt;\begin{definicion}[Probabilidad condicionada]
-Dados dos sucesos $A$ y $B$ de un mismo espacio de sucesos de un experimento aleatorio, la probabilidad de $A$
-\emph{condicionada} por $B$ es
-$$ P(A|B) = \frac{P(A\cap B)}{P(B)},$$
-siempre y cuando, $P(B)\neq 0$.
-\end{definicion}&lt;/p&gt;
-&lt;p&gt;\textbf{Ejemplo}.  En el ejemplo anterior
-$$
-P(\mbox{Fumadora}|\mbox{Mujer})= \frac{P(\mbox{Fumadora}\cap \mbox{Mujer})}{P(\mbox{Mujer})} =  \frac{20/200}{100/200}=\frac{20}{100}=0.2.
-$$
-}&lt;/p&gt;
+&lt;div class=&#34;alert alert-def&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Probabilidad condicionada&lt;/strong&gt;. Dado un espacio muestral $\Omega$ de un experimento aleatorio, y dos dos sucesos $A,B\subseteq \Omega$, la probabilidad de $A$ &lt;em&gt;condicionada&lt;/em&gt; por $B$ es&lt;/p&gt;
+&lt;p&gt;$$P(A|B) = \frac{P(A\cap B)}{P(B)},$$&lt;/p&gt;
+&lt;p&gt;siempre y cuando, $P(B)\neq 0$.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Esta definición permite calcular probabilidades sin tener que alterar el espacio muestral original del experimento.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. En el ejemplo anterior&lt;/p&gt;
+&lt;p&gt;$$P(\mbox{Fumadora}|\mbox{Mujer})= \frac{P(\mbox{Fumadora}\cap \mbox{Mujer})}{P(\mbox{Mujer})} =  \frac{20/200}{100/200}=\frac{20}{100}=0.2.$$&lt;/p&gt;
 &lt;h3 id=&#34;probabilidad-del-suceso-intersección&#34;&gt;Probabilidad del suceso intersección&lt;/h3&gt;
-&lt;p&gt;A partir de la definición de probabilidad condicionada es posible
-obtener la fórmula para calcular la probabilidad de la intersección de
-dos sucesos. $$P(A\cap B) = P(A)P(B|A) = P(B)P(A|B).$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. En una población hay un 30% de fumadores y se sabe que el
-40% de los fumadores tiene cáncer de pulmón. La probabilidad de que una
-persona elegida al azar sea fumadora y tenga cáncer de pulmón es
-$$P(\mbox{Fumadora}\cap \mbox{Cáncer})= P(\mbox{Fumadora})P(\mbox{Cáncer}|\mbox{Fumadora}) =
-0.3\times 0.4 = 0.12.$$&lt;/p&gt;
+&lt;p&gt;A partir de la definición de probabilidad condicionada es posible obtener la fórmula para calcular la probabilidad de la intersección de dos sucesos.&lt;/p&gt;
+&lt;p&gt;$$P(A\cap B) = P(A)P(B|A) = P(B)P(A|B).$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. En una población hay un 30% de fumadores y se sabe que el 40% de los fumadores tiene cáncer de pulmón. La probabilidad de que una persona elegida al azar sea fumadora y tenga cáncer de pulmón es&lt;/p&gt;
+&lt;p&gt;$$P(\mbox{Fumadora}\cap \mbox{Cáncer})= P(\mbox{Fumadora})P(\mbox{Cáncer}|\mbox{Fumadora}) = 0.3\times 0.4 = 0.12.$$&lt;/p&gt;
 &lt;h3 id=&#34;independencia-de-sucesos&#34;&gt;Independencia de sucesos&lt;/h3&gt;
 &lt;p&gt;En ocasiones, la ocurrencia del suceso condicionante no cambia la
 probabilidad original del suceso principal.&lt;/p&gt;
-&lt;p&gt;Dado un espacio muestral $\Omega$ de un experimento aleatorio, dos
-sucesos $A,B\subseteq \Omega$ son &lt;em&gt;independientes&lt;/em&gt; si la probabilidad
-de $A$ no se ve alterada al condicionar por $B$, y viceversa, es
-decir, $$P(A|B) = P(A) \quad \mbox{and} \quad P(B|A)=P(B),$$ si
-$P(A)\neq 0$ y $P(B)\neq 0$.&lt;/p&gt;
-&lt;p&gt;Esto significa que la ocurrencia de uno evento no aporta información
-relevante para cambiar la incertidumbre sobre el otro.&lt;/p&gt;
-&lt;p&gt;Cuando dos eventos son independientes, la probabilidad de su
-intersección es igual al producto de sus probabilidades,
-$$P(A\cap B) = P(A)P(B).$$&lt;/p&gt;
-&lt;p&gt;\note{
-En ocasiones, saber que un determinado suceso ha ocurrido no cambia la incertidumbre sobre otro suceso del mismo experimento. Por ejemplo,
-si se tiran dos monedas, está claro que el resultado de la primera no cambia la incertidumbre sobre que salga cara en la segunda. En tal
-caso se dice que los sucesos son independientes.&lt;/p&gt;
-&lt;p&gt;Formalmente,
-\begin{definicion}[Sucesos independientes]
-Dado un espacio muestral $\Omega$ de un experimento aleatorio, dos sucesos $A,B\subseteq \Omega$ son \emph{independientes} si la probabilidad de $A$ no se ve alterada al condicionar por $B$, y viceversa, es decir,
-$$
-P(A|B) = P(A) \quad \mbox{and} \quad P(B|A)=P(B),
-$$
-si $P(A)\neq 0$ y $P(B)\neq 0$.
-\end{definicion}&lt;/p&gt;
-&lt;p&gt;Si $A$ es independiente de $B$, también se cumple que $B$ es independiente de $A$, y en general simplemente se dice que $A$ y $B$ son
-independientes.&lt;/p&gt;
-&lt;p&gt;También se cumple que si $A$ y $B$ son independientes, entonces
-$$ P(A\cap B) = P(A)P(B|A) = P(A)P(B). $$
-}&lt;/p&gt;
+&lt;div class=&#34;alert alert-def&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Sucesos independientes&lt;/strong&gt;. Dado un espacio muestral $\Omega$ de un experimento aleatorio, dos
+sucesos $A,B\subseteq \Omega$ son &lt;em&gt;independientes&lt;/em&gt; si la probabilidad de $A$ no se ve alterada al condicionar por $B$, y viceversa, es decir,&lt;/p&gt;
+&lt;p&gt;$$P(A|B) = P(A) \quad \mbox{and} \quad P(B|A)=P(B),$$&lt;/p&gt;
+&lt;p&gt;si $P(A)\neq 0$ y $P(B)\neq 0$.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Esto significa que la ocurrencia de uno evento no aporta información relevante para cambiar la incertidumbre sobre el otro.&lt;/p&gt;
+&lt;p&gt;Cuando dos eventos son independientes, la probabilidad de su intersección es igual al producto de sus probabilidades,&lt;/p&gt;
+&lt;p&gt;$$P(A\cap B) = P(A)P(B).$$&lt;/p&gt;
 &lt;h2 id=&#34;espacio-probabilístico&#34;&gt;Espacio probabilístico&lt;/h2&gt;
-&lt;h3 id=&#34;espacio-probabilístico-1&#34;&gt;Espacio probabilístico&lt;/h3&gt;
-&lt;p&gt;Un &lt;em&gt;espacio probabilístico&lt;/em&gt; de un experimento aleatorio es una terna
-$(\Omega,\mathcal{F},P)$ donde&lt;/p&gt;
+&lt;div class=&#34;alert alert-def&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Espacio probabilístico&lt;/strong&gt;. Un &lt;em&gt;espacio probabilístico&lt;/em&gt; de un experimento aleatorio es una terna $(\Omega,\mathcal{F},P)$ donde&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;$\Omega$ es el espacio muestral del experimento.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\mathcal{F}$ es un un conjunto de sucesos del experimento.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$P$ es una función de probabilidad.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;$\Omega$ es el espacio muestral del experimento.&lt;/li&gt;
+&lt;li&gt;$\mathcal{F}$ es un un conjunto de sucesos del experimento.&lt;/li&gt;
+&lt;li&gt;$P$ es una función de probabilidad.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Si conocemos la probabilidad de todos los elementos de $\Omega$,
-entonces podemos calcular la probabilidad de cualquier suceso en
-$\mathcal{F}$ y se puede construir fácilmente el espacio
-probabilístico.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Si conocemos la probabilidad de todos los elementos de $\Omega$, entonces podemos calcular la  probabilidad de cualquier suceso en $\mathcal{F}$ y se puede construir fácilmente el espacio probabilístico.&lt;/p&gt;
 &lt;h3 id=&#34;construcción-del-espacio-probabilístico&#34;&gt;Construcción del espacio probabilístico&lt;/h3&gt;
-&lt;p&gt;Para determinar la probabilidad de cada suceso elemental se puede
-utilizar un diagrama de árbol, mediante las siguientes reglas:&lt;/p&gt;
+&lt;p&gt;Para determinar la probabilidad de cada suceso elemental se puede utilizar un diagrama de árbol, mediante las siguientes reglas:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Para cada nodo del árbol, etiquetar la rama que conduce hasta él con
-la probabilidad de que la variable en ese nivel tome el valor del
-nodo, condicionada por los sucesos correspondientes a sus nodos
+&lt;p&gt;Para cada nodo del árbol, etiquetar la rama que conduce hasta él con la probabilidad de que la variable en ese nivel tome el valor del nodo, condicionada por los sucesos correspondientes a sus nodos
 antecesores en el árbol.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;La probabilidad de cada suceso elemental en las hojas del árbol es
-el producto de las probabilidades de las ramas que van desde la raíz
-a la hoja del
-árbol.&lt;/p&gt;
+&lt;p&gt;La probabilidad de cada suceso elemental en las hojas del árbol es el producto de las probabilidades de las ramas que van desde la raíz a la hoja del árbol.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;\tikzsetnextfilename{probabilidad/espacio_probabilistico}&lt;/p&gt;
-&lt;p&gt;\mode&lt;article&gt;{\resizebox{0.7\textwidth}{!}{\input{../img/probabilidad/espacio_probabilistico}}}&lt;/p&gt;
-&lt;p&gt;\mode&lt;presentation&gt;{\resizebox{0.9\textwidth}{!}{\input{../img/probabilidad/espacio_probabilistico}}}&lt;/p&gt;
+&lt;img src=&#34;../img/probabilidad/espacio_probabilistico.svg&#34; alt=&#34;Diagrama de árbol de un espacio probabilístico&#34; width=&#34;600&#34;&gt;
 &lt;h3 id=&#34;árboles-de-probabilidad-con-variables-dependientes&#34;&gt;Árboles de probabilidad con variables dependientes&lt;/h3&gt;
-&lt;h4 id=&#34;ejemplo-de-dependencia-del-cáncer-con-respecto-al-tabaco&#34;&gt;Ejemplo de dependencia del cáncer con respecto al tabaco&lt;/h4&gt;
-&lt;p&gt;Sea una población en la que el 30% de las personas fuman, y que la
-incidencia del cáncer de pulmón en fumadores es del 40% mientras que en
-los no fumadores es del 10%.&lt;/p&gt;
-&lt;p&gt;El espacio probabilístico del experimento aleatorio que consiste en
-elegir una persona al azar y medir las variables Fumar y Cáncer de
-pulmón se muestra a
-continuación.&lt;/p&gt;
-&lt;p&gt;\tikzsetnextfilename{probabilidad/espacio_probabilistico_fumar_cancer}&lt;/p&gt;
-&lt;p&gt;\mode&lt;article&gt;{\resizebox{0.6\textwidth}{!}{\input{../img/probabilidad/espacio_probabilistico_fumar_cancer}}}&lt;/p&gt;
-&lt;p&gt;\mode&lt;presentation&gt;{\resizebox{0.8\textwidth}{!}{\input{../img/probabilidad/espacio_probabilistico_fumar_cancer}}}&lt;/p&gt;
-&lt;p&gt;\note{
-Sea una población en la que el 30% de las personas fuman, y que la incidencia del cáncer de pulmón en fumadores es del 40% mientras que en
-los no fumadores es del 10%.&lt;/p&gt;
-&lt;p&gt;El árbol de probabilidad que expresa este experimento es el siguiente:&lt;/p&gt;
-&lt;p&gt;Obsérvese que el fumar o no depende del sexo, así que las ramas que salen del suceso mujer no tienen las mismas probabilidades que las que
-salen del suceso hombre. }&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Sea una población en la que el 30% de las personas fuman, y que la incidencia del cáncer de pulmón en fumadores es del 40% mientras que en los no fumadores es del 10%.&lt;/p&gt;
+&lt;p&gt;El espacio probabilístico del experimento aleatorio que consiste en elegir una persona al azar y medir las variables Fumar y Cáncer de pulmón se muestra a continuación.&lt;/p&gt;
+&lt;img src=&#34;../img/probabilidad/espacio_probabilistico_fumar_cancer.svg&#34; alt=&#34;Diagrama de árbol del espacio probabilístico de fumar y tener cáncer de pulmón&#34; width=&#34;550&#34;&gt;
 &lt;h3 id=&#34;árboles-de-probabilidad-con-variables-independientes&#34;&gt;Árboles de probabilidad con variables independientes&lt;/h3&gt;
-&lt;h4 id=&#34;ejemplo-de-independencia-en-el-lanzamiento-de-dos-monedas&#34;&gt;Ejemplo de independencia en el lanzamiento de dos monedas&lt;/h4&gt;
-&lt;p&gt;El árbol de probabilidad asociado al experimento aleatorio que consiste
-en el lanzamiento de dos monedas se muestra a
-continuación.&lt;/p&gt;
-&lt;p&gt;\tikzsetnextfilename{probabilidad/espacio_probabilistico_monedas}&lt;/p&gt;
-&lt;p&gt;\mode&lt;article&gt;{\resizebox{0.6\textwidth}{!}{\input{../img/probabilidad/espacio_probabilistico_monedas}}}&lt;/p&gt;
-&lt;p&gt;\mode&lt;presentation&gt;{\resizebox{0.8\textwidth}{!}{\input{../img/probabilidad/espacio_probabilistico_monedas}}}&lt;/p&gt;
-&lt;p&gt;\note{
-El árbol de probabilidad asociado al experimento aleatorio que consiste en el lanzamiento de dos monedas es:&lt;/p&gt;
-&lt;p&gt;Obsérvese ahora que el resultado de la segunda moneda no depende del resultado de la primera, de manera que las ramas que salen del suceso
-cara en la primera moneda tienen las mismas probabilidades que las que salen del suceso cruz.
-}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt; El árbol de probabilidad asociado al experimento aleatorio que consiste en el lanzamiento de dos monedas se muestra a continuación.&lt;/p&gt;
+&lt;img src=&#34;../img/probabilidad/espacio_probabilistico_monedas.svg&#34; alt=&#34;Diágrama de árbol del espacio probabilístico del lanzamiento de dos monedas&#34; width=&#34;550&#34;&gt;
 &lt;h3 id=&#34;árboles-de-probabilidad-con-variables-independientes-1&#34;&gt;Árboles de probabilidad con variables independientes&lt;/h3&gt;
-&lt;h4 id=&#34;ejemplo-de-independencia-en-la-elección-de-una-muestra-aleatoria-de-tamaño-3&#34;&gt;Ejemplo de independencia en la elección de una muestra aleatoria de tamaño 3&lt;/h4&gt;
-&lt;p&gt;Dada una población en la que hay un 40% de hombres y un 60% de mujeres,
-el experimento aleatorio que consiste en tomar una muestra aleatoria de
-tres personas tiene el árbol de probabilidad que se muestra a
-continuación.&lt;/p&gt;
-&lt;p&gt;\tikzsetnextfilename{probabilidad/espacio_probabilistico_muestra}&lt;/p&gt;
-&lt;p&gt;\mode&lt;article&gt;{\resizebox{0.7\textwidth}{!}{\input{../img/probabilidad/espacio_probabilistico_muestra}}}&lt;/p&gt;
-&lt;p&gt;\mode&lt;presentation&gt;{\resizebox{0.9\textwidth}{!}{\input{../img/probabilidad/espacio_probabilistico_muestra}}}&lt;/p&gt;
-&lt;p&gt;\note{
-Otro ejemplo de árbol con independencia sería la obtención de una muestra aleatoria con reemplazamiento.
-Dada una población en la que hay un 40% de hombres y un 60% de mujeres, el experimento aleatorio que consiste en tomar una muestra
-aleatoria con reemplazamiento de tres personas tiene el siguiente árbol de probabilidad:&lt;/p&gt;
-&lt;p&gt;Obsérvese de nuevo cómo todas las ramas del suceso hombre tienen las mismas probabilidades y lo mismo ocurre con las ramas del suceso mujer.
-}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Dada una población en la que hay un 40% de hombres y un 60% de mujeres, el experimento aleatorio que consiste en tomar una muestra aleatoria de tres personas tiene el árbol de probabilidad que se muestra a continuación.&lt;/p&gt;
+&lt;img src=&#34;../img/probabilidad/espacio_probabilistico_muestra.svg&#34; alt=&#34;Diagrama de árbol del espacio probabilístico del sexo de tres individuos elegidos al azar&#34; width=&#34;600&#34;&gt;
 &lt;h2 id=&#34;teorema-de-la-probabilidad-total&#34;&gt;Teorema de la probabilidad total&lt;/h2&gt;
 &lt;h3 id=&#34;sistema-completo-de-sucesos&#34;&gt;Sistema completo de sucesos&lt;/h3&gt;
 &lt;p&gt;Una colección de sucesos $A_1,A_2,\ldots,A_n$ de un mismo espacio
@@ -2937,13 +2785,9 @@ del suceso, la prevalencia es aproximadamente el producto de la
 incidencia por la duración media del suceso, es decir,&lt;/p&gt;
 &lt;p&gt;prevalencia = incidencia $\times$ duración&lt;/p&gt;
 &lt;h3 id=&#34;comparación-de-riesgos&#34;&gt;Comparación de riesgos&lt;/h3&gt;
-&lt;p&gt;Para determinar si un factor o característica está asociada con el
-suceso médico es necesario comparar el riesgo del suceso en dos
-poblaciones, una expuesta a el factor y la otra no. El grupo expuesto a
-el factor se conoce como &lt;em&gt;grupo tratamiento&lt;/em&gt; o &lt;em&gt;grupo experimental&lt;/em&gt; y el
-grupo no expuesto como &lt;em&gt;grupo control&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Habitualmente los casos observados para cada grupo se representan en una
-tabla de 2$\times$2 como la siguiente:&lt;/p&gt;
+&lt;p&gt;Para determinar si un factor o característica está asociada con el suceso médico es necesario comparar el riesgo del suceso en dos
+poblaciones, una expuesta a el factor y la otra no. El grupo expuesto a el factor se conoce como &lt;em&gt;grupo tratamiento&lt;/em&gt; o &lt;em&gt;grupo experimental&lt;/em&gt; $T$ y el grupo no expuesto como &lt;em&gt;grupo control&lt;/em&gt; $C$.&lt;/p&gt;
+&lt;p&gt;Habitualmente los casos observados para cada grupo se representan en una tabla de 2$\times$2 como la siguiente:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr class=&#34;header&#34;&gt;
@@ -2954,12 +2798,12 @@ tabla de 2$\times$2 como la siguiente:&lt;/p&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td style=&#34;text-align: left;&#34;&gt;Grupo tratamiento(expuestos)&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;Grupo tratamiento $T$&lt;/td&gt;
 &lt;td style=&#34;text-align: left;&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;&lt;em&gt;a&lt;/em&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align: left;&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;&lt;em&gt;b&lt;/em&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td style=&#34;text-align: left;&#34;&gt;Grupo control(no expuestos)&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;Grupo control $C$&lt;/td&gt;
 &lt;td style=&#34;text-align: left;&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;&lt;em&gt;c&lt;/em&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align: left;&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;&lt;em&gt;d&lt;/em&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;

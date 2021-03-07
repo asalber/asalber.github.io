@@ -34,7 +34,7 @@
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/bucles/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;*
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;*
 **
 ***
 ****
@@ -46,7 +46,7 @@
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/bucles/ejercicio7.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-8&#34;&gt;Ejercicio 8&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;1
 3 1
 5 3 1
 7 5 3 1

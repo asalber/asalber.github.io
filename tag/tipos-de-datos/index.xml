@@ -125,7 +125,7 @@
 &lt;/div&gt; --&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
-&lt;p&gt;Escribir un programa que realice la siguiente operación aritmética $\left(\frac{3+2}{2\cdot 5}\right)^2$.&lt;/p&gt;
+&lt;p&gt;Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética $\left(\frac{3+2}{2\cdot 5}\right)^2$.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora.

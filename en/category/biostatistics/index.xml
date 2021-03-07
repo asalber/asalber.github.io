@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-675849123&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-196832457&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-675849123&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-196832457&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2813,7 +2813,7 @@ Births: $\bar z=2.4525$, $s_z=1.1674$ and $cv_z=0.476$.&lt;/li&gt;
 &lt;p&gt;$$P(A) = lim_{n\rightarrow \infty}\frac{n_A}{n}$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Although frequency probability avoid the restrictions of classical definition, it also have some drawbacks&lt;/p&gt;
+&lt;p&gt;Although frequency probability avoid the restrictions of classical definition, it also have some drawbacks:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;It computes an estimation of the real probability (more accurate the higher the sample size).&lt;/li&gt;
 &lt;li&gt;The repetition of the experiment must be in identical conditions.&lt;/li&gt;
@@ -2922,8 +2922,8 @@ P(\{e_1\})+ \cdots P(\{e_n\}).$&lt;/p&gt;
 &lt;h3 id=&#34;conditional-experiments&#34;&gt;Conditional experiments&lt;/h3&gt;
 &lt;p&gt;Occasionally, we can get some information about the experiment before its realization. Usually that information is given as an event $B$ of the same sample space that we know that is true before we conduct the experiment.&lt;/p&gt;
 &lt;p&gt;In such a case, we will say that $B$ is a &lt;em&gt;conditioning&lt;/em&gt; event and the probability of another event $A$ is known as a &lt;em&gt;conditional probability&lt;/em&gt; and expressed $P(A\vert B)$. This must be read as &lt;em&gt;probability of $A$ given $B$&lt;/em&gt; or &lt;em&gt;probability of $A$ under the condition $B$&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Usually, conditioning events change the sample space and therefore the probabilities of events.&lt;/p&gt;
-&lt;p&gt;Assume that we have a sample of 100 women and 100 men with the following frequencies&lt;/p&gt;
+&lt;p&gt;Usually, conditioning events change the sample space and therefore the probabilities of events.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Assume that we have a sample of 100 women and 100 men with the following frequencies&lt;/p&gt;
 &lt;p&gt;$$
 \begin{array}{|c|c|c|}
 \hline
@@ -2998,7 +2998,7 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The probability tree of the random experiment of tossing two coins is shown below.&lt;/p&gt;
 &lt;img src=&#34;../img/probability/coins_probability_space.svg&#34; alt=&#34;Tree diagram of the probability space of tossing two coins&#34; width=&#34;550&#34;&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. In a population there are 40% of males and 60% of females, the probability tree of drawing a random sample of three persons is shown below.&lt;/p&gt;
-&lt;img src=&#34;../img/probability/sample_probability_space.svg&#34; alt=&#34;Diagram tree of the probability space of drawing a random sample of three individuals&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;../img/probability/sample_probability_space.svg&#34; alt=&#34;Diagram tree of the probability space of the gender of three random individuals&#34; width=&#34;600&#34;&gt;
 &lt;h2 id=&#34;total-probability-theorem&#34;&gt;Total probability theorem&lt;/h2&gt;
 &lt;h3 id=&#34;partition-of-the-sample-space&#34;&gt;Partition of the sample space&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
@@ -8186,7 +8186,7 @@ In the sample of persons with breast cancer there was 180 smokers, while in the 
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;Let $C$ be the event of having cancer.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;$RR(C)=9$. That means that the probability of having cancer smoking is 9 times higher than non-smoking.&lt;/li&gt;
+&lt;li&gt;$RR(C)=4.6364$. That means that the probability of having cancer smoking is $4.6364$ times higher than non-smoking.&lt;/li&gt;
 &lt;li&gt;$OR(C)=15.5455$. As is posibive there is a direct association between smoking and having cancer. The odds of having cancer smoking is more than 15 times greater than non-smoking.&lt;/li&gt;
 &lt;/ol&gt;
 

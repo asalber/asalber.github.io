@@ -2775,7 +2775,7 @@ In the sample of persons with breast cancer there was 180 smokers, while in the 
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;Let $C$ be the event of having cancer.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;$RR(C)=9$. That means that the probability of having cancer smoking is 9 times higher than non-smoking.&lt;/li&gt;
+&lt;li&gt;$RR(C)=4.6364$. That means that the probability of having cancer smoking is $4.6364$ times higher than non-smoking.&lt;/li&gt;
 &lt;li&gt;$OR(C)=15.5455$. As is posibive there is a direct association between smoking and having cancer. The odds of having cancer smoking is more than 15 times greater than non-smoking.&lt;/li&gt;
 &lt;/ol&gt;
 
