@@ -3258,6 +3258,94 @@ area_triangulo(base, altura)
     </item>
     
     <item>
+      <title>Ejercicios de Programación Orientada a Objetos</title>
+      <link>/docencia/python/ejercicios/objetos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docencia/python/ejercicios/objetos/</guid>
+      <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
+&lt;p&gt;Mostrar por pantalla los métodos de un objeto de la clase &lt;code&gt;str&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/objetos/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
+&lt;p&gt;Definir la clase &lt;code&gt;saludo&lt;/code&gt; con un método que reciba un &lt;nombre&gt; y muestre por pantalla &lt;code&gt;hola &amp;lt;nombre&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/objetos/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ejercicios de Depuración</title>
+      <link>/docencia/python/ejercicios/depuracion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docencia/python/ejercicios/depuracion/</guid>
+      <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
+&lt;p&gt;Corregir los errores sintácticos del siguiente programa:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;contraseña = input(&#39;Introduce la contraseña: &amp;quot;)
+if contraseña in [&#39;sesamo&#39;):
+  print(&#39;Pasa&#39;)
+else
+  print(&#39;No pasa&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
+&lt;p&gt;Detectar y corregir los errores del siguiente programa que aplica el iva a una factura:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;base = input(&#39;Introduce la base imponible de la factura: &#39;)
+print(aplica_iva(base, iva))
+
+def aplica_iva(base, iva = 21):
+    base = base * iva   
+    return base 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
+&lt;p&gt;Detectar y corregir los errores del siguiente programa que calcula el producto escalar de dos vectores:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;u = (1, 2, 3)
+v = (4, 5, 6)
+
+def producto_escalar(u, v):
+    for i in u:
+        u[i+1] *= v[i+1]
+    return sum(u)
+
+print(producto_escalar(u, v))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
+&lt;p&gt;Detectar y corregir los errores del siguiente programa que devuelve y elimina el teléfono de un listín telefónico a través del nombre del usuario:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;listin = {&#39;Juan&#39;:123456789, &#39;Pedro&#39;:987654321}
+
+def elimina(listin, usuario):
+    del listin[usuario]
+    return listin[usuario]
+
+print(elimina(listin, &#39;Pablo&#39;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
+&lt;p&gt;Detectar y corregir los errores del siguiente programa que multiplica dos matrices:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a = ((1, 2, 3),
+     (3, 2, 1))
+b = ((1, 2),
+     (3, 4),
+     (5, 6))
+
+def producto(a, b):
+    producto = []
+    for i in range(len(b)):
+        fila = []
+        for j in range(len(a[0])):
+            suma = 0
+            for k in range(len(a[0]+1)):
+                suma += a[i][k] * b[k+1][j]
+            fila[j] = suma
+        producto[i] = tuple(fila)
+    return tuple(producto)
+
+print(producto(a, b))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Ejercicios de la Librería Pandas</title>
       <link>/docencia/python/ejercicios/pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3350,80 +3438,6 @@ area_triangulo(base, altura)
 &lt;li&gt;Crear un función que reciba una estación de medición y devuelva un DataFrame con las medias mensuales de los distintos tipos de contaminantes.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/pandas/ejercicio8.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ejercicios de Depuración</title>
-      <link>/docencia/python/ejercicios/depuracion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/docencia/python/ejercicios/depuracion/</guid>
-      <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
-&lt;p&gt;Corregir los errores sintácticos del siguiente programa:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;contraseña = input(&#39;Introduce la contraseña: &amp;quot;)
-if contraseña in [&#39;sesamo&#39;):
-  print(&#39;Pasa&#39;)
-else
-  print(&#39;No pasa&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
-&lt;p&gt;Detectar y corregir los errores del siguiente programa que aplica el iva a una factura:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;base = input(&#39;Introduce la base imponible de la factura: &#39;)
-print(aplica_iva(base, iva))
-
-def aplica_iva(base, iva = 21):
-    base = base * iva   
-    return base 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
-&lt;p&gt;Detectar y corregir los errores del siguiente programa que calcula el producto escalar de dos vectores:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;u = (1, 2, 3)
-v = (4, 5, 6)
-
-def producto_escalar(u, v):
-    for i in u:
-        u[i+1] *= v[i+1]
-    return sum(u)
-
-print(producto_escalar(u, v))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
-&lt;p&gt;Detectar y corregir los errores del siguiente programa que devuelve y elimina el teléfono de un listín telefónico a través del nombre del usuario:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;listin = {&#39;Juan&#39;:123456789, &#39;Pedro&#39;:987654321}
-
-def elimina(listin, usuario):
-    del listin[usuario]
-    return listin[usuario]
-
-print(elimina(listin, &#39;Pablo&#39;))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
-&lt;p&gt;Detectar y corregir los errores del siguiente programa que multiplica dos matrices:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a = ((1, 2, 3),
-     (3, 2, 1))
-b = ((1, 2),
-     (3, 4),
-     (5, 6))
-
-def producto(a, b):
-    producto = []
-    for i in range(len(b)):
-        fila = []
-        for j in range(len(a[0])):
-            suma = 0
-            for k in range(len(a[0]+1)):
-                suma += a[i][k] * b[k+1][j]
-            fila[j] = suma
-        producto[i] = tuple(fila)
-    return tuple(producto)
-
-print(producto(a, b))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/depuracion/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
