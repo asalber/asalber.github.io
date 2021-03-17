@@ -126,13 +126,13 @@ Al final se debe mostrar por pantalla si la pizza elegida es vegetariana o no y 
       <guid>/docencia/python/manual/condicionales/</guid>
       <description>&lt;h2 id=&#34;condicionales-if&#34;&gt;Condicionales (&lt;code&gt;if&lt;/code&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;if&lt;/code&gt; &lt;code&gt;condición1:&lt;br&gt;
-    &lt;em&gt;bloque código&lt;/em&gt;&lt;br&gt;
-&lt;code&gt;elif&lt;/code&gt; condición2:&lt;br&gt;
-    &lt;em&gt;bloque código&lt;/em&gt;&lt;br&gt;
+&lt;p&gt;&lt;code&gt;if&lt;/code&gt; &lt;em&gt;&lt;code&gt;condición1&lt;/code&gt;&lt;/em&gt;&lt;code&gt;:&lt;/code&gt;&lt;br&gt;
+    &lt;em&gt;&lt;code&gt;bloque código&lt;/code&gt;&lt;/em&gt;&lt;br&gt;
+&lt;code&gt;elif&lt;/code&gt; &lt;em&gt;&lt;code&gt;condición2&lt;/code&gt;&lt;/em&gt;&lt;code&gt;:&lt;/code&gt;&lt;br&gt;
+    &lt;em&gt;&lt;code&gt;bloque código&lt;/code&gt;&lt;/em&gt;&lt;br&gt;
 &amp;hellip;&lt;br&gt;
-&lt;code&gt;else&lt;/code&gt;:&lt;br&gt;
-    &lt;em&gt;bloque código&lt;/em&gt;&lt;/p&gt;
+&lt;code&gt;else :&lt;/code&gt;&lt;br&gt;
+    &lt;em&gt;&lt;code&gt;bloque código&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Evalúa la expresión lógica &lt;code&gt;condición1&lt;/code&gt; y ejecuta el primer bloque de código si es &lt;code&gt;True&lt;/code&gt;; si no, evalúa la siguientes condiciones hasta llegar a la primera que es &lt;code&gt;True&lt;/code&gt; y ejecuta el bloque de código asociado. Si ninguna condición es &lt;code&gt;True&lt;/code&gt; ejecuta el bloque de código después de &lt;code&gt;else:&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Pueden aparecer varios bloques &lt;code&gt;elif&lt;/code&gt; pero solo uno &lt;code&gt;else&lt;/code&gt; al final.&lt;/p&gt;

@@ -78,7 +78,7 @@
       <guid>/docencia/python/manual/bucles/</guid>
       <description>&lt;h2 id=&#34;bucles-condicionales-while&#34;&gt;Bucles condicionales (&lt;code&gt;while&lt;/code&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;while condición:&lt;/code&gt;&lt;br&gt;
+&lt;p&gt;&lt;code&gt;while&lt;/code&gt; &lt;em&gt;&lt;code&gt;condición&lt;/code&gt;&lt;/em&gt;&lt;code&gt;:&lt;/code&gt;&lt;br&gt;
     &lt;em&gt;&lt;code&gt;bloque código&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Repite la ejecución del bloque de código mientras la expresión lógica &lt;code&gt;condición&lt;/code&gt; sea cierta.&lt;/p&gt;
@@ -108,7 +108,7 @@ Introduce un número: 0
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;bucles-iterativos-for&#34;&gt;Bucles iterativos (&lt;code&gt;for&lt;/code&gt;)&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;for i in secuencia:&lt;/code&gt;&lt;br&gt;
+&lt;p&gt;&lt;code&gt;for&lt;/code&gt; &lt;em&gt;&lt;code&gt;i&lt;/code&gt;&lt;/em&gt; &lt;code&gt;in&lt;/code&gt; &lt;em&gt;&lt;code&gt;secuencia&lt;/code&gt;&lt;/em&gt;&lt;code&gt;:&lt;/code&gt;&lt;br&gt;
     &lt;em&gt;&lt;code&gt;bloque código&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Repite la ejecución del bloque de código para cada elemento de la secuencia &lt;code&gt;secuencia&lt;/code&gt;, asignado dicho elemento a &lt;code&gt;i&lt;/code&gt; en cada repetición.&lt;/p&gt;
