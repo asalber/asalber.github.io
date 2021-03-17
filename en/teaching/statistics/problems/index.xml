@@ -709,7 +709,7 @@ $B$: $\sum y_j=3020$ days, $\sum (y_j-\bar y)^2=16992$ days$^2$, $\sum (y_j-\bar
 &lt;li&gt;$A$: $\bar a=60.8$ days, $s_a=17.0693$ days and $cv_a=0.2807$.&lt;br&gt;
 $B$: $\bar b=60.4$ days, $s_b=18.4347$ days and $cv_b=0.3052$.&lt;/li&gt;
 &lt;li&gt;$g_{1a}=0.0684$ and $g_{1b}=-0.1353$.&lt;/li&gt;
-&lt;li&gt;$g_{2a}=-0.6465$ and $g_{2b}=-0.8264$.&lt;/li&gt;
+&lt;li&gt;$g_{2a}=-0.6465$ and $g_{2b}=-0.8264$, so the distribution of treatment $A$ is more peaked than the one of treatment $B$ as $g_{2a} &amp;gt; g_{2b}$.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;

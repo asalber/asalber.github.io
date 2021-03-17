@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-483651297&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-632947158&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-483651297&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-632947158&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2852,7 +2852,7 @@ $B$: $\sum y_j=3020$ days, $\sum (y_j-\bar y)^2=16992$ days$^2$, $\sum (y_j-\bar
 &lt;li&gt;$A$: $\bar a=60.8$ days, $s_a=17.0693$ days and $cv_a=0.2807$.&lt;br&gt;
 $B$: $\bar b=60.4$ days, $s_b=18.4347$ days and $cv_b=0.3052$.&lt;/li&gt;
 &lt;li&gt;$g_{1a}=0.0684$ and $g_{1b}=-0.1353$.&lt;/li&gt;
-&lt;li&gt;$g_{2a}=-0.6465$ and $g_{2b}=-0.8264$.&lt;/li&gt;
+&lt;li&gt;$g_{2a}=-0.6465$ and $g_{2b}=-0.8264$, so the distribution of treatment $A$ is more peaked than the one of treatment $B$ as $g_{2a} &amp;gt; g_{2b}$.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
