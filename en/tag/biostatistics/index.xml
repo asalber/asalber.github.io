@@ -5,7 +5,7 @@
     <link>/en/tag/biostatistics/</link>
       <atom:link href="/en/tag/biostatistics/index.xml" rel="self" type="application/rss+xml" />
     <description>Biostatistics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Biostatistics</title>
@@ -219,7 +219,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-923871564&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-265473189&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -229,7 +229,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-923871564&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-265473189&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2973,6 +2973,134 @@ $$&lt;/p&gt;
 &lt;li&gt;It satisfies $$F(m,n) =\frac{1}{F(n,m)}.$$ Thus, if we name $f(m,n)_p$ the value that satisfies $P(F(m,n)\leq f(m,n)_p)=p$, then $$f(m,n)_p =\frac{1}{f(n,m)_{1-p}}$$ which is helpful in order to compute probabilities from the table of the distribution function.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;As we will see in the next chapter, the Fisher-Snedecor’s F distribution plays an important role in the comparison of population variances and in the analysis of variance test (ANOVA).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Physiotherapy exam 2021-03-17</title>
+      <link>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2021-03-17/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2021-03-17/</guid>
+      <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
+Date: March 17, 2021&lt;/p&gt;
+&lt;h2 id=&#34;descriptive-statistics-and-regression&#34;&gt;Descriptive Statistics and Regression&lt;/h2&gt;
+&lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;The chart below shows the distribution of the number of subjects passed in a sample of first year students of a degree.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-18-gen-cumulative-distribution-subjects.svg&#34; title=&#34;Cumulative distribution of the number of subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Draw the box and whiskers plot and interpret it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the central tendency statistics and interpret them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How is the asymmetry of the distribution? And the kurtosis? Can we assume that the sample comes from a normal population?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the mean of subjects passed in the second year was 5.5 and the variance was 2, is the mean of the subjects passed in the first year more or less representative than the one of the second year?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which student is better, a first year student that pass 7 subjects or a second year student that pass 6 subjects?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the following sums for the computations: $\sum x_i=478$ subjects, $\sum x_i^2=3036$ subjects$^2$, $\sum (x_i-\bar x)^3=29.5$ subjects$^3$ and $\sum (x_i-\bar x)^4=1226.27$ subjects$^4$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;Quartiles: $Q_1=5$ subjects, $Q_2=6$ subjects, $Q_3=7$ subjects. $IQR = 2$ subjects.       Fences: $f_1=2$ subjects and $f_2=10$ subjects.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-18-gen-boxplot-subjects.svg&#34; title=&#34;Box plot of the subjects passed&#34; alt=&#34;Box plot of the subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=5.975$ subjects, $Me=6$ subjects and $Mo=6$ subjects. They are very close, and that means that the distribution is normal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$s^2=2.2494$ (subjects)$^2$, $s=1.4998$ subjects and $g_1=0.1093$, so that the distribution is slightly skewed to the right.&lt;br&gt;
+$g_2=0.0295$, so that the distribution is flatter than a Gauss bell.&lt;br&gt;
+We can assume that the sample comes from a normal population as both, the coefficient of skewness and the coefficient of kurtosis, are between -2 and 2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $Y$ the number of subjects passed the second year. Then, $cv_x=0.251$ and $cv_y=0.2571$. As the coefficient of variation of the first year is a little bit smaller than the one of the second year, the mean of the first year is a little bit more representative.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Standard score for the first year: $z(7)=0.6834$.&lt;br&gt;
+Standard score for the second year: $z(6)=0.3536$.&lt;br&gt;
+As the standard score of $7$ the first year is greater than the standard score of $6$ the second year, the firs year student is better.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;question-2&#34;&gt;Question 2&lt;/h3&gt;
+&lt;p&gt;The table below shows the number of days of rehabilitation for a knee injury, and the knee flexion angle in degrees after those days.&lt;/p&gt;
+&lt;p&gt;$$
+\begin{array}{lrrrrrrrrr} &lt;br&gt;
+\hline
+\mbox{Days} &amp;amp; 10 &amp;amp; 15 &amp;amp; 20 &amp;amp; 25 &amp;amp; 30 &amp;amp; 35 &amp;amp; 40 &amp;amp; 45 &amp;amp; 50 \newline
+\mbox{Angle} &amp;amp; 45 &amp;amp; 58 &amp;amp; 65 &amp;amp; 75 &amp;amp; 82 &amp;amp; 88 &amp;amp; 91 &amp;amp; 93 &amp;amp; 94 \newline
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the covariance of the number of days of rehabilitation and the knee flexion angle, and interpret it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;According to the regression line, how many degrees increases or decreases the knee flexion angle per day of rehabilitation?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;According to the logarithmic model, what is the expected number of degrees of the knee flexion angle after 32 days? Is this prediction more or less reliable than the prediction of the linear model?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;According to the exponential model, how many days of rehabilitation are required to get a knee flexion angle of 120degrees. Is this prediction reliable?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the following sums for the computations ($X$=Days of rehabilitation and $Y$=knee flexion angle):&lt;br&gt;
+$\sum x_i=270$ days, $\sum \log(x_i)=29.5894$ $\log(\mbox{days})$,$\sum y_j=691$ degrees, $\sum \log(y_j)=38.8298$$\log(\mbox{degrees})$,&lt;br&gt;
+$\sum x_i^2=9600$ days$^2$, $\sum \log(x_i)^2=99.5821$$\log(\mbox{days})^2$, $\sum y_j^2=55473$ degrees$^2$,$\sum \log(y_j)^2=168.0436$ $\log(\mbox{degrees})^2$,&lt;br&gt;
+$\sum x_iy_j=22560$ days$\cdot$degrees,$\sum x_i\log(y_j)=1190.8727$ days$\cdot\log(\mbox{degrees})$,$\sum \log(x_i)y_j=2346.0281$ $\log(\mbox{days})$degrees,$\sum \log(x_i)\log(y_j)=128.738$$\log(\mbox{days})\log(\mbox{degrees})$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\overline{x}=30$ days, $s_x^2=166.6667$ days$^2$.&lt;br&gt;
+$\bar y=76.7778$ degrees, $s_y^2=268.8395$ degrees$^2$.&lt;br&gt;
+$s_{xy}=203.3333$ days$\cdot$degrees.&lt;br&gt;
+As the covariance is positive, there is a direct linear relation between the number of days of rehabilitation and the knee flexion angle.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$b_{yx}=1.22$ degrees/day, therefore the knee flexion angle will increase$1.22$ degrees per day of rehabilitation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\overline{\log(x)}=3.2877$ log(days), $s_{\log(x)}^2=0.2557$log(days)$^2$ and $s_{\log(x)y}=8.247$ log(days)degrees.&lt;br&gt;
+Logarithmic regression model: $y=-29.2741+32.2571\log(x)$.&lt;br&gt;
+Prediction: $y(32)=82.5205$ degrees.&lt;br&gt;
+The logarithmic coefficient of determination is $0.9895$ and the linear coefficient of determination is $0.9227$. Thus, the prediction with the logarithmic model is more reliable as the coefficient of determination of the logarithmic model is greater.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exponential regression model: $y=e^{0.9324+0.0307y}$.&lt;br&gt;
+Prediction: $y(120)=100.8475$ days.&lt;br&gt;
+This prediction is not reliable as 120 degrees falls far away of the range of values observed in the sample for the knee flexion angle.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
