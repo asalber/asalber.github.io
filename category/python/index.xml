@@ -5,7 +5,7 @@
     <link>/category/python/</link>
       <atom:link href="/category/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Python</title>
@@ -4100,6 +4100,68 @@ plt.show()
     </item>
     
     <item>
+      <title>Examen de Inteligencia de los Negocios 2021-03-25</title>
+      <link>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-03-25/</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-03-25/</guid>
+      <description>&lt;p&gt;Grado: Inteligencia de los Negocios&lt;br&gt;
+Fecha: 25 de marzo de 2021&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
+&lt;p&gt;El cálculo del IRPF en la Hacienda española se define como progresivo. Hacienda divide los ingresos (tu renta) en tramos y asigna un porcentaje a pagar en cada uno de ellos. Estos tramos son los siguientes:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Tramos IRPF 2021&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Tipos a aplicar&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Desde 0 hasta 12.450€&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;De 12.450€ a 20.200€&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;24%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;De 20.200€ a 35.200€&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;30%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;De 35.200€ en adelante&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;37%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Por ejemplo, para una persona con una renta de 65.000€, el cálculo del impuesto se haría así:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Primer tramo IRPF: se paga el 19% de 12.450 euros, es decir, 2.365,5 euros&lt;/li&gt;
+&lt;li&gt;Segundo tramo IRPF: se paga el 24% de 7.750 euros (la diferencia entre el primer y segundo tramo), es decir, 1.860 euros.&lt;/li&gt;
+&lt;li&gt;Tercer tramo IRPF: se paga el 30% de 15.000 euros (la diferencia entre el segundo y tercer tramo), es decir, 4.500 euros.&lt;/li&gt;
+&lt;li&gt;Cuarto tramo IRPF: se paga el 37% de 29.800 euros (la diferencia entre su renta y el límite del tercer tramo), es decir, 11.026 euros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La suma de las anteriores cantidades es el total a pagar: 19.751,5 euros.&lt;/p&gt;
+&lt;p&gt;Escribir un programa que pregunte por la renta del usuario y muestre por pantalla el IRPF que debe pagar a Hacienda.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-03-25/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
+&lt;p&gt;Juan juega siempre la misma combinación a la bonoloto: 7, 13, 21, 37, 46, 49.&lt;/p&gt;
+&lt;p&gt;Construir un programa que pregunte al usuario por la combinación ganadora y diga si Juan ha ganado o, en caso contrario, muestre por pantalla la lista de los números que no ha acertado. El programa debe usar listas.&lt;/p&gt;
+&lt;p&gt;Nota: El juego de la bonoloto consiste en acertar una combinación de 6 números entre 1 y 49.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-03-25/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
+&lt;p&gt;Los productos en oferta de una tienda de informática se guardan una cadena como la de más abajo, donde cada línea (separadas por el carácter de cambio de línea ‘\n’) contiene el nombre del producto, el número de unidades en stock, el precio (en €) y el descuento que tiene (en porcentaje), separados por punto y coma.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&#39;disco duro 500Gb;200;25;15\nmemoria ram 16Gb;500;30;20\nratón inalámbrico;800;12;10\ntarjeta wifi;150;20;12&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Construir un programa que genere, a partir de la cadena anterior, un diccionario como el de más abajo, donde cada par corresponda un producto, siendo la clave el nombre del producto y el valor una lista con el resto de la información del producto.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;{‘disco duro 500Gb’: [‘200’, ‘25’, ‘15’], ‘memoria ram 16Gb’: [‘500’, ‘30’, ‘20’], ‘ratón inalámbrico’: [‘800’, ‘12’, ‘10’], ‘tarjeta wifi’: [‘150’, ‘20’, ‘12’]}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Después el programa debe recorrer el diccionario y mostrar por pantalla un listado con los nombres de todos los productos en oferta y su precio final tras aplicar el descuento.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-03-25/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Examen de Inteligencia de los Negocios 2020-06-19</title>
       <link>/docencia/python/examenes/inteligencia-negocios/examen-python-2020-06-19/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
@@ -4123,9 +4185,6 @@ matemáticas
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-06-19/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;Escribir una función que tome una lista de números enteros desordenados y devuelva dos listas ordenadas. La primera con los números pares y la segunda con los números impares.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;{&#39;La&#39;: 1, &#39;caracola&#39;: 2, &#39;está&#39;: 1, &#39;enterrada&#39;: 1, &#39;al&#39;: 1, &#39;lado&#39;: 1, &#39;de&#39;: 2, &#39;otra&#39;: 1, &#39;color&#39;: 1}
-[&#39;caracola&#39;, &#39;de&#39;]
-&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2020-06-19/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;Escribir un programa para gestionar las citas de una consulta médica. La base de datos de citas debe estar en un fichero de nombre &lt;code&gt;citas.csv&lt;/code&gt;. Cada cita contendrá los campos &lt;code&gt;dni&lt;/code&gt;, &lt;code&gt;mes&lt;/code&gt;, &lt;code&gt;dia&lt;/code&gt;, &lt;code&gt;hora&lt;/code&gt; y &lt;code&gt;especialidad&lt;/code&gt;. No es necesario que la primera fila del csv contenga los nombres de los campos. El programa debe incluir las siguientes funciones:&lt;/p&gt;
@@ -4369,7 +4428,7 @@ Fecha: 27 de Mayo de 2019&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;Escribir un programa que pida al usuario un número entero $n$ y muestre por pantalla un triángulo el de más abajo.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;    * 
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;    * 
    ***
   *****
  *******

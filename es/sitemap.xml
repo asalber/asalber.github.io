@@ -233,7 +233,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2021-03-17T23:56:43+01:00</lastmod>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -245,14 +245,8 @@
                 href="/"
                 />
   </url><url>
-    <loc>/category/bioestadistica/</loc>
-    <lastmod>2021-03-09T23:31:34+01:00</lastmod>
-  </url><url>
-    <loc>/category/biotecnologia/</loc>
-    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2021-03-17T23:56:43+01:00</lastmod>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -264,23 +258,23 @@
                 href="/categories/"
                 />
   </url><url>
-    <loc>/category/estadistica/</loc>
-    <lastmod>2021-03-09T23:31:34+01:00</lastmod>
-  </url><url>
     <loc>/tag/examen/</loc>
-    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
   </url><url>
-    <loc>/docencia/calculo/examenes/farmacia/farmacia-2021-01-18/</loc>
-    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
+    <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-03-25/</loc>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
   </url><url>
-    <loc>/docencia/estadistica/examenes/farmacia/farmacia-2021-01-18/</loc>
-    <lastmod>2021-02-07T01:18:41+01:00</lastmod>
+    <loc>/category/inteligencia-de-los-negocios/</loc>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
   </url><url>
-    <loc>/category/farmacia/</loc>
-    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
+    <loc>/category/programacion/</loc>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
+  </url><url>
+    <loc>/category/python/</loc>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2021-03-17T23:56:43+01:00</lastmod>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -291,6 +285,24 @@
                 hreflang="es"
                 href="/tags/"
                 />
+  </url><url>
+    <loc>/category/bioestadistica/</loc>
+    <lastmod>2021-03-09T23:31:34+01:00</lastmod>
+  </url><url>
+    <loc>/category/biotecnologia/</loc>
+    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
+  </url><url>
+    <loc>/category/estadistica/</loc>
+    <lastmod>2021-03-09T23:31:34+01:00</lastmod>
+  </url><url>
+    <loc>/docencia/calculo/examenes/farmacia/farmacia-2021-01-18/</loc>
+    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
+  </url><url>
+    <loc>/docencia/estadistica/examenes/farmacia/farmacia-2021-01-18/</loc>
+    <lastmod>2021-02-07T01:18:41+01:00</lastmod>
+  </url><url>
+    <loc>/category/farmacia/</loc>
+    <lastmod>2021-02-07T20:58:21+01:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/examenes/optica/optica-2020-11-13/</loc>
     <lastmod>2020-11-13T18:39:22+01:00</lastmod>
@@ -360,16 +372,7 @@
                 />
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2020-06-19/</loc>
-    <lastmod>2020-09-22T13:28:25+02:00</lastmod>
-  </url><url>
-    <loc>/category/inteligencia-de-los-negocios/</loc>
-    <lastmod>2020-09-22T13:28:25+02:00</lastmod>
-  </url><url>
-    <loc>/category/programacion/</loc>
-    <lastmod>2021-03-17T23:56:43+01:00</lastmod>
-  </url><url>
-    <loc>/category/python/</loc>
-    <lastmod>2021-03-17T23:56:43+01:00</lastmod>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2020-05-27/</loc>
     <lastmod>2020-09-22T13:28:25+02:00</lastmod>
@@ -452,7 +455,7 @@
     <lastmod>2020-09-22T13:28:25+02:00</lastmod>
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2019-05-27/</loc>
-    <lastmod>2020-09-22T13:28:25+02:00</lastmod>
+    <lastmod>2021-03-25T22:44:54+01:00</lastmod>
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2019-03-27/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
