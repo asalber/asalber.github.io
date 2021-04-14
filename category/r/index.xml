@@ -73,7 +73,7 @@ Es importante asegurase de tener una versión de Mac OS X 10.11 o superior, ya q
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar los paquetes de los que depende rkTeaching&lt;/strong&gt;. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;remotes&amp;quot;))
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;multcomp&amp;quot;, &amp;quot;remotes&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -112,7 +112,7 @@ Debe seleccionarse la distribución correspondiente a Linux y seguir las instruc
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar los paquetes de los que depende rkTeaching&lt;/strong&gt;. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;remotes&amp;quot;))
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;multcomp&amp;quot;, &amp;quot;remotes&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;

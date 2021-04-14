@@ -74,7 +74,7 @@ It is required a Mac Os version 10.11 or higher.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Install the packages that rkTeaching depends on&lt;/strong&gt;. The rkTeaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;remotes&amp;quot;))
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;multcomp&amp;quot;, &amp;quot;remotes&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -112,7 +112,7 @@ You have to select the Linux distribution and follow the instructions there.&lt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Install the packages that rkTeaching depends on&lt;/strong&gt;. The rkTeaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;remotes&amp;quot;))
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;multcomp&amp;quot;, &amp;quot;remotes&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
