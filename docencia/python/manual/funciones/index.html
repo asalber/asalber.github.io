@@ -279,7 +279,7 @@
   <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png"><meta property="og:locale" content="es-es">
   
     
-    <meta property="article:modified_time" content="2020-09-15T23:48:20&#43;02:00">
+    <meta property="article:modified_time" content="2021-04-15T21:55:28&#43;02:00">
   
 
   
@@ -755,8 +755,8 @@
   <ul>
     <li><a href="#funciones-def">Funciones (<code>def</code>)</a>
       <ul>
-        <li><a href="#parámetros-de-una-función">Parámetros de una función</a></li>
-        <li><a href="#argumentos-de-la-llamada-a-una-función">Argumentos de la llamada a una función</a></li>
+        <li><a href="#parámetros-y-argumentos-de-una-función">Parámetros y argumentos de una función</a></li>
+        <li><a href="#paso-de-argumentos-a-una-función">Paso de argumentos a una función</a></li>
         <li><a href="#retorno-de-una-función">Retorno de una función</a></li>
       </ul>
     </li>
@@ -804,8 +804,9 @@
 &gt;&gt;&gt; bienvenida()
 ¡Bienvenido a Python!
 </code></pre>
-<h3 id="parámetros-de-una-función">Parámetros de una función</h3>
+<h3 id="parámetros-y-argumentos-de-una-función">Parámetros y argumentos de una función</h3>
 <p>Una función puede recibir valores cuando se invoca a través de unas variables conocidas como <em>parámetros</em> que se definen entre paréntesis en la declaración de la función. En el cuerpo de la función se pueden usar estos parámetros como si fuesen variables.</p>
+<p>Los valores que se pasan a la función en una llamada o invocación concreta de ella se conocen como <em>argumentos</em> y se asocian a los parámetros de la declaración de la función.</p>
 <pre><code class="language-python">&gt;&gt;&gt; def bienvenida(nombre):
 ...     print('¡Bienvenido a Python', nombre + '!')
 ...     return
@@ -813,12 +814,11 @@
 &gt;&gt;&gt; bienvenida('Alf')
 ¡Bienvenido a Python Alf!
 </code></pre>
-<h3 id="argumentos-de-la-llamada-a-una-función">Argumentos de la llamada a una función</h3>
-<p>Los valores que se pasan a la función en una llamada o invocación concreta de ella se conocen como <em>argumentos</em> y se asocian a los parámetros de la declaración de la función.</p>
-<p>Los argumentos se pueden indicar de dos formas:</p>
+<h3 id="paso-de-argumentos-a-una-función">Paso de argumentos a una función</h3>
+<p>Los argumentos se pueden pasar de dos formas:</p>
 <ul>
 <li><strong>Argumentos posicionales</strong>: Se asocian a los parámetros de la función en el mismo orden que aparecen en la definición de la función.</li>
-<li><strong>Argumentos por nombre</strong>: Se indica explícitamente el nombre del parámetro al que se asocia un argumento de la forma <code>parametro = argumento</code>.</li>
+<li><strong>Argumentos nominales</strong>: Se indica explícitamente el nombre del parámetro al que se asocia un argumento de la forma <code>parametro = argumento</code>.</li>
 </ul>
 <pre><code class="language-python">&gt;&gt;&gt; def bienvenida(nombre, apellido):
 ...     print('¡Bienvenido a Python', nombre, apellido + '!')
@@ -912,10 +912,10 @@ Java
 ... &quot;&quot;&quot;Función que calcula el área de un triángulo.
 ...
 ... Parámetros:
-...     - base: La base del triángulo.
-...     - altura: La altura del triángulo.
-... Resultado:
-...     El área del triángulo con la base y altura especificadas.
+...     - base: Un número real con la base del triángulo.
+...     - altura: Un número real con la altura del triángulo.
+... Salida:
+...     Un número real con el área del triángulo de base y altura especificadas.
 ... &quot;&quot;&quot;
 ...     return base * altura / 2
 ...
@@ -924,10 +924,10 @@ area_triangulo(base, altura)
     Función que calcula el área de un triángulo.
 
     Parámetros:
-        - base: La base del triángulo.
-        - altura: La altura del triángulo.
-    Resultado:
-        El área del triángulo con la base y altura especificadas.
+        - base: Un número real con la base del triángulo.
+        - altura: Un número real con la altura del triángulo.
+    Salida:
+        Un número real con el área del triángulo de base y altura especificadas.
 </code></pre>
 <h2 id="funciones-recursivas">Funciones recursivas</h2>
 <p>Una función recursiva es una función que en su cuerpo contiene una llama a si misma.</p>
@@ -1005,7 +1005,7 @@ area_triangulo(base, altura)
         </div>
 
         <div class="body-footer">
-          <p>Última actualización el Sep 15, 2020</p>
+          <p>Última actualización el Apr 15, 2021</p>
 
           
 

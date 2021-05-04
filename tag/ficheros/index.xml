@@ -109,7 +109,7 @@
 ¡Hasta pronto!
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;bienvenida.txt&#39;, &#39;r&#39;)
-... lineas = print(f.readlines())
+... lineas = f.readlines()
 &amp;gt;&amp;gt;&amp;gt; print(lineas)
 [&#39;Bienvenido a Python!\n&#39;, &#39;¡Hasta pronto!&#39;]
 &lt;/code&gt;&lt;/pre&gt;
