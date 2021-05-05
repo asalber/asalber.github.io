@@ -30,12 +30,10 @@
   
     
   
-  <meta name="description" content="Ejercicio 1 Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.
-Solución
-Ejercicio 2 Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla el mensaje Yo estudio &lt;asignatura&gt;, donde &lt;asignatura&gt; es cada una de las asignaturas de la lista.">
+  <meta name="description" content="Ejercicio 1 Escribir un programa que pregunte al usuario por las ventas de un rango de años y muestre por pantalla un diagrama de líneas con la evolución de las ventas.">
 
   
-  <link rel="alternate" hreflang="es-es" href="/docencia/python/ejercicios/listas-tuplas/">
+  <link rel="alternate" hreflang="es-es" href="/docencia/python/ejercicios/matplotlib/">
 
   
 
@@ -256,7 +254,7 @@ Ejercicio 2 Escribir un programa que almacene las asignaturas de un curso (por e
   <link rel="icon" type="image/png" href="/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/docencia/python/ejercicios/listas-tuplas/">
+  <link rel="canonical" href="/docencia/python/ejercicios/matplotlib/">
 
   
   
@@ -275,15 +273,13 @@ Ejercicio 2 Escribir un programa que almacene las asignaturas de un curso (por e
   <meta property="twitter:creator" content="@aprendeconalf">
   
   <meta property="og:site_name" content="Aprende con Alf">
-  <meta property="og:url" content="/docencia/python/ejercicios/listas-tuplas/">
-  <meta property="og:title" content="Ejercicios de Listas y Tuplas | Aprende con Alf">
-  <meta property="og:description" content="Ejercicio 1 Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.
-Solución
-Ejercicio 2 Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla el mensaje Yo estudio &lt;asignatura&gt;, donde &lt;asignatura&gt; es cada una de las asignaturas de la lista."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png">
+  <meta property="og:url" content="/docencia/python/ejercicios/matplotlib/">
+  <meta property="og:title" content="Ejercicios de la librería Matplotlib | Aprende con Alf">
+  <meta property="og:description" content="Ejercicio 1 Escribir un programa que pregunte al usuario por las ventas de un rango de años y muestre por pantalla un diagrama de líneas con la evolución de las ventas."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png">
   <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png"><meta property="og:locale" content="es-es">
   
     
-    <meta property="article:modified_time" content="2020-09-22T13:20:32&#43;02:00">
+    <meta property="article:modified_time" content="2021-05-05T23:51:05&#43;02:00">
   
 
   
@@ -302,7 +298,7 @@ Ejercicio 2 Escribir un programa que almacene las asignaturas de un curso (por e
 
 
 
-  <title>Ejercicios de Listas y Tuplas | Aprende con Alf</title>
+  <title>Ejercicios de la librería Matplotlib | Aprende con Alf</title>
 
 </head>
 
@@ -680,7 +676,7 @@ Ejercicio 2 Escribir un programa que almacene las asignaturas de un curso (por e
         
           <li class=""><a href="/docencia/python/ejercicios/bucles/">Bucles</a></li>
         
-          <li class="active"><a href="/docencia/python/ejercicios/listas-tuplas/">Listas y Tuplas</a></li>
+          <li class=""><a href="/docencia/python/ejercicios/listas-tuplas/">Listas y Tuplas</a></li>
         
           <li class=""><a href="/docencia/python/ejercicios/diccionarios/">Diccionarios</a></li>
         
@@ -696,7 +692,7 @@ Ejercicio 2 Escribir un programa que almacene las asignaturas de un curso (por e
         
           <li class=""><a href="/docencia/python/ejercicios/pandas/">Librería Pandas</a></li>
         
-          <li class=""><a href="/docencia/python/ejercicios/matplotlib/">Librería Matplotlib</a></li>
+          <li class="active"><a href="/docencia/python/ejercicios/matplotlib/">Librería Matplotlib</a></li>
         </ul>
 </nav>
 
@@ -717,13 +713,6 @@ Ejercicio 2 Escribir un programa que almacene las asignaturas de un curso (por e
     <li><a href="#ejercicio-4">Ejercicio 4</a></li>
     <li><a href="#ejercicio-5">Ejercicio 5</a></li>
     <li><a href="#ejercicio-6">Ejercicio 6</a></li>
-    <li><a href="#ejercicio-7">Ejercicio 7</a></li>
-    <li><a href="#ejercicio-8">Ejercicio 8</a></li>
-    <li><a href="#ejercicio-9">Ejercicio 9</a></li>
-    <li><a href="#ejercicio-10">Ejercicio 10</a></li>
-    <li><a href="#ejercicio-11">Ejercicio 11</a></li>
-    <li><a href="#ejercicio-12">Ejercicio 12</a></li>
-    <li><a href="#ejercicio-13">Ejercicio 13</a></li>
   </ul>
 </nav>
 
@@ -736,67 +725,69 @@ Ejercicio 2 Escribir un programa que almacene las asignaturas de un curso (por e
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Ejercicios de Listas y Tuplas</h1>
+          <h1>Ejercicios de la librería Matplotlib</h1>
 
           <div class="article-style">
             <h2 id="ejercicio-1">Ejercicio 1</h2>
-<p>Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio1.ipynb" class="btn btn-info">Solución</a></p>
+<p>Escribir un programa que pregunte al usuario por las ventas de un rango de años y muestre por pantalla un diagrama de líneas con la evolución de las ventas.</p>
+<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/matplotlib/ejercicio1.ipynb" class="btn btn-info">Solución</a></p>
 <h2 id="ejercicio-2">Ejercicio 2</h2>
-<p>Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla el mensaje <code>Yo estudio &lt;asignatura&gt;</code>, donde <code>&lt;asignatura&gt;</code> es cada una de las asignaturas de la lista.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio2.ipynb" class="btn btn-info">Solución</a></p>
+<p>Escribir una función que reciba una diccionario con las notas de las asignaturas de un curso y una cadena con el nombre de un color y devuelva un diagrama de barras de las notas en el color dado.</p>
+<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/matplotlib/ejercicio2.ipynb" class="btn btn-info">Solución</a></p>
 <h2 id="ejercicio-3">Ejercicio 3</h2>
-<p>Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte al usuario la nota que ha sacado en cada asignatura, y después las muestre por pantalla con el mensaje <code>En &lt;asignatura&gt; has sacado &lt;nota&gt;</code> donde <code>&lt;asignatura&gt;</code> es cada una des las asignaturas de la lista y <code>&lt;nota&gt;</code> cada una de las correspondientes notas introducidas por el usuario.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio3.ipynb" class="btn btn-info">Solución</a></p>
+<p>Escribir una función que reciba una serie de Pandas con las notas de los alumnos de un curso y devuelva un diagrama de cajas con las notas. El diagrama debe tener el título &ldquo;Distribución de notas&rdquo;.</p>
+<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/matplotlib/ejercicio3.ipynb" class="btn btn-info">Solución</a></p>
 <h2 id="ejercicio-4">Ejercicio 4</h2>
-<p>Escribir un programa que pregunte al usuario los números ganadores de la lotería primitiva, los almacene en una lista y los muestre por pantalla ordenados de menor a mayor.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio4.ipynb" class="btn btn-info">Solución</a></p>
+<p>Escribir una función que reciba una serie de Pandas con el número de ventas de un producto durante los meses de un trimestre y un título y cree un diagrama de sectores con las ventas en formato png con el titulo dado. El diagrama debe guardarse en un fichero con formato png y el título dado.</p>
+<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/matplotlib/ejercicio4.ipynb" class="btn btn-info">Solución</a></p>
 <h2 id="ejercicio-5">Ejercicio 5</h2>
-<p>Escribir un programa que almacene en una lista los números del 1 al 10 y los muestre por pantalla en orden inverso separados por comas.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio5.ipynb" class="btn btn-info">Solución</a></p>
+<p>Escribir una función que reciba una serie de Pandas con el número de ventas de un producto por años y una cadena con el tipo de gráfico a generar (lineas, barras, sectores, areas) y devuelva un diagrama del tipo indicado con la evolución de las ventas por años y con el título &ldquo;Evolución del númer de ventas&rdquo;.</p>
+<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/matplotlib/ejercicio5.ipynb" class="btn btn-info">Solución</a></p>
 <h2 id="ejercicio-6">Ejercicio 6</h2>
-<p>Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte al usuario la nota que ha sacado en cada asignatura y elimine de la lista las asignaturas aprobadas. Al final el programa debe mostrar por pantalla las asignaturas que el usuario tiene que repetir.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio6.ipynb" class="btn btn-info">Solución</a></p>
-<h2 id="ejercicio-7">Ejercicio 7</h2>
-<p>Escribir un programa que almacene el abecedario en una lista, elimine de la lista las letras que ocupen posiciones múltiplos de 3, y muestre por pantalla la lista resultante.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio7.ipynb" class="btn btn-info">Solución</a></p>
-<h2 id="ejercicio-8">Ejercicio 8</h2>
-<p>Escribir un programa que pida al usuario una palabra y muestre por pantalla si es un palíndromo.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio8.ipynb" class="btn btn-info">Solución</a></p>
-<h2 id="ejercicio-9">Ejercicio 9</h2>
-<p>Escribir un programa que pida al usuario una palabra y muestre por pantalla el número de veces que contiene cada vocal.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio9.ipynb" class="btn btn-info">Solución</a></p>
-<h2 id="ejercicio-10">Ejercicio 10</h2>
-<p>Escribir un programa que almacene en una lista los siguientes precios, 50, 75, 46, 22, 80, 65, 8, y muestre por pantalla el menor y el mayor de los precios.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio10.ipynb" class="btn btn-info">Solución</a></p>
-<h2 id="ejercicio-11">Ejercicio 11</h2>
-<p>Escribir un programa que almacene los vectores (1,2,3) y (-1,0,2) en dos listas y muestre por pantalla su producto escalar.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio11.ipynb" class="btn btn-info">Solución</a></p>
-<h2 id="ejercicio-12">Ejercicio 12</h2>
-<p>Escribir un programa que almacene las matrices
-$$
-A = \left(
-\begin{array}{rrr}
-1 &amp; 2 &amp; 3\<br>
-4 &amp; 5 &amp; 6
-\end{array}
-\right)
-\quad  y
-\quad
-B = \left(
-\begin{array}{rr}
--1 &amp; 0\<br>
-0 &amp; 1\<br>
-1 &amp; 1
-\end{array}
-\right)
-$$</p>
-<p>en una lista y muestre por pantalla su producto.<br>
-Nota: Para representar matrices mediante listas usar listas anidadas, representando cada vector fila en una lista.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio12.ipynb" class="btn btn-info">Solución</a></p>
-<h2 id="ejercicio-13">Ejercicio 13</h2>
-<p>Escribir un programa que pregunte por una muestra de números, separados por comas, los guarde en una lista y muestre por pantalla su media y desviación típica.</p>
-<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio13.ipynb" class="btn btn-info">Solución</a></p>
+<p>Escribir una función que reciba un dataframe de Pandas con los ingresos y gastos de una empresa por meses y devuelva un diagrama de líneas con dos líneas, una para los ingresos y otra para los gastos. El diagrama debe tener una leyenda identificando la línea de los ingresos y la de los gastos, un título con el nombre &ldquo;Evolución de ingresos y gastos&rdquo; y el eje y debe empezar en 0.</p>
+<p><a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/matplotlib/ejercicio6.ipynb" class="btn btn-info">Solución</a></p>
+<!-- ## Ejercicio 6
+El fichero [`cotizacion.csv`](../soluciones/matplotlib/cotizacion.csv) contiene las cotizaciones de las empresas del IBEX35 con las siguientes columnas: `nombre` (nombre de la empresa), `Final` (precio de la acción al cierre de bolsa), `Máximo` (precio máximo de la acción durante la jornada), `Mínimo` (precio mínimo de la acción durante la jornada), `volumen` (Volumen al cierre de bolsa), `Efectivo` (capitalización al cierre en miles de euros). Construir una función que construya un DataFrame a partir del un fichero con el formato anterior y devuelva otro DataFrame con el mínimo, el máximo y la media de dada columna.
+
+<a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/matplotlib/ejercicio6.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 7
+
+El fichero [titanic.csv](../soluciones/matplotlib/titanic.csv) contiene información sobre los pasajeros del Titanic. Escribir un programa con los siguientes requisitos:
+
+1. Generar un DataFrame con los datos del fichero.
+2. Mostrar por pantalla las dimensiones del DataFrame, el número de datos que contiene, los nombres de sus columnas y filas, los tipos de datos de las columnas, las 10 primeras filas y las 10 últimas filas
+3. Mostrar por pantalla los datos del pasajero con identificador 148.
+4. Mostrar por pantalla las filas pares del DataFrame.
+5. Mostrar por pantalla los nombres de las personas que iban en primera clase ordenadas alfabéticamente.
+6. Mostrar por pantalla el porcentaje de personas que sobrevivieron y murieron.
+7. Mostrar por pantalla el porcentaje de personas que sobrevivieron en cada clase.
+8. Eliminar del DataFrame los pasajeros con edad desconocida.
+9. Mostrar por pantalla la edad media de las mujeres que viajaban en cada clase.
+10. Añadir una nueva columna booleana para ver si el pasajero era menor de edad o no.
+11. Mostrar por pantalla el porcentaje de menores y mayores de edad que sobrevivieron en cada clase.
+
+<a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/matplotlib/ejercicio7.ipynb" class="btn btn-info">Solución</a>
+
+## Ejercicio 8
+
+Los ficheros [emisiones-2016.csv](../soluciones/matplotlib/emisiones-2016.csv), [emisiones-2017.csv](../soluciones/matplotlib/emisiones-2017.csv), [emisiones-2018.csv](../soluciones/matplotlib/emisiones-2018.csv) y [emisiones-2019.csv](../soluciones/matplotlib/emisiones-2019.csv), contienen datos sobre las emisiones contaminates en la ciudad de Madrid en los años 2016, 2017, 2018 y 2019 respectivamente. Escribir un programa con los siguientes requisitos:
+
+1. Generar un DataFrame con los datos de los cuatro ficheros.
+2. Filtrar las columnas del DataFrame para quedarse con las columnas ESTACION, MAGNITUD, AÑO, MES y las correspondientes a los días D01, D02, etc. 
+3. Reestructurar el DataFrame para que los valores de los contaminantes de las columnas de los días aparezcan en una única columna.
+4. Añadir una columna con la fecha a partir de la concatenación del año, el mes y el día (usar el módulo `datetime`).
+5. Eliminar las filas con fechas no válidas (utilizar la función `isnat` del módulo `numpy`) y ordenar el DataFrame por estaciones, contaminantes y fecha.
+6. Mostrar por pantalla las estaciones y los contaminantes disponibles en el DataFrame.
+7. Crear una función que reciba una estación, un contaminante y un rango de fechas y devuelva una serie con las emisiones del contaminante dado en la estación y rango de fechas dado.
+8. Mostrar un resumen descriptivo (mímino, máximo, media, etc) para cada contaminante.
+9. Mostrar un resumen descriptivo para cada contaminente por distritos.
+10. Crear una función que reciba una estación y un contaminante y devuelva un resumen descriptivo de las emisiones del contaminante indicado en la estadión indicada. 
+11. Crear una función que devuelva las emisiones medias mensuales de un contaminante y un año dados para todos las estaciones.
+12. Crear un función que reciba una estación de medición y devuelva un DataFrame con las medias mensuales de los distintos tipos de contaminantes.
+
+<a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/matplotlib/ejercicio8.ipynb" class="btn btn-info">Solución</a> --><blockquote>
+</blockquote>
 
           </div>
 
@@ -806,9 +797,7 @@ Nota: Para representar matrices mediante listas usar listas anidadas, representa
   
   <a class="badge badge-light" href="/tag/ejercicios/">Ejercicios</a>
   
-  <a class="badge badge-light" href="/tag/listas/">Listas</a>
-  
-  <a class="badge badge-light" href="/tag/tuplas/">Tuplas</a>
+  <a class="badge badge-light" href="/tag/matplotlib/">Matplotlib</a>
   
 </div>
 
@@ -824,15 +813,9 @@ Nota: Para representar matrices mediante listas usar listas anidadas, representa
   
   <div class="post-nav-item">
     <div class="meta-nav">Anterior</div>
-    <a href="/docencia/python/ejercicios/bucles/" rel="next">Ejercicios de Bucles</a>
+    <a href="/docencia/python/ejercicios/pandas/" rel="next">Ejercicios de la Librería Pandas</a>
   </div>
   
-  
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">Siguiente</div>
-    <a href="/docencia/python/ejercicios/diccionarios/" rel="prev">Ejercicios de Diccionarios</a>
-  </div>
   
 </div>
 
@@ -841,7 +824,7 @@ Nota: Para representar matrices mediante listas usar listas anidadas, representa
         </div>
 
         <div class="body-footer">
-          <p>Última actualización el Sep 22, 2020</p>
+          <p>Última actualización el May 5, 2021</p>
 
           
 
