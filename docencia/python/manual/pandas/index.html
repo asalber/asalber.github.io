@@ -283,7 +283,7 @@ Las principales características de esta librería son:
   <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png"><meta property="og:locale" content="es-es">
   
     
-    <meta property="article:modified_time" content="2021-05-05T23:51:05&#43;02:00">
+    <meta property="article:modified_time" content="2021-05-14T00:04:39&#43;02:00">
   
 
   
@@ -791,6 +791,7 @@ Las principales características de esta librería son:
     <li><a href="#añadir-columnas-a-un-dataframe">Añadir columnas a un DataFrame</a></li>
     <li><a href="#operaciones-sobre-columnas">Operaciones sobre columnas</a></li>
     <li><a href="#aplicar-funciones-a-columnas">Aplicar funciones a columnas</a></li>
+    <li><a href="#convertir-una-columna-al-tipo-datetime">Convertir una columna al tipo <code>datetime</code></a></li>
     <li><a href="#resumen-descriptivo-de-un-dataframe">Resumen descriptivo de un DataFrame</a></li>
     <li><a href="#eliminar-columnas-de-un-dataframe">Eliminar columnas de un DataFrame</a></li>
     <li><a href="#operaciones-con-las-filas-de-un-dataframe">Operaciones con las filas de un DataFrame</a></li>
@@ -1385,6 +1386,20 @@ edad                   32
 2     0.593327
 ...
 </code></pre>
+<h2 id="convertir-una-columna-al-tipo-datetime">Convertir una columna al tipo <code>datetime</code></h2>
+<p>A menudo una columna contiene cadenas que representan fechas. Para convertir estas cadenas al tipo <code>datetime</code> se utiliza el siguiente método:</p>
+<ul>
+<li><code>to_datetime(columna, formato)</code>: Devuelve la serie que resulta de convertir las cadenas de la columna con el nombre <code>columna</code> en fechas del tipo <code>datetime</code> con el formado especificado en <code>formato</code>. (
+<a href="../datetime/">Ver librería datetime</a>)</li>
+</ul>
+<pre><code class="language-python">&gt;&gt;&gt; import pandas as pd
+&gt;&gt;&gt; df = pd.DataFrame({'Name': ['María', 'Carlos', 'Carmen'], 'Nacimiento':['05-03-2000', '20-05-2001', '10-12-1999']})
+&gt;&gt;&gt; print(pd.to_datetime(df.Nacimiento, format = '%d-%m-%Y'))
+0   2000-03-05
+1   2001-05-20
+2   1999-12-10
+Name: Nacimiento, dtype: datetime64[ns]
+</code></pre>
 <h2 id="resumen-descriptivo-de-un-dataframe">Resumen descriptivo de un DataFrame</h2>
 <p>Al igual que para las series, los siguientes métodos permiten resumir la información de un DataFrame por columnas:</p>
 <ul>
@@ -1663,7 +1678,7 @@ María            8.0          8.5           6.5
         </div>
 
         <div class="body-footer">
-          <p>Última actualización el May 5, 2021</p>
+          <p>Última actualización el May 14, 2021</p>
 
           
 

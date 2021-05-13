@@ -4901,6 +4901,20 @@ edad                   32
 2     0.593327
 ...
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;convertir-una-columna-al-tipo-datetime&#34;&gt;Convertir una columna al tipo &lt;code&gt;datetime&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;A menudo una columna contiene cadenas que representan fechas. Para convertir estas cadenas al tipo &lt;code&gt;datetime&lt;/code&gt; se utiliza el siguiente método:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;to_datetime(columna, formato)&lt;/code&gt;: Devuelve la serie que resulta de convertir las cadenas de la columna con el nombre &lt;code&gt;columna&lt;/code&gt; en fechas del tipo &lt;code&gt;datetime&lt;/code&gt; con el formado especificado en &lt;code&gt;formato&lt;/code&gt;. (
+&lt;a href=&#34;../datetime/&#34;&gt;Ver librería datetime&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
+&amp;gt;&amp;gt;&amp;gt; df = pd.DataFrame({&#39;Name&#39;: [&#39;María&#39;, &#39;Carlos&#39;, &#39;Carmen&#39;], &#39;Nacimiento&#39;:[&#39;05-03-2000&#39;, &#39;20-05-2001&#39;, &#39;10-12-1999&#39;]})
+&amp;gt;&amp;gt;&amp;gt; print(pd.to_datetime(df.Nacimiento, format = &#39;%d-%m-%Y&#39;))
+0   2000-03-05
+1   2001-05-20
+2   1999-12-10
+Name: Nacimiento, dtype: datetime64[ns]
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;resumen-descriptivo-de-un-dataframe&#34;&gt;Resumen descriptivo de un DataFrame&lt;/h2&gt;
 &lt;p&gt;Al igual que para las series, los siguientes métodos permiten resumir la información de un DataFrame por columnas:&lt;/p&gt;
 &lt;ul&gt;
