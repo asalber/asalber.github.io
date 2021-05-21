@@ -4742,5 +4742,56 @@ Fecha: 27 de Marzo de 2019&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Estrellas regulares</title>
+      <link>/docencia/python/retos/estrellas-regulares/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <guid>/docencia/python/retos/estrellas-regulares/</guid>
+      <description>&lt;h2 id=&#34;tarea&#34;&gt;Tarea&lt;/h2&gt;
+&lt;p&gt;El reto consiste en programar una función que dibuje estrellas como la que aparece a continuación con un número de puntas dado.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;img/estrella.png&#34; alt=&#34;Estrella&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Para ello hay que utilizar el módulo de Python 
+&lt;a href=&#34;https://docs.python.org/3/library/turtle.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Turtle&lt;/a&gt; que permite realizar trazos sencillos en una ventana gráfica.&lt;/p&gt;
+&lt;p&gt;En el siguiente video hay una introducción básica al módulo Turtle.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/cX9efszLbJw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;Y también dispones de una 
+&lt;a href=&#34;doc/PythonTurtle-cheatsheet.pdf&#34;&gt;hoja de resumen con las principales funciones de Turtle&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/retos/soluciones/dibujo-estrellas-turtle.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Laberinto</title>
+      <link>/docencia/python/retos/laberinto/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <guid>/docencia/python/retos/laberinto/</guid>
+      <description>&lt;h2 id=&#34;tarea-1&#34;&gt;Tarea 1&lt;/h2&gt;
+&lt;p&gt;La primera tarea consiste en construir un laberinto como el de la siguiente figura.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;img/laberinto.png&#34; alt=&#34;Laberinto&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El laberinto se representará como una una lista de listas, donde cada lista es una fila del laberinto y cada casilla se representará con un espacio &#39; &#39; si hay paso o con la letra &amp;lsquo;X&amp;rsquo; si hay un muro, tal y como se muestra a continuación:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;laberinto = [
+    [&#39; &#39;, &#39;X&#39;, &#39;X&#39;, &#39;X&#39;, &#39;X&#39;], 
+    [&#39; &#39;, &#39;X&#39;, &#39; &#39;, &#39; &#39;, &#39; &#39;],
+    [&#39; &#39;, &#39;X&#39;, &#39; &#39;, &#39;X&#39;, &#39; &#39;], 
+    [&#39; &#39;, &#39; &#39;, &#39; &#39;, &#39;X&#39;, &#39; &#39;], 
+    [&#39;X&#39;, &#39;X&#39;, &#39;X&#39;, &#39;X&#39;, &#39;S&#39;]
+    ]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;El laberinto se debe crear a partir de una tupla con las coordenadas de las casillas donde hay muro, como la siguiente:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;muro = ((0,1), (0,2), (0,3), (0,4), (1,1), (2,1), (2,3), (3,3), (4,0), (4,1), (4,2), (4,3))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;tarea-2&#34;&gt;Tarea 2&lt;/h2&gt;
+&lt;p&gt;La segunda tarea a resolver consiste en construir un programa para recorrer el laberinto desde la entrada a la salida. La entrada siempre está en la esquina superior izquierda y la salida en la esquina inferior derecha.&lt;/p&gt;
+&lt;p&gt;El programa debe devolver una lista con la secuencia de movimientos para ir de la entrada a la salida del laberinto, tal y como se muestra a continuación:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;[&#39;Abajo&#39;, &#39;Abajo&#39;, &#39;Abajo&#39;, &#39;Abajo&#39;, &#39;Derecha&#39;, &#39;Derecha&#39;, &#39;Arriba&#39;, &#39;Arriba&#39;, &#39;Derecha&#39;, &#39;Derecha&#39;, &#39;Abajo&#39;, &#39;Abajo&#39;, &#39;Abajo&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/retos/soluciones/laberinto.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
