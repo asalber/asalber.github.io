@@ -6142,6 +6142,34 @@ Pues es una aplicación que permite gestionar los cambios que se realizan sobre 
     </item>
     
     <item>
+      <title>Ajedrez</title>
+      <link>/docencia/python/retos/ajedrez/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <guid>/docencia/python/retos/ajedrez/</guid>
+      <description>&lt;h2 id=&#34;tarea-1&#34;&gt;Tarea 1&lt;/h2&gt;
+&lt;p&gt;La primera tarea consiste en escribir un programa que guarde en un fichero la secuencia de tableros de una partida de ajedrez. Partiremos del tablero inicial donde las filas del tablero están separadas por cambios de línea y las columnas por tabuladores.&lt;/p&gt;
+&lt;p&gt;El programa debe guardar el tablero inicial en un fichero con el nombre que elija el usuario. Después debe preguntar al usuario si quiere hacer un movimiento o terminar la partida. Cada vez que el usuario quiera hacer un nuevo movimiento debe preguntar la fila y la columna de la pieza que quiere mover y la fila y la columna a la que la quiere mover. Tras ello añadirá el tablero resultante al final del fichero anterior.&lt;/p&gt;
+&lt;p&gt;El fichero 
+&lt;a href=&#34;doc/partida-ajedrez.txt&#34;&gt;partida-ajedrez.txt&lt;/a&gt; contiene un ejemplo con el fichero resultante de una partida con 3 movimientos.&lt;/p&gt;
+&lt;h2 id=&#34;tarea-2&#34;&gt;Tarea 2&lt;/h2&gt;
+&lt;p&gt;Una vez generado el fichero con los tableros sucesivos de una partida de ajedrez, el programa preguntará por un movimiento y mostrará por pantalla el tablero correspondiente ese movimiento.
+Por ejemplo, utilizando el fichero 
+&lt;a href=&#34;doc/partida-ajedrez.txt&#34;&gt;partida-ajedrez.txt&lt;/a&gt;, si el usuario introduce el movimiento 2, debería mostrar por pantalla el siguiente tablero:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;♜	♞	♝	♛	♚	♝	♞	♜
+♟	♟	♟		♟	♟	♟	♟
+							
+			♟				
+						♙	
+							
+♙	♙	♙	♙	♙	♙		♙
+♖	♘	♗	♕	♔	♗	♘	♖
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;solución&#34;&gt;Solución&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/retos/soluciones/ajedrez.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Contratos menores de Madrid</title>
       <link>/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
