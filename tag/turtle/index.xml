@@ -19,7 +19,7 @@
       <guid>/docencia/python/retos/estrellas-regulares/</guid>
       <description>&lt;h2 id=&#34;tarea&#34;&gt;Tarea&lt;/h2&gt;
 &lt;p&gt;El reto consiste en programar una función que dibuje estrellas como la que aparece a continuación con un número de puntas dado.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/estrella.png&#34; alt=&#34;Estrella&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/estrella.png&#34; alt=&#34;Estrella&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Para ello hay que utilizar el módulo de Python 
 &lt;a href=&#34;https://docs.python.org/3/library/turtle.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Turtle&lt;/a&gt; que permite realizar trazos sencillos en una ventana gráfica.&lt;/p&gt;
 &lt;p&gt;En el siguiente video hay una introducción básica al módulo Turtle.&lt;/p&gt;
