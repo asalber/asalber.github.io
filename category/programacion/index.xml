@@ -5185,7 +5185,8 @@ fijo : 919654665
 &lt;p>Realizar la siguiente gráfica.
 &lt;img src="../img/diagrama-barras-provincias.png" alt="&amp;lsquo;Recta de regresión&amp;rsquo;">&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Examen de Inteligencia de los Negocios 2021-05-26</title><link>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</link><pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate><guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</guid><description>&lt;p>Grado: Inteligencia de los Negocios&lt;br>
+&lt;/ol>
+&lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-06-05/ejercicio6.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p></description></item><item><title>Examen de Inteligencia de los Negocios 2021-05-26</title><link>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</link><pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate><guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</guid><description>&lt;p>Grado: Inteligencia de los Negocios&lt;br>
 Fecha: 26 de mayo de 2021&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>Dadas dos listas de números del mismo tamaño &lt;code>x&lt;/code> e &lt;code>y&lt;/code>, construir las siguientes funciones:&lt;/p>
