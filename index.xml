@@ -18535,9 +18535,9 @@ Son miembros de la Unidad de Bioestadística de esta universidad en la que han r
 &lt;/ul>
 &lt;h2 id="dónde-adquirirlo">¿Dónde adquirirlo?&lt;/h2>
 &lt;p>El libro puede adquirirse en la página web de
-&lt;a href="https://www.ceuediciones.es/catalogo/libros/medicina/bioestadistica-aplicada-con-spss/" target="_blank" rel="noopener">CEU Ediciones&lt;/a>.&lt;/p></description></item><item><title>Manual de Python</title><link>/docencia/python/manual/title-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/title-page/</guid><description/></item><item><title>Tipos de estudios estadísticos</title><link>/docencia/r/estudios-estadisticos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/r/estudios-estadisticos/</guid><description>&lt;pre>&lt;code class="language-r">library(knitr)
-library(tidyverse)
-library(kableExtra)
+&lt;a href="https://www.ceuediciones.es/catalogo/libros/medicina/bioestadistica-aplicada-con-spss/" target="_blank" rel="noopener">CEU Ediciones&lt;/a>.&lt;/p></description></item><item><title>Manual de Python</title><link>/docencia/python/manual/title-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/title-page/</guid><description/></item><item><title>Tipos de estudios estadísticos</title><link>/docencia/r/estudios-estadisticos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/r/estudios-estadisticos/</guid><description>&lt;p>Los ejemplos de los distintos test que se presentan a continuación se han realizado a partir del siguiente conjunto de datos que contiene las notas y calificaciones de un curso. El fichero con los datos puede descargarse aquí para reproducir los estudios:
+&lt;a href="datos/datos-curso.csv">datos-curso.csv&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="language-r">library(tidyverse)
 &lt;/code>&lt;/pre>
 &lt;h2 id="una-variable-cuantitativa">Una variable cuantitativa&lt;/h2>
 &lt;h3 id="estudios-descriptivos">Estudios descriptivos&lt;/h3>
