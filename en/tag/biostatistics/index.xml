@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Biostatistics | Aprende con Alf</title><link>/en/tag/biostatistics/</link><atom:link href="/en/tag/biostatistics/index.xml" rel="self" type="application/rss+xml"/><description>Biostatistics</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url><title>Biostatistics</title><link>/en/tag/biostatistics/</link></image><item><title>Descriptive Statistics</title><link>/en/teaching/statistics/manual/descriptive-statistics/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/descriptive-statistics/</guid><description>&lt;p>Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Biostatistics | Aprende con Alf</title><link>/en/tag/biostatistics/</link><atom:link href="/en/tag/biostatistics/index.xml" rel="self" type="application/rss+xml"/><description>Biostatistics</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Biostatistics</title><link>/en/tag/biostatistics/</link></image><item><title>Descriptive Statistics</title><link>/en/teaching/statistics/manual/descriptive-statistics/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/descriptive-statistics/</guid><description>&lt;p>Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.&lt;/p>
 &lt;p>After the sampling process, this is the next step in every statistical study and usually consists of:&lt;/p>
 &lt;ol>
 &lt;li>
@@ -198,7 +198,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-745621983" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-523687149" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -207,7 +207,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-745621983', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-523687149', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();

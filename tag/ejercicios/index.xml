@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ejercicios | Aprende con Alf</title><link>/tag/ejercicios/</link><atom:link href="/tag/ejercicios/index.xml" rel="self" type="application/rss+xml"/><description>Ejercicios</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url><title>Ejercicios</title><link>/tag/ejercicios/</link></image><item><title>Ejercicios de creación y actualización de repositorios</title><link>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</guid><description>&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ejercicios | Aprende con Alf</title><link>/tag/ejercicios/</link><atom:link href="/tag/ejercicios/index.xml" rel="self" type="application/rss+xml"/><description>Ejercicios</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Ejercicios</title><link>/tag/ejercicios/</link></image><item><title>Ejercicios de creación y actualización de repositorios</title><link>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</guid><description>&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>Configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de la salida. Mostrar la configuración final.&lt;/p>
 &lt;div class="spoiler " >
 &lt;p>
@@ -477,7 +477,8 @@ Los ingredientes para cada tipo de pizza aparecen a continuación.&lt;/p>
 Solo se puede eligir un ingrediente además de la mozzarella y el tomate que están en todas la pizzas.
 Al final se debe mostrar por pantalla si la pizza elegida es vegetariana o no y todos los ingredientes que lleva.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/condicionales/ejercicio10.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p></description></item><item><title>Ejercicios de manejo del historial de cambios</title><link>/docencia/git/ejercicios/historial-cambios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/historial-cambios/</guid><description>&lt;p>&lt;i class="fas fa-exclamation-triangle" style="color:red">&lt;/i> Para hacer estos ejercicios es necesario haber hecho antes los
-&lt;a href="/git/ejercicios/creacion-actualizacion-repositorios.html">ejercicios de creación y actualización de repositorios&lt;/a> o bien hacer un clon del repositorio remoto &lt;a href="https://github.com/asalber/libro-git">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
+&lt;a href="/git/ejercicios/creacion-actualizacion-repositorios.html">ejercicios de creación y actualización de repositorios&lt;/a> o bien hacer un clon del repositorio remoto
+&lt;a href="https://github.com/asalber/libro-git" target="_blank" rel="noopener">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
 &lt;pre>&lt;code class="language-sh">&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard 8c808
@@ -712,7 +713,8 @@ Resolución
 &lt;h2 id="ejercicio-13">Ejercicio 13&lt;/h2>
 &lt;p>Escribir un programa que muestre el eco de todo lo que el usuario introduzca hasta que el usuario escriba “salir” que terminará.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/bucles/ejercicio13.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p></description></item><item><title>Ejercicios de deshacer cambios</title><link>/docencia/git/ejercicios/deshacer-cambios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/deshacer-cambios/</guid><description>&lt;p>&lt;i class="fas fa-exclamation-triangle" style="color:red">&lt;/i> Para hacer estos ejercicios es necesario haber hecho antes los
-&lt;a href="/git/ejercicios/historial-cambios.html">ejercicios sobre historial de cambios&lt;/a> o bien hacer un clon del repositorio remoto &lt;a href="https://github.com/asalber/libro-git">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
+&lt;a href="/git/ejercicios/historial-cambios.html">ejercicios sobre historial de cambios&lt;/a> o bien hacer un clon del repositorio remoto
+&lt;a href="https://github.com/asalber/libro-git" target="_blank" rel="noopener">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
 &lt;pre>&lt;code>&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard 48ed8
@@ -951,7 +953,8 @@ Nota: Para representar matrices mediante listas usar listas anidadas, representa
 &lt;h2 id="ejercicio-13">Ejercicio 13&lt;/h2>
 &lt;p>Escribir un programa que pregunte por una muestra de números, separados por comas, los guarde en una lista y muestre por pantalla su media y desviación típica.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/listas-tuplas/ejercicio13.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p></description></item><item><title>Ejercicios de gestión de ramas</title><link>/docencia/git/ejercicios/ramas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/ramas/</guid><description>&lt;p>&lt;i class="fas fa-exclamation-triangle" style="color:red">&lt;/i> Para hacer estos ejercicios es necesario haber hecho antes los
-&lt;a href="/git/ejercicios/historial-cambios.html">ejercicios sobre historial de cambios&lt;/a> o bien hacer un clon del repositorio remoto &lt;a href="https://github.com/asalber/libro-git">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
+&lt;a href="/git/ejercicios/historial-cambios.html">ejercicios sobre historial de cambios&lt;/a> o bien hacer un clon del repositorio remoto
+&lt;a href="https://github.com/asalber/libro-git" target="_blank" rel="noopener">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
 &lt;pre>&lt;code>&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard 48ed8
@@ -1291,7 +1294,8 @@ Resolución
 &lt;pre>&lt;code class="language-Python">{'01234567L': {'nombre': 'Luis González', 'email': 'luisgonzalez@mail.com', 'teléfono': '656343576', 'descuento': 12.5}, '71476342J': {'nombre': 'Macarena Ramírez', 'email': 'macarena@mail.com', 'teléfono': '692839321', 'descuento': 8.0}, '63823376M': {'nombre': 'Juan José Martínez', 'email': 'juanjo@mail.com', 'teléfono': '664888233', 'descuento': 5.2}, '98376547F': {'nombre': 'Carmen Sánchez', 'email': 'carmen@mail.com', 'teléfono': '667677855', 'descuento': 15.7}}
 &lt;/code>&lt;/pre>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/diccionarios/ejercicio11.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p></description></item><item><title>Ejercicios de repositorios remotos</title><link>/docencia/git/ejercicios/repositorios-remotos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/repositorios-remotos/</guid><description>&lt;p>&lt;i class="fas fa-exclamation-triangle" style="color:red">&lt;/i> Para hacer estos ejercicios es necesario haber hecho antes los
-&lt;a href="/git/ejercicios/ramas.html">ejercicios sobre ramas&lt;/a> o bien hacer un clon del repositorio remoto &lt;a href="https://github.com/asalber/libro-git">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
+&lt;a href="/git/ejercicios/ramas.html">ejercicios sobre ramas&lt;/a> o bien hacer un clon del repositorio remoto
+&lt;a href="https://github.com/asalber/libro-git" target="_blank" rel="noopener">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
 &lt;pre>&lt;code class="language-sh">&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard cb1e4

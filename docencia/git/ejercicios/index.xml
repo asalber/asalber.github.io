@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ejercicios de Git | Aprende con Alf</title><link>/docencia/git/ejercicios/</link><atom:link href="/docencia/git/ejercicios/index.xml" rel="self" type="application/rss+xml"/><description>Ejercicios de Git</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url><title>Ejercicios de Git</title><link>/docencia/git/ejercicios/</link></image><item><title>Ejercicios de creación y actualización de repositorios</title><link>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</guid><description>&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ejercicios de Git | Aprende con Alf</title><link>/docencia/git/ejercicios/</link><atom:link href="/docencia/git/ejercicios/index.xml" rel="self" type="application/rss+xml"/><description>Ejercicios de Git</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Ejercicios de Git</title><link>/docencia/git/ejercicios/</link></image><item><title>Ejercicios de creación y actualización de repositorios</title><link>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</guid><description>&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>Configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de la salida. Mostrar la configuración final.&lt;/p>
 &lt;div class="spoiler " >
 &lt;p>
@@ -226,7 +226,8 @@ Resolución
 &lt;/div>
 &lt;/div>
 &lt;/div>&lt;/p></description></item><item><title>Ejercicios de manejo del historial de cambios</title><link>/docencia/git/ejercicios/historial-cambios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/historial-cambios/</guid><description>&lt;p>&lt;i class="fas fa-exclamation-triangle" style="color:red">&lt;/i> Para hacer estos ejercicios es necesario haber hecho antes los
-&lt;a href="/git/ejercicios/creacion-actualizacion-repositorios.html">ejercicios de creación y actualización de repositorios&lt;/a> o bien hacer un clon del repositorio remoto &lt;a href="https://github.com/asalber/libro-git">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
+&lt;a href="/git/ejercicios/creacion-actualizacion-repositorios.html">ejercicios de creación y actualización de repositorios&lt;/a> o bien hacer un clon del repositorio remoto
+&lt;a href="https://github.com/asalber/libro-git" target="_blank" rel="noopener">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
 &lt;pre>&lt;code class="language-sh">&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard 8c808
@@ -411,7 +412,8 @@ Resolución
 &lt;/div>
 &lt;/div>
 &lt;/div></description></item><item><title>Ejercicios de deshacer cambios</title><link>/docencia/git/ejercicios/deshacer-cambios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/deshacer-cambios/</guid><description>&lt;p>&lt;i class="fas fa-exclamation-triangle" style="color:red">&lt;/i> Para hacer estos ejercicios es necesario haber hecho antes los
-&lt;a href="/git/ejercicios/historial-cambios.html">ejercicios sobre historial de cambios&lt;/a> o bien hacer un clon del repositorio remoto &lt;a href="https://github.com/asalber/libro-git">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
+&lt;a href="/git/ejercicios/historial-cambios.html">ejercicios sobre historial de cambios&lt;/a> o bien hacer un clon del repositorio remoto
+&lt;a href="https://github.com/asalber/libro-git" target="_blank" rel="noopener">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
 &lt;pre>&lt;code>&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard 48ed8
@@ -593,7 +595,8 @@ Resolución
 &lt;/div>
 &lt;/div>
 &lt;/div>&lt;/p></description></item><item><title>Ejercicios de gestión de ramas</title><link>/docencia/git/ejercicios/ramas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/ramas/</guid><description>&lt;p>&lt;i class="fas fa-exclamation-triangle" style="color:red">&lt;/i> Para hacer estos ejercicios es necesario haber hecho antes los
-&lt;a href="/git/ejercicios/historial-cambios.html">ejercicios sobre historial de cambios&lt;/a> o bien hacer un clon del repositorio remoto &lt;a href="https://github.com/asalber/libro-git">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
+&lt;a href="/git/ejercicios/historial-cambios.html">ejercicios sobre historial de cambios&lt;/a> o bien hacer un clon del repositorio remoto
+&lt;a href="https://github.com/asalber/libro-git" target="_blank" rel="noopener">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
 &lt;pre>&lt;code>&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard 48ed8
@@ -832,7 +835,8 @@ Resolución
 &lt;/div>
 &lt;/div>
 &lt;/div></description></item><item><title>Ejercicios de repositorios remotos</title><link>/docencia/git/ejercicios/repositorios-remotos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/git/ejercicios/repositorios-remotos/</guid><description>&lt;p>&lt;i class="fas fa-exclamation-triangle" style="color:red">&lt;/i> Para hacer estos ejercicios es necesario haber hecho antes los
-&lt;a href="/git/ejercicios/ramas.html">ejercicios sobre ramas&lt;/a> o bien hacer un clon del repositorio remoto &lt;a href="https://github.com/asalber/libro-git">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
+&lt;a href="/git/ejercicios/ramas.html">ejercicios sobre ramas&lt;/a> o bien hacer un clon del repositorio remoto
+&lt;a href="https://github.com/asalber/libro-git" target="_blank" rel="noopener">https://github.com/asalber/libro-git&lt;/a> mediante la siguiente secuencia de comandos:&lt;/p>
 &lt;pre>&lt;code class="language-sh">&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard cb1e4

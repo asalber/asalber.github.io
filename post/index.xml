@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | Aprende con Alf</title><link>/post/</link><atom:link href="/post/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url><title>Blog</title><link>/post/</link></image><item><title>Curso de Git</title><link>/post/curso-git/</link><pubDate>Fri, 01 Mar 2019 10:21:50 +0000</pubDate><guid>/post/curso-git/</guid><description>&lt;p>&lt;em>¿Conoces Git?&lt;/em>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | Aprende con Alf</title><link>/post/</link><atom:link href="/post/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Blog</title><link>/post/</link></image><item><title>Curso de Git</title><link>/post/curso-git/</link><pubDate>Fri, 01 Mar 2019 10:21:50 +0000</pubDate><guid>/post/curso-git/</guid><description>&lt;p>&lt;em>¿Conoces Git?&lt;/em>&lt;/p>
 &lt;p>Si no lo conoces deberías, porque no importa a lo que te dediques, una vez aprendas a usarlo no podrás vivir sin él.&lt;/p>
 &lt;p>
 &lt;a href="https://git-scm.com/" target="_blank" rel="noopener">Git&lt;/a> es el sistema de control de versiones más usado en el mundo.
@@ -172,7 +172,8 @@ Esta versión está actualizada para la versión 3.2.3 de R y la versión 0.6.5 
 &lt;p>
 &lt;a href="/docs/articulo-rkteachig-beio.pdf">Descarga el artículo&lt;/a>&lt;/p></description></item><item><title>3ª edición del Curso Práctico de Bioestadística con R</title><link>/post/curso-bioestadistica-miriadax-3ed/</link><pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate><guid>/post/curso-bioestadistica-miriadax-3ed/</guid><description>&lt;p>Ya está aquí la tercera edición del Curso Práctico de Bioestadística con R ofrecido por la plataforma MiriadaX, que se desarrollará del 8 de enero al 16 de febrero de 2015.&lt;/p>
 &lt;p>Si te perdiste las dos primeras ediciones no dudes en apuntarte a esta tercera edición que, al igual que todos los cursos de MiriadaX, son es gratuíta.&lt;/p>
-&lt;p>Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: &lt;a href="https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion">https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&lt;/a>&lt;/p>
+&lt;p>Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección:
+&lt;a href="https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion" target="_blank" rel="noopener">https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&lt;/a>&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/BTFOsbzInZo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -192,7 +193,8 @@ Este libro presenta las principales técnicas Estadísticas, tanto de Estadísti
 &lt;p>
 &lt;a href="/es/docencia/spss">Más información&lt;/a>.&lt;/p></description></item><item><title>2ª edición del Curso Práctico de Bioestadística con R</title><link>/post/curso-bioestadistica-miriadax/</link><pubDate>Mon, 12 May 2014 00:00:00 +0000</pubDate><guid>/post/curso-bioestadistica-miriadax/</guid><description>&lt;p>Tras el éxito de la primera edición del Curso Práctico de Bioestadística con R ofrecido por la plataforma MiriadaX, el próximo 19 de mayo comienza la segunda edición.&lt;/p>
 &lt;p>Si te perdiste la primera edición no dudes en apuntarte a esta segunda edición que como la primera es gratuíta.&lt;/p>
-&lt;p>Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: &lt;a href="https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion">https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&lt;/a>&lt;/p>
+&lt;p>Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección:
+&lt;a href="https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion" target="_blank" rel="noopener">https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&lt;/a>&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/BTFOsbzInZo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>

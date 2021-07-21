@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>R | Aprende con Alf</title><link>/en/category/r/</link><atom:link href="/en/category/r/index.xml" rel="self" type="application/rss+xml"/><description>R</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url><title>R</title><link>/en/category/r/</link></image><item><title>rkTeaching</title><link>/en/project/rkteaching/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>/en/project/rkteaching/</guid><description>&lt;h2>Table of Contents&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>R | Aprende con Alf</title><link>/en/category/r/</link><atom:link href="/en/category/r/index.xml" rel="self" type="application/rss+xml"/><description>R</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>R</title><link>/en/category/r/</link></image><item><title>rkTeaching</title><link>/en/project/rkteaching/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>/en/project/rkteaching/</guid><description>&lt;h2>Table of Contents&lt;/h2>
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#what-is-rkteaching">What is rkTeaching?&lt;/a>&lt;/li>
@@ -19,7 +19,8 @@
 &lt;a href="http://www.r-project.org/" target="_blank" rel="noopener">R&lt;/a> package that provides a plugin for the graphical user interface
 &lt;a href="http://rkward.sourceforge.net/" target="_blank" rel="noopener">RKWard&lt;/a> adding new menus and dialog specially
 designed for teaching and learning Statistics.&lt;/p>
-&lt;p>This package has been developed and is maintained by Alfredo Sánchez Alberca &lt;a href="mailto:asalber@ceu.es">asalber@ceu.es&lt;/a> in the Department of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p>
+&lt;p>This package has been developed and is maintained by Alfredo Sánchez Alberca
+&lt;a href="mailto:asalber@ceu.es">asalber@ceu.es&lt;/a> in the Department of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p>
 &lt;p>If you find out some error or have a suggestion, please, let me know it by email or opening an
 &lt;a href="https://github.com/rkward-community/rkTeaching/pulls" target="_blank" rel="noopener">issue on Github&lt;/a>.&lt;/p>
 &lt;p>&lt;img src="img/rkward.png" alt="RKWard">&lt;/p>
@@ -45,10 +46,13 @@ The installation creates a folder rkward into the installation directory. There,
 It is recommended version 3.5.3 for MacOs.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web &lt;a href="http://rkward.sourceforge.net">http://rkward.sourceforge.net&lt;/a>.
-You have to select the Mac Os distribution (&lt;a href="https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg">https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&lt;/a>) and follow the instructions there.
+&lt;p>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web
+&lt;a href="http://rkward.sourceforge.net" target="_blank" rel="noopener">http://rkward.sourceforge.net&lt;/a>.
+You have to select the Mac Os distribution (
+&lt;a href="https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg" target="_blank" rel="noopener">https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&lt;/a>) and follow the instructions there.
 It is required a Mac Os version 10.11 or higher.&lt;/p>
-&lt;p>If there is some error during the installation process, check for the possible solutions (&lt;a href="http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting">http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a>)&lt;/p>
+&lt;p>If there is some error during the installation process, check for the possible solutions (
+&lt;a href="http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting" target="_blank" rel="noopener">http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a>)&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Install the packages that rkTeaching depends on&lt;/strong>. The rkTeaching package depends on several packages that should be installed first.
@@ -71,7 +75,8 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;p>To install the software in Mac OS systems, you must take the following steps:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;strong>Install R&lt;/strong>. R can be downloaded from the web &lt;a href="https://cran.r-project.org/">https://cran.r-project.org/&lt;/a>.
+&lt;p>&lt;strong>Install R&lt;/strong>. R can be downloaded from the web
+&lt;a href="https://cran.r-project.org/" target="_blank" rel="noopener">https://cran.r-project.org/&lt;/a>.
 You have to select the Linux distribution and follow the instructions there.
 It is required an R version 3.4 or higher.&lt;/p>
 &lt;p>With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p>
@@ -79,7 +84,8 @@ It is required an R version 3.4 or higher.&lt;/p>
 &lt;/code>&lt;/pre>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web &lt;a href="http://rkward.sourceforge.net">http://rkward.sourceforge.net&lt;/a>.
+&lt;p>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web
+&lt;a href="http://rkward.sourceforge.net" target="_blank" rel="noopener">http://rkward.sourceforge.net&lt;/a>.
 You have to select the Linux distribution and follow the instructions there.&lt;/p>
 &lt;p>With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p>
 &lt;pre>&lt;code class="language-sh">sudo apt-get install rkward
@@ -256,7 +262,8 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;p>rkTeaching is maintained by
 &lt;a href="https://github.com/asalber" target="_blank" rel="noopener">asalber&lt;/a>.&lt;/p>
 &lt;h2 id="how-to-cite-rkteaching">How to cite rkTeaching?&lt;/h2>
-&lt;p>Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Get from: &lt;a href="http://aprendeconalf.es/projects/rkteaching">http://aprendeconalf.es/projects/rkteaching&lt;/a>.&lt;/p></description></item><item><title>Released version 1.3.0 of the rkTeaching package</title><link>/en/post/rkteaching-version1.3/</link><pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate><guid>/en/post/rkteaching-version1.3/</guid><description>&lt;p>The 1.3.0 version of the R package rkTeaching for learning Statistics is available to install.
+&lt;p>Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Get from:
+&lt;a href="http://aprendeconalf.es/projects/rkteaching" target="_blank" rel="noopener">http://aprendeconalf.es/projects/rkteaching&lt;/a>.&lt;/p></description></item><item><title>Released version 1.3.0 of the rkTeaching package</title><link>/en/post/rkteaching-version1.3/</link><pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate><guid>/en/post/rkteaching-version1.3/</guid><description>&lt;p>The 1.3.0 version of the R package rkTeaching for learning Statistics is available to install.
 This version is updated with the 3.2.3 version of R and the 0.6.5 version of RKWard.&lt;/p>
 &lt;p>This is a transitional version towards a major update that will arrive shortly and will incorporate the internationalization of the package.&lt;/p>
 &lt;p>To install it visit the page of

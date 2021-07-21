@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aprende con Alf</title><link>/en/</link><atom:link href="/en/index.xml" rel="self" type="application/rss+xml"/><description>Aprende con Alf</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url><title>Aprende con Alf</title><link>/en/</link></image><item><title>Introduction</title><link>/en/teaching/statistics/manual/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/introduction/</guid><description>&lt;h2 id="statistics-as-a-scientific-tool">Statistics as a scientific tool&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aprende con Alf</title><link>/en/</link><atom:link href="/en/index.xml" rel="self" type="application/rss+xml"/><description>Aprende con Alf</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Aprende con Alf</title><link>/en/</link></image><item><title>Introduction</title><link>/en/teaching/statistics/manual/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/introduction/</guid><description>&lt;h2 id="statistics-as-a-scientific-tool">Statistics as a scientific tool&lt;/h2>
 &lt;h3 id="what-is-statistics">What is Statistics?&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -447,7 +447,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-745621983" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-523687149" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -456,7 +456,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-745621983', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-523687149', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -9822,7 +9822,8 @@ $r^2_{xz}=0.8705$ and $r^2_{yz}=0.1203$, thus the height of the son depends line
 &lt;a href="http://www.r-project.org/" target="_blank" rel="noopener">R&lt;/a> package that provides a plugin for the graphical user interface
 &lt;a href="http://rkward.sourceforge.net/" target="_blank" rel="noopener">RKWard&lt;/a> adding new menus and dialog specially
 designed for teaching and learning Statistics.&lt;/p>
-&lt;p>This package has been developed and is maintained by Alfredo Sánchez Alberca &lt;a href="mailto:asalber@ceu.es">asalber@ceu.es&lt;/a> in the Department of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p>
+&lt;p>This package has been developed and is maintained by Alfredo Sánchez Alberca
+&lt;a href="mailto:asalber@ceu.es">asalber@ceu.es&lt;/a> in the Department of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p>
 &lt;p>If you find out some error or have a suggestion, please, let me know it by email or opening an
 &lt;a href="https://github.com/rkward-community/rkTeaching/pulls" target="_blank" rel="noopener">issue on Github&lt;/a>.&lt;/p>
 &lt;p>&lt;img src="img/rkward.png" alt="RKWard">&lt;/p>
@@ -9848,10 +9849,13 @@ The installation creates a folder rkward into the installation directory. There,
 It is recommended version 3.5.3 for MacOs.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web &lt;a href="http://rkward.sourceforge.net">http://rkward.sourceforge.net&lt;/a>.
-You have to select the Mac Os distribution (&lt;a href="https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg">https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&lt;/a>) and follow the instructions there.
+&lt;p>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web
+&lt;a href="http://rkward.sourceforge.net" target="_blank" rel="noopener">http://rkward.sourceforge.net&lt;/a>.
+You have to select the Mac Os distribution (
+&lt;a href="https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg" target="_blank" rel="noopener">https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&lt;/a>) and follow the instructions there.
 It is required a Mac Os version 10.11 or higher.&lt;/p>
-&lt;p>If there is some error during the installation process, check for the possible solutions (&lt;a href="http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting">http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a>)&lt;/p>
+&lt;p>If there is some error during the installation process, check for the possible solutions (
+&lt;a href="http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting" target="_blank" rel="noopener">http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a>)&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Install the packages that rkTeaching depends on&lt;/strong>. The rkTeaching package depends on several packages that should be installed first.
@@ -9874,7 +9878,8 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;p>To install the software in Mac OS systems, you must take the following steps:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;strong>Install R&lt;/strong>. R can be downloaded from the web &lt;a href="https://cran.r-project.org/">https://cran.r-project.org/&lt;/a>.
+&lt;p>&lt;strong>Install R&lt;/strong>. R can be downloaded from the web
+&lt;a href="https://cran.r-project.org/" target="_blank" rel="noopener">https://cran.r-project.org/&lt;/a>.
 You have to select the Linux distribution and follow the instructions there.
 It is required an R version 3.4 or higher.&lt;/p>
 &lt;p>With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p>
@@ -9882,7 +9887,8 @@ It is required an R version 3.4 or higher.&lt;/p>
 &lt;/code>&lt;/pre>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web &lt;a href="http://rkward.sourceforge.net">http://rkward.sourceforge.net&lt;/a>.
+&lt;p>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web
+&lt;a href="http://rkward.sourceforge.net" target="_blank" rel="noopener">http://rkward.sourceforge.net&lt;/a>.
 You have to select the Linux distribution and follow the instructions there.&lt;/p>
 &lt;p>With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p>
 &lt;pre>&lt;code class="language-sh">sudo apt-get install rkward
@@ -10059,7 +10065,8 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;p>rkTeaching is maintained by
 &lt;a href="https://github.com/asalber" target="_blank" rel="noopener">asalber&lt;/a>.&lt;/p>
 &lt;h2 id="how-to-cite-rkteaching">How to cite rkTeaching?&lt;/h2>
-&lt;p>Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Get from: &lt;a href="http://aprendeconalf.es/projects/rkteaching">http://aprendeconalf.es/projects/rkteaching&lt;/a>.&lt;/p></description></item><item><title>Physiotherapy exam 2020-06-19</title><link>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</guid><description>&lt;p>Degrees: Physiotherapy&lt;br>
+&lt;p>Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Get from:
+&lt;a href="http://aprendeconalf.es/projects/rkteaching" target="_blank" rel="noopener">http://aprendeconalf.es/projects/rkteaching&lt;/a>.&lt;/p></description></item><item><title>Physiotherapy exam 2020-06-19</title><link>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2020-06-19/</guid><description>&lt;p>Degrees: Physiotherapy&lt;br>
 Date: June 19, 2020&lt;/p>
 &lt;h2 id="descriptive-statistics-and-regression">Descriptive Statistics and Regression&lt;/h2>
 &lt;h3 id="question-1">Question 1&lt;/h3>

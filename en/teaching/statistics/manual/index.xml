@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Statistics Manual | Aprende con Alf</title><link>/en/teaching/statistics/manual/</link><atom:link href="/en/teaching/statistics/manual/index.xml" rel="self" type="application/rss+xml"/><description>Statistics Manual</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url><title>Statistics Manual</title><link>/en/teaching/statistics/manual/</link></image><item><title>Introduction</title><link>/en/teaching/statistics/manual/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/introduction/</guid><description>&lt;h2 id="statistics-as-a-scientific-tool">Statistics as a scientific tool&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Statistics Manual | Aprende con Alf</title><link>/en/teaching/statistics/manual/</link><atom:link href="/en/teaching/statistics/manual/index.xml" rel="self" type="application/rss+xml"/><description>Statistics Manual</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Statistics Manual</title><link>/en/teaching/statistics/manual/</link></image><item><title>Introduction</title><link>/en/teaching/statistics/manual/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/introduction/</guid><description>&lt;h2 id="statistics-as-a-scientific-tool">Statistics as a scientific tool&lt;/h2>
 &lt;h3 id="what-is-statistics">What is Statistics?&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -447,7 +447,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-745621983" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-523687149" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -456,7 +456,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-745621983', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-523687149', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manual de Python | Aprende con Alf</title><link>/docencia/python/manual/</link><atom:link href="/docencia/python/manual/index.xml" rel="self" type="application/rss+xml"/><description>Manual de Python</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url><title>Manual de Python</title><link>/docencia/python/manual/</link></image><item><title>Introducción a Python</title><link>/docencia/python/manual/introduccion-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/introduccion-python/</guid><description>&lt;h2 id="qué-es-python">¿Qué es Python?&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manual de Python | Aprende con Alf</title><link>/docencia/python/manual/</link><atom:link href="/docencia/python/manual/index.xml" rel="self" type="application/rss+xml"/><description>Manual de Python</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Manual de Python</title><link>/docencia/python/manual/</link></image><item><title>Introducción a Python</title><link>/docencia/python/manual/introduccion-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/introduccion-python/</guid><description>&lt;h2 id="qué-es-python">¿Qué es Python?&lt;/h2>
 &lt;p>
 &lt;a href="https://www.python.org/" target="_blank" rel="noopener">Python&lt;/a> es un lenguaje de programación de alto nivel multiparadigma que permite:&lt;/p>
 &lt;ul>
@@ -4561,25 +4561,29 @@ ZeroDivisionError: division by zero
 &lt;td style="text-align:left">&amp;lsquo;María&amp;rsquo;&lt;/td>
 &lt;td style="text-align:left">18&lt;/td>
 &lt;td style="text-align:left">&amp;lsquo;Economía&amp;rsquo;&lt;/td>
-&lt;td style="text-align:left">&amp;lsquo;&lt;a href="mailto:maria@gmail.com">maria@gmail.com&lt;/a>&amp;rsquo;&lt;/td>
+&lt;td style="text-align:left">&amp;lsquo;
+&lt;a href="mailto:maria@gmail.com">maria@gmail.com&lt;/a>&amp;rsquo;&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">&amp;lsquo;Luis&lt;/td>
 &lt;td style="text-align:left">22&lt;/td>
 &lt;td style="text-align:left">&amp;lsquo;Medicina&amp;rsquo;&lt;/td>
-&lt;td style="text-align:left">&amp;lsquo;&lt;a href="mailto:luis@yahoo.es">luis@yahoo.es&lt;/a>&amp;rsquo;&lt;/td>
+&lt;td style="text-align:left">&amp;lsquo;
+&lt;a href="mailto:luis@yahoo.es">luis@yahoo.es&lt;/a>&amp;rsquo;&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">&amp;lsquo;Carmen&amp;rsquo;&lt;/td>
 &lt;td style="text-align:left">20&lt;/td>
 &lt;td style="text-align:left">&amp;lsquo;Arquitectura&amp;rsquo;&lt;/td>
-&lt;td style="text-align:left">&amp;lsquo;&lt;a href="mailto:carmen@gmail.com">carmen@gmail.com&lt;/a>&amp;rsquo;&lt;/td>
+&lt;td style="text-align:left">&amp;lsquo;
+&lt;a href="mailto:carmen@gmail.com">carmen@gmail.com&lt;/a>&amp;rsquo;&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">&amp;lsquo;Antonio&amp;rsquo;&lt;/td>
 &lt;td style="text-align:left">21&lt;/td>
 &lt;td style="text-align:left">&amp;lsquo;Economía&amp;rsquo;&lt;/td>
-&lt;td style="text-align:left">&amp;lsquo;&lt;a href="mailto:antonio@gmail.com">antonio@gmail.com&lt;/a>&amp;rsquo;&lt;/td>
+&lt;td style="text-align:left">&amp;lsquo;
+&lt;a href="mailto:antonio@gmail.com">antonio@gmail.com&lt;/a>&amp;rsquo;&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
