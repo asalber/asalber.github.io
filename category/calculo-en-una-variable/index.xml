@@ -1281,7 +1281,7 @@ $$&lt;/p>
 &lt;p>y la tangente en ese punto es&lt;/p>
 &lt;p>$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p>
 &lt;p>&lt;img src="../img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />&lt;/p>
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m156108" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m156108" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="álgebra-de-derivadas">Álgebra de derivadas&lt;/h2>
 &lt;h3 id="propiedades-de-la-derivada">Propiedades de la derivada&lt;/h3>
 &lt;p>Si $y=c$, es una función constante, entonces $y'=0$.&lt;/p>

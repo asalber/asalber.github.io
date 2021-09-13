@@ -1639,7 +1639,7 @@ Un punto de la recta es $P=(1,1,2)$ y un vector director es $\mathbf{v}=(-1,2,2)
 &lt;p>$$y-y_0 = \frac{b}{a}(x-x_0) \mbox{ o bien } y-y_0+m(x-x_0),$$&lt;/p>
 &lt;p>llamando $m=b/a$.
 Esta ecuación se conoce como ecuación en la forma &lt;em>punto-pendiente&lt;/em>.&lt;/p>
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m150370" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m150370" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;h3 id="pendiente-de-una-recta-en-el-plano">Pendiente de una recta en el plano&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1647,7 +1647,7 @@ Esta ecuación se conoce como ecuación en la forma &lt;em>punto-pendiente&lt;/e
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;img src="../img/geometria_analitica/pendiente_recta.png" width="400px" alt="Vectores unitarios en espacio real" />&lt;/p>
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m150247" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m150247" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>Recordar que dados dos puntos $Q=(x_1,y_1)$ y $Q=(x_2,y_2)$ de la recta $l$, se puede tomar como vector director el vector que los une, que tiene coordenadas $\vec{PQ}=Q-P=(x_2-x_1,y_2-y_1)$, de manera que la pendiente de $l$ será $\dfrac{y_2-y_1}{x_2-x_1}$, es decir, el cociente entre lo que cambia la coordenada $y$ y lo que cambia la coordenada $x$.&lt;/p>
 &lt;h2 id="planos">Planos&lt;/h2>
 &lt;h3 id="ecuación-vectorial-del-plano-en-el-espacio-real">Ecuación vectorial del plano en el espacio real&lt;/h3>
@@ -5962,7 +5962,7 @@ $$&lt;/p>
 &lt;p>y la tangente en ese punto es&lt;/p>
 &lt;p>$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p>
 &lt;p>&lt;img src="../img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />&lt;/p>
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m156108" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m156108" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="álgebra-de-derivadas">Álgebra de derivadas&lt;/h2>
 &lt;h3 id="propiedades-de-la-derivada">Propiedades de la derivada&lt;/h3>
 &lt;p>Si $y=c$, es una función constante, entonces $y'=0$.&lt;/p>
@@ -8676,7 +8676,7 @@ provided that $x'(a)\neq 0$, $y'(a)\neq 0$ y $z'(a)\neq 0$.&lt;/p>
 &lt;p>and the tangent line to the graph of $f$ at that moment is&lt;/p>
 &lt;p>$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p>
 &lt;img src="../img/derivadasn/tangent_trajectory_space.svg" alt="Tangent line to a trajectory in the space." width="400">
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
 &lt;h3 id="normal-plane-to-a-trajectory-in-the-space">Normal plane to a trajectory in the space&lt;/h3>
 &lt;p>In the three-dimensional space $\mathbb{R}^3$, the normal line to a trajectory is not unique. There are an infinite number of normal lines and all of them are in the normal plane.&lt;/p>
 &lt;p>If $f(t)=(x(t),y(t),z(t))$, $t\in \mathbb{R}$, is a trajectory in the real space $\mathbb{R}^3$, then at the moment $a$, the moving object that follows this trajectory will be at the position $P=(x(a),y(a),z(a))$ with a velocity $\mathbf{v}=f'(t)=(x'(t),y'(t),z'(t))$. Thus, using the velocity vector as normal vector the normal plane to $f$ at this moment have the following vectorial equation&lt;/p>
@@ -8693,7 +8693,7 @@ $$&lt;/p>
 and normal plane to the graph of $f$ at that moment is&lt;/p>
 &lt;p>$$\Pi:\left(x-0,y-1,z-\frac{\pi}{2}\right)(-1,0,1) =0 \Leftrightarrow -x+z-\frac{\pi}{2}=0.$$&lt;/p>
 &lt;img src="../img/derivadasn/normal_plane_trajectory_space.svg" alt="Normal plane to a trajectory in the space." width="400">
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="funciones-de-varias-variables">Funciones de varias variables&lt;/h2>
 &lt;p>En numerosos problemas de geometría, física y ciencias naturales nos encontramos a menudo con variables o factores que dependen o están relacionados con otros dos, tres o más factores:&lt;/p>
 &lt;ul>
@@ -16198,7 +16198,7 @@ Resolución
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/madrid-airbnb1.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/madrid-airbnb1py">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Deuda Pública</title><link>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link><pubDate>Thu, 01 Jan 1970 00:33:40 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/madrid-airbnb1py">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Deuda Pública</title><link>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link><pubDate>Thu, 01 Jan 1970 00:33:40 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p>
 &lt;h2 id="conjunto-de-datos">Conjunto de datos&lt;/h2>
 &lt;p>Datos del banco mundial:
 &lt;a href="../datos/deuda.csv">Deuda pública países&lt;/a>) y
@@ -16227,7 +16227,7 @@ Resolución
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/deuda-publica.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/deudapy">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Ajedrez</title><link>/docencia/python/retos/ajedrez/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/ajedrez/</guid><description>&lt;h2 id="tarea-1">Tarea 1&lt;/h2>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/deudapy">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Ajedrez</title><link>/docencia/python/retos/ajedrez/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/ajedrez/</guid><description>&lt;h2 id="tarea-1">Tarea 1&lt;/h2>
 &lt;p>La primera tarea consiste en escribir un programa que guarde en un fichero la secuencia de tableros de una partida de ajedrez. Partiremos del tablero inicial donde las filas del tablero están separadas por cambios de línea y las columnas por tabuladores.&lt;/p>
 &lt;p>El programa debe guardar el tablero inicial en un fichero con el nombre que elija el usuario. Después debe preguntar al usuario si quiere hacer un movimiento o terminar la partida. Cada vez que el usuario quiera hacer un nuevo movimiento debe preguntar la fila y la columna de la pieza que quiere mover y la fila y la columna a la que la quiere mover. Tras ello añadirá el tablero resultante al final del fichero anterior.&lt;/p>
 &lt;p>El fichero
@@ -16260,7 +16260,7 @@ Por ejemplo, utilizando el fichero
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/contratos-menores-madrid.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/contratos-menores-madrid">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Emisiones de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid><description>&lt;p>El objetivo de este trabajo es comprobar si las restricciones de tráfico establecidas en Madrid Central han servido para reducir significativamente las emisiones de gases contaminantes.&lt;/p>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/contratos-menores-madrid">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Emisiones de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid><description>&lt;p>El objetivo de este trabajo es comprobar si las restricciones de tráfico establecidas en Madrid Central han servido para reducir significativamente las emisiones de gases contaminantes.&lt;/p>
 &lt;h3 id="conjunto-de-datos">Conjunto de datos&lt;/h3>
 &lt;p>Datos abiertos del Ayuntamiento de Madrid:
 &lt;a href="../datos/emisiones-madrid.csv">Calidad del aire. Datos diarios años 2001 a 2019&lt;/a>.&lt;/p>
@@ -16277,7 +16277,7 @@ Por ejemplo, utilizando el fichero
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/emisiones-madrid.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/emisiones-madrid">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Estrellas regulares</title><link>/docencia/python/retos/estrellas-regulares/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/estrellas-regulares/</guid><description>&lt;h2 id="tarea">Tarea&lt;/h2>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/emisiones-madrid">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Estrellas regulares</title><link>/docencia/python/retos/estrellas-regulares/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/estrellas-regulares/</guid><description>&lt;h2 id="tarea">Tarea&lt;/h2>
 &lt;p>El reto consiste en programar una función que dibuje estrellas como la que aparece a continuación con un número de puntas dado.&lt;/p>
 &lt;p>&lt;img src="../img/estrella.png" alt="Estrella">&lt;/p>
 &lt;p>Para ello hay que utilizar el módulo de Python

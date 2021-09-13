@@ -26,7 +26,7 @@
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/madrid-airbnb1.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/madrid-airbnb1py">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Deuda Pública</title><link>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link><pubDate>Thu, 01 Jan 1970 00:33:40 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/madrid-airbnb1py">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Deuda Pública</title><link>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link><pubDate>Thu, 01 Jan 1970 00:33:40 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p>
 &lt;h2 id="conjunto-de-datos">Conjunto de datos&lt;/h2>
 &lt;p>Datos del banco mundial:
 &lt;a href="../datos/deuda.csv">Deuda pública países&lt;/a>) y
@@ -55,7 +55,7 @@
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/deuda-publica.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/deudapy">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Contratos menores de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis de los contratos menores del Ayuntamiento de Madrid desde 2015 para hacer una comparativa por años y ver qué empresas han resultado más beneficiadas.&lt;/p>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/deudapy">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Contratos menores de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis de los contratos menores del Ayuntamiento de Madrid desde 2015 para hacer una comparativa por años y ver qué empresas han resultado más beneficiadas.&lt;/p>
 &lt;h3 id="conjunto-de-datos">Conjunto de datos&lt;/h3>
 &lt;p>Datos abiertos del Ayuntamiento de Madrid:
 &lt;a href="../datos/contratos-menores-madrid.csv">Contratos menores&lt;/a>&lt;/p>
@@ -71,7 +71,7 @@
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/contratos-menores-madrid.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/contratos-menores-madrid">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Emisiones de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid><description>&lt;p>El objetivo de este trabajo es comprobar si las restricciones de tráfico establecidas en Madrid Central han servido para reducir significativamente las emisiones de gases contaminantes.&lt;/p>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/contratos-menores-madrid">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Emisiones de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid><description>&lt;p>El objetivo de este trabajo es comprobar si las restricciones de tráfico establecidas en Madrid Central han servido para reducir significativamente las emisiones de gases contaminantes.&lt;/p>
 &lt;h3 id="conjunto-de-datos">Conjunto de datos&lt;/h3>
 &lt;p>Datos abiertos del Ayuntamiento de Madrid:
 &lt;a href="../datos/emisiones-madrid.csv">Calidad del aire. Datos diarios años 2001 a 2019&lt;/a>.&lt;/p>
@@ -88,4 +88,4 @@
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/emisiones-madrid.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/emisiones-madrid">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/emisiones-madrid">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item></channel></rss>

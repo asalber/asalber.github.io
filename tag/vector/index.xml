@@ -157,7 +157,7 @@ Un punto de la recta es $P=(1,1,2)$ y un vector director es $\mathbf{v}=(-1,2,2)
 &lt;p>$$y-y_0 = \frac{b}{a}(x-x_0) \mbox{ o bien } y-y_0+m(x-x_0),$$&lt;/p>
 &lt;p>llamando $m=b/a$.
 Esta ecuación se conoce como ecuación en la forma &lt;em>punto-pendiente&lt;/em>.&lt;/p>
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m150370" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m150370" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;h3 id="pendiente-de-una-recta-en-el-plano">Pendiente de una recta en el plano&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -165,7 +165,7 @@ Esta ecuación se conoce como ecuación en la forma &lt;em>punto-pendiente&lt;/e
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;img src="../img/geometria_analitica/pendiente_recta.png" width="400px" alt="Vectores unitarios en espacio real" />&lt;/p>
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m150247" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m150247" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>Recordar que dados dos puntos $Q=(x_1,y_1)$ y $Q=(x_2,y_2)$ de la recta $l$, se puede tomar como vector director el vector que los une, que tiene coordenadas $\vec{PQ}=Q-P=(x_2-x_1,y_2-y_1)$, de manera que la pendiente de $l$ será $\dfrac{y_2-y_1}{x_2-x_1}$, es decir, el cociente entre lo que cambia la coordenada $y$ y lo que cambia la coordenada $x$.&lt;/p>
 &lt;h2 id="planos">Planos&lt;/h2>
 &lt;h3 id="ecuación-vectorial-del-plano-en-el-espacio-real">Ecuación vectorial del plano en el espacio real&lt;/h3>

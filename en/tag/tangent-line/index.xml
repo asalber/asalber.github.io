@@ -554,7 +554,7 @@ provided that $x'(a)\neq 0$, $y'(a)\neq 0$ y $z'(a)\neq 0$.&lt;/p>
 &lt;p>and the tangent line to the graph of $f$ at that moment is&lt;/p>
 &lt;p>$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p>
 &lt;img src="../img/derivativesn/tangent_trajectory_space.svg" alt="Tangent line to a trajectory in the space." width="400">
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
 &lt;h3 id="normal-plane-to-a-trajectory-in-the-space">Normal plane to a trajectory in the space&lt;/h3>
 &lt;p>In the three-dimensional space $\mathbb{R}^3$, the normal line to a trajectory is not unique. There are an infinite number of normal lines and all of them are in the normal plane.&lt;/p>
 &lt;p>If $f(t)=(x(t),y(t),z(t))$, $t\in \mathbb{R}$, is a trajectory in the real space $\mathbb{R}^3$, then at the moment $a$, the moving object that follows this trajectory will be at the position $P=(x(a),y(a),z(a))$ with a velocity $\mathbf{v}=f'(t)=(x'(t),y'(t),z'(t))$. Thus, using the velocity vector as normal vector the normal plane to $f$ at this moment have the following vectorial equation&lt;/p>
@@ -571,7 +571,7 @@ $$&lt;/p>
 and normal plane to the graph of $f$ at that moment is&lt;/p>
 &lt;p>$$\Pi:\left(x-0,y-1,z-\frac{\pi}{2}\right)(-1,0,1) =0 \Leftrightarrow -x+z-\frac{\pi}{2}=0.$$&lt;/p>
 &lt;img src="../img/derivativesn/normal_plane_trajectory_space.svg" alt="Normal plane to a trajectory in the space." width="400">
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Q2C7EfBn" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="functions-of-several-variables">Functions of several variables&lt;/h2>
 &lt;p>A lot of problems in Geometry, Physics, Chemistry, Biology, etc. involve a variable that depend on two or more variables:&lt;/p>
 &lt;ul>
@@ -649,7 +649,7 @@ $$\frac{\partial f}{\partial x}(x_0,y_0).$$&lt;/p>
 &lt;h3 id="geometric-interpretation-of-partial-derivatives">Geometric interpretation of partial derivatives&lt;/h3>
 &lt;p>Geometrically, a two-variable function $z=f(x,y)$ defines a surface. If we cut this surface with a plane of equation $y=y_0$ (that is, the plane where $y$ is the constant $y_0$) the intersection is a curve, and the partial derivative of $f$ with respect to to $x$ at $(x_0,y_0)$ is the slope of the tangent line to that curve at $x=x_0$.&lt;/p>
 &lt;img src="../img/derivativesn/partial_tangent_surface.svg" alt="Geometric interpretation of the partial derivative." width="350">
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/K3xnQRY8" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/K3xnQRY8" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
 &lt;h3 id="partial-derivative">Partial derivative&lt;/h3>
 &lt;p>The concept of partial derivative can be extended easily from two-variable function to $n$-variables functions.&lt;/p>
 &lt;div class="alert alert-def">
@@ -794,7 +794,7 @@ $$&lt;/p>
 \end{aligned}$$&lt;/p>
 &lt;p>The graph of the paraboloid $f(x,y,z)=x^2+y^2-z=0$ and the normal line and the tangent plane to the graph of $f$ at the point $P=(1,1,2)$ are below.&lt;/p>
 &lt;img src="../img/derivativesn/tangent_plane_paraboloid.svg" alt="Geometric interpretation of the partial derivative." width="350">
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/wTh7KKd3" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/wTh7KKd3" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="directional-derivative">Directional derivative&lt;/h2>
 &lt;p>For a scalar field $f(x,y)$, we have seen that the partial derivative $\dfrac{\partial f}{\partial x}(x_0,y_0)$ is the instantaneous rate of change of $f$ with respect to $x$ at point $P=(x_0,y_0)$, that is, when we move along the $x$-axis.&lt;/p>
 &lt;p>In the same way, $\dfrac{\partial f}{\partial y}(x_0,y_0)$ is the instantaneous rate of change of $f$ with respect to $y$ at the point $P=(x_0,y_0)$, that is, when we move along the $y$-axis.&lt;/p>
@@ -842,7 +842,7 @@ The partial derivatives are the directional derivatives along the vectors of the
 &lt;p>$$\mathbf{v'}=\frac{\mathbf{v}}{|\mathbf{v}|}.$$&lt;/p>
 &lt;h3 id="geometric-interpretation-of-the-directional-derivative">Geometric interpretation of the directional derivative&lt;/h3>
 &lt;p>Geometrically, a two-variable function $z=f(x,y)$ defines a surface. If we cut this surface with a plane of equation $a(y-y_0)=b(x-x_0)$ (that is, the vertical plane that passes through the point $P=(x_0,y_0)$ with the direction of vector $\mathbf{u}=(a,b)$) the intersection is a curve, and the directional derivative of $f$ at $P$ along the direction of $\mathbf{u}$ is the slope of the tangent line to that curve at point $P$.&lt;/p>
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Bx8nFMNc" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Bx8nFMNc" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
 &lt;h3 id="growth-of-scalar-field-along-the-gradient">Growth of scalar field along the gradient&lt;/h3>
 &lt;p>We have seen that for any vector $\mathbf{u}$&lt;/p>
 &lt;p>$$f^\prime_{\mathbf{u}}(P) = \nabla f(P)\cdot \mathbf{u} = |\nabla f(P)|\cos \theta,$$&lt;/p>
@@ -1099,7 +1099,7 @@ f(1.01,1.01) \approx P^1_{f,P}(1.01,1.01) &amp;amp;= \frac{-1.01^2-1.01^2+4\cdot
 $$&lt;/p>
 &lt;p>The graph of the scalar field $f(x,y)=\log(xy)$ and the second degree Taylor polynomial of $f$ at the point $P=(1,1)$ is below.&lt;/p>
 &lt;img src="../img/derivativesn/second_degree_taylor_polynomial.svg" alt="Second degree Taylor polynomial" width="350">
-&lt;p>&lt;img src="/images/geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Ehnz3hGb" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="https://ggbm.at/Ehnz3hGb" target="_blank">Interactive Example&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="relative-extrema">Relative extrema&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>

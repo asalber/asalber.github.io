@@ -5695,7 +5695,7 @@ Pues es una aplicación que permite gestionar los cambios que se realizan sobre 
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/madrid-airbnb1.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/madrid-airbnb1py">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Deuda Pública</title><link>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link><pubDate>Thu, 01 Jan 1970 00:33:40 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/madrid-airbnb1py">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Deuda Pública</title><link>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link><pubDate>Thu, 01 Jan 1970 00:33:40 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p>
 &lt;h2 id="conjunto-de-datos">Conjunto de datos&lt;/h2>
 &lt;p>Datos del banco mundial:
 &lt;a href="../datos/deuda.csv">Deuda pública países&lt;/a>) y
@@ -5724,7 +5724,7 @@ Pues es una aplicación que permite gestionar los cambios que se realizan sobre 
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/deuda-publica.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/deudapy">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Ajedrez</title><link>/docencia/python/retos/ajedrez/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/ajedrez/</guid><description>&lt;h2 id="tarea-1">Tarea 1&lt;/h2>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/deudapy">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Ajedrez</title><link>/docencia/python/retos/ajedrez/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/ajedrez/</guid><description>&lt;h2 id="tarea-1">Tarea 1&lt;/h2>
 &lt;p>La primera tarea consiste en escribir un programa que guarde en un fichero la secuencia de tableros de una partida de ajedrez. Partiremos del tablero inicial donde las filas del tablero están separadas por cambios de línea y las columnas por tabuladores.&lt;/p>
 &lt;p>El programa debe guardar el tablero inicial en un fichero con el nombre que elija el usuario. Después debe preguntar al usuario si quiere hacer un movimiento o terminar la partida. Cada vez que el usuario quiera hacer un nuevo movimiento debe preguntar la fila y la columna de la pieza que quiere mover y la fila y la columna a la que la quiere mover. Tras ello añadirá el tablero resultante al final del fichero anterior.&lt;/p>
 &lt;p>El fichero
@@ -5757,7 +5757,7 @@ Por ejemplo, utilizando el fichero
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/contratos-menores-madrid.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/contratos-menores-madrid">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Emisiones de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid><description>&lt;p>El objetivo de este trabajo es comprobar si las restricciones de tráfico establecidas en Madrid Central han servido para reducir significativamente las emisiones de gases contaminantes.&lt;/p>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/contratos-menores-madrid">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Emisiones de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid><description>&lt;p>El objetivo de este trabajo es comprobar si las restricciones de tráfico establecidas en Madrid Central han servido para reducir significativamente las emisiones de gases contaminantes.&lt;/p>
 &lt;h3 id="conjunto-de-datos">Conjunto de datos&lt;/h3>
 &lt;p>Datos abiertos del Ayuntamiento de Madrid:
 &lt;a href="../datos/emisiones-madrid.csv">Calidad del aire. Datos diarios años 2001 a 2019&lt;/a>.&lt;/p>
@@ -5774,7 +5774,7 @@ Por ejemplo, utilizando el fichero
 &lt;/ol>
 &lt;h2 id="solución">Solución&lt;/h2>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/trabajos/inteligencia-negocios/soluciones/emisiones-madrid.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
-&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/emisiones-madrid">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Estrellas regulares</title><link>/docencia/python/retos/estrellas-regulares/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/estrellas-regulares/</guid><description>&lt;h2 id="tarea">Tarea&lt;/h2>
+&lt;p>Abrir con &lt;a href="https://repl.it/@asalber/emisiones-madrid">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Estrellas regulares</title><link>/docencia/python/retos/estrellas-regulares/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/estrellas-regulares/</guid><description>&lt;h2 id="tarea">Tarea&lt;/h2>
 &lt;p>El reto consiste en programar una función que dibuje estrellas como la que aparece a continuación con un número de puntas dado.&lt;/p>
 &lt;p>&lt;img src="../img/estrella.png" alt="Estrella">&lt;/p>
 &lt;p>Para ello hay que utilizar el módulo de Python
