@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trabajo | Aprende con Alf</title><link>/tag/trabajo/</link><atom:link href="/tag/trabajo/index.xml" rel="self" type="application/rss+xml"/><description>Trabajo</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Thu, 01 Jan 1970 00:33:40 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Trabajo</title><link>/tag/trabajo/</link></image><item><title>Airbnb Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</link><pubDate>Thu, 01 Jan 1970 00:33:40 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/madrid-airbnb1/</guid><description>&lt;p>El objetivo de este trabajo es comprobar si se está utilizando la plataforma Airbnb por parte de empresas, en lugar de particulares, para alquiler turístico en el centro de Madrid.&lt;/p>
 &lt;h3 id="conjunto-de-datos">Conjunto de datos&lt;/h3>
-&lt;p>Datos abiertos de Inside Airbnb: &lt;a href="../datos/madrid-airbnb-listings.csv">Fichero alojamientos Madrid detallado&lt;/a>.&lt;/p>
+&lt;p>Datos abiertos de Inside Airbnb: &lt;a href="../datos/madrid-airbnb-listings-small.csv">Fichero alojamientos Madrid detallado&lt;/a>.&lt;/p>
 &lt;h3 id="requisitos-obligatorios">Requisitos obligatorios&lt;/h3>
 &lt;p>Sin usar Pandas:&lt;/p>
 &lt;ol>
@@ -29,8 +29,8 @@
 &lt;p>Abrir con &lt;a href="https://repl.it/@asalber/madrid-airbnb1py">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Deuda Pública</title><link>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link><pubDate>Thu, 01 Jan 1970 00:33:40 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p>
 &lt;h2 id="conjunto-de-datos">Conjunto de datos&lt;/h2>
 &lt;p>Datos del banco mundial:
-&lt;a href="datos/deuda-publica.csv">Deuda pública países&lt;/a> y
-&lt;a href="datos/pib.csv">PIB países&lt;/a>.&lt;/p>
+&lt;a href="../datos/deuda.csv">Deuda pública países&lt;/a>) y
+&lt;a href="../datos/pib.csv">PIB países&lt;/a>.&lt;/p>
 &lt;h2 id="requisitos">Requisitos&lt;/h2>
 &lt;p>Sin usar la librería Pandas:&lt;/p>
 &lt;ol>
@@ -58,7 +58,7 @@
 &lt;p>Abrir con &lt;a href="https://repl.it/@asalber/deudapy">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Contratos menores de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/contratos-menores-madrid/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis de los contratos menores del Ayuntamiento de Madrid desde 2015 para hacer una comparativa por años y ver qué empresas han resultado más beneficiadas.&lt;/p>
 &lt;h3 id="conjunto-de-datos">Conjunto de datos&lt;/h3>
 &lt;p>Datos abiertos del Ayuntamiento de Madrid:
-&lt;a href="http://aprendeconalf.es/python/trabajos/datos/contratos-menores-madrid.csv" target="_blank" rel="noopener">Contratos menores&lt;/a>&lt;/p>
+&lt;a href="../datos/contratos-menores-madrid.csv">Contratos menores&lt;/a>&lt;/p>
 &lt;p>Deben usarse los datos desde 2015.&lt;/p>
 &lt;h3 id="requisitos-obligatorios">Requisitos obligatorios&lt;/h3>
 &lt;ol>
@@ -74,7 +74,7 @@
 &lt;p>Abrir con &lt;a href="https://repl.it/@asalber/contratos-menores-madrid">&lt;img src="/images/logo-replit.png" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Emisiones de Madrid</title><link>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/emisiones-madrid/</guid><description>&lt;p>El objetivo de este trabajo es comprobar si las restricciones de tráfico establecidas en Madrid Central han servido para reducir significativamente las emisiones de gases contaminantes.&lt;/p>
 &lt;h3 id="conjunto-de-datos">Conjunto de datos&lt;/h3>
 &lt;p>Datos abiertos del Ayuntamiento de Madrid:
-&lt;a href="http://aprendeconalf.es/python/trabajos/datos/emisiones-madrid.csv" target="_blank" rel="noopener">Calidad del aire. Datos diarios años 2001 a 2019&lt;/a>.&lt;/p>
+&lt;a href="../datos/emisiones-madrid.csv">Calidad del aire. Datos diarios años 2001 a 2019&lt;/a>.&lt;/p>
 &lt;h3 id="requisitos">Requisitos&lt;/h3>
 &lt;ol>
 &lt;li>Crear una función que reciba una estación de medición y una magnitud y devuelva una lista con todas las mediciones de la magnitud en la estación.&lt;/li>
