@@ -32,7 +32,7 @@
 <meta property="og:description" content="In the last chapter we saw how to describe the distribution of a single variable in a sample. However, in most cases, studies require to describe several variables that are often related."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png">
 <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2016-04-20T00:00:00+00:00">
-<meta property="article:modified_time" content="2020-09-15T23:48:20+02:00">
+<meta property="article:modified_time" content="2021-10-07T19:16:52+02:00">
 <title>Regression | Aprende con Alf</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents>
@@ -191,9 +191,11 @@
 <li><a href=#exponential-relation>Exponential relation</a></li>
 </ul>
 </li>
-<li><a href=#outliers-in-regression>Outliers in regression</a>
+<li><a href=#regression-risks>Regression risks</a>
 <ul>
+<li><a href=#lack-of-fit-does-not-mean-independence>Lack of fit does not mean independence</a></li>
 <li><a href=#outliers-influence-in-regression>Outliers influence in regression</a></li>
+<li><a href=#the-simpsons-paradox>The Simpson&rsquo;s paradox</a></li>
 </ul>
 </li>
 </ul>
@@ -602,7 +604,7 @@ It measures how the dependent variable changes in relation to the independent on
 <div class=spoiler>
 <p>
 <a class="btn btn-primary" data-toggle=collapse href=#spoiler-18 role=button aria-expanded=false aria-controls=spoiler-18>
-Demostración
+Proof
 </a>
 </p>
 <div class="collapse card" id=spoiler-18>
@@ -760,24 +762,139 @@ $$</p>
 <p>$$\mbox{Bacteria} = e^{3.107+0.352,\mbox{Hours}}, \mbox{ with } r^2=0.99.$$</p>
 <img src=../img/regression/exponential_regression_bacteria.svg alt="Exponential regression of the bacteria evolution" width=500>
 <p>Thus, the exponential model fits much better than the linear model.</p>
+<h2 id=regression-risks>Regression risks</h2>
+<h3 id=lack-of-fit-does-not-mean-independence>Lack of fit does not mean independence</h3>
+<p>It is important to note that every regression model has its own coefficient of determination.</p>
 <div class="alert alert-warning">
 <div>
-It is important to note that every regression model has its own
-coefficient of determination. Thus, a coefficient of determination near zero means that there is no relation as set by the model, but <em>that does not mean that the variables are independent</em>, because there could be a different type of relation.
+Thus, a coefficient of determination near zero means that there is no relation as set by the model, but <em>that does not mean that the variables are independent</em>, because there could be a different type of relation.
 </div>
 </div>
 <div class=center>
-<img src=../img/regression/linear_regression_parabolic_relation.svg alt="Linear regression on a cuadratic relation" width=400>
-<img src=../img/regression/parabolic_regression.svg alt="Cuadratic regression on a cuadratic relation" width=400>
+<img src=../img/regression/linear_regression_parabolic_relation.svg alt="Linear regression on a cuadratic relation" width=500>
+<img src=../img/regression/parabolic_regression.svg alt="Cuadratic regression on a cuadratic relation" width=500>
 </div>
-<h2 id=outliers-in-regression>Outliers in regression</h2>
-<p>Outliers in regression studies are points that clearly do not follow
-the tendency of the rest of points, even if the values of the pair are
-not outliers for every variable separately.</p>
-<img src=../img/regression/scatterplot_with_outliers.svg alt="Scatter plot with an outlier" width=500>
 <h3 id=outliers-influence-in-regression>Outliers influence in regression</h3>
-<p>Outliers in regression studies can provoke drastic changes in the
-regression models.</p>
+<p>Outliers in regression studies are points that clearly do not follow the tendency of the rest of points, even if the values of the pair are not outliers for every variable separately.</p>
+<img src=../img/regression/scatterplot_with_outliers.svg alt="Scatter plot with an outlier" width=500>
+<p>Outliers in regression studies can provoke drastic changes in the regression models.</p>
 <div class=center>
-<img src=../img/regression/linear_regression_with_outliers.svg alt="Linear regression with an outlier" width=400> <img src=../img/regression/linear_regression_without_outliers.svg alt="Linear regression without outliers" width=400>
+<img src=../img/regression/linear_regression_with_outliers.svg alt="Linear regression with an outlier" width=500> <img src=../img/regression/linear_regression_without_outliers.svg alt="Linear regression without outliers" width=500>
 </div>
+<h3 id=the-simpsons-paradox>The Simpson&rsquo;s paradox</h3>
+<p>Sometimes a trend can disappears or even reverses when we split the sample into groups according to a qualitative variable that is related to the dependent variable.
+This is known as the <em>Simpson&rsquo;s paradox</em>.</p>
+<p><strong>Example</strong>. The scatterplot below shows an inverse relation between the study hours and the score in an exam.</p>
+<div class=center>
+<img src=../img/regression/simpson_paradox_1.svg alt="Simpon's paradox. Inverse relation between study hours and the score in an exam." width=500>
+</div>
+<p>But if we split the sample in two groups (good and bad students) we get different trends and now the relation is direct, which makes more sense.</p>
+<div class=center>
+<img src=../img/regression/simpson_paradox_2.svg alt="Simpon's paradox. Direct relation between study hours and the score in an exam." " width=500>
+</div>
+</div>
+<div class=article-tags>
+<a class="badge badge-light" href=/en/tag/statistics/>Statistics</a>
+<a class="badge badge-light" href=/en/tag/biostatistics/>Biostatistics</a>
+<a class="badge badge-light" href=/en/tag/regression/>Regression</a>
+</div>
+<div class=article-widget>
+<div class=post-nav>
+<div class=post-nav-item>
+<div class=meta-nav>Previous</div>
+<a href=/en/teaching/statistics/manual/descriptive-statistics/ rel=next>Descriptive Statistics</a>
+</div>
+<div class=post-nav-item>
+<div class=meta-nav>Next</div>
+<a href=/en/teaching/statistics/manual/probability/ rel=prev>Probability</a>
+</div>
+</div>
+</div>
+</div>
+<div class=body-footer>
+<p>Last updated on Oct 7, 2021</p>
+<section id=comments>
+<div id=disqus_thread></div>
+<script>let disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='https://aprendeconalf.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</section>
+</div>
+</article>
+<footer class=site-footer>
+<p class=powered-by>
+</p>
+<p class="powered-by copyright-license-text">
+This work is licensed under <a href=https://creativecommons.org/licenses/by-nc-sa/4.0 rel="noopener noreferrer" target=_blank>CC BY NC SA 4.0</a>
+</p>
+<p class="powered-by footer-license-icons">
+<a href=https://creativecommons.org/licenses/by-nc-sa/4.0 rel="noopener noreferrer" target=_blank>
+<img src=https://search.creativecommons.org/static/img/cc_icon.svg alt="CC icon">
+<img src=https://search.creativecommons.org/static/img/cc-by_icon.svg alt="CC by icon">
+<img src=https://search.creativecommons.org/static/img/cc-nc_icon.svg alt="CC NC icon">
+<img src=https://search.creativecommons.org/static/img/cc-sa_icon.svg alt="CC SA icon">
+</a>
+</p>
+<p class=powered-by>
+Published with
+<a href=https://wowchemy.com target=_blank rel=noopener>Wowchemy Website Builder</a>
+</p>
+</footer>
+</main>
+</div>
+</div>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/python.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/shell.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin=anonymous></script>
+<script>const code_highlighting=!0</script>
+<script>const search_config={indexURI:"/en/index.json",minLength:1,threshold:.3},i18n={no_results:"No results found",placeholder:"Search...",results:"results found"},content_type={post:"Posts",project:"Projects",publication:"Publications",talk:"Talks",slides:"Slides"}</script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin=anonymous></script>
+<script>anchors.add()</script>
+<script id=search-hit-fuse-template type=text/x-template>
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script>
+<script id=dsq-count-scr src=https://aprendeconalf.disqus.com/count.js async></script>
+<script src=/js/academic.min.f6ecf7692215f2bc4850b72c8176bfa2.js></script>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>Cite</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> Copy
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> Download
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

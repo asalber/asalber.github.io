@@ -1838,22 +1838,37 @@ $$&lt;/p>
 &lt;p>$$\mbox{Bacterias} = e^{3.107+0.352,\textrm{Horas}}, \mbox{ con } r^2=0.99.$$&lt;/p>
 &lt;img src="../img/regresion/regresion_exponencial_bacterias.svg" alt="Regresión exponencial de la evolución de las bacterias de un cultivo" width="500">
 &lt;p>Como se puede apreciar, el modelo exponencial se ajusta mucho mejor que el modelo lineal.&lt;/p>
+&lt;h2 id="riesgos-de-la-regresión">Riesgos de la regresión&lt;/h2>
+&lt;h3 id="la-falta-de-ajuste-no-significa-independencia">La falta de ajuste no significa independencia&lt;/h3>
+&lt;p>Es importante señalar que cada modelo de regresión tiene su propio coeficiente de determinación.&lt;/p>
 &lt;div class="alert alert-warning">
 &lt;div>
-Es importante señalar que cada modelo de regresión tiene su propio coeficiente de determinación. Así, un coeficiente de determinación cercano a cero significa que no existe relación entre las variables del tipo planteado por el modelo, pero &lt;em>eso no quiere decir que las variables sean independientes&lt;/em>, ya que puede existir relación de otro tipo.
+Así, un coeficiente de determinación cercano a cero significa que no existe relación entre las variables del tipo planteado por el modelo, pero &lt;em>eso no quiere decir que las variables sean independientes&lt;/em>, ya que puede existir relación de otro tipo.
 &lt;/div>
 &lt;/div>
-&lt;img src="../img/regresion/regresion_lineal_relacion_cuadratica.svg" alt="Modelo de regresión lineal en una relación cuadrática" width="400">
-&lt;img src="../img/regresion/regresion_cuadratica.svg" alt="Modelo de regresión cuadrático en una relación cuadrática" width="400">
-&lt;h2 id="datos-atípicos-en-regresión">Datos atípicos en regresión&lt;/h2>
+&lt;img src="../img/regresion/regresion_lineal_relacion_cuadratica.svg" alt="Modelo de regresión lineal en una relación cuadrática" width="500">
+&lt;img src="../img/regresion/regresion_cuadratica.svg" alt="Modelo de regresión cuadrático en una relación cuadrática" width="500">
+&lt;h3 id="datos-atípicos-en-regresión">Datos atípicos en regresión&lt;/h3>
 &lt;p>Los &lt;em>datos atípicos&lt;/em> en un estudio de regresión son los puntos que claramente no siguen la tendencia del resto de los puntos en el diagrama de dispersión, incluso si los valores del par no se pueden considerar atípicos para cada variable por separado.&lt;/p>
+&lt;img src="../img/regresion/diagrama_dispersion_con_datos_atipicos.svg" alt="Diagrama de dispersión con un dato atípico" width="500">
 &lt;div class="alert alert-warning">
 &lt;div>
 Los datos atípicos en regresión suelen provocar cambios drásticos en el ajuste de los modelos de regresión, y por tanto, habrá que tener mucho cuidado con ellos.
 &lt;/div>
 &lt;/div>
 &lt;div class="center">
-&lt;img src="../img/regresion/regresion_lineal_con_datos_atipicos.svg" alt="Modelo de regresión lineal con datos atípicos" width="400"> &lt;img src="../img/regresion/regresion_lineal_sin_datos_atipicos.svg" alt="Modelo de regresión lineal sin datos atípicos" width="400">
+&lt;img src="../img/regresion/regresion_lineal_con_datos_atipicos.svg" alt="Modelo de regresión lineal con datos atípicos" width="500"> &lt;img src="../img/regresion/regresion_lineal_sin_datos_atipicos.svg" alt="Modelo de regresión lineal sin datos atípicos" width="500">
+&lt;/div>
+&lt;h3 id="la-paradoja-de-simpson">La paradoja de Simpson&lt;/h3>
+&lt;p>A veces, una tendencia desaparece o incluso se revierte cuando se divide la muestra en grupos de acuerdo a una variable cualitativa que está relacionada con la variable dependiente.
+Esto se conoce como la &lt;em>paradoja de Simpson&lt;/em>.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. El siguiente diagrama de dispersión muestra una relación inversa entre entre las horas de estudio preparando un examen y la nota del examen.&lt;/p>
+&lt;div class="center">
+&lt;img src="../img/regresion/paradoja_simpson_1.svg" alt="Paradoja de Simpson. Relación inversa entre las horas de estudio para un examen y la nota obtenida." width="500">
+&lt;/div>
+&lt;p>Pero si se divide la muestra en dos grupos (buenos y malos estudiantes) se obtienen diferentes tendencias y ahora la relación es directa, lo que tiene más lógica.&lt;/p>
+&lt;div class="center">
+&lt;img src="../img/regresion/paradoja_simpson_2.svg" alt="Paradoja de Simpson. Relación directa entre las horas de estudio para un examen y la nota obtenida." width="500">
 &lt;/div></description></item><item><title>Ejercicios de Regresión Lineal</title><link>/docencia/estadistica/ejercicios/regresion-lineal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/ejercicios/regresion-lineal/</guid><description>&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>Titulación: Todas&lt;/p>
 &lt;p>Al realizar un estudio de regresión lineal de dos variables X e Y, se sabe que

@@ -585,7 +585,7 @@ Solución
 &lt;p>Abrir con &lt;a href="https://repl.it/@asalber/madrid-airbnb1py">&lt;img src="/media/logo-replit.png#left" alt="Abrir con repl.it">&lt;/a>&lt;/p></description></item><item><title>Deuda Pública</title><link>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</link><pubDate>Thu, 01 Jan 1970 00:33:40 +0000</pubDate><guid>/docencia/python/trabajos/inteligencia-negocios/deuda-publica/</guid><description>&lt;p>El objetivo de este trabajo es hacer un análisis del endeudamiento público por países.&lt;/p>
 &lt;h2 id="conjunto-de-datos">Conjunto de datos&lt;/h2>
 &lt;p>Datos del banco mundial:
-&lt;a href="../datos/deuda.csv">Deuda pública países&lt;/a>) y
+&lt;a href="../datos/deuda.csv">Deuda pública países&lt;/a> y
 &lt;a href="../datos/pib.csv">PIB países&lt;/a>.&lt;/p>
 &lt;h2 id="requisitos">Requisitos&lt;/h2>
 &lt;p>Sin usar la librería Pandas:&lt;/p>

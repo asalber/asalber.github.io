@@ -198,7 +198,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-627318549" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-497153628" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -207,7 +207,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-627318549', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-497153628', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -1343,7 +1343,7 @@ It measures how the dependent variable changes in relation to the independent on
 &lt;div class="spoiler " >
 &lt;p>
 &lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-18" role="button" aria-expanded="false" aria-controls="spoiler-18">
-Demostración
+Proof
 &lt;/a>
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-18">
@@ -1501,28 +1501,36 @@ $$&lt;/p>
 &lt;p>$$\mbox{Bacteria} = e^{3.107+0.352,\mbox{Hours}}, \mbox{ with } r^2=0.99.$$&lt;/p>
 &lt;img src="../img/regression/exponential_regression_bacteria.svg" alt="Exponential regression of the bacteria evolution" width="500">
 &lt;p>Thus, the exponential model fits much better than the linear model.&lt;/p>
+&lt;h2 id="regression-risks">Regression risks&lt;/h2>
+&lt;h3 id="lack-of-fit-does-not-mean-independence">Lack of fit does not mean independence&lt;/h3>
+&lt;p>It is important to note that every regression model has its own coefficient of determination.&lt;/p>
 &lt;div class="alert alert-warning">
 &lt;div>
-It is important to note that every regression model has its own
-coefficient of determination. Thus, a coefficient of determination near zero means that there is no relation as set by the model, but &lt;em>that does not mean that the variables are independent&lt;/em>, because there could be a different type of relation.
+Thus, a coefficient of determination near zero means that there is no relation as set by the model, but &lt;em>that does not mean that the variables are independent&lt;/em>, because there could be a different type of relation.
 &lt;/div>
 &lt;/div>
 &lt;div class="center">
-&lt;img src="../img/regression/linear_regression_parabolic_relation.svg" alt="Linear regression on a cuadratic relation" width="400">
-&lt;img src="../img/regression/parabolic_regression.svg" alt="Cuadratic regression on a cuadratic relation" width="400">
+&lt;img src="../img/regression/linear_regression_parabolic_relation.svg" alt="Linear regression on a cuadratic relation" width="500">
+&lt;img src="../img/regression/parabolic_regression.svg" alt="Cuadratic regression on a cuadratic relation" width="500">
 &lt;/div>
-&lt;h2 id="outliers-in-regression">Outliers in regression&lt;/h2>
-&lt;p>Outliers in regression studies are points that clearly do not follow
-the tendency of the rest of points, even if the values of the pair are
-not outliers for every variable separately.&lt;/p>
-&lt;img src="../img/regression/scatterplot_with_outliers.svg" alt="Scatter plot with an outlier" width="500">
 &lt;h3 id="outliers-influence-in-regression">Outliers influence in regression&lt;/h3>
-&lt;p>Outliers in regression studies can provoke drastic changes in the
-regression models.&lt;/p>
+&lt;p>Outliers in regression studies are points that clearly do not follow the tendency of the rest of points, even if the values of the pair are not outliers for every variable separately.&lt;/p>
+&lt;img src="../img/regression/scatterplot_with_outliers.svg" alt="Scatter plot with an outlier" width="500">
+&lt;p>Outliers in regression studies can provoke drastic changes in the regression models.&lt;/p>
 &lt;div class="center">
-&lt;img src="../img/regression/linear_regression_with_outliers.svg" alt="Linear regression with an outlier" width="400"> &lt;img src="../img/regression/linear_regression_without_outliers.svg" alt="Linear regression without outliers" width="400">
+&lt;img src="../img/regression/linear_regression_with_outliers.svg" alt="Linear regression with an outlier" width="500"> &lt;img src="../img/regression/linear_regression_without_outliers.svg" alt="Linear regression without outliers" width="500">
 &lt;/div>
-&lt;!-- TODO: Include simpson's paradox https://en.wikipedia.org/wiki/Simpson%27s_paradox /></description></item><item><title>Probability</title><link>/en/teaching/statistics/manual/probability/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/probability/</guid><description>&lt;p>Descriptive Statistics provides methods to describe the variables measured in the sample and their relations, but it does not allow to draw any conclusion about the population.&lt;/p>
+&lt;h3 id="the-simpsons-paradox">The Simpson&amp;rsquo;s paradox&lt;/h3>
+&lt;p>Sometimes a trend can disappears or even reverses when we split the sample into groups according to a qualitative variable that is related to the dependent variable.
+This is known as the &lt;em>Simpson&amp;rsquo;s paradox&lt;/em>.&lt;/p>
+&lt;p>&lt;strong>Example&lt;/strong>. The scatterplot below shows an inverse relation between the study hours and the score in an exam.&lt;/p>
+&lt;div class="center">
+&lt;img src="../img/regression/simpson_paradox_1.svg" alt="Simpon's paradox. Inverse relation between study hours and the score in an exam." width="500">
+&lt;/div>
+&lt;p>But if we split the sample in two groups (good and bad students) we get different trends and now the relation is direct, which makes more sense.&lt;/p>
+&lt;div class="center">
+&lt;img src="../img/regression/simpson_paradox_2.svg" alt="Simpon's paradox. Direct relation between study hours and the score in an exam."" width="500">
+&lt;/div></description></item><item><title>Probability</title><link>/en/teaching/statistics/manual/probability/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/probability/</guid><description>&lt;p>Descriptive Statistics provides methods to describe the variables measured in the sample and their relations, but it does not allow to draw any conclusion about the population.&lt;/p>
 &lt;p>Now it is time to take the leap from the sample to the population and the bridge for that is &lt;strong>Probability Theory&lt;/strong>.&lt;/p>
 &lt;p>Remember that the sample has a limited information about the population, and in order to draw valid conclusions for the population the sample must be representative of it. For that reason, to guarantee the representativeness of the sample, this must be drawn &lt;em>randomly&lt;/em>. This means that the choice of individuals in the sample is by &lt;em>chance&lt;/em>.&lt;/p>
 &lt;p>Probability Theory will provide us the tools to control the random in the sampling and to determine the level of reliability of the conclusions drawn from the sample.&lt;/p>
