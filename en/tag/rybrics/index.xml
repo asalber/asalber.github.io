@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rybrics | Aprende con Alf</title><link>/en/tag/rybrics/</link><atom:link href="/en/tag/rybrics/index.xml" rel="self" type="application/rss+xml"/><description>Rybrics</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Rybrics</title><link>/en/tag/rybrics/</link></image><item><title>Rubrics</title><link>/en/project/rubrics/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>/en/project/rubrics/</guid><description>&lt;h2>Table of Contents&lt;/h2>
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#what-is-rubrics">What is Rubrics?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#how-to-cite-rubrics">How to cite Rubrics?&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;h2 id="what-is-rubrics">What is Rubrics?&lt;/h2>
+&lt;p>Rubrics is a Shiny web application for assessment with rubrics.&lt;/p>
+&lt;p>The application allows:&lt;/p>
+&lt;ol>
+&lt;li>Create a rubric for an exam or test.&lt;/li>
+&lt;li>Load the list of students from a csv file and generate a template for the assessment.&lt;/li>
+&lt;li>Load the assessment from the template.&lt;/li>
+&lt;li>Generate a list with the students grades.&lt;/li>
+&lt;li>Generate a descriptive summary of the distribution of grades.&lt;/li>
+&lt;li>Generate a personalized report with the assessment of each student.&lt;/li>
+&lt;/ol>
+&lt;p>The video below contains a more detailed presentation of this application (in Spanish):&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/RYCMFn2MDB8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="how-to-cite-rubrics">How to cite Rubrics?&lt;/h2>
+&lt;p>Anemone, Gloria., Sánchez-Alberca, Alfredo. (2021). Rubrics (version 1.0) [software]. Obtained from:
+&lt;a href="https://aprendeconalf.es/en/project/rubrics" target="_blank" rel="noopener">https://aprendeconalf.es/en/project/rubrics&lt;/a>.&lt;/p></description></item></channel></rss>
