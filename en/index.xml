@@ -447,7 +447,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-873149256" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-498517362" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -456,7 +456,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-873149256', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-498517362', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -8567,9 +8567,12 @@ Let $X$ be the curing time, $P(X&amp;gt;65)=0.0668$.&lt;br>
 Let $Y$ be the number of injured players that could play the semifinal, $P(Y\geq 1)=0.4989$.
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Rubrics</title><link>/en/project/rubrics/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>/en/project/rubrics/</guid><description>&lt;h2>Table of Contents&lt;/h2>
+&lt;/div></description></item><item><title>Rubrics</title><link>/en/project/rubrics/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>/en/project/rubrics/</guid><description>&lt;h2 id="application-accesshttpnubeaprendeconalfesshinyassessment-rubric">
+&lt;a href="http://nube.aprendeconalf.es/shiny/assessment-rubric/" target="_blank" rel="noopener">Application access&lt;/a>&lt;/h2>
+&lt;h2>Table of Contents&lt;/h2>
 &lt;nav id="TableOfContents">
 &lt;ul>
+&lt;li>&lt;a href="#application-accesshttpnubeaprendeconalfesshinyassessment-rubric">&lt;a href="http://nube.aprendeconalf.es/shiny/assessment-rubric/">Application access&lt;/a>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#what-is-rubrics">What is Rubrics?&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#how-to-cite-rubrics">How to cite Rubrics?&lt;/a>&lt;/li>
 &lt;/ul>
