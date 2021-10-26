@@ -1,4 +1,178 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pharmacy | Aprende con Alf</title><link>/en/category/pharmacy/</link><atom:link href="/en/category/pharmacy/index.xml" rel="self" type="application/rss+xml"/><description>Pharmacy</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Pharmacy</title><link>/en/category/pharmacy/</link></image><item><title>Pharmacy exam 2021-01-18</title><link>/en/teaching/calculus/exams/pharmacy-2021-01-18/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><guid>/en/teaching/calculus/exams/pharmacy-2021-01-18/</guid><description>&lt;p>Degrees: Pharmacy and Biotechnology&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pharmacy | Aprende con Alf</title><link>/en/category/pharmacy/</link><atom:link href="/en/category/pharmacy/index.xml" rel="self" type="application/rss+xml"/><description>Pharmacy</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Pharmacy</title><link>/en/category/pharmacy/</link></image><item><title>Pharmacy exam 2021-10-25</title><link>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-10-25/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-10-25/</guid><description>&lt;p>Degrees: Pharmacy, Biotechnology&lt;br>
+Date: October 25, 2021&lt;/p>
+&lt;h2 id="question-1">Question 1&lt;/h2>
+&lt;p>The table below shows the number of daily sugary drinks drunk by a sample of 16-years-old people.&lt;/p>
+&lt;p>$$
+\begin{array}{|c|r|r|r|r|}
+\hline \mbox{Drinks} &amp;amp; n_i &amp;amp; f_i &amp;amp; N_i &amp;amp; F_i\newline
+\hline 0 &amp;amp; &amp;amp; 0.1 &amp;amp; &amp;amp; \newline
+\hline 1 &amp;amp; &amp;amp; &amp;amp; 48 &amp;amp; \newline
+\hline 2 &amp;amp; &amp;amp; &amp;amp; &amp;amp; 0.725\newline
+\hline 3 &amp;amp; 24 &amp;amp; &amp;amp; &amp;amp; \newline
+\hline 4 &amp;amp; &amp;amp; &amp;amp; &amp;amp; 0.975\newline
+\hline 5 &amp;amp; &amp;amp; &amp;amp; 120 &amp;amp; \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Complete the table explaining how.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Plot the cumulative frequency polygon.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Are there outliers?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Study the normality of the distribution.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If another sample of 18-years-old people has a mean $2.1$ drinks and a variance $1.5$ drinks$^2$, in which distribution is more representative the mean?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Who consumes a higher relative amount of sugary drinks, a 16-years-old who consumes 3 drinks a day or a 18-years-old who consumes 4?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Use the following sums for the computations: $\sum x_i= 225$ drinks, $\sum x_i^2=579$ drinks$^2$, $\sum (x_i-\bar x)^3=80.16$ drinks$^3$ and $\sum (x_i-\bar x)^4=616.32$ drinks$^4$.&lt;/p>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-0" role="button" aria-expanded="false" aria-controls="spoiler-0">
+Solution
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-0">
+&lt;div class="card-body">
+&lt;ol>
+&lt;li>
+&lt;p>$$
+\begin{array}{|c|r|r|r|r|}
+\hline
+\mbox{Drinks} &amp;amp; n_i &amp;amp; f_i &amp;amp; N_i &amp;amp; F_i \newline
+\hline
+0 &amp;amp; 12 &amp;amp; 0.100 &amp;amp; 12 &amp;amp; 0.100 \newline
+\hline
+1 &amp;amp; 36 &amp;amp; 0.300 &amp;amp; 48 &amp;amp; 0.400 \newline
+\hline
+2 &amp;amp; 39 &amp;amp; 0.325 &amp;amp; 87 &amp;amp; 0.725 \newline
+\hline
+3 &amp;amp; 24 &amp;amp; 0.200 &amp;amp; 111 &amp;amp; 0.925 \newline
+\hline
+4 &amp;amp; 6 &amp;amp; 0.050 &amp;amp; 117 &amp;amp; 0.975 \newline
+\hline
+5 &amp;amp; 3 &amp;amp; 0.025 &amp;amp; 120 &amp;amp; 1.000 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;img src="../img/des-21-nut-cumulative-distribution-drinks.svg" alt="Cumulative distribution of daily sugary drinks">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Quartiles: $Q_1=1$ drinks, $Q_2=2$ drinks, $Q_3=3$ drinks&lt;br>
+$IQR = 2$ drinks.&lt;br>
+Fences: $f_1=-2$ drinks and $f_2=6$ drinks. Thus, there are no outliers.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\bar x=1.875$ drinks, $s^2=1.3094$ drinks$^2$, $s=1.1443$ drinks, $g_1=0.4458$ and $g_2=-0.0043$. As the coefficient of skewness and the coefficient of kurtosis are between -2 and 2 we can assume that the sample comes from a normal population.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Let $Y$ be the daily sugary drinks drunk by 18-year-old people. Then, $cv_x=0.6103$ and $cv_y=0.5832$. As the coefficient of variation of 18-year-old is a little bit smaller than the one of 16-year-old, the mean of the 18-year-old is a little bit more representative.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Standard score for 16-year-old: $z(3)=0.9832$&lt;br>
+Standard score for 18-year-old: $z(4)=1.5513$&lt;br>
+As the standard score of 4 for a 18-years-old is greater than the standard score of 3 for a 16-years-old, 4 drinks for a 18-year-old is relatively higher than 3 drinks for a 16-years-old.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="question-2">Question 2&lt;/h2>
+&lt;p>The rowan is a species of tree that grows at different altitudes. In order to study how the rowan adapts to different habitats, we have collected a sample of branches of 12 trees at different altitudes in Scotland. In the laboratory, the respiration rate of each branch was observed during the night. The following table shows the altitude (in meters) of each branch and the respiration rate (in nl of O$_2$ per hour per mg of weight).&lt;/p>
+&lt;p>$$
+\begin{array}{lrrrrrrrrrrrr}
+\hline
+\mbox{Altitude} &amp;amp; 90 &amp;amp; 230 &amp;amp; 240 &amp;amp; 260 &amp;amp; 330 &amp;amp; 400 &amp;amp; 410 &amp;amp; 550 &amp;amp; 590 &amp;amp; 610 &amp;amp; 700 &amp;amp; 790 \newline
+\mbox{Respiration rate} &amp;amp; 110 &amp;amp; 200 &amp;amp; 130 &amp;amp; 150 &amp;amp; 180 &amp;amp; 160 &amp;amp; 230 &amp;amp; 180 &amp;amp; 230 &amp;amp; 260 &amp;amp; 320 &amp;amp; 370 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Is there a linear relationship between altitude and respiration rate of rowan. How is this relationship?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>How much increases the respiration rate per each increment of 100 meters in the altitude?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What respiration rate is expected for a rowan at 500 meters of altitude? And for a rowan at the sea level?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Are these predictions reliable?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Use the following sums for the computations ($X$=Altitude and $Y$=Respiration rate): $\sum x_i=5200$ m, $\sum y_i=2520$ nl/(mg$\cdot$ h), $\sum x_i^2=2760000$ (m)$^2$, $\sum y_i^2=594600$ nl/(mg$\cdot$ h)$^2$ and $\sum x_iy_j=1253400$ m$\cdot$ nl/(mg$\cdot$ h).&lt;/p>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-1" role="button" aria-expanded="false" aria-controls="spoiler-1">
+Solution
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-1">
+&lt;div class="card-body">
+&lt;ol>
+&lt;li>
+&lt;p>$\bar x=433.3333$ m, $s_x^2=42222.2222$ (m)$^2$,&lt;br>
+$\bar y=210$ nl/(mg$\cdot$ h), $s_y^2=5450$ nl/(mg$\cdot$ h)$^2$,&lt;br>
+$s_{xy}=13450$ m $\cdot$ nl/(mg$\cdot$ h).&lt;br>
+As the covariance is positive, there is a direct linear relation between the altitude and the respiration rate.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The respiration rate increases $b_{yx} = 0.3186$ nl/(mg$\cdot$h) per meter, or what is the same, $31.8553$ nl/(mg$\cdot$h) per 100 meters.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Regression line of the respiration rate on the altitude: $y=71.9605 + 0.3186x$.&lt;br>
+Predictions: $y(500) = 231.2368$ nl/(mg$\cdot$ h) and $y(0) = 71.9605$ nl/(mg$\cdot$ h).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$r^2 = 0.7862$. As the coefficient of determination is not far from 1, the regression line fits well, but the sample size is too small to have reliable predictions. In addition, the prediction for the sea level is less reliable because it falls outside the range of values of the sample.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="question-3">Question 3&lt;/h2>
+&lt;p>The relationship between basal metabolic rate and age is being studied in a sample of healthy men and the following regression lines have been obtained&lt;/p>
+&lt;p>&lt;img src="../img/reglin-16-nut-regression-lines.svg" alt="regression lines plot">&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Compute the means of the basal metabolic rate and the age.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>How is the fit of the two lines?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-2" role="button" aria-expanded="false" aria-controls="spoiler-2">
+Solution
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-2">
+&lt;div class="card-body">
+&lt;p>Let $X$ be the age and $Y$ the basal metabolic rate.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>$\bar x=40$ and $\bar y=40$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$b_{yx}=-0.1$, $b_{xy}=-5$ and $r^2 = 0.5$, thus the fit of the regression lines moderate.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Pharmacy exam 2021-01-18</title><link>/en/teaching/calculus/exams/pharmacy-2021-01-18/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><guid>/en/teaching/calculus/exams/pharmacy-2021-01-18/</guid><description>&lt;p>Degrees: Pharmacy and Biotechnology&lt;br>
 Date: Jan 18, 2021&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>A drug is administered intravenously at a speed of 15 mg/hour. At the same time, the body methabolizes the drug at a rate of 80% of the amount in the body per hour.&lt;/p>
