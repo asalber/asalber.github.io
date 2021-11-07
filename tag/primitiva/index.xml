@@ -265,11 +265,11 @@ $$&lt;/p>
 &lt;p>Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\geq 0\ \forall x\in[a,b]$, entonces la integral definida&lt;/p>
 &lt;p>$$\int_a^b f(x)\,dx$$&lt;/p>
 &lt;p>mide le área que queda entre la el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$.&lt;/p>
-&lt;p>&lt;img src="../img/integrales/area_positive_function.svg" width="300px" alt="Area delimitada por el gráfico de una función positiva entre la función y el eje X en un intervalo" />&lt;/p>
+&lt;img src="../img/integrales/area_positive_function.svg" width="300px" alt="Area delimitada por el gráfico de una función positiva entre la función y el eje X en un intervalo" />
 &lt;h3 id="área-delimitada-por-una-función-negativa-y-el-eje-de-abscisas">Área delimitada por una función negativa y el eje de abscisas&lt;/h3>
 &lt;p>Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\leq 0\ \forall x\in[a,b]$, entonces el área que queda entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p>
 &lt;p>$$-\int_a^b f(x)\,dx.$$&lt;/p>
-&lt;p>&lt;img src="../img/integrales/area_negative_function.svg" width="300px" alt="Area delimitada por el gráfico de una función negativa entre la función y el eje X en un intervalo" />&lt;/p>
+&lt;img src="../img/integrales/area_negative_function.svg" width="300px" alt="Area delimitada por el gráfico de una función negativa entre la función y el eje X en un intervalo" />
 &lt;h3 id="área-delimitada-por-una-función-y-el-eje-de-abscisas">Área delimitada por una función y el eje de abscisas&lt;/h3>
 &lt;p>En general, si $f(x)$ es una función integrable en el intervalo $[a,b]$, no importa el signo de $f$ en $[a,b]$, el area entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p>
 &lt;p>$$\int_a^b \vert f(x)\vert\,dx.$$&lt;/p>
@@ -277,4 +277,4 @@ $$&lt;/p>
 &lt;h3 id="área-delimitada-por-dos-funciones">Área delimitada por dos funciones&lt;/h3>
 &lt;p>Si $f$ y $g$ son dos funciones integrables en el intervalo $[a,b]$, entonces el área limitada por los gráficos de $f$ y $g$ en el intervalo $[a,b]$ es&lt;/p>
 &lt;p>$$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p>
-&lt;p>&lt;img src="../img/integrales/area_between_functions.svg" width="400px" alt="Area delimitada por el gráfico de dos funciones en un intervalo" />&lt;/p></description></item></channel></rss>
+&lt;img src="../img/integrales/area_between_functions.svg" width="400px" alt="Area delimitada por el gráfico de dos funciones en un intervalo" /></description></item></channel></rss>

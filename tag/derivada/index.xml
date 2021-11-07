@@ -25,14 +25,14 @@
 $$&lt;/p>
 &lt;p>¿Cuál será la tasa de variación media del área en el intervalo $[a,a+\Delta x]$?&lt;/p>
 &lt;p>$$\operatorname{TVM}f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{2a\Delta x+\Delta x^2}{\Delta x}=2a+\Delta x.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/variacion_area_cuadrado.png" width="250px" alt="Variación que experimenta el area de un cuadrado al variar el lado" />&lt;/p>
+&lt;img src="../img/derivadas1/variacion_area_cuadrado.png" width="250px" alt="Variación que experimenta el area de un cuadrado al variar el lado" />
 &lt;h3 id="interpretación-geométrica-de-la-tasa-de-variación-media">Interpretación geométrica de la tasa de variación media&lt;/h3>
 &lt;div class="alert alert-int">
 &lt;div>
 La tasa de variación media de $f$ en el intervalo $[a,a+\Delta x]$ es la pendiente de la recta &lt;em>secante&lt;/em> a $f$ en los puntos $(a,f(a))$ y $(a+\Delta x,f(a+\Delta x))$.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/derivadas1/secante.png" width="500px" alt="Gráfica de la recta secante a una función en dos puntos" />&lt;/p>
+&lt;img src="../img/derivadas1/secante.png" width="500px" alt="Gráfica de la recta secante a una función en dos puntos" />
 &lt;h3 id="tasa-de-variación-instantánea">Tasa de variación instantánea&lt;/h3>
 &lt;p>En muchas ocasiones, es interesante estudiar la tasa de variación que experimenta una función, no en intervalo, sino en un punto.&lt;/p>
 &lt;p>Conocer la tendencia de variación de una función en un instante puede ayudarnos a predecir valores en instantes próximos.&lt;/p>
@@ -69,12 +69,12 @@ $$&lt;/p>
 La tasa de variación instantánea de $f$ en el punto $a$ es la pendiente de la recta &lt;em>tangente&lt;/em> a $f$ en el punto $(a,f(a))$.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/derivadas1/tangente.png" width="500px" alt="Gráfica de la recta tangente a una función en un punto" />&lt;/p>
+&lt;img src="../img/derivadas1/tangente.png" width="500px" alt="Gráfica de la recta tangente a una función en un punto" />
 &lt;h2 id="interpretación-cinemática-de-la-derivada">Interpretación cinemática de la derivada&lt;/h2>
 &lt;h3 id="movimiento-rectilineo">Movimiento rectilineo&lt;/h3>
 &lt;p>Supongase que la función $f(t)$ describe la posición de un objeto móvil sobre la recta real en el instante $t$. Tomando como referencia el
 origen de coordenadas $O$ y el vector unitario $\mathbf{i}=(1)$, se puede representar la posición $P$ del móvil en cada instante $t$ mediante un vector $\vec{OP}=x\mathbf{i}$ donde $x=f(t)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/movimiento_rectilineo.png" width="500px" alt="Interpretación cinemática del movimiento rectilineo" />&lt;/p>
+&lt;img src="../img/derivadas1/movimiento_rectilineo.png" width="500px" alt="Interpretación cinemática del movimiento rectilineo" />
 &lt;p>También tiene sentido pensar en $f$ como una función que mide otras magnitudes como por ejemplo la temperatura de un cuerpo, la concentración de un gas o la cantidad de un compuesto en una reacción química en un instante $t$.&lt;/p>
 &lt;p>En este contexto, si se toman los instantes $t=t_0$ y $t=t_0+\Delta t$, ambos del dominio $I$ de $f$, el vector&lt;/p>
 &lt;p>$$\mathbf{v}_m=\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t}$$&lt;/p>
@@ -98,7 +98,7 @@ y=y(t)
 t\in I\subseteq \mathbb{R}
 $$&lt;/p>
 &lt;p>se conocen como &lt;em>funciones coordenadas&lt;/em> de $f$ y se escribe $f(t)=(x(t),y(t))$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/movimiento_curvilineo.png" width="500px" alt="Interpretación cinemática del movimiento curvilineo" />&lt;/p>
+&lt;img src="../img/derivadas1/movimiento_curvilineo.png" width="500px" alt="Interpretación cinemática del movimiento curvilineo" />
 &lt;h4 id="velocidad-en-una-trayectoria-curvilinea-en-el-plano">Velocidad en una trayectoria curvilinea en el plano&lt;/h4>
 &lt;p>En este contexto de una trayectoria $f(t)=(x(t),y(t))$ en el plano real $\mathbb{R}^2$, para un instante $t=t_0$, si existe el vector&lt;/p>
 &lt;p>$$\mathbf{v} = \lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p>
@@ -117,7 +117,7 @@ $$&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Dada la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, sus funciones coordenadas son $x(t) = \cos t$, $y(t) = \operatorname{sen} t$, $t\in \mathbb{R}$, y su velocidad es&lt;/p>
 &lt;p>$$\mathbf{v}=f'(t)=(x'(t),y'(t))=(-\operatorname{sen} t, \cos t).$$&lt;/p>
 &lt;p>En el instante $t=\pi/4$, el móvil estará en la posición $f(\pi/4) = (\cos(\pi/4),\operatorname{sen}(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ y se moverá con una velocidad $\mathbf{v}=f'(\pi/4)=(-\operatorname{sen}(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/circunferencia.png" width="300px" alt="Trayectoria de la circunferencia" />&lt;/p>
+&lt;img src="../img/derivadas1/circunferencia.png" width="300px" alt="Trayectoria de la circunferencia" />
 &lt;p>Obsérvese que el módulo del vector velocidad siempre será 1 ya que $\lvert \mathbf{v}\rvert = \sqrt{(-\operatorname{sen} t)^2+(\cos t)^2}=1$.&lt;/p>
 &lt;h2 id="recta-tangente-a-una-trayectoria">Recta tangente a una trayectoria&lt;/h2>
 &lt;h3 id="recta-tangente-a-una-trayectoria-en-el-plano">Recta tangente a una trayectoria en el plano&lt;/h3>
@@ -186,7 +186,7 @@ l&amp;amp;: (x,y)=(\cos(\pi/2),\operatorname{sen}(\pi/2))+t(\cos(\pi/2),\operato
 $$&lt;/p>
 &lt;p>y su ecuación cartesiana es&lt;/p>
 &lt;p>$$\frac{x-\sqrt{2}/2}{\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y-\sqrt{2}/2 = \frac{\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=x.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/circunferencia_tangente_normal.png" width="600px" alt="Tangente y normal a la trayectoria de una circunferencia" />&lt;/p>
+&lt;img src="../img/derivadas1/circunferencia_tangente_normal.png" width="600px" alt="Tangente y normal a la trayectoria de una circunferencia" />
 &lt;h3 id="rectas-tangente-y-normal-a-una-función">Rectas tangente y normal a una función&lt;/h3>
 &lt;p>Un caso particular de las recta tangente y normal a una trayectoria es son la recta tangente y normal a una función de una variable real. Si se tiene la función $y=f(x)$, $x\in I\subseteq \mathbb{R}$, una trayectoria que traza la gráfica de $f$ es $$g(t) = (t,f(t)) \quad t\in I,$$ y su velocidad es $$g'(t) = (1,f'(t)),$$ de modo que la recta tangente para $t=x_0$ es&lt;/p>
 &lt;p>$$\frac{x-x_0}{1} = \frac{y-f(x_0)}{f'(x_0)} \Rightarrow y-f(x_0) = f'(x_0)(x-x_0),$$&lt;/p>
@@ -214,7 +214,7 @@ $$&lt;/p>
 &lt;p>$$\mathbf{v}=f'(\pi/2)=(-\operatorname{sen}(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$&lt;/p>
 &lt;p>y la tangente en ese punto es&lt;/p>
 &lt;p>$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />&lt;/p>
+&lt;img src="../img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />
 &lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m156108" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="álgebra-de-derivadas">Álgebra de derivadas&lt;/h2>
 &lt;h3 id="propiedades-de-la-derivada">Propiedades de la derivada&lt;/h3>
@@ -297,7 +297,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos la función $f(x)=x^4-2x^2+1$. Su derivada $f'(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/crecimiento.png" width="500px" alt="Estudio del crecimiento de una función" />&lt;/p>
+&lt;img src="../img/derivadas1/crecimiento.png" width="500px" alt="Estudio del crecimiento de una función" />
 &lt;h2 id="determinación-de-los-extremos-relativos-de-una-función">Determinación de los extremos relativos de una función&lt;/h2>
 &lt;p>Como consecuencia del resultado anterior, la derivada también sirve para determinar los extremos relativos de una función.&lt;/p>
 &lt;div class="alert alert-theo">
@@ -314,7 +314,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos de nuevo la función $f(x)=x^4-2x^2+1$. Su derivada $f'(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/extremos.png" width="500px" alt="Estudio de los extremos de una función" />&lt;/p>
+&lt;img src="../img/derivadas1/extremos.png" width="500px" alt="Estudio de los extremos de una función" />
 &lt;h2 id="estudio-de-la-concavidad-de-una-función">Estudio de la concavidad de una función&lt;/h2>
 &lt;p>La concavidad de una función puede estudiarse mediante el signo de la segunda derivada.&lt;/p>
 &lt;div class="alert alert-theo">
@@ -329,7 +329,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La función $f(x)=x^2$ tiene segunda derivada $f^{\prime\prime}(x)=2&amp;gt;0$ y por tanto es cóncava en todo $\mathbb{R}$.&lt;/p>
 &lt;p>&lt;strong>Observación&lt;/strong>. &lt;em>Una función puede ser cóncava o convexa en un intervalo y no tener derivada.&lt;/em>&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos de nuevo la función $f(x)=x^4-2x^2+1$. Su segunda derivada $f^{\prime\prime}(x)=12x^2-4$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/concavidad.png" width="500px" alt="Estudio de la concavidad de una función" />&lt;/p>
+&lt;img src="../img/derivadas1/concavidad.png" width="500px" alt="Estudio de la concavidad de una función" />
 &lt;h2 id="polinomios-de-taylor">Polinomios de Taylor&lt;/h2>
 &lt;h3 id="aproximación-de-una-función-mediante-un-polinomio">Aproximación de una función mediante un polinomio&lt;/h3>
 &lt;p>Una aplicación muy útil de la derivada es la aproximación de funciones mediante polinomios.&lt;/p>
@@ -346,7 +346,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;p>$$p(x_0) = c_0 = f(x_0).$$&lt;/p>
 &lt;p>En consecuencia, el polinomio de grado 0 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p>
 &lt;p>$$p(x) = f(x_0).$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_grado_0.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 0" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_grado_0.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 0" />
 &lt;h4 id="aproximación-mediante-un-polinomio-de-grado-1">Aproximación mediante un polinomio de grado 1&lt;/h4>
 &lt;p>Un polinomio de grado 1 es una recta y tiene ecuación&lt;/p>
 &lt;p>$$p(x) = c_0+c_1x,$$&lt;/p>
@@ -366,7 +366,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;p>Así pues, el polinomio de grado 1 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p>
 &lt;p>$$p(x) = f(x_0)+f &amp;lsquo;(x_0)(x-x_0),$$&lt;/p>
 &lt;p>que resulta ser la recta tangente a $f$ en el punto $(x_0,f(x_0))$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_grado_1.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 1" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_grado_1.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 1" />
 &lt;h4 id="aproximación-mediante-un-polinomio-de-grado-2">Aproximación mediante un polinomio de grado 2&lt;/h4>
 &lt;p>Un polinomio de grado 2 es una parábola y tiene ecuación&lt;/p>
 &lt;p>$$p(x) = c_0+c_1x+c_2x^2,$$&lt;/p>
@@ -387,7 +387,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;/ul>
 &lt;p>Así pues, el polinomio de grado 2 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p>
 &lt;p>$$p(x) = f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2}(x-x_0)^2.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_grado_2.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 2" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_grado_2.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 2" />
 &lt;h4 id="aproximación-mediante-un-polinomio-de-grado-n">Aproximación mediante un polinomio de grado $n$&lt;/h4>
 &lt;p>Un polinomio de grado $n$ tiene ecuación&lt;/p>
 &lt;p>$$p(x) = c_0+c_1x+c_2x^2+\cdots +c_nx^n,$$&lt;/p>
@@ -456,7 +456,7 @@ f'''(x)=2/x^3 &amp;amp; &amp;amp; f'''(1)=2/1^3=2.
 $$&lt;/p>
 &lt;p>Sustituyendo en la ecuación del polinomio se tiene&lt;/p>
 &lt;p>$$p_{f,1}^3(x)=0+1(x-1)+\frac{-1}{2}(x-1)^2+\frac{2}{3!}(x-1)^3= \frac{2}{3}x^3-\frac{3}{2}x^2+3x-\frac{11}{6}.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_taylor_logaritmo.png" width="500px" alt="Gráfica del polinomio de Taylor del logaritmo" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_taylor_logaritmo.png" width="500px" alt="Gráfica del polinomio de Taylor del logaritmo" />
 &lt;h3 id="polinomio-de-maclaurin-de-orden-n">Polinomio de Maclaurin de orden $n$&lt;/h3>
 &lt;p>La ecuación del polinomio de Taylor se simplifica cuando el punto en torno al cual queremos aproximar es el $0$.&lt;/p>
 &lt;div class="alert alert-def">
@@ -484,7 +484,7 @@ f'''(x)=-\cos x &amp;amp; &amp;amp; f'''(0)=-\cos 0=-1.
 $$&lt;/p>
 &lt;p>Sustituyendo en la ecuación del polinomio obtenemos&lt;/p>
 &lt;p>$$p_{f,0}^3(x)=0+1\cdot x+\frac{0}{2}x^2+\frac{-1}{3!}x^3= x-\frac{x^3}{6}.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_mclaurin_seno.png" width="700px" alt="Gráfica del polinomio de Maclaurin del seno" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_mclaurin_seno.png" width="700px" alt="Gráfica del polinomio de Maclaurin del seno" />
 &lt;h3 id="polinomios-de-maclaurin-de-funciones-elementales">Polinomios de Maclaurin de funciones elementales&lt;/h3>
 &lt;p>$$\renewcommand{\arraystretch}{2.5}
 \begin{array}{|c|c|}
@@ -507,7 +507,7 @@ e^x &amp;amp; \displaystyle 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots + \frac{x^n
 dicha aproximación.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Resto de Taylor&lt;/strong>. Si $f$ es una función para la que existe el su polinomio de Taylor de orden $n$ en $x_0$, $p_{f,x_0}^n$, entonces se define el *resto de Taylor* de orden $n$ para $f$ en $x_0$ como&lt;/p>
+&lt;p>&lt;strong>Definición - Resto de Taylor&lt;/strong>. Si $f$ es una función para la que existe el su polinomio de Taylor de orden $n$ en $x_0$, $p_{f,x_0}^n$, entonces se define el &lt;em>resto de Taylor&lt;/em> de orden $n$ para $f$ en $x_0$ como&lt;/p>
 &lt;p>$$r_{f,x_0}^n(x)=f(x)-p_{f,x_0}^n(x).$$&lt;/p>
 &lt;/div>
 &lt;/div>

@@ -8,7 +8,7 @@ f:\,&amp;amp;A\longrightarrow B\newline
 &amp;amp;a\longrightarrow f(a)\end{aligned}$$&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/definicion_funcion.png" width="400px" alt="Correspondencia de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/definicion_funcion.png" width="400px" alt="Correspondencia de una función" />
 &lt;p>Cuando el conjunto inicial y final es el de los números reales $\mathbb{R}$, entonces se dice que $f:\mathbb{R}\rightarrow \mathbb{R}$ es una &lt;em>función real de variable real&lt;/em>.&lt;/p>
 &lt;h3 id="formas-de-representar-una-función">Formas de representar una función&lt;/h3>
 &lt;h4 id="por-extensión">Por extensión&lt;/h4>
@@ -21,7 +21,7 @@ y &amp;amp; 4 &amp;amp; 1 &amp;amp; 0 &amp;amp; 1 &amp;amp; 4 &amp;amp; \cdots \
 \hline
 \end{array}$$&lt;/p>
 &lt;p>Representación gráfica&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_cuadrado.png" width="300px" alt="Función cudrado" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_cuadrado.png" width="300px" alt="Función cudrado" />
 &lt;h4 id="por-intensión">Por Intensión&lt;/h4>
 &lt;p>Representación algebraica explícita&lt;/p>
 &lt;p>$$y=x^2$$&lt;/p>
@@ -39,7 +39,7 @@ x=t
 &lt;p>$$Id(x)=x.$$&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_identidad.png" width="300px" alt="Función identidad" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_identidad.png" width="300px" alt="Función identidad" />
 &lt;h2 id="dominio-e-imagen-de-una-función">Dominio e imagen de una función&lt;/h2>
 &lt;h3 id="dominio-de-una-función">Dominio de una función&lt;/h3>
 &lt;div class="alert alert-def">
@@ -49,7 +49,7 @@ x=t
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Dada la función $$f(x)=\frac{1}{\sqrt{x^2-1}}$$&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/ejemplo_dominio.png" width="450px" alt="Ejemplo de dominio de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/ejemplo_dominio.png" width="450px" alt="Ejemplo de dominio de una función" />
 &lt;p>Para determinar su dominio hay que eliminar los valores en los que no está definida la función. En este caso hay que eliminar los valores que hacen negativo el radicando de la raíz del denominador, es decir, los valores de $x$ tales que $x^2-1&amp;lt;0$, que son los valores que cumplen $-1&amp;lt;x&amp;lt;1$, pero también hay que eliminar del dominio los valores que anulan el denominador, es decir, los valores de $x$ tales que $\sqrt{x^2-1}=0$, que son $x=-1$ y $x=1$. Por tanto, su dominio es&lt;/p>
 &lt;p>$$\mbox{Dom}(f)=(-\infty,-1)\cup(1,\infty)$$&lt;/p>
 &lt;h3 id="imagen-de-una-función">Imagen de una función&lt;/h3>
@@ -60,7 +60,7 @@ x=t
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Dada la función $f(x)=x^2-2$&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/ejemplo_imagen.png" width="400px" alt="Ejemplo de la imagen de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/ejemplo_imagen.png" width="400px" alt="Ejemplo de la imagen de una función" />
 &lt;p>Su imagen es&lt;/p>
 &lt;p>$$\mbox{Img}(f)=[-2,\infty)$$&lt;/p>
 &lt;p>ya que la función cuadrática $x^2$ puede tomar cualquier valor de $0$ a $\infty$ (no toma nunca valores negativos), y al restarle 2, el mínimo valor que puede tomar la función $f$ es $-2$.&lt;/p>
@@ -86,7 +86,7 @@ f\circ g:\,&amp;amp; A\longrightarrow C\newline
 &lt;/div>
 &lt;/div>
 &lt;p>La función inversa de $f$ deshace o revierte el efecto de $f$. Es decir, si $f:A\rightarrow B$ asocia un elemento $x\in A$ con otro $y\in B$, entonces $f^{-1}$ asocia el elemento $y$ con el $x$.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_inversa.png" width="200px" alt="Función inversa" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_inversa.png" width="200px" alt="Función inversa" />
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.
 La inversa de $f(x)=x^3$ es la función $f^{-1}(x)=\sqrt[3]{x}.$ Sin embargo, la inversa de la función $x^2$ no es $\sqrt{x}$ ya que la raíz tiene dos imágenes, una positiva y otra negativa, y por tanto no sería una función. &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
 &lt;h1 id="crecimiento-de-una-función">Crecimiento de una función&lt;/h1>
@@ -96,7 +96,7 @@ La inversa de $f(x)=x^3$ es la función $f^{-1}(x)=\sqrt[3]{x}.$ Sin embargo, la
 &lt;p>Se dice que una función $f$ es &lt;em>decreciente&lt;/em> en un intervalo $I$, si para todo $x_1,x_2\in I$, con $x_1&amp;lt;x_2$, se cumple $f(x_1)\geq f(x_2)$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_creciente_decreciente.png" width="600px" alt="Gráficas de funciones creciente y decreciente" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_creciente_decreciente.png" width="600px" alt="Gráficas de funciones creciente y decreciente" />
 &lt;h2 id="extremos-de-una-función">Extremos de una función&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -104,7 +104,7 @@ La inversa de $f(x)=x^3$ es la función $f^{-1}(x)=\sqrt[3]{x}.$ Sin embargo, la
 &lt;p>Se dice que una función $f$ tiene un &lt;em>mínimo relativo&lt;/em> en $x_0$, si existe un $\delta&amp;gt;0$ tal que para todo $x\in (x_0-\delta,x_0+\delta)$ se cumple $f(x_0)\leq f(x)$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/maximo_minimo.png" width="700px" alt="Gráfica del máximo y mínimo de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/maximo_minimo.png" width="700px" alt="Gráfica del máximo y mínimo de una función" />
 &lt;h2 id="concavidad-de-una-función">Concavidad de una función&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -114,7 +114,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;p>Al punto donde cambia la concavidad de una función se le llama &lt;em>punto de inflexión&lt;/em>.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_concava_convexa.png" width="700px" alt="Gráfica de una función cóncava y otra convexa" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_concava_convexa.png" width="700px" alt="Gráfica de una función cóncava y otra convexa" />
 &lt;h2 id="funciones-periódicas">Funciones periódicas&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -124,7 +124,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;p>Al menor valor de $h$ que verifica la igualdad anterior se le llama &lt;em>periodo&lt;/em> de $f$, y a la diferencia entre el máximo y el mínimo de la función se le llama &lt;em>amplitud&lt;/em> de $f$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_periodica.png" width="500px" alt="Función inversa" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_periodica.png" width="500px" alt="Función inversa" />
 &lt;h2 id="funciones-polinómicas">Funciones polinómicas&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -134,7 +134,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_polinomica.png" width="500px" alt="Gráficas de funciones polinómcias" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_polinomica.png" width="500px" alt="Gráficas de funciones polinómcias" />
 &lt;h3 id="propiedades-de-las-funciones-polinómicas">Propiedades de las funciones polinómicas&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$.&lt;/li>
@@ -152,7 +152,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_racional.png" width="600px" alt="Gráficas de funciones racionales" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_racional.png" width="600px" alt="Gráficas de funciones racionales" />
 &lt;h3 id="propiedades-de-las-funciones-racionales">Propiedades de las funciones racionales&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$ menos las raíces del polinomio del denominador. En estos puntos suele haber asíntotas verticales.&lt;/li>
@@ -174,7 +174,7 @@ Si $f(x)=\dfrac{a_0+\cdots +a_nx^n}{b_0+\cdots+b_mx^m}$, entonces
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_potencial.png" width="600px" alt="Gráficas de fuciones potenciales" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_potencial.png" width="600px" alt="Gráficas de fuciones potenciales" />
 &lt;h3 id="propiedades-de-las-funciones-potenciales">Propiedades de las funciones potenciales&lt;/h3>
 &lt;ul>
 &lt;li>Si el exponente es un número racional $n/m$, entonces $$x^{n/m}=\sqrt[m]{x^n}.$$ Estas funciones se llaman &lt;em>irracionales&lt;/em>.
@@ -203,7 +203,7 @@ Además, si $f(x)=x^r$ y $g(x)=x^s$, entonces:&lt;/li>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_exponencial.png" width="350px" alt="Gráficas de fuciones exponenciales" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_exponencial.png" width="350px" alt="Gráficas de fuciones exponenciales" />
 &lt;h3 id="propiedades-de-las-funciones-exponenciales">Propiedades de las funciones exponenciales&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$.&lt;/li>
@@ -229,7 +229,7 @@ Además, si $f(x)=a^x$ y $g(x)=b^x$ con $a&amp;lt;b$, entonces&lt;/li>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_logaritmica.png" width="550px" alt="Gráficas de fuciones logarítmicas" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_logaritmica.png" width="550px" alt="Gráficas de fuciones logarítmicas" />
 &lt;h3 id="propiedades-de-las-funciones-logarítmicas">Propiedades de las funciones logarítmicas&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función exponencial, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -267,9 +267,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;strong>Definición - Seno de un ángulo&lt;/strong>. Sea $\alpha$ cualquiera de los ángulos agudos de un triángulo rectángulo, se define el &lt;em>seno&lt;/em> de $\alpha$, y se nota $\operatorname{sen} \alpha$, como el cociente entre el cateto opuesto y la hipotenusa.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/seno_triangulo.png" width="150px" alt="Definición del seno en un triángulo rectángulo" />&lt;/p>
+&lt;img src="../img/funciones_elementales/seno_triangulo.png" width="150px" alt="Definición del seno en un triángulo rectángulo" />
 &lt;p>La definición se extiende fácilmente a ángulos de circunferencia con vértice en el origen y uno de sus lados el eje $OX$, como el cociente entre la ordenada de cualquier punto del otro lado y su distancia al vértice.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/seno_circunferencia.png" width="200px" alt="Definición del seno en la circunferencia" />&lt;/p>
+&lt;img src="../img/funciones_elementales/seno_circunferencia.png" width="200px" alt="Definición del seno en la circunferencia" />
 &lt;h3 id="función-seno">Función seno&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -278,7 +278,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función que asocia a cada ángulo $x$ (habitualmente medido en radianes) su seno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_seno.png" width="600px" alt="Gráfica de la función seno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_seno.png" width="600px" alt="Gráfica de la función seno" />
 &lt;h3 id="propiedades-de-la-función-seno">Propiedades de la función seno&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$.&lt;/li>
@@ -296,9 +296,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;strong>Definición - Coseno de un ángulo&lt;/strong>. Sea $\alpha$ cualquiera de los ángulos agudos de un triángulo rectángulo, se define el &lt;em>coseno&lt;/em> de $\alpha$, y se nota $\cos \alpha$, como el cociente entre el cateto contiguo y la hipotenusa.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/coseno_triangulo.png" width="150px" alt="Definición del coseno en un triángulo rectángulo" />&lt;/p>
+&lt;img src="../img/funciones_elementales/coseno_triangulo.png" width="150px" alt="Definición del coseno en un triángulo rectángulo" />
 &lt;p>La definición se extiende fácilmente a ángulos de circunferencia con vértice en el origen y uno de sus lados el eje $OX$, como el cociente entre la abscisa de cualquier punto del otro lado y su distancia al vértice.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/coseno_circunferencia.png" width="200px" alt="Definición del coseno en la circunferencia" />&lt;/p>
+&lt;img src="../img/funciones_elementales/coseno_circunferencia.png" width="200px" alt="Definición del coseno en la circunferencia" />
 &lt;h3 id="función-coseno">Función coseno&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -307,7 +307,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función que asocia a cada ángulo $x$ (habitualmente medido en radianes) su coseno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_coseno.png" width="600px" alt="Gráfica de la función coseno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_coseno.png" width="600px" alt="Gráfica de la función coseno" />
 &lt;h3 id="propiedades-de-la-función-coseno">Propiedades de la función coseno&lt;/h3>
 &lt;ul>
 &lt;li>
@@ -333,9 +333,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;strong>Definición - Tangente de un ángulo&lt;/strong>. Sea $\alpha$ cualquiera de los ángulos agudos de un triángulo rectángulo, se define la &lt;em>tangente&lt;/em> de $\alpha$, y se nota $\operatorname{tg} \alpha$, como el cociente entre el cateto opuesto y el cateto contiguo.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/tangente_triangulo.png" width="150px" alt="Definición de la tangente en un triángulo rectángulo" />&lt;/p>
+&lt;img src="../img/funciones_elementales/tangente_triangulo.png" width="150px" alt="Definición de la tangente en un triángulo rectángulo" />
 &lt;p>La definición se extiende fácilmente a ángulos de circunferencia con vértice en el origen y uno de sus lados el eje $OX$, como el cociente entre la ordenada y la abscisa de cualquier punto del otro lado.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/tangente_circunferencia.png" width="200px" alt="Definición de la tangente en la circunferencia" />&lt;/p>
+&lt;img src="../img/funciones_elementales/tangente_circunferencia.png" width="200px" alt="Definición de la tangente en la circunferencia" />
 &lt;h3 id="función-tangente">Función tangente&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -344,7 +344,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función que asocia a cada ángulo $x$ (habitualmente medido en radianes) su tangente.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_tangente.png" width="450px" alt="Gráfica de la función tangente" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_tangente.png" width="450px" alt="Gráfica de la función tangente" />
 &lt;h3 id="propiedades-de-la-función-tangente">Propiedades de la función tangente&lt;/h3>
 &lt;ul>
 &lt;li>
@@ -369,7 +369,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función inversa de la función seno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_arcoseno.png" width="400px" alt="Gráfica de la función arcoseno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_arcoseno.png" width="400px" alt="Gráfica de la función arcoseno" />
 &lt;h3 id="propiedades-de-la-función-arcoseno">Propiedades de la función arcoseno&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función seno, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -388,7 +388,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función inversa de la función coseno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_arcocoseno.png" width="350px" alt="Gráfica de la función arcocoseno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_arcocoseno.png" width="350px" alt="Gráfica de la función arcocoseno" />
 &lt;h3 id="propiedades-de-la-función-arcoseno-1">Propiedades de la función arcoseno&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función coseno, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -407,7 +407,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función inversa de la función tangente.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_arcotangente.png" width="400px" alt="Gráfica de la función arcotangente" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_arcotangente.png" width="400px" alt="Gráfica de la función arcotangente" />
 &lt;h3 id="propiedades-de-la-función-arcotangente">Propiedades de la función arcotangente&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función tangente, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -537,7 +537,7 @@ x &amp;amp; f(x) \newline
 \Downarrow\newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{1}{\sqrt{x^2-1}}
 \end{array}$$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_1.png" width="300px" alt="Gráfica de una función que no tiene límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_1.png" width="300px" alt="Gráfica de una función que no tiene límite" />
 &lt;h3 id="límites-que-no-existen-ii">Límites que no existen (II)&lt;/h3>
 &lt;p>Cuando los límites laterales no coinciden entonces no existe el límite&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos la función $f(x)=\dfrac{\lvert x\rvert}{x}$ y veamos que pasa cuando $x\rightarrow 0$:&lt;/p>
@@ -576,7 +576,7 @@ x &amp;amp; f(x) \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{|x|}{x}
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_2.png" width="300px" alt="Gráfica de una función que no tiene límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_2.png" width="300px" alt="Gráfica de una función que no tiene límite" />
 &lt;h3 id="límites-que-no-existen-iii">Límites que no existen (III)&lt;/h3>
 &lt;p>A veces, cuando $x\rightarrow a$ los valores de $f(x)$ crecen o decrecen infinitamente y entonces no existe el límite. En este caso se dice que la función &lt;em>diverge&lt;/em> y se escribe&lt;/p>
 &lt;p>$$\lim_{x\rightarrow a}f(x)=\pm \infty$$&lt;/p>
@@ -617,7 +617,7 @@ x &amp;amp; f(x) \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{1}{x^2}=\infty
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_3.png" width="300px" alt="Gráfica de una función que no tiene límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_3.png" width="300px" alt="Gráfica de una función que no tiene límite" />
 &lt;h3 id="límites-que-no-existen-iv">Límites que no existen (IV)&lt;/h3>
 &lt;p>A veces, el límite de un función en un punto puede no existir porque la función oscila rápidamente al acercarnos a dicho punto.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos la función $f(x)=\operatorname{sen} \dfrac{1}{x}$ y veamos que pasa cuando $x\rightarrow 0$:&lt;/p>
@@ -664,7 +664,7 @@ x &amp;amp; f(x) \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0^+}\operatorname{sen} \frac{1}{x}
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_4.png" width="300px" alt="Gráfica de una función que no tiene límitee" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_4.png" width="300px" alt="Gráfica de una función que no tiene límitee" />
 &lt;h3 id="límites-en-el-infinito">Límites en el infinito&lt;/h3>
 &lt;p>Si $f(x)$ tiende a $l$ cuando $x$ crece infinitamente, entonces se dice que $l$ es el &lt;em>límite en el infinito&lt;/em> de $f(x)$ cuando $x\rightarrow +\infty$, y se escribe&lt;/p>
 &lt;p>$$\lim_{x\rightarrow +\infty}f(x)=l.$$&lt;/p>
@@ -703,7 +703,7 @@ x &amp;amp; f(x)=1/x \newline
 \lim_{x\rightarrow -\infty}\frac{1}{x}=0
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_infinito.png" width="300px" alt="Gráfica de una función con límite en el infinito" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_infinito.png" width="300px" alt="Gráfica de una función con límite en el infinito" />
 &lt;h3 id="definición-de-límite">Definición de límite&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -712,7 +712,7 @@ $$&lt;/p>
 &lt;p>si para cualquier valor $\varepsilon&amp;gt;0$ existe un número $\delta&amp;gt;0$ tal que, $|f(x)-l|&amp;lt;\varepsilon$ siempre que $0&amp;lt;|x-a|&amp;lt;\delta$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/limites_continuidad/definicion_limite.png" width="300px" alt="Explicación gráfica de la definición de límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/definicion_limite.png" width="300px" alt="Explicación gráfica de la definición de límite" />
 &lt;h3 id="definición-de-límite-en-el-infinito">Definición de límite en el infinito&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -938,7 +938,7 @@ $$&lt;/p>
 &lt;p>Las asíntotas verticales deben buscarse en los puntos donde no está definida la función, pero si lo está en las proximidades.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La recta $x=2$ es una asíntota vertical de $f(x)=\dfrac{x+1}{x-2}$ ya que&lt;/p>
 &lt;p>$$\lim_{x\rightarrow 2^-}\frac{x+1}{x-2} =-\infty, \mbox{ y } \lim_{x\rightarrow 2^+}\frac{x+1}{x-2} =\infty.$$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/asintota_vertical.png" width="350px" alt="Gráfica de una asíntota vertical" />&lt;/p>
+&lt;img src="../img/limites_continuidad/asintota_vertical.png" width="350px" alt="Gráfica de una asíntota vertical" />
 &lt;h3 id="asíntotas-horizontales">Asíntotas horizontales&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -953,7 +953,7 @@ $$&lt;/p>
 \lim_{x\rightarrow +\infty}\frac{x+1}{x-2}&amp;amp;= \lim_{x\rightarrow +\infty}1+\frac{3}{x-2} = 1.
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/asintota_horizontal.png" width="350px" alt="Gráfica de una asíntota horizontal" />&lt;/p>
+&lt;img src="../img/limites_continuidad/asintota_horizontal.png" width="350px" alt="Gráfica de una asíntota horizontal" />
 &lt;h3 id="asíntotas-oblicuas">Asíntotas oblicuas&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -970,7 +970,7 @@ $$&lt;/p>
 \lim_{x\rightarrow \pm\infty}1+\frac{x}{x-1} = 1
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/asintota_oblicua.png" width="350px" alt="Gráfica de una asíntota vertical" />&lt;/p>
+&lt;img src="../img/limites_continuidad/asintota_oblicua.png" width="350px" alt="Gráfica de una asíntota vertical" />
 &lt;h2 id="continuidad">Continuidad&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1007,7 +1007,7 @@ $$&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La función $f(x)=\dfrac{x^2-1}{x-1}$ tiene una discontinuidad evitable en $x=1$ ya que la función no está definida en $x=1$ pero&lt;/p>
 &lt;p>$$\lim_{x\rightarrow 2}\frac{x^2-1}{x-1} = \lim_{x\rightarrow 2}x+1=2.$$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_evitable.png" width="300px" alt="Gráfica de una discontinuidad evitable" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_evitable.png" width="300px" alt="Gráfica de una discontinuidad evitable" />
 &lt;h3 id="discontinuidad-de-1ª-especie-de-salto-finito">Discontinuidad de 1ª especie de salto finito&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1024,7 +1024,7 @@ $$&lt;/p>
 \end{aligned}
 $$&lt;/p>
 &lt;p>Salto $= 1-(-1)=2$.&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_salto_finito.png" width="350px" alt="Gráfica de una discontinuidad de salto finito" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_salto_finito.png" width="350px" alt="Gráfica de una discontinuidad de salto finito" />
 &lt;h3 id="discontinuidad-de-1ª-especie-de-salto-infinito">Discontinuidad de 1ª especie de salto infinito&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1040,7 +1040,7 @@ $$&lt;/p>
 \lim_{x\rightarrow 0^+}e^{1/x}&amp;amp;= \infty
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_salto_infinito.png" width="300px" alt="Gráfica de una discontinuidad de salto infinito" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_salto_infinito.png" width="300px" alt="Gráfica de una discontinuidad de salto infinito" />
 &lt;h3 id="discontinuidad-de-2ª-especie">Discontinuidad de 2ª especie&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1055,7 +1055,7 @@ $$&lt;/p>
 &amp;amp; \lim_{x\rightarrow 1^+}\frac{1}{\sqrt{x^2-1}}=\infty
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_2_especie.png" width="300px" alt="Gráfica de una discontinuidad de 2ª especie" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_2_especie.png" width="300px" alt="Gráfica de una discontinuidad de 2ª especie" />
 &lt;p>&lt;strong>Notas&lt;/strong>&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
@@ -1091,14 +1091,14 @@ $$&lt;/p>
 $$&lt;/p>
 &lt;p>¿Cuál será la tasa de variación media del área en el intervalo $[a,a+\Delta x]$?&lt;/p>
 &lt;p>$$\operatorname{TVM}f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{2a\Delta x+\Delta x^2}{\Delta x}=2a+\Delta x.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/variacion_area_cuadrado.png" width="250px" alt="Variación que experimenta el area de un cuadrado al variar el lado" />&lt;/p>
+&lt;img src="../img/derivadas1/variacion_area_cuadrado.png" width="250px" alt="Variación que experimenta el area de un cuadrado al variar el lado" />
 &lt;h3 id="interpretación-geométrica-de-la-tasa-de-variación-media">Interpretación geométrica de la tasa de variación media&lt;/h3>
 &lt;div class="alert alert-int">
 &lt;div>
 La tasa de variación media de $f$ en el intervalo $[a,a+\Delta x]$ es la pendiente de la recta &lt;em>secante&lt;/em> a $f$ en los puntos $(a,f(a))$ y $(a+\Delta x,f(a+\Delta x))$.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/derivadas1/secante.png" width="500px" alt="Gráfica de la recta secante a una función en dos puntos" />&lt;/p>
+&lt;img src="../img/derivadas1/secante.png" width="500px" alt="Gráfica de la recta secante a una función en dos puntos" />
 &lt;h3 id="tasa-de-variación-instantánea">Tasa de variación instantánea&lt;/h3>
 &lt;p>En muchas ocasiones, es interesante estudiar la tasa de variación que experimenta una función, no en intervalo, sino en un punto.&lt;/p>
 &lt;p>Conocer la tendencia de variación de una función en un instante puede ayudarnos a predecir valores en instantes próximos.&lt;/p>
@@ -1135,12 +1135,12 @@ $$&lt;/p>
 La tasa de variación instantánea de $f$ en el punto $a$ es la pendiente de la recta &lt;em>tangente&lt;/em> a $f$ en el punto $(a,f(a))$.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/derivadas1/tangente.png" width="500px" alt="Gráfica de la recta tangente a una función en un punto" />&lt;/p>
+&lt;img src="../img/derivadas1/tangente.png" width="500px" alt="Gráfica de la recta tangente a una función en un punto" />
 &lt;h2 id="interpretación-cinemática-de-la-derivada">Interpretación cinemática de la derivada&lt;/h2>
 &lt;h3 id="movimiento-rectilineo">Movimiento rectilineo&lt;/h3>
 &lt;p>Supongase que la función $f(t)$ describe la posición de un objeto móvil sobre la recta real en el instante $t$. Tomando como referencia el
 origen de coordenadas $O$ y el vector unitario $\mathbf{i}=(1)$, se puede representar la posición $P$ del móvil en cada instante $t$ mediante un vector $\vec{OP}=x\mathbf{i}$ donde $x=f(t)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/movimiento_rectilineo.png" width="500px" alt="Interpretación cinemática del movimiento rectilineo" />&lt;/p>
+&lt;img src="../img/derivadas1/movimiento_rectilineo.png" width="500px" alt="Interpretación cinemática del movimiento rectilineo" />
 &lt;p>También tiene sentido pensar en $f$ como una función que mide otras magnitudes como por ejemplo la temperatura de un cuerpo, la concentración de un gas o la cantidad de un compuesto en una reacción química en un instante $t$.&lt;/p>
 &lt;p>En este contexto, si se toman los instantes $t=t_0$ y $t=t_0+\Delta t$, ambos del dominio $I$ de $f$, el vector&lt;/p>
 &lt;p>$$\mathbf{v}_m=\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t}$$&lt;/p>
@@ -1164,7 +1164,7 @@ y=y(t)
 t\in I\subseteq \mathbb{R}
 $$&lt;/p>
 &lt;p>se conocen como &lt;em>funciones coordenadas&lt;/em> de $f$ y se escribe $f(t)=(x(t),y(t))$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/movimiento_curvilineo.png" width="500px" alt="Interpretación cinemática del movimiento curvilineo" />&lt;/p>
+&lt;img src="../img/derivadas1/movimiento_curvilineo.png" width="500px" alt="Interpretación cinemática del movimiento curvilineo" />
 &lt;h4 id="velocidad-en-una-trayectoria-curvilinea-en-el-plano">Velocidad en una trayectoria curvilinea en el plano&lt;/h4>
 &lt;p>En este contexto de una trayectoria $f(t)=(x(t),y(t))$ en el plano real $\mathbb{R}^2$, para un instante $t=t_0$, si existe el vector&lt;/p>
 &lt;p>$$\mathbf{v} = \lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p>
@@ -1183,7 +1183,7 @@ $$&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Dada la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, sus funciones coordenadas son $x(t) = \cos t$, $y(t) = \operatorname{sen} t$, $t\in \mathbb{R}$, y su velocidad es&lt;/p>
 &lt;p>$$\mathbf{v}=f'(t)=(x'(t),y'(t))=(-\operatorname{sen} t, \cos t).$$&lt;/p>
 &lt;p>En el instante $t=\pi/4$, el móvil estará en la posición $f(\pi/4) = (\cos(\pi/4),\operatorname{sen}(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ y se moverá con una velocidad $\mathbf{v}=f'(\pi/4)=(-\operatorname{sen}(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/circunferencia.png" width="300px" alt="Trayectoria de la circunferencia" />&lt;/p>
+&lt;img src="../img/derivadas1/circunferencia.png" width="300px" alt="Trayectoria de la circunferencia" />
 &lt;p>Obsérvese que el módulo del vector velocidad siempre será 1 ya que $\lvert \mathbf{v}\rvert = \sqrt{(-\operatorname{sen} t)^2+(\cos t)^2}=1$.&lt;/p>
 &lt;h2 id="recta-tangente-a-una-trayectoria">Recta tangente a una trayectoria&lt;/h2>
 &lt;h3 id="recta-tangente-a-una-trayectoria-en-el-plano">Recta tangente a una trayectoria en el plano&lt;/h3>
@@ -1252,7 +1252,7 @@ l&amp;amp;: (x,y)=(\cos(\pi/2),\operatorname{sen}(\pi/2))+t(\cos(\pi/2),\operato
 $$&lt;/p>
 &lt;p>y su ecuación cartesiana es&lt;/p>
 &lt;p>$$\frac{x-\sqrt{2}/2}{\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y-\sqrt{2}/2 = \frac{\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=x.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/circunferencia_tangente_normal.png" width="600px" alt="Tangente y normal a la trayectoria de una circunferencia" />&lt;/p>
+&lt;img src="../img/derivadas1/circunferencia_tangente_normal.png" width="600px" alt="Tangente y normal a la trayectoria de una circunferencia" />
 &lt;h3 id="rectas-tangente-y-normal-a-una-función">Rectas tangente y normal a una función&lt;/h3>
 &lt;p>Un caso particular de las recta tangente y normal a una trayectoria es son la recta tangente y normal a una función de una variable real. Si se tiene la función $y=f(x)$, $x\in I\subseteq \mathbb{R}$, una trayectoria que traza la gráfica de $f$ es $$g(t) = (t,f(t)) \quad t\in I,$$ y su velocidad es $$g'(t) = (1,f'(t)),$$ de modo que la recta tangente para $t=x_0$ es&lt;/p>
 &lt;p>$$\frac{x-x_0}{1} = \frac{y-f(x_0)}{f'(x_0)} \Rightarrow y-f(x_0) = f'(x_0)(x-x_0),$$&lt;/p>
@@ -1280,7 +1280,7 @@ $$&lt;/p>
 &lt;p>$$\mathbf{v}=f'(\pi/2)=(-\operatorname{sen}(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$&lt;/p>
 &lt;p>y la tangente en ese punto es&lt;/p>
 &lt;p>$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />&lt;/p>
+&lt;img src="../img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />
 &lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m156108" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="álgebra-de-derivadas">Álgebra de derivadas&lt;/h2>
 &lt;h3 id="propiedades-de-la-derivada">Propiedades de la derivada&lt;/h3>
@@ -1363,7 +1363,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos la función $f(x)=x^4-2x^2+1$. Su derivada $f'(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/crecimiento.png" width="500px" alt="Estudio del crecimiento de una función" />&lt;/p>
+&lt;img src="../img/derivadas1/crecimiento.png" width="500px" alt="Estudio del crecimiento de una función" />
 &lt;h2 id="determinación-de-los-extremos-relativos-de-una-función">Determinación de los extremos relativos de una función&lt;/h2>
 &lt;p>Como consecuencia del resultado anterior, la derivada también sirve para determinar los extremos relativos de una función.&lt;/p>
 &lt;div class="alert alert-theo">
@@ -1380,7 +1380,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos de nuevo la función $f(x)=x^4-2x^2+1$. Su derivada $f'(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/extremos.png" width="500px" alt="Estudio de los extremos de una función" />&lt;/p>
+&lt;img src="../img/derivadas1/extremos.png" width="500px" alt="Estudio de los extremos de una función" />
 &lt;h2 id="estudio-de-la-concavidad-de-una-función">Estudio de la concavidad de una función&lt;/h2>
 &lt;p>La concavidad de una función puede estudiarse mediante el signo de la segunda derivada.&lt;/p>
 &lt;div class="alert alert-theo">
@@ -1395,7 +1395,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La función $f(x)=x^2$ tiene segunda derivada $f^{\prime\prime}(x)=2&amp;gt;0$ y por tanto es cóncava en todo $\mathbb{R}$.&lt;/p>
 &lt;p>&lt;strong>Observación&lt;/strong>. &lt;em>Una función puede ser cóncava o convexa en un intervalo y no tener derivada.&lt;/em>&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos de nuevo la función $f(x)=x^4-2x^2+1$. Su segunda derivada $f^{\prime\prime}(x)=12x^2-4$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/concavidad.png" width="500px" alt="Estudio de la concavidad de una función" />&lt;/p>
+&lt;img src="../img/derivadas1/concavidad.png" width="500px" alt="Estudio de la concavidad de una función" />
 &lt;h2 id="polinomios-de-taylor">Polinomios de Taylor&lt;/h2>
 &lt;h3 id="aproximación-de-una-función-mediante-un-polinomio">Aproximación de una función mediante un polinomio&lt;/h3>
 &lt;p>Una aplicación muy útil de la derivada es la aproximación de funciones mediante polinomios.&lt;/p>
@@ -1412,7 +1412,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;p>$$p(x_0) = c_0 = f(x_0).$$&lt;/p>
 &lt;p>En consecuencia, el polinomio de grado 0 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p>
 &lt;p>$$p(x) = f(x_0).$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_grado_0.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 0" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_grado_0.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 0" />
 &lt;h4 id="aproximación-mediante-un-polinomio-de-grado-1">Aproximación mediante un polinomio de grado 1&lt;/h4>
 &lt;p>Un polinomio de grado 1 es una recta y tiene ecuación&lt;/p>
 &lt;p>$$p(x) = c_0+c_1x,$$&lt;/p>
@@ -1432,7 +1432,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;p>Así pues, el polinomio de grado 1 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p>
 &lt;p>$$p(x) = f(x_0)+f &amp;lsquo;(x_0)(x-x_0),$$&lt;/p>
 &lt;p>que resulta ser la recta tangente a $f$ en el punto $(x_0,f(x_0))$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_grado_1.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 1" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_grado_1.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 1" />
 &lt;h4 id="aproximación-mediante-un-polinomio-de-grado-2">Aproximación mediante un polinomio de grado 2&lt;/h4>
 &lt;p>Un polinomio de grado 2 es una parábola y tiene ecuación&lt;/p>
 &lt;p>$$p(x) = c_0+c_1x+c_2x^2,$$&lt;/p>
@@ -1453,7 +1453,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;/ul>
 &lt;p>Así pues, el polinomio de grado 2 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p>
 &lt;p>$$p(x) = f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2}(x-x_0)^2.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_grado_2.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 2" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_grado_2.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 2" />
 &lt;h4 id="aproximación-mediante-un-polinomio-de-grado-n">Aproximación mediante un polinomio de grado $n$&lt;/h4>
 &lt;p>Un polinomio de grado $n$ tiene ecuación&lt;/p>
 &lt;p>$$p(x) = c_0+c_1x+c_2x^2+\cdots +c_nx^n,$$&lt;/p>
@@ -1522,7 +1522,7 @@ f'''(x)=2/x^3 &amp;amp; &amp;amp; f'''(1)=2/1^3=2.
 $$&lt;/p>
 &lt;p>Sustituyendo en la ecuación del polinomio se tiene&lt;/p>
 &lt;p>$$p_{f,1}^3(x)=0+1(x-1)+\frac{-1}{2}(x-1)^2+\frac{2}{3!}(x-1)^3= \frac{2}{3}x^3-\frac{3}{2}x^2+3x-\frac{11}{6}.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_taylor_logaritmo.png" width="500px" alt="Gráfica del polinomio de Taylor del logaritmo" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_taylor_logaritmo.png" width="500px" alt="Gráfica del polinomio de Taylor del logaritmo" />
 &lt;h3 id="polinomio-de-maclaurin-de-orden-n">Polinomio de Maclaurin de orden $n$&lt;/h3>
 &lt;p>La ecuación del polinomio de Taylor se simplifica cuando el punto en torno al cual queremos aproximar es el $0$.&lt;/p>
 &lt;div class="alert alert-def">
@@ -1550,7 +1550,7 @@ f'''(x)=-\cos x &amp;amp; &amp;amp; f'''(0)=-\cos 0=-1.
 $$&lt;/p>
 &lt;p>Sustituyendo en la ecuación del polinomio obtenemos&lt;/p>
 &lt;p>$$p_{f,0}^3(x)=0+1\cdot x+\frac{0}{2}x^2+\frac{-1}{3!}x^3= x-\frac{x^3}{6}.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_mclaurin_seno.png" width="700px" alt="Gráfica del polinomio de Maclaurin del seno" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_mclaurin_seno.png" width="700px" alt="Gráfica del polinomio de Maclaurin del seno" />
 &lt;h3 id="polinomios-de-maclaurin-de-funciones-elementales">Polinomios de Maclaurin de funciones elementales&lt;/h3>
 &lt;p>$$\renewcommand{\arraystretch}{2.5}
 \begin{array}{|c|c|}
@@ -1573,7 +1573,7 @@ e^x &amp;amp; \displaystyle 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots + \frac{x^n
 dicha aproximación.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Resto de Taylor&lt;/strong>. Si $f$ es una función para la que existe el su polinomio de Taylor de orden $n$ en $x_0$, $p_{f,x_0}^n$, entonces se define el *resto de Taylor* de orden $n$ para $f$ en $x_0$ como&lt;/p>
+&lt;p>&lt;strong>Definición - Resto de Taylor&lt;/strong>. Si $f$ es una función para la que existe el su polinomio de Taylor de orden $n$ en $x_0$, $p_{f,x_0}^n$, entonces se define el &lt;em>resto de Taylor&lt;/em> de orden $n$ para $f$ en $x_0$ como&lt;/p>
 &lt;p>$$r_{f,x_0}^n(x)=f(x)-p_{f,x_0}^n(x).$$&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -1848,11 +1848,11 @@ $$&lt;/p>
 &lt;p>Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\geq 0\ \forall x\in[a,b]$, entonces la integral definida&lt;/p>
 &lt;p>$$\int_a^b f(x)\,dx$$&lt;/p>
 &lt;p>mide le área que queda entre la el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$.&lt;/p>
-&lt;p>&lt;img src="../img/integrales/area_positive_function.svg" width="300px" alt="Area delimitada por el gráfico de una función positiva entre la función y el eje X en un intervalo" />&lt;/p>
+&lt;img src="../img/integrales/area_positive_function.svg" width="300px" alt="Area delimitada por el gráfico de una función positiva entre la función y el eje X en un intervalo" />
 &lt;h3 id="área-delimitada-por-una-función-negativa-y-el-eje-de-abscisas">Área delimitada por una función negativa y el eje de abscisas&lt;/h3>
 &lt;p>Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\leq 0\ \forall x\in[a,b]$, entonces el área que queda entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p>
 &lt;p>$$-\int_a^b f(x)\,dx.$$&lt;/p>
-&lt;p>&lt;img src="../img/integrales/area_negative_function.svg" width="300px" alt="Area delimitada por el gráfico de una función negativa entre la función y el eje X en un intervalo" />&lt;/p>
+&lt;img src="../img/integrales/area_negative_function.svg" width="300px" alt="Area delimitada por el gráfico de una función negativa entre la función y el eje X en un intervalo" />
 &lt;h3 id="área-delimitada-por-una-función-y-el-eje-de-abscisas">Área delimitada por una función y el eje de abscisas&lt;/h3>
 &lt;p>En general, si $f(x)$ es una función integrable en el intervalo $[a,b]$, no importa el signo de $f$ en $[a,b]$, el area entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p>
 &lt;p>$$\int_a^b \vert f(x)\vert\,dx.$$&lt;/p>
@@ -1860,7 +1860,7 @@ $$&lt;/p>
 &lt;h3 id="área-delimitada-por-dos-funciones">Área delimitada por dos funciones&lt;/h3>
 &lt;p>Si $f$ y $g$ son dos funciones integrables en el intervalo $[a,b]$, entonces el área limitada por los gráficos de $f$ y $g$ en el intervalo $[a,b]$ es&lt;/p>
 &lt;p>$$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p>
-&lt;p>&lt;img src="../img/integrales/area_between_functions.svg" width="400px" alt="Area delimitada por el gráfico de dos funciones en un intervalo" />&lt;/p></description></item><item><title>Ecuaciones diferenciales ordinarias</title><link>/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</guid><description>&lt;h2 id="definición-de-las-ecuaciones-diferenciales-ordinarias">Definición de las ecuaciones diferenciales ordinarias&lt;/h2>
+&lt;img src="../img/integrales/area_between_functions.svg" width="400px" alt="Area delimitada por el gráfico de dos funciones en un intervalo" /></description></item><item><title>Ecuaciones diferenciales ordinarias</title><link>/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/calculo/manual/ecuaciones-diferenciales-ordinarias/</guid><description>&lt;h2 id="definición-de-las-ecuaciones-diferenciales-ordinarias">Definición de las ecuaciones diferenciales ordinarias&lt;/h2>
 &lt;p>En muchos problemas de geometría, física, química, etc, seq presentan a menudo ecuaciones que relacionan una función con su derivada o derivadas sucesivas.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1922,7 +1922,7 @@ $$&lt;/p>
 &lt;p>Por último, en el caso de que la temperatura del aire fuese $T_a=0$ ºC y $k=1$, la solución general de la ecuación sería&lt;/p>
 &lt;p>$$T(t)=Ce^t,$$&lt;/p>
 &lt;p>lo que nos daría la siguiente familia de curvas integrales&lt;/p>
-&lt;p>&lt;img src="../img/edo/curvas_integrales.png" width="450px" alt="Gráficas de las soluciones de una ecuación diferencial ordinaria" />&lt;/p>
+&lt;img src="../img/edo/curvas_integrales.png" width="450px" alt="Gráficas de las soluciones de una ecuación diferencial ordinaria" />
 &lt;p>de las cuales, la solución del problema del valor incial es la función cuya gráfica pasa por el punto $(0,5)$.&lt;/p>
 &lt;h3 id="existencia-y-unicidad-de-soluciones">Existencia y unicidad de soluciones&lt;/h3>
 &lt;div class="alert alert-theo">

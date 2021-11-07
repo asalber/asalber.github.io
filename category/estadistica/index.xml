@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Estadística | Aprende con Alf</title><link>/category/estadistica/</link><atom:link href="/category/estadistica/index.xml" rel="self" type="application/rss+xml"/><description>Estadística</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Estadística</title><link>/category/estadistica/</link></image><item><title>Introducción</title><link>/docencia/estadistica/manual/introduccion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/manual/introduccion/</guid><description>&lt;h2 id="la-estadística-como-herramienta-científica">La estadística como herramienta científica&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Estadística | Aprende con Alf</title><link>/category/estadistica/</link><atom:link href="/category/estadistica/index.xml" rel="self" type="application/rss+xml"/><description>Estadística</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Estadística</title><link>/category/estadistica/</link></image><item><title>Introducción</title><link>/docencia/estadistica/manual/introduccion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/manual/introduccion/</guid><description>&lt;h2 id="la-estadística-como-herramienta-científica">La estadística como herramienta científica&lt;/h2>
 &lt;h3 id="qué-es-la-estadística">¿Qué es la estadística?&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1253,7 +1253,1639 @@ $$&lt;/p>
 &lt;p>Habitualmente los factores se usan para comparar la distribución de la variable principal para cada categoría del factor.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong> Los siguientes diagramas permiten comparar la distribución de estaturas según el sexo.&lt;/p>
 &lt;img src="../img/descriptiva/histograma_estatura_sexo.svg" alt="Histograma de estaturas por sexo" width="500">
-&lt;img src="../img/descriptiva/diagrama_caja_estatura_sexo.svg" alt="Diagrama de cajas de estaturas por sexo" width="500"></description></item><item><title>Regresión</title><link>/docencia/estadistica/manual/regresion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/manual/regresion/</guid><description>&lt;p>Hasta ahora se ha visto como describir el comportamiento de una variable, pero en los fenómenos naturales normalmente aparecen más de una variable que suelen estar relacionadas. Por ejemplo, en un estudio sobre el peso de las personas, deberíamos incluir todas las variables con las que podría tener relación: altura, edad, sexo, dieta, tabaco,
+&lt;img src="../img/descriptiva/diagrama_caja_estatura_sexo.svg" alt="Diagrama de cajas de estaturas por sexo" width="500"></description></item><item><title>Tipos de estudios estadísticos</title><link>/docencia/estadistica/tutoriales/tipos-estudios-estadisticos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/tutoriales/tipos-estudios-estadisticos/</guid><description>&lt;p>El tipo de estudio estadístico más apropiado en cada caso depende de varios factores:&lt;/p>
+&lt;ul>
+&lt;li>El objetivo del estudio.&lt;/li>
+&lt;li>El número de variables que intervienen.&lt;/li>
+&lt;li>El tipo de las variables dependientes e independientes.&lt;/li>
+&lt;li>La naturaleza de las observaciones (independientes o emparejadas).&lt;/li>
+&lt;/ul>
+&lt;p>A continuación se presentan los estudios estadísticos más habituales en función de estos factores. La siguiente tabla puede ayudar a identificar el más apropiado en cada caso.&lt;/p>
+&lt;table width="1054" cellspacing="0" cellpadding="5" border="1">
+&lt;tbody>
+&lt;tr>
+&lt;td bgcolor="#6d9eeb" width="95">
+&lt;p>&lt;strong>Variables independientes&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;td bgcolor="#6d9eeb" width="88">
+&lt;p>&lt;strong>Variable dependiente&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;td bgcolor="#6d9eeb" width="315">
+&lt;p>&lt;strong>Objetivo&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;td bgcolor="#6d9eeb" width="330">
+&lt;p>&lt;strong>Ejemplo&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;td bgcolor="#6d9eeb" width="174">
+&lt;p>&lt;strong>Contraste&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="6" width="95" height="14">
+&lt;p>Ninguna&lt;br /> (Una poblaci&amp;oacute;n)&lt;/p>
+&lt;/td>
+&lt;td rowspan="2" width="88">
+&lt;p>Cuantitativa&lt;/p>
+&lt;/td>
+&lt;td rowspan="2" width="315">
+&lt;p>Contrastar la normalidad de una variable&lt;/p>
+&lt;/td>
+&lt;td rowspan="2" width="330">
+&lt;p>Comprobar si la nota de un examen tiene distribuci&amp;oacute;n normal (forma de campana de Gauss)&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Komogorov-Smirnov&lt;br /> (requiere muestras grandes)&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="174">
+&lt;p>Shapiro-Willks&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si la media poblacional de una variable tiene un valor determinado&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la nota media de un examen es 5&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test T para la media de una poblaci&amp;oacute;n&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si la mediana poblacional de una variable tiene un valor determinado&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la calificaci&amp;oacute;n mediana de un examen es Aprobado&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test para la mediana de una poblaci&amp;oacute;n&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa (2 categor&amp;iacute;as)&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si la proporci&amp;oacute;n poblacional de una de las categor&amp;iacute;as tiene un valor determinado&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la proporci&amp;oacute;n de aprobados es de la mitad (o que el porcentaje es 50%)&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test Binomial&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si las proporciones de cada una de las categor&amp;iacute;as tienen un valor determinado&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si las proporciones de alumnos matriculados en ciencias, letras o mixtas son 0.5, 0.2 y 0.3 respectivamente&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test Chi-cuadrado de bondad de ajuste&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="7" width="95" height="13">
+&lt;p>Una cualitativa con dos categor&amp;iacute;as independientes &lt;br /> (Dos poblaciones independientes)&lt;/p>
+&lt;/td>
+&lt;td rowspan="3" width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medias la variable dependiente en dos poblaciones independientes&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si el grupo de ma&amp;ntilde;ana y el grupo de tarde han tenido notas medias diferentes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test T para la comparaci&amp;oacute;n de medias de poblaciones independientes&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las varianzas de la variable dependiente en dos poblaciones independientes&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay diferencias entre la variabilidad de las notas del grupo de ma&amp;ntilde;ana y el de tarde&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test F de Fisher&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Contrastar si hay concordancia o acuerdo entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay concordancia o acuerdo entre las notas que ponen dos profesores distintos para los mismos ex&amp;aacute;menes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Correlaci&amp;oacute;n intraclase&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="2" width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las distribuciones de la variable dependiente en dos poblaciones independientes&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si el grupo de ma&amp;ntilde;ana y el grupo de tarde han tenido calificaciones diferentes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de la U de Mann-Whitney&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Contrastar si hay concordancia o acuerdo entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay concordancia o acuerdo entre las calificaciones que ponen dos profesores distintos para los mismos ex&amp;aacute;menes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Kappa de Cohen&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="2" width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay relaci&amp;oacute;n entre las dos variables o bien si hay diferencias entre las proporciones de las categor&amp;iacute;as de la variable dependiente en las dos poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existe relaci&amp;oacute;n entre los aprobados en una asignatura y el grupo al que pertenecen los alumnos, es decir, si la proporci&amp;oacute;n de aprobados es diferente en dos grupos distintos.&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test Chi-cuadrado &lt;br /> (si no ha m&amp;aacute;s del 20% de frecuencias esperadas menores que 5)&lt;br /> Test exacto de Fisher&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Contrastar si hay concordancia o acuerdo entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay concordancia o acuerdo entre la valoraci&amp;oacute;n (aprobado o suspenso) que hacen dos profesores distintos para los mismos ex&amp;aacute;menes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Kappa de Cohen&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="3" width="95" height="14">
+&lt;p>Una cualitativa con dos categor&amp;iacute;as relacionadas o pareadas&lt;br /> (Dos poblaciones relacionadas o pareadas)&lt;/p>
+&lt;/td>
+&lt;td width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medias de la variable dependiente en dos poblaciones relacionadas o pareadas&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si las notas medias de dos asignaturas cursadas por los mismos alumnos han sido diferentes o si las notas medias de un examen realizado al comienzo del curso (antes) y otro al final (despu&amp;eacute;s) de una misma asignatura han sido diferentes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test T para la comparaci&amp;oacute;n de medias de poblaciones relacionadas o pareadas&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las distribuciones de la variable dependiente en dos poblaciones relacionadas o pareadas&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si las calificaciones de dos asignaturas cursadas por los mismos alumnos han sido diferentes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de Wilcoxon&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa con dos categor&amp;iacute;as&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las proporciones de las categor&amp;iacute;as de la variable dependiente en dos poblaciones relacionadas o pareadas&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la proporci&amp;oacute;n o el porcentaje de aprobados en un examen es distinta al comienzo y al final del curso&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de McNemar&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="4" width="95" height="14">
+&lt;p>Una cualitativa con dos o m&amp;aacute;s categor&amp;iacute;as&lt;/p>
+&lt;p>independientes&lt;br /> (Dos o m&amp;aacute;s poblaciones independientes)&lt;/p>
+&lt;/td>
+&lt;td width="88">
+&lt;p>Cuantitativa normal y homogeneidad de varianzas&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medias la variable dependiente en cada una de las poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existen diferencias entre las notas medias de tres grupos distintos de clase.&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>An&amp;aacute;lisis de la Varianza de un factor (ANOVA)&lt;br /> Si hay diferencias &amp;gt; Test de Tukey o Bonferroni para la diferencia por pares&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las varianzas de la variable dependiente en cada una de las poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la variabilidad de las notas de una asignatura es distinta en tres grupos diferentes de clase&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Prueba de Levene para la homogeneidad de varianzas&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las distribuciones de la variable dependiente en cada una de las poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existen diferencias entre las calificaciones de tres grupos distintos de clase&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de Kruskal Wallis&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay relaci&amp;oacute;n entre las dos variables o bien si hay diferencias entre las proporciones de las categor&amp;iacute;as de la variable dependiente en cada una de las poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existe relaci&amp;oacute;n entre los aprobados en una asignatura y el grupo al que pertenecen los alumnos, es decir, si la proporci&amp;oacute;n de aprobados es diferente en los distintos grupos.&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test Chi-cuadrado &lt;br /> (si no ha m&amp;aacute;s del 20% de frecuencias esperadas menores que 5)&lt;br /> Test exacto de Fisher&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="3" width="95" height="14">
+&lt;p>Una cualitativa con dos o m&amp;aacute;s categor&amp;iacute;as relacionadas &lt;br /> (medidas repetidas)&lt;/p>
+&lt;/td>
+&lt;td width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medias repetidas de la variable dependiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay diferencias entre las notas que otorgan varios profesores a un mismo examen&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>An&amp;aacute;lisis de la Varianza (ANOVA) de medidas repetidas de un factor&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medidas repetidas de la variable dependiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay diferencias entre las calificaciones que otorgan varios profesores a un mismo examen&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de Friedman&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las valoraciones repetidas de la variable dependiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay diferencias entre la valoraci&amp;oacute;n (aprobado o suspenso) que hacen varios profesores de un mismo examen&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Regresi&amp;oacute;n log&amp;iacute;stica de medidas repetidas&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="4" width="95" height="13">
+&lt;p>Una cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td rowspan="2" width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si existe relaci&amp;oacute;n lineal entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existe relaci&amp;oacute;n entre las notas de dos asignaturas&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Correlaci&amp;oacute;n de Pearson&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Construir un modelo predictivo que explique la variable dependiente en funci&amp;oacute;n de la independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Construir el modelo (funci&amp;oacute;n de regresi&amp;oacute;n) que mejor explique la relaci&amp;oacute;n entre la nota de un examen y las horas dedicadas a su estudio&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Regresi&amp;oacute;n simple (lineal o no lineal)&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si existe relaci&amp;oacute;n lineal entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existe relaci&amp;oacute;n entre las calificaciones de dos asignaturas&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Correlaci&amp;oacute;n de Spearman&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Construir un modelo predictivo que explique la variable dependiente en funci&amp;oacute;n de la independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Construir el modelo (funci&amp;oacute;n log&amp;iacute;stica) que mejor explique la relaci&amp;oacute;n entre el resultado de un examen (aprobado o suspenso) y las horas dedicadas a su estudio&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Regresi&amp;oacute;n log&amp;iacute;stica simple&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Los ejemplos de los distintos test que se presentan a continuación se han realizado a partir del siguiente conjunto de datos que contiene las notas y calificaciones de un curso. El fichero con los datos puede descargarse aquí para reproducir los estudios:
+&lt;a href="datos/datos-curso.csv">datos-curso.csv&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="language-r">library(tidyverse)
+&lt;/code>&lt;/pre>
+&lt;h2 id="una-variable-cuantitativa">Una variable cuantitativa&lt;/h2>
+&lt;h3 id="estudios-descriptivos">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaño muestral&lt;/li>
+&lt;li>Media&lt;/li>
+&lt;li>Desviación típica&lt;/li>
+&lt;li>Mínimo, Máximo&lt;/li>
+&lt;li>Cuartiles&lt;/li>
+&lt;li>Coeficiente de asimetría&lt;/li>
+&lt;li>Coeficiente de apuntamiento&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral
+nrow(df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 120
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Media
+mean(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 6.028333
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Desviación típica
+sd(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 1.340524
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Min, max
+min(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 2.5
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r">max(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 9.3
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Cuartiles
+quantile(df$notaA, c(0.25, 0.5, 0.75), na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## 25% 50% 75%
+## 5.100 5.900 6.825
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Coef. asimetría
+library(moments)
+skewness(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 0.1373915
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Coef. apuntamiento
+kurtosis(df$notaA, na.rm = TRUE) - 3
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] -0.102287
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de barras (variables discretas)&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = asinaturas.aprobadas)) +
+geom_bar(fill=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_discrete(limits=0:5)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-bar-chart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Histograma&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">library(ggplot2)
+# Límites de los intervalos
+breaks = 0:10
+# Histograma de las notasA
+df %&amp;gt;% ggplot(aes(x = notaA)) +
+geom_histogram(breaks = breaks, fill=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-histogram-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;pre>&lt;code class="language-r"># Histograma de notasE
+df %&amp;gt;% ggplot(aes(x = notaE)) +
+geom_histogram(breaks = breaks, fill=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-histogram-2.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de líneas&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Variables discretas
+df %&amp;gt;% count(asinaturas.aprobadas) %&amp;gt;%
+ggplot(aes(x = asinaturas.aprobadas, y = n)) +
+geom_line(col=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_discrete(limits=0:5)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;pre>&lt;code class="language-r"># Agrupación de datos en intervalos
+df %&amp;gt;% ggplot(aes(x = notaA)) +
+geom_freqpoly(breaks = breaks, col=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-2.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de caja y bigotes&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = notaA)) +
+geom_boxplot(fill=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-de-normalidad-de-shapiro-wilk">Test de normalidad de Shapiro-Wilk&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución.&lt;/p>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La distribución es normal.&lt;/p>
+&lt;pre>&lt;code class="language-r">shapiro.test(df$notaA)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Shapiro-Wilk normality test
+##
+## data: df$notaA
+## W = 0.99424, p-value = 0.907
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r">shapiro.test(df$notaE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Shapiro-Wilk normality test
+##
+## data: df$notaE
+## W = 0.92264, p-value = 4.065e-06
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-t-para-la-media-de-una-población">Test t para la media de una población&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la media de una variable o compararla con un valor
+dado &lt;em>μ&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Una variable cuantitativa.&lt;/li>
+&lt;li>Distribución normal o tamaño muestral ≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La media de la población es igual a &lt;em>μ&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si la nota media de un examen es diferente de 5.&lt;/p>
+&lt;pre>&lt;code class="language-r">t.test(df$notaA, mu = 5, alternative = &amp;quot;two.sided&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## One Sample t-test
+##
+## data: df$notaA
+## t = 8.4033, df = 119, p-value = 1.08e-13
+## alternative hypothesis: true mean is not equal to 5
+## 95 percent confidence interval:
+## 5.786023 6.270643
+## sample estimates:
+## mean of x
+## 6.028333
+&lt;/code>&lt;/pre>
+&lt;h2 id="una-variable-cualitativa">Una variable cualitativa&lt;/h2>
+&lt;h3 id="estudios-descriptivos-1">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos-1">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaños muestral&lt;/li>
+&lt;li>Frecuencias muestrales&lt;/li>
+&lt;li>Proporciones/porcentajes muestrales&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral sin datos perdidos
+length(na.omit(df$calificacionB))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 115
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Frecuencias
+table(df$calificacionB)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Aprobado Suspenso
+## 98 17
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Proporciones
+table(df$calificacionB) / length(na.omit(df$calificacionB))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Aprobado Suspenso
+## 0.8521739 0.1478261
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Porcentajes
+table(df$calificacionB) / length(na.omit(df$calificacionB)) * 100
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Aprobado Suspenso
+## 85.21739 14.78261
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos-1">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de sectores&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = &amp;quot;&amp;quot;, fill = calificacionA)) +
+geom_bar() +
+# Cambiar a coordenadas polares
+coord_polar(theta = &amp;quot;y&amp;quot;) +
+# Eliminar ejes
+theme_void()
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/piechart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales-1">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-binomial-para-una-proporción-de-una-población">Test binomial para una proporción de una población&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la propoción de una categoría en una población o
+compararla con un valor &lt;em>p&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>One variable cualitativa&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La proporción poblacional es igual a
+&lt;em>p&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si la proporción de aprobados es mayor de 0.5.&lt;/p>
+&lt;pre>&lt;code class="language-r">freq &amp;lt;- table(df$calificacionA)[&amp;quot;Aprobado&amp;quot;]
+binom.test(freq, n, p = 0.7, alternative = &amp;quot;greater&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Exact binomial test
+##
+## data: freq and n
+## number of successes = 94, number of trials = 120, p-value = 0.02657
+## alternative hypothesis: true probability of success is greater than 0.7
+## 95 percent confidence interval:
+## 0.7123183 1.0000000
+## sample estimates:
+## probability of success
+## 0.7833333
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-z-para-la-proporción-de-una-población">Test Z para la proporción de una población&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la propoción de una categoría en una población o
+compararla con un valor &lt;em>p&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Una variable cualitativa&lt;/li>
+&lt;li>Tamaño muestral &amp;gt;= 30&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Observación&lt;/strong>: Utiliza la aproximación normal de la distribución
+Binomal.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si la proporción de aprobados es mayor de 0.5.&lt;/p>
+&lt;pre>&lt;code class="language-r">freq &amp;lt;- table(df$calificacionA)[&amp;quot;Aprobado&amp;quot;]
+prop.test(freq, n, p = 0.7, alternative = &amp;quot;greater&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## 1-sample proportions test with continuity correction
+##
+## data: freq out of n, null probability 0.7
+## X-squared = 3.5813, df = 1, p-value = 0.02922
+## alternative hypothesis: true p is greater than 0.7
+## 95 percent confidence interval:
+## 0.7111099 1.0000000
+## sample estimates:
+## p
+## 0.7833333
+&lt;/code>&lt;/pre>
+&lt;h2 id="dos-variables-variable-dependiente-cuantitativa-y-variable-independiente-culitativa-con-dos-categorías-o-grupos">Dos variables: Variable dependiente cuantitativa y variable independiente culitativa con dos categorías o grupos&lt;/h2>
+&lt;h3 id="estudios-descriptivos-2">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos-2">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaño muestral de cada grupo&lt;/li>
+&lt;li>Media de cada grupo&lt;/li>
+&lt;li>Desviación típica de cada grupo&lt;/li>
+&lt;li>Mínimo, Máximo de cada grupo&lt;/li>
+&lt;li>Cuartiles de cada grupo&lt;/li>
+&lt;li>Coeficiente de asimetría de cada grupo&lt;/li>
+&lt;li>Coeficiente de apuntamiento de cada grupo&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral de notaA según el sexo
+df %&amp;gt;% group_by(sexo) %&amp;gt;% group_size()
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 71 49
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Media, Desviación típica, Mín, Máx, Cuartiles, Coef. Asimetría y Coef. Apuntamiento
+library(moments)
+df %&amp;gt;% group_by(sexo) %&amp;gt;% summarize(Media = mean(notaA, na.rm=TRUE), Des.Tip = sd(notaA, na.rm = TRUE), Mín = min(notaA), Máx = max(notaA), C1 = quantile(notaA, 0.25, na.rm = TRUE), C2 = quantile(notaA, 0.5, na.rm = TRUE), C3 = quantile(notaA, 0.75, na.rm = TRUE), Coef.Asimetría = skewness(notaA, na.rm = TRUE), Coef.Apuntamiento = kurtosis(notaA, na.rm = TRUE) - 3)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 2 x 10
+## sexo Media Des.Tip Mín Máx C1 C2 C3 Coef.Asimetría
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 Hombre 6.12 1.23 3.5 9.3 5.3 6.1 6.85 0.249
+## 2 Mujer 5.89 1.49 2.5 9.3 5 5.7 6.8 0.135
+## # … with 1 more variable: Coef.Apuntamiento &amp;lt;dbl&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos-2">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de cajas y bigotes&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = sexo, y = notaA, fill = sexo)) +
+geom_boxplot() +
+# Cambio de escala del eje X
+scale_y_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de violín&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = sexo, y = notaA, fill = sexo)) +
+geom_violin() +
+# Cambio de escala del eje X
+scale_y_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-viol%C3%ADn-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales-2">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-de-normalidad-de-shapiro-wilks">Test de normalidad de Shapiro-Wilks&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de cada
+población.&lt;/p>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La distribución es normal.&lt;/p>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% group_by(sexo) %&amp;gt;%
+summarise(`Estadístico W` = shapiro.test(notaA)$statistic, `p-valor` = shapiro.test(notaA)$p.value)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 2 x 3
+## sexo `Estadístico W` `p-valor`
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 Hombre 0.990 0.872
+## 2 Mujer 0.990 0.942
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-f-de-fisher-de-comparación-de-varianzas-de-dos-poblaciones-independientes">Test F de Fisher de comparación de varianzas de dos poblaciones independientes&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comparar las varianzas de dos poblaciones independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones)&lt;/li>
+&lt;li>Distribución normal de la variable dependiente en ambas poblaciones
+o tamaños de las muestras de cada población ≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La varianzas poblacionales son iguales (no existe
+una diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas
+medias de hombres y mujeres.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de comparación de varianzas
+var.test(notaA ~ sexo, data = df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## F test to compare two variances
+##
+## data: notaA by sexo
+## F = 0.6769, num df = 70, denom df = 48, p-value = 0.1347
+## alternative hypothesis: true ratio of variances is not equal to 1
+## 95 percent confidence interval:
+## 0.3953421 1.1293155
+## sample estimates:
+## ratio of variances
+## 0.6769032
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-t-de-comparación-de-medias-de-dos-poblaciones-independientes">Test t de comparación de medias de dos poblaciones independientes&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la diferencia de medias en las dos poblaciones o
+comprobar si hay diferencias significativas entre ellas.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones)&lt;/li>
+&lt;li>Distribución normal de la variable dependiente en ambas poblaciones
+o tamaños de las muestras de cada población ≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medias poblacionales son iguales (no existe una
+diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Observación&lt;/strong>: El resultado del test depende de si las varianzas
+poblacionales son iguales o no.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas
+medias de hombres y mujeres.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de comparación de varianzas
+var.test(notaA ~ sexo, data = df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## F test to compare two variances
+##
+## data: notaA by sexo
+## F = 0.6769, num df = 70, denom df = 48, p-value = 0.1347
+## alternative hypothesis: true ratio of variances is not equal to 1
+## 95 percent confidence interval:
+## 0.3953421 1.1293155
+## sample estimates:
+## ratio of variances
+## 0.6769032
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Test de comparación de medias asumiendo varianzas iguales
+t.test (notaA ~ sexo, data = df, alternative = &amp;quot;two.sided&amp;quot;, var.equal = FALSE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Welch Two Sample t-test
+##
+## data: notaA by sexo
+## t = 0.89364, df = 89.873, p-value = 0.3739
+## alternative hypothesis: true difference in means between group Hombre and group Mujer is not equal to 0
+## 95 percent confidence interval:
+## -0.2821809 0.7435779
+## sample estimates:
+## mean in group Hombre mean in group Mujer
+## 6.122535 5.891837
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Test de comparación de medias asumiendo varianzas iguales
+t.test (notaA ~ sexo, data = df, alternative = &amp;quot;two.sided&amp;quot;, var.equal = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Two Sample t-test
+##
+## data: notaA by sexo
+## t = 0.92608, df = 118, p-value = 0.3563
+## alternative hypothesis: true difference in means between group Hombre and group Mujer is not equal to 0
+## 95 percent confidence interval:
+## -0.262615 0.724012
+## sample estimates:
+## mean in group Hombre mean in group Mujer
+## 6.122535 5.891837
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>Diagrama de medias&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = sexo, y = notaA, colour = sexo)) +
+# Puntos de medias
+stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot;, position=position_dodge(width=0.25)) +
+# Intervalos de confianza para la media
+stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h4 id="test-u-de-mann-whitney-de-comparación-de-dos-poblaciones-independientes-no-paramétrico">Test U de Mann-Whitney de comparación de dos poblaciones independientes (no paramétrico)&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre entre
+dos poblaciones independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medianas poblacionales son iguales (no existe una
+diferencia significativa entre las medianas poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas de
+hombres y mujeres.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de rangos U the Mann-Whitney
+wilcox.test(notaA ~ sexo, data = df, alternative = &amp;quot;two.sided&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Wilcoxon rank sum test with continuity correction
+##
+## data: notaA by sexo
+## W = 1917, p-value = 0.3445
+## alternative hypothesis: true location shift is not equal to 0
+&lt;/code>&lt;/pre>
+&lt;h2 id="dos-variables-variable-dependiente-cuantitativa-y-variable-independiente-culitativa-con-dos-categorías-o-grupos-pareados">Dos variables: Variable dependiente cuantitativa y variable independiente culitativa con dos categorías o grupos pareados&lt;/h2>
+&lt;p>Dos grupos o poblaciones están pareadas o emparejadas cuando los dos
+poblaciones contienen los mismos individuos, es decir, se trata en
+realidadad de una única población, pero la variable dependiente se mide
+dos veces en cada individuo (normalmente antes y después de la algún
+suceso) y por tanto cada individuo tiene asociado un par de valores.&lt;/p>
+&lt;p>Este estudio puede realizarse también creando una nueva variable a
+partir de la resta de las dos mediciones y planteando un estudio de una
+sola variable cuantitativa.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Creación de la diferencia de notas de las asignaturas A y
+B.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Creamos la variable diferencia = notaA - notaB
+df &amp;lt;- df %&amp;gt;% mutate(diferencia = notaA - notaB)
+&lt;/code>&lt;/pre>
+&lt;h3 id="estudios-descriptivos-3">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos-3">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaño muestral del grupo&lt;/li>
+&lt;li>Media de la diferencia&lt;/li>
+&lt;li>Desviación típica de la diferencia&lt;/li>
+&lt;li>Mínimo, Máximo de la diferencia&lt;/li>
+&lt;li>Cuartiles de la diferencia&lt;/li>
+&lt;li>Coeficiente de asimetría de la diferencia&lt;/li>
+&lt;li>Coeficiente de apuntamiento de la diferencia&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Estadísticos descriptivos de la diferencia entre las notas
+de las asignaturas A y B de un mismo grupo de alumnos.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral de sin contar los datos perdidos
+length(na.omit(df$diferencia))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 115
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Media, Desviación típica, Mín, Máx, Cuartiles, Coef. Asimetría y Coef. Apuntamiento
+library(moments)
+df %&amp;gt;% summarize(Media = mean(diferencia, na.rm=TRUE), Des.Tip = sd(diferencia, na.rm = TRUE), Mín = min(diferencia, na.rm = TRUE), Máx = max(diferencia, na.rm = TRUE), C1 = quantile(diferencia, 0.25, na.rm = TRUE), C2 = quantile(diferencia, 0.5, na.rm = TRUE), C3 = quantile(diferencia, 0.75, na.rm = TRUE), Coef.Asimetría = skewness(diferencia, na.rm = TRUE), Coef.Apuntamiento = kurtosis(diferencia, na.rm = TRUE) - 3)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 1 x 9
+## Media Des.Tip Mín Máx C1 C2 C3 Coef.Asimetría Coef.Apuntamiento
+## &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 -0.882 0.900 -3.2 1.10 -1.5 -0.8 -0.300 -0.430 -0.137
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos-3">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de cajas y bigotes&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = diferencia)) +
+geom_boxplot(fill=&amp;quot;#00BFC4&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-paired-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales-3">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-de-normalidad-de-shapiro-wilks-1">Test de normalidad de Shapiro-Wilks&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de la
+diferencia.&lt;/p>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La distribución es normal.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar la normalidad de la diferencia entre las notas de
+las asignaturas A y B de un mismo grupo de alumnos.&lt;/p>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% summarise(`Estadístico W` = shapiro.test(diferencia)$statistic, `p-valor` = shapiro.test(diferencia)$p.value)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 1 x 2
+## `Estadístico W` `p-valor`
+## &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 0.979 0.0737
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-t-de-comparación-de-medias-de-dos-poblaciones-pareadas">Test t de comparación de medias de dos poblaciones pareadas&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la media de la diferencia o compararla con un
+valor dado &lt;em>μ&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones) pareadas&lt;/li>
+&lt;li>Distribución normal de la variable diferencia o tamaño muestral
+≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medias poblacionales son iguales (no existe una
+diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si hay una diferencia signicativa entre las notas
+medias de las asinaturas A y B, o lo que es lo mismo, comprobar si la
+media de la diferencia de las notas de A y B es distinta de 0.&lt;/p>
+&lt;pre>&lt;code class="language-r">t.test (notaA, notaB, data = df, alternative = &amp;quot;two.sided&amp;quot;, paired = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Paired t-test
+##
+## data: notaA and notaB
+## t = -10.618, df = 114, p-value &amp;lt; 2.2e-16
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+## -1.0515337 -0.7208695
+## sample estimates:
+## mean of the differences
+## -0.8862016
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>Diagrama de medias&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x=&amp;quot;&amp;quot;, y = diferencia)) +
+# Puntos de medias
+stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot;) +
+# Intervalos de confianza para la media
+stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-paired-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h4 id="test-wilcoxon-de-comparación-de-dos-poblaciones-pareadas-no-paramétrico">Test Wilcoxon de comparación de dos poblaciones pareadas (no paramétrico)&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comparar las medianas de las dos poblaciones.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones) pareadas.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medianas poblacionales son iguales (no existe una
+diferencia significativa entre las medianas poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si hay una diferencia signicativa entre las notas
+de las asignaturas A y B.&lt;/p>
+&lt;pre>&lt;code class="language-r">wilcox.test(notaA, notaB, data = df, alternative = &amp;quot;two.sided&amp;quot;, paired = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Wilcoxon signed rank test with continuity correction
+##
+## data: notaA and notaB
+## V = 466, p-value = 1.192e-15
+## alternative hypothesis: true location shift is not equal to 0
+&lt;/code>&lt;/pre>
+&lt;h2 id="dos-variables-variable-dependiente-cuantitativa-y-variable-independiente-culitativa-con-más-de-dos-categorías-o-grupos">Dos variables: Variable dependiente cuantitativa y variable independiente culitativa con más de dos categorías o grupos&lt;/h2>
+&lt;h3 id="estudios-descriptivos-4">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos-4">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaño muestral de cada grupo&lt;/li>
+&lt;li>Media de cada grupo&lt;/li>
+&lt;li>Desviación típica de cada grupo&lt;/li>
+&lt;li>Mínimo, Máximo de cada grupo&lt;/li>
+&lt;li>Cuartiles de cada grupo&lt;/li>
+&lt;li>Coeficiente de asimetría de cada grupo&lt;/li>
+&lt;li>Coeficiente de apuntamiento de cada grupo&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral de notaA según el grupo
+df %&amp;gt;% group_by(grupo) %&amp;gt;% group_size()
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 38 35 47
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Media, Desviación típica, Mín, Máx, Cuartiles, Coef. Asimetría y Coef. Apuntamiento
+library(moments)
+df %&amp;gt;% group_by(grupo) %&amp;gt;% summarize(Media = mean(notaA, na.rm=TRUE), Des.Tip = sd(notaA, na.rm = TRUE), Mín = min(notaA, na.rm = TRUE), Máx = max(notaA, na.rm = TRUE), C1 = quantile(notaA, 0.25, na.rm = TRUE), C2 = quantile(notaA, 0.5, na.rm = TRUE), C3 = quantile(notaA, 0.75, na.rm = TRUE), Coef.Asimetría = skewness(notaA, na.rm = TRUE), Coef.Apuntamiento = kurtosis(notaA, na.rm = TRUE) - 3)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 3 x 10
+## grupo Media Des.Tip Mín Máx C1 C2 C3 Coef.Asimetría
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 A 6.54 0.998 4.3 8.6 5.93 6.6 7.15 -0.250
+## 2 B 6.96 1.23 3.5 9.3 6.2 6.8 7.7 -0.141
+## 3 C 4.92 0.771 2.5 5.9 4.5 5.1 5.5 -1.06
+## # … with 1 more variable: Coef.Apuntamiento &amp;lt;dbl&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos-4">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de cajas y bigotes&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = grupo, y = notaA, fill = grupo)) +
+geom_boxplot() +
+# Cambio de escala del eje X
+scale_y_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de violín&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = grupo, y = notaA, fill = grupo)) +
+geom_violin() +
+# Cambio de escala del eje X
+scale_y_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-viol%C3%ADn-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales-4">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-de-normalidad-de-shapiro-wilks-2">Test de normalidad de Shapiro-Wilks&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de cada
+población.&lt;/p>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La distribución es normal.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar la normalidad de las distribuciones de la nota A
+en los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% group_by(grupo) %&amp;gt;%
+summarise(`Estadístico W` = shapiro.test(notaA)$statistic, `p-valor` = shapiro.test(notaA)$p.value)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 3 x 3
+## grupo `Estadístico W` `p-valor`
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 A 0.984 0.840
+## 2 B 0.963 0.277
+## 3 C 0.918 0.00280
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: La distribución de la nota A en los grupos A y B es
+normal (p-valores &amp;gt; 0.05) pero no en el grupo C (p-valor &amp;lt; 0.05)&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar la normalidad de las distribuciones de la nota A
+en los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% group_by(grupo) %&amp;gt;%
+summarise(`Estadístico W` = shapiro.test(notaC)$statistic, `p-valor` = shapiro.test(notaC)$p.value)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 3 x 3
+## grupo `Estadístico W` `p-valor`
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 A 0.989 0.961
+## 2 B 0.965 0.343
+## 3 C 0.976 0.442
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: La distribución de la nota C en los tres grupos es
+normal (p-valores &amp;gt; 0.05).&lt;/p>
+&lt;h4 id="test-de-levene-de-comparación-de-varianzas-de-dos-o-más-poblaciones-independientes">Test de Levene de comparación de varianzas de dos o más poblaciones independientes&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comparar las varianzas de dos o más poblaciones
+independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos o más categorías
+(poblaciones)&lt;/li>
+&lt;li>Distribución normal de la variable dependiente en todas las
+poblaciones o tamaños de las muestras de cada población ≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La varianzas poblacionales son iguales (no existe
+una diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las varianzas
+de las notas de la asignatura C de los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r"># El test de Levene está disponible en el paquete car
+library(car)
+# Test de comparación de varianzas
+leveneTest(notaC ~ grupo, data = df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Levene's Test for Homogeneity of Variance (center = median)
+## Df F value Pr(&amp;gt;F)
+## group 2 0.3186 0.7278
+## 116
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: No existe diferencia significativa entre las
+varianzas de la nota C en los grupos A, B y C (p-valor &amp;gt; 0.05).&lt;/p>
+&lt;h4 id="anova-de-un-factor-para-la-comparación-medias-de-más-de-dos-poblaciones-independientes">ANOVA de un factor para la comparación medias de más de dos poblaciones independientes&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre las
+medias de más de dos poblaciones independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con más de dos categorías
+(poblaciones)-&lt;/li>
+&lt;li>Distribución normal de la variable dependiente en todas las
+poblaciones o tamaños de las muestras de cada población ≥ 30.&lt;/li>
+&lt;li>Homogeneidad de varianzas en las poblaciones.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medias poblacionales son iguales (no existe una
+diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas
+medias de la asignatura C de los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Análisis de la varianza de un factor
+summary(aov(notaC ~ grupo, data = df))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Df Sum Sq Mean Sq F value Pr(&amp;gt;F)
+## grupo 2 80.69 40.34 20.05 3.32e-08 ***
+## Residuals 116 233.41 2.01
+## ---
+## Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 1 observation deleted due to missingness
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: Existen diferencias significativas entre las medias
+de la nota C entre al menos dos grupos (p-valor=3.32e-08 &amp;lt; 0.05).&lt;/p>
+&lt;p>&lt;strong>Observación&lt;/strong>: Cuando se detectan diferencias significativas entre las
+medias de al menos dos grupos conviene realizar un test de comparación
+múltiple por pares para ver entre qué poblaciones hay diferencias y
+entre cuáles no. Los test más habituales de comparación por pares son el
+de Tukey y el de Bonferroni.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de comparación múltiple de Tukey
+TukeyHSD(aov(notaC ~ grupo, data = df))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Tukey multiple comparisons of means
+## 95% family-wise confidence level
+##
+## Fit: aov(formula = notaC ~ grupo, data = df)
+##
+## $grupo
+## diff lwr upr p adj
+## B-A 0.4312693 -0.3637573 1.2262960 0.4048482
+## C-A -1.4455767 -2.1802858 -0.7108676 0.0000241
+## C-B -1.8768461 -2.6350758 -1.1186163 0.0000001
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: No existe una diferencia significativa entre las
+notas medias de la asignatura C de los grupos A y B (p-valor=0.4048 &amp;gt;
+0.05), pero si existe una diferencia significativa entre las notas
+medias de los grupos A y C (p-valor=0.00002 &amp;lt; 0.05) y también entre las
+notas medias de los grupos B y C (p-valor=0.0000001 &amp;lt; 0.05).&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de medias&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = grupo, y = notaC, colour = grupo)) +
+# Puntos de medias
+stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot;, position=position_dodge(width=0.25)) +
+# Intervalos de confianza para la media
+stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-more-two-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h4 id="test-kruskal-wallis-de-comparación-de-más-de-dos-poblaciones-independientes-no-paramétrico">Test Kruskal-Wallis de comparación de más de dos poblaciones independientes (no paramétrico)&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre entre
+más de dos poblaciones independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con más de dos categorías
+(poblaciones)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medianas poblacionales son iguales (no existe una
+diferencia significativa entre las medianas poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas de la
+asignatura A de los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de Kruskal-Wallis
+kruskal.test(notaA ~ grupo, data = df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Kruskal-Wallis rank sum test
+##
+## data: notaA by grupo
+## Kruskal-Wallis chi-squared = 62.218, df = 2, p-value = 3.087e-14
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: Existen diferencias significativas entre las notas
+de la asignatura A de al menos dos de los grupos.&lt;/p>
+&lt;p>&lt;strong>Observación&lt;/strong>: Cuando se detectan diferencias significativas entre al
+menos dos grupos conviene realizar un test de comparación múltiple por
+pares para ver entre qué poblaciones hay diferencias y entre cuáles no.
+El test más habitual es el de Wilcoxon.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de comparación múltiple de Wilcoxon
+pairwise.wilcox.test(df$notaA, df$grupo, p.adjust.method = &amp;quot;BH&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Pairwise comparisons using Wilcoxon rank sum test with continuity correction
+##
+## data: df$notaA and df$grupo
+##
+## A B
+## B 0.19 -
+## C 4.2e-10 1.3e-11
+##
+## P value adjustment method: BH
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: No existe una diferencia significativa entre las
+notas de la asignatura A de los grupos A y B (p-valor=0.19 &amp;gt; 0.05),
+pero si existe una diferencia significativa entre las notas de los
+grupos A y C (p-valor=4.2e-10 &amp;lt; 0.05) y también entre las notas de los
+grupos B y C (p-valor=1.3e-11 &amp;lt; 0.05).&lt;/p></description></item><item><title>Epidemiología</title><link>/docencia/estadistica/tutoriales/epidemiologia/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/tutoriales/epidemiologia/</guid><description>&lt;h2 id="qué-es-la-epidemiología">¿Qué es la Epidemiología?&lt;/h2>
+&lt;p>Epidemiología viene Griego: Epi (sobre), demos (gente) y logos (estudio), es decir, el estudio de lo que le ocurre a las poblaciones.&lt;/p>
+&lt;blockquote>
+&lt;p>En el ámbito de la salud pública, la &lt;strong>Epidemilogía&lt;/strong> es una rama de la Medicina que se encarga del estudio de la distribución y las causas de eventos relacionados con la salud (normalmente enfermedades) en las poblaciones, y la aplicación de este estudio para controlar problemas públicos de salud.&lt;/p>
+&lt;/blockquote>
+&lt;img src="img/detective.png" width=80% alt="Detective epidemiólogo">
+&lt;p>Debido a la epidemia provocada por el coronavirus, la Epidemia se ha convertido en una de las rama de la medicina que más interés despiertan.&lt;/p>
+&lt;p>&lt;img src="img/fernando-simon.jpg" alt="Fernando Simón">&lt;/p>
+&lt;p>Sin embargo, antes de la COVID, la Epidemiología ya había servido en otros momentos históricos para solucionar o controlar algunos de los problemas de salud públicos más serios que ha enfrentado la humanidad.&lt;/p>
+&lt;h3 id="algunos-descubrimientos-históricos">Algunos descubrimientos históricos&lt;/h3>
+&lt;ul>
+&lt;li>1854: John Snow determina que la causa de la epidemia de cólera que asolaba Lóndres era que el agua estaba contaminada con heces.&lt;/li>
+&lt;li>1898: Ronald Ross averigua que el transmisor de la malaria es el el mosquito Anopheles.&lt;/li>
+&lt;li>1950: Se descubre que fumar es el principal factor de riesgo de cáncer de pulmón.&lt;/li>
+&lt;li>1954: Se valida la primera vacuna contra la poliomielitis (Jonas Salk’s).&lt;/li>
+&lt;li>1970: Se observó que el ejercicio físico y una dieta sana reducían el riesgo de sufrir un infarto.&lt;/li>
+&lt;li>1983: Robert Gallo, Luc Montagnier y Françoise Barré-Sinoussi identifican el virus que causa el SIDA. Poco después se se observó que el riesgo de contraer el HIV aumentaba con ciertas prácticas sexuales y con el consumo de algunos tipos de drogas.&lt;/li>
+&lt;li>2020: Y llegó la COVID&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;p>En estos tiempos de pandemia un montón de términos técnicos de la epidemiología se han convertido en lugares comunes gracias a los medios de comunicación.&lt;/p>
+&lt;p>&lt;img src="img/wordcloud.png" alt="Términos epidemiología">&lt;/p>
+&lt;p>Sin embargo, muchos de estos términos se utilizan de manera errónea, incluso por los propios medios de comunicación, y generan confusión para la población no experta. En este tutorial pretendo explicar los principales conceptos epidemiológicos usados en el control de enfermedades como la COVID e ilustrar su uso con ejemplos de aplicación.&lt;/p>
+&lt;h2 id="índices-epidemiológicos">Índices epidemiológicos&lt;/h2>
+&lt;p>&lt;strong>Riesgos&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Prevalencia&lt;/li>
+&lt;li>Incidencia&lt;/li>
+&lt;li>Riesgo y Odds&lt;/li>
+&lt;li>Riesgo/Odd relativo&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Test diagnósticos&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Sensibilidad&lt;/li>
+&lt;li>Especificidad&lt;/li>
+&lt;li>Valores predictivos&lt;/li>
+&lt;/ul>
+&lt;p>Todos estos índices estan basados en el cálculo de probabilidades, por lo que comenzaremos introduciendo el concepto de probabilidad y sus principales propiedades.&lt;/p>
+&lt;h2 id="el-concepto-de-probabilidad">El concepto de probabilidad&lt;/h2>
+&lt;p>A lo largo de la historia ha habido diferentes intentos de definir matemáticamente el concepto de probabilidad. Quizá la más conocida y la primera que se enseña en las escuelas es la definición clásica de Laplace.&lt;/p>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición clásica (Laplace)&lt;/strong> $$P(E)=\frac{|E|}{|\Omega|}=\frac{\mbox{Casos favorables a $E$}}{\mbox{Casos posibles}}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong> Al tirar un dado equilibrado, la probabilidad de sacar un número par $E=\{2, 4, 6\}$ es
+$$ P(E) = \frac{3}{6} = 0.5$$&lt;/p>
+&lt;p>Sin embargo, esta definición tiene serios inconvenientes ya que, para poder usarla, todos los casos posibles de un experimento deben tener la misma probabilidad de ocurrir (&lt;em>equiprobabilidad&lt;/em>) y esto no suele ocurrir en la vida real (por ejemplo no todos los grupos sanguíneos tienen la misma probabilidad de ocurrir).&lt;/p>
+&lt;p>Por este motivo, en el ámbito de las Ciencias es mucho más común utilizar la definición de probabilidad basada en el cálculo de frecuencias.&lt;/p>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición frecuentista&lt;/strong> $$P(E)\approx f_E = \frac{n_E}{n}=\frac{\mbox{Frecuencia absoluta del evento}}{\mbox{Tamaño muestral}}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong> Se ha aplicado un tratamiento a 100 personas y se han curado 75, entonces la probabilidad de curación del tratamiento es
+$$P(E) = \frac{75}{100} = 0.75 \Rightarrow 75\%$$&lt;/p>
+&lt;p>&lt;i class="fa fa-exclamation-triangle" style="color:#ff9900;">&lt;/i>Ojo, esta definición no permite calcular el valor exacto de la probabilidad de un suceso, tan solo una aproximación que será mejor cuanto mayor sea el tamaño de la muestra.&lt;/p>
+&lt;h3 id="algunas-propiedades-de-la-probabilidad">Algunas propiedades de la probabilidad&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Una probabilidad es un número real entre 0 y 1: $$0\leq P(E)\leq 1$$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La suma de las probabilidades de todos los casos posibles es 1: $$P(\Omega) = P(e_1) + P(e_2) + \cdots + P(e_n) = 1$$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La probabilidad de que ocurra lo contrario de un suceso es 1 menos la probabilidad del suceso: $$P(\overline E) = 1 - P(E)$$&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>De este modo, cuanto más probable es que ocurra un suceso, menos probable es que ocurra su contrario, y viceversa.&lt;/p>
+&lt;h3 id="interpretación-de-una-probabilidad">Interpretación de una probabilidad&lt;/h3>
+&lt;p>La probabilidad mide la verosimilitud de un suceso.&lt;/p>
+&lt;p>De manera informal, se puede decir que la probabilidad mide la creencia o la confianza que tenemos en la ocurrencia de un suceso.&lt;/p>
+&lt;ul>
+&lt;li>$P(E) = 0 \Rightarrow$ Mínima verosimilitud&lt;/li>
+&lt;li>$P(E) = 0.5 \Rightarrow$ Verosimilitud media (máxima incertidumbre)&lt;/li>
+&lt;li>$P(E) = 1 \Rightarrow$ Máxima verosimilitud&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/balanza-probabilidad.png" alt="Balanza probabilidades">&lt;/p>
+&lt;p>Aunque el concepto de probabilidad es el más extendido en aplicaciones que requieren cuantificar la incertidumbre sobre la ocurrencia de un suceso, existen otras formas de cuantificar esa incertidumbre como por ejemplo el &lt;em>odds&lt;/em>.&lt;/p>
+&lt;h2 id="el-concepto-de-odds">El concepto de Odds&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Odds&lt;/strong> $$O(E)=\frac{\mbox{Nº casos con $E$}}{\mbox{Nº casos sin $E$}}=\frac{P(E)}{P(\overline E)}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong> Se ha aplicado un tratamiento a 100 personas y se han curado 75, entonces el odds de curación del tratamiento es $$O(E) = \frac{75}{25} = 3$$&lt;/p>
+&lt;p>&lt;i class="fa fa-exclamation-triangle" style="color:#ff9900;">&lt;/i> Un odds puede ser mayor que 1.&lt;/p>
+&lt;h3 id="interpretación-de-un-odds">Interpretación de un Odds&lt;/h3>
+&lt;p>Los odds también permiten cuantificar la verosimilitud de un suceso&amp;hellip;, pero en una escala diferente, ya que es una razón de probabilidades.&lt;/p>
+&lt;ul>
+&lt;li>$O(E) = 0 \Rightarrow$ Mínima verosimilitud&lt;/li>
+&lt;li>$O(E) = 1 \Rightarrow$ Verosimilitud media (máxima incertidumbre)&lt;/li>
+&lt;li>$O(E) = \infty \Rightarrow$ Máxima verosimilitud&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/balanza-odds.png" alt="Balanza probabilidades">&lt;/p>
+&lt;h3 id="conversión-de-odds-en-probabilidades">Conversión de Odds en probabilidades&lt;/h3>
+&lt;p>Es posible convertir un odds en una probabilidad aplicando la siguiente fórmula:&lt;/p>
+&lt;p>$$ \frac{O(E)}{1 + O(E)} = \frac{\frac{P(E)}{P(\overline E)}}{1 + \frac{P(E)}{P(\overline E)}} = \frac{\frac{P(E)}{P(\overline E)}}{\frac{P(\overline E) + P(E)}{P(\overline E)}} = P(E)$$&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong> Se ha aplicado un tratamiento a 100 personas y se han curado 75.
+$$O(E) = \frac{75}{25} = 3 \Rightarrow P(E) = \frac{3}{1+3}=0.75$$&lt;/p>
+&lt;h2 id="prevalencia">Prevalencia&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Prevalencia&lt;/strong>&lt;br>
+La &lt;em>prevalencia&lt;/em> de una enfermedad $E$ es la proporción de personas que tienen la enfermedad en un momento concreto.
+$$\mbox{Prevalencia}(E) = \frac{\mbox{Nº individuos afectados por $E$}}{\mbox{Tamaño poblacional}}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. En una muestra de 1000 personas 150 tenían gripe. La prevalencia de la gripe es aproximadamente $$\frac{150}{1000}=0.15$$&lt;/p>
+&lt;h2 id="incidencia-o-riesgo-absoluto">Incidencia o riesgo absoluto&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Incidencia&lt;/strong>&lt;br>
+La &lt;em>incidencia&lt;/em> o &lt;em>riesgo absoluto&lt;/em> de una enfermedad $E$ es la proporción de nuevos casos durante un periodo determinado (por día, por semana, por mes, etc.)
+$$R(E)=\frac{\mbox{Nº nuevos casos con $E$ en el periodo}}{\mbox{Tamaño población en riesgo al comienzo del periodo}}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Al comienzo del año se tomó una muestra de 1000 personas sin gripe y al finalizar el año 80 tuvieron gripe. La incidencia de la gripe ese año fue
+$$ R(E) = \frac{80}{1000} = 0.08$$&lt;/p>
+&lt;h3 id="prevalencia-vs-incidencia">Prevalencia vs Incidencia&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th style="text-align:center">Tiempo&lt;/th>
+&lt;th style="text-align:center">Casos&lt;/th>
+&lt;th style="text-align:center">Tipo estudio&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Prevalencia&lt;/td>
+&lt;td style="text-align:center">Puntual&lt;/td>
+&lt;td style="text-align:center">Nuevos y existentes&lt;/td>
+&lt;td style="text-align:center">Transversal&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Incidencia&lt;/td>
+&lt;td style="text-align:center">Periodo&lt;/td>
+&lt;td style="text-align:center">Solo nuevos&lt;/td>
+&lt;td style="text-align:center">Longitudinal&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>La prevalencia muestra el número de personas afectadas (carga de la enfermedad).&lt;/li>
+&lt;li>La incidencia muestra la evolución de la enfermedad y es más útil para detectar brotes y estudiar su causa.&lt;/li>
+&lt;li>La incidencia depende solo de la contagiosidad de la enfermedad, mientras que la prevalencia depende también de la duración de la enfermedad y de lo agresiva que sea.&lt;/li>
+&lt;/ul>
+&lt;!-- $$ P(E) &lt; R(E) $$ -->
+&lt;h3 id="algunas-consideraciones-en-el-caso-de-la-covid">Algunas consideraciones en el caso de la COVID&lt;/h3>
+&lt;p>
+&lt;a href="https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/situacionActual.htm" target="_blank" rel="noopener">Datos del ministerio de sanidad&lt;/a>&lt;/p>
+&lt;p>La incidencia de la COVID se suele dar sobre un periodo de dos semanas (14 días) aunque no siempre.&lt;/p>
+&lt;p>Los datos son poco precisos y subestiman el riesgo de la COVID:&lt;/p>
+&lt;ul>
+&lt;li>Muchos asintomáticos no son detectados.&lt;/li>
+&lt;li>La detección de casos es mediante test diagnósticos que tienen un margen de error (falsos positivos y falsos negativos).&lt;/li>
+&lt;li>Se calcula dividiendo por el tamaño de la población (nuevos casos por cada 100000 habitantes) pero habría que dividir por el tamaño de la población en riesgo (sin contar ya infectados o inmunizados).&lt;/li>
+&lt;/ul>
+&lt;h2 id="comparación-de-riesgos">Comparación de riesgos&lt;/h2>
+&lt;p>Tanto la prevalencia como la incidencia permiten estudiar la magnitud y la evolución de una enfermedad pero no permiten analizar las posibles causas. Cuando se quiere investigar si la exposición a un determinado factor puede influir en el desarrollo de una enfermedad hay que comparar los riesgos en dos grupos:&lt;/p>
+&lt;ul>
+&lt;li>Grupo tratamiento $T$: Individuos expuestos a un factor.&lt;/li>
+&lt;li>Grupo control $C$: Individuos no expuestos al factor.&lt;/li>
+&lt;/ul>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+&amp;amp; E &amp;amp; \overline E\newline
+\hline
+T &amp;amp; a &amp;amp; b\newline
+C &amp;amp; c &amp;amp; d\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;h2 id="riesgo-relativo">Riesgo relativo&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Riesgo relativo&lt;/strong>
+$$RR(E)=\frac{\mbox{Riesgo grupo tratamiento}}{\mbox{Riesgo grupo control}}=\frac{R_T(E)}{R_C(E)}=\frac{a/(a+b)}{c/(c+d)}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+&amp;amp; \mbox{Gripe } G &amp;amp; \mbox{No gripe }\overline E\newline
+\hline
+\mbox{Vacunados } T &amp;amp; 20 &amp;amp; 480 \newline
+\mbox{No vacunados } C &amp;amp; 80 &amp;amp; 420 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$RR(G) = \frac{20/(20+480)}{80/(80+420)} = 0.25$$&lt;/p>
+&lt;h3 id="interpretación-del-riesgo-relativo">Interpretación del riesgo relativo&lt;/h3>
+&lt;ul>
+&lt;li>$RR=1$ $\Rightarrow$ No hay asociación entre el suceso y la exposición al factor.&lt;/li>
+&lt;li>$RR&amp;lt;1$ $\Rightarrow$ La exposición al factor disminuye el riesgo del suceso.&lt;/li>
+&lt;li>$RR&amp;gt;1$ $\Rightarrow$ La exposición al factor aumenta el riesgo del suceso.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/escala-riesgo-relativo.png" alt="Interpretación riesgo relativo">&lt;/p>
+&lt;h2 id="odds-ratio">Odds ratio&lt;/h2>
+&lt;p>Del mismo modo que se pueden comparar los riesgos en los grupos tratamiento y control, se pueden comparar también los odds.&lt;/p>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Odds ratio&lt;/strong>
+$$OR(E)=\frac{\mbox{Odds grupo tratamiento}}{\mbox{Odds grupo control}}=\frac{O_T(E)}{O_C(E)}=\frac{a/b}{c/d}=\frac{ad}{bc}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+&amp;amp; \mbox{Gripe } G &amp;amp; \mbox{No gripe }\overline E\newline
+\hline
+\mbox{Vacunados } T &amp;amp; 20 &amp;amp; 480 \newline
+\mbox{No vacunados } C &amp;amp; 80 &amp;amp; 420 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$OR(G) = \frac{20/480}{80/420} = 0.22$$&lt;/p>
+&lt;h3 id="interpretación-del-odds-ratio">Interpretación del odds ratio&lt;/h3>
+&lt;ul>
+&lt;li>$OR=1$ $\Rightarrow$ No existe asociación entre el suceso y la exposición al factor.&lt;/li>
+&lt;li>$OR&amp;lt;1$ $\Rightarrow$ La exposición al factor disminuye el riesgo del suceso.&lt;/li>
+&lt;li>$OR&amp;gt;1$ $\Rightarrow$ La exposición al factor aumenta el riesgo del suceso.&lt;/li>
+&lt;/ul>
+&lt;h3 id="riesgo-relativo-vs-odds-ratio">Riesgo relativo vs odds ratio&lt;/h3>
+&lt;p>El riesgo relativo es una comparación de probabilidades pero depende de la incidencia de la enfermedad.&lt;/p>
+&lt;p>La interpretación del odds ratio es más enrevesada porque es contrafactual, ya que da cuántas veces es más frecuente el suceso en el grupo tratamiento en comparación con el control, asumiendo que en el
+grupo control es tan frecuente que ocurra el suceso como que no. Su ventaja es que no depende de la incidencia de la enfermedad.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Para estudiar la asociación entre fumar y el cáncer de pulmón se han tomado dos muestras, la segunda con el doble de pacientes sanos que la primera.&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\textbf{Muestra 1} &amp;amp; \mbox{Cáncer } E &amp;amp; \mbox{No cáncer }\overline E\newline
+\hline
+\mbox{Fumadores } &amp;amp; 60 &amp;amp; 80 \newline
+\mbox{No fumadores } C &amp;amp; 40 &amp;amp; 320 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$
+\begin{aligned}
+RR(E) &amp;amp;= \frac{60/(60+80)}{40/(40+320)} = 3.86
+\newline
+OR(E) &amp;amp;= \frac{60/80}{40/320} = 6
+\end{aligned}
+$$&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\textbf{Muestra 2} &amp;amp; \mbox{Cáncer } E &amp;amp; \mbox{No cáncer }\overline E\newline
+\hline
+\mbox{Fumadores } &amp;amp; 60 &amp;amp; 160 \newline
+\mbox{No fumadores } C &amp;amp; 40 &amp;amp; 640 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$
+\begin{aligned}
+RR(E) &amp;amp;= \frac{60/(60+160)}{40/(40+640)} = 4.64
+\newline
+OR(E) &amp;amp;= \frac{60/160}{40/640} = 6
+\end{aligned}
+$$&lt;/p>
+&lt;h3 id="aplicación-a-la-covid">Aplicación a la COVID&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.npr.org/sections/coronavirus-live-updates/2020/03/22/819846180/study-calculates-just-how-much-age-medical-conditions-raise-odds-of-severe-covid?t=1614095513052" target="_blank" rel="noopener">La edad aumenta la gravedad&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.aarp.org/espanol/salud/enfermedades-y-tratamientos/info-2020/tipo-de-sangre-y-riesgo-de-covid.html" target="_blank" rel="noopener">El riesgo de infección depende del grupo sanguíneo&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://medicalxpress.com/news/2021-01-vitamin-d-deficiency-covid-.html" target="_blank" rel="noopener">El déficit de vitamina D aumenta el riesgo de infección&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.sciencedaily.com/releases/2021/02/210209083524.htm" target="_blank" rel="noopener">Las personas con demencia tienen mayor riesgo de infectase&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2007764" target="_blank" rel="noopener">El Remdesivir acelera la recuperación&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tests-diagnósticos">Tests diagnósticos&lt;/h2>
+&lt;p>Otra aplicación de la Epidemiología basado en el cálculo de probabilidades son los &lt;em>test diagnósticos&lt;/em>.&lt;/p>
+&lt;blockquote>
+&lt;p>Un test diagnóstico es un test usado para diagnosticar una enfermedad o descartarla.&lt;/p>
+&lt;/blockquote>
+&lt;p>Normalmente producen dos resultados: positivo (+) a favor de la enfermedad y negativo (-) en contra de ella.&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; \color{green}{\mbox{Verdadero positivo }VP} &amp;amp; \color{red}{\mbox{Falso positivo }FP} \newline
+\mbox{Negativo }- &amp;amp; \color{red}{\mbox{Falso negativo }FN} &amp;amp; \color{green}{\mbox{Verdadero negativo }VN}\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;h2 id="sensibilidad-y-especificidad-de-un-test">Sensibilidad y especificidad de un test&lt;/h2>
+&lt;p>La fiabilidad de un test diagnóstico depende de las siguientes probabilidades.&lt;/p>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Sensibilidad&lt;/strong>&lt;br>
+La &lt;em>sensibilidad&lt;/em> de un test diagnóstico es la proporción de resultados positivos del test en personas con la enfermedad,
+$$P(+|E)=\frac{VP}{VP+FN}$$
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Especificidad&lt;/strong>&lt;br>
+La &lt;em>especificidad&lt;/em> de un test diagnóstico es la proporción de resultados negativos del test en personas sin la enfermedad,
+$$P(-|\overline{E})=\frac{VN}{VN+FP}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Un test de antígenos para detectar el SARS-COV-2 tiene una sensibilidad del 70% y una especificidad del 95%.&lt;/p>
+&lt;ul>
+&lt;li>Si aplicamos el test a 100 enfermos dará 70 positivos y 30 negativos.&lt;/li>
+&lt;li>Si aplicamos el test a 100 sanos dará 95 negativos y 5 positivos.&lt;/li>
+&lt;/ul>
+&lt;p>La fiabilidad del test depende también de la prevalencia de la enfermedad.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Utilizando el test del ejemplo anterior en una población de 1000 personas y suponiendo una prevalencia del 1% se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 7 &amp;amp; 50 \newline
+\mbox{Negativo }- &amp;amp; 3 &amp;amp; 940\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>&lt;img src="img/resultados-test0.01-0.7-0.95.svg" alt="Resultados de un test diagnóstico con una sensibilidad del 70%, una especidficidad del 95% y una prevalencia del 1%">&lt;/p>
+&lt;p>Mientras que si la prevalencia es del 10% se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 70 &amp;amp; 45 \newline
+\mbox{Negativo }- &amp;amp; 30 &amp;amp; 855\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>&lt;img src="img/resultados-test0.1-0.7-0.95.svg" alt="Resultados de un test diagnóstico con una sensibilidad del 70%, una especidficidad del 95% y una prevalencia del 10%">&lt;/p>
+&lt;p>Para ver los resultados de un test diagnóstico en función de la prevalencia, la sensibilidad y la especificidad se puede utilizar esta
+&lt;a href="http://nube.aprendeconalf.es/shiny/diagnostic-test/" target="_blank" rel="noopener">aplicación para test diagnósticos&lt;/a>&lt;/p>
+&lt;h3 id="cuándo-usar-un-test-más-sensible-o-más-específico">Cuándo usar un test más sensible o más específico&lt;/h3>
+&lt;p>Una mayor sensibilidad aumenta el número de verdaderos positivos y disminuye el número de falsos negativos, mientras que una mayor especificidad aumenta el número de verdaderos negativos y disminuye el número de falsos positivos. Por tanto, utilizaremos un test más sensible cuando:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>La enfermedad es grave o muy contagiosa y es importante detectarla.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La enfermedad es curable.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Los falsos positivos no provocan traumas serios.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Y utilizaremos un test más específico cuando:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>La enfermedad es importante pero difícil o imposible de curar.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Los falsos positivos pueden provocar traumas serios.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>El tratamiento de los falsos positivos puede tener graves consecuencias.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Tanto la sensibilidad como la especificidad son indicadores de la fiabilidad de un test a priori, es decir, antes de aplicar el test. Una vez que el test se ha aplicado y se conoce su resultado, a la hora de diagnosticar la enfermedad o rechazarla, es mejor utilizar los &lt;em>valores predictivos&lt;/em>.&lt;/p>
+&lt;h2 id="valores-predictivos-de-un-test">Valores predictivos de un test&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Valor predictivo positivo&lt;/strong>&lt;br>
+El &lt;em>valor predictivo positivo&lt;/em> de un test diagnóstico es la proporción de personas con la enfermedad entre las personas con resultado positivo en el test,
+$$P(E|+) = \frac{VP}{VP+FP}$$
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Valor predictivo negativo&lt;/strong>&lt;br>
+El &lt;em>valor predictivo negativo&lt;/em> de un test diagnóstico es la proporción de personas sin la enfermedad entre las personas con resultado negativo en el test,
+$$P(\overline{E}|-) = \frac{VN}{VN+FN}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Siguiendo con el ejemplo anterior y suponiendo una prevalencia del 1%, se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 7 &amp;amp; 50 \newline
+\mbox{Negativo }- &amp;amp; 3 &amp;amp; 940\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>&lt;img src="img/resultados-test0.01-0.7-0.95.svg" alt="Resultados de un test diagnóstico con una sensibilidad del 70%, una especidficidad del 95% y una prevalencia del 1%">&lt;/p>
+&lt;p>Mientras que si la prevalencia es del 10% se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 70 &amp;amp; 45 \newline
+\mbox{Negativo }- &amp;amp; 30 &amp;amp; 855\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$VPP = \frac{7}{7+50} = 0.123$$
+$$VPN = \frac{940}{3+940} = 0.997$$&lt;/p>
+&lt;p>Mientras que si la prevalencia es del 10% se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 70 &amp;amp; 45 \newline
+\mbox{Negativo }- &amp;amp; 30 &amp;amp; 855\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$VPP = \frac{70}{70+45} = 0.609$$
+$$VPN = \frac{855}{30+855} = 0.966$$&lt;/p>
+&lt;h3 id="interpretación-de-los-valores-predictivos">Interpretación de los valores predictivos&lt;/h3>
+&lt;p>$$
+\begin{array}{rcl}
+VPP&amp;gt;0.5 &amp;amp; \Rightarrow &amp;amp; \mbox{Diagnosticar la enfermedad}\newline
+VPN&amp;gt;0.5 &amp;amp; \Rightarrow &amp;amp; \mbox{Descartar la enfermedad}
+\end{array}
+$$&lt;/p>
+&lt;h2 id="aplicaciones-al-covid-19">Aplicaciones al COVID-19&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.rcpjournals.org/content/clinmedicine/20/6/e209" target="_blank" rel="noopener">Fiabilidad del diagnóstico por PCR&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm695152a3.htm" target="_blank" rel="noopener">Fiabilidad del diagnóstico por el test de antígenos&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://academic.oup.com/ajcp/article/154/5/575/5898531" target="_blank" rel="noopener">Comparativa de test&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="referencias">Referencias&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="http://matematicas.uclm.es/cemat/covid19/" target="_blank" rel="noopener">Acción matemática contra el coronavirus&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.repidemicsconsortium.org/" target="_blank" rel="noopener">R Epidemic Consortium (RECON)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf" target="_blank" rel="noopener">Analysis of epidemiological data using R and Epicalc&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://statsandr.com/blog/top-r-resources-on-covid-19-coronavirus/#coronavirus" target="_blank" rel="noopener">R resources about COVID-19&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Regresión</title><link>/docencia/estadistica/manual/regresion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/manual/regresion/</guid><description>&lt;p>Hasta ahora se ha visto como describir el comportamiento de una variable, pero en los fenómenos naturales normalmente aparecen más de una variable que suelen estar relacionadas. Por ejemplo, en un estudio sobre el peso de las personas, deberíamos incluir todas las variables con las que podría tener relación: altura, edad, sexo, dieta, tabaco,
 ejercicio físico, etc.&lt;/p>
 &lt;p>Para comprender el fenómeno no basta con estudiar cada variable por separado y es preciso un estudio conjunto de todas las variables para ver cómo interactúan y qué relaciones se dan entre ellas. El objetivo de la estadística en este caso es dar medidas del grado y del tipo de relación entre dichas variables.&lt;/p>
 &lt;p>Generalmente, en un &lt;em>estudio de dependencia&lt;/em> se considera una &lt;strong>variable dependiente&lt;/strong> $Y$ que se supone relacionada con otras variables $X_1,\ldots,X_n$ llamadas &lt;strong>variables independientes&lt;/strong>.&lt;/p>
@@ -1596,7 +3228,7 @@ recta de regresión de la estatura sobre el peso es&lt;/p>
 &lt;p>El parámetro más importante de una recta de regresión es su pendiente.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Coeficiente de regresión&lt;/strong> $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el _coeficiente de regresión_ de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p>
+&lt;p>&lt;strong>Definición - Coeficiente de regresión&lt;/strong> $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el &lt;em>coeficiente de regresión&lt;/em> de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p>
 &lt;p>$$b_{yx} = \frac{s_{xy}}{s_x^2}$$&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -1633,7 +3265,7 @@ De ello se encarga la parte de la estadística conocida como &lt;strong>correlac
 &lt;em>varianza residual&lt;/em>.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Varianza residual muestral&lt;/strong> $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su _varianza residual muestral_ es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p>
+&lt;p>&lt;strong>Definición - Varianza residual muestral&lt;/strong> $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su &lt;em>varianza residual muestral&lt;/em> es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p>
 &lt;p>$$s_{ry}^2 = \frac{\sum e_{ij}^2n_{ij}}{n} = \frac{\sum (y_j - f(x_i))^2n_{ij}}{n}.$$&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -3585,7 +5217,7 @@ $$&lt;/p>
 T=\frac{\bar{X}_1-\bar{X}_2}{\hat{S}_p\sqrt{\frac{n_1+n_2}{n_1n_2}}} \sim T(n_1+n_2-2).
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $-t_{\alpha/2}^{n_1+n_2-2} &amp;lt; T &amp;lt; t_{\alpha/2}^{n_1+n_2-2}$.&lt;br>
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Se quiere comparar el rendimiento académico de dos grupos de alumnos, uno con 10 alumnos y otro con 12, que han seguido metodologías diferentes. Para ello se les realiza un examen y se obtienen las siguientes puntuaciones:&lt;/p>
 &lt;p>$$
 \begin{aligned}
@@ -3629,7 +5261,7 @@ $$&lt;/p>
 &lt;p>$$\Delta = \frac{(\frac{n_2-1}{n_1}\hat{S}_1^2-\frac{n_1-1}{n_2}\hat{S}_2^2)^2}{\frac{n_2-1}{n_1^2}\hat{S}_1^4+\frac{n_1-1}{n_2^2}\hat{S}_2^4}.
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $-t_{\alpha/2}^{g} &amp;lt; T &amp;lt; t_{\alpha/2}^{g}$.&lt;br>
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p>
 &lt;h3 id="contraste-de-comparación-de-varianzas-de-dos-poblaciones-normales">Contraste de comparación de varianzas de dos poblaciones normales&lt;/h3>
 &lt;p>Sean $X_1$ y $X_2$ dos variables aleatorias que cumplen las siguientes condiciones:&lt;/p>
 &lt;ul>
@@ -3655,7 +5287,7 @@ F= \frac{\frac{\frac{(n_1-1)\hat{S}_1^2}{\sigma_1^2}}{n_1-1}}{\frac{\frac{(n_2-1
 \frac{\sigma_2^2}{\sigma_1^2}\frac{\hat{S}_1^2}{\hat{S}_2^2}\sim F(n_1-1,n_2-1).
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $F_{\alpha/2}^{n_1-1,n_2-1} &amp;lt; F &amp;lt; F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;br>
-**Región de rechazo**: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Siguiendo con el ejemplo de las puntuaciones en dos grupos:&lt;/p>
 &lt;p>$$
 \begin{aligned}
@@ -3695,7 +5327,7 @@ $X_1\sim B(n_1,p_1)$ y $X_2\sim B(n_2,p_2)$. Si las muestras son grandes ($n_ip_
 \Rightarrow Z = \frac{\hat{p}_1-\hat{p_2}}{\sqrt{\frac{p_1(1-p_1)}{n_1}+\frac{p_2(1-p_2)}{n_2}}}\sim N(0,1)
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $z_{\alpha/2}&amp;lt; Z &amp;lt; z_{1-\alpha/2}$.&lt;br>
-**Región de rechazo**: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Se quiere comparar los porcentajes de aprobados en dos grupos que han seguido metodologías distintas. En el primer grupo han aprobado 24 alumnos de un total de 40, mientras que en el segundo han aprobado 48 de 60.&lt;/p>
 &lt;p>El contraste que se plantea es&lt;/p>
 &lt;p>$$
@@ -3771,8 +5403,13 @@ Se pide:&lt;/p>
 &lt;/ol>
 &lt;p>&lt;strong>SOLUCIÓN&lt;/strong>&lt;/p>
 &lt;iframe src="http://www.slideshare.net/slideshow/embed_code/35218982" width="640" height="449" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> &lt;/iframe>
-&lt;iframe src="//www.youtube.com/embed/UwH4yRqutHY" width="640" height="360" frameborder="0"> &lt;/iframe></description></item><item><title>Tipos de estudios estadísticos</title><link>/post/estudios-estadisticos-r/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/post/estudios-estadisticos-r/</guid><description>&lt;p>Acabo de publicar una
-&lt;a href="https://aprendeconalf.es/docencia/r/estudios-estadisticos" target="_blank" rel="noopener">guía básica con los principales tipos de estudios estadísticos&lt;/a> y ejemplos realizados con el programa de análisis de datos R.&lt;/p>
+&lt;iframe src="//www.youtube.com/embed/UwH4yRqutHY" width="640" height="360" frameborder="0"> &lt;/iframe></description></item><item><title>Epidemiología para tiempos de pandemia</title><link>/post/epidemiologia-tiempos-pandemias/</link><pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate><guid>/post/epidemiologia-tiempos-pandemias/</guid><description>&lt;p>Debido a la epidemia provocada por el coronavirus, la Epidemiología se ha convertido en una de las ramas de la medicina que más interés despiertan.&lt;/p>
+&lt;p>En estos tiempos de pandemia un montón de términos técnicos de la Epidemiología se han convertido en lugares comunes gracias a los medios de comunicación. Sin embargo, muchos de estos términos se utilizan de manera errónea, incluso por los propios medios de comunicación, y generan confusión para la población no experta.&lt;/p>
+&lt;p>Por ello, y con motivo de la
+&lt;a href="http://www.madrimasd.org/semanacienciaeinnovacion/" target="_blank" rel="noopener">Semana de la Ciencia y la Innovación de Madrid 2021&lt;/a>, he preparado un tutorial para explicar al público en general los principales conceptos epidemiológicos usados en el control de enfermedades como la COVID e ilustrar su uso con ejemplos de aplicación.&lt;/p>
+&lt;p>Podéis acceder a él en el siguiente enlace:
+&lt;a href="/docencia/estadistica/tutoriales/epidemiologia/#valores-predictivos-de-un-test">Tutorial de Epidemiología&lt;/a>&lt;/p></description></item><item><title>Tipos de estudios estadísticos</title><link>/post/estudios-estadisticos-r/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/post/estudios-estadisticos-r/</guid><description>&lt;p>Acabo de publicar una
+&lt;a href="https://aprendeconalf.es/docencia/estadistica/tutoriales/tipos-estudios-estadisticos" target="_blank" rel="noopener">guía básica con los principales tipos de estudios estadísticos&lt;/a> y ejemplos realizados con el programa de análisis de datos R.&lt;/p>
 &lt;p>Una de las preguntas más recurrentes de suelen hacerme mis compañeros cuando están realizando un estudio de investigación es &lt;em>¿qué tipo de estudio estadístico tengo que aplicar?&lt;/em>. Con esta guía pretendo ayudar a encontrar la respuesta a todos aquellos que se hagan esta pregunta.&lt;/p>
 &lt;p>En esta guía no se abordan todos los tipos de estudios estadísticos que existen, pero si lo más habituales, dependiendo del objetivo perseguido, el número de variables que intervienen y el tipo de estas variables. Para facilitar la comprensión de cada tipo de estudio se muestra un ejemplo sencillo implementado con R.&lt;/p>
 &lt;p>Espero que os sea útil.&lt;/p></description></item><item><title>Examen de Farmacia 2021-01-18</title><link>/docencia/calculo/examenes/farmacia/farmacia-2021-01-18/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><guid>/docencia/calculo/examenes/farmacia/farmacia-2021-01-18/</guid><description>&lt;p>Grados: Farmacia y Biotecnología&lt;br>
@@ -4699,7 +6336,7 @@ Solución
 Fecha: 17 de Diciembre de 2018&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>El siguiente gráfico representa la distribución acumulada del número de fármacos defectuosos diarios producidos por una máquina en una muestra de 40 fármacos.&lt;/p>
-&lt;p>&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" />&lt;/p>
+&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" />
 &lt;ol>
 &lt;li>Construir la tabla de frecuencias del número de fármacos defectuosos.&lt;/li>
 &lt;li>Dibujar el diagrama de caja y bigotes del número de fármacos defectuosos.&lt;/li>
@@ -4735,7 +6372,7 @@ Solución
 $$&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/boxplot-1.svg" title="plot of chunk boxplot" alt="plot of chunk boxplot" />&lt;/p>
+&lt;img src="../img/boxplot-1.svg" title="plot of chunk boxplot" alt="plot of chunk boxplot" />
 &lt;ol start="3">
 &lt;li>$\bar x=3.975$ fármacos, $s_x=1.9936$ fármacos y $g_1=0.3184$. Por tanto, la distribución es un poco asimétrica hacia la derecha.&lt;/li>
 &lt;li>$cv_x=0.5015$, $\bar y=13.925$ fármacos, $s_y=5.9808$ fármacos y $cv_y=0.4295$.&lt;br>
@@ -4951,8 +6588,8 @@ Solución
 &lt;ol>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/diagrama-caja-distancia-minima-enfoque-1.svg" title="Diagrama de caja de la distancia mínima de enfoque" alt="Diagrama de caja de la distancia mínima de enfoque" />&lt;br>
-No hay datos atípicos.&lt;/p>
+&lt;img src="../img/diagrama-caja-distancia-minima-enfoque-1.svg" title="Diagrama de caja de la distancia mínima de enfoque" alt="Diagrama de caja de la distancia mínima de enfoque" />
+No hay datos atípicos.
 &lt;ol start="2">
 &lt;li>Menores de 40: $\bar y=13.6$ cm, $s^2_y=1.04$ cm², $s_y=1.0198$ cm y $cv_y=0.075$.&lt;br>
 Mayores de 40: $\bar y=25.2$ cm, $s^2_y=25.36$ cm², $s_y=5.0359$ cm y $cv_y=0.1998$.&lt;br>
@@ -4965,7 +6602,6 @@ Mayores de 40: $z(30)=0.95$.&lt;br>
 Así pues, una distancia de 12 cm en menores de 40 es relativamente menor.&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/diagrama-dispersion-edad-distancia-minima-enfoque-1.svg" title="Diagrama de dispersión de la edad y la distancia mínima de enfoque" alt="Diagrama de dispersión de la edad y la distancia mínima de enfoque" style="display: block; margin: auto;" />&lt;/p>
 &lt;p>Se observan claramente dos tendencias, una para los menores de 40 y la otra para los mayores.
 En el caso de los menores no parece haber una relación fuerte entre la distancia mínima de enfoque y la edad, mientras que en el caso de los mayores si parece que la hay y además es lineal.&lt;/p>
 &lt;ol start="6">
@@ -5012,7 +6648,7 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>
-&lt;p>&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />&lt;/p>
+&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />
 &lt;/li>
 &lt;li>
 &lt;p>Con programa de prevención: $C_1=2$ lesiones, $C_3=4$ lesiones, $RI=2$ lesiones.&lt;br>
@@ -5271,7 +6907,9 @@ Solución
 &lt;div class="collapse card " id="spoiler-1">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Diagrama de dispersión de lesiones vs tiempo de calentamiento" alt="Diagrama de dispersión de lesiones vs tiempo de calentamiento" width="600" />&lt;/li>
+&lt;li>
+&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Diagrama de dispersión de lesiones vs tiempo de calentamiento" alt="Diagrama de dispersión de lesiones vs tiempo de calentamiento" width="600" />
+&lt;/li>
 &lt;li>$\bar x=23.7$ min, $s_x^2=32.01$ min$^2$.&lt;br>
 $\overline{\log(x)}=3.1373$ log(min), $s_{\log(x)}^2=0.0565$ log(min)$^2$.&lt;br>
 $\bar y=15.7$ lesiones, $s_y^2=137.81$ lesiones$^2$.&lt;br>
@@ -5397,7 +7035,7 @@ Fecha: 9 de abril de 2018&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>En un estudio se ha medido el arco de rotación de la cabeza en personas que trabajan habitualmente con ordenador y en personas que no.
 Los resultados aparecen en el siguiente histograma.&lt;/p>
-&lt;p>&lt;img src="../img/histograma_arco_rotacion-1.svg" title="plot of chunk histograma_arco_rotacion" alt="plot of chunk histograma_arco_rotacion" />&lt;/p>
+&lt;img src="../img/histograma_arco_rotacion-1.svg" title="plot of chunk histograma_arco_rotacion" alt="plot of chunk histograma_arco_rotacion" />
 &lt;p>Se pide:&lt;/p>
 &lt;ol>
 &lt;li>Dibujar el polígono de frecuencias relativas acumuladas del arco de rotación de la cabeza en personas que trabajan con ordenador.&lt;/li>
@@ -5420,16 +7058,23 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/poligono_frecuencia_acumulada_arco_rotacion-1.svg" title="plot of chunk poligono_frecuencia_acumulada_arco_rotacion" alt="plot of chunk poligono_frecuencia_acumulada_arco_rotacion" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/li>
-&lt;li>Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br>
+&lt;li>
+&lt;p>$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br>
 Sin ordenador: $\bar x=151.0714$ grados, $s_x^2=245.2806$ grados², $s_x=15.6614$ grados y $cv_x=0.1037$&lt;br>
-La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/li>
-&lt;li>$\bar x=141.3793$.&lt;/li>
-&lt;li>Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/li>
-&lt;li>Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/li>
+La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\bar x=141.3793$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -5678,7 +7323,7 @@ Solución
 Fecha: 18 de Diciembre de 2017&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>En un examen de estadística al que se han presentado 66 alumnos se ha contado el número de exámenes finalizados cada media hora, obteniendo el siguiente polígono:&lt;/p>
-&lt;p>&lt;img src="../img/poligono_acumulado_tiempo_examen.svg" alt="polígono de frecuencias acumuladas del tiempo de finalización de un examen" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/poligono_acumulado_tiempo_examen.svg" alt="polígono de frecuencias acumuladas del tiempo de finalización de un examen" style="display: block; margin: auto;" />
 &lt;p>Se pide:&lt;/p>
 &lt;ol>
 &lt;li>Construir la tabla de frecuencias del tiempo de finalización del examen.&lt;/li>
@@ -5786,7 +7431,7 @@ $x(35)=50.6789$ años.&lt;/p>
 Fecha: 27 de Noviembre de 2017&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>El siguiente diagrama muestra la distribución de emisiones de NO₂ (𝜇g/m³) en Madrid en los días de octubre de 2017.&lt;/p>
-&lt;p>&lt;img src="../img/histograma-emisiones-no2-1.svg" title="plot of chunk histograma-emisiones-no2" alt="plot of chunk histograma-emisiones-no2" />&lt;/p>
+&lt;img src="../img/histograma-emisiones-no2-1.svg" title="plot of chunk histograma-emisiones-no2" alt="plot of chunk histograma-emisiones-no2" />
 &lt;ol>
 &lt;li>La normativa europea sobre calidad del aire establece que el valor medio mensual no debe exceder de 40 𝜇g/m³. ¿Se ha cumplido la norma en el mes de Octubre?
 ¿Es este un valor representativo de las mediciones tomadas en octubre?&lt;/li>
@@ -5911,11 +7556,12 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/poligono_frecuencias_relativas_tiempo_espera_urgencias-1.svg" title="plot of chunk poligono_frecuencias_relativas_tiempo_espera_urgencias" alt="plot of chunk poligono_frecuencias_relativas_tiempo_espera_urgencias" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$Me=18.89$ min.&lt;/li>
-&lt;li>El 10% de los pacientes han tenido que esperar más de 18 minutos.&lt;/li>
+&lt;li>
+&lt;p>$Me=18.89$ min.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>El 10% de los pacientes han tenido que esperar más de 18 minutos.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -5949,14 +7595,17 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/fertility_boxplot-1.svg" title="plot of chunk fertility_boxplot" alt="plot of chunk fertility_boxplot" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$\bar a=3.1875$ embarazos, $s_a^2=2.2773$ embarazos², $s_a=1.5091$ embarazos, $cv_a=0.4734$.&lt;br>
+&lt;li>
+&lt;p>$\bar a=3.1875$ embarazos, $s_a^2=2.2773$ embarazos², $s_a=1.5091$ embarazos, $cv_a=0.4734$.&lt;br>
 $\bar b=1.25$ embarazos, $s_b^2=1.6875$ embarazos², $s_b=1.299$ embarazos, $cv_b=1.0392$.&lt;br>
-Como el coeficiente de variación de $A$ es menor que el coeficiente de variación de $B$, la media de la población $A$ es más representativa que la media de la población $B$.&lt;/li>
-&lt;li>$g_{1,a}=-0.211$ y $g_{1,b}=1.4113$, de modo que la distribución de $B$ es más asimétrica que la distribución de $A$.&lt;/li>
-&lt;li>$z_a(5)=1.2011$ y $z_b(3)=1.3472$, de modo que 3 embarazos en la población $B$ es relativamente mayor que 5 embarazos en la población $A$.&lt;/li>
+Como el coeficiente de variación de $A$ es menor que el coeficiente de variación de $B$, la media de la población $A$ es más representativa que la media de la población $B$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$g_{1,a}=-0.211$ y $g_{1,b}=1.4113$, de modo que la distribución de $B$ es más asimétrica que la distribución de $A$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$z_a(5)=1.2011$ y $z_b(3)=1.3472$, de modo que 3 embarazos en la población $B$ es relativamente mayor que 5 embarazos en la población $A$.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>

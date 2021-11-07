@@ -60,7 +60,7 @@ $$&lt;/p>
 &lt;p>Por último, en el caso de que la temperatura del aire fuese $T_a=0$ ºC y $k=1$, la solución general de la ecuación sería&lt;/p>
 &lt;p>$$T(t)=Ce^t,$$&lt;/p>
 &lt;p>lo que nos daría la siguiente familia de curvas integrales&lt;/p>
-&lt;p>&lt;img src="../img/edo/curvas_integrales.png" width="450px" alt="Gráficas de las soluciones de una ecuación diferencial ordinaria" />&lt;/p>
+&lt;img src="../img/edo/curvas_integrales.png" width="450px" alt="Gráficas de las soluciones de una ecuación diferencial ordinaria" />
 &lt;p>de las cuales, la solución del problema del valor incial es la función cuya gráfica pasa por el punto $(0,5)$.&lt;/p>
 &lt;h3 id="existencia-y-unicidad-de-soluciones">Existencia y unicidad de soluciones&lt;/h3>
 &lt;div class="alert alert-theo">

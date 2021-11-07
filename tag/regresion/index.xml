@@ -341,7 +341,7 @@ recta de regresión de la estatura sobre el peso es&lt;/p>
 &lt;p>El parámetro más importante de una recta de regresión es su pendiente.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Coeficiente de regresión&lt;/strong> $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el _coeficiente de regresión_ de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p>
+&lt;p>&lt;strong>Definición - Coeficiente de regresión&lt;/strong> $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el &lt;em>coeficiente de regresión&lt;/em> de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p>
 &lt;p>$$b_{yx} = \frac{s_{xy}}{s_x^2}$$&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -378,7 +378,7 @@ De ello se encarga la parte de la estadística conocida como &lt;strong>correlac
 &lt;em>varianza residual&lt;/em>.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Varianza residual muestral&lt;/strong> $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su _varianza residual muestral_ es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p>
+&lt;p>&lt;strong>Definición - Varianza residual muestral&lt;/strong> $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su &lt;em>varianza residual muestral&lt;/em> es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p>
 &lt;p>$$s_{ry}^2 = \frac{\sum e_{ij}^2n_{ij}}{n} = \frac{\sum (y_j - f(x_i))^2n_{ij}}{n}.$$&lt;/p>
 &lt;/div>
 &lt;/div>

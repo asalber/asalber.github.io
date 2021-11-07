@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aprende con Alf</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Aprende con Alf</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Aprende con Alf</title><link>/</link></image><item><title>Introducción</title><link>/docencia/estadistica/manual/introduccion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/manual/introduccion/</guid><description>&lt;h2 id="la-estadística-como-herramienta-científica">La estadística como herramienta científica&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aprende con Alf</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Aprende con Alf</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Aprende con Alf</title><link>/</link></image><item><title>Introducción</title><link>/docencia/estadistica/manual/introduccion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/manual/introduccion/</guid><description>&lt;h2 id="la-estadística-como-herramienta-científica">La estadística como herramienta científica&lt;/h2>
 &lt;h3 id="qué-es-la-estadística">¿Qué es la estadística?&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1500,17 +1500,17 @@ La descripción del viento requiere dos elementos, su intensidad y su dirección
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong> La velocidad de un móvil o la fuerza que se aplica sobre un objeto.&lt;/p>
 &lt;p>Geométricamente, un vector se representa mediante un segmento orientado, es decir, una flecha.&lt;/p>
-&lt;p>&lt;img src="../img/geometria_analitica/vector.png" width="500px" alt="Vector" />&lt;/p>
+&lt;img src="../img/geometria_analitica/vector.png" width="500px" alt="Vector" />
 &lt;h3 id="representación-de-un-vector">Representación de un vector&lt;/h3>
 &lt;p>Un segmento orientado puede ubicarse en diferentes lugares dentro de un espacio cartesiano. Sin embargo, con independencia de donde esté situado, si la longitud y la dirección no varían, dicho segmento representará siempre el mismo vector.&lt;/p>
 &lt;p>Esto permite representar todos los vectores con un mismo origen, el origen en sistema de coordenadas cartesianas.
 Así, un vector queda determinado por las &lt;em>coordenadas&lt;/em> de su extremo final en cualquier espacio euclideo.&lt;/p>
-&lt;p>&lt;img src="../img/geometria_analitica/coordenadas_vector.svg" width="400" alt="Coordenadas de un vector" />&lt;/p>
+&lt;img src="../img/geometria_analitica/coordenadas_vector.svg" width="400" alt="Coordenadas de un vector" />
 &lt;h3 id="vector-a-partir-de-dos-puntos">Vector a partir de dos puntos&lt;/h3>
 &lt;p>Dados dos puntos $P$ y $Q$ de un espacio cartesiano, el vector con origen en $P$ y destino en $Q$ tiene coordenadas $\vec{PQ}=Q-P$.&lt;/p>
 &lt;p>Sean los puntos $P=(2,1)$ y $Q=(3,4)$ del plano real $\mathbb{R}^2$, entonces&lt;/p>
 &lt;p>$$\vec{PQ} = Q-P = (3,4)-(2,1) = (3-2,4-1) = (1,3).$$&lt;/p>
-&lt;p>&lt;img src="../img/geometria_analitica/vector_puntos.png" width="300px" alt="Definción de un vector a partir de dos puntos" />&lt;/p>
+&lt;img src="../img/geometria_analitica/vector_puntos.png" width="300px" alt="Definción de un vector a partir de dos puntos" />
 &lt;h3 id="módulo-de-un-vector">Módulo de un vector&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1532,10 +1532,10 @@ Así, un vector queda determinado por las &lt;em>coordenadas&lt;/em> de su extre
 &lt;p>Especial atención merecen los vectores unitarios que siguen la dirección de los ejes de coordenadas, estos vectores se llaman &lt;em>vectores coordenados&lt;/em>.&lt;/p>
 &lt;p>En $\mathbb{R}^2$ los vectores coordenados son&lt;/p>
 &lt;p>$$\mathbf{i}=(1,0)\mbox{ y }\mathbf{j}=(0,1)$$&lt;/p>
-&lt;p>&lt;img src="../img/geometria_analitica/vectores_unitarios_r2.png" width="200px" alt="Vectores unitarios en el plano real" />&lt;/p>
+&lt;img src="../img/geometria_analitica/vectores_unitarios_r2.png" width="200px" alt="Vectores unitarios en el plano real" />
 &lt;p>En $\mathbb{R}^3$ los vectores coordenados son&lt;/p>
 &lt;p>$$\mathbf{i}=(1,0,0)\mbox{, }\mathbf{j}=(0,1,0) \mbox{ y } \mathbf{k}=(0,0,1)$$&lt;/p>
-&lt;p>&lt;img src="../img/geometria_analitica/vectores_unitarios_r3.png" width="200px" alt="Vectores unitarios en espacio real" />&lt;/p>
+&lt;img src="../img/geometria_analitica/vectores_unitarios_r3.png" width="200px" alt="Vectores unitarios en espacio real" />
 &lt;h3 id="suma-de-vectores">Suma de vectores&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1543,7 +1543,7 @@ Así, un vector queda determinado por las &lt;em>coordenadas&lt;/em> de su extre
 &lt;p>$$\mathbf{u}+\mathbf{v} = (u_1+v_1,\ldots, u_n+v_n).$$&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/geometria_analitica/suma_vectores.png" width="400px" alt="Suma de vectores" />&lt;/p>
+&lt;img src="../img/geometria_analitica/suma_vectores.png" width="400px" alt="Suma de vectores" />
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Sean $\mathbf{u}=(3,1)$ y $\mathbf{v}=(2,3)$ dos vectores en $\mathbb{R}^2$, entonces&lt;/p>
 &lt;p>$$\mathbf{u}+\mathbf{v} = (3+2,1+3) = (5,4).$$&lt;/p>
 &lt;h3 id="producto-de-un-vector-por-un-escalar">Producto de un vector por un escalar&lt;/h3>
@@ -1553,7 +1553,7 @@ Así, un vector queda determinado por las &lt;em>coordenadas&lt;/em> de su extre
 &lt;p>$$a\mathbf{v} = (av_1,\ldots, av_n).$$&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/geometria_analitica/producto_por_escalar.png" width="400px" alt="Producto de un vector por un escalar" />&lt;/p>
+&lt;img src="../img/geometria_analitica/producto_por_escalar.png" width="400px" alt="Producto de un vector por un escalar" />
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Sean el vector $\mathbf{v}=(2,1)$ en $\mathbb{R}^2$ y el escalar $a=2$, entonces&lt;/p>
 &lt;p>$$a\mathbf{v} = 2(2,1) = (4,2).$$&lt;/p>
 &lt;h3 id="expresión-de-un-vector-como-combinación-lineal-de-los-vectores-coordenados">Expresión de un vector como combinación lineal de los vectores coordenados&lt;/h3>
@@ -1561,7 +1561,7 @@ Así, un vector queda determinado por las &lt;em>coordenadas&lt;/em> de su extre
 coordenados.&lt;/p>
 &lt;p>En el caso del espacio real $\mathbb{R}^3$, cualquier vector $\mathbf{v}=(v_1,v_2,v_3)$ puede expresarse como&lt;/p>
 &lt;p>$$\mathbf{v}=(v_1,v_2,v_3) = v_1\mathbf{i}+v_2\mathbf{j}+v_3\mathbf{k}.$$&lt;/p>
-&lt;p>&lt;img src="../img/geometria_analitica/combinacion_lineal_vectores_coordenados.png" width="300px" alt="Vectores unitarios en espacio real" />&lt;/p>
+&lt;img src="../img/geometria_analitica/combinacion_lineal_vectores_coordenados.png" width="300px" alt="Vectores unitarios en espacio real" />
 &lt;h3 id="producto-escalar">Producto escalar&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -1618,7 +1618,7 @@ La ecuación&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Considérese la recta del espacio real $\mathbb{R}^3$ que aparece en la gráfica.
 Un punto de la recta es $P=(1,1,2)$ y un vector director es $\mathbf{v}=(-1,2,2)$, luego su ecuación vectorial es&lt;/p>
 &lt;p>$$l: X= P + t\mathbf{v} = (1,1,2)+t(-1,2,1)=(1-t,1+2t,2+t)\quad t\in\mathbb{R}.$$&lt;/p>
-&lt;p>&lt;img src="../img/geometria_analitica/ecuacion_vectorial_recta.png" width="400px" alt="Vectores unitarios en espacio real" />&lt;/p>
+&lt;img src="../img/geometria_analitica/ecuacion_vectorial_recta.png" width="400px" alt="Vectores unitarios en espacio real" />
 &lt;h3 id="ecuaciones-paramétricas-y-cartesianas-de-la-recta">Ecuaciones paramétricas y cartesianas de la recta&lt;/h3>
 &lt;p>De la ecuación vectorial de una recta $l: X=P + t\mathbf{v}=(p_1+tv_1,\ldots,p_n+tv_n)$ se obtienen fácilmente las coordenadas de los puntos que forman parte de la recta mediante $n$ ecuaciones paramétricas:&lt;/p>
 &lt;p>$$x_1(t)=p_1+tv_1, \ldots, x_n(t)=p_n+tv_n$$&lt;/p>
@@ -1646,7 +1646,7 @@ Esta ecuación se conoce como ecuación en la forma &lt;em>punto-pendiente&lt;/e
 &lt;strong>Definición - Pendiente de una recta&lt;/strong>. Dada una recta $l: X=P+t\mathbf{v}$ en el plano real $\mathbb{R}^2$, con vector director $\mathbf{v}=(a,b)$, se define la pendiente de $l$ como $b/a$.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/geometria_analitica/pendiente_recta.png" width="400px" alt="Vectores unitarios en espacio real" />&lt;/p>
+&lt;img src="../img/geometria_analitica/pendiente_recta.png" width="400px" alt="Vectores unitarios en espacio real" />
 &lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m150247" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>Recordar que dados dos puntos $Q=(x_1,y_1)$ y $Q=(x_2,y_2)$ de la recta $l$, se puede tomar como vector director el vector que los une, que tiene coordenadas $\vec{PQ}=Q-P=(x_2-x_1,y_2-y_1)$, de manera que la pendiente de $l$ será $\dfrac{y_2-y_1}{x_2-x_1}$, es decir, el cociente entre lo que cambia la coordenada $y$ y lo que cambia la coordenada $x$.&lt;/p>
 &lt;h2 id="planos">Planos&lt;/h2>
@@ -1659,7 +1659,7 @@ Entonces, para cualquier punto del plano $Q=(x,y,z)$ se cumple que el vector $\v
 &lt;p>$$\vec{PQ}\cdot\mathbf{v} = (x-x_0,y-y_0,z-z_0)(a,b,c) = a(x-x_0)+b(y-y_0)+c(z-z_0) = 0.$$&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/geometria_analitica/ecuacion_plano.png" width="400px" alt="Vectores unitarios en espacio real" />&lt;/p>
+&lt;img src="../img/geometria_analitica/ecuacion_plano.png" width="400px" alt="Vectores unitarios en espacio real" />
 &lt;h3 id="ecuación-escalar-de-un-plano-en-el-espacio">Ecuación escalar de un plano en el espacio&lt;/h3>
 &lt;p>De la ecuación vectorial del plano se obtiene&lt;/p>
 &lt;p>$$a(x-x_0)+b(y-y_0)+c(z-z_0) = 0 \Leftrightarrow ax+by+cz=ax_0+by_0+cz_0,$$&lt;/p>
@@ -1894,7 +1894,1190 @@ Redondear cada cantidad a dos decimales.&lt;/p>
 &lt;h2 id="ejercicio-12">Ejercicio 12&lt;/h2>
 &lt;p>Una panadería vende barras de pan a 3.49€ cada una. El pan que no es el día tiene un descuento del 60%.
 Escribir un programa que comience leyendo el número de barras vendidas que no son del día. Después el programa debe mostrar el precio habitual de una barra de pan, el descuento que se le hace por no ser fresca y el coste final total.&lt;/p>
-&lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio12.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p></description></item><item><title>Ejercicios de Cadenas</title><link>/docencia/python/ejercicios/cadenas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/ejercicios/cadenas/</guid><description>&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
+&lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/tipos-datos/ejercicio12.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p></description></item><item><title>Tipos de estudios estadísticos</title><link>/docencia/estadistica/tutoriales/tipos-estudios-estadisticos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/tutoriales/tipos-estudios-estadisticos/</guid><description>&lt;p>El tipo de estudio estadístico más apropiado en cada caso depende de varios factores:&lt;/p>
+&lt;ul>
+&lt;li>El objetivo del estudio.&lt;/li>
+&lt;li>El número de variables que intervienen.&lt;/li>
+&lt;li>El tipo de las variables dependientes e independientes.&lt;/li>
+&lt;li>La naturaleza de las observaciones (independientes o emparejadas).&lt;/li>
+&lt;/ul>
+&lt;p>A continuación se presentan los estudios estadísticos más habituales en función de estos factores. La siguiente tabla puede ayudar a identificar el más apropiado en cada caso.&lt;/p>
+&lt;table width="1054" cellspacing="0" cellpadding="5" border="1">
+&lt;tbody>
+&lt;tr>
+&lt;td bgcolor="#6d9eeb" width="95">
+&lt;p>&lt;strong>Variables independientes&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;td bgcolor="#6d9eeb" width="88">
+&lt;p>&lt;strong>Variable dependiente&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;td bgcolor="#6d9eeb" width="315">
+&lt;p>&lt;strong>Objetivo&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;td bgcolor="#6d9eeb" width="330">
+&lt;p>&lt;strong>Ejemplo&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;td bgcolor="#6d9eeb" width="174">
+&lt;p>&lt;strong>Contraste&lt;/strong>&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="6" width="95" height="14">
+&lt;p>Ninguna&lt;br /> (Una poblaci&amp;oacute;n)&lt;/p>
+&lt;/td>
+&lt;td rowspan="2" width="88">
+&lt;p>Cuantitativa&lt;/p>
+&lt;/td>
+&lt;td rowspan="2" width="315">
+&lt;p>Contrastar la normalidad de una variable&lt;/p>
+&lt;/td>
+&lt;td rowspan="2" width="330">
+&lt;p>Comprobar si la nota de un examen tiene distribuci&amp;oacute;n normal (forma de campana de Gauss)&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Komogorov-Smirnov&lt;br /> (requiere muestras grandes)&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="174">
+&lt;p>Shapiro-Willks&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si la media poblacional de una variable tiene un valor determinado&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la nota media de un examen es 5&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test T para la media de una poblaci&amp;oacute;n&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si la mediana poblacional de una variable tiene un valor determinado&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la calificaci&amp;oacute;n mediana de un examen es Aprobado&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test para la mediana de una poblaci&amp;oacute;n&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa (2 categor&amp;iacute;as)&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si la proporci&amp;oacute;n poblacional de una de las categor&amp;iacute;as tiene un valor determinado&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la proporci&amp;oacute;n de aprobados es de la mitad (o que el porcentaje es 50%)&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test Binomial&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si las proporciones de cada una de las categor&amp;iacute;as tienen un valor determinado&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si las proporciones de alumnos matriculados en ciencias, letras o mixtas son 0.5, 0.2 y 0.3 respectivamente&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test Chi-cuadrado de bondad de ajuste&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="7" width="95" height="13">
+&lt;p>Una cualitativa con dos categor&amp;iacute;as independientes &lt;br /> (Dos poblaciones independientes)&lt;/p>
+&lt;/td>
+&lt;td rowspan="3" width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medias la variable dependiente en dos poblaciones independientes&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si el grupo de ma&amp;ntilde;ana y el grupo de tarde han tenido notas medias diferentes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test T para la comparaci&amp;oacute;n de medias de poblaciones independientes&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las varianzas de la variable dependiente en dos poblaciones independientes&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay diferencias entre la variabilidad de las notas del grupo de ma&amp;ntilde;ana y el de tarde&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test F de Fisher&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Contrastar si hay concordancia o acuerdo entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay concordancia o acuerdo entre las notas que ponen dos profesores distintos para los mismos ex&amp;aacute;menes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Correlaci&amp;oacute;n intraclase&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="2" width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las distribuciones de la variable dependiente en dos poblaciones independientes&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si el grupo de ma&amp;ntilde;ana y el grupo de tarde han tenido calificaciones diferentes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de la U de Mann-Whitney&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Contrastar si hay concordancia o acuerdo entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay concordancia o acuerdo entre las calificaciones que ponen dos profesores distintos para los mismos ex&amp;aacute;menes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Kappa de Cohen&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="2" width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay relaci&amp;oacute;n entre las dos variables o bien si hay diferencias entre las proporciones de las categor&amp;iacute;as de la variable dependiente en las dos poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existe relaci&amp;oacute;n entre los aprobados en una asignatura y el grupo al que pertenecen los alumnos, es decir, si la proporci&amp;oacute;n de aprobados es diferente en dos grupos distintos.&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test Chi-cuadrado &lt;br /> (si no ha m&amp;aacute;s del 20% de frecuencias esperadas menores que 5)&lt;br /> Test exacto de Fisher&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Contrastar si hay concordancia o acuerdo entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay concordancia o acuerdo entre la valoraci&amp;oacute;n (aprobado o suspenso) que hacen dos profesores distintos para los mismos ex&amp;aacute;menes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Kappa de Cohen&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="3" width="95" height="14">
+&lt;p>Una cualitativa con dos categor&amp;iacute;as relacionadas o pareadas&lt;br /> (Dos poblaciones relacionadas o pareadas)&lt;/p>
+&lt;/td>
+&lt;td width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medias de la variable dependiente en dos poblaciones relacionadas o pareadas&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si las notas medias de dos asignaturas cursadas por los mismos alumnos han sido diferentes o si las notas medias de un examen realizado al comienzo del curso (antes) y otro al final (despu&amp;eacute;s) de una misma asignatura han sido diferentes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test T para la comparaci&amp;oacute;n de medias de poblaciones relacionadas o pareadas&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las distribuciones de la variable dependiente en dos poblaciones relacionadas o pareadas&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si las calificaciones de dos asignaturas cursadas por los mismos alumnos han sido diferentes&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de Wilcoxon&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa con dos categor&amp;iacute;as&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las proporciones de las categor&amp;iacute;as de la variable dependiente en dos poblaciones relacionadas o pareadas&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la proporci&amp;oacute;n o el porcentaje de aprobados en un examen es distinta al comienzo y al final del curso&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de McNemar&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="4" width="95" height="14">
+&lt;p>Una cualitativa con dos o m&amp;aacute;s categor&amp;iacute;as&lt;/p>
+&lt;p>independientes&lt;br /> (Dos o m&amp;aacute;s poblaciones independientes)&lt;/p>
+&lt;/td>
+&lt;td width="88">
+&lt;p>Cuantitativa normal y homogeneidad de varianzas&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medias la variable dependiente en cada una de las poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existen diferencias entre las notas medias de tres grupos distintos de clase.&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>An&amp;aacute;lisis de la Varianza de un factor (ANOVA)&lt;br /> Si hay diferencias &amp;gt; Test de Tukey o Bonferroni para la diferencia por pares&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las varianzas de la variable dependiente en cada una de las poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si la variabilidad de las notas de una asignatura es distinta en tres grupos diferentes de clase&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Prueba de Levene para la homogeneidad de varianzas&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las distribuciones de la variable dependiente en cada una de las poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existen diferencias entre las calificaciones de tres grupos distintos de clase&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de Kruskal Wallis&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay relaci&amp;oacute;n entre las dos variables o bien si hay diferencias entre las proporciones de las categor&amp;iacute;as de la variable dependiente en cada una de las poblaciones definidas por las categor&amp;iacute;as de la variable independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existe relaci&amp;oacute;n entre los aprobados en una asignatura y el grupo al que pertenecen los alumnos, es decir, si la proporci&amp;oacute;n de aprobados es diferente en los distintos grupos.&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test Chi-cuadrado &lt;br /> (si no ha m&amp;aacute;s del 20% de frecuencias esperadas menores que 5)&lt;br /> Test exacto de Fisher&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="3" width="95" height="14">
+&lt;p>Una cualitativa con dos o m&amp;aacute;s categor&amp;iacute;as relacionadas &lt;br /> (medidas repetidas)&lt;/p>
+&lt;/td>
+&lt;td width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medias repetidas de la variable dependiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay diferencias entre las notas que otorgan varios profesores a un mismo examen&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>An&amp;aacute;lisis de la Varianza (ANOVA) de medidas repetidas de un factor&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las medidas repetidas de la variable dependiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay diferencias entre las calificaciones que otorgan varios profesores a un mismo examen&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Test de Friedman&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si hay diferencias entre las valoraciones repetidas de la variable dependiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si hay diferencias entre la valoraci&amp;oacute;n (aprobado o suspenso) que hacen varios profesores de un mismo examen&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Regresi&amp;oacute;n log&amp;iacute;stica de medidas repetidas&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="4" width="95" height="13">
+&lt;p>Una cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td rowspan="2" width="88">
+&lt;p>Cuantitativa normal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si existe relaci&amp;oacute;n lineal entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existe relaci&amp;oacute;n entre las notas de dos asignaturas&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Correlaci&amp;oacute;n de Pearson&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="315">
+&lt;p>Construir un modelo predictivo que explique la variable dependiente en funci&amp;oacute;n de la independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Construir el modelo (funci&amp;oacute;n de regresi&amp;oacute;n) que mejor explique la relaci&amp;oacute;n entre la nota de un examen y las horas dedicadas a su estudio&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Regresi&amp;oacute;n simple (lineal o no lineal)&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cuantitativa o cualitativa ordinal&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Contrastar si existe relaci&amp;oacute;n lineal entre las dos variables&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Comprobar si existe relaci&amp;oacute;n entre las calificaciones de dos asignaturas&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Correlaci&amp;oacute;n de Spearman&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td width="88">
+&lt;p>Cualitativa&lt;/p>
+&lt;/td>
+&lt;td width="315">
+&lt;p>Construir un modelo predictivo que explique la variable dependiente en funci&amp;oacute;n de la independiente&lt;/p>
+&lt;/td>
+&lt;td width="330">
+&lt;p>Construir el modelo (funci&amp;oacute;n log&amp;iacute;stica) que mejor explique la relaci&amp;oacute;n entre el resultado de un examen (aprobado o suspenso) y las horas dedicadas a su estudio&lt;/p>
+&lt;/td>
+&lt;td width="174">
+&lt;p>Regresi&amp;oacute;n log&amp;iacute;stica simple&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Los ejemplos de los distintos test que se presentan a continuación se han realizado a partir del siguiente conjunto de datos que contiene las notas y calificaciones de un curso. El fichero con los datos puede descargarse aquí para reproducir los estudios:
+&lt;a href="datos/datos-curso.csv">datos-curso.csv&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="language-r">library(tidyverse)
+&lt;/code>&lt;/pre>
+&lt;h2 id="una-variable-cuantitativa">Una variable cuantitativa&lt;/h2>
+&lt;h3 id="estudios-descriptivos">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaño muestral&lt;/li>
+&lt;li>Media&lt;/li>
+&lt;li>Desviación típica&lt;/li>
+&lt;li>Mínimo, Máximo&lt;/li>
+&lt;li>Cuartiles&lt;/li>
+&lt;li>Coeficiente de asimetría&lt;/li>
+&lt;li>Coeficiente de apuntamiento&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral
+nrow(df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 120
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Media
+mean(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 6.028333
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Desviación típica
+sd(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 1.340524
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Min, max
+min(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 2.5
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r">max(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 9.3
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Cuartiles
+quantile(df$notaA, c(0.25, 0.5, 0.75), na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## 25% 50% 75%
+## 5.100 5.900 6.825
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Coef. asimetría
+library(moments)
+skewness(df$notaA, na.rm = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 0.1373915
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Coef. apuntamiento
+kurtosis(df$notaA, na.rm = TRUE) - 3
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] -0.102287
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de barras (variables discretas)&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = asinaturas.aprobadas)) +
+geom_bar(fill=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_discrete(limits=0:5)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-bar-chart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Histograma&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">library(ggplot2)
+# Límites de los intervalos
+breaks = 0:10
+# Histograma de las notasA
+df %&amp;gt;% ggplot(aes(x = notaA)) +
+geom_histogram(breaks = breaks, fill=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-histogram-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;pre>&lt;code class="language-r"># Histograma de notasE
+df %&amp;gt;% ggplot(aes(x = notaE)) +
+geom_histogram(breaks = breaks, fill=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-histogram-2.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de líneas&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Variables discretas
+df %&amp;gt;% count(asinaturas.aprobadas) %&amp;gt;%
+ggplot(aes(x = asinaturas.aprobadas, y = n)) +
+geom_line(col=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_discrete(limits=0:5)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;pre>&lt;code class="language-r"># Agrupación de datos en intervalos
+df %&amp;gt;% ggplot(aes(x = notaA)) +
+geom_freqpoly(breaks = breaks, col=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-2.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de caja y bigotes&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = notaA)) +
+geom_boxplot(fill=&amp;quot;#00BFC4&amp;quot;) +
+# Cambio de escala del eje X
+scale_x_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/one-quantitative-variable-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-de-normalidad-de-shapiro-wilk">Test de normalidad de Shapiro-Wilk&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución.&lt;/p>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La distribución es normal.&lt;/p>
+&lt;pre>&lt;code class="language-r">shapiro.test(df$notaA)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Shapiro-Wilk normality test
+##
+## data: df$notaA
+## W = 0.99424, p-value = 0.907
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r">shapiro.test(df$notaE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Shapiro-Wilk normality test
+##
+## data: df$notaE
+## W = 0.92264, p-value = 4.065e-06
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-t-para-la-media-de-una-población">Test t para la media de una población&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la media de una variable o compararla con un valor
+dado &lt;em>μ&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Una variable cuantitativa.&lt;/li>
+&lt;li>Distribución normal o tamaño muestral ≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La media de la población es igual a &lt;em>μ&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si la nota media de un examen es diferente de 5.&lt;/p>
+&lt;pre>&lt;code class="language-r">t.test(df$notaA, mu = 5, alternative = &amp;quot;two.sided&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## One Sample t-test
+##
+## data: df$notaA
+## t = 8.4033, df = 119, p-value = 1.08e-13
+## alternative hypothesis: true mean is not equal to 5
+## 95 percent confidence interval:
+## 5.786023 6.270643
+## sample estimates:
+## mean of x
+## 6.028333
+&lt;/code>&lt;/pre>
+&lt;h2 id="una-variable-cualitativa">Una variable cualitativa&lt;/h2>
+&lt;h3 id="estudios-descriptivos-1">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos-1">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaños muestral&lt;/li>
+&lt;li>Frecuencias muestrales&lt;/li>
+&lt;li>Proporciones/porcentajes muestrales&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral sin datos perdidos
+length(na.omit(df$calificacionB))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 115
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Frecuencias
+table(df$calificacionB)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Aprobado Suspenso
+## 98 17
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Proporciones
+table(df$calificacionB) / length(na.omit(df$calificacionB))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Aprobado Suspenso
+## 0.8521739 0.1478261
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Porcentajes
+table(df$calificacionB) / length(na.omit(df$calificacionB)) * 100
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Aprobado Suspenso
+## 85.21739 14.78261
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos-1">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de sectores&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = &amp;quot;&amp;quot;, fill = calificacionA)) +
+geom_bar() +
+# Cambiar a coordenadas polares
+coord_polar(theta = &amp;quot;y&amp;quot;) +
+# Eliminar ejes
+theme_void()
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/piechart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales-1">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-binomial-para-una-proporción-de-una-población">Test binomial para una proporción de una población&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la propoción de una categoría en una población o
+compararla con un valor &lt;em>p&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>One variable cualitativa&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La proporción poblacional es igual a
+&lt;em>p&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si la proporción de aprobados es mayor de 0.5.&lt;/p>
+&lt;pre>&lt;code class="language-r">freq &amp;lt;- table(df$calificacionA)[&amp;quot;Aprobado&amp;quot;]
+binom.test(freq, n, p = 0.7, alternative = &amp;quot;greater&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Exact binomial test
+##
+## data: freq and n
+## number of successes = 94, number of trials = 120, p-value = 0.02657
+## alternative hypothesis: true probability of success is greater than 0.7
+## 95 percent confidence interval:
+## 0.7123183 1.0000000
+## sample estimates:
+## probability of success
+## 0.7833333
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-z-para-la-proporción-de-una-población">Test Z para la proporción de una población&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la propoción de una categoría en una población o
+compararla con un valor &lt;em>p&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Una variable cualitativa&lt;/li>
+&lt;li>Tamaño muestral &amp;gt;= 30&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Observación&lt;/strong>: Utiliza la aproximación normal de la distribución
+Binomal.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si la proporción de aprobados es mayor de 0.5.&lt;/p>
+&lt;pre>&lt;code class="language-r">freq &amp;lt;- table(df$calificacionA)[&amp;quot;Aprobado&amp;quot;]
+prop.test(freq, n, p = 0.7, alternative = &amp;quot;greater&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## 1-sample proportions test with continuity correction
+##
+## data: freq out of n, null probability 0.7
+## X-squared = 3.5813, df = 1, p-value = 0.02922
+## alternative hypothesis: true p is greater than 0.7
+## 95 percent confidence interval:
+## 0.7111099 1.0000000
+## sample estimates:
+## p
+## 0.7833333
+&lt;/code>&lt;/pre>
+&lt;h2 id="dos-variables-variable-dependiente-cuantitativa-y-variable-independiente-culitativa-con-dos-categorías-o-grupos">Dos variables: Variable dependiente cuantitativa y variable independiente culitativa con dos categorías o grupos&lt;/h2>
+&lt;h3 id="estudios-descriptivos-2">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos-2">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaño muestral de cada grupo&lt;/li>
+&lt;li>Media de cada grupo&lt;/li>
+&lt;li>Desviación típica de cada grupo&lt;/li>
+&lt;li>Mínimo, Máximo de cada grupo&lt;/li>
+&lt;li>Cuartiles de cada grupo&lt;/li>
+&lt;li>Coeficiente de asimetría de cada grupo&lt;/li>
+&lt;li>Coeficiente de apuntamiento de cada grupo&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral de notaA según el sexo
+df %&amp;gt;% group_by(sexo) %&amp;gt;% group_size()
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 71 49
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Media, Desviación típica, Mín, Máx, Cuartiles, Coef. Asimetría y Coef. Apuntamiento
+library(moments)
+df %&amp;gt;% group_by(sexo) %&amp;gt;% summarize(Media = mean(notaA, na.rm=TRUE), Des.Tip = sd(notaA, na.rm = TRUE), Mín = min(notaA), Máx = max(notaA), C1 = quantile(notaA, 0.25, na.rm = TRUE), C2 = quantile(notaA, 0.5, na.rm = TRUE), C3 = quantile(notaA, 0.75, na.rm = TRUE), Coef.Asimetría = skewness(notaA, na.rm = TRUE), Coef.Apuntamiento = kurtosis(notaA, na.rm = TRUE) - 3)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 2 x 10
+## sexo Media Des.Tip Mín Máx C1 C2 C3 Coef.Asimetría
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 Hombre 6.12 1.23 3.5 9.3 5.3 6.1 6.85 0.249
+## 2 Mujer 5.89 1.49 2.5 9.3 5 5.7 6.8 0.135
+## # … with 1 more variable: Coef.Apuntamiento &amp;lt;dbl&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos-2">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de cajas y bigotes&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = sexo, y = notaA, fill = sexo)) +
+geom_boxplot() +
+# Cambio de escala del eje X
+scale_y_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de violín&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = sexo, y = notaA, fill = sexo)) +
+geom_violin() +
+# Cambio de escala del eje X
+scale_y_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-viol%C3%ADn-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales-2">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-de-normalidad-de-shapiro-wilks">Test de normalidad de Shapiro-Wilks&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de cada
+población.&lt;/p>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La distribución es normal.&lt;/p>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% group_by(sexo) %&amp;gt;%
+summarise(`Estadístico W` = shapiro.test(notaA)$statistic, `p-valor` = shapiro.test(notaA)$p.value)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 2 x 3
+## sexo `Estadístico W` `p-valor`
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 Hombre 0.990 0.872
+## 2 Mujer 0.990 0.942
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-f-de-fisher-de-comparación-de-varianzas-de-dos-poblaciones-independientes">Test F de Fisher de comparación de varianzas de dos poblaciones independientes&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comparar las varianzas de dos poblaciones independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones)&lt;/li>
+&lt;li>Distribución normal de la variable dependiente en ambas poblaciones
+o tamaños de las muestras de cada población ≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La varianzas poblacionales son iguales (no existe
+una diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas
+medias de hombres y mujeres.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de comparación de varianzas
+var.test(notaA ~ sexo, data = df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## F test to compare two variances
+##
+## data: notaA by sexo
+## F = 0.6769, num df = 70, denom df = 48, p-value = 0.1347
+## alternative hypothesis: true ratio of variances is not equal to 1
+## 95 percent confidence interval:
+## 0.3953421 1.1293155
+## sample estimates:
+## ratio of variances
+## 0.6769032
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-t-de-comparación-de-medias-de-dos-poblaciones-independientes">Test t de comparación de medias de dos poblaciones independientes&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la diferencia de medias en las dos poblaciones o
+comprobar si hay diferencias significativas entre ellas.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones)&lt;/li>
+&lt;li>Distribución normal de la variable dependiente en ambas poblaciones
+o tamaños de las muestras de cada población ≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medias poblacionales son iguales (no existe una
+diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Observación&lt;/strong>: El resultado del test depende de si las varianzas
+poblacionales son iguales o no.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas
+medias de hombres y mujeres.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de comparación de varianzas
+var.test(notaA ~ sexo, data = df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## F test to compare two variances
+##
+## data: notaA by sexo
+## F = 0.6769, num df = 70, denom df = 48, p-value = 0.1347
+## alternative hypothesis: true ratio of variances is not equal to 1
+## 95 percent confidence interval:
+## 0.3953421 1.1293155
+## sample estimates:
+## ratio of variances
+## 0.6769032
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Test de comparación de medias asumiendo varianzas iguales
+t.test (notaA ~ sexo, data = df, alternative = &amp;quot;two.sided&amp;quot;, var.equal = FALSE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Welch Two Sample t-test
+##
+## data: notaA by sexo
+## t = 0.89364, df = 89.873, p-value = 0.3739
+## alternative hypothesis: true difference in means between group Hombre and group Mujer is not equal to 0
+## 95 percent confidence interval:
+## -0.2821809 0.7435779
+## sample estimates:
+## mean in group Hombre mean in group Mujer
+## 6.122535 5.891837
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Test de comparación de medias asumiendo varianzas iguales
+t.test (notaA ~ sexo, data = df, alternative = &amp;quot;two.sided&amp;quot;, var.equal = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Two Sample t-test
+##
+## data: notaA by sexo
+## t = 0.92608, df = 118, p-value = 0.3563
+## alternative hypothesis: true difference in means between group Hombre and group Mujer is not equal to 0
+## 95 percent confidence interval:
+## -0.262615 0.724012
+## sample estimates:
+## mean in group Hombre mean in group Mujer
+## 6.122535 5.891837
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>Diagrama de medias&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = sexo, y = notaA, colour = sexo)) +
+# Puntos de medias
+stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot;, position=position_dodge(width=0.25)) +
+# Intervalos de confianza para la media
+stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h4 id="test-u-de-mann-whitney-de-comparación-de-dos-poblaciones-independientes-no-paramétrico">Test U de Mann-Whitney de comparación de dos poblaciones independientes (no paramétrico)&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre entre
+dos poblaciones independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medianas poblacionales son iguales (no existe una
+diferencia significativa entre las medianas poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas de
+hombres y mujeres.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de rangos U the Mann-Whitney
+wilcox.test(notaA ~ sexo, data = df, alternative = &amp;quot;two.sided&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Wilcoxon rank sum test with continuity correction
+##
+## data: notaA by sexo
+## W = 1917, p-value = 0.3445
+## alternative hypothesis: true location shift is not equal to 0
+&lt;/code>&lt;/pre>
+&lt;h2 id="dos-variables-variable-dependiente-cuantitativa-y-variable-independiente-culitativa-con-dos-categorías-o-grupos-pareados">Dos variables: Variable dependiente cuantitativa y variable independiente culitativa con dos categorías o grupos pareados&lt;/h2>
+&lt;p>Dos grupos o poblaciones están pareadas o emparejadas cuando los dos
+poblaciones contienen los mismos individuos, es decir, se trata en
+realidadad de una única población, pero la variable dependiente se mide
+dos veces en cada individuo (normalmente antes y después de la algún
+suceso) y por tanto cada individuo tiene asociado un par de valores.&lt;/p>
+&lt;p>Este estudio puede realizarse también creando una nueva variable a
+partir de la resta de las dos mediciones y planteando un estudio de una
+sola variable cuantitativa.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Creación de la diferencia de notas de las asignaturas A y
+B.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Creamos la variable diferencia = notaA - notaB
+df &amp;lt;- df %&amp;gt;% mutate(diferencia = notaA - notaB)
+&lt;/code>&lt;/pre>
+&lt;h3 id="estudios-descriptivos-3">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos-3">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaño muestral del grupo&lt;/li>
+&lt;li>Media de la diferencia&lt;/li>
+&lt;li>Desviación típica de la diferencia&lt;/li>
+&lt;li>Mínimo, Máximo de la diferencia&lt;/li>
+&lt;li>Cuartiles de la diferencia&lt;/li>
+&lt;li>Coeficiente de asimetría de la diferencia&lt;/li>
+&lt;li>Coeficiente de apuntamiento de la diferencia&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Estadísticos descriptivos de la diferencia entre las notas
+de las asignaturas A y B de un mismo grupo de alumnos.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral de sin contar los datos perdidos
+length(na.omit(df$diferencia))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 115
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Media, Desviación típica, Mín, Máx, Cuartiles, Coef. Asimetría y Coef. Apuntamiento
+library(moments)
+df %&amp;gt;% summarize(Media = mean(diferencia, na.rm=TRUE), Des.Tip = sd(diferencia, na.rm = TRUE), Mín = min(diferencia, na.rm = TRUE), Máx = max(diferencia, na.rm = TRUE), C1 = quantile(diferencia, 0.25, na.rm = TRUE), C2 = quantile(diferencia, 0.5, na.rm = TRUE), C3 = quantile(diferencia, 0.75, na.rm = TRUE), Coef.Asimetría = skewness(diferencia, na.rm = TRUE), Coef.Apuntamiento = kurtosis(diferencia, na.rm = TRUE) - 3)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 1 x 9
+## Media Des.Tip Mín Máx C1 C2 C3 Coef.Asimetría Coef.Apuntamiento
+## &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 -0.882 0.900 -3.2 1.10 -1.5 -0.8 -0.300 -0.430 -0.137
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos-3">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de cajas y bigotes&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = diferencia)) +
+geom_boxplot(fill=&amp;quot;#00BFC4&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-paired-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales-3">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-de-normalidad-de-shapiro-wilks-1">Test de normalidad de Shapiro-Wilks&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de la
+diferencia.&lt;/p>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La distribución es normal.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar la normalidad de la diferencia entre las notas de
+las asignaturas A y B de un mismo grupo de alumnos.&lt;/p>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% summarise(`Estadístico W` = shapiro.test(diferencia)$statistic, `p-valor` = shapiro.test(diferencia)$p.value)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 1 x 2
+## `Estadístico W` `p-valor`
+## &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 0.979 0.0737
+&lt;/code>&lt;/pre>
+&lt;h4 id="test-t-de-comparación-de-medias-de-dos-poblaciones-pareadas">Test t de comparación de medias de dos poblaciones pareadas&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la media de la diferencia o compararla con un
+valor dado &lt;em>μ&lt;/em>&lt;sub>0&lt;/sub>.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones) pareadas&lt;/li>
+&lt;li>Distribución normal de la variable diferencia o tamaño muestral
+≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medias poblacionales son iguales (no existe una
+diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si hay una diferencia signicativa entre las notas
+medias de las asinaturas A y B, o lo que es lo mismo, comprobar si la
+media de la diferencia de las notas de A y B es distinta de 0.&lt;/p>
+&lt;pre>&lt;code class="language-r">t.test (notaA, notaB, data = df, alternative = &amp;quot;two.sided&amp;quot;, paired = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Paired t-test
+##
+## data: notaA and notaB
+## t = -10.618, df = 114, p-value &amp;lt; 2.2e-16
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+## -1.0515337 -0.7208695
+## sample estimates:
+## mean of the differences
+## -0.8862016
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>Diagrama de medias&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x=&amp;quot;&amp;quot;, y = diferencia)) +
+# Puntos de medias
+stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot;) +
+# Intervalos de confianza para la media
+stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-paired-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h4 id="test-wilcoxon-de-comparación-de-dos-poblaciones-pareadas-no-paramétrico">Test Wilcoxon de comparación de dos poblaciones pareadas (no paramétrico)&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comparar las medianas de las dos poblaciones.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos categorías
+(poblaciones) pareadas.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medianas poblacionales son iguales (no existe una
+diferencia significativa entre las medianas poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si hay una diferencia signicativa entre las notas
+de las asignaturas A y B.&lt;/p>
+&lt;pre>&lt;code class="language-r">wilcox.test(notaA, notaB, data = df, alternative = &amp;quot;two.sided&amp;quot;, paired = TRUE)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Wilcoxon signed rank test with continuity correction
+##
+## data: notaA and notaB
+## V = 466, p-value = 1.192e-15
+## alternative hypothesis: true location shift is not equal to 0
+&lt;/code>&lt;/pre>
+&lt;h2 id="dos-variables-variable-dependiente-cuantitativa-y-variable-independiente-culitativa-con-más-de-dos-categorías-o-grupos">Dos variables: Variable dependiente cuantitativa y variable independiente culitativa con más de dos categorías o grupos&lt;/h2>
+&lt;h3 id="estudios-descriptivos-4">Estudios descriptivos&lt;/h3>
+&lt;h4 id="estadísticos-4">Estadísticos&lt;/h4>
+&lt;ul>
+&lt;li>Tamaño muestral de cada grupo&lt;/li>
+&lt;li>Media de cada grupo&lt;/li>
+&lt;li>Desviación típica de cada grupo&lt;/li>
+&lt;li>Mínimo, Máximo de cada grupo&lt;/li>
+&lt;li>Cuartiles de cada grupo&lt;/li>
+&lt;li>Coeficiente de asimetría de cada grupo&lt;/li>
+&lt;li>Coeficiente de apuntamiento de cada grupo&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r"># Tamaño muestral de notaA según el grupo
+df %&amp;gt;% group_by(grupo) %&amp;gt;% group_size()
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [1] 38 35 47
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-r"># Media, Desviación típica, Mín, Máx, Cuartiles, Coef. Asimetría y Coef. Apuntamiento
+library(moments)
+df %&amp;gt;% group_by(grupo) %&amp;gt;% summarize(Media = mean(notaA, na.rm=TRUE), Des.Tip = sd(notaA, na.rm = TRUE), Mín = min(notaA, na.rm = TRUE), Máx = max(notaA, na.rm = TRUE), C1 = quantile(notaA, 0.25, na.rm = TRUE), C2 = quantile(notaA, 0.5, na.rm = TRUE), C3 = quantile(notaA, 0.75, na.rm = TRUE), Coef.Asimetría = skewness(notaA, na.rm = TRUE), Coef.Apuntamiento = kurtosis(notaA, na.rm = TRUE) - 3)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 3 x 10
+## grupo Media Des.Tip Mín Máx C1 C2 C3 Coef.Asimetría
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 A 6.54 0.998 4.3 8.6 5.93 6.6 7.15 -0.250
+## 2 B 6.96 1.23 3.5 9.3 6.2 6.8 7.7 -0.141
+## 3 C 4.92 0.771 2.5 5.9 4.5 5.1 5.5 -1.06
+## # … with 1 more variable: Coef.Apuntamiento &amp;lt;dbl&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h4 id="gráficos-4">Gráficos&lt;/h4>
+&lt;ul>
+&lt;li>Diagrama de cajas y bigotes&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = grupo, y = notaA, fill = grupo)) +
+geom_boxplot() +
+# Cambio de escala del eje X
+scale_y_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de violín&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = grupo, y = notaA, fill = grupo)) +
+geom_violin() +
+# Cambio de escala del eje X
+scale_y_continuous(limits=c(0, 10), breaks = 0:10)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-viol%C3%ADn-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h3 id="estudios-inferenciales-4">Estudios inferenciales&lt;/h3>
+&lt;h4 id="test-de-normalidad-de-shapiro-wilks-2">Test de normalidad de Shapiro-Wilks&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de cada
+población.&lt;/p>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La distribución es normal.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar la normalidad de las distribuciones de la nota A
+en los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% group_by(grupo) %&amp;gt;%
+summarise(`Estadístico W` = shapiro.test(notaA)$statistic, `p-valor` = shapiro.test(notaA)$p.value)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 3 x 3
+## grupo `Estadístico W` `p-valor`
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 A 0.984 0.840
+## 2 B 0.963 0.277
+## 3 C 0.918 0.00280
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: La distribución de la nota A en los grupos A y B es
+normal (p-valores &amp;gt; 0.05) pero no en el grupo C (p-valor &amp;lt; 0.05)&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar la normalidad de las distribuciones de la nota A
+en los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% group_by(grupo) %&amp;gt;%
+summarise(`Estadístico W` = shapiro.test(notaC)$statistic, `p-valor` = shapiro.test(notaC)$p.value)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## # A tibble: 3 x 3
+## grupo `Estadístico W` `p-valor`
+## &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 A 0.989 0.961
+## 2 B 0.965 0.343
+## 3 C 0.976 0.442
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: La distribución de la nota C en los tres grupos es
+normal (p-valores &amp;gt; 0.05).&lt;/p>
+&lt;h4 id="test-de-levene-de-comparación-de-varianzas-de-dos-o-más-poblaciones-independientes">Test de Levene de comparación de varianzas de dos o más poblaciones independientes&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comparar las varianzas de dos o más poblaciones
+independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con dos o más categorías
+(poblaciones)&lt;/li>
+&lt;li>Distribución normal de la variable dependiente en todas las
+poblaciones o tamaños de las muestras de cada población ≥ 30.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La varianzas poblacionales son iguales (no existe
+una diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las varianzas
+de las notas de la asignatura C de los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r"># El test de Levene está disponible en el paquete car
+library(car)
+# Test de comparación de varianzas
+leveneTest(notaC ~ grupo, data = df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Levene's Test for Homogeneity of Variance (center = median)
+## Df F value Pr(&amp;gt;F)
+## group 2 0.3186 0.7278
+## 116
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: No existe diferencia significativa entre las
+varianzas de la nota C en los grupos A, B y C (p-valor &amp;gt; 0.05).&lt;/p>
+&lt;h4 id="anova-de-un-factor-para-la-comparación-medias-de-más-de-dos-poblaciones-independientes">ANOVA de un factor para la comparación medias de más de dos poblaciones independientes&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre las
+medias de más de dos poblaciones independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con más de dos categorías
+(poblaciones)-&lt;/li>
+&lt;li>Distribución normal de la variable dependiente en todas las
+poblaciones o tamaños de las muestras de cada población ≥ 30.&lt;/li>
+&lt;li>Homogeneidad de varianzas en las poblaciones.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medias poblacionales son iguales (no existe una
+diferencia significativa entre las medias poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas
+medias de la asignatura C de los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Análisis de la varianza de un factor
+summary(aov(notaC ~ grupo, data = df))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Df Sum Sq Mean Sq F value Pr(&amp;gt;F)
+## grupo 2 80.69 40.34 20.05 3.32e-08 ***
+## Residuals 116 233.41 2.01
+## ---
+## Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 1 observation deleted due to missingness
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: Existen diferencias significativas entre las medias
+de la nota C entre al menos dos grupos (p-valor=3.32e-08 &amp;lt; 0.05).&lt;/p>
+&lt;p>&lt;strong>Observación&lt;/strong>: Cuando se detectan diferencias significativas entre las
+medias de al menos dos grupos conviene realizar un test de comparación
+múltiple por pares para ver entre qué poblaciones hay diferencias y
+entre cuáles no. Los test más habituales de comparación por pares son el
+de Tukey y el de Bonferroni.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de comparación múltiple de Tukey
+TukeyHSD(aov(notaC ~ grupo, data = df))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Tukey multiple comparisons of means
+## 95% family-wise confidence level
+##
+## Fit: aov(formula = notaC ~ grupo, data = df)
+##
+## $grupo
+## diff lwr upr p adj
+## B-A 0.4312693 -0.3637573 1.2262960 0.4048482
+## C-A -1.4455767 -2.1802858 -0.7108676 0.0000241
+## C-B -1.8768461 -2.6350758 -1.1186163 0.0000001
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: No existe una diferencia significativa entre las
+notas medias de la asignatura C de los grupos A y B (p-valor=0.4048 &amp;gt;
+0.05), pero si existe una diferencia significativa entre las notas
+medias de los grupos A y C (p-valor=0.00002 &amp;lt; 0.05) y también entre las
+notas medias de los grupos B y C (p-valor=0.0000001 &amp;lt; 0.05).&lt;/p>
+&lt;ul>
+&lt;li>Diagrama de medias&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = grupo, y = notaC, colour = grupo)) +
+# Puntos de medias
+stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot;, position=position_dodge(width=0.25)) +
+# Intervalos de confianza para la media
+stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-more-two-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;h4 id="test-kruskal-wallis-de-comparación-de-más-de-dos-poblaciones-independientes-no-paramétrico">Test Kruskal-Wallis de comparación de más de dos poblaciones independientes (no paramétrico)&lt;/h4>
+&lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre entre
+más de dos poblaciones independientes.&lt;/p>
+&lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Variable dependiente cuantitativa.&lt;/li>
+&lt;li>Una variable independiente cualitativa con más de dos categorías
+(poblaciones)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hipótesis nula&lt;/strong>: La medianas poblacionales son iguales (no existe una
+diferencia significativa entre las medianas poblacionales).&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>: Comprobar si diferencias signicativas entre las notas de la
+asignatura A de los grupos A, B y C.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de Kruskal-Wallis
+kruskal.test(notaA ~ grupo, data = df)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Kruskal-Wallis rank sum test
+##
+## data: notaA by grupo
+## Kruskal-Wallis chi-squared = 62.218, df = 2, p-value = 3.087e-14
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: Existen diferencias significativas entre las notas
+de la asignatura A de al menos dos de los grupos.&lt;/p>
+&lt;p>&lt;strong>Observación&lt;/strong>: Cuando se detectan diferencias significativas entre al
+menos dos grupos conviene realizar un test de comparación múltiple por
+pares para ver entre qué poblaciones hay diferencias y entre cuáles no.
+El test más habitual es el de Wilcoxon.&lt;/p>
+&lt;pre>&lt;code class="language-r"># Test de comparación múltiple de Wilcoxon
+pairwise.wilcox.test(df$notaA, df$grupo, p.adjust.method = &amp;quot;BH&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
+## Pairwise comparisons using Wilcoxon rank sum test with continuity correction
+##
+## data: df$notaA and df$grupo
+##
+## A B
+## B 0.19 -
+## C 4.2e-10 1.3e-11
+##
+## P value adjustment method: BH
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Interpretación&lt;/strong>: No existe una diferencia significativa entre las
+notas de la asignatura A de los grupos A y B (p-valor=0.19 &amp;gt; 0.05),
+pero si existe una diferencia significativa entre las notas de los
+grupos A y C (p-valor=4.2e-10 &amp;lt; 0.05) y también entre las notas de los
+grupos B y C (p-valor=1.3e-11 &amp;lt; 0.05).&lt;/p></description></item><item><title>Ejercicios de Cadenas</title><link>/docencia/python/ejercicios/cadenas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/ejercicios/cadenas/</guid><description>&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>Escribir un programa que pregunte el nombre del usuario en la consola y un número entero e imprima por pantalla en líneas distintas el nombre del usuario tantas veces como el número introducido.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/cadenas/ejercicio1.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-2">Ejercicio 2&lt;/h2>
@@ -2083,7 +3266,456 @@ Hay dos formas de referirse a un commit:&lt;/p>
 &lt;li>&lt;strong>Nombre absoluto&lt;/strong>: Se utiliza su código hash (basta indicar los 4 o 5 primeros dígitos).&lt;/li>
 &lt;li>&lt;strong>Nombre relativo&lt;/strong>: Se utiliza la palabra &lt;code>HEAD&lt;/code> para referirse siempre al último commit. Para referirse al penúltimo commit se utiliza &lt;code>HEAD~1&lt;/code>, al antepenúltimo &lt;code>HEAD~2&lt;/code>, etc.&lt;/li>
 &lt;/ul>
-&lt;img src="../img/modelo-datos-git.png" alt="Modelo de datos de Git"></description></item><item><title>Funciones elementales</title><link>/docencia/calculo/manual/funciones-elementales/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/calculo/manual/funciones-elementales/</guid><description>&lt;h2 id="el-concepto-de-función">El concepto de función&lt;/h2>
+&lt;img src="../img/modelo-datos-git.png" alt="Modelo de datos de Git"></description></item><item><title>Epidemiología</title><link>/docencia/estadistica/tutoriales/epidemiologia/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/tutoriales/epidemiologia/</guid><description>&lt;h2 id="qué-es-la-epidemiología">¿Qué es la Epidemiología?&lt;/h2>
+&lt;p>Epidemiología viene Griego: Epi (sobre), demos (gente) y logos (estudio), es decir, el estudio de lo que le ocurre a las poblaciones.&lt;/p>
+&lt;blockquote>
+&lt;p>En el ámbito de la salud pública, la &lt;strong>Epidemilogía&lt;/strong> es una rama de la Medicina que se encarga del estudio de la distribución y las causas de eventos relacionados con la salud (normalmente enfermedades) en las poblaciones, y la aplicación de este estudio para controlar problemas públicos de salud.&lt;/p>
+&lt;/blockquote>
+&lt;img src="img/detective.png" width=80% alt="Detective epidemiólogo">
+&lt;p>Debido a la epidemia provocada por el coronavirus, la Epidemia se ha convertido en una de las rama de la medicina que más interés despiertan.&lt;/p>
+&lt;p>&lt;img src="img/fernando-simon.jpg" alt="Fernando Simón">&lt;/p>
+&lt;p>Sin embargo, antes de la COVID, la Epidemiología ya había servido en otros momentos históricos para solucionar o controlar algunos de los problemas de salud públicos más serios que ha enfrentado la humanidad.&lt;/p>
+&lt;h3 id="algunos-descubrimientos-históricos">Algunos descubrimientos históricos&lt;/h3>
+&lt;ul>
+&lt;li>1854: John Snow determina que la causa de la epidemia de cólera que asolaba Lóndres era que el agua estaba contaminada con heces.&lt;/li>
+&lt;li>1898: Ronald Ross averigua que el transmisor de la malaria es el el mosquito Anopheles.&lt;/li>
+&lt;li>1950: Se descubre que fumar es el principal factor de riesgo de cáncer de pulmón.&lt;/li>
+&lt;li>1954: Se valida la primera vacuna contra la poliomielitis (Jonas Salk’s).&lt;/li>
+&lt;li>1970: Se observó que el ejercicio físico y una dieta sana reducían el riesgo de sufrir un infarto.&lt;/li>
+&lt;li>1983: Robert Gallo, Luc Montagnier y Françoise Barré-Sinoussi identifican el virus que causa el SIDA. Poco después se se observó que el riesgo de contraer el HIV aumentaba con ciertas prácticas sexuales y con el consumo de algunos tipos de drogas.&lt;/li>
+&lt;li>2020: Y llegó la COVID&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;p>En estos tiempos de pandemia un montón de términos técnicos de la epidemiología se han convertido en lugares comunes gracias a los medios de comunicación.&lt;/p>
+&lt;p>&lt;img src="img/wordcloud.png" alt="Términos epidemiología">&lt;/p>
+&lt;p>Sin embargo, muchos de estos términos se utilizan de manera errónea, incluso por los propios medios de comunicación, y generan confusión para la población no experta. En este tutorial pretendo explicar los principales conceptos epidemiológicos usados en el control de enfermedades como la COVID e ilustrar su uso con ejemplos de aplicación.&lt;/p>
+&lt;h2 id="índices-epidemiológicos">Índices epidemiológicos&lt;/h2>
+&lt;p>&lt;strong>Riesgos&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Prevalencia&lt;/li>
+&lt;li>Incidencia&lt;/li>
+&lt;li>Riesgo y Odds&lt;/li>
+&lt;li>Riesgo/Odd relativo&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Test diagnósticos&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Sensibilidad&lt;/li>
+&lt;li>Especificidad&lt;/li>
+&lt;li>Valores predictivos&lt;/li>
+&lt;/ul>
+&lt;p>Todos estos índices estan basados en el cálculo de probabilidades, por lo que comenzaremos introduciendo el concepto de probabilidad y sus principales propiedades.&lt;/p>
+&lt;h2 id="el-concepto-de-probabilidad">El concepto de probabilidad&lt;/h2>
+&lt;p>A lo largo de la historia ha habido diferentes intentos de definir matemáticamente el concepto de probabilidad. Quizá la más conocida y la primera que se enseña en las escuelas es la definición clásica de Laplace.&lt;/p>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición clásica (Laplace)&lt;/strong> $$P(E)=\frac{|E|}{|\Omega|}=\frac{\mbox{Casos favorables a $E$}}{\mbox{Casos posibles}}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong> Al tirar un dado equilibrado, la probabilidad de sacar un número par $E=\{2, 4, 6\}$ es
+$$ P(E) = \frac{3}{6} = 0.5$$&lt;/p>
+&lt;p>Sin embargo, esta definición tiene serios inconvenientes ya que, para poder usarla, todos los casos posibles de un experimento deben tener la misma probabilidad de ocurrir (&lt;em>equiprobabilidad&lt;/em>) y esto no suele ocurrir en la vida real (por ejemplo no todos los grupos sanguíneos tienen la misma probabilidad de ocurrir).&lt;/p>
+&lt;p>Por este motivo, en el ámbito de las Ciencias es mucho más común utilizar la definición de probabilidad basada en el cálculo de frecuencias.&lt;/p>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición frecuentista&lt;/strong> $$P(E)\approx f_E = \frac{n_E}{n}=\frac{\mbox{Frecuencia absoluta del evento}}{\mbox{Tamaño muestral}}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong> Se ha aplicado un tratamiento a 100 personas y se han curado 75, entonces la probabilidad de curación del tratamiento es
+$$P(E) = \frac{75}{100} = 0.75 \Rightarrow 75\%$$&lt;/p>
+&lt;p>&lt;i class="fa fa-exclamation-triangle" style="color:#ff9900;">&lt;/i>Ojo, esta definición no permite calcular el valor exacto de la probabilidad de un suceso, tan solo una aproximación que será mejor cuanto mayor sea el tamaño de la muestra.&lt;/p>
+&lt;h3 id="algunas-propiedades-de-la-probabilidad">Algunas propiedades de la probabilidad&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Una probabilidad es un número real entre 0 y 1: $$0\leq P(E)\leq 1$$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La suma de las probabilidades de todos los casos posibles es 1: $$P(\Omega) = P(e_1) + P(e_2) + \cdots + P(e_n) = 1$$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La probabilidad de que ocurra lo contrario de un suceso es 1 menos la probabilidad del suceso: $$P(\overline E) = 1 - P(E)$$&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>De este modo, cuanto más probable es que ocurra un suceso, menos probable es que ocurra su contrario, y viceversa.&lt;/p>
+&lt;h3 id="interpretación-de-una-probabilidad">Interpretación de una probabilidad&lt;/h3>
+&lt;p>La probabilidad mide la verosimilitud de un suceso.&lt;/p>
+&lt;p>De manera informal, se puede decir que la probabilidad mide la creencia o la confianza que tenemos en la ocurrencia de un suceso.&lt;/p>
+&lt;ul>
+&lt;li>$P(E) = 0 \Rightarrow$ Mínima verosimilitud&lt;/li>
+&lt;li>$P(E) = 0.5 \Rightarrow$ Verosimilitud media (máxima incertidumbre)&lt;/li>
+&lt;li>$P(E) = 1 \Rightarrow$ Máxima verosimilitud&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/balanza-probabilidad.png" alt="Balanza probabilidades">&lt;/p>
+&lt;p>Aunque el concepto de probabilidad es el más extendido en aplicaciones que requieren cuantificar la incertidumbre sobre la ocurrencia de un suceso, existen otras formas de cuantificar esa incertidumbre como por ejemplo el &lt;em>odds&lt;/em>.&lt;/p>
+&lt;h2 id="el-concepto-de-odds">El concepto de Odds&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Odds&lt;/strong> $$O(E)=\frac{\mbox{Nº casos con $E$}}{\mbox{Nº casos sin $E$}}=\frac{P(E)}{P(\overline E)}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong> Se ha aplicado un tratamiento a 100 personas y se han curado 75, entonces el odds de curación del tratamiento es $$O(E) = \frac{75}{25} = 3$$&lt;/p>
+&lt;p>&lt;i class="fa fa-exclamation-triangle" style="color:#ff9900;">&lt;/i> Un odds puede ser mayor que 1.&lt;/p>
+&lt;h3 id="interpretación-de-un-odds">Interpretación de un Odds&lt;/h3>
+&lt;p>Los odds también permiten cuantificar la verosimilitud de un suceso&amp;hellip;, pero en una escala diferente, ya que es una razón de probabilidades.&lt;/p>
+&lt;ul>
+&lt;li>$O(E) = 0 \Rightarrow$ Mínima verosimilitud&lt;/li>
+&lt;li>$O(E) = 1 \Rightarrow$ Verosimilitud media (máxima incertidumbre)&lt;/li>
+&lt;li>$O(E) = \infty \Rightarrow$ Máxima verosimilitud&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/balanza-odds.png" alt="Balanza probabilidades">&lt;/p>
+&lt;h3 id="conversión-de-odds-en-probabilidades">Conversión de Odds en probabilidades&lt;/h3>
+&lt;p>Es posible convertir un odds en una probabilidad aplicando la siguiente fórmula:&lt;/p>
+&lt;p>$$ \frac{O(E)}{1 + O(E)} = \frac{\frac{P(E)}{P(\overline E)}}{1 + \frac{P(E)}{P(\overline E)}} = \frac{\frac{P(E)}{P(\overline E)}}{\frac{P(\overline E) + P(E)}{P(\overline E)}} = P(E)$$&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong> Se ha aplicado un tratamiento a 100 personas y se han curado 75.
+$$O(E) = \frac{75}{25} = 3 \Rightarrow P(E) = \frac{3}{1+3}=0.75$$&lt;/p>
+&lt;h2 id="prevalencia">Prevalencia&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Prevalencia&lt;/strong>&lt;br>
+La &lt;em>prevalencia&lt;/em> de una enfermedad $E$ es la proporción de personas que tienen la enfermedad en un momento concreto.
+$$\mbox{Prevalencia}(E) = \frac{\mbox{Nº individuos afectados por $E$}}{\mbox{Tamaño poblacional}}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. En una muestra de 1000 personas 150 tenían gripe. La prevalencia de la gripe es aproximadamente $$\frac{150}{1000}=0.15$$&lt;/p>
+&lt;h2 id="incidencia-o-riesgo-absoluto">Incidencia o riesgo absoluto&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Incidencia&lt;/strong>&lt;br>
+La &lt;em>incidencia&lt;/em> o &lt;em>riesgo absoluto&lt;/em> de una enfermedad $E$ es la proporción de nuevos casos durante un periodo determinado (por día, por semana, por mes, etc.)
+$$R(E)=\frac{\mbox{Nº nuevos casos con $E$ en el periodo}}{\mbox{Tamaño población en riesgo al comienzo del periodo}}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Al comienzo del año se tomó una muestra de 1000 personas sin gripe y al finalizar el año 80 tuvieron gripe. La incidencia de la gripe ese año fue
+$$ R(E) = \frac{80}{1000} = 0.08$$&lt;/p>
+&lt;h3 id="prevalencia-vs-incidencia">Prevalencia vs Incidencia&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th style="text-align:center">Tiempo&lt;/th>
+&lt;th style="text-align:center">Casos&lt;/th>
+&lt;th style="text-align:center">Tipo estudio&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Prevalencia&lt;/td>
+&lt;td style="text-align:center">Puntual&lt;/td>
+&lt;td style="text-align:center">Nuevos y existentes&lt;/td>
+&lt;td style="text-align:center">Transversal&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Incidencia&lt;/td>
+&lt;td style="text-align:center">Periodo&lt;/td>
+&lt;td style="text-align:center">Solo nuevos&lt;/td>
+&lt;td style="text-align:center">Longitudinal&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>La prevalencia muestra el número de personas afectadas (carga de la enfermedad).&lt;/li>
+&lt;li>La incidencia muestra la evolución de la enfermedad y es más útil para detectar brotes y estudiar su causa.&lt;/li>
+&lt;li>La incidencia depende solo de la contagiosidad de la enfermedad, mientras que la prevalencia depende también de la duración de la enfermedad y de lo agresiva que sea.&lt;/li>
+&lt;/ul>
+&lt;!-- $$ P(E) &lt; R(E) $$ -->
+&lt;h3 id="algunas-consideraciones-en-el-caso-de-la-covid">Algunas consideraciones en el caso de la COVID&lt;/h3>
+&lt;p>
+&lt;a href="https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/situacionActual.htm" target="_blank" rel="noopener">Datos del ministerio de sanidad&lt;/a>&lt;/p>
+&lt;p>La incidencia de la COVID se suele dar sobre un periodo de dos semanas (14 días) aunque no siempre.&lt;/p>
+&lt;p>Los datos son poco precisos y subestiman el riesgo de la COVID:&lt;/p>
+&lt;ul>
+&lt;li>Muchos asintomáticos no son detectados.&lt;/li>
+&lt;li>La detección de casos es mediante test diagnósticos que tienen un margen de error (falsos positivos y falsos negativos).&lt;/li>
+&lt;li>Se calcula dividiendo por el tamaño de la población (nuevos casos por cada 100000 habitantes) pero habría que dividir por el tamaño de la población en riesgo (sin contar ya infectados o inmunizados).&lt;/li>
+&lt;/ul>
+&lt;h2 id="comparación-de-riesgos">Comparación de riesgos&lt;/h2>
+&lt;p>Tanto la prevalencia como la incidencia permiten estudiar la magnitud y la evolución de una enfermedad pero no permiten analizar las posibles causas. Cuando se quiere investigar si la exposición a un determinado factor puede influir en el desarrollo de una enfermedad hay que comparar los riesgos en dos grupos:&lt;/p>
+&lt;ul>
+&lt;li>Grupo tratamiento $T$: Individuos expuestos a un factor.&lt;/li>
+&lt;li>Grupo control $C$: Individuos no expuestos al factor.&lt;/li>
+&lt;/ul>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+&amp;amp; E &amp;amp; \overline E\newline
+\hline
+T &amp;amp; a &amp;amp; b\newline
+C &amp;amp; c &amp;amp; d\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;h2 id="riesgo-relativo">Riesgo relativo&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Riesgo relativo&lt;/strong>
+$$RR(E)=\frac{\mbox{Riesgo grupo tratamiento}}{\mbox{Riesgo grupo control}}=\frac{R_T(E)}{R_C(E)}=\frac{a/(a+b)}{c/(c+d)}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+&amp;amp; \mbox{Gripe } G &amp;amp; \mbox{No gripe }\overline E\newline
+\hline
+\mbox{Vacunados } T &amp;amp; 20 &amp;amp; 480 \newline
+\mbox{No vacunados } C &amp;amp; 80 &amp;amp; 420 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$RR(G) = \frac{20/(20+480)}{80/(80+420)} = 0.25$$&lt;/p>
+&lt;h3 id="interpretación-del-riesgo-relativo">Interpretación del riesgo relativo&lt;/h3>
+&lt;ul>
+&lt;li>$RR=1$ $\Rightarrow$ No hay asociación entre el suceso y la exposición al factor.&lt;/li>
+&lt;li>$RR&amp;lt;1$ $\Rightarrow$ La exposición al factor disminuye el riesgo del suceso.&lt;/li>
+&lt;li>$RR&amp;gt;1$ $\Rightarrow$ La exposición al factor aumenta el riesgo del suceso.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/escala-riesgo-relativo.png" alt="Interpretación riesgo relativo">&lt;/p>
+&lt;h2 id="odds-ratio">Odds ratio&lt;/h2>
+&lt;p>Del mismo modo que se pueden comparar los riesgos en los grupos tratamiento y control, se pueden comparar también los odds.&lt;/p>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Odds ratio&lt;/strong>
+$$OR(E)=\frac{\mbox{Odds grupo tratamiento}}{\mbox{Odds grupo control}}=\frac{O_T(E)}{O_C(E)}=\frac{a/b}{c/d}=\frac{ad}{bc}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+&amp;amp; \mbox{Gripe } G &amp;amp; \mbox{No gripe }\overline E\newline
+\hline
+\mbox{Vacunados } T &amp;amp; 20 &amp;amp; 480 \newline
+\mbox{No vacunados } C &amp;amp; 80 &amp;amp; 420 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$OR(G) = \frac{20/480}{80/420} = 0.22$$&lt;/p>
+&lt;h3 id="interpretación-del-odds-ratio">Interpretación del odds ratio&lt;/h3>
+&lt;ul>
+&lt;li>$OR=1$ $\Rightarrow$ No existe asociación entre el suceso y la exposición al factor.&lt;/li>
+&lt;li>$OR&amp;lt;1$ $\Rightarrow$ La exposición al factor disminuye el riesgo del suceso.&lt;/li>
+&lt;li>$OR&amp;gt;1$ $\Rightarrow$ La exposición al factor aumenta el riesgo del suceso.&lt;/li>
+&lt;/ul>
+&lt;h3 id="riesgo-relativo-vs-odds-ratio">Riesgo relativo vs odds ratio&lt;/h3>
+&lt;p>El riesgo relativo es una comparación de probabilidades pero depende de la incidencia de la enfermedad.&lt;/p>
+&lt;p>La interpretación del odds ratio es más enrevesada porque es contrafactual, ya que da cuántas veces es más frecuente el suceso en el grupo tratamiento en comparación con el control, asumiendo que en el
+grupo control es tan frecuente que ocurra el suceso como que no. Su ventaja es que no depende de la incidencia de la enfermedad.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Para estudiar la asociación entre fumar y el cáncer de pulmón se han tomado dos muestras, la segunda con el doble de pacientes sanos que la primera.&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\textbf{Muestra 1} &amp;amp; \mbox{Cáncer } E &amp;amp; \mbox{No cáncer }\overline E\newline
+\hline
+\mbox{Fumadores } &amp;amp; 60 &amp;amp; 80 \newline
+\mbox{No fumadores } C &amp;amp; 40 &amp;amp; 320 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$
+\begin{aligned}
+RR(E) &amp;amp;= \frac{60/(60+80)}{40/(40+320)} = 3.86
+\newline
+OR(E) &amp;amp;= \frac{60/80}{40/320} = 6
+\end{aligned}
+$$&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\textbf{Muestra 2} &amp;amp; \mbox{Cáncer } E &amp;amp; \mbox{No cáncer }\overline E\newline
+\hline
+\mbox{Fumadores } &amp;amp; 60 &amp;amp; 160 \newline
+\mbox{No fumadores } C &amp;amp; 40 &amp;amp; 640 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$
+\begin{aligned}
+RR(E) &amp;amp;= \frac{60/(60+160)}{40/(40+640)} = 4.64
+\newline
+OR(E) &amp;amp;= \frac{60/160}{40/640} = 6
+\end{aligned}
+$$&lt;/p>
+&lt;h3 id="aplicación-a-la-covid">Aplicación a la COVID&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.npr.org/sections/coronavirus-live-updates/2020/03/22/819846180/study-calculates-just-how-much-age-medical-conditions-raise-odds-of-severe-covid?t=1614095513052" target="_blank" rel="noopener">La edad aumenta la gravedad&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.aarp.org/espanol/salud/enfermedades-y-tratamientos/info-2020/tipo-de-sangre-y-riesgo-de-covid.html" target="_blank" rel="noopener">El riesgo de infección depende del grupo sanguíneo&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://medicalxpress.com/news/2021-01-vitamin-d-deficiency-covid-.html" target="_blank" rel="noopener">El déficit de vitamina D aumenta el riesgo de infección&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.sciencedaily.com/releases/2021/02/210209083524.htm" target="_blank" rel="noopener">Las personas con demencia tienen mayor riesgo de infectase&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2007764" target="_blank" rel="noopener">El Remdesivir acelera la recuperación&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tests-diagnósticos">Tests diagnósticos&lt;/h2>
+&lt;p>Otra aplicación de la Epidemiología basado en el cálculo de probabilidades son los &lt;em>test diagnósticos&lt;/em>.&lt;/p>
+&lt;blockquote>
+&lt;p>Un test diagnóstico es un test usado para diagnosticar una enfermedad o descartarla.&lt;/p>
+&lt;/blockquote>
+&lt;p>Normalmente producen dos resultados: positivo (+) a favor de la enfermedad y negativo (-) en contra de ella.&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; \color{green}{\mbox{Verdadero positivo }VP} &amp;amp; \color{red}{\mbox{Falso positivo }FP} \newline
+\mbox{Negativo }- &amp;amp; \color{red}{\mbox{Falso negativo }FN} &amp;amp; \color{green}{\mbox{Verdadero negativo }VN}\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;h2 id="sensibilidad-y-especificidad-de-un-test">Sensibilidad y especificidad de un test&lt;/h2>
+&lt;p>La fiabilidad de un test diagnóstico depende de las siguientes probabilidades.&lt;/p>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Sensibilidad&lt;/strong>&lt;br>
+La &lt;em>sensibilidad&lt;/em> de un test diagnóstico es la proporción de resultados positivos del test en personas con la enfermedad,
+$$P(+|E)=\frac{VP}{VP+FN}$$
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Especificidad&lt;/strong>&lt;br>
+La &lt;em>especificidad&lt;/em> de un test diagnóstico es la proporción de resultados negativos del test en personas sin la enfermedad,
+$$P(-|\overline{E})=\frac{VN}{VN+FP}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Un test de antígenos para detectar el SARS-COV-2 tiene una sensibilidad del 70% y una especificidad del 95%.&lt;/p>
+&lt;ul>
+&lt;li>Si aplicamos el test a 100 enfermos dará 70 positivos y 30 negativos.&lt;/li>
+&lt;li>Si aplicamos el test a 100 sanos dará 95 negativos y 5 positivos.&lt;/li>
+&lt;/ul>
+&lt;p>La fiabilidad del test depende también de la prevalencia de la enfermedad.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Utilizando el test del ejemplo anterior en una población de 1000 personas y suponiendo una prevalencia del 1% se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 7 &amp;amp; 50 \newline
+\mbox{Negativo }- &amp;amp; 3 &amp;amp; 940\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>&lt;img src="img/resultados-test0.01-0.7-0.95.svg" alt="Resultados de un test diagnóstico con una sensibilidad del 70%, una especidficidad del 95% y una prevalencia del 1%">&lt;/p>
+&lt;p>Mientras que si la prevalencia es del 10% se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 70 &amp;amp; 45 \newline
+\mbox{Negativo }- &amp;amp; 30 &amp;amp; 855\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>&lt;img src="img/resultados-test0.1-0.7-0.95.svg" alt="Resultados de un test diagnóstico con una sensibilidad del 70%, una especidficidad del 95% y una prevalencia del 10%">&lt;/p>
+&lt;p>Para ver los resultados de un test diagnóstico en función de la prevalencia, la sensibilidad y la especificidad se puede utilizar esta
+&lt;a href="http://nube.aprendeconalf.es/shiny/diagnostic-test/" target="_blank" rel="noopener">aplicación para test diagnósticos&lt;/a>&lt;/p>
+&lt;h3 id="cuándo-usar-un-test-más-sensible-o-más-específico">Cuándo usar un test más sensible o más específico&lt;/h3>
+&lt;p>Una mayor sensibilidad aumenta el número de verdaderos positivos y disminuye el número de falsos negativos, mientras que una mayor especificidad aumenta el número de verdaderos negativos y disminuye el número de falsos positivos. Por tanto, utilizaremos un test más sensible cuando:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>La enfermedad es grave o muy contagiosa y es importante detectarla.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La enfermedad es curable.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Los falsos positivos no provocan traumas serios.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Y utilizaremos un test más específico cuando:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>La enfermedad es importante pero difícil o imposible de curar.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Los falsos positivos pueden provocar traumas serios.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>El tratamiento de los falsos positivos puede tener graves consecuencias.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Tanto la sensibilidad como la especificidad son indicadores de la fiabilidad de un test a priori, es decir, antes de aplicar el test. Una vez que el test se ha aplicado y se conoce su resultado, a la hora de diagnosticar la enfermedad o rechazarla, es mejor utilizar los &lt;em>valores predictivos&lt;/em>.&lt;/p>
+&lt;h2 id="valores-predictivos-de-un-test">Valores predictivos de un test&lt;/h2>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Valor predictivo positivo&lt;/strong>&lt;br>
+El &lt;em>valor predictivo positivo&lt;/em> de un test diagnóstico es la proporción de personas con la enfermedad entre las personas con resultado positivo en el test,
+$$P(E|+) = \frac{VP}{VP+FP}$$
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Valor predictivo negativo&lt;/strong>&lt;br>
+El &lt;em>valor predictivo negativo&lt;/em> de un test diagnóstico es la proporción de personas sin la enfermedad entre las personas con resultado negativo en el test,
+$$P(\overline{E}|-) = \frac{VN}{VN+FN}$$
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Siguiendo con el ejemplo anterior y suponiendo una prevalencia del 1%, se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 7 &amp;amp; 50 \newline
+\mbox{Negativo }- &amp;amp; 3 &amp;amp; 940\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>&lt;img src="img/resultados-test0.01-0.7-0.95.svg" alt="Resultados de un test diagnóstico con una sensibilidad del 70%, una especidficidad del 95% y una prevalencia del 1%">&lt;/p>
+&lt;p>Mientras que si la prevalencia es del 10% se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 70 &amp;amp; 45 \newline
+\mbox{Negativo }- &amp;amp; 30 &amp;amp; 855\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$VPP = \frac{7}{7+50} = 0.123$$
+$$VPN = \frac{940}{3+940} = 0.997$$&lt;/p>
+&lt;p>Mientras que si la prevalencia es del 10% se tiene&lt;/p>
+&lt;p>$$
+\begin{array}{|l|cc|}
+\hline
+\mbox{Test} &amp;amp; E &amp;amp; \overline E\newline
+\hline
+\mbox{Positivo }+ &amp;amp; 70 &amp;amp; 45 \newline
+\mbox{Negativo }- &amp;amp; 30 &amp;amp; 855\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$VPP = \frac{70}{70+45} = 0.609$$
+$$VPN = \frac{855}{30+855} = 0.966$$&lt;/p>
+&lt;h3 id="interpretación-de-los-valores-predictivos">Interpretación de los valores predictivos&lt;/h3>
+&lt;p>$$
+\begin{array}{rcl}
+VPP&amp;gt;0.5 &amp;amp; \Rightarrow &amp;amp; \mbox{Diagnosticar la enfermedad}\newline
+VPN&amp;gt;0.5 &amp;amp; \Rightarrow &amp;amp; \mbox{Descartar la enfermedad}
+\end{array}
+$$&lt;/p>
+&lt;h2 id="aplicaciones-al-covid-19">Aplicaciones al COVID-19&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.rcpjournals.org/content/clinmedicine/20/6/e209" target="_blank" rel="noopener">Fiabilidad del diagnóstico por PCR&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm695152a3.htm" target="_blank" rel="noopener">Fiabilidad del diagnóstico por el test de antígenos&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://academic.oup.com/ajcp/article/154/5/575/5898531" target="_blank" rel="noopener">Comparativa de test&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="referencias">Referencias&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="http://matematicas.uclm.es/cemat/covid19/" target="_blank" rel="noopener">Acción matemática contra el coronavirus&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.repidemicsconsortium.org/" target="_blank" rel="noopener">R Epidemic Consortium (RECON)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf" target="_blank" rel="noopener">Analysis of epidemiological data using R and Epicalc&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://statsandr.com/blog/top-r-resources-on-covid-19-coronavirus/#coronavirus" target="_blank" rel="noopener">R resources about COVID-19&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Funciones elementales</title><link>/docencia/calculo/manual/funciones-elementales/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/calculo/manual/funciones-elementales/</guid><description>&lt;h2 id="el-concepto-de-función">El concepto de función&lt;/h2>
 &lt;h3 id="qué-es-una-función">¿Qué es una función?&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -2093,7 +3725,7 @@ f:\,&amp;amp;A\longrightarrow B\newline
 &amp;amp;a\longrightarrow f(a)\end{aligned}$$&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/definicion_funcion.png" width="400px" alt="Correspondencia de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/definicion_funcion.png" width="400px" alt="Correspondencia de una función" />
 &lt;p>Cuando el conjunto inicial y final es el de los números reales $\mathbb{R}$, entonces se dice que $f:\mathbb{R}\rightarrow \mathbb{R}$ es una &lt;em>función real de variable real&lt;/em>.&lt;/p>
 &lt;h3 id="formas-de-representar-una-función">Formas de representar una función&lt;/h3>
 &lt;h4 id="por-extensión">Por extensión&lt;/h4>
@@ -2106,7 +3738,7 @@ y &amp;amp; 4 &amp;amp; 1 &amp;amp; 0 &amp;amp; 1 &amp;amp; 4 &amp;amp; \cdots \
 \hline
 \end{array}$$&lt;/p>
 &lt;p>Representación gráfica&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_cuadrado.png" width="300px" alt="Función cudrado" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_cuadrado.png" width="300px" alt="Función cudrado" />
 &lt;h4 id="por-intensión">Por Intensión&lt;/h4>
 &lt;p>Representación algebraica explícita&lt;/p>
 &lt;p>$$y=x^2$$&lt;/p>
@@ -2124,7 +3756,7 @@ x=t
 &lt;p>$$Id(x)=x.$$&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_identidad.png" width="300px" alt="Función identidad" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_identidad.png" width="300px" alt="Función identidad" />
 &lt;h2 id="dominio-e-imagen-de-una-función">Dominio e imagen de una función&lt;/h2>
 &lt;h3 id="dominio-de-una-función">Dominio de una función&lt;/h3>
 &lt;div class="alert alert-def">
@@ -2134,7 +3766,7 @@ x=t
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Dada la función $$f(x)=\frac{1}{\sqrt{x^2-1}}$$&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/ejemplo_dominio.png" width="450px" alt="Ejemplo de dominio de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/ejemplo_dominio.png" width="450px" alt="Ejemplo de dominio de una función" />
 &lt;p>Para determinar su dominio hay que eliminar los valores en los que no está definida la función. En este caso hay que eliminar los valores que hacen negativo el radicando de la raíz del denominador, es decir, los valores de $x$ tales que $x^2-1&amp;lt;0$, que son los valores que cumplen $-1&amp;lt;x&amp;lt;1$, pero también hay que eliminar del dominio los valores que anulan el denominador, es decir, los valores de $x$ tales que $\sqrt{x^2-1}=0$, que son $x=-1$ y $x=1$. Por tanto, su dominio es&lt;/p>
 &lt;p>$$\mbox{Dom}(f)=(-\infty,-1)\cup(1,\infty)$$&lt;/p>
 &lt;h3 id="imagen-de-una-función">Imagen de una función&lt;/h3>
@@ -2145,7 +3777,7 @@ x=t
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Dada la función $f(x)=x^2-2$&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/ejemplo_imagen.png" width="400px" alt="Ejemplo de la imagen de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/ejemplo_imagen.png" width="400px" alt="Ejemplo de la imagen de una función" />
 &lt;p>Su imagen es&lt;/p>
 &lt;p>$$\mbox{Img}(f)=[-2,\infty)$$&lt;/p>
 &lt;p>ya que la función cuadrática $x^2$ puede tomar cualquier valor de $0$ a $\infty$ (no toma nunca valores negativos), y al restarle 2, el mínimo valor que puede tomar la función $f$ es $-2$.&lt;/p>
@@ -2171,7 +3803,7 @@ f\circ g:\,&amp;amp; A\longrightarrow C\newline
 &lt;/div>
 &lt;/div>
 &lt;p>La función inversa de $f$ deshace o revierte el efecto de $f$. Es decir, si $f:A\rightarrow B$ asocia un elemento $x\in A$ con otro $y\in B$, entonces $f^{-1}$ asocia el elemento $y$ con el $x$.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_inversa.png" width="200px" alt="Función inversa" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_inversa.png" width="200px" alt="Función inversa" />
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.
 La inversa de $f(x)=x^3$ es la función $f^{-1}(x)=\sqrt[3]{x}.$ Sin embargo, la inversa de la función $x^2$ no es $\sqrt{x}$ ya que la raíz tiene dos imágenes, una positiva y otra negativa, y por tanto no sería una función. &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
 &lt;h1 id="crecimiento-de-una-función">Crecimiento de una función&lt;/h1>
@@ -2181,7 +3813,7 @@ La inversa de $f(x)=x^3$ es la función $f^{-1}(x)=\sqrt[3]{x}.$ Sin embargo, la
 &lt;p>Se dice que una función $f$ es &lt;em>decreciente&lt;/em> en un intervalo $I$, si para todo $x_1,x_2\in I$, con $x_1&amp;lt;x_2$, se cumple $f(x_1)\geq f(x_2)$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_creciente_decreciente.png" width="600px" alt="Gráficas de funciones creciente y decreciente" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_creciente_decreciente.png" width="600px" alt="Gráficas de funciones creciente y decreciente" />
 &lt;h2 id="extremos-de-una-función">Extremos de una función&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -2189,7 +3821,7 @@ La inversa de $f(x)=x^3$ es la función $f^{-1}(x)=\sqrt[3]{x}.$ Sin embargo, la
 &lt;p>Se dice que una función $f$ tiene un &lt;em>mínimo relativo&lt;/em> en $x_0$, si existe un $\delta&amp;gt;0$ tal que para todo $x\in (x_0-\delta,x_0+\delta)$ se cumple $f(x_0)\leq f(x)$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/maximo_minimo.png" width="700px" alt="Gráfica del máximo y mínimo de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/maximo_minimo.png" width="700px" alt="Gráfica del máximo y mínimo de una función" />
 &lt;h2 id="concavidad-de-una-función">Concavidad de una función&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -2199,7 +3831,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;p>Al punto donde cambia la concavidad de una función se le llama &lt;em>punto de inflexión&lt;/em>.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_concava_convexa.png" width="700px" alt="Gráfica de una función cóncava y otra convexa" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_concava_convexa.png" width="700px" alt="Gráfica de una función cóncava y otra convexa" />
 &lt;h2 id="funciones-periódicas">Funciones periódicas&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -2209,7 +3841,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;p>Al menor valor de $h$ que verifica la igualdad anterior se le llama &lt;em>periodo&lt;/em> de $f$, y a la diferencia entre el máximo y el mínimo de la función se le llama &lt;em>amplitud&lt;/em> de $f$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_periodica.png" width="500px" alt="Función inversa" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_periodica.png" width="500px" alt="Función inversa" />
 &lt;h2 id="funciones-polinómicas">Funciones polinómicas&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -2219,7 +3851,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_polinomica.png" width="500px" alt="Gráficas de funciones polinómcias" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_polinomica.png" width="500px" alt="Gráficas de funciones polinómcias" />
 &lt;h3 id="propiedades-de-las-funciones-polinómicas">Propiedades de las funciones polinómicas&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$.&lt;/li>
@@ -2237,7 +3869,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_racional.png" width="600px" alt="Gráficas de funciones racionales" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_racional.png" width="600px" alt="Gráficas de funciones racionales" />
 &lt;h3 id="propiedades-de-las-funciones-racionales">Propiedades de las funciones racionales&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$ menos las raíces del polinomio del denominador. En estos puntos suele haber asíntotas verticales.&lt;/li>
@@ -2259,7 +3891,7 @@ Si $f(x)=\dfrac{a_0+\cdots +a_nx^n}{b_0+\cdots+b_mx^m}$, entonces
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_potencial.png" width="600px" alt="Gráficas de fuciones potenciales" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_potencial.png" width="600px" alt="Gráficas de fuciones potenciales" />
 &lt;h3 id="propiedades-de-las-funciones-potenciales">Propiedades de las funciones potenciales&lt;/h3>
 &lt;ul>
 &lt;li>Si el exponente es un número racional $n/m$, entonces $$x^{n/m}=\sqrt[m]{x^n}.$$ Estas funciones se llaman &lt;em>irracionales&lt;/em>.
@@ -2288,7 +3920,7 @@ Además, si $f(x)=x^r$ y $g(x)=x^s$, entonces:&lt;/li>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_exponencial.png" width="350px" alt="Gráficas de fuciones exponenciales" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_exponencial.png" width="350px" alt="Gráficas de fuciones exponenciales" />
 &lt;h3 id="propiedades-de-las-funciones-exponenciales">Propiedades de las funciones exponenciales&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$.&lt;/li>
@@ -2314,7 +3946,7 @@ Además, si $f(x)=a^x$ y $g(x)=b^x$ con $a&amp;lt;b$, entonces&lt;/li>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_logaritmica.png" width="550px" alt="Gráficas de fuciones logarítmicas" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_logaritmica.png" width="550px" alt="Gráficas de fuciones logarítmicas" />
 &lt;h3 id="propiedades-de-las-funciones-logarítmicas">Propiedades de las funciones logarítmicas&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función exponencial, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -2352,9 +3984,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;strong>Definición - Seno de un ángulo&lt;/strong>. Sea $\alpha$ cualquiera de los ángulos agudos de un triángulo rectángulo, se define el &lt;em>seno&lt;/em> de $\alpha$, y se nota $\operatorname{sen} \alpha$, como el cociente entre el cateto opuesto y la hipotenusa.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/seno_triangulo.png" width="150px" alt="Definición del seno en un triángulo rectángulo" />&lt;/p>
+&lt;img src="../img/funciones_elementales/seno_triangulo.png" width="150px" alt="Definición del seno en un triángulo rectángulo" />
 &lt;p>La definición se extiende fácilmente a ángulos de circunferencia con vértice en el origen y uno de sus lados el eje $OX$, como el cociente entre la ordenada de cualquier punto del otro lado y su distancia al vértice.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/seno_circunferencia.png" width="200px" alt="Definición del seno en la circunferencia" />&lt;/p>
+&lt;img src="../img/funciones_elementales/seno_circunferencia.png" width="200px" alt="Definición del seno en la circunferencia" />
 &lt;h3 id="función-seno">Función seno&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -2363,7 +3995,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función que asocia a cada ángulo $x$ (habitualmente medido en radianes) su seno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_seno.png" width="600px" alt="Gráfica de la función seno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_seno.png" width="600px" alt="Gráfica de la función seno" />
 &lt;h3 id="propiedades-de-la-función-seno">Propiedades de la función seno&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$.&lt;/li>
@@ -2381,9 +4013,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;strong>Definición - Coseno de un ángulo&lt;/strong>. Sea $\alpha$ cualquiera de los ángulos agudos de un triángulo rectángulo, se define el &lt;em>coseno&lt;/em> de $\alpha$, y se nota $\cos \alpha$, como el cociente entre el cateto contiguo y la hipotenusa.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/coseno_triangulo.png" width="150px" alt="Definición del coseno en un triángulo rectángulo" />&lt;/p>
+&lt;img src="../img/funciones_elementales/coseno_triangulo.png" width="150px" alt="Definición del coseno en un triángulo rectángulo" />
 &lt;p>La definición se extiende fácilmente a ángulos de circunferencia con vértice en el origen y uno de sus lados el eje $OX$, como el cociente entre la abscisa de cualquier punto del otro lado y su distancia al vértice.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/coseno_circunferencia.png" width="200px" alt="Definición del coseno en la circunferencia" />&lt;/p>
+&lt;img src="../img/funciones_elementales/coseno_circunferencia.png" width="200px" alt="Definición del coseno en la circunferencia" />
 &lt;h3 id="función-coseno">Función coseno&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -2392,7 +4024,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función que asocia a cada ángulo $x$ (habitualmente medido en radianes) su coseno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_coseno.png" width="600px" alt="Gráfica de la función coseno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_coseno.png" width="600px" alt="Gráfica de la función coseno" />
 &lt;h3 id="propiedades-de-la-función-coseno">Propiedades de la función coseno&lt;/h3>
 &lt;ul>
 &lt;li>
@@ -2418,9 +4050,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;strong>Definición - Tangente de un ángulo&lt;/strong>. Sea $\alpha$ cualquiera de los ángulos agudos de un triángulo rectángulo, se define la &lt;em>tangente&lt;/em> de $\alpha$, y se nota $\operatorname{tg} \alpha$, como el cociente entre el cateto opuesto y el cateto contiguo.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/tangente_triangulo.png" width="150px" alt="Definición de la tangente en un triángulo rectángulo" />&lt;/p>
+&lt;img src="../img/funciones_elementales/tangente_triangulo.png" width="150px" alt="Definición de la tangente en un triángulo rectángulo" />
 &lt;p>La definición se extiende fácilmente a ángulos de circunferencia con vértice en el origen y uno de sus lados el eje $OX$, como el cociente entre la ordenada y la abscisa de cualquier punto del otro lado.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/tangente_circunferencia.png" width="200px" alt="Definición de la tangente en la circunferencia" />&lt;/p>
+&lt;img src="../img/funciones_elementales/tangente_circunferencia.png" width="200px" alt="Definición de la tangente en la circunferencia" />
 &lt;h3 id="función-tangente">Función tangente&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -2429,7 +4061,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función que asocia a cada ángulo $x$ (habitualmente medido en radianes) su tangente.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_tangente.png" width="450px" alt="Gráfica de la función tangente" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_tangente.png" width="450px" alt="Gráfica de la función tangente" />
 &lt;h3 id="propiedades-de-la-función-tangente">Propiedades de la función tangente&lt;/h3>
 &lt;ul>
 &lt;li>
@@ -2454,7 +4086,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función inversa de la función seno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_arcoseno.png" width="400px" alt="Gráfica de la función arcoseno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_arcoseno.png" width="400px" alt="Gráfica de la función arcoseno" />
 &lt;h3 id="propiedades-de-la-función-arcoseno">Propiedades de la función arcoseno&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función seno, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -2473,7 +4105,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función inversa de la función coseno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_arcocoseno.png" width="350px" alt="Gráfica de la función arcocoseno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_arcocoseno.png" width="350px" alt="Gráfica de la función arcocoseno" />
 &lt;h3 id="propiedades-de-la-función-arcoseno-1">Propiedades de la función arcoseno&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función coseno, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -2492,7 +4124,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función inversa de la función tangente.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_arcotangente.png" width="400px" alt="Gráfica de la función arcotangente" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_arcotangente.png" width="400px" alt="Gráfica de la función arcotangente" />
 &lt;h3 id="propiedades-de-la-función-arcotangente">Propiedades de la función arcotangente&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función tangente, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -3059,7 +4691,7 @@ recta de regresión de la estatura sobre el peso es&lt;/p>
 &lt;p>El parámetro más importante de una recta de regresión es su pendiente.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Coeficiente de regresión&lt;/strong> $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el _coeficiente de regresión_ de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p>
+&lt;p>&lt;strong>Definición - Coeficiente de regresión&lt;/strong> $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el &lt;em>coeficiente de regresión&lt;/em> de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p>
 &lt;p>$$b_{yx} = \frac{s_{xy}}{s_x^2}$$&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -3096,7 +4728,7 @@ De ello se encarga la parte de la estadística conocida como &lt;strong>correlac
 &lt;em>varianza residual&lt;/em>.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Varianza residual muestral&lt;/strong> $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su _varianza residual muestral_ es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p>
+&lt;p>&lt;strong>Definición - Varianza residual muestral&lt;/strong> $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su &lt;em>varianza residual muestral&lt;/em> es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p>
 &lt;p>$$s_{ry}^2 = \frac{\sum e_{ij}^2n_{ij}}{n} = \frac{\sum (y_j - f(x_i))^2n_{ij}}{n}.$$&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -4314,7 +5946,7 @@ x &amp;amp; f(x) \newline
 \Downarrow\newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{1}{\sqrt{x^2-1}}
 \end{array}$$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_1.png" width="300px" alt="Gráfica de una función que no tiene límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_1.png" width="300px" alt="Gráfica de una función que no tiene límite" />
 &lt;h3 id="límites-que-no-existen-ii">Límites que no existen (II)&lt;/h3>
 &lt;p>Cuando los límites laterales no coinciden entonces no existe el límite&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos la función $f(x)=\dfrac{\lvert x\rvert}{x}$ y veamos que pasa cuando $x\rightarrow 0$:&lt;/p>
@@ -4353,7 +5985,7 @@ x &amp;amp; f(x) \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{|x|}{x}
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_2.png" width="300px" alt="Gráfica de una función que no tiene límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_2.png" width="300px" alt="Gráfica de una función que no tiene límite" />
 &lt;h3 id="límites-que-no-existen-iii">Límites que no existen (III)&lt;/h3>
 &lt;p>A veces, cuando $x\rightarrow a$ los valores de $f(x)$ crecen o decrecen infinitamente y entonces no existe el límite. En este caso se dice que la función &lt;em>diverge&lt;/em> y se escribe&lt;/p>
 &lt;p>$$\lim_{x\rightarrow a}f(x)=\pm \infty$$&lt;/p>
@@ -4394,7 +6026,7 @@ x &amp;amp; f(x) \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{1}{x^2}=\infty
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_3.png" width="300px" alt="Gráfica de una función que no tiene límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_3.png" width="300px" alt="Gráfica de una función que no tiene límite" />
 &lt;h3 id="límites-que-no-existen-iv">Límites que no existen (IV)&lt;/h3>
 &lt;p>A veces, el límite de un función en un punto puede no existir porque la función oscila rápidamente al acercarnos a dicho punto.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos la función $f(x)=\operatorname{sen} \dfrac{1}{x}$ y veamos que pasa cuando $x\rightarrow 0$:&lt;/p>
@@ -4441,7 +6073,7 @@ x &amp;amp; f(x) \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0^+}\operatorname{sen} \frac{1}{x}
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_4.png" width="300px" alt="Gráfica de una función que no tiene límitee" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_4.png" width="300px" alt="Gráfica de una función que no tiene límitee" />
 &lt;h3 id="límites-en-el-infinito">Límites en el infinito&lt;/h3>
 &lt;p>Si $f(x)$ tiende a $l$ cuando $x$ crece infinitamente, entonces se dice que $l$ es el &lt;em>límite en el infinito&lt;/em> de $f(x)$ cuando $x\rightarrow +\infty$, y se escribe&lt;/p>
 &lt;p>$$\lim_{x\rightarrow +\infty}f(x)=l.$$&lt;/p>
@@ -4480,7 +6112,7 @@ x &amp;amp; f(x)=1/x \newline
 \lim_{x\rightarrow -\infty}\frac{1}{x}=0
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_infinito.png" width="300px" alt="Gráfica de una función con límite en el infinito" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_infinito.png" width="300px" alt="Gráfica de una función con límite en el infinito" />
 &lt;h3 id="definición-de-límite">Definición de límite&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -4489,7 +6121,7 @@ $$&lt;/p>
 &lt;p>si para cualquier valor $\varepsilon&amp;gt;0$ existe un número $\delta&amp;gt;0$ tal que, $|f(x)-l|&amp;lt;\varepsilon$ siempre que $0&amp;lt;|x-a|&amp;lt;\delta$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/limites_continuidad/definicion_limite.png" width="300px" alt="Explicación gráfica de la definición de límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/definicion_limite.png" width="300px" alt="Explicación gráfica de la definición de límite" />
 &lt;h3 id="definición-de-límite-en-el-infinito">Definición de límite en el infinito&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -4715,7 +6347,7 @@ $$&lt;/p>
 &lt;p>Las asíntotas verticales deben buscarse en los puntos donde no está definida la función, pero si lo está en las proximidades.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La recta $x=2$ es una asíntota vertical de $f(x)=\dfrac{x+1}{x-2}$ ya que&lt;/p>
 &lt;p>$$\lim_{x\rightarrow 2^-}\frac{x+1}{x-2} =-\infty, \mbox{ y } \lim_{x\rightarrow 2^+}\frac{x+1}{x-2} =\infty.$$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/asintota_vertical.png" width="350px" alt="Gráfica de una asíntota vertical" />&lt;/p>
+&lt;img src="../img/limites_continuidad/asintota_vertical.png" width="350px" alt="Gráfica de una asíntota vertical" />
 &lt;h3 id="asíntotas-horizontales">Asíntotas horizontales&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -4730,7 +6362,7 @@ $$&lt;/p>
 \lim_{x\rightarrow +\infty}\frac{x+1}{x-2}&amp;amp;= \lim_{x\rightarrow +\infty}1+\frac{3}{x-2} = 1.
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/asintota_horizontal.png" width="350px" alt="Gráfica de una asíntota horizontal" />&lt;/p>
+&lt;img src="../img/limites_continuidad/asintota_horizontal.png" width="350px" alt="Gráfica de una asíntota horizontal" />
 &lt;h3 id="asíntotas-oblicuas">Asíntotas oblicuas&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -4747,7 +6379,7 @@ $$&lt;/p>
 \lim_{x\rightarrow \pm\infty}1+\frac{x}{x-1} = 1
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/asintota_oblicua.png" width="350px" alt="Gráfica de una asíntota vertical" />&lt;/p>
+&lt;img src="../img/limites_continuidad/asintota_oblicua.png" width="350px" alt="Gráfica de una asíntota vertical" />
 &lt;h2 id="continuidad">Continuidad&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -4784,7 +6416,7 @@ $$&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La función $f(x)=\dfrac{x^2-1}{x-1}$ tiene una discontinuidad evitable en $x=1$ ya que la función no está definida en $x=1$ pero&lt;/p>
 &lt;p>$$\lim_{x\rightarrow 2}\frac{x^2-1}{x-1} = \lim_{x\rightarrow 2}x+1=2.$$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_evitable.png" width="300px" alt="Gráfica de una discontinuidad evitable" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_evitable.png" width="300px" alt="Gráfica de una discontinuidad evitable" />
 &lt;h3 id="discontinuidad-de-1ª-especie-de-salto-finito">Discontinuidad de 1ª especie de salto finito&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -4801,7 +6433,7 @@ $$&lt;/p>
 \end{aligned}
 $$&lt;/p>
 &lt;p>Salto $= 1-(-1)=2$.&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_salto_finito.png" width="350px" alt="Gráfica de una discontinuidad de salto finito" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_salto_finito.png" width="350px" alt="Gráfica de una discontinuidad de salto finito" />
 &lt;h3 id="discontinuidad-de-1ª-especie-de-salto-infinito">Discontinuidad de 1ª especie de salto infinito&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -4817,7 +6449,7 @@ $$&lt;/p>
 \lim_{x\rightarrow 0^+}e^{1/x}&amp;amp;= \infty
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_salto_infinito.png" width="300px" alt="Gráfica de una discontinuidad de salto infinito" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_salto_infinito.png" width="300px" alt="Gráfica de una discontinuidad de salto infinito" />
 &lt;h3 id="discontinuidad-de-2ª-especie">Discontinuidad de 2ª especie&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -4832,7 +6464,7 @@ $$&lt;/p>
 &amp;amp; \lim_{x\rightarrow 1^+}\frac{1}{\sqrt{x^2-1}}=\infty
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_2_especie.png" width="300px" alt="Gráfica de una discontinuidad de 2ª especie" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_2_especie.png" width="300px" alt="Gráfica de una discontinuidad de 2ª especie" />
 &lt;p>&lt;strong>Notas&lt;/strong>&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
@@ -5787,14 +7419,14 @@ Activo
 $$&lt;/p>
 &lt;p>¿Cuál será la tasa de variación media del área en el intervalo $[a,a+\Delta x]$?&lt;/p>
 &lt;p>$$\operatorname{TVM}f[a,a+\Delta x]=\frac{\Delta y}{\Delta x}=\frac{2a\Delta x+\Delta x^2}{\Delta x}=2a+\Delta x.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/variacion_area_cuadrado.png" width="250px" alt="Variación que experimenta el area de un cuadrado al variar el lado" />&lt;/p>
+&lt;img src="../img/derivadas1/variacion_area_cuadrado.png" width="250px" alt="Variación que experimenta el area de un cuadrado al variar el lado" />
 &lt;h3 id="interpretación-geométrica-de-la-tasa-de-variación-media">Interpretación geométrica de la tasa de variación media&lt;/h3>
 &lt;div class="alert alert-int">
 &lt;div>
 La tasa de variación media de $f$ en el intervalo $[a,a+\Delta x]$ es la pendiente de la recta &lt;em>secante&lt;/em> a $f$ en los puntos $(a,f(a))$ y $(a+\Delta x,f(a+\Delta x))$.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/derivadas1/secante.png" width="500px" alt="Gráfica de la recta secante a una función en dos puntos" />&lt;/p>
+&lt;img src="../img/derivadas1/secante.png" width="500px" alt="Gráfica de la recta secante a una función en dos puntos" />
 &lt;h3 id="tasa-de-variación-instantánea">Tasa de variación instantánea&lt;/h3>
 &lt;p>En muchas ocasiones, es interesante estudiar la tasa de variación que experimenta una función, no en intervalo, sino en un punto.&lt;/p>
 &lt;p>Conocer la tendencia de variación de una función en un instante puede ayudarnos a predecir valores en instantes próximos.&lt;/p>
@@ -5831,12 +7463,12 @@ $$&lt;/p>
 La tasa de variación instantánea de $f$ en el punto $a$ es la pendiente de la recta &lt;em>tangente&lt;/em> a $f$ en el punto $(a,f(a))$.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/derivadas1/tangente.png" width="500px" alt="Gráfica de la recta tangente a una función en un punto" />&lt;/p>
+&lt;img src="../img/derivadas1/tangente.png" width="500px" alt="Gráfica de la recta tangente a una función en un punto" />
 &lt;h2 id="interpretación-cinemática-de-la-derivada">Interpretación cinemática de la derivada&lt;/h2>
 &lt;h3 id="movimiento-rectilineo">Movimiento rectilineo&lt;/h3>
 &lt;p>Supongase que la función $f(t)$ describe la posición de un objeto móvil sobre la recta real en el instante $t$. Tomando como referencia el
 origen de coordenadas $O$ y el vector unitario $\mathbf{i}=(1)$, se puede representar la posición $P$ del móvil en cada instante $t$ mediante un vector $\vec{OP}=x\mathbf{i}$ donde $x=f(t)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/movimiento_rectilineo.png" width="500px" alt="Interpretación cinemática del movimiento rectilineo" />&lt;/p>
+&lt;img src="../img/derivadas1/movimiento_rectilineo.png" width="500px" alt="Interpretación cinemática del movimiento rectilineo" />
 &lt;p>También tiene sentido pensar en $f$ como una función que mide otras magnitudes como por ejemplo la temperatura de un cuerpo, la concentración de un gas o la cantidad de un compuesto en una reacción química en un instante $t$.&lt;/p>
 &lt;p>En este contexto, si se toman los instantes $t=t_0$ y $t=t_0+\Delta t$, ambos del dominio $I$ de $f$, el vector&lt;/p>
 &lt;p>$$\mathbf{v}_m=\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t}$$&lt;/p>
@@ -5860,7 +7492,7 @@ y=y(t)
 t\in I\subseteq \mathbb{R}
 $$&lt;/p>
 &lt;p>se conocen como &lt;em>funciones coordenadas&lt;/em> de $f$ y se escribe $f(t)=(x(t),y(t))$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/movimiento_curvilineo.png" width="500px" alt="Interpretación cinemática del movimiento curvilineo" />&lt;/p>
+&lt;img src="../img/derivadas1/movimiento_curvilineo.png" width="500px" alt="Interpretación cinemática del movimiento curvilineo" />
 &lt;h4 id="velocidad-en-una-trayectoria-curvilinea-en-el-plano">Velocidad en una trayectoria curvilinea en el plano&lt;/h4>
 &lt;p>En este contexto de una trayectoria $f(t)=(x(t),y(t))$ en el plano real $\mathbb{R}^2$, para un instante $t=t_0$, si existe el vector&lt;/p>
 &lt;p>$$\mathbf{v} = \lim_{\Delta t\rightarrow 0} \frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p>
@@ -5879,7 +7511,7 @@ $$&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Dada la trayectoria $f(t) = (\cos t,\operatorname{sen} t)$, $t\in \mathbb{R}$, cuya imagen es la circunferencia de centro el origen de coordenas y radio 1, sus funciones coordenadas son $x(t) = \cos t$, $y(t) = \operatorname{sen} t$, $t\in \mathbb{R}$, y su velocidad es&lt;/p>
 &lt;p>$$\mathbf{v}=f'(t)=(x'(t),y'(t))=(-\operatorname{sen} t, \cos t).$$&lt;/p>
 &lt;p>En el instante $t=\pi/4$, el móvil estará en la posición $f(\pi/4) = (\cos(\pi/4),\operatorname{sen}(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ y se moverá con una velocidad $\mathbf{v}=f'(\pi/4)=(-\operatorname{sen}(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/circunferencia.png" width="300px" alt="Trayectoria de la circunferencia" />&lt;/p>
+&lt;img src="../img/derivadas1/circunferencia.png" width="300px" alt="Trayectoria de la circunferencia" />
 &lt;p>Obsérvese que el módulo del vector velocidad siempre será 1 ya que $\lvert \mathbf{v}\rvert = \sqrt{(-\operatorname{sen} t)^2+(\cos t)^2}=1$.&lt;/p>
 &lt;h2 id="recta-tangente-a-una-trayectoria">Recta tangente a una trayectoria&lt;/h2>
 &lt;h3 id="recta-tangente-a-una-trayectoria-en-el-plano">Recta tangente a una trayectoria en el plano&lt;/h3>
@@ -5948,7 +7580,7 @@ l&amp;amp;: (x,y)=(\cos(\pi/2),\operatorname{sen}(\pi/2))+t(\cos(\pi/2),\operato
 $$&lt;/p>
 &lt;p>y su ecuación cartesiana es&lt;/p>
 &lt;p>$$\frac{x-\sqrt{2}/2}{\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}\Rightarrow y-\sqrt{2}/2 = \frac{\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=x.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/circunferencia_tangente_normal.png" width="600px" alt="Tangente y normal a la trayectoria de una circunferencia" />&lt;/p>
+&lt;img src="../img/derivadas1/circunferencia_tangente_normal.png" width="600px" alt="Tangente y normal a la trayectoria de una circunferencia" />
 &lt;h3 id="rectas-tangente-y-normal-a-una-función">Rectas tangente y normal a una función&lt;/h3>
 &lt;p>Un caso particular de las recta tangente y normal a una trayectoria es son la recta tangente y normal a una función de una variable real. Si se tiene la función $y=f(x)$, $x\in I\subseteq \mathbb{R}$, una trayectoria que traza la gráfica de $f$ es $$g(t) = (t,f(t)) \quad t\in I,$$ y su velocidad es $$g'(t) = (1,f'(t)),$$ de modo que la recta tangente para $t=x_0$ es&lt;/p>
 &lt;p>$$\frac{x-x_0}{1} = \frac{y-f(x_0)}{f'(x_0)} \Rightarrow y-f(x_0) = f'(x_0)(x-x_0),$$&lt;/p>
@@ -5976,7 +7608,7 @@ $$&lt;/p>
 &lt;p>$$\mathbf{v}=f'(\pi/2)=(-\operatorname{sen}(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$&lt;/p>
 &lt;p>y la tangente en ese punto es&lt;/p>
 &lt;p>$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />&lt;/p>
+&lt;img src="../img/derivadas1/tangente_trayectoria_espacio.png" width="400px" alt="Gráfica de la tangente a una trayectoria en el espacio." />
 &lt;p>&lt;img src="/media/logo-geogebra.png#left" /> &lt;strong>&lt;a href="http://ggbtu.be/m156108" target="_blank">Ejemplo interactivo&lt;/a>&lt;/strong>&lt;/p>
 &lt;h2 id="álgebra-de-derivadas">Álgebra de derivadas&lt;/h2>
 &lt;h3 id="propiedades-de-la-derivada">Propiedades de la derivada&lt;/h3>
@@ -6059,7 +7691,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos la función $f(x)=x^4-2x^2+1$. Su derivada $f'(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/crecimiento.png" width="500px" alt="Estudio del crecimiento de una función" />&lt;/p>
+&lt;img src="../img/derivadas1/crecimiento.png" width="500px" alt="Estudio del crecimiento de una función" />
 &lt;h2 id="determinación-de-los-extremos-relativos-de-una-función">Determinación de los extremos relativos de una función&lt;/h2>
 &lt;p>Como consecuencia del resultado anterior, la derivada también sirve para determinar los extremos relativos de una función.&lt;/p>
 &lt;div class="alert alert-theo">
@@ -6076,7 +7708,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos de nuevo la función $f(x)=x^4-2x^2+1$. Su derivada $f'(x)=4x^3-4x$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/extremos.png" width="500px" alt="Estudio de los extremos de una función" />&lt;/p>
+&lt;img src="../img/derivadas1/extremos.png" width="500px" alt="Estudio de los extremos de una función" />
 &lt;h2 id="estudio-de-la-concavidad-de-una-función">Estudio de la concavidad de una función&lt;/h2>
 &lt;p>La concavidad de una función puede estudiarse mediante el signo de la segunda derivada.&lt;/p>
 &lt;div class="alert alert-theo">
@@ -6091,7 +7723,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La función $f(x)=x^2$ tiene segunda derivada $f^{\prime\prime}(x)=2&amp;gt;0$ y por tanto es cóncava en todo $\mathbb{R}$.&lt;/p>
 &lt;p>&lt;strong>Observación&lt;/strong>. &lt;em>Una función puede ser cóncava o convexa en un intervalo y no tener derivada.&lt;/em>&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos de nuevo la función $f(x)=x^4-2x^2+1$. Su segunda derivada $f^{\prime\prime}(x)=12x^2-4$ está definida en todo $\mathbb{R}$ y es continua.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/concavidad.png" width="500px" alt="Estudio de la concavidad de una función" />&lt;/p>
+&lt;img src="../img/derivadas1/concavidad.png" width="500px" alt="Estudio de la concavidad de una función" />
 &lt;h2 id="polinomios-de-taylor">Polinomios de Taylor&lt;/h2>
 &lt;h3 id="aproximación-de-una-función-mediante-un-polinomio">Aproximación de una función mediante un polinomio&lt;/h3>
 &lt;p>Una aplicación muy útil de la derivada es la aproximación de funciones mediante polinomios.&lt;/p>
@@ -6108,7 +7740,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;p>$$p(x_0) = c_0 = f(x_0).$$&lt;/p>
 &lt;p>En consecuencia, el polinomio de grado 0 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p>
 &lt;p>$$p(x) = f(x_0).$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_grado_0.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 0" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_grado_0.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 0" />
 &lt;h4 id="aproximación-mediante-un-polinomio-de-grado-1">Aproximación mediante un polinomio de grado 1&lt;/h4>
 &lt;p>Un polinomio de grado 1 es una recta y tiene ecuación&lt;/p>
 &lt;p>$$p(x) = c_0+c_1x,$$&lt;/p>
@@ -6128,7 +7760,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;p>Así pues, el polinomio de grado 1 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p>
 &lt;p>$$p(x) = f(x_0)+f &amp;lsquo;(x_0)(x-x_0),$$&lt;/p>
 &lt;p>que resulta ser la recta tangente a $f$ en el punto $(x_0,f(x_0))$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_grado_1.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 1" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_grado_1.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 1" />
 &lt;h4 id="aproximación-mediante-un-polinomio-de-grado-2">Aproximación mediante un polinomio de grado 2&lt;/h4>
 &lt;p>Un polinomio de grado 2 es una parábola y tiene ecuación&lt;/p>
 &lt;p>$$p(x) = c_0+c_1x+c_2x^2,$$&lt;/p>
@@ -6149,7 +7781,7 @@ Una función puede ser creciente o decreciente en un intervalo y no tener deriva
 &lt;/ul>
 &lt;p>Así pues, el polinomio de grado 2 que mejor aproxima a $f$ en un entorno de $x_0$ es&lt;/p>
 &lt;p>$$p(x) = f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2}(x-x_0)^2.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_grado_2.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 2" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_grado_2.png" width="400px" alt="Gráfica del polinomio de Taylor de grado 2" />
 &lt;h4 id="aproximación-mediante-un-polinomio-de-grado-n">Aproximación mediante un polinomio de grado $n$&lt;/h4>
 &lt;p>Un polinomio de grado $n$ tiene ecuación&lt;/p>
 &lt;p>$$p(x) = c_0+c_1x+c_2x^2+\cdots +c_nx^n,$$&lt;/p>
@@ -6218,7 +7850,7 @@ f'''(x)=2/x^3 &amp;amp; &amp;amp; f'''(1)=2/1^3=2.
 $$&lt;/p>
 &lt;p>Sustituyendo en la ecuación del polinomio se tiene&lt;/p>
 &lt;p>$$p_{f,1}^3(x)=0+1(x-1)+\frac{-1}{2}(x-1)^2+\frac{2}{3!}(x-1)^3= \frac{2}{3}x^3-\frac{3}{2}x^2+3x-\frac{11}{6}.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_taylor_logaritmo.png" width="500px" alt="Gráfica del polinomio de Taylor del logaritmo" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_taylor_logaritmo.png" width="500px" alt="Gráfica del polinomio de Taylor del logaritmo" />
 &lt;h3 id="polinomio-de-maclaurin-de-orden-n">Polinomio de Maclaurin de orden $n$&lt;/h3>
 &lt;p>La ecuación del polinomio de Taylor se simplifica cuando el punto en torno al cual queremos aproximar es el $0$.&lt;/p>
 &lt;div class="alert alert-def">
@@ -6246,7 +7878,7 @@ f'''(x)=-\cos x &amp;amp; &amp;amp; f'''(0)=-\cos 0=-1.
 $$&lt;/p>
 &lt;p>Sustituyendo en la ecuación del polinomio obtenemos&lt;/p>
 &lt;p>$$p_{f,0}^3(x)=0+1\cdot x+\frac{0}{2}x^2+\frac{-1}{3!}x^3= x-\frac{x^3}{6}.$$&lt;/p>
-&lt;p>&lt;img src="../img/derivadas1/polinomio_mclaurin_seno.png" width="700px" alt="Gráfica del polinomio de Maclaurin del seno" />&lt;/p>
+&lt;img src="../img/derivadas1/polinomio_mclaurin_seno.png" width="700px" alt="Gráfica del polinomio de Maclaurin del seno" />
 &lt;h3 id="polinomios-de-maclaurin-de-funciones-elementales">Polinomios de Maclaurin de funciones elementales&lt;/h3>
 &lt;p>$$\renewcommand{\arraystretch}{2.5}
 \begin{array}{|c|c|}
@@ -6269,7 +7901,7 @@ e^x &amp;amp; \displaystyle 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots + \frac{x^n
 dicha aproximación.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Resto de Taylor&lt;/strong>. Si $f$ es una función para la que existe el su polinomio de Taylor de orden $n$ en $x_0$, $p_{f,x_0}^n$, entonces se define el *resto de Taylor* de orden $n$ para $f$ en $x_0$ como&lt;/p>
+&lt;p>&lt;strong>Definición - Resto de Taylor&lt;/strong>. Si $f$ es una función para la que existe el su polinomio de Taylor de orden $n$ en $x_0$, $p_{f,x_0}^n$, entonces se define el &lt;em>resto de Taylor&lt;/em> de orden $n$ para $f$ en $x_0$ como&lt;/p>
 &lt;p>$$r_{f,x_0}^n(x)=f(x)-p_{f,x_0}^n(x).$$&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -6343,7 +7975,7 @@ Usar con cuidado este comando pues los cambios posteriores al commit indicado se
 $$
 A = \left(
 \begin{array}{rrr}
-1 &amp;amp; 2 &amp;amp; 3\&lt;br>
+1 &amp;amp; 2 &amp;amp; 3\
 4 &amp;amp; 5 &amp;amp; 6
 \end{array}
 \right)
@@ -6351,8 +7983,8 @@ A = \left(
 \quad
 B = \left(
 \begin{array}{rr}
--1 &amp;amp; 0\&lt;br>
-0 &amp;amp; 1\&lt;br>
+-1 &amp;amp; 0\
+0 &amp;amp; 1\
 1 &amp;amp; 1
 \end{array}
 \right)
@@ -6945,11 +8577,11 @@ $$&lt;/p>
 &lt;p>Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\geq 0\ \forall x\in[a,b]$, entonces la integral definida&lt;/p>
 &lt;p>$$\int_a^b f(x)\,dx$$&lt;/p>
 &lt;p>mide le área que queda entre la el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$.&lt;/p>
-&lt;p>&lt;img src="../img/integrales/area_positive_function.svg" width="300px" alt="Area delimitada por el gráfico de una función positiva entre la función y el eje X en un intervalo" />&lt;/p>
+&lt;img src="../img/integrales/area_positive_function.svg" width="300px" alt="Area delimitada por el gráfico de una función positiva entre la función y el eje X en un intervalo" />
 &lt;h3 id="área-delimitada-por-una-función-negativa-y-el-eje-de-abscisas">Área delimitada por una función negativa y el eje de abscisas&lt;/h3>
 &lt;p>Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\leq 0\ \forall x\in[a,b]$, entonces el área que queda entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p>
 &lt;p>$$-\int_a^b f(x)\,dx.$$&lt;/p>
-&lt;p>&lt;img src="../img/integrales/area_negative_function.svg" width="300px" alt="Area delimitada por el gráfico de una función negativa entre la función y el eje X en un intervalo" />&lt;/p>
+&lt;img src="../img/integrales/area_negative_function.svg" width="300px" alt="Area delimitada por el gráfico de una función negativa entre la función y el eje X en un intervalo" />
 &lt;h3 id="área-delimitada-por-una-función-y-el-eje-de-abscisas">Área delimitada por una función y el eje de abscisas&lt;/h3>
 &lt;p>En general, si $f(x)$ es una función integrable en el intervalo $[a,b]$, no importa el signo de $f$ en $[a,b]$, el area entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p>
 &lt;p>$$\int_a^b \vert f(x)\vert\,dx.$$&lt;/p>
@@ -6957,7 +8589,7 @@ $$&lt;/p>
 &lt;h3 id="área-delimitada-por-dos-funciones">Área delimitada por dos funciones&lt;/h3>
 &lt;p>Si $f$ y $g$ son dos funciones integrables en el intervalo $[a,b]$, entonces el área limitada por los gráficos de $f$ y $g$ en el intervalo $[a,b]$ es&lt;/p>
 &lt;p>$$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p>
-&lt;p>&lt;img src="../img/integrales/area_between_functions.svg" width="400px" alt="Area delimitada por el gráfico de dos funciones en un intervalo" />&lt;/p></description></item><item><title>Ejercicios de Diccionarios</title><link>/docencia/python/ejercicios/diccionarios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/ejercicios/diccionarios/</guid><description>&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
+&lt;img src="../img/integrales/area_between_functions.svg" width="400px" alt="Area delimitada por el gráfico de dos funciones en un intervalo" /></description></item><item><title>Ejercicios de Diccionarios</title><link>/docencia/python/ejercicios/diccionarios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/ejercicios/diccionarios/</guid><description>&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>Escribir un programa que guarde en una variable el diccionario &lt;code>{'Euro':'€', 'Dollar':'$', 'Yen':'¥'}&lt;/code>, pregunte al usuario por una divisa y muestre su símbolo o un mensaje de aviso si la divisa no está en el diccionario.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/diccionarios/ejercicio1.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-2">Ejercicio 2&lt;/h2>
@@ -7345,7 +8977,7 @@ $$&lt;/p>
 &lt;p>Por último, en el caso de que la temperatura del aire fuese $T_a=0$ ºC y $k=1$, la solución general de la ecuación sería&lt;/p>
 &lt;p>$$T(t)=Ce^t,$$&lt;/p>
 &lt;p>lo que nos daría la siguiente familia de curvas integrales&lt;/p>
-&lt;p>&lt;img src="../img/edo/curvas_integrales.png" width="450px" alt="Gráficas de las soluciones de una ecuación diferencial ordinaria" />&lt;/p>
+&lt;img src="../img/edo/curvas_integrales.png" width="450px" alt="Gráficas de las soluciones de una ecuación diferencial ordinaria" />
 &lt;p>de las cuales, la solución del problema del valor incial es la función cuya gráfica pasa por el punto $(0,5)$.&lt;/p>
 &lt;h3 id="existencia-y-unicidad-de-soluciones">Existencia y unicidad de soluciones&lt;/h3>
 &lt;div class="alert alert-theo">
@@ -8335,7 +9967,7 @@ $$&lt;/p>
 T=\frac{\bar{X}_1-\bar{X}_2}{\hat{S}_p\sqrt{\frac{n_1+n_2}{n_1n_2}}} \sim T(n_1+n_2-2).
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $-t_{\alpha/2}^{n_1+n_2-2} &amp;lt; T &amp;lt; t_{\alpha/2}^{n_1+n_2-2}$.&lt;br>
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Se quiere comparar el rendimiento académico de dos grupos de alumnos, uno con 10 alumnos y otro con 12, que han seguido metodologías diferentes. Para ello se les realiza un examen y se obtienen las siguientes puntuaciones:&lt;/p>
 &lt;p>$$
 \begin{aligned}
@@ -8379,7 +10011,7 @@ $$&lt;/p>
 &lt;p>$$\Delta = \frac{(\frac{n_2-1}{n_1}\hat{S}_1^2-\frac{n_1-1}{n_2}\hat{S}_2^2)^2}{\frac{n_2-1}{n_1^2}\hat{S}_1^4+\frac{n_1-1}{n_2^2}\hat{S}_2^4}.
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $-t_{\alpha/2}^{g} &amp;lt; T &amp;lt; t_{\alpha/2}^{g}$.&lt;br>
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p>
 &lt;h3 id="contraste-de-comparación-de-varianzas-de-dos-poblaciones-normales">Contraste de comparación de varianzas de dos poblaciones normales&lt;/h3>
 &lt;p>Sean $X_1$ y $X_2$ dos variables aleatorias que cumplen las siguientes condiciones:&lt;/p>
 &lt;ul>
@@ -8405,7 +10037,7 @@ F= \frac{\frac{\frac{(n_1-1)\hat{S}_1^2}{\sigma_1^2}}{n_1-1}}{\frac{\frac{(n_2-1
 \frac{\sigma_2^2}{\sigma_1^2}\frac{\hat{S}_1^2}{\hat{S}_2^2}\sim F(n_1-1,n_2-1).
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $F_{\alpha/2}^{n_1-1,n_2-1} &amp;lt; F &amp;lt; F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;br>
-**Región de rechazo**: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Siguiendo con el ejemplo de las puntuaciones en dos grupos:&lt;/p>
 &lt;p>$$
 \begin{aligned}
@@ -8445,7 +10077,7 @@ $X_1\sim B(n_1,p_1)$ y $X_2\sim B(n_2,p_2)$. Si las muestras son grandes ($n_ip_
 \Rightarrow Z = \frac{\hat{p}_1-\hat{p_2}}{\sqrt{\frac{p_1(1-p_1)}{n_1}+\frac{p_2(1-p_2)}{n_2}}}\sim N(0,1)
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $z_{\alpha/2}&amp;lt; Z &amp;lt; z_{1-\alpha/2}$.&lt;br>
-**Región de rechazo**: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Se quiere comparar los porcentajes de aprobados en dos grupos que han seguido metodologías distintas. En el primer grupo han aprobado 24 alumnos de un total de 40, mientras que en el segundo han aprobado 48 de 60.&lt;/p>
 &lt;p>El contraste que se plantea es&lt;/p>
 &lt;p>$$
@@ -8743,11 +10375,11 @@ $$&lt;/p>
 &lt;/ul>
 &lt;h3 id="gráfica-de-una-función-de-dos-variables">Gráfica de una función de dos variables&lt;/h3>
 &lt;p>La representación gráfica cartesiana de una función de dos variables $f(x,y)$ es una superficie del espacio real $\mathbb{R}^3$ donde cada punto de la superficie tiene coordenadas $(x,y,z)$, siendo $z=f(x,y)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/coordenadas3D.png" width="300px" alt="Representación gráfica de una función de dos variables" />&lt;/p>
+&lt;img src="../img/derivadasn/coordenadas3D.png" width="300px" alt="Representación gráfica de una función de dos variables" />
 &lt;p>&lt;strong>Ejemplos&lt;/strong>. La función $f(x,y)=\dfrac{xy}{2}$ que mide el área de un triángulo de base $x$ y altura $y$ tiene la siguiente representación gráfica:&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/grafica_area_triangulo.png" width="250px" alt="Gráfica de la función que mide el área de un triángulo" />&lt;/p>
+&lt;img src="../img/derivadasn/grafica_area_triangulo.png" width="250px" alt="Gráfica de la función que mide el área de un triángulo" />
 &lt;p>Y la función $\displaystyle f(x,y)=\frac{\operatorname{sen}(x^2+y^2)}{\sqrt{x^2+y^2}}$ tiene la siguiente representación gráfica tan peculiar:&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/grafica_gota_agua.png" width="500px" alt="Gráfica de la función que representa las ondas creadas por una gota de agua" />&lt;/p>
+&lt;img src="../img/derivadasn/grafica_gota_agua.png" width="500px" alt="Gráfica de la función que representa las ondas creadas por una gota de agua" />
 &lt;h3 id="conjunto-de-nivel-de-un-campo-escalar">Conjunto de nivel de un campo escalar&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -8756,7 +10388,7 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Si $f(x,y)=x^2+y^2$ y $P=(1,1)$, el conjunto de nivel de $f$ que incluye al punto $P$ es&lt;/p>
 &lt;p>$$C_{f,2} = {(x,y): f(x,y)=f(1,1)=2} = {(x,y): x^2+y^2=2},$$&lt;/p>
 &lt;p>que es la circunferencia del plano real centrada en el origen y de radio $\sqrt{2}$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/conjunto_nivel2.png" width="300px" alt="Gráfica del conjunto de nivel de un paraboloide" />&lt;/p>
+&lt;img src="../img/derivadasn/conjunto_nivel2.png" width="300px" alt="Gráfica del conjunto de nivel de un paraboloide" />
 &lt;h3 id="funciones-parciales">Funciones parciales&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -8783,7 +10415,7 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$&lt;/p>
 &lt;p>Esta derivada parcial mide la tasa de variación instantánea de $f$ en el punto $P=(x_0,y_0)$ cuando $P$ se mueve en la dirección del eje $X$.&lt;/p>
 &lt;h3 id="interpretación-geométrica-de-la-derivada-parcial">Interpretación geométrica de la derivada parcial&lt;/h3>
 &lt;p>Geométricamente, $z=f(x,y)$ define una superficie. Si se corta esta superficie con el plano de ecuación $y=y_0$ (es decir, si $y$ se fija como una constante), la intersección de este plano con la superficie es una curva plana cuya pendiente en el punto $(x_0,y_0)$ es la derivada parcial de $f$ con respecto a $x$ en el punto $(x_0,y_0)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/grafica_tangente_parcial.png" width="400px" alt="Gráfica de la tangente a la intersección de una superficie con un plano" />&lt;/p>
+&lt;img src="../img/derivadasn/grafica_tangente_parcial.png" width="400px" alt="Gráfica de la tangente a la intersección de una superficie con un plano" />
 &lt;h3 id="derivada-parcial">Derivada parcial&lt;/h3>
 &lt;p>El concepto de derivada parcial visto para funciones de dos variables puede extenderse fácilmente para funciones de $n$ variables.&lt;/p>
 &lt;div class="alert alert-def">
@@ -8940,7 +10572,7 @@ $$&lt;/p>
 \end{aligned}
 $$&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La gráfica del paraboloide $f(x,y,z)=x^2+y^2-z=0$ y su plano tangente en el punto $P=(1,1,2)$ es&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/plano_tangente_paraboloide.png" width="300px" alt="Gráfica del plano tangente a un paraboloide" />&lt;/p>
+&lt;img src="../img/derivadasn/plano_tangente_paraboloide.png" width="300px" alt="Gráfica del plano tangente a un paraboloide" />
 &lt;h2 id="derivadas-parciales-de-segundo-orden">Derivadas parciales de segundo orden&lt;/h2>
 &lt;p>Las derivadas parciales de una función son, a su vez, funciones de varias variables que muchas veces pueden volverse a derivar parcialmente con respecto a alguna de sus variables.&lt;/p>
 &lt;div class="alert alert-def">
@@ -9043,7 +10675,7 @@ punto $P$ es&lt;/p>
 P^1_{f,P}(\mathbf{v}) = f(P)+\nabla f(P)\mathbf{v}
 \end{aligned}
 $$&lt;/p>
-&lt;p>es el &lt;em>polinomio de Taylor&lt;/em> de primer grado de $f$ en el punto $P$, y $R^1_{f,P}(\mathbf{v})$ es el *resto de taylor* para el vector $\mathbf{v}$, y mide el error cometido en la aproximación.&lt;/p>
+&lt;p>es el &lt;em>polinomio de Taylor&lt;/em> de primer grado de $f$ en el punto $P$, y $R^1_{f,P}(\mathbf{v})$ es el &lt;em>resto de taylor&lt;/em> para el vector $\mathbf{v}$, y mide el error cometido en la aproximación.&lt;/p>
 &lt;p>Se cumple que&lt;/p>
 &lt;p>$$\lim_{|\mathbf{v}|\rightarrow 0} \frac{R^1_{f,P}(\mathbf{v})}{|\mathbf{v}|} = 0$$&lt;/p>
 &lt;p>Obsérvese que el polinomio de Taylor de primer grado coincide con el plano tangente a $f$ en $P$.&lt;/p>
@@ -9074,7 +10706,7 @@ $$&lt;/p>
 P^2_{f,P}(\mathbf{v})&amp;amp;=f(P)+\nabla f(P)\mathbf{v}+\frac{1}{2}\nabla^2f(P)\mathbf{v}\cdot\mathbf{v}
 \end{aligned}
 $$&lt;/p>
-&lt;p>es el &lt;em>polinomio de Taylor&lt;/em> de segundo grado de $f$ en el punto $P$, y $R^2_{f,P}(\mathbf{v})$ es el *resto de taylor* para el vector $\mathbf{v}$.&lt;/p>
+&lt;p>es el &lt;em>polinomio de Taylor&lt;/em> de segundo grado de $f$ en el punto $P$, y $R^2_{f,P}(\mathbf{v})$ es el &lt;em>resto de taylor&lt;/em> para el vector $\mathbf{v}$.&lt;/p>
 &lt;p>Se cumple que&lt;/p>
 &lt;p>$$\lim_{|\mathbf{v}\rightarrow 0|} \frac{R^2_{f,P}(\mathbf{v})}{|\mathbf{v}|^2} = 0$$&lt;/p>
 &lt;p>lo que indica que el resto es mucho más pequeño que el cuadrado del módulo de $\mathbf{v}$.&lt;/p>
@@ -9136,12 +10768,12 @@ $$&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Para el campo escalar $f(x,y)=x^2+y^2$, resulta evidente que sólo tiene un mínimo en el origen $(0,0)$ ya que&lt;/p>
 &lt;p>$$f(0,0)=0 \leq f(x,y)=x^2+y^2,\ \forall x,y\in \mathbb{R}.$$&lt;/p>
 &lt;p>En este punto se cumple, $\nabla f(0,0) = 0$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/minimo_paraboloide.png" width="250px" alt="Gráfica del mínimo relativo de un paraboloide" />&lt;/p>
+&lt;img src="../img/derivadasn/minimo_paraboloide.png" width="250px" alt="Gráfica del mínimo relativo de un paraboloide" />
 &lt;h3 id="puntos-de-silla">Puntos de silla&lt;/h3>
 &lt;p>No todos los puntos críticos son extremos. Si se considera, por ejemplo, el campo escalar $f(x,y)=x^2-y^2$, su gradiente es&lt;/p>
 &lt;p>$$\nabla f(x,y) = (2x,-2y),$$&lt;/p>
 &lt;p>que sólo se anula en el punto $(0,0)$. Sin embargo, este punto no es un máximo relativo ya que los puntos $(x,0)$ del eje $X$ tienen imágenes $f(x,0)=x^2\geq 0=f(0,0)$, y tampoco es un mínimo relativo ya que los puntos $(0,y)$ del eje $Y$ tienen imágenes $f(0,y)=-y^2\leq 0=f(0,0)$. Este tipo de puntos que anulan el gradiente pero que no son extremos, se conocen como &lt;em>puntos de silla&lt;/em>.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/punto_silla.png" width="250px" alt="Gráfica de un punto de silla" />&lt;/p>
+&lt;img src="../img/derivadasn/punto_silla.png" width="250px" alt="Gráfica de un punto de silla" />
 &lt;h3 id="determinación-de-los-extremos-de-un-campo-escalar">Determinación de los extremos de un campo escalar&lt;/h3>
 &lt;p>De la fórmula de Taylor de segundo grado para un campo escalar $f$ en un punto $P$ se deduce que&lt;/p>
 &lt;p>$$f(P+\mathbf{v})-f(P)\approx \nabla f(P)\mathbf{v}+\frac{1}{2}\nabla^2f(P)\mathbf{v}\cdot\mathbf{v}.$$&lt;/p>
@@ -9193,7 +10825,7 @@ $$&lt;/p>
 &lt;li>Punto $(-1,1)$: $Hf(-1,1)=4&amp;gt;0$ y $\frac{\partial^2}{\partial x^2}(-1,1)=-2&amp;lt;0 \Rightarrow$ Máximo relativo.&lt;/li>
 &lt;li>Punto $(-1,-1)$: $Hf(-1,-1)=-4&amp;lt;0 \Rightarrow$ Punto de silla.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="../img/derivadasn/determinacion_extremos.png" width="600px" alt="Gráfica de los extremos relativos y los puntos de silla de una función" />&lt;/p>
+&lt;img src="../img/derivadasn/determinacion_extremos.png" width="600px" alt="Gráfica de los extremos relativos y los puntos de silla de una función" />
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -11826,7 +13458,12 @@ plt.show()
 &lt;ul>
 &lt;li>
 &lt;a href="https://www.edx.org/course/programming-for-everybody-getting-started-with-python" target="_blank" rel="noopener">Curso &amp;ldquo;Python para todos&amp;rdquo;&lt;/a>.&lt;/li>
-&lt;/ul></description></item><item><title>Rúbricas</title><link>/proyecto/rubricas/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>/proyecto/rubricas/</guid><description>&lt;h2 id="acceso-a-la-aplicaciónhttpnubeaprendeconalfesshinyevaluacion-rubrica">
+&lt;/ul></description></item><item><title>Epidemiología para tiempos de pandemia</title><link>/post/epidemiologia-tiempos-pandemias/</link><pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate><guid>/post/epidemiologia-tiempos-pandemias/</guid><description>&lt;p>Debido a la epidemia provocada por el coronavirus, la Epidemiología se ha convertido en una de las ramas de la medicina que más interés despiertan.&lt;/p>
+&lt;p>En estos tiempos de pandemia un montón de términos técnicos de la Epidemiología se han convertido en lugares comunes gracias a los medios de comunicación. Sin embargo, muchos de estos términos se utilizan de manera errónea, incluso por los propios medios de comunicación, y generan confusión para la población no experta.&lt;/p>
+&lt;p>Por ello, y con motivo de la
+&lt;a href="http://www.madrimasd.org/semanacienciaeinnovacion/" target="_blank" rel="noopener">Semana de la Ciencia y la Innovación de Madrid 2021&lt;/a>, he preparado un tutorial para explicar al público en general los principales conceptos epidemiológicos usados en el control de enfermedades como la COVID e ilustrar su uso con ejemplos de aplicación.&lt;/p>
+&lt;p>Podéis acceder a él en el siguiente enlace:
+&lt;a href="/docencia/estadistica/tutoriales/epidemiologia/#valores-predictivos-de-un-test">Tutorial de Epidemiología&lt;/a>&lt;/p></description></item><item><title>Rúbricas</title><link>/proyecto/rubricas/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>/proyecto/rubricas/</guid><description>&lt;h2 id="acceso-a-la-aplicaciónhttpnubeaprendeconalfesshinyevaluacion-rubrica">
 &lt;a href="http://nube.aprendeconalf.es/shiny/evaluacion-rubrica/" target="_blank" rel="noopener">Acceso a la aplicación&lt;/a>&lt;/h2>
 &lt;h2>Índice&lt;/h2>
 &lt;nav id="TableOfContents">
@@ -11854,7 +13491,7 @@ plt.show()
 &lt;h2 id="cómo-citar-rúbricas">¿Cómo citar Rúbricas?&lt;/h2>
 &lt;p>Anemone, Gloria., Sánchez-Alberca, Alfredo. (2021). Rúbricas (version 1.0) [software]. Obtenido de:
 &lt;a href="https://aprendeconalf.es/es/proyecto/rubricas" target="_blank" rel="noopener">https://aprendeconalf.es/es/proyecto/rubricas&lt;/a>.&lt;/p></description></item><item><title>Tipos de estudios estadísticos</title><link>/post/estudios-estadisticos-r/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/post/estudios-estadisticos-r/</guid><description>&lt;p>Acabo de publicar una
-&lt;a href="https://aprendeconalf.es/docencia/r/estudios-estadisticos" target="_blank" rel="noopener">guía básica con los principales tipos de estudios estadísticos&lt;/a> y ejemplos realizados con el programa de análisis de datos R.&lt;/p>
+&lt;a href="https://aprendeconalf.es/docencia/estadistica/tutoriales/tipos-estudios-estadisticos" target="_blank" rel="noopener">guía básica con los principales tipos de estudios estadísticos&lt;/a> y ejemplos realizados con el programa de análisis de datos R.&lt;/p>
 &lt;p>Una de las preguntas más recurrentes de suelen hacerme mis compañeros cuando están realizando un estudio de investigación es &lt;em>¿qué tipo de estudio estadístico tengo que aplicar?&lt;/em>. Con esta guía pretendo ayudar a encontrar la respuesta a todos aquellos que se hagan esta pregunta.&lt;/p>
 &lt;p>En esta guía no se abordan todos los tipos de estudios estadísticos que existen, pero si lo más habituales, dependiendo del objetivo perseguido, el número de variables que intervienen y el tipo de estas variables. Para facilitar la comprensión de cada tipo de estudio se muestra un ejemplo sencillo implementado con R.&lt;/p>
 &lt;p>Espero que os sea útil.&lt;/p></description></item><item><title>Examen de Inteligencia de los Negocios 2021-06-05</title><link>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-06-05/</link><pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate><guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-06-05/</guid><description>&lt;p>Grado: Inteligencia de los Negocios&lt;br>
@@ -13826,7 +15463,7 @@ $n=1$ y $p=1$.
 Fecha: 17 de Diciembre de 2018&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>El siguiente gráfico representa la distribución acumulada del número de fármacos defectuosos diarios producidos por una máquina en una muestra de 40 fármacos.&lt;/p>
-&lt;p>&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" />&lt;/p>
+&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" />
 &lt;ol>
 &lt;li>Construir la tabla de frecuencias del número de fármacos defectuosos.&lt;/li>
 &lt;li>Dibujar el diagrama de caja y bigotes del número de fármacos defectuosos.&lt;/li>
@@ -13862,7 +15499,7 @@ Solución
 $$&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/boxplot-1.svg" title="plot of chunk boxplot" alt="plot of chunk boxplot" />&lt;/p>
+&lt;img src="../img/boxplot-1.svg" title="plot of chunk boxplot" alt="plot of chunk boxplot" />
 &lt;ol start="3">
 &lt;li>$\bar x=3.975$ fármacos, $s_x=1.9936$ fármacos y $g_1=0.3184$. Por tanto, la distribución es un poco asimétrica hacia la derecha.&lt;/li>
 &lt;li>$cv_x=0.5015$, $\bar y=13.925$ fármacos, $s_y=5.9808$ fármacos y $cv_y=0.4295$.&lt;br>
@@ -14078,8 +15715,8 @@ Solución
 &lt;ol>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/diagrama-caja-distancia-minima-enfoque-1.svg" title="Diagrama de caja de la distancia mínima de enfoque" alt="Diagrama de caja de la distancia mínima de enfoque" />&lt;br>
-No hay datos atípicos.&lt;/p>
+&lt;img src="../img/diagrama-caja-distancia-minima-enfoque-1.svg" title="Diagrama de caja de la distancia mínima de enfoque" alt="Diagrama de caja de la distancia mínima de enfoque" />
+No hay datos atípicos.
 &lt;ol start="2">
 &lt;li>Menores de 40: $\bar y=13.6$ cm, $s^2_y=1.04$ cm², $s_y=1.0198$ cm y $cv_y=0.075$.&lt;br>
 Mayores de 40: $\bar y=25.2$ cm, $s^2_y=25.36$ cm², $s_y=5.0359$ cm y $cv_y=0.1998$.&lt;br>
@@ -14092,7 +15729,6 @@ Mayores de 40: $z(30)=0.95$.&lt;br>
 Así pues, una distancia de 12 cm en menores de 40 es relativamente menor.&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/diagrama-dispersion-edad-distancia-minima-enfoque-1.svg" title="Diagrama de dispersión de la edad y la distancia mínima de enfoque" alt="Diagrama de dispersión de la edad y la distancia mínima de enfoque" style="display: block; margin: auto;" />&lt;/p>
 &lt;p>Se observan claramente dos tendencias, una para los menores de 40 y la otra para los mayores.
 En el caso de los menores no parece haber una relación fuerte entre la distancia mínima de enfoque y la edad, mientras que en el caso de los mayores si parece que la hay y además es lineal.&lt;/p>
 &lt;ol start="6">
@@ -14139,7 +15775,7 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>
-&lt;p>&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />&lt;/p>
+&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />
 &lt;/li>
 &lt;li>
 &lt;p>Con programa de prevención: $C_1=2$ lesiones, $C_3=4$ lesiones, $RI=2$ lesiones.&lt;br>
@@ -14398,7 +16034,9 @@ Solución
 &lt;div class="collapse card " id="spoiler-1">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Diagrama de dispersión de lesiones vs tiempo de calentamiento" alt="Diagrama de dispersión de lesiones vs tiempo de calentamiento" width="600" />&lt;/li>
+&lt;li>
+&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Diagrama de dispersión de lesiones vs tiempo de calentamiento" alt="Diagrama de dispersión de lesiones vs tiempo de calentamiento" width="600" />
+&lt;/li>
 &lt;li>$\bar x=23.7$ min, $s_x^2=32.01$ min$^2$.&lt;br>
 $\overline{\log(x)}=3.1373$ log(min), $s_{\log(x)}^2=0.0565$ log(min)$^2$.&lt;br>
 $\bar y=15.7$ lesiones, $s_y^2=137.81$ lesiones$^2$.&lt;br>
@@ -14524,7 +16162,7 @@ Fecha: 9 de abril de 2018&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>En un estudio se ha medido el arco de rotación de la cabeza en personas que trabajan habitualmente con ordenador y en personas que no.
 Los resultados aparecen en el siguiente histograma.&lt;/p>
-&lt;p>&lt;img src="../img/histograma_arco_rotacion-1.svg" title="plot of chunk histograma_arco_rotacion" alt="plot of chunk histograma_arco_rotacion" />&lt;/p>
+&lt;img src="../img/histograma_arco_rotacion-1.svg" title="plot of chunk histograma_arco_rotacion" alt="plot of chunk histograma_arco_rotacion" />
 &lt;p>Se pide:&lt;/p>
 &lt;ol>
 &lt;li>Dibujar el polígono de frecuencias relativas acumuladas del arco de rotación de la cabeza en personas que trabajan con ordenador.&lt;/li>
@@ -14547,16 +16185,23 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/poligono_frecuencia_acumulada_arco_rotacion-1.svg" title="plot of chunk poligono_frecuencia_acumulada_arco_rotacion" alt="plot of chunk poligono_frecuencia_acumulada_arco_rotacion" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/li>
-&lt;li>Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br>
+&lt;li>
+&lt;p>$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br>
 Sin ordenador: $\bar x=151.0714$ grados, $s_x^2=245.2806$ grados², $s_x=15.6614$ grados y $cv_x=0.1037$&lt;br>
-La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/li>
-&lt;li>$\bar x=141.3793$.&lt;/li>
-&lt;li>Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/li>
-&lt;li>Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/li>
+La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\bar x=141.3793$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -14880,7 +16525,7 @@ Solución
 Fecha: 18 de Diciembre de 2017&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>En un examen de estadística al que se han presentado 66 alumnos se ha contado el número de exámenes finalizados cada media hora, obteniendo el siguiente polígono:&lt;/p>
-&lt;p>&lt;img src="../img/poligono_acumulado_tiempo_examen.svg" alt="polígono de frecuencias acumuladas del tiempo de finalización de un examen" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/poligono_acumulado_tiempo_examen.svg" alt="polígono de frecuencias acumuladas del tiempo de finalización de un examen" style="display: block; margin: auto;" />
 &lt;p>Se pide:&lt;/p>
 &lt;ol>
 &lt;li>Construir la tabla de frecuencias del tiempo de finalización del examen.&lt;/li>
@@ -14988,7 +16633,7 @@ $x(35)=50.6789$ años.&lt;/p>
 Fecha: 27 de Noviembre de 2017&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>El siguiente diagrama muestra la distribución de emisiones de NO₂ (𝜇g/m³) en Madrid en los días de octubre de 2017.&lt;/p>
-&lt;p>&lt;img src="../img/histograma-emisiones-no2-1.svg" title="plot of chunk histograma-emisiones-no2" alt="plot of chunk histograma-emisiones-no2" />&lt;/p>
+&lt;img src="../img/histograma-emisiones-no2-1.svg" title="plot of chunk histograma-emisiones-no2" alt="plot of chunk histograma-emisiones-no2" />
 &lt;ol>
 &lt;li>La normativa europea sobre calidad del aire establece que el valor medio mensual no debe exceder de 40 𝜇g/m³. ¿Se ha cumplido la norma en el mes de Octubre?
 ¿Es este un valor representativo de las mediciones tomadas en octubre?&lt;/li>
@@ -15428,11 +17073,12 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/poligono_frecuencias_relativas_tiempo_espera_urgencias-1.svg" title="plot of chunk poligono_frecuencias_relativas_tiempo_espera_urgencias" alt="plot of chunk poligono_frecuencias_relativas_tiempo_espera_urgencias" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$Me=18.89$ min.&lt;/li>
-&lt;li>El 10% de los pacientes han tenido que esperar más de 18 minutos.&lt;/li>
+&lt;li>
+&lt;p>$Me=18.89$ min.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>El 10% de los pacientes han tenido que esperar más de 18 minutos.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -15466,14 +17112,17 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/fertility_boxplot-1.svg" title="plot of chunk fertility_boxplot" alt="plot of chunk fertility_boxplot" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$\bar a=3.1875$ embarazos, $s_a^2=2.2773$ embarazos², $s_a=1.5091$ embarazos, $cv_a=0.4734$.&lt;br>
+&lt;li>
+&lt;p>$\bar a=3.1875$ embarazos, $s_a^2=2.2773$ embarazos², $s_a=1.5091$ embarazos, $cv_a=0.4734$.&lt;br>
 $\bar b=1.25$ embarazos, $s_b^2=1.6875$ embarazos², $s_b=1.299$ embarazos, $cv_b=1.0392$.&lt;br>
-Como el coeficiente de variación de $A$ es menor que el coeficiente de variación de $B$, la media de la población $A$ es más representativa que la media de la población $B$.&lt;/li>
-&lt;li>$g_{1,a}=-0.211$ y $g_{1,b}=1.4113$, de modo que la distribución de $B$ es más asimétrica que la distribución de $A$.&lt;/li>
-&lt;li>$z_a(5)=1.2011$ y $z_b(3)=1.3472$, de modo que 3 embarazos en la población $B$ es relativamente mayor que 5 embarazos en la población $A$.&lt;/li>
+Como el coeficiente de variación de $A$ es menor que el coeficiente de variación de $B$, la media de la población $A$ es más representativa que la media de la población $B$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$g_{1,a}=-0.211$ y $g_{1,b}=1.4113$, de modo que la distribución de $B$ es más asimétrica que la distribución de $A$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$z_a(5)=1.2011$ y $z_b(3)=1.3472$, de modo que 3 embarazos en la población $B$ es relativamente mayor que 5 embarazos en la población $A$.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>

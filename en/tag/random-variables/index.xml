@@ -908,15 +908,6 @@ Solution
 &lt;li>$P(X&amp;lt;1)=0.5$, $P(X&amp;gt;0)=1$, $P(X=1/4)=0$ and $P(1/2\leq X\leq 3/2)=0.875$.&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>$$
-F(x)=
-\begin{cases}
-0 &amp;amp; \text{if $x&amp;lt;0$,} \newline
-x^2/2 &amp;amp; \text{if $0\leq x&amp;lt; 1$,} \newline
-x-5 &amp;amp; \text{if $1\leq x&amp;lt;1.5$,} \newline
-1 &amp;amp; \text{if $1.5\leq x$.}
-\end{cases}
-$$
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -938,15 +929,13 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="img/vac-6a-1.svg" title="plot of chunk vac-6a" alt="plot of chunk vac-6a" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="2">
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="img/vac-6b-1.svg" title="plot of chunk vac-6b" alt="plot of chunk vac-6b" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="3">
-&lt;li>$P(X&amp;lt;6.25)=0.25$ and $P(X&amp;gt;6.5)=0.5$.&lt;/li>
-&lt;li>$\mu=6.5$.&lt;/li>
+&lt;li>
+&lt;p>$P(X&amp;lt;6.25)=0.25$ and $P(X&amp;gt;6.5)=0.5$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\mu=6.5$.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>

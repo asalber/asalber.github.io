@@ -90,7 +90,7 @@ x &amp;amp; f(x) \newline
 \Downarrow\newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{1}{\sqrt{x^2-1}}
 \end{array}$$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_1.png" width="300px" alt="Gráfica de una función que no tiene límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_1.png" width="300px" alt="Gráfica de una función que no tiene límite" />
 &lt;h3 id="límites-que-no-existen-ii">Límites que no existen (II)&lt;/h3>
 &lt;p>Cuando los límites laterales no coinciden entonces no existe el límite&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos la función $f(x)=\dfrac{\lvert x\rvert}{x}$ y veamos que pasa cuando $x\rightarrow 0$:&lt;/p>
@@ -129,7 +129,7 @@ x &amp;amp; f(x) \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{|x|}{x}
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_2.png" width="300px" alt="Gráfica de una función que no tiene límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_2.png" width="300px" alt="Gráfica de una función que no tiene límite" />
 &lt;h3 id="límites-que-no-existen-iii">Límites que no existen (III)&lt;/h3>
 &lt;p>A veces, cuando $x\rightarrow a$ los valores de $f(x)$ crecen o decrecen infinitamente y entonces no existe el límite. En este caso se dice que la función &lt;em>diverge&lt;/em> y se escribe&lt;/p>
 &lt;p>$$\lim_{x\rightarrow a}f(x)=\pm \infty$$&lt;/p>
@@ -170,7 +170,7 @@ x &amp;amp; f(x) \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{1}{x^2}=\infty
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_3.png" width="300px" alt="Gráfica de una función que no tiene límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_3.png" width="300px" alt="Gráfica de una función que no tiene límite" />
 &lt;h3 id="límites-que-no-existen-iv">Límites que no existen (IV)&lt;/h3>
 &lt;p>A veces, el límite de un función en un punto puede no existir porque la función oscila rápidamente al acercarnos a dicho punto.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Consideremos la función $f(x)=\operatorname{sen} \dfrac{1}{x}$ y veamos que pasa cuando $x\rightarrow 0$:&lt;/p>
@@ -217,7 +217,7 @@ x &amp;amp; f(x) \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0^+}\operatorname{sen} \frac{1}{x}
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_no_existe_4.png" width="300px" alt="Gráfica de una función que no tiene límitee" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_no_existe_4.png" width="300px" alt="Gráfica de una función que no tiene límitee" />
 &lt;h3 id="límites-en-el-infinito">Límites en el infinito&lt;/h3>
 &lt;p>Si $f(x)$ tiende a $l$ cuando $x$ crece infinitamente, entonces se dice que $l$ es el &lt;em>límite en el infinito&lt;/em> de $f(x)$ cuando $x\rightarrow +\infty$, y se escribe&lt;/p>
 &lt;p>$$\lim_{x\rightarrow +\infty}f(x)=l.$$&lt;/p>
@@ -256,7 +256,7 @@ x &amp;amp; f(x)=1/x \newline
 \lim_{x\rightarrow -\infty}\frac{1}{x}=0
 \end{array}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/limite_infinito.png" width="300px" alt="Gráfica de una función con límite en el infinito" />&lt;/p>
+&lt;img src="../img/limites_continuidad/limite_infinito.png" width="300px" alt="Gráfica de una función con límite en el infinito" />
 &lt;h3 id="definición-de-límite">Definición de límite&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -265,7 +265,7 @@ $$&lt;/p>
 &lt;p>si para cualquier valor $\varepsilon&amp;gt;0$ existe un número $\delta&amp;gt;0$ tal que, $|f(x)-l|&amp;lt;\varepsilon$ siempre que $0&amp;lt;|x-a|&amp;lt;\delta$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/limites_continuidad/definicion_limite.png" width="300px" alt="Explicación gráfica de la definición de límite" />&lt;/p>
+&lt;img src="../img/limites_continuidad/definicion_limite.png" width="300px" alt="Explicación gráfica de la definición de límite" />
 &lt;h3 id="definición-de-límite-en-el-infinito">Definición de límite en el infinito&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -491,7 +491,7 @@ $$&lt;/p>
 &lt;p>Las asíntotas verticales deben buscarse en los puntos donde no está definida la función, pero si lo está en las proximidades.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La recta $x=2$ es una asíntota vertical de $f(x)=\dfrac{x+1}{x-2}$ ya que&lt;/p>
 &lt;p>$$\lim_{x\rightarrow 2^-}\frac{x+1}{x-2} =-\infty, \mbox{ y } \lim_{x\rightarrow 2^+}\frac{x+1}{x-2} =\infty.$$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/asintota_vertical.png" width="350px" alt="Gráfica de una asíntota vertical" />&lt;/p>
+&lt;img src="../img/limites_continuidad/asintota_vertical.png" width="350px" alt="Gráfica de una asíntota vertical" />
 &lt;h3 id="asíntotas-horizontales">Asíntotas horizontales&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -506,7 +506,7 @@ $$&lt;/p>
 \lim_{x\rightarrow +\infty}\frac{x+1}{x-2}&amp;amp;= \lim_{x\rightarrow +\infty}1+\frac{3}{x-2} = 1.
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/asintota_horizontal.png" width="350px" alt="Gráfica de una asíntota horizontal" />&lt;/p>
+&lt;img src="../img/limites_continuidad/asintota_horizontal.png" width="350px" alt="Gráfica de una asíntota horizontal" />
 &lt;h3 id="asíntotas-oblicuas">Asíntotas oblicuas&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -523,7 +523,7 @@ $$&lt;/p>
 \lim_{x\rightarrow \pm\infty}1+\frac{x}{x-1} = 1
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/asintota_oblicua.png" width="350px" alt="Gráfica de una asíntota vertical" />&lt;/p>
+&lt;img src="../img/limites_continuidad/asintota_oblicua.png" width="350px" alt="Gráfica de una asíntota vertical" />
 &lt;h2 id="continuidad">Continuidad&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -560,7 +560,7 @@ $$&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La función $f(x)=\dfrac{x^2-1}{x-1}$ tiene una discontinuidad evitable en $x=1$ ya que la función no está definida en $x=1$ pero&lt;/p>
 &lt;p>$$\lim_{x\rightarrow 2}\frac{x^2-1}{x-1} = \lim_{x\rightarrow 2}x+1=2.$$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_evitable.png" width="300px" alt="Gráfica de una discontinuidad evitable" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_evitable.png" width="300px" alt="Gráfica de una discontinuidad evitable" />
 &lt;h3 id="discontinuidad-de-1ª-especie-de-salto-finito">Discontinuidad de 1ª especie de salto finito&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -577,7 +577,7 @@ $$&lt;/p>
 \end{aligned}
 $$&lt;/p>
 &lt;p>Salto $= 1-(-1)=2$.&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_salto_finito.png" width="350px" alt="Gráfica de una discontinuidad de salto finito" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_salto_finito.png" width="350px" alt="Gráfica de una discontinuidad de salto finito" />
 &lt;h3 id="discontinuidad-de-1ª-especie-de-salto-infinito">Discontinuidad de 1ª especie de salto infinito&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -593,7 +593,7 @@ $$&lt;/p>
 \lim_{x\rightarrow 0^+}e^{1/x}&amp;amp;= \infty
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_salto_infinito.png" width="300px" alt="Gráfica de una discontinuidad de salto infinito" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_salto_infinito.png" width="300px" alt="Gráfica de una discontinuidad de salto infinito" />
 &lt;h3 id="discontinuidad-de-2ª-especie">Discontinuidad de 2ª especie&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -608,7 +608,7 @@ $$&lt;/p>
 &amp;amp; \lim_{x\rightarrow 1^+}\frac{1}{\sqrt{x^2-1}}=\infty
 \end{aligned}
 $$&lt;/p>
-&lt;p>&lt;img src="../img/limites_continuidad/discontinuidad_2_especie.png" width="300px" alt="Gráfica de una discontinuidad de 2ª especie" />&lt;/p>
+&lt;img src="../img/limites_continuidad/discontinuidad_2_especie.png" width="300px" alt="Gráfica de una discontinuidad de 2ª especie" />
 &lt;p>&lt;strong>Notas&lt;/strong>&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>

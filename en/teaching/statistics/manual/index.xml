@@ -447,7 +447,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-856192473" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-621345987" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -456,7 +456,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-856192473', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-621345987', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -1516,7 +1516,7 @@ Observe that the regression lines are different!
 &lt;p>The most important parameter of a regression line is the slope.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;strong>Definition - Regression coefficient&lt;/strong> $b_{yx}$. Given a sample of a two-dimensional variable $(X,Y)$, the _regression coefficient_ of the regression line of $Y$ on $X$ is its slope,$$b_{yx} = \frac{s_{xy}}{s_x^2}$$
+&lt;strong>Definition - Regression coefficient&lt;/strong> $b_{yx}$. Given a sample of a two-dimensional variable $(X,Y)$, the &lt;em>regression coefficient&lt;/em> of the regression line of $Y$ on $X$ is its slope,$$b_{yx} = \frac{s_{xy}}{s_x^2}$$
 &lt;/div>
 &lt;/div>
 &lt;div class="alert alert-warning">
@@ -1548,7 +1548,7 @@ It measures how the dependent variable changes in relation to the independent on
 &lt;p>To measure the goodness of fit of a regression model is common to use the &lt;em>residual variance&lt;/em>.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definition - Sample residual variance&lt;/strong> $s_{ry}^2$. Given a regression model $y=f(x)$ of a two-dimensional variable $(X,Y)$, its _sample residual variance_ is the average of the squared residuals,&lt;/p>
+&lt;p>&lt;strong>Definition - Sample residual variance&lt;/strong> $s_{ry}^2$. Given a regression model $y=f(x)$ of a two-dimensional variable $(X,Y)$, its &lt;em>sample residual variance&lt;/em> is the average of the squared residuals,&lt;/p>
 &lt;p>$$s_{ry}^2 = \frac{\sum e_{ij}^2n_{ij}}{n} = \frac{\sum (y_j - f(x_i))^2n_{ij}}{n}.$$&lt;/p>
 &lt;/div>
 &lt;/div>

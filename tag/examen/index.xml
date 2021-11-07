@@ -1617,7 +1617,7 @@ $n=1$ y $p=1$.
 Fecha: 17 de Diciembre de 2018&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>El siguiente gráfico representa la distribución acumulada del número de fármacos defectuosos diarios producidos por una máquina en una muestra de 40 fármacos.&lt;/p>
-&lt;p>&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" />&lt;/p>
+&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" />
 &lt;ol>
 &lt;li>Construir la tabla de frecuencias del número de fármacos defectuosos.&lt;/li>
 &lt;li>Dibujar el diagrama de caja y bigotes del número de fármacos defectuosos.&lt;/li>
@@ -1653,7 +1653,7 @@ Solución
 $$&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/boxplot-1.svg" title="plot of chunk boxplot" alt="plot of chunk boxplot" />&lt;/p>
+&lt;img src="../img/boxplot-1.svg" title="plot of chunk boxplot" alt="plot of chunk boxplot" />
 &lt;ol start="3">
 &lt;li>$\bar x=3.975$ fármacos, $s_x=1.9936$ fármacos y $g_1=0.3184$. Por tanto, la distribución es un poco asimétrica hacia la derecha.&lt;/li>
 &lt;li>$cv_x=0.5015$, $\bar y=13.925$ fármacos, $s_y=5.9808$ fármacos y $cv_y=0.4295$.&lt;br>
@@ -1869,8 +1869,8 @@ Solución
 &lt;ol>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/diagrama-caja-distancia-minima-enfoque-1.svg" title="Diagrama de caja de la distancia mínima de enfoque" alt="Diagrama de caja de la distancia mínima de enfoque" />&lt;br>
-No hay datos atípicos.&lt;/p>
+&lt;img src="../img/diagrama-caja-distancia-minima-enfoque-1.svg" title="Diagrama de caja de la distancia mínima de enfoque" alt="Diagrama de caja de la distancia mínima de enfoque" />
+No hay datos atípicos.
 &lt;ol start="2">
 &lt;li>Menores de 40: $\bar y=13.6$ cm, $s^2_y=1.04$ cm², $s_y=1.0198$ cm y $cv_y=0.075$.&lt;br>
 Mayores de 40: $\bar y=25.2$ cm, $s^2_y=25.36$ cm², $s_y=5.0359$ cm y $cv_y=0.1998$.&lt;br>
@@ -1883,7 +1883,6 @@ Mayores de 40: $z(30)=0.95$.&lt;br>
 Así pues, una distancia de 12 cm en menores de 40 es relativamente menor.&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/diagrama-dispersion-edad-distancia-minima-enfoque-1.svg" title="Diagrama de dispersión de la edad y la distancia mínima de enfoque" alt="Diagrama de dispersión de la edad y la distancia mínima de enfoque" style="display: block; margin: auto;" />&lt;/p>
 &lt;p>Se observan claramente dos tendencias, una para los menores de 40 y la otra para los mayores.
 En el caso de los menores no parece haber una relación fuerte entre la distancia mínima de enfoque y la edad, mientras que en el caso de los mayores si parece que la hay y además es lineal.&lt;/p>
 &lt;ol start="6">
@@ -1930,7 +1929,7 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>
-&lt;p>&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />&lt;/p>
+&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />
 &lt;/li>
 &lt;li>
 &lt;p>Con programa de prevención: $C_1=2$ lesiones, $C_3=4$ lesiones, $RI=2$ lesiones.&lt;br>
@@ -2189,7 +2188,9 @@ Solución
 &lt;div class="collapse card " id="spoiler-1">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Diagrama de dispersión de lesiones vs tiempo de calentamiento" alt="Diagrama de dispersión de lesiones vs tiempo de calentamiento" width="600" />&lt;/li>
+&lt;li>
+&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Diagrama de dispersión de lesiones vs tiempo de calentamiento" alt="Diagrama de dispersión de lesiones vs tiempo de calentamiento" width="600" />
+&lt;/li>
 &lt;li>$\bar x=23.7$ min, $s_x^2=32.01$ min$^2$.&lt;br>
 $\overline{\log(x)}=3.1373$ log(min), $s_{\log(x)}^2=0.0565$ log(min)$^2$.&lt;br>
 $\bar y=15.7$ lesiones, $s_y^2=137.81$ lesiones$^2$.&lt;br>
@@ -2315,7 +2316,7 @@ Fecha: 9 de abril de 2018&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>En un estudio se ha medido el arco de rotación de la cabeza en personas que trabajan habitualmente con ordenador y en personas que no.
 Los resultados aparecen en el siguiente histograma.&lt;/p>
-&lt;p>&lt;img src="../img/histograma_arco_rotacion-1.svg" title="plot of chunk histograma_arco_rotacion" alt="plot of chunk histograma_arco_rotacion" />&lt;/p>
+&lt;img src="../img/histograma_arco_rotacion-1.svg" title="plot of chunk histograma_arco_rotacion" alt="plot of chunk histograma_arco_rotacion" />
 &lt;p>Se pide:&lt;/p>
 &lt;ol>
 &lt;li>Dibujar el polígono de frecuencias relativas acumuladas del arco de rotación de la cabeza en personas que trabajan con ordenador.&lt;/li>
@@ -2338,16 +2339,23 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/poligono_frecuencia_acumulada_arco_rotacion-1.svg" title="plot of chunk poligono_frecuencia_acumulada_arco_rotacion" alt="plot of chunk poligono_frecuencia_acumulada_arco_rotacion" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/li>
-&lt;li>Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br>
+&lt;li>
+&lt;p>$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br>
 Sin ordenador: $\bar x=151.0714$ grados, $s_x^2=245.2806$ grados², $s_x=15.6614$ grados y $cv_x=0.1037$&lt;br>
-La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/li>
-&lt;li>$\bar x=141.3793$.&lt;/li>
-&lt;li>Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/li>
-&lt;li>Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/li>
+La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\bar x=141.3793$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -2671,7 +2679,7 @@ Solución
 Fecha: 18 de Diciembre de 2017&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>En un examen de estadística al que se han presentado 66 alumnos se ha contado el número de exámenes finalizados cada media hora, obteniendo el siguiente polígono:&lt;/p>
-&lt;p>&lt;img src="../img/poligono_acumulado_tiempo_examen.svg" alt="polígono de frecuencias acumuladas del tiempo de finalización de un examen" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/poligono_acumulado_tiempo_examen.svg" alt="polígono de frecuencias acumuladas del tiempo de finalización de un examen" style="display: block; margin: auto;" />
 &lt;p>Se pide:&lt;/p>
 &lt;ol>
 &lt;li>Construir la tabla de frecuencias del tiempo de finalización del examen.&lt;/li>
@@ -2779,7 +2787,7 @@ $x(35)=50.6789$ años.&lt;/p>
 Fecha: 27 de Noviembre de 2017&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>El siguiente diagrama muestra la distribución de emisiones de NO₂ (𝜇g/m³) en Madrid en los días de octubre de 2017.&lt;/p>
-&lt;p>&lt;img src="../img/histograma-emisiones-no2-1.svg" title="plot of chunk histograma-emisiones-no2" alt="plot of chunk histograma-emisiones-no2" />&lt;/p>
+&lt;img src="../img/histograma-emisiones-no2-1.svg" title="plot of chunk histograma-emisiones-no2" alt="plot of chunk histograma-emisiones-no2" />
 &lt;ol>
 &lt;li>La normativa europea sobre calidad del aire establece que el valor medio mensual no debe exceder de 40 𝜇g/m³. ¿Se ha cumplido la norma en el mes de Octubre?
 ¿Es este un valor representativo de las mediciones tomadas en octubre?&lt;/li>
@@ -3069,11 +3077,12 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/poligono_frecuencias_relativas_tiempo_espera_urgencias-1.svg" title="plot of chunk poligono_frecuencias_relativas_tiempo_espera_urgencias" alt="plot of chunk poligono_frecuencias_relativas_tiempo_espera_urgencias" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$Me=18.89$ min.&lt;/li>
-&lt;li>El 10% de los pacientes han tenido que esperar más de 18 minutos.&lt;/li>
+&lt;li>
+&lt;p>$Me=18.89$ min.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>El 10% de los pacientes han tenido que esperar más de 18 minutos.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -3107,14 +3116,17 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/fertility_boxplot-1.svg" title="plot of chunk fertility_boxplot" alt="plot of chunk fertility_boxplot" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$\bar a=3.1875$ embarazos, $s_a^2=2.2773$ embarazos², $s_a=1.5091$ embarazos, $cv_a=0.4734$.&lt;br>
+&lt;li>
+&lt;p>$\bar a=3.1875$ embarazos, $s_a^2=2.2773$ embarazos², $s_a=1.5091$ embarazos, $cv_a=0.4734$.&lt;br>
 $\bar b=1.25$ embarazos, $s_b^2=1.6875$ embarazos², $s_b=1.299$ embarazos, $cv_b=1.0392$.&lt;br>
-Como el coeficiente de variación de $A$ es menor que el coeficiente de variación de $B$, la media de la población $A$ es más representativa que la media de la población $B$.&lt;/li>
-&lt;li>$g_{1,a}=-0.211$ y $g_{1,b}=1.4113$, de modo que la distribución de $B$ es más asimétrica que la distribución de $A$.&lt;/li>
-&lt;li>$z_a(5)=1.2011$ y $z_b(3)=1.3472$, de modo que 3 embarazos en la población $B$ es relativamente mayor que 5 embarazos en la población $A$.&lt;/li>
+Como el coeficiente de variación de $A$ es menor que el coeficiente de variación de $B$, la media de la población $A$ es más representativa que la media de la población $B$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$g_{1,a}=-0.211$ y $g_{1,b}=1.4113$, de modo que la distribución de $B$ es más asimétrica que la distribución de $A$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$z_a(5)=1.2011$ y $z_b(3)=1.3472$, de modo que 3 embarazos en la población $B$ es relativamente mayor que 5 embarazos en la población $A$.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>

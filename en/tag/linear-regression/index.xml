@@ -55,21 +55,6 @@ $$&lt;/p>
 &lt;ol start="2">
 &lt;li>&lt;/li>
 &lt;/ol>
-&lt;p>$$
-\begin{array}{c|c|c|c|c}
-\hline
-\mbox{dose/days} &amp;amp; 3 &amp;amp; 5 &amp;amp; 6 &amp;amp; \mbox{Sum}\newline
-\hline
-2 &amp;amp; 0 &amp;amp; 2 &amp;amp; 4 &amp;amp; 6\newline
-\hline
-3 &amp;amp; 2 &amp;amp; 4 &amp;amp; 1 &amp;amp; 7\newline
-\hline
-4 &amp;amp; 5 &amp;amp; 2 &amp;amp; 0 &amp;amp; 7\newline
-\hline
-\mbox{Sum} &amp;amp; 7 &amp;amp; 8 &amp;amp; 5 &amp;amp; 20\newline
-\hline
-\end{array}
-$$&lt;/p>
 &lt;p>Dose: $\bar x=3.05$ mg, $s_x^2=0.6475$ mg$^2$, $s_x=0.8047$ mg.&lt;br/>
 Days: $\bar y=4.55$ days, $s_y^2=1.4475$ days$^2$, $s_y=1.2031$ days.&lt;br/>
 3. $s_{xy}=-0.6775$ mg$\cdot$days.&lt;/p>
@@ -112,25 +97,6 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>$$
-\begin{array}{|c||c|c|c||c|}
-\hline
-X\setminus Y &amp;amp; [110,130) &amp;amp; [130,150) &amp;amp; [150,170) &amp;amp; n_x \newline
-\hline\hline
-[170,190) &amp;amp; 8 &amp;amp; 4 &amp;amp; 0 &amp;amp; 12\newline
-\hline
-[190,210) &amp;amp; 10 &amp;amp; 12 &amp;amp; 4 &amp;amp; 26 \newline
-\hline
-[210,230) &amp;amp; 7 &amp;amp; 9 &amp;amp; 8 &amp;amp; 24 \newline
-\hline
-[230,250) &amp;amp; 1 &amp;amp; 5 &amp;amp; 12 &amp;amp; 18\newline
-\hline\hline
-n_y &amp;amp; 26 &amp;amp; 30 &amp;amp; 24 &amp;amp; 80\newline
-\hline
-\end{array}
-$$&lt;/p>
-&lt;ol start="2">
 &lt;li>&lt;/li>
 &lt;/ol>
 &lt;p>$\bar x=212$ mg/dl, $s_x^2=396$ (mg/dl)$^2$.&lt;br/>

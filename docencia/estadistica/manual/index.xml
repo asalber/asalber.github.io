@@ -1546,7 +1546,7 @@ recta de regresión de la estatura sobre el peso es&lt;/p>
 &lt;p>El parámetro más importante de una recta de regresión es su pendiente.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Coeficiente de regresión&lt;/strong> $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el _coeficiente de regresión_ de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p>
+&lt;p>&lt;strong>Definición - Coeficiente de regresión&lt;/strong> $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el &lt;em>coeficiente de regresión&lt;/em> de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p>
 &lt;p>$$b_{yx} = \frac{s_{xy}}{s_x^2}$$&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -1583,7 +1583,7 @@ De ello se encarga la parte de la estadística conocida como &lt;strong>correlac
 &lt;em>varianza residual&lt;/em>.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definición - Varianza residual muestral&lt;/strong> $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su _varianza residual muestral_ es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p>
+&lt;p>&lt;strong>Definición - Varianza residual muestral&lt;/strong> $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su &lt;em>varianza residual muestral&lt;/em> es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p>
 &lt;p>$$s_{ry}^2 = \frac{\sum e_{ij}^2n_{ij}}{n} = \frac{\sum (y_j - f(x_i))^2n_{ij}}{n}.$$&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -3469,7 +3469,7 @@ $$&lt;/p>
 T=\frac{\bar{X}_1-\bar{X}_2}{\hat{S}_p\sqrt{\frac{n_1+n_2}{n_1n_2}}} \sim T(n_1+n_2-2).
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $-t_{\alpha/2}^{n_1+n_2-2} &amp;lt; T &amp;lt; t_{\alpha/2}^{n_1+n_2-2}$.&lt;br>
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Se quiere comparar el rendimiento académico de dos grupos de alumnos, uno con 10 alumnos y otro con 12, que han seguido metodologías diferentes. Para ello se les realiza un examen y se obtienen las siguientes puntuaciones:&lt;/p>
 &lt;p>$$
 \begin{aligned}
@@ -3513,7 +3513,7 @@ $$&lt;/p>
 &lt;p>$$\Delta = \frac{(\frac{n_2-1}{n_1}\hat{S}_1^2-\frac{n_1-1}{n_2}\hat{S}_2^2)^2}{\frac{n_2-1}{n_1^2}\hat{S}_1^4+\frac{n_1-1}{n_2^2}\hat{S}_2^4}.
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $-t_{\alpha/2}^{g} &amp;lt; T &amp;lt; t_{\alpha/2}^{g}$.&lt;br>
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p>
 &lt;h3 id="contraste-de-comparación-de-varianzas-de-dos-poblaciones-normales">Contraste de comparación de varianzas de dos poblaciones normales&lt;/h3>
 &lt;p>Sean $X_1$ y $X_2$ dos variables aleatorias que cumplen las siguientes condiciones:&lt;/p>
 &lt;ul>
@@ -3539,7 +3539,7 @@ F= \frac{\frac{\frac{(n_1-1)\hat{S}_1^2}{\sigma_1^2}}{n_1-1}}{\frac{\frac{(n_2-1
 \frac{\sigma_2^2}{\sigma_1^2}\frac{\hat{S}_1^2}{\hat{S}_2^2}\sim F(n_1-1,n_2-1).
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $F_{\alpha/2}^{n_1-1,n_2-1} &amp;lt; F &amp;lt; F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;br>
-**Región de rechazo**: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Siguiendo con el ejemplo de las puntuaciones en dos grupos:&lt;/p>
 &lt;p>$$
 \begin{aligned}
@@ -3579,7 +3579,7 @@ $X_1\sim B(n_1,p_1)$ y $X_2\sim B(n_2,p_2)$. Si las muestras son grandes ($n_ip_
 \Rightarrow Z = \frac{\hat{p}_1-\hat{p_2}}{\sqrt{\frac{p_1(1-p_1)}{n_1}+\frac{p_2(1-p_2)}{n_2}}}\sim N(0,1)
 $$&lt;/p>
 &lt;p>&lt;strong>Región de aceptación&lt;/strong>: $z_{\alpha/2}&amp;lt; Z &amp;lt; z_{1-\alpha/2}$.&lt;br>
-**Región de rechazo**: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p>
+&lt;strong>Región de rechazo&lt;/strong>: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Se quiere comparar los porcentajes de aprobados en dos grupos que han seguido metodologías distintas. En el primer grupo han aprobado 24 alumnos de un total de 40, mientras que en el segundo han aprobado 48 de 60.&lt;/p>
 &lt;p>El contraste que se plantea es&lt;/p>
 &lt;p>$$

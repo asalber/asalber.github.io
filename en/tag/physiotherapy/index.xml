@@ -379,7 +379,7 @@ Date: March 17, 2021&lt;/p>
 &lt;h2 id="descriptive-statistics-and-regression">Descriptive Statistics and Regression&lt;/h2>
 &lt;h3 id="question-1">Question 1&lt;/h3>
 &lt;p>The chart below shows the distribution of the number of subjects passed in a sample of first year students of a degree.&lt;/p>
-&lt;p>&lt;img src="../img/des-18-gen-cumulative-distribution-subjects.svg" title="Cumulative distribution of the number of subjects passed" style="display: block; margin: auto;" width="800" />&lt;/p>
+&lt;img src="../img/des-18-gen-cumulative-distribution-subjects.svg" title="Cumulative distribution of the number of subjects passed" style="display: block; margin: auto;" width="800" />
 &lt;ol>
 &lt;li>
 &lt;p>Draw the box and whiskers plot and interpret it.&lt;/p>
@@ -409,7 +409,7 @@ Show solution
 &lt;ol>
 &lt;li>Quartiles: $Q_1=5$ subjects, $Q_2=6$ subjects, $Q_3=7$ subjects. $IQR = 2$ subjects. Fences: $f_1=2$ subjects and $f_2=10$ subjects.&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/des-18-gen-boxplot-subjects.svg" title="Box plot of the subjects passed" alt="Box plot of the subjects passed" style="display: block; margin: auto;" width="800" />&lt;/p>
+&lt;img src="../img/des-18-gen-boxplot-subjects.svg" title="Box plot of the subjects passed" alt="Box plot of the subjects passed" style="display: block; margin: auto;" width="800" />
 &lt;p>50% of central data fall between 5 and 7 subjects, that is a moderate dispersion. The are no outliers and the right whisker is a little bit longer than the left one, so the distribution is a little bit right skew but almost normal.&lt;/p>
 &lt;ol start="2">
 &lt;li>
@@ -529,21 +529,23 @@ Show solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>&lt;img src="../img/des-gen-12-box-plot-scores.svg" title="Box plot of scores" alt="Box plot of scores" style="display: block; margin: auto;" width="600" />
-Both distributions are pretty similar. The central dispersion is the same and both are right skewed. The only difference is that
-there is an outlier in the current year distribution.&lt;/li>
-&lt;li>Previous year course: $\bar x=1.8667$, $s^2=2.16$, $s=1.4697$, $g_1=0.8609$ and $g_2=0.1874$.
+&lt;li>
+&lt;img src="../img/des-gen-12-box-plot-scores.svg" title="Box plot of scores" alt="Box plot of scores" style="display: block; margin: auto;" width="600" />
+&lt;/li>
+&lt;/ol>
+&lt;p>Both distributions are pretty similar. The central dispersion is the same and both are right skewed. The only difference is that
+there is an outlier in the current year distribution.
+2. Previous year course: $\bar x=1.8667$, $s^2=2.16$, $s=1.4697$, $g_1=0.8609$ and $g_2=0.1874$.
 Current course: $\bar y=2.1163$, $s^2=3.4516$, $s=1.8578$, $g_1=1.0922$ and $g_2=0.9292$.
 As the coefficients of skewness and kurtosis are between -2 and 2, we can assume that both distributions come from a normal
-distribution.&lt;/li>
-&lt;li>Previous year course: $cv=0.7873$.
+distribution.
+3. Previous year course: $cv=0.7873$.
 Current year: $cv=0.8779$.
-Thus, the mean is more representative in the previous year course, since the coefficient of variation is smaller.&lt;/li>
-&lt;li>Previous year course: $z(6)=2.8124$.
+Thus, the mean is more representative in the previous year course, since the coefficient of variation is smaller.
+4. Previous year course: $z(6)=2.8124$.
 Current course: $z(7)=2.6287$.
 Thus, 7 failed subjects in the current course is relatively less than 6 in the previous year course, since the standard score is
-smaller.&lt;/li>
-&lt;/ol>
+smaller.
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -739,20 +741,22 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/time_electronic_gadgets_ogive-1.svg" title="plot of chunk time_electronic_gadgets_ogive" alt="plot of chunk time_electronic_gadgets_ogive" style="display: block; margin: auto;" />
-2.
-&lt;img src="../img/time_electronic_gadgets_boxplot-1.svg" title="plot of chunk time_electronic_gadgets_boxplot" alt="plot of chunk time_electronic_gadgets_boxplot" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="3">
-&lt;li>People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
+&lt;li>&lt;/li>
+&lt;li>
+&lt;p>People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
 People without CDH: $\bar x=169.3926$ points, $s=72.4865$ points, $cv=0.4279$.
-Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/li>
-&lt;li>People with CDF: $g_1=-0.2997$.&lt;br>
+Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>People with CDF: $g_1=-0.2997$.&lt;br>
 People without CDF: $g_1=-0.0184$.&lt;br>
-Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br>&lt;/li>
-&lt;li>Person with CDH: $z(200)=-0.2028$.&lt;br>
+Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Person with CDH: $z(200)=-0.2028$.&lt;br>
 Person without CDH: $z(200)=0.4222$&lt;br>
-The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/li>
+The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -994,7 +998,7 @@ Solution
 Date: April 01, 2016&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The chart below shows the cumulative frequency distribution the maximum angle of knee deflection after a replacement of the knee cap in a group of patients.&lt;/p>
-&lt;p>&lt;img src="../img/knee_angle-1.svg" title="plot of chunk knee_angle" alt="plot of chunk knee_angle" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/knee_angle-1.svg" title="plot of chunk knee_angle" alt="plot of chunk knee_angle" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>Calculate the quartiles and interpret them.&lt;/li>
 &lt;li>Are there outliers in the sample?&lt;/li>

@@ -8,7 +8,7 @@ f:\,&amp;amp;A\longrightarrow B\newline
 &amp;amp;a\longrightarrow f(a)\end{aligned}$$&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/definicion_funcion.png" width="400px" alt="Correspondencia de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/definicion_funcion.png" width="400px" alt="Correspondencia de una función" />
 &lt;p>Cuando el conjunto inicial y final es el de los números reales $\mathbb{R}$, entonces se dice que $f:\mathbb{R}\rightarrow \mathbb{R}$ es una &lt;em>función real de variable real&lt;/em>.&lt;/p>
 &lt;h3 id="formas-de-representar-una-función">Formas de representar una función&lt;/h3>
 &lt;h4 id="por-extensión">Por extensión&lt;/h4>
@@ -21,7 +21,7 @@ y &amp;amp; 4 &amp;amp; 1 &amp;amp; 0 &amp;amp; 1 &amp;amp; 4 &amp;amp; \cdots \
 \hline
 \end{array}$$&lt;/p>
 &lt;p>Representación gráfica&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_cuadrado.png" width="300px" alt="Función cudrado" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_cuadrado.png" width="300px" alt="Función cudrado" />
 &lt;h4 id="por-intensión">Por Intensión&lt;/h4>
 &lt;p>Representación algebraica explícita&lt;/p>
 &lt;p>$$y=x^2$$&lt;/p>
@@ -39,7 +39,7 @@ x=t
 &lt;p>$$Id(x)=x.$$&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_identidad.png" width="300px" alt="Función identidad" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_identidad.png" width="300px" alt="Función identidad" />
 &lt;h2 id="dominio-e-imagen-de-una-función">Dominio e imagen de una función&lt;/h2>
 &lt;h3 id="dominio-de-una-función">Dominio de una función&lt;/h3>
 &lt;div class="alert alert-def">
@@ -49,7 +49,7 @@ x=t
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Dada la función $$f(x)=\frac{1}{\sqrt{x^2-1}}$$&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/ejemplo_dominio.png" width="450px" alt="Ejemplo de dominio de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/ejemplo_dominio.png" width="450px" alt="Ejemplo de dominio de una función" />
 &lt;p>Para determinar su dominio hay que eliminar los valores en los que no está definida la función. En este caso hay que eliminar los valores que hacen negativo el radicando de la raíz del denominador, es decir, los valores de $x$ tales que $x^2-1&amp;lt;0$, que son los valores que cumplen $-1&amp;lt;x&amp;lt;1$, pero también hay que eliminar del dominio los valores que anulan el denominador, es decir, los valores de $x$ tales que $\sqrt{x^2-1}=0$, que son $x=-1$ y $x=1$. Por tanto, su dominio es&lt;/p>
 &lt;p>$$\mbox{Dom}(f)=(-\infty,-1)\cup(1,\infty)$$&lt;/p>
 &lt;h3 id="imagen-de-una-función">Imagen de una función&lt;/h3>
@@ -60,7 +60,7 @@ x=t
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Dada la función $f(x)=x^2-2$&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/ejemplo_imagen.png" width="400px" alt="Ejemplo de la imagen de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/ejemplo_imagen.png" width="400px" alt="Ejemplo de la imagen de una función" />
 &lt;p>Su imagen es&lt;/p>
 &lt;p>$$\mbox{Img}(f)=[-2,\infty)$$&lt;/p>
 &lt;p>ya que la función cuadrática $x^2$ puede tomar cualquier valor de $0$ a $\infty$ (no toma nunca valores negativos), y al restarle 2, el mínimo valor que puede tomar la función $f$ es $-2$.&lt;/p>
@@ -86,7 +86,7 @@ f\circ g:\,&amp;amp; A\longrightarrow C\newline
 &lt;/div>
 &lt;/div>
 &lt;p>La función inversa de $f$ deshace o revierte el efecto de $f$. Es decir, si $f:A\rightarrow B$ asocia un elemento $x\in A$ con otro $y\in B$, entonces $f^{-1}$ asocia el elemento $y$ con el $x$.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_inversa.png" width="200px" alt="Función inversa" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_inversa.png" width="200px" alt="Función inversa" />
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.
 La inversa de $f(x)=x^3$ es la función $f^{-1}(x)=\sqrt[3]{x}.$ Sin embargo, la inversa de la función $x^2$ no es $\sqrt{x}$ ya que la raíz tiene dos imágenes, una positiva y otra negativa, y por tanto no sería una función. &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
 &lt;h1 id="crecimiento-de-una-función">Crecimiento de una función&lt;/h1>
@@ -96,7 +96,7 @@ La inversa de $f(x)=x^3$ es la función $f^{-1}(x)=\sqrt[3]{x}.$ Sin embargo, la
 &lt;p>Se dice que una función $f$ es &lt;em>decreciente&lt;/em> en un intervalo $I$, si para todo $x_1,x_2\in I$, con $x_1&amp;lt;x_2$, se cumple $f(x_1)\geq f(x_2)$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_creciente_decreciente.png" width="600px" alt="Gráficas de funciones creciente y decreciente" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_creciente_decreciente.png" width="600px" alt="Gráficas de funciones creciente y decreciente" />
 &lt;h2 id="extremos-de-una-función">Extremos de una función&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -104,7 +104,7 @@ La inversa de $f(x)=x^3$ es la función $f^{-1}(x)=\sqrt[3]{x}.$ Sin embargo, la
 &lt;p>Se dice que una función $f$ tiene un &lt;em>mínimo relativo&lt;/em> en $x_0$, si existe un $\delta&amp;gt;0$ tal que para todo $x\in (x_0-\delta,x_0+\delta)$ se cumple $f(x_0)\leq f(x)$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/maximo_minimo.png" width="700px" alt="Gráfica del máximo y mínimo de una función" />&lt;/p>
+&lt;img src="../img/funciones_elementales/maximo_minimo.png" width="700px" alt="Gráfica del máximo y mínimo de una función" />
 &lt;h2 id="concavidad-de-una-función">Concavidad de una función&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -114,7 +114,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;p>Al punto donde cambia la concavidad de una función se le llama &lt;em>punto de inflexión&lt;/em>.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_concava_convexa.png" width="700px" alt="Gráfica de una función cóncava y otra convexa" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_concava_convexa.png" width="700px" alt="Gráfica de una función cóncava y otra convexa" />
 &lt;h2 id="funciones-periódicas">Funciones periódicas&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -124,7 +124,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;p>Al menor valor de $h$ que verifica la igualdad anterior se le llama &lt;em>periodo&lt;/em> de $f$, y a la diferencia entre el máximo y el mínimo de la función se le llama &lt;em>amplitud&lt;/em> de $f$.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_periodica.png" width="500px" alt="Función inversa" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_periodica.png" width="500px" alt="Función inversa" />
 &lt;h2 id="funciones-polinómicas">Funciones polinómicas&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -134,7 +134,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_polinomica.png" width="500px" alt="Gráficas de funciones polinómcias" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_polinomica.png" width="500px" alt="Gráficas de funciones polinómcias" />
 &lt;h3 id="propiedades-de-las-funciones-polinómicas">Propiedades de las funciones polinómicas&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$.&lt;/li>
@@ -152,7 +152,7 @@ los puntos $(x_1,f(x_1))$ y $(x_2,f(x_2))$ queda por debajo de la gráfica de $f
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_racional.png" width="600px" alt="Gráficas de funciones racionales" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_racional.png" width="600px" alt="Gráficas de funciones racionales" />
 &lt;h3 id="propiedades-de-las-funciones-racionales">Propiedades de las funciones racionales&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$ menos las raíces del polinomio del denominador. En estos puntos suele haber asíntotas verticales.&lt;/li>
@@ -174,7 +174,7 @@ Si $f(x)=\dfrac{a_0+\cdots +a_nx^n}{b_0+\cdots+b_mx^m}$, entonces
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_potencial.png" width="600px" alt="Gráficas de fuciones potenciales" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_potencial.png" width="600px" alt="Gráficas de fuciones potenciales" />
 &lt;h3 id="propiedades-de-las-funciones-potenciales">Propiedades de las funciones potenciales&lt;/h3>
 &lt;ul>
 &lt;li>Si el exponente es un número racional $n/m$, entonces $$x^{n/m}=\sqrt[m]{x^n}.$$ Estas funciones se llaman &lt;em>irracionales&lt;/em>.
@@ -203,7 +203,7 @@ Además, si $f(x)=x^r$ y $g(x)=x^s$, entonces:&lt;/li>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_exponencial.png" width="350px" alt="Gráficas de fuciones exponenciales" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_exponencial.png" width="350px" alt="Gráficas de fuciones exponenciales" />
 &lt;h3 id="propiedades-de-las-funciones-exponenciales">Propiedades de las funciones exponenciales&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$.&lt;/li>
@@ -229,7 +229,7 @@ Además, si $f(x)=a^x$ y $g(x)=b^x$ con $a&amp;lt;b$, entonces&lt;/li>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_logaritmica.png" width="550px" alt="Gráficas de fuciones logarítmicas" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_logaritmica.png" width="550px" alt="Gráficas de fuciones logarítmicas" />
 &lt;h3 id="propiedades-de-las-funciones-logarítmicas">Propiedades de las funciones logarítmicas&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función exponencial, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -267,9 +267,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;strong>Definición - Seno de un ángulo&lt;/strong>. Sea $\alpha$ cualquiera de los ángulos agudos de un triángulo rectángulo, se define el &lt;em>seno&lt;/em> de $\alpha$, y se nota $\operatorname{sen} \alpha$, como el cociente entre el cateto opuesto y la hipotenusa.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/seno_triangulo.png" width="150px" alt="Definición del seno en un triángulo rectángulo" />&lt;/p>
+&lt;img src="../img/funciones_elementales/seno_triangulo.png" width="150px" alt="Definición del seno en un triángulo rectángulo" />
 &lt;p>La definición se extiende fácilmente a ángulos de circunferencia con vértice en el origen y uno de sus lados el eje $OX$, como el cociente entre la ordenada de cualquier punto del otro lado y su distancia al vértice.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/seno_circunferencia.png" width="200px" alt="Definición del seno en la circunferencia" />&lt;/p>
+&lt;img src="../img/funciones_elementales/seno_circunferencia.png" width="200px" alt="Definición del seno en la circunferencia" />
 &lt;h3 id="función-seno">Función seno&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -278,7 +278,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función que asocia a cada ángulo $x$ (habitualmente medido en radianes) su seno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_seno.png" width="600px" alt="Gráfica de la función seno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_seno.png" width="600px" alt="Gráfica de la función seno" />
 &lt;h3 id="propiedades-de-la-función-seno">Propiedades de la función seno&lt;/h3>
 &lt;ul>
 &lt;li>Su dominio es $\mathbb{R}$.&lt;/li>
@@ -296,9 +296,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;strong>Definición - Coseno de un ángulo&lt;/strong>. Sea $\alpha$ cualquiera de los ángulos agudos de un triángulo rectángulo, se define el &lt;em>coseno&lt;/em> de $\alpha$, y se nota $\cos \alpha$, como el cociente entre el cateto contiguo y la hipotenusa.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/coseno_triangulo.png" width="150px" alt="Definición del coseno en un triángulo rectángulo" />&lt;/p>
+&lt;img src="../img/funciones_elementales/coseno_triangulo.png" width="150px" alt="Definición del coseno en un triángulo rectángulo" />
 &lt;p>La definición se extiende fácilmente a ángulos de circunferencia con vértice en el origen y uno de sus lados el eje $OX$, como el cociente entre la abscisa de cualquier punto del otro lado y su distancia al vértice.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/coseno_circunferencia.png" width="200px" alt="Definición del coseno en la circunferencia" />&lt;/p>
+&lt;img src="../img/funciones_elementales/coseno_circunferencia.png" width="200px" alt="Definición del coseno en la circunferencia" />
 &lt;h3 id="función-coseno">Función coseno&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -307,7 +307,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función que asocia a cada ángulo $x$ (habitualmente medido en radianes) su coseno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_coseno.png" width="600px" alt="Gráfica de la función coseno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_coseno.png" width="600px" alt="Gráfica de la función coseno" />
 &lt;h3 id="propiedades-de-la-función-coseno">Propiedades de la función coseno&lt;/h3>
 &lt;ul>
 &lt;li>
@@ -333,9 +333,9 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;strong>Definición - Tangente de un ángulo&lt;/strong>. Sea $\alpha$ cualquiera de los ángulos agudos de un triángulo rectángulo, se define la &lt;em>tangente&lt;/em> de $\alpha$, y se nota $\operatorname{tg} \alpha$, como el cociente entre el cateto opuesto y el cateto contiguo.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/tangente_triangulo.png" width="150px" alt="Definición de la tangente en un triángulo rectángulo" />&lt;/p>
+&lt;img src="../img/funciones_elementales/tangente_triangulo.png" width="150px" alt="Definición de la tangente en un triángulo rectángulo" />
 &lt;p>La definición se extiende fácilmente a ángulos de circunferencia con vértice en el origen y uno de sus lados el eje $OX$, como el cociente entre la ordenada y la abscisa de cualquier punto del otro lado.&lt;/p>
-&lt;p>&lt;img src="../img/funciones_elementales/tangente_circunferencia.png" width="200px" alt="Definición de la tangente en la circunferencia" />&lt;/p>
+&lt;img src="../img/funciones_elementales/tangente_circunferencia.png" width="200px" alt="Definición de la tangente en la circunferencia" />
 &lt;h3 id="función-tangente">Función tangente&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -344,7 +344,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función que asocia a cada ángulo $x$ (habitualmente medido en radianes) su tangente.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_tangente.png" width="450px" alt="Gráfica de la función tangente" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_tangente.png" width="450px" alt="Gráfica de la función tangente" />
 &lt;h3 id="propiedades-de-la-función-tangente">Propiedades de la función tangente&lt;/h3>
 &lt;ul>
 &lt;li>
@@ -369,7 +369,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función inversa de la función seno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_arcoseno.png" width="400px" alt="Gráfica de la función arcoseno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_arcoseno.png" width="400px" alt="Gráfica de la función arcoseno" />
 &lt;h3 id="propiedades-de-la-función-arcoseno">Propiedades de la función arcoseno&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función seno, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -388,7 +388,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función inversa de la función coseno.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_arcocoseno.png" width="350px" alt="Gráfica de la función arcocoseno" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_arcocoseno.png" width="350px" alt="Gráfica de la función arcocoseno" />
 &lt;h3 id="propiedades-de-la-función-arcoseno-1">Propiedades de la función arcoseno&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función coseno, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:
@@ -407,7 +407,7 @@ hipotenusa de dicho triángulo. No obstante, esta no es la única definición po
 &lt;p>como la función inversa de la función tangente.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/funciones_elementales/funcion_arcotangente.png" width="400px" alt="Gráfica de la función arcotangente" />&lt;/p>
+&lt;img src="../img/funciones_elementales/funcion_arcotangente.png" width="400px" alt="Gráfica de la función arcotangente" />
 &lt;h3 id="propiedades-de-la-función-arcotangente">Propiedades de la función arcotangente&lt;/h3>
 &lt;ul>
 &lt;li>Por ser la inversa de la función tangente, sus gráficas son simétricas respecto a la bisectriz del primer y tercer cuadrantes. Por tanto:

@@ -553,7 +553,7 @@ Date: March 17, 2021&lt;/p>
 &lt;h2 id="descriptive-statistics-and-regression">Descriptive Statistics and Regression&lt;/h2>
 &lt;h3 id="question-1">Question 1&lt;/h3>
 &lt;p>The chart below shows the distribution of the number of subjects passed in a sample of first year students of a degree.&lt;/p>
-&lt;p>&lt;img src="../img/des-18-gen-cumulative-distribution-subjects.svg" title="Cumulative distribution of the number of subjects passed" style="display: block; margin: auto;" width="800" />&lt;/p>
+&lt;img src="../img/des-18-gen-cumulative-distribution-subjects.svg" title="Cumulative distribution of the number of subjects passed" style="display: block; margin: auto;" width="800" />
 &lt;ol>
 &lt;li>
 &lt;p>Draw the box and whiskers plot and interpret it.&lt;/p>
@@ -583,7 +583,7 @@ Show solution
 &lt;ol>
 &lt;li>Quartiles: $Q_1=5$ subjects, $Q_2=6$ subjects, $Q_3=7$ subjects. $IQR = 2$ subjects. Fences: $f_1=2$ subjects and $f_2=10$ subjects.&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/des-18-gen-boxplot-subjects.svg" title="Box plot of the subjects passed" alt="Box plot of the subjects passed" style="display: block; margin: auto;" width="800" />&lt;/p>
+&lt;img src="../img/des-18-gen-boxplot-subjects.svg" title="Box plot of the subjects passed" alt="Box plot of the subjects passed" style="display: block; margin: auto;" width="800" />
 &lt;p>50% of central data fall between 5 and 7 subjects, that is a moderate dispersion. The are no outliers and the right whisker is a little bit longer than the left one, so the distribution is a little bit right skew but almost normal.&lt;/p>
 &lt;ol start="2">
 &lt;li>
@@ -1451,21 +1451,23 @@ Show solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>&lt;img src="../img/des-gen-12-box-plot-scores.svg" title="Box plot of scores" alt="Box plot of scores" style="display: block; margin: auto;" width="600" />
-Both distributions are pretty similar. The central dispersion is the same and both are right skewed. The only difference is that
-there is an outlier in the current year distribution.&lt;/li>
-&lt;li>Previous year course: $\bar x=1.8667$, $s^2=2.16$, $s=1.4697$, $g_1=0.8609$ and $g_2=0.1874$.
+&lt;li>
+&lt;img src="../img/des-gen-12-box-plot-scores.svg" title="Box plot of scores" alt="Box plot of scores" style="display: block; margin: auto;" width="600" />
+&lt;/li>
+&lt;/ol>
+&lt;p>Both distributions are pretty similar. The central dispersion is the same and both are right skewed. The only difference is that
+there is an outlier in the current year distribution.
+2. Previous year course: $\bar x=1.8667$, $s^2=2.16$, $s=1.4697$, $g_1=0.8609$ and $g_2=0.1874$.
 Current course: $\bar y=2.1163$, $s^2=3.4516$, $s=1.8578$, $g_1=1.0922$ and $g_2=0.9292$.
 As the coefficients of skewness and kurtosis are between -2 and 2, we can assume that both distributions come from a normal
-distribution.&lt;/li>
-&lt;li>Previous year course: $cv=0.7873$.
+distribution.
+3. Previous year course: $cv=0.7873$.
 Current year: $cv=0.8779$.
-Thus, the mean is more representative in the previous year course, since the coefficient of variation is smaller.&lt;/li>
-&lt;li>Previous year course: $z(6)=2.8124$.
+Thus, the mean is more representative in the previous year course, since the coefficient of variation is smaller.
+4. Previous year course: $z(6)=2.8124$.
 Current course: $z(7)=2.6287$.
 Thus, 7 failed subjects in the current course is relatively less than 6 in the previous year course, since the standard score is
-smaller.&lt;/li>
-&lt;/ol>
+smaller.
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -2333,7 +2335,7 @@ Solution
 &lt;ol>
 &lt;li>$Q_1=12$, $Q_2=15$, $Q_3=18$, $IQR=6$, $f_1=3$, $f_2=27$, $Min=5$ and $Max=25$.&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/des-gen-7-boxplot.svg" title="blox plot" alt="box plot of symmetric distribution" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/des-gen-7-boxplot.svg" title="blox plot" alt="box plot of symmetric distribution" style="display: block; margin: auto;" />
 &lt;ol start="2">
 &lt;li>Yes, because $2&amp;lt;f_1$.&lt;/li>
 &lt;/ol>
@@ -2429,7 +2431,9 @@ Solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>&lt;img src="../img/des-fis-5-cumulative-frequencies-polygon.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />&lt;/li>
+&lt;li>
+&lt;img src="../img/des-fis-5-cumulative-frequencies-polygon.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />
+&lt;/li>
 &lt;li>With prevention program: $Q_1=2$ injuries, $Q_3=4$ injuries, $IQR=2$ injuries.
 Without prevention program: $Q_1=3$ injuries, $Q_3=6$ injuries, $IQR=3$ injuries.
 The sample not following the prevention program has more central spread since the interquartile range is greater.&lt;/li>
@@ -3108,7 +3112,7 @@ $n=1$ and $p=1$.
 Date: December 17, 2018&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The chart below represents the cumulative distribution of the number of daily defective drugs produced by a machine in a sample of 40 days.&lt;/p>
-&lt;p>&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>Construct the frequency table of the number of defective drugs.&lt;/li>
 &lt;li>Draw the box and whiskers plot of the number of defective drugs.&lt;/li>
@@ -3125,7 +3129,8 @@ Solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>$$\begin{array}{|c|r|r|r|r|}
+&lt;li>
+&lt;p>$$\begin{array}{|c|r|r|r|r|}
 \hline
 \mbox{Defective drugs} &amp;amp; n_i &amp;amp; f_i &amp;amp; N_i &amp;amp; F_i\newline
 \hline
@@ -3141,16 +3146,20 @@ Solution
 9 &amp;amp; 1 &amp;amp; 0.025 &amp;amp; 40 &amp;amp; 1.000\newline
 \hline
 \end{array}
-$$&lt;/li>
+$$&lt;/p>
+&lt;/li>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/boxplot-1.svg" title="plot of chunk boxplot" alt="plot of chunk boxplot" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="3">
-&lt;li>$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/li>
-&lt;li>$cv_x=0.5015$,
+&lt;li>
+&lt;p>$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$cv_x=0.5015$,
 $\bar y=13.925$ drugs, $s_y=5.9808$ drugs and $cv_y=0.4295$.
-Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/li>
-&lt;li>$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/li>
+Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -3787,7 +3796,7 @@ The clinic requires 5 phisiotherapists, since $P(X&amp;gt;5)=0.0527$ and $P(Y&am
 Date: April 9, 2018&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The chart below describes the distribution of the head arc of rotation (in degrees) in people working with and without computers.&lt;/p>
-&lt;p>&lt;img src="../img/histogram_head_arc_rotation-1.svg" title="plot of chunk histogram_head_arc_rotation" alt="plot of chunk histogram_head_arc_rotation" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/histogram_head_arc_rotation-1.svg" title="plot of chunk histogram_head_arc_rotation" alt="plot of chunk histogram_head_arc_rotation" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>Plot the ogive of the head arc of rotation for people working with computers.&lt;/li>
 &lt;li>If a person with a head arc of rotation less than or equal to 115 degrees is considered a person with reduced mobility, what percentage of people working with computers has reduced mobility?&lt;/li>
@@ -3809,16 +3818,23 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/ogive_head_arc_rotation-1.svg" title="plot of chunk ogive_head_arc_rotation" alt="plot of chunk ogive_head_arc_rotation" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/li>
-&lt;li>With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
+&lt;li>
+&lt;p>$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
 Without computer: $\bar x=151.0714$ degrees, $s_x^2=245.2806$ degrees², $s_x=15.6614$ degrees and $cv_x=0.1037$
-The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/li>
-&lt;li>$\bar x=141.3793$.&lt;/li>
-&lt;li>With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/li>
-&lt;li>Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/li>
+The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\bar x=141.3793$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -4154,7 +4170,7 @@ Solution
 Date: November 27, 2017&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The following diagram show the NO₂ emissions (𝜇g/m³) in Madrid during the month of October, 2017.&lt;/p>
-&lt;p>&lt;img src="../img/no2-emissions-histogram-1.svg" title="plot of chunk no2-emissions-histogram" alt="plot of chunk no2-emissions-histogram" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/no2-emissions-histogram-1.svg" title="plot of chunk no2-emissions-histogram" alt="plot of chunk no2-emissions-histogram" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>The European Standards on Air Quality establish that the average monthly value cannot be over 40 𝜇g/m³ for a healthy environment.
 Was this requirement met during the month of October?
@@ -4375,20 +4391,22 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/time_electronic_gadgets_ogive-1.svg" title="plot of chunk time_electronic_gadgets_ogive" alt="plot of chunk time_electronic_gadgets_ogive" style="display: block; margin: auto;" />
-2.
-&lt;img src="../img/time_electronic_gadgets_boxplot-1.svg" title="plot of chunk time_electronic_gadgets_boxplot" alt="plot of chunk time_electronic_gadgets_boxplot" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="3">
-&lt;li>People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
+&lt;li>&lt;/li>
+&lt;li>
+&lt;p>People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
 People without CDH: $\bar x=169.3926$ points, $s=72.4865$ points, $cv=0.4279$.
-Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/li>
-&lt;li>People with CDF: $g_1=-0.2997$.&lt;br>
+Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>People with CDF: $g_1=-0.2997$.&lt;br>
 People without CDF: $g_1=-0.0184$.&lt;br>
-Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br>&lt;/li>
-&lt;li>Person with CDH: $z(200)=-0.2028$.&lt;br>
+Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Person with CDH: $z(200)=-0.2028$.&lt;br>
 Person without CDH: $z(200)=0.4222$&lt;br>
-The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/li>
+The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -4835,10 +4853,9 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
+&lt;li>$Me=18.89$ min.&lt;/li>
+&lt;li>10% of patients have waited for longer than 38 minutes.&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/ogive_waiting_time_emergency-1.svg" title="plot of chunk ogive_waiting_time_emergency" alt="plot of chunk ogive_waiting_time_emergency" style="display: block; margin: auto;" />
-2. $Me=18.89$ min.
-3. 10% of patients have waited for longer than 38 minutes.
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -4872,13 +4889,12 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/fertility_boxplot-1.svg" title="plot of chunk fertility_boxplot" alt="plot of chunk fertility_boxplot" style="display: block; margin: auto;" />
-2. $\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$.
+&lt;li>$\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$.
 $\bar b=1.25$ pregnancies, $s_b^2=1.6875$ pregnancies², $s_b=1.299$ pregnancies, $cv_b=1.0392$.
-As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$.
-3. $g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$.
-5. $z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.
+As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$.&lt;/li>
+&lt;li>$g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$.&lt;/li>
+&lt;li>$z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.&lt;/li>
+&lt;/ol>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -5699,7 +5715,7 @@ Solution
 &lt;h2 id="question-4">Question 4&lt;/h2>
 &lt;p>The level of severity $X$ of an injury is classified in a scale from 1 to 5, from low to high severity.
 The probability distribution of $X$ in a population is plotted below.&lt;/p>
-&lt;p>&lt;img src="../img/severity_probability_function-1.svg" title="plot of chunk severity_probability_function" alt="plot of chunk severity_probability_function" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/severity_probability_function-1.svg" title="plot of chunk severity_probability_function" alt="plot of chunk severity_probability_function" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>Calculate and plot the distribution function.&lt;/li>
 &lt;li>Calculate the following probabilities: $P(X\leq 2)$, $P(X&amp;gt;3)$, $P(X=4.2)$ and $P(1&amp;lt;X\leq 4.2)$.&lt;/li>
@@ -5876,7 +5892,7 @@ Solution
 Date: April 01, 2016&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The chart below shows the cumulative frequency distribution the maximum angle of knee deflection after a replacement of the knee cap in a group of patients.&lt;/p>
-&lt;p>&lt;img src="../img/knee_angle-1.svg" title="plot of chunk knee_angle" alt="plot of chunk knee_angle" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/knee_angle-1.svg" title="plot of chunk knee_angle" alt="plot of chunk knee_angle" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>Calculate the quartiles and interpret them.&lt;/li>
 &lt;li>Are there outliers in the sample?&lt;/li>

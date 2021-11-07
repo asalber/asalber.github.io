@@ -198,7 +198,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-856192473" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-621345987" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -207,7 +207,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-856192473', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-621345987', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -977,7 +977,7 @@ Solution
 &lt;/div>
 &lt;h2 id="exercise-2">Exercise 2&lt;/h2>
 &lt;p>The chart below shows the cumulative distribution of the time (in min) required by 66 students to do an exam.&lt;/p>
-&lt;p>&lt;img src="../img/time_exam-1.svg" title="plot of chunk time_exam" alt="plot of chunk time_exam" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/time_exam-1.svg" title="plot of chunk time_exam" alt="plot of chunk time_exam" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>At what time have half of the students finished? And 90% of students?&lt;/li>
 &lt;li>What percentage of students have finished after 100 minutes?&lt;/li>
@@ -1037,7 +1037,7 @@ $\bar x=42$ min, $s=0.1225$ min and $cv=0.0029$.
 &lt;/div>
 &lt;h2 id="exercise-5">Exercise 5&lt;/h2>
 &lt;p>The histogram below shows the frequency distribution of the body mass index (BMI) of a group of people by gender.&lt;/p>
-&lt;p>&lt;img src="../img/bmi_gender-1.svg" title="plot of chunk bmi_gender" alt="plot of chunk bmi_gender" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/bmi_gender-1.svg" title="plot of chunk bmi_gender" alt="plot of chunk bmi_gender" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>Draw the pie chart for the gender.&lt;/li>
 &lt;li>In which group is more representative the mean of the BMI?&lt;/li>
@@ -1056,12 +1056,13 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/piechart_bmi_gender-1.svg" title="plot of chunk piechart_bmi_gender" alt="plot of chunk piechart_bmi_gender" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="2">
-&lt;li>Females: $\bar x=24.1667$ min, $s_x=4.6022$ min and $cv_x=0.1904$.&lt;br>
-Males: $\bar y=22.2778$ min, $s_y=3.1545$ min and $cv_y=0.1416$.&lt;/li>
-&lt;li>$\bar z=23.2527$.&lt;/li>
+&lt;li>
+&lt;p>Females: $\bar x=24.1667$ min, $s_x=4.6022$ min and $cv_x=0.1904$.&lt;br>
+Males: $\bar y=22.2778$ min, $s_y=3.1545$ min and $cv_y=0.1416$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\bar z=23.2527$.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>

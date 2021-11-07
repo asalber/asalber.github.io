@@ -233,11 +233,11 @@ $$&lt;/p>
 &lt;/ul>
 &lt;h3 id="gráfica-de-una-función-de-dos-variables">Gráfica de una función de dos variables&lt;/h3>
 &lt;p>La representación gráfica cartesiana de una función de dos variables $f(x,y)$ es una superficie del espacio real $\mathbb{R}^3$ donde cada punto de la superficie tiene coordenadas $(x,y,z)$, siendo $z=f(x,y)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/coordenadas3D.png" width="300px" alt="Representación gráfica de una función de dos variables" />&lt;/p>
+&lt;img src="../img/derivadasn/coordenadas3D.png" width="300px" alt="Representación gráfica de una función de dos variables" />
 &lt;p>&lt;strong>Ejemplos&lt;/strong>. La función $f(x,y)=\dfrac{xy}{2}$ que mide el área de un triángulo de base $x$ y altura $y$ tiene la siguiente representación gráfica:&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/grafica_area_triangulo.png" width="250px" alt="Gráfica de la función que mide el área de un triángulo" />&lt;/p>
+&lt;img src="../img/derivadasn/grafica_area_triangulo.png" width="250px" alt="Gráfica de la función que mide el área de un triángulo" />
 &lt;p>Y la función $\displaystyle f(x,y)=\frac{\operatorname{sen}(x^2+y^2)}{\sqrt{x^2+y^2}}$ tiene la siguiente representación gráfica tan peculiar:&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/grafica_gota_agua.png" width="500px" alt="Gráfica de la función que representa las ondas creadas por una gota de agua" />&lt;/p>
+&lt;img src="../img/derivadasn/grafica_gota_agua.png" width="500px" alt="Gráfica de la función que representa las ondas creadas por una gota de agua" />
 &lt;h3 id="conjunto-de-nivel-de-un-campo-escalar">Conjunto de nivel de un campo escalar&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -246,7 +246,7 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Si $f(x,y)=x^2+y^2$ y $P=(1,1)$, el conjunto de nivel de $f$ que incluye al punto $P$ es&lt;/p>
 &lt;p>$$C_{f,2} = {(x,y): f(x,y)=f(1,1)=2} = {(x,y): x^2+y^2=2},$$&lt;/p>
 &lt;p>que es la circunferencia del plano real centrada en el origen y de radio $\sqrt{2}$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/conjunto_nivel2.png" width="300px" alt="Gráfica del conjunto de nivel de un paraboloide" />&lt;/p>
+&lt;img src="../img/derivadasn/conjunto_nivel2.png" width="300px" alt="Gráfica del conjunto de nivel de un paraboloide" />
 &lt;h3 id="funciones-parciales">Funciones parciales&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -273,7 +273,7 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$&lt;/p>
 &lt;p>Esta derivada parcial mide la tasa de variación instantánea de $f$ en el punto $P=(x_0,y_0)$ cuando $P$ se mueve en la dirección del eje $X$.&lt;/p>
 &lt;h3 id="interpretación-geométrica-de-la-derivada-parcial">Interpretación geométrica de la derivada parcial&lt;/h3>
 &lt;p>Geométricamente, $z=f(x,y)$ define una superficie. Si se corta esta superficie con el plano de ecuación $y=y_0$ (es decir, si $y$ se fija como una constante), la intersección de este plano con la superficie es una curva plana cuya pendiente en el punto $(x_0,y_0)$ es la derivada parcial de $f$ con respecto a $x$ en el punto $(x_0,y_0)$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/grafica_tangente_parcial.png" width="400px" alt="Gráfica de la tangente a la intersección de una superficie con un plano" />&lt;/p>
+&lt;img src="../img/derivadasn/grafica_tangente_parcial.png" width="400px" alt="Gráfica de la tangente a la intersección de una superficie con un plano" />
 &lt;h3 id="derivada-parcial">Derivada parcial&lt;/h3>
 &lt;p>El concepto de derivada parcial visto para funciones de dos variables puede extenderse fácilmente para funciones de $n$ variables.&lt;/p>
 &lt;div class="alert alert-def">
@@ -430,7 +430,7 @@ $$&lt;/p>
 \end{aligned}
 $$&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. La gráfica del paraboloide $f(x,y,z)=x^2+y^2-z=0$ y su plano tangente en el punto $P=(1,1,2)$ es&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/plano_tangente_paraboloide.png" width="300px" alt="Gráfica del plano tangente a un paraboloide" />&lt;/p>
+&lt;img src="../img/derivadasn/plano_tangente_paraboloide.png" width="300px" alt="Gráfica del plano tangente a un paraboloide" />
 &lt;h2 id="derivadas-parciales-de-segundo-orden">Derivadas parciales de segundo orden&lt;/h2>
 &lt;p>Las derivadas parciales de una función son, a su vez, funciones de varias variables que muchas veces pueden volverse a derivar parcialmente con respecto a alguna de sus variables.&lt;/p>
 &lt;div class="alert alert-def">
@@ -533,7 +533,7 @@ punto $P$ es&lt;/p>
 P^1_{f,P}(\mathbf{v}) = f(P)+\nabla f(P)\mathbf{v}
 \end{aligned}
 $$&lt;/p>
-&lt;p>es el &lt;em>polinomio de Taylor&lt;/em> de primer grado de $f$ en el punto $P$, y $R^1_{f,P}(\mathbf{v})$ es el *resto de taylor* para el vector $\mathbf{v}$, y mide el error cometido en la aproximación.&lt;/p>
+&lt;p>es el &lt;em>polinomio de Taylor&lt;/em> de primer grado de $f$ en el punto $P$, y $R^1_{f,P}(\mathbf{v})$ es el &lt;em>resto de taylor&lt;/em> para el vector $\mathbf{v}$, y mide el error cometido en la aproximación.&lt;/p>
 &lt;p>Se cumple que&lt;/p>
 &lt;p>$$\lim_{|\mathbf{v}|\rightarrow 0} \frac{R^1_{f,P}(\mathbf{v})}{|\mathbf{v}|} = 0$$&lt;/p>
 &lt;p>Obsérvese que el polinomio de Taylor de primer grado coincide con el plano tangente a $f$ en $P$.&lt;/p>
@@ -564,7 +564,7 @@ $$&lt;/p>
 P^2_{f,P}(\mathbf{v})&amp;amp;=f(P)+\nabla f(P)\mathbf{v}+\frac{1}{2}\nabla^2f(P)\mathbf{v}\cdot\mathbf{v}
 \end{aligned}
 $$&lt;/p>
-&lt;p>es el &lt;em>polinomio de Taylor&lt;/em> de segundo grado de $f$ en el punto $P$, y $R^2_{f,P}(\mathbf{v})$ es el *resto de taylor* para el vector $\mathbf{v}$.&lt;/p>
+&lt;p>es el &lt;em>polinomio de Taylor&lt;/em> de segundo grado de $f$ en el punto $P$, y $R^2_{f,P}(\mathbf{v})$ es el &lt;em>resto de taylor&lt;/em> para el vector $\mathbf{v}$.&lt;/p>
 &lt;p>Se cumple que&lt;/p>
 &lt;p>$$\lim_{|\mathbf{v}\rightarrow 0|} \frac{R^2_{f,P}(\mathbf{v})}{|\mathbf{v}|^2} = 0$$&lt;/p>
 &lt;p>lo que indica que el resto es mucho más pequeño que el cuadrado del módulo de $\mathbf{v}$.&lt;/p>
@@ -626,12 +626,12 @@ $$&lt;/p>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Para el campo escalar $f(x,y)=x^2+y^2$, resulta evidente que sólo tiene un mínimo en el origen $(0,0)$ ya que&lt;/p>
 &lt;p>$$f(0,0)=0 \leq f(x,y)=x^2+y^2,\ \forall x,y\in \mathbb{R}.$$&lt;/p>
 &lt;p>En este punto se cumple, $\nabla f(0,0) = 0$.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/minimo_paraboloide.png" width="250px" alt="Gráfica del mínimo relativo de un paraboloide" />&lt;/p>
+&lt;img src="../img/derivadasn/minimo_paraboloide.png" width="250px" alt="Gráfica del mínimo relativo de un paraboloide" />
 &lt;h3 id="puntos-de-silla">Puntos de silla&lt;/h3>
 &lt;p>No todos los puntos críticos son extremos. Si se considera, por ejemplo, el campo escalar $f(x,y)=x^2-y^2$, su gradiente es&lt;/p>
 &lt;p>$$\nabla f(x,y) = (2x,-2y),$$&lt;/p>
 &lt;p>que sólo se anula en el punto $(0,0)$. Sin embargo, este punto no es un máximo relativo ya que los puntos $(x,0)$ del eje $X$ tienen imágenes $f(x,0)=x^2\geq 0=f(0,0)$, y tampoco es un mínimo relativo ya que los puntos $(0,y)$ del eje $Y$ tienen imágenes $f(0,y)=-y^2\leq 0=f(0,0)$. Este tipo de puntos que anulan el gradiente pero que no son extremos, se conocen como &lt;em>puntos de silla&lt;/em>.&lt;/p>
-&lt;p>&lt;img src="../img/derivadasn/punto_silla.png" width="250px" alt="Gráfica de un punto de silla" />&lt;/p>
+&lt;img src="../img/derivadasn/punto_silla.png" width="250px" alt="Gráfica de un punto de silla" />
 &lt;h3 id="determinación-de-los-extremos-de-un-campo-escalar">Determinación de los extremos de un campo escalar&lt;/h3>
 &lt;p>De la fórmula de Taylor de segundo grado para un campo escalar $f$ en un punto $P$ se deduce que&lt;/p>
 &lt;p>$$f(P+\mathbf{v})-f(P)\approx \nabla f(P)\mathbf{v}+\frac{1}{2}\nabla^2f(P)\mathbf{v}\cdot\mathbf{v}.$$&lt;/p>
@@ -683,7 +683,7 @@ $$&lt;/p>
 &lt;li>Punto $(-1,1)$: $Hf(-1,1)=4&amp;gt;0$ y $\frac{\partial^2}{\partial x^2}(-1,1)=-2&amp;lt;0 \Rightarrow$ Máximo relativo.&lt;/li>
 &lt;li>Punto $(-1,-1)$: $Hf(-1,-1)=-4&amp;lt;0 \Rightarrow$ Punto de silla.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="../img/derivadasn/determinacion_extremos.png" width="600px" alt="Gráfica de los extremos relativos y los puntos de silla de una función" />&lt;/p>
+&lt;img src="../img/derivadasn/determinacion_extremos.png" width="600px" alt="Gráfica de los extremos relativos y los puntos de silla de una función" />
 &lt;/div>
 &lt;/div>
 &lt;/div>

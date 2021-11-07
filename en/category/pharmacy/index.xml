@@ -1394,7 +1394,7 @@ Solution
 &lt;ol>
 &lt;li>$Q_1=12$, $Q_2=15$, $Q_3=18$, $IQR=6$, $f_1=3$, $f_2=27$, $Min=5$ and $Max=25$.&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/des-gen-7-boxplot.svg" title="blox plot" alt="box plot of symmetric distribution" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/des-gen-7-boxplot.svg" title="blox plot" alt="box plot of symmetric distribution" style="display: block; margin: auto;" />
 &lt;ol start="2">
 &lt;li>Yes, because $2&amp;lt;f_1$.&lt;/li>
 &lt;/ol>
@@ -1525,7 +1525,7 @@ $n=1$ and $p=1$.
 Date: December 17, 2018&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The chart below represents the cumulative distribution of the number of daily defective drugs produced by a machine in a sample of 40 days.&lt;/p>
-&lt;p>&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/question1-1.svg" title="plot of chunk question1" alt="plot of chunk question1" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>Construct the frequency table of the number of defective drugs.&lt;/li>
 &lt;li>Draw the box and whiskers plot of the number of defective drugs.&lt;/li>
@@ -1542,7 +1542,8 @@ Solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>$$\begin{array}{|c|r|r|r|r|}
+&lt;li>
+&lt;p>$$\begin{array}{|c|r|r|r|r|}
 \hline
 \mbox{Defective drugs} &amp;amp; n_i &amp;amp; f_i &amp;amp; N_i &amp;amp; F_i\newline
 \hline
@@ -1558,16 +1559,20 @@ Solution
 9 &amp;amp; 1 &amp;amp; 0.025 &amp;amp; 40 &amp;amp; 1.000\newline
 \hline
 \end{array}
-$$&lt;/li>
+$$&lt;/p>
+&lt;/li>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/boxplot-1.svg" title="plot of chunk boxplot" alt="plot of chunk boxplot" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="3">
-&lt;li>$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/li>
-&lt;li>$cv_x=0.5015$,
+&lt;li>
+&lt;p>$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$cv_x=0.5015$,
 $\bar y=13.925$ drugs, $s_y=5.9808$ drugs and $cv_y=0.4295$.
-Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/li>
-&lt;li>$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/li>
+Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -2254,7 +2259,7 @@ Solution
 Date: November 27, 2017&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The following diagram show the NO₂ emissions (𝜇g/m³) in Madrid during the month of October, 2017.&lt;/p>
-&lt;p>&lt;img src="../img/no2-emissions-histogram-1.svg" title="plot of chunk no2-emissions-histogram" alt="plot of chunk no2-emissions-histogram" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/no2-emissions-histogram-1.svg" title="plot of chunk no2-emissions-histogram" alt="plot of chunk no2-emissions-histogram" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>The European Standards on Air Quality establish that the average monthly value cannot be over 40 𝜇g/m³ for a healthy environment.
 Was this requirement met during the month of October?
@@ -2540,10 +2545,9 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
+&lt;li>$Me=18.89$ min.&lt;/li>
+&lt;li>10% of patients have waited for longer than 38 minutes.&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/ogive_waiting_time_emergency-1.svg" title="plot of chunk ogive_waiting_time_emergency" alt="plot of chunk ogive_waiting_time_emergency" style="display: block; margin: auto;" />
-2. $Me=18.89$ min.
-3. 10% of patients have waited for longer than 38 minutes.
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -2577,13 +2581,12 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/fertility_boxplot-1.svg" title="plot of chunk fertility_boxplot" alt="plot of chunk fertility_boxplot" style="display: block; margin: auto;" />
-2. $\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$.
+&lt;li>$\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$.
 $\bar b=1.25$ pregnancies, $s_b^2=1.6875$ pregnancies², $s_b=1.299$ pregnancies, $cv_b=1.0392$.
-As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$.
-3. $g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$.
-5. $z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.
+As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$.&lt;/li>
+&lt;li>$g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$.&lt;/li>
+&lt;li>$z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.&lt;/li>
+&lt;/ol>
 &lt;/div>
 &lt;/div>
 &lt;/div>

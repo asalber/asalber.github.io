@@ -19,20 +19,19 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/diet_scatterplot-1.svg" title="plot of chunk diet_scatterplot" alt="plot of chunk diet_scatterplot" style="display: block; margin: auto;" />
-2. Linear model&lt;br/>
+&lt;li>Linear model&lt;br/>
 $\bar x=47$ days, $s_x^2=143.8333$ days$^2$.&lt;br/>
 $\bar y=5.3$ kg, $s_y^2=0.885$ kg$^2$.&lt;br/>
 $s_{xy}=9.9417$ days$\cdot$kg.&lt;br/>
 Regression line of weight loss on days of diet: $y=2.0514 + 0.0691x$.&lt;br/>
-$r^2=0.7765$.&lt;br/>&lt;/p>
+$r^2=0.7765$.&lt;br/>&lt;/li>
+&lt;/ol>
 &lt;p>Logartihmic model&lt;br/>
 $\overline{\log(x)}=3.8174$ log(days), $s_{\log(x)}^2=0.0659$ log(days)$^2$.&lt;br/>
 $s_{\log(x)y}=0.224$ log(days)$\cdot$kg.&lt;br/>
 Logartihmic model of weight loss on days of diet: $y=-7.6678 + 3.397\log(x)$.&lt;br/>
 $r^2=0.8599$.&lt;br/>
-3. $y(40)=4.8635$ kg and $y(100)=7.9761$ kg. The predictions are reliable because the coefficient of determination is close to 1, but the last one is less reiable as 100 is far from the observed range of values in the sample.&lt;/p>
+3. $y(40)=4.8635$ kg and $y(100)=7.9761$ kg. The predictions are reliable because the coefficient of determination is close to 1, but the last one is less reiable as 100 is far from the observed range of values in the sample.
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -103,14 +102,13 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/obesity_pain_scatterplot-1.svg" title="plot of chunk obesity_pain_scatterplot" alt="plot of chunk obesity_pain_scatterplot" style="display: block; margin: auto;" />
-2. Linear model&lt;br/>
+&lt;li>Linear model&lt;br/>
 $\bar x=62.9$, $s_x^2=588.09$.&lt;br/>
 $\bar y=9.22$, $s_y^2=11.0056$.&lt;br/>
 $s_{xy}=82.0356$.&lt;br/>
 Regression line of pain threshold on obesity: $y=1.3232 + 0.1255x$.&lt;br/>
-$r^2=0.8422$.&lt;/p>
+$r^2=0.8422$.&lt;/li>
+&lt;/ol>
 &lt;p>Logartihmic model&lt;br/>
 $\overline{\log(x)}=4.0412$, $s_{\log(x)}^2=0.2366$.&lt;br/>
 $s_{\log(x)y}=1.4973$.&lt;br/>
@@ -156,17 +154,19 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/temperature_time_scatterplot-1.svg" title="plot of chunk temperature_time_scatterplot" alt="plot of chunk temperature_time_scatterplot" style="display: block; margin: auto;" />
-A logarithmic model.&lt;br/>
-2. Apply a logarithmic transformation to time $z=\log(x)$.&lt;/p>
-&lt;ol start="3">
-&lt;li>$\bar z=28.125$ log(min), $s_z^2=0.6577$ log²(min).&lt;br/>
+&lt;li>
+&lt;p>Apply a logarithmic transformation to time $z=\log(x)$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\bar z=28.125$ log(min), $s_z^2=0.6577$ log²(min).&lt;br/>
 $\bar y=90.625$ ºF, $s_y^2=1080.2344$ ºF².&lt;br/>
 $s_{zy}=26.0969$ log(min)ºF.&lt;br/>
-Logarithmic model of temperature on time: $y=-31.0325 + 39.6781\log(x)$.&lt;br/>&lt;/li>
-&lt;li>$y(15)=76.4176$ ºF.&lt;br/>
-$r^2=0.9586$, that is close to 1, so the prediction is reliable.&lt;/li>
+Logarithmic model of temperature on time: $y=-31.0325 + 39.6781\log(x)$.&lt;br/>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$y(15)=76.4176$ ºF.&lt;br/>
+$r^2=0.9586$, that is close to 1, so the prediction is reliable.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -204,16 +204,16 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/radioactivity_time_scatterplot-1.svg" title="plot of chunk radioactivity_time_scatterplot" alt="plot of chunk radioactivity_time_scatterplot" style="display: block; margin: auto;" />
-2.
-&lt;img src="../img/log_radioactivity_time_scatterplot-1.svg" title="plot of chunk log_radioactivity_time_scatterplot" alt="plot of chunk log_radioactivity_time_scatterplot" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="3">
-&lt;li>$\bar x=35$ hours, $s_x^2=525$ hours².&lt;br/>
+&lt;li>&lt;/li>
+&lt;li>
+&lt;p>$\bar x=35$ hours, $s_x^2=525$ hours².&lt;br/>
 $\bar z=-0.7421$ log(10⁷ disintegrations/s), $s_z^2=6.6664$ log(10⁷ disintegrations/s)^2.&lt;br/>
 $s_{xz}=-59.1434$ hours⋅log(10⁷ disintegrations/s)&lt;br/>
-Regression line of logarithm of radioactivity on time: $z=3.2008 + -0.1127x$.&lt;br/>&lt;/li>
-&lt;li>$\lambda=0.1127$.&lt;/li>
+Regression line of logarithm of radioactivity on time: $z=3.2008 + -0.1127x$.&lt;br/>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\lambda=0.1127$.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -250,17 +250,14 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
+&lt;li>The model that best fits the points cloud is linear.&lt;/li>
+&lt;li>Let $X$ be the logarithm of length and $Y$ to the logarithm of period,&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../img/period_length_scatterplot-1.svg" title="plot of chunk period_length_scatterplot" alt="plot of chunk period_length_scatterplot" style="display: block; margin: auto;" />
-The linear model fits well to the points cloud.&lt;br>
-&lt;img src="../img/log_period_length_scatterplot-1.svg" title="plot of chunk log_period_length_scatterplot" alt="plot of chunk log_period_length_scatterplot" style="display: block; margin: auto;" />
-2. The model that best fits the points cloud is linear.&lt;br>
-3. Let $X$ be the logarithm of length and $Y$ to the logarithm of period,&lt;/p>
 &lt;p>$\bar x=4.5025$ log(cm), $s_x^2=0.1353$ log(cm)².&lt;br/>
 $\bar y=0.6407$ log(s), $s_y^2=0.0339$ log(s)².&lt;br/>
 $s_{xy}=0.0677$ log(cm)log(s)&lt;br>
 Regression line of Y on X: $y=-1.6132 + 0.5006x$.&lt;br/>
-4. $g=994.4579 cm/s².&lt;/p>
+4. $g=994.4579 cm/s².
 &lt;/div>
 &lt;/div>
 &lt;/div>

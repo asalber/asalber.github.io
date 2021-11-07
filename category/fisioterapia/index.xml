@@ -31,7 +31,7 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>
-&lt;p>&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />&lt;/p>
+&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />
 &lt;/li>
 &lt;li>
 &lt;p>Con programa de prevención: $C_1=2$ lesiones, $C_3=4$ lesiones, $RI=2$ lesiones.&lt;br>
@@ -290,7 +290,9 @@ Solución
 &lt;div class="collapse card " id="spoiler-1">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Diagrama de dispersión de lesiones vs tiempo de calentamiento" alt="Diagrama de dispersión de lesiones vs tiempo de calentamiento" width="600" />&lt;/li>
+&lt;li>
+&lt;img src="../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg" title="Diagrama de dispersión de lesiones vs tiempo de calentamiento" alt="Diagrama de dispersión de lesiones vs tiempo de calentamiento" width="600" />
+&lt;/li>
 &lt;li>$\bar x=23.7$ min, $s_x^2=32.01$ min$^2$.&lt;br>
 $\overline{\log(x)}=3.1373$ log(min), $s_{\log(x)}^2=0.0565$ log(min)$^2$.&lt;br>
 $\bar y=15.7$ lesiones, $s_y^2=137.81$ lesiones$^2$.&lt;br>
@@ -416,7 +418,7 @@ Fecha: 9 de abril de 2018&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>En un estudio se ha medido el arco de rotación de la cabeza en personas que trabajan habitualmente con ordenador y en personas que no.
 Los resultados aparecen en el siguiente histograma.&lt;/p>
-&lt;p>&lt;img src="../img/histograma_arco_rotacion-1.svg" title="plot of chunk histograma_arco_rotacion" alt="plot of chunk histograma_arco_rotacion" />&lt;/p>
+&lt;img src="../img/histograma_arco_rotacion-1.svg" title="plot of chunk histograma_arco_rotacion" alt="plot of chunk histograma_arco_rotacion" />
 &lt;p>Se pide:&lt;/p>
 &lt;ol>
 &lt;li>Dibujar el polígono de frecuencias relativas acumuladas del arco de rotación de la cabeza en personas que trabajan con ordenador.&lt;/li>
@@ -439,16 +441,23 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/poligono_frecuencia_acumulada_arco_rotacion-1.svg" title="plot of chunk poligono_frecuencia_acumulada_arco_rotacion" alt="plot of chunk poligono_frecuencia_acumulada_arco_rotacion" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/li>
-&lt;li>Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br>
+&lt;li>
+&lt;p>$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br>
 Sin ordenador: $\bar x=151.0714$ grados, $s_x^2=245.2806$ grados², $s_x=15.6614$ grados y $cv_x=0.1037$&lt;br>
-La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/li>
-&lt;li>$\bar x=141.3793$.&lt;/li>
-&lt;li>Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/li>
-&lt;li>Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/li>
+La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\bar x=141.3793$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>

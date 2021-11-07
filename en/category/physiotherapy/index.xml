@@ -280,7 +280,9 @@ Solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>&lt;img src="../img/des-fis-5-cumulative-frequencies-polygon.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />&lt;/li>
+&lt;li>
+&lt;img src="../img/des-fis-5-cumulative-frequencies-polygon.svg" title="Cumulative relative frequency polygon of spinal injuries" alt="Cumulative relative frequency polygon of spinal injuries" style="display: block; margin: auto;" width="600" />
+&lt;/li>
 &lt;li>With prevention program: $Q_1=2$ injuries, $Q_3=4$ injuries, $IQR=2$ injuries.
 Without prevention program: $Q_1=3$ injuries, $Q_3=6$ injuries, $IQR=3$ injuries.
 The sample not following the prevention program has more central spread since the interquartile range is greater.&lt;/li>
@@ -1118,7 +1120,7 @@ The clinic requires 5 phisiotherapists, since $P(X&amp;gt;5)=0.0527$ and $P(Y&am
 Date: April 9, 2018&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The chart below describes the distribution of the head arc of rotation (in degrees) in people working with and without computers.&lt;/p>
-&lt;p>&lt;img src="../img/histogram_head_arc_rotation-1.svg" title="plot of chunk histogram_head_arc_rotation" alt="plot of chunk histogram_head_arc_rotation" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/histogram_head_arc_rotation-1.svg" title="plot of chunk histogram_head_arc_rotation" alt="plot of chunk histogram_head_arc_rotation" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>Plot the ogive of the head arc of rotation for people working with computers.&lt;/li>
 &lt;li>If a person with a head arc of rotation less than or equal to 115 degrees is considered a person with reduced mobility, what percentage of people working with computers has reduced mobility?&lt;/li>
@@ -1140,16 +1142,23 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../img/ogive_head_arc_rotation-1.svg" title="plot of chunk ogive_head_arc_rotation" alt="plot of chunk ogive_head_arc_rotation" style="display: block; margin: auto;" />&lt;/p>
-&lt;ol start="2">
-&lt;li>$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/li>
-&lt;li>With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
+&lt;li>
+&lt;p>$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
 Without computer: $\bar x=151.0714$ degrees, $s_x^2=245.2806$ degrees², $s_x=15.6614$ degrees and $cv_x=0.1037$
-The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/li>
-&lt;li>$\bar x=141.3793$.&lt;/li>
-&lt;li>With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/li>
-&lt;li>Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/li>
+The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\bar x=141.3793$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -1720,7 +1729,7 @@ Solution
 &lt;h2 id="question-4">Question 4&lt;/h2>
 &lt;p>The level of severity $X$ of an injury is classified in a scale from 1 to 5, from low to high severity.
 The probability distribution of $X$ in a population is plotted below.&lt;/p>
-&lt;p>&lt;img src="../img/severity_probability_function-1.svg" title="plot of chunk severity_probability_function" alt="plot of chunk severity_probability_function" style="display: block; margin: auto;" />&lt;/p>
+&lt;img src="../img/severity_probability_function-1.svg" title="plot of chunk severity_probability_function" alt="plot of chunk severity_probability_function" style="display: block; margin: auto;" />
 &lt;ol>
 &lt;li>Calculate and plot the distribution function.&lt;/li>
 &lt;li>Calculate the following probabilities: $P(X\leq 2)$, $P(X&amp;gt;3)$, $P(X=4.2)$ and $P(1&amp;lt;X\leq 4.2)$.&lt;/li>
