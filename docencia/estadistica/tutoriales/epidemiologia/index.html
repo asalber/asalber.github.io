@@ -31,7 +31,7 @@
 <meta property="og:title" content="Epidemiología | Aprende con Alf">
 <meta property="og:description" content=" "><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png">
 <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png"><meta property="og:locale" content="es-es">
-<meta property="article:modified_time" content="2021-11-07T22:24:44+01:00">
+<meta property="article:modified_time" content="2021-11-08T08:03:53+01:00">
 <title>Epidemiología | Aprende con Alf</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents>
@@ -198,7 +198,12 @@
 <li><a href=#interpretación-de-los-valores-predictivos>Interpretación de los valores predictivos</a></li>
 </ul>
 </li>
-<li><a href=#aplicaciones-al-covid-19>Aplicaciones al COVID-19</a></li>
+<li><a href=#curva-roc>Curva ROC</a>
+<ul>
+<li><a href=#interpretación-de-la-curva-roc>Interpretación de la curva ROC</a></li>
+<li><a href=#aplicaciones-a-la-covid>Aplicaciones a la COVID</a></li>
+</ul>
+</li>
 <li><a href=#referencias>Referencias</a></li>
 </ul>
 </nav>
@@ -214,7 +219,7 @@
 <p>En el ámbito de la salud pública, la <strong>Epidemilogía</strong> es una rama de la Medicina que se encarga del estudio de la distribución y las causas de eventos relacionados con la salud (normalmente enfermedades) en las poblaciones, y la aplicación de este estudio para controlar problemas públicos de salud.</p>
 </blockquote>
 <img src=img/detective.png width=80% alt="Detective epidemiólogo">
-<p>Debido a la epidemia provocada por el coronavirus, la Epidemia se ha convertido en una de las rama de la medicina que más interés despiertan.</p>
+<p>Debido a la epidemia provocada por el coronavirus, la Epidemiología se ha convertido en una de las ramas de la medicina que más interés despiertan.</p>
 <p><img src=img/fernando-simon.jpg alt="Fernando Simón"></p>
 <p>Sin embargo, antes de la COVID, la Epidemiología ya había servido en otros momentos históricos para solucionar o controlar algunos de los problemas de salud públicos más serios que ha enfrentado la humanidad.</p>
 <h3 id=algunos-descubrimientos-históricos>Algunos descubrimientos históricos</h3>
@@ -227,7 +232,7 @@
 <li>1983: Robert Gallo, Luc Montagnier y Françoise Barré-Sinoussi identifican el virus que causa el SIDA. Poco después se se observó que el riesgo de contraer el HIV aumentaba con ciertas prácticas sexuales y con el consumo de algunos tipos de drogas.</li>
 <li>2020: Y llegó la COVID&mldr;</li>
 </ul>
-<p>En estos tiempos de pandemia un montón de términos técnicos de la epidemiología se han convertido en lugares comunes gracias a los medios de comunicación.</p>
+<p>En estos tiempos de pandemia un montón de términos técnicos de la Epidemiología se han convertido en lugares comunes gracias a los medios de comunicación.</p>
 <p><img src=img/wordcloud.png alt="Términos epidemiología"></p>
 <p>Sin embargo, muchos de estos términos se utilizan de manera errónea, incluso por los propios medios de comunicación, y generan confusión para la población no experta. En este tutorial pretendo explicar los principales conceptos epidemiológicos usados en el control de enfermedades como la COVID e ilustrar su uso con ejemplos de aplicación.</p>
 <h2 id=índices-epidemiológicos>Índices epidemiológicos</h2>
@@ -637,7 +642,47 @@ VPP>0.5 & \Rightarrow & \mbox{Diagnosticar la enfermedad}\newline
 VPN>0.5 & \Rightarrow & \mbox{Descartar la enfermedad}
 \end{array}
 $$</p>
-<h2 id=aplicaciones-al-covid-19>Aplicaciones al COVID-19</h2>
+<h2 id=curva-roc>Curva ROC</h2>
+<p>En los test diagnósticos basado en la medición de una variable cuantitativa (como por ejemplo los test de antígenos para la COVID) la sensibilidad y la especificidad dependen el umbral fijado para dar un positivo.</p>
+<p>Para evaluar la fiabilidad de estos tests se suele utilizar la <em>curva ROC</em>.</p>
+<div class="alert alert-def">
+<div>
+<strong>Definición: Curva ROC</strong><br>
+La curva ROC (Receiver Operating Characteristic) de un test diagnóstico es la curva que resulta de representar la razón de verdaderos positivos (sensibilidad) frente a la razón de falsos positivos (1-especificidad) para los diferentes umbrales de positivo del test.
+</div>
+</div>
+<p><img src=img/curva-roc.png alt="Curva ROC"></p>
+<h3 id=interpretación-de-la-curva-roc>Interpretación de la curva ROC</h3>
+<ul>
+<li>
+<p>El mejor test es el que que se sitúa en la esquina superior izquierda de el espacio (sensibilidad 1 y especificidad 1).</p>
+</li>
+<li>
+<p>La diagonal representa un test con un diagnóstico aleatorio.</p>
+</li>
+<li>
+<p>Para evaluar la fiabilidad de un test diagnóstico independientemente del umbral de positivos se suele medir el area bajo la curva ROC, también conocida como <em>AUC</em> (<em>area under the curve</em>). Según del valor de la AUC, se tiene</p>
+</li>
+<li>
+<p>0.5: Diagnóstico aleatorio.</p>
+</li>
+<li>
+<p>[0.5, 0.6): Test malo.</p>
+</li>
+<li>
+<p>[0.6, 0.75): Test regular.</p>
+</li>
+<li>
+<p>[0.75, 0.9): Test bueno.</p>
+</li>
+<li>
+<p>[0.9, 0.97): Test muy bueno.</p>
+</li>
+<li>
+<p>[0.97, 1): Test excelente.</p>
+</li>
+</ul>
+<h3 id=aplicaciones-a-la-covid>Aplicaciones a la COVID</h3>
 <ul>
 <li>
 <a href=https://www.rcpjournals.org/content/clinmedicine/20/6/e209 target=_blank rel=noopener>Fiabilidad del diagnóstico por PCR</a></li>
@@ -645,7 +690,12 @@ $$</p>
 <a href=https://www.cdc.gov/mmwr/volumes/69/wr/mm695152a3.htm target=_blank rel=noopener>Fiabilidad del diagnóstico por el test de antígenos</a></li>
 <li>
 <a href=https://academic.oup.com/ajcp/article/154/5/575/5898531 target=_blank rel=noopener>Comparativa de test</a></li>
+<li>
+<a href=https://www.dosfarma.com/salud/test-analisis/test-antigenos-covid/ target=_blank rel=noopener>Test comerciales</a></li>
 </ul>
+<p>Los test de antígenos son más rápidos que las PCR pero son menos fiables.</p>
+<p>Por un lado son menos sensibles que una prueba de PCR debido a que se se requiere una mayor cantidad de virus en las mucosas nasales o bucales para que se muestre un resultado positivo. Eso limita su efectividad cuando las personas llevan poco tiempo infectadas y el virus está empezando a reproducirse.</p>
+<p>Por otro lado también son menos específicos que la PCR, y por tanto, producen más falsos positivos.</p>
 <h2 id=referencias>Referencias</h2>
 <ul>
 <li>
@@ -672,7 +722,7 @@ $$</p>
 </div>
 </div>
 <div class=body-footer>
-<p>Última actualización el Nov 7, 2021</p>
+<p>Última actualización el Nov 8, 2021</p>
 <section id=comments>
 <div id=disqus_thread></div>
 <script>let disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='https://aprendeconalf.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>

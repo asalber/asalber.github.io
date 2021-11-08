@@ -2442,7 +2442,7 @@ grupos B y C (p-valor=1.3e-11 &amp;lt; 0.05).&lt;/p></description></item><item><
 &lt;p>En el ámbito de la salud pública, la &lt;strong>Epidemilogía&lt;/strong> es una rama de la Medicina que se encarga del estudio de la distribución y las causas de eventos relacionados con la salud (normalmente enfermedades) en las poblaciones, y la aplicación de este estudio para controlar problemas públicos de salud.&lt;/p>
 &lt;/blockquote>
 &lt;img src="img/detective.png" width=80% alt="Detective epidemiólogo">
-&lt;p>Debido a la epidemia provocada por el coronavirus, la Epidemia se ha convertido en una de las rama de la medicina que más interés despiertan.&lt;/p>
+&lt;p>Debido a la epidemia provocada por el coronavirus, la Epidemiología se ha convertido en una de las ramas de la medicina que más interés despiertan.&lt;/p>
 &lt;p>&lt;img src="img/fernando-simon.jpg" alt="Fernando Simón">&lt;/p>
 &lt;p>Sin embargo, antes de la COVID, la Epidemiología ya había servido en otros momentos históricos para solucionar o controlar algunos de los problemas de salud públicos más serios que ha enfrentado la humanidad.&lt;/p>
 &lt;h3 id="algunos-descubrimientos-históricos">Algunos descubrimientos históricos&lt;/h3>
@@ -2455,7 +2455,7 @@ grupos B y C (p-valor=1.3e-11 &amp;lt; 0.05).&lt;/p></description></item><item><
 &lt;li>1983: Robert Gallo, Luc Montagnier y Françoise Barré-Sinoussi identifican el virus que causa el SIDA. Poco después se se observó que el riesgo de contraer el HIV aumentaba con ciertas prácticas sexuales y con el consumo de algunos tipos de drogas.&lt;/li>
 &lt;li>2020: Y llegó la COVID&amp;hellip;&lt;/li>
 &lt;/ul>
-&lt;p>En estos tiempos de pandemia un montón de términos técnicos de la epidemiología se han convertido en lugares comunes gracias a los medios de comunicación.&lt;/p>
+&lt;p>En estos tiempos de pandemia un montón de términos técnicos de la Epidemiología se han convertido en lugares comunes gracias a los medios de comunicación.&lt;/p>
 &lt;p>&lt;img src="img/wordcloud.png" alt="Términos epidemiología">&lt;/p>
 &lt;p>Sin embargo, muchos de estos términos se utilizan de manera errónea, incluso por los propios medios de comunicación, y generan confusión para la población no experta. En este tutorial pretendo explicar los principales conceptos epidemiológicos usados en el control de enfermedades como la COVID e ilustrar su uso con ejemplos de aplicación.&lt;/p>
 &lt;h2 id="índices-epidemiológicos">Índices epidemiológicos&lt;/h2>
@@ -2866,7 +2866,47 @@ VPP&amp;gt;0.5 &amp;amp; \Rightarrow &amp;amp; \mbox{Diagnosticar la enfermedad}
 VPN&amp;gt;0.5 &amp;amp; \Rightarrow &amp;amp; \mbox{Descartar la enfermedad}
 \end{array}
 $$&lt;/p>
-&lt;h2 id="aplicaciones-al-covid-19">Aplicaciones al COVID-19&lt;/h2>
+&lt;h2 id="curva-roc">Curva ROC&lt;/h2>
+&lt;p>En los test diagnósticos basado en la medición de una variable cuantitativa (como por ejemplo los test de antígenos para la COVID) la sensibilidad y la especificidad dependen el umbral fijado para dar un positivo.&lt;/p>
+&lt;p>Para evaluar la fiabilidad de estos tests se suele utilizar la &lt;em>curva ROC&lt;/em>.&lt;/p>
+&lt;div class="alert alert-def">
+&lt;div>
+&lt;strong>Definición: Curva ROC&lt;/strong>&lt;br>
+La curva ROC (Receiver Operating Characteristic) de un test diagnóstico es la curva que resulta de representar la razón de verdaderos positivos (sensibilidad) frente a la razón de falsos positivos (1-especificidad) para los diferentes umbrales de positivo del test.
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;img src="img/curva-roc.png" alt="Curva ROC">&lt;/p>
+&lt;h3 id="interpretación-de-la-curva-roc">Interpretación de la curva ROC&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>El mejor test es el que que se sitúa en la esquina superior izquierda de el espacio (sensibilidad 1 y especificidad 1).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La diagonal representa un test con un diagnóstico aleatorio.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Para evaluar la fiabilidad de un test diagnóstico independientemente del umbral de positivos se suele medir el area bajo la curva ROC, también conocida como &lt;em>AUC&lt;/em> (&lt;em>area under the curve&lt;/em>). Según del valor de la AUC, se tiene&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>0.5: Diagnóstico aleatorio.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[0.5, 0.6): Test malo.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[0.6, 0.75): Test regular.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[0.75, 0.9): Test bueno.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[0.9, 0.97): Test muy bueno.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[0.97, 1): Test excelente.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="aplicaciones-a-la-covid">Aplicaciones a la COVID&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;a href="https://www.rcpjournals.org/content/clinmedicine/20/6/e209" target="_blank" rel="noopener">Fiabilidad del diagnóstico por PCR&lt;/a>&lt;/li>
@@ -2874,7 +2914,12 @@ $$&lt;/p>
 &lt;a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm695152a3.htm" target="_blank" rel="noopener">Fiabilidad del diagnóstico por el test de antígenos&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://academic.oup.com/ajcp/article/154/5/575/5898531" target="_blank" rel="noopener">Comparativa de test&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.dosfarma.com/salud/test-analisis/test-antigenos-covid/" target="_blank" rel="noopener">Test comerciales&lt;/a>&lt;/li>
 &lt;/ul>
+&lt;p>Los test de antígenos son más rápidos que las PCR pero son menos fiables.&lt;/p>
+&lt;p>Por un lado son menos sensibles que una prueba de PCR debido a que se se requiere una mayor cantidad de virus en las mucosas nasales o bucales para que se muestre un resultado positivo. Eso limita su efectividad cuando las personas llevan poco tiempo infectadas y el virus está empezando a reproducirse.&lt;/p>
+&lt;p>Por otro lado también son menos específicos que la PCR, y por tanto, producen más falsos positivos.&lt;/p>
 &lt;h2 id="referencias">Referencias&lt;/h2>
 &lt;ul>
 &lt;li>
