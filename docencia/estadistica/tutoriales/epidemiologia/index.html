@@ -31,7 +31,7 @@
 <meta property="og:title" content="Epidemiología | Aprende con Alf">
 <meta property="og:description" content=" "><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png">
 <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png"><meta property="og:locale" content="es-es">
-<meta property="article:modified_time" content="2021-11-08T08:03:53+01:00">
+<meta property="article:modified_time" content="2021-11-09T08:31:11+01:00">
 <title>Epidemiología | Aprende con Alf</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents>
@@ -201,6 +201,7 @@
 <li><a href=#curva-roc>Curva ROC</a>
 <ul>
 <li><a href=#interpretación-de-la-curva-roc>Interpretación de la curva ROC</a></li>
+<li><a href=#area-debajo-de-la-curva-roc-auc>Area debajo de la curva ROC (AUC)</a></li>
 <li><a href=#aplicaciones-a-la-covid>Aplicaciones a la COVID</a></li>
 </ul>
 </li>
@@ -360,8 +361,11 @@ $$ R(E) = \frac{80}{1000} = 0.08$$</p>
 <ul>
 <li>La prevalencia muestra el número de personas afectadas (carga de la enfermedad).</li>
 <li>La incidencia muestra la evolución de la enfermedad y es más útil para detectar brotes y estudiar su causa.</li>
-<li>La incidencia depende solo de la contagiosidad de la enfermedad, mientras que la prevalencia depende también de la duración de la enfermedad y de lo agresiva que sea.</li>
+<li>La incidencia depende sobre todo de la contagiosidad de la enfermedad, mientras que la prevalencia depende también de la duración de la enfermedad y de lo agresiva que sea.</li>
 </ul>
+<p><strong>Ejemplo</strong> Una enfermedad crónica como la diabetes o la artrosis tiene una incidencia prácticamente constante al depender fundamentalmente de la edad y no ser contagiosas y una prevalencia alta ya que no existe cura para ellas y las personas tampoco mueren a causa de ellas sino que viven con ellas el resto de su vida.</p>
+<p>Por otro lado, una enfermedad como el ébola tiene una incidencia pequeña al no ser muy contagiosa y también una prevalencia pequeña al ser una enfermedad mortal ya que casi todas las personas que se contagian acaban muriendo.</p>
+<p>Finalmente, una enfermedad como la COVID tiene una incidencia muy alta al ser muy contagiosa y una prevalencia parecida a la incidencia ya que la enfermedad suele acabar en un periodo de dos semanas desde el contagio (salvo los casos que necesitan hospitalización).</p>
 <h3 id=algunas-consideraciones-en-el-caso-de-la-covid>Algunas consideraciones en el caso de la COVID</h3>
 <p>
 <a href=https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/situacionActual.htm target=_blank rel=noopener>Datos del ministerio de sanidad</a></p>
@@ -654,33 +658,19 @@ La curva ROC (Receiver Operating Characteristic) de un test diagnóstico es la c
 <p><img src=img/curva-roc.png alt="Curva ROC"></p>
 <h3 id=interpretación-de-la-curva-roc>Interpretación de la curva ROC</h3>
 <ul>
-<li>
-<p>El mejor test es el que que se sitúa en la esquina superior izquierda de el espacio (sensibilidad 1 y especificidad 1).</p>
-</li>
-<li>
-<p>La diagonal representa un test con un diagnóstico aleatorio.</p>
-</li>
-<li>
+<li>Cada punto de la curva corresponde a un umbral para el positivo.</li>
+<li>El mejor test es el que que se sitúa en la esquina superior izquierda de el espacio (sensibilidad 1 y especificidad 1).</li>
+<li>La diagonal representa un test con un diagnóstico aleatorio.</li>
+</ul>
+<h3 id=area-debajo-de-la-curva-roc-auc>Area debajo de la curva ROC (AUC)</h3>
 <p>Para evaluar la fiabilidad de un test diagnóstico independientemente del umbral de positivos se suele medir el area bajo la curva ROC, también conocida como <em>AUC</em> (<em>area under the curve</em>). Según del valor de la AUC, se tiene</p>
-</li>
-<li>
-<p>0.5: Diagnóstico aleatorio.</p>
-</li>
-<li>
-<p>[0.5, 0.6): Test malo.</p>
-</li>
-<li>
-<p>[0.6, 0.75): Test regular.</p>
-</li>
-<li>
-<p>[0.75, 0.9): Test bueno.</p>
-</li>
-<li>
-<p>[0.9, 0.97): Test muy bueno.</p>
-</li>
-<li>
-<p>[0.97, 1): Test excelente.</p>
-</li>
+<ul>
+<li>0.5: Diagnóstico aleatorio.</li>
+<li>[0.5, 0.6): Test malo.</li>
+<li>[0.6, 0.75): Test regular.</li>
+<li>[0.75, 0.9): Test bueno.</li>
+<li>[0.9, 0.97): Test muy bueno.</li>
+<li>[0.97, 1): Test excelente.</li>
 </ul>
 <h3 id=aplicaciones-a-la-covid>Aplicaciones a la COVID</h3>
 <ul>
@@ -706,6 +696,8 @@ La curva ROC (Receiver Operating Characteristic) de un test diagnóstico es la c
 <a href=https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf target=_blank rel=noopener>Analysis of epidemiological data using R and Epicalc</a></li>
 <li>
 <a href=https://statsandr.com/blog/top-r-resources-on-covid-19-coronavirus/#coronavirus target=_blank rel=noopener>R resources about COVID-19</a></li>
+<li>
+<a href=http://nube.aprendeconalf.es/shiny/diagnostic-test/ target=_blank rel=noopener>Aplicación para el análisis de la fiabilidad de test diagnósticos</a></li>
 </ul>
 </div>
 <div class=article-tags>
@@ -722,7 +714,7 @@ La curva ROC (Receiver Operating Characteristic) de un test diagnóstico es la c
 </div>
 </div>
 <div class=body-footer>
-<p>Última actualización el Nov 8, 2021</p>
+<p>Última actualización el Nov 9, 2021</p>
 <section id=comments>
 <div id=disqus_thread></div>
 <script>let disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='https://aprendeconalf.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>

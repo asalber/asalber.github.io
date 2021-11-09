@@ -2583,9 +2583,11 @@ $$ R(E) = \frac{80}{1000} = 0.08$$&lt;/p>
 &lt;ul>
 &lt;li>La prevalencia muestra el número de personas afectadas (carga de la enfermedad).&lt;/li>
 &lt;li>La incidencia muestra la evolución de la enfermedad y es más útil para detectar brotes y estudiar su causa.&lt;/li>
-&lt;li>La incidencia depende solo de la contagiosidad de la enfermedad, mientras que la prevalencia depende también de la duración de la enfermedad y de lo agresiva que sea.&lt;/li>
+&lt;li>La incidencia depende sobre todo de la contagiosidad de la enfermedad, mientras que la prevalencia depende también de la duración de la enfermedad y de lo agresiva que sea.&lt;/li>
 &lt;/ul>
-&lt;!-- $$ P(E) &lt; R(E) $$ -->
+&lt;p>&lt;strong>Ejemplo&lt;/strong> Una enfermedad crónica como la diabetes o la artrosis tiene una incidencia prácticamente constante al depender fundamentalmente de la edad y no ser contagiosas y una prevalencia alta ya que no existe cura para ellas y las personas tampoco mueren a causa de ellas sino que viven con ellas el resto de su vida.&lt;/p>
+&lt;p>Por otro lado, una enfermedad como el ébola tiene una incidencia pequeña al no ser muy contagiosa y también una prevalencia pequeña al ser una enfermedad mortal ya que casi todas las personas que se contagian acaban muriendo.&lt;/p>
+&lt;p>Finalmente, una enfermedad como la COVID tiene una incidencia muy alta al ser muy contagiosa y una prevalencia parecida a la incidencia ya que la enfermedad suele acabar en un periodo de dos semanas desde el contagio (salvo los casos que necesitan hospitalización).&lt;/p>
 &lt;h3 id="algunas-consideraciones-en-el-caso-de-la-covid">Algunas consideraciones en el caso de la COVID&lt;/h3>
 &lt;p>
 &lt;a href="https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/situacionActual.htm" target="_blank" rel="noopener">Datos del ministerio de sanidad&lt;/a>&lt;/p>
@@ -2878,33 +2880,19 @@ La curva ROC (Receiver Operating Characteristic) de un test diagnóstico es la c
 &lt;p>&lt;img src="img/curva-roc.png" alt="Curva ROC">&lt;/p>
 &lt;h3 id="interpretación-de-la-curva-roc">Interpretación de la curva ROC&lt;/h3>
 &lt;ul>
-&lt;li>
-&lt;p>El mejor test es el que que se sitúa en la esquina superior izquierda de el espacio (sensibilidad 1 y especificidad 1).&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>La diagonal representa un test con un diagnóstico aleatorio.&lt;/p>
-&lt;/li>
-&lt;li>
+&lt;li>Cada punto de la curva corresponde a un umbral para el positivo.&lt;/li>
+&lt;li>El mejor test es el que que se sitúa en la esquina superior izquierda de el espacio (sensibilidad 1 y especificidad 1).&lt;/li>
+&lt;li>La diagonal representa un test con un diagnóstico aleatorio.&lt;/li>
+&lt;/ul>
+&lt;h3 id="area-debajo-de-la-curva-roc-auc">Area debajo de la curva ROC (AUC)&lt;/h3>
 &lt;p>Para evaluar la fiabilidad de un test diagnóstico independientemente del umbral de positivos se suele medir el area bajo la curva ROC, también conocida como &lt;em>AUC&lt;/em> (&lt;em>area under the curve&lt;/em>). Según del valor de la AUC, se tiene&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>0.5: Diagnóstico aleatorio.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[0.5, 0.6): Test malo.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[0.6, 0.75): Test regular.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[0.75, 0.9): Test bueno.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[0.9, 0.97): Test muy bueno.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[0.97, 1): Test excelente.&lt;/p>
-&lt;/li>
+&lt;ul>
+&lt;li>0.5: Diagnóstico aleatorio.&lt;/li>
+&lt;li>[0.5, 0.6): Test malo.&lt;/li>
+&lt;li>[0.6, 0.75): Test regular.&lt;/li>
+&lt;li>[0.75, 0.9): Test bueno.&lt;/li>
+&lt;li>[0.9, 0.97): Test muy bueno.&lt;/li>
+&lt;li>[0.97, 1): Test excelente.&lt;/li>
 &lt;/ul>
 &lt;h3 id="aplicaciones-a-la-covid">Aplicaciones a la COVID&lt;/h3>
 &lt;ul>
@@ -2930,6 +2918,8 @@ La curva ROC (Receiver Operating Characteristic) de un test diagnóstico es la c
 &lt;a href="https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf" target="_blank" rel="noopener">Analysis of epidemiological data using R and Epicalc&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://statsandr.com/blog/top-r-resources-on-covid-19-coronavirus/#coronavirus" target="_blank" rel="noopener">R resources about COVID-19&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="http://nube.aprendeconalf.es/shiny/diagnostic-test/" target="_blank" rel="noopener">Aplicación para el análisis de la fiabilidad de test diagnósticos&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Regresión</title><link>/docencia/estadistica/manual/regresion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/estadistica/manual/regresion/</guid><description>&lt;p>Hasta ahora se ha visto como describir el comportamiento de una variable, pero en los fenómenos naturales normalmente aparecen más de una variable que suelen estar relacionadas. Por ejemplo, en un estudio sobre el peso de las personas, deberíamos incluir todas las variables con las que podría tener relación: altura, edad, sexo, dieta, tabaco,
 ejercicio físico, etc.&lt;/p>
 &lt;p>Para comprender el fenómeno no basta con estudiar cada variable por separado y es preciso un estudio conjunto de todas las variables para ver cómo interactúan y qué relaciones se dan entre ellas. El objetivo de la estadística en este caso es dar medidas del grado y del tipo de relación entre dichas variables.&lt;/p>
