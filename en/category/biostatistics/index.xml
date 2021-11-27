@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Biostatistics | Aprende con Alf</title><link>/en/category/biostatistics/</link><atom:link href="/en/category/biostatistics/index.xml" rel="self" type="application/rss+xml"/><description>Biostatistics</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Biostatistics</title><link>/en/category/biostatistics/</link></image><item><title>Introduction</title><link>/en/teaching/statistics/manual/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/introduction/</guid><description>&lt;h2 id="statistics-as-a-scientific-tool">Statistics as a scientific tool&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Biostatistics | Aprende con Alf</title><link>/en/category/biostatistics/</link><atom:link href="/en/category/biostatistics/index.xml" rel="self" type="application/rss+xml"/><description>Biostatistics</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Biostatistics</title><link>/en/category/biostatistics/</link></image><item><title>Introduction</title><link>/en/teaching/statistics/manual/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/introduction/</guid><description>&lt;h2 id="statistics-as-a-scientific-tool">Statistics as a scientific tool&lt;/h2>
 &lt;h3 id="what-is-statistics">What is Statistics?&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
@@ -447,7 +447,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-475831296" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-734168952" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -456,7 +456,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-475831296', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-734168952', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -5382,6 +5382,189 @@ Solution
 &lt;div class="card-body">
 Let $X$ be the curing time, $P(X&amp;gt;65)=0.0668$.&lt;br>
 Let $Y$ be the number of injured players that could play the semifinal, $P(Y\geq 1)=0.4989$.
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Pharmacy exam 2021-11-22</title><link>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</link><pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</guid><description>&lt;p>Degrees: Pharmacy, Biotechnology&lt;br>
+Date: November 22, 2021&lt;/p>
+&lt;h2 id="question-1">Question 1&lt;/h2>
+&lt;p>The cranial capacity (in dm$^3$) of a primate population follows a normal probability distribution $X\sim N(\mu,\sigma)$. The chart below shows the Gauss bell of $X$. Observe that the chart shows the area below the bell between 1 and 3.&lt;/p>
+&lt;p>&lt;img src="../img/vac-17-med-normal-cranial-capacity.svg" alt="Gauss bell of the cranial capacity">&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>What is the mean of the cranial capacity distribution?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Is the mean of the cranial capacity representative of the population?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What are the coefficients of skewness and kurtosis?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What is the interquartile range of the cranial capacity?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If a cranial capacity outside of the interval $(Q_1-1.5IQR, Q_3+1.5IQR)$ is considered an outlier, what is the probability of observing an outlier in the cranial capacity?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-0" role="button" aria-expanded="false" aria-controls="spoiler-0">
+Solución
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-0">
+&lt;div class="card-body">
+&lt;p>Let $X$ be the cranial capacity of a primate. Then, $X\sim N(\mu, \sigma)$.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>$\mu=2$ dm$^3$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$\sigma=0.5$ dm$^6$ and $cv=0.25$. As the coef. of variation is small, the mean is representative.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>As $X$ follows a normal distribution, $g_1=0$ and $g_2=0$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$Q_1 = 1.6628$ dm$^3$, $Q_3=2.3372$ dm$^3$ and $IQR=0.6745$ dm$^3$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fences: $f_1=0.651$ dm$^3$ and $f_2=3.349$.&lt;br>
+$P(X &amp;lt; 0.651) + P(X &amp;gt; 3.349) = 0.007$.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="question-2">Question 2&lt;/h2>
+&lt;p>A pharmaceutical company produces the same drug in 5 different laboratories. It has been observed that each laboratory produces, on average, one non-marketable defective batch every three months.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>What is the probability that a laboratory produce more than 3 defective batches in one year?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What is the probability that at least 2 laboratories produce no defective batches in one year?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-1" role="button" aria-expanded="false" aria-controls="spoiler-1">
+Solución
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-1">
+&lt;div class="card-body">
+&lt;ol>
+&lt;li>
+&lt;p>Let $X$ be the number of defective batches in a year then $X\sim P(4)$, and $P(X&amp;gt;3) = 0.5665$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Let $Y$ be the number of laboratories that produce no defective batches in one year, then $Y\sim B(5, 0.0183)$ and $P(Y\geq 2) = 0.0032$.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="question-3">Question 3&lt;/h2>
+&lt;p>The table below shows the frequencies observed in a random sample from a population for the blood type and SARS-CoV-2 infection:&lt;/p>
+&lt;p>$$
+\begin{array}{llr}
+\hline
+\mbox{Blood type} &amp;amp; \mbox{Infection} &amp;amp; \mbox{Persons}\newline \mbox{O} &amp;amp; \mbox{No} &amp;amp; 1800\newline \mbox{O} &amp;amp; \mbox{Yes} &amp;amp; 100\newline \mbox{A} &amp;amp; \mbox{No} &amp;amp; 4200\newline \mbox{A} &amp;amp; \mbox{Yes} &amp;amp; 400\newline \mbox{B} &amp;amp; \mbox{No} &amp;amp; 2500\newline \mbox{B} &amp;amp; \mbox{Yes} &amp;amp; 150\newline \mbox{AB} &amp;amp; \mbox{No} &amp;amp; 800\newline \mbox{AB} &amp;amp; \mbox{Yes} &amp;amp; 50\newline \hline \end{array}
+$$&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Compute the probability of SARS-CoV-2 infection for a random person.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Compute the probability of having a blood type A and being infected by SARS-CoV-2 for a random person.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Compute the probability of having a blood type A or being infected by SARS-CoV-2 for a random person.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Compute the probability of being infected by SARS-CoV-2 for a person with blood type O.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Compute the probability of having a blood type different from A and B for a person infected by SARS-CoV-2.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Does the SARS-CoV-2 infection depend on the blood type?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-2" role="button" aria-expanded="false" aria-controls="spoiler-2">
+Solución
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-2">
+&lt;div class="card-body">
+&lt;p>Let $I$ be the probability of being infected by SARS-CoV-2.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>$P(I) = 0.07$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(A\cap I) = 0.04$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(A\cup I) = 0.49$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(I|O) = 0.0526$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(\overline A \cap \overline B|I) = 0.2143$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The infection depends on the blood as, for instance, $p(I)\neq P(I|O)$.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="question-4">Question 4&lt;/h2>
+&lt;p>To study the relation between the blood Rh and the SARS-CoV-2 infection a random sample of non-infected people was drawn from a population. The table below shows the number of people infected after one year.&lt;/p>
+&lt;p>$$
+\begin{array}{llr}
+\hline
+\mbox{Blood Rh} &amp;amp; \mbox{Infection} &amp;amp; \mbox{Persons}\newline
+\mbox{-} &amp;amp; \mbox{Yes} &amp;amp; 520\newline
+\mbox{-} &amp;amp; \mbox{No} &amp;amp; 6380\newline
+\mbox{+} &amp;amp; \mbox{Yes} &amp;amp; 780\newline
+\mbox{+} &amp;amp; \mbox{No} &amp;amp; 6200\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Compute the relative risk and the odds ratio to study the association between the SARS-CoV-2 infection and the blood Rh. Which association measure is more suitable to explain the relation between the SARS-CoV-2 infection and the blood Rh. Interpret it.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A diagnostic test for the SARS-CoV-2 has been developed with a 95% of specificity and a 60% of sensitivity, regardless of blood Rh. In which blood Rh will produce more errors? Which diagnosis will we make if we apply the test to a persons with blood Rh- and we get a positive outcome? Which diagnosis will we make if we apply the test to a persons with blood Rh+ and we get a negative outcome?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-3" role="button" aria-expanded="false" aria-controls="spoiler-3">
+Solución
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-3">
+&lt;div class="card-body">
+&lt;p>Let $I$ be the event of being infected by SARS-CoV-2.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>$RR(I) = R_+(I) / R_-(I) = 1.4828$ and $OR(I) = O_+(I) / O_-(I) = 1.5435$.&lt;br>
+The relative risk is more suitable as this is a prospective study and the incidence of infection can be estimated. Thus, the risk of infection with Rh+ is almost one and a half the risk with Rh-.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(\mbox{Error}|\mbox{Rh-}) = 0.0764$ and $P(\mbox{Error}|\mbox{Rh+}) = 0.0891$. Thus, the test will produce more errors in people with Rh+.&lt;br>
+Positive predictive value for Rh-: $p(I|+)=0.4945$. Therefore, we will diagnose no infection.&lt;br>
+Negative predictive value for Rh+: $p(\overline I|-)=0.9497$. Therefore, we will predict no infection.&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/div>
 &lt;/div>
 &lt;/div></description></item><item><title>Pharmacy exam 2021-10-25</title><link>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-10-25/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-10-25/</guid><description>&lt;p>Degrees: Pharmacy, Biotechnology&lt;br>
