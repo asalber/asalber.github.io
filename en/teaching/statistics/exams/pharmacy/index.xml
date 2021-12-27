@@ -23,7 +23,7 @@ Date: November 22, 2021&lt;/p>
 &lt;div class="spoiler " >
 &lt;p>
 &lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-0" role="button" aria-expanded="false" aria-controls="spoiler-0">
-Solución
+Solution
 &lt;/a>
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-0">
@@ -63,7 +63,7 @@ $P(X &amp;lt; 0.651) + P(X &amp;gt; 3.349) = 0.007$.&lt;/p>
 &lt;div class="spoiler " >
 &lt;p>
 &lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-1" role="button" aria-expanded="false" aria-controls="spoiler-1">
-Solución
+Solution
 &lt;/a>
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-1">
@@ -109,7 +109,7 @@ $$&lt;/p>
 &lt;div class="spoiler " >
 &lt;p>
 &lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-2" role="button" aria-expanded="false" aria-controls="spoiler-2">
-Solución
+Solution
 &lt;/a>
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-2">
@@ -162,7 +162,7 @@ $$&lt;/p>
 &lt;div class="spoiler " >
 &lt;p>
 &lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-3" role="button" aria-expanded="false" aria-controls="spoiler-3">
-Solución
+Solution
 &lt;/a>
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-3">
