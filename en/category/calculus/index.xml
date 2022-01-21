@@ -2007,7 +2007,8 @@ Solution
 &lt;p>Let $t$ the time and $o(t)$ the amount of oxygen at time $t$. Differential equation $o'=k/o$.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Particular solution: $o(t)=\sqrt{300t+100}. $o(5)=40$ g.&lt;/p>
+&lt;p>Particular solution: $o(t)=\sqrt{300t+100}$.&lt;br>
+$o(5)=40$ g.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>$3333$ hours.&lt;/p>
