@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exam | Aprende con Alf</title><link>/en/tag/exam/</link><atom:link href="/en/tag/exam/index.xml" rel="self" type="application/rss+xml"/><description>Exam</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Exam</title><link>/en/tag/exam/</link></image><item><title>Pharmacy exam 2021-11-22</title><link>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</link><pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</guid><description>&lt;p>Degrees: Pharmacy, Biotechnology&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exam | Aprende con Alf</title><link>/en/tag/exam/</link><atom:link href="/en/tag/exam/index.xml" rel="self" type="application/rss+xml"/><description>Exam</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Exam</title><link>/en/tag/exam/</link></image><item><title>Pharmacy exam 2022-01-17</title><link>/en/teaching/calculus/exams/pharmacy-2022-01-17/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>/en/teaching/calculus/exams/pharmacy-2022-01-17/</guid><description>&lt;p>Degrees: Pharmacy and Biotechnology&lt;br>
+Date: Jan 17, 2022&lt;/p>
+&lt;h2 id="question-1">Question 1&lt;/h2>
+&lt;p>To analyze the hypoxemia tolerance of mammals, in a laboratory some rats are exposed to extreme conditions with variable levels of oxygen. The rats are in a room whose oxygen level (in %) at any position $(x,y)$ (in meters), is&lt;/p>
+&lt;p>$$O(x,y)=\frac{1}{10}x^2y^2e^{x-y}$$&lt;/p>
+&lt;p>For the rats to survive, they must reach positions where the oxygen level is above 18%.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>A rat $A$ is at position $(3,2)$. If the rat stays in that position, will it survive?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What direction should rat $A$ take in order to increase the oxygen level as quickly as possible? What is the instantaneous rate of change of the oxygen level following that direction?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Another rat $B$ is at position $(2,2)$. If it starts to move in such a way that $y$ decreases the double of the increment of $x$, how will the oxygen level change?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-0" role="button" aria-expanded="false" aria-controls="spoiler-0">
+Solution
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-0">
+&lt;div class="card-body">
+&lt;ol>
+&lt;li>
+&lt;p>$O(3,2)=9.7858$%, therefore the rat will not survive.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The direction of the gradient $\nabla(3,2) = (6e,0)$. Following this direction, the instantaneous rate of change of the oxygen level is $|\nabla(3,2)|=6e$%/m.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Directional derivative along the direction of the vector $\mathbf{v}=(1,-2)$: $f'_{\mathbf{v}}(2,2)=1.4311$%/m.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="question-2">Question 2&lt;/h2>
+&lt;p>The ozone ($O_3$) in the atmosphere is transformed into oxygen ($O_2$) through the following chemical reaction:&lt;/p>
+&lt;p>$$2O_3 \rightarrow 3O_2$$&lt;/p>
+&lt;p>It was experimentally observed that the speed at which the amount of oxygen varies is inversely proportional to the amount of oxygen present. If there is initially 10 g of oxygen in a place, and after one hour this amount of oxygen doubles,&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>What will the amount of oxygen be after 5 hours?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>How long will it take to have 1 kg of oxygen?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-1" role="button" aria-expanded="false" aria-controls="spoiler-1">
+Solution
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-1">
+&lt;div class="card-body">
+&lt;p>Let $t$ the time and $o(t)$ the amount of oxygen at time $t$. Differential equation $o'=k/o$.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Particular solution: $o(t)=\sqrt{300t+100}. $o(5)=40$ g.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$3333$ hours.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="question-3">Question 3&lt;/h2>
+&lt;p>Two insects start moving from the same point following perpendicular directions.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>If the first insect moves at a speed of 3 cm/s and the second at a speed of 4 cm/s, at what instantaneous speed does the distance between them change 2 seconds after they start moving? And at 3 seconds?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If 4 seconds after they start moving the second insect stops and the first continues moving with the same direction and speed, at what instantaneous speed does the distance between the two insects change at that moment?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Remark: The distance between the two insects is the length of the hypotenuse of the right triangle whose sides are the distance travelled by them.&lt;/p>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-2" role="button" aria-expanded="false" aria-controls="spoiler-2">
+Solution
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-2">
+&lt;div class="card-body">
+&lt;p>Let $h(t)$ the length of the hypotenuse of the right triangle whose sides are the distance travelled by the insects at time $t$.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>$h'(2)=5$ cm/s and $h'(3)=5$ cm/s.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$h'(4)=1.8$ cm/s.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Pharmacy exam 2021-11-22</title><link>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</link><pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</guid><description>&lt;p>Degrees: Pharmacy, Biotechnology&lt;br>
 Date: November 22, 2021&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The cranial capacity (in dm$^3$) of a primate population follows a normal probability distribution $X\sim N(\mu,\sigma)$. The chart below shows the Gauss bell of $X$. Observe that the chart shows the area below the bell between 1 and 3.&lt;/p>
