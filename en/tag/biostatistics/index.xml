@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Biostatistics | Aprende con Alf</title><link>/en/tag/biostatistics/</link><atom:link href="/en/tag/biostatistics/index.xml" rel="self" type="application/rss+xml"/><description>Biostatistics</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Biostatistics</title><link>/en/tag/biostatistics/</link></image><item><title>Descriptive Statistics</title><link>/en/teaching/statistics/manual/descriptive-statistics/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/descriptive-statistics/</guid><description>&lt;p>Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Biostatistics | Aprende con Alf</title><link>/en/tag/biostatistics/</link><atom:link href="/en/tag/biostatistics/index.xml" rel="self" type="application/rss+xml"/><description>Biostatistics</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Biostatistics</title><link>/en/tag/biostatistics/</link></image><item><title>Descriptive Statistics</title><link>/en/teaching/statistics/manual/descriptive-statistics/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/manual/descriptive-statistics/</guid><description>&lt;p>Descriptive Statistics is the part of Statistics in charge of representing, analysing and summarizing the information contained in the sample.&lt;/p>
 &lt;p>After the sampling process, this is the next step in every statistical study and usually consists of:&lt;/p>
 &lt;ol>
 &lt;li>
@@ -198,7 +198,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-197536482" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-127854963" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -207,7 +207,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-197536482', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-127854963', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -2920,7 +2920,153 @@ $$&lt;/p>
 &lt;li>The range is non-negative.&lt;/li>
 &lt;li>It satisfies $$F(m,n) =\frac{1}{F(n,m)}.$$ Thus, if we name $f(m,n)_p$ the value that satisfies $P(F(m,n)\leq f(m,n)_p)=p$, then $$f(m,n)_p =\frac{1}{f(n,m)_{1-p}}$$ which is helpful in order to compute probabilities from the table of the distribution function.&lt;/li>
 &lt;/ul>
-&lt;p>As we will see in the next chapter, the Fisher-Snedecor’s F distribution plays an important role in the comparison of population variances and in the analysis of variance test (ANOVA).&lt;/p></description></item><item><title>Pharmacy exam 2021-11-22</title><link>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</link><pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</guid><description>&lt;p>Degrees: Pharmacy, Biotechnology&lt;br>
+&lt;p>As we will see in the next chapter, the Fisher-Snedecor’s F distribution plays an important role in the comparison of population variances and in the analysis of variance test (ANOVA).&lt;/p></description></item><item><title>Pharmacy exam 2022-01-17</title><link>/en/teaching/statistics/exams/pharmacy/pharmacy-2022-01-17/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2022-01-17/</guid><description>&lt;p>Degrees: Pharmacy, Biotechnology&lt;br>
+Date: January 17, 2022&lt;/p>
+&lt;h2 id="question-1">Question 1&lt;/h2>
+&lt;p>A diagnostic test for a disease with a prevalence of 10% has a positive predictive value of 40% and negative predictive value of 95%.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Compute the sensitivity and the specificity of the test.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Compute the probability of a right diagnose.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What must be the minimum sensitivity of the test to be able to diagnose the disease?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-0" role="button" aria-expanded="false" aria-controls="spoiler-0">
+Solution
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-0">
+&lt;div class="card-body">
+&lt;ol>
+&lt;li>
+&lt;p>Sensitivity $P(+|D)=0.571$ and specificity $P(-|\overline D)=0.9048$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(\mbox{Right diagnose}) = P(D \cap +) + P(\overline D \cap -) = 0.8714$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Minimum sensitivity to diagnose the disease $P(+|D)=0.857$.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="question-2">Question 2&lt;/h2>
+&lt;p>To study the effectiveness of two antigen tests for the COVID both tests have been applied to a sample of 100 persons. The table below shows the results:&lt;/p>
+&lt;p>$$
+\begin{array}{ccr}
+\hline
+\mbox{Test $A$} &amp;amp; \mbox{Test $B$} &amp;amp; \mbox{Num persons}\newline
+\mbox{+} &amp;amp; \mbox{+} &amp;amp; 8\newline
+\mbox{+} &amp;amp; \mbox{-} &amp;amp; 2\newline
+\mbox{-} &amp;amp; \mbox{+} &amp;amp; 3\newline
+\mbox{-} &amp;amp; \mbox{-} &amp;amp; 87\newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>Define the following events and compute its probabilities:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Get a $+$ in the test $A$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Get a $+$ in the test $A$ and a $-$ in the test $B$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Get a $+$ in some of the two tests.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Get different results in the two tests.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Get the same result in the two tests.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Get a $+$ in the test $B$ if we got a $+$ in the test $A$.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Are the outcomes of the two tests independent?&lt;/p>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-1" role="button" aria-expanded="false" aria-controls="spoiler-1">
+Solution
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-1">
+&lt;div class="card-body">
+&lt;p>Let $A$ and $B$ the events of getting positive outcomes in the tests $A$ and $B$ respectively.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>$P(A)=0.1$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(A\cap \overline B)=0.02$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(A\cup B) = 0.13$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(A\cap \overline B) + P(\overline A \cap B) = 0.05$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(A\cap B) + P(\overline A \cap \overline B)= 0.95$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$P(B|A) = 0.8$.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>As $P(B|A)\neq P(B)$ the events are dependent.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="question-3">Question 3&lt;/h2>
+&lt;p>It is known that the life of a battery for a peacemaker follows a normal distribution. It has been observed that 20% of the batteries last more than 15 years, while 10% last less than 12 years.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Compute the mean and the standard deviation of the battery life.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Compute the fourth decile of the battery life.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If we take a sample of 5 batteries, what is the probability that more than half of them last between 13 and 14 years?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If we take a sample of 100 batteries, what is the probability that some of them last less than 11 years?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="spoiler " >
+&lt;p>
+&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-2" role="button" aria-expanded="false" aria-controls="spoiler-2">
+Solution
+&lt;/a>
+&lt;/p>
+&lt;div class="collapse card " id="spoiler-2">
+&lt;div class="card-body">
+&lt;p>Let $X$ be the duration of a battery. Then $X\sim N(\mu,\sigma)$.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>$\mu = 13.8108$ years and $\sigma = 1.413$ years.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$D_4 = 13.4528$ years.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Let $Y$ be the number of batteries lasting between 13 and 14 years in a sample of 5 batteries. Then $Y\sim B(5,0.2702)$ and $P(Y&amp;gt;2.5)=0.0209$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Let $U$ be the number of batteries lasting less than 11 years in a sample of 100 batteries. Then $U\sim B(100, 0.0233)\approx P(2.3335)$ and $P(U\geq 1)=0.903$.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Pharmacy exam 2021-11-22</title><link>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</link><pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2021-11-22/</guid><description>&lt;p>Degrees: Pharmacy, Biotechnology&lt;br>
 Date: November 22, 2021&lt;/p>
 &lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The cranial capacity (in dm$^3$) of a primate population follows a normal probability distribution $X\sim N(\mu,\sigma)$. The chart below shows the Gauss bell of $X$. Observe that the chart shows the area below the bell between 1 and 3.&lt;/p>
