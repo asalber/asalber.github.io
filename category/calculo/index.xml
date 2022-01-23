@@ -3272,7 +3272,7 @@ Plano normal: $x=0$.
 &lt;li>
 &lt;a href="http://aprendeconalf.es/calculo/formulas/" target="_blank" rel="noopener">Hoja de fórmulas de Cálculo&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://aprendeconalf.es/estadistica/formulas/" target="_blank" rel="noopener">Hoja de fórmulas de Estadística&lt;/a>&lt;/li>
+&lt;a href="https://aprendeconalf.es/docencia/estadistica/formulas/" target="_blank" rel="noopener">Hoja de fórmulas de Estadística&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>Estaría muy agradecido si me informáis de cualquier error que detectéis en estas hojas.&lt;/p></description></item><item><title>Examen de Farmacia 2017-01-10</title><link>/docencia/calculo/examenes/farmacia/farmacia-2017-01-10/</link><pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate><guid>/docencia/calculo/examenes/farmacia/farmacia-2017-01-10/</guid><description>&lt;p>Grados: Farmacia y Biotecnología&lt;br>
 Fecha: 10 de enero de 2017&lt;/p>
@@ -3464,4 +3464,22 @@ $f$ tiene un punto de silla en $(0,0)$ y un máximo local en $(0,-2)$.
 &lt;a href="https://www.geogebra.org/" target="_blank" rel="noopener">GeoGebra&lt;/a> es un software interactivo libre para el aprendizaje de Matemáticas en educación secundaria y superior. A continuación os presentamos un manual de Cálculo con Geogegra que se centra, sobre todo, en la resolución analítica de problemas de cálculo en una y varias variables con la vista CAS (cálculo simbólico) de Geogegra.&lt;/p>
 &lt;p>
 &lt;a href="https://github.com/asalber/practicas-geogebra/blob/master/practicas_geogebra.pdf" target="_blank" rel="noopener">&lt;button type="button" class="btn btn-primary">
-&lt;i class="fas fa-file-pdf pr-1 fa-fw">&lt;/i> Descargar&lt;/button>&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;i class="fas fa-file-pdf pr-1 fa-fw">&lt;/i> Descargar&lt;/button>&lt;/a>&lt;/p></description></item><item><title>Hoja de Fórmulas de Cálculo</title><link>/docencia/calculo/formulas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/calculo/formulas/</guid><description>&lt;h2 id="fórmulas-de-cálculo">Fórmulas de Cálculo&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>
+&lt;a href="https://github.com/asalber/formulas-calculo/raw/master/formulas-calculo.pdf" target="_blank" rel="noopener">Fórmulas de Cálculo&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>
+&lt;a href="https://github.com/asalber/formulas-calculo/raw/master/formulas-derivadas.pdf" target="_blank" rel="noopener">Tabla de derivadas&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>
+&lt;a href="https://github.com/asalber/formulas-calculo/raw/master/formulas-integrales.pdf" target="_blank" rel="noopener">Tabla de integrales&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>
+&lt;a href="https://github.com/asalber/formulas-calculo/raw/master/formulas-trigonometria.pdf" target="_blank" rel="noopener">Fórmulas de trigonometría&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
