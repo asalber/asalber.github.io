@@ -20071,15 +20071,7 @@ plt.show()
 &lt;ul>
 &lt;li>
 &lt;a href="https://www.edx.org/course/programming-for-everybody-getting-started-with-python" target="_blank" rel="noopener">Curso &amp;ldquo;Python para todos&amp;rdquo;&lt;/a>.&lt;/li>
-&lt;/ul></description></item><item><title/><link>/docencia/python/manual/capitulo-datetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-datetime/</guid><description>&lt;h1 id="la-librería-datetime">La librería datetime&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-depuracion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-depuracion/</guid><description>&lt;h1 id="apéndice-depuración-de-código">Apéndice: Depuración de código&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-estructuras-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-estructuras-control/</guid><description>&lt;h1 id="estructuras-de-control">Estructuras de control&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-excepciones/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-excepciones/</guid><description>&lt;h1 id="excepciones">Excepciones&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-ficheros/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-ficheros/</guid><description>&lt;h1 id="ficheros">Ficheros&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-funciones/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-funciones/</guid><description>&lt;h1 id="funciones">Funciones&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-introduccion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-introduccion/</guid><description>&lt;h1 id="introducción-a-python">Introducción a Python&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-matplotlib/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-matplotlib/</guid><description>&lt;h1 id="la-librería-matplotlib">La librería Matplotlib&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-modulos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-modulos/</guid><description>&lt;h1 id="módulos">Módulos&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-numpy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-numpy/</guid><description>&lt;h1 id="la-librería-numpy">La librería Numpy&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-objetos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-objetos/</guid><description>&lt;h1 id="programación-orientada-a-objetos">Programación Orientada a Objetos&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-pandas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-pandas/</guid><description>&lt;h1 id="la-librería-pandas">La librería Pandas&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-referencias/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-referencias/</guid><description>&lt;h1 id="bibliografía">Bibliografía&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-tipos-datos-estructurados/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-tipos-datos-estructurados/</guid><description>&lt;h1 id="tipos-de-datos-estructurados">Tipos de datos estructurados&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-tipos-datos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-tipos-datos/</guid><description>&lt;h1 id="tipos-de-datos-simples">Tipos de datos simples&lt;/h1></description></item><item><title>Chuletas de programación</title><link>/docencia/python/chuletas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/chuletas/</guid><description>&lt;h2 id="manejo-de-la-terminal">Manejo de la terminal&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;a href="comandos-windows">Comandos en Windows (powershell)&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="">Comandos en MacOS&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="">Comandos en Linux&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Cálculo con Derive</title><link>/docencia/derive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/derive/</guid><description/></item><item><title>Cálculo con Geogebra</title><link>/docencia/geogebra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/geogebra/</guid><description>&lt;h2 id="geogebra">Geogebra&lt;/h2>
+&lt;/ul></description></item><item><title/><link>/docencia/python/manual/capitulo-datetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-datetime/</guid><description>&lt;h1 id="la-librería-datetime">La librería datetime&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-depuracion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-depuracion/</guid><description>&lt;h1 id="apéndice-depuración-de-código">Apéndice: Depuración de código&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-estructuras-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-estructuras-control/</guid><description>&lt;h1 id="estructuras-de-control">Estructuras de control&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-excepciones/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-excepciones/</guid><description>&lt;h1 id="excepciones">Excepciones&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-ficheros/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-ficheros/</guid><description>&lt;h1 id="ficheros">Ficheros&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-funciones/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-funciones/</guid><description>&lt;h1 id="funciones">Funciones&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-introduccion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-introduccion/</guid><description>&lt;h1 id="introducción-a-python">Introducción a Python&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-matplotlib/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-matplotlib/</guid><description>&lt;h1 id="la-librería-matplotlib">La librería Matplotlib&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-modulos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-modulos/</guid><description>&lt;h1 id="módulos">Módulos&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-numpy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-numpy/</guid><description>&lt;h1 id="la-librería-numpy">La librería Numpy&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-objetos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-objetos/</guid><description>&lt;h1 id="programación-orientada-a-objetos">Programación Orientada a Objetos&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-pandas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-pandas/</guid><description>&lt;h1 id="la-librería-pandas">La librería Pandas&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-referencias/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-referencias/</guid><description>&lt;h1 id="bibliografía">Bibliografía&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-tipos-datos-estructurados/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-tipos-datos-estructurados/</guid><description>&lt;h1 id="tipos-de-datos-estructurados">Tipos de datos estructurados&lt;/h1></description></item><item><title/><link>/docencia/python/manual/capitulo-tipos-datos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/capitulo-tipos-datos/</guid><description>&lt;h1 id="tipos-de-datos-simples">Tipos de datos simples&lt;/h1></description></item><item><title>Cálculo con Derive</title><link>/docencia/derive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/derive/</guid><description/></item><item><title>Cálculo con Geogebra</title><link>/docencia/geogebra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/geogebra/</guid><description>&lt;h2 id="geogebra">Geogebra&lt;/h2>
 &lt;p>
 &lt;a href="https://www.geogebra.org/" target="_blank" rel="noopener">GeoGebra&lt;/a> es un software interactivo libre para el aprendizaje de Matemáticas en educación secundaria y superior. A continuación os presentamos un manual de Cálculo con Geogegra que se centra, sobre todo, en la resolución analítica de problemas de cálculo en una y varias variables con la vista CAS (cálculo simbólico) de Geogegra.&lt;/p>
 &lt;p>
@@ -20355,7 +20347,163 @@ Son miembros de la Unidad de Bioestadística de esta universidad en la que han r
 &lt;/ul>
 &lt;h2 id="dónde-adquirirlo">¿Dónde adquirirlo?&lt;/h2>
 &lt;p>El libro puede adquirirse en la página web de
-&lt;a href="https://www.ceuediciones.es/catalogo/libros/medicina/bioestadistica-aplicada-con-spss/" target="_blank" rel="noopener">CEU Ediciones&lt;/a>.&lt;/p></description></item><item><title>Manual de Python</title><link>/docencia/python/manual/title-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/title-page/</guid><description/></item><item><title>Tipos de estudios estadísticos</title><link>/docencia/r/estudios-estadisticos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/r/estudios-estadisticos/</guid><description>&lt;p>El tipo de estudio estadístico más apropiado en cada caso depende de varios factores:&lt;/p>
+&lt;a href="https://www.ceuediciones.es/catalogo/libros/medicina/bioestadistica-aplicada-con-spss/" target="_blank" rel="noopener">CEU Ediciones&lt;/a>.&lt;/p></description></item><item><title>Manual de Python</title><link>/docencia/python/manual/title-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/manual/title-page/</guid><description/></item><item><title>Terminal de sistemas MacOs</title><link>/docencia/python/herramientas/terminal-macos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/herramientas/terminal-macos/</guid><description>&lt;p>El sistema de archivos del sistema operativo MacOs es muy parecida a la de los sistemas Linux y organiza el contenido de todos los discos duros y sistemas de almacenamiento siguiendo una estructura de árbol cuya raíz es siempre el directorio principal que se representa como la barra diagonal &lt;code>/&lt;/code>. El directorio principal contiene todos los archivos del sistema.&lt;/p>
+&lt;p>Por otro lado, cada usuario del sistema tiene asignado un directorio principal de usuario que está dentro del directorio &lt;code>/Users&lt;/code> y se representa con el carácter &lt;code>~&lt;/code>. Cualquier usuario puede hacer los cambios que quiera en su directorio de usuario pero no podrá acceder los directorios de otros usuarios ni del resto del sistema de archivos salvo que tenga permiso de administrador del sistema (root).&lt;/p>
+&lt;p>&lt;img src="img/sistema-archivos-macos.png" alt="Estructura de directorios del sistema operativo MacOs">&lt;/p>
+&lt;h2 id="rutas-absolutas-y-relativas">Rutas absolutas y relativas&lt;/h2>
+&lt;p>La ubicación de un archivo o un directorio en la estructura de árbol de la unidad se puede determinar mediante una ruta absoluta o una ruta relativa.&lt;/p>
+&lt;p>La &lt;strong>ruta absoluta&lt;/strong> de un archivo o directorio es la secuencia de directorios que hay que atravesar para llegar al archivo o directorio en cuestión desde el directorio raíz. La ruta se expresa separando los directorios con la barra diagonal &lt;code>/&lt;/code>.&lt;/p>
+&lt;p>La &lt;strong>ruta relativa&lt;/strong> de un archivo o directorio es la secuencia de directorios que hay que atravesar para llegar al archivo o directorio en cuestión desde el directorio activo. Para referirse al directorio madre se utiliza el alias &lt;code>..&lt;/code>, mientras que para referirse al propio directorio activo se utiliza el alias &lt;code>.&lt;/code>.&lt;/p>
+&lt;p>Mientras que la ruta absoluta de un archivo o directorio es única, la ruta relativa depende del directorio activo.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Supongamos el siguiente árbol de directorios.&lt;/p>
+&lt;p>&lt;img src="img/arbol-archivos.svg" alt="Ejemplo de árbol de archivos">&lt;/p>
+&lt;p>La ruta absoluta al directorio &lt;code>Programación&lt;/code> sería &lt;code>/Users/Alumno/Grado/Primero/Programación&lt;/code>, mientras que la ruta relativa, asumiendo que el directorio activo es &lt;code>Primero&lt;/code>, es &lt;code>./Programación&lt;/code>.
+Del mismo modo, la ruta relativa hasta el directorio &lt;code>Segundo&lt;/code> sería &lt;code>../Segundo&lt;/code>.&lt;/p>
+&lt;h2 id="la-terminal-de-los-sistemas-macos">La terminal de los sistemas MacOs&lt;/h2>
+&lt;p>La terminal de los sistemas MacOs proporciona una interfaz de línea de comando (CLI) para acceder a los archivos y dar instrucciones al sistema.&lt;/p>
+&lt;p>La aplicación &lt;code>Terminal&lt;/code> viene instalada por defecto en los sistemas MacOs y puede ejecutarse como cualquier otra aplicación desde el Launchpad. Cuando se ejecuta abre una ventana de texto muestra la fecha de la última conexión y el &lt;code>prompt&lt;/code>, que es una cadena de texto que incluye el nombre del usuario, el nombre del ordenador y la ruta del directorio actual (inicialmente el directorio principal del usuario &lt;code>~&lt;/code>) terminada con el carácter &lt;code>%&lt;/code>. A partir de aquí el usuario puede dar ordenes al sistema tecleando comandos.&lt;/p>
+&lt;p>El programa encargado de interpretar los comandos que el usuario introduce en la terminal se denomina &lt;code>shell&lt;/code> y en las últimas versiones de MacOs por defecto se utiliza la
+&lt;a href="https://es.wikipedia.org/wiki/Zsh" target="_blank" rel="noopener">shell zsh&lt;/a>.&lt;/p>
+&lt;h2 id="comandos-básicos-de-la-shell-zsh">Comandos básicos de la shell zsh&lt;/h2>
+&lt;p>Un comando es una instrucción a ejecutar por el sistema operativo. Los comandos suelen llevar asociados parámetros y argumentos. Los parámetros modifican la manera de realizar la instrucción y van precedidos de un guión &lt;code>-&lt;/code> o un doble guión &lt;code>--&lt;/code>, mientras que los argumentos indican sobre qué objeto se realiza la acción de indica la instrucción (un archivo, un directorio, etc.)&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Comando&lt;/th>
+&lt;th style="text-align:left">Acción&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>ls&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Muestra un listado con el contenido del directorio actual.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>ls -l&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Muestra un listado detallado con el contenido del directorio actual.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>ls -la&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Muestra un listado detallado con el contenido del directorio actual, incluyendo os archivos ocultos.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>ls &amp;lt;dir&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Muestra un listado del directorio &lt;code>&amp;lt;dir&amp;gt;&lt;/code>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>cd &amp;lt;dir&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Cambia al directorio &lt;code>&amp;lt;dir&amp;gt;&lt;/code> convirtiéndolo en el directorio activo.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>mkdir &amp;lt;dir&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Crea el directorio &lt;code>&amp;lt;dir&amp;gt;&lt;/code>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>mv &amp;lt;origen&amp;gt; &amp;lt;destino&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Mueve el archivo o directorio &lt;code>&amp;lt;origen&amp;gt;&lt;/code> al directorio &lt;code>&amp;lt;destino&amp;gt;&lt;/code>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>rm &amp;lt;f&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Elimina el archivo &lt;code>&amp;lt;f&amp;gt;&lt;/code>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>rm -r &amp;lt;dir&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Elimina el directorio &lt;code>&amp;lt;dir&amp;gt;&lt;/code> y todo su contenido.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="trucos-de-la-terminal">Trucos de la terminal&lt;/h2>
+&lt;p>Para manejar con soltura la terminal conviene utilizar algunos trucos que facilitan su uso.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Tabulador. La tecla tabulador (⇥) permite completar la entrada del usuario automáticamente, es decir, el usuario comienza a teclear un comando o ruta de archivo y, sin necesidad de escribirla por completo, cuando se pulsa la tecla tabulador el sistema intenta completarla siempre y cuando no haya más de un comando o ruta que comiencen por esos caracteres.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Teclas de desplazamiento. Las teclas con las flechas de desplazamiento arriba (↑) y abajo (↓) permiten reutilizar comandos que se han usado previamente en la misma sesión de la terminal.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Limpiar la terminal. La combinación de las teclas &lt;code>Ctr&lt;/code> + &lt;code>l&lt;/code> limpia la terminal.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Terminal de sistemas Windows</title><link>/docencia/python/herramientas/terminal-windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/python/herramientas/terminal-windows/</guid><description>&lt;h2 id="sistema-de-archivos-de-los-sistemas-windows">Sistema de archivos de los sistemas Windows&lt;/h2>
+&lt;p>El sistema de archivos del sistema operativo Windows organiza el contenido de los discos duros en unidades. El disco duro principal es la unidad &lt;code>C:&lt;/code>. En cada unidad, los archivos se organizan en directorios (carpetas) siguiendo una estructura de árbol cuya raíz es siempre el directorio principal que se representa como la barra invertida &lt;code>\&lt;/code>. El directorio principal contiene todos los archivos del disco duro.&lt;/p>
+&lt;p>Por otro lado, cada usuario del sistema tiene asignado un directorio principal de usuario que está dentro del directorio &lt;code>/Usuarios&lt;/code> y se representa con el carácter &lt;code>~&lt;/code>. Cualquier usuario puede hacer los cambios que quiera en su directorio de usuario pero no podrá acceder los directorios de otros usuarios ni del resto del sistema de archivos salvo que tenga permiso de administrador del sistema.&lt;/p>
+&lt;p>&lt;img src="img/ubicacion-carpetas-sistema-windows.jpg" alt="Estructura de directorios del sistema operativo Windows 10">&lt;/p>
+&lt;h2 id="rutas-absolutas-y-relativas">Rutas absolutas y relativas&lt;/h2>
+&lt;p>La ubicación de un archivo o un directorio en la estructura de árbol de la unidad se puede determinar mediante una ruta absoluta o una ruta relativa.&lt;/p>
+&lt;p>La &lt;strong>ruta absoluta&lt;/strong> de un archivo o directorio es la secuencia de directorios que hay que atravesar para llegar al archivo o directorio en cuestión desde el directorio raíz. La ruta se expresa separando los directorios con la barra &lt;code>\&lt;/code>.&lt;/p>
+&lt;p>La &lt;strong>ruta relativa&lt;/strong> de un archivo o directorio es la secuencia de directorios que hay que atravesar para llegar al archivo o directorio en cuestión desde el directorio activo. Para referirse al directorio madre se utiliza el alias &lt;code>..&lt;/code>, mientras que para referirse al propio directorio activo se utiliza el alias &lt;code>.&lt;/code>.&lt;/p>
+&lt;p>Mientras que la ruta absoluta de un archivo o directorio es única, la ruta relativa depende del directorio activo.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. Supongamos el siguiente árbol de directorios.&lt;/p>
+&lt;p>&lt;img src="img/arbol-archivos.svg" alt="Ejemplo de árbol de archivos">&lt;/p>
+&lt;p>La ruta absoluta al directorio &lt;code>Programación&lt;/code> sería &lt;code>C:\Usuarios\Alumno\Grado\Primero\Programación&lt;/code>, mientras que la ruta relativa, asumiendo que el directorio activo es &lt;code>Primero&lt;/code>, es &lt;code>.\Programación&lt;/code>.
+Del mismo modo, la ruta relativa hasta el directorio &lt;code>Segundo&lt;/code> sería &lt;code>..\Segundo&lt;/code>.&lt;/p>
+&lt;h2 id="la-terminal-de-los-sistemas-windows">La terminal de los sistemas Windows&lt;/h2>
+&lt;p>La terminal de los sistemas Windows proporciona una interfaz de línea de comando (CLI) para acceder a los archivos y dar instrucciones al sistema.&lt;/p>
+&lt;p>La aplicación &lt;code>Cmd&lt;/code> viene instalada por defecto en los sistemas Windows y puede ejecutarse como cualquier otra aplicación desde el menú de inicio. Cuando se ejecuta abre una ventana de texto que muestra un mensaje de bienvenida y el &lt;code>prompt&lt;/code>, que es una cadena de texto con la ruta del directorio actual (inicialmente el directorio principal del usuario &lt;code>~&lt;/code>) terminada con el carácter &lt;code>&amp;gt;&lt;/code>. A partir de aquí el usuario puede dar ordenes al sistema tecleando comandos.&lt;/p>
+&lt;p>El programa encargado de interpretar los comandos que el usuario introduce en la terminal se denomina &lt;code>shell&lt;/code>. La shell de Cmd es muy básica y conviene instalar la shell &lt;code>PowerShell&lt;/code> que es mucho más potente. La aplicación PowerShell no viene instalada en los sistemas Windows por defecto pero puede instalarse siguiendo las
+&lt;a href="https://docs.microsoft.com/es-es/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2" target="_blank" rel="noopener">instrucciones de instalación de PowerShell&lt;/a>&lt;/p>
+&lt;p>Al igual que para la aplicación Cmd, cuando se ejecuta PowerShell se abre la ventana de la terminal con un mensaje de bienvenida y el &lt;code>prompt&lt;/code>.&lt;/p>
+&lt;h2 id="comandos-básicos-de-powershell">Comandos básicos de PowerShell&lt;/h2>
+&lt;p>Un comando es una instrucción a ejecutar por el sistema operativo. Los comandos suelen llevar asociados parámetros y argumentos. Los parámetros modifican la manera de realizar la instrucción y van precedidos de un guión &lt;code>-&lt;/code>, mientras que los argumentos indican sobre qué objeto se realiza la acción de indica la instrucción (un archivo, un directorio, etc.)&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Comando&lt;/th>
+&lt;th style="text-align:left">Acción&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>ls&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Muestra un listado con el contenido del directorio actual.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>ls -l&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Muestra un listado detallado con el contenido del directorio actual.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>ls -la&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Muestra un listado detallado con el contenido del directorio actual, incluyendo os archivos ocultos.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>ls &amp;lt;dir&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Muestra un listado del directorio &lt;code>&amp;lt;dir&amp;gt;&lt;/code>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>cd &amp;lt;dir&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Cambia al directorio &lt;code>&amp;lt;dir&amp;gt;&lt;/code> convirtiéndolo en el directorio activo.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>mkdir &amp;lt;dir&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Crea el directorio &lt;code>&amp;lt;dir&amp;gt;&lt;/code>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>mv &amp;lt;origen&amp;gt; &amp;lt;destino&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Mueve el archivo o directorio &lt;code>&amp;lt;origen&amp;gt;&lt;/code> al directorio &lt;code>&amp;lt;destino&amp;gt;&lt;/code>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>rm &amp;lt;f&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Elimina el archivo &lt;code>&amp;lt;f&amp;gt;&lt;/code>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">&lt;code>rmdir &amp;lt;dir&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align:left">Elimina el directorio &lt;code>&amp;lt;dir&amp;gt;&lt;/code> y todo su contenido.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="trucos-de-la-terminal">Trucos de la terminal&lt;/h2>
+&lt;p>Para manejar con soltura la terminal conviene utilizar algunos trucos que facilitan su uso.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Tabulador. La tecla tabulador (⇥) permite completar la entrada del usuario automáticamente, es decir, el usuario comienza a teclear un comando o ruta de archivo y, sin necesidad de escribirla por completo, cuando se pulsa la tecla tabulador el sistema intenta completarla siempre y cuando no haya más de un comando o ruta que comiencen por esos caracteres.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Teclas de desplazamiento. Las teclas con las flechas de desplazamiento arriba (↑) y abajo (↓) permiten reutilizar comandos que se han usado previamente en la misma sesión de la terminal.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Limpiar la terminal. El comando &lt;code>cls&lt;/code> limpia la terminal.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Tipos de estudios estadísticos</title><link>/docencia/r/estudios-estadisticos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/r/estudios-estadisticos/</guid><description>&lt;p>El tipo de estudio estadístico más apropiado en cada caso depende de varios factores:&lt;/p>
 &lt;ul>
 &lt;li>El objetivo del estudio.&lt;/li>
 &lt;li>El número de variables que intervienen.&lt;/li>

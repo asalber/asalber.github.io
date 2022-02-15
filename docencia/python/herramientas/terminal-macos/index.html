@@ -5,8 +5,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Source Themes Academic 4.8.0">
 <meta name=author content="Alfredo Sánchez Alberca">
-<meta name=description content="Trabajos de Programación con Python de los últimos cursos con soluciones.">
-<link rel=alternate hreflang=es-es href=/docencia/python/trabajos/>
+<meta name=description content="Comandos más habituales para la shell zsh">
+<link rel=alternate hreflang=es-es href=/docencia/python/herramientas/terminal-macos/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#6f5499">
 <script src=/js/mathjax-config.js></script>
@@ -19,20 +19,20 @@
 <script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Ubuntu:400,700%7CSource Sans Pro:400+400italic%7COpen Sans:400+400italic%7CRoboto+Mono&display=swap">
 <link rel=stylesheet href=/css/academic.css>
-<link rel=alternate href=/docencia/python/trabajos/index.xml type=application/rss+xml title="Aprende con Alf">
 <link rel=manifest href=/index.webmanifest>
 <link rel=icon type=image/png href=/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_192x192_fill_lanczos_center_3.png>
-<link rel=canonical href=/docencia/python/trabajos/>
+<link rel=canonical href=/docencia/python/herramientas/terminal-macos/>
 <meta property="twitter:card" content="summary">
 <meta property="twitter:site" content="@aprendeconalf">
 <meta property="twitter:creator" content="@aprendeconalf">
 <meta property="og:site_name" content="Aprende con Alf">
-<meta property="og:url" content="/docencia/python/trabajos/">
-<meta property="og:title" content="Trabajos de Programación con Python | Aprende con Alf">
-<meta property="og:description" content="Trabajos de Programación con Python de los últimos cursos con soluciones."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png">
+<meta property="og:url" content="/docencia/python/herramientas/terminal-macos/">
+<meta property="og:title" content="Terminal de sistemas MacOs | Aprende con Alf">
+<meta property="og:description" content="Comandos más habituales para la shell zsh"><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png">
 <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png"><meta property="og:locale" content="es-es">
-<title>Trabajos de Programación con Python | Aprende con Alf</title>
+<meta property="article:modified_time" content="2022-02-15T10:51:17+01:00">
+<title>Terminal de sistemas MacOs | Aprende con Alf</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents>
 <script>window.staDarkLightChooser=!0</script>
@@ -136,14 +136,10 @@
 </form>
 <nav class="collapse docs-links" id=docs-nav>
 <div class=docs-toc-item>
-<a class=docs-toc-link href=/docencia/python/>Programación con Python</a>
+<a class=docs-toc-link href=/docencia/python/herramientas/>Herramientas de programación</a>
 <ul class="nav docs-sidenav">
-<li><a href=/docencia/python/manual/>Manual de Python</a></li>
-<li><a href=/docencia/python/ejercicios/>Ejercicios de Programación con Python</a></li>
-<li><a href=/docencia/python/examenes/>Exámenes de Programación con Python</a></li>
-<li class=active><a href=/docencia/python/trabajos/>Trabajos de Programación con Python</a></li>
-<li><a href=/docencia/python/retos/>Retos de Programación con Python</a></li>
-<li><a href=/docencia/python/herramientas/>Herramientas de programación</a></li>
+<li class=active><a href=/docencia/python/herramientas/terminal-macos/>Terminal de sistemas MacOs</a></li>
+<li><a href=/docencia/python/herramientas/terminal-windows/>Terminal de sistemas Windows</a></li>
 </ul>
 </nav>
 </div>
@@ -151,28 +147,113 @@
 <ul class="nav toc-top">
 <li><a href=# id=back_to_top class=docs-toc-title>En esta página</a></li>
 </ul>
-<nav id=TableOfContents></nav>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#rutas-absolutas-y-relativas>Rutas absolutas y relativas</a></li>
+<li><a href=#la-terminal-de-los-sistemas-macos>La terminal de los sistemas MacOs</a></li>
+<li><a href=#comandos-básicos-de-la-shell-zsh>Comandos básicos de la shell zsh</a></li>
+<li><a href=#trucos-de-la-terminal>Trucos de la terminal</a></li>
+</ul>
+</nav>
 </div>
 <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role=main>
 <article class=article>
 <div class=docs-article-container>
-<h1>Trabajos de Programación con Python</h1>
+<h1>Terminal de sistemas MacOs</h1>
 <div class=article-style>
-<p>Trabajos de Programación con Python de los últimos cursos con soluciones.</p>
-<ul class=list-unstyled>
-<li><h5><a href=/docencia/python/trabajos/inteligencia-negocios/>Trabajos de Programación con Python de Inteligencia de los Negocios</a></h5> <p> </p></li>
+<p>El sistema de archivos del sistema operativo MacOs es muy parecida a la de los sistemas Linux y organiza el contenido de todos los discos duros y sistemas de almacenamiento siguiendo una estructura de árbol cuya raíz es siempre el directorio principal que se representa como la barra diagonal <code>/</code>. El directorio principal contiene todos los archivos del sistema.</p>
+<p>Por otro lado, cada usuario del sistema tiene asignado un directorio principal de usuario que está dentro del directorio <code>/Users</code> y se representa con el carácter <code>~</code>. Cualquier usuario puede hacer los cambios que quiera en su directorio de usuario pero no podrá acceder los directorios de otros usuarios ni del resto del sistema de archivos salvo que tenga permiso de administrador del sistema (root).</p>
+<p><img src=img/sistema-archivos-macos.png alt="Estructura de directorios del sistema operativo MacOs"></p>
+<h2 id=rutas-absolutas-y-relativas>Rutas absolutas y relativas</h2>
+<p>La ubicación de un archivo o un directorio en la estructura de árbol de la unidad se puede determinar mediante una ruta absoluta o una ruta relativa.</p>
+<p>La <strong>ruta absoluta</strong> de un archivo o directorio es la secuencia de directorios que hay que atravesar para llegar al archivo o directorio en cuestión desde el directorio raíz. La ruta se expresa separando los directorios con la barra diagonal <code>/</code>.</p>
+<p>La <strong>ruta relativa</strong> de un archivo o directorio es la secuencia de directorios que hay que atravesar para llegar al archivo o directorio en cuestión desde el directorio activo. Para referirse al directorio madre se utiliza el alias <code>..</code>, mientras que para referirse al propio directorio activo se utiliza el alias <code>.</code>.</p>
+<p>Mientras que la ruta absoluta de un archivo o directorio es única, la ruta relativa depende del directorio activo.</p>
+<p><strong>Ejemplo</strong>. Supongamos el siguiente árbol de directorios.</p>
+<p><img src=img/arbol-archivos.svg alt="Ejemplo de árbol de archivos"></p>
+<p>La ruta absoluta al directorio <code>Programación</code> sería <code>/Users/Alumno/Grado/Primero/Programación</code>, mientras que la ruta relativa, asumiendo que el directorio activo es <code>Primero</code>, es <code>./Programación</code>.
+Del mismo modo, la ruta relativa hasta el directorio <code>Segundo</code> sería <code>../Segundo</code>.</p>
+<h2 id=la-terminal-de-los-sistemas-macos>La terminal de los sistemas MacOs</h2>
+<p>La terminal de los sistemas MacOs proporciona una interfaz de línea de comando (CLI) para acceder a los archivos y dar instrucciones al sistema.</p>
+<p>La aplicación <code>Terminal</code> viene instalada por defecto en los sistemas MacOs y puede ejecutarse como cualquier otra aplicación desde el Launchpad. Cuando se ejecuta abre una ventana de texto muestra la fecha de la última conexión y el <code>prompt</code>, que es una cadena de texto que incluye el nombre del usuario, el nombre del ordenador y la ruta del directorio actual (inicialmente el directorio principal del usuario <code>~</code>) terminada con el carácter <code>%</code>. A partir de aquí el usuario puede dar ordenes al sistema tecleando comandos.</p>
+<p>El programa encargado de interpretar los comandos que el usuario introduce en la terminal se denomina <code>shell</code> y en las últimas versiones de MacOs por defecto se utiliza la
+<a href=https://es.wikipedia.org/wiki/Zsh target=_blank rel=noopener>shell zsh</a>.</p>
+<h2 id=comandos-básicos-de-la-shell-zsh>Comandos básicos de la shell zsh</h2>
+<p>Un comando es una instrucción a ejecutar por el sistema operativo. Los comandos suelen llevar asociados parámetros y argumentos. Los parámetros modifican la manera de realizar la instrucción y van precedidos de un guión <code>-</code> o un doble guión <code>--</code>, mientras que los argumentos indican sobre qué objeto se realiza la acción de indica la instrucción (un archivo, un directorio, etc.)</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:left>Comando</th>
+<th style=text-align:left>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:left><code>ls</code></td>
+<td style=text-align:left>Muestra un listado con el contenido del directorio actual.</td>
+</tr>
+<tr>
+<td style=text-align:left><code>ls -l</code></td>
+<td style=text-align:left>Muestra un listado detallado con el contenido del directorio actual.</td>
+</tr>
+<tr>
+<td style=text-align:left><code>ls -la</code></td>
+<td style=text-align:left>Muestra un listado detallado con el contenido del directorio actual, incluyendo os archivos ocultos.</td>
+</tr>
+<tr>
+<td style=text-align:left><code>ls &lt;dir></code></td>
+<td style=text-align:left>Muestra un listado del directorio <code>&lt;dir></code>.</td>
+</tr>
+<tr>
+<td style=text-align:left><code>cd &lt;dir></code></td>
+<td style=text-align:left>Cambia al directorio <code>&lt;dir></code> convirtiéndolo en el directorio activo.</td>
+</tr>
+<tr>
+<td style=text-align:left><code>mkdir &lt;dir></code></td>
+<td style=text-align:left>Crea el directorio <code>&lt;dir></code>.</td>
+</tr>
+<tr>
+<td style=text-align:left><code>mv &lt;origen> &lt;destino></code></td>
+<td style=text-align:left>Mueve el archivo o directorio <code>&lt;origen></code> al directorio <code>&lt;destino></code>.</td>
+</tr>
+<tr>
+<td style=text-align:left><code>rm &lt;f></code></td>
+<td style=text-align:left>Elimina el archivo <code>&lt;f></code>.</td>
+</tr>
+<tr>
+<td style=text-align:left><code>rm -r &lt;dir></code></td>
+<td style=text-align:left>Elimina el directorio <code>&lt;dir></code> y todo su contenido.</td>
+</tr>
+</tbody>
+</table>
+<h2 id=trucos-de-la-terminal>Trucos de la terminal</h2>
+<p>Para manejar con soltura la terminal conviene utilizar algunos trucos que facilitan su uso.</p>
+<ul>
+<li>
+<p>Tabulador. La tecla tabulador (⇥) permite completar la entrada del usuario automáticamente, es decir, el usuario comienza a teclear un comando o ruta de archivo y, sin necesidad de escribirla por completo, cuando se pulsa la tecla tabulador el sistema intenta completarla siempre y cuando no haya más de un comando o ruta que comiencen por esos caracteres.</p>
+</li>
+<li>
+<p>Teclas de desplazamiento. Las teclas con las flechas de desplazamiento arriba (↑) y abajo (↓) permiten reutilizar comandos que se han usado previamente en la misma sesión de la terminal.</p>
+</li>
+<li>
+<p>Limpiar la terminal. La combinación de las teclas <code>Ctr</code> + <code>l</code> limpia la terminal.</p>
+</li>
 </ul>
 </div>
 <div class=article-tags>
-<a class="badge badge-light" href=/tag/trabajo/>Trabajo</a>
+<a class="badge badge-light" href=/tag/herramientas/>Herramientas</a>
 </div>
 <div class=article-widget>
 <div class=post-nav>
+<div class=post-nav-item>
+<div class=meta-nav>Siguiente</div>
+<a href=/docencia/python/herramientas/terminal-windows/ rel=prev>Terminal de sistemas Windows</a>
+</div>
 </div>
 </div>
 </div>
 <div class=body-footer>
-<p>Última actualización el Sep 15, 2020</p>
+<p>Última actualización el Feb 15, 2022</p>
 <section id=comments>
 <div id=disqus_thread></div>
 <script>let disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='https://aprendeconalf.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
