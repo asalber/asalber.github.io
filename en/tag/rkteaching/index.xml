@@ -40,33 +40,32 @@ The installation creates a folder rkward into the installation directory. There,
 &lt;h3 id="installation-on-mac-os">Installation on Mac OS&lt;/h3>
 &lt;p>To install the software on Mac OS systems, you must take the following steps:&lt;/p>
 &lt;ol>
-&lt;li>&lt;strong>Install R&lt;/strong>. R can be downloaded from the following links:&lt;/li>
-&lt;/ol>
+&lt;li>
+&lt;p>&lt;strong>Install R&lt;/strong>. R can be downloaded from the following links:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;a href="https://cran.r-project.org/bin/macosx/base/R-4.0.1.pkg" target="_blank" rel="noopener">R version 4.0.1&lt;/a> For MacOS 10.13 and higher.&lt;/li>
-&lt;li>&lt;/li>
+&lt;li>
+&lt;a href="https://cran.r-project.org/bin/macosx/el-capitan/base/R-3.5.3.pkg" target="_blank" rel="noopener">R version 3.5.3&lt;/a>. For older MacOs versions.&lt;/li>
 &lt;/ul>
-&lt;ol>
-&lt;li>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web
-&lt;a href="http://rkward.sourceforge.net" target="_blank" rel="noopener">http://rkward.sourceforge.net&lt;/a>.&lt;/li>
-&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Install RKWard&lt;/strong>. RKWard can be downloaded from the web
+&lt;a href="http://rkward.sourceforge.net" target="_blank" rel="noopener">http://rkward.sourceforge.net&lt;/a>.&lt;/p>
 &lt;p>You have to select the MacOs distribution corresponding to your R version:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>
-&lt;a href="https://download.kde.org/stable/rkward/0.7.2/mac/rkward-0.7.2-OSX-10.13.dmg" target="_blank" rel="noopener">RKward version 0.7.2&lt;/a>&lt;/p>
+&lt;a href="https://download.kde.org/stable/rkward/0.7.2/mac/rkward-0.7.2-OSX-10.13.dmg" target="_blank" rel="noopener">RKward version 0.7.2&lt;/a> (for R version 4.0.1).&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>
-&lt;a href="https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg" target="_blank" rel="noopener">RKWard version 0.7.0&lt;/a>.&lt;/p>
+&lt;a href="https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg" target="_blank" rel="noopener">RKWard version 0.7.0&lt;/a> (for R version 3.5.3).&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>After downloading it follow
-&lt;a href="https://rkward.kde.org/RKWard_on_Mac.html" target="_blank" rel="noopener">these instructions&lt;/a>&lt;/p>
-&lt;pre>&lt;code>If there is some error during the installation process, check for the possible solutions (&amp;lt;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&amp;gt;)
-&lt;/code>&lt;/pre>
-&lt;ol>
+&lt;p>After downloading it follow the
+&lt;a href="https://rkward.kde.org/RKWard_on_Mac.html" target="_blank" rel="noopener">installation instructions&lt;/a>&lt;/p>
+&lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Install the packages that rkTeaching depends on&lt;/strong>. The rkTeaching package depends on several packages that should be installed first.
 To install this packages you must run RKWard, open the R console and type the following commands:&lt;/p>
@@ -78,7 +77,7 @@ To install this packages you must run RKWard, open the R console and type the fo
 &lt;pre>&lt;code class="language-R">library(remotes)
 install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;/code>&lt;/pre>
-&lt;p>The following video tutorial shows the installation process.&lt;/p>
+&lt;p>The following video tutorial shows the installation process (only for RKWard version 0.7.0).&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/SB1oER6HbEs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
