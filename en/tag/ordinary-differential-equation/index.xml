@@ -2,12 +2,12 @@
 &lt;p>Often in Physics, Chemistry, Biology, Geometry, etc there arise equations that relate a function with its derivative, or successive derivatives.&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definition - Ordinary differential equation&lt;/strong>. An &lt;em>ordinary differential equation&lt;/em> (O.D.E.) is a equation that relates an independent variable $x$, a function $y(x)$ that depends on $x$, and the successive derivatives of $y$, $y',y'',\ldots,y^{(n)}$; it can be written as&lt;/p>
-&lt;p>$$F(x, y, y', y'',\ldots, y^{(n)})=0.$$&lt;/p>
+&lt;p>&lt;strong>Definition - Ordinary differential equation&lt;/strong>. An &lt;em>ordinary differential equation&lt;/em> (O.D.E.) is a equation that relates an independent variable $x$, a function $y(x)$ that depends on $x$, and the successive derivatives of $y$, $y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n)}$; it can be written as&lt;/p>
+&lt;p>$$F(x, y, y&amp;rsquo;, y&amp;rsquo;&amp;rsquo;,\ldots, y^{(n)})=0.$$&lt;/p>
 &lt;p>The &lt;em>order&lt;/em> of a differential equation is the greatest order of the derivatives in the equation.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Example&lt;/strong>. The equation $y'''+sen(x)y'=2x$ is a differential equation of order 3.&lt;/p>
+&lt;p>&lt;strong>Example&lt;/strong>. The equation $y&amp;rsquo;&amp;rsquo;&amp;rsquo;+sen(x)y&amp;rsquo;=2x$ is a differential equation of order 3.&lt;/p>
 &lt;h3 id="deducing-a-differential-equation">Deducing a differential equation&lt;/h3>
 &lt;p>To deduce a differential equation that explains a natural phenomenon is essential to understand what a derivative is and how to interpret it.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. Newton’s law of cooling states&lt;/p>
@@ -20,8 +20,8 @@
 &lt;h3 id="solution-of-an-ordinary-differential-equation">Solution of an ordinary differential equation&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definition - Solution of an ordinary differential equation&lt;/strong>. Given an ordinary differential equation $F(x,y,y',y'',\ldots,y^{(n})=0$, the function $y=f(x)$ is a &lt;em>solution of the ordinary differential equation&lt;/em> if it satisfies the equation, that is, if&lt;/p>
-&lt;p>$$F(x,f(x), f'(x), f''(x),\ldots, f^{(n}(x))=0.$$&lt;/p>
+&lt;p>&lt;strong>Definition - Solution of an ordinary differential equation&lt;/strong>. Given an ordinary differential equation $F(x,y,y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n})=0$, the function $y=f(x)$ is a &lt;em>solution of the ordinary differential equation&lt;/em> if it satisfies the equation, that is, if&lt;/p>
+&lt;p>$$F(x,f(x), f&amp;rsquo;(x), f&amp;rsquo;&amp;rsquo;(x),\ldots, f^{(n}(x))=0.$$&lt;/p>
 &lt;p>The graph of a solution of the ordinary differential equation is known as &lt;em>integral curve&lt;/em>.&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -30,7 +30,7 @@
 &lt;h3 id="general-solution-of-an-ordinary-differential-equation">General solution of an ordinary differential equation&lt;/h3>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;p>&lt;strong>Definition - General solution of an ordinary differential equation&lt;/strong>. Given an ordinary differential equation $F(x,y,y',y'',\ldots,y^{(n})=0$ of order $n$, the &lt;em>general solution&lt;/em> of the differential equation is a family of functions&lt;/p>
+&lt;p>&lt;strong>Definition - General solution of an ordinary differential equation&lt;/strong>. Given an ordinary differential equation $F(x,y,y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n})=0$ of order $n$, the &lt;em>general solution&lt;/em> of the differential equation is a family of functions&lt;/p>
 &lt;p>$$y =f (x,C_1,\ldots,C_n),$$&lt;/p>
 &lt;p>depending on $n$ constants, such that for any value of $C_1,\ldots,C_n$ we get a solution of the differential equation.&lt;/p>
 &lt;/div>
@@ -40,7 +40,7 @@
 &lt;p>Often, it is common to impose conditions to the solutions of a differential equation to reduce the number of solutions. In many cases, these conditions allow to determine the values of the constants in the general solution to get a particular solution.&lt;/p>
 &lt;h2 id="first-order-differential-equations">First order differential equations&lt;/h2>
 &lt;p>In this chapter we are going to study first order differential equations&lt;/p>
-&lt;p>$$F(x,y,y')=0.$$&lt;/p>
+&lt;p>$$F(x,y,y&amp;rsquo;)=0.$$&lt;/p>
 &lt;p>The general solution of a first order differential equation is&lt;/p>
 &lt;p>$$y = f (x,C),$$&lt;/p>
 &lt;p>so to get a particular solution from the general one, it is enough to set the value of the constant $C$, and for that we only need to impose one initial condition.&lt;/p>
@@ -49,7 +49,7 @@
 &lt;p>&lt;strong>Definition - Initial value problem&lt;/strong>. The group consisting of a first order differential equation and an initial condition is known as &lt;em>initial value problem&lt;/em>:&lt;/p>
 &lt;p>$$
 \begin{cases}
-F(x,y,y')=0, &amp;amp; \mbox{First order differential equation;} \newline
+F(x,y,y&amp;rsquo;)=0, &amp;amp; \mbox{First order differential equation;} \newline
 y(x_0)=y_0, &amp;amp; \mbox{Initial condition.}
 \end{cases}
 $$&lt;/p>
@@ -74,7 +74,7 @@ that is a family of integral curves. Among all of them, only the one that passes
 &lt;div>
 &lt;p>&lt;strong>Theorem - Existence and uniqueness of solutions of a first order ODE&lt;/strong>. Given an initial value problem&lt;/p>
 &lt;p>$$\begin{cases}
-y'=F(x,y);\newline
+y&amp;rsquo;=F(x,y);\newline
 y(x_0)=y_0;
 \end{cases}
 $$&lt;/p>
@@ -132,7 +132,7 @@ $$&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
 &lt;p>&lt;strong>Definition - Homogeneous differential equation&lt;/strong>. A &lt;em>homogeneous differential equation&lt;/em> is a first order differential equation that can be written as&lt;/p>
-&lt;p>$$y'=f(x,y),$$&lt;/p>
+&lt;p>$$y&amp;rsquo;=f(x,y),$$&lt;/p>
 &lt;p>where $f(x,y)$ is a homogeneous function of degree $0$.&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -147,9 +147,9 @@ $$&lt;/p>
 &lt;/div>
 &lt;p>Once solved the separable differential equation, the substitution must be undone.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. Let us consider the following differential equation
-$$4x-3y+y'(2y-3x)=0.$$&lt;/p>
+$$4x-3y+y&amp;rsquo;(2y-3x)=0.$$&lt;/p>
 &lt;p>Rewriting the equation in this way&lt;/p>
-&lt;p>$$y'=\frac{3y-4x}{2y-3x}$$&lt;/p>
+&lt;p>$$y&amp;rsquo;=\frac{3y-4x}{2y-3x}$$&lt;/p>
 &lt;p>we can easily check that it is a homogeneous differential equation.&lt;/p>
 &lt;p>To solve this equation we have to do the substitution $y=ux$, and we get&lt;/p>
 &lt;p>$$u&amp;rsquo;x+u=\frac{3ux-4x}{2ux-3x}=\frac{3u-4}{2u-3}$$&lt;/p>
@@ -174,24 +174,24 @@ $$&lt;/p>
 &lt;div class="alert alert-def">
 &lt;div>
 &lt;p>&lt;strong>Definition - Linear differential equation&lt;/strong> A &lt;em>linear differential equation&lt;/em> is a first order differential equation that can be written as&lt;/p>
-&lt;p>$$y'+g(x)y = h(x).$$&lt;/p>
+&lt;p>$$y&amp;rsquo;+g(x)y = h(x).$$&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;p>To solve a linear differential equation we try to write the left side of the equation as the derivative of a product. For that we multiply both sides by the function $f(x)$, such that&lt;/p>
-&lt;p>$$f'(x)=g(x)f(x).$$&lt;/p>
+&lt;p>$$f&amp;rsquo;(x)=g(x)f(x).$$&lt;/p>
 &lt;p>Thus, we get&lt;/p>
 &lt;p>$$
 \begin{array}{c}
 y&amp;rsquo;f(x)+g(x)f(x)y=h(x)f(x)\newline
 \Updownarrow\newline
-y&amp;rsquo;f(x)+f'(x)y=h(x)f(x)\newline
+y&amp;rsquo;f(x)+f&amp;rsquo;(x)y=h(x)f(x)\newline
 \Updownarrow\newline
 \dfrac{d}{dx}(yf(x))=h(x)f(x)
 \end{array}
 $$&lt;/p>
 &lt;p>Integrating both sides of the previous equation we get the solution&lt;/p>
 &lt;p>$$yf(x)=\int h(x)f(x)\,dx+C.$$&lt;/p>
-&lt;p>On the other hand, the unique function that satisfies $f'(x)=g(x)f(x)$ is&lt;/p>
+&lt;p>On the other hand, the unique function that satisfies $f&amp;rsquo;(x)=g(x)f(x)$ is&lt;/p>
 &lt;p>$$f(x)=e^{\int g(x)\,dx},$$&lt;/p>
 &lt;p>so, substituting this function in the previous solution we arrive at the solution of the linear differential equation&lt;/p>
 &lt;p>$$ye^{\int g(x)\,dx}=\int h(x) e^{\int g(x)\,dx}\,dx+C,$$&lt;/p>
@@ -205,7 +205,7 @@ $$&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. If in the differential equation of the Newton’s law of cooling the temperature of the surrounding medium is a function of time $T_a(t)$, then the differential equation&lt;/p>
 &lt;p>$$\frac{dT}{dt}=k(T-T_a(t)),$$&lt;/p>
 &lt;p>is a linear differential equation since it can be written as&lt;/p>
-&lt;p>$$T'-kT=-kT_a(t),$$&lt;/p>
+&lt;p>$$T&amp;rsquo;-kT=-kT_a(t),$$&lt;/p>
 &lt;p>where the independent term is $-kT_a(t)$ and the coefficient of $T$ is $-k$.&lt;/p>
 &lt;p>Substituting in the formula of the general solution of a linear differential equation we have&lt;/p>
 &lt;p>$$y=e^{-\int -k\,dt}\left(\int -kT_a(t)e^{\int -k\,dt}\,dt+C\right)=

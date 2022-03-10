@@ -748,7 +748,7 @@ Solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>66.5% of non-working students passed and 59% of working students passed.&lt;/li>
+&lt;li>35.5% of non-working students passed and 41% of working students passed.&lt;/li>
 &lt;li>Non-working students: $\bar x=5.7$, $s^2=5.15$, $s=2.2694$ and $cv=0.3981$.
 Working students: $\bar y=5.64$, $s^2=4.7104$, $s=2.1703$ and $cv=0.3848$.
 The sample of non-working students has a slightly higher relative dispersion with respect to the mean as the coefficient of variation is greater.&lt;/li>
@@ -1218,8 +1218,16 @@ The table below shows the daily number of cigarretes smoked by mothers ($X$) and
 &lt;p>$$
 \begin{array}{lrrrrrrrrrrrr}
 \hline
-\mbox{Daily num cigarettes} &amp;amp; 10.00 &amp;amp; 14.00 &amp;amp; 8.00 &amp;amp; 11.00 &amp;amp; 7.00 &amp;amp; 6.00 &amp;amp; 2.00 &amp;amp; 5.00 &amp;amp; 9.00 &amp;amp; 9.00 &amp;amp; 4.00 &amp;amp; 6.00 \newline
-\mbox{Weight (kg)} &amp;amp; 2.55 &amp;amp; 2.44 &amp;amp; 2.68 &amp;amp; 2.65 &amp;amp; 2.71 &amp;amp; 2.85 &amp;amp; 3.45 &amp;amp; 2.93 &amp;amp; 2.67 &amp;amp; 2.59 &amp;amp; 3.02 &amp;amp; 2.72 \newline
+\mbox{Daily num cigarettes} &amp;amp; 10.00 &amp;amp; 14.00 &amp;amp; 8.00 &amp;amp; 11.00 &amp;amp; 7.00 &amp;amp; 6.00 \newline
+\mbox{Weight (kg)} &amp;amp; 2.55 &amp;amp; 2.44 &amp;amp; 2.68 &amp;amp; 2.65 &amp;amp; 2.71 &amp;amp; 2.85 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$
+\begin{array}{lrrrrrrrrrrrr}
+\hline
+\mbox{Daily num cigarettes} &amp;amp; 2.00 &amp;amp; 5.00 &amp;amp; 9.00 &amp;amp; 9.00 &amp;amp; 4.00 &amp;amp; 6.00 \newline
+\mbox{Weight (kg)} &amp;amp; 3.45 &amp;amp; 2.93 &amp;amp; 2.67 &amp;amp; 2.59 &amp;amp; 3.02 &amp;amp; 2.72 \newline
 \hline
 \end{array}
 $$&lt;/p>

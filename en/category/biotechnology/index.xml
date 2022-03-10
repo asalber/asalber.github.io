@@ -31,7 +31,7 @@ Solution
 &lt;p>The direction of the gradient $\nabla(3,2) = (6e,0)$. Following this direction, the instantaneous rate of change of the oxygen level is $|\nabla(3,2)|=6e$%/m.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Directional derivative along the direction of the vector $\mathbf{v}=(1,-2)$: $f'_{\mathbf{v}}(2,2)=1.4311$%/m.&lt;/p>
+&lt;p>Directional derivative along the direction of the vector $\mathbf{v}=(1,-2)$: $f&amp;rsquo;_{\mathbf{v}}(2,2)=1.4311$%/m.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -57,7 +57,7 @@ Solution
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-1">
 &lt;div class="card-body">
-&lt;p>Let $t$ the time and $o(t)$ the amount of oxygen at time $t$. Differential equation $o'=k/o$.&lt;/p>
+&lt;p>Let $t$ the time and $o(t)$ the amount of oxygen at time $t$. Differential equation $o&amp;rsquo;=k/o$.&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>Particular solution: $o(t)=\sqrt{300t+100}$.&lt;br>
@@ -92,10 +92,10 @@ Solution
 &lt;p>Let $h(t)$ the length of the hypotenuse of the right triangle whose sides are the distance travelled by the insects at time $t$.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>$h'(2)=5$ cm/s and $h'(3)=5$ cm/s.&lt;/p>
+&lt;p>$h&amp;rsquo;(2)=5$ cm/s and $h&amp;rsquo;(3)=5$ cm/s.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>$h'(4)=1.8$ cm/s.&lt;/p>
+&lt;p>$h&amp;rsquo;(4)=1.8$ cm/s.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -626,10 +626,10 @@ Solution
 &lt;p>Let $x(t)$ be the amount of drug in the body at any time $t$.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Differential equation: $x'=15-0.8x$. Initial condition $x(0)=0$. Particular solution: $x(t)=18.75-18.75e^{-0.8t}$ and the maximum amount of drug in the body will be 18.75 mg.&lt;/p>
+&lt;p>Differential equation: $x&amp;rsquo;=15-0.8x$. Initial condition $x(0)=0$. Particular solution: $x(t)=18.75-18.75e^{-0.8t}$ and the maximum amount of drug in the body will be 18.75 mg.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Differential equation: $x'=-0.8x$. Initial condition $x(0)=18.74$. Particular solution: $x(t)=18.74e^{-0.8t}$ and the time required to have 10 mg of drug in the body will be $0.7851$ hours.&lt;/p>
+&lt;p>Differential equation: $x&amp;rsquo;=-0.8x$. Initial condition $x(0)=18.74$. Particular solution: $x(t)=18.74e^{-0.8t}$ and the time required to have 10 mg of drug in the body will be $0.7851$ hours.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -675,7 +675,7 @@ Solution
 &lt;p>$\nabla T(1,2)=\frac{1}{3}(5,1)$.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Let $\mathbf{u}$ the vector $(1,-1/2)$, then $T'_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p>
+&lt;p>Let $\mathbf{u}$ the vector $(1,-1/2)$, then $T&amp;rsquo;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Along the direction of the vector $(1,-5)$.&lt;/p>
@@ -722,7 +722,7 @@ Solution
 &lt;p>$\dfrac{dr}{dt}=0.0305$ dm/s.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Using the linear approximation $dt = S'/dS=37.5013$ seconds approximately.&lt;/p>
+&lt;p>Using the linear approximation $dt = S&amp;rsquo;/dS=37.5013$ seconds approximately.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -1366,7 +1366,7 @@ Solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 Let $n(t)$ the amount of nitrates in the lagoon at time $t$.&lt;br>
-Differential equation: $n'=-n/60$.&lt;br>
+Differential equation: $n&amp;rsquo;=-n/60$.&lt;br>
 Solution: $n(t)=10^6 e^{-t/60}$.&lt;br>
 $n(14)=791889.6$ kg.&lt;br>
 The lagoon will be decontaminated after $30.6495$ days.
@@ -1891,7 +1891,7 @@ Solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 Let $a$ be the alcohol in the organism and $t$ the time.&lt;br>
-Differential equation: $a'=2-a/2$.&lt;br>
+Differential equation: $a&amp;rsquo;=2-a/2$.&lt;br>
 Solution: $a(t)=4-4e^{-t/2}$.&lt;br>
 $a(5)=3.6717$ ml.
 &lt;/div>
@@ -1908,8 +1908,8 @@ Solution
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-1">
 &lt;div class="card-body">
-Implicit derivative: $y'= \dfrac{-2xy^3+18x^2y^2+2y}{3x^2y^2-12x^3y+2x}$.&lt;br>
-$y'(1/2)=6\neq 0$, so $f$ has no local maximum at $x=1/2$.
+Implicit derivative: $y&amp;rsquo;= \dfrac{-2xy^3+18x^2y^2+2y}{3x^2y^2-12x^3y+2x}$.&lt;br>
+$y&amp;rsquo;(1/2)=6\neq 0$, so $f$ has no local maximum at $x=1/2$.
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -1931,7 +1931,7 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>$\nabla V(3,4,6)=(8,6,4)$ and the volume will increase $|\nabla V(3,4,6)|=10.7703$ cm$^3$/s if we change the dimensions of the capsule following this direction.&lt;/li>
-&lt;li>Directional derivative of $V$ in $(3,4,6)$ along the vector $\mathbf{u}=(1,-1/2,2)$: $V'_{\mathbf{u}}(3,4,6)=5.6737$ cm$^3$/s.&lt;/li>
+&lt;li>Directional derivative of $V$ in $(3,4,6)$ along the vector $\mathbf{u}=(1,-1/2,2)$: $V&amp;rsquo;_{\mathbf{u}}(3,4,6)=5.6737$ cm$^3$/s.&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -2438,7 +2438,7 @@ Solution
 &lt;div class="collapse card " id="spoiler-1">
 &lt;div class="card-body">
 Let $y$ be the alcohol in the organism and $t$ the time.&lt;br>
-Differential equation: $y'=12-3y$.&lt;br>
+Differential equation: $y&amp;rsquo;=12-3y$.&lt;br>
 Solution: $y(t)=4-4e^{-3t}$.&lt;br>
 $y(5)=3.99$ cl.&lt;br>
 The maximum amount of alcohol will be 4 cl and it will be achieved at $t=\infty$.
@@ -2479,7 +2479,7 @@ Solution
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-3">
 &lt;div class="card-body">
-Directional derivative of $z$ in $(1,1,1)$ along $\mathbf{v}=(1,-1)$: $z'_\mathbf{v}(1,1,1)=\frac{1}{2\sqrt{2}}$.
+Directional derivative of $z$ in $(1,1,1)$ along $\mathbf{v}=(1,-1)$: $z&amp;rsquo;_\mathbf{v}(1,1,1)=\frac{1}{2\sqrt{2}}$.
 &lt;/div>
 &lt;/div>
 &lt;/div></description></item><item><title>Pharmacy exam 2018-01-19</title><link>/en/teaching/statistics/exams/pharmacy/pharmacy-2018-01-19/</link><pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/pharmacy/pharmacy-2018-01-19/</guid><description>&lt;p>Degrees: Pharmacy, Biotechnology&lt;br>
@@ -2534,7 +2534,7 @@ Exponential coefficient of determination of Visits on Age $r^2=0.9716$.
 Thus, the exponential model explains a little bit better the number of visits to the doctor with respect to the age.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a'+b\log(X)$.&lt;/p>
+&lt;p>We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&amp;rsquo;+b\log(X)$.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -2823,7 +2823,7 @@ Solution
 &lt;div class="card-body">
 &lt;p>Let $t$ the time and $w(t)$ the weight of the baby at time $t$.&lt;/p>
 &lt;ol>
-&lt;li>Differential equation: $w'=\dfrac{k}{w}$&lt;br>
+&lt;li>Differential equation: $w&amp;rsquo;=\dfrac{k}{w}$&lt;br>
 Particular solution: $w(t)=\sqrt{7.6t+10.89}$.&lt;br>
 $w(12)=10.1$ kg.&lt;/li>
 &lt;li>At 7 months.&lt;/li>
@@ -2849,7 +2849,7 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>$f$ has a local maximum at $(0,1)$ and the maximum value is $z=f(0,1)=1/\sqrt{e}$.&lt;/li>
-&lt;li>Directional derivative of $f$ at $(1,0)$ along the direction of $v=(2,1)$: $f'_v(1,0)=\frac{1}{e\sqrt{5}}$.&lt;/li>
+&lt;li>Directional derivative of $f$ at $(1,0)$ along the direction of $v=(2,1)$: $f&amp;rsquo;_v(1,0)=\frac{1}{e\sqrt{5}}$.&lt;/li>
 &lt;li>$P^2_{f,(1,0)}(x,y)=\displaystyle\frac{-2xy+3y}{e}$.&lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -2937,8 +2937,8 @@ Solution
 &lt;div class="collapse card " id="spoiler-3">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>$f'(t)=(\frac{e^{t/2}}{2},2\sin t \cos t, \frac{-(1-t)^{-2/3}}{3})$ and $f'(0)=(\frac{1}{2},0,-\frac{1}{3})$.
-$f''(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\sin^2 t), \frac{-2(1-t)^{-5/3}}{9})$ and $f''(0)=(\frac{1}{4},2,-\frac{2}{9})$.&lt;/li>
+&lt;li>$f&amp;rsquo;(t)=(\frac{e^{t/2}}{2},2\sin t \cos t, \frac{-(1-t)^{-2/3}}{3})$ and $f&amp;rsquo;(0)=(\frac{1}{2},0,-\frac{1}{3})$.
+$f&amp;rsquo;&amp;rsquo;(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\sin^2 t), \frac{-2(1-t)^{-5/3}}{9})$ and $f&amp;rsquo;&amp;rsquo;(0)=(\frac{1}{4},2,-\frac{2}{9})$.&lt;/li>
 &lt;li>Normal plane to the trajectory at time $t=0$: $3x-2z=1$.&lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -3375,7 +3375,7 @@ Solution
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>$-\nabla f(1,1,1)=(-e,-e,e)$. The rate of decrease is $\sqrt{3}e$.&lt;/li>
-&lt;li>Taking the vector $\mathbf{u}=(1,2,1/2)$, $f_{\mathbf{u}}'(1,1,1)=5e/\sqrt{21}$. This means that for each unit in the direction of the vector $(1,2,1/2)$ the function will increase $5e/\sqrt{21}$ units.&lt;/li>
+&lt;li>Taking the vector $\mathbf{u}=(1,2,1/2)$, $f_{\mathbf{u}}&amp;rsquo;(1,1,1)=5e/\sqrt{21}$. This means that for each unit in the direction of the vector $(1,2,1/2)$ the function will increase $5e/\sqrt{21}$ units.&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -3399,7 +3399,7 @@ Solution
 &lt;div class="collapse card " id="spoiler-2">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>Differential equation: $y'=k\dfrac{y}{x}$.&lt;br>
+&lt;li>Differential equation: $y&amp;rsquo;=k\dfrac{y}{x}$.&lt;br>
 General solution: $y=cx^k$.&lt;/li>
 &lt;li>Particular solution: $y=0.5778 x^{0.0794}$.&lt;/li>
 &lt;/ol>

@@ -9,7 +9,7 @@ Solution
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
-$f'(-1)=7$, $f'(0)=0$ y $f'(1)=-1$.&lt;br>
+$f&amp;rsquo;(-1)=7$, $f&amp;rsquo;(0)=0$ y $f&amp;rsquo;(1)=-1$.&lt;br>
 Tangent line at $x=-1$: $y=-2+7(x+1)$.&lt;br>
 Tangent line at $x=0$: $y=1$.&lt;br>
 Tangent line at $x=1$: $y=-(x-1)$.

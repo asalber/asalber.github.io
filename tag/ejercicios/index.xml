@@ -979,7 +979,7 @@ Resolución
 $$
 A = \left(
 \begin{array}{rrr}
-1 &amp;amp; 2 &amp;amp; 3\
+1 &amp;amp; 2 &amp;amp; 3\newline
 4 &amp;amp; 5 &amp;amp; 6
 \end{array}
 \right)
@@ -987,8 +987,8 @@ A = \left(
 \quad
 B = \left(
 \begin{array}{rr}
--1 &amp;amp; 0\
-0 &amp;amp; 1\
+-1 &amp;amp; 0\newline
+0 &amp;amp; 1\newline
 1 &amp;amp; 1
 \end{array}
 \right)

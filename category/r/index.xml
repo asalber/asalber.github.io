@@ -512,7 +512,7 @@ geom_bar(fill=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_discrete(limits=0:5)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-bar-chart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-bar-chart-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Histograma&lt;/li>
 &lt;/ul>
@@ -525,14 +525,14 @@ geom_histogram(breaks = breaks, fill=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-histogram-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-histogram-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;pre>&lt;code class="language-r"># Histograma de notasE
 df %&amp;gt;% ggplot(aes(x = notaE)) +
 geom_histogram(breaks = breaks, fill=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-histogram-2.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-histogram-2.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Diagrama de líneas&lt;/li>
 &lt;/ul>
@@ -543,14 +543,14 @@ geom_line(col=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_discrete(limits=0:5)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;pre>&lt;code class="language-r"># Agrupación de datos en intervalos
 df %&amp;gt;% ggplot(aes(x = notaA)) +
 geom_freqpoly(breaks = breaks, col=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-2.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-2.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Diagrama de caja y bigotes&lt;/li>
 &lt;/ul>
@@ -559,7 +559,7 @@ geom_boxplot(fill=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-box-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-de-normalidad-de-shapiro-wilk">Test de normalidad de Shapiro-Wilk&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución.&lt;/p>
@@ -649,7 +649,7 @@ coord_polar(theta = &amp;quot;y&amp;quot;) +
 # Eliminar ejes
 theme_void()
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/piechart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/piechart-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales-1">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-binomial-para-una-proporción-de-una-población">Test binomial para una proporción de una población&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la propoción de una categoría en una población o
@@ -739,7 +739,7 @@ geom_boxplot() +
 # Cambio de escala del eje X
 scale_y_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-box-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Diagrama de violín&lt;/li>
 &lt;/ul>
@@ -748,7 +748,7 @@ geom_violin() +
 # Cambio de escala del eje X
 scale_y_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-viol%C3%ADn-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-viol%C3%ADn-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales-2">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-de-normalidad-de-shapiro-wilks">Test de normalidad de Shapiro-Wilks&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de cada
@@ -863,7 +863,7 @@ stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot
 # Intervalos de confianza para la media
 stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantitative-vs-qualitative-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-means-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h4 id="test-u-de-mann-whitney-de-comparación-de-dos-poblaciones-independientes-no-paramétrico">Test U de Mann-Whitney de comparación de dos poblaciones independientes (no paramétrico)&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre entre
 dos poblaciones independientes.&lt;/p>
@@ -935,7 +935,7 @@ df %&amp;gt;% summarize(Media = mean(diferencia, na.rm=TRUE), Des.Tip = sd(difer
 &lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = diferencia)) +
 geom_boxplot(fill=&amp;quot;#00BFC4&amp;quot;)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-paired-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-paired-box-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales-3">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-de-normalidad-de-shapiro-wilks-1">Test de normalidad de Shapiro-Wilks&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de la
@@ -989,7 +989,7 @@ stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot
 # Intervalos de confianza para la media
 stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantitative-vs-qualitative-paired-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-paired-means-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h4 id="test-wilcoxon-de-comparación-de-dos-poblaciones-pareadas-no-paramétrico">Test Wilcoxon de comparación de dos poblaciones pareadas (no paramétrico)&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comparar las medianas de las dos poblaciones.&lt;/p>
 &lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
@@ -1049,7 +1049,7 @@ geom_boxplot() +
 # Cambio de escala del eje X
 scale_y_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-box-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Diagrama de violín&lt;/li>
 &lt;/ul>
@@ -1058,7 +1058,7 @@ geom_violin() +
 # Cambio de escala del eje X
 scale_y_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-viol%C3%ADn-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-viol%C3%ADn-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales-4">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-de-normalidad-de-shapiro-wilks-2">Test de normalidad de Shapiro-Wilks&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de cada
@@ -1180,7 +1180,7 @@ stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot
 # Intervalos de confianza para la media
 stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantitative-vs-qualitative-more-two-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-more-two-means-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h4 id="test-kruskal-wallis-de-comparación-de-más-de-dos-poblaciones-independientes-no-paramétrico">Test Kruskal-Wallis de comparación de más de dos poblaciones independientes (no paramétrico)&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre entre
 más de dos poblaciones independientes.&lt;/p>
@@ -2092,7 +2092,7 @@ geom_bar(fill=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_discrete(limits=0:5)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-bar-chart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-bar-chart-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Histograma&lt;/li>
 &lt;/ul>
@@ -2105,14 +2105,14 @@ geom_histogram(breaks = breaks, fill=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-histogram-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-histogram-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;pre>&lt;code class="language-r"># Histograma de notasE
 df %&amp;gt;% ggplot(aes(x = notaE)) +
 geom_histogram(breaks = breaks, fill=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-histogram-2.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-histogram-2.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Diagrama de líneas&lt;/li>
 &lt;/ul>
@@ -2123,14 +2123,14 @@ geom_line(col=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_discrete(limits=0:5)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;pre>&lt;code class="language-r"># Agrupación de datos en intervalos
 df %&amp;gt;% ggplot(aes(x = notaA)) +
 geom_freqpoly(breaks = breaks, col=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-2.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-line-chart-2.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Diagrama de caja y bigotes&lt;/li>
 &lt;/ul>
@@ -2139,7 +2139,7 @@ geom_boxplot(fill=&amp;quot;#00BFC4&amp;quot;) +
 # Cambio de escala del eje X
 scale_x_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/one-quantitative-variable-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/one-quantitative-variable-box-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-de-normalidad-de-shapiro-wilk">Test de normalidad de Shapiro-Wilk&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución.&lt;/p>
@@ -2229,7 +2229,7 @@ coord_polar(theta = &amp;quot;y&amp;quot;) +
 # Eliminar ejes
 theme_void()
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/piechart-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/piechart-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales-1">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-binomial-para-una-proporción-de-una-población">Test binomial para una proporción de una población&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Estimar la propoción de una categoría en una población o
@@ -2319,7 +2319,7 @@ geom_boxplot() +
 # Cambio de escala del eje X
 scale_y_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-box-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Diagrama de violín&lt;/li>
 &lt;/ul>
@@ -2328,7 +2328,7 @@ geom_violin() +
 # Cambio de escala del eje X
 scale_y_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-viol%C3%ADn-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-viol%C3%ADn-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales-2">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-de-normalidad-de-shapiro-wilks">Test de normalidad de Shapiro-Wilks&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de cada
@@ -2443,7 +2443,7 @@ stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot
 # Intervalos de confianza para la media
 stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantitative-vs-qualitative-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-means-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h4 id="test-u-de-mann-whitney-de-comparación-de-dos-poblaciones-independientes-no-paramétrico">Test U de Mann-Whitney de comparación de dos poblaciones independientes (no paramétrico)&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre entre
 dos poblaciones independientes.&lt;/p>
@@ -2515,7 +2515,7 @@ df %&amp;gt;% summarize(Media = mean(diferencia, na.rm=TRUE), Des.Tip = sd(difer
 &lt;pre>&lt;code class="language-r">df %&amp;gt;% ggplot(aes(x = diferencia)) +
 geom_boxplot(fill=&amp;quot;#00BFC4&amp;quot;)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-paired-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-paired-box-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales-3">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-de-normalidad-de-shapiro-wilks-1">Test de normalidad de Shapiro-Wilks&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de la
@@ -2569,7 +2569,7 @@ stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot
 # Intervalos de confianza para la media
 stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantitative-vs-qualitative-paired-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-paired-means-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h4 id="test-wilcoxon-de-comparación-de-dos-poblaciones-pareadas-no-paramétrico">Test Wilcoxon de comparación de dos poblaciones pareadas (no paramétrico)&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comparar las medianas de las dos poblaciones.&lt;/p>
 &lt;p>&lt;strong>Requisitos&lt;/strong>:&lt;/p>
@@ -2629,7 +2629,7 @@ geom_boxplot() +
 # Cambio de escala del eje X
 scale_y_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-box-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-box-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;ul>
 &lt;li>Diagrama de violín&lt;/li>
 &lt;/ul>
@@ -2638,7 +2638,7 @@ geom_violin() +
 # Cambio de escala del eje X
 scale_y_continuous(limits=c(0, 10), breaks = 0:10)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-viol%C3%ADn-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantiative-vs-qualitative-more-two-viol%C3%ADn-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h3 id="estudios-inferenciales-4">Estudios inferenciales&lt;/h3>
 &lt;h4 id="test-de-normalidad-de-shapiro-wilks-2">Test de normalidad de Shapiro-Wilks&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar la normalidad de la distribución de cada
@@ -2760,7 +2760,7 @@ stat_summary(fun=&amp;quot;mean&amp;quot;, size=3, geom=&amp;quot;point&amp;quot
 # Intervalos de confianza para la media
 stat_summary(fun.data = function(x) mean_cl_normal(x, conf.int=0.95), geom = &amp;quot;pointrange&amp;quot;, position=position_dodge(width=0.25))
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="img/quantitative-vs-qualitative-more-two-means-plot-1.svg" alt="">&lt;!-- -->&lt;/p>
+&lt;p>&lt;img src="img/quantitative-vs-qualitative-more-two-means-plot-1.svg" alt="">&amp;lt;!&amp;ndash; &amp;ndash;&amp;gt;&lt;/p>
 &lt;h4 id="test-kruskal-wallis-de-comparación-de-más-de-dos-poblaciones-independientes-no-paramétrico">Test Kruskal-Wallis de comparación de más de dos poblaciones independientes (no paramétrico)&lt;/h4>
 &lt;p>&lt;strong>Objetivo&lt;/strong>: Comprobar si hay diferencias significativas entre entre
 más de dos poblaciones independientes.&lt;/p>

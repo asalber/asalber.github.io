@@ -120,7 +120,7 @@
 &lt;p>Los &lt;em>datos&lt;/em> son los valores observados en las variables estadísticas.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;img src="../img/introduccion/variables_estadisticas.svg" alt="&amp;ldquo;Variables estadísticas&amp;rdquo;">&lt;/p>
+&lt;p>&lt;img src="../img/introduccion/variables_estadisticas.svg" alt="&amp;amp;ldquo;Variables estadísticas&amp;amp;rdquo;">&lt;/p>
 &lt;p>Estas características pueden ser de distintos tipos de acuerdo a su naturaleza y su escala:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -4280,10 +4280,10 @@ Solución
 &lt;p>Sea $x(t)$ la cantidad de medicamento en el cuerpo en el instante $t$.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Ecuación diferencial: $x'=15-0.8x$. Condición inicial $x(0)=0$. Solución particular: $x(t)=18.75-18.75e^{-0.8t}$ y la cantidad máxima de medicamento en el cuerpo será 18.75 mg.&lt;/p>
+&lt;p>Ecuación diferencial: $x&amp;rsquo;=15-0.8x$. Condición inicial $x(0)=0$. Solución particular: $x(t)=18.75-18.75e^{-0.8t}$ y la cantidad máxima de medicamento en el cuerpo será 18.75 mg.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Ecuación diferencial: $x'=-0.8x$. Condición inicial $x(0)=18.74$. Solución particular: $x(t)=18.74e^{-0.8t}$ y el tiempo que tarda en haber una cantidad de 10 mg en el cuerpo es $0.7851$ horas.&lt;/p>
+&lt;p>Ecuación diferencial: $x&amp;rsquo;=-0.8x$. Condición inicial $x(0)=18.74$. Solución particular: $x(t)=18.74e^{-0.8t}$ y el tiempo que tarda en haber una cantidad de 10 mg en el cuerpo es $0.7851$ horas.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -4329,7 +4329,7 @@ Solución
 &lt;p>$\nabla T(1,2)=\frac{1}{3}(5,1)$.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Sea $\mathbf{u}$ el vector $(1,-1/2)$, entonces $T'_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p>
+&lt;p>Sea $\mathbf{u}$ el vector $(1,-1/2)$, entonces $T&amp;rsquo;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Siguiendo la dirección del vector $(1,-5)$.&lt;/p>
@@ -4376,7 +4376,7 @@ Solución
 &lt;p>$\dfrac{dr}{dt}=0.0305$ dm/min.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Usando la aproximación lineal del diferencial $dt = S'/dS=37.5013$ minutos aproximadamente.&lt;/p>
+&lt;p>Usando la aproximación lineal del diferencial $dt = S&amp;rsquo;/dS=37.5013$ minutos aproximadamente.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -6011,7 +6011,7 @@ $y(70)=3.4762$ consultas.&lt;/li>
 &lt;li>Coeficiente de determinación lineal de Consultas sobre Edad $r^2=0.885$.&lt;br>
 Coeficiente de determinación exponencial de Consultas sobre Edad $r^2=0.9716$.&lt;br>
 Por tanto, el modelo exponencial explica un poco mejor el número de consultas médicas con respecto a la edad.&lt;/li>
-&lt;li>Hay que aplicar la transformación logarítmica tanto a las Consultas como a la Edad: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a'+b\log(X)$.&lt;/li>
+&lt;li>Hay que aplicar la transformación logarítmica tanto a las Consultas como a la Edad: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&amp;rsquo;+b\log(X)$.&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>

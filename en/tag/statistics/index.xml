@@ -447,7 +447,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-593472618" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-175298463" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -456,7 +456,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-593472618', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-175298463', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -5032,7 +5032,7 @@ Solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>66.5% of non-working students passed and 59% of working students passed.&lt;/li>
+&lt;li>35.5% of non-working students passed and 41% of working students passed.&lt;/li>
 &lt;li>Non-working students: $\bar x=5.7$, $s^2=5.15$, $s=2.2694$ and $cv=0.3981$.
 Working students: $\bar y=5.64$, $s^2=4.7104$, $s=2.1703$ and $cv=0.3848$.
 The sample of non-working students has a slightly higher relative dispersion with respect to the mean as the coefficient of variation is greater.&lt;/li>
@@ -5959,8 +5959,16 @@ The table below shows the daily number of cigarretes smoked by mothers ($X$) and
 &lt;p>$$
 \begin{array}{lrrrrrrrrrrrr}
 \hline
-\mbox{Daily num cigarettes} &amp;amp; 10.00 &amp;amp; 14.00 &amp;amp; 8.00 &amp;amp; 11.00 &amp;amp; 7.00 &amp;amp; 6.00 &amp;amp; 2.00 &amp;amp; 5.00 &amp;amp; 9.00 &amp;amp; 9.00 &amp;amp; 4.00 &amp;amp; 6.00 \newline
-\mbox{Weight (kg)} &amp;amp; 2.55 &amp;amp; 2.44 &amp;amp; 2.68 &amp;amp; 2.65 &amp;amp; 2.71 &amp;amp; 2.85 &amp;amp; 3.45 &amp;amp; 2.93 &amp;amp; 2.67 &amp;amp; 2.59 &amp;amp; 3.02 &amp;amp; 2.72 \newline
+\mbox{Daily num cigarettes} &amp;amp; 10.00 &amp;amp; 14.00 &amp;amp; 8.00 &amp;amp; 11.00 &amp;amp; 7.00 &amp;amp; 6.00 \newline
+\mbox{Weight (kg)} &amp;amp; 2.55 &amp;amp; 2.44 &amp;amp; 2.68 &amp;amp; 2.65 &amp;amp; 2.71 &amp;amp; 2.85 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$
+\begin{array}{lrrrrrrrrrrrr}
+\hline
+\mbox{Daily num cigarettes} &amp;amp; 2.00 &amp;amp; 5.00 &amp;amp; 9.00 &amp;amp; 9.00 &amp;amp; 4.00 &amp;amp; 6.00 \newline
+\mbox{Weight (kg)} &amp;amp; 3.45 &amp;amp; 2.93 &amp;amp; 2.67 &amp;amp; 2.59 &amp;amp; 3.02 &amp;amp; 2.72 \newline
 \hline
 \end{array}
 $$&lt;/p>
@@ -7152,7 +7160,7 @@ Exponential coefficient of determination of Visits on Age $r^2=0.9716$.
 Thus, the exponential model explains a little bit better the number of visits to the doctor with respect to the age.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a'+b\log(X)$.&lt;/p>
+&lt;p>We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&amp;rsquo;+b\log(X)$.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>

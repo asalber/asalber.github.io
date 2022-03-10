@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Primitiva | Aprende con Alf</title><link>/tag/primitiva/</link><atom:link href="/tag/primitiva/index.xml" rel="self" type="application/rss+xml"/><description>Primitiva</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Primitiva</title><link>/tag/primitiva/</link></image><item><title>Cálculo integral</title><link>/docencia/calculo/manual/integrales/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docencia/calculo/manual/integrales/</guid><description>&lt;h2 id="primitiva-de-una-función">Primitiva de una función&lt;/h2>
 &lt;div class="alert alert-def">
 &lt;div>
-&lt;strong>Definición - Primitiva de una función&lt;/strong>. Se dice que la función $F(X)$ es una &lt;em>función primitiva&lt;/em> de $f(x)$ si se verifica que $F'(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.
+&lt;strong>Definición - Primitiva de una función&lt;/strong>. Se dice que la función $F(X)$ es una &lt;em>función primitiva&lt;/em> de $f(x)$ si se verifica que $F&amp;rsquo;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Ejemplo&lt;/strong>. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F'(x)=2x$ para todo $\mathbb{R}$.&lt;/p>
+&lt;p>&lt;strong>Ejemplo&lt;/strong>. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F&amp;rsquo;(x)=2x$ para todo $\mathbb{R}$.&lt;/p>
 &lt;p>El cálculo de primitivas puede verse con un proceso inverso al cálculo de derivadas, y es por eso también se suele llamar &lt;em>antiderivada&lt;/em> a la primitiva de una función.&lt;/p>
 &lt;h3 id="integral-indefinida-de-una-función">Integral indefinida de una función&lt;/h3>
 &lt;p>Si $F(x)$ es una función primitiva de $f(x)$ también lo será toda función de la forma $F(x)+C$, $\forall C \in \mathbb{R}$, de manera que si una función tiene primitiva, tiene infinitas primitivas que se obtienen añadiendo una constante a cualquiera de ellas.&lt;/p>
@@ -66,7 +66,7 @@
 &lt;div class="alert alert-theo">
 &lt;div>
 &lt;p>&lt;strong>Teorema - Integración por partes&lt;/strong>. Dadas $f$ y $g$, dos funciones derivables de $x$,&lt;/p>
-&lt;p>$$\int{f'(x)g(x)}\,dx=f(x)g(x)-\int{g'(x)f(x)}\,dx,$$&lt;/p>
+&lt;p>$$\int{f&amp;rsquo;(x)g(x)}\,dx=f(x)g(x)-\int{g&amp;rsquo;(x)f(x)}\,dx,$$&lt;/p>
 &lt;p>o con notación diferencial, si $u$ y $v$ son funciones derivables de $x$&lt;/p>
 &lt;p>$$\int{u}\,dv=uv-\int{v}\,du.$$&lt;/p>
 &lt;/div>
@@ -80,11 +80,11 @@ Demostración
 &lt;div class="collapse card " id="spoiler-3">
 &lt;div class="card-body">
 &lt;p>De la regla de la derivada del producto se tiene&lt;/p>
-&lt;p>$$ (uv)' = u&amp;rsquo;v + uv' $$&lt;/p>
+&lt;p>$$ (uv)&amp;rsquo; = u&amp;rsquo;v + uv&amp;rsquo; $$&lt;/p>
 &lt;p>y calculando la integral a ambos lados se llega a&lt;/p>
 &lt;p>$$
 \begin{gathered}
-\int (uv)' \, dx = \int u&amp;rsquo;v \, dx + \int uv'\, dx \Rightarrow\newline
+\int (uv)&amp;rsquo; \, dx = \int u&amp;rsquo;v \, dx + \int uv&amp;rsquo;\, dx \Rightarrow\newline
 uv = \int v\,du + \int u\, dv \Rightarrow\newline
 \int{u}\,dv=uv-\int{v}\,du.
 \end{gathered}
@@ -113,8 +113,8 @@ $$&lt;/p>
 &lt;h3 id="integración-por-cambio-de-variable">Integración por cambio de variable&lt;/h3>
 &lt;div class="alert alert-tool">
 &lt;div>
-&lt;p>La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))' = f'(g(x))g'(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g'(x)dx$:&lt;/p>
-&lt;p>$$\int f'(g(x))g'(x)\, dx = \int f'(u)\, du = f(u)+C = f(g(x))+C.$$&lt;/p>
+&lt;p>La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))&amp;rsquo; = f&amp;rsquo;(g(x))g&amp;rsquo;(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g&amp;rsquo;(x)dx$:&lt;/p>
+&lt;p>$$\int f&amp;rsquo;(g(x))g&amp;rsquo;(x)\, dx = \int f&amp;rsquo;(u)\, du = f(u)+C = f(g(x))+C.$$&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Para calcular la integral $\int{\dfrac{1}{x\log x}}\, dx$ puede hacerse el cambio de variable $u=\log x$ con lo que $du=\frac{1}{x}dx$ y sustituyendo queda&lt;/p>

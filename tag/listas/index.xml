@@ -36,7 +36,7 @@
 $$
 A = \left(
 \begin{array}{rrr}
-1 &amp;amp; 2 &amp;amp; 3\
+1 &amp;amp; 2 &amp;amp; 3\newline
 4 &amp;amp; 5 &amp;amp; 6
 \end{array}
 \right)
@@ -44,8 +44,8 @@ A = \left(
 \quad
 B = \left(
 \begin{array}{rr}
--1 &amp;amp; 0\
-0 &amp;amp; 1\
+-1 &amp;amp; 0\newline
+0 &amp;amp; 1\newline
 1 &amp;amp; 1
 \end{array}
 \right)
@@ -232,7 +232,7 @@ Por ejemplo, utilizando el fichero
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/retos/soluciones/ajedrez.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p></description></item><item><title>Laberinto</title><link>/docencia/python/retos/laberinto/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/laberinto/</guid><description>&lt;h2 id="tarea-1">Tarea 1&lt;/h2>
 &lt;p>La primera tarea consiste en construir un laberinto como el de la siguiente figura.&lt;/p>
 &lt;p>&lt;img src="../img/laberinto.png" alt="Laberinto">&lt;/p>
-&lt;p>El laberinto se representará como una una lista de listas, donde cada lista es una fila del laberinto y cada casilla se representará con un espacio ' ' si hay paso o con la letra &amp;lsquo;X&amp;rsquo; si hay un muro, tal y como se muestra a continuación:&lt;/p>
+&lt;p>El laberinto se representará como una una lista de listas, donde cada lista es una fila del laberinto y cada casilla se representará con un espacio &amp;rsquo; &amp;rsquo; si hay paso o con la letra &amp;lsquo;X&amp;rsquo; si hay un muro, tal y como se muestra a continuación:&lt;/p>
 &lt;pre>&lt;code class="language-Python">laberinto = [
 [' ', 'X', 'X', 'X', 'X'],
 [' ', 'X', ' ', ' ', ' '],

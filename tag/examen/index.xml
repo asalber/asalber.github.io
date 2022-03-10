@@ -69,7 +69,7 @@ fijo : 919654665
 &lt;li>Nombre: Juan, Marta, Pedro, Jorge, Blas, Lisa, Antonio&lt;/li>
 &lt;li>Edad: 23,78,22,19,45,33,20&lt;/li>
 &lt;li>Género: M, F, M, M, M, F, M&lt;/li>
-&lt;li>Provincia': Burgos, Madrid, Toledo, Burgos, Madrid, Toledo, Madrid&lt;/li>
+&lt;li>Provincia&amp;rsquo;: Burgos, Madrid, Toledo, Burgos, Madrid, Toledo, Madrid&lt;/li>
 &lt;li>Hijos: 2,0,0,3,2,1,4&lt;/li>
 &lt;li>Mascotas: 5,1,0,5,2,2,3&lt;/li>
 &lt;/ul>
@@ -88,7 +88,7 @@ fijo : 919654665
 &lt;/li>
 &lt;li>
 &lt;p>Realizar la siguiente gráfica.
-&lt;img src="../img/diagrama-barras-provincias.png" alt="&amp;lsquo;Recta de regresión&amp;rsquo;">&lt;/p>
+&lt;img src="../img/diagrama-barras-provincias.png" alt="&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;">&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-06-05/ejercicio6.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p></description></item><item><title>Examen de Inteligencia de los Negocios 2021-05-26</title><link>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</link><pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate><guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</guid><description>&lt;p>Grado: Inteligencia de los Negocios&lt;br>
@@ -105,7 +105,7 @@ Fecha: 26 de mayo de 2021&lt;/p>
 &lt;pre>&lt;code class="language-pyhton">x = [1, 2, 3, 4, 5, 6]
 y = [20, 18, 12, 10, 9, 9]
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="../img/recta-regresion.png" alt="&amp;lsquo;Recta de regresión&amp;rsquo;">&lt;/p>
+&lt;p>&lt;img src="../img/recta-regresion.png" alt="&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;">&lt;/p>
 &lt;p>Usar las siguientes fórmulas para el cálculo de los estadísticos: $\bar x = \frac{\sum x_i}{n}$, $s^2 = \frac{\sum x_i^2}{n}-\bar{x}^2$, $s_{xy} = \frac{\sum x_iy_j}{n} - \bar{x}\bar{y}$, $b = \frac{s_{xy}}{s_x^2}$ y $a = \bar{y} - b * \bar{x}$.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-05-26/ejercicio1.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-2">Ejercicio 2&lt;/h2>
@@ -227,10 +227,10 @@ Solución
 &lt;p>Sea $x(t)$ la cantidad de medicamento en el cuerpo en el instante $t$.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Ecuación diferencial: $x'=15-0.8x$. Condición inicial $x(0)=0$. Solución particular: $x(t)=18.75-18.75e^{-0.8t}$ y la cantidad máxima de medicamento en el cuerpo será 18.75 mg.&lt;/p>
+&lt;p>Ecuación diferencial: $x&amp;rsquo;=15-0.8x$. Condición inicial $x(0)=0$. Solución particular: $x(t)=18.75-18.75e^{-0.8t}$ y la cantidad máxima de medicamento en el cuerpo será 18.75 mg.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Ecuación diferencial: $x'=-0.8x$. Condición inicial $x(0)=18.74$. Solución particular: $x(t)=18.74e^{-0.8t}$ y el tiempo que tarda en haber una cantidad de 10 mg en el cuerpo es $0.7851$ horas.&lt;/p>
+&lt;p>Ecuación diferencial: $x&amp;rsquo;=-0.8x$. Condición inicial $x(0)=18.74$. Solución particular: $x(t)=18.74e^{-0.8t}$ y el tiempo que tarda en haber una cantidad de 10 mg en el cuerpo es $0.7851$ horas.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -276,7 +276,7 @@ Solución
 &lt;p>$\nabla T(1,2)=\frac{1}{3}(5,1)$.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Sea $\mathbf{u}$ el vector $(1,-1/2)$, entonces $T'_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p>
+&lt;p>Sea $\mathbf{u}$ el vector $(1,-1/2)$, entonces $T&amp;rsquo;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Siguiendo la dirección del vector $(1,-5)$.&lt;/p>
@@ -323,7 +323,7 @@ Solución
 &lt;p>$\dfrac{dr}{dt}=0.0305$ dm/min.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Usando la aproximación lineal del diferencial $dt = S'/dS=37.5013$ minutos aproximadamente.&lt;/p>
+&lt;p>Usando la aproximación lineal del diferencial $dt = S&amp;rsquo;/dS=37.5013$ minutos aproximadamente.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -1043,7 +1043,7 @@ Solución
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 Sea $n(t)$ la cantidad de nitratos en la laguna en el instante $t$.&lt;br>
-Ecuación diferencial: $n'=-n/60$.&lt;br>
+Ecuación diferencial: $n&amp;rsquo;=-n/60$.&lt;br>
 Solución: $n(t)=10^6 e^{-t/60}$.&lt;br>
 $n(14)=791889.6$ kg.&lt;br>
 La laguna estará descontaminada después de $30.6495$ días.
@@ -1553,7 +1553,7 @@ Solución
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 Sea $a(t)$ la cantidad de alcohol en el organismo en el instante $t$.&lt;br>
-Ecuación diferencial: $a'=2-a/2$.&lt;br>
+Ecuación diferencial: $a&amp;rsquo;=2-a/2$.&lt;br>
 Solución: $a(t)=4-4e^{-t/2}$.&lt;br>
 $a(5)=3.6717$ ml.
 &lt;/div>
@@ -1570,8 +1570,8 @@ Solución
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-1">
 &lt;div class="card-body">
-Derivada implícita: $y'= \dfrac{-2xy^3+18x^2y^2+2y}{3x^2y^2-12x^3y+2x}$.&lt;br>
-$y'(1/2)=6\neq 0$, de manera que $f$ no tiene un máximo local en $x=1/2$.
+Derivada implícita: $y&amp;rsquo;= \dfrac{-2xy^3+18x^2y^2+2y}{3x^2y^2-12x^3y+2x}$.&lt;br>
+$y&amp;rsquo;(1/2)=6\neq 0$, de manera que $f$ no tiene un máximo local en $x=1/2$.
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -1593,7 +1593,7 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>$\nabla V(3,4,6)=(8,6,4)$ y el volumen aumentará a razón de $|\nabla V(3,4,6)|=10.7703$ cm$^3$/s si cambiamos las dimensiones de la cápsula siguiendo esa dirección.&lt;/li>
-&lt;li>Derivada direccional de $V$ en $(3,4,6)$ siguiendo la dirección del vector $\mathbf{u}=(1,-1/2,2)$: $V'_{\mathbf{u}}(3,4,6)=5.6737$ cm$^3$/s.&lt;/li>
+&lt;li>Derivada direccional de $V$ en $(3,4,6)$ siguiendo la dirección del vector $\mathbf{u}=(1,-1/2,2)$: $V&amp;rsquo;_{\mathbf{u}}(3,4,6)=5.6737$ cm$^3$/s.&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -2434,7 +2434,7 @@ Solución
 &lt;div class="collapse card " id="spoiler-1">
 &lt;div class="card-body">
 Sea $y(t)$ la cantidad de alcohol en el organismo en el instante $t$.&lt;br>
-Ecuación diferencia: $y'=12-3y$.&lt;br>
+Ecuación diferencia: $y&amp;rsquo;=12-3y$.&lt;br>
 Solución: $y(t)=4-4e^{-3t}$.&lt;br>
 $y(5)=3.99$ cl.&lt;br>
 La cantidad máxima de alcohol será 4 cl y se alcanzará en $t=\infty$.
@@ -2476,7 +2476,7 @@ Solución
 &lt;/p>
 &lt;div class="collapse card " id="spoiler-3">
 &lt;div class="card-body">
-Derivada direccional de $z$ en $(1,1,1)$ siguiendo la dirección del vector $\mathbf{v}=(1,-1)$: $z'_\mathbf{v}(1,1,1)=\frac{1}{2\sqrt{2}}$.
+Derivada direccional de $z$ en $(1,1,1)$ siguiendo la dirección del vector $\mathbf{v}=(1,-1)$: $z&amp;rsquo;_\mathbf{v}(1,1,1)=\frac{1}{2\sqrt{2}}$.
 &lt;/div>
 &lt;/div>
 &lt;/div></description></item><item><title>Examen de Farmacia 2018-01-19</title><link>/docencia/estadistica/examenes/farmacia/farmacia-2018-01-19/</link><pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate><guid>/docencia/estadistica/examenes/farmacia/farmacia-2018-01-19/</guid><description>&lt;p>Grados: Farmacia y Biotecnología&lt;br>
@@ -2524,7 +2524,7 @@ $y(70)=3.4762$ consultas.&lt;/li>
 &lt;li>Coeficiente de determinación lineal de Consultas sobre Edad $r^2=0.885$.&lt;br>
 Coeficiente de determinación exponencial de Consultas sobre Edad $r^2=0.9716$.&lt;br>
 Por tanto, el modelo exponencial explica un poco mejor el número de consultas médicas con respecto a la edad.&lt;/li>
-&lt;li>Hay que aplicar la transformación logarítmica tanto a las Consultas como a la Edad: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a'+b\log(X)$.&lt;/li>
+&lt;li>Hay que aplicar la transformación logarítmica tanto a las Consultas como a la Edad: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&amp;rsquo;+b\log(X)$.&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -2915,7 +2915,7 @@ Solución
 &lt;div class="card-body">
 &lt;p>Sea $w(t)$ e peso del beé en el instante $t$.&lt;/p>
 &lt;ol>
-&lt;li>Ecuación diferencial: $w'=\dfrac{k}{w}$&lt;br>
+&lt;li>Ecuación diferencial: $w&amp;rsquo;=\dfrac{k}{w}$&lt;br>
 Solución particular: $w(t)=\sqrt{7.6t+10.89}$.&lt;br>
 $w(12)=10.1$ kg.&lt;/li>
 &lt;li>7 meses.&lt;/li>
@@ -2947,7 +2947,7 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>$f$ tiene un máximo local en $(0,1)$ y el máximo valor es $z=f(0,1)=1/\sqrt{e}$.&lt;/li>
-&lt;li>Derivada direccional de $f$ en $(1,0)$ siguiendo la dirección del vector $v=(2,1)$: $f'_v(1,0)=\frac{1}{e\sqrt{5}}$.&lt;/li>
+&lt;li>Derivada direccional de $f$ en $(1,0)$ siguiendo la dirección del vector $v=(2,1)$: $f&amp;rsquo;_v(1,0)=\frac{1}{e\sqrt{5}}$.&lt;/li>
 &lt;li>$P^2_{f,(1,0)}(x,y)=\displaystyle\frac{-2xy+3y}{e}$.&lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -3038,8 +3038,8 @@ Solución
 &lt;div class="collapse card " id="spoiler-3">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>$f'(t)=(\frac{e^{t/2}}{2},2\operatorname{sen} t \cos t, \frac{-(1-t)^{-2/3}}{3})$ y $f'(0)=(\frac{1}{2},0,-\frac{1}{3})$.&lt;br>
-$f''(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\operatorname{sen}^2 t), \frac{-2(1-t)^{-5/3}}{9})$ y $f''(0)=(\frac{1}{4},2,-\frac{2}{9})$.&lt;/li>
+&lt;li>$f&amp;rsquo;(t)=(\frac{e^{t/2}}{2},2\operatorname{sen} t \cos t, \frac{-(1-t)^{-2/3}}{3})$ y $f&amp;rsquo;(0)=(\frac{1}{2},0,-\frac{1}{3})$.&lt;br>
+$f&amp;rsquo;&amp;rsquo;(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\operatorname{sen}^2 t), \frac{-2(1-t)^{-5/3}}{9})$ y $f&amp;rsquo;&amp;rsquo;(0)=(\frac{1}{4},2,-\frac{2}{9})$.&lt;/li>
 &lt;li>Plano normal a la trayectoria en el instante $t=0$: $3x-2z=1$.&lt;/li>
 &lt;/ol>
 &lt;/div>
@@ -3428,7 +3428,7 @@ Solución
 &lt;div class="card-body">
 &lt;ol>
 &lt;li>$-\nabla f(1,1,1)=(-e,-e,e)$. La tasa de decrecimiento es $\sqrt{3}e$.&lt;/li>
-&lt;li>Tomando el vector $\mathbf{u}=(1,2,1/2)$, $f_{\mathbf{u}}'(1,1,1)=5e/\sqrt{21}$, lo que quiere decir que por cada unidad que se avance en la dirección del vector $(1,2,1/2)$ la función aumentará $5e/\sqrt{21}$ unidades.&lt;/li>
+&lt;li>Tomando el vector $\mathbf{u}=(1,2,1/2)$, $f_{\mathbf{u}}&amp;rsquo;(1,1,1)=5e/\sqrt{21}$, lo que quiere decir que por cada unidad que se avance en la dirección del vector $(1,2,1/2)$ la función aumentará $5e/\sqrt{21}$ unidades.&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>
@@ -3458,7 +3458,7 @@ Solución
 &lt;div class="collapse card " id="spoiler-2">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>Ecuación diferencial: $y'=k\dfrac{y}{x}$.&lt;br>
+&lt;li>Ecuación diferencial: $y&amp;rsquo;=k\dfrac{y}{x}$.&lt;br>
 Solución general: $y=cx^k$.&lt;/li>
 &lt;li>Solución particular: $y=0.5778 x^{0.0794}$.&lt;/li>
 &lt;/ol>

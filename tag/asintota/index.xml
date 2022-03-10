@@ -396,13 +396,13 @@ $$&lt;/p>
 &lt;h4 id="regla-de-lhôpital">Regla de L&amp;rsquo;Hôpital&lt;/h4>
 &lt;div class="alert alert-theo">
 &lt;div>
-&lt;p>&lt;strong>Teorema - Regla de L’Hôpital&lt;/strong>. Si $\dfrac{f(x)}{g(x)}\rightarrow \dfrac{0}{0}$ o $\dfrac{\infty}{\infty}$ cuando $x\rightarrow a$, entonces si existe el límite de $\dfrac{f'(x)}{g'(x)}$ cuando $x\rightarrow a$ se cumple&lt;/p>
-&lt;p>$$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f'(x)}{g'(x)}.$$&lt;/p>
+&lt;p>&lt;strong>Teorema - Regla de L’Hôpital&lt;/strong>. Si $\dfrac{f(x)}{g(x)}\rightarrow \dfrac{0}{0}$ o $\dfrac{\infty}{\infty}$ cuando $x\rightarrow a$, entonces si existe el límite de $\dfrac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}$ cuando $x\rightarrow a$ se cumple&lt;/p>
+&lt;p>$$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}.$$&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;div class="alert alert-warning">
 &lt;div>
-Para que exista $\lim_{x\rightarrow a}\dfrac{f'(x)}{g'(x)}$ es necesario que que $f$ y $g$ sean derivables en un entorno de $a$.
+Para que exista $\lim_{x\rightarrow a}\dfrac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}$ es necesario que que $f$ y $g$ sean derivables en un entorno de $a$.
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Ejemplo&lt;/strong>. Sea $f(x)=\dfrac{\log(x^2-1)}{x+2}\rightarrow \dfrac{\infty}{\infty}$ cuando $x\rightarrow \infty$.&lt;/p>
@@ -410,8 +410,8 @@ Para que exista $\lim_{x\rightarrow a}\dfrac{f'(x)}{g'(x)}$ es necesario que que
 &lt;p>$$
 \begin{aligned}
 \lim_{x\rightarrow \infty}\frac{\log(x^2-1)}{x+2} &amp;amp;= \lim_{x\rightarrow
-\infty}\frac{\left(\log(x^2-1)\right)'}{\left(x+2\right)'}= \lim_{x\rightarrow \infty}\frac{\frac{2x}{x^2-1}}{1}=\newline
-&amp;amp;=\lim_{x\rightarrow \infty}\frac{2x}{x^2-1}= \lim_{x\rightarrow \infty}\frac{\left(2x\right)'}{\left(x^2-1\right)'}=
+\infty}\frac{\left(\log(x^2-1)\right)&amp;rsquo;}{\left(x+2\right)&amp;rsquo;}= \lim_{x\rightarrow \infty}\frac{\frac{2x}{x^2-1}}{1}=\newline
+&amp;amp;=\lim_{x\rightarrow \infty}\frac{2x}{x^2-1}= \lim_{x\rightarrow \infty}\frac{\left(2x\right)&amp;rsquo;}{\left(x^2-1\right)&amp;rsquo;}=
 \lim_{x\rightarrow \infty}\frac{2}{2x}=0.
 \end{aligned}
 $$&lt;/p>
@@ -428,7 +428,7 @@ $$&lt;/p>
 &lt;p>$$
 \begin{aligned}
 \lim_{x\rightarrow 0}\frac{e^{1/x^2}}{1/x^2} &amp;amp;= \lim_{x\rightarrow
-0}\frac{\left(e^{1/x^2}\right)'}{\left(1/x^2\right)'} = \lim_{x\rightarrow
+0}\frac{\left(e^{1/x^2}\right)&amp;rsquo;}{\left(1/x^2\right)&amp;rsquo;} = \lim_{x\rightarrow
 0}\frac{e^{1/x^2}\frac{-2}{x^3}}{\frac{-2}{x^3}} = \lim_{x\rightarrow 0}e^{1/x^2}=\infty.
 \end{aligned}
 $$&lt;/p>
@@ -447,7 +447,7 @@ $$&lt;/p>
 &lt;p>Aplicando ahora la regla de L´Hôpital tenemos:&lt;/p>
 &lt;p>$$
 \begin{aligned}
-\exp\left(\lim_{x\rightarrow 0}\frac{\left(\log\left(1+\frac{1}{x}\right)\right)'}{\left(1/x\right)'}\right) &amp;amp;=
+\exp\left(\lim_{x\rightarrow 0}\frac{\left(\log\left(1+\frac{1}{x}\right)\right)&amp;rsquo;}{\left(1/x\right)&amp;rsquo;}\right) &amp;amp;=
 \exp\left(\lim_{x\rightarrow 0}\frac{\frac{1}{1+1/x}\frac{-1}{x^2}}{\frac{-1}{x^2}}\right) =
 \exp\left(\lim_{x\rightarrow 0}\frac{1}{1+\frac{1}{x}}\right)=\exp(1)=e.
 \end{aligned}
@@ -466,9 +466,9 @@ $$&lt;/p>
 &lt;p>$$
 \begin{aligned}
 \lim_{x\rightarrow 0} \frac{x-\operatorname{sen} x}{x\operatorname{sen} x} &amp;amp; =
-\lim_{x\rightarrow 0} \frac{\left(x-\operatorname{sen} x\right)'}{\left(x\operatorname{sen} x\right)'}=
+\lim_{x\rightarrow 0} \frac{\left(x-\operatorname{sen} x\right)&amp;rsquo;}{\left(x\operatorname{sen} x\right)&amp;rsquo;}=
 \lim_{x\rightarrow 0} \frac{1-\cos x}{\operatorname{sen} x +x\cos x} = \newline
-&amp;amp;= \lim_{x\rightarrow 0} \frac{\left(1-\cos x\right)'}{\left(\operatorname{sen} x +x\cos x\right)'} =
+&amp;amp;= \lim_{x\rightarrow 0} \frac{\left(1-\cos x\right)&amp;rsquo;}{\left(\operatorname{sen} x +x\cos x\right)&amp;rsquo;} =
 \lim_{x\rightarrow 0} \frac{\operatorname{sen} x}{\cos x +\cos x-x\operatorname{sen} x}=\newline
 &amp;amp;= \frac{0}{2}=0.
 \end{aligned}

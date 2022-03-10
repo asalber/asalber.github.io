@@ -887,7 +887,7 @@ Resolución
 &lt;li>&lt;strong>Tuplas&lt;/strong> (tuples). Colecciones de objetos que representan secuencias ordenadas de objetos de distintos tipos. A diferencia de las listas son inmutables, es decir, que no cambian durante la ejecución. Se representan mediante paréntesis y los elementos se separan por comas.&lt;br>
 &lt;strong>Ejemplo&lt;/strong>. (1, &amp;lsquo;dos&amp;rsquo;, 3)&lt;/li>
 &lt;li>&lt;strong>Diccionarios&lt;/strong> (dictionaries): Colecciones de objetos con una clave asociada. Se representan con llaves, los pares separados por comas y cada par contiene una clave y un objeto asociado separados por dos puntos.&lt;br>
-&lt;strong>Ejemplo&lt;/strong>. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;lsquo;e&amp;rsquo;:2.718}.&lt;/li>
+&lt;strong>Ejemplo&lt;/strong>. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;rsquo;e&amp;rsquo;:2.718}.&lt;/li>
 &lt;/ul>
 &lt;h2 id="clase-de-un-dato-type">Clase de un dato (&lt;code>type()&lt;/code>)&lt;/h2>
 &lt;p>La clase a la que pertenece un dato se obtiene con el comando &lt;code>type()&lt;/code>&lt;/p>
@@ -972,7 +972,7 @@ False
 True
 &lt;/code>&lt;/pre>
 &lt;h2 id="cadenas-clase-str">Cadenas (clase &lt;code>str&lt;/code>)&lt;/h2>
-&lt;p>Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas ' o dobles &amp;ldquo;.&lt;/p>
+&lt;p>Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas &amp;rsquo; o dobles &amp;ldquo;.&lt;/p>
 &lt;pre>&lt;code class="language-python">'Python'
 &amp;quot;123&amp;quot;
 'True'
@@ -1659,7 +1659,7 @@ Usar con cuidado este comando pues los cambios posteriores al commit indicado se
 $$
 A = \left(
 \begin{array}{rrr}
-1 &amp;amp; 2 &amp;amp; 3\
+1 &amp;amp; 2 &amp;amp; 3\newline
 4 &amp;amp; 5 &amp;amp; 6
 \end{array}
 \right)
@@ -1667,8 +1667,8 @@ A = \left(
 \quad
 B = \left(
 \begin{array}{rr}
--1 &amp;amp; 0\
-0 &amp;amp; 1\
+-1 &amp;amp; 0\newline
+0 &amp;amp; 1\newline
 1 &amp;amp; 1
 \end{array}
 \right)
@@ -5214,7 +5214,7 @@ fijo : 919654665
 &lt;li>Nombre: Juan, Marta, Pedro, Jorge, Blas, Lisa, Antonio&lt;/li>
 &lt;li>Edad: 23,78,22,19,45,33,20&lt;/li>
 &lt;li>Género: M, F, M, M, M, F, M&lt;/li>
-&lt;li>Provincia': Burgos, Madrid, Toledo, Burgos, Madrid, Toledo, Madrid&lt;/li>
+&lt;li>Provincia&amp;rsquo;: Burgos, Madrid, Toledo, Burgos, Madrid, Toledo, Madrid&lt;/li>
 &lt;li>Hijos: 2,0,0,3,2,1,4&lt;/li>
 &lt;li>Mascotas: 5,1,0,5,2,2,3&lt;/li>
 &lt;/ul>
@@ -5233,7 +5233,7 @@ fijo : 919654665
 &lt;/li>
 &lt;li>
 &lt;p>Realizar la siguiente gráfica.
-&lt;img src="../img/diagrama-barras-provincias.png" alt="&amp;lsquo;Recta de regresión&amp;rsquo;">&lt;/p>
+&lt;img src="../img/diagrama-barras-provincias.png" alt="&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;">&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-06-05/ejercicio6.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p></description></item><item><title>Examen de Inteligencia de los Negocios 2021-05-26</title><link>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</link><pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate><guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</guid><description>&lt;p>Grado: Inteligencia de los Negocios&lt;br>
@@ -5250,7 +5250,7 @@ Fecha: 26 de mayo de 2021&lt;/p>
 &lt;pre>&lt;code class="language-pyhton">x = [1, 2, 3, 4, 5, 6]
 y = [20, 18, 12, 10, 9, 9]
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="../img/recta-regresion.png" alt="&amp;lsquo;Recta de regresión&amp;rsquo;">&lt;/p>
+&lt;p>&lt;img src="../img/recta-regresion.png" alt="&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;">&lt;/p>
 &lt;p>Usar las siguientes fórmulas para el cálculo de los estadísticos: $\bar x = \frac{\sum x_i}{n}$, $s^2 = \frac{\sum x_i^2}{n}-\bar{x}^2$, $s_{xy} = \frac{\sum x_iy_j}{n} - \bar{x}\bar{y}$, $b = \frac{s_{xy}}{s_x^2}$ y $a = \bar{y} - b * \bar{x}$.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-05-26/ejercicio1.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-2">Ejercicio 2&lt;/h2>
@@ -5835,7 +5835,7 @@ Por ejemplo, utilizando el fichero
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/retos/soluciones/dibujo-estrellas-turtle.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p></description></item><item><title>Laberinto</title><link>/docencia/python/retos/laberinto/</link><pubDate>Thu, 01 Jan 1970 00:33:39 +0000</pubDate><guid>/docencia/python/retos/laberinto/</guid><description>&lt;h2 id="tarea-1">Tarea 1&lt;/h2>
 &lt;p>La primera tarea consiste en construir un laberinto como el de la siguiente figura.&lt;/p>
 &lt;p>&lt;img src="../img/laberinto.png" alt="Laberinto">&lt;/p>
-&lt;p>El laberinto se representará como una una lista de listas, donde cada lista es una fila del laberinto y cada casilla se representará con un espacio ' ' si hay paso o con la letra &amp;lsquo;X&amp;rsquo; si hay un muro, tal y como se muestra a continuación:&lt;/p>
+&lt;p>El laberinto se representará como una una lista de listas, donde cada lista es una fila del laberinto y cada casilla se representará con un espacio &amp;rsquo; &amp;rsquo; si hay paso o con la letra &amp;lsquo;X&amp;rsquo; si hay un muro, tal y como se muestra a continuación:&lt;/p>
 &lt;pre>&lt;code class="language-Python">laberinto = [
 [' ', 'X', 'X', 'X', 'X'],
 [' ', 'X', ' ', ' ', ' '],

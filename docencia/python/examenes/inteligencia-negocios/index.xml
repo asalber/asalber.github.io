@@ -69,7 +69,7 @@ fijo : 919654665
 &lt;li>Nombre: Juan, Marta, Pedro, Jorge, Blas, Lisa, Antonio&lt;/li>
 &lt;li>Edad: 23,78,22,19,45,33,20&lt;/li>
 &lt;li>Género: M, F, M, M, M, F, M&lt;/li>
-&lt;li>Provincia': Burgos, Madrid, Toledo, Burgos, Madrid, Toledo, Madrid&lt;/li>
+&lt;li>Provincia&amp;rsquo;: Burgos, Madrid, Toledo, Burgos, Madrid, Toledo, Madrid&lt;/li>
 &lt;li>Hijos: 2,0,0,3,2,1,4&lt;/li>
 &lt;li>Mascotas: 5,1,0,5,2,2,3&lt;/li>
 &lt;/ul>
@@ -88,7 +88,7 @@ fijo : 919654665
 &lt;/li>
 &lt;li>
 &lt;p>Realizar la siguiente gráfica.
-&lt;img src="../img/diagrama-barras-provincias.png" alt="&amp;lsquo;Recta de regresión&amp;rsquo;">&lt;/p>
+&lt;img src="../img/diagrama-barras-provincias.png" alt="&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;">&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-06-05/ejercicio6.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p></description></item><item><title>Examen de Inteligencia de los Negocios 2021-05-26</title><link>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</link><pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate><guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-05-26/</guid><description>&lt;p>Grado: Inteligencia de los Negocios&lt;br>
@@ -105,7 +105,7 @@ Fecha: 26 de mayo de 2021&lt;/p>
 &lt;pre>&lt;code class="language-pyhton">x = [1, 2, 3, 4, 5, 6]
 y = [20, 18, 12, 10, 9, 9]
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="../img/recta-regresion.png" alt="&amp;lsquo;Recta de regresión&amp;rsquo;">&lt;/p>
+&lt;p>&lt;img src="../img/recta-regresion.png" alt="&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;">&lt;/p>
 &lt;p>Usar las siguientes fórmulas para el cálculo de los estadísticos: $\bar x = \frac{\sum x_i}{n}$, $s^2 = \frac{\sum x_i^2}{n}-\bar{x}^2$, $s_{xy} = \frac{\sum x_iy_j}{n} - \bar{x}\bar{y}$, $b = \frac{s_{xy}}{s_x^2}$ y $a = \bar{y} - b * \bar{x}$.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-05-26/ejercicio1.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-2">Ejercicio 2&lt;/h2>

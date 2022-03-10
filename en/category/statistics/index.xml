@@ -447,7 +447,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-593472618" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-175298463" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -456,7 +456,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-593472618', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-175298463', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -1618,7 +1618,7 @@ To select the whole worksheet click the top-left corner of the worksheet or pres
 &lt;p>To insert a new row, right-click the header of the row above which you want to insert the new row and select &lt;code>Insert&lt;/code>.&lt;/p>
 &lt;p>To insert a new column, right-click the header of the column to the left of which you want to insert the new column and select &lt;code>Insert&lt;/code>.&lt;/p>
 &lt;p>To insert a new worksheet, right-click the tab with the name of the worksheet to the left of which you want to insert the new worksheet and select &lt;code>Insert&lt;/code>.
-In the dialog that appears select `Worksheet'.&lt;/p>
+In the dialog that appears select `Worksheet&amp;rsquo;.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The animation below shows how to insert a cell, a row, a column and a worksheet.&lt;/p>
 &lt;p>&lt;img src="../img/example_data_insert.gif" alt="Example inserting cells, rows, columns and worksheets." title="Example inserting cells, rows, columns and worksheets">&lt;/p>
 &lt;h3 id="cut-copy-and-paste">Cut, copy and paste&lt;/h3>
@@ -3766,10 +3766,10 @@ In the case of dates, Excel will return the number of days between these dates. 
 &lt;p>&lt;strong>Example&lt;/strong>. The animation below shows how to calculate the date given the year, moth and day.&lt;/p>
 &lt;p>&lt;img src="../img/example_function_date.gif" alt="Example of calculating the date given the year, month and day." title="Example of calculating the date given the year, month and day">&lt;/p>
 &lt;h3 id="day-weekday-month-and-year-functions">DAY, WEEKDAY, MONTH and YEAR functions&lt;/h3>
-&lt;p>The &lt;code>DAY&lt;/code> function returns the day of the month of a date. Its' syntax is &lt;code>DAY(date)&lt;/code>, where &lt;em>date&lt;/em> is the serial number of the date.&lt;/p>
-&lt;p>The &lt;code>WEEKDAY&lt;/code> function returns the day of the week of a date. Its' syntax is &lt;code>WEEKDAY(date,type)&lt;/code>, where &lt;em>date&lt;/em> is the serial number of the date and &lt;em>type&lt;/em> has three possible values (1: 1 equals Sunday and 7 Saturday, 2: 1 equals Monday and 7 equals Sunday; 3: 0 equals Monday and 6 equals Sunday).&lt;/p>
-&lt;p>The &lt;code>MONTH&lt;/code> function returns the number of the month of a date. Its' syntax is &lt;code>MONTH(date)&lt;/code>, where &lt;em>date&lt;/em> is the serial number of the date.&lt;/p>
-&lt;p>The &lt;code>YEAR&lt;/code> function returns the year of a date. Its' syntax is &lt;code>YEAR(date)&lt;/code>, where &lt;em>date&lt;/em> is the serial number of the date.&lt;/p>
+&lt;p>The &lt;code>DAY&lt;/code> function returns the day of the month of a date. Its&amp;rsquo; syntax is &lt;code>DAY(date)&lt;/code>, where &lt;em>date&lt;/em> is the serial number of the date.&lt;/p>
+&lt;p>The &lt;code>WEEKDAY&lt;/code> function returns the day of the week of a date. Its&amp;rsquo; syntax is &lt;code>WEEKDAY(date,type)&lt;/code>, where &lt;em>date&lt;/em> is the serial number of the date and &lt;em>type&lt;/em> has three possible values (1: 1 equals Sunday and 7 Saturday, 2: 1 equals Monday and 7 equals Sunday; 3: 0 equals Monday and 6 equals Sunday).&lt;/p>
+&lt;p>The &lt;code>MONTH&lt;/code> function returns the number of the month of a date. Its&amp;rsquo; syntax is &lt;code>MONTH(date)&lt;/code>, where &lt;em>date&lt;/em> is the serial number of the date.&lt;/p>
+&lt;p>The &lt;code>YEAR&lt;/code> function returns the year of a date. Its&amp;rsquo; syntax is &lt;code>YEAR(date)&lt;/code>, where &lt;em>date&lt;/em> is the serial number of the date.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The animation below shows how to calculate the day, week day, month and year of a date.&lt;/p>
 &lt;p>&lt;img src="../img/example_function_day.gif" alt="Example of calculating the day, week day, month and year of a date." title="Example of calculating the day, week day, month and year of a date">&lt;/p>
 &lt;h3 id="now-function">NOW function&lt;/h3>
@@ -3781,9 +3781,9 @@ In the case of dates, Excel will return the number of days between these dates. 
 &lt;p>&lt;strong>Example&lt;/strong>. The animation below shows how to calculate the date given the year, moth and day.&lt;/p>
 &lt;p>&lt;img src="../img/example_function_time.gif" alt="Example of calculating the date given the year, month and day." title="Example of calculating the date given the year, month and day">&lt;/p>
 &lt;h3 id="hour-minute-and-second-functions">HOUR, MINUTE and SECOND functions&lt;/h3>
-&lt;p>The &lt;code>HOUR&lt;/code> function returns the hour of a time. Its' syntax is &lt;code>HOUR(time)&lt;/code>, where &lt;em>time&lt;/em> is the serial number of the time.&lt;/p>
-&lt;p>The &lt;code>MINUTE&lt;/code> function returns the minute of a time. Its' syntax is &lt;code>MINUTE(time)&lt;/code>, where &lt;em>time&lt;/em> is the serial number of the time.&lt;/p>
-&lt;p>The &lt;code>SECOND&lt;/code> function returns the hour of a time. Its' syntax is &lt;code>SECOND(time)&lt;/code>, where &lt;em>time&lt;/em> is the serial number of the time.&lt;/p>
+&lt;p>The &lt;code>HOUR&lt;/code> function returns the hour of a time. Its&amp;rsquo; syntax is &lt;code>HOUR(time)&lt;/code>, where &lt;em>time&lt;/em> is the serial number of the time.&lt;/p>
+&lt;p>The &lt;code>MINUTE&lt;/code> function returns the minute of a time. Its&amp;rsquo; syntax is &lt;code>MINUTE(time)&lt;/code>, where &lt;em>time&lt;/em> is the serial number of the time.&lt;/p>
+&lt;p>The &lt;code>SECOND&lt;/code> function returns the hour of a time. Its&amp;rsquo; syntax is &lt;code>SECOND(time)&lt;/code>, where &lt;em>time&lt;/em> is the serial number of the time.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The animation below shows how to calculate the hour, minute and second of a time.&lt;/p>
 &lt;p>&lt;img src="../img/example_function_hour.gif" alt="Example of calculating the day, week day, month and year of a date." title="Example of calculating the day, week day, month and year of a date">&lt;/p>
 &lt;h2 id="text-functions">Text functions&lt;/h2>
@@ -5398,7 +5398,7 @@ $$&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong> The animation below shows how to sum the passed credits of students in a students database. It also shows how to average the average grade.&lt;/p>
 &lt;p>&lt;img src="../img/example_field_summarizing.gif" alt="Example of applying a function to a whole field in a database." title="Example of applying a function to a whole field in a database">&lt;/p>
 &lt;p>Excel also allows subtotaling a field by categories of other field. This procedure only works with data lists formatted like tables, so if a data list have been formatted like a table first it has to be converted to a range selecting any cell of the table and clicking the &lt;code>Convert to Range&lt;/code> button of the &lt;code>Tool&lt;/code> panel on the ribbon&amp;rsquo;s &lt;code>Table Tools - Design&lt;/code> tab. After that, you have to sort the data list by the field with the categories to summarize (see the
-&lt;a href="#data_sorting">Data sorting&lt;/a> section). Finally, to subtotaling a data list click the &lt;code>Subtotal&lt;/code> button of the &lt;code>Outline&lt;/code> panel on the ribbons' &lt;code>Data&lt;/code> tab. This will display a dialog where you have to select the field with the categories in the &lt;code>At each change in&lt;/code> drop-down menu, the function to apply (sum, count, average, etc.) in the &lt;code>Use function&lt;/code> drop-down menu, check the fields to with apply the subtotaling function in the &lt;code>Add subtotal to&lt;/code> list, and click OK.&lt;/p>
+&lt;a href="#data_sorting">Data sorting&lt;/a> section). Finally, to subtotaling a data list click the &lt;code>Subtotal&lt;/code> button of the &lt;code>Outline&lt;/code> panel on the ribbons&amp;rsquo; &lt;code>Data&lt;/code> tab. This will display a dialog where you have to select the field with the categories in the &lt;code>At each change in&lt;/code> drop-down menu, the function to apply (sum, count, average, etc.) in the &lt;code>Use function&lt;/code> drop-down menu, check the fields to with apply the subtotaling function in the &lt;code>Add subtotal to&lt;/code> list, and click OK.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong> The animation below shows how to subtotaling the passed credits of students in a students database by the city where they live.&lt;/p>
 &lt;p>&lt;img src="../img/example_field_subtotaling.gif" alt="Example of subtotaling a field in a database." title="Example of subtotaling a field in a database">&lt;/p>
 &lt;h3 id="pivot-tables">Pivot tables&lt;/h3>
@@ -8313,7 +8313,7 @@ Solution
 &lt;div class="collapse card " id="spoiler-0">
 &lt;div class="card-body">
 &lt;ol>
-&lt;li>66.5% of non-working students passed and 59% of working students passed.&lt;/li>
+&lt;li>35.5% of non-working students passed and 41% of working students passed.&lt;/li>
 &lt;li>Non-working students: $\bar x=5.7$, $s^2=5.15$, $s=2.2694$ and $cv=0.3981$.
 Working students: $\bar y=5.64$, $s^2=4.7104$, $s=2.1703$ and $cv=0.3848$.
 The sample of non-working students has a slightly higher relative dispersion with respect to the mean as the coefficient of variation is greater.&lt;/li>
@@ -9240,8 +9240,16 @@ The table below shows the daily number of cigarretes smoked by mothers ($X$) and
 &lt;p>$$
 \begin{array}{lrrrrrrrrrrrr}
 \hline
-\mbox{Daily num cigarettes} &amp;amp; 10.00 &amp;amp; 14.00 &amp;amp; 8.00 &amp;amp; 11.00 &amp;amp; 7.00 &amp;amp; 6.00 &amp;amp; 2.00 &amp;amp; 5.00 &amp;amp; 9.00 &amp;amp; 9.00 &amp;amp; 4.00 &amp;amp; 6.00 \newline
-\mbox{Weight (kg)} &amp;amp; 2.55 &amp;amp; 2.44 &amp;amp; 2.68 &amp;amp; 2.65 &amp;amp; 2.71 &amp;amp; 2.85 &amp;amp; 3.45 &amp;amp; 2.93 &amp;amp; 2.67 &amp;amp; 2.59 &amp;amp; 3.02 &amp;amp; 2.72 \newline
+\mbox{Daily num cigarettes} &amp;amp; 10.00 &amp;amp; 14.00 &amp;amp; 8.00 &amp;amp; 11.00 &amp;amp; 7.00 &amp;amp; 6.00 \newline
+\mbox{Weight (kg)} &amp;amp; 2.55 &amp;amp; 2.44 &amp;amp; 2.68 &amp;amp; 2.65 &amp;amp; 2.71 &amp;amp; 2.85 \newline
+\hline
+\end{array}
+$$&lt;/p>
+&lt;p>$$
+\begin{array}{lrrrrrrrrrrrr}
+\hline
+\mbox{Daily num cigarettes} &amp;amp; 2.00 &amp;amp; 5.00 &amp;amp; 9.00 &amp;amp; 9.00 &amp;amp; 4.00 &amp;amp; 6.00 \newline
+\mbox{Weight (kg)} &amp;amp; 3.45 &amp;amp; 2.93 &amp;amp; 2.67 &amp;amp; 2.59 &amp;amp; 3.02 &amp;amp; 2.72 \newline
 \hline
 \end{array}
 $$&lt;/p>
@@ -10433,7 +10441,7 @@ Exponential coefficient of determination of Visits on Age $r^2=0.9716$.
 Thus, the exponential model explains a little bit better the number of visits to the doctor with respect to the age.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a'+b\log(X)$.&lt;/p>
+&lt;p>We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&amp;rsquo;+b\log(X)$.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div>

@@ -213,7 +213,7 @@ Escribir un programa que comience leyendo el número de barras vendidas que no s
 &lt;li>&lt;strong>Tuplas&lt;/strong> (tuples). Colecciones de objetos que representan secuencias ordenadas de objetos de distintos tipos. A diferencia de las listas son inmutables, es decir, que no cambian durante la ejecución. Se representan mediante paréntesis y los elementos se separan por comas.&lt;br>
 &lt;strong>Ejemplo&lt;/strong>. (1, &amp;lsquo;dos&amp;rsquo;, 3)&lt;/li>
 &lt;li>&lt;strong>Diccionarios&lt;/strong> (dictionaries): Colecciones de objetos con una clave asociada. Se representan con llaves, los pares separados por comas y cada par contiene una clave y un objeto asociado separados por dos puntos.&lt;br>
-&lt;strong>Ejemplo&lt;/strong>. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;lsquo;e&amp;rsquo;:2.718}.&lt;/li>
+&lt;strong>Ejemplo&lt;/strong>. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;rsquo;e&amp;rsquo;:2.718}.&lt;/li>
 &lt;/ul>
 &lt;h2 id="clase-de-un-dato-type">Clase de un dato (&lt;code>type()&lt;/code>)&lt;/h2>
 &lt;p>La clase a la que pertenece un dato se obtiene con el comando &lt;code>type()&lt;/code>&lt;/p>
@@ -298,7 +298,7 @@ False
 True
 &lt;/code>&lt;/pre>
 &lt;h2 id="cadenas-clase-str">Cadenas (clase &lt;code>str&lt;/code>)&lt;/h2>
-&lt;p>Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas ' o dobles &amp;ldquo;.&lt;/p>
+&lt;p>Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas &amp;rsquo; o dobles &amp;ldquo;.&lt;/p>
 &lt;pre>&lt;code class="language-python">'Python'
 &amp;quot;123&amp;quot;
 'True'
