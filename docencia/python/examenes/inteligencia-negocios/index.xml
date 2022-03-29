@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exámenes de Programación con Python de Inteligencia de los Negocios | Aprende con Alf</title><link>/docencia/python/examenes/inteligencia-negocios/</link><atom:link href="/docencia/python/examenes/inteligencia-negocios/index.xml" rel="self" type="application/rss+xml"/><description>Exámenes de Programación con Python de Inteligencia de los Negocios</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Exámenes de Programación con Python de Inteligencia de los Negocios</title><link>/docencia/python/examenes/inteligencia-negocios/</link></image><item><title>Examen de Inteligencia de los Negocios 2021-06-05</title><link>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-06-05/</link><pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate><guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-06-05/</guid><description>&lt;p>Grado: Inteligencia de los Negocios&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exámenes de Programación con Python de Inteligencia de los Negocios | Aprende con Alf</title><link>/docencia/python/examenes/inteligencia-negocios/</link><atom:link href="/docencia/python/examenes/inteligencia-negocios/index.xml" rel="self" type="application/rss+xml"/><description>Exámenes de Programación con Python de Inteligencia de los Negocios</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><image><url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url><title>Exámenes de Programación con Python de Inteligencia de los Negocios</title><link>/docencia/python/examenes/inteligencia-negocios/</link></image><item><title>Examen de Inteligencia de los Negocios 2022-03-24</title><link>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-03-24/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-03-24/</guid><description>&lt;p>Grado: Inteligencia de los Negocios&lt;br>
+Fecha: 24 de marzo de 2022&lt;/p>
+&lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
+&lt;p>Escriba un programa que permita practicar una variante simplificada de la prueba de cálculo mental &lt;em>La calculadora humana&lt;/em> del concurso televisivo Saber y ganar. El usuario debe ir sumando todos los números de la lista de uno en uno hasta que se equivoque o termine la lista, en cuyo caso ganará.&lt;/p>
+&lt;p>Ejemplo usando la lista [50, 4, 28, 33, 12]:&lt;/p>
+&lt;pre>&lt;code class="language-sh">SUMAR Y GANAR
+Vaya sumando todos los números que le iré diciendo. Empezamos por 0.
+Más 50: 50
+Más 4: 54
+Más 28: 72
+Te has equivocado, pero has acertado 2 veces seguidas.
+SUMAR Y GANAR
+Vaya sumando todos los números que le iré diciendo. Empezamos por 0.
+Más 50: 50
+Más 4: 54
+Más 28: 82
+Más 33: 115
+Más 12: 127
+Enhorabuena, GANASTE.
+&lt;/code>&lt;/pre>
+&lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-03-24/ejercicio1.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
+&lt;h2 id="ejercicio-2">Ejercicio 2&lt;/h2>
+&lt;p>Escribir un programa que calcule a partir de una fecha de un año no bisiesto el número de días que han transcurrido en ese año y el número de meses lunares completos que abarcan. Se recuerda que un mes lunar dura aproximadamente 29,53 días.&lt;/p>
+&lt;p>El programa debe usar diccionarios para acceder al número de días de cada mes.&lt;/p>
+&lt;p>Ejemplo:&lt;/p>
+&lt;pre>&lt;code class="language-sh">CALENDARIO LUNAR
+Este programa convierte una fecha de un año NO bisiesto a un calendario lunar.
+Indique el día: 1
+Indique el mes: henero
+El mes henero no existe.
+CALENDARIO LUNAR
+Este programa convierte una fecha de un año NO bisiesto a un calendario lunar
+Indique el día: -5
+Indique el mes: marzo
+El día -5 de marzo no existe.
+CALENDARIO LUNAR
+Este programa convierte una fecha de un año NO bisiesto a un calendario lunar
+Indique el día: 29
+Indique el mes: febrero
+El día 29 de febrero no existe.
+CALENDARIO LUNAR
+Este programa convierte una fecha de un año NO bisiesto a un calendario lunar
+Indique el día: 1
+Indique el mes: febrero
+El día 1 de febrero es el día 32 del año.
+Habrán pasado 1.08 meses lunares.
+&lt;/code>&lt;/pre>
+&lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-03-24/ejercicio2.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p>
+&lt;h2 id="ejercicio-3">Ejercicio 3&lt;/h2>
+&lt;p>Un cine tiene una sala rectangular con 5 filas y 4 columnas de butacas. Escribir un programa que permita gestionar la reserva de butacas con los siguientes requisitos:&lt;/p>
+&lt;ul>
+&lt;li>El programa mostrará una matriz con el carácter X para las butacas libres y O para las ocupadas y preguntará por la fila y columna de la butaca a reservar.&lt;/li>
+&lt;li>Si el usuario introduce una fila o una columna no válidas, se le avisará y se le volverá a preguntar.&lt;/li>
+&lt;li>Si la fila y la columna introducida corresponde a una butaca ocupada, se avisará al usuario y se le volverá a preguntar.&lt;/li>
+&lt;li>Si la butaca está libre se reservará y se volverá a preguntar al usuario si quiere hacer más reservas.&lt;/li>
+&lt;li>El programa terminará cuando el usuario no quiera hacer más reservas.&lt;/li>
+&lt;/ul>
+&lt;p>Ejemplo:&lt;/p>
+&lt;pre>&lt;code class="language-sh">RESERVA DE BUCATAS
+XXXXX
+XXXXX
+XXXXX
+XXXXX
+Introduce la fila que quieres: 2
+Introduce la columna que quieres: 3
+Reserva realizada.
+¿Desea realizar otra reserva? (S/N): S
+RESERVA DE BUCATAS
+XXXXX
+XXOXX
+XXXXX
+XXXXX
+Introduce la fila que quieres: 5
+Introduce la columna que quieres: 1
+La fila y columna elegidas no son válidas.
+¿Desea realizar otra reserva? (S/N): S
+RESERVA DE BUCATAS
+XXXXX
+XXOXX
+XXXXX
+XXXXX
+Introduce la fila que quieres: 2
+Introduce la columna que quieres: 3
+La butaca elegida está ocupada.
+¿Desea realizar otra reserva?
+(S/N): S
+RESERVA DE BUCATAS
+XXXXX
+XXOXX
+XXXXX
+XXXXX
+Introduce la fila que quieres: 1
+Introduce la columna que quieres: 2
+Reserva realizada.
+¿Desea realizar otra reserva? (S/N): N
+¡Gracias!
+&lt;/code>&lt;/pre>
+&lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-03-24/ejercicio3.ipynb" class="btn btn-info" target="_blank">Solución&lt;/a>&lt;/p></description></item><item><title>Examen de Inteligencia de los Negocios 2021-06-05</title><link>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-06-05/</link><pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate><guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2021-06-05/</guid><description>&lt;p>Grado: Inteligencia de los Negocios&lt;br>
 Fecha: 5 de junio de 2021&lt;/p>
 &lt;h2 id="ejercicio-1">Ejercicio 1&lt;/h2>
 &lt;p>A veces, al tratar con tuplas, podemos tener un problema en el que necesitamos extraer solo $k$ elementos extremos, es decir, los $k$ máximos y mínimos. Este problema puede tener aplicaciones en campos como el desarrollo web y la ciencia de datos. Desarrollar un programa que dada una tupla y un número $k$ devuelva otra tupla con los $k$ elementos máximos y mínimos.&lt;/p>
