@@ -3088,10 +3088,10 @@ print(producto(a, b))
 &lt;p>Escribir un programa que pregunte al usuario por las ventas de un rango de años y muestre por pantalla una serie con los datos de las ventas indexada por los años, antes y después de aplicarles un descuento del 10%.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/pandas/ejercicio1.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-2">Ejercicio 2&lt;/h2>
-&lt;p>Escribir una función que reciba un diccionario con las notas de los alumnos en curso en un examen y devuelva una serie con la nota mínima, la máxima, media y la desviación típica.&lt;/p>
+&lt;p>Escribir una función que reciba un diccionario con las notas de los alumno de un curso y devuelva una serie con la nota mínima, la máxima, media y la desviación típica.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/pandas/ejercicio2.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-3">Ejercicio 3&lt;/h2>
-&lt;p>Escribir una función que reciba una diccionario con las notas de los alumnos en curso en un examen y devuelva una serie con las notas de los alumnos aprobados ordenadas de mayor a menor.&lt;/p>
+&lt;p>Escribir una función que reciba un diccionario con las notas de los alumnos de un curso y devuelva una serie con las notas de los alumnos aprobados ordenadas de mayor a menor.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/pandas/ejercicio3.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-4">Ejercicio 4&lt;/h2>
 &lt;p>Escribir programa que genere y muestre por pantalla un DataFrame con los datos de la tabla siguiente:&lt;/p>
@@ -4049,7 +4049,7 @@ dtype('int64')
 &lt;p>Se realiza de forma similar a como se accede a los elementos de un array.&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>s[i]&lt;/code> : Devuelve el elemento que ocupa la posición &lt;code>i+1&lt;/code> en la serie &lt;code>s&lt;/code>.&lt;/li>
-&lt;li>&lt;code>s[nombres]&lt;/code>: Devuelve otra serie con los elementos con los nombres de la lista &lt;code>nombres&lt;/code> en el índice.&lt;/li>
+&lt;li>&lt;code>s[posiciones]&lt;/code>: Devuelve otra serie con los elementos que ocupan las posiciones de la lista &lt;code>posiciones&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;h3 id="acceso-por-índice">Acceso por índice&lt;/h3>
 &lt;ul>
@@ -4399,8 +4399,6 @@ dtype: object
 &lt;pre>&lt;code class="language-python">&amp;gt;&amp;gt;&amp;gt; import pandas as pd
 &amp;gt;&amp;gt;&amp;gt; df = pd.read_csv(
 'https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesterol.csv')
-&amp;gt;&amp;gt;&amp;gt; print(df.loc[2, 'colesterol']
-191
 &amp;gt;&amp;gt;&amp;gt; print(df.rename(columns={'nombre':'nombre y apellidos', 'altura':'estatura'}, index={0:1000, 1:1001, 2:1002}))
 nombre y apellidos edad sexo peso estatura colesterol
 1000 José Luis Martínez Izquierdo 18 H 85.0 1.79 182.0
@@ -4479,7 +4477,7 @@ colesterol peso
 &lt;/code>&lt;/pre>
 &lt;h2 id="operaciones-con-las-columnas-de-un-dataframe">Operaciones con las columnas de un DataFrame&lt;/h2>
 &lt;h2 id="añadir-columnas-a-un-dataframe">Añadir columnas a un DataFrame&lt;/h2>
-&lt;p>El procedimiento para añadir una nueva columna a un DataFrame es similar al de añadir un nuevo par aun diccionario, pero pasando los valores de la columna en una lista o serie.&lt;/p>
+&lt;p>El procedimiento para añadir una nueva columna a un DataFrame es similar al de añadir un nuevo par a un diccionario, pero pasando los valores de la columna en una lista o serie.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;code>d[nombre] = lista&lt;/code>: Añade al DataFrame &lt;code>df&lt;/code> una nueva columna con el nombre &lt;code>nombre&lt;/code> y los valores de la lista &lt;code>lista&lt;/code>. La lista debe tener el mismo tamaño que el número de filas de &lt;code>df&lt;/code>.&lt;/p>

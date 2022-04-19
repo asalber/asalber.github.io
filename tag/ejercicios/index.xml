@@ -1675,10 +1675,10 @@ print(producto(a, b))
 &lt;p>Escribir un programa que pregunte al usuario por las ventas de un rango de años y muestre por pantalla una serie con los datos de las ventas indexada por los años, antes y después de aplicarles un descuento del 10%.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/pandas/ejercicio1.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-2">Ejercicio 2&lt;/h2>
-&lt;p>Escribir una función que reciba un diccionario con las notas de los alumnos en curso en un examen y devuelva una serie con la nota mínima, la máxima, media y la desviación típica.&lt;/p>
+&lt;p>Escribir una función que reciba un diccionario con las notas de los alumno de un curso y devuelva una serie con la nota mínima, la máxima, media y la desviación típica.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/pandas/ejercicio2.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-3">Ejercicio 3&lt;/h2>
-&lt;p>Escribir una función que reciba una diccionario con las notas de los alumnos en curso en un examen y devuelva una serie con las notas de los alumnos aprobados ordenadas de mayor a menor.&lt;/p>
+&lt;p>Escribir una función que reciba un diccionario con las notas de los alumnos de un curso y devuelva una serie con las notas de los alumnos aprobados ordenadas de mayor a menor.&lt;/p>
 &lt;p>&lt;a href="https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/ejercicios/soluciones/pandas/ejercicio3.ipynb" class="btn btn-info">Solución&lt;/a>&lt;/p>
 &lt;h2 id="ejercicio-4">Ejercicio 4&lt;/h2>
 &lt;p>Escribir programa que genere y muestre por pantalla un DataFrame con los datos de la tabla siguiente:&lt;/p>
