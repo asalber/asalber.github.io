@@ -447,7 +447,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p>Depending on the type of frequency represented in the $y$-axis we get different types of bar charts.&lt;/p>
 &lt;p>Sometimes a polygon, known as &lt;strong>frequency polygon&lt;/strong>, is plotted joining the top of every bar with straight lines.&lt;/p>
 &lt;p>&lt;strong>Example&lt;/strong>. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p>
-&lt;div id="chart-796215348" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
+&lt;div id="chart-172456398" class="chart pb-3" style="max-width: 100%; margin: auto;">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -456,7 +456,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./img/absolute-barchart.json", function(chart) {
-Plotly.plot('chart-796215348', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-172456398', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -3171,7 +3171,7 @@ $$&lt;/p>
 &lt;/ul>
 &lt;p>As we will see in the next chapter, the Fisher-Snedecor’s F distribution plays an important role in the comparison of population variances and in the analysis of variance test (ANOVA).&lt;/p></description></item><item><title>Physiotherapy exam 2022-03-11</title><link>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-03-11/</link><pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate><guid>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-03-11/</guid><description>&lt;p>Degrees: Physiotherapy&lt;br>
 Date: March 11, 2022&lt;/p>
-&lt;h3 id="question-1">Question 1&lt;/h3>
+&lt;h2 id="question-1">Question 1&lt;/h2>
 &lt;p>The table below shows the number of credits obtained by the students of the first year of the physiotherapy grade.&lt;/p>
 &lt;p>$$48, 52, 60, 60, 24, 48, 48, 36, 39, 54, 54, 60, 12, 46$$&lt;/p>
 &lt;ol>
