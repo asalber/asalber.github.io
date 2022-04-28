@@ -7,7 +7,7 @@
     <description>Physiotherapy</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Physiotherapy</title>
       <link>/en/category/physiotherapy/</link>
     </image>
@@ -315,7 +315,7 @@ Without prevention program: $\sum y_i=66$ injuries, $\sum y_i^2=362$ injuries$^2
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;
-&lt;img src=&#34;../img/des-fis-5-cumulative-frequencies-polygon.svg&#34; title=&#34;Cumulative relative frequency polygon of spinal injuries&#34; alt=&#34;Cumulative relative frequency polygon of spinal injuries&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-fis-5-cumulative-frequencies-polygon.svg&#34; title=&#34;Cumulative relative frequency polygon of spinal injuries&#34; alt=&#34;Cumulative relative frequency polygon of spinal injuries&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;With prevention program: $Q_1=2$ injuries, $Q_3=4$ injuries, $IQR=2$ injuries.&lt;br&gt;
@@ -1225,7 +1225,7 @@ The clinic requires 5 phisiotherapists, since $P(X&amp;gt;5)=0.0527$ and $P(Y&am
 Date: April 9, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
 &lt;p&gt;The chart below describes the distribution of the head arc of rotation (in degrees) in people working with and without computers.&lt;/p&gt;
-&lt;img src=&#34;../img/histogram_head_arc_rotation-1.svg&#34; title=&#34;plot of chunk histogram_head_arc_rotation&#34; alt=&#34;plot of chunk histogram_head_arc_rotation&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/histogram_head_arc_rotation-1.svg&#34; title=&#34;plot of chunk histogram_head_arc_rotation&#34; alt=&#34;plot of chunk histogram_head_arc_rotation&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Plot the ogive of the head arc of rotation for people working with computers.&lt;/li&gt;
 &lt;li&gt;If a person with a head arc of rotation less than or equal to 115 degrees is considered a person with reduced mobility, what percentage of people working with computers has reduced mobility?&lt;/li&gt;
@@ -1247,23 +1247,16 @@ Without computers: $\sum x_i=4230$ degrees, $\sum x_i^2=645900$ degrees$^2$, $\s
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../img/ogive_head_arc_rotation-1.svg&#34; title=&#34;plot of chunk ogive_head_arc_rotation&#34; alt=&#34;plot of chunk ogive_head_arc_rotation&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/li&gt;
+&lt;li&gt;With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
 Without computer:  $\bar x=151.0714$ degrees, $s_x^2=245.2806$ degrees², $s_x=15.6614$ degrees and $cv_x=0.1037$
-The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar x=141.3793$.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/p&gt;
-&lt;/li&gt;
+The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/li&gt;
+&lt;li&gt;$\bar x=141.3793$.&lt;/li&gt;
+&lt;li&gt;With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/li&gt;
+&lt;li&gt;Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -1871,7 +1864,7 @@ Use relative frequencies to estimate probabilities in following questions:&lt;/p
 &lt;h2 id=&#34;question-4&#34;&gt;Question 4&lt;/h2&gt;
 &lt;p&gt;The level of severity $X$ of an injury is classified in a scale from 1 to 5, from low to high severity.
 The probability distribution of $X$ in a population is plotted below.&lt;/p&gt;
-&lt;img src=&#34;../img/severity_probability_function-1.svg&#34; title=&#34;plot of chunk severity_probability_function&#34; alt=&#34;plot of chunk severity_probability_function&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/severity_probability_function-1.svg&#34; title=&#34;plot of chunk severity_probability_function&#34; alt=&#34;plot of chunk severity_probability_function&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Calculate and plot the distribution function.&lt;/li&gt;
 &lt;li&gt;Calculate the following probabilities: $P(X\leq 2)$, $P(X&amp;gt;3)$, $P(X=4.2)$ and $P(1&amp;lt;X\leq 4.2)$.&lt;/li&gt;

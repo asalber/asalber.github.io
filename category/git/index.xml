@@ -7,7 +7,7 @@
     <description>Git</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Git</title>
       <link>/category/git/</link>
     </image>
@@ -381,8 +381,7 @@ Hay dos formas de referirse a un commit:&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docencia/git/ejercicios/historial-cambios/</guid>
       <description>&lt;p&gt;&lt;i class=&#34;fas fa-exclamation-triangle&#34; style=&#34;color:red&#34;&gt;&lt;/i&gt; Para hacer estos ejercicios es necesario haber hecho antes los  
-&lt;a href=&#34;/git/ejercicios/creacion-actualizacion-repositorios.html&#34;&gt;ejercicios de creación y actualización de repositorios&lt;/a&gt; o bien hacer un clon del repositorio remoto 
-&lt;a href=&#34;https://github.com/asalber/libro-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/asalber/libro-git&lt;/a&gt; mediante la siguiente secuencia de comandos:&lt;/p&gt;
+&lt;a href=&#34;/git/ejercicios/creacion-actualizacion-repositorios.html&#34;&gt;ejercicios de creación y actualización de repositorios&lt;/a&gt; o bien hacer un clon del repositorio remoto &lt;a href=&#34;https://github.com/asalber/libro-git&#34;&gt;https://github.com/asalber/libro-git&lt;/a&gt; mediante la siguiente secuencia de comandos:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard 8c808
@@ -580,8 +579,7 @@ Ctrl+D
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docencia/git/ejercicios/deshacer-cambios/</guid>
       <description>&lt;p&gt;&lt;i class=&#34;fas fa-exclamation-triangle&#34; style=&#34;color:red&#34;&gt;&lt;/i&gt; Para hacer estos ejercicios es necesario haber hecho antes los 
-&lt;a href=&#34;/git/ejercicios/historial-cambios.html&#34;&gt;ejercicios sobre historial de cambios&lt;/a&gt; o bien hacer un clon del repositorio remoto 
-&lt;a href=&#34;https://github.com/asalber/libro-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/asalber/libro-git&lt;/a&gt; mediante la siguiente secuencia de comandos:&lt;/p&gt;
+&lt;a href=&#34;/git/ejercicios/historial-cambios.html&#34;&gt;ejercicios sobre historial de cambios&lt;/a&gt; o bien hacer un clon del repositorio remoto &lt;a href=&#34;https://github.com/asalber/libro-git&#34;&gt;https://github.com/asalber/libro-git&lt;/a&gt; mediante la siguiente secuencia de comandos:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard 48ed8
@@ -867,8 +865,7 @@ Suele utilizarse para eliminar los cambios en un fichero que no han sido guardad
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docencia/git/ejercicios/ramas/</guid>
       <description>&lt;p&gt;&lt;i class=&#34;fas fa-exclamation-triangle&#34; style=&#34;color:red&#34;&gt;&lt;/i&gt; Para hacer estos ejercicios es necesario haber hecho antes los 
-&lt;a href=&#34;/git/ejercicios/historial-cambios.html&#34;&gt;ejercicios sobre historial de cambios&lt;/a&gt; o bien hacer un clon del repositorio remoto 
-&lt;a href=&#34;https://github.com/asalber/libro-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/asalber/libro-git&lt;/a&gt; mediante la siguiente secuencia de comandos:&lt;/p&gt;
+&lt;a href=&#34;/git/ejercicios/historial-cambios.html&#34;&gt;ejercicios sobre historial de cambios&lt;/a&gt; o bien hacer un clon del repositorio remoto &lt;a href=&#34;https://github.com/asalber/libro-git&#34;&gt;https://github.com/asalber/libro-git&lt;/a&gt; mediante la siguiente secuencia de comandos:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard 48ed8
@@ -1189,8 +1186,7 @@ El resultado es el mismo que la fusión de las dos ramas pero la bifurcación de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docencia/git/ejercicios/repositorios-remotos/</guid>
       <description>&lt;p&gt;&lt;i class=&#34;fas fa-exclamation-triangle&#34; style=&#34;color:red&#34;&gt;&lt;/i&gt; Para hacer estos ejercicios es necesario haber hecho antes los 
-&lt;a href=&#34;/git/ejercicios/ramas.html&#34;&gt;ejercicios sobre ramas&lt;/a&gt; o bien hacer un clon del repositorio remoto 
-&lt;a href=&#34;https://github.com/asalber/libro-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/asalber/libro-git&lt;/a&gt; mediante la siguiente secuencia de comandos:&lt;/p&gt;
+&lt;a href=&#34;/git/ejercicios/ramas.html&#34;&gt;ejercicios sobre ramas&lt;/a&gt; o bien hacer un clon del repositorio remoto &lt;a href=&#34;https://github.com/asalber/libro-git&#34;&gt;https://github.com/asalber/libro-git&lt;/a&gt; mediante la siguiente secuencia de comandos:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;&amp;gt; git clone https://github.com/asalber/libro-git.git
 &amp;gt; cd libro-git
 &amp;gt; git reset --hard cb1e4

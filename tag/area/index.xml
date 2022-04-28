@@ -7,7 +7,7 @@
     <description>Area</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Area</title>
       <link>/tag/area/</link>
     </image>
@@ -20,10 +20,10 @@
       <description>&lt;h2 id=&#34;primitiva-de-una-función&#34;&gt;Primitiva de una función&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;strong&gt;Definición - Primitiva de una función&lt;/strong&gt;. Se dice que la función $F(X)$ es una &lt;em&gt;función primitiva&lt;/em&gt; de $f(x)$ si se verifica que $F&amp;rsquo;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.
+    &lt;strong&gt;Definición - Primitiva de una función&lt;/strong&gt;. Se dice que la función $F(X)$ es una &lt;em&gt;función primitiva&lt;/em&gt; de $f(x)$ si se verifica que $F&#39;(x)=f(x)$ $\forall x \in \textrm{Dom}(f)$.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F&amp;rsquo;(x)=2x$ para todo $\mathbb{R}$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $F(x)=x^2$ es una primitiva de la función $f(x)=2x$ ya que $F&#39;(x)=2x$ para todo $\mathbb{R}$.&lt;/p&gt;
 &lt;p&gt;El cálculo de primitivas puede verse con un proceso inverso al cálculo de derivadas, y es por eso también se suele llamar &lt;em&gt;antiderivada&lt;/em&gt; a la primitiva de una función.&lt;/p&gt;
 &lt;h3 id=&#34;integral-indefinida-de-una-función&#34;&gt;Integral indefinida de una función&lt;/h3&gt;
 &lt;p&gt;Si $F(x)$ es una función primitiva de $f(x)$ también lo será toda función de la forma $F(x)+C$, $\forall C \in \mathbb{R}$, de manera que si una función tiene primitiva, tiene infinitas primitivas que se obtienen añadiendo una constante a cualquiera de ellas.&lt;/p&gt;
@@ -85,7 +85,7 @@
 &lt;div class=&#34;alert alert-theo&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Teorema - Integración por partes&lt;/strong&gt;. Dadas $f$ y $g$, dos funciones derivables de $x$,&lt;/p&gt;
-&lt;p&gt;$$\int{f&amp;rsquo;(x)g(x)}\,dx=f(x)g(x)-\int{g&amp;rsquo;(x)f(x)}\,dx,$$&lt;/p&gt;
+&lt;p&gt;$$\int{f&#39;(x)g(x)}\,dx=f(x)g(x)-\int{g&#39;(x)f(x)}\,dx,$$&lt;/p&gt;
 &lt;p&gt;o con notación diferencial, si $u$ y $v$ son funciones derivables de $x$&lt;/p&gt;
 &lt;p&gt;$$\int{u}\,dv=uv-\int{v}\,du.$$&lt;/p&gt;
   &lt;/div&gt;
@@ -99,11 +99,11 @@
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;De la regla de la derivada del producto se tiene&lt;/p&gt;
-&lt;p&gt;$$ (uv)&amp;rsquo; = u&amp;rsquo;v + uv&amp;rsquo; $$&lt;/p&gt;
+&lt;p&gt;$$ (uv)&#39; = u&amp;rsquo;v + uv&#39; $$&lt;/p&gt;
 &lt;p&gt;y calculando la integral a ambos lados se llega a&lt;/p&gt;
 &lt;p&gt;$$
 \begin{gathered}
-\int (uv)&amp;rsquo; \, dx = \int u&amp;rsquo;v \, dx + \int uv&amp;rsquo;\, dx \Rightarrow\newline
+\int (uv)&#39; \, dx = \int u&amp;rsquo;v \, dx + \int uv&#39;\, dx \Rightarrow\newline
 uv = \int v\,du + \int u\, dv \Rightarrow\newline
 \int{u}\,dv=uv-\int{v}\,du.
 \end{gathered}
@@ -133,8 +133,8 @@ $$&lt;/p&gt;
 &lt;h3 id=&#34;integración-por-cambio-de-variable&#34;&gt;Integración por cambio de variable&lt;/h3&gt;
 &lt;div class=&#34;alert alert-tool&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))&amp;rsquo; = f&amp;rsquo;(g(x))g&amp;rsquo;(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g&amp;rsquo;(x)dx$:&lt;/p&gt;
-&lt;p&gt;$$\int f&amp;rsquo;(g(x))g&amp;rsquo;(x)\, dx = \int f&amp;rsquo;(u)\, du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
+    &lt;p&gt;La regla de la cadena establece que la derivada de una función compuesta $f(g(x))$ es $$f(g(x))&#39; = f&#39;(g(x))g&#39;(x),$$ de manera que es posible integrar esta última expresión haciendo un cambio de variable $u=g(x)$ de manera que $du=g&#39;(x)dx$:&lt;/p&gt;
+&lt;p&gt;$$\int f&#39;(g(x))g&#39;(x)\, dx = \int f&#39;(u)\, du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Para calcular la integral $\int{\dfrac{1}{x\log x}}\, dx$ puede hacerse el cambio de variable $u=\log x$ con lo que $du=\frac{1}{x}dx$ y sustituyendo queda&lt;/p&gt;
@@ -285,11 +285,11 @@ $$&lt;/p&gt;
 &lt;p&gt;Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\geq 0\ \forall x\in[a,b]$, entonces la integral definida&lt;/p&gt;
 &lt;p&gt;$$\int_a^b f(x)\,dx$$&lt;/p&gt;
 &lt;p&gt;mide le área que queda entre la el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$.&lt;/p&gt;
-&lt;img src=&#34;../img/integrales/area_positive_function.svg&#34; width=&#34;300px&#34; alt=&#34;Area delimitada por el gráfico de una función positiva entre la función y el eje X en un intervalo&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/integrales/area_positive_function.svg&#34; width=&#34;300px&#34; alt=&#34;Area delimitada por el gráfico de una función positiva entre la función y el eje X en un intervalo&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;área-delimitada-por-una-función-negativa-y-el-eje-de-abscisas&#34;&gt;Área delimitada por una función negativa y el eje de abscisas&lt;/h3&gt;
 &lt;p&gt;Si $f$ es una función integrable en un intervalo $[a,b]$ y $f(x)\leq 0\ \forall x\in[a,b]$, entonces el área que queda entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p&gt;
 &lt;p&gt;$$-\int_a^b f(x)\,dx.$$&lt;/p&gt;
-&lt;img src=&#34;../img/integrales/area_negative_function.svg&#34; width=&#34;300px&#34; alt=&#34;Area delimitada por el gráfico de una función negativa entre la función y el eje X en un intervalo&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/integrales/area_negative_function.svg&#34; width=&#34;300px&#34; alt=&#34;Area delimitada por el gráfico de una función negativa entre la función y el eje X en un intervalo&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;área-delimitada-por-una-función-y-el-eje-de-abscisas&#34;&gt;Área delimitada por una función y el eje de abscisas&lt;/h3&gt;
 &lt;p&gt;En general, si $f(x)$ es una función integrable en el intervalo $[a,b]$, no importa el signo de $f$ en $[a,b]$, el area entre el gráfico de la función $f$ y el eje de abscisas en el intervalo $[a,b]$ es&lt;/p&gt;
 &lt;p&gt;$$\int_a^b \vert f(x)\vert\,dx.$$&lt;/p&gt;
@@ -297,7 +297,7 @@ $$&lt;/p&gt;
 &lt;h3 id=&#34;área-delimitada-por-dos-funciones&#34;&gt;Área delimitada por dos funciones&lt;/h3&gt;
 &lt;p&gt;Si $f$ y $g$ son dos funciones integrables en el intervalo $[a,b]$, entonces el área limitada por los gráficos de $f$ y $g$ en el intervalo $[a,b]$ es&lt;/p&gt;
 &lt;p&gt;$$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p&gt;
-&lt;img src=&#34;../img/integrales/area_between_functions.svg&#34; width=&#34;400px&#34; alt=&#34;Area delimitada por el gráfico de dos funciones en un intervalo&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/integrales/area_between_functions.svg&#34; width=&#34;400px&#34; alt=&#34;Area delimitada por el gráfico de dos funciones en un intervalo&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

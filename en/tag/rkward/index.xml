@@ -7,7 +7,7 @@
     <description>RKWard</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>RKWard</title>
       <link>/en/tag/rkward/</link>
     </image>
@@ -38,8 +38,7 @@
 &lt;a href=&#34;http://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; package that provides a plugin for the graphical user interface 
 &lt;a href=&#34;http://rkward.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RKWard&lt;/a&gt; adding new menus and dialog specially
 designed for teaching and learning Statistics.&lt;/p&gt;
-&lt;p&gt;This package has been developed and is maintained by Alfredo Sánchez Alberca 
-&lt;a href=&#34;mailto:asalber@ceu.es&#34;&gt;asalber@ceu.es&lt;/a&gt; in the Department of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p&gt;
+&lt;p&gt;This package has been developed and is maintained by Alfredo Sánchez Alberca &lt;a href=&#34;mailto:asalber@ceu.es&#34;&gt;asalber@ceu.es&lt;/a&gt; in the Department of Applied Math and Statistics of the San Pablo CEU of Madrid.&lt;/p&gt;
 &lt;p&gt;If you find out some error or have a suggestion, please, let me know it by email or opening an 
 &lt;a href=&#34;https://github.com/rkward-community/rkTeaching/pulls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue on Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/rkward.png&#34; alt=&#34;RKWard&#34;&gt;&lt;/p&gt;
@@ -71,8 +70,7 @@ The installation creates a folder rkward into the installation directory. There,
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install RKWard&lt;/strong&gt;. RKWard can be downloaded from the web 
-&lt;a href=&#34;http://rkward.sourceforge.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Install RKWard&lt;/strong&gt;. RKWard can be downloaded from the web &lt;a href=&#34;http://rkward.sourceforge.net&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You have to select the MacOs distribution corresponding to your R version:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -110,8 +108,7 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;p&gt;To install the software in Mac OS systems, you must take the following steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install R&lt;/strong&gt;. R can be downloaded from the web 
-&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/&lt;/a&gt;.
+&lt;p&gt;&lt;strong&gt;Install R&lt;/strong&gt;. R can be downloaded from the web &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;https://cran.r-project.org/&lt;/a&gt;.
 You have to select the Linux distribution and follow the instructions there.
 It is required an R version 3.4 or higher.&lt;/p&gt;
 &lt;p&gt;With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p&gt;
@@ -119,8 +116,7 @@ It is required an R version 3.4 or higher.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install RKWard&lt;/strong&gt;. RKWard can be downloaded from the web 
-&lt;a href=&#34;http://rkward.sourceforge.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
+&lt;p&gt;&lt;strong&gt;Install RKWard&lt;/strong&gt;. RKWard can be downloaded from the web &lt;a href=&#34;http://rkward.sourceforge.net&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
 You have to select the Linux distribution and follow the instructions there.&lt;/p&gt;
 &lt;p&gt;With Debian based distributions like Ubuntu, you can install R from the command line typing the command:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt-get install rkward
@@ -299,8 +295,7 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;p&gt;rkTeaching is maintained by 
 &lt;a href=&#34;https://github.com/asalber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asalber&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;how-to-cite-rkteaching&#34;&gt;How to cite rkTeaching?&lt;/h2&gt;
-&lt;p&gt;Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Get from: 
-&lt;a href=&#34;http://aprendeconalf.es/projects/rkteaching&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://aprendeconalf.es/projects/rkteaching&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Get from: &lt;a href=&#34;http://aprendeconalf.es/projects/rkteaching&#34;&gt;http://aprendeconalf.es/projects/rkteaching&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

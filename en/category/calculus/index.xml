@@ -7,7 +7,7 @@
     <description>Calculus</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Calculus</title>
       <link>/en/category/calculus/</link>
     </image>
@@ -229,7 +229,7 @@ Find an equation of the tangent line to the graph of $f$ at each of the three gi
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      $f&amp;rsquo;(-1)=7$, $f&amp;rsquo;(0)=0$ y $f&amp;rsquo;(1)=-1$.&lt;br&gt;
+      $f&#39;(-1)=7$, $f&#39;(0)=0$ y $f&#39;(1)=-1$.&lt;br&gt;
 Tangent line at $x=-1$: $y=-2+7(x+1)$.&lt;br&gt;
 Tangent line at $x=0$: $y=1$.&lt;br&gt;
 Tangent line at $x=1$: $y=-(x-1)$.
@@ -305,7 +305,7 @@ $$&lt;/p&gt;
 &amp;amp;= \lim_{\Delta x\rightarrow 0}\frac{f(a+\Delta x)-f(a)}{\Delta x}.
 \end{aligned}
 $$&lt;/p&gt;
-&lt;p&gt;When this limit exists, the function $f$ is said to be &lt;em&gt;differentiable&lt;/em&gt; at the point $a$, and its value is called the &lt;em&gt;derivative&lt;/em&gt; of $f$ at $a$, and it is denoted $f&amp;rsquo;(a)$ (Lagrange’s notation) or $\frac{df}{dx}(a)$ (Leibniz’s notation).&lt;/p&gt;
+&lt;p&gt;When this limit exists, the function $f$ is said to be &lt;em&gt;differentiable&lt;/em&gt; at the point $a$, and its value is called the &lt;em&gt;derivative&lt;/em&gt; of $f$ at $a$, and it is denoted $f&#39;(a)$ (Lagrange’s notation) or $\frac{df}{dx}(a)$ (Leibniz’s notation).&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example - Area of a square&lt;/strong&gt;. Let us take again the function $y=x^2$ that measures the area of a metallic square of side $x$.&lt;/p&gt;
@@ -315,21 +315,21 @@ $$&lt;/p&gt;
 &amp;amp;= \lim_{\Delta x\rightarrow 0}\frac{2a\Delta x+\Delta x^2}{\Delta x}=\lim_{\Delta x\rightarrow 0} 2a+\Delta x= 2a.
 \end{aligned}
 $$&lt;/p&gt;
-&lt;p&gt;Thus, $$f&amp;rsquo;(a)=\frac{df}{dx}(a)=2a,$$ indicating that the area of the square tends to increase the double of the side.&lt;/p&gt;
+&lt;p&gt;Thus, $$f&#39;(a)=\frac{df}{dx}(a)=2a,$$ indicating that the area of the square tends to increase the double of the side.&lt;/p&gt;
 &lt;h3 id=&#34;interpretation-of-the-derivative&#34;&gt;Interpretation of the derivative&lt;/h3&gt;
 &lt;div class=&#34;alert alert-int&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;The derivative of a function $f&amp;rsquo;(a)$ shows the growth rate of $f$ at point $a$:&lt;/p&gt;
+    &lt;p&gt;The derivative of a function $f&#39;(a)$ shows the growth rate of $f$ at point $a$:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$f&amp;rsquo;(a)&amp;gt;0$ indicates an increasing tendency ($y$ increases as $x$ increases).&lt;/li&gt;
-&lt;li&gt;$f&amp;rsquo;(a)&amp;lt;0$ indicates a decreasing tendency ($y$ decreases as $x$ increases).&lt;/li&gt;
+&lt;li&gt;$f&#39;(a)&amp;gt;0$ indicates an increasing tendency ($y$ increases as $x$ increases).&lt;/li&gt;
+&lt;li&gt;$f&#39;(a)&amp;lt;0$ indicates a decreasing tendency ($y$ decreases as $x$ increases).&lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. A derivative $f&amp;rsquo;(a)=3$ indicates that $y$ tends to increase triple of $x$ at point $a$. A derivative $f&amp;rsquo;(a)=-0.5$ indicates that $y$ tends to decrease half of $x$ at point $a$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. A derivative $f&#39;(a)=3$ indicates that $y$ tends to increase triple of $x$ at point $a$. A derivative $f&#39;(a)=-0.5$ indicates that $y$ tends to decrease half of $x$ at point $a$.&lt;/p&gt;
 &lt;h3 id=&#34;geometric-interpretation-of-the-derivative&#34;&gt;Geometric interpretation of the derivative&lt;/h3&gt;
 &lt;p&gt;We have seen that the average rate of change of a function $y=f(x)$ in an interval $[a,a+\Delta x]$ is the slope of the secant line, but when $\Delta x$ approaches $0$, the secant line becomes the tangent line.&lt;/p&gt;
-&lt;p&gt;The instantaneous rate of change or derivative of a function $y=f(x)$ at $x=a$ is the slope of the &lt;em&gt;tangent line&lt;/em&gt; to the graph of $f$ at point $(a,f(a))$. Thus, the equation of the tangent line to the graph of $f$ at the point $(a,f(a))$ is $$y-f(a) = f&amp;rsquo;(a)(x-a) \Leftrightarrow y = f(a)+f&amp;rsquo;(a)(x-a)$$&lt;/p&gt;
+&lt;p&gt;The instantaneous rate of change or derivative of a function $y=f(x)$ at $x=a$ is the slope of the &lt;em&gt;tangent line&lt;/em&gt; to the graph of $f$ at point $(a,f(a))$. Thus, the equation of the tangent line to the graph of $f$ at the point $(a,f(a))$ is $$y-f(a) = f&#39;(a)(x-a) \Leftrightarrow y = f(a)+f&#39;(a)(x-a)$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/tangent_line.svg&#34; alt=&#34;Tangent line to a function&#34; width=&#34;450&#34;&gt;
 &lt;h3 id=&#34;kinematic-applications-linear-motion&#34;&gt;Kinematic applications: Linear motion&lt;/h3&gt;
 &lt;p&gt;Assume that the function $y=f(t)$ describes the position of an object moving in the real line at time $t$. Taking as reference the coordinates origin $O$ and the unitary vector $\mathbf{i}=(1)$, we can represent the position of the moving object $P$ at every moment $t$ with a vector $\vec{OP}=x\mathbf{i}$ where $x=f(t)$.&lt;/p&gt;
@@ -340,25 +340,25 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. A vehicle makes a trip from Madrid to Barcelona. Let $f(t)$ be the function that determine the position of the vehicle at every moment $t$. If the vehicle departs from Madrid (km 0) at 8:00 and arrives at Barcelona (km 600) at 14:00, then the average velocity of the vehicle in the path is $$\mathbf{v}_m=\frac{f(14)-f(8)}{14-8}=\frac{600-0}{6} = 100 km/h.$$&lt;/p&gt;
 &lt;h3 id=&#34;kinematic-interpretation-of-the-derivative&#34;&gt;Kinematic interpretation of the derivative&lt;/h3&gt;
 &lt;p&gt;In the same context of the linear motion, the derivative of the function $f(t)$ at the moment $t_0$ is the vector&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v}=f&amp;rsquo;(t_0)=\lim_{\Delta t\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p&gt;
+&lt;p&gt;$$\mathbf{v}=f&#39;(t_0)=\lim_{\Delta t\rightarrow 0}\frac{f(t_0+\Delta t)-f(t_0)}{\Delta t},$$&lt;/p&gt;
 &lt;p&gt;that is known, as long as the limit exists, as the &lt;em&gt;instantaneous velocity&lt;/em&gt; or simply &lt;em&gt;velocity&lt;/em&gt; of the trajectory $f$ at moment $t_0$.&lt;/p&gt;
 &lt;p&gt;That is, the derivative of the object position with respect to time is a vector field that is called &lt;em&gt;velocity along the trajectory $f$&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Following with the previous example, what indicates the speedometer at any instant is the modulus of the instantaneous velocity vector at that moment.&lt;/p&gt;
 &lt;h2 id=&#34;algebra-of-derivatives&#34;&gt;Algebra of derivatives&lt;/h2&gt;
 &lt;h3 id=&#34;properties-of-the-derivative&#34;&gt;Properties of the derivative&lt;/h3&gt;
-&lt;p&gt;If $y=c$, is a constant function, then $y&amp;rsquo;=0$ at any point.&lt;/p&gt;
-&lt;p&gt;If $y=x$, is the identity function, then $y&amp;rsquo;=1$ at any point.&lt;/p&gt;
+&lt;p&gt;If $y=c$, is a constant function, then $y&#39;=0$ at any point.&lt;/p&gt;
+&lt;p&gt;If $y=x$, is the identity function, then $y&#39;=1$ at any point.&lt;/p&gt;
 &lt;p&gt;If $u=f(x)$ and $v=g(x)$ are two differentiable functions, then&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$(u+v)&amp;rsquo;=u&amp;rsquo;+v&#39;$&lt;/li&gt;
-&lt;li&gt;$(u-v)&amp;rsquo;=u&amp;rsquo;-v&#39;$&lt;/li&gt;
-&lt;li&gt;$(u\cdot v)&amp;rsquo;=u&amp;rsquo;\cdot v+ u\cdot v&#39;$&lt;/li&gt;
-&lt;li&gt;$\left(\dfrac{u}{v}\right)&amp;rsquo;=\dfrac{u&amp;rsquo;\cdot v-u\cdot v&amp;rsquo;}{v^2}$&lt;/li&gt;
+&lt;li&gt;$(u+v)&#39;=u&#39;+v&#39;$&lt;/li&gt;
+&lt;li&gt;$(u-v)&#39;=u&#39;-v&#39;$&lt;/li&gt;
+&lt;li&gt;$(u\cdot v)&#39;=u&#39;\cdot v+ u\cdot v&#39;$&lt;/li&gt;
+&lt;li&gt;$\left(\dfrac{u}{v}\right)&#39;=\dfrac{u&#39;\cdot v-u\cdot v&#39;}{v^2}$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;derivative-of-a-composite-function&#34;&gt;Derivative of a composite function&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;strong&gt;Theorem - Chain rule&lt;/strong&gt;. If the function $y=f\circ g$ is the composition of two functions $y=f(z)$ and $z=g(x)$, then $$(f\circ g)&amp;rsquo;(x)=f&amp;rsquo;(g(x))g&amp;rsquo;(x).$$
+    &lt;strong&gt;Theorem - Chain rule&lt;/strong&gt;. If the function $y=f\circ g$ is the composition of two functions $y=f(z)$ and $z=g(x)$, then $$(f\circ g)&#39;(x)=f&#39;(g(x))g&#39;(x).$$
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
@@ -369,19 +369,19 @@ $$&lt;/p&gt;
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-6&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      It is easy to proof this fact using the Leibniz notation $$\frac{dy}{dx}=\frac{dy}{dz}\frac{dz}{dx}=f&amp;rsquo;(z)g&amp;rsquo;(x)=f&amp;rsquo;(g(x))g&amp;rsquo;(x).$$
+      It is easy to proof this fact using the Leibniz notation $$\frac{dy}{dx}=\frac{dy}{dz}\frac{dz}{dx}=f&#39;(z)g&#39;(x)=f&#39;(g(x))g&#39;(x).$$
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. If $f(z)=\sin z$ and $g(x)=x^2$, then $f\circ g(x)=\sin(x^2)$. Applying the chain rule the derivative of the composite function is
-$$(f\circ g)&amp;rsquo;(x)=f&amp;rsquo;(g(x))g&amp;rsquo;(x) = \cos(g(x)) 2x = \cos(x^2)2x.$$&lt;/p&gt;
+$$(f\circ g)&#39;(x)=f&#39;(g(x))g&#39;(x) = \cos(g(x)) 2x = \cos(x^2)2x.$$&lt;/p&gt;
 &lt;p&gt;On the other hand, $g\circ f(z)= (\sin z)^2$, and applying the chain rule again, its derivative is
-$$(g\circ f)&amp;rsquo;(z)=g&amp;rsquo;(f(z))f&amp;rsquo;(z) = 2f(z)\cos z = 2\sin z\cos z.$$&lt;/p&gt;
+$$(g\circ f)&#39;(z)=g&#39;(f(z))f&#39;(z) = 2f(z)\cos z = 2\sin z\cos z.$$&lt;/p&gt;
 &lt;h3 id=&#34;derivative-of-the-inverse-of-a-function&#34;&gt;Derivative of the inverse of a function&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;strong&gt;Theorem - Derivative of the inverse function&lt;/strong&gt;.  Given a function $y=f(x)$ with inverse $x=f^{-1}(y)$, then $$\left(f^{-1}\right)&amp;rsquo;(y)=\frac{1}{f&amp;rsquo;(x)}=\frac{1}{f&amp;rsquo;(f^{-1}(y))},$$
-provided that $f$ is differentiable at $f^{-1}(y)$ and $f&amp;rsquo;(f^{-1}(y))\neq 0$.
+    &lt;strong&gt;Theorem - Derivative of the inverse function&lt;/strong&gt;.  Given a function $y=f(x)$ with inverse $x=f^{-1}(y)$, then $$\left(f^{-1}\right)&#39;(y)=\frac{1}{f&#39;(x)}=\frac{1}{f&#39;(f^{-1}(y))},$$
+provided that $f$ is differentiable at $f^{-1}(y)$ and $f&#39;(f^{-1}(y))\neq 0$.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
@@ -392,12 +392,12 @@ provided that $f$ is differentiable at $f^{-1}(y)$ and $f&amp;rsquo;(f^{-1}(y))\
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-8&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      It is easy to prove this equality using the Leibniz notation $$\frac{dx}{dy}=\frac{1}{dy/dx}=\frac{1}{f&amp;rsquo;(x)}=\frac{1}{f&amp;rsquo;(f^{-1}(y))}$$
+      It is easy to prove this equality using the Leibniz notation $$\frac{dx}{dy}=\frac{1}{dy/dx}=\frac{1}{f&#39;(x)}=\frac{1}{f&#39;(f^{-1}(y))}$$
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The inverse of the exponential function $y=f(x)=e^x$ is the natural logarithm $x=f^{-1}(y)=\ln y$, so we can compute the derivative of the natural logarithm using the previous theorem and we get $$\left(f^{-1}\right)&amp;rsquo;(y)=\frac{1}{f&amp;rsquo;(x)}=\frac{1}{e^x}=\frac{1}{e^{\ln y}}=\frac{1}{y}.$$&lt;/p&gt;
-&lt;p&gt;Sometimes it is easier to apply the chain rule to compute the derivative of the inverse of a function. In this example, as $\ln x$ is the inverse of $e^x$, we know that $e^{\ln x}=x$, so differentiating both sides and applying the chain rule to the left side we get $$(e^{\ln x})&amp;rsquo;=x&amp;rsquo; \Leftrightarrow e^{\ln x}(\ln(x))&amp;rsquo; = 1 \Leftrightarrow (\ln(x))&amp;rsquo;=\frac{1}{e^{\ln x}}=\frac{1}{x}.$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The inverse of the exponential function $y=f(x)=e^x$ is the natural logarithm $x=f^{-1}(y)=\ln y$, so we can compute the derivative of the natural logarithm using the previous theorem and we get $$\left(f^{-1}\right)&#39;(y)=\frac{1}{f&#39;(x)}=\frac{1}{e^x}=\frac{1}{e^{\ln y}}=\frac{1}{y}.$$&lt;/p&gt;
+&lt;p&gt;Sometimes it is easier to apply the chain rule to compute the derivative of the inverse of a function. In this example, as $\ln x$ is the inverse of $e^x$, we know that $e^{\ln x}=x$, so differentiating both sides and applying the chain rule to the left side we get $$(e^{\ln x})&#39;=x&#39; \Leftrightarrow e^{\ln x}(\ln(x))&#39; = 1 \Leftrightarrow (\ln(x))&#39;=\frac{1}{e^{\ln x}}=\frac{1}{x}.$$&lt;/p&gt;
 &lt;h2 id=&#34;analysis-of-functions&#34;&gt;Analysis of functions&lt;/h2&gt;
 &lt;h3 id=&#34;analysis-of-functions-increase-and-decrease&#34;&gt;Analysis of functions: increase and decrease&lt;/h3&gt;
 &lt;p&gt;The main application of derivatives is to determine the variation (increase or decrease) of functions. For that we use the sign of the first derivative.&lt;/p&gt;
@@ -405,30 +405,30 @@ provided that $f$ is differentiable at $f^{-1}(y)$ and $f&amp;rsquo;(f^{-1}(y))\
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem&lt;/strong&gt;. Let $f(x)$ be a function with first derivative in an interval $I\subseteq \mathbb{R}$.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If $\forall x\in I\ f&amp;rsquo;(x)&amp;gt; 0$ then $f$ is increasing on $I$.&lt;/li&gt;
-&lt;li&gt;If $\forall x\in I\ f&amp;rsquo;(x)&amp;lt; 0$ then $f$ is decreasing on $I$.&lt;/li&gt;
+&lt;li&gt;If $\forall x\in I\ f&#39;(x)&amp;gt; 0$ then $f$ is increasing on $I$.&lt;/li&gt;
+&lt;li&gt;If $\forall x\in I\ f&#39;(x)&amp;lt; 0$ then $f$ is decreasing on $I$.&lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;If $f&amp;rsquo;(x_0)=0$ then $x_0$ is known as a &lt;em&gt;critical point&lt;/em&gt; or  &lt;em&gt;stationary point&lt;/em&gt;. At this point the function can be increasing, decreasing or neither increasing nor decreasing.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt; The function $f(x)=x^2$ has derivative $f&amp;rsquo;(x)=2x$; it is decreasing on $\mathbb{R}^-$ as $f&amp;rsquo;(x)&amp;lt; 0$ $\forall x\in \mathbb{R}^-$  and increasing on $\mathbb{R}^+$ as $f&amp;rsquo;(x)&amp;gt; 0$ $\forall x\in \mathbb{R}^+$.
-It has a critical point at $x=0$, as $f&amp;rsquo;(0)=0$; at this point the function is neither increasing nor decreasing.&lt;/p&gt;
+&lt;p&gt;If $f&#39;(x_0)=0$ then $x_0$ is known as a &lt;em&gt;critical point&lt;/em&gt; or  &lt;em&gt;stationary point&lt;/em&gt;. At this point the function can be increasing, decreasing or neither increasing nor decreasing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt; The function $f(x)=x^2$ has derivative $f&#39;(x)=2x$; it is decreasing on $\mathbb{R}^-$ as $f&#39;(x)&amp;lt; 0$ $\forall x\in \mathbb{R}^-$  and increasing on $\mathbb{R}^+$ as $f&#39;(x)&amp;gt; 0$ $\forall x\in \mathbb{R}^+$.
+It has a critical point at $x=0$, as $f&#39;(0)=0$; at this point the function is neither increasing nor decreasing.&lt;/p&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
     A function can be increasing or decreasing on an interval and not have first derivative.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us analyze the increase and decrease of the function $f(x)=x^4-2x^2+1$. Its first derivative is $f&amp;rsquo;(x)=4x^3-4x$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us analyze the increase and decrease of the function $f(x)=x^4-2x^2+1$. Its first derivative is $f&#39;(x)=4x^3-4x$.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/increase_analysis.svg&#34; alt=&#34;Inrease or decrease analysis of a function&#34; width=&#34;550&#34;&gt;
 &lt;h3 id=&#34;analysis-of-functions-relative-extrema&#34;&gt;Analysis of functions: relative extrema&lt;/h3&gt;
 &lt;p&gt;As a consequence of the previous result we can also use the first derivative to determine the relative extrema of a function.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Theorem - First derivative test&lt;/strong&gt;. Let $f(x)$ be a function with first derivative in an interval $I\subseteq \mathbb{R}$ and let $x_0\in I$ be a critical point of $f$ ($f&amp;rsquo;(x_0)=0$).&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Theorem - First derivative test&lt;/strong&gt;. Let $f(x)$ be a function with first derivative in an interval $I\subseteq \mathbb{R}$ and let $x_0\in I$ be a critical point of $f$ ($f&#39;(x_0)=0$).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If $f&amp;rsquo;(x)&amp;gt;0$ on an open interval extending left from $x_0$ and $f&amp;rsquo;(x)&amp;lt;0$ on an open interval extending right from $x_0$, then $f$ has a &lt;em&gt;relative maximum&lt;/em&gt; at $x_0$.&lt;/li&gt;
-&lt;li&gt;If $f&amp;rsquo;(x)&amp;lt;0$ on an open interval extending left from $x_0$ and $f&amp;rsquo;(x)&amp;gt;0$ on an open interval extending right from $x_0$, then $f$ has a &lt;em&gt;relative minimum&lt;/em&gt; at $x_0$.&lt;/li&gt;
-&lt;li&gt;If $f&amp;rsquo;(x)$ has the same sign on both an open interval extending left from $x_0$ and an open interval extending right from $x_0$, then $f$ has an &lt;em&gt;inflection point&lt;/em&gt; at $x_0$.&lt;/li&gt;
+&lt;li&gt;If $f&#39;(x)&amp;gt;0$ on an open interval extending left from $x_0$ and $f&#39;(x)&amp;lt;0$ on an open interval extending right from $x_0$, then $f$ has a &lt;em&gt;relative maximum&lt;/em&gt; at $x_0$.&lt;/li&gt;
+&lt;li&gt;If $f&#39;(x)&amp;lt;0$ on an open interval extending left from $x_0$ and $f&#39;(x)&amp;gt;0$ on an open interval extending right from $x_0$, then $f$ has a &lt;em&gt;relative minimum&lt;/em&gt; at $x_0$.&lt;/li&gt;
+&lt;li&gt;If $f&#39;(x)$ has the same sign on both an open interval extending left from $x_0$ and an open interval extending right from $x_0$, then $f$ has an &lt;em&gt;inflection point&lt;/em&gt; at $x_0$.&lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -437,8 +437,8 @@ It has a critical point at $x=0$, as $f&amp;rsquo;(0)=0$; at this point the func
     A vanishing derivative is a necessary but not sufficient condition for the function to have a relative extrema at a point.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $f(x)=x^3$ has derivative $f&amp;rsquo;(x)=3x^2$; it has a critical point at $x=0$. However it does not have a relative extrema at that point, but an inflection point.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Consider again the function $f(x)=x^4-2x^2+1$ and let us analyze its relative extrema now. Its first derivative is $f&amp;rsquo;(x)=4x^3-4x$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $f(x)=x^3$ has derivative $f&#39;(x)=3x^2$; it has a critical point at $x=0$. However it does not have a relative extrema at that point, but an inflection point.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Consider again the function $f(x)=x^4-2x^2+1$ and let us analyze its relative extrema now. Its first derivative is $f&#39;(x)=4x^3-4x$.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/extrema_analysis.svg&#34; alt=&#34;Extrema analysis of a function&#34; width=&#34;550&#34;&gt;
 &lt;h3 id=&#34;analysis-of-functions-concavity&#34;&gt;Analysis of functions: concavity&lt;/h3&gt;
 &lt;p&gt;The concavity of a function can be determined by de second derivative.&lt;/p&gt;
@@ -446,25 +446,25 @@ It has a critical point at $x=0$, as $f&amp;rsquo;(0)=0$; at this point the func
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem&lt;/strong&gt;. Let $f(x)$ be a function with second derivative in an interval $I\subseteq \mathbb{R}$.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If $\forall x\in I\ f&amp;rsquo;&amp;rsquo;(x)&amp;gt; 0$ then $f$ is concave up (convex) on $I$.&lt;/li&gt;
-&lt;li&gt;If $\forall x\in I\ f&amp;rsquo;&amp;rsquo;(x)&amp;lt; 0$ then $f$ is concave down (concave) on $I$.&lt;/li&gt;
+&lt;li&gt;If $\forall x\in I\ f&#39;&#39;(x)&amp;gt; 0$ then $f$ is concave up (convex) on $I$.&lt;/li&gt;
+&lt;li&gt;If $\forall x\in I\ f&#39;&#39;(x)&amp;lt; 0$ then $f$ is concave down (concave) on $I$.&lt;/li&gt;
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $f(x)=x^2$ has second derivative $f&amp;rsquo;&amp;rsquo;(x)=2&amp;gt;0$ $\forall x\in \mathbb{R}$, so it is concave up in all $\mathbb{R}$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $f(x)=x^2$ has second derivative $f&#39;&#39;(x)=2&amp;gt;0$ $\forall x\in \mathbb{R}$, so it is concave up in all $\mathbb{R}$.&lt;/p&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
     A function can be concave up or down and not have second derivative.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us analyze the concavity of the same function of previous examples $f(x)=x^4-2x^2+1$. Its second derivative is $f&amp;rsquo;&amp;rsquo;(x)=12x^2-4$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us analyze the concavity of the same function of previous examples $f(x)=x^4-2x^2+1$. Its second derivative is $f&#39;&#39;(x)=12x^2-4$.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/concavity_analysis.svg&#34; alt=&#34;Concavity analysis of a function&#34; width=&#34;550&#34;&gt;
 &lt;h2 id=&#34;function-approximation&#34;&gt;Function approximation&lt;/h2&gt;
 &lt;h3 id=&#34;approximating-a-function-with-the-derivative&#34;&gt;Approximating a function with the derivative&lt;/h3&gt;
 &lt;p&gt;The tangent line to the graph of a function $f(x)$ at $x=a$ can be used to approximate $f$ in a neighbourhood of $a$.&lt;/p&gt;
-&lt;p&gt;Thus, the increment of a function $f(x)$ in an interval $[a,a+\Delta x]$ can be approximated multiplying the derivative of $f$ at $a$ by the increment of $x$ $$\Delta y \approx f&amp;rsquo;(a)\Delta x$$&lt;/p&gt;
+&lt;p&gt;Thus, the increment of a function $f(x)$ in an interval $[a,a+\Delta x]$ can be approximated multiplying the derivative of $f$ at $a$ by the increment of $x$ $$\Delta y \approx f&#39;(a)\Delta x$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/tangent_line_approximation.gif&#34; alt=&#34;Approximation of a function with the tangent line&#34; width=&#34;700&#34;&gt;
-&lt;p&gt;&lt;strong&gt;Example - Area of a square&lt;/strong&gt;. In the previous example of the function $y=x^2$ that measures the area of a metallic square of side $x$, if the side of the square is $a$ and we increment it by a quantity $\Delta x$, then the increment on the area will be approximately $$\Delta y \approx f&amp;rsquo;(a)\Delta x = 2a\Delta x.$$
+&lt;p&gt;&lt;strong&gt;Example - Area of a square&lt;/strong&gt;. In the previous example of the function $y=x^2$ that measures the area of a metallic square of side $x$, if the side of the square is $a$ and we increment it by a quantity $\Delta x$, then the increment on the area will be approximately $$\Delta y \approx f&#39;(a)\Delta x = 2a\Delta x.$$
 In the figure below we can see that the error of this approximation is $\Delta x^2$, which is smaller than $\Delta x$ when $\Delta x$ approaches to 0.&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/square_area_variation_approximation.svg&#34; alt=&#34;Approximation of the variation of a square area&#34; width=&#34;300&#34;&gt;
 &lt;h3 id=&#34;approximating-a-function-by-a-polynomial&#34;&gt;Approximating a function by a polynomial&lt;/h3&gt;
@@ -491,13 +491,13 @@ $$p(x) = c_0+c_1x,$$ but it can also be written as $$p(x) = c_0+c_1(x-a).$$&lt;/
 &lt;p&gt;Among all the polynomials of degree 1, the one that best approximates $f(x)$ near $a$ is that which meets the following conditions&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p$ and $f$ coincide at $a$: $p(a) = f(a)$,&lt;/li&gt;
-&lt;li&gt;$p$ and $f$ have the same rate of change at $a$: $p&amp;rsquo;(a) = f&amp;rsquo;(a)$.&lt;/li&gt;
+&lt;li&gt;$p$ and $f$ have the same rate of change at $a$: $p&#39;(a) = f&#39;(a)$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The last condition guarantees that $p$ and $f$ have approximately the same tendency, but it requires the function $f$ to be differentiable at $a$.&lt;/p&gt;
 &lt;p&gt;Imposing the previous conditions we have&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p(x)=c_0+c_1(x-a) \Rightarrow p(a)=c_0+c_1(a-a)=c_0=f(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(x)=c_1 \Rightarrow p&amp;rsquo;(a)=c_1=f&amp;rsquo;(a)$.&lt;/li&gt;
+&lt;li&gt;$p&#39;(x)=c_1 \Rightarrow p&#39;(a)=c_1=f&#39;(a)$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Therefore, the polynomial of degree 1 that best approximates $f$ near $a$ is
 $$p(x) = f(a)+f &amp;lsquo;(a)(x-a),$$
@@ -509,18 +509,18 @@ $$p(x) = c_0+c_1(x-a)+c_2(x-a)^2.$$&lt;/p&gt;
 &lt;p&gt;Among all the polynomials of degree 2, the one that best approximate $f(x)$ near $a$ is that which meets the following conditions&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p$ and $f$ coincide at $a$: $p(a) = f(a)$,&lt;/li&gt;
-&lt;li&gt;$p$ and $f$ have the same rate of change at $a$: $p&amp;rsquo;(a) = f&amp;rsquo;(a)$.&lt;/li&gt;
-&lt;li&gt;$p$ and $f$ have the same concavity at $a$: $p&amp;rsquo;&amp;rsquo;(a)=f&amp;rsquo;&amp;rsquo;(a)$.&lt;/li&gt;
+&lt;li&gt;$p$ and $f$ have the same rate of change at $a$: $p&amp;rsquo;(a) = f&#39;(a)$.&lt;/li&gt;
+&lt;li&gt;$p$ and $f$ have the same concavity at $a$: $p&#39;&#39;(a)=f&#39;&#39;(a)$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The last condition requires the function $f$ to be differentiable twice at $a$.&lt;/p&gt;
 &lt;p&gt;Imposing the previous conditions we have&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p(x)=c_0+c_1(x-a) \Rightarrow p(a)=c_0+c_1(a-a)=c_0=f(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(x)=c_1 \Rightarrow p&amp;rsquo;(a)=c_1=f&amp;rsquo;(a)$.&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;&amp;rsquo;(x)=2c_2 \Rightarrow p&amp;rsquo;&amp;rsquo;(a)=2c_2=f&amp;rsquo;&amp;rsquo;(a) \Rightarrow c_2=\frac{f&amp;rsquo;&amp;rsquo;(a)}{2}$.&lt;/li&gt;
+&lt;li&gt;$p&#39;(x)=c_1 \Rightarrow p&#39;(a)=c_1=f&#39;(a)$.&lt;/li&gt;
+&lt;li&gt;$p&#39;&#39;(x)=2c_2 \Rightarrow p&#39;&#39;(a)=2c_2=f&#39;&#39;(a) \Rightarrow c_2=\frac{f&#39;&#39;(a)}{2}$.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Therefore, the polynomial of degree 2 that best approximates $f$ near $a$ is
-$$p(x) = f(a)+f&amp;rsquo;(a)(x-a)+\frac{f&amp;rsquo;&amp;rsquo;(a)}{2}(x-a)^2.$$&lt;/p&gt;
+$$p(x) = f(a)+f&#39;(a)(x-a)+\frac{f&#39;&#39;(a)}{2}(x-a)^2.$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivatives1/approximation_polynomial_2.gif&#34; alt=&#34;Approximation of a function by a polynomial of order 2&#34; width=&#34;750&#34;&gt;
 &lt;h3 id=&#34;approximating-a-function-by-a-polynomial-of-order-n&#34;&gt;Approximating a function by a polynomial of order $n$&lt;/h3&gt;
 &lt;p&gt;A polynomial of order $n$ has equation
@@ -528,8 +528,8 @@ $$p(x) = c_0+c_1x+c_2x^2+\cdots +c_nx^n,$$ but it can also be written as $$p(x) 
 &lt;p&gt;Among all the polynomials of degree $n$, the one that best approximate $f(x)$ near $a$ is that which meets the following $n+1$ conditions:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p(a) = f(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(a) = f&amp;rsquo;(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;&amp;rsquo;(a)=f&amp;rsquo;&amp;rsquo;(a)$,&lt;/li&gt;
+&lt;li&gt;$p&#39;(a) = f&#39;(a)$,&lt;/li&gt;
+&lt;li&gt;$p&#39;&#39;(a)=f&#39;&#39;(a)$,&lt;/li&gt;
 &lt;li&gt;$\cdots$&lt;/li&gt;
 &lt;li&gt;$p^{(n)}(a)=f^{(n)}(a)$.&lt;/li&gt;
 &lt;/ol&gt;
@@ -537,8 +537,8 @@ $$p(x) = c_0+c_1x+c_2x^2+\cdots +c_nx^n,$$ but it can also be written as $$p(x) 
 &lt;p&gt;$$
 \begin{aligned}
 p(x) &amp;amp;= c_0+c_1(x-a)+c_2(x-a)^2+\cdots +c_n(x-a)^n,\newline
-p&amp;rsquo;(x)&amp;amp; = c_1+2c_2(x-a)+\cdots +nc_n(x-a)^{n-1},\newline
-p&amp;rsquo;&amp;rsquo;(x)&amp;amp; = 2c_2+\cdots +n(n-1)c_n(x-a)^{n-2},\newline
+p&#39;(x)&amp;amp; = c_1+2c_2(x-a)+\cdots +nc_n(x-a)^{n-1},\newline
+p&#39;&#39;(x)&amp;amp; = 2c_2+\cdots +n(n-1)c_n(x-a)^{n-2},\newline
 \vdots
 \newline
 p^{(n)}(x)&amp;amp;= n(n-1)(n-2)\cdots 1 c_n=n!c_n.
@@ -547,8 +547,8 @@ $$&lt;/p&gt;
 &lt;p&gt;Imposing the previous conditions we have&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$p(a) = c_0+c_1(a-a)+c_2(a-a)^2+\cdots +c_n(a-a)^n=c_0=f(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;(a) = c_1+2c_2(a-a)+\cdots +nc_n(a-a)^{n-1}=c_1=f&amp;rsquo;(a)$,&lt;/li&gt;
-&lt;li&gt;$p&amp;rsquo;&amp;rsquo;(a) = 2c_2+\cdots +n(n-1)c_n(a-a)^{n-2}=2c_2=f&amp;rsquo;&amp;rsquo;(a)\Rightarrow c_2=f&amp;rsquo;&amp;rsquo;(a)/2$,&lt;/li&gt;
+&lt;li&gt;$p&#39;(a) = c_1+2c_2(a-a)+\cdots +nc_n(a-a)^{n-1}=c_1=f&#39;(a)$,&lt;/li&gt;
+&lt;li&gt;$p&#39;&#39;(a) = 2c_2+\cdots +n(n-1)c_n(a-a)^{n-2}=2c_2=f&#39;&#39;(a)\Rightarrow c_2=f&#39;&#39;(a)/2$,&lt;/li&gt;
 &lt;li&gt;$\cdots$&lt;/li&gt;
 &lt;li&gt;$p^{(n)}(a)=n!c_n=f^{(n)}(a)=c_n=\frac{f^{(n)}(a)}{n!}$.&lt;/li&gt;
 &lt;/ol&gt;
@@ -558,7 +558,7 @@ $$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Taylor polynomial&lt;/strong&gt;. Given a function $f(x)$ differentiable $n$ times at $x=a$, the &lt;em&gt;Taylor polynomial&lt;/em&gt; of order $n$ of $f$ at $a$ is the polynomial with equation&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-p_{f,a}^n(x) &amp;amp;= f(a) + f&amp;rsquo;(a)(x-a) + \frac{f&amp;rsquo;&amp;rsquo;(a)}{2}(x-a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n = \newline
+p_{f,a}^n(x) &amp;amp;= f(a) + f&#39;(a)(x-a) + \frac{f&#39;&#39;(a)}{2}(x-a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n = \newline
 &amp;amp;= \sum_{i=0}^{n}\frac{f^{(i)}(a)}{i!}(x-a)^i.
 \end{aligned}
 $$&lt;/p&gt;
@@ -570,13 +570,13 @@ $$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us approximate the function $f(x)=\log x$ near the value $1$ by a polynomial of order $3$.&lt;/p&gt;
-&lt;p&gt;The equation of the Taylor polynomial of order $3$ of $f$ at $a=1$ is $$p_{f,1}^3(x)=f(1)+f&amp;rsquo;(1)(x-1)+\frac{f&amp;rsquo;&amp;rsquo;(1)}{2}(x-1)^2+\frac{f&amp;rsquo;&amp;rsquo;&amp;rsquo;(1)}{3!}(x-1)^3.$$ The derivatives of $f$ at $1$ up to order $3$ are&lt;/p&gt;
+&lt;p&gt;The equation of the Taylor polynomial of order $3$ of $f$ at $a=1$ is $$p_{f,1}^3(x)=f(1)+f&#39;(1)(x-1)+\frac{f&#39;&#39;(1)}{2}(x-1)^2+\frac{f&#39;&#39;&#39;(1)}{3!}(x-1)^3.$$ The derivatives of $f$ at $1$ up to order $3$ are&lt;/p&gt;
 &lt;p&gt;$$
 \begin{array}{lll}
 f(x)=\log x &amp;amp; \quad &amp;amp; f(1)=\log 1 =0,\newline
-f&amp;rsquo;(x)=1/x &amp;amp; &amp;amp; f&amp;rsquo;(1)=1/1=1,\newline
-f&amp;rsquo;&amp;rsquo;(x)=-1/x^2 &amp;amp; &amp;amp; f&amp;rsquo;&amp;rsquo;(1)=-1/1^2=-1,\newline
-f&amp;rsquo;&amp;rsquo;&amp;rsquo;(x)=2/x^3 &amp;amp; &amp;amp; f&amp;rsquo;&amp;rsquo;&amp;rsquo;(1)=2/1^3=2.
+f&#39;(x)=1/x &amp;amp; &amp;amp; f&#39;(1)=1/1=1,\newline
+f&#39;&#39;(x)=-1/x^2 &amp;amp; &amp;amp; f&#39;&#39;(1)=-1/1^2=-1,\newline
+f&#39;&#39;&#39;(x)=2/x^3 &amp;amp; &amp;amp; f&#39;&#39;&#39;(1)=2/1^3=2.
 \end{array}
 $$&lt;/p&gt;
 &lt;p&gt;And substituting into the polynomial equation we get $$p_{f,1}^3(x)=0+1(x-1)+\frac{-1}{2}(x-1)^2+\frac{2}{3!}(x-1)^3= \frac{2}{3}x^3-\frac{3}{2}x^2+3x-\frac{11}{6}.$$&lt;/p&gt;
@@ -588,20 +588,20 @@ $$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Maclaurin polynomial&lt;/strong&gt;. Given a function $f(x)$ differentiable $n$ times at $0$, the &lt;em&gt;Maclaurin polynomial&lt;/em&gt; of order $n$ of $f$ is the polynomial with equation&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-p_{f,0}^n(x)&amp;amp;=f(0)+f&amp;rsquo;(0)x+\frac{f&amp;rsquo;&amp;rsquo;(0)}{2}x^2+\cdots +\frac{f^{(n)}(0)}{n!}x^n = \newline
+p_{f,0}^n(x)&amp;amp;=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2}x^2+\cdots +\frac{f^{(n)}(0)}{n!}x^n = \newline
 &amp;amp;=\sum_{i=0}^{n}\frac{f^{(i)}(0)}{i!}x^i.
 \end{aligned}
 $$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us approximate the function $f(x)=\sin x$ near the value $0$ by a polynomial of order $3$.&lt;/p&gt;
-&lt;p&gt;The Maclaurin polynomial equation of order $3$ of $f$ is $$p_{f,0}^3(x)=f(0)+f&amp;rsquo;(0)x+\frac{f&amp;rsquo;&amp;rsquo;(0)}{2}x^2+\frac{f&amp;rsquo;&amp;rsquo;&amp;rsquo;(0)}{3!}x^3.$$
+&lt;p&gt;The Maclaurin polynomial equation of order $3$ of $f$ is $$p_{f,0}^3(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}x^3.$$
 The derivatives of $f$ at $0$ up to order $3$ are&lt;/p&gt;
 &lt;p&gt;$$\begin{array}{lll}
 f(x)=\sin x &amp;amp; \quad &amp;amp; f(0)=\sin 0 =0,\newline
-f&amp;rsquo;(x)=\cos x &amp;amp; &amp;amp; f&amp;rsquo;(0)=\cos 0=1,\newline
-f&amp;rsquo;&amp;rsquo;(x)=-\sin x &amp;amp; &amp;amp; f&amp;rsquo;&amp;rsquo;(0)=-\sin 0=0,\newline
-f&amp;rsquo;&amp;rsquo;&amp;rsquo;(x)=-\cos x &amp;amp; &amp;amp; f&amp;rsquo;&amp;rsquo;&amp;rsquo;(0)=-\cos 0=-1.
+f&#39;(x)=\cos x &amp;amp; &amp;amp; f&#39;(0)=\cos 0=1,\newline
+f&#39;&#39;(x)=-\sin x &amp;amp; &amp;amp; f&#39;&#39;(0)=-\sin 0=0,\newline
+f&#39;&#39;&#39;(x)=-\cos x &amp;amp; &amp;amp; f&#39;&#39;&#39;(0)=-\cos 0=-1.
 \end{array}
 $$&lt;/p&gt;
 &lt;p&gt;And substituting into the polynomial equation we get
@@ -626,7 +626,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Taylor polynomials allow to approximate a function in a neighborhood of a value $a$, but most of the times there is an error in the approximation.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definition - Taylor remainder&lt;/strong&gt;. Given a function $f(x)$ and its Taylor polynomial of order $n$ at $a$, $p_{f,a}^n(x)$, the &lt;em&gt;Taylor remainder&lt;/em&gt; of order $n$ of $f$ at $a$ is the difference between the function and the polynomial,&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definition - Taylor remainder&lt;/strong&gt;. Given a function $f(x)$ and its Taylor polynomial of order $n$ at $a$, $p_{f,a}^n(x)$, the *Taylor remainder* of order $n$ of $f$ at $a$ is the difference between the function and the polynomial,&lt;/p&gt;
 &lt;p&gt;$$r_{f,a}^n(x)=f(x)-p_{f,a}^n(x).$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -647,10 +647,10 @@ $$&lt;/p&gt;
       <description>&lt;h2 id=&#34;antiderivative-of-a-function&#34;&gt;Antiderivative of a function&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;strong&gt;Definition - Antiderivative of a function&lt;/strong&gt;. Given a function $f(x)$, the function $F(X)$ is an &lt;em&gt;antiderivative&lt;/em&gt; or &lt;em&gt;primitive function&lt;/em&gt; of $f$ if it satisfies that $F&amp;rsquo;(x)=f(x)$ $\forall x \in \mathop{\rm Dom}(f)$.
+    &lt;strong&gt;Definition - Antiderivative of a function&lt;/strong&gt;. Given a function $f(x)$, the function $F(X)$ is an &lt;em&gt;antiderivative&lt;/em&gt; or &lt;em&gt;primitive function&lt;/em&gt; of $f$ if it satisfies that $F&#39;(x)=f(x)$ $\forall x \in \mathop{\rm Dom}(f)$.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $F(x)=x^2$ is an antiderivative of the function $f(x)=2x$ as $F&amp;rsquo;(x)=2x$ on $\mathbb{R}$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $F(x)=x^2$ is an antiderivative of the function $f(x)=2x$ as $F&#39;(x)=2x$ on $\mathbb{R}$.&lt;/p&gt;
 &lt;p&gt;Roughly speaking, the calculus of antiderivatives is the reverse process of differentiation, and that is the reason for the name of antiderivative.&lt;/p&gt;
 &lt;h3 id=&#34;indefinite-integral-of-a-function&#34;&gt;Indefinite integral of a function&lt;/h3&gt;
 &lt;p&gt;As two functions that differs in a constant term have the same derivative, if $F(x)$ is an antiderivative of $f(x)$, so will be any function of the form $F(x)+k$ $\forall k \in \mathbb{R}$. This means that, when a function has an antiderivative, it has an infinite number of antiderivatives.&lt;/p&gt;
@@ -711,8 +711,8 @@ $$&lt;/p&gt;
 &lt;div class=&#34;alert alert-theo&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem - Integration by parts&lt;/strong&gt;. Given two differentiable functions $u(x)$ and $v(x)$,&lt;/p&gt;
-&lt;p&gt;$$\int{u(x)v&amp;rsquo;(x)}\,dx=u(x)v(x)-\int{u&amp;rsquo;(x)v(x)}\,dx,$$&lt;/p&gt;
-&lt;p&gt;or, writing $u&amp;rsquo;(x)dx=du$ and $v&amp;rsquo;(x)dx=dv$,&lt;/p&gt;
+&lt;p&gt;$$\int{u(x)v&#39;(x)}\,dx=u(x)v(x)-\int{u&#39;(x)v(x)}\,dx,$$&lt;/p&gt;
+&lt;p&gt;or, writing $u&#39;(x)dx=du$ and $v&#39;(x)dx=dv$,&lt;/p&gt;
 &lt;p&gt;$$\int{u}\,dv=uv-\int{v}\,du.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -725,11 +725,11 @@ $$&lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;From the rule for differentiating a product we have&lt;/p&gt;
-&lt;p&gt;$$ (uv)&amp;rsquo; = u&amp;rsquo;v + uv&amp;rsquo; $$&lt;/p&gt;
+&lt;p&gt;$$ (uv)&#39; = u&amp;rsquo;v + uv&#39; $$&lt;/p&gt;
 &lt;p&gt;and computing the integrals both sides we get&lt;/p&gt;
 &lt;p&gt;$$
 \begin{gathered}
-\int (uv)&amp;rsquo; \, dx = \int u&amp;rsquo;v \, dx + \int uv&amp;rsquo;\, dx \Rightarrow\newline
+\int (uv)&#39; \, dx = \int u&amp;rsquo;v \, dx + \int uv&#39;\, dx \Rightarrow\newline
 uv = \int v\,du + \int u\, dv \Rightarrow\newline
 \int{u}\,dv=uv-\int{v}\,du.
 \end{gathered}
@@ -757,9 +757,9 @@ $$&lt;/p&gt;
 &lt;div class=&#34;alert alert-tool&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;From the chain rule for differentiating the composition of two functions&lt;/p&gt;
-&lt;p&gt;$$f(g(x))&amp;rsquo; = f&amp;rsquo;(g(x))g&amp;rsquo;(x),$$&lt;/p&gt;
-&lt;p&gt;we can make a variable change $u=g(x)$, so $du=g&amp;rsquo;(x)dx$, and get&lt;/p&gt;
-&lt;p&gt;$$\int f&amp;rsquo;(g(x))g&amp;rsquo;(x)\, dx = \int f&amp;rsquo;(u)\, du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
+&lt;p&gt;$$f(g(x))&#39; = f&#39;(g(x))g&#39;(x),$$&lt;/p&gt;
+&lt;p&gt;we can make a variable change $u=g(x)$, so $du=g&#39;(x)dx$, and get&lt;/p&gt;
+&lt;p&gt;$$\int f&#39;(g(x))g&#39;(x)\, dx = \int f&#39;(u)\, du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. To compute the integral of $\int{\dfrac{1}{x\log x}}\, dx$ we can make the substitution $u=\log x$, so $du=\frac{1}{x}dx$, and we have&lt;/p&gt;
@@ -949,12 +949,12 @@ $$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p&gt;
 &lt;p&gt;Often in Physics, Chemistry, Biology, Geometry, etc there arise equations that relate a function with its derivative, or successive derivatives.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definition - Ordinary differential equation&lt;/strong&gt;. An &lt;em&gt;ordinary differential equation&lt;/em&gt; (O.D.E.) is a equation that relates an independent variable $x$, a function $y(x)$ that depends on $x$, and the successive derivatives of $y$, $y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n)}$; it can be written as&lt;/p&gt;
-&lt;p&gt;$$F(x, y, y&amp;rsquo;, y&amp;rsquo;&amp;rsquo;,\ldots, y^{(n)})=0.$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definition - Ordinary differential equation&lt;/strong&gt;. An &lt;em&gt;ordinary differential equation&lt;/em&gt; (O.D.E.) is a equation that relates an independent variable $x$, a function $y(x)$ that depends on $x$, and the successive derivatives of $y$, $y&#39;,y&#39;&#39;,\ldots,y^{(n)}$; it can be written as&lt;/p&gt;
+&lt;p&gt;$$F(x, y, y&#39;, y&#39;&#39;,\ldots, y^{(n)})=0.$$&lt;/p&gt;
 &lt;p&gt;The &lt;em&gt;order&lt;/em&gt; of a differential equation is the greatest order of the derivatives in the equation.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The equation $y&amp;rsquo;&amp;rsquo;&amp;rsquo;+sen(x)y&amp;rsquo;=2x$ is a differential equation of order 3.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The equation $y&#39;&#39;&#39;+sen(x)y&#39;=2x$ is a differential equation of order 3.&lt;/p&gt;
 &lt;h3 id=&#34;deducing-a-differential-equation&#34;&gt;Deducing a differential equation&lt;/h3&gt;
 &lt;p&gt;To deduce a differential equation that explains a natural phenomenon is essential to understand what a derivative is and how to interpret it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Newton’s law of cooling states&lt;/p&gt;
@@ -967,8 +967,8 @@ $$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p&gt;
 &lt;h3 id=&#34;solution-of-an-ordinary-differential-equation&#34;&gt;Solution of an ordinary differential equation&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definition - Solution of an ordinary differential equation&lt;/strong&gt;. Given an ordinary differential equation $F(x,y,y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n})=0$, the function $y=f(x)$ is a &lt;em&gt;solution of the ordinary differential equation&lt;/em&gt; if it satisfies the equation, that is, if&lt;/p&gt;
-&lt;p&gt;$$F(x,f(x), f&amp;rsquo;(x), f&amp;rsquo;&amp;rsquo;(x),\ldots, f^{(n}(x))=0.$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definition - Solution of an ordinary differential equation&lt;/strong&gt;. Given an ordinary differential equation $F(x,y,y&#39;,y&#39;&#39;,\ldots,y^{(n})=0$, the function $y=f(x)$ is a &lt;em&gt;solution of the ordinary differential equation&lt;/em&gt; if it satisfies the equation, that is, if&lt;/p&gt;
+&lt;p&gt;$$F(x,f(x), f&#39;(x), f&#39;&#39;(x),\ldots, f^{(n}(x))=0.$$&lt;/p&gt;
 &lt;p&gt;The graph of a solution of the ordinary differential equation is known as &lt;em&gt;integral curve&lt;/em&gt;.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -977,7 +977,7 @@ $$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p&gt;
 &lt;h3 id=&#34;general-solution-of-an-ordinary-differential-equation&#34;&gt;General solution of an ordinary differential equation&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definition - General solution of an ordinary differential equation&lt;/strong&gt;. Given an ordinary differential equation $F(x,y,y&amp;rsquo;,y&amp;rsquo;&amp;rsquo;,\ldots,y^{(n})=0$ of order $n$, the &lt;em&gt;general solution&lt;/em&gt; of the differential equation is a family of functions&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definition - General solution of an ordinary differential equation&lt;/strong&gt;. Given an ordinary differential equation $F(x,y,y&#39;,y&#39;&#39;,\ldots,y^{(n})=0$ of order $n$, the &lt;em&gt;general solution&lt;/em&gt; of the differential equation is a family of functions&lt;/p&gt;
 &lt;p&gt;$$y =f (x,C_1,\ldots,C_n),$$&lt;/p&gt;
 &lt;p&gt;depending on $n$ constants, such that for any value of $C_1,\ldots,C_n$ we get a solution of the differential equation.&lt;/p&gt;
   &lt;/div&gt;
@@ -987,7 +987,7 @@ $$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p&gt;
 &lt;p&gt;Often, it is common to impose conditions to the solutions of a differential equation to reduce the number of solutions. In many cases, these conditions allow to determine the values of the constants in the general solution to get a particular solution.&lt;/p&gt;
 &lt;h2 id=&#34;first-order-differential-equations&#34;&gt;First order differential equations&lt;/h2&gt;
 &lt;p&gt;In this chapter we are going to study first order differential equations&lt;/p&gt;
-&lt;p&gt;$$F(x,y,y&amp;rsquo;)=0.$$&lt;/p&gt;
+&lt;p&gt;$$F(x,y,y&#39;)=0.$$&lt;/p&gt;
 &lt;p&gt;The general solution of a first order differential equation is&lt;/p&gt;
 &lt;p&gt;$$y = f (x,C),$$&lt;/p&gt;
 &lt;p&gt;so to get a particular solution from the general one, it is enough to set the value of the constant $C$, and for that we only need to impose one initial condition.&lt;/p&gt;
@@ -996,7 +996,7 @@ $$\int_{a}^{b}{\vert f(x)- g(x)\vert\,dx}.$$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Initial value problem&lt;/strong&gt;. The group consisting of a first order differential equation and an initial condition is known as &lt;em&gt;initial value problem&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{cases}
-F(x,y,y&amp;rsquo;)=0, &amp;amp; \mbox{First order differential equation;} \newline
+F(x,y,y&#39;)=0, &amp;amp; \mbox{First order differential equation;} \newline
 y(x_0)=y_0, &amp;amp; \mbox{Initial condition.}
 \end{cases}
 $$&lt;/p&gt;
@@ -1021,7 +1021,7 @@ that is a family of integral curves. Among all of them, only the one that passes
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem - Existence and uniqueness of solutions of a first order ODE&lt;/strong&gt;. Given an initial value problem&lt;/p&gt;
 &lt;p&gt;$$\begin{cases}
-y&amp;rsquo;=F(x,y);\newline
+y&#39;=F(x,y);\newline
 y(x_0)=y_0;
 \end{cases}
 $$&lt;/p&gt;
@@ -1079,7 +1079,7 @@ $$&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Homogeneous differential equation&lt;/strong&gt;. A &lt;em&gt;homogeneous differential equation&lt;/em&gt; is a first order differential equation that can be written as&lt;/p&gt;
-&lt;p&gt;$$y&amp;rsquo;=f(x,y),$$&lt;/p&gt;
+&lt;p&gt;$$y&#39;=f(x,y),$$&lt;/p&gt;
 &lt;p&gt;where $f(x,y)$ is a homogeneous function of degree $0$.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1094,9 +1094,9 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Once solved the separable differential equation, the substitution must be undone.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us consider the following differential equation
-$$4x-3y+y&amp;rsquo;(2y-3x)=0.$$&lt;/p&gt;
+$$4x-3y+y&#39;(2y-3x)=0.$$&lt;/p&gt;
 &lt;p&gt;Rewriting the equation in this way&lt;/p&gt;
-&lt;p&gt;$$y&amp;rsquo;=\frac{3y-4x}{2y-3x}$$&lt;/p&gt;
+&lt;p&gt;$$y&#39;=\frac{3y-4x}{2y-3x}$$&lt;/p&gt;
 &lt;p&gt;we can easily check that it is a homogeneous differential equation.&lt;/p&gt;
 &lt;p&gt;To solve this equation we have to do the substitution $y=ux$, and we get&lt;/p&gt;
 &lt;p&gt;$$u&amp;rsquo;x+u=\frac{3ux-4x}{2ux-3x}=\frac{3u-4}{2u-3}$$&lt;/p&gt;
@@ -1121,24 +1121,24 @@ $$&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Linear differential equation&lt;/strong&gt; A &lt;em&gt;linear differential equation&lt;/em&gt; is a first order differential equation that can be written as&lt;/p&gt;
-&lt;p&gt;$$y&amp;rsquo;+g(x)y = h(x).$$&lt;/p&gt;
+&lt;p&gt;$$y&#39;+g(x)y = h(x).$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;To solve a linear differential equation we try to write the left side of the equation as the derivative of a product. For that we multiply both sides by the function $f(x)$, such that&lt;/p&gt;
-&lt;p&gt;$$f&amp;rsquo;(x)=g(x)f(x).$$&lt;/p&gt;
+&lt;p&gt;$$f&#39;(x)=g(x)f(x).$$&lt;/p&gt;
 &lt;p&gt;Thus, we get&lt;/p&gt;
 &lt;p&gt;$$
 \begin{array}{c}
 y&amp;rsquo;f(x)+g(x)f(x)y=h(x)f(x)\newline
 \Updownarrow\newline
-y&amp;rsquo;f(x)+f&amp;rsquo;(x)y=h(x)f(x)\newline
+y&amp;rsquo;f(x)+f&#39;(x)y=h(x)f(x)\newline
 \Updownarrow\newline
 \dfrac{d}{dx}(yf(x))=h(x)f(x)
 \end{array}
 $$&lt;/p&gt;
 &lt;p&gt;Integrating both sides of the previous equation we get the solution&lt;/p&gt;
 &lt;p&gt;$$yf(x)=\int h(x)f(x)\,dx+C.$$&lt;/p&gt;
-&lt;p&gt;On the other hand, the unique function that satisfies $f&amp;rsquo;(x)=g(x)f(x)$ is&lt;/p&gt;
+&lt;p&gt;On the other hand, the unique function that satisfies $f&#39;(x)=g(x)f(x)$ is&lt;/p&gt;
 &lt;p&gt;$$f(x)=e^{\int g(x)\,dx},$$&lt;/p&gt;
 &lt;p&gt;so, substituting this function in the previous solution we arrive at the solution of the linear differential equation&lt;/p&gt;
 &lt;p&gt;$$ye^{\int g(x)\,dx}=\int h(x) e^{\int g(x)\,dx}\,dx+C,$$&lt;/p&gt;
@@ -1152,7 +1152,7 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. If in the differential equation of the Newton’s law of cooling the temperature of the surrounding medium is a function of time $T_a(t)$, then the differential equation&lt;/p&gt;
 &lt;p&gt;$$\frac{dT}{dt}=k(T-T_a(t)),$$&lt;/p&gt;
 &lt;p&gt;is a linear differential equation since it can be written as&lt;/p&gt;
-&lt;p&gt;$$T&amp;rsquo;-kT=-kT_a(t),$$&lt;/p&gt;
+&lt;p&gt;$$T&#39;-kT=-kT_a(t),$$&lt;/p&gt;
 &lt;p&gt;where the independent term is $-kT_a(t)$ and the coefficient of $T$ is $-k$.&lt;/p&gt;
 &lt;p&gt;Substituting in the formula of the general solution of a linear differential equation we have&lt;/p&gt;
 &lt;p&gt;$$y=e^{-\int -k\,dt}\left(\int -kT_a(t)e^{\int -k\,dt}\,dt+C\right)=
@@ -1199,14 +1199,14 @@ $$&lt;/p&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Derivative of a vectorial field&lt;/strong&gt;. A vectorial field $f(t)=(x_1(t),\ldots,x_n(t))$ is &lt;em&gt;differentiable&lt;/em&gt; at a point $t=a$ if the limit&lt;/p&gt;
 &lt;p&gt;$$\lim_{\Delta t\rightarrow 0} \frac{f(a+\Delta t)-f(a)}{\Delta t}.$$&lt;/p&gt;
-&lt;p&gt;exists. In such a case, the value of the limit is known as the &lt;em&gt;derivative&lt;/em&gt; of the vector field at $a$, and it is written $f&amp;rsquo;(a)$.&lt;/p&gt;
+&lt;p&gt;exists. In such a case, the value of the limit is known as the &lt;em&gt;derivative&lt;/em&gt; of the vector field at $a$, and it is written $f&#39;(a)$.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Many properties of real functions of a single real variable can be extended to vector fields through its component functions. Thus, for instance, the derivative of a vector field can be computed from the derivatives of its component functions.&lt;/p&gt;
 &lt;div class=&#34;alert alert-theo&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem&lt;/strong&gt;. Given a vector field $f(t)=(x_1(t),\ldots,x_n(t))$, if $x_i(t)$ is differentiable at $t=a$ for all $i=1,\ldots,n$, then $f$ is differentiable at $a$ and its derivative is&lt;/p&gt;
-&lt;p&gt;$$f&amp;rsquo;(a)=(x_1&amp;rsquo;(a),\ldots,x_n&amp;rsquo;(a))$$&lt;/p&gt;
+&lt;p&gt;$$f&#39;(a)=(x_1&#39;(a),\ldots,x_n&#39;(a))$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
@@ -1219,10 +1219,10 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;The proof for a vectorial field in $\mathbb{R}^2$ is easy.&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
-f&amp;rsquo;(a)&amp;amp;=\lim_{\Delta t\rightarrow 0} \frac{f(a+\Delta t)-f(a)}{\Delta t} = \lim_{\Delta t\rightarrow 0} \frac{(x(a+\Delta t),y(a+\Delta t))-(x(a),y(a))}{\Delta t} =\newline
+f&#39;(a)&amp;amp;=\lim_{\Delta t\rightarrow 0} \frac{f(a+\Delta t)-f(a)}{\Delta t} = \lim_{\Delta t\rightarrow 0} \frac{(x(a+\Delta t),y(a+\Delta t))-(x(a),y(a))}{\Delta t} =\newline
 &amp;amp;=  \lim_{\Delta t\rightarrow 0} \left(\frac{x(a+\Delta t)-x(a)}{\Delta t},\frac{y(a+\Delta t)-y(a)}{\Delta t}\right) =\newline
 &amp;amp;= \left(\lim_{\Delta t\rightarrow 0}\frac{x(a+\Delta t)-x(a)}{\Delta t},\lim_{\Delta t\rightarrow 0}\frac{y(a+\Delta t)-y(a)}{\Delta t}\right) =
-(x&amp;rsquo;(a),y&amp;rsquo;(a)).
+(x&#39;(a),y&#39;(a)).
 \end{aligned}
 $$&lt;/p&gt;
 
@@ -1244,12 +1244,12 @@ $$&lt;/p&gt;
 &lt;img src=&#34;../img/derivativesn/curvilinear_motion.svg&#34; alt=&#34;Trajectory of a curvilinear motion in the plane.&#34; width=&#34;500&#34;&gt;
 &lt;div class=&#34;alert alert-int&#34;&gt;
   &lt;div&gt;
-    In this context the derivative of a trajectory $f&amp;rsquo;(a)=(x_1&amp;rsquo;(a),\ldots,x_n&amp;rsquo;(a))$ is the &lt;em&gt;velocity&lt;/em&gt; vector of the trajectory $f$ at moment $t=a$.
+    In this context the derivative of a trajectory $f&#39;(a)=(x_1&#39;(a),\ldots,x_n&#39;(a))$ is the &lt;em&gt;velocity&lt;/em&gt; vector of the trajectory $f$ at moment $t=a$.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Given the trajectory $f(t) = (\cos t,\sin t)$, $t\in \mathbb{R}$, whose image is the unit circumference centred in the coordinate origin, its coordinate functions are $x(t) = \cos t$, $y(t) = \sin t$, $t\in \mathbb{R}$, and its velocity is&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v}=f&amp;rsquo;(t)=(x&amp;rsquo;(t),y&amp;rsquo;(t))=(-\sin t, \cos t).$$&lt;/p&gt;
-&lt;p&gt;In the moment $t=\pi/4$, the object is in position $f(\pi/4) = (\cos(\pi/4),\sin(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ and it is moving with a velocity $\mathbf{v}=f&amp;rsquo;(\pi/4)=(-\sin(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.&lt;/p&gt;
+&lt;p&gt;$$\mathbf{v}=f&#39;(t)=(x&#39;(t),y&#39;(t))=(-\sin t, \cos t).$$&lt;/p&gt;
+&lt;p&gt;In the moment $t=\pi/4$, the object is in position $f(\pi/4) = (\cos(\pi/4),\sin(\pi/4)) =(\sqrt{2}/2,\sqrt{2}/2)$ and it is moving with a velocity $\mathbf{v}=f&#39;(\pi/4)=(-\sin(\pi/4),\cos(\pi/4))=(-\sqrt{2}/2,\sqrt{2}/2)$.&lt;/p&gt;
 &lt;img src=&#34;../img/derivativesn/circumference_trajectory.svg&#34; alt=&#34;Trajectory of a vector function in the space.&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Observe that the module of the velocity vector is always 1 as $\vert\mathbf{v}\vert=\sqrt{(-\sin t)^2+(\cos t)^2}=1$.&lt;/p&gt;
 &lt;h3 id=&#34;tangent-line-to-a-trajectory&#34;&gt;Tangent line to a trajectory&lt;/h3&gt;
@@ -1261,8 +1261,8 @@ $$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Tangent line to a trajectory&lt;/strong&gt;. Given a trajectory $f(t)$ in the real plane $\mathbb{R}^2$, the &lt;em&gt;tangent line&lt;/em&gt; to to the graph of $f$ at $a$ is the line with equation&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-l:(x,y) &amp;amp;= f(a)+tf&amp;rsquo;(a) = (x(a),y(a))+t(x&amp;rsquo;(a),y&amp;rsquo;(a))\newline
-&amp;amp; = (x(a)+tx&amp;rsquo;(a),y(a)+ty&amp;rsquo;(a)).
+l:(x,y) &amp;amp;= f(a)+tf&#39;(a) = (x(a),y(a))+t(x&#39;(a),y&#39;(a))\newline
+&amp;amp; = (x(a)+tx&#39;(a),y(a)+ty&#39;(a)).
 \end{aligned}
 $$&lt;/p&gt;
   &lt;/div&gt;
@@ -1279,33 +1279,33 @@ $$&lt;/p&gt;
 &lt;p&gt;From the vectorial equation of the tangent to a trajectory $f(t)$ at the moment $t=a$ we can get the coordinate functions&lt;/p&gt;
 &lt;p&gt;$$
 \begin{cases}
-x=x(a)+tx&amp;rsquo;(a)\newline
-y=y(a)+ty&amp;rsquo;(a)
+x=x(a)+tx&#39;(a)\newline
+y=y(a)+ty&#39;(a)
 \end{cases}
 \quad t\in \mathbb{R},
 $$&lt;/p&gt;
 &lt;p&gt;and solving for $t$ and equalling both equations we get the &lt;em&gt;Cartesian equation&lt;/em&gt; of the tangent&lt;/p&gt;
-&lt;p&gt;$$\frac{x-x(a)}{x&amp;rsquo;(a)}=\frac{y-y(a)}{y&amp;rsquo;(a)},$$&lt;/p&gt;
-&lt;p&gt;if $x&amp;rsquo;(a)\neq 0$ and $y&amp;rsquo;(a)\neq 0$.&lt;/p&gt;
+&lt;p&gt;$$\frac{x-x(a)}{x&#39;(a)}=\frac{y-y(a)}{y&#39;(a)},$$&lt;/p&gt;
+&lt;p&gt;if $x&#39;(a)\neq 0$ and $y&#39;(a)\neq 0$.&lt;/p&gt;
 &lt;p&gt;From this equation it is easy to get the &lt;em&gt;point-slope equation&lt;/em&gt; of the tangent&lt;/p&gt;
-&lt;p&gt;$$y-y(a)=\frac{y&amp;rsquo;(a)}{x&amp;rsquo;(a)}(x-x(a)).$$&lt;/p&gt;
+&lt;p&gt;$$y-y(a)=\frac{y&#39;(a)}{x&#39;(a)}(x-x(a)).$$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Using the vectorial equation of the tangent of the previous example&lt;/p&gt;
 &lt;p&gt;$$l: (x,y)=\left(\frac{\sqrt{2}}{2}-t\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}+t\frac{\sqrt{2}}{2}\right),$$&lt;/p&gt;
 &lt;p&gt;its Cartesian equation is $$\frac{x-\sqrt{2}/2}{-\sqrt{2}/2} = \frac{y-\sqrt{2}/2}{\sqrt{2}/2}$$
 and the point-slope equation is&lt;/p&gt;
 &lt;p&gt;$$y-\sqrt{2}/2 = \frac{-\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=-x+\sqrt{2}.$$&lt;/p&gt;
 &lt;h3 id=&#34;normal-line-to-a-trajectory-in-the-plane&#34;&gt;Normal line to a trajectory in the plane&lt;/h3&gt;
-&lt;p&gt;We have seen that the tangent line to a trajectory $f(t)$ at $a$ is the line passing through the point $P=f(a)$ directed by the velocity vector $\mathbf{v}=f&amp;rsquo;(a)=(x&amp;rsquo;(a),y&amp;rsquo;(a))$. If we take as direction vector a vector orthogonal to $\mathbf{v}$, we get another line that is known as &lt;em&gt;normal line&lt;/em&gt; to the trajectory.&lt;/p&gt;
+&lt;p&gt;We have seen that the tangent line to a trajectory $f(t)$ at $a$ is the line passing through the point $P=f(a)$ directed by the velocity vector $\mathbf{v}=f&#39;(a)=(x&#39;(a),y&#39;(a))$. If we take as direction vector a vector orthogonal to $\mathbf{v}$, we get another line that is known as &lt;em&gt;normal line&lt;/em&gt; to the trajectory.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Normal line to a trajectory&lt;/strong&gt;. Given a trajectory $f(t)$ in the real plane $\mathbb{R}^2$, the &lt;em&gt;normal line&lt;/em&gt; to the graph of $f$ at moment $t=a$ is the line with equation&lt;/p&gt;
-&lt;p&gt;$$l: (x,y)=(x(a),y(a))+t(y&amp;rsquo;(a),-x&amp;rsquo;(a)) = (x(a)+ty&amp;rsquo;(a),y(a)-tx&amp;rsquo;(a)).$$&lt;/p&gt;
+&lt;p&gt;$$l: (x,y)=(x(a),y(a))+t(y&#39;(a),-x&#39;(a)) = (x(a)+ty&#39;(a),y(a)-tx&#39;(a)).$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The Cartesian equation is&lt;/p&gt;
-&lt;p&gt;$$\frac{x-x(a)}{y&amp;rsquo;(a)} = \frac{y-y(a)}{-x&amp;rsquo;(a)},$$&lt;/p&gt;
+&lt;p&gt;$$\frac{x-x(a)}{y&#39;(a)} = \frac{y-y(a)}{-x&#39;(a)},$$&lt;/p&gt;
 &lt;p&gt;and the point-slope equation is&lt;/p&gt;
-&lt;p&gt;$$y-y(a) = \frac{-x&amp;rsquo;(a)}{y&amp;rsquo;(a)}(x-x(a)).$$&lt;/p&gt;
+&lt;p&gt;$$y-y(a) = \frac{-x&#39;(a)}{y&#39;(a)}(x-x(a)).$$&lt;/p&gt;
 &lt;div class=&#34;alert alert-int&#34;&gt;
   &lt;div&gt;
     The normal line is always perpendicular to the tangent line as their direction vectors are orthogonal.
@@ -1327,48 +1327,48 @@ $$y-\sqrt{2}/2 = \frac{\sqrt{2}/2}{\sqrt{2}/2}(x-\sqrt{2}/2) \Rightarrow y=x.$$&
 &lt;p&gt;A particular case of tangent and normal lines to a trajectory are the tangent and normal lines to a function of one real variable. For every function $y=f(x)$, the trajectory that trace its graph is&lt;/p&gt;
 &lt;p&gt;$$g(x) = (x,f(x))  \quad x\in \mathbb{R},$$&lt;/p&gt;
 &lt;p&gt;and its velocity is&lt;/p&gt;
-&lt;p&gt;$$g&amp;rsquo;(x) = (1,f&amp;rsquo;(x)),$$&lt;/p&gt;
+&lt;p&gt;$$g&#39;(x) = (1,f&#39;(x)),$$&lt;/p&gt;
 &lt;p&gt;so that the tangent line to $g$ at the moment $a$ is&lt;/p&gt;
-&lt;p&gt;$$\frac{x-a}{1} = \frac{y-f(a)}{f&amp;rsquo;(a)} \Rightarrow y-f(a) = f&amp;rsquo;(a)(x-a),$$&lt;/p&gt;
+&lt;p&gt;$$\frac{x-a}{1} = \frac{y-f(a)}{f&#39;(a)} \Rightarrow y-f(a) = f&#39;(a)(x-a),$$&lt;/p&gt;
 &lt;p&gt;and the normal line is&lt;/p&gt;
-&lt;p&gt;$$\frac{x-a}{f&amp;rsquo;(a)} = \frac{y-f(a)}{-1} \Rightarrow y-f(a) = \frac{-1}{f&amp;rsquo;(a)}(x-a).$$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Given the function $y=x^2$, the trajectory that traces its graph is $g(x)=(x,x^2)$ and its velocity is $g&amp;rsquo;(x)=(1,2x)$. At the moment $x=1$ the trajectory passes through the point $(1,1)$ with a velocity $(1,2)$. Thus, the tangent line at that moment is&lt;/p&gt;
+&lt;p&gt;$$\frac{x-a}{f&#39;(a)} = \frac{y-f(a)}{-1} \Rightarrow y-f(a) = \frac{-1}{f&#39;(a)}(x-a).$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Given the function $y=x^2$, the trajectory that traces its graph is $g(x)=(x,x^2)$ and its velocity is $g&#39;(x)=(1,2x)$. At the moment $x=1$ the trajectory passes through the point $(1,1)$ with a velocity $(1,2)$. Thus, the tangent line at that moment is&lt;/p&gt;
 &lt;p&gt;$$\frac{x-1}{1} = \frac{y-1}{2} \Rightarrow y-1 = 2(x-1) \Rightarrow y = 2x-1,$$&lt;/p&gt;
 &lt;p&gt;and the normal line is&lt;/p&gt;
 &lt;p&gt;$$\frac{x-1}{2} = \frac{y-1}{-1} \Rightarrow y-1 = \frac{-1}{2}(x-1) \Rightarrow y = \frac{-x}{2}+\frac{3}{2}.$$&lt;/p&gt;
 &lt;h3 id=&#34;tangent-line-to-a-trajectory-in-the-space&#34;&gt;Tangent line to a trajectory in the space&lt;/h3&gt;
 &lt;p&gt;The concept of tangent line to a trajectory can be easily extended from the real plane to the three-dimensional space $\mathbb{R}^3$.&lt;/p&gt;
-&lt;p&gt;If $f(t)=(x(t),y(t),z(t))$, $t\in \mathbb{R}$, is a trajectory in the real space $\mathbb{R}^3$, then at the moment $a$, the moving object that follows this trajectory will be at the position $P=(x(a),y(a),z(a))$ with a velocity $\mathbf{v}=f&amp;rsquo;(t)=(x&amp;rsquo;(t),y&amp;rsquo;(t),z&amp;rsquo;(t))$. Thus, the tangent line to $f$ at this moment have the following vectorial equation&lt;/p&gt;
+&lt;p&gt;If $f(t)=(x(t),y(t),z(t))$, $t\in \mathbb{R}$, is a trajectory in the real space $\mathbb{R}^3$, then at the moment $a$, the moving object that follows this trajectory will be at the position $P=(x(a),y(a),z(a))$ with a velocity $\mathbf{v}=f&#39;(t)=(x&#39;(t),y&#39;(t),z&#39;(t))$. Thus, the tangent line to $f$ at this moment have the following vectorial equation&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-l&amp;amp;: (x,y,z)=(x(a),y(a),z(a))+t(x&amp;rsquo;(a),y&amp;rsquo;(a),z&amp;rsquo;(a)) =\newline
-&amp;amp;= (x(a)+tx&amp;rsquo;(a),y(a)+ty&amp;rsquo;(a),z(a)+tz&amp;rsquo;(a)),
+l&amp;amp;: (x,y,z)=(x(a),y(a),z(a))+t(x&#39;(a),y&#39;(a),z&#39;(a)) =\newline
+&amp;amp;= (x(a)+tx&#39;(a),y(a)+ty&#39;(a),z(a)+tz&#39;(a)),
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;and the Cartesian equations are
-$$\frac{x-x(a)}{x&amp;rsquo;(a)}=\frac{y-y(a)}{y&amp;rsquo;(a)}=\frac{z-z(a)}{z&amp;rsquo;(a)},$$
-provided that $x&amp;rsquo;(a)\neq 0$, $y&amp;rsquo;(a)\neq 0$ y $z&amp;rsquo;(a)\neq 0$.&lt;/p&gt;
+$$\frac{x-x(a)}{x&#39;(a)}=\frac{y-y(a)}{y&#39;(a)}=\frac{z-z(a)}{z&#39;(a)},$$
+provided that $x&#39;(a)\neq 0$, $y&#39;(a)\neq 0$ y $z&#39;(a)\neq 0$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Given the trajectory $f(t)=(\cos t, \sin t, t)$, $t\in \mathbb{R}$ in the real space, at the moment $t=\pi/2$ the trajectory passes through the point&lt;/p&gt;
 &lt;p&gt;$$f(\pi/2)=(\cos(\pi/2),\sin(\pi/2),\pi/2)=(0,1,\pi/2),$$&lt;/p&gt;
 &lt;p&gt;with velocity&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v}=f&amp;rsquo;(\pi/2)=(-\sin(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$&lt;/p&gt;
+&lt;p&gt;$$\mathbf{v}=f&#39;(\pi/2)=(-\sin(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$&lt;/p&gt;
 &lt;p&gt;and the tangent line to the graph of $f$ at that moment is&lt;/p&gt;
 &lt;p&gt;$$l:(x,y,z)=(0,1,\pi/2)+t(-1,0,1) = (-t,1,t+\pi/2).$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivativesn/tangent_trajectory_space.svg&#34; alt=&#34;Tangent line to a trajectory in the space.&#34; width=&#34;400&#34;&gt;
 &lt;p&gt;&lt;img src=&#34;/media/logo-geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Q2C7EfBn&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;normal-plane-to-a-trajectory-in-the-space&#34;&gt;Normal plane to a trajectory in the space&lt;/h3&gt;
 &lt;p&gt;In the three-dimensional space $\mathbb{R}^3$, the normal line to a trajectory is not unique. There are an infinite number of normal lines and all of them are in the normal plane.&lt;/p&gt;
-&lt;p&gt;If $f(t)=(x(t),y(t),z(t))$, $t\in \mathbb{R}$, is a trajectory in the real space $\mathbb{R}^3$, then at the moment $a$, the moving object that follows this trajectory will be at the position $P=(x(a),y(a),z(a))$ with a velocity $\mathbf{v}=f&amp;rsquo;(t)=(x&amp;rsquo;(t),y&amp;rsquo;(t),z&amp;rsquo;(t))$. Thus, using the velocity vector as normal vector the normal plane to $f$ at this moment have the following vectorial equation&lt;/p&gt;
+&lt;p&gt;If $f(t)=(x(t),y(t),z(t))$, $t\in \mathbb{R}$, is a trajectory in the real space $\mathbb{R}^3$, then at the moment $a$, the moving object that follows this trajectory will be at the position $P=(x(a),y(a),z(a))$ with a velocity $\mathbf{v}=f&#39;(t)=(x&#39;(t),y&#39;(t),z&#39;(t))$. Thus, using the velocity vector as normal vector the normal plane to $f$ at this moment have the following vectorial equation&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-\Pi &amp;amp;: (x-x(a),y-y(a),z-z(a))(x&amp;rsquo;(a),y&amp;rsquo;(a),z&amp;rsquo;(a)) = 0\newline
-&amp;amp;= x&amp;rsquo;(a)(x-x(a))+y&amp;rsquo;(a)(y-y(a))+z&amp;rsquo;(a)(z-z(a))=0.
+\Pi &amp;amp;: (x-x(a),y-y(a),z-z(a))(x&#39;(a),y&#39;(a),z&#39;(a)) = 0\newline
+&amp;amp;= x&#39;(a)(x-x(a))+y&#39;(a)(y-y(a))+z&#39;(a)(z-z(a))=0.
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. For the trajectory of the previous example $f(t)=(\cos t, \sin t, t)$, $t\in \mathbb{R}$, at the moment $t=\pi/2$ the trajectory passes through the point&lt;/p&gt;
 &lt;p&gt;$$f(\pi/2)=(\cos(\pi/2),\sin(\pi/2),\pi/2)=(0,1,\pi/2),$$&lt;/p&gt;
 &lt;p&gt;with velocity&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v}=f&amp;rsquo;(\pi/2)=(-\sin(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$
+&lt;p&gt;$$\mathbf{v}=f&#39;(\pi/2)=(-\sin(\pi/2),\cos(\pi/2), 1)=(-1,0,1),$$
 and normal plane to the graph of $f$ at that moment is&lt;/p&gt;
 &lt;p&gt;$$\Pi:\left(x-0,y-1,z-\frac{\pi}{2}\right)(-1,0,1) =0 \Leftrightarrow -x+z-\frac{\pi}{2}=0.$$&lt;/p&gt;
 &lt;img src=&#34;../img/derivativesn/normal_plane_trajectory_space.svg&#34; alt=&#34;Normal plane to a trajectory in the space.&#34; width=&#34;400&#34;&gt;
@@ -1458,7 +1458,7 @@ $$\frac{\partial f}{\partial x}(x_0,y_0).$$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definition - Partial derivative&lt;/strong&gt;. Given a $n$-variables function $f(x_1,\ldots,x_n)$, $f$ is &lt;em&gt;partially differentiable&lt;/em&gt; with respect to the variable $x_i$ at the point $a=(a_1,\ldots,a_n)$ if exists the limit&lt;/p&gt;
 &lt;p&gt;$$\lim_{\Delta x_i\rightarrow 0} \frac{f(a_1,\ldots,a_{i-1},a_i+\Delta x_i,a_{i+1},\ldots,a_n)-f(a_1,\ldots,a_{i-1},a_i,a_{i+1},\ldots,a_n)} {h}.$$&lt;/p&gt;
 &lt;p&gt;In such a case, the value of the limit is known as &lt;em&gt;partial derivative&lt;/em&gt; of $f$ with respect to $x_i$ at $a$; it is denoted&lt;/p&gt;
-&lt;p&gt;$$f&amp;rsquo;_{x_i}(a)=\frac{\partial f}{\partial x_i}(a).$$&lt;/p&gt;
+&lt;p&gt;$$f&#39;_{x_i}(a)=\frac{\partial f}{\partial x_i}(a).$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Remark&lt;/strong&gt;. The definition of derivative for one-variable functions is a particular case of this definition for $n=1$.&lt;/p&gt;
@@ -1466,7 +1466,7 @@ $$\frac{\partial f}{\partial x}(x_0,y_0).$$&lt;/p&gt;
 &lt;p&gt;When we measure the variation of $f$ with respect to a variable $x_i$ at the point $a=(a_1,\ldots,a_n)$, the other variables remain constant. Thus, if we can consider the $i$-th partial function
 $$f_i(x_i)=f(a_1,\ldots,a_{i-1},x_i,a_{i+1},\ldots,a_n),$$&lt;/p&gt;
 &lt;p&gt;the partial derivative of $f$ with respect to $x_i$ can be computed differentiating this function:&lt;/p&gt;
-&lt;p&gt;$$\frac{\partial f}{\partial x_i}(a)=f_i&amp;rsquo;(a_i).$$&lt;/p&gt;
+&lt;p&gt;$$\frac{\partial f}{\partial x_i}(a)=f_i&#39;(a_i).$$&lt;/p&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
     To differentiate partially $f(x_1,\ldots,x_n)$ with respect to the variable $x_i$, you have to differentiate $f$ as a function of the variable $x_i$, considering the other variables as constants.
@@ -1505,35 +1505,35 @@ $$v(t,p)=\frac{nRt}{p},$$ where $t$ is the temperature, $p$ the pressure and $n$
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem - Chain rule&lt;/strong&gt;. If $g(t)=(x_1(t),\ldots,x_n(t))$ is a vectorial function differentiable at $t$ and $f(x_1,\ldots,x_n)$ is a scalar field differentiable at the point $g(t)$, then $f\circ g(t)$ is differentiable at $t$ and&lt;/p&gt;
-&lt;p&gt;$$(f\circ g)&amp;rsquo;(t) = \nabla f(g(t))\cdot g&amp;rsquo;(t)=\frac{\partial f}{\partial x_1}\frac{dx_1}{dt}+ \cdots + \frac{\partial f}{\partial x_n}\frac{dx_n}{dt}$$&lt;/p&gt;
+&lt;p&gt;$$(f\circ g)&#39;(t) = \nabla f(g(t))\cdot g&#39;(t)=\frac{\partial f}{\partial x_1}\frac{dx_1}{dt}+ \cdots + \frac{\partial f}{\partial x_n}\frac{dx_n}{dt}$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Let us consider the scalar field $f(x,y)=x^2y$ and the vectorial function $g(t)=(\cos t,\sin t)$ $t\in [0,2\pi]$ in the real plane, then&lt;/p&gt;
-&lt;p&gt;$$\nabla f(x,y) = (2xy, x^2) \quad  \mbox{and} \quad g&amp;rsquo;(t) = (-\sin t, \cos t),$$&lt;/p&gt;
+&lt;p&gt;$$\nabla f(x,y) = (2xy, x^2) \quad  \mbox{and} \quad g&#39;(t) = (-\sin t, \cos t),$$&lt;/p&gt;
 &lt;p&gt;and&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-(f\circ g)&amp;rsquo;(t) &amp;amp;= \nabla f(g(t))\cdot g&amp;rsquo;(t) = (2\cos t\sin t,\cos^2 t)\cdot (-\sin t,\cos t) =\newline
+(f\circ g)&#39;(t) &amp;amp;= \nabla f(g(t))\cdot g&#39;(t) = (2\cos t\sin t,\cos^2 t)\cdot (-\sin t,\cos t) =\newline
 &amp;amp;= -2\cos t\sin^2 t+\cos^3 t.
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;We can get the same result differentiating the composed function directly&lt;/p&gt;
 &lt;p&gt;$$(f\circ g)(t) = f(g(t)) = f(\cos t, \sin t) = \cos^2 t\sin t,$$&lt;/p&gt;
 &lt;p&gt;and its derivative is&lt;/p&gt;
-&lt;p&gt;$$(f\circ g)&amp;rsquo;(t) = 2\cos t(-\sin t)\sin t+\cos^2 t \cos t = -2\cos t\sin^2 t+\cos^3 t.$$&lt;/p&gt;
+&lt;p&gt;$$(f\circ g)&#39;(t) = 2\cos t(-\sin t)\sin t+\cos^2 t \cos t = -2\cos t\sin^2 t+\cos^3 t.$$&lt;/p&gt;
 &lt;p&gt;The chain rule for the composition of a vectorial function with a scalar field allow us to get the algebra of derivatives for one-variable functions easily:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-(u+v)&amp;rsquo; &amp;amp;= u&amp;rsquo;+v&amp;rsquo;\newline
-(uv)&amp;rsquo; &amp;amp;= u&amp;rsquo;v+uv&amp;rsquo;\newline
-\left(\frac{u}{v}\right)&amp;rsquo; &amp;amp;= \frac{u&amp;rsquo;v-uv&amp;rsquo;}{v^2}\newline
-(u\circ v)&amp;rsquo; &amp;amp;= u&amp;rsquo;(v)v&#39;
+(u+v)&#39; &amp;amp;= u&#39;+v&#39;\newline
+(uv)&#39; &amp;amp;= u&amp;rsquo;v+uv&#39;\newline
+\left(\frac{u}{v}\right)&#39; &amp;amp;= \frac{u&amp;rsquo;v-uv&#39;}{v^2}\newline
+(u\circ v)&#39; &amp;amp;= u&#39;(v)v&#39;
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;To infer the derivative of the sum of two functions $u$ and $v$, we can take the scalar field $f(x,y)=x+y$ and the vectorial function $g(t)=(u(t),v(t))$. Applying the chain rule we get&lt;/p&gt;
-&lt;p&gt;$$(u+v)&amp;rsquo;(t) = (f\circ g)&amp;rsquo;(t) = \nabla f(g(t))\cdot g&amp;rsquo;(t) = (1,1)\cdot (u&amp;rsquo;,v&amp;rsquo;) = u&amp;rsquo;+v&amp;rsquo;.$$&lt;/p&gt;
+&lt;p&gt;$$(u+v)&#39;(t) = (f\circ g)&#39;(t) = \nabla f(g(t))\cdot g&#39;(t) = (1,1)\cdot (u&#39;,v&#39;) = u&#39;+v&#39;.$$&lt;/p&gt;
 &lt;p&gt;To infer the derivative of the quotient of two functions $u$ and $v$, we can take the scalar field $f(x,y)=x/y$ and the vectorial function $g(t)=(u(t),v(t))$.&lt;/p&gt;
-&lt;p&gt;$$\left(\frac{u}{v}\right)&amp;rsquo;(t) = (f\circ g)&amp;rsquo;(t) = \nabla f(g(t))\cdot g&amp;rsquo;(t) = \left(\frac{1}{v},-\frac{u}{v^2}\right)\cdot (u&amp;rsquo;,v&amp;rsquo;) = \frac{u&amp;rsquo;v-uv&amp;rsquo;}{v^2}.$$&lt;/p&gt;
+&lt;p&gt;$$\left(\frac{u}{v}\right)&#39;(t) = (f\circ g)&#39;(t) = \nabla f(g(t))\cdot g&#39;(t) = \left(\frac{1}{v},-\frac{u}{v^2}\right)\cdot (u&#39;,v&#39;) = \frac{u&amp;rsquo;v-uv&#39;}{v^2}.$$&lt;/p&gt;
 &lt;h2 id=&#34;tangent-plane-and-normal-line-to-a-surface&#34;&gt;Tangent plane and normal line to a surface&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -1549,10 +1549,10 @@ $$&lt;/p&gt;
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-17&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      &lt;p&gt;If we take the trajectory $g(t)$ that follows the level set $C$ and passes through $P$ at time $t=t_0$, that is $P=g(t_0)$, so $\mathbf{v}=g&amp;rsquo;(t_0)$, then&lt;/p&gt;
+      &lt;p&gt;If we take the trajectory $g(t)$ that follows the level set $C$ and passes through $P$ at time $t=t_0$, that is $P=g(t_0)$, so $\mathbf{v}=g&#39;(t_0)$, then&lt;/p&gt;
 &lt;p&gt;$$(f\circ g)(t) = f(g(t)) = f(P),$$&lt;/p&gt;
 &lt;p&gt;that is constant at any $t$. Thus, applying the chain rule we have&lt;/p&gt;
-&lt;p&gt;$$(f\circ g)&amp;rsquo;(t) = \nabla f(g(t))\cdot  g&amp;rsquo;(t) = 0,$$&lt;/p&gt;
+&lt;p&gt;$$(f\circ g)&#39;(t) = \nabla f(g(t))\cdot  g&#39;(t) = 0,$$&lt;/p&gt;
 &lt;p&gt;and, particularly, at $t=t_0$, we have&lt;/p&gt;
 &lt;p&gt;$$\nabla f(P)\cdot \mathbf{v} = 0.$$&lt;/p&gt;
 
@@ -1625,9 +1625,9 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;If we consider a unitary vector $\mathbf{u}$, the trajectory that passes through $P$, following the direction of $\mathbf{u}$, has equation&lt;/p&gt;
 &lt;p&gt;$$g(t)=P+t\mathbf{u},\ t\in\mathbb{R}.$$&lt;/p&gt;
-&lt;p&gt;For $t=0$, this trajectory passes through the point $P=g(0)$ with velocity $\mathbf{u}=g&amp;rsquo;(0)$.&lt;/p&gt;
+&lt;p&gt;For $t=0$, this trajectory passes through the point $P=g(0)$ with velocity $\mathbf{u}=g&#39;(0)$.&lt;/p&gt;
 &lt;p&gt;Thus, the directional derivative of $f$ at the point $P$ along the direction of $\mathbf{u}$ is&lt;/p&gt;
-&lt;p&gt;$$(f\circ g)&amp;rsquo;(0) = \nabla f(g(0))\cdot g&amp;rsquo;(0) = \nabla f(P)\cdot \mathbf{u}.$$&lt;/p&gt;
+&lt;p&gt;$$(f\circ g)&#39;(0) = \nabla f(g(0))\cdot g&#39;(0) = \nabla f(P)\cdot \mathbf{u}.$$&lt;/p&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1640,9 +1640,9 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Given the function $f(x,y) = x^2+y^2$, its gradient is&lt;/p&gt;
 &lt;p&gt;$$\nabla f(x,y) = (2x,2y).$$&lt;/p&gt;
 &lt;p&gt;The directional derivative of $f$ at the point $P=(1,1)$, along the unit vector $\mathbf{u}=(1/\sqrt{2},1/\sqrt{2})$ is&lt;/p&gt;
-&lt;p&gt;$$f_{\mathbf{u}}&amp;rsquo;(P) = \nabla f(P)\cdot \mathbf{u} = (2,2)\cdot(1/\sqrt{2},1/\sqrt{2}) = \frac{2}{\sqrt{2}}+\frac{2}{\sqrt{2}} = \frac{4}{\sqrt{2}}.$$&lt;/p&gt;
+&lt;p&gt;$$f_{\mathbf{u}}&#39;(P) = \nabla f(P)\cdot \mathbf{u} = (2,2)\cdot(1/\sqrt{2},1/\sqrt{2}) = \frac{2}{\sqrt{2}}+\frac{2}{\sqrt{2}} = \frac{4}{\sqrt{2}}.$$&lt;/p&gt;
 &lt;p&gt;To compute the directional derivative along a non-unitary vector $\mathbf{v}$, we have to use the unitary vector that results from normalizing $v$ with the transformation&lt;/p&gt;
-&lt;p&gt;$$\mathbf{v&amp;rsquo;}=\frac{\mathbf{v}}{|\mathbf{v}|}.$$&lt;/p&gt;
+&lt;p&gt;$$\mathbf{v&#39;}=\frac{\mathbf{v}}{|\mathbf{v}|}.$$&lt;/p&gt;
 &lt;h3 id=&#34;geometric-interpretation-of-the-directional-derivative&#34;&gt;Geometric interpretation of the directional derivative&lt;/h3&gt;
 &lt;p&gt;Geometrically, a two-variable function $z=f(x,y)$ defines a surface. If we cut this surface with a plane of equation $a(y-y_0)=b(x-x_0)$ (that is, the vertical plane that passes through the point $P=(x_0,y_0)$ with the direction of vector $\mathbf{u}=(a,b)$) the intersection is a curve, and the directional derivative of $f$ at $P$ along the direction of $\mathbf{u}$ is the slope of the tangent line to that curve at point $P$.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/media/logo-geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;https://ggbm.at/Bx8nFMNc&#34; target=&#34;_blank&#34;&gt;Interactive Example&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -1651,24 +1651,24 @@ $$&lt;/p&gt;
 &lt;p&gt;$$f^\prime_{\mathbf{u}}(P) = \nabla f(P)\cdot \mathbf{u} = |\nabla f(P)|\cos \theta,$$&lt;/p&gt;
 &lt;p&gt;where $\theta$ is the angle between $\mathbf{u}$ and the gradient $\nabla f(P)$.&lt;/p&gt;
 &lt;p&gt;Taking into account that $-1\leq \cos\theta\leq 1$, for any vector $\mathbf{u}$ it is satisfied that&lt;/p&gt;
-&lt;p&gt;$$-|\nabla f(P)|\leq f&amp;rsquo;_{\mathbf{u}}(P)\leq |\nabla f(P)| .$$&lt;/p&gt;
-&lt;p&gt;Furthermore, if $\mathbf{u}$ has the same direction and sense than the gradient, we have $f&amp;rsquo;_{\mathbf{u}}(P)=\vert\nabla f(P)\vert\cos 0=\vert\nabla f(P)\vert$.
+&lt;p&gt;$$-|\nabla f(P)|\leq f&#39;_{\mathbf{u}}(P)\leq |\nabla f(P)| .$$&lt;/p&gt;
+&lt;p&gt;Furthermore, if $\mathbf{u}$ has the same direction and sense than the gradient, we have $f&#39;_{\mathbf{u}}(P)=\vert\nabla f(P)\vert\cos 0=\vert\nabla f(P)\vert$.
 Therefore, &lt;em&gt;the maximum increase of a scalar field at a point $P$ is along the direction of the gradient at that point&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;In the same manner, if $\mathbf{u}$ has the same direction but opposite sense than the gradient, we have $f_{\mathbf{u}}&amp;rsquo;(P)=\vert\nabla f(P)\vert\cos \pi=-\vert\nabla f(P)\vert$.
+&lt;p&gt;In the same manner, if $\mathbf{u}$ has the same direction but opposite sense than the gradient, we have $f_{\mathbf{u}}&#39;(P)=\vert\nabla f(P)\vert\cos \pi=-\vert\nabla f(P)\vert$.
 Therefore, &lt;em&gt;the maximum decrease of a scalar field at a point $P$ is along the opposite direction of the gradient at that point&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;implicit-derivation&#34;&gt;Implicit derivation&lt;/h2&gt;
 &lt;p&gt;When we have a relation $f(x,y)=0$, sometimes we can consider $y$ as an &lt;em&gt;implicit function&lt;/em&gt; of $x$, at least in a neighbourhood of a point $(x_0,y_0)$.&lt;/p&gt;
 &lt;p&gt;The equation $x^2+y^2=25$, whose graph is the circle of radius 5 centred at the origin of coordinates, its not a function, because if we solve the equation for $y$, we have two images for some values of $x$,&lt;/p&gt;
 &lt;p&gt;$$y=\pm \sqrt{25-x^2}$$&lt;/p&gt;
 &lt;p&gt;However, near the point $(3,4)$ we can represent the relation as the function $y=\sqrt{25-x^2}$, and near the point $(3,-4)$ we can represent the relation as the function $y=-\sqrt{25-x^2}$.&lt;/p&gt;
-&lt;p&gt;If an equation $f(x,y)=0$ defines $y$ as a implicit function of $x$, $y=h(x)$, in a neighbourhood of $(x_0,y_0)$, then we can compute de derivative of $y$, $h&amp;rsquo;(x)$, even if we do not know the explicit formula for $h$.&lt;/p&gt;
+&lt;p&gt;If an equation $f(x,y)=0$ defines $y$ as a implicit function of $x$, $y=h(x)$, in a neighbourhood of $(x_0,y_0)$, then we can compute de derivative of $y$, $h&#39;(x)$, even if we do not know the explicit formula for $h$.&lt;/p&gt;
 &lt;div class=&#34;alert alert-theo&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem - Implicit derivation&lt;/strong&gt;. Let $f(x,y):\mathbb{R}^2\longrightarrow \mathbb{R}$ a two-variable function and let $(x_0,y_0)$ be a point in $\mathbb{R}^2$ such that $f(x_0,y_0)=0$. If $f$ has partial derivatives continuous at $(x_0,y_0)$ and $\frac{\partial f}{\partial y}(x_0,y_0)\neq 0$, then there is an open interval $I\subset \mathbb{R}$ with $x_0\in I$ and a function $h(x): I\longrightarrow \mathbb{R}$ such that&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$y_0=h(x_0)$.&lt;/li&gt;
 &lt;li&gt;$f(x,h(x))=0$ for all $x\in I$.&lt;/li&gt;
-&lt;li&gt;$h$ is differentiable on $I$, and $y&amp;rsquo;=h&amp;rsquo;(x)=\frac{-\dfrac{\partial f}{\partial x}}{\dfrac{\partial f}{\partial y}}$&lt;/li&gt;
+&lt;li&gt;$h$ is differentiable on $I$, and $y&#39;=h&#39;(x)=\frac{-\dfrac{\partial f}{\partial x}}{\dfrac{\partial f}{\partial y}}$&lt;/li&gt;
 &lt;/ol&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1677,20 +1677,20 @@ Therefore, &lt;em&gt;the maximum decrease of a scalar field at a point $P$ is al
 &lt;p&gt;Thus, using the chain rule we have&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-(f\circ g)&amp;rsquo;(x) &amp;amp;= \nabla f(g(x))\cdot g&amp;rsquo;(x) = \left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}\right)\cdot (1,h&amp;rsquo;(x)) = \newline
-&amp;amp;= \frac{\partial f}{\partial x}+\frac{\partial f}{\partial y}h&amp;rsquo;(x) = 0,
+(f\circ g)&#39;(x) &amp;amp;= \nabla f(g(x))\cdot g&#39;(x) = \left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}\right)\cdot (1,h&#39;(x)) = \newline
+&amp;amp;= \frac{\partial f}{\partial x}+\frac{\partial f}{\partial y}h&#39;(x) = 0,
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;from where we can deduce&lt;/p&gt;
-&lt;p&gt;$$y&amp;rsquo;=h&amp;rsquo;(x)=\frac{-\dfrac{\partial f}{\partial x}}{\dfrac{\partial f}{\partial y}}.$$&lt;/p&gt;
-&lt;p&gt;This technique that allows us to compute $y&amp;rsquo;$ in a neighbourhood of $x_0$ without the explicit formula of $y=h(x)$, it is known as &lt;em&gt;implicit derivation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;$$y&#39;=h&#39;(x)=\frac{-\dfrac{\partial f}{\partial x}}{\dfrac{\partial f}{\partial y}}.$$&lt;/p&gt;
+&lt;p&gt;This technique that allows us to compute $y&#39;$ in a neighbourhood of $x_0$ without the explicit formula of $y=h(x)$, it is known as &lt;em&gt;implicit derivation&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. Consider the equation of the circle of radius 5 centred at the origin $x^2+y^2=25$. It can also be written as&lt;/p&gt;
 &lt;p&gt;$$f(x,y) = x^2+y^2-25 = 0.$$
 Take the point $(3,4)$ that satisfies the equation, $f(3,4)=0$.&lt;/p&gt;
 &lt;p&gt;As $f$ have partial derivatives $\frac{\partial f}{\partial x}=2x$ and $\frac{\partial f}{\partial y}=2y$, that are continuous at $(3,4)$, and $\frac{\partial f}{\partial y}(3,4)=8\neq 0$, then $y$ can be expressed as a function of $x$ in a neighbourhood of $(3,4)$ and its derivative is&lt;/p&gt;
-&lt;p&gt;$$y&amp;rsquo;=\frac{-\frac{\partial f}{\partial x}}{\frac{\partial f}{\partial y}} = \frac{-2x}{2y}=\frac{-x}{y} \quad \mbox{and} \quad y&amp;rsquo;(3)=\frac{-3}{4}.$$&lt;/p&gt;
+&lt;p&gt;$$y&#39;=\frac{-\frac{\partial f}{\partial x}}{\frac{\partial f}{\partial y}} = \frac{-2x}{2y}=\frac{-x}{y} \quad \mbox{and} \quad y&#39;(3)=\frac{-3}{4}.$$&lt;/p&gt;
 &lt;p&gt;In this particular case, that we know the explicit formula of $y=\sqrt{1-x^2}$, we can get the same result computing the derivative as usual&lt;/p&gt;
-&lt;p&gt;$$y&amp;rsquo; = \frac{1}{2\sqrt{1-x^2}}(-2x) = \frac{-x}{\sqrt{1-x^2}}.$$&lt;/p&gt;
+&lt;p&gt;$$y&#39; = \frac{1}{2\sqrt{1-x^2}}(-2x) = \frac{-x}{\sqrt{1-x^2}}.$$&lt;/p&gt;
 &lt;p&gt;The implicit function theorem can be generalized to functions with several variables.&lt;/p&gt;
 &lt;div class=&#34;alert alert-theo&#34;&gt;
   &lt;div&gt;
@@ -1930,7 +1930,7 @@ A scalar field $f$ in $\mathbb{R}^n$ has a &lt;em&gt;relative maximum&lt;/em&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-31&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;Taking the trajectory that passes through $P$ with the direction of the gradient at that point $$g(t)=P+t\nabla f(P),$$ the function $h=(f\circ g)(t)$ does not decrease at $t=0$ since&lt;/p&gt;
-&lt;p&gt;$$h&amp;rsquo;(0)= (f\circ g)&amp;rsquo;(0) = \nabla f(g(0))\cdot g&amp;rsquo;(0) = \nabla f(P)\cdot \nabla f(P) = |\nabla f(P)|^2\geq 0,$$&lt;/p&gt;
+&lt;p&gt;$$h&#39;(0)= (f\circ g)&#39;(0) = \nabla f(g(0))\cdot g&#39;(0) = \nabla f(P)\cdot \nabla f(P) = |\nabla f(P)|^2\geq 0,$$&lt;/p&gt;
 &lt;p&gt;and it only vanishes if $\nabla f(P)=0$.&lt;/p&gt;
 &lt;p&gt;Thus, if $\nabla f(P)\neq 0$, $f$ can not have a relative maximum at $P$ since following the trajectory of $g$ from $P$ there are points where $f$ has an image greater than the image at $P$. In the same way, following the trajectory of $g$ in the opposite direction there are points where $f$ has an image less than the image at $P$, so $f$ can not have relative minimum at $P$.&lt;/p&gt;
 
@@ -2065,7 +2065,7 @@ Date: Jan 17, 2022&lt;/p&gt;
 &lt;p&gt;The direction of the gradient $\nabla(3,2) = (6e,0)$. Following this direction, the instantaneous rate of change of the oxygen level is $|\nabla(3,2)|=6e$%/m.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Directional derivative along the direction of the vector $\mathbf{v}=(1,-2)$: $f&amp;rsquo;_{\mathbf{v}}(2,2)=1.4311$%/m.&lt;/p&gt;
+&lt;p&gt;Directional derivative along the direction of the vector $\mathbf{v}=(1,-2)$: $f&#39;_{\mathbf{v}}(2,2)=1.4311$%/m.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -2092,7 +2092,7 @@ Date: Jan 17, 2022&lt;/p&gt;
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      &lt;p&gt;Let $t$ the time and $o(t)$ the amount of oxygen at time $t$. Differential equation $o&amp;rsquo;=k/o$.&lt;/p&gt;
+      &lt;p&gt;Let $t$ the time and $o(t)$ the amount of oxygen at time $t$. Differential equation $o&#39;=k/o$.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Particular solution: $o(t)=\sqrt{300t+100}$.&lt;br&gt;
@@ -2128,10 +2128,10 @@ $o(5)=40$ g.&lt;/p&gt;
       &lt;p&gt;Let $h(t)$ the length of the hypotenuse of the right triangle whose sides are the distance travelled by the insects at time $t$.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;$h&amp;rsquo;(2)=5$ cm/s and $h&amp;rsquo;(3)=5$ cm/s.&lt;/p&gt;
+&lt;p&gt;$h&#39;(2)=5$ cm/s and $h&#39;(3)=5$ cm/s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$h&amp;rsquo;(4)=1.8$ cm/s.&lt;/p&gt;
+&lt;p&gt;$h&#39;(4)=1.8$ cm/s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -2169,10 +2169,10 @@ Date: Jan 18, 2021&lt;/p&gt;
       &lt;p&gt;Let $x(t)$ be the amount of drug in the body at any time $t$.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Differential equation: $x&amp;rsquo;=15-0.8x$. Initial condition $x(0)=0$. Particular solution: $x(t)=18.75-18.75e^{-0.8t}$ and the maximum amount of drug in the body will be 18.75 mg.&lt;/p&gt;
+&lt;p&gt;Differential equation: $x&#39;=15-0.8x$. Initial condition $x(0)=0$. Particular solution: $x(t)=18.75-18.75e^{-0.8t}$ and the maximum amount of drug in the body will be 18.75 mg.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Differential equation: $x&amp;rsquo;=-0.8x$. Initial condition $x(0)=18.74$. Particular solution: $x(t)=18.74e^{-0.8t}$ and the time required to have 10 mg of drug in the body will be $0.7851$ hours.&lt;/p&gt;
+&lt;p&gt;Differential equation: $x&#39;=-0.8x$. Initial condition $x(0)=18.74$. Particular solution: $x(t)=18.74e^{-0.8t}$ and the time required to have 10 mg of drug in the body will be $0.7851$ hours.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -2220,7 +2220,7 @@ Date: Jan 18, 2021&lt;/p&gt;
 &lt;p&gt;$\nabla T(1,2)=\frac{1}{3}(5,1)$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Let $\mathbf{u}$ the vector $(1,-1/2)$, then $T&amp;rsquo;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p&gt;
+&lt;p&gt;Let $\mathbf{u}$ the vector $(1,-1/2)$, then $T&#39;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Along the direction of the vector $(1,-5)$.&lt;/p&gt;
@@ -2269,7 +2269,7 @@ Date: Jan 18, 2021&lt;/p&gt;
 &lt;p&gt;$\dfrac{dr}{dt}=0.0305$ dm/s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Using the linear approximation $dt = S&amp;rsquo;/dS=37.5013$ seconds approximately.&lt;/p&gt;
+&lt;p&gt;Using the linear approximation $dt = S&#39;/dS=37.5013$ seconds approximately.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -2314,7 +2314,7 @@ Assuming that the concentration of nitrates remains uniform in the lagoon, what 
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       Let $n(t)$ the amount of nitrates in the lagoon at time $t$.&lt;br&gt;
-Differential equation: $n&amp;rsquo;=-n/60$.&lt;br&gt;
+Differential equation: $n&#39;=-n/60$.&lt;br&gt;
 Solution: $n(t)=10^6 e^{-t/60}$.&lt;br&gt;
 $n(14)=791889.6$ kg.&lt;br&gt;
 The lagoon will be decontaminated after $30.6495$ days.
@@ -2393,7 +2393,7 @@ If initially there is no alcohol and we start to introduce alcohol in the organi
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       Let $a$ be the alcohol in the organism and $t$ the time.&lt;br&gt;
-Differential equation: $a&amp;rsquo;=2-a/2$.&lt;br&gt;
+Differential equation: $a&#39;=2-a/2$.&lt;br&gt;
 Solution: $a(t)=4-4e^{-t/2}$.&lt;br&gt;
 $a(5)=3.6717$ ml.
     &lt;/div&gt;
@@ -2410,8 +2410,8 @@ Knowing that the equation $x^2y^3-6x^3y^2+2xy=1$ is satisfied in this culture an
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      Implicit derivative: $y&amp;rsquo;= \dfrac{-2xy^3+18x^2y^2+2y}{3x^2y^2-12x^3y+2x}$.&lt;br&gt;
-$y&amp;rsquo;(1/2)=6\neq 0$, so $f$ has no local maximum at $x=1/2$.
+      Implicit derivative: $y&#39;= \dfrac{-2xy^3+18x^2y^2+2y}{3x^2y^2-12x^3y+2x}$.&lt;br&gt;
+$y&#39;(1/2)=6\neq 0$, so $f$ has no local maximum at $x=1/2$.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2433,7 +2433,7 @@ What would be the rate of change of the volume if we changed the dimensions in s
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;$\nabla V(3,4,6)=(8,6,4)$ and the volume will increase $|\nabla V(3,4,6)|=10.7703$ cm$^3$/s if we change the dimensions of the capsule following this direction.&lt;/li&gt;
-&lt;li&gt;Directional derivative of $V$ in $(3,4,6)$ along the vector $\mathbf{u}=(1,-1/2,2)$: $V&amp;rsquo;_{\mathbf{u}}(3,4,6)=5.6737$ cm$^3$/s.&lt;/li&gt;
+&lt;li&gt;Directional derivative of $V$ in $(3,4,6)$ along the vector $\mathbf{u}=(1,-1/2,2)$: $V&#39;_{\mathbf{u}}(3,4,6)=5.6737$ cm$^3$/s.&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -2501,7 +2501,7 @@ When will that maximum amount be achieved?&lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       Let $y$ be the alcohol in the organism and $t$ the time.&lt;br&gt;
-Differential equation: $y&amp;rsquo;=12-3y$.&lt;br&gt;
+Differential equation: $y&#39;=12-3y$.&lt;br&gt;
 Solution: $y(t)=4-4e^{-3t}$.&lt;br&gt;
 $y(5)=3.99$ cl.&lt;br&gt;
 The maximum amount of alcohol will be 4 cl and it will be achieved at $t=\infty$.
@@ -2542,7 +2542,7 @@ $$&lt;/p&gt;
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      Directional derivative of $z$ in $(1,1,1)$ along $\mathbf{v}=(1,-1)$: $z&amp;rsquo;_\mathbf{v}(1,1,1)=\frac{1}{2\sqrt{2}}$.
+      Directional derivative of $z$ in $(1,1,1)$ along $\mathbf{v}=(1,-1)$: $z&#39;_\mathbf{v}(1,1,1)=\frac{1}{2\sqrt{2}}$.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2592,7 +2592,7 @@ Suppose a baby&amp;rsquo;s weight was 3.3 kg at birth, and 4.3 kg a month later.
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;Let $t$ the time and $w(t)$ the weight of the baby at time $t$.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Differential equation: $w&amp;rsquo;=\dfrac{k}{w}$&lt;br&gt;
+&lt;li&gt;Differential equation: $w&#39;=\dfrac{k}{w}$&lt;br&gt;
 Particular solution: $w(t)=\sqrt{7.6t+10.89}$.&lt;br&gt;
 $w(12)=10.1$ kg.&lt;/li&gt;
 &lt;li&gt;At 7 months.&lt;/li&gt;
@@ -2619,7 +2619,7 @@ $w(12)=10.1$ kg.&lt;/li&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;$f$ has a local maximum at $(0,1)$ and the maximum value is $z=f(0,1)=1/\sqrt{e}$.&lt;/li&gt;
-&lt;li&gt;Directional derivative of $f$ at $(1,0)$ along the direction of $v=(2,1)$: $f&amp;rsquo;_v(1,0)=\frac{1}{e\sqrt{5}}$.&lt;/li&gt;
+&lt;li&gt;Directional derivative of $f$ at $(1,0)$ along the direction of $v=(2,1)$: $f&#39;_v(1,0)=\frac{1}{e\sqrt{5}}$.&lt;/li&gt;
 &lt;li&gt;$P^2_{f,(1,0)}(x,y)=\displaystyle\frac{-2xy+3y}{e}$.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -2718,8 +2718,8 @@ Remark: velocity is the variation of space with respect to time, and acceleratio
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;$f&amp;rsquo;(t)=(\frac{e^{t/2}}{2},2\sin t \cos t, \frac{-(1-t)^{-2/3}}{3})$ and $f&amp;rsquo;(0)=(\frac{1}{2},0,-\frac{1}{3})$.
-$f&amp;rsquo;&amp;rsquo;(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\sin^2 t), \frac{-2(1-t)^{-5/3}}{9})$ and $f&amp;rsquo;&amp;rsquo;(0)=(\frac{1}{4},2,-\frac{2}{9})$.&lt;/li&gt;
+&lt;li&gt;$f&#39;(t)=(\frac{e^{t/2}}{2},2\sin t \cos t, \frac{-(1-t)^{-2/3}}{3})$ and $f&#39;(0)=(\frac{1}{2},0,-\frac{1}{3})$.
+$f&#39;&#39;(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\sin^2 t), \frac{-2(1-t)^{-5/3}}{9})$ and $f&#39;&#39;(0)=(\frac{1}{4},2,-\frac{2}{9})$.&lt;/li&gt;
 &lt;li&gt;Normal plane to the trajectory at time $t=0$: $3x-2z=1$.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -2782,7 +2782,7 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;$-\nabla f(1,1,1)=(-e,-e,e)$. The rate of decrease is $\sqrt{3}e$.&lt;/li&gt;
-&lt;li&gt;Taking the vector $\mathbf{u}=(1,2,1/2)$, $f_{\mathbf{u}}&amp;rsquo;(1,1,1)=5e/\sqrt{21}$. This means that for each unit in the direction of the vector $(1,2,1/2)$ the function will increase $5e/\sqrt{21}$ units.&lt;/li&gt;
+&lt;li&gt;Taking the vector $\mathbf{u}=(1,2,1/2)$, $f_{\mathbf{u}}&#39;(1,1,1)=5e/\sqrt{21}$. This means that for each unit in the direction of the vector $(1,2,1/2)$ the function will increase $5e/\sqrt{21}$ units.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -2807,7 +2807,7 @@ where $k$ is a positive constant.&lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;Differential equation: $y&amp;rsquo;=k\dfrac{y}{x}$.&lt;br&gt;
+&lt;li&gt;Differential equation: $y&#39;=k\dfrac{y}{x}$.&lt;br&gt;
 General solution: $y=cx^k$.&lt;/li&gt;
 &lt;li&gt;Particular solution: $y=0.5778 x^{0.0794}$.&lt;/li&gt;
 &lt;/ol&gt;

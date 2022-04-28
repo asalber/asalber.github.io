@@ -7,7 +7,7 @@
     <description>Geometría</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Geometría</title>
       <link>/category/geometria/</link>
     </image>
@@ -37,17 +37,17 @@ La descripción del viento requiere dos elementos, su intensidad y su dirección
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt; La velocidad de un móvil o la fuerza que se aplica sobre un objeto.&lt;/p&gt;
 &lt;p&gt;Geométricamente, un vector se representa mediante un segmento orientado, es decir, una flecha.&lt;/p&gt;
-&lt;img src=&#34;../img/geometria_analitica/vector.png&#34; width=&#34;500px&#34; alt=&#34;Vector&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/vector.png&#34; width=&#34;500px&#34; alt=&#34;Vector&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;representación-de-un-vector&#34;&gt;Representación de un vector&lt;/h3&gt;
 &lt;p&gt;Un segmento orientado puede ubicarse en diferentes lugares dentro de un espacio cartesiano. Sin embargo, con independencia de donde esté situado, si la longitud y la dirección no varían, dicho segmento representará siempre el mismo vector.&lt;/p&gt;
 &lt;p&gt;Esto permite representar todos los vectores con un mismo origen, el origen en sistema de coordenadas cartesianas.
 Así, un vector queda determinado por las &lt;em&gt;coordenadas&lt;/em&gt; de su extremo final en cualquier espacio euclideo.&lt;/p&gt;
-&lt;img src=&#34;../img/geometria_analitica/coordenadas_vector.svg&#34; width=&#34;400&#34; alt=&#34;Coordenadas de un vector&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/coordenadas_vector.svg&#34; width=&#34;400&#34; alt=&#34;Coordenadas de un vector&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;vector-a-partir-de-dos-puntos&#34;&gt;Vector a partir de dos puntos&lt;/h3&gt;
 &lt;p&gt;Dados dos puntos $P$ y $Q$ de un espacio cartesiano, el vector con origen en $P$ y destino en $Q$ tiene coordenadas $\vec{PQ}=Q-P$.&lt;/p&gt;
 &lt;p&gt;Sean los puntos $P=(2,1)$ y $Q=(3,4)$ del plano real $\mathbb{R}^2$, entonces&lt;/p&gt;
 &lt;p&gt;$$\vec{PQ} = Q-P = (3,4)-(2,1) = (3-2,4-1) = (1,3).$$&lt;/p&gt;
-&lt;img src=&#34;../img/geometria_analitica/vector_puntos.png&#34; width=&#34;300px&#34; alt=&#34;Definción de un vector a partir de dos puntos&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/vector_puntos.png&#34; width=&#34;300px&#34; alt=&#34;Definción de un vector a partir de dos puntos&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;módulo-de-un-vector&#34;&gt;Módulo de un vector&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -69,10 +69,10 @@ Así, un vector queda determinado por las &lt;em&gt;coordenadas&lt;/em&gt; de su
 &lt;p&gt;Especial atención merecen los vectores unitarios que siguen la dirección de los ejes de coordenadas, estos vectores se llaman &lt;em&gt;vectores coordenados&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;En $\mathbb{R}^2$ los vectores coordenados son&lt;/p&gt;
 &lt;p&gt;$$\mathbf{i}=(1,0)\mbox{ y }\mathbf{j}=(0,1)$$&lt;/p&gt;
-&lt;img src=&#34;../img/geometria_analitica/vectores_unitarios_r2.png&#34; width=&#34;200px&#34; alt=&#34;Vectores unitarios en el plano real&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/vectores_unitarios_r2.png&#34; width=&#34;200px&#34; alt=&#34;Vectores unitarios en el plano real&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;En $\mathbb{R}^3$ los vectores coordenados son&lt;/p&gt;
 &lt;p&gt;$$\mathbf{i}=(1,0,0)\mbox{, }\mathbf{j}=(0,1,0) \mbox{ y } \mathbf{k}=(0,0,1)$$&lt;/p&gt;
-&lt;img src=&#34;../img/geometria_analitica/vectores_unitarios_r3.png&#34; width=&#34;200px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/vectores_unitarios_r3.png&#34; width=&#34;200px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;suma-de-vectores&#34;&gt;Suma de vectores&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -80,7 +80,7 @@ Así, un vector queda determinado por las &lt;em&gt;coordenadas&lt;/em&gt; de su
 &lt;p&gt;$$\mathbf{u}+\mathbf{v} = (u_1+v_1,\ldots, u_n+v_n).$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&#34;../img/geometria_analitica/suma_vectores.png&#34; width=&#34;400px&#34; alt=&#34;Suma de vectores&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/suma_vectores.png&#34; width=&#34;400px&#34; alt=&#34;Suma de vectores&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Sean $\mathbf{u}=(3,1)$ y $\mathbf{v}=(2,3)$ dos vectores en $\mathbb{R}^2$, entonces&lt;/p&gt;
 &lt;p&gt;$$\mathbf{u}+\mathbf{v} = (3+2,1+3) = (5,4).$$&lt;/p&gt;
 &lt;h3 id=&#34;producto-de-un-vector-por-un-escalar&#34;&gt;Producto de un vector por un escalar&lt;/h3&gt;
@@ -90,7 +90,7 @@ Así, un vector queda determinado por las &lt;em&gt;coordenadas&lt;/em&gt; de su
 &lt;p&gt;$$a\mathbf{v} = (av_1,\ldots, av_n).$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&#34;../img/geometria_analitica/producto_por_escalar.png&#34; width=&#34;400px&#34; alt=&#34;Producto de un vector por un escalar&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/producto_por_escalar.png&#34; width=&#34;400px&#34; alt=&#34;Producto de un vector por un escalar&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Sean el vector $\mathbf{v}=(2,1)$ en $\mathbb{R}^2$ y el escalar $a=2$, entonces&lt;/p&gt;
 &lt;p&gt;$$a\mathbf{v} = 2(2,1) = (4,2).$$&lt;/p&gt;
 &lt;h3 id=&#34;expresión-de-un-vector-como-combinación-lineal-de-los-vectores-coordenados&#34;&gt;Expresión de un vector como combinación lineal de los vectores coordenados&lt;/h3&gt;
@@ -98,7 +98,7 @@ Así, un vector queda determinado por las &lt;em&gt;coordenadas&lt;/em&gt; de su
 coordenados.&lt;/p&gt;
 &lt;p&gt;En el caso del espacio real $\mathbb{R}^3$, cualquier vector $\mathbf{v}=(v_1,v_2,v_3)$ puede expresarse como&lt;/p&gt;
 &lt;p&gt;$$\mathbf{v}=(v_1,v_2,v_3) = v_1\mathbf{i}+v_2\mathbf{j}+v_3\mathbf{k}.$$&lt;/p&gt;
-&lt;img src=&#34;../img/geometria_analitica/combinacion_lineal_vectores_coordenados.png&#34; width=&#34;300px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/combinacion_lineal_vectores_coordenados.png&#34; width=&#34;300px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;producto-escalar&#34;&gt;Producto escalar&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -155,7 +155,7 @@ La ecuación&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Considérese la recta del espacio real $\mathbb{R}^3$ que aparece en la gráfica.
 Un punto de la recta es $P=(1,1,2)$ y un vector director es $\mathbf{v}=(-1,2,2)$, luego su ecuación vectorial es&lt;/p&gt;
 &lt;p&gt;$$l: X= P + t\mathbf{v} = (1,1,2)+t(-1,2,1)=(1-t,1+2t,2+t)\quad t\in\mathbb{R}.$$&lt;/p&gt;
-&lt;img src=&#34;../img/geometria_analitica/ecuacion_vectorial_recta.png&#34; width=&#34;400px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/ecuacion_vectorial_recta.png&#34; width=&#34;400px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ecuaciones-paramétricas-y-cartesianas-de-la-recta&#34;&gt;Ecuaciones paramétricas y cartesianas de la recta&lt;/h3&gt;
 &lt;p&gt;De la ecuación vectorial de una recta $l: X=P + t\mathbf{v}=(p_1+tv_1,\ldots,p_n+tv_n)$ se obtienen fácilmente las coordenadas de los puntos que forman parte de la recta mediante $n$ ecuaciones paramétricas:&lt;/p&gt;
 &lt;p&gt;$$x_1(t)=p_1+tv_1, \ldots, x_n(t)=p_n+tv_n$$&lt;/p&gt;
@@ -183,7 +183,7 @@ Esta ecuación se conoce como ecuación en la forma &lt;em&gt;punto-pendiente&lt
     &lt;strong&gt;Definición - Pendiente de una recta&lt;/strong&gt;. Dada una recta $l: X=P+t\mathbf{v}$ en el plano real $\mathbb{R}^2$, con vector director $\mathbf{v}=(a,b)$, se define la pendiente de $l$ como $b/a$.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&#34;../img/geometria_analitica/pendiente_recta.png&#34; width=&#34;400px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/pendiente_recta.png&#34; width=&#34;400px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/media/logo-geogebra.png#left&#34; /&gt; &lt;strong&gt;&lt;a href=&#34;http://ggbtu.be/m150247&#34; target=&#34;_blank&#34;&gt;Ejemplo interactivo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Recordar que dados dos puntos $Q=(x_1,y_1)$ y $Q=(x_2,y_2)$ de la recta $l$, se puede tomar como vector director el vector que los une, que tiene coordenadas $\vec{PQ}=Q-P=(x_2-x_1,y_2-y_1)$, de manera que la pendiente de $l$ será $\dfrac{y_2-y_1}{x_2-x_1}$, es decir, el cociente entre lo que cambia la coordenada $y$ y lo que cambia la coordenada $x$.&lt;/p&gt;
 &lt;h2 id=&#34;planos&#34;&gt;Planos&lt;/h2&gt;
@@ -196,7 +196,7 @@ Entonces, para cualquier punto del plano $Q=(x,y,z)$ se cumple que el vector $\v
 &lt;p&gt;$$\vec{PQ}\cdot\mathbf{v} = (x-x_0,y-y_0,z-z_0)(a,b,c) = a(x-x_0)+b(y-y_0)+c(z-z_0) = 0.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&#34;../img/geometria_analitica/ecuacion_plano.png&#34; width=&#34;400px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/geometria_analitica/ecuacion_plano.png&#34; width=&#34;400px&#34; alt=&#34;Vectores unitarios en espacio real&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ecuación-escalar-de-un-plano-en-el-espacio&#34;&gt;Ecuación escalar de un plano en el espacio&lt;/h3&gt;
 &lt;p&gt;De la ecuación vectorial del plano se obtiene&lt;/p&gt;
 &lt;p&gt;$$a(x-x_0)+b(y-y_0)+c(z-z_0) = 0 \Leftrightarrow ax+by+cz=ax_0+by_0+cz_0,$$&lt;/p&gt;

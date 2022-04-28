@@ -7,7 +7,7 @@
     <description>Exam</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Exam</title>
       <link>/en/tag/exam/</link>
     </image>
@@ -180,7 +180,7 @@ Date: Jan 17, 2022&lt;/p&gt;
 &lt;p&gt;The direction of the gradient $\nabla(3,2) = (6e,0)$. Following this direction, the instantaneous rate of change of the oxygen level is $|\nabla(3,2)|=6e$%/m.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Directional derivative along the direction of the vector $\mathbf{v}=(1,-2)$: $f&amp;rsquo;_{\mathbf{v}}(2,2)=1.4311$%/m.&lt;/p&gt;
+&lt;p&gt;Directional derivative along the direction of the vector $\mathbf{v}=(1,-2)$: $f&#39;_{\mathbf{v}}(2,2)=1.4311$%/m.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -207,7 +207,7 @@ Date: Jan 17, 2022&lt;/p&gt;
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      &lt;p&gt;Let $t$ the time and $o(t)$ the amount of oxygen at time $t$. Differential equation $o&amp;rsquo;=k/o$.&lt;/p&gt;
+      &lt;p&gt;Let $t$ the time and $o(t)$ the amount of oxygen at time $t$. Differential equation $o&#39;=k/o$.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Particular solution: $o(t)=\sqrt{300t+100}$.&lt;br&gt;
@@ -243,10 +243,10 @@ $o(5)=40$ g.&lt;/p&gt;
       &lt;p&gt;Let $h(t)$ the length of the hypotenuse of the right triangle whose sides are the distance travelled by the insects at time $t$.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;$h&amp;rsquo;(2)=5$ cm/s and $h&amp;rsquo;(3)=5$ cm/s.&lt;/p&gt;
+&lt;p&gt;$h&#39;(2)=5$ cm/s and $h&#39;(3)=5$ cm/s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$h&amp;rsquo;(4)=1.8$ cm/s.&lt;/p&gt;
+&lt;p&gt;$h&#39;(4)=1.8$ cm/s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -1208,7 +1208,7 @@ Date: March 17, 2021&lt;/p&gt;
 &lt;h2 id=&#34;descriptive-statistics-and-regression&#34;&gt;Descriptive Statistics and Regression&lt;/h2&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 &lt;p&gt;The chart below shows the distribution of the number of subjects passed in a sample of first year students of a degree.&lt;/p&gt;
-&lt;img src=&#34;../img/des-18-gen-cumulative-distribution-subjects.svg&#34; title=&#34;Cumulative distribution of the number of subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-18-gen-cumulative-distribution-subjects.svg&#34; title=&#34;Cumulative distribution of the number of subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Draw the box and whiskers plot and interpret it.&lt;/p&gt;
@@ -1238,7 +1238,7 @@ Date: March 17, 2021&lt;/p&gt;
       &lt;ol&gt;
 &lt;li&gt;Quartiles: $Q_1=5$ subjects, $Q_2=6$ subjects, $Q_3=7$ subjects. $IQR = 2$ subjects.       Fences: $f_1=2$ subjects and $f_2=10$ subjects.&lt;/li&gt;
 &lt;/ol&gt;
-  &lt;img src=&#34;../img/des-18-gen-boxplot-subjects.svg&#34; title=&#34;Box plot of the subjects passed&#34; alt=&#34;Box plot of the subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-18-gen-boxplot-subjects.svg&#34; title=&#34;Box plot of the subjects passed&#34; alt=&#34;Box plot of the subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;50% of central data fall between 5 and 7 subjects, that is a moderate dispersion. The are no outliers and the right whisker is a little bit longer than the left one, so the distribution is a little bit right skew but almost normal.&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;
@@ -1355,10 +1355,10 @@ Date: Jan 18, 2021&lt;/p&gt;
       &lt;p&gt;Let $x(t)$ be the amount of drug in the body at any time $t$.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Differential equation: $x&amp;rsquo;=15-0.8x$. Initial condition $x(0)=0$. Particular solution: $x(t)=18.75-18.75e^{-0.8t}$ and the maximum amount of drug in the body will be 18.75 mg.&lt;/p&gt;
+&lt;p&gt;Differential equation: $x&#39;=15-0.8x$. Initial condition $x(0)=0$. Particular solution: $x(t)=18.75-18.75e^{-0.8t}$ and the maximum amount of drug in the body will be 18.75 mg.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Differential equation: $x&amp;rsquo;=-0.8x$. Initial condition $x(0)=18.74$. Particular solution: $x(t)=18.74e^{-0.8t}$ and the time required to have 10 mg of drug in the body will be $0.7851$ hours.&lt;/p&gt;
+&lt;p&gt;Differential equation: $x&#39;=-0.8x$. Initial condition $x(0)=18.74$. Particular solution: $x(t)=18.74e^{-0.8t}$ and the time required to have 10 mg of drug in the body will be $0.7851$ hours.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -1406,7 +1406,7 @@ Date: Jan 18, 2021&lt;/p&gt;
 &lt;p&gt;$\nabla T(1,2)=\frac{1}{3}(5,1)$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Let $\mathbf{u}$ the vector $(1,-1/2)$, then $T&amp;rsquo;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p&gt;
+&lt;p&gt;Let $\mathbf{u}$ the vector $(1,-1/2)$, then $T&#39;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Along the direction of the vector $(1,-5)$.&lt;/p&gt;
@@ -1455,7 +1455,7 @@ Date: Jan 18, 2021&lt;/p&gt;
 &lt;p&gt;$\dfrac{dr}{dt}=0.0305$ dm/s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Using the linear approximation $dt = S&amp;rsquo;/dS=37.5013$ seconds approximately.&lt;/p&gt;
+&lt;p&gt;Using the linear approximation $dt = S&#39;/dS=37.5013$ seconds approximately.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -2175,23 +2175,22 @@ Current course: $\sum y_in_i=91$, $\sum y_i^2n_i=341$, $\sum (y_i-\bar y)^3n_i=3
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;
-&lt;img src=&#34;../img/des-gen-12-box-plot-scores.svg&#34; title=&#34;Box plot of scores&#34; alt=&#34;Box plot of scores&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Both distributions are pretty similar. The central dispersion is the same and both are right skewed. The only difference is that
-there is an outlier in the current year distribution.
-2. Previous year course: $\bar x=1.8667$, $s^2=2.16$, $s=1.4697$, $g_1=0.8609$ and $g_2=0.1874$.
+&lt;li&gt;&lt;img src=&#34;../img/des-gen-12-box-plot-scores.svg&#34; title=&#34;Box plot of scores&#34; alt=&#34;Box plot of scores&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;
+Both distributions are pretty similar. The central dispersion is the same and both are right skewed. The only difference is that
+there is an outlier in the current year distribution.&lt;/li&gt;
+&lt;li&gt;Previous year course: $\bar x=1.8667$, $s^2=2.16$, $s=1.4697$, $g_1=0.8609$ and $g_2=0.1874$.
 Current course: $\bar y=2.1163$, $s^2=3.4516$, $s=1.8578$, $g_1=1.0922$ and $g_2=0.9292$.
 As the coefficients of skewness and kurtosis are between -2 and 2, we can assume that both distributions come from a normal
-distribution.
-3. Previous year course: $cv=0.7873$.
+distribution.&lt;/li&gt;
+&lt;li&gt;Previous year course: $cv=0.7873$.
 Current year: $cv=0.8779$.
-Thus, the mean is more representative in the previous year course, since the coefficient of variation is smaller.
-4. Previous year course: $z(6)=2.8124$.
+Thus, the mean is more representative in the previous year course, since the coefficient of variation is smaller.&lt;/li&gt;
+&lt;li&gt;Previous year course: $z(6)=2.8124$.
 Current course: $z(7)=2.6287$.
 Thus, 7 failed subjects in the current course is relatively less than 6 in the previous year course, since the standard score is
-smaller.
+smaller.&lt;/li&gt;
+&lt;/ol&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2627,7 +2626,7 @@ Assuming that the concentration of nitrates remains uniform in the lagoon, what 
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       Let $n(t)$ the amount of nitrates in the lagoon at time $t$.&lt;br&gt;
-Differential equation: $n&amp;rsquo;=-n/60$.&lt;br&gt;
+Differential equation: $n&#39;=-n/60$.&lt;br&gt;
 Solution: $n(t)=10^6 e^{-t/60}$.&lt;br&gt;
 $n(14)=791889.6$ kg.&lt;br&gt;
 The lagoon will be decontaminated after $30.6495$ days.
@@ -3124,7 +3123,7 @@ Thus the distribution of the population $A$ group is less asymmetric since $g_{1
       &lt;ol&gt;
 &lt;li&gt;$Q_1=12$, $Q_2=15$, $Q_3=18$, $IQR=6$, $f_1=3$, $f_2=27$, $Min=5$ and $Max=25$.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src=&#34;../img/des-gen-7-boxplot.svg&#34; title=&#34;blox plot&#34; alt=&#34;box plot of symmetric distribution&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-gen-7-boxplot.svg&#34; title=&#34;blox plot&#34; alt=&#34;box plot of symmetric distribution&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Yes, because $2&amp;lt;f_1$.&lt;/li&gt;
 &lt;/ol&gt;
@@ -3232,7 +3231,7 @@ Without prevention program: $\sum y_i=66$ injuries, $\sum y_i^2=362$ injuries$^2
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;
-&lt;img src=&#34;../img/des-fis-5-cumulative-frequencies-polygon.svg&#34; title=&#34;Cumulative relative frequency polygon of spinal injuries&#34; alt=&#34;Cumulative relative frequency polygon of spinal injuries&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/des-fis-5-cumulative-frequencies-polygon.svg&#34; title=&#34;Cumulative relative frequency polygon of spinal injuries&#34; alt=&#34;Cumulative relative frequency polygon of spinal injuries&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;With prevention program: $Q_1=2$ injuries, $Q_3=4$ injuries, $IQR=2$ injuries.&lt;br&gt;
@@ -3903,7 +3902,7 @@ If initially there is no alcohol and we start to introduce alcohol in the organi
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       Let $a$ be the alcohol in the organism and $t$ the time.&lt;br&gt;
-Differential equation: $a&amp;rsquo;=2-a/2$.&lt;br&gt;
+Differential equation: $a&#39;=2-a/2$.&lt;br&gt;
 Solution: $a(t)=4-4e^{-t/2}$.&lt;br&gt;
 $a(5)=3.6717$ ml.
     &lt;/div&gt;
@@ -3920,8 +3919,8 @@ Knowing that the equation $x^2y^3-6x^3y^2+2xy=1$ is satisfied in this culture an
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      Implicit derivative: $y&amp;rsquo;= \dfrac{-2xy^3+18x^2y^2+2y}{3x^2y^2-12x^3y+2x}$.&lt;br&gt;
-$y&amp;rsquo;(1/2)=6\neq 0$, so $f$ has no local maximum at $x=1/2$.
+      Implicit derivative: $y&#39;= \dfrac{-2xy^3+18x^2y^2+2y}{3x^2y^2-12x^3y+2x}$.&lt;br&gt;
+$y&#39;(1/2)=6\neq 0$, so $f$ has no local maximum at $x=1/2$.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -3943,7 +3942,7 @@ What would be the rate of change of the volume if we changed the dimensions in s
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;$\nabla V(3,4,6)=(8,6,4)$ and the volume will increase $|\nabla V(3,4,6)|=10.7703$ cm$^3$/s if we change the dimensions of the capsule following this direction.&lt;/li&gt;
-&lt;li&gt;Directional derivative of $V$ in $(3,4,6)$ along the vector $\mathbf{u}=(1,-1/2,2)$: $V&amp;rsquo;_{\mathbf{u}}(3,4,6)=5.6737$ cm$^3$/s.&lt;/li&gt;
+&lt;li&gt;Directional derivative of $V$ in $(3,4,6)$ along the vector $\mathbf{u}=(1,-1/2,2)$: $V&#39;_{\mathbf{u}}(3,4,6)=5.6737$ cm$^3$/s.&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -3978,7 +3977,7 @@ Compute the amount of $n$ and $p$ that maximizes the yield of the crop.&lt;/p&gt
 Date: December 17, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
 &lt;p&gt;The chart below represents the cumulative distribution of the number of daily defective drugs produced by a machine in a sample of 40 days.&lt;/p&gt;
-&lt;img src=&#34;../img/question1-1.svg&#34; title=&#34;plot of chunk question1&#34; alt=&#34;plot of chunk question1&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/question1-1.svg&#34; title=&#34;plot of chunk question1&#34; alt=&#34;plot of chunk question1&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Construct the frequency table of the number of defective drugs.&lt;/li&gt;
 &lt;li&gt;Draw the box and whiskers plot of the number of defective drugs.&lt;/li&gt;
@@ -3995,8 +3994,7 @@ Date: December 17, 2018&lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;$$\begin{array}{|c|r|r|r|r|}
+&lt;li&gt;$$\begin{array}{|c|r|r|r|r|}
 \hline
 \mbox{Defective drugs} &amp;amp; n_i &amp;amp; f_i &amp;amp; N_i &amp;amp; F_i\newline
 \hline
@@ -4012,20 +4010,16 @@ Date: December 17, 2018&lt;/p&gt;
 9 &amp;amp; 1 &amp;amp; 0.025 &amp;amp; 40 &amp;amp; 1.000\newline
 \hline
 \end{array}
-$$&lt;/p&gt;
-&lt;/li&gt;
+$$&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$cv_x=0.5015$,
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../img/boxplot-1.svg&#34; title=&#34;plot of chunk boxplot&#34; alt=&#34;plot of chunk boxplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/li&gt;
+&lt;li&gt;$cv_x=0.5015$,
 $\bar y=13.925$ drugs, $s_y=5.9808$ drugs and $cv_y=0.4295$.
-Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/p&gt;
-&lt;/li&gt;
+Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/li&gt;
+&lt;li&gt;$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -4717,7 +4711,7 @@ The clinic requires 5 phisiotherapists, since $P(X&amp;gt;5)=0.0527$ and $P(Y&am
 Date: April 9, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
 &lt;p&gt;The chart below describes the distribution of the head arc of rotation (in degrees) in people working with and without computers.&lt;/p&gt;
-&lt;img src=&#34;../img/histogram_head_arc_rotation-1.svg&#34; title=&#34;plot of chunk histogram_head_arc_rotation&#34; alt=&#34;plot of chunk histogram_head_arc_rotation&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/histogram_head_arc_rotation-1.svg&#34; title=&#34;plot of chunk histogram_head_arc_rotation&#34; alt=&#34;plot of chunk histogram_head_arc_rotation&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Plot the ogive of the head arc of rotation for people working with computers.&lt;/li&gt;
 &lt;li&gt;If a person with a head arc of rotation less than or equal to 115 degrees is considered a person with reduced mobility, what percentage of people working with computers has reduced mobility?&lt;/li&gt;
@@ -4739,23 +4733,16 @@ Without computers: $\sum x_i=4230$ degrees, $\sum x_i^2=645900$ degrees$^2$, $\s
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../img/ogive_head_arc_rotation-1.svg&#34; title=&#34;plot of chunk ogive_head_arc_rotation&#34; alt=&#34;plot of chunk ogive_head_arc_rotation&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/li&gt;
+&lt;li&gt;With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
 Without computer:  $\bar x=151.0714$ degrees, $s_x^2=245.2806$ degrees², $s_x=15.6614$ degrees and $cv_x=0.1037$
-The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar x=141.3793$.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/p&gt;
-&lt;/li&gt;
+The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/li&gt;
+&lt;li&gt;$\bar x=141.3793$.&lt;/li&gt;
+&lt;li&gt;With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/li&gt;
+&lt;li&gt;Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -4850,7 +4837,7 @@ When will that maximum amount be achieved?&lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       Let $y$ be the alcohol in the organism and $t$ the time.&lt;br&gt;
-Differential equation: $y&amp;rsquo;=12-3y$.&lt;br&gt;
+Differential equation: $y&#39;=12-3y$.&lt;br&gt;
 Solution: $y(t)=4-4e^{-3t}$.&lt;br&gt;
 $y(5)=3.99$ cl.&lt;br&gt;
 The maximum amount of alcohol will be 4 cl and it will be achieved at $t=\infty$.
@@ -4891,7 +4878,7 @@ $$&lt;/p&gt;
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      Directional derivative of $z$ in $(1,1,1)$ along $\mathbf{v}=(1,-1)$: $z&amp;rsquo;_\mathbf{v}(1,1,1)=\frac{1}{2\sqrt{2}}$.
+      Directional derivative of $z$ in $(1,1,1)$ along $\mathbf{v}=(1,-1)$: $z&#39;_\mathbf{v}(1,1,1)=\frac{1}{2\sqrt{2}}$.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -4955,7 +4942,7 @@ Exponential coefficient of determination of Visits on Age $r^2=0.9716$.
 Thus, the exponential model explains a little bit better the number of visits to the doctor with respect to the age.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&amp;rsquo;+b\log(X)$.&lt;/p&gt;
+&lt;p&gt;We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&#39;+b\log(X)$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -5126,7 +5113,7 @@ The medical team in charge of the trial wants for the test to have a positive pr
 Date: November 27, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
 &lt;p&gt;The following diagram show the NO₂ emissions (𝜇g/m³) in Madrid during the month of October, 2017.&lt;/p&gt;
-&lt;img src=&#34;../img/no2-emissions-histogram-1.svg&#34; title=&#34;plot of chunk no2-emissions-histogram&#34; alt=&#34;plot of chunk no2-emissions-histogram&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/no2-emissions-histogram-1.svg&#34; title=&#34;plot of chunk no2-emissions-histogram&#34; alt=&#34;plot of chunk no2-emissions-histogram&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;The European Standards on Air Quality establish that the average monthly value cannot be over 40 𝜇g/m³ for a healthy environment.
 Was this requirement met during the month of October?
@@ -5270,7 +5257,7 @@ Suppose a baby&amp;rsquo;s weight was 3.3 kg at birth, and 4.3 kg a month later.
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;Let $t$ the time and $w(t)$ the weight of the baby at time $t$.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Differential equation: $w&amp;rsquo;=\dfrac{k}{w}$&lt;br&gt;
+&lt;li&gt;Differential equation: $w&#39;=\dfrac{k}{w}$&lt;br&gt;
 Particular solution: $w(t)=\sqrt{7.6t+10.89}$.&lt;br&gt;
 $w(12)=10.1$ kg.&lt;/li&gt;
 &lt;li&gt;At 7 months.&lt;/li&gt;
@@ -5297,7 +5284,7 @@ $w(12)=10.1$ kg.&lt;/li&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;$f$ has a local maximum at $(0,1)$ and the maximum value is $z=f(0,1)=1/\sqrt{e}$.&lt;/li&gt;
-&lt;li&gt;Directional derivative of $f$ at $(1,0)$ along the direction of $v=(2,1)$: $f&amp;rsquo;_v(1,0)=\frac{1}{e\sqrt{5}}$.&lt;/li&gt;
+&lt;li&gt;Directional derivative of $f$ at $(1,0)$ along the direction of $v=(2,1)$: $f&#39;_v(1,0)=\frac{1}{e\sqrt{5}}$.&lt;/li&gt;
 &lt;li&gt;$P^2_{f,(1,0)}(x,y)=\displaystyle\frac{-2xy+3y}{e}$.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -5370,22 +5357,20 @@ People without CDH: $\sum x_i=78090$, $\sum x_i^2=15650100$, $\sum(x_i-\bar x)^3
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../img/time_electronic_gadgets_ogive-1.svg&#34; title=&#34;plot of chunk time_electronic_gadgets_ogive&#34; alt=&#34;plot of chunk time_electronic_gadgets_ogive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2.
+&lt;img src=&#34;../img/time_electronic_gadgets_boxplot-1.svg&#34; title=&#34;plot of chunk time_electronic_gadgets_boxplot&#34; alt=&#34;plot of chunk time_electronic_gadgets_boxplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
 People without CDH: $\bar x=169.3926$ points, $s=72.4865$ points, $cv=0.4279$.
-Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;People with CDF: $g_1=-0.2997$.&lt;br&gt;
+Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/li&gt;
+&lt;li&gt;People with CDF: $g_1=-0.2997$.&lt;br&gt;
 People without CDF: $g_1=-0.0184$.&lt;br&gt;
-Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Person with CDH: $z(200)=-0.2028$.&lt;br&gt;
+Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Person with CDH: $z(200)=-0.2028$.&lt;br&gt;
 Person without CDH: $z(200)=0.4222$&lt;br&gt;
-The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/p&gt;
-&lt;/li&gt;
+The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -5830,8 +5815,8 @@ Remark: velocity is the variation of space with respect to time, and acceleratio
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;$f&amp;rsquo;(t)=(\frac{e^{t/2}}{2},2\sin t \cos t, \frac{-(1-t)^{-2/3}}{3})$ and $f&amp;rsquo;(0)=(\frac{1}{2},0,-\frac{1}{3})$.
-$f&amp;rsquo;&amp;rsquo;(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\sin^2 t), \frac{-2(1-t)^{-5/3}}{9})$ and $f&amp;rsquo;&amp;rsquo;(0)=(\frac{1}{4},2,-\frac{2}{9})$.&lt;/li&gt;
+&lt;li&gt;$f&#39;(t)=(\frac{e^{t/2}}{2},2\sin t \cos t, \frac{-(1-t)^{-2/3}}{3})$ and $f&#39;(0)=(\frac{1}{2},0,-\frac{1}{3})$.
+$f&#39;&#39;(t)=(\frac{e^{t/2}}{4},2(\cos^2 t-\sin^2 t), \frac{-2(1-t)^{-5/3}}{9})$ and $f&#39;&#39;(0)=(\frac{1}{4},2,-\frac{2}{9})$.&lt;/li&gt;
 &lt;li&gt;Normal plane to the trajectory at time $t=0$: $3x-2z=1$.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -5879,10 +5864,10 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;$Me=18.89$ min.&lt;/li&gt;
-&lt;li&gt;10% of patients have waited for longer than 38 minutes.&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;p&gt;&lt;img src=&#34;../img/ogive_waiting_time_emergency-1.svg&#34; title=&#34;plot of chunk ogive_waiting_time_emergency&#34; alt=&#34;plot of chunk ogive_waiting_time_emergency&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. $Me=18.89$ min.
+3. 10% of patients have waited for longer than 38 minutes.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -5916,13 +5901,13 @@ $\sum b_i=20$, $\sum b_i^2=52$, $\sum (b_i-\bar b)^3=49.5$, $\sum (b_i-\bar b)^4
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;$\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$.
-$\bar b=1.25$ pregnancies, $s_b^2=1.6875$ pregnancies², $s_b=1.299$ pregnancies, $cv_b=1.0392$.
-As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$.&lt;/li&gt;
-&lt;li&gt;$g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$.&lt;/li&gt;
-&lt;li&gt;$z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;p&gt;&lt;img src=&#34;../img/fertility_boxplot-1.svg&#34; title=&#34;plot of chunk fertility_boxplot&#34; alt=&#34;plot of chunk fertility_boxplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. $\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$.
+$\bar b=1.25$ pregnancies, $s_b^2=1.6875$ pregnancies², $s_b=1.299$ pregnancies, $cv_b=1.0392$.
+As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$.
+3. $g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$.
+5. $z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -6306,7 +6291,7 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;$-\nabla f(1,1,1)=(-e,-e,e)$. The rate of decrease is $\sqrt{3}e$.&lt;/li&gt;
-&lt;li&gt;Taking the vector $\mathbf{u}=(1,2,1/2)$, $f_{\mathbf{u}}&amp;rsquo;(1,1,1)=5e/\sqrt{21}$. This means that for each unit in the direction of the vector $(1,2,1/2)$ the function will increase $5e/\sqrt{21}$ units.&lt;/li&gt;
+&lt;li&gt;Taking the vector $\mathbf{u}=(1,2,1/2)$, $f_{\mathbf{u}}&#39;(1,1,1)=5e/\sqrt{21}$. This means that for each unit in the direction of the vector $(1,2,1/2)$ the function will increase $5e/\sqrt{21}$ units.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -6331,7 +6316,7 @@ where $k$ is a positive constant.&lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;Differential equation: $y&amp;rsquo;=k\dfrac{y}{x}$.&lt;br&gt;
+&lt;li&gt;Differential equation: $y&#39;=k\dfrac{y}{x}$.&lt;br&gt;
 General solution: $y=cx^k$.&lt;/li&gt;
 &lt;li&gt;Particular solution: $y=0.5778 x^{0.0794}$.&lt;/li&gt;
 &lt;/ol&gt;
@@ -6796,7 +6781,7 @@ Use relative frequencies to estimate probabilities in following questions:&lt;/p
 &lt;h2 id=&#34;question-4&#34;&gt;Question 4&lt;/h2&gt;
 &lt;p&gt;The level of severity $X$ of an injury is classified in a scale from 1 to 5, from low to high severity.
 The probability distribution of $X$ in a population is plotted below.&lt;/p&gt;
-&lt;img src=&#34;../img/severity_probability_function-1.svg&#34; title=&#34;plot of chunk severity_probability_function&#34; alt=&#34;plot of chunk severity_probability_function&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/severity_probability_function-1.svg&#34; title=&#34;plot of chunk severity_probability_function&#34; alt=&#34;plot of chunk severity_probability_function&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Calculate and plot the distribution function.&lt;/li&gt;
 &lt;li&gt;Calculate the following probabilities: $P(X\leq 2)$, $P(X&amp;gt;3)$, $P(X=4.2)$ and $P(1&amp;lt;X\leq 4.2)$.&lt;/li&gt;
@@ -6996,7 +6981,7 @@ Assuming that the LDL cholesterol level follows a normal distribution,&lt;/p&gt;
 Date: April 01, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
 &lt;p&gt;The chart below shows the cumulative frequency distribution the maximum angle of knee deflection after a replacement of the knee cap in a group of patients.&lt;/p&gt;
-&lt;img src=&#34;../img/knee_angle-1.svg&#34; title=&#34;plot of chunk knee_angle&#34; alt=&#34;plot of chunk knee_angle&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/knee_angle-1.svg&#34; title=&#34;plot of chunk knee_angle&#34; alt=&#34;plot of chunk knee_angle&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Calculate the quartiles and interpret them.&lt;/li&gt;
 &lt;li&gt;Are there outliers in the sample?&lt;/li&gt;

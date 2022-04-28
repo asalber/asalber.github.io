@@ -7,7 +7,7 @@
     <description>Asíntota</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Asíntota</title>
       <link>/tag/asintota/</link>
     </image>
@@ -109,7 +109,7 @@ x      &amp;amp; f(x)   \newline
 \Downarrow\newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{1}{\sqrt{x^2-1}}
 \end{array}$$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/limite_no_existe_1.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función que no tiene límite&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/limite_no_existe_1.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función que no tiene límite&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;límites-que-no-existen-ii&#34;&gt;Límites que no existen (II)&lt;/h3&gt;
 &lt;p&gt;Cuando los límites laterales no coinciden entonces no existe el límite&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos la función $f(x)=\dfrac{\lvert x\rvert}{x}$ y veamos que pasa cuando $x\rightarrow 0$:&lt;/p&gt;
@@ -148,7 +148,7 @@ x      &amp;amp; f(x)   \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{|x|}{x}
 \end{array}
 $$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/limite_no_existe_2.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función que no tiene límite&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/limite_no_existe_2.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función que no tiene límite&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;límites-que-no-existen-iii&#34;&gt;Límites que no existen (III)&lt;/h3&gt;
 &lt;p&gt;A veces, cuando $x\rightarrow a$ los valores de $f(x)$ crecen o decrecen infinitamente y entonces no existe el límite. En este caso se dice que la función &lt;em&gt;diverge&lt;/em&gt; y se escribe&lt;/p&gt;
 &lt;p&gt;$$\lim_{x\rightarrow a}f(x)=\pm \infty$$&lt;/p&gt;
@@ -189,7 +189,7 @@ x      &amp;amp; f(x)   \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0}\frac{1}{x^2}=\infty
 \end{array}
 $$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/limite_no_existe_3.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función que no tiene límite&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/limite_no_existe_3.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función que no tiene límite&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;límites-que-no-existen-iv&#34;&gt;Límites que no existen (IV)&lt;/h3&gt;
 &lt;p&gt;A veces, el límite de un función en un punto puede no existir porque la función oscila rápidamente al acercarnos a dicho punto.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos la función $f(x)=\operatorname{sen} \dfrac{1}{x}$ y veamos que pasa cuando $x\rightarrow 0$:&lt;/p&gt;
@@ -236,7 +236,7 @@ x      &amp;amp; f(x)   \newline
 \displaystyle \textrm{No existe }\lim_{x\rightarrow 0^+}\operatorname{sen} \frac{1}{x}
 \end{array}
 $$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/limite_no_existe_4.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función que no tiene límitee&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/limite_no_existe_4.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función que no tiene límitee&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;límites-en-el-infinito&#34;&gt;Límites en el infinito&lt;/h3&gt;
 &lt;p&gt;Si $f(x)$ tiende a $l$ cuando $x$ crece infinitamente, entonces se dice que $l$ es el &lt;em&gt;límite en el infinito&lt;/em&gt; de $f(x)$ cuando $x\rightarrow +\infty$, y se escribe&lt;/p&gt;
 &lt;p&gt;$$\lim_{x\rightarrow +\infty}f(x)=l.$$&lt;/p&gt;
@@ -275,7 +275,7 @@ x      &amp;amp; f(x)=1/x   \newline
 \lim_{x\rightarrow -\infty}\frac{1}{x}=0
 \end{array}
 $$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/limite_infinito.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función con límite en el infinito&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/limite_infinito.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una función con límite en el infinito&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;definición-de-límite&#34;&gt;Definición de límite&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -284,7 +284,7 @@ $$&lt;/p&gt;
 &lt;p&gt;si para cualquier valor $\varepsilon&amp;gt;0$ existe un número $\delta&amp;gt;0$ tal que, $|f(x)-l|&amp;lt;\varepsilon$ siempre que $0&amp;lt;|x-a|&amp;lt;\delta$.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src=&#34;../img/limites_continuidad/definicion_limite.png&#34; width=&#34;300px&#34; alt=&#34;Explicación gráfica de la definición de límite&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/definicion_limite.png&#34; width=&#34;300px&#34; alt=&#34;Explicación gráfica de la definición de límite&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;definición-de-límite-en-el-infinito&#34;&gt;Definición de límite en el infinito&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -415,13 +415,13 @@ $$&lt;/p&gt;
 &lt;h4 id=&#34;regla-de-lhôpital&#34;&gt;Regla de L&amp;rsquo;Hôpital&lt;/h4&gt;
 &lt;div class=&#34;alert alert-theo&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Teorema - Regla de L’Hôpital&lt;/strong&gt;. Si $\dfrac{f(x)}{g(x)}\rightarrow \dfrac{0}{0}$ o $\dfrac{\infty}{\infty}$ cuando $x\rightarrow a$, entonces si existe el límite de $\dfrac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}$ cuando $x\rightarrow a$ se cumple&lt;/p&gt;
-&lt;p&gt;$$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}.$$&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Teorema - Regla de L’Hôpital&lt;/strong&gt;. Si $\dfrac{f(x)}{g(x)}\rightarrow \dfrac{0}{0}$ o $\dfrac{\infty}{\infty}$ cuando $x\rightarrow a$, entonces si existe el límite de $\dfrac{f&#39;(x)}{g&#39;(x)}$ cuando $x\rightarrow a$ se cumple&lt;/p&gt;
+&lt;p&gt;$$\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f&#39;(x)}{g&#39;(x)}.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
-    Para que exista $\lim_{x\rightarrow a}\dfrac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)}$ es necesario que que $f$ y $g$ sean derivables en un entorno de $a$.
+    Para que exista $\lim_{x\rightarrow a}\dfrac{f&#39;(x)}{g&#39;(x)}$ es necesario que que $f$ y $g$ sean derivables en un entorno de $a$.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Sea $f(x)=\dfrac{\log(x^2-1)}{x+2}\rightarrow \dfrac{\infty}{\infty}$ cuando $x\rightarrow \infty$.&lt;/p&gt;
@@ -429,8 +429,8 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
 \lim_{x\rightarrow \infty}\frac{\log(x^2-1)}{x+2} &amp;amp;= \lim_{x\rightarrow
-\infty}\frac{\left(\log(x^2-1)\right)&amp;rsquo;}{\left(x+2\right)&amp;rsquo;}= \lim_{x\rightarrow \infty}\frac{\frac{2x}{x^2-1}}{1}=\newline
-&amp;amp;=\lim_{x\rightarrow \infty}\frac{2x}{x^2-1}= \lim_{x\rightarrow \infty}\frac{\left(2x\right)&amp;rsquo;}{\left(x^2-1\right)&amp;rsquo;}=
+\infty}\frac{\left(\log(x^2-1)\right)&#39;}{\left(x+2\right)&#39;}= \lim_{x\rightarrow \infty}\frac{\frac{2x}{x^2-1}}{1}=\newline
+&amp;amp;=\lim_{x\rightarrow \infty}\frac{2x}{x^2-1}= \lim_{x\rightarrow \infty}\frac{\left(2x\right)&#39;}{\left(x^2-1\right)&#39;}=
 \lim_{x\rightarrow \infty}\frac{2}{2x}=0.
 \end{aligned}
 $$&lt;/p&gt;
@@ -447,7 +447,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
 \lim_{x\rightarrow 0}\frac{e^{1/x^2}}{1/x^2} &amp;amp;= \lim_{x\rightarrow
-0}\frac{\left(e^{1/x^2}\right)&amp;rsquo;}{\left(1/x^2\right)&amp;rsquo;} = \lim_{x\rightarrow
+0}\frac{\left(e^{1/x^2}\right)&#39;}{\left(1/x^2\right)&#39;} = \lim_{x\rightarrow
 0}\frac{e^{1/x^2}\frac{-2}{x^3}}{\frac{-2}{x^3}} = \lim_{x\rightarrow 0}e^{1/x^2}=\infty.
 \end{aligned}
 $$&lt;/p&gt;
@@ -466,7 +466,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Aplicando ahora la regla de L´Hôpital tenemos:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
-\exp\left(\lim_{x\rightarrow 0}\frac{\left(\log\left(1+\frac{1}{x}\right)\right)&amp;rsquo;}{\left(1/x\right)&amp;rsquo;}\right) &amp;amp;=
+\exp\left(\lim_{x\rightarrow 0}\frac{\left(\log\left(1+\frac{1}{x}\right)\right)&#39;}{\left(1/x\right)&#39;}\right) &amp;amp;=
 \exp\left(\lim_{x\rightarrow 0}\frac{\frac{1}{1+1/x}\frac{-1}{x^2}}{\frac{-1}{x^2}}\right) =
 \exp\left(\lim_{x\rightarrow 0}\frac{1}{1+\frac{1}{x}}\right)=\exp(1)=e.
 \end{aligned}
@@ -485,9 +485,9 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
 \lim_{x\rightarrow 0} \frac{x-\operatorname{sen} x}{x\operatorname{sen} x} &amp;amp; =
-\lim_{x\rightarrow 0} \frac{\left(x-\operatorname{sen} x\right)&amp;rsquo;}{\left(x\operatorname{sen} x\right)&amp;rsquo;}=
+\lim_{x\rightarrow 0} \frac{\left(x-\operatorname{sen} x\right)&#39;}{\left(x\operatorname{sen} x\right)&#39;}=
 \lim_{x\rightarrow 0} \frac{1-\cos x}{\operatorname{sen} x +x\cos x} = \newline
-&amp;amp;= \lim_{x\rightarrow 0} \frac{\left(1-\cos x\right)&amp;rsquo;}{\left(\operatorname{sen} x +x\cos x\right)&amp;rsquo;} =
+&amp;amp;= \lim_{x\rightarrow 0} \frac{\left(1-\cos x\right)&#39;}{\left(\operatorname{sen} x +x\cos x\right)&#39;} =
 \lim_{x\rightarrow 0} \frac{\operatorname{sen} x}{\cos x +\cos x-x\operatorname{sen} x}=\newline
 &amp;amp;= \frac{0}{2}=0.
 \end{aligned}
@@ -510,7 +510,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Las asíntotas verticales deben buscarse en los puntos donde no está definida la función, pero si lo está en las proximidades.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La recta $x=2$ es una asíntota vertical de $f(x)=\dfrac{x+1}{x-2}$ ya que&lt;/p&gt;
 &lt;p&gt;$$\lim_{x\rightarrow 2^-}\frac{x+1}{x-2} =-\infty, \mbox{ y } \lim_{x\rightarrow 2^+}\frac{x+1}{x-2} =\infty.$$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/asintota_vertical.png&#34; width=&#34;350px&#34; alt=&#34;Gráfica de una asíntota vertical&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/asintota_vertical.png&#34; width=&#34;350px&#34; alt=&#34;Gráfica de una asíntota vertical&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;asíntotas-horizontales&#34;&gt;Asíntotas horizontales&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -525,7 +525,7 @@ $$&lt;/p&gt;
 \lim_{x\rightarrow +\infty}\frac{x+1}{x-2}&amp;amp;= \lim_{x\rightarrow +\infty}1+\frac{3}{x-2} = 1.
 \end{aligned}
 $$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/asintota_horizontal.png&#34; width=&#34;350px&#34; alt=&#34;Gráfica de una asíntota horizontal&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/asintota_horizontal.png&#34; width=&#34;350px&#34; alt=&#34;Gráfica de una asíntota horizontal&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;asíntotas-oblicuas&#34;&gt;Asíntotas oblicuas&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -542,7 +542,7 @@ $$&lt;/p&gt;
 \lim_{x\rightarrow \pm\infty}1+\frac{x}{x-1} = 1
 \end{aligned}
 $$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/asintota_oblicua.png&#34; width=&#34;350px&#34; alt=&#34;Gráfica de una asíntota vertical&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/asintota_oblicua.png&#34; width=&#34;350px&#34; alt=&#34;Gráfica de una asíntota vertical&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;continuidad&#34;&gt;Continuidad&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -579,7 +579,7 @@ $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función $f(x)=\dfrac{x^2-1}{x-1}$ tiene una discontinuidad evitable en $x=1$ ya que la función no está definida en $x=1$ pero&lt;/p&gt;
 &lt;p&gt;$$\lim_{x\rightarrow 2}\frac{x^2-1}{x-1} = \lim_{x\rightarrow 2}x+1=2.$$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/discontinuidad_evitable.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una discontinuidad evitable&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/discontinuidad_evitable.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una discontinuidad evitable&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;discontinuidad-de-1ª-especie-de-salto-finito&#34;&gt;Discontinuidad de 1ª especie de salto finito&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -596,7 +596,7 @@ $$&lt;/p&gt;
 \end{aligned}
 $$&lt;/p&gt;
 &lt;p&gt;Salto $= 1-(-1)=2$.&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/discontinuidad_salto_finito.png&#34; width=&#34;350px&#34; alt=&#34;Gráfica de una discontinuidad de salto finito&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/discontinuidad_salto_finito.png&#34; width=&#34;350px&#34; alt=&#34;Gráfica de una discontinuidad de salto finito&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;discontinuidad-de-1ª-especie-de-salto-infinito&#34;&gt;Discontinuidad de 1ª especie de salto infinito&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -612,7 +612,7 @@ $$&lt;/p&gt;
 \lim_{x\rightarrow 0^+}e^{1/x}&amp;amp;= \infty
 \end{aligned}
 $$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/discontinuidad_salto_infinito.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una discontinuidad de salto infinito&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/discontinuidad_salto_infinito.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una discontinuidad de salto infinito&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;discontinuidad-de-2ª-especie&#34;&gt;Discontinuidad de 2ª especie&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
@@ -627,7 +627,7 @@ $$&lt;/p&gt;
 &amp;amp; \lim_{x\rightarrow 1^+}\frac{1}{\sqrt{x^2-1}}=\infty
 \end{aligned}
 $$&lt;/p&gt;
-&lt;img src=&#34;../img/limites_continuidad/discontinuidad_2_especie.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una discontinuidad de 2ª especie&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../img/limites_continuidad/discontinuidad_2_especie.png&#34; width=&#34;300px&#34; alt=&#34;Gráfica de una discontinuidad de 2ª especie&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Notas&lt;/strong&gt;&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;

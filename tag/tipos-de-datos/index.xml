@@ -7,7 +7,7 @@
     <description>Tipos de Datos</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Tipos de Datos</title>
       <link>/tag/tipos-de-datos/</link>
     </image>
@@ -314,7 +314,7 @@ Escribir un programa que comience leyendo el número de barras vendidas que no s
 &lt;li&gt;&lt;strong&gt;Tuplas&lt;/strong&gt; (tuples). Colecciones de objetos que representan secuencias ordenadas de objetos de distintos tipos. A diferencia de las listas son inmutables, es decir, que no cambian durante la ejecución. Se representan mediante paréntesis y los elementos se separan por comas.&lt;br&gt;
 &lt;strong&gt;Ejemplo&lt;/strong&gt;. (1, &amp;lsquo;dos&amp;rsquo;, 3)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Diccionarios&lt;/strong&gt; (dictionaries): Colecciones de objetos con una clave asociada. Se representan con llaves, los pares separados por comas y cada par contiene una clave y un objeto asociado separados por dos puntos.&lt;br&gt;
-&lt;strong&gt;Ejemplo&lt;/strong&gt;. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;rsquo;e&amp;rsquo;:2.718}.&lt;/li&gt;
+&lt;strong&gt;Ejemplo&lt;/strong&gt;. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;lsquo;e&amp;rsquo;:2.718}.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;clase-de-un-dato-type&#34;&gt;Clase de un dato (&lt;code&gt;type()&lt;/code&gt;)&lt;/h2&gt;
 &lt;p&gt;La clase a la que pertenece un dato se obtiene con el comando &lt;code&gt;type()&lt;/code&gt;&lt;/p&gt;
@@ -399,7 +399,7 @@ False
 True
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;cadenas-clase-str&#34;&gt;Cadenas (clase &lt;code&gt;str&lt;/code&gt;)&lt;/h2&gt;
-&lt;p&gt;Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas &amp;rsquo; o dobles &amp;ldquo;.&lt;/p&gt;
+&lt;p&gt;Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas &#39; o dobles &amp;ldquo;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&#39;Python&#39;
 &amp;quot;123&amp;quot;
 &#39;True&#39;

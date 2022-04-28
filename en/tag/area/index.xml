@@ -7,7 +7,7 @@
     <description>Area</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Area</title>
       <link>/en/tag/area/</link>
     </image>
@@ -20,10 +20,10 @@
       <description>&lt;h2 id=&#34;antiderivative-of-a-function&#34;&gt;Antiderivative of a function&lt;/h2&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;strong&gt;Definition - Antiderivative of a function&lt;/strong&gt;. Given a function $f(x)$, the function $F(X)$ is an &lt;em&gt;antiderivative&lt;/em&gt; or &lt;em&gt;primitive function&lt;/em&gt; of $f$ if it satisfies that $F&amp;rsquo;(x)=f(x)$ $\forall x \in \mathop{\rm Dom}(f)$.
+    &lt;strong&gt;Definition - Antiderivative of a function&lt;/strong&gt;. Given a function $f(x)$, the function $F(X)$ is an &lt;em&gt;antiderivative&lt;/em&gt; or &lt;em&gt;primitive function&lt;/em&gt; of $f$ if it satisfies that $F&#39;(x)=f(x)$ $\forall x \in \mathop{\rm Dom}(f)$.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $F(x)=x^2$ is an antiderivative of the function $f(x)=2x$ as $F&amp;rsquo;(x)=2x$ on $\mathbb{R}$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The function $F(x)=x^2$ is an antiderivative of the function $f(x)=2x$ as $F&#39;(x)=2x$ on $\mathbb{R}$.&lt;/p&gt;
 &lt;p&gt;Roughly speaking, the calculus of antiderivatives is the reverse process of differentiation, and that is the reason for the name of antiderivative.&lt;/p&gt;
 &lt;h3 id=&#34;indefinite-integral-of-a-function&#34;&gt;Indefinite integral of a function&lt;/h3&gt;
 &lt;p&gt;As two functions that differs in a constant term have the same derivative, if $F(x)$ is an antiderivative of $f(x)$, so will be any function of the form $F(x)+k$ $\forall k \in \mathbb{R}$. This means that, when a function has an antiderivative, it has an infinite number of antiderivatives.&lt;/p&gt;
@@ -84,8 +84,8 @@
 &lt;div class=&#34;alert alert-theo&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Theorem - Integration by parts&lt;/strong&gt;. Given two differentiable functions $u(x)$ and $v(x)$,&lt;/p&gt;
-&lt;p&gt;$$\int{u(x)v&amp;rsquo;(x)}\,dx=u(x)v(x)-\int{u&amp;rsquo;(x)v(x)}\,dx,$$&lt;/p&gt;
-&lt;p&gt;or, writing $u&amp;rsquo;(x)dx=du$ and $v&amp;rsquo;(x)dx=dv$,&lt;/p&gt;
+&lt;p&gt;$$\int{u(x)v&#39;(x)}\,dx=u(x)v(x)-\int{u&#39;(x)v(x)}\,dx,$$&lt;/p&gt;
+&lt;p&gt;or, writing $u&#39;(x)dx=du$ and $v&#39;(x)dx=dv$,&lt;/p&gt;
 &lt;p&gt;$$\int{u}\,dv=uv-\int{v}\,du.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -98,11 +98,11 @@
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;p&gt;From the rule for differentiating a product we have&lt;/p&gt;
-&lt;p&gt;$$ (uv)&amp;rsquo; = u&amp;rsquo;v + uv&amp;rsquo; $$&lt;/p&gt;
+&lt;p&gt;$$ (uv)&#39; = u&amp;rsquo;v + uv&#39; $$&lt;/p&gt;
 &lt;p&gt;and computing the integrals both sides we get&lt;/p&gt;
 &lt;p&gt;$$
 \begin{gathered}
-\int (uv)&amp;rsquo; \, dx = \int u&amp;rsquo;v \, dx + \int uv&amp;rsquo;\, dx \Rightarrow\newline
+\int (uv)&#39; \, dx = \int u&amp;rsquo;v \, dx + \int uv&#39;\, dx \Rightarrow\newline
 uv = \int v\,du + \int u\, dv \Rightarrow\newline
 \int{u}\,dv=uv-\int{v}\,du.
 \end{gathered}
@@ -130,9 +130,9 @@ $$&lt;/p&gt;
 &lt;div class=&#34;alert alert-tool&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;From the chain rule for differentiating the composition of two functions&lt;/p&gt;
-&lt;p&gt;$$f(g(x))&amp;rsquo; = f&amp;rsquo;(g(x))g&amp;rsquo;(x),$$&lt;/p&gt;
-&lt;p&gt;we can make a variable change $u=g(x)$, so $du=g&amp;rsquo;(x)dx$, and get&lt;/p&gt;
-&lt;p&gt;$$\int f&amp;rsquo;(g(x))g&amp;rsquo;(x)\, dx = \int f&amp;rsquo;(u)\, du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
+&lt;p&gt;$$f(g(x))&#39; = f&#39;(g(x))g&#39;(x),$$&lt;/p&gt;
+&lt;p&gt;we can make a variable change $u=g(x)$, so $du=g&#39;(x)dx$, and get&lt;/p&gt;
+&lt;p&gt;$$\int f&#39;(g(x))g&#39;(x)\, dx = \int f&#39;(u)\, du = f(u)+C = f(g(x))+C.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. To compute the integral of $\int{\dfrac{1}{x\log x}}\, dx$ we can make the substitution $u=\log x$, so $du=\frac{1}{x}dx$, and we have&lt;/p&gt;

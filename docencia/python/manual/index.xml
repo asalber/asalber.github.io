@@ -7,7 +7,7 @@
     <description>Manual de Python</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Manual de Python</title>
       <link>/docencia/python/manual/</link>
     </image>
@@ -102,7 +102,7 @@ Hola Alf
 &lt;li&gt;&lt;strong&gt;Tuplas&lt;/strong&gt; (tuples). Colecciones de objetos que representan secuencias ordenadas de objetos de distintos tipos. A diferencia de las listas son inmutables, es decir, que no cambian durante la ejecución. Se representan mediante paréntesis y los elementos se separan por comas.&lt;br&gt;
 &lt;strong&gt;Ejemplo&lt;/strong&gt;. (1, &amp;lsquo;dos&amp;rsquo;, 3)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Diccionarios&lt;/strong&gt; (dictionaries): Colecciones de objetos con una clave asociada. Se representan con llaves, los pares separados por comas y cada par contiene una clave y un objeto asociado separados por dos puntos.&lt;br&gt;
-&lt;strong&gt;Ejemplo&lt;/strong&gt;. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;rsquo;e&amp;rsquo;:2.718}.&lt;/li&gt;
+&lt;strong&gt;Ejemplo&lt;/strong&gt;. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;lsquo;e&amp;rsquo;:2.718}.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;clase-de-un-dato-type&#34;&gt;Clase de un dato (&lt;code&gt;type()&lt;/code&gt;)&lt;/h2&gt;
 &lt;p&gt;La clase a la que pertenece un dato se obtiene con el comando &lt;code&gt;type()&lt;/code&gt;&lt;/p&gt;
@@ -187,7 +187,7 @@ False
 True
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;cadenas-clase-str&#34;&gt;Cadenas (clase &lt;code&gt;str&lt;/code&gt;)&lt;/h2&gt;
-&lt;p&gt;Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas &amp;rsquo; o dobles &amp;ldquo;.&lt;/p&gt;
+&lt;p&gt;Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas &#39; o dobles &amp;ldquo;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&#39;Python&#39;
 &amp;quot;123&amp;quot;
 &#39;True&#39;
@@ -3412,7 +3412,7 @@ Hola Alf
 &lt;li&gt;&lt;strong&gt;Tuplas&lt;/strong&gt; (tuples). Colecciones de objetos que representan secuencias ordenadas de objetos de distintos tipos. A diferencia de las listas son inmutables, es decir, que no cambian durante la ejecución. Se representan mediante paréntesis y los elementos se separan por comas.&lt;br&gt;
 &lt;strong&gt;Ejemplo&lt;/strong&gt;. (1, &amp;lsquo;dos&amp;rsquo;, 3)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Diccionarios&lt;/strong&gt; (dictionaries): Colecciones de objetos con una clave asociada. Se representan con llaves, los pares separados por comas y cada par contiene una clave y un objeto asociado separados por dos puntos.&lt;br&gt;
-&lt;strong&gt;Ejemplo&lt;/strong&gt;. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;rsquo;e&amp;rsquo;:2.718}.&lt;/li&gt;
+&lt;strong&gt;Ejemplo&lt;/strong&gt;. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;lsquo;e&amp;rsquo;:2.718}.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;clase-de-un-dato&#34;&gt;Clase de un dato&lt;/h2&gt;
 &lt;h4 id=&#34;type&#34;&gt;&lt;code&gt;type()&lt;/code&gt;&lt;/h4&gt;
@@ -4858,29 +4858,25 @@ ZeroDivisionError: division by zero
 &lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;María&amp;rsquo;&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;18&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;Economía&amp;rsquo;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;
-&lt;a href=&#34;mailto:maria@gmail.com&#34;&gt;maria@gmail.com&lt;/a&gt;&amp;rsquo;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;&lt;a href=&#34;mailto:maria@gmail.com&#34;&gt;maria@gmail.com&lt;/a&gt;&amp;rsquo;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;Luis&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;22&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;Medicina&amp;rsquo;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&amp;rsquo;
-&lt;a href=&#34;mailto:luis@yahoo.es&#34;&gt;luis@yahoo.es&lt;/a&gt;&amp;rsquo;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;&lt;a href=&#34;mailto:luis@yahoo.es&#34;&gt;luis@yahoo.es&lt;/a&gt;&amp;rsquo;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;Carmen&amp;rsquo;&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;20&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;Arquitectura&amp;rsquo;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;
-&lt;a href=&#34;mailto:carmen@gmail.com&#34;&gt;carmen@gmail.com&lt;/a&gt;&amp;rsquo;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;&lt;a href=&#34;mailto:carmen@gmail.com&#34;&gt;carmen@gmail.com&lt;/a&gt;&amp;rsquo;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;Antonio&amp;rsquo;&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;21&lt;/td&gt;
 &lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;Economía&amp;rsquo;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;
-&lt;a href=&#34;mailto:antonio@gmail.com&#34;&gt;antonio@gmail.com&lt;/a&gt;&amp;rsquo;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&amp;lsquo;&lt;a href=&#34;mailto:antonio@gmail.com&#34;&gt;antonio@gmail.com&lt;/a&gt;&amp;rsquo;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

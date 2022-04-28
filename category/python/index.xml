@@ -7,7 +7,7 @@
     <description>Python</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Python</title>
       <link>/category/python/</link>
     </image>
@@ -400,7 +400,7 @@ Al final se debe mostrar por pantalla si la pizza elegida es vegetariana o no y 
 &lt;li&gt;&lt;strong&gt;Tuplas&lt;/strong&gt; (tuples). Colecciones de objetos que representan secuencias ordenadas de objetos de distintos tipos. A diferencia de las listas son inmutables, es decir, que no cambian durante la ejecución. Se representan mediante paréntesis y los elementos se separan por comas.&lt;br&gt;
 &lt;strong&gt;Ejemplo&lt;/strong&gt;. (1, &amp;lsquo;dos&amp;rsquo;, 3)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Diccionarios&lt;/strong&gt; (dictionaries): Colecciones de objetos con una clave asociada. Se representan con llaves, los pares separados por comas y cada par contiene una clave y un objeto asociado separados por dos puntos.&lt;br&gt;
-&lt;strong&gt;Ejemplo&lt;/strong&gt;. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;rsquo;e&amp;rsquo;:2.718}.&lt;/li&gt;
+&lt;strong&gt;Ejemplo&lt;/strong&gt;. {&amp;lsquo;pi&amp;rsquo;:3.1416, &amp;lsquo;e&amp;rsquo;:2.718}.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;clase-de-un-dato-type&#34;&gt;Clase de un dato (&lt;code&gt;type()&lt;/code&gt;)&lt;/h2&gt;
 &lt;p&gt;La clase a la que pertenece un dato se obtiene con el comando &lt;code&gt;type()&lt;/code&gt;&lt;/p&gt;
@@ -485,7 +485,7 @@ False
 True
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;cadenas-clase-str&#34;&gt;Cadenas (clase &lt;code&gt;str&lt;/code&gt;)&lt;/h2&gt;
-&lt;p&gt;Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas &amp;rsquo; o dobles &amp;ldquo;.&lt;/p&gt;
+&lt;p&gt;Secuencia de caracteres alfanuméricos que representan texto. Se escriben entre comillas sencillas &#39; o dobles &amp;ldquo;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&#39;Python&#39;
 &amp;quot;123&amp;quot;
 &#39;True&#39;
@@ -4411,7 +4411,7 @@ Teléfonos de Pedro
 &lt;li&gt;Nombre: Juan, Marta, Pedro, Jorge, Blas, Lisa, Antonio&lt;/li&gt;
 &lt;li&gt;Edad: 23,78,22,19,45,33,20&lt;/li&gt;
 &lt;li&gt;Género: M, F, M, M, M, F, M&lt;/li&gt;
-&lt;li&gt;Provincia&amp;rsquo;: Burgos, Madrid, Toledo, Burgos, Madrid, Toledo, Madrid&lt;/li&gt;
+&lt;li&gt;Provincia&#39;: Burgos, Madrid, Toledo, Burgos, Madrid, Toledo, Madrid&lt;/li&gt;
 &lt;li&gt;Hijos: 2,0,0,3,2,1,4&lt;/li&gt;
 &lt;li&gt;Mascotas: 5,1,0,5,2,2,3&lt;/li&gt;
 &lt;/ul&gt;
@@ -4430,7 +4430,7 @@ Teléfonos de Pedro
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Realizar la siguiente gráfica.
-&lt;img src=&#34;../img/diagrama-barras-provincias.png&#34; alt=&#34;&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/diagrama-barras-provincias.png&#34; alt=&#34;&amp;lsquo;Recta de regresión&amp;rsquo;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-06-05/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -4456,7 +4456,7 @@ Fecha: 26 de mayo de 2021&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-pyhton&#34;&gt;x = [1, 2, 3, 4, 5, 6]
 y = [20, 18, 12, 10, 9, 9]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;../img/recta-regresion.png&#34; alt=&#34;&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/recta-regresion.png&#34; alt=&#34;&amp;lsquo;Recta de regresión&amp;rsquo;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Usar las siguientes fórmulas para el cálculo de los estadísticos: $\bar x = \frac{\sum x_i}{n}$, $s^2 = \frac{\sum x_i^2}{n}-\bar{x}^2$, $s_{xy} = \frac{\sum x_iy_j}{n} - \bar{x}\bar{y}$, $b = \frac{s_{xy}}{s_x^2}$ y $a = \bar{y} - b * \bar{x}$.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-05-26/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
@@ -5149,7 +5149,7 @@ Por ejemplo, utilizando el fichero
       <description>&lt;h2 id=&#34;tarea-1&#34;&gt;Tarea 1&lt;/h2&gt;
 &lt;p&gt;La primera tarea consiste en construir un laberinto como el de la siguiente figura.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/laberinto.png&#34; alt=&#34;Laberinto&#34;&gt;&lt;/p&gt;
-&lt;p&gt;El laberinto se representará como una una lista de listas, donde cada lista es una fila del laberinto y cada casilla se representará con un espacio &amp;rsquo; &amp;rsquo; si hay paso o con la letra &amp;lsquo;X&amp;rsquo; si hay un muro, tal y como se muestra a continuación:&lt;/p&gt;
+&lt;p&gt;El laberinto se representará como una una lista de listas, donde cada lista es una fila del laberinto y cada casilla se representará con un espacio &#39; &#39; si hay paso o con la letra &amp;lsquo;X&amp;rsquo; si hay un muro, tal y como se muestra a continuación:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;laberinto = [
     [&#39; &#39;, &#39;X&#39;, &#39;X&#39;, &#39;X&#39;, &#39;X&#39;], 
     [&#39; &#39;, &#39;X&#39;, &#39; &#39;, &#39; &#39;, &#39; &#39;],
