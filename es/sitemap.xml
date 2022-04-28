@@ -113,11 +113,11 @@
     <loc>/docencia/estadistica/ejercicios/regresion-no-lineal/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
-    <loc>/docencia/python/manual/condicionales/</loc>
-    <lastmod>2021-03-17T23:56:43+01:00</lastmod>
-  </url><url>
     <loc>/docencia/calculo/manual/derivadas-una-variable/</loc>
     <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/python/manual/condicionales/</loc>
+    <lastmod>2021-03-17T23:56:43+01:00</lastmod>
   </url><url>
     <loc>/docencia/git/manual/deshacer-cambios/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
@@ -173,11 +173,11 @@
     <loc>/docencia/estadistica/ejercicios/variables-aleatorias-discretas/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
-    <loc>/docencia/estadistica/manual/contrastes/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url><url>
     <loc>/docencia/calculo/manual/derivadas-n-variables/</loc>
     <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/estadistica/manual/contrastes/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/docencia/python/ejercicios/programacion-funcional/</loc>
     <lastmod>2020-09-22T13:20:32+02:00</lastmod>
@@ -1136,10 +1136,10 @@
                 href="/tag/area/"
                 />
   </url><url>
-    <loc>/tag/asociacion/</loc>
+    <loc>/tag/asintota/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
-    <loc>/tag/asintota/</loc>
+    <loc>/tag/asociacion/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/post/</loc>
@@ -1158,6 +1158,15 @@
     <loc>/tag/cadenas/</loc>
     <lastmod>2021-02-11T16:08:21+01:00</lastmod>
   </url><url>
+    <loc>/docencia/calculo/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/derive/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/geogebra/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url><url>
     <loc>/tag/comprension-colecciones/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
@@ -1175,15 +1184,6 @@
   </url><url>
     <loc>/tag/correlacion/</loc>
     <lastmod>2021-10-07T19:16:52+02:00</lastmod>
-  </url><url>
-    <loc>/docencia/calculo/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url><url>
-    <loc>/docencia/derive/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url><url>
-    <loc>/docencia/geogebra/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/tag/depuracion/</loc>
     <lastmod>2020-09-22T13:20:32+02:00</lastmod>
@@ -1228,25 +1228,6 @@
     <loc>/tag/estadistica-descriptiva/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
-    <loc>/tag/exams/</loc>
-    <lastmod>2020-09-21T23:54:54+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tag/exams/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/tag/exams/"
-                />
-  </url><url>
-    <loc>/tag/excepciones/</loc>
-    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url><url>
-    <loc>/tag/extremos/</loc>
-    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
-  </url><url>
     <loc>/tag/examenes/</loc>
     <lastmod>2021-02-01T16:10:56+01:00</lastmod>
   </url><url>
@@ -1268,14 +1249,33 @@
     <loc>/docencia/python/examenes/inteligencia-negocios/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
+    <loc>/tag/exams/</loc>
+    <lastmod>2020-09-21T23:54:54+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tag/exams/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tag/exams/"
+                />
+  </url><url>
+    <loc>/tag/excepciones/</loc>
+    <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url><url>
+    <loc>/tag/extremos/</loc>
+    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+  </url><url>
     <loc>/tag/frecuencias/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
-    <loc>/tag/funciones/</loc>
-    <lastmod>2022-04-05T11:18:20+02:00</lastmod>
-  </url><url>
     <loc>/tag/funcion/</loc>
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
+  </url><url>
+    <loc>/tag/funciones/</loc>
+    <lastmod>2022-04-05T11:18:20+02:00</lastmod>
   </url><url>
     <loc>/category/geogebra/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>

@@ -2034,12 +2034,12 @@ print(producto(a, b))
 &lt;li&gt;Filtrar las columnas del DataFrame para quedarse con las columnas ESTACION, MAGNITUD, AÑO, MES y las correspondientes a los días D01, D02, etc.&lt;/li&gt;
 &lt;li&gt;Reestructurar el DataFrame para que los valores de los contaminantes de las columnas de los días aparezcan en una única columna.&lt;/li&gt;
 &lt;li&gt;Añadir una columna con la fecha a partir de la concatenación del año, el mes y el día (usar el módulo &lt;code&gt;datetime&lt;/code&gt;).&lt;/li&gt;
-&lt;li&gt;Eliminar las filas con fechas no válidas (utilizar la función &lt;code&gt;isnat&lt;/code&gt; del módulo &lt;code&gt;numpy&lt;/code&gt;) y ordenar el DataFrame por estaciones, contaminantes y fecha.&lt;/li&gt;
+&lt;li&gt;Eliminar las filas con fechas no válidas (utilizar la función &lt;code&gt;isnat&lt;/code&gt; del módulo &lt;code&gt;numpy&lt;/code&gt;) y ordenar el DataFrame por estaciones contaminantes y fecha.&lt;/li&gt;
 &lt;li&gt;Mostrar por pantalla las estaciones y los contaminantes disponibles en el DataFrame.&lt;/li&gt;
 &lt;li&gt;Crear una función que reciba una estación, un contaminante y un rango de fechas y devuelva una serie con las emisiones del contaminante dado en la estación y rango de fechas dado.&lt;/li&gt;
-&lt;li&gt;Mostrar un resumen descriptivo (mímino, máximo, media, etc) para cada contaminante.&lt;/li&gt;
-&lt;li&gt;Mostrar un resumen descriptivo para cada contaminente por distritos.&lt;/li&gt;
-&lt;li&gt;Crear una función que reciba una estación y un contaminante y devuelva un resumen descriptivo de las emisiones del contaminante indicado en la estadión indicada.&lt;/li&gt;
+&lt;li&gt;Mostrar un resumen descriptivo (mínimo, máximo, media, etc.) para cada contaminante.&lt;/li&gt;
+&lt;li&gt;Mostrar un resumen descriptivo para cada contaminante por distritos.&lt;/li&gt;
+&lt;li&gt;Crear una función que reciba una estación y un contaminante y devuelva un resumen descriptivo de las emisiones del contaminante indicado en la estación indicada.&lt;/li&gt;
 &lt;li&gt;Crear una función que devuelva las emisiones medias mensuales de un contaminante y un año dados para todos las estaciones.&lt;/li&gt;
 &lt;li&gt;Crear un función que reciba una estación de medición y devuelva un DataFrame con las medias mensuales de los distintos tipos de contaminantes.&lt;/li&gt;
 &lt;/ol&gt;
@@ -3748,6 +3748,50 @@ nombre
 Carmen           5.0          3.5           9.0
 Luis             6.5          7.0           4.0
 María            8.0          8.5           6.5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;combinar-varios-dataframes&#34;&gt;Combinar varios DataFrames&lt;/h2&gt;
+&lt;p&gt;Dos o más DataFrames pueden combinarse en otro DataFrame. La combinación puede ser de dos formas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Concatenación de filas&lt;/strong&gt;. Las filas de los DataFrames se concatenan unas a continuación de las otras para formar el nuevo DataFrame. Para ello es necesario que los DataFrames que se combinen tengan el mismo índice de columnas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-concatenacion-filas.png&#34; alt=&#34;Concatenación de DataFrames por filas&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Concatenación de columnas&lt;/strong&gt;. Las columnas de los DataFrames se concatenan unas a continuación de las otras para formar el nuevo DataFrame. Para ello es necesario que los DataFrames que se combinen tengan el mismo índice de filas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/pandas-concatenacion-columnas.png&#34; alt=&#34;Concatenación de DataFrames por columnas&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para concatenar dos o más DataFrames se utiliza el siguiente método:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;df.concat(dataframes, axis = eje)&lt;/code&gt;: Devuelve el DataFrame que resulta de concatenar los DataFrames de la lista &lt;code&gt;dataframes&lt;/code&gt;. Si &lt;code&gt;eje&lt;/code&gt; es 0 (valor por defecto) la concatenación se realiza por filas, y si &lt;code&gt;eje&lt;/code&gt; es 1 se realiza por columnas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#39;fa fa-exclamation-triangle&#39; style=&#39;color:red&#39;&gt;&lt;/i&gt;Si los DataFrames que se concatenan por filas no tienen el mismo índice de columnas, el DataFrame resultante incluirá todas las columnas existentes en los DataFrames y rellenará con valores &lt;code&gt;NaN&lt;/code&gt; los datos no disponibles. Si los DataFrames que se concatenan por columnas no tienen el mismo índice de filas, el DataFrame resultante incluirá todas las filas existentes en los DataFrames y rellenará con valores &lt;code&gt;NaN&lt;/code&gt; los datos no disponibles.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
+&amp;gt;&amp;gt;&amp;gt; df1 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;Carmen&amp;quot;, &amp;quot;Luis&amp;quot;], 
+... &amp;quot;Sexo&amp;quot;:[&amp;quot;Mujer&amp;quot;, &amp;quot;Hombre&amp;quot;], &amp;quot;Edad&amp;quot;:[22, 18]}).set_index(&amp;quot;Nombre&amp;quot;)
+&amp;gt;&amp;gt;&amp;gt; df2 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;María&amp;quot;, &amp;quot;Pedro&amp;quot;], 
+... &amp;quot;Sexo&amp;quot;:[&amp;quot;Mujer&amp;quot;, &amp;quot;Hombre&amp;quot;], &amp;quot;Edad&amp;quot;:[25, 30]}).set_index(&amp;quot;Nombre&amp;quot;)
+&amp;gt;&amp;gt;&amp;gt; df = pd.concat([df1, df2])
+&amp;gt;&amp;gt;&amp;gt; df
+          Sexo  Edad
+Nombre              
+Carmen   Mujer    22
+Luis    Hombre    18
+María    Mujer    25
+Pedro   Hombre    30
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
+&amp;gt;&amp;gt;&amp;gt; df1 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;Carmen&amp;quot;, &amp;quot;Luis&amp;quot;, &amp;quot;María&amp;quot;], 
+... &amp;quot;Sexo&amp;quot;:[&amp;quot;Mujer&amp;quot;, &amp;quot;Hombre&amp;quot;, &amp;quot;Mujer&amp;quot;]}).set_index(&amp;quot;Nombre&amp;quot;)
+&amp;gt;&amp;gt;&amp;gt; df2 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;Carmen&amp;quot;, &amp;quot;Luis&amp;quot;, &amp;quot;María&amp;quot;], 
+... &amp;quot;Edad&amp;quot;:[22, 18, 25]}).set_index(&amp;quot;Nombre&amp;quot;)
+&amp;gt;&amp;gt;&amp;gt; df = pd.concat([df1, df2], axis = 1)
+&amp;gt;&amp;gt;&amp;gt; df
+          Sexo  Edad
+Nombre              
+Carmen   Mujer    22
+Luis    Hombre    18
+María    Mujer    25
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
