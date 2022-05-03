@@ -551,6 +551,24 @@ dtype: object
 4                 Marisa López Collado    46    M    51.0      1.58         148.0
 ...
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;cambiar-el-índice-de-un-dataframe&#34;&gt;Cambiar el índice de un DataFrame&lt;/h2&gt;
+&lt;p&gt;Aunque el índice de un DataFrame suele fijarse en la creación del mismo, en ocasiones puede ser necesario cambiar el índice una vez creado el DataFrame. Para ello se utiliza el siguiente método:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;df.set_index(keys = columnas, verify_integrity = bool)&lt;/code&gt;: Devuelve el DataFrame que resulta de eliminar las columnas de la lista &lt;code&gt;columnas&lt;/code&gt; y convertirlas en el nuevo índice. El parámetro &lt;code&gt;verify_integrity&lt;/code&gt; recibe un booleano (&lt;code&gt;False&lt;/code&gt; por defecto) y realiza una comprobación para evitar duplicados en la clave cuando recibe &lt;code&gt;True&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
+&amp;gt;&amp;gt;&amp;gt; df = pd.read_csv(
+&#39;https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesterol.csv&#39;)
+&amp;gt;&amp;gt;&amp;gt; print(df.set_index(&amp;quot;nombre&amp;quot;).head())
+                              edad sexo  peso  altura  colesterol
+nombre                                                           
+José Luis Martínez Izquierdo    18    H  85.0    1.79       182.0
+Rosa Díaz Díaz                  32    M  65.0    1.73       232.0
+Javier García Sánchez           24    H   NaN    1.81       191.0
+Carmen López Pinzón             35    M  65.0    1.70       200.0
+Marisa López Collado            46    M  51.0    1.58       148.0
+&amp;gt;&amp;gt;&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;reindexar-un-dataframe&#34;&gt;Reindexar un DataFrame&lt;/h2&gt;
 &lt;p&gt;Para reordenar los índices de las filas y las columnas de un DataFrame, así como añadir o eliminar índices, se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
@@ -929,7 +947,12 @@ Luis             6.5          7.0           4.0
 María            8.0          8.5           6.5
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;combinar-varios-dataframes&#34;&gt;Combinar varios DataFrames&lt;/h2&gt;
-&lt;p&gt;Dos o más DataFrames pueden combinarse en otro DataFrame. La combinación puede ser de dos formas:&lt;/p&gt;
+&lt;p&gt;Dos o más DataFrames pueden combinarse en otro DataFrame. La combinación puede ser de varias formas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Concatenación&lt;/strong&gt;: Combinación de varios DataFrames concatenando sus filas o columnas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mezcla&lt;/strong&gt;: Combinación de varios DataFrames usando columnas o índices comunes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;concatenación-de-dataframes&#34;&gt;Concatenación de DataFrames&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Concatenación de filas&lt;/strong&gt;. Las filas de los DataFrames se concatenan unas a continuación de las otras para formar el nuevo DataFrame. Para ello es necesario que los DataFrames que se combinen tengan el mismo índice de columnas.&lt;/p&gt;
@@ -972,6 +995,68 @@ Carmen   Mujer    22
 Luis    Hombre    18
 María    Mujer    25
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;mezcla-de-dataframes&#34;&gt;Mezcla de DataFrames&lt;/h3&gt;
+&lt;p&gt;La mezcla de DataFrames permite integrar filas de dos DataFrames que contienen información en común en una o varias columnas o índices que se conocen como &lt;em&gt;clave&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Para mezclar dos DataFrames se utiliza el siguiente método:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;df.merge(df1, df2, on = clave, how = tipo)&lt;/code&gt;: Devuelve el DataFrame que resulta de mezclar el DataFrame &lt;code&gt;df2&lt;/code&gt; con el DataFrame &lt;code&gt;df1&lt;/code&gt;, usando como claves las columnas de la lista &lt;code&gt;clave&lt;/code&gt; y siguiendo el método de mezcla indicado por &lt;code&gt;tipo&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El tipo de mezcla puede ser&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;&amp;quot;inner&amp;quot;&lt;/code&gt; (por defecto): El DataFrame resultante solo contiene las filas cuyos valores en la clave están en los dos DataFrames. Es equivalente a la intersección de conjuntos.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
+&amp;gt;&amp;gt;&amp;gt; df1 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;Carmen&amp;quot;, &amp;quot;Luis&amp;quot;, &amp;quot;María&amp;quot;],  &amp;quot;Sexo&amp;quot;:[&amp;quot;Mujer&amp;quot;, &amp;quot;Hombre&amp;quot;, &amp;quot;Mujer&amp;quot;]})
+&amp;gt;&amp;gt;&amp;gt; df2 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;María&amp;quot;, &amp;quot;Pedro&amp;quot;, &amp;quot;Luis&amp;quot;], &amp;quot;Edad&amp;quot;:[25, 30, 18]]})
+&amp;gt;&amp;gt;&amp;gt; df = pd.merge(df1, df2, on=&amp;quot;Nombre&amp;quot;)
+&amp;gt;&amp;gt;&amp;gt; print(df)
+  Nombre    Sexo  Edad
+0   Luis  Hombre    18
+1  María   Mujer    25
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;&amp;quot;outer&amp;quot;&lt;/code&gt;: El DataFrame resultante contiene todas las filas de los dos DataFrames. Si una fila de un DataFrame no puede emparejarse con otra los mismos valores en la clave en el otro DataFrame, la fila se añade igualmente al DataFrame resultante rellenando las columnas del otro DataFrame con el valor &lt;code&gt;NaN&lt;/code&gt;.
+Es equivalente a la unión de conjuntos.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
+&amp;gt;&amp;gt;&amp;gt; df1 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;Carmen&amp;quot;, &amp;quot;Luis&amp;quot;, &amp;quot;María&amp;quot;],  &amp;quot;Sexo&amp;quot;:[&amp;quot;Mujer&amp;quot;, &amp;quot;Hombre&amp;quot;, &amp;quot;Mujer&amp;quot;]})
+&amp;gt;&amp;gt;&amp;gt; df2 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;María&amp;quot;, &amp;quot;Pedro&amp;quot;, &amp;quot;Luis&amp;quot;], &amp;quot;Edad&amp;quot;:[25, 30, 18]]})
+&amp;gt;&amp;gt;&amp;gt; df = pd.merge(df1, df2, on=&amp;quot;Nombre&amp;quot;, how=&amp;quot;outer&amp;quot;)
+&amp;gt;&amp;gt;&amp;gt; print(df)
+   Nombre    Sexo  Edad
+0  Carmen   Mujer   NaN
+1    Luis  Hombre  18.0
+2   María   Mujer  25.0
+3   Pedro     NaN  30.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;&amp;quot;left&amp;quot;&lt;/code&gt;: El DataFrame resultante contiene todas las filas del primer DataFrame y descarta las filas del segundo DataFrame que no pueden emparejarse con alguna fila del primer DataFrame a través de la clave.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
+&amp;gt;&amp;gt;&amp;gt; df1 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;Carmen&amp;quot;, &amp;quot;Luis&amp;quot;, &amp;quot;María&amp;quot;],  &amp;quot;Sexo&amp;quot;:[&amp;quot;Mujer&amp;quot;, &amp;quot;Hombre&amp;quot;, &amp;quot;Mujer&amp;quot;]})
+&amp;gt;&amp;gt;&amp;gt; df2 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;María&amp;quot;, &amp;quot;Pedro&amp;quot;, &amp;quot;Luis&amp;quot;], &amp;quot;Edad&amp;quot;:[25, 30, 18]]})
+&amp;gt;&amp;gt;&amp;gt; df = pd.merge(df1, df2, on=&amp;quot;Nombre&amp;quot;, how=&amp;quot;left&amp;quot;)
+&amp;gt;&amp;gt;&amp;gt; print(df)
+   Nombre    Sexo  Edad
+0  Carmen   Mujer   NaN
+1    Luis  Hombre  18.0
+2   María   Mujer  25.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;&amp;quot;right&amp;quot;&lt;/code&gt;: El DataFrame resultante contiene todas las filas del segundo DataFrame y descarta las filas del primer DataFrame que no pueden emparejarse con alguna fila del segundo DataFrame a través de la clave.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
+&amp;gt;&amp;gt;&amp;gt; df1 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;Carmen&amp;quot;, &amp;quot;Luis&amp;quot;, &amp;quot;María&amp;quot;],  &amp;quot;Sexo&amp;quot;:[&amp;quot;Mujer&amp;quot;, &amp;quot;Hombre&amp;quot;, &amp;quot;Mujer&amp;quot;]})
+&amp;gt;&amp;gt;&amp;gt; df2 = pd.DataFrame({&amp;quot;Nombre&amp;quot;:[&amp;quot;María&amp;quot;, &amp;quot;Pedro&amp;quot;, &amp;quot;Luis&amp;quot;], &amp;quot;Edad&amp;quot;:[25, 30, 18]]})
+&amp;gt;&amp;gt;&amp;gt; df = pd.merge(df1, df2, on=&amp;quot;Nombre&amp;quot;, how=&amp;quot;right&amp;quot;)
+&amp;gt;&amp;gt;&amp;gt; print(df)
+  Nombre    Sexo  Edad
+0  María   Mujer    25
+1  Pedro     NaN    30
+2   Luis  Hombre    18
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
