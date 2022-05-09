@@ -670,6 +670,8 @@ Question 1 A study try to determine the influence of electronic gadgets (mobile 
   <div class="docs-toc-item">
     <a class="docs-toc-link" href="/en/teaching/statistics/exams/physiotherapy/">Physiotherapy Statistics Exams</a>
     <ul class="nav docs-sidenav">
+          <li class=""><a href="/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-05-06/">Physiotherapy exam 2022-05-06</a></li>
+        
           <li class=""><a href="/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-03-11/">Physiotherapy exam 2022-03-11</a></li>
         
           <li class=""><a href="/en/teaching/statistics/exams/physiotherapy/physiotherapy-2021-06-07/">Physiotherapy exam 2021-06-07</a></li>
@@ -814,7 +816,7 @@ $$</p>
 <ol>
 <li>Which regression model is better to predict the number of vertigo attacks given the time using these devices, the linear or the exponential? Justify the answer.</li>
 <li>Use the best regression model (the exponential or the linear) to predict the number or vertigo attacks expected for a person that uses those devices 200 minutes every day.</li>
-<li>Which regression model would you use to predict the time using those devices required to have a given number of vertigo attacks, the linear, the exponential or the logarithmic?
+<li>Which regression model would you use to predict the time using those devices required to have a number of vertigo attacks, the linear, the exponential or the logarithmic?
 Justify the answer.</li>
 </ol>
 <p>Use the following sums for the computations ($X$=Time and $Y$=Vertigo attacks):<br>
@@ -829,19 +831,28 @@ $\sum x_iy_j=38162$, $\sum x_i\log(y_j)=5252.95$, $\sum \log(x_i)y_j=800.3072$, 
   </p>
   <div class="collapse card " id="spoiler-1">
     <div class="card-body">
-      1.Linear regression model of vertigo attacks on time :
-$\bar x=172.5833$ min, $s_x^2=9013.9097$ min².
-$\bar y=12.1667$ attacks, $s_y^2=153.4722$ attacks².
-$s_{xy}=1080.4028$ min⋅attacks.
-$r^2 = 0.8438$.
+      <ol>
+<li>
+<p>Linear regression model of vertigo attacks on time:
+$\bar x=172.5833$ min, $s_x^2=9013.9097$ min².<br>
+$\bar y=12.1667$ attacks, $s_y^2=153.4722$ attacks².<br>
+$s_{xy}=1080.4028$ min⋅attacks.<br>
+$r^2 = 0.8438$.<br>
 Exponential regression model of vertigo attacks on time:
 $\overline{\log(y)}=2.0177$ log(attacks), $s_{\log(y)}^2=0.9398$ log(attacks)².
 $s_{x\log(y)}=89.5312$ min⋅log(attacks).
-$r^2 = 0.9462$.
-Therefore, the exponential regression model is better since its coefficient of determination is higher.
-2. Exponential regression model of vertigo attacks on time: $y=e^{0.3035 + 0.0099x}$.
-Number of vertigo attacks expected for 200 min usign electronic gadgets $y(200)=9.8747$.
-3. Since the exponential regression model is better than the linear one to predict the number of vertigo attacks as a function of time using electronic gadgets, to predic the time as a function of the number of vertigo attacks is better to use the inverse of the exponential regression model, that is, the logarithmic regression model.
+$r^2 = 0.9462$.<br>
+Therefore, the exponential regression model is better since its coefficient of determination is higher.</p>
+</li>
+<li>
+<p>Exponential regression model of vertigo attacks on time: $y=e^{0.3035 + 0.0099x}$.<br>
+Number of vertigo attacks expected for 200 min usign electronic gadgets $y(200)=9.8747$.</p>
+</li>
+<li>
+<p>Since the exponential regression model is better than the linear one to predict the number of vertigo attacks as a function of time using electronic gadgets, to predict the time as a function of the number of vertigo attacks is better to use the inverse of the exponential regression model, that is, the logarithmic regression model.</p>
+</li>
+</ol>
+
     </div>
   </div>
 </div>
@@ -871,11 +882,11 @@ $NPV=P(\overline D|-)=0.9998$. It is a good screening test as the post test prob
   </div>
 </div>
 <h2 id="question-4">Question 4</h2>
-<p>The hematocrit concentration in blood of healthy males follows a normal distribution with mean and standard deviation not known.
-However, it is know that the first quartile of hematotrit is 38.5% and the third quartile is 52%.</p>
+<p>The haematocrit concentration in blood of healthy males follows a normal distribution with mean and standard deviation not known.
+However, it is known that the first quartile of haematocrit is 38.5% and the third quartile is 52%.</p>
 <ol>
-<li>Compute the mean and the standard deviation of hematocrit in healthy males.</li>
-<li>Compute the percentage of healthy males with more than 64 of hematocrit.</li>
+<li>Compute the mean and the standard deviation of haematocrit in healthy males.</li>
+<li>Compute the percentage of healthy males with more than 64 of haematocrit.</li>
 </ol>
 <div class="spoiler " >
   <p>
@@ -885,7 +896,7 @@ However, it is know that the first quartile of hematotrit is 38.5% and the third
   </p>
   <div class="collapse card " id="spoiler-3">
     <div class="card-body">
-      <p>Naming $X$ to the hematocrit level in healthy males,</p>
+      <p>Naming $X$ to the haematocrit level in healthy males,</p>
 <ol>
 <li>$\mu=45.25$ and $\sigma=10.07$, thus, $X\sim N(45.25, 10.07)$.<br></li>
 <li>$P(X&gt;64)=0.0313$, thus, a $3.13$% of healthy males.</li>

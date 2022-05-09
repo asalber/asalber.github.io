@@ -1074,12 +1074,12 @@ Exponential regression model: $y=e^{6.2168+-0.1607x}$.&lt;br&gt;
 Prediction: $y(20)=20.1341$ injuries.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The logarithmic model is better to predict the warm-up time as a function of the number or injuries.
+&lt;p&gt;The logarithmic model is better to predict the warm-up time as a function of the number of injuries.
 Logarithmic regression model: $x=164.1851+-47.3292\log(y)$.
 Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Both predictions are very reliable since de deternation coefficient is very high but the last one is a little less reliable as it is for a value further from the data range.&lt;/p&gt;
+&lt;p&gt;Both predictions are very reliable since the determination coefficient is very high, but the last one is a little less reliable as it is for a value further from the data range.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -1099,7 +1099,7 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;p&gt;Is this technique more reliable to confirm or to rule out the disease? Justify the answer.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Compute the probability of having a correct diagnose with this technique.&lt;/p&gt;
+&lt;p&gt;Compute the probability of having a correct diagnosis with this technique.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
@@ -1128,7 +1128,7 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;p&gt;Compute the probability that the femur length of a fetus with 25 weeks is greater than 46 mm.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Compute the probability that the femur lenght of a fetus with 25 weeks is between 46 and 49 mm.&lt;/p&gt;
+&lt;p&gt;Compute the probability that the femur length of a fetus with 25 weeks is between 46 and 49 mm.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Compute an interval $(a,b)$ centered at the mean, such that it contains 80% of the femur lengths of fetus with 25 weeks.&lt;/p&gt;
@@ -1207,7 +1207,7 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
       &lt;ol&gt;
 &lt;li&gt;Let $X$ be the number of patients that arrive in 1 hours. $X\sim P(2)$ and $P(X&amp;gt;4)=0.0527$.&lt;/li&gt;
 &lt;li&gt;Let $Y$ be the number of hours in a day in which some patient can not be treated. $Y\sim B(6, 0.0527)$ and $P(Y&amp;gt;0)=0.2771$.&lt;br&gt;
-The clinic requires 5 phisiotherapists, since $P(X&amp;gt;5)=0.0527$ and $P(Y&amp;gt;0)=0.0954$, with $Y\sim B(6, 0.0166)$ now.&lt;/li&gt;
+The clinic requires 5 physiotherapists, since $P(X&amp;gt;5)=0.0527$ and $P(Y&amp;gt;0)=0.0954$, with $Y\sim B(6, 0.0166)$ now.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -1290,19 +1290,24 @@ $\sum x_iy_j=3328$, $\sum x_i\log(y_j)=154.3387$, $\sum \log(x_i)y_j=951.6961$, 
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;Linear model of Concentration on Time:
+&lt;li&gt;
+&lt;p&gt;Linear model of Concentration on Time:
 $\bar x=5$ hours, $s_x^2=4$ hours² .
 $\bar y=77.2857$ mg/dl, $s_y^2=2160.7755$ (mg/dl)².
-$s_{xy}=89$ hours⋅mg/dl.
-Linear coefficient of determination of Concentration on Time $r^2=0.9165$.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Exponential model of Concentration on Time:
+$s_{xy}=89$ hours⋅mg/dl.&lt;br&gt;
+Linear coefficient of determination of Concentration on Time $r^2=0.9165$.&lt;br&gt;
+Exponential model of Concentration on Time:
 $\overline{\log(y)}=4.1639$ log(mg/dl), $s_{\log(y)}^2=0.3785$ log(mg/dl)².
-$s_{x\log(y)}=1.2291$ hours⋅log(mg/dl).
-Exponential coefficient of determination of Concentration on Time $r^2=0.9979$.
-Therefore, the exponential model explains better than the linear one the relation between the concentration and time, since its coefficient of determination is greater.
-2. Exponential model of Concentration on Time: $y=e^{2.6275 + 0.3073x}$.
-$y(4.8)=60.4853$ mg/dl.
+$s_{x\log(y)}=1.2291$ hours⋅log(mg/dl).&lt;br&gt;
+Exponential coefficient of determination of Concentration on Time $r^2=0.9979$.&lt;br&gt;
+Therefore, the exponential model explains better than the linear one the relation between the concentration and time, since its coefficient of determination is greater.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exponential model of Concentration on Time: $y=e^{2.6275 + 0.3073x}$.
+$y(4.8)=60.4853$ mg/dl.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1870,7 +1875,7 @@ The probability distribution of $X$ in a population is plotted below.&lt;/p&gt;
 &lt;li&gt;Calculate the following probabilities: $P(X\leq 2)$, $P(X&amp;gt;3)$, $P(X=4.2)$ and $P(1&amp;lt;X\leq 4.2)$.&lt;/li&gt;
 &lt;li&gt;Calculate the mean and the standard deviation of $X$. Is the mean representative?&lt;/li&gt;
 &lt;li&gt;If a level of severity of 0.05 is considered incurable, what is the probability of having some person with an incurable injury in a sample of 10 persons with the injury?&lt;/li&gt;
-&lt;li&gt;If there are 6 persons injuried per month in average, what is the probabilitiy of having more than 2 persons injuried? What is the probability of having more than 1 person injuried with an incurable injury?&lt;/li&gt;
+&lt;li&gt;If there are 6 persons injured per month in average, what is the probability of having more than 2 persons injured? What is the probability of having more than 1 person injured with an incurable injury?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
   &lt;p&gt;
@@ -1904,8 +1909,8 @@ $$
 &lt;p&gt;Naming $X$ to the number of persons having an incurable injury in a sample of 10 persons with the injury, $P(X\geq 1)=0.4013$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Naming $Y$ to the number of persons injuried in a month, $P(T&amp;gt;2)=0.938$.
-Naming $Z$ to the number of persons injuried with an incurable injury in an month, $P(T&amp;gt;1)=0.0369$.&lt;/p&gt;
+&lt;p&gt;Naming $Y$ to the number of persons injured in a month, $P(T&amp;gt;2)=0.938$.
+Naming $Z$ to the number of persons injured with an incurable injury in an month, $P(T&amp;gt;1)=0.0369$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 

@@ -5,7 +5,7 @@
     <link>/en/tag/statistics/</link>
       <atom:link href="/en/tag/statistics/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
       <title>Statistics</title>
@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-836415792&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-712459386&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-836415792&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-712459386&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -3240,6 +3240,134 @@ $$&lt;/p&gt;
 &lt;li&gt;It satisfies $$F(m,n) =\frac{1}{F(n,m)}.$$ Thus, if we name $f(m,n)_p$ the value that satisfies $P(F(m,n)\leq f(m,n)_p)=p$, then $$f(m,n)_p =\frac{1}{f(n,m)_{1-p}}$$ which is helpful in order to compute probabilities from the table of the distribution function.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;As we will see in the next chapter, the Fisher-Snedecor’s F distribution plays an important role in the comparison of population variances and in the analysis of variance test (ANOVA).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Physiotherapy exam 2022-05-06</title>
+      <link>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-05-06/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <guid>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-05-06/</guid>
+      <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
+Date: May 6, 2022&lt;/p&gt;
+&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;A basketball player scores 12 points per game on average.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;What is the probability that the player scores more than 4 points in a quarter?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the player plays 10 games in a league, what is the probability of scoring less than 6 points in some game?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Let $X$ be the points scored in a quarter by the player. Then $X\sim P(3)$, and $P(X&amp;gt;4)=0.1847$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $Y$ be the number of points scored in a game by the player. Then $Y\sim P(12)$ and $P(Y&amp;lt;6)=0.0203$.&lt;br&gt;
+Let $Z$ be the number of games with less than 6 points scored by the player. Then $Z\sim B(10, 0.0203)$, and $P(Z&amp;gt;0)=0.1858$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-2&#34;&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;8% of people in a population consume cocaine. It is also known that 4% of people who consume cocaine have a heart attack and 10% of people who have a heart attack consume cocaine.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Construct the probability tree for the random experiment of drawing a random person from the population and measuring if he or she consumes cocaine and if he or she has a heart attack.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the probability that a random person of the population does not consume cocaine and does not have a heart attack.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Are the events of consuming cocaine and having a heart attack dependent?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the relative risk and the odds ratio of suffering a heart attack consuming cocaine. Which association measure is more suitable for this study? Interpret it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $C$ the event of consuming cocaine and $H$ the event of having a heart attack.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;img src=&#34;../img/probability-tree-cocaine.svg&#34; width=&#34;500px&#34;/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P(\overline C\cap \overline H)=0.8912$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The events are dependent as $P(C)=0.08\neq P(C|H)=0.1$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$RR(H)=1.2778$ and $OR(H)=1.2894$. The odds ratio is more suitable as the study is retrospective. That means that the odds of having a heart attack is $1.2894$ times greater if a person consumes cocaine.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-3&#34;&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;The creatine phosphokinase (CPK3) is an enzyme in the body that causes the phosphorylation of creatine. This enzyme is found in the skeletal muscle and can be measured in a blood analysis. The concentration of CPK3 in blood is normally distributed, and the interval centered at the mean with the reference values, that accumulates 99% of the population, ranges from 40 to 308 IU/L in healthy adult males.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the mean and the standard deviation of the concentration of CPK3 in healthy males.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A diagnostic test to detect muscular dystrophy gives a negative outcome when the concentration of CPK3 is below 300 UI/L. Compute the specificity of the test.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the concentration of CPK3 in people with muscular dystrophy also follows a normal distribution with mean 350 IU/L and the same standard deviation, what is the sensitivity of the test?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the predictive values of the test and interpret them assuming that the muscular dystrophy prevalence is 8%.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-2&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-2&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\mu = 174$ IU/L and $\sigma = 51.938$ IU/L.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Specificity = $0.9924$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sensitivity = $0.8321$.&lt;br&gt;
+The test is better to confirm the disease as the specificity is greater than the sensitivity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PPV = $0.9046$. Thus, we can diagnose the disease with a positive outcome.&lt;br&gt;
+NPV = $0.9855$. Thus, we can rule out the disease with a negative outcome.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -7359,12 +7487,12 @@ Exponential regression model: $y=e^{6.2168+-0.1607x}$.&lt;br&gt;
 Prediction: $y(20)=20.1341$ injuries.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The logarithmic model is better to predict the warm-up time as a function of the number or injuries.
+&lt;p&gt;The logarithmic model is better to predict the warm-up time as a function of the number of injuries.
 Logarithmic regression model: $x=164.1851+-47.3292\log(y)$.
 Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Both predictions are very reliable since de deternation coefficient is very high but the last one is a little less reliable as it is for a value further from the data range.&lt;/p&gt;
+&lt;p&gt;Both predictions are very reliable since the determination coefficient is very high, but the last one is a little less reliable as it is for a value further from the data range.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -7384,7 +7512,7 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;p&gt;Is this technique more reliable to confirm or to rule out the disease? Justify the answer.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Compute the probability of having a correct diagnose with this technique.&lt;/p&gt;
+&lt;p&gt;Compute the probability of having a correct diagnosis with this technique.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
@@ -7413,7 +7541,7 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;p&gt;Compute the probability that the femur length of a fetus with 25 weeks is greater than 46 mm.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Compute the probability that the femur lenght of a fetus with 25 weeks is between 46 and 49 mm.&lt;/p&gt;
+&lt;p&gt;Compute the probability that the femur length of a fetus with 25 weeks is between 46 and 49 mm.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Compute an interval $(a,b)$ centered at the mean, such that it contains 80% of the femur lengths of fetus with 25 weeks.&lt;/p&gt;
@@ -7492,7 +7620,7 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
       &lt;ol&gt;
 &lt;li&gt;Let $X$ be the number of patients that arrive in 1 hours. $X\sim P(2)$ and $P(X&amp;gt;4)=0.0527$.&lt;/li&gt;
 &lt;li&gt;Let $Y$ be the number of hours in a day in which some patient can not be treated. $Y\sim B(6, 0.0527)$ and $P(Y&amp;gt;0)=0.2771$.&lt;br&gt;
-The clinic requires 5 phisiotherapists, since $P(X&amp;gt;5)=0.0527$ and $P(Y&amp;gt;0)=0.0954$, with $Y\sim B(6, 0.0166)$ now.&lt;/li&gt;
+The clinic requires 5 physiotherapists, since $P(X&amp;gt;5)=0.0527$ and $P(Y&amp;gt;0)=0.0954$, with $Y\sim B(6, 0.0166)$ now.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -7575,19 +7703,24 @@ $\sum x_iy_j=3328$, $\sum x_i\log(y_j)=154.3387$, $\sum \log(x_i)y_j=951.6961$, 
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;Linear model of Concentration on Time:
+&lt;li&gt;
+&lt;p&gt;Linear model of Concentration on Time:
 $\bar x=5$ hours, $s_x^2=4$ hours² .
 $\bar y=77.2857$ mg/dl, $s_y^2=2160.7755$ (mg/dl)².
-$s_{xy}=89$ hours⋅mg/dl.
-Linear coefficient of determination of Concentration on Time $r^2=0.9165$.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Exponential model of Concentration on Time:
+$s_{xy}=89$ hours⋅mg/dl.&lt;br&gt;
+Linear coefficient of determination of Concentration on Time $r^2=0.9165$.&lt;br&gt;
+Exponential model of Concentration on Time:
 $\overline{\log(y)}=4.1639$ log(mg/dl), $s_{\log(y)}^2=0.3785$ log(mg/dl)².
-$s_{x\log(y)}=1.2291$ hours⋅log(mg/dl).
-Exponential coefficient of determination of Concentration on Time $r^2=0.9979$.
-Therefore, the exponential model explains better than the linear one the relation between the concentration and time, since its coefficient of determination is greater.
-2. Exponential model of Concentration on Time: $y=e^{2.6275 + 0.3073x}$.
-$y(4.8)=60.4853$ mg/dl.
+$s_{x\log(y)}=1.2291$ hours⋅log(mg/dl).&lt;br&gt;
+Exponential coefficient of determination of Concentration on Time $r^2=0.9979$.&lt;br&gt;
+Therefore, the exponential model explains better than the linear one the relation between the concentration and time, since its coefficient of determination is greater.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exponential model of Concentration on Time: $y=e^{2.6275 + 0.3073x}$.
+$y(4.8)=60.4853$ mg/dl.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -8002,7 +8135,7 @@ $$&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Which regression model is better to predict the number of vertigo attacks given the time using these devices, the linear or the exponential? Justify the answer.&lt;/li&gt;
 &lt;li&gt;Use the best regression model (the exponential or the linear) to predict the number or vertigo attacks expected for a person that uses those devices 200 minutes every day.&lt;/li&gt;
-&lt;li&gt;Which regression model would you use to predict the time using those devices required to have a given number of vertigo attacks, the linear, the exponential or the logarithmic?
+&lt;li&gt;Which regression model would you use to predict the time using those devices required to have a number of vertigo attacks, the linear, the exponential or the logarithmic?
 Justify the answer.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Use the following sums for the computations ($X$=Time and $Y$=Vertigo attacks):&lt;br&gt;
@@ -8017,19 +8150,28 @@ $\sum x_iy_j=38162$, $\sum x_i\log(y_j)=5252.95$, $\sum \log(x_i)y_j=800.3072$, 
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      1.Linear regression model of vertigo attacks on time :
-$\bar x=172.5833$ min, $s_x^2=9013.9097$ min².
-$\bar y=12.1667$ attacks, $s_y^2=153.4722$ attacks².
-$s_{xy}=1080.4028$ min⋅attacks.
-$r^2 = 0.8438$.
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Linear regression model of vertigo attacks on time:
+$\bar x=172.5833$ min, $s_x^2=9013.9097$ min².&lt;br&gt;
+$\bar y=12.1667$ attacks, $s_y^2=153.4722$ attacks².&lt;br&gt;
+$s_{xy}=1080.4028$ min⋅attacks.&lt;br&gt;
+$r^2 = 0.8438$.&lt;br&gt;
 Exponential regression model of vertigo attacks on time:
 $\overline{\log(y)}=2.0177$ log(attacks), $s_{\log(y)}^2=0.9398$ log(attacks)².
 $s_{x\log(y)}=89.5312$ min⋅log(attacks).
-$r^2 = 0.9462$.
-Therefore, the exponential regression model is better since its coefficient of determination is higher.
-2. Exponential regression model of vertigo attacks on time: $y=e^{0.3035 + 0.0099x}$.
-Number of vertigo attacks expected for 200 min usign electronic gadgets $y(200)=9.8747$.
-3. Since the exponential regression model is better than the linear one to predict the number of vertigo attacks as a function of time using electronic gadgets, to predic the time as a function of the number of vertigo attacks is better to use the inverse of the exponential regression model, that is, the logarithmic regression model.
+$r^2 = 0.9462$.&lt;br&gt;
+Therefore, the exponential regression model is better since its coefficient of determination is higher.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exponential regression model of vertigo attacks on time: $y=e^{0.3035 + 0.0099x}$.&lt;br&gt;
+Number of vertigo attacks expected for 200 min usign electronic gadgets $y(200)=9.8747$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Since the exponential regression model is better than the linear one to predict the number of vertigo attacks as a function of time using electronic gadgets, to predict the time as a function of the number of vertigo attacks is better to use the inverse of the exponential regression model, that is, the logarithmic regression model.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -8059,11 +8201,11 @@ $NPV=P(\overline D|-)=0.9998$. It is a good screening test as the post test prob
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;question-4&#34;&gt;Question 4&lt;/h2&gt;
-&lt;p&gt;The hematocrit concentration in blood of healthy males follows a normal distribution with mean and standard deviation not known.
-However, it is know that the first quartile of hematotrit is 38.5% and the third quartile is 52%.&lt;/p&gt;
+&lt;p&gt;The haematocrit concentration in blood of healthy males follows a normal distribution with mean and standard deviation not known.
+However, it is known that the first quartile of haematocrit is 38.5% and the third quartile is 52%.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Compute the mean and the standard deviation of hematocrit in healthy males.&lt;/li&gt;
-&lt;li&gt;Compute the percentage of healthy males with more than 64 of hematocrit.&lt;/li&gt;
+&lt;li&gt;Compute the mean and the standard deviation of haematocrit in healthy males.&lt;/li&gt;
+&lt;li&gt;Compute the percentage of healthy males with more than 64 of haematocrit.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
   &lt;p&gt;
@@ -8073,7 +8215,7 @@ However, it is know that the first quartile of hematotrit is 38.5% and the third
   &lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
-      &lt;p&gt;Naming $X$ to the hematocrit level in healthy males,&lt;/p&gt;
+      &lt;p&gt;Naming $X$ to the haematocrit level in healthy males,&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$\mu=45.25$ and $\sigma=10.07$, thus, $X\sim N(45.25, 10.07)$.&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;$P(X&amp;gt;64)=0.0313$, thus, a $3.13$% of healthy males.&lt;/li&gt;
@@ -9213,7 +9355,7 @@ The probability distribution of $X$ in a population is plotted below.&lt;/p&gt;
 &lt;li&gt;Calculate the following probabilities: $P(X\leq 2)$, $P(X&amp;gt;3)$, $P(X=4.2)$ and $P(1&amp;lt;X\leq 4.2)$.&lt;/li&gt;
 &lt;li&gt;Calculate the mean and the standard deviation of $X$. Is the mean representative?&lt;/li&gt;
 &lt;li&gt;If a level of severity of 0.05 is considered incurable, what is the probability of having some person with an incurable injury in a sample of 10 persons with the injury?&lt;/li&gt;
-&lt;li&gt;If there are 6 persons injuried per month in average, what is the probabilitiy of having more than 2 persons injuried? What is the probability of having more than 1 person injuried with an incurable injury?&lt;/li&gt;
+&lt;li&gt;If there are 6 persons injured per month in average, what is the probability of having more than 2 persons injured? What is the probability of having more than 1 person injured with an incurable injury?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;spoiler &#34; &gt;
   &lt;p&gt;
@@ -9247,8 +9389,8 @@ $$
 &lt;p&gt;Naming $X$ to the number of persons having an incurable injury in a sample of 10 persons with the injury, $P(X\geq 1)=0.4013$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Naming $Y$ to the number of persons injuried in a month, $P(T&amp;gt;2)=0.938$.
-Naming $Z$ to the number of persons injuried with an incurable injury in an month, $P(T&amp;gt;1)=0.0369$.&lt;/p&gt;
+&lt;p&gt;Naming $Y$ to the number of persons injured in a month, $P(T&amp;gt;2)=0.938$.
+Naming $Z$ to the number of persons injured with an incurable injury in an month, $P(T&amp;gt;1)=0.0369$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
