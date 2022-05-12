@@ -28,12 +28,22 @@
 &lt;p&gt;&lt;img src=&#34;../img/arrays.png&#34; alt=&#34;Arrays&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;creación-de-arrays&#34;&gt;Creación de arrays&lt;/h2&gt;
 &lt;p&gt;Para crear un array se utiliza la siguiente función de NumPy&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;np.array(lista)&lt;/code&gt; : Crea un array a partir de la lista o tupla &lt;code&gt;lista&lt;/code&gt; y devuelve una referencia a él. El número de dimensiones del array dependerá de las listas o tuplas anidadas en &lt;code&gt;lista&lt;/code&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Para una lista de valores se crea un array de una dimensión, también conocido como &lt;strong&gt;vector&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Para una lista de listas de valores se crea un array de dos dimensiones, también conocido como &lt;strong&gt;matriz&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Para una lista de listas de listas de valores se crea un array de tres dimensiones, también conocido como &lt;strong&gt;cubo&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Y así sucesivamente. No hay límite en el número de dimensiones del array más allá de la memoria disponible en el sistema.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;np.array(lista)&lt;/code&gt; : Crea un array a partir de la lista o tupla &lt;code&gt;lista&lt;/code&gt; y devuelve una referencia a él. El número de dimensiones del array dependerá de las listas o tuplas anidadas en &lt;code&gt;lista&lt;/code&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para una lista de valores se crea un array de una dimensión, también conocido como &lt;strong&gt;vector&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para una lista de listas de valores se crea un array de dos dimensiones, también conocido como &lt;strong&gt;matriz&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para una lista de listas de listas de valores se crea un array de tres dimensiones, también conocido como &lt;strong&gt;cubo&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Y así sucesivamente. No hay límite en el número de dimensiones del array más allá de la memoria disponible en el sistema.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fa fa-exclamation-triangle&#34; style=&#34;color:red;&#34;&gt;&lt;/i&gt; Los elementos de la lista o tupla deben ser del mismo tipo.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; # Array de una dimensión
@@ -55,14 +65,32 @@
   [10 11 12]]]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Otras funciones útiles que permiten generar arrays son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;np.empty(dimensiones)&lt;/code&gt; : Crea y devuelve una referencia a un array vacío con las dimensiones especificadas en la tupla &lt;code&gt;dimensiones&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;np.zeros(dimensiones)&lt;/code&gt; : Crea y devuelve una referencia a un array con las dimensiones especificadas en la tupla &lt;code&gt;dimensiones&lt;/code&gt; cuyos elementos son todos ceros.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;np.ones(dimensiones)&lt;/code&gt; : Crea y devuelve una referencia a un array con las dimensiones especificadas en la tupla &lt;code&gt;dimensiones&lt;/code&gt; cuyos elementos son todos unos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;np.full(dimensiones, valor)&lt;/code&gt; : Crea y devuelve una referencia a un array con las dimensiones especificadas en la tupla &lt;code&gt;dimensiones&lt;/code&gt; cuyos elementos son todos &lt;code&gt;valor&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;np.identity(n)&lt;/code&gt; : Crea y devuelve una referencia a la matriz identidad de dimensión &lt;code&gt;n&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;np.arange(inicio, fin, salto)&lt;/code&gt; : Crea y devuelve una referencia a un array de una dimensión cuyos elementos son la secuencia desde &lt;code&gt;inicio&lt;/code&gt; hasta &lt;code&gt;fin&lt;/code&gt; tomando valores cada &lt;code&gt;salto&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;np.linspace(inicio, fin, n)&lt;/code&gt; : Crea y devuelve una referencia a un array de una dimensión cuyos elementos son la secuencia de &lt;code&gt;n&lt;/code&gt; valores equidistantes desde &lt;code&gt;inicio&lt;/code&gt; hasta &lt;code&gt;fin&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;np.random.random(dimensiones)&lt;/code&gt; : Crea y devuelve una referencia a un array con las dimensiones especificadas en la tupla &lt;code&gt;dimensiones&lt;/code&gt; cuyos elementos son aleatorios.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; print(np.zeros(3,2))
 [[0. 0. 0.]
  [0. 0. 0.]]
@@ -77,10 +105,20 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;atributos-de-un-array&#34;&gt;Atributos de un array&lt;/h2&gt;
 &lt;p&gt;Existen varios atributos y funciones que describen las características de un array.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;a.ndim&lt;/code&gt; : Devuelve el número de dimensiones del array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;a.shape&lt;/code&gt; : Devuelve una tupla con las dimensiones del array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;a.size&lt;/code&gt; : Devuelve el número de elementos del array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;a.dtype&lt;/code&gt;: Devuelve el tipo de datos de los elementos del array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;acceso-a-los-elementos-de-un-array&#34;&gt;Acceso a los elementos de un array&lt;/h2&gt;
 &lt;p&gt;Para acceder a los elementos contenidos en un array se usan índices al igual que para acceder a los elementos de una lista, pero indicando los índices de cada dimensión separados por comas.&lt;/p&gt;
 &lt;p&gt;Al igual que para listas, los índices de cada dimensión comienzan en 0.&lt;/p&gt;
@@ -96,6 +134,8 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;filtrado-de-elementos-de-un-array&#34;&gt;Filtrado de elementos de un array&lt;/h2&gt;
 &lt;p&gt;Una característica muy útil de los arrays es que es muy fácil obtener otro array con los elementos que cumplen una condición.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;a[condicion]&lt;/code&gt; : Devuelve una lista con los elementos del array &lt;code&gt;a&lt;/code&gt; que cumplen la condición &lt;code&gt;condicion&lt;/code&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2, 3], [4, 5, 6]])
 &amp;gt;&amp;gt;&amp;gt; print(a[(a % 2 == 0)])
@@ -103,6 +143,8 @@
 &amp;gt;&amp;gt;&amp;gt; print(a[(a % 2 == 0) &amp;amp;  (a &amp;gt; 2)])
 [2 4]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;operaciones-matemáticas-con-arrays&#34;&gt;Operaciones matemáticas con arrays&lt;/h2&gt;
 &lt;p&gt;Existen dos formas de realizar operaciones matemáticas con arrays: a nivel de elemento y a nivel de array.&lt;/p&gt;
 &lt;p&gt;Las operaciones a nivel de elemento operan los elementos que ocupan la misma posición en dos arrays. Se necesitan, por tanto, dos arrays con las mismas dimensiones y el resultado es una array de la misma dimensión.&lt;/p&gt;
@@ -119,21 +161,145 @@
 [[ 1  4  9]
  [16 25 36]]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;operaciones-matemáticas-a-nivel-de-array&#34;&gt;Operaciones matemáticas a nivel de array&lt;/h2&gt;
-&lt;p&gt;Para realizar el producto matricial se utiliza el método&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;a.dot(b)&lt;/code&gt; : Devuelve el array resultado del producto matricial de los arrays &lt;code&gt;a&lt;/code&gt; y &lt;code&gt;b&lt;/code&gt; siempre y cuando sus dimensiones sean compatibles.&lt;/p&gt;
-&lt;p&gt;Y para trasponer una matriz se utiliza el método&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;a.T&lt;/code&gt; : Devuelve el array resultado de trasponer el array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2, 3], [4, 5, 6]])
+&lt;h2 id=&#34;álgebra-matricial&#34;&gt;Álgebra matricial&lt;/h2&gt;
+&lt;p&gt;Numpy incorpora funciones para realizar las principales operaciones algebraicas con vectores y matrices. La mayoría de los métodos algebráicos se agrupan en el submódulo &lt;code&gt;linalg&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;producto-escalar-de-dos-vectores&#34;&gt;Producto escalar de dos vectores&lt;/h3&gt;
+&lt;p&gt;Para realizar el producto escalar de dos vectores se utiliza el operador &lt;code&gt;@&lt;/code&gt; o el siguiente método:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;u.dot(v)&lt;/code&gt;: Devuelve el producto escalar de los vectores &lt;code&gt;u&lt;/code&gt; y &lt;code&gt;v&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; a = np.array([1, 2, 3])
+&amp;gt;&amp;gt;&amp;gt; b = np.array([1, 0, 1])
+&amp;gt;&amp;gt;&amp;gt; print(a @ b)
+4
+&amp;gt;&amp;gt;&amp;gt; print(a.dot(b))
+4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;módulo-de-un-vector&#34;&gt;Módulo de un vector&lt;/h3&gt;
+&lt;p&gt;Para calcular el módulo de un vector se utiliza el siguiente método:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;norm(v)&lt;/code&gt;: Devuelve el módulo del vector &lt;code&gt;v&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; a = np.array([3, 4])
+&amp;gt;&amp;gt;&amp;gt; print(np.linalg.norm(a))
+5.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;producto-de-dos-matrices&#34;&gt;Producto de dos matrices&lt;/h3&gt;
+&lt;p&gt;Para realizar el producto matricial se utiliza el mismo operador &lt;code&gt;@&lt;/code&gt; y método que para el producto escalar de vectores:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;a.dot(b)&lt;/code&gt; : Devuelve el producto matricial de las matrices &lt;code&gt;a&lt;/code&gt; y &lt;code&gt;b&lt;/code&gt; siempre y cuando sus dimensiones sean compatibles.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2, 3], [4, 5, 6]])
 &amp;gt;&amp;gt;&amp;gt; b = np.array([[1, 1], [2, 2], [3, 3]])
+&amp;gt;&amp;gt;&amp;gt; print(a @ b)
+[[14 14]
+[32 32]]
 &amp;gt;&amp;gt;&amp;gt; print(a.dot(b))
 [[14 14]
- [32 32]]
+[32 32]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;matriz-traspuesta&#34;&gt;Matriz traspuesta&lt;/h3&gt;
+&lt;p&gt;Para trasponer una matriz se utiliza el método&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;a.T&lt;/code&gt; : Devuelve la matriz traspuesta de la matriz &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2, 3], [4, 5, 6]])
 &amp;gt;&amp;gt;&amp;gt; print(a.T)
 [[1 4]
- [2 5]
- [3 6]]
+[2 5]
+[3 6]]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;traza-de-una-matriz&#34;&gt;Traza de una matriz&lt;/h3&gt;
+&lt;p&gt;La traza de una matriz cuadrada se calcula con el siguiente método:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;a.trace()&lt;/code&gt; : Devuelve la traza (suma de la diagonal principal) de la matriz cuadrada &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+&amp;gt;&amp;gt;&amp;gt; print(a.trace())
+15
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;determinante-de-una-matriz&#34;&gt;Determinante de una matriz&lt;/h3&gt;
+&lt;p&gt;El determinante de una matriz cuadrada se calcula con la siguiente función:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;det(a)&lt;/code&gt; : Devuelve el determinante de la matriz cuadrada &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2], [3, 4]])
+&amp;gt;&amp;gt;&amp;gt; print(np.linalg.det(a))
+-2.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;matriz-inversa&#34;&gt;Matriz inversa&lt;/h3&gt;
+&lt;p&gt;La inversa de una matriz se calcula con la siguiente función:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;inv(a)&lt;/code&gt; : Devuelve la matriz inversa de la matriz cuadrada &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2], [3, 4]])
+&amp;gt;&amp;gt;&amp;gt; print(np.linalg.inv(a))
+[[-2.   1. ]
+[ 1.5 -0.5]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;autovalores-de-una-matriz&#34;&gt;Autovalores de una matriz&lt;/h3&gt;
+&lt;p&gt;Los autovalores de una matriz cuadrada se calculan con la siguiente función:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;eigvals(a)&lt;/code&gt; : Devuelve los autovalores de la matriz cuadrada &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 1, 0], [1, 2, 1], [0, 1, 1]])
+&amp;gt;&amp;gt;&amp;gt; print(np.linalg.eigvals(a))
+[ 3.00000000e+00  1.00000000e+00 -3.36770206e-17]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;autovectores-de-una-matriz&#34;&gt;Autovectores de una matriz&lt;/h3&gt;
+&lt;p&gt;Los autovectores de una matriz cuadrada se calculan con la siguiente función:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;eig(a)&lt;/code&gt; : Devuelve los autovalores y los autovectores asociados de la matriz cuadrada &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 1, 0], [1, 2, 1], [0, 1, 1]])
+&amp;gt;&amp;gt;&amp;gt; print(np.linalg.eig(a))
+(array([ 3.00000000e+00,  1.00000000e+00, -3.36770206e-17]), array([[-4.08248290e-01,  7.07106781e-01,  5.77350269e-01],
+      [-8.16496581e-01,  2.61239546e-16, -5.77350269e-01],
+      [-4.08248290e-01, -7.07106781e-01,  5.77350269e-01]]))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;solución-de-un-sistema-de-ecuaciones&#34;&gt;Solución de un sistema de ecuaciones&lt;/h3&gt;
+&lt;p&gt;Para resolver un sistema de ecuaciones lineales se utiliza la función siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;solve(a, b)&lt;/code&gt; : Devuelve la solución del sistema de ecuaciones lineales con los coeficientes de la matriz &lt;code&gt;a&lt;/code&gt; y los términos independientes de la matriz &lt;code&gt;b&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+# Sistema de dos ecuaciones y dos incógnitas
+# x + 2y = 1
+# 3x + 5y = 2 
+&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2], [3, 5]])
+&amp;gt;&amp;gt;&amp;gt; b = np.array([1, 2])
+&amp;gt;&amp;gt;&amp;gt; print(np.linalg.solve(a, b))
+[-1.  1.]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

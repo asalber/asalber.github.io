@@ -765,7 +765,20 @@ Incorpora una nueva clase de objetos llamados arrays que permite representar col
     <li><a href="#acceso-a-los-elementos-de-un-array">Acceso a los elementos de un array</a></li>
     <li><a href="#filtrado-de-elementos-de-un-array">Filtrado de elementos de un array</a></li>
     <li><a href="#operaciones-matemáticas-con-arrays">Operaciones matemáticas con arrays</a></li>
-    <li><a href="#operaciones-matemáticas-a-nivel-de-array">Operaciones matemáticas a nivel de array</a></li>
+    <li><a href="#álgebra-matricial">Álgebra matricial</a>
+      <ul>
+        <li><a href="#producto-escalar-de-dos-vectores">Producto escalar de dos vectores</a></li>
+        <li><a href="#módulo-de-un-vector">Módulo de un vector</a></li>
+        <li><a href="#producto-de-dos-matrices">Producto de dos matrices</a></li>
+        <li><a href="#matriz-traspuesta">Matriz traspuesta</a></li>
+        <li><a href="#traza-de-una-matriz">Traza de una matriz</a></li>
+        <li><a href="#determinante-de-una-matriz">Determinante de una matriz</a></li>
+        <li><a href="#matriz-inversa">Matriz inversa</a></li>
+        <li><a href="#autovalores-de-una-matriz">Autovalores de una matriz</a></li>
+        <li><a href="#autovectores-de-una-matriz">Autovectores de una matriz</a></li>
+        <li><a href="#solución-de-un-sistema-de-ecuaciones">Solución de un sistema de ecuaciones</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -792,12 +805,22 @@ Incorpora una nueva clase de objetos llamados arrays que permite representar col
 <p><img src="../img/arrays.png" alt="Arrays"></p>
 <h2 id="creación-de-arrays">Creación de arrays</h2>
 <p>Para crear un array se utiliza la siguiente función de NumPy</p>
-<p><code>np.array(lista)</code> : Crea un array a partir de la lista o tupla <code>lista</code> y devuelve una referencia a él. El número de dimensiones del array dependerá de las listas o tuplas anidadas en <code>lista</code>:</p>
 <ul>
-<li>Para una lista de valores se crea un array de una dimensión, también conocido como <strong>vector</strong>.</li>
-<li>Para una lista de listas de valores se crea un array de dos dimensiones, también conocido como <strong>matriz</strong>.</li>
-<li>Para una lista de listas de listas de valores se crea un array de tres dimensiones, también conocido como <strong>cubo</strong>.</li>
-<li>Y así sucesivamente. No hay límite en el número de dimensiones del array más allá de la memoria disponible en el sistema.</li>
+<li>
+<p><code>np.array(lista)</code> : Crea un array a partir de la lista o tupla <code>lista</code> y devuelve una referencia a él. El número de dimensiones del array dependerá de las listas o tuplas anidadas en <code>lista</code>:</p>
+</li>
+<li>
+<p>Para una lista de valores se crea un array de una dimensión, también conocido como <strong>vector</strong>.</p>
+</li>
+<li>
+<p>Para una lista de listas de valores se crea un array de dos dimensiones, también conocido como <strong>matriz</strong>.</p>
+</li>
+<li>
+<p>Para una lista de listas de listas de valores se crea un array de tres dimensiones, también conocido como <strong>cubo</strong>.</p>
+</li>
+<li>
+<p>Y así sucesivamente. No hay límite en el número de dimensiones del array más allá de la memoria disponible en el sistema.</p>
+</li>
 </ul>
 <p><i class="fa fa-exclamation-triangle" style="color:red;"></i> Los elementos de la lista o tupla deben ser del mismo tipo.</p>
 <pre><code class="language-python">&gt;&gt;&gt; # Array de una dimensión
@@ -819,14 +842,32 @@ Incorpora una nueva clase de objetos llamados arrays que permite representar col
   [10 11 12]]]
 </code></pre>
 <p>Otras funciones útiles que permiten generar arrays son:</p>
+<ul>
+<li>
 <p><code>np.empty(dimensiones)</code> : Crea y devuelve una referencia a un array vacío con las dimensiones especificadas en la tupla <code>dimensiones</code>.</p>
+</li>
+<li>
 <p><code>np.zeros(dimensiones)</code> : Crea y devuelve una referencia a un array con las dimensiones especificadas en la tupla <code>dimensiones</code> cuyos elementos son todos ceros.</p>
+</li>
+<li>
 <p><code>np.ones(dimensiones)</code> : Crea y devuelve una referencia a un array con las dimensiones especificadas en la tupla <code>dimensiones</code> cuyos elementos son todos unos.</p>
+</li>
+<li>
 <p><code>np.full(dimensiones, valor)</code> : Crea y devuelve una referencia a un array con las dimensiones especificadas en la tupla <code>dimensiones</code> cuyos elementos son todos <code>valor</code>.</p>
+</li>
+<li>
 <p><code>np.identity(n)</code> : Crea y devuelve una referencia a la matriz identidad de dimensión <code>n</code>.</p>
+</li>
+<li>
 <p><code>np.arange(inicio, fin, salto)</code> : Crea y devuelve una referencia a un array de una dimensión cuyos elementos son la secuencia desde <code>inicio</code> hasta <code>fin</code> tomando valores cada <code>salto</code>.</p>
+</li>
+<li>
 <p><code>np.linspace(inicio, fin, n)</code> : Crea y devuelve una referencia a un array de una dimensión cuyos elementos son la secuencia de <code>n</code> valores equidistantes desde <code>inicio</code> hasta <code>fin</code>.</p>
+</li>
+<li>
 <p><code>np.random.random(dimensiones)</code> : Crea y devuelve una referencia a un array con las dimensiones especificadas en la tupla <code>dimensiones</code> cuyos elementos son aleatorios.</p>
+</li>
+</ul>
 <pre><code class="language-python">&gt;&gt;&gt; print(np.zeros(3,2))
 [[0. 0. 0.]
  [0. 0. 0.]]
@@ -841,10 +882,20 @@ Incorpora una nueva clase de objetos llamados arrays que permite representar col
 </code></pre>
 <h2 id="atributos-de-un-array">Atributos de un array</h2>
 <p>Existen varios atributos y funciones que describen las características de un array.</p>
+<ul>
+<li>
 <p><code>a.ndim</code> : Devuelve el número de dimensiones del array <code>a</code>.</p>
+</li>
+<li>
 <p><code>a.shape</code> : Devuelve una tupla con las dimensiones del array <code>a</code>.</p>
+</li>
+<li>
 <p><code>a.size</code> : Devuelve el número de elementos del array <code>a</code>.</p>
+</li>
+<li>
 <p><code>a.dtype</code>: Devuelve el tipo de datos de los elementos del array <code>a</code>.</p>
+</li>
+</ul>
 <h2 id="acceso-a-los-elementos-de-un-array">Acceso a los elementos de un array</h2>
 <p>Para acceder a los elementos contenidos en un array se usan índices al igual que para acceder a los elementos de una lista, pero indicando los índices de cada dimensión separados por comas.</p>
 <p>Al igual que para listas, los índices de cada dimensión comienzan en 0.</p>
@@ -860,6 +911,8 @@ Incorpora una nueva clase de objetos llamados arrays que permite representar col
 </code></pre>
 <h2 id="filtrado-de-elementos-de-un-array">Filtrado de elementos de un array</h2>
 <p>Una característica muy útil de los arrays es que es muy fácil obtener otro array con los elementos que cumplen una condición.</p>
+<ul>
+<li>
 <p><code>a[condicion]</code> : Devuelve una lista con los elementos del array <code>a</code> que cumplen la condición <code>condicion</code>.</p>
 <pre><code class="language-python">&gt;&gt;&gt; a = np.array([[1, 2, 3], [4, 5, 6]])
 &gt;&gt;&gt; print(a[(a % 2 == 0)])
@@ -867,6 +920,8 @@ Incorpora una nueva clase de objetos llamados arrays que permite representar col
 &gt;&gt;&gt; print(a[(a % 2 == 0) &amp;  (a &gt; 2)])
 [2 4]
 </code></pre>
+</li>
+</ul>
 <h2 id="operaciones-matemáticas-con-arrays">Operaciones matemáticas con arrays</h2>
 <p>Existen dos formas de realizar operaciones matemáticas con arrays: a nivel de elemento y a nivel de array.</p>
 <p>Las operaciones a nivel de elemento operan los elementos que ocupan la misma posición en dos arrays. Se necesitan, por tanto, dos arrays con las mismas dimensiones y el resultado es una array de la misma dimensión.</p>
@@ -883,21 +938,145 @@ Incorpora una nueva clase de objetos llamados arrays que permite representar col
 [[ 1  4  9]
  [16 25 36]]
 </code></pre>
-<h2 id="operaciones-matemáticas-a-nivel-de-array">Operaciones matemáticas a nivel de array</h2>
-<p>Para realizar el producto matricial se utiliza el método</p>
-<p><code>a.dot(b)</code> : Devuelve el array resultado del producto matricial de los arrays <code>a</code> y <code>b</code> siempre y cuando sus dimensiones sean compatibles.</p>
-<p>Y para trasponer una matriz se utiliza el método</p>
-<p><code>a.T</code> : Devuelve el array resultado de trasponer el array <code>a</code>.</p>
-<pre><code class="language-python">&gt;&gt;&gt; a = np.array([[1, 2, 3], [4, 5, 6]])
+<h2 id="álgebra-matricial">Álgebra matricial</h2>
+<p>Numpy incorpora funciones para realizar las principales operaciones algebraicas con vectores y matrices. La mayoría de los métodos algebráicos se agrupan en el submódulo <code>linalg</code>.</p>
+<h3 id="producto-escalar-de-dos-vectores">Producto escalar de dos vectores</h3>
+<p>Para realizar el producto escalar de dos vectores se utiliza el operador <code>@</code> o el siguiente método:</p>
+<ul>
+<li>
+<p><code>u.dot(v)</code>: Devuelve el producto escalar de los vectores <code>u</code> y <code>v</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([1, 2, 3])
+&gt;&gt;&gt; b = np.array([1, 0, 1])
+&gt;&gt;&gt; print(a @ b)
+4
+&gt;&gt;&gt; print(a.dot(b))
+4
+</code></pre>
+</li>
+</ul>
+<h3 id="módulo-de-un-vector">Módulo de un vector</h3>
+<p>Para calcular el módulo de un vector se utiliza el siguiente método:</p>
+<ul>
+<li>
+<p><code>norm(v)</code>: Devuelve el módulo del vector <code>v</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([3, 4])
+&gt;&gt;&gt; print(np.linalg.norm(a))
+5.0
+</code></pre>
+</li>
+</ul>
+<h3 id="producto-de-dos-matrices">Producto de dos matrices</h3>
+<p>Para realizar el producto matricial se utiliza el mismo operador <code>@</code> y método que para el producto escalar de vectores:</p>
+<ul>
+<li>
+<p><code>a.dot(b)</code> : Devuelve el producto matricial de las matrices <code>a</code> y <code>b</code> siempre y cuando sus dimensiones sean compatibles.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 2, 3], [4, 5, 6]])
 &gt;&gt;&gt; b = np.array([[1, 1], [2, 2], [3, 3]])
+&gt;&gt;&gt; print(a @ b)
+[[14 14]
+[32 32]]
 &gt;&gt;&gt; print(a.dot(b))
 [[14 14]
- [32 32]]
+[32 32]]
+</code></pre>
+</li>
+</ul>
+<h3 id="matriz-traspuesta">Matriz traspuesta</h3>
+<p>Para trasponer una matriz se utiliza el método</p>
+<ul>
+<li>
+<p><code>a.T</code> : Devuelve la matriz traspuesta de la matriz <code>a</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 2, 3], [4, 5, 6]])
 &gt;&gt;&gt; print(a.T)
 [[1 4]
- [2 5]
- [3 6]]
+[2 5]
+[3 6]]
 </code></pre>
+</li>
+</ul>
+<h3 id="traza-de-una-matriz">Traza de una matriz</h3>
+<p>La traza de una matriz cuadrada se calcula con el siguiente método:</p>
+<ul>
+<li>
+<p><code>a.trace()</code> : Devuelve la traza (suma de la diagonal principal) de la matriz cuadrada <code>a</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+&gt;&gt;&gt; print(a.trace())
+15
+</code></pre>
+</li>
+</ul>
+<h3 id="determinante-de-una-matriz">Determinante de una matriz</h3>
+<p>El determinante de una matriz cuadrada se calcula con la siguiente función:</p>
+<ul>
+<li>
+<p><code>det(a)</code> : Devuelve el determinante de la matriz cuadrada <code>a</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 2], [3, 4]])
+&gt;&gt;&gt; print(np.linalg.det(a))
+-2.0
+</code></pre>
+</li>
+</ul>
+<h3 id="matriz-inversa">Matriz inversa</h3>
+<p>La inversa de una matriz se calcula con la siguiente función:</p>
+<ul>
+<li>
+<p><code>inv(a)</code> : Devuelve la matriz inversa de la matriz cuadrada <code>a</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 2], [3, 4]])
+&gt;&gt;&gt; print(np.linalg.inv(a))
+[[-2.   1. ]
+[ 1.5 -0.5]]
+</code></pre>
+</li>
+</ul>
+<h3 id="autovalores-de-una-matriz">Autovalores de una matriz</h3>
+<p>Los autovalores de una matriz cuadrada se calculan con la siguiente función:</p>
+<ul>
+<li>
+<p><code>eigvals(a)</code> : Devuelve los autovalores de la matriz cuadrada <code>a</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 1, 0], [1, 2, 1], [0, 1, 1]])
+&gt;&gt;&gt; print(np.linalg.eigvals(a))
+[ 3.00000000e+00  1.00000000e+00 -3.36770206e-17]
+</code></pre>
+</li>
+</ul>
+<h3 id="autovectores-de-una-matriz">Autovectores de una matriz</h3>
+<p>Los autovectores de una matriz cuadrada se calculan con la siguiente función:</p>
+<ul>
+<li>
+<p><code>eig(a)</code> : Devuelve los autovalores y los autovectores asociados de la matriz cuadrada <code>a</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 1, 0], [1, 2, 1], [0, 1, 1]])
+&gt;&gt;&gt; print(np.linalg.eig(a))
+(array([ 3.00000000e+00,  1.00000000e+00, -3.36770206e-17]), array([[-4.08248290e-01,  7.07106781e-01,  5.77350269e-01],
+      [-8.16496581e-01,  2.61239546e-16, -5.77350269e-01],
+      [-4.08248290e-01, -7.07106781e-01,  5.77350269e-01]]))
+</code></pre>
+</li>
+</ul>
+<h3 id="solución-de-un-sistema-de-ecuaciones">Solución de un sistema de ecuaciones</h3>
+<p>Para resolver un sistema de ecuaciones lineales se utiliza la función siguiente:</p>
+<ul>
+<li>
+<p><code>solve(a, b)</code> : Devuelve la solución del sistema de ecuaciones lineales con los coeficientes de la matriz <code>a</code> y los términos independientes de la matriz <code>b</code>.</p>
+<pre><code class="language-python">&gt;&gt;&gt; import numpy as np
+# Sistema de dos ecuaciones y dos incógnitas
+# x + 2y = 1
+# 3x + 5y = 2 
+&gt;&gt;&gt; a = np.array([[1, 2], [3, 5]])
+&gt;&gt;&gt; b = np.array([1, 2])
+&gt;&gt;&gt; print(np.linalg.solve(a, b))
+[-1.  1.]
+</code></pre>
+</li>
+</ul>
 
           </div>
 
