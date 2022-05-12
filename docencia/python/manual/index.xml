@@ -1921,6 +1921,7 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
       <description>&lt;p&gt;
 &lt;a href=&#34;https://www.numpy.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NumPy&lt;/a&gt; es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.&lt;/p&gt;
 &lt;p&gt;Incorpora una nueva clase de objetos llamados &lt;strong&gt;arrays&lt;/strong&gt; que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.&lt;/p&gt;
+&lt;p&gt;La ventaja de Numpy frente a las listas predefinidas en Python es que el procesamiento de los arrays se realiza mucho más rápido (hasta 50 veces más) que las listas, lo cual la hace ideal para el procesamiento de vectores y matrices de grandes dimensiones.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/numpy-logo.png&#34; alt=&#34;Logo librería numpy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;la-clase-de-objetos-array&#34;&gt;La clase de objetos &lt;code&gt;array&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Un array es una estructura de datos de un mismo tipo organizada en forma de tabla o cuadrícula de distintas dimensiones.&lt;/p&gt;
@@ -1977,13 +1978,13 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;atributos-de-un-array&#34;&gt;Atributos de un array&lt;/h2&gt;
 &lt;p&gt;Existen varios atributos y funciones que describen las características de un array.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;a.ndi&lt;/code&gt; : Devuelve el número de dimensiones del array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a.ndim&lt;/code&gt; : Devuelve el número de dimensiones del array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;a.shape&lt;/code&gt; : Devuelve una tupla con las dimensiones del array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;a.size&lt;/code&gt; : Devuelve el número de elementos del array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;a.dtype&lt;/code&gt;: Devuelve el tipo de datos de los elementos del array &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;acceso-a-los-elementos-de-un-array&#34;&gt;Acceso a los elementos de un array&lt;/h2&gt;
 &lt;p&gt;Para acceder a los elementos contenidos en un array se usan índices al igual que para acceder a los elementos de una lista, pero indicando los índices de cada dimensión separados por comas.&lt;/p&gt;
-&lt;p&gt;Al igual que para listas, los índices de cada dimensión comienzn en 0.&lt;/p&gt;
+&lt;p&gt;Al igual que para listas, los índices de cada dimensión comienzan en 0.&lt;/p&gt;
 &lt;p&gt;También es posible obtener subarrays con el operador dos puntos &lt;code&gt;:&lt;/code&gt; indicando el índice inicial y el siguiente al final para cada dimensión, de nuevo separados por comas.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2, 3], [4, 5, 6]])
 &amp;gt;&amp;gt;&amp;gt; print(a[1, 0])  # Acceso al elemento de la fila 1 columna 0
