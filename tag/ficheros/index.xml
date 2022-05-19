@@ -7,7 +7,7 @@
     <description>Ficheros</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Thu, 01 Jan 1970 01:33:39 +0100</lastBuildDate>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Ficheros</title>
       <link>/tag/ficheros/</link>
     </image>
@@ -81,48 +81,86 @@
 &lt;li&gt;Borrar un fichero.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;creación-y-escritura-de-ficheros&#34;&gt;Creación y escritura de ficheros&lt;/h3&gt;
-&lt;p&gt;Para crear un fichero nuevo se utiliza la instrucción&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;open(ruta, &#39;w&#39;)&lt;/code&gt; : Crea el fichero con la ruta &lt;code&gt;ruta&lt;/code&gt;, lo abre en modo escritura (el argumento &amp;lsquo;w&amp;rsquo; significa &lt;em&gt;write&lt;/em&gt;) y devuelve un objeto que lo referencia.&lt;/p&gt;
+&lt;p&gt;Para crear un fichero nuevo se utiliza la siguiente función:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;open(ruta, &#39;w&#39;)&lt;/code&gt; : Crea el fichero con la ruta &lt;code&gt;ruta&lt;/code&gt;, lo abre en modo escritura (el argumento &amp;lsquo;w&amp;rsquo; significa &lt;em&gt;write&lt;/em&gt;) y devuelve un objeto que lo referencia.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fa fa-exclamation-triangle&#34; style=&#34;color:red;&#34;&gt;&lt;/i&gt; Si el fichero indicado por la ruta ya existe en el sistema, se reemplazará por el nuevo.&lt;/p&gt;
-&lt;p&gt;Una vez creado el fichero, para escribir datos en él se utiliza el método&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;fichero.write(c)&lt;/code&gt; : Escribe la cadena &lt;code&gt;c&lt;/code&gt; en el fichero referenciado por &lt;code&gt;fichero&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;bienvenida.txt&#39;, &#39;w&#39;)
-... f.write(&#39;¡Bienvenido a Python!&#39;)
+&lt;p&gt;Una vez creado el fichero, para escribir datos en él se utiliza el siguiente método:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;f.write(c)&lt;/code&gt; : Escribe la cadena &lt;code&gt;c&lt;/code&gt; en el fichero referenciado por &lt;code&gt;f&lt;/code&gt; y devuelve el número de caracteres escritos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;saludo.txt&#39;, &#39;w&#39;)
+&amp;gt;&amp;gt;&amp;gt; f.write(&#39;¡Bienvenido a Python!&#39;)
+21
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;añadir-datos-a-un-fichero&#34;&gt;Añadir datos a un fichero&lt;/h3&gt;
-&lt;p&gt;Si en lugar de crear un fichero nuevo queremos añadir datos a un fichero existente se debe utilizar la instrucción&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;open(ruta, &#39;a&#39;)&lt;/code&gt; : Abre el fichero con la ruta &lt;code&gt;ruta&lt;/code&gt; en modo añadir (el argumento &amp;lsquo;a&amp;rsquo; significa &lt;em&gt;append&lt;/em&gt;) y devuelve un objeto que lo referencia.&lt;/p&gt;
+&lt;p&gt;Si en lugar de crear un fichero nuevo queremos añadir datos a un fichero existente se debe utilizar la siguiente función:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;open(ruta, &#39;a&#39;)&lt;/code&gt; : Abre el fichero con la ruta &lt;code&gt;ruta&lt;/code&gt; en modo añadir (el argumento &amp;lsquo;a&amp;rsquo; significa &lt;em&gt;append&lt;/em&gt;) y devuelve un objeto que lo referencia.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Una vez abierto el fichero, se utiliza el método de escritura anterior y los datos se añaden al final del fichero.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;bienvenida.txt&#39;, &#39;a&#39;)
-... f.write(&#39;\n¡Hasta pronto!&#39;)
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;saludo.txt&#39;, &#39;a&#39;)
+&amp;gt;&amp;gt;&amp;gt; f.write(&#39;\n¡Hasta pronto!&#39;)
+15
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;leer-datos-de-un-fichero&#34;&gt;Leer datos de un fichero&lt;/h3&gt;
-&lt;p&gt;Para abrir un fichero en modo lectura se utiliza la instrucción&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;open(ruta, &#39;r&#39;)&lt;/code&gt; : Abre el fichero con la ruta &lt;code&gt;ruta&lt;/code&gt; en modo lectura (el argumento &amp;lsquo;r&amp;rsquo; significa &lt;em&gt;read&lt;/em&gt;) y devuelve un objeto que lo referencia.&lt;/p&gt;
-&lt;p&gt;Una vez abierto el fichero, se puede leer todo el contenido del fichero o se puede leer línea a línea.&lt;/p&gt;
-&lt;h3 id=&#34;leer-datos-de-un-fichero-1&#34;&gt;Leer datos de un fichero&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;fichero.read()&lt;/code&gt; : Devuelve todos los datos contenidos en &lt;code&gt;fichero&lt;/code&gt; como una cadena de caracteres.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;fichero.readlines()&lt;/code&gt; : Devuelve una lista de cadenas de caracteres donde cada cadena es una linea del fichero referenciado por &lt;code&gt;fichero&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;bienvenida.txt&#39;, &#39;r&#39;)
-... print(f.read())
+&lt;p&gt;Para abrir un fichero en modo lectura se utiliza la siguiente función:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;open(ruta, &#39;r&#39;)&lt;/code&gt; : Abre el fichero con la ruta &lt;code&gt;ruta&lt;/code&gt; en modo lectura (el argumento &amp;lsquo;r&amp;rsquo; significa &lt;em&gt;read&lt;/em&gt;) y devuelve un objeto que lo referencia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Una vez abierto el fichero, se puede leer todo el contenido del fichero o se puede leer línea a línea. Para ello se utilizan las siguientes funciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;f.read()&lt;/code&gt; : Devuelve todos los datos contenidos en el fichero referenciado por &lt;code&gt;f&lt;/code&gt; como una cadena de caracteres.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;f.readlines()&lt;/code&gt; : Devuelve una lista de cadenas de caracteres donde cada cadena es una linea del fichero referenciado por &lt;code&gt;f&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;saludo.txt&#39;, &#39;r&#39;)
+&amp;gt;&amp;gt;&amp;gt; print(f.read())
 ¡Bienvenido a Python!
 ¡Hasta pronto!
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;bienvenida.txt&#39;, &#39;r&#39;)
-... lineas = f.readlines()
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;saludo.txt&#39;, &#39;r&#39;)
+&amp;gt;&amp;gt;&amp;gt; lineas = f.readlines()
 &amp;gt;&amp;gt;&amp;gt; print(lineas)
 [&#39;Bienvenido a Python!\n&#39;, &#39;¡Hasta pronto!&#39;]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;cerrar-un-fichero&#34;&gt;Cerrar un fichero&lt;/h3&gt;
-&lt;p&gt;Para cerrar un fichero se utiliza el método&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;fichero.close()&lt;/code&gt; : Cierra el fichero referenciado por el objeto &lt;code&gt;fichero&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Para cerrar un fichero se utiliza el siguiente método:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;f.close()&lt;/code&gt; : Cierra el fichero referenciado por el objeto &lt;code&gt;f&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Cuando se termina de trabajar con un fichero conviene cerrarlo, sobre todo si se abre en modo escritura, ya que mientras está abierto en este modo no se puede abrir por otra aplicación. Si no se cierra explícitamente un fichero, Python intentará cerrarlo cuando estime que ya no se va a usar más.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;bienvenida.txt&#39;):
-... print(f.read())
-... f.close()  # Cierre del fichero
-...
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; f = open(&#39;saludo.txt&#39;):
+&amp;gt;&amp;gt;&amp;gt; print(f.read())
 ¡Bienvenido a Python!
 ¡Hasta pronto!
+&amp;gt;&amp;gt;&amp;gt; f.close()  # Cierre del fichero
+&amp;gt;&amp;gt;&amp;gt; print(f.read())  # Produce un error
+Traceback (most recent call last):
+  File &amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;, line 1, in &amp;lt;module&amp;gt;
+ValueError: I/O operation on closed file.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;la-estructura-with-open-as&#34;&gt;La estructura &lt;code&gt;with open(...) as&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Para despreocuparnos del cierre de un fichero cuando ya no es necesario y no tener que cerrarlo explícitamente, se utiliza la siguiente estructura:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;with open(ruta, modo) as f&lt;/code&gt;:&lt;br&gt;
+    &lt;em&gt;&lt;code&gt;bloque código&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Esta estructura abre el fichero con la ruta &lt;code&gt;ruta&lt;/code&gt; en el modo &lt;code&gt;modo&lt;/code&gt; (&lt;code&gt;&#39;w&#39;&lt;/code&gt; para escribir, &lt;code&gt;&#39;a&#39;&lt;/code&gt; para añadir y &lt;code&gt;&#39;r&#39;&lt;/code&gt; para leer) y devuelve una referencia al mismo en la variable &lt;code&gt;f&lt;/code&gt;. El fichero permanece abierto mientras se ejecuta el bloque de código asociado y se cierra automáticamente cuando termina la ejecución del bloque.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; with open(&#39;saludo.txt&#39;, &#39;w&#39;) as f:
+...     f.write(&amp;quot;Hola de nuevo&amp;quot;)
+... 
+13
+&amp;gt;&amp;gt;&amp;gt; with open(&#39;saludo.txt&#39;, &#39;r&#39;) as f:
+...     print(f.read())
+... 
+Hola de nuevo
+&amp;gt;&amp;gt;&amp;gt; print(f.read())  # Produce un error al estar el fichero cerrado
+Traceback (most recent call last):
+  File &amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;, line 1, in &amp;lt;module&amp;gt;
+ValueError: I/O operation on closed file.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;renombrado-y-borrado-de-un-fichero&#34;&gt;Renombrado y borrado de un fichero&lt;/h3&gt;
 &lt;p&gt;Para renombra o borrar un fichero se utilizan funciones del módulo &lt;code&gt;os&lt;/code&gt;.&lt;/p&gt;
@@ -132,13 +170,13 @@
 &lt;p&gt;&lt;code&gt;os.path.isfile(ruta)&lt;/code&gt; : Devuelve &lt;code&gt;True&lt;/code&gt; si existe un fichero en la ruta &lt;code&gt;ruta&lt;/code&gt; y &lt;code&gt;False&lt;/code&gt; en caso contrario.&lt;/p&gt;
 &lt;h3 id=&#34;renombrado-y-borrado-de-un-fichero-o-directorio&#34;&gt;Renombrado y borrado de un fichero o directorio&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import os
-&amp;gt;&amp;gt;&amp;gt; f = &#39;bienvenida.txt&#39;
+&amp;gt;&amp;gt;&amp;gt; f = &#39;saludo.txt&#39;
 &amp;gt;&amp;gt;&amp;gt; if os.path.isfile(f):
-...     os.rename(f, &#39;saludo.txt&#39;) # renombrado
+...     os.rename(f, &#39;bienvenida.txt&#39;) # renombrado
 ... else:
 ...     print(&#39;¡El fichero&#39;, f, &#39;no existe!&#39;)
 ...
-&amp;gt;&amp;gt;&amp;gt; f = &#39;saludo.txt&#39;
+&amp;gt;&amp;gt;&amp;gt; f = &#39;bienvenida.txt&#39;
 &amp;gt;&amp;gt;&amp;gt; if os.path.isfile(f):
 ...     os.remove(f) # borrado
 ... else:

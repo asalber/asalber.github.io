@@ -7,7 +7,7 @@
     <description>Regresión No Lineal</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Regresión No Lineal</title>
       <link>/tag/regresion-no-lineal/</link>
     </image>
@@ -360,7 +360,7 @@ recta de regresión de la estatura sobre el peso es&lt;/p&gt;
 &lt;p&gt;El parámetro más importante de una recta de regresión es su pendiente.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Coeficiente de regresión&lt;/strong&gt; $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el _coeficiente de regresión_ de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Coeficiente de regresión&lt;/strong&gt; $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el &lt;em&gt;coeficiente de regresión&lt;/em&gt; de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p&gt;
 &lt;p&gt;$$b_{yx} = \frac{s_{xy}}{s_x^2}$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -397,7 +397,7 @@ De ello se encarga la parte de la estadística conocida como &lt;strong&gt;corre
 &lt;em&gt;varianza residual&lt;/em&gt;.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Varianza residual muestral&lt;/strong&gt; $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su _varianza residual muestral_ es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Varianza residual muestral&lt;/strong&gt; $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su &lt;em&gt;varianza residual muestral&lt;/em&gt; es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p&gt;
 &lt;p&gt;$$s_{ry}^2 = \frac{\sum e_{ij}^2n_{ij}}{n} = \frac{\sum (y_j - f(x_i))^2n_{ij}}{n}.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;

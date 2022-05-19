@@ -7,7 +7,7 @@
     <description>Estadística</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Estadística</title>
       <link>/category/estadistica/</link>
     </image>
@@ -139,7 +139,7 @@
 &lt;p&gt;Los &lt;em&gt;datos&lt;/em&gt; son los valores observados en las variables estadísticas.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;../img/introduccion/variables_estadisticas.svg&#34; alt=&#34;&amp;ldquo;Variables estadísticas&amp;rdquo;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/introduccion/variables_estadisticas.svg&#34; alt=&#34;&amp;amp;ldquo;Variables estadísticas&amp;amp;rdquo;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Estas características pueden ser de distintos tipos de acuerdo a su naturaleza y su escala:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -2137,7 +2137,7 @@ recta de regresión de la estatura sobre el peso es&lt;/p&gt;
 &lt;p&gt;El parámetro más importante de una recta de regresión es su pendiente.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Coeficiente de regresión&lt;/strong&gt; $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el _coeficiente de regresión_ de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Coeficiente de regresión&lt;/strong&gt; $b_{yx}$. Dada una variable bidimensional $(X,Y)$, el &lt;em&gt;coeficiente de regresión&lt;/em&gt; de la recta de regresión de $Y$ sobre $X$ es su pendiente,&lt;/p&gt;
 &lt;p&gt;$$b_{yx} = \frac{s_{xy}}{s_x^2}$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2174,7 +2174,7 @@ De ello se encarga la parte de la estadística conocida como &lt;strong&gt;corre
 &lt;em&gt;varianza residual&lt;/em&gt;.&lt;/p&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Varianza residual muestral&lt;/strong&gt; $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su _varianza residual muestral_ es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Definición - Varianza residual muestral&lt;/strong&gt; $s_{ry}^2$. Dado un modelo de regresión simple $y=f(x)$ de una variable bidimensional $(X,Y)$, su &lt;em&gt;varianza residual muestral&lt;/em&gt; es el promedio de los cuadrados de los residuos para los valores de la muestra,&lt;/p&gt;
 &lt;p&gt;$$s_{ry}^2 = \frac{\sum e_{ij}^2n_{ij}}{n} = \frac{\sum (y_j - f(x_i))^2n_{ij}}{n}.$$&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -4198,7 +4198,7 @@ $$&lt;/p&gt;
 T=\frac{\bar{X}_1-\bar{X}_2}{\hat{S}_p\sqrt{\frac{n_1+n_2}{n_1n_2}}} \sim T(n_1+n_2-2).
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Región de aceptación&lt;/strong&gt;: $-t_{\alpha/2}^{n_1+n_2-2} &amp;lt; T &amp;lt; t_{\alpha/2}^{n_1+n_2-2}$.&lt;br&gt;
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p&gt;
+&lt;strong&gt;Región de rechazo&lt;/strong&gt;: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Se quiere comparar el rendimiento académico de dos grupos de alumnos, uno con 10 alumnos y otro con 12, que han seguido metodologías diferentes. Para ello se les realiza un examen y se obtienen las siguientes puntuaciones:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
@@ -4242,7 +4242,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$$\Delta = \frac{(\frac{n_2-1}{n_1}\hat{S}_1^2-\frac{n_1-1}{n_2}\hat{S}_2^2)^2}{\frac{n_2-1}{n_1^2}\hat{S}_1^4+\frac{n_1-1}{n_2^2}\hat{S}_2^4}.
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Región de aceptación&lt;/strong&gt;: $-t_{\alpha/2}^{g} &amp;lt; T &amp;lt; t_{\alpha/2}^{g}$.&lt;br&gt;
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p&gt;
+&lt;strong&gt;Región de rechazo&lt;/strong&gt;: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p&gt;
 &lt;h3 id=&#34;contraste-de-comparación-de-varianzas-de-dos-poblaciones-normales&#34;&gt;Contraste de comparación de varianzas de dos poblaciones normales&lt;/h3&gt;
 &lt;p&gt;Sean $X_1$ y $X_2$ dos variables aleatorias que cumplen las siguientes condiciones:&lt;/p&gt;
 &lt;ul&gt;
@@ -4268,7 +4268,7 @@ F= \frac{\frac{\frac{(n_1-1)\hat{S}_1^2}{\sigma_1^2}}{n_1-1}}{\frac{\frac{(n_2-1
 \frac{\sigma_2^2}{\sigma_1^2}\frac{\hat{S}_1^2}{\hat{S}_2^2}\sim F(n_1-1,n_2-1).
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Región de aceptación&lt;/strong&gt;: $F_{\alpha/2}^{n_1-1,n_2-1} &amp;lt; F &amp;lt; F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;br&gt;
-**Región de rechazo**: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p&gt;
+&lt;strong&gt;Región de rechazo&lt;/strong&gt;: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Siguiendo con el ejemplo de las puntuaciones en dos grupos:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
@@ -4308,7 +4308,7 @@ $X_1\sim B(n_1,p_1)$ y $X_2\sim B(n_2,p_2)$. Si las muestras son grandes ($n_ip_
 \Rightarrow Z = \frac{\hat{p}_1-\hat{p_2}}{\sqrt{\frac{p_1(1-p_1)}{n_1}+\frac{p_2(1-p_2)}{n_2}}}\sim N(0,1)
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Región de aceptación&lt;/strong&gt;: $z_{\alpha/2}&amp;lt; Z &amp;lt; z_{1-\alpha/2}$.&lt;br&gt;
-**Región de rechazo**: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p&gt;
+&lt;strong&gt;Región de rechazo&lt;/strong&gt;: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Se quiere comparar los porcentajes de aprobados en dos grupos que han seguido metodologías distintas. En el primer grupo han aprobado 24 alumnos de un total de 40, mientras que en el segundo han aprobado 48 de 60.&lt;/p&gt;
 &lt;p&gt;El contraste que se plantea es&lt;/p&gt;
 &lt;p&gt;$$
@@ -4458,10 +4458,10 @@ mg?&lt;/p&gt;
       &lt;p&gt;Sea $x(t)$ la cantidad de medicamento en el cuerpo en el instante $t$.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Ecuación diferencial: $x&#39;=15-0.8x$. Condición inicial $x(0)=0$. Solución particular: $x(t)=18.75-18.75e^{-0.8t}$ y la cantidad máxima de medicamento en el cuerpo será 18.75 mg.&lt;/p&gt;
+&lt;p&gt;Ecuación diferencial: $x&amp;rsquo;=15-0.8x$. Condición inicial $x(0)=0$. Solución particular: $x(t)=18.75-18.75e^{-0.8t}$ y la cantidad máxima de medicamento en el cuerpo será 18.75 mg.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Ecuación diferencial: $x&#39;=-0.8x$. Condición inicial $x(0)=18.74$. Solución particular: $x(t)=18.74e^{-0.8t}$ y el tiempo que tarda en haber una cantidad de 10 mg en el cuerpo es $0.7851$ horas.&lt;/p&gt;
+&lt;p&gt;Ecuación diferencial: $x&amp;rsquo;=-0.8x$. Condición inicial $x(0)=18.74$. Solución particular: $x(t)=18.74e^{-0.8t}$ y el tiempo que tarda en haber una cantidad de 10 mg en el cuerpo es $0.7851$ horas.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -4509,7 +4509,7 @@ mg?&lt;/p&gt;
 &lt;p&gt;$\nabla T(1,2)=\frac{1}{3}(5,1)$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Sea $\mathbf{u}$ el vector $(1,-1/2)$, entonces $T&#39;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p&gt;
+&lt;p&gt;Sea $\mathbf{u}$ el vector $(1,-1/2)$, entonces $T&amp;rsquo;_{\mathbf{u}}(1,2) = \frac{3}{\sqrt{5}}$ ºC.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Siguiendo la dirección del vector $(1,-5)$.&lt;/p&gt;
@@ -4558,7 +4558,7 @@ mg?&lt;/p&gt;
 &lt;p&gt;$\dfrac{dr}{dt}=0.0305$ dm/min.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Usando la aproximación lineal del diferencial $dt = S&#39;/dS=37.5013$ minutos aproximadamente.&lt;/p&gt;
+&lt;p&gt;Usando la aproximación lineal del diferencial $dt = S&amp;rsquo;/dS=37.5013$ minutos aproximadamente.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -5427,7 +5427,7 @@ Nota: Si no se saben calcular las medias y desviación típica, tomar 215 mg/dl 
 Fecha: 17 de Diciembre de 2018&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;El siguiente gráfico representa la distribución acumulada del número de fármacos defectuosos diarios producidos por una máquina en una muestra de 40 fármacos.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/question1-1.svg&#34; title=&#34;plot of chunk question1&#34; alt=&#34;plot of chunk question1&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/question1-1.svg&#34; title=&#34;plot of chunk question1&#34; alt=&#34;plot of chunk question1&#34; /&gt;
 &lt;ol&gt;
 &lt;li&gt;Construir la tabla de frecuencias del número de fármacos defectuosos.&lt;/li&gt;
 &lt;li&gt;Dibujar el diagrama de caja y bigotes del número de fármacos defectuosos.&lt;/li&gt;
@@ -5463,7 +5463,7 @@ Fecha: 17 de Diciembre de 2018&lt;/p&gt;
 $$&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/boxplot-1.svg&#34; title=&#34;plot of chunk boxplot&#34; alt=&#34;plot of chunk boxplot&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/boxplot-1.svg&#34; title=&#34;plot of chunk boxplot&#34; alt=&#34;plot of chunk boxplot&#34; /&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;$\bar x=3.975$ fármacos, $s_x=1.9936$ fármacos y $g_1=0.3184$. Por tanto, la distribución es un poco asimétrica hacia la derecha.&lt;/li&gt;
 &lt;li&gt;$cv_x=0.5015$,  $\bar y=13.925$ fármacos, $s_y=5.9808$ fármacos y $cv_y=0.4295$.&lt;br&gt;
@@ -5695,8 +5695,8 @@ $\sum x_iy_j=15523$ años$\cdot$cm.&lt;/p&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/diagrama-caja-distancia-minima-enfoque-1.svg&#34; title=&#34;Diagrama de caja de la distancia mínima de enfoque&#34; alt=&#34;Diagrama de caja de la distancia mínima de enfoque&#34; /&gt;&lt;br&gt;
-No hay datos atípicos.&lt;/p&gt;
+&lt;img src=&#34;../img/diagrama-caja-distancia-minima-enfoque-1.svg&#34; title=&#34;Diagrama de caja de la distancia mínima de enfoque&#34; alt=&#34;Diagrama de caja de la distancia mínima de enfoque&#34; /&gt;  
+No hay datos atípicos.
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Menores de 40: $\bar y=13.6$ cm,  $s^2_y=1.04$ cm², $s_y=1.0198$ cm y $cv_y=0.075$.&lt;br&gt;
 Mayores de 40: $\bar y=25.2$ cm, $s^2_y=25.36$ cm², $s_y=5.0359$ cm y $cv_y=0.1998$.&lt;br&gt;
@@ -5709,7 +5709,6 @@ Mayores de 40: $z(30)=0.95$.&lt;br&gt;
 Así pues, una distancia de 12 cm en menores de 40 es relativamente menor.&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/diagrama-dispersion-edad-distancia-minima-enfoque-1.svg&#34; title=&#34;Diagrama de dispersión de la edad y la distancia mínima de enfoque&#34; alt=&#34;Diagrama de dispersión de la edad y la distancia mínima de enfoque&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Se observan claramente dos tendencias, una para los menores de 40 y la otra para los mayores.
 En el caso de los menores no parece haber una relación fuerte entre la distancia mínima de enfoque y la edad, mientras que en el caso de los mayores si parece que la hay y además es lineal.&lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
@@ -5766,7 +5765,7 @@ No siguiendo el programa de prevención: $\sum y_i=66$ lesiones, $\sum y_i^2=362
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img src=&#34;../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg&#34; title=&#34;Cumulative relative frequency polygon of spinal injuries&#34; alt=&#34;Cumulative relative frequency polygon of spinal injuries&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg&#34; title=&#34;Cumulative relative frequency polygon of spinal injuries&#34; alt=&#34;Cumulative relative frequency polygon of spinal injuries&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Con programa de prevención: $C_1=2$ lesiones, $C_3=4$ lesiones, $RI=2$ lesiones.&lt;br&gt;
@@ -6041,7 +6040,9 @@ $\sum x_iy_j=3115$, $\sum x_i\log(y_j)=519.1907$, $\sum \log(x_i)y_j=465.8093$, 
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;&lt;img src=&#34;../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg&#34; title=&#34;Diagrama de dispersión de lesiones vs tiempo de calentamiento&#34; alt=&#34;Diagrama de dispersión de lesiones vs tiempo de calentamiento&#34; width=&#34;600&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;img src=&#34;../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg&#34; title=&#34;Diagrama de dispersión de lesiones vs tiempo de calentamiento&#34; alt=&#34;Diagrama de dispersión de lesiones vs tiempo de calentamiento&#34; width=&#34;600&#34; /&gt;  
+&lt;/li&gt;
 &lt;li&gt;$\bar x=23.7$ min, $s_x^2=32.01$ min$^2$.&lt;br&gt;
 $\overline{\log(x)}=3.1373$ log(min), $s_{\log(x)}^2=0.0565$ log(min)$^2$.&lt;br&gt;
 $\bar y=15.7$ lesiones, $s_y^2=137.81$ lesiones$^2$.&lt;br&gt;
@@ -6181,7 +6182,7 @@ Fecha: 9 de abril de 2018&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;En un estudio se ha medido el arco de rotación de la cabeza en personas que trabajan habitualmente con ordenador y en personas que no.
 Los resultados aparecen en el siguiente histograma.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/histograma_arco_rotacion-1.svg&#34; title=&#34;plot of chunk histograma_arco_rotacion&#34; alt=&#34;plot of chunk histograma_arco_rotacion&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/histograma_arco_rotacion-1.svg&#34; title=&#34;plot of chunk histograma_arco_rotacion&#34; alt=&#34;plot of chunk histograma_arco_rotacion&#34; /&gt;
 &lt;p&gt;Se pide:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Dibujar el polígono de frecuencias relativas acumuladas del arco de rotación de la cabeza en personas que trabajan con ordenador.&lt;/li&gt;
@@ -6204,16 +6205,23 @@ Sin ordenador: $\sum x_i=4230$ grados, $\sum x_i^2=645900$ grados², $\sum (x_i-
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/poligono_frecuencia_acumulada_arco_rotacion-1.svg&#34; title=&#34;plot of chunk poligono_frecuencia_acumulada_arco_rotacion&#34; alt=&#34;plot of chunk poligono_frecuencia_acumulada_arco_rotacion&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/li&gt;
-&lt;li&gt;Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br&gt;
+&lt;li&gt;
+&lt;p&gt;$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br&gt;
 Sin ordenador: $\bar x=151.0714$ grados, $s_x^2=245.2806$ grados², $s_x=15.6614$ grados y $cv_x=0.1037$&lt;br&gt;
-La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/li&gt;
-&lt;li&gt;$\bar x=141.3793$.&lt;/li&gt;
-&lt;li&gt;Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/li&gt;
-&lt;li&gt;Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/li&gt;
+La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=141.3793$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -6318,7 +6326,7 @@ $y(70)=3.4762$ consultas.&lt;/li&gt;
 &lt;li&gt;Coeficiente de determinación lineal de Consultas sobre Edad $r^2=0.885$.&lt;br&gt;
 Coeficiente de determinación exponencial de Consultas sobre Edad $r^2=0.9716$.&lt;br&gt;
 Por tanto, el modelo exponencial explica un poco mejor el número de consultas médicas con respecto a la edad.&lt;/li&gt;
-&lt;li&gt;Hay que aplicar la transformación logarítmica tanto a las Consultas como a la Edad: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&#39;+b\log(X)$.&lt;/li&gt;
+&lt;li&gt;Hay que aplicar la transformación logarítmica tanto a las Consultas como a la Edad: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&amp;rsquo;+b\log(X)$.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -6488,7 +6496,7 @@ Si se pretende que el test tenga un valor predictivo positivo de $0.7$ y un valo
 Fecha: 18 de Diciembre de 2017&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;En un examen de estadística al que se han presentado 66 alumnos se ha contado el número de exámenes finalizados cada media hora, obteniendo el siguiente polígono:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/poligono_acumulado_tiempo_examen.svg&#34; alt=&#34;polígono de frecuencias acumuladas del tiempo de finalización de un examen&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/poligono_acumulado_tiempo_examen.svg&#34; alt=&#34;polígono de frecuencias acumuladas del tiempo de finalización de un examen&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;Se pide:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Construir la tabla de frecuencias del tiempo de finalización del examen.&lt;/li&gt;
@@ -6607,7 +6615,7 @@ $x(35)=50.6789$ años.&lt;/p&gt;
 Fecha: 27 de Noviembre de 2017&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;El siguiente diagrama muestra la distribución de emisiones de NO₂ (𝜇g/m³) en Madrid en los días de octubre de 2017.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/histograma-emisiones-no2-1.svg&#34; title=&#34;plot of chunk histograma-emisiones-no2&#34; alt=&#34;plot of chunk histograma-emisiones-no2&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/histograma-emisiones-no2-1.svg&#34; title=&#34;plot of chunk histograma-emisiones-no2&#34; alt=&#34;plot of chunk histograma-emisiones-no2&#34; /&gt;
 &lt;ol&gt;
 &lt;li&gt;La normativa europea sobre calidad del aire establece que el valor medio mensual no debe exceder de 40 𝜇g/m³. ¿Se ha cumplido la norma en el mes de Octubre?
 ¿Es este un valor representativo de las mediciones tomadas en octubre?&lt;/li&gt;
@@ -6751,11 +6759,12 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/poligono_frecuencias_relativas_tiempo_espera_urgencias-1.svg&#34; title=&#34;plot of chunk poligono_frecuencias_relativas_tiempo_espera_urgencias&#34; alt=&#34;plot of chunk poligono_frecuencias_relativas_tiempo_espera_urgencias&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;$Me=18.89$ min.&lt;/li&gt;
-&lt;li&gt;El 10% de los pacientes han tenido que esperar más de 18 minutos.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$Me=18.89$ min.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El 10% de los pacientes han tenido que esperar más de 18 minutos.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -6790,14 +6799,17 @@ $\sum b_i=20$, $\sum b_i^2=52$, $\sum (b_i-\bar b)^3=49.5$, $\sum (b_i-\bar b)^4
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/fertility_boxplot-1.svg&#34; title=&#34;plot of chunk fertility_boxplot&#34; alt=&#34;plot of chunk fertility_boxplot&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;$\bar a=3.1875$ embarazos, $s_a^2=2.2773$ embarazos², $s_a=1.5091$ embarazos, $cv_a=0.4734$.&lt;br&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar a=3.1875$ embarazos, $s_a^2=2.2773$ embarazos², $s_a=1.5091$ embarazos, $cv_a=0.4734$.&lt;br&gt;
 $\bar b=1.25$ embarazos, $s_b^2=1.6875$ embarazos², $s_b=1.299$ embarazos, $cv_b=1.0392$.&lt;br&gt;
-Como el coeficiente de variación de $A$ es menor que el coeficiente de variación de $B$, la media de la población $A$ es más representativa que la media de la población $B$.&lt;/li&gt;
-&lt;li&gt;$g_{1,a}=-0.211$ y $g_{1,b}=1.4113$, de modo que la distribución de $B$ es más asimétrica que la distribución de $A$.&lt;/li&gt;
-&lt;li&gt;$z_a(5)=1.2011$ y $z_b(3)=1.3472$, de modo que 3 embarazos en la población $B$ es relativamente mayor que 5 embarazos en la población $A$.&lt;/li&gt;
+Como el coeficiente de variación de $A$ es menor que el coeficiente de variación de $B$, la media de la población $A$ es más representativa que la media de la población $B$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$g_{1,a}=-0.211$ y $g_{1,b}=1.4113$, de modo que la distribución de $B$ es más asimétrica que la distribución de $A$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$z_a(5)=1.2011$ y $z_b(3)=1.3472$, de modo que 3 embarazos en la población $B$ es relativamente mayor que 5 embarazos en la población $A$.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -7169,7 +7181,8 @@ porcentaje de personas sanas entre las que han dado negativo en el test.&lt;/p&g
       <guid>/post/curso-bioestadistica-miriadax-3ed/</guid>
       <description>&lt;p&gt;Ya está aquí la tercera edición del Curso Práctico de Bioestadística con R ofrecido por la plataforma MiriadaX, que se desarrollará del 8 de enero al 16 de febrero de 2015.&lt;/p&gt;
 &lt;p&gt;Si te perdiste las dos primeras ediciones no dudes en apuntarte a esta tercera edición que, al igual que todos los cursos de MiriadaX, son es gratuíta.&lt;/p&gt;
-&lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: &lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: 
+&lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&lt;/a&gt;&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/BTFOsbzInZo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -7317,7 +7330,8 @@ Este libro presenta las principales técnicas Estadísticas, tanto de Estadísti
       <guid>/post/curso-bioestadistica-miriadax/</guid>
       <description>&lt;p&gt;Tras el éxito de la primera edición del Curso Práctico de Bioestadística con R ofrecido por la plataforma MiriadaX, el próximo 19 de mayo comienza la segunda edición.&lt;/p&gt;
 &lt;p&gt;Si te perdiste la primera edición no dudes en apuntarte a esta segunda edición que como la primera es gratuíta.&lt;/p&gt;
-&lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: &lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: 
+&lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&lt;/a&gt;&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/BTFOsbzInZo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;

@@ -7,7 +7,7 @@
     <description>Physiotherapy</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Physiotherapy</title>
       <link>/en/tag/physiotherapy/</link>
     </image>
@@ -682,7 +682,7 @@ Date: March 17, 2021&lt;/p&gt;
 &lt;h2 id=&#34;descriptive-statistics-and-regression&#34;&gt;Descriptive Statistics and Regression&lt;/h2&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 &lt;p&gt;The chart below shows the distribution of the number of subjects passed in a sample of first year students of a degree.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/des-18-gen-cumulative-distribution-subjects.svg&#34; title=&#34;Cumulative distribution of the number of subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/des-18-gen-cumulative-distribution-subjects.svg&#34; title=&#34;Cumulative distribution of the number of subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Draw the box and whiskers plot and interpret it.&lt;/p&gt;
@@ -712,7 +712,7 @@ Date: March 17, 2021&lt;/p&gt;
       &lt;ol&gt;
 &lt;li&gt;Quartiles: $Q_1=5$ subjects, $Q_2=6$ subjects, $Q_3=7$ subjects. $IQR = 2$ subjects.       Fences: $f_1=2$ subjects and $f_2=10$ subjects.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/des-18-gen-boxplot-subjects.svg&#34; title=&#34;Box plot of the subjects passed&#34; alt=&#34;Box plot of the subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;&lt;/p&gt;
+  &lt;img src=&#34;../img/des-18-gen-boxplot-subjects.svg&#34; title=&#34;Box plot of the subjects passed&#34; alt=&#34;Box plot of the subjects passed&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;800&#34; /&gt;
 &lt;p&gt;50% of central data fall between 5 and 7 subjects, that is a moderate dispersion. The are no outliers and the right whisker is a little bit longer than the left one, so the distribution is a little bit right skew but almost normal.&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;
@@ -843,22 +843,23 @@ Current course: $\sum y_in_i=91$, $\sum y_i^2n_i=341$, $\sum (y_i-\bar y)^3n_i=3
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;&lt;img src=&#34;../img/des-gen-12-box-plot-scores.svg&#34; title=&#34;Box plot of scores&#34; alt=&#34;Box plot of scores&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;
-Both distributions are pretty similar. The central dispersion is the same and both are right skewed. The only difference is that
-there is an outlier in the current year distribution.&lt;/li&gt;
-&lt;li&gt;Previous year course: $\bar x=1.8667$, $s^2=2.16$, $s=1.4697$, $g_1=0.8609$ and $g_2=0.1874$.
+&lt;li&gt;
+&lt;img src=&#34;../img/des-gen-12-box-plot-scores.svg&#34; title=&#34;Box plot of scores&#34; alt=&#34;Box plot of scores&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Both distributions are pretty similar. The central dispersion is the same and both are right skewed. The only difference is that
+there is an outlier in the current year distribution.
+2. Previous year course: $\bar x=1.8667$, $s^2=2.16$, $s=1.4697$, $g_1=0.8609$ and $g_2=0.1874$.
 Current course: $\bar y=2.1163$, $s^2=3.4516$, $s=1.8578$, $g_1=1.0922$ and $g_2=0.9292$.
 As the coefficients of skewness and kurtosis are between -2 and 2, we can assume that both distributions come from a normal
-distribution.&lt;/li&gt;
-&lt;li&gt;Previous year course: $cv=0.7873$.
+distribution.
+3. Previous year course: $cv=0.7873$.
 Current year: $cv=0.8779$.
-Thus, the mean is more representative in the previous year course, since the coefficient of variation is smaller.&lt;/li&gt;
-&lt;li&gt;Previous year course: $z(6)=2.8124$.
+Thus, the mean is more representative in the previous year course, since the coefficient of variation is smaller.
+4. Previous year course: $z(6)=2.8124$.
 Current course: $z(7)=2.6287$.
 Thus, 7 failed subjects in the current course is relatively less than 6 in the previous year course, since the standard score is
-smaller.&lt;/li&gt;
-&lt;/ol&gt;
-
+smaller.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1066,20 +1067,22 @@ People without CDH: $\sum x_i=78090$, $\sum x_i^2=15650100$, $\sum(x_i-\bar x)^3
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/time_electronic_gadgets_ogive-1.svg&#34; title=&#34;plot of chunk time_electronic_gadgets_ogive&#34; alt=&#34;plot of chunk time_electronic_gadgets_ogive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-2.
-&lt;img src=&#34;../img/time_electronic_gadgets_boxplot-1.svg&#34; title=&#34;plot of chunk time_electronic_gadgets_boxplot&#34; alt=&#34;plot of chunk time_electronic_gadgets_boxplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
 People without CDH: $\bar x=169.3926$ points, $s=72.4865$ points, $cv=0.4279$.
-Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/li&gt;
-&lt;li&gt;People with CDF: $g_1=-0.2997$.&lt;br&gt;
+Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;People with CDF: $g_1=-0.2997$.&lt;br&gt;
 People without CDF: $g_1=-0.0184$.&lt;br&gt;
-Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;Person with CDH: $z(200)=-0.2028$.&lt;br&gt;
+Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Person with CDH: $z(200)=-0.2028$.&lt;br&gt;
 Person without CDH: $z(200)=0.4222$&lt;br&gt;
-The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/li&gt;
+The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -1356,7 +1359,7 @@ If we take a random sample of 100 persons from this population, what is the expe
 Date: April 01, 2016&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
 &lt;p&gt;The chart below shows the cumulative frequency distribution the maximum angle of knee deflection after a replacement of the knee cap in a group of patients.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/knee_angle-1.svg&#34; title=&#34;plot of chunk knee_angle&#34; alt=&#34;plot of chunk knee_angle&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/knee_angle-1.svg&#34; title=&#34;plot of chunk knee_angle&#34; alt=&#34;plot of chunk knee_angle&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;ol&gt;
 &lt;li&gt;Calculate the quartiles and interpret them.&lt;/li&gt;
 &lt;li&gt;Are there outliers in the sample?&lt;/li&gt;

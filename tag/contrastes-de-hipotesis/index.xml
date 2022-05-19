@@ -7,7 +7,7 @@
     <description>Contrastes de Hipótesis</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Contrastes de Hipótesis</title>
       <link>/tag/contrastes-de-hipotesis/</link>
     </image>
@@ -606,7 +606,7 @@ $$&lt;/p&gt;
 T=\frac{\bar{X}_1-\bar{X}_2}{\hat{S}_p\sqrt{\frac{n_1+n_2}{n_1n_2}}} \sim T(n_1+n_2-2).
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Región de aceptación&lt;/strong&gt;: $-t_{\alpha/2}^{n_1+n_2-2} &amp;lt; T &amp;lt; t_{\alpha/2}^{n_1+n_2-2}$.&lt;br&gt;
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p&gt;
+&lt;strong&gt;Región de rechazo&lt;/strong&gt;: $T\leq -t_{\alpha/2}^{n_1+n_2-2}$ y $T\geq t_{\alpha/2}^{n_1+n_2-2}$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Se quiere comparar el rendimiento académico de dos grupos de alumnos, uno con 10 alumnos y otro con 12, que han seguido metodologías diferentes. Para ello se les realiza un examen y se obtienen las siguientes puntuaciones:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
@@ -650,7 +650,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$$\Delta = \frac{(\frac{n_2-1}{n_1}\hat{S}_1^2-\frac{n_1-1}{n_2}\hat{S}_2^2)^2}{\frac{n_2-1}{n_1^2}\hat{S}_1^4+\frac{n_1-1}{n_2^2}\hat{S}_2^4}.
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Región de aceptación&lt;/strong&gt;: $-t_{\alpha/2}^{g} &amp;lt; T &amp;lt; t_{\alpha/2}^{g}$.&lt;br&gt;
-**Región de rechazo**: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p&gt;
+&lt;strong&gt;Región de rechazo&lt;/strong&gt;: $T\leq -t_{\alpha/2}^{g}$ y $T\geq t_{\alpha/2}^{g}$.&lt;/p&gt;
 &lt;h3 id=&#34;contraste-de-comparación-de-varianzas-de-dos-poblaciones-normales&#34;&gt;Contraste de comparación de varianzas de dos poblaciones normales&lt;/h3&gt;
 &lt;p&gt;Sean $X_1$ y $X_2$ dos variables aleatorias que cumplen las siguientes condiciones:&lt;/p&gt;
 &lt;ul&gt;
@@ -676,7 +676,7 @@ F= \frac{\frac{\frac{(n_1-1)\hat{S}_1^2}{\sigma_1^2}}{n_1-1}}{\frac{\frac{(n_2-1
 \frac{\sigma_2^2}{\sigma_1^2}\frac{\hat{S}_1^2}{\hat{S}_2^2}\sim F(n_1-1,n_2-1).
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Región de aceptación&lt;/strong&gt;: $F_{\alpha/2}^{n_1-1,n_2-1} &amp;lt; F &amp;lt; F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;br&gt;
-**Región de rechazo**: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p&gt;
+&lt;strong&gt;Región de rechazo&lt;/strong&gt;: $F\leq F_{\alpha/2}^{n_1-1,n_2-1}$ y $F\geq F_{1-\alpha/2}^{n_1-1,n_2-1}$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Siguiendo con el ejemplo de las puntuaciones en dos grupos:&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
@@ -716,7 +716,7 @@ $X_1\sim B(n_1,p_1)$ y $X_2\sim B(n_2,p_2)$. Si las muestras son grandes ($n_ip_
 \Rightarrow Z = \frac{\hat{p}_1-\hat{p_2}}{\sqrt{\frac{p_1(1-p_1)}{n_1}+\frac{p_2(1-p_2)}{n_2}}}\sim N(0,1)
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Región de aceptación&lt;/strong&gt;: $z_{\alpha/2}&amp;lt; Z &amp;lt; z_{1-\alpha/2}$.&lt;br&gt;
-**Región de rechazo**: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p&gt;
+&lt;strong&gt;Región de rechazo&lt;/strong&gt;: $z\leq z_{\alpha/2}$ y $z\geq z_{1-\alpha/2}$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Se quiere comparar los porcentajes de aprobados en dos grupos que han seguido metodologías distintas. En el primer grupo han aprobado 24 alumnos de un total de 40, mientras que en el segundo han aprobado 48 de 60.&lt;/p&gt;
 &lt;p&gt;El contraste que se plantea es&lt;/p&gt;
 &lt;p&gt;$$

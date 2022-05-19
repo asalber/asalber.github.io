@@ -7,7 +7,7 @@
     <description>Exámenes de Estadística de Fisioterapia</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Exámenes de Estadística de Fisioterapia</title>
       <link>/docencia/estadistica/examenes/fisioterapia/</link>
     </image>
@@ -50,7 +50,7 @@ No siguiendo el programa de prevención: $\sum y_i=66$ lesiones, $\sum y_i^2=362
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;img src=&#34;../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg&#34; title=&#34;Cumulative relative frequency polygon of spinal injuries&#34; alt=&#34;Cumulative relative frequency polygon of spinal injuries&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg&#34; title=&#34;Cumulative relative frequency polygon of spinal injuries&#34; alt=&#34;Cumulative relative frequency polygon of spinal injuries&#34; style=&#34;display: block; margin: auto;&#34; width=&#34;600&#34; /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Con programa de prevención: $C_1=2$ lesiones, $C_3=4$ lesiones, $RI=2$ lesiones.&lt;br&gt;
@@ -325,7 +325,9 @@ $\sum x_iy_j=3115$, $\sum x_i\log(y_j)=519.1907$, $\sum \log(x_i)y_j=465.8093$, 
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;&lt;img src=&#34;../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg&#34; title=&#34;Diagrama de dispersión de lesiones vs tiempo de calentamiento&#34; alt=&#34;Diagrama de dispersión de lesiones vs tiempo de calentamiento&#34; width=&#34;600&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;img src=&#34;../img/des-fis-5-poligono-frecuencias-relativas-acumuladas-lesiones-vertebrales.svg&#34; title=&#34;Diagrama de dispersión de lesiones vs tiempo de calentamiento&#34; alt=&#34;Diagrama de dispersión de lesiones vs tiempo de calentamiento&#34; width=&#34;600&#34; /&gt;  
+&lt;/li&gt;
 &lt;li&gt;$\bar x=23.7$ min, $s_x^2=32.01$ min$^2$.&lt;br&gt;
 $\overline{\log(x)}=3.1373$ log(min), $s_{\log(x)}^2=0.0565$ log(min)$^2$.&lt;br&gt;
 $\bar y=15.7$ lesiones, $s_y^2=137.81$ lesiones$^2$.&lt;br&gt;
@@ -465,7 +467,7 @@ Fecha: 9 de abril de 2018&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
 &lt;p&gt;En un estudio se ha medido el arco de rotación de la cabeza en personas que trabajan habitualmente con ordenador y en personas que no.
 Los resultados aparecen en el siguiente histograma.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/histograma_arco_rotacion-1.svg&#34; title=&#34;plot of chunk histograma_arco_rotacion&#34; alt=&#34;plot of chunk histograma_arco_rotacion&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/histograma_arco_rotacion-1.svg&#34; title=&#34;plot of chunk histograma_arco_rotacion&#34; alt=&#34;plot of chunk histograma_arco_rotacion&#34; /&gt;
 &lt;p&gt;Se pide:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Dibujar el polígono de frecuencias relativas acumuladas del arco de rotación de la cabeza en personas que trabajan con ordenador.&lt;/li&gt;
@@ -488,16 +490,23 @@ Sin ordenador: $\sum x_i=4230$ grados, $\sum x_i^2=645900$ grados², $\sum (x_i-
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/poligono_frecuencia_acumulada_arco_rotacion-1.svg&#34; title=&#34;plot of chunk poligono_frecuencia_acumulada_arco_rotacion&#34; alt=&#34;plot of chunk poligono_frecuencia_acumulada_arco_rotacion&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/li&gt;
-&lt;li&gt;Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br&gt;
+&lt;li&gt;
+&lt;p&gt;$F(115)=0.1667 \rightarrow 16.67$% de los que trabajan con ordenador tienen movilidad reducida.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Con ordenador: $\bar x=132.3333$ grados, $s_x^2=312.8889$ grados², $s_x=17.6887$ grados y $cv_x=0.1337$&lt;br&gt;
 Sin ordenador: $\bar x=151.0714$ grados, $s_x^2=245.2806$ grados², $s_x=15.6614$ grados y $cv_x=0.1037$&lt;br&gt;
-La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/li&gt;
-&lt;li&gt;$\bar x=141.3793$.&lt;/li&gt;
-&lt;li&gt;Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/li&gt;
-&lt;li&gt;Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/li&gt;
+La media de los que trabajan sin ordenador es más representativa que la de los que trabajan con ordenador ya que su coeficiente de variación es menor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=141.3793$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Con ordenador $g_1=0.6243$ y sin ordenador $g_1=-0.3938$. Por tanto, la distribución de los que trabajan con ordenador es más asimétrica.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Puntuaciones típicas: $z(150)=0.9988$ y $z(170)=1.2086$. Por tanto, un arco de rotación de 150 grados en los que trabajan con ordenador es relativamente menor que un arco de rotación de 170 en los que trabajan sin ordenador.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;

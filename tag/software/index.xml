@@ -7,7 +7,7 @@
     <description>Software</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Software</title>
       <link>/tag/software/</link>
     </image>
@@ -43,7 +43,8 @@
   &lt;iframe src=&#34;https://www.youtube.com/embed/RYCMFn2MDB8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;cómo-citar-rúbricas&#34;&gt;¿Cómo citar Rúbricas?&lt;/h2&gt;
-&lt;p&gt;Anemone, Gloria., Sánchez-Alberca, Alfredo. (2021). Rúbricas (version 1.0) [software]. Obtenido de: &lt;a href=&#34;https://aprendeconalf.es/es/proyecto/rubricas&#34;&gt;https://aprendeconalf.es/es/proyecto/rubricas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Anemone, Gloria., Sánchez-Alberca, Alfredo. (2021). Rúbricas (version 1.0) [software]. Obtenido de: 
+&lt;a href=&#34;https://aprendeconalf.es/es/proyecto/rubricas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aprendeconalf.es/es/proyecto/rubricas&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -72,7 +73,8 @@
 &lt;p&gt;rkTeaching es un paquete de 
 &lt;a href=&#34;http://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; que proporciona un plugin para la interfaz gráfica 
 &lt;a href=&#34;http://rkward.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RKWard&lt;/a&gt; añadiendo nuevos menús y cuadros de diálogo especialmente diseñados para la enseñanza de Estadística.&lt;/p&gt;
-&lt;p&gt;El paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca &lt;a href=&#34;mailto:asalber@ceu.es&#34;&gt;asalber@ceu.es&lt;/a&gt; del Departamento de Matemáticas de la Universidad San Pablo CEU de Madrid.&lt;/p&gt;
+&lt;p&gt;El paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca 
+&lt;a href=&#34;mailto:asalber@ceu.es&#34;&gt;asalber@ceu.es&lt;/a&gt; del Departamento de Matemáticas de la Universidad San Pablo CEU de Madrid.&lt;/p&gt;
 &lt;p&gt;Si descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por correo al autor o bien indíquelo como un 
 &lt;a href=&#34;https://github.com/asalber/rkTeaching_es/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue en Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/rkward.png&#34; alt=&#34;RKWArd&#34;&gt;&lt;/p&gt;
@@ -98,10 +100,13 @@ Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y
 Se recomienda instalar la versión 3.5.3 para MacOs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Instalar RKWard&lt;/strong&gt;. RKWard puede descargarse desde la página &lt;a href=&#34;http://rkward.sourceforge.net&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
-Debe seleccionarse la distribución correspondiente a Mac Os (&lt;a href=&#34;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&#34;&gt;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&lt;/a&gt;) y seguir las instrucciones de instalación que allí se especifican.
+&lt;p&gt;&lt;strong&gt;Instalar RKWard&lt;/strong&gt;. RKWard puede descargarse desde la página 
+&lt;a href=&#34;http://rkward.sourceforge.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
+Debe seleccionarse la distribución correspondiente a Mac Os (
+&lt;a href=&#34;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&lt;/a&gt;) y seguir las instrucciones de instalación que allí se especifican.
 Es importante asegurase de tener una versión de Mac OS X 10.11 o superior, ya que RKWard no funciona con versiones anteriores.&lt;/p&gt;
-&lt;p&gt;Si hay algún error en la instalación, consultar las posibles soluciones en (&lt;a href=&#34;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&#34;&gt;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Si hay algún error en la instalación, consultar las posibles soluciones en (
+&lt;a href=&#34;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a&gt;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar los paquetes de los que depende rkTeaching&lt;/strong&gt;. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
@@ -127,7 +132,8 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;p&gt;Para instalar el software en plataformas Linux debe instalarse cada programa por separado con el siguiente orden:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Instalar R&lt;/strong&gt;. R puede descargarse desde la página &lt;a href=&#34;http://cran.es.r-project.org/&#34;&gt;http://cran.es.r-project.org/&lt;/a&gt;.
+&lt;p&gt;&lt;strong&gt;Instalar R&lt;/strong&gt;. R puede descargarse desde la página 
+&lt;a href=&#34;http://cran.es.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cran.es.r-project.org/&lt;/a&gt;.
 Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.
 Es necesario que la versión de R sea la 3.0 o superior.&lt;/p&gt;
 &lt;p&gt;En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:&lt;/p&gt;
@@ -135,7 +141,8 @@ Es necesario que la versión de R sea la 3.0 o superior.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Instalar RKWard&lt;/strong&gt;. RKWard puede descargarse desde la página &lt;a href=&#34;http://rkward.sourceforge.net&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
+&lt;p&gt;&lt;strong&gt;Instalar RKWard&lt;/strong&gt;. RKWard puede descargarse desde la página 
+&lt;a href=&#34;http://rkward.sourceforge.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
 Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.&lt;/p&gt;
 &lt;p&gt;En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt-get install rkward
@@ -385,7 +392,8 @@ procedimientos estadísticos.
 &lt;p&gt;rkTeaching es mantenido por 
 &lt;a href=&#34;https://github.com/asalber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asalber&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;cómo-citar-rkteaching&#34;&gt;¿Cómo citar rkTeaching?&lt;/h2&gt;
-&lt;p&gt;Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Obtenido de: &lt;a href=&#34;http://aprendeconalf.es/es/proyecto/rkteaching&#34;&gt;http://aprendeconalf.es/es/proyecto/rkteaching&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Obtenido de: 
+&lt;a href=&#34;http://aprendeconalf.es/es/proyecto/rkteaching&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://aprendeconalf.es/es/proyecto/rkteaching&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

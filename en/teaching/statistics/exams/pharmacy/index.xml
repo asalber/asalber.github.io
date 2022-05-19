@@ -7,7 +7,7 @@
     <description>Pharmacy Statistics Exams</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Pharmacy Statistics Exams</title>
       <link>/en/teaching/statistics/exams/pharmacy/</link>
     </image>
@@ -1642,7 +1642,7 @@ Thus the distribution of the population $A$ group is less asymmetric since $g_{1
       &lt;ol&gt;
 &lt;li&gt;$Q_1=12$, $Q_2=15$, $Q_3=18$, $IQR=6$, $f_1=3$, $f_2=27$, $Min=5$ and $Max=25$.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/des-gen-7-boxplot.svg&#34; title=&#34;blox plot&#34; alt=&#34;box plot of symmetric distribution&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/des-gen-7-boxplot.svg&#34; title=&#34;blox plot&#34; alt=&#34;box plot of symmetric distribution&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Yes, because $2&amp;lt;f_1$.&lt;/li&gt;
 &lt;/ol&gt;
@@ -1709,7 +1709,7 @@ Thus, there is a direct linear relation between $X$ and $Y$ and an inverse linea
 Date: December 17, 2018&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
 &lt;p&gt;The chart below represents the cumulative distribution of the number of daily defective drugs produced by a machine in a sample of 40 days.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/question1-1.svg&#34; title=&#34;plot of chunk question1&#34; alt=&#34;plot of chunk question1&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/question1-1.svg&#34; title=&#34;plot of chunk question1&#34; alt=&#34;plot of chunk question1&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;ol&gt;
 &lt;li&gt;Construct the frequency table of the number of defective drugs.&lt;/li&gt;
 &lt;li&gt;Draw the box and whiskers plot of the number of defective drugs.&lt;/li&gt;
@@ -1726,7 +1726,8 @@ Date: December 17, 2018&lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;$$\begin{array}{|c|r|r|r|r|}
+&lt;li&gt;
+&lt;p&gt;$$\begin{array}{|c|r|r|r|r|}
 \hline
 \mbox{Defective drugs} &amp;amp; n_i &amp;amp; f_i &amp;amp; N_i &amp;amp; F_i\newline
 \hline
@@ -1742,16 +1743,20 @@ Date: December 17, 2018&lt;/p&gt;
 9 &amp;amp; 1 &amp;amp; 0.025 &amp;amp; 40 &amp;amp; 1.000\newline
 \hline
 \end{array}
-$$&lt;/li&gt;
+$$&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/boxplot-1.svg&#34; title=&#34;plot of chunk boxplot&#34; alt=&#34;plot of chunk boxplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/li&gt;
-&lt;li&gt;$cv_x=0.5015$,
+&lt;li&gt;
+&lt;p&gt;$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$cv_x=0.5015$,
 $\bar y=13.925$ drugs, $s_y=5.9808$ drugs and $cv_y=0.4295$.
-Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/li&gt;
-&lt;li&gt;$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/li&gt;
+Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -2242,7 +2247,7 @@ Exponential coefficient of determination of Visits on Age $r^2=0.9716$.
 Thus, the exponential model explains a little bit better the number of visits to the doctor with respect to the age.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&#39;+b\log(X)$.&lt;/p&gt;
+&lt;p&gt;We must apply the logarithm to both Visits and Age: $\log(Y)=\log(aX^b)\Rightarrow \log(Y)=\log(a)+\log(X^b)=\log(a)+b\log(X)=a&amp;rsquo;+b\log(X)$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -2413,7 +2418,7 @@ The medical team in charge of the trial wants for the test to have a positive pr
 Date: November 27, 2017&lt;/p&gt;
 &lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
 &lt;p&gt;The following diagram show the NO₂ emissions (𝜇g/m³) in Madrid during the month of October, 2017.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../img/no2-emissions-histogram-1.svg&#34; title=&#34;plot of chunk no2-emissions-histogram&#34; alt=&#34;plot of chunk no2-emissions-histogram&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/no2-emissions-histogram-1.svg&#34; title=&#34;plot of chunk no2-emissions-histogram&#34; alt=&#34;plot of chunk no2-emissions-histogram&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;ol&gt;
 &lt;li&gt;The European Standards on Air Quality establish that the average monthly value cannot be over 40 𝜇g/m³ for a healthy environment.
 Was this requirement met during the month of October?
@@ -2552,10 +2557,10 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
+&lt;li&gt;$Me=18.89$ min.&lt;/li&gt;
+&lt;li&gt;10% of patients have waited for longer than 38 minutes.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/ogive_waiting_time_emergency-1.svg&#34; title=&#34;plot of chunk ogive_waiting_time_emergency&#34; alt=&#34;plot of chunk ogive_waiting_time_emergency&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-2. $Me=18.89$ min.
-3. 10% of patients have waited for longer than 38 minutes.
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2589,13 +2594,13 @@ $\sum b_i=20$, $\sum b_i^2=52$, $\sum (b_i-\bar b)^3=49.5$, $\sum (b_i-\bar b)^4
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;../img/fertility_boxplot-1.svg&#34; title=&#34;plot of chunk fertility_boxplot&#34; alt=&#34;plot of chunk fertility_boxplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-2. $\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$.
+&lt;li&gt;$\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$.
 $\bar b=1.25$ pregnancies, $s_b^2=1.6875$ pregnancies², $s_b=1.299$ pregnancies, $cv_b=1.0392$.
-As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$.
-3. $g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$.
-5. $z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.
+As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$.&lt;/li&gt;
+&lt;li&gt;$g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$.&lt;/li&gt;
+&lt;li&gt;$z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.&lt;/li&gt;
+&lt;/ol&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

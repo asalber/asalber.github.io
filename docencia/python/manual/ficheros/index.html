@@ -251,8 +251,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu5be262b229a6b188bfa60c297543a26c_4930_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="/docencia/python/manual/ficheros/">
 
@@ -275,11 +275,11 @@
   <meta property="og:site_name" content="Aprende con Alf">
   <meta property="og:url" content="/docencia/python/manual/ficheros/">
   <meta property="og:title" content="Ficheros | Aprende con Alf">
-  <meta property="og:description" content="Ficheros Hasta ahora hemos visto como interactuar con un programa a través del teclado (entrada de datos) y la terminal (salida), pero en la mayor parte de las aplicaciones reales tendremos que leer y escribir datos en ficheros."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png">
-  <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png"><meta property="og:locale" content="es-es">
+  <meta property="og:description" content="Ficheros Hasta ahora hemos visto como interactuar con un programa a través del teclado (entrada de datos) y la terminal (salida), pero en la mayor parte de las aplicaciones reales tendremos que leer y escribir datos en ficheros."><meta property="og:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png">
+  <meta property="twitter:image" content="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png"><meta property="og:locale" content="es-es">
   
     
-    <meta property="article:modified_time" content="2021-04-15T21:55:28&#43;02:00">
+    <meta property="article:modified_time" content="2022-05-19T11:23:58&#43;02:00">
   
 
   
@@ -368,7 +368,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/"><img src="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_0x70_resize_lanczos_2.png" alt="Aprende con Alf"></a>
+      <a class="navbar-brand" href="/"><img src="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_0x70_resize_lanczos_3.png" alt="Aprende con Alf"></a>
     </div>
     
 
@@ -381,7 +381,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/"><img src="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_0x70_resize_lanczos_2.png" alt="Aprende con Alf"></a>
+      <a class="navbar-brand" href="/"><img src="/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_0x70_resize_lanczos_3.png" alt="Aprende con Alf"></a>
     </div>
     
 
@@ -762,8 +762,8 @@
         <li><a href="#creación-y-escritura-de-ficheros">Creación y escritura de ficheros</a></li>
         <li><a href="#añadir-datos-a-un-fichero">Añadir datos a un fichero</a></li>
         <li><a href="#leer-datos-de-un-fichero">Leer datos de un fichero</a></li>
-        <li><a href="#leer-datos-de-un-fichero-1">Leer datos de un fichero</a></li>
         <li><a href="#cerrar-un-fichero">Cerrar un fichero</a></li>
+        <li><a href="#la-estructura-with-open-as">La estructura <code>with open(...) as</code></a></li>
         <li><a href="#renombrado-y-borrado-de-un-fichero">Renombrado y borrado de un fichero</a></li>
         <li><a href="#renombrado-y-borrado-de-un-fichero-o-directorio">Renombrado y borrado de un fichero o directorio</a></li>
         <li><a href="#creación-cambio-y-eliminación-de-directorios">Creación, cambio y eliminación de directorios</a></li>
@@ -796,48 +796,86 @@
 <li>Borrar un fichero.</li>
 </ul>
 <h3 id="creación-y-escritura-de-ficheros">Creación y escritura de ficheros</h3>
-<p>Para crear un fichero nuevo se utiliza la instrucción</p>
-<p><code>open(ruta, 'w')</code> : Crea el fichero con la ruta <code>ruta</code>, lo abre en modo escritura (el argumento &lsquo;w&rsquo; significa <em>write</em>) y devuelve un objeto que lo referencia.</p>
+<p>Para crear un fichero nuevo se utiliza la siguiente función:</p>
+<ul>
+<li><code>open(ruta, 'w')</code> : Crea el fichero con la ruta <code>ruta</code>, lo abre en modo escritura (el argumento &lsquo;w&rsquo; significa <em>write</em>) y devuelve un objeto que lo referencia.</li>
+</ul>
 <p><i class="fa fa-exclamation-triangle" style="color:red;"></i> Si el fichero indicado por la ruta ya existe en el sistema, se reemplazará por el nuevo.</p>
-<p>Una vez creado el fichero, para escribir datos en él se utiliza el método</p>
-<p><code>fichero.write(c)</code> : Escribe la cadena <code>c</code> en el fichero referenciado por <code>fichero</code>.</p>
-<pre><code class="language-python">&gt;&gt;&gt; f = open('bienvenida.txt', 'w')
-... f.write('¡Bienvenido a Python!')
+<p>Una vez creado el fichero, para escribir datos en él se utiliza el siguiente método:</p>
+<ul>
+<li><code>f.write(c)</code> : Escribe la cadena <code>c</code> en el fichero referenciado por <code>f</code> y devuelve el número de caracteres escritos.</li>
+</ul>
+<pre><code class="language-python">&gt;&gt;&gt; f = open('saludo.txt', 'w')
+&gt;&gt;&gt; f.write('¡Bienvenido a Python!')
+21
 </code></pre>
 <h3 id="añadir-datos-a-un-fichero">Añadir datos a un fichero</h3>
-<p>Si en lugar de crear un fichero nuevo queremos añadir datos a un fichero existente se debe utilizar la instrucción</p>
-<p><code>open(ruta, 'a')</code> : Abre el fichero con la ruta <code>ruta</code> en modo añadir (el argumento &lsquo;a&rsquo; significa <em>append</em>) y devuelve un objeto que lo referencia.</p>
+<p>Si en lugar de crear un fichero nuevo queremos añadir datos a un fichero existente se debe utilizar la siguiente función:</p>
+<ul>
+<li><code>open(ruta, 'a')</code> : Abre el fichero con la ruta <code>ruta</code> en modo añadir (el argumento &lsquo;a&rsquo; significa <em>append</em>) y devuelve un objeto que lo referencia.</li>
+</ul>
 <p>Una vez abierto el fichero, se utiliza el método de escritura anterior y los datos se añaden al final del fichero.</p>
-<pre><code class="language-python">&gt;&gt;&gt; f = open('bienvenida.txt', 'a')
-... f.write('\n¡Hasta pronto!')
+<pre><code class="language-python">&gt;&gt;&gt; f = open('saludo.txt', 'a')
+&gt;&gt;&gt; f.write('\n¡Hasta pronto!')
+15
 </code></pre>
 <h3 id="leer-datos-de-un-fichero">Leer datos de un fichero</h3>
-<p>Para abrir un fichero en modo lectura se utiliza la instrucción</p>
-<p><code>open(ruta, 'r')</code> : Abre el fichero con la ruta <code>ruta</code> en modo lectura (el argumento &lsquo;r&rsquo; significa <em>read</em>) y devuelve un objeto que lo referencia.</p>
-<p>Una vez abierto el fichero, se puede leer todo el contenido del fichero o se puede leer línea a línea.</p>
-<h3 id="leer-datos-de-un-fichero-1">Leer datos de un fichero</h3>
-<p><code>fichero.read()</code> : Devuelve todos los datos contenidos en <code>fichero</code> como una cadena de caracteres.</p>
-<p><code>fichero.readlines()</code> : Devuelve una lista de cadenas de caracteres donde cada cadena es una linea del fichero referenciado por <code>fichero</code>.</p>
-<pre><code class="language-python">&gt;&gt;&gt; f = open('bienvenida.txt', 'r')
-... print(f.read())
+<p>Para abrir un fichero en modo lectura se utiliza la siguiente función:</p>
+<ul>
+<li><code>open(ruta, 'r')</code> : Abre el fichero con la ruta <code>ruta</code> en modo lectura (el argumento &lsquo;r&rsquo; significa <em>read</em>) y devuelve un objeto que lo referencia.</li>
+</ul>
+<p>Una vez abierto el fichero, se puede leer todo el contenido del fichero o se puede leer línea a línea. Para ello se utilizan las siguientes funciones:</p>
+<ul>
+<li>
+<p><code>f.read()</code> : Devuelve todos los datos contenidos en el fichero referenciado por <code>f</code> como una cadena de caracteres.</p>
+</li>
+<li>
+<p><code>f.readlines()</code> : Devuelve una lista de cadenas de caracteres donde cada cadena es una linea del fichero referenciado por <code>f</code>.</p>
+</li>
+</ul>
+<pre><code class="language-python">&gt;&gt;&gt; f = open('saludo.txt', 'r')
+&gt;&gt;&gt; print(f.read())
 ¡Bienvenido a Python!
 ¡Hasta pronto!
 </code></pre>
-<pre><code class="language-python">&gt;&gt;&gt; f = open('bienvenida.txt', 'r')
-... lineas = f.readlines()
+<pre><code class="language-python">&gt;&gt;&gt; f = open('saludo.txt', 'r')
+&gt;&gt;&gt; lineas = f.readlines()
 &gt;&gt;&gt; print(lineas)
 ['Bienvenido a Python!\n', '¡Hasta pronto!']
 </code></pre>
 <h3 id="cerrar-un-fichero">Cerrar un fichero</h3>
-<p>Para cerrar un fichero se utiliza el método</p>
-<p><code>fichero.close()</code> : Cierra el fichero referenciado por el objeto <code>fichero</code>.</p>
+<p>Para cerrar un fichero se utiliza el siguiente método:</p>
+<p><code>f.close()</code> : Cierra el fichero referenciado por el objeto <code>f</code>.</p>
 <p>Cuando se termina de trabajar con un fichero conviene cerrarlo, sobre todo si se abre en modo escritura, ya que mientras está abierto en este modo no se puede abrir por otra aplicación. Si no se cierra explícitamente un fichero, Python intentará cerrarlo cuando estime que ya no se va a usar más.</p>
-<pre><code class="language-python">&gt;&gt;&gt; f = open('bienvenida.txt'):
-... print(f.read())
-... f.close()  # Cierre del fichero
-...
+<pre><code class="language-python">&gt;&gt;&gt; f = open('saludo.txt'):
+&gt;&gt;&gt; print(f.read())
 ¡Bienvenido a Python!
 ¡Hasta pronto!
+&gt;&gt;&gt; f.close()  # Cierre del fichero
+&gt;&gt;&gt; print(f.read())  # Produce un error
+Traceback (most recent call last):
+  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;
+ValueError: I/O operation on closed file.
+</code></pre>
+<h3 id="la-estructura-with-open-as">La estructura <code>with open(...) as</code></h3>
+<p>Para despreocuparnos del cierre de un fichero cuando ya no es necesario y no tener que cerrarlo explícitamente, se utiliza la siguiente estructura:</p>
+<blockquote>
+<p><code>with open(ruta, modo) as f</code>:<br>
+    <em><code>bloque código</code></em></p>
+</blockquote>
+<p>Esta estructura abre el fichero con la ruta <code>ruta</code> en el modo <code>modo</code> (<code>'w'</code> para escribir, <code>'a'</code> para añadir y <code>'r'</code> para leer) y devuelve una referencia al mismo en la variable <code>f</code>. El fichero permanece abierto mientras se ejecuta el bloque de código asociado y se cierra automáticamente cuando termina la ejecución del bloque.</p>
+<pre><code class="language-python">&gt;&gt;&gt; with open('saludo.txt', 'w') as f:
+...     f.write(&quot;Hola de nuevo&quot;)
+... 
+13
+&gt;&gt;&gt; with open('saludo.txt', 'r') as f:
+...     print(f.read())
+... 
+Hola de nuevo
+&gt;&gt;&gt; print(f.read())  # Produce un error al estar el fichero cerrado
+Traceback (most recent call last):
+  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;
+ValueError: I/O operation on closed file.
 </code></pre>
 <h3 id="renombrado-y-borrado-de-un-fichero">Renombrado y borrado de un fichero</h3>
 <p>Para renombra o borrar un fichero se utilizan funciones del módulo <code>os</code>.</p>
@@ -847,13 +885,13 @@
 <p><code>os.path.isfile(ruta)</code> : Devuelve <code>True</code> si existe un fichero en la ruta <code>ruta</code> y <code>False</code> en caso contrario.</p>
 <h3 id="renombrado-y-borrado-de-un-fichero-o-directorio">Renombrado y borrado de un fichero o directorio</h3>
 <pre><code class="language-python">&gt;&gt;&gt; import os
-&gt;&gt;&gt; f = 'bienvenida.txt'
+&gt;&gt;&gt; f = 'saludo.txt'
 &gt;&gt;&gt; if os.path.isfile(f):
-...     os.rename(f, 'saludo.txt') # renombrado
+...     os.rename(f, 'bienvenida.txt') # renombrado
 ... else:
 ...     print('¡El fichero', f, 'no existe!')
 ...
-&gt;&gt;&gt; f = 'saludo.txt'
+&gt;&gt;&gt; f = 'bienvenida.txt'
 &gt;&gt;&gt; if os.path.isfile(f):
 ...     os.remove(f) # borrado
 ... else:
@@ -919,7 +957,7 @@ Este es el repositorio del sitio web Aprende con Alf: http://aprendeconalf.es
         </div>
 
         <div class="body-footer">
-          <p>Última actualización el Apr 15, 2021</p>
+          <p>Última actualización el May 19, 2022</p>
 
           
 
@@ -1147,7 +1185,7 @@ Este es el repositorio del sitio web Aprende con Alf: http://aprendeconalf.es
     
     
     
-    <script src="/js/academic.min.f6ecf7692215f2bc4850b72c8176bfa2.js"></script>
+    <script src="/js/academic.min.38c5a9abc8c5543e38891b75ae316418.js"></script>
 
     
 

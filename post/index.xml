@@ -7,7 +7,7 @@
     <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
-      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Blog</title>
       <link>/post/</link>
     </image>
@@ -264,7 +264,8 @@ Esta versión está actualizada para la versión 3.2.3 de R y la versión 0.6.5 
       <guid>/post/curso-bioestadistica-miriadax-3ed/</guid>
       <description>&lt;p&gt;Ya está aquí la tercera edición del Curso Práctico de Bioestadística con R ofrecido por la plataforma MiriadaX, que se desarrollará del 8 de enero al 16 de febrero de 2015.&lt;/p&gt;
 &lt;p&gt;Si te perdiste las dos primeras ediciones no dudes en apuntarte a esta tercera edición que, al igual que todos los cursos de MiriadaX, son es gratuíta.&lt;/p&gt;
-&lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: &lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: 
+&lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-3edicion&lt;/a&gt;&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/BTFOsbzInZo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -318,7 +319,8 @@ Este libro presenta las principales técnicas Estadísticas, tanto de Estadísti
       <guid>/post/curso-bioestadistica-miriadax/</guid>
       <description>&lt;p&gt;Tras el éxito de la primera edición del Curso Práctico de Bioestadística con R ofrecido por la plataforma MiriadaX, el próximo 19 de mayo comienza la segunda edición.&lt;/p&gt;
 &lt;p&gt;Si te perdiste la primera edición no dudes en apuntarte a esta segunda edición que como la primera es gratuíta.&lt;/p&gt;
-&lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: &lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sólo tienes que registrarte en la página web de MiriadaX y matricularte en el curso en la dirección: 
+&lt;a href=&#34;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.miriadax.net/web/curso-practico-bioestadistica-r-2edicion&lt;/a&gt;&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/BTFOsbzInZo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
