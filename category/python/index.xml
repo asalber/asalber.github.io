@@ -4530,7 +4530,7 @@ Fecha: 4 de junio de 2022&lt;/p&gt;
   ***
    *
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-24/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
 &lt;p&gt;Realizar un programa que simule la operativa de una cuenta bancaria. El programa debe preguntar al usuario si desea realizar un ingreso o un reintegro hasta que el usuario decida terminar el programa.&lt;/p&gt;
 &lt;p&gt;Si el usuario selecciona la opción de ingreso, debe preguntarle por la cantidad a ingresar e incrementar el saldo en esa cantidad.&lt;/p&gt;
@@ -4583,7 +4583,7 @@ Elige una opción (cualquier otra para terminar): 3
 Ingresos:  [1000.0, 500.0]
 Reintegros: [-800.0, -400.0]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-04/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
 &lt;p&gt;Existe un texto que se usa frecuentemente para demostraciones dentro del ámbito del diseño gráfico. De hecho, este texto cuyo nombre es Lorem ipsum es un estándar utilizado desde el año 1500 y sirve principalmente para probar el diseño visual antes de insertar el texto definitivo. Dicho pasaje es el siguiente:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
@@ -4598,7 +4598,7 @@ Reintegros: [-800.0, -400.0]
 Las palabras donde se encuentra el carácter que más se repite:
 {&#39;ipsum&#39;: 1, &#39;sit&#39;: 1, &#39;adipiscing&#39;: 3, &#39;elit,&#39;: 1, &#39;eiusmod&#39;: 1, &#39;incididunt&#39;: 3, &#39;aliqua.&#39;: 1, &#39;enim&#39;: 1, &#39;minim&#39;: 2, &#39;veniam,&#39;: 1, &#39;quis&#39;: 1, &#39;exercitation&#39;: 2, &#39;laboris&#39;: 1, &#39;nisi&#39;: 2, &#39;aliquip&#39;: 2, &#39;Duis&#39;: 1, &#39;irure&#39;: 1, &#39;in&#39;: 1, &#39;reprehenderit&#39;: 1, &#39;velit&#39;: 1, &#39;cillum&#39;: 1, &#39;fugiat&#39;: 1, &#39;pariatur.&#39;: 1, &#39;sint&#39;: 1, &#39;cupidatat&#39;: 1, &#39;proident,&#39;: 1, &#39;qui&#39;: 1, &#39;officia&#39;: 2, &#39;mollit&#39;: 1, &#39;anim&#39;: 1, &#39;id&#39;: 1}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-04/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
 &lt;p&gt;Escriba un programa que obtenga el máximo y el mínimo de una serie de datos proporcionados en Hexadecimal. Para ello se le pasará una lista de datos en formato hexadecimal, y tendrá que convertirlos primero a formato Binario, y a continuación a formato Decimal. Para ello, se pide lo siguiente:&lt;/p&gt;
 &lt;ol&gt;
@@ -4681,7 +4681,7 @@ El número binario 1010101001010101 es en decimal 43605
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-04/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
 &lt;p&gt;El fichero 
 &lt;a href=&#34;https://aprendeconalf.es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/coches.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;coches.csv &lt;/a&gt; contiene información sobre los modelos de coches vendidos en USA un determinado año. Se pide:&lt;/p&gt;
@@ -4723,6 +4723,7 @@ Los gráficos deben guardarse en una carpeta con el nombre gráficos y deben ten
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
