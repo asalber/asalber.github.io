@@ -4698,7 +4698,7 @@ El número binario 1010101001010101 es en decimal 43605
 &lt;li&gt;Dibujar el diagrama de dispersión de la potencia y el precio.&lt;br&gt;
 Los gráficos deben guardarse en una carpeta con el nombre gráficos y deben tener un título adecuado.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-04/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
 &lt;p&gt;El fichero 
 &lt;a href=&#34;https://aprendeconalf.es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/bitcoin-tweets.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bitcoin-tweets.csv&lt;/a&gt; contiene los tweets obtenidos en una búsqueda en Twitter sobre bitcoins (cada línea contiene información de un tweet). Se pide:&lt;/p&gt;
