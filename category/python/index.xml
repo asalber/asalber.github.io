@@ -5,7 +5,7 @@
     <link>/category/python/</link>
       <atom:link href="/category/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Python</title>
@@ -4508,6 +4508,221 @@ plt.show()
 &lt;li&gt;
 &lt;a href=&#34;https://www.edx.org/course/programming-for-everybody-getting-started-with-python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso &amp;ldquo;Python para todos&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Examen de Inteligencia de los Negocios 2022-06-06</title>
+      <link>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-04/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-04/</guid>
+      <description>&lt;p&gt;Grado: Inteligencia de los Negocios&lt;br&gt;
+Fecha: 4 de junio de 2022&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
+&lt;p&gt;Realizar un programa que pregunte al usuario por un número entero impar y dibuje un rombo con el número de filas introducidas por el usuario.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Introduce el número de filas del rombo (un número impar): 7
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-24/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
+&lt;p&gt;Realizar un programa que simule la operativa de una cuenta bancaria. El programa debe preguntar al usuario si desea realizar un ingreso o un reintegro hasta que el usuario decida terminar el programa.&lt;/p&gt;
+&lt;p&gt;Si el usuario selecciona la opción de ingreso, debe preguntarle por la cantidad a ingresar e incrementar el saldo en esa cantidad.&lt;/p&gt;
+&lt;p&gt;Si el usuario selecciona la opción de reintegro deberá preguntarle por la cantidad a sacar y sustraerla del saldo, siempre y cuando haya saldo suficiente. Si no hubiese saldo suficiente avisará al usuario y no realizará el reintegro.&lt;/p&gt;
+&lt;p&gt;Las cantidades de las operaciones deben guardarse en una sola lista (positivos para ingresos y negativos para reintegros), y después de cada operación debe mostrarse el saldo por pantalla.&lt;/p&gt;
+&lt;p&gt;Cuando el usuario ya no quiera hacer más operaciones, a partir de la lista de operaciones se deben crear dos listas más, una para los ingresos y otra para los reintegros y deben mostrarse por pantalla.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;OPERATIVA CUENTA BANCARIA
+
+¿Qué deseas hacer?
+1- Ingreso
+2- Reintegro
+Elige una opción (cualquier otra para terminar): 1
+Introduce la cantidad: 1000
+Saldo:  1000.0
+
+¿Qué deseas hacer?
+1- Ingreso
+2- Reintegro
+Elige una opción (cualquier otra para terminar): 2
+Introduce la cantidad: 1200
+Lo siento, no hay saldo suficiente.
+
+¿Qué deseas hacer?
+1- Ingreso
+2- Reintegro
+Elige una opción (cualquier otra para terminar): 2
+Introduce la cantidad: 800
+Saldo:  200.0
+
+¿Qué deseas hacer?
+1- Ingreso
+2- Reintegro
+Elige una opción (cualquier otra para terminar): 1
+Introduce la cantidad: 500
+Saldo:  700.0
+
+¿Qué deseas hacer?
+1- Ingreso
+2- Reintegro
+Elige una opción (cualquier otra para terminar): 2
+Introduce la cantidad: 400
+Saldo:  300.0
+
+¿Qué deseas hacer?
+1- Ingreso
+2- Reintegro
+Elige una opción (cualquier otra para terminar): 3
+
+Ingresos:  [1000.0, 500.0]
+Reintegros: [-800.0, -400.0]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-04/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
+&lt;p&gt;Existe un texto que se usa frecuentemente para demostraciones dentro del ámbito del diseño gráfico. De hecho, este texto cuyo nombre es Lorem ipsum es un estándar utilizado desde el año 1500 y sirve principalmente para probar el diseño visual antes de insertar el texto definitivo. Dicho pasaje es el siguiente:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Realizar un programa que analice dicho pasaje y realice las siguientes operaciones:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Crear un diccionario con la frecuencia de cada carácter sin tener en cuenta el espacio.&lt;/li&gt;
+&lt;li&gt;Muestre por pantalla el caracer que más se repite.&lt;/li&gt;
+&lt;li&gt;Muestre por pantalla las palabras que contienen el caracter más repetido y su frecuencia por palabra.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Carácter más repetido: i
+Las palabras donde se encuentra el carácter que más se repite:
+{&#39;ipsum&#39;: 1, &#39;sit&#39;: 1, &#39;adipiscing&#39;: 3, &#39;elit,&#39;: 1, &#39;eiusmod&#39;: 1, &#39;incididunt&#39;: 3, &#39;aliqua.&#39;: 1, &#39;enim&#39;: 1, &#39;minim&#39;: 2, &#39;veniam,&#39;: 1, &#39;quis&#39;: 1, &#39;exercitation&#39;: 2, &#39;laboris&#39;: 1, &#39;nisi&#39;: 2, &#39;aliquip&#39;: 2, &#39;Duis&#39;: 1, &#39;irure&#39;: 1, &#39;in&#39;: 1, &#39;reprehenderit&#39;: 1, &#39;velit&#39;: 1, &#39;cillum&#39;: 1, &#39;fugiat&#39;: 1, &#39;pariatur.&#39;: 1, &#39;sint&#39;: 1, &#39;cupidatat&#39;: 1, &#39;proident,&#39;: 1, &#39;qui&#39;: 1, &#39;officia&#39;: 2, &#39;mollit&#39;: 1, &#39;anim&#39;: 1, &#39;id&#39;: 1}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-04/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
+&lt;p&gt;Escriba un programa que obtenga el máximo y el mínimo de una serie de datos proporcionados en Hexadecimal. Para ello se le pasará una lista de datos en formato hexadecimal, y tendrá que convertirlos primero a formato Binario, y a continuación a formato Decimal. Para ello, se pide lo siguiente:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Crear una función de conversión de formato hexadecimal a binario en base a la siguiente tabla:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Hexadecimal&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;0&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;1&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;2&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;3&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;4&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;5&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;6&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;7&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Decimal&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0000&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0001&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0010&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0011&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0100&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0101&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0110&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0111&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Hexadecimal&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;8&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;9&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;A&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;B&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;C&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;D&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;E&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;F&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Decimal&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1000&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1001&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1010&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1011&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1100&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1101&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1110&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1111&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Introduce un número hexadecimal: AA55
+El número hexadecimal AA55 en binario es 1010101001010101
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Crear una función de conversión de formato binario a decimal. El procedimiento se detalla a continuación:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/conversion-binario-decimal.png&#34; alt=&#34;Conversión de binario a decimal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Introduce un número binario: 1010101001010101
+El número binario 1010101001010101 es en decimal 43605
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Crear una función que reciba una lista de números hexadecimales y devuelva una tupla con el máximo y su valor decimal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Usando como entrada de la última función la lista: &lt;code&gt;[&amp;quot;AA55&amp;quot;, &amp;quot;1010&amp;quot;, &amp;quot;BEBE&amp;quot;, &amp;quot;0101&amp;quot;, &amp;quot;0FEA&amp;quot;]&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Máximo: (&#39;BEBE&#39;, 48830)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-04/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-5&#34;&gt;Ejercicio 5&lt;/h2&gt;
+&lt;p&gt;El fichero 
+&lt;a href=&#34;https://aprendeconalf.es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/coches.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;coches.csv &lt;/a&gt; contiene información sobre los modelos de coches vendidos en USA un determinado año. Se pide:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Crear un DataFrame a partir del fichero anterior.&lt;/li&gt;
+&lt;li&gt;Eliminar las filas con valores desconocidos y mostrar el número de filas del dataframe resultante.&lt;/li&gt;
+&lt;li&gt;Crear una columna con el precio en euros (cambio 1$ = 0.94€)&lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla las 10 últimas filas del DataFrame.&lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla el número de marcas que contiene el DataFrame.&lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla el número de modelos de cada marca que hay en el DataFrame, de mayor a menor frecuencia.&lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla la marca y el modelo del coche más caro.&lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla el precio medio en euros de los coches agrupando por marca y ordenando de menor a mayor precio.&lt;/li&gt;
+&lt;li&gt;Dibujar el diagrama de barras del porcentaje de modelos de cada marca.&lt;/li&gt;
+&lt;li&gt;Dibujar el diagrama de dispersión de la potencia y el precio.&lt;br&gt;
+Los gráficos deben guardarse en una carpeta con el nombre gráficos y deben tener un título adecuado.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-04-04/ejercicio5.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-6&#34;&gt;Ejercicio 6&lt;/h2&gt;
+&lt;p&gt;El fichero 
+&lt;a href=&#34;https://aprendeconalf.es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-04/bitcoin-tweets.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bitcoin-tweets.csv&lt;/a&gt; contiene los tweets obtenidos en una búsqueda en Twitter sobre bitcoins (cada línea contiene información de un tweet). Se pide:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Crear una función que reciba la url de un fichero csv como el anterior y devuelva una lista con los tweets del fichero, donde cada tweet se represente con un diccionario con sus campos, tal y como se muestra en la siguiente salida:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;[{&#39;fecha&#39;: &#39;2022-05-20 15:11:03+00:00&#39;, &#39;usuario&#39;: &#39;infobaeeconomia&#39;, &#39;texto&#39;: &#39;Bill Gates contra el Bitcoin: “No aporta nada” https://t.co/pZBlC664gw&#39;, &#39;likes&#39;: &#39;496&#39;}, 
+{&#39;fecha&#39;: &#39;2022-05-21 14:26:51+00:00&#39;, &#39;usuario&#39;: &#39;DaniaGonzalz&#39;, &#39;texto&#39;: &#39;El Salvador hoy es un referente en materia de Inclusión Financiera gracias a la Ley #Bitcoin, países de la región c… https://t.co/P8oS2nfm36&#39;, &#39;likes&#39;: &#39;554&#39;}, 
+{&#39;fecha&#39;: &#39;2022-05-20 20:42:04+00:00&#39;, &#39;usuario&#39;: &#39;LaHuellaSV&#39;, &#39;texto&#39;: &#39;El asesor en criptoeconomía y fundador de Criptokuántica, Néstor Kreimer, afirmó que El Salvador tiene actualmente… https://t.co/HbSqrQYk67&#39;, &#39;likes&#39;: &#39;57&#39;}, 
+{&#39;fecha&#39;: &#39;2022-05-20 11:38:19+00:00&#39;, &#39;usuario&#39;: &#39;carmenaidalazo&#39;, &#39;texto&#39;: &#39;La ironía con bitcoin es que años de bajas tasas y politica monetaria expansiva alimentaron incrementos en precios… https://t.co/cm2mo86eKy&#39;, &#39;likes&#39;: &#39;284&#39;}, 
+{&#39;fecha&#39;: &#39;2022-05-20 11:56:30+00:00&#39;, &#39;usuario&#39;: &#39;garciabanchs&#39;, &#39;texto&#39;: &#39;Cuando a soberbios del #Bitcoin aún les cambiaban los pañales, ya me quemaba las pestañas en mi doctorado de Econom… https://t.co/82tj5Dcalp&#39;, &#39;likes&#39;: &#39;74&#39;}, 
+{&#39;fecha&#39;: &#39;2022-05-21 14:27:07+00:00&#39;, &#39;usuario&#39;: &#39;DaniaGonzalz&#39;, &#39;texto&#39;: &#39;&amp;quot;El Salvador es la capital del #Bitcoin #Ethereum , invitamos a todos los países a invertir en el futuro, por eso nuestro p… https://t.co/UnQVQZj7aw&amp;quot;&#39;, &#39;likes&#39;: &#39;89&#39;}, 
+{&#39;fecha&#39;: &#39;2022-05-14 00:07:00+00:00&#39;, &#39;usuario&#39;: &#39;ActualidadRT&#39;, &#39;texto&#39;: &amp;quot;@ActualidadRT&#39;s account has been withheld in Belgium, Austria, Bulgaria, Sweden, Croatia, Spain, Slovenia, Cyprus, Slovakia, Czech Republic, Romania, Portugal, Poland, Denmark, Netherlands, Estonia, Malta, Luxembourg, Finland, France, Lithuania, Germany, Greece, Latvia, Hungary, Italy, Ireland, United Kingdom in response to a legal demand. Learn more.&amp;quot;, &#39;likes&#39;: &#39;1037&#39;}, 
+{&#39;fecha&#39;: &#39;2022-05-14 14:01:45+00:00&#39;, &#39;usuario&#39;: &#39;ChiguireBipolar&#39;, &#39;texto&#39;: &#39;Testigo de Jehová se esconde de promotor del Bitcoin https://t.co/odVOELmYKu https://t.co/GOtuWLoGhT&#39;, &#39;likes&#39;: &#39;1082&#39;}, {&#39;fecha&#39;: &#39;2022-05-15 01:21:58+00:00&#39;, &#39;usuario&#39;: &#39;el_pais&#39;, &#39;texto&#39;: &#39;El Salvador convirtió al Bitcoin en su moneda legal. Con la caída de las criptomonedas, han caído en picado también… https://t.co/fFlk1P1LSj&#39;, &#39;likes&#39;: &#39;551&#39;}, 
+{&#39;fecha&#39;: &#39;2022-05-13 23:00:28+00:00&#39;, &#39;usuario&#39;: &#39;garciabanchs&#39;, &#39;texto&#39;: &#39;La cantidad de dinero que han perdido fans por hacerle caso a celebridades en torno a la adquisición de criptomoned… https://t.co/UOjmvj4Jxq&#39;, &#39;likes&#39;: &#39;1143&#39;}, {&#39;fecha&#39;: &#39;2022-05-14 15:44:24+00:00&#39;, &#39;usuario&#39;: &#39;juanrallo&#39;, &#39;texto&#39;: &#39;Llevas diciendo que Bitcoin es una burbuja desde que cotizaba a 100 dólares. Que sepamos los patrones típicos de un… https://t.co/2inCgvPHnE&#39;, &#39;likes&#39;: &#39;1423&#39;}, {&#39;fecha&#39;: &#39;2022-05-14 16:01:48+00:00&#39;, &#39;usuario&#39;: &#39;wallstwolverine&#39;, &#39;texto&#39;: &#39;Los mismos políticos que asesoraban a Venezuela en sus políticas económicas te dan lecciones hoy de lo peligroso qu… https://t.co/wRje03EydN&#39;, &#39;likes&#39;: &#39;1543&#39;}, 
+{&#39;fecha&#39;: &#39;2022-05-18 06:18:46+00:00&#39;, &#39;usuario&#39;: &#39;EdgardoMulatoSV&#39;, &#39;texto&#39;: &#39;Ya se preguntaron, ¿Por qué sube la ola de homicidios y ataques al Gobierno cuando vienen INVERSIONISTAS al país?… https://t.co/T5PCT8RgKB&#39;, &#39;likes&#39;: &#39;796&#39;}]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Crear una función que reciba una lista de tweets como la que devuelve la función anterior, y devuelva un diccionario con los hashtags contenidos en los tweets y su frecuencia, tal y como se muestra en la siguiente salida:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;{&#39;#Bitcoin&#39;: 3, &#39;#Ethereum&#39;: 1}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
