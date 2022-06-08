@@ -5,7 +5,7 @@
     <link>/en/category/statistics/</link>
       <atom:link href="/en/category/statistics/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Statistics</title>
@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-916378254&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-327685419&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-916378254&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-327685419&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -6692,6 +6692,251 @@ $P_{5}=56.8148$, so, the sample is non-atypical.
     &lt;div class=&#34;card-body&#34;&gt;
       Let $X$ be the curing time, $P(X&amp;gt;65)=0.0668$.&lt;br&gt;
 Let $Y$ be the number of injured players that could play the semifinal, $P(Y\geq 1)=0.4989$.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Physiotherapy exam 2022-06-06</title>
+      <link>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-06-06/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-06-06/</guid>
+      <description>&lt;p&gt;Degrees: Physiotherapy&lt;br&gt;
+Date: June 6, 2022&lt;/p&gt;
+&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;The patients of a physiotherapy clinic were asked to assess their satisfaction in a scale from 0 to 10. The assessments are summarized in the table below.&lt;/p&gt;
+&lt;p&gt;$$\begin{array}{lr}
+\hline
+\mbox{Assessment} &amp;amp; \mbox{Patients}\newline
+0 - 2 &amp;amp; 3 \newline
+2 - 4 &amp;amp; 12 \newline
+4 - 6 &amp;amp; 9 \newline
+6 - 8 &amp;amp; 18 \newline
+8 - 10 &amp;amp; 22 \newline
+\hline \end{array}
+$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the interquartile range of the assessment and interpret it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If it is required an assessment greater than 5 in more than 50% of patients for the clinic to remain open, will the clinic remain open?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Is the assessment mean representative?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the coefficient of kurtosis of the assessment and interpret it. Is the kurtosis normal?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the assessment mean of another clinic is 6.8 and the standard deviation is 2.6, which assessment is relatively higher 6 in the first clinic or 6.2 in the second?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the following sums for the computations: $\sum x_in_i=408$, $\sum x_i^2n_i=3000$, $\sum (x_i-\bar x)^3n_i=-548.25$ and $\sum (x_i-\bar x)^4n_i=5140.45$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $X$ be the patient assessment.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$Q_1= 4.4444$, $Q_3=9.0907$ and $IQR = 4.6463$, so the central dispersion is moderate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(5)=0.2695$, and the percentage of patients with an assessment greater than 5 is $73.05\%$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x = 6.375$, $s_x^2 = 6.2344$, $s_x=2.4969$ and $cv=0.3917$, thus the representativity of the mean is moderate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$g_2 = -0.9335$ and the distribution is flatter than a Gauss bell, but normal, as $g_2$ is between -2 and 2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;First clinic: $z(6)=-0.1502$&lt;br&gt;
+Second clinic: $z(6.2)=-0.3077$.&lt;br&gt;
+Thus, an assessment of 6 in the first clinic is relatively higher as its standard score is greater.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-2&#34;&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;A study tries to determine the effectiveness a training program to increase the grip strength. The table below shows the grip strength in Kg in some weeks of the training program.&lt;/p&gt;
+&lt;p&gt;$$
+\begin{array}{lrrrrrrrr}
+\hline
+\mbox{Week} &amp;amp; 1 &amp;amp; 3 &amp;amp; 6 &amp;amp; 9 &amp;amp; 14 &amp;amp; 17 &amp;amp; 21 &amp;amp; 24 \newline
+\mbox{Grip strength} &amp;amp; 15 &amp;amp; 22 &amp;amp; 29 &amp;amp; 34 &amp;amp; 36 &amp;amp; 39 &amp;amp; 40 &amp;amp; 41 \newline
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the regression coefficient of the grip strength on the weeks and interpret it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;According to the logarithmic regression model, what is the expected grip strength after 5 and 25 weeks. Are these predictions reliable? Would these predictions be more reliable with the linear regression model?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;According to the exponential regression model, how many weeks are required to have a grip strength of 25 Kg?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What percentage of the total variability of the weeks is explained by the exponential model?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the following sums ($X$=Weeks and $Y$=Grip strength):&lt;br&gt;
+$\sum x_i=95$, $\sum \log(x_i)=16.7824$, $\sum y_j=256$, $\sum \log(y_j)=27.3423$,&lt;br&gt;
+$\sum x_i^2=1629$, $\sum \log(x_i)^2=43.606$, $\sum y_j^2=8804$, $\sum \log(y_j)^2=94.3237$,&lt;br&gt;
+$\sum x_iy_j=3552$, $\sum x_i\log(y_j)=342.9642$, $\sum \log(x_i)y_j=608.4186$, $\sum \log(x_i)\log(y_j)=60.047$.&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\bar x=11.875$ weeks, $s_x^2=62.6094$ weeks$^2$.&lt;br&gt;
+$\bar y=32$ Kg, $s_y^2=76.5$ Kg$^2$.&lt;br&gt;
+$s_{xy}=64$ weeks$\cdot$Kg.&lt;br&gt;
+Regression coefficient of $Y$ on $X$: $b_{yx} = 1.0222$ Kg/week. The grip strength increases $1.0222$ Kg per week.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\overline{\ln(x)} = 2.0978$ ln(weeks), $s_{\ln(x)}^2 = 1.05$ ln(weeks)$^2$ and $s_{\ln(x)y} = 8.9226$ ln(weeks)Kg.&lt;br&gt;
+Logarithmic regression model of $Y$ on $X$: $y = 14.1729 + 8.498 \ln(x)$.&lt;br&gt;
+Predictions: $y(5) = 27.8499$ Kg and $y(25) = 41.5268$ Kg.&lt;br&gt;
+Logarithmic coefficient of determination: $r^2 = 0.9912$. The predictions are not reliable because the sample size is small.&lt;br&gt;
+Linear coefficient of determination: $r^2 = 0.8552$.&lt;br&gt;
+As the linear coefficient of determination is less than the logarithmic one, the predictions with the logarithmic model are more reliable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exponential regression model of $X$ on $Y$: $x = e^{-1.6345 + 0.1166y}$.&lt;br&gt;
+Prediction: $x(25)=3.6015$ Weeks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As $r^2 = 0.9912$, the exponential models explains $99.12$% of the variability of the weeks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-3&#34;&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;A diagnostic test for a cervical injury has a 99% of sensitivity and produces 80% of right diagnosis. Assuming that the prevalence of the injury is 10%:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the specificity of the test.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Can we rule out the injury with a negative outcome of the test?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Can we diagnose the injury with a positive outcome of the test? What must the minimum prevalence of the injury be to diagnose the injury with a positive outcome of the test?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-2&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-2&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Specificity = $P(-|\overline D) = 0.7789$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Negative predictive value = $P(\overline D|-) = 0.9986 &amp;gt; 0.5$, so we can rule out the injury with a negative outcome.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Positive predictive value = $P(D|+) = 0.3322 &amp;lt; 0.5$, so we can not diagnose the injury with a positive outcome. The minimum prevalence required to be able to diagnose the injury with a positive outcome is $P(D)=0.1825$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-4&#34;&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;A pharmacy sells two vaccines $A$ and $B$ against a virus. The $A$ vaccine produces 5% of side effects, while the $B$ vaccine produces 2% of side effects. The pharmacy has sold 10 units of the $A$ vaccine and 100 units of the $B$ vaccine.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the probability of having less than 2 side effects with the $A$ vaccine.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the probability of having more than 3 side effects with the $B$ vaccine.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If we apply both vaccines to the same person at different moments, and assuming that the production of side effects of the vaccines are independent, what is the probability that this person will have any side effect?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-3&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-3&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Let $X$ be the number of side effects in 10 applications of A vaccine. Then, $X\sim B(10, 0.05)$ and $P(X&amp;lt;2) = 0.9139$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $Y$ be the number of side effects in 100 applications of B vaccine. Then, $Y\sim B(100, 0.02)\approx P(2)$ and $P(Y&amp;gt;3) = 0.1429$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let $A$ and $B$ the events of having side effects with vaccines A and B respectively. $P(A\cup B) = 0.069$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;question-5&#34;&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;The length of the femur bone is normally distributed in both men and women with a standard deviation of 4 cm. It is also known that the first quartile in women is 42.3 cm, while the third quartile in men is 50.7 cm.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;What is the difference between the means of the femur length of women and men?&lt;br&gt;
+Remark: If you do not know how to compute the means, use a mean 44 cm for women and a mean 47 cm for men in the following parts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compute the 60th percentile of the femur length in women. What percentage of men have a femur length less than the 60th percentile of women?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If we pick a woman and man at random, what is the probability that neither of them has a femur length less than 45 cm?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-4&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-4&#34;&gt;
+      Show solution
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-4&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;p&gt;Let $X$ and $Y$ be the femur length of women and men respectively. Then $X\sim N(\mu_x, 4)$ and $Y\sim N(\mu_y,4)$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\mu_x = 44.91$ cm and $\mu_y = 48.02$ cm.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;60th percentile in women $P_{60}=45.9234$ cm, and $P(Y&amp;lt;45.9234) = 0.3001$, that is, a $30.01\%$ of men have a femur length less than the 60th percentile of women.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$P(X&amp;lt;45 \cap Y&amp;lt;45) = 0.1146$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

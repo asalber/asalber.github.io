@@ -105,7 +105,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/en/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -118,13 +118,13 @@
                 />
   </url><url>
     <loc>/en/tag/biostatistics/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/category/biostatistics/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/categories/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -137,22 +137,22 @@
                 />
   </url><url>
     <loc>/en/tag/exam/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/tag/physiotherapy/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-05-06/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <loc>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-06-06/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/tag/statistics/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/category/statistics/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/en/tags/</loc>
-    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -163,6 +163,9 @@
                 hreflang="en"
                 href="/en/tags/"
                 />
+  </url><url>
+    <loc>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-05-06/</loc>
+    <lastmod>2022-05-12T23:29:33+02:00</lastmod>
   </url><url>
     <loc>/en/teaching/statistics/exams/physiotherapy/physiotherapy-2022-03-11/</loc>
     <lastmod>2022-04-23T18:59:05+02:00</lastmod>
