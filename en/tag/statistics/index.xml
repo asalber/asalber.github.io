@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-562749813&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-139427568&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-562749813&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-139427568&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -3291,10 +3291,10 @@ $$&lt;/p&gt;
       &lt;p&gt;Let $X$ be the patient assessment.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;$Q_1= 4.4444$, $Q_3=9.0907$ and $IQR = 4.6463$, so the central dispersion is moderate.&lt;/p&gt;
+&lt;p&gt;$Q_1= 4.2203$, $Q_3=8.5457$ and $IQR = 4.3254$, so the central dispersion is moderate.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$F(5)=0.2695$, and the percentage of patients with an assessment greater than 5 is $73.05\%$.&lt;/p&gt;
+&lt;p&gt;$F(5)=0.305$, and the percentage of patients with an assessment greater than 5 is $69.5\%$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;$\bar x = 6.375$, $s_x^2 = 6.2344$, $s_x=2.4969$ and $cv=0.3917$, thus the representativity of the mean is moderate.&lt;/p&gt;
