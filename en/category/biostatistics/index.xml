@@ -477,7 +477,7 @@ For each value or category of the variable, a bar is draw to the height of its f
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;. The bar chart below shows the absolute frequency distribution of the number of children in the previous sample.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-327685419&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-562749813&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -487,7 +487,7 @@ For each value or category of the variable, a bar is draw to the height of its f
       clearInterval( a );
 
       Plotly.d3.json(&#34;./img/absolute-barchart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-327685419&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-562749813&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -5812,13 +5812,13 @@ Remark: If you do not know how to compute the means, use a mean 44 cm for women 
       &lt;p&gt;Let $X$ and $Y$ be the femur length of women and men respectively. Then $X\sim N(\mu_x, 4)$ and $Y\sim N(\mu_y,4)$.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;$\mu_x = 44.91$ cm and $\mu_y = 48.02$ cm.&lt;/p&gt;
+&lt;p&gt;$\mu_x = 44.91$ cm, $\mu_y = 48.02$ cm and $\mu_x - \mu_y = -3.11$ cm.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;60th percentile in women $P_{60}=45.9234$ cm, and $P(Y&amp;lt;45.9234) = 0.3001$, that is, a $30.01\%$ of men have a femur length less than the 60th percentile of women.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$P(X&amp;lt;45 \cap Y&amp;lt;45) = 0.1146$.&lt;/p&gt;
+&lt;p&gt;$P(X\geq 45 \cap Y\geq 45) = 0.3805$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
