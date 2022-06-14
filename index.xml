@@ -12093,7 +12093,8 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
 &lt;p&gt;Dispone de un índice que asocia un nombre a cada elemento del la serie, a través de la cuál se accede al elemento.&lt;/p&gt;
 &lt;p&gt;Ejemplo. La siguiente serie contiene las asignaturas de un curso.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/pandas-series.png&#34; alt=&#34;Ejemplo de serie&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;creación-de-una-serie-a-partir-de-una-lista&#34;&gt;Creación de una serie a partir de una lista&lt;/h2&gt;
+&lt;h2 id=&#34;creación-de-series&#34;&gt;Creación de series&lt;/h2&gt;
+&lt;h3 id=&#34;creación-de-una-serie-a-partir-de-una-lista&#34;&gt;Creación de una serie a partir de una lista&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Series(data=lista, index=indices, dtype=tipo)&lt;/code&gt; : Devuelve un objeto de tipo Series con los datos de la lista &lt;code&gt;lista&lt;/code&gt;, las filas especificados en la lista &lt;code&gt;indices&lt;/code&gt; y el tipo de datos indicado en &lt;code&gt;tipo&lt;/code&gt;. Si no se pasa la lista de índices se utilizan como índices los enteros del 0 al $n-1$, done $n$ es el tamaño de la serie. Si no se pasa el tipo de dato se infiere.&lt;/li&gt;
 &lt;/ul&gt;
@@ -12107,7 +12108,7 @@ datetime.timedelta(days=132, seconds=1826, microseconds=895590)
 4          Inglés
 dtype: string
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;creación-de-una-serie-a-partir-de-un-diccionario&#34;&gt;Creación de una serie a partir de un diccionario&lt;/h2&gt;
+&lt;h3 id=&#34;creación-de-una-serie-a-partir-de-un-diccionario&#34;&gt;Creación de una serie a partir de un diccionario&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Series(data=diccionario, index=indices)&lt;/code&gt;: Devuelve un objeto de tipo Series con los valores del diccionario &lt;code&gt;diccionario&lt;/code&gt; y las filas especificados en la lista &lt;code&gt;indices&lt;/code&gt;. Si no se pasa la lista de índices se utilizan como índices las claves del diccionario.&lt;/li&gt;
 &lt;/ul&gt;
@@ -12234,20 +12235,20 @@ dtype: float64
 &lt;p&gt;Los operadores binarios (&lt;code&gt;+&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, etc.) pueden utilizarse con una serie, y devuelven otra serie con el resultado de aplicar la operación a cada elemento de la serie.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
 s = pd.Series([1, 2, 3, 4])
-&amp;gt;&amp;gt;&amp;gt; s*2
+&amp;gt;&amp;gt;&amp;gt; s * 2
 0    2
 1    4
 2    6
 3    8
 dtype: int64
-&amp;gt;&amp;gt;&amp;gt; s%2
+&amp;gt;&amp;gt;&amp;gt; s % 2
 0    1
 1    0
 2    1
 3    0
 dtype: int64
 &amp;gt;&amp;gt;&amp;gt; s = pd.Series([&#39;a&#39;, &#39;b&#39;, &#39;c&#39;])
-&amp;gt;&amp;gt;&amp;gt; s*5
+&amp;gt;&amp;gt;&amp;gt; s * 5
 0    aaaaa
 1    bbbbb
 2    ccccc
@@ -12274,7 +12275,7 @@ dtype: float64
 2    C
 dtype: object
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;filtrado-de-una-serie&#34;&gt;Filtrado de una serie&lt;/h2&gt;
+&lt;h2 id=&#34;filtrar-una-serie&#34;&gt;Filtrar una serie&lt;/h2&gt;
 &lt;p&gt;Para filtrar una serie y quedarse con los valores que cumplen una determinada condición se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;s[condicion]&lt;/code&gt; : Devuelve una serie con los elementos de la serie &lt;code&gt;s&lt;/code&gt; que se corresponden con el valor &lt;code&gt;True&lt;/code&gt; de la lista booleana &lt;code&gt;condicion&lt;/code&gt;. &lt;code&gt;condicion&lt;/code&gt; debe ser una lista de valores booleanos de la misma longitud que la serie.&lt;/li&gt;
@@ -12337,7 +12338,8 @@ dtype: object
 &lt;p&gt;Un DataFrame contiene dos índices, uno para las filas y otro para las columnas, y se puede acceder a sus elementos mediante los nombres de las filas y las columnas.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. El siguiente DataFrame contiene información sobre los alumnos de un curso. Cada fila corresponde a un alumno y cada columna a una variable.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/pandas-dataframe.png&#34; alt=&#34;Ejemplo de DataFrame&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;creación-de-un-dataframe-a-partir-de-un-diccionario-de-listas&#34;&gt;Creación de un DataFrame a partir de un diccionario de listas&lt;/h2&gt;
+&lt;h2 id=&#34;creación-de-un-dataframe&#34;&gt;Creación de un DataFrame&lt;/h2&gt;
+&lt;h3 id=&#34;creación-de-un-dataframe-a-partir-de-un-diccionario-de-listas&#34;&gt;Creación de un DataFrame a partir de un diccionario de listas&lt;/h3&gt;
 &lt;p&gt;Para crear un DataFrame a partir de un diccionario cuyas claves son los nombres de las columnas y los valores son listas con los datos de las columnas se utiliza el método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;DataFrame(data=diccionario, index=filas, columns=columnas, dtype=tipos)&lt;/code&gt; : Devuelve un objeto del tipo DataFrame cuyas columnas son las listas contenidas en los valores del diccionario &lt;code&gt;diccionario&lt;/code&gt;, los nombres de filas indicados en la lista &lt;code&gt;filas&lt;/code&gt;, los nombres de columnas indicados en la lista &lt;code&gt;columnas&lt;/code&gt; y los tipos indicados en la lista &lt;code&gt;tipos&lt;/code&gt;. La lista &lt;code&gt;filas&lt;/code&gt; tiene que tener el mismo tamaño que las listas del diccionario, mientras que las listas &lt;code&gt;columnas&lt;/code&gt; y &lt;code&gt;tipos&lt;/code&gt; tienen que tener el mismo tamaño que el diccionario. Si no se pasa la lista de filas se utilizan como nombres los enteros empezando en 0. Si no se pasa la lista de columnas se utilizan como nombres las claves del diccionario. Si no se pasa la lista de tipos, se infiere.&lt;/li&gt;
@@ -12357,7 +12359,7 @@ dtype: object
 2   Carmen    20  Arquitectura   carmen@gmail.com
 3  Antonio    21      Economía  antonio@gmail.com
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;creación-de-un-dataframe-a-partir-de-una-lista-de-listas&#34;&gt;Creación de un DataFrame a partir de una lista de listas&lt;/h2&gt;
+&lt;h3 id=&#34;creación-de-un-dataframe-a-partir-de-una-lista-de-listas&#34;&gt;Creación de un DataFrame a partir de una lista de listas&lt;/h3&gt;
 &lt;p&gt;Para crear un DataFrame a partir de una lista de listas con los datos de las columnas se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;DataFrame(data=listas, index=filas, columns=columnas, dtype=tipos)&lt;/code&gt; : Devuelve un objeto del tipo DataFrame cuyas columnas son los valores de las listas de la lista &lt;code&gt;listas&lt;/code&gt;, los nombres de filas indicados en la lista &lt;code&gt;filas&lt;/code&gt;, los nombres de columnas indicados en la lista &lt;code&gt;columnas&lt;/code&gt; y los tipos indicados en la lista &lt;code&gt;tipos&lt;/code&gt;. La lista &lt;code&gt;filas&lt;/code&gt;, tiene que tener el mismo tamaño que la lista &lt;code&gt;listas&lt;/code&gt; mientras que las listas &lt;code&gt;columnas&lt;/code&gt; y &lt;code&gt;tipos&lt;/code&gt; tienen que tener el mismo tamaño que las listas anidadas en &lt;code&gt;listas&lt;/code&gt;. Si no se pasa la lista de filas o de columnas se utilizan enteros empezando en 0. Si no se pasa la lista de tipos, se infiere.&lt;/li&gt;
@@ -12371,7 +12373,7 @@ dtype: object
 1    Luis     22
 2  Carmen     20
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;creación-de-un-dataframe-a-partir-de-una-lista-de-diccionarios&#34;&gt;Creación de un DataFrame a partir de una lista de diccionarios&lt;/h2&gt;
+&lt;h3 id=&#34;creación-de-un-dataframe-a-partir-de-una-lista-de-diccionarios&#34;&gt;Creación de un DataFrame a partir de una lista de diccionarios&lt;/h3&gt;
 &lt;p&gt;Para crear un DataFrame a partir de una lista de diccionarios con los datos de las filas, se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;DataFrame(data=diccionarios, index=filas, columns=columnas, dtype=tipos)&lt;/code&gt; : Devuelve un objeto del tipo DataFrame cuyas filas contienen los valores de los diccionarios de la lista &lt;code&gt;diccionarios&lt;/code&gt;, los nombres de filas indicados en la lista &lt;code&gt;filas&lt;/code&gt;, los nombres de columnas indicados en la lista &lt;code&gt;columnas&lt;/code&gt; y los tipos indicados en la lista &lt;code&gt;tipos&lt;/code&gt;. La lista &lt;code&gt;filas&lt;/code&gt; tiene que tener el mismo tamaño que la lista &lt;code&gt;lista&lt;/code&gt;. Si no se pasa la lista de filas se utilizan enteros empezando en 0. Si no se pasa la lista de columnas se utilizan las claves de los diccionarios. Si no se pasa la lista de tipos, se infiere.&lt;/li&gt;
@@ -12384,7 +12386,7 @@ dtype: object
 1    Luis  22.0
 2  Carmen   NaN
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;creación-de-un-dataframe-a-partir-de-un-array&#34;&gt;Creación de un DataFrame a partir de un array&lt;/h2&gt;
+&lt;h3 id=&#34;creación-de-un-dataframe-a-partir-de-un-array&#34;&gt;Creación de un DataFrame a partir de un array&lt;/h3&gt;
 &lt;p&gt;Para crear un DataFrame a partir de un array de NumPy se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;DataFrame(data=array, index=filas, columns=columnas, dtype=tipo)&lt;/code&gt; : Devuelde un objeto del tipo DataFrame cuyas filas y columnas son las del array &lt;code&gt;array&lt;/code&gt;, los nombres de filas indicados en la lista &lt;code&gt;filas&lt;/code&gt;, los nombres de columnas indicados en la lista &lt;code&gt;columnas&lt;/code&gt; y el tipo indicado en &lt;code&gt;tipo&lt;/code&gt;. La lista &lt;code&gt;filas&lt;/code&gt; tiene que tener el mismo tamaño que el número de filas del array y la lista &lt;code&gt;columnas&lt;/code&gt; el mismo tamaño que el número de columnas del array. Si no se pasa la lista de filas se utilizan enteros empezando en 0. Si no se pasa la lista de columnas se utilizan las claves de los diccionarios. Si no se pasa la lista de tipos, se infiere.&lt;/li&gt;
@@ -12398,7 +12400,7 @@ dtype: object
 2 -0.805470 -0.629498  0.935066
 3  0.236936 -0.431673 -0.177379
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;creación-de-un-dataframe-a-partir-de-un-fichero-csv-o-excel&#34;&gt;Creación de un DataFrame a partir de un fichero CSV o Excel&lt;/h2&gt;
+&lt;h3 id=&#34;creación-de-un-dataframe-a-partir-de-un-fichero-csv-o-excel&#34;&gt;Creación de un DataFrame a partir de un fichero CSV o Excel&lt;/h3&gt;
 &lt;p&gt;Dependiendo del tipo de fichero, existen distintas funciones para importar un DataFrame desde un fichero.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -12543,7 +12545,7 @@ Marisa López Collado            46    M  51.0    1.58       148.0
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;acceso-a-los-elementos-de-un-dataframe&#34;&gt;Acceso a los elementos de un DataFrame&lt;/h2&gt;
 &lt;p&gt;El acceso a los datos de un DataFrame se puede hacer a través de posiciones o través de los nombres de las filas y columnas.&lt;/p&gt;
-&lt;h2 id=&#34;accesos-mediante-posiciones&#34;&gt;Accesos mediante posiciones&lt;/h2&gt;
+&lt;h3 id=&#34;accesos-mediante-posiciones&#34;&gt;Accesos mediante posiciones&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;df.iloc[i, j]&lt;/code&gt; : Devuelve el elemento que se encuentra en la fila &lt;code&gt;i&lt;/code&gt; y la columna &lt;code&gt;j&lt;/code&gt; del DataFrame &lt;code&gt;df&lt;/code&gt;. Pueden indicarse secuencias de índices para obtener partes del DataFrame.&lt;/p&gt;
@@ -12564,7 +12566,7 @@ Marisa López Collado            46    M  51.0    1.58       148.0
 nombre     Rosa Díaz Díaz
 edad                   32
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;acceso-a-los-elementos-mediante-nombres&#34;&gt;Acceso a los elementos mediante nombres&lt;/h2&gt;
+&lt;h3 id=&#34;acceso-a-los-elementos-mediante-nombres&#34;&gt;Acceso a los elementos mediante nombres&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df.loc[fila, columna]&lt;/code&gt; : Devuelve el elemento que se encuentra en la fila con nombre &lt;code&gt;fila&lt;/code&gt; y la columna de con nombre &lt;code&gt;columna&lt;/code&gt; del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -12595,7 +12597,7 @@ edad                   32
 ...
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;operaciones-con-las-columnas-de-un-dataframe&#34;&gt;Operaciones con las columnas de un DataFrame&lt;/h2&gt;
-&lt;h2 id=&#34;añadir-columnas-a-un-dataframe&#34;&gt;Añadir columnas a un DataFrame&lt;/h2&gt;
+&lt;h3 id=&#34;añadir-columnas-a-un-dataframe&#34;&gt;Añadir columnas a un DataFrame&lt;/h3&gt;
 &lt;p&gt;El procedimiento para añadir una nueva columna a un DataFrame es similar al de añadir un nuevo par a un diccionario, pero pasando los valores de la columna en una lista o serie.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -12619,7 +12621,7 @@ edad                   32
 5                  Antonio Ruiz Cruz    68    H    66.0    1.74         249.0      NaN
 ...
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;operaciones-sobre-columnas&#34;&gt;Operaciones sobre columnas&lt;/h2&gt;
+&lt;h3 id=&#34;operaciones-sobre-columnas&#34;&gt;Operaciones sobre columnas&lt;/h3&gt;
 &lt;p&gt;Puesto que los datos de una misma columna de un DataFrame son del mismo tipo, es fácil aplicar la misma operación a todos los elementos de la columna.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
 &amp;gt;&amp;gt;&amp;gt; df = pd.read_csv(
@@ -12637,7 +12639,7 @@ edad                   32
 ...
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;aplicar-funciones-a-columnas&#34;&gt;Aplicar funciones a columnas&lt;/h2&gt;
+&lt;h3 id=&#34;aplicar-funciones-a-columnas&#34;&gt;Aplicar funciones a columnas&lt;/h3&gt;
 &lt;p&gt;Para aplicar funciones a todos los elementos de una columna se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df[columna].apply(f)&lt;/code&gt; : Devuelve una serie con los valores que resulta de aplicar la función &lt;code&gt;f&lt;/code&gt; a los elementos de la columna con nombre &lt;code&gt;columna&lt;/code&gt; del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
@@ -12652,7 +12654,7 @@ edad                   32
 2     0.593327
 ...
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;convertir-una-columna-al-tipo-datetime&#34;&gt;Convertir una columna al tipo &lt;code&gt;datetime&lt;/code&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;convertir-una-columna-al-tipo-datetime&#34;&gt;Convertir una columna al tipo &lt;code&gt;datetime&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;A menudo una columna contiene cadenas que representan fechas. Para convertir estas cadenas al tipo &lt;code&gt;datetime&lt;/code&gt; se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;to_datetime(columna, formato)&lt;/code&gt;: Devuelve la serie que resulta de convertir las cadenas de la columna con el nombre &lt;code&gt;columna&lt;/code&gt; en fechas del tipo &lt;code&gt;datetime&lt;/code&gt; con el formado especificado en &lt;code&gt;formato&lt;/code&gt;. (
@@ -12666,7 +12668,7 @@ edad                   32
 2   1999-12-10
 Name: Nacimiento, dtype: datetime64[ns]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;resumen-descriptivo-de-un-dataframe&#34;&gt;Resumen descriptivo de un DataFrame&lt;/h2&gt;
+&lt;h3 id=&#34;resumen-descriptivo-de-un-dataframe&#34;&gt;Resumen descriptivo de un DataFrame&lt;/h3&gt;
 &lt;p&gt;Al igual que para las series, los siguientes métodos permiten resumir la información de un DataFrame por columnas:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df.count()&lt;/code&gt; : Devuelve una serie con el número de elementos que no son nulos ni &lt;code&gt;NaN&lt;/code&gt; en cada columna del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
@@ -12721,7 +12723,7 @@ unique                        14    2
 top      Antonio Fernández Ocaña    H
 freq                           1    8
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;eliminar-columnas-de-un-dataframe&#34;&gt;Eliminar columnas de un DataFrame&lt;/h2&gt;
+&lt;h3 id=&#34;eliminar-columnas-de-un-dataframe&#34;&gt;Eliminar columnas de un DataFrame&lt;/h3&gt;
 &lt;p&gt;Para eliminar columnas de un DataFrame se utilizan los siguientes métodos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -12749,7 +12751,7 @@ print(edad)
 ...
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;operaciones-con-las-filas-de-un-dataframe&#34;&gt;Operaciones con las filas de un DataFrame&lt;/h2&gt;
-&lt;h2 id=&#34;añadir-una-fila-a-un-dataframe&#34;&gt;Añadir una fila a un DataFrame&lt;/h2&gt;
+&lt;h3 id=&#34;añadir-una-fila-a-un-dataframe&#34;&gt;Añadir una fila a un DataFrame&lt;/h3&gt;
 &lt;p&gt;Para añadir una fila a un DataFrame se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df.append(serie, ignore_index=True)&lt;/code&gt; : Devuelve el DataFrame que resulta de añadir una fila al DataFrame &lt;code&gt;df&lt;/code&gt; con los valores de la serie &lt;code&gt;serie&lt;/code&gt;. Los nombres del índice de la serie deben corresponderse con los nombres de las columnas de &lt;code&gt;df&lt;/code&gt;. Si no se pasa el parámetro &lt;code&gt;ignore_index&lt;/code&gt; entonces debe pasarse el parámetro &lt;code&gt;name&lt;/code&gt; a la serie, donde su argumento será el nombre de la nueva fila.&lt;/li&gt;
@@ -12766,7 +12768,7 @@ print(edad)
 13             Carolina Rubio Moreno    20    M    61.0    1.77         194.0
 14                      Carlos Rivas    28    H    89.0    1.78         245.0
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;eliminar-filas-de-un-dataframe&#34;&gt;Eliminar filas de un DataFrame&lt;/h2&gt;
+&lt;h3 id=&#34;eliminar-filas-de-un-dataframe&#34;&gt;Eliminar filas de un DataFrame&lt;/h3&gt;
 &lt;p&gt;Para eliminar filas de un DataFrame se utilizan el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df.drop(filas)&lt;/code&gt; : Devuelve el DataFrame que resulta de eliminar las filas con los nombres indicados en la lista &lt;code&gt;filas&lt;/code&gt; del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
@@ -12781,7 +12783,7 @@ print(edad)
 4               Marisa López Collado    46    M   51.0    1.58       148.0
 ...
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;filtrado-de-las-filas-de-un-dataframe&#34;&gt;Filtrado de las filas de un DataFrame&lt;/h2&gt;
+&lt;h3 id=&#34;filtrar-las-filas-de-un-dataframe&#34;&gt;Filtrar las filas de un DataFrame&lt;/h3&gt;
 &lt;p&gt;Una operación bastante común con un DataFrame es obtener las filas que cumplen una determinada condición.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df[condicion]&lt;/code&gt; : Devuelve un DataFrame con las filas del DataFrame &lt;code&gt;df&lt;/code&gt; que se corresponden con el valor &lt;code&gt;True&lt;/code&gt; de la lista booleana &lt;code&gt;condicion&lt;/code&gt;. &lt;code&gt;condicion&lt;/code&gt; debe ser una lista de valores booleanos de la misma longitud que el número de filas del DataFrame.&lt;/li&gt;
@@ -12794,7 +12796,7 @@ print(edad)
 6   Antonio Fernández Ocaña    51    H    62.0    1.72         276.0
 9   Santiago Reillo Manzano    46    H    75.0    1.85         280.0
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;ordenar-un-dataframe&#34;&gt;Ordenar un DataFrame&lt;/h2&gt;
+&lt;h3 id=&#34;ordenar-un-dataframe&#34;&gt;Ordenar un DataFrame&lt;/h3&gt;
 &lt;p&gt;Para ordenar un DataFrame de acuerdo a los valores de una determinada columna se utilizan los siguientes métodos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -12815,7 +12817,7 @@ print(edad)
 13             Carolina Rubio Moreno    20    M   61.0    1.77       194.0
 ...
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;eliminar-las-filas-con-dados-desconocidos-en-un-dataframe&#34;&gt;Eliminar las filas con dados desconocidos en un DataFrame&lt;/h2&gt;
+&lt;h3 id=&#34;eliminar-las-filas-con-dados-desconocidos-en-un-dataframe&#34;&gt;Eliminar las filas con dados desconocidos en un DataFrame&lt;/h3&gt;
 &lt;p&gt;Para eliminar las filas de un DataFrame que contienen datos desconocidos &lt;code&gt;NaN&lt;/code&gt; o nulos &lt;code&gt;None&lt;/code&gt; se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;s.dropna(subset=columnas)&lt;/code&gt; : Devuelve el DataFrame que resulta de eliminar las filas que contienen algún dato desconocido o nulo en las columnas de la lista &lt;code&gt;columna&lt;/code&gt; del DataFrame &lt;code&gt;df&lt;/code&gt;. Si no se pasa un argumento al parámetro &lt;code&gt;subset&lt;/code&gt; se aplica a todas las columnas del DataFrame.&lt;/li&gt;
@@ -12834,7 +12836,7 @@ print(edad)
 &lt;h2 id=&#34;agrupación-de-un-dataframe&#34;&gt;Agrupación de un DataFrame&lt;/h2&gt;
 &lt;p&gt;En muchas aplicaciones es útil agrupar los datos de un DataFrame de acuerdo a los valores de una o varias columnas (categorías), como por ejemplo el sexo o el país.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/pandas-grupos.png&#34; alt=&#34;División en grupos de un DataFrame&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;dividir-un-dataframe-en-grupos&#34;&gt;Dividir un DataFrame en grupos&lt;/h2&gt;
+&lt;h3 id=&#34;dividir-un-dataframe-en-grupos&#34;&gt;Dividir un DataFrame en grupos&lt;/h3&gt;
 &lt;p&gt;Para dividir un DataFrame en grupos se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df.groupby(columnas).groups&lt;/code&gt; : Devuelve un diccionario con cuyas claves son las tuplas que resultan de todas las combinaciones de los valores de las columnas con nombres en la lista &lt;code&gt;columnas&lt;/code&gt;, y valores las listas de los nombres de las filas que contienen esos valores en las correspondientes columnas del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
@@ -12863,7 +12865,7 @@ print(edad)
 10   Macarena Álvarez Luna    53    M    55.0     1.62         262.0
 13   Carolina Rubio Moreno    20    M    61.0     1.77         194.0
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;aplicar-una-función-de-agregación-por-grupos&#34;&gt;Aplicar una función de agregación por grupos&lt;/h2&gt;
+&lt;h3 id=&#34;aplicar-una-función-de-agregación-por-grupos&#34;&gt;Aplicar una función de agregación por grupos&lt;/h3&gt;
 &lt;p&gt;Una vez dividido el DataFame en grupos, es posible aplicar funciones de agregación a cada grupo mediante el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df.groupby(columnas).agg(funciones)&lt;/code&gt; : Devuelve un DataFrame con el resultado de aplicar las funciones de agregación de la lista &lt;code&gt;funciones&lt;/code&gt; a cada uno de los DataFrames que resultan de dividir el DataFrame según las columnas de la lista &lt;code&gt;columnas&lt;/code&gt;.&lt;/li&gt;
@@ -12889,7 +12891,7 @@ M     34.666667  59.500000  1.676667     207.200
 &lt;h2 id=&#34;reestructurar-un-dataframe&#34;&gt;Reestructurar un DataFrame&lt;/h2&gt;
 &lt;p&gt;A menudo la disposición de los datos en un DataFrame no es la adecuada para su tratamiento y es necesario reestructurar el DataFrame. Los datos que contiene un DataFrame pueden organizarse en dos formatos: ancho y largo.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../img/formatos-dataframe.png&#34; alt=&#34;Formatos de un DataFrame&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;convertir-un-dataframe-a-formato-largo&#34;&gt;Convertir un DataFrame a formato largo&lt;/h2&gt;
+&lt;h3 id=&#34;convertir-un-dataframe-a-formato-largo&#34;&gt;Convertir un DataFrame a formato largo&lt;/h3&gt;
 &lt;p&gt;Para convertir un DataFrame de formato ancho a formato largo (columnas a filas) se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df.melt(id_vars=id-columnas, value_vars=columnas, var_name=nombre-columnas, var_value=nombre-valores)&lt;/code&gt; : Devuelve el DataFrame que resulta de convertir el DataFrame &lt;code&gt;df&lt;/code&gt; de formato ancho a formato largo. Todas las columnas de lista &lt;code&gt;columnas&lt;/code&gt; se reestructuran en dos nuevas columnas con nombres &lt;code&gt;nombre-columnas&lt;/code&gt; y &lt;code&gt;nombre-valores&lt;/code&gt; que contienen los nombres de las columnas originales y sus valores, respectivamente. Las columnas en la lista &lt;code&gt;id-columnas&lt;/code&gt; se mantienen sin reestructurar. Si no se pasa la lista &lt;code&gt;columnas&lt;/code&gt; entonces se reestructuran todas las columnas excepto las columnas de la lista &lt;code&gt;id-columnas&lt;/code&gt;.&lt;/li&gt;
@@ -12914,7 +12916,7 @@ M     34.666667  59.500000  1.676667     207.200
 7    Luis    22  Programación   4.0
 8  Carmen    20  Programación   9.0
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;convertir-un-dataframe-a-formato-ancho&#34;&gt;Convertir un DataFrame a formato ancho&lt;/h2&gt;
+&lt;h3 id=&#34;convertir-un-dataframe-a-formato-ancho&#34;&gt;Convertir un DataFrame a formato ancho&lt;/h3&gt;
 &lt;p&gt;Para convertir un DataFrame de formato largo a formato ancho (filas a columnas) se utiliza el siguiente método:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;df.pivot(index=filas, columns=columna, values=valores)&lt;/code&gt; : Devuelve el DataFrame que resulta de convertir el DataFrame &lt;code&gt;df&lt;/code&gt; de formato largo a formato ancho. Se crean tantas columnas nuevas como valores distintos haya en la columna &lt;code&gt;columna&lt;/code&gt;. Los nombres de estas nuevas columnas son los valores de la columna &lt;code&gt;columna&lt;/code&gt; mientras que sus valores se toman de la columna &lt;code&gt;valores&lt;/code&gt;. Los nombres del índice del nuevo DataFrame se toman de los valores de la columna &lt;code&gt;filas&lt;/code&gt;.&lt;/li&gt;
