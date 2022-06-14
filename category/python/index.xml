@@ -3246,16 +3246,17 @@ dtype: float64
 &lt;li&gt;&lt;code&gt;s.min()&lt;/code&gt; : Devuelve el menor de los datos de la serie &lt;code&gt;s&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;s.max()&lt;/code&gt; : Devuelve el mayor de los datos de la serie &lt;code&gt;s&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;s.mean()&lt;/code&gt; : Devuelve la media de los datos de la serie &lt;code&gt;s&lt;/code&gt; cuando los datos son de un tipo numérico.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s.var()&lt;/code&gt; : Devuelve la varianza de los datos de la serie &lt;code&gt;s&lt;/code&gt; cuando los datos son de un tipo numérico.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;s.std()&lt;/code&gt; : Devuelve la desviación típica de los datos de la serie &lt;code&gt;s&lt;/code&gt; cuando los datos son de un tipo numérico.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;s.describe()&lt;/code&gt;: Devuelve una serie con un resumen descriptivo que incluye el número de datos, su suma, el mínimo, el máximo, la media, la desviación típica y los cuartiles.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
 &amp;gt;&amp;gt;&amp;gt; s = pd.Series([1, 1, 1, 1, 2, 2, 2, 3, 3, 4])
-&amp;gt;&amp;gt;&amp;gt; s.count()
+&amp;gt;&amp;gt;&amp;gt; s.count()  # Tamaño muestral
 10
-&amp;gt;&amp;gt;&amp;gt; s.sum()
+&amp;gt;&amp;gt;&amp;gt; s.sum()  # Suma
 20
-&amp;gt;&amp;gt;&amp;gt; s.cumsum()
+&amp;gt;&amp;gt;&amp;gt; s.cumsum()  # Suma acumulada
 0     1
 1     2
 2     3
@@ -3267,27 +3268,29 @@ dtype: float64
 8    16
 9    20
 dtype: int64
-&amp;gt;&amp;gt;&amp;gt; s.value_counts()
+&amp;gt;&amp;gt;&amp;gt; s.value_counts()  # Frecuencias absolutas
 1    4
 2    3
 3    2
 4    1
 dtype: int64
-&amp;gt;&amp;gt;&amp;gt; s.value_counts(normalize=True)
+&amp;gt;&amp;gt;&amp;gt; s.value_counts(normalize=True)  # Frecuencias relativas
 1    0.4
 2    0.3
 3    0.2
 4    0.1
 dtype: float64
-&amp;gt;&amp;gt;&amp;gt; s.min()
+&amp;gt;&amp;gt;&amp;gt; s.min()  # Mínimo
 1
-&amp;gt;&amp;gt;&amp;gt; s.max()
+&amp;gt;&amp;gt;&amp;gt; s.max()  # Máximo
 4
-&amp;gt;&amp;gt;&amp;gt; s.mean()
+&amp;gt;&amp;gt;&amp;gt; s.mean()  # Media
 2.0
-&amp;gt;&amp;gt;&amp;gt; s.std()
+&amp;gt;&amp;gt;&amp;gt; s.var()  # Varianza
+1.1111111111111112
+&amp;gt;&amp;gt;&amp;gt; s.std()  # Desviación típica
 1.0540925533894598
-&amp;gt;&amp;gt;&amp;gt; s.describe()
+&amp;gt;&amp;gt;&amp;gt; s.describe()  # Resume descriptivo
 count    10.000000
 mean      2.000000
 std       1.054093
@@ -3737,19 +3740,42 @@ Name: Nacimiento, dtype: datetime64[ns]
 &lt;h2 id=&#34;resumen-descriptivo-de-un-dataframe&#34;&gt;Resumen descriptivo de un DataFrame&lt;/h2&gt;
 &lt;p&gt;Al igual que para las series, los siguientes métodos permiten resumir la información de un DataFrame por columnas:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;df.count()&lt;/code&gt; : Devuelve una serie número de elementos que no son nulos ni &lt;code&gt;NaN&lt;/code&gt; en cada columna del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df.count()&lt;/code&gt; : Devuelve una serie con el número de elementos que no son nulos ni &lt;code&gt;NaN&lt;/code&gt; en cada columna del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;df.sum()&lt;/code&gt; : Devuelve una serie con la suma de los datos de las columnas del DataFrame &lt;code&gt;df&lt;/code&gt; cuando los datos son de un tipo numérico, o la concatenación de ellos cuando son del tipo cadena &lt;code&gt;str&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;df.cumsum()&lt;/code&gt; : Devuelve un DataFrame con la suma acumulada de los datos de las columnas del DataFrame &lt;code&gt;df&lt;/code&gt; cuando los datos son de un tipo numérico.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;df.min()&lt;/code&gt; : Devuelve una serie con los menores de los datos de las columnas del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;df.max()&lt;/code&gt; : Devuelve una serie con los mayores de los datos de las columnas del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;df.mean()&lt;/code&gt; : Devuelve una serie con las media de los datos de las columnas del DataFrame &lt;code&gt;df&lt;/code&gt; cuando los datos son de un tipo numérico.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;df.std()&lt;/code&gt; : Devuelve una serie con las desviaciones típicas de los datos de las columnas del DataFrame &lt;code&gt;df&lt;/code&gt; cuando los datos son de un tipo numérico.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;df.describe(include = tipo)&lt;/code&gt; : Devuelve un DataFrame con un resumen estadístico de las columnas del DataFrame &lt;code&gt;df&lt;/code&gt; del tipo &lt;code&gt;tipo&lt;/code&gt;. Para los datos numéricos (&lt;code&gt;number&lt;/code&gt;) se calcula la media, la desviación típica, el mínimo, el máximo y los cuartiles de las columnas numéricas. Para los datos no numéricos (&lt;code&gt;object&lt;/code&gt;) se calcula el número de valores, el número de valores distintos, la moda y su frecuencia. Si no se indica el tipo solo se consideran las columnas numéricas.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df.mean()&lt;/code&gt; : Devuelve una serie con las medias de los datos de las columnas numéricas del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df.var()&lt;/code&gt; : Devuelve una serie con las varianzas de los datos de las columnas numéricas del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df.std()&lt;/code&gt; : Devuelve una serie con las desviaciones típicas de los datos de las columnas numéricas del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df.cov()&lt;/code&gt; : Devuelve un DataFrame con las covarianzas de los datos de las columnas numéricas del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df.corr()&lt;/code&gt; : Devuelve un DataFrame con los coeficientes de correlación de Pearson de los datos de las columnas numéricas del DataFrame &lt;code&gt;df&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df.describe(include = tipo)&lt;/code&gt; : Devuelve un DataFrame con un resumen estadístico de las columnas del DataFrame &lt;code&gt;df&lt;/code&gt; del tipo &lt;code&gt;tipo&lt;/code&gt;. Para los datos numéricos (&lt;code&gt;number&lt;/code&gt;) se calcula la media, la desviación típica, el mínimo, el máximo y los cuartiles. Para los datos no numéricos (&lt;code&gt;object&lt;/code&gt;) se calcula el número de valores, el número de valores distintos, la moda y su frecuencia. Si no se indica el tipo solo se consideran las columnas numéricas.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pandas as pd
 &amp;gt;&amp;gt;&amp;gt; df = pd.read_csv(
 &#39;https://raw.githubusercontent.com/asalber/manual-python/master/datos/colesterol.csv&#39;)
-&amp;gt;&amp;gt;&amp;gt; print(df.describe())
+&amp;gt;&amp;gt;&amp;gt;df.edad.count()  # Tamaño muestral
+14
+&amp;gt;&amp;gt;&amp;gt; print(df.edad.mean())  # Media
+38.214285714285715
+&amp;gt;&amp;gt;&amp;gt; print(df.edad.var())  # Varianza
+244.02747252747255
+&amp;gt;&amp;gt;&amp;gt; print(df.edad.std())  # Desviación típica
+15.62137870123737
+&amp;gt;&amp;gt;&amp;gt; df.cov()  # Matriz de covarianzas
+                  edad        peso    altura   colesterol
+edad        244.027473  -69.891026 -0.326593   279.717949
+peso        -69.891026  260.076923  1.764615    -2.424242
+altura       -0.326593    1.764615  0.013229     0.563269
+colesterol  279.717949   -2.424242  0.563269  1587.858974
+&amp;gt;&amp;gt;&amp;gt; df.corr()  # Matriz de correlación
+                edad      peso    altura  colesterol
+edad        1.000000 -0.276185 -0.181774    0.452391
+peso       -0.276185  1.000000  0.918984   -0.003621
+altura     -0.181774  0.918984  1.000000    0.122694
+colesterol  0.452391 -0.003621  0.122694    1.000000
+&amp;gt;&amp;gt;&amp;gt; print(df.describe())  # Resumen descriptivo
             edad        peso     altura  colesterol
 count  14.000000   13.000000  14.000000   13.000000
 mean   38.214286   70.923077   1.768571  220.230769
