@@ -136,9 +136,9 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The following video tutorial shows the installation process (only for RKWard version 0.7.0).&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/SB1oER6HbEs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe src=&#34;https://www.youtube.com/embed/SB1oER6HbEs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -176,9 +176,9 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The following video tutorial shows the installation process (in Spanish).&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/vQa4umDJko8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe src=&#34;https://www.youtube.com/embed/vQa4umDJko8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;/li&gt;
 &lt;/ol&gt;
