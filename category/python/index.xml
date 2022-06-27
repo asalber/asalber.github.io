@@ -5,7 +5,7 @@
     <link>/category/python/</link>
       <atom:link href="/category/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Python</title>
@@ -4540,9 +4540,122 @@ plt.show()
     </item>
     
     <item>
+      <title>Examen de Inteligencia de los Negocios 2022-06-24</title>
+      <link>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-24/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-24/</guid>
+      <description>&lt;p&gt;Grado: Inteligencia de los Negocios&lt;br&gt;
+Fecha: 24 de junio de 2022&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
+&lt;p&gt;Las matemáticas financieras, resumidas en una frase, las podríamos definir como la rama de las matemáticas que estudia los flujos de dinero a través del tiempo. Básicamente se presupone que el dinero tiene menos valor en el futuro que en el presente, ya sea por un tema inflacionario o por la preferencia natural de las personas a priorizar el consumo presente.&lt;/p&gt;
+&lt;p&gt;El valor futuro es el valor alcanzado por un determinado capital al final del período determinado (para el ejemplo usaremos la fórmula del interés compuesto). Para calcularlo se utiliza la siguiente fórmula&lt;/p&gt;
+&lt;p&gt;$$VF = VA\cdot (1 + i)^n$$&lt;/p&gt;
+&lt;p&gt;El valor presente de una inversión es cuando calculamos el valor actual que tendrá una determinada cantidad que recibiremos o pagaremos en un futuro. Para calcularlo se utiliza la siguiente fórmula&lt;/p&gt;
+&lt;p&gt;$$VA = \frac{VF}{(1 + i)^n}$$&lt;/p&gt;
+&lt;p&gt;Donde $VF$ es el valor futuro, $VA$ es el valor actual o inicial de la inversión, $i$ es el tipo de interés y $n$ es número de años de la inversión.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Crear una función que reciba como entrada un capital, un tipo de interés y un número de años, y muestre por pantalla el valor futuro de la inversión cada año del periodo indicado.&lt;/li&gt;
+&lt;li&gt;Crear una función que reciba como entrada un capital, un tipo de interés y un número de años, y muestre por pantalla el valor actual del capital cada año del periodo indicado.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Introduce un capital: 1000
+Introduce un tipo de interés: 10
+Introduce un número de años: 3
+VALOR FUTURO
+Año 0 : 1100.0
+Año 1 : 1210.0000000000002
+Año 2 : 1331.0000000000005
+VALOR ACTUAL
+Año 0 : 909.090909090909
+Año -1 : 826.4462809917354
+Año -2 : 751.3148009015775
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-24/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
+&lt;p&gt;Realizar un programa que simule el juego de las tres en raya. Cada jugador solo debe colocar su ficha una vez por turno y no debe ser sobre una casilla ya ocupada. En caso de que el jugador haga trampa el ganador será el otro. Para ganar se debe conseguir realizar una línea recta (horizontal, vertical o diagonal) con la misma ficha. El tablero es de 3x3 y cualquier casilla podrá estar vacía u ocupada sólo por una ficha X o 0. El programa debe realizar las siguientes operaciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mostrar el tablero por pantalla.&lt;/li&gt;
+&lt;li&gt;Poner una ficha en una cuadricula comprobando que no está ocupada.&lt;/li&gt;
+&lt;li&gt;Comprobar si se produce tres en raya e indicar si es de X o de O, o si hay empate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+Introduce la coordenada X del 1 al 3: 2
+Introduce la coordenada Y del 1 al 3: 2
+Introduce 0 para círculo o X para cruz: X
+[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+[&#39; &#39;, &#39;X&#39;, &#39; &#39;]
+[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+Introduce la coordenada X del 1 al 3: 2
+Introduce la coordenada Y del 1 al 3: 1
+Introduce 0 para círculo o X para cruz: 0
+[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+[&#39;0&#39;, &#39;X&#39;, &#39; &#39;]
+[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+Introduce la coordenada X del 1 al 3: 2
+Introduce la coordenada Y del 1 al 3: 1
+Introduce 0 para círculo o X para cruz: X
+Esa coordenada ya está siendo utilizada, use una libre.
+[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+[&#39;0&#39;, &#39;X&#39;, &#39; &#39;]
+[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+Introduce la coordenada X del 1 al 3: 3
+Introduce la coordenada Y del 1 al 3: 1
+Introduce 0 para círculo o X para cruz: X
+[&#39; &#39;, &#39; &#39;, &#39; &#39;]
+[&#39;0&#39;, &#39;X&#39;, &#39; &#39;]
+[&#39;X&#39;, &#39; &#39;, &#39; &#39;]
+Introduce la coordenada X del 1 al 3: 1
+Introduce la coordenada Y del 1 al 3: 2
+Introduce 0 para círculo o X para cruz: 0
+[&#39; &#39;, &#39;0&#39;, &#39; &#39;]
+[&#39;0&#39;, &#39;X&#39;, &#39; &#39;]
+[&#39;X&#39;, &#39; &#39;, &#39; &#39;]
+Introduce la coordenada X del 1 al 3: 1
+Introduce la coordenada Y del 1 al 3: 3
+Introduce 0 para círculo o X para cruz: X
+[&#39; &#39;, &#39;0&#39;, &#39;X&#39;]
+[&#39;0&#39;, &#39;X&#39;, &#39; &#39;]
+[&#39;X&#39;, &#39; &#39;, &#39; &#39;]
+La partida la ha ganado el jugador con la ficha X.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-24/ejercicio2.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
+&lt;p&gt;El fichero 
+&lt;a href=&#34;https://aprendeconalf.es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-24/bank-loans.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bank-loans.csv&lt;/a&gt; contiene información sobre los préstamos de los clientes de un banco. Utilizando la librería Pandas, se pide: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Crear un DataFrame importando los datos del fichero.&lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla el nombre de las columnas del DataFrame. &lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla las filas del DataFrame múltiplos de 10. &lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla el número de clientes casados con edad entre 30 y 40 años. &lt;/li&gt;
+&lt;li&gt;Añadir al DataFrame una columna nueva con la edad en meses. &lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla las frecuencias de los oficios ordenadas de mayor a menor. &lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla las edades medias según el nivel de estudios. &lt;/li&gt;
+&lt;li&gt;Mostrar por pantalla el porcentaje de préstamos hipotecarios (housing) según el estado civil (marital). &lt;/li&gt;
+&lt;li&gt;Dibujar el diagrama de sectores con los porcentajes de los niveles de estudio y ponerle un título. &lt;/li&gt;
+&lt;li&gt;Dibujar en una misma figura el histograma y el diagrama de cajas de las edades. El histograma debe tener clases de amplitud 10 desde 20 hasta 70 años, y en color rojo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-24/ejercicio3.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
+&lt;p&gt;El fichero 
+&lt;a href=&#34;https://aprendeconalf.es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-24/bank-loans.csv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bank-loans.csv&lt;/a&gt; contiene información sobre los préstamos de los clientes de un banco. Utilizando ficheros (sin usar la librería Pandas), crear una función que tenga como parámetros la url del fichero, el nombre de una columna cualitativa y un booleano para los porcentajes (False por defecto), que devuelva un diccionario con las frecuencias absolutas de las categorías de la columna indicada. Si se pasa True como argumento del parámetro para el porcentaje, la función debe devolver el diccionario de porcentajes de las categorías. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Salida de la llamada a la función con la columna &amp;ldquo;education&amp;rdquo;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;{&#39;basic.4y&#39;: 1299, &#39;high.school&#39;: 2382, &#39;basic.6y&#39;: 761, &#39;basic.9y&#39;: 1820, &#39;professional.course&#39;: 1142, &#39;unknown&#39;: 485, &#39;university.degree&#39;: 2109, &#39;illiterate&#39;: 2}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Salida de la llamada a la función con la columna &amp;ldquo;housing&amp;rdquo; y porcentaje = &lt;code&gt;True&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;{&#39;no&#39;: 51.88, &#39;yes&#39;: 45.24, &#39;unknown&#39;: 2.88}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2022-06-24/ejercicio4.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Examen de Inteligencia de los Negocios 2022-06-04</title>
       <link>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-04/</link>
-      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-04/</guid>
       <description>&lt;p&gt;Grado: Inteligencia de los Negocios&lt;br&gt;
 Fecha: 4 de junio de 2022&lt;/p&gt;
@@ -4618,8 +4731,8 @@ Reintegros: [-800.0, -400.0]
 &lt;p&gt;Realizar un programa que analice dicho pasaje y realice las siguientes operaciones:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Crear un diccionario con la frecuencia de cada carácter sin tener en cuenta el espacio.&lt;/li&gt;
-&lt;li&gt;Muestre por pantalla el caracer que más se repite.&lt;/li&gt;
-&lt;li&gt;Muestre por pantalla las palabras que contienen el caracter más repetido y su frecuencia por palabra.&lt;/li&gt;
+&lt;li&gt;Muestre por pantalla el carácter que más se repite.&lt;/li&gt;
+&lt;li&gt;Muestre por pantalla las palabras que contienen el carácter más repetido y su frecuencia por palabra.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo de ejecución&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Carácter más repetido: i
