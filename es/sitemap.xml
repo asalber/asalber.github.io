@@ -32,6 +32,8 @@
     <loc>/docencia/git/manual/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url><url>
+    <loc>/docencia/julia/manual/</loc>
+  </url><url>
     <loc>/docencia/python/manual/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
   </url><url>
@@ -246,7 +248,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -259,7 +261,7 @@
                 />
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -272,22 +274,22 @@
                 />
   </url><url>
     <loc>/tag/examen/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-24/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/category/inteligencia-de-los-negocios/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/category/programacion/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/category/python/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -300,7 +302,7 @@
                 />
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-04/</loc>
-    <lastmod>2022-06-07T22:46:04+02:00</lastmod>
+    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-03-24/</loc>
     <lastmod>2022-03-30T00:22:10+02:00</lastmod>
@@ -1336,6 +1338,8 @@
                 href="/tag/integral/"
                 />
   </url><url>
+    <loc>/category/julia/</loc>
+  </url><url>
     <loc>/tag/libro/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
@@ -1377,6 +1381,8 @@
   </url><url>
     <loc>/tag/probabilidad/</loc>
     <lastmod>2021-03-09T23:31:34+01:00</lastmod>
+  </url><url>
+    <loc>/docencia/julia/</loc>
   </url><url>
     <loc>/docencia/python/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
