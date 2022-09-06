@@ -33,6 +33,10 @@
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url><url>
     <loc>/docencia/julia/manual/</loc>
+    <lastmod>2022-07-18T16:42:30+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/latex/manual/</loc>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
   </url><url>
     <loc>/docencia/python/manual/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
@@ -248,7 +252,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -261,7 +265,7 @@
                 />
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -283,13 +287,13 @@
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/category/programacion/</loc>
-    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
+    <lastmod>2022-07-18T16:42:30+02:00</lastmod>
   </url><url>
     <loc>/category/python/</loc>
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-06-28T00:50:39+02:00</lastmod>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1175,6 +1179,9 @@
     <loc>/docencia/geogebra/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
+    <loc>/docencia/latex/</loc>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
+  </url><url>
     <loc>/tag/comprension-colecciones/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
@@ -1339,6 +1346,10 @@
                 />
   </url><url>
     <loc>/category/julia/</loc>
+    <lastmod>2022-07-18T16:42:30+02:00</lastmod>
+  </url><url>
+    <loc>/category/latex/</loc>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
   </url><url>
     <loc>/tag/libro/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -1350,10 +1361,13 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/tag/manual/</loc>
-    <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
   </url><url>
     <loc>/docencia/python/manual/title-page/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url><url>
+    <loc>/category/matematicas/</loc>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
   </url><url>
     <loc>/tag/matplotlib/</loc>
     <lastmod>2021-05-12T01:02:47+02:00</lastmod>
@@ -1383,6 +1397,7 @@
     <lastmod>2021-03-09T23:31:34+01:00</lastmod>
   </url><url>
     <loc>/docencia/julia/</loc>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
   </url><url>
     <loc>/docencia/python/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>

@@ -112,8 +112,10 @@
 &lt;/table&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;img src=&#34;../img/injuries_soccer_team_barchart-1.svg&#34; title=&#34;plot of chunk injuries_soccer_team_barchart&#34; alt=&#34;plot of chunk injuries_soccer_team_barchart&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+3. 
+&lt;img src=&#34;../img/injuries_soccer_team_cumulative_barchart-1.svg&#34; title=&#34;plot of chunk injuries_soccer_team_cumulative_barchart&#34; alt=&#34;plot of chunk injuries_soccer_team_cumulative_barchart&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -137,9 +139,61 @@
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Medicines&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;$n_i$&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;$f_i$&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;$N_i$&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;$F_i$&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.200&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;13&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.325&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;10&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.250&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;23&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.575&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;10&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.250&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;33&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.825&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.100&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;37&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.925&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.075&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;40&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1.000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;img src=&#34;../img/medicines_people_over_70_barchart-1.svg&#34; title=&#34;plot of chunk medicines_people_over_70_barchart&#34; alt=&#34;plot of chunk medicines_people_over_70_barchart&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+3. 
+&lt;img src=&#34;../img/medicines_people_over_70_cumulative_relative_barchart-1.svg&#34; title=&#34;plot of chunk medicines_people_over_70_cumulative_relative_barchart&#34; alt=&#34;plot of chunk medicines_people_over_70_cumulative_relative_barchart&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -235,9 +289,61 @@ E Help for almost everything.&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;People&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;$n_i$&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;$f_i$&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;$N_i$&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;$F_i$&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;[5,10]&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.1333&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.1333&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;(10,15]&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;9&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.3000&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;13&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.4333&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;(15,20]&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;9&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.3000&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;22&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.7333&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;(20,25]&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.1333&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;26&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.8667&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;(25,30]&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.1333&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;30&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;img src=&#34;../img/people_treated_emergency_service_histogram-1.svg&#34; title=&#34;plot of chunk people_treated_emergency_service_histogram&#34; alt=&#34;plot of chunk people_treated_emergency_service_histogram&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+3. 
+&lt;img src=&#34;../img/people_treated_emergency_service_cumulative_histogram-1.svg&#34; title=&#34;plot of chunk people_treated_emergency_service_cumulative_histogram&#34; alt=&#34;plot of chunk people_treated_emergency_service_cumulative_histogram&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -272,8 +378,25 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$$
+\begin{array}{|c|c|c|c|c|}
+\hline \mbox{Time} &amp;amp; n_{i} &amp;amp; f_{i} &amp;amp; N_{i} &amp;amp; F_{i}\newline
+\hline
+\left[ 0,5\right) &amp;amp; 2 &amp;amp; 0.1 &amp;amp; 2 &amp;amp; 0.1 \newline
+\hline
+\left[ 5,10\right) &amp;amp; 6 &amp;amp; 0.3 &amp;amp; 8 &amp;amp; 0.4 \newline
+\hline
+\left[ 10,15\right) &amp;amp; 6 &amp;amp; 0.3 &amp;amp; 14 &amp;amp; 0.7 \newline
+\hline
+\left[ 15,20\right) &amp;amp; 6 &amp;amp; 0.3 &amp;amp; 20  &amp;amp; 1\newline
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;img src=&#34;../img/time_medical_dispensary_ogive-1.svg&#34; title=&#34;plot of chunk time_medical_dispensary_ogive&#34; alt=&#34;plot of chunk time_medical_dispensary_ogive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -479,13 +602,12 @@ Males: $\sum x_i=1002.5$ kg/m$^2$ $\sum x_i^2=22781.25$ kg$^2$/m$^4$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Females: $\bar x=24.1667$ min, $s_x=4.6022$ min and $cv_x=0.1904$.&lt;br&gt;
-Males:  $\bar y=22.2778$ min, $s_y=3.1545$ min and $cv_y=0.1416$.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar z=23.2527$.&lt;/p&gt;
-&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;../img/piechart_bmi_gender-1.svg&#34; title=&#34;plot of chunk piechart_bmi_gender&#34; alt=&#34;plot of chunk piechart_bmi_gender&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Females: $\bar x=24.1667$ min, $s_x=4.6022$ min and $cv_x=0.1904$.&lt;br&gt;
+Males:  $\bar y=22.2778$ min, $s_y=3.1545$ min and $cv_y=0.1416$.&lt;/li&gt;
+&lt;li&gt;$\bar z=23.2527$.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -790,6 +912,21 @@ $$&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;$$
+\begin{array}{c|c|c|c|c}
+\hline
+\mbox{dose/days}  &amp;amp; 3 &amp;amp; 5 &amp;amp; 6 &amp;amp; \mbox{Sum}\newline
+\hline
+2 &amp;amp; 0 &amp;amp; 2 &amp;amp; 4 &amp;amp; 6\newline
+\hline
+3 &amp;amp; 2 &amp;amp; 4 &amp;amp; 1 &amp;amp; 7\newline
+\hline
+4 &amp;amp; 5 &amp;amp; 2 &amp;amp; 0 &amp;amp; 7\newline
+\hline
+\mbox{Sum} &amp;amp; 7 &amp;amp; 8 &amp;amp; 5 &amp;amp; 20\newline
+\hline
+\end{array}
+$$&lt;/p&gt;
 &lt;p&gt;Dose: $\bar x=3.05$ mg, $s_x^2=0.6475$ mg$^2$, $s_x=0.8047$ mg.&lt;br/&gt;
 Days: $\bar y=4.55$ days, $s_y^2=1.4475$ days$^2$, $s_y=1.2031$ days.&lt;br/&gt;
 3. $s_{xy}=-0.6775$ mg$\cdot$days.&lt;/p&gt;
@@ -833,6 +970,25 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$$
+\begin{array}{|c||c|c|c||c|}
+\hline
+X\setminus Y &amp;amp; [110,130) &amp;amp; [130,150) &amp;amp; [150,170) &amp;amp; n_x \newline
+\hline\hline
+[170,190)   &amp;amp;    8       &amp;amp;     4     &amp;amp;     0      &amp;amp; 12\newline
+\hline
+[190,210)   &amp;amp;    10     &amp;amp;    12     &amp;amp;     4     &amp;amp;  26 \newline
+\hline
+[210,230)   &amp;amp;     7     &amp;amp;     9      &amp;amp;     8     &amp;amp;  24 \newline
+\hline
+[230,250)   &amp;amp;     1     &amp;amp;     5      &amp;amp;     12    &amp;amp; 18\newline
+\hline\hline
+n_y          &amp;amp;    26   &amp;amp;    30     &amp;amp;    24    &amp;amp; 80\newline
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;$\bar x=212$ mg/dl, $s_x^2=396$ (mg/dl)$^2$.&lt;br/&gt;
@@ -1046,13 +1202,14 @@ $\sum x_i=564$ days, $\sum \log(x_i)=45.8086$ $\log(\mbox{days})$, $\sum y_j=63.
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;Linear model&lt;br/&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;../img/diet_scatterplot-1.svg&#34; title=&#34;plot of chunk diet_scatterplot&#34; alt=&#34;plot of chunk diet_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. Linear model&lt;br/&gt;
 $\bar x=47$ days, $s_x^2=143.8333$ days$^2$.&lt;br/&gt;
 $\bar y=5.3$ kg, $s_y^2=0.885$ kg$^2$.&lt;br/&gt;
 $s_{xy}=9.9417$ days$\cdot$kg.&lt;br/&gt;
 Regression line of weight loss on days of diet: $y=2.0514 + 0.0691x$.&lt;br/&gt;
-$r^2=0.7765$.&lt;br/&gt;&lt;/li&gt;
-&lt;/ol&gt;
+$r^2=0.7765$.&lt;br/&gt;
 &lt;p&gt;Logartihmic model&lt;br/&gt;
 $\overline{\log(x)}=3.8174$ log(days), $s_{\log(x)}^2=0.0659$ log(days)$^2$.&lt;br/&gt;
 $s_{\log(x)y}=0.224$ log(days)$\cdot$kg.&lt;br/&gt;
@@ -1129,13 +1286,14 @@ $\sum x_i=629$, $\sum \log(x_i)=40.4121$, $\sum y_j=92.2$, $\sum \log(y_j)=21.33
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;Linear model&lt;br/&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;../img/obesity_pain_scatterplot-1.svg&#34; title=&#34;plot of chunk obesity_pain_scatterplot&#34; alt=&#34;plot of chunk obesity_pain_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. Linear model&lt;br/&gt;
 $\bar x=62.9$, $s_x^2=588.09$.&lt;br/&gt;
 $\bar y=9.22$, $s_y^2=11.0056$.&lt;br/&gt;
 $s_{xy}=82.0356$.&lt;br/&gt;
 Regression line of pain threshold on obesity: $y=1.3232 + 0.1255x$.&lt;br/&gt;
-$r^2=0.8422$.&lt;/li&gt;
-&lt;/ol&gt;
+$r^2=0.8422$.
 &lt;p&gt;Logartihmic model&lt;br/&gt;
 $\overline{\log(x)}=4.0412$, $s_{\log(x)}^2=0.2366$.&lt;br/&gt;
 $s_{\log(x)y}=1.4973$.&lt;br/&gt;
@@ -1182,19 +1340,17 @@ $\sum x_i=225$ min, $\sum \log(x_i)=24.5289$ log(min), $\sum y_j=725$ ºF, $\sum
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Apply a logarithmic transformation to time $z=\log(x)$.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar z=28.125$ log(min), $s_z^2=0.6577$ log²(min).&lt;br/&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;../img/temperature_time_scatterplot-1.svg&#34; title=&#34;plot of chunk temperature_time_scatterplot&#34; alt=&#34;plot of chunk temperature_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+A logarithmic model.&lt;br/&gt;
+2. Apply a logarithmic transformation to time $z=\log(x)$.  
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;$\bar z=28.125$ log(min), $s_z^2=0.6577$ log²(min).&lt;br/&gt;
 $\bar y=90.625$ ºF, $s_y^2=1080.2344$ ºF².&lt;br/&gt;
 $s_{zy}=26.0969$ log(min)ºF.&lt;br/&gt;
-Logarithmic model of temperature on time: $y=-31.0325 + 39.6781\log(x)$.&lt;br/&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$y(15)=76.4176$ ºF.&lt;br/&gt;
-$r^2=0.9586$, that is close to 1, so the prediction is reliable.&lt;/p&gt;
-&lt;/li&gt;
+Logarithmic model of temperature on time: $y=-31.0325 + 39.6781\log(x)$.&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;$y(15)=76.4176$ ºF.&lt;br/&gt;
+$r^2=0.9586$, that is close to 1, so the prediction is reliable.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -1233,16 +1389,16 @@ $\sum x_i=280$ hours, $\sum y_j=37.81$ 10⁷ disintegrations/s, $\sum \log(y_j)=
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar x=35$ hours, $s_x^2=525$ hours².&lt;br/&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;../img/radioactivity_time_scatterplot-1.svg&#34; title=&#34;plot of chunk radioactivity_time_scatterplot&#34; alt=&#34;plot of chunk radioactivity_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. 
+&lt;img src=&#34;../img/log_radioactivity_time_scatterplot-1.svg&#34; title=&#34;plot of chunk log_radioactivity_time_scatterplot&#34; alt=&#34;plot of chunk log_radioactivity_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;$\bar x=35$ hours, $s_x^2=525$ hours².&lt;br/&gt;
 $\bar z=-0.7421$ log(10⁷ disintegrations/s), $s_z^2=6.6664$ log(10⁷ disintegrations/s)^2.&lt;br/&gt;
 $s_{xz}=-59.1434$ hours⋅log(10⁷ disintegrations/s)&lt;br/&gt;
-Regression line of logarithm of radioactivity on time: $z=3.2008 + -0.1127x$.&lt;br/&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\lambda=0.1127$.&lt;/p&gt;
-&lt;/li&gt;
+Regression line of logarithm of radioactivity on time: $z=3.2008 + -0.1127x$.&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;$\lambda=0.1127$.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -1280,9 +1436,12 @@ Which type of model fits better to the points cloud?&lt;/li&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;The model that best fits the points cloud is linear.&lt;/li&gt;
-&lt;li&gt;Let $X$ be the logarithm of length and $Y$ to the logarithm of period,&lt;/li&gt;
 &lt;/ol&gt;
+&lt;img src=&#34;../img/period_length_scatterplot-1.svg&#34; title=&#34;plot of chunk period_length_scatterplot&#34; alt=&#34;plot of chunk period_length_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+The linear model fits well to the points cloud.  
+&lt;img src=&#34;../img/log_period_length_scatterplot-1.svg&#34; title=&#34;plot of chunk log_period_length_scatterplot&#34; alt=&#34;plot of chunk log_period_length_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. The model that best fits the points cloud is linear.  
+3. Let $X$ be the logarithm of length and $Y$ to the logarithm of period,  
 &lt;p&gt;$\bar x=4.5025$ log(cm), $s_x^2=0.1353$ log(cm)².&lt;br/&gt;
 $\bar y=0.6407$ log(s), $s_y^2=0.0339$ log(s)².&lt;br/&gt;
 $s_{xy}=0.0677$ log(cm)log(s)&lt;br&gt;
@@ -2054,7 +2213,15 @@ d.  $P(1/2\leq X\leq 3/2)$&lt;/li&gt;
 &lt;li&gt;$P(X&amp;lt;1)=0.5$, $P(X&amp;gt;0)=1$, $P(X=1/4)=0$ and $P(1/2\leq X\leq 3/2)=0.875$.&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;p&gt;$$
+F(x)=
+\begin{cases}
+0 &amp;amp; \text{if $x&amp;lt;0$,} \newline
+x^2/2 &amp;amp; \text{if $0\leq x&amp;lt; 1$,} \newline
+x-5 &amp;amp; \text{if $1\leq x&amp;lt;1.5$,} \newline
+1 &amp;amp; \text{if $1.5\leq x$.}
+\end{cases}
+$$
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2076,13 +2243,15 @@ d.  $P(1/2\leq X\leq 3/2)$&lt;/li&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;img/vac-6a-1.svg&#34; title=&#34;plot of chunk vac-6a&#34; alt=&#34;plot of chunk vac-6a&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$P(X&amp;lt;6.25)=0.25$ and $P(X&amp;gt;6.5)=0.5$.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\mu=6.5$.&lt;/p&gt;
-&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;img/vac-6b-1.svg&#34; title=&#34;plot of chunk vac-6b&#34; alt=&#34;plot of chunk vac-6b&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;$P(X&amp;lt;6.25)=0.25$ and $P(X&amp;gt;6.5)=0.5$.&lt;/li&gt;
+&lt;li&gt;$\mu=6.5$.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;

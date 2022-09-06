@@ -670,6 +670,21 @@ $$&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;$$
+\begin{array}{c|c|c|c|c}
+\hline
+\mbox{dose/days}  &amp;amp; 3 &amp;amp; 5 &amp;amp; 6 &amp;amp; \mbox{Sum}\newline
+\hline
+2 &amp;amp; 0 &amp;amp; 2 &amp;amp; 4 &amp;amp; 6\newline
+\hline
+3 &amp;amp; 2 &amp;amp; 4 &amp;amp; 1 &amp;amp; 7\newline
+\hline
+4 &amp;amp; 5 &amp;amp; 2 &amp;amp; 0 &amp;amp; 7\newline
+\hline
+\mbox{Sum} &amp;amp; 7 &amp;amp; 8 &amp;amp; 5 &amp;amp; 20\newline
+\hline
+\end{array}
+$$&lt;/p&gt;
 &lt;p&gt;Dose: $\bar x=3.05$ mg, $s_x^2=0.6475$ mg$^2$, $s_x=0.8047$ mg.&lt;br/&gt;
 Days: $\bar y=4.55$ days, $s_y^2=1.4475$ days$^2$, $s_y=1.2031$ days.&lt;br/&gt;
 3. $s_{xy}=-0.6775$ mg$\cdot$days.&lt;/p&gt;
@@ -713,6 +728,25 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$$
+\begin{array}{|c||c|c|c||c|}
+\hline
+X\setminus Y &amp;amp; [110,130) &amp;amp; [130,150) &amp;amp; [150,170) &amp;amp; n_x \newline
+\hline\hline
+[170,190)   &amp;amp;    8       &amp;amp;     4     &amp;amp;     0      &amp;amp; 12\newline
+\hline
+[190,210)   &amp;amp;    10     &amp;amp;    12     &amp;amp;     4     &amp;amp;  26 \newline
+\hline
+[210,230)   &amp;amp;     7     &amp;amp;     9      &amp;amp;     8     &amp;amp;  24 \newline
+\hline
+[230,250)   &amp;amp;     1     &amp;amp;     5      &amp;amp;     12    &amp;amp; 18\newline
+\hline\hline
+n_y          &amp;amp;    26   &amp;amp;    30     &amp;amp;    24    &amp;amp; 80\newline
+\hline
+\end{array}
+$$&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;$\bar x=212$ mg/dl, $s_x^2=396$ (mg/dl)$^2$.&lt;br/&gt;
@@ -926,13 +960,14 @@ $\sum x_i=564$ days, $\sum \log(x_i)=45.8086$ $\log(\mbox{days})$, $\sum y_j=63.
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;Linear model&lt;br/&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;../img/diet_scatterplot-1.svg&#34; title=&#34;plot of chunk diet_scatterplot&#34; alt=&#34;plot of chunk diet_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. Linear model&lt;br/&gt;
 $\bar x=47$ days, $s_x^2=143.8333$ days$^2$.&lt;br/&gt;
 $\bar y=5.3$ kg, $s_y^2=0.885$ kg$^2$.&lt;br/&gt;
 $s_{xy}=9.9417$ days$\cdot$kg.&lt;br/&gt;
 Regression line of weight loss on days of diet: $y=2.0514 + 0.0691x$.&lt;br/&gt;
-$r^2=0.7765$.&lt;br/&gt;&lt;/li&gt;
-&lt;/ol&gt;
+$r^2=0.7765$.&lt;br/&gt;
 &lt;p&gt;Logartihmic model&lt;br/&gt;
 $\overline{\log(x)}=3.8174$ log(days), $s_{\log(x)}^2=0.0659$ log(days)$^2$.&lt;br/&gt;
 $s_{\log(x)y}=0.224$ log(days)$\cdot$kg.&lt;br/&gt;
@@ -1009,13 +1044,14 @@ $\sum x_i=629$, $\sum \log(x_i)=40.4121$, $\sum y_j=92.2$, $\sum \log(y_j)=21.33
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;Linear model&lt;br/&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;../img/obesity_pain_scatterplot-1.svg&#34; title=&#34;plot of chunk obesity_pain_scatterplot&#34; alt=&#34;plot of chunk obesity_pain_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. Linear model&lt;br/&gt;
 $\bar x=62.9$, $s_x^2=588.09$.&lt;br/&gt;
 $\bar y=9.22$, $s_y^2=11.0056$.&lt;br/&gt;
 $s_{xy}=82.0356$.&lt;br/&gt;
 Regression line of pain threshold on obesity: $y=1.3232 + 0.1255x$.&lt;br/&gt;
-$r^2=0.8422$.&lt;/li&gt;
-&lt;/ol&gt;
+$r^2=0.8422$.
 &lt;p&gt;Logartihmic model&lt;br/&gt;
 $\overline{\log(x)}=4.0412$, $s_{\log(x)}^2=0.2366$.&lt;br/&gt;
 $s_{\log(x)y}=1.4973$.&lt;br/&gt;
@@ -1062,19 +1098,17 @@ $\sum x_i=225$ min, $\sum \log(x_i)=24.5289$ log(min), $\sum y_j=725$ ºF, $\sum
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Apply a logarithmic transformation to time $z=\log(x)$.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar z=28.125$ log(min), $s_z^2=0.6577$ log²(min).&lt;br/&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;../img/temperature_time_scatterplot-1.svg&#34; title=&#34;plot of chunk temperature_time_scatterplot&#34; alt=&#34;plot of chunk temperature_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+A logarithmic model.&lt;br/&gt;
+2. Apply a logarithmic transformation to time $z=\log(x)$.  
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;$\bar z=28.125$ log(min), $s_z^2=0.6577$ log²(min).&lt;br/&gt;
 $\bar y=90.625$ ºF, $s_y^2=1080.2344$ ºF².&lt;br/&gt;
 $s_{zy}=26.0969$ log(min)ºF.&lt;br/&gt;
-Logarithmic model of temperature on time: $y=-31.0325 + 39.6781\log(x)$.&lt;br/&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$y(15)=76.4176$ ºF.&lt;br/&gt;
-$r^2=0.9586$, that is close to 1, so the prediction is reliable.&lt;/p&gt;
-&lt;/li&gt;
+Logarithmic model of temperature on time: $y=-31.0325 + 39.6781\log(x)$.&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;$y(15)=76.4176$ ºF.&lt;br/&gt;
+$r^2=0.9586$, that is close to 1, so the prediction is reliable.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -1113,16 +1147,16 @@ $\sum x_i=280$ hours, $\sum y_j=37.81$ 10⁷ disintegrations/s, $\sum \log(y_j)=
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar x=35$ hours, $s_x^2=525$ hours².&lt;br/&gt;
+&lt;/ol&gt;
+&lt;img src=&#34;../img/radioactivity_time_scatterplot-1.svg&#34; title=&#34;plot of chunk radioactivity_time_scatterplot&#34; alt=&#34;plot of chunk radioactivity_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. 
+&lt;img src=&#34;../img/log_radioactivity_time_scatterplot-1.svg&#34; title=&#34;plot of chunk log_radioactivity_time_scatterplot&#34; alt=&#34;plot of chunk log_radioactivity_time_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;$\bar x=35$ hours, $s_x^2=525$ hours².&lt;br/&gt;
 $\bar z=-0.7421$ log(10⁷ disintegrations/s), $s_z^2=6.6664$ log(10⁷ disintegrations/s)^2.&lt;br/&gt;
 $s_{xz}=-59.1434$ hours⋅log(10⁷ disintegrations/s)&lt;br/&gt;
-Regression line of logarithm of radioactivity on time: $z=3.2008 + -0.1127x$.&lt;br/&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\lambda=0.1127$.&lt;/p&gt;
-&lt;/li&gt;
+Regression line of logarithm of radioactivity on time: $z=3.2008 + -0.1127x$.&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;$\lambda=0.1127$.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -1160,9 +1194,12 @@ Which type of model fits better to the points cloud?&lt;/li&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;The model that best fits the points cloud is linear.&lt;/li&gt;
-&lt;li&gt;Let $X$ be the logarithm of length and $Y$ to the logarithm of period,&lt;/li&gt;
 &lt;/ol&gt;
+&lt;img src=&#34;../img/period_length_scatterplot-1.svg&#34; title=&#34;plot of chunk period_length_scatterplot&#34; alt=&#34;plot of chunk period_length_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+The linear model fits well to the points cloud.  
+&lt;img src=&#34;../img/log_period_length_scatterplot-1.svg&#34; title=&#34;plot of chunk log_period_length_scatterplot&#34; alt=&#34;plot of chunk log_period_length_scatterplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. The model that best fits the points cloud is linear.  
+3. Let $X$ be the logarithm of length and $Y$ to the logarithm of period,  
 &lt;p&gt;$\bar x=4.5025$ log(cm), $s_x^2=0.1353$ log(cm)².&lt;br/&gt;
 $\bar y=0.6407$ log(s), $s_y^2=0.0339$ log(s)².&lt;br/&gt;
 $s_{xy}=0.0677$ log(cm)log(s)&lt;br&gt;

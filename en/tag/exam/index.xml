@@ -4368,8 +4368,7 @@ Date: December 17, 2018&lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;$$\begin{array}{|c|r|r|r|r|}
+&lt;li&gt;$$\begin{array}{|c|r|r|r|r|}
 \hline
 \mbox{Defective drugs} &amp;amp; n_i &amp;amp; f_i &amp;amp; N_i &amp;amp; F_i\newline
 \hline
@@ -4385,20 +4384,16 @@ Date: December 17, 2018&lt;/p&gt;
 9 &amp;amp; 1 &amp;amp; 0.025 &amp;amp; 40 &amp;amp; 1.000\newline
 \hline
 \end{array}
-$$&lt;/p&gt;
-&lt;/li&gt;
+$$&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$cv_x=0.5015$,
+&lt;/ol&gt;
+&lt;img src=&#34;../img/boxplot-1.svg&#34; title=&#34;plot of chunk boxplot&#34; alt=&#34;plot of chunk boxplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;$\bar x=3.975$ drugs, $s_x=1.9936$ drugs and $g_1=0.3184$. Thus the distribution is a little bit right-skewed.&lt;/li&gt;
+&lt;li&gt;$cv_x=0.5015$,
 $\bar y=13.925$ drugs, $s_y=5.9808$ drugs and $cv_y=0.4295$.
-Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/p&gt;
-&lt;/li&gt;
+Thus, the mean of $y$ is more representative than the mean of $x$ since its coef. of variation is smaller.&lt;/li&gt;
+&lt;li&gt;$z_x=-0.4891$ and $z_y=-0.8235$, therefore 9 defective drugs in the $y$ machine is relatively smaller.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -5112,23 +5107,16 @@ Without computers: $\sum x_i=4230$ degrees, $\sum x_i^2=645900$ degrees$^2$, $\s
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
+&lt;/ol&gt;
+&lt;img src=&#34;../img/ogive_head_arc_rotation-1.svg&#34; title=&#34;plot of chunk ogive_head_arc_rotation&#34; alt=&#34;plot of chunk ogive_head_arc_rotation&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;$F(115)=0.1667 \rightarrow 16.67%$ of people working with computers have reduced mobility.&lt;/li&gt;
+&lt;li&gt;With computer: $\bar x=132.3333$ degrees, $s_x^2=312.8889$ degrees², $s_x=17.6887$ degrees and $cv_x=0.1337$
 Without computer:  $\bar x=151.0714$ degrees, $s_x^2=245.2806$ degrees², $s_x=15.6614$ degrees and $cv_x=0.1037$
-The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\bar x=141.3793$.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/p&gt;
-&lt;/li&gt;
+The mean of people working without computer is more representative than the mean of people working with computers since its coefficient of variation is smaller.&lt;/li&gt;
+&lt;li&gt;$\bar x=141.3793$.&lt;/li&gt;
+&lt;li&gt;With computer $g_1=0.6243$ and without computer $g_1=-0.3938$. Therefore, the distribution of people working with computers is more asymmetric.&lt;/li&gt;
+&lt;li&gt;Standard scores: $z(150)=0.9988$ and $z(170)=1.2086$. Therefore, an arc of rotation of 150 degrees in people working with computers is relatively smaller than an arc of rotation of 170 in people working without computers.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -5748,22 +5736,20 @@ People without CDH: $\sum x_i=78090$, $\sum x_i^2=15650100$, $\sum(x_i-\bar x)^3
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
+&lt;/ol&gt;
+&lt;img src=&#34;../img/time_electronic_gadgets_ogive-1.svg&#34; title=&#34;plot of chunk time_electronic_gadgets_ogive&#34; alt=&#34;plot of chunk time_electronic_gadgets_ogive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2.
+&lt;img src=&#34;../img/time_electronic_gadgets_boxplot-1.svg&#34; title=&#34;plot of chunk time_electronic_gadgets_boxplot&#34; alt=&#34;plot of chunk time_electronic_gadgets_boxplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;People with CDH: $\bar x=215.2941$ points, $s=75.4296$ points, $cv=0.3504$.
 People without CDH: $\bar x=169.3926$ points, $s=72.4865$ points, $cv=0.4279$.
-Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;People with CDF: $g_1=-0.2997$.&lt;br&gt;
+Since the coefficient of variation of people with CDF less than the one of people without CDF, there is less relative spread with respect to the mean in de distribution of people with CDF.&lt;/li&gt;
+&lt;li&gt;People with CDF: $g_1=-0.2997$.&lt;br&gt;
 People without CDF: $g_1=-0.0184$.&lt;br&gt;
-Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Person with CDH: $z(200)=-0.2028$.&lt;br&gt;
+Since the coefficient of skewness of people with CDF is further from zero, the distribution is less symmetric.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Person with CDH: $z(200)=-0.2028$.&lt;br&gt;
 Person without CDH: $z(200)=0.4222$&lt;br&gt;
-The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/p&gt;
-&lt;/li&gt;
+The person with CDH has a value less than the mean but relatively closer to the mean than the person without CDH.&lt;/li&gt;
 &lt;/ol&gt;
 
     &lt;/div&gt;
@@ -6266,9 +6252,10 @@ $$&lt;/p&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;$Me=18.89$ min.&lt;/li&gt;
-&lt;li&gt;10% of patients have waited for longer than 38 minutes.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;img src=&#34;../img/ogive_waiting_time_emergency-1.svg&#34; title=&#34;plot of chunk ogive_waiting_time_emergency&#34; alt=&#34;plot of chunk ogive_waiting_time_emergency&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. $Me=18.89$ min. 
+3. 10% of patients have waited for longer than 38 minutes.
 
     &lt;/div&gt;
   &lt;/div&gt;
@@ -6303,12 +6290,13 @@ $\sum b_i=20$, $\sum b_i^2=52$, $\sum (b_i-\bar b)^3=49.5$, $\sum (b_i-\bar b)^4
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;li&gt;$\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$.
-$\bar b=1.25$ pregnancies, $s_b^2=1.6875$ pregnancies², $s_b=1.299$ pregnancies, $cv_b=1.0392$.
-As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$.&lt;/li&gt;
-&lt;li&gt;$g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$.&lt;/li&gt;
-&lt;li&gt;$z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;img src=&#34;../img/fertility_boxplot-1.svg&#34; title=&#34;plot of chunk fertility_boxplot&#34; alt=&#34;plot of chunk fertility_boxplot&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+2. $\bar a=3.1875$ pregnancies, $s_a^2=2.2773$ pregnancies², $s_a=1.5091$ pregnancies, $cv_a=0.4734$. 
+$\bar b=1.25$ pregnancies, $s_b^2=1.6875$ pregnancies², $s_b=1.299$ pregnancies, $cv_b=1.0392$. 
+As the coefficient of variation of $A$ is less than the coefficient of variation of $B$, the mean of population $A$ is more representative than the mean of population $B$. 
+3. $g_{1,a}=-0.211$ and $g_{1,b}=1.4113$, so the distribution of $B$ is more skewed than the distribution of $A$. 
+5. $z_a(5)=1.2011$ and $z_b(3)=1.3472$, so 3 pregnancies is relatively bigger in population $B$ than 5 pregnancies in population $A$.
 
     &lt;/div&gt;
   &lt;/div&gt;
