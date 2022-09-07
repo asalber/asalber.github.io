@@ -692,6 +692,7 @@
     <li><a href="#ejercicio-1">Ejercicio 1</a></li>
     <li><a href="#ejercicio-2">Ejercicio 2</a></li>
     <li><a href="#ejercicio-3">Ejercicio 3</a></li>
+    <li><a href="#ejercicio-4">Ejercicio 4</a></li>
   </ul>
 </nav>
 
@@ -720,7 +721,6 @@
     <div class="card-body">
       <pre><code class="language-latex">% CLASE
 \documentclass[a4paper,12pt]{article}
-
 % PREÁMBULO
 % Paquetes
 \usepackage{fontspec}
@@ -728,31 +728,14 @@
 \setdefaultlanguage{spanish}
 
 % Título, autor y fecha
-\title{Curso de \LaTeX}
-\author{María López \and Juan Sánchez}
-\date{}
+\title{Hola Mundo}
+\author{Alfredo Sánchez Alberca}
+\date{\today}
 
-% CUERPO
 \begin{document}
 \maketitle
-\tableofcontents
 
-\section{Introducción}
-
-LaTeX es un sistema de composición de textos, orientado especialmente a la creación de documentos científicos y técnicos que contengan fórmulas matemáticas.
-
-\subsection{Código abierto}
-
-LaTeX es un programa de \emph{código abierto} por lo que cualquier usuario puede modificar el código y adaptarlo a sus necesidades.
-
-\subsection{Distribuciones}
-
-Existen distribuciones de LaTeX para la mayoría de los sistemas operativos. Las más conocidas son TexLive, MikTex y MacTex.
-
-\section{Paquetes}
-
-Existen multitud de paquetes de macros en LaTeX para realizar diversas tareas desde gráficos hasta composición de partituras. El principal repositorio de paquetes es CRAN( \texttt{https://cran.r-project.org/})
-
+\textbf{¡Hola Mundo!} Hoy empiezo a aprender \LaTeX.
 \end{document}
 </code></pre>
 
@@ -770,7 +753,7 @@ Existen multitud de paquetes de macros en LaTeX para realizar diversas tareas de
   </p>
   <div class="collapse card " id="spoiler-1">
     <div class="card-body">
-      <pre><code class="language-latex">% CLASE
+      <pre><code class="language-TeX">% CLASE
 \documentclass[a4paper,12pt]{article}
 
 % PREÁMBULO
@@ -813,11 +796,11 @@ Existen multitud de paquetes de macros en LaTeX para realizar diversas tareas de
 </div>
 <h2 id="ejercicio-3">Ejercicio 3</h2>
 <p>Escribir el código LaTeX para generar las siguientes fórmulas:</p>
-<ul>
-<li>$$\int\limits_a^b x,dx = \left.\frac{x^2}{2} \right|_a^b$$</li>
-<li>$$\frac{dx}{dy}=x&rsquo;=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$$</li>
-<li>$$\sum_n \frac{1}{n^s}=\prod_p \frac{1}{1-\frac{1}{p^s}}$$</li>
-</ul>
+<p>a. $$\int_a^b x dx = \left.\frac{x^2}{2} \right|_a^b$$</p>
+<p>b. $$\frac{dy}{dx}=y&rsquo;=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$$</p>
+<p>c. $$\sum_n \frac{1}{n^s}=\prod_p \frac{1}{1-\frac{1}{p^s}}$$</p>
+<p>d. $$\nabla f(x,y,z) = \left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}\right)$$</p>
+<p>e. $$\frac{1+\frac{a}{b}}{1+\ln{\frac{\sqrt{b^2}}{1+\frac{1}{a}}}}$$</p>
 <div class="spoiler " >
   <p>
     <a class="btn btn-primary" data-toggle="collapse" href="#spoiler-2" role="button" aria-expanded="false" aria-controls="spoiler-2">
@@ -826,22 +809,44 @@ Existen multitud de paquetes de macros en LaTeX para realizar diversas tareas de
   </p>
   <div class="collapse card " id="spoiler-2">
     <div class="card-body">
-      <ul>
-<li>
-<pre><code class="language-latex"></code></pre>
-</li>
-</ul>
-<p>$$\int\limits_a^b x,dx = \left.\frac{x^2}{2} \right|_a^b$$</p>
-<pre><code>- ```latex
-  $$\frac{dx}{dy}=x'=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$$
-</code></pre>
-<ul>
-<li>
-<pre><code class="language-latex"></code></pre>
-</li>
-</ul>
-<p>\sum_n \frac{1}{n^s}=\prod_p \frac{1}{1-\frac{1}{p^s}}</p>
-<pre><code>
+      <p>a. <code>$$\int_a^b x\,dx = \left.\frac{x^2}{2} \right|_a^b$$</code></p>
+<p>b. <code>$$\frac{dy}{dx}=y'=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$$</code></p>
+<p>c. <code>\sum_n \frac{1}{n^s}=\prod_p \frac{1}{1-\frac{1}{p^s}}</code></p>
+<p>d. <code>$$\nabla f(x,y,z) = \left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}\right)$$</code></p>
+<p>e. <code>$$\frac{1+\frac{a}{b}}{1+\ln{\frac{\sqrt{b^2}}{1+\frac{1}{a}}}}$$</code></p>
+
+    </div>
+  </div>
+</div>
+<h2 id="ejercicio-4">Ejercicio 4</h2>
+<p>Escribir el código LaTeX para generar la siguiente expresión matricial:</p>
+<p>\begin{bmatrix}
+a_{11} &amp; a_{12} &amp; \dots &amp; a_{1m} \newline
+a_{21} &amp; a_{22} &amp; \dots &amp; a_{2m} \newline
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \newline
+a_{n1} &amp; a_{n2} &amp; \dots &amp; a_{nm}
+\end{bmatrix}</p>
+<div class="spoiler " >
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#spoiler-3" role="button" aria-expanded="false" aria-controls="spoiler-3">
+      Solución
+    </a>
+  </p>
+  <div class="collapse card " id="spoiler-3">
+    <div class="card-body">
+      <pre><code class="language-TeX">% PREÁMBULO
+\usepackage{amsmath}
+% CUERPO
+\begin{document}
+$$
+\begin{bmatrix}
+a_{11} &amp; a_{12} &amp; \dots &amp; a_{1m} \newline
+a_{21} &amp; a_{22} &amp; \dots &amp; a_{2m} \newline
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \newline
+a_{n1} &amp; a_{n2} &amp; \dots &amp; a_{nm}
+\end{bmatrix}
+$$
+\end{document}
 </code></pre>
 
     </div>
