@@ -12,6 +12,7 @@
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url><url>
     <loc>/docencia/latex/ejercicios/</loc>
+    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/ejercicios/descriptiva/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -254,7 +255,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
+    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -267,7 +268,7 @@
                 />
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
+    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -295,7 +296,7 @@
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
+    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -309,6 +310,18 @@
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-04/</loc>
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
+  </url><url>
+    <loc>/category/latex/</loc>
+    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
+  </url><url>
+    <loc>/tag/manual/</loc>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
+  </url><url>
+    <loc>/post/manual-latex/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/category/matematicas/</loc>
+    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-03-24/</loc>
     <lastmod>2022-03-30T00:22:10+02:00</lastmod>
@@ -1237,7 +1250,7 @@
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
   </url><url>
     <loc>/tag/ejercicios/</loc>
-    <lastmod>2022-04-28T10:59:31+02:00</lastmod>
+    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -1350,9 +1363,6 @@
     <loc>/category/julia/</loc>
     <lastmod>2022-07-18T16:42:30+02:00</lastmod>
   </url><url>
-    <loc>/category/latex/</loc>
-    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
-  </url><url>
     <loc>/tag/libro/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
@@ -1362,14 +1372,8 @@
     <loc>/tag/limite/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
-    <loc>/tag/manual/</loc>
-    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
-  </url><url>
     <loc>/docencia/python/manual/title-page/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
-  </url><url>
-    <loc>/category/matematicas/</loc>
-    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
   </url><url>
     <loc>/tag/matplotlib/</loc>
     <lastmod>2021-05-12T01:02:47+02:00</lastmod>
