@@ -29,6 +29,8 @@
     <loc>/docencia/python/manual/introduccion-python/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
   </url><url>
+    <loc>/docencia/analisis/manual/</loc>
+  </url><url>
     <loc>/docencia/estadistica/manual/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
   </url><url>
@@ -58,6 +60,8 @@
   </url><url>
     <loc>/docencia/git/manual/creacion-actualizacion-repositorios/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/analisis/ejercicios/</loc>
   </url><url>
     <loc>/docencia/r/ejercicios/</loc>
     <lastmod>2020-09-27T23:10:10+02:00</lastmod>
@@ -1144,8 +1148,12 @@
                 href="/author/alfredo-sanchez-alberca/"
                 />
   </url><url>
+    <loc>/category/analisis/</loc>
+  </url><url>
     <loc>/docencia/r/</loc>
     <lastmod>2020-09-27T23:10:10+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/analisis/</loc>
   </url><url>
     <loc>/tag/apuntes/</loc>
     <lastmod>2021-11-07T22:24:44+01:00</lastmod>

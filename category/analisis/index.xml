@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Análisis | Aprende con Alf</title>
+    <link>/category/analisis/</link>
+      <atom:link href="/category/analisis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Análisis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
+    <image>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <title>Análisis</title>
+      <link>/category/analisis/</link>
+    </image>
+    
+    <item>
+      <title>Ejercicios de Análisis Matemático</title>
+      <link>/docencia/analisis/ejercicios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docencia/analisis/ejercicios/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://aprendeconalf.es/analisis-ejercicios/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary&#34;&gt;
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt;Problemas&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Esta sección contiene una colección de problemas de Análisis Matemático resueltos.
+Aunque bastantes problemas son abstractos, dada la temática, se han incluido también bastantes problemas aplicados a las Ciencias y la Ingeniería.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
