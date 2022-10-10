@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Análisis | Aprende con Alf</title>
-    <link>/category/analisis/</link>
-      <atom:link href="/category/analisis/index.xml" rel="self" type="application/rss+xml" />
-    <description>Análisis</description>
+    <title>Ejercicios de Análisis Matemático | Aprende con Alf</title>
+    <link>/docencia/analisis/ejercicios/</link>
+      <atom:link href="/docencia/analisis/ejercicios/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ejercicios de Análisis Matemático</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
-      <title>Análisis</title>
-      <link>/category/analisis/</link>
+      <title>Ejercicios de Análisis Matemático</title>
+      <link>/docencia/analisis/ejercicios/</link>
     </image>
     
     <item>

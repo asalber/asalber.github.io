@@ -12,7 +12,7 @@
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url><url>
     <loc>/docencia/latex/ejercicios/</loc>
-    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/ejercicios/descriptiva/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -30,6 +30,7 @@
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
   </url><url>
     <loc>/docencia/analisis/manual/</loc>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/manual/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
@@ -45,6 +46,8 @@
   </url><url>
     <loc>/docencia/python/manual/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/analisis/ejercicios/teoria-conjuntos/</loc>
   </url><url>
     <loc>/docencia/python/ejercicios/tipos-datos/</loc>
     <lastmod>2021-03-08T00:09:25+01:00</lastmod>
@@ -119,6 +122,8 @@
   </url><url>
     <loc>/docencia/calculo/manual/limites-continuidad/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/analisis/practicas/</loc>
   </url><url>
     <loc>/docencia/estadistica/manual/probabilidad/</loc>
     <lastmod>2021-03-09T23:31:34+01:00</lastmod>
@@ -259,7 +264,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -272,7 +277,7 @@
                 />
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -300,7 +305,7 @@
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -316,16 +321,16 @@
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/category/latex/</loc>
-    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/tag/manual/</loc>
-    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/post/manual-latex/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/category/matematicas/</loc>
-    <lastmod>2022-09-06T11:12:46+02:00</lastmod>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-03-24/</loc>
     <lastmod>2022-03-30T00:22:10+02:00</lastmod>
@@ -1149,11 +1154,13 @@
                 />
   </url><url>
     <loc>/category/analisis/</loc>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/docencia/r/</loc>
     <lastmod>2020-09-27T23:10:10+02:00</lastmod>
   </url><url>
     <loc>/docencia/analisis/</loc>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/tag/apuntes/</loc>
     <lastmod>2021-11-07T22:24:44+01:00</lastmod>
@@ -1258,7 +1265,7 @@
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
   </url><url>
     <loc>/tag/ejercicios/</loc>
-    <lastmod>2022-09-07T17:18:36+02:00</lastmod>
+    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -1403,6 +1410,8 @@
   </url><url>
     <loc>/tag/plano-normal/</loc>
     <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+  </url><url>
+    <loc>/tag/practicas/</loc>
   </url><url>
     <loc>/tag/primitiva/</loc>
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>

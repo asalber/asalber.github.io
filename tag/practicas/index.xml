@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Análisis Matemático de Variable Real | Aprende con Alf</title>
-    <link>/docencia/analisis/</link>
-      <atom:link href="/docencia/analisis/index.xml" rel="self" type="application/rss+xml" />
-    <description>Análisis Matemático de Variable Real</description>
+    <title>Prácticas | Aprende con Alf</title>
+    <link>/tag/practicas/</link>
+      <atom:link href="/tag/practicas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prácticas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
-      <title>Análisis Matemático de Variable Real</title>
-      <link>/docencia/analisis/</link>
+      <title>Prácticas</title>
+      <link>/tag/practicas/</link>
     </image>
     
   </channel>
