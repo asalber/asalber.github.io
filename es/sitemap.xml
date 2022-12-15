@@ -47,6 +47,8 @@
     <loc>/docencia/python/manual/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
   </url><url>
+    <loc>/docencia/r/manual/</loc>
+  </url><url>
     <loc>/docencia/python/ejercicios/tipos-datos/</loc>
     <lastmod>2021-03-08T00:09:25+01:00</lastmod>
   </url><url>
@@ -63,6 +65,7 @@
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url><url>
     <loc>/docencia/analisis/ejercicios/</loc>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
   </url><url>
     <loc>/docencia/r/ejercicios/</loc>
     <lastmod>2020-09-27T23:10:10+02:00</lastmod>
@@ -122,6 +125,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/docencia/analisis/practicas/</loc>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/manual/probabilidad/</loc>
     <lastmod>2021-03-09T23:31:34+01:00</lastmod>
@@ -139,6 +143,7 @@
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url><url>
     <loc>/docencia/analisis/examenes/</loc>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
   </url><url>
     <loc>/docencia/python/ejercicios/listas-tuplas/</loc>
     <lastmod>2022-03-10T09:19:34+01:00</lastmod>
@@ -264,7 +269,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -277,7 +282,7 @@
                 />
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -305,7 +310,7 @@
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1154,7 +1159,7 @@
                 />
   </url><url>
     <loc>/category/analisis/</loc>
-    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
   </url><url>
     <loc>/docencia/r/</loc>
     <lastmod>2020-09-27T23:10:10+02:00</lastmod>
@@ -1265,7 +1270,7 @@
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
   </url><url>
     <loc>/tag/ejercicios/</loc>
-    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -1274,7 +1279,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/tag/examenes/</loc>
-    <lastmod>2021-02-01T16:10:56+01:00</lastmod>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
   </url><url>
     <loc>/docencia/calculo/examenes/farmacia/</loc>
     <lastmod>2021-02-01T16:10:56+01:00</lastmod>
@@ -1412,6 +1417,7 @@
     <lastmod>2021-09-13T10:59:00+02:00</lastmod>
   </url><url>
     <loc>/tag/practicas/</loc>
+    <lastmod>2022-11-15T14:41:27+01:00</lastmod>
   </url><url>
     <loc>/tag/primitiva/</loc>
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
