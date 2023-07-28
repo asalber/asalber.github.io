@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Aprende con Alf</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Aprende con Alf</title>
@@ -9161,8 +9161,10 @@ $$&lt;/p&gt;
 &lt;h3 id=&#34;conjunto-de-nivel-de-un-campo-escalar&#34;&gt;Conjunto de nivel de un campo escalar&lt;/h3&gt;
 &lt;div class=&#34;alert alert-def&#34;&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;Definición - Conjunto de nivel&lt;/strong&gt;. Dado un campo ecalar $f:\mathbb{R}^n\rightarrow \mathbb{R}$, se llama &lt;em&gt;conjunto de nivel&lt;/em&gt; $c$ de $f$ al conjunto
-$$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$&lt;/p&gt;
+    &lt;strong&gt;Definición - Conjunto de nivel&lt;/strong&gt;. Dado un campo ecalar $f:\mathbb{R}^n\rightarrow \mathbb{R}$, se llama &lt;em&gt;conjunto de nivel&lt;/em&gt; $c$ de $f$ al conjunto
+$$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Si $f(x,y)=x^2+y^2$ y $P=(1,1)$, el conjunto de nivel de $f$ que incluye al punto $P$ es&lt;/p&gt;
 &lt;p&gt;$$C_{f,2} = {(x,y): f(x,y)=f(1,1)=2} = {(x,y): x^2+y^2=2},$$&lt;/p&gt;
 &lt;p&gt;que es la circunferencia del plano real centrada en el origen y de radio $\sqrt{2}$.&lt;/p&gt;
@@ -9173,6 +9175,8 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Función parcial&lt;/strong&gt;. Dado un campo ecalar $f:\mathbb{R}^n\rightarrow \mathbb{R}$, se llama &lt;em&gt;función parcial&lt;/em&gt; $i$-esima de $f$ a cualquier función $f_i:\mathbb{R}\rightarrow \mathbb{R}$ que resulta de fijar todas las variables de $f$ como constantes, excepto la variable $i$, es decir:&lt;/p&gt;
 &lt;p&gt;$$f_i(x)=f(c_1,\ldots,c_{i-1},x,c_{i+1},\ldots,c_{n}),$$&lt;/p&gt;
 &lt;p&gt;con $c_j$ $(j=1,\ldots, n,\ j\neq i)$ constantes.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Si consideramos la función del área de un triángulo&lt;/p&gt;
 &lt;p&gt;$$f(x,y)=\frac{xy}{2},$$&lt;/p&gt;
 &lt;p&gt;y fijamos el valor de la base $x=c$, entonces el área del triángulo ya sólo depende de la altura y $f$ se convierte en una función de una sola variable, que es la función parcial:&lt;/p&gt;
@@ -9202,6 +9206,8 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$&lt;/p&gt;
 &lt;p&gt;$$\lim_{h\rightarrow 0} \frac{f(a_1,\ldots,a_{i-1},a_i+h,a_{i+1},\ldots,a_n)-f(a_1,\ldots,a_{i-1},a_i,a_{i+1},\ldots,a_n)} {h}.$$&lt;/p&gt;
 &lt;p&gt;En tal caso, al valor del límite se le llama &lt;em&gt;derivada parcial&lt;/em&gt; de $f$ en $a$ con respecto a la variable $x_i$, y se denota&lt;/p&gt;
 &lt;p&gt;$$f&amp;rsquo;_{x_i}(a)=\frac{\partial f}{\partial x_i}(a).$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;La definición de derivada para funciones de una variable es un caso particular de esta definición para $n=1$.&lt;/p&gt;
 &lt;h3 id=&#34;cálculo-de-la-derivada-parcial&#34;&gt;Cálculo de la derivada parcial&lt;/h3&gt;
 &lt;p&gt;Al medir la variación de $f$ con respecto a la variación de una sola de sus variables $x_i$ en un punto $a=(a_1,\ldots,a_n)$, el resto de las variables se pueden considerar como constantes y, en tal caso, podemos ver a $f$ como una función parcial $i$-ésima&lt;/p&gt;
@@ -9224,6 +9230,8 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$&lt;/p&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Vector gradiente&lt;/strong&gt;. Dado un campo escalar $f(x_1,\ldots,x_n)$, se llama &lt;em&gt;gradiente&lt;/em&gt; de $f$, y se escribe $\nabla f$, a la función que a cada punto $a=(a_1,\ldots,a_n)$ le asigna el vector cuyas coordenadas cartesianas son las derivadas parciales de $f$ en $a$,&lt;/p&gt;
 &lt;p&gt;$$\nabla f(a)=\left(\frac{\partial f}{\partial x_1}(a),\ldots,\frac{\partial f}{\partial x_n}(a)\right).$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Más adelante se mostrará que vector gradiente en un punto dado tiene la misma magnitud y dirección que la velocidad máxima de variación de la función en ese punto.&lt;/p&gt;
 &lt;p&gt;De este modo, , mientras que $-\nabla f(a)$ indica la dirección de máximo decrecimiento.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Al calentar una superficie la temperatura $t$ (en ºC) en cada punto $(x,y,z)$ (en m) de dicha superficie viene dada por la función:&lt;/p&gt;
@@ -9273,6 +9281,8 @@ $$&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Derivada direccional&lt;/strong&gt;. Dado un campo escalar $f$ de $\mathbb{R}^n$, un punto $P$ y un vector unitario $\mathbf{u}$ en ese espacio, el límite&lt;/p&gt;
 &lt;p&gt;$$f&amp;rsquo;&lt;em&gt;{\mathbf{u}}(P) = \lim&lt;/em&gt;{h\rightarrow 0}\frac{f(P+h\mathbf{u})-f(P)}{h},$$&lt;/p&gt;
 &lt;p&gt;cuando existe, se llama &lt;em&gt;derivada direccional&lt;/em&gt; de $f$ en el punto $P$ en la dirección de $\mathbf{u}$.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Si se considera un vector unitario $\mathbf{u}$, la trayectoria que pasa por $P$, dirigida por $\mathbf{u}$, tiene ecuación&lt;/p&gt;
 &lt;p&gt;$$g(t)=P+t\mathbf{u},\ t\in\mathbb{R},$$ que para $t=0$, pasa por $P=g(0)$ con velocidad $\mathbf{u}=g&amp;rsquo;(0)$.&lt;/p&gt;
 &lt;p&gt;Así, la tasa de variación de $f$ a partir del punto $P$ en la dirección de $\mathbf{u}$ es&lt;/p&gt;
@@ -9357,6 +9367,8 @@ $$&lt;/p&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;Definición - Derivadas parciales de segundo orden&lt;/strong&gt;. Si una función $f(x_1,\ldots,x_n)$ tiene derivada parcial $$f&amp;rsquo;&lt;em&gt;{x_i}(x_1,\ldots,x_n)$$ con respecto a la variable $x_i$ en un conjunto $A$, entonces podemos derivar de nuevo parcialmente $f&amp;rsquo;&lt;/em&gt;{x_i}$ con respecto a la variable $x_j$. Esta segunda derivada, cuando existe, se llama &lt;em&gt;derivada parcial de segundo orden&lt;/em&gt; de $f$ con respecto a las variables $x_i$ y $x_j$, y se nota&lt;/p&gt;
 &lt;p&gt;$$\frac{\partial ^2 f}{\partial x_j \partial x_i}= \frac{\partial}{\partial x_j}\left(\frac{\partial f}{\partial x_i}\right).$$&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;De forma análoga se definen las derivadas de orden superior.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. La función de dos variables $$f(x,y)=x^y$$ tiene cuatro derivadas parciales de segundo orden, que son:&lt;/p&gt;
 &lt;p&gt;$$\begin{aligned}
@@ -9398,6 +9410,8 @@ x^y(\log x)^2.\end{aligned}$$&lt;/p&gt;
 \end{array}
 \right).$$&lt;/p&gt;
 &lt;p&gt;Al determinante de esta matriz se le llama &lt;em&gt;hessiano&lt;/em&gt; de $f$ en $a$, y se nota $Hf(a)=\lvert \nabla^2f(a)\rvert$.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;. Consideremos de nuevo la función de dos variables $f(x,y)=x^y$. Su matriz hessiana es&lt;/p&gt;
 &lt;h1 id=&#34;right&#34;&gt;$$\nabla^2f(x,y)=\left(
 \begin{array}{cc}
@@ -9536,6 +9550,8 @@ $$&lt;/p&gt;
 &lt;p&gt;Del mismo modo se dice que un punto $P$ es un &lt;em&gt;mínimo relativo&lt;/em&gt; de $f$ si existe un valor $\epsilon&amp;gt;0$ tal que&lt;/p&gt;
 &lt;p&gt;$$f(P)\leq f(X)\ \forall X, |\vec{PX}|&amp;lt;\epsilon.$$&lt;/p&gt;
 &lt;p&gt;A los máximos y mínimos de $f$ se les conoce como &lt;em&gt;extremos relativos&lt;/em&gt; de $f$.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;anulación-del-gradiente-en-los-extremos&#34;&gt;Anulación del gradiente en los extremos&lt;/h3&gt;
 &lt;p&gt;Si $P$ es un extremo de un campo escalar $f$ de $\mathbb{R}^n$, entonces $P$ es un punto crítico de $f$, es decir,&lt;/p&gt;
 &lt;p&gt;$$\nabla f(P) = 0.$$&lt;/p&gt;
@@ -9604,22 +9620,6 @@ $$&lt;/p&gt;
 &lt;li&gt;Punto $(-1,-1)$: $Hf(-1,-1)=-4&amp;lt;0 \Rightarrow$ Punto de silla.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img src=&#34;../img/derivadasn/determinacion_extremos.png&#34; width=&#34;600px&#34; alt=&#34;Gráfica de los extremos relativos y los puntos de silla de una función&#34; /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     
@@ -13617,6 +13617,34 @@ plt.show()
 &lt;li&gt;
 &lt;a href=&#34;https://www.edx.org/course/programming-for-everybody-getting-started-with-python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso &amp;ldquo;Python para todos&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cálculo numérico y simbólico con Julia</title>
+      <link>/post/presentacion-julia-seminario-innovacion/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/post/presentacion-julia-seminario-innovacion/</guid>
+      <description>&lt;p&gt;La semana pasada participé en el seminario de innovación docente organizado por el Grupo de Innovación Docente en Modelización Matemática y Simulación Numérica (M2SINUM) de la Universidad de La Coruña.&lt;/p&gt;
+&lt;p&gt;Allí presenté la experiencia docente de la introducción de Julia como lenguaje de computación para las prácticas
+de varias asignaturas (Análisis, Álgebra Lineal y Matemática Discreta) del grado de Ingeniería
+Matemática de la Universidad CEU San Pablo durante este curso 2023-2024. Durante la presentación se mostraron las principales
+razones que han motivado la elección de este lenguaje y se vió cómo utilizar Julia tanto para cálculo simbólico como numérico en distintas áreas de las Matemáticas (representación gráfica de funciones, cálculo de límites, derivadas, integrales, resolución de ecuaciones, ecuaciones diferenciales, Álgebra Lineal, etc.).&lt;/p&gt;
+&lt;p&gt;Podéis acceder a la presentación con el siguiente enlace: 
+&lt;a href=&#34;https://aprendeconalf.es/presentacion-calculo-numerico-simbolico-julia&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cálculo Numérico y Simbólico con Julia&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manual de Julia</title>
+      <link>/post/manual-julia/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/post/manual-julia/</guid>
+      <description>&lt;p&gt;Julia es un lenguaje de programación moderno que se caracteriza por ser tan sencillo de aprender como Python o R, pero que es tan rápido como C, lo que lo convierte en una opción muy interesante para realizar cálculos que tienen un alto coste computacional.&lt;/p&gt;
+&lt;p&gt;Durante el curso 2022-2023 hemos introducido Julia como uno de los lenguajes de programación básicos en el grado de Ingeniería Matemática y por tal motivo he preparado un pequeño manual de introducción a Julia.&lt;/p&gt;
+&lt;p&gt;Podéis acceder a él con el siguiente enlace: 
+&lt;a href=&#34;https://aprendeconalf.es/manual-julia/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Manual de Julia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Espero que os resulte útil.&lt;/p&gt;
 </description>
     </item>
     

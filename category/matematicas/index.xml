@@ -5,12 +5,40 @@
     <link>/category/matematicas/</link>
       <atom:link href="/category/matematicas/index.xml" rel="self" type="application/rss+xml" />
     <description>Matemáticas</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
       <title>Matemáticas</title>
       <link>/category/matematicas/</link>
     </image>
+    
+    <item>
+      <title>Cálculo numérico y simbólico con Julia</title>
+      <link>/post/presentacion-julia-seminario-innovacion/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/post/presentacion-julia-seminario-innovacion/</guid>
+      <description>&lt;p&gt;La semana pasada participé en el seminario de innovación docente organizado por el Grupo de Innovación Docente en Modelización Matemática y Simulación Numérica (M2SINUM) de la Universidad de La Coruña.&lt;/p&gt;
+&lt;p&gt;Allí presenté la experiencia docente de la introducción de Julia como lenguaje de computación para las prácticas
+de varias asignaturas (Análisis, Álgebra Lineal y Matemática Discreta) del grado de Ingeniería
+Matemática de la Universidad CEU San Pablo durante este curso 2023-2024. Durante la presentación se mostraron las principales
+razones que han motivado la elección de este lenguaje y se vió cómo utilizar Julia tanto para cálculo simbólico como numérico en distintas áreas de las Matemáticas (representación gráfica de funciones, cálculo de límites, derivadas, integrales, resolución de ecuaciones, ecuaciones diferenciales, Álgebra Lineal, etc.).&lt;/p&gt;
+&lt;p&gt;Podéis acceder a la presentación con el siguiente enlace: 
+&lt;a href=&#34;https://aprendeconalf.es/presentacion-calculo-numerico-simbolico-julia&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cálculo Numérico y Simbólico con Julia&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manual de Julia</title>
+      <link>/post/manual-julia/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/post/manual-julia/</guid>
+      <description>&lt;p&gt;Julia es un lenguaje de programación moderno que se caracteriza por ser tan sencillo de aprender como Python o R, pero que es tan rápido como C, lo que lo convierte en una opción muy interesante para realizar cálculos que tienen un alto coste computacional.&lt;/p&gt;
+&lt;p&gt;Durante el curso 2022-2023 hemos introducido Julia como uno de los lenguajes de programación básicos en el grado de Ingeniería Matemática y por tal motivo he preparado un pequeño manual de introducción a Julia.&lt;/p&gt;
+&lt;p&gt;Podéis acceder a él con el siguiente enlace: 
+&lt;a href=&#34;https://aprendeconalf.es/manual-julia/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Manual de Julia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Espero que os resulte útil.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Manual de LaTeX</title>

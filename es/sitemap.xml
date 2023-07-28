@@ -272,7 +272,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-01-28T13:39:13+01:00</lastmod>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -284,8 +284,11 @@
                 href="/"
                 />
   </url><url>
+    <loc>/post/presentacion-julia-seminario-innovacion/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-01-28T13:39:13+01:00</lastmod>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -296,6 +299,34 @@
                 hreflang="es"
                 href="/categories/"
                 />
+  </url><url>
+    <loc>/category/estadistica/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/julia/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/category/matematicas/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/"
+                />
+  </url><url>
+    <loc>/tag/tutorial/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/manual-julia/</loc>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/examen/</loc>
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
@@ -312,19 +343,6 @@
     <loc>/category/python/</loc>
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-01-28T13:39:13+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/tags/"
-                />
-  </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-06-04/</loc>
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
@@ -337,9 +355,6 @@
     <loc>/post/manual-latex/</loc>
     <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
-    <loc>/category/matematicas/</loc>
-    <lastmod>2022-09-14T00:11:23+02:00</lastmod>
-  </url><url>
     <loc>/docencia/python/examenes/inteligencia-negocios/examen-python-2022-03-24/</loc>
     <lastmod>2022-03-30T00:22:10+02:00</lastmod>
   </url><url>
@@ -350,12 +365,6 @@
     <lastmod>2021-11-09T20:48:41+01:00</lastmod>
   </url><url>
     <loc>/post/epidemiologia-tiempos-pandemias/</loc>
-    <lastmod>2021-11-09T20:48:41+01:00</lastmod>
-  </url><url>
-    <loc>/category/estadistica/</loc>
-    <lastmod>2022-03-13T11:26:15+01:00</lastmod>
-  </url><url>
-    <loc>/tag/tutorial/</loc>
     <lastmod>2021-11-09T20:48:41+01:00</lastmod>
   </url><url>
     <loc>/proyecto/</loc>

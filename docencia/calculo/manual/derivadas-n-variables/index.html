@@ -720,6 +720,57 @@
       <ul>
         <li><a href="#gráfica-de-una-función-de-dos-variables">Gráfica de una función de dos variables</a></li>
         <li><a href="#conjunto-de-nivel-de-un-campo-escalar">Conjunto de nivel de un campo escalar</a></li>
+        <li><a href="#funciones-parciales">Funciones parciales</a></li>
+      </ul>
+    </li>
+    <li><a href="#noción-de-derivada-parcial">Noción de derivada parcial</a>
+      <ul>
+        <li><a href="#variación-de-una-función-con-respecto-a-una-variable">Variación de una función con respecto a una variable</a></li>
+        <li><a href="#tasa-de-variación-instantánea-de-un-campo-escalar-con-respecto-a-una-variable">Tasa de variación instantánea de un campo escalar con respecto a una variable</a></li>
+        <li><a href="#interpretación-geométrica-de-la-derivada-parcial">Interpretación geométrica de la derivada parcial</a></li>
+        <li><a href="#derivada-parcial">Derivada parcial</a></li>
+        <li><a href="#cálculo-de-la-derivada-parcial">Cálculo de la derivada parcial</a></li>
+      </ul>
+    </li>
+    <li><a href="#vector-gradiente">Vector gradiente</a></li>
+    <li><a href="#composición-de-una-trayectoria-con-un-campo-escalar">Composición de una trayectoria con un campo escalar</a>
+      <ul>
+        <li><a href="#regla-de-la-cadena">Regla de la cadena</a></li>
+      </ul>
+    </li>
+    <li><a href="#derivada-direccional">Derivada direccional</a>
+      <ul>
+        <li><a href="#crecimiento-de-un-campo-escalar-a-partir-del-gradiente">Crecimiento de un campo escalar a partir del gradiente</a></li>
+      </ul>
+    </li>
+    <li><a href="#derivación-implícita">Derivación implícita</a>
+      <ul>
+        <li><a href="#propiedad-del-gradiente">Propiedad del gradiente</a></li>
+        <li><a href="#rectas-normal-y-tangente-a-una-linea-en-el-plano">Rectas normal y tangente a una linea en el plano</a></li>
+        <li><a href="#recta-normal-y-plano-tangente-a-una-superficie">Recta normal y plano tangente a una superficie</a></li>
+      </ul>
+    </li>
+    <li><a href="#derivadas-parciales-de-segundo-orden">Derivadas parciales de segundo orden</a></li>
+    <li><a href="#matriz-hessiana">Matriz hessiana</a></li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#igualdad-de-las-derivadas-cruzadas">Igualdad de las derivadas cruzadas</a></li>
+      </ul>
+    </li>
+    <li><a href="#fórmula-de-taylor">Fórmula de Taylor</a>
+      <ul>
+        <li><a href="#aproximación-lineal-de-un-campo-escalar">Aproximación lineal de un campo escalar</a></li>
+        <li><a href="#aproximación-cuadrática-de-un-campo-escalar">Aproximación cuadrática de un campo escalar</a></li>
+      </ul>
+    </li>
+    <li><a href="#extremos">Extremos</a>
+      <ul>
+        <li><a href="#anulación-del-gradiente-en-los-extremos">Anulación del gradiente en los extremos</a></li>
+        <li><a href="#puntos-de-silla">Puntos de silla</a></li>
+        <li><a href="#determinación-de-los-extremos-de-un-campo-escalar">Determinación de los extremos de un campo escalar</a></li>
       </ul>
     </li>
   </ul>
@@ -981,8 +1032,10 @@ $$</p>
 <h3 id="conjunto-de-nivel-de-un-campo-escalar">Conjunto de nivel de un campo escalar</h3>
 <div class="alert alert-def">
   <div>
-    <p><strong>Definición - Conjunto de nivel</strong>. Dado un campo ecalar $f:\mathbb{R}^n\rightarrow \mathbb{R}$, se llama <em>conjunto de nivel</em> $c$ de $f$ al conjunto
-$$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$</p>
+    <strong>Definición - Conjunto de nivel</strong>. Dado un campo ecalar $f:\mathbb{R}^n\rightarrow \mathbb{R}$, se llama <em>conjunto de nivel</em> $c$ de $f$ al conjunto
+$$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$
+  </div>
+</div>
 <p><strong>Ejemplo</strong>. Si $f(x,y)=x^2+y^2$ y $P=(1,1)$, el conjunto de nivel de $f$ que incluye al punto $P$ es</p>
 <p>$$C_{f,2} = {(x,y): f(x,y)=f(1,1)=2} = {(x,y): x^2+y^2=2},$$</p>
 <p>que es la circunferencia del plano real centrada en el origen y de radio $\sqrt{2}$.</p>
@@ -993,6 +1046,8 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$</p>
     <p><strong>Definición - Función parcial</strong>. Dado un campo ecalar $f:\mathbb{R}^n\rightarrow \mathbb{R}$, se llama <em>función parcial</em> $i$-esima de $f$ a cualquier función $f_i:\mathbb{R}\rightarrow \mathbb{R}$ que resulta de fijar todas las variables de $f$ como constantes, excepto la variable $i$, es decir:</p>
 <p>$$f_i(x)=f(c_1,\ldots,c_{i-1},x,c_{i+1},\ldots,c_{n}),$$</p>
 <p>con $c_j$ $(j=1,\ldots, n,\ j\neq i)$ constantes.</p>
+  </div>
+</div>
 <p><strong>Ejemplo</strong>. Si consideramos la función del área de un triángulo</p>
 <p>$$f(x,y)=\frac{xy}{2},$$</p>
 <p>y fijamos el valor de la base $x=c$, entonces el área del triángulo ya sólo depende de la altura y $f$ se convierte en una función de una sola variable, que es la función parcial:</p>
@@ -1022,6 +1077,8 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$</p>
 <p>$$\lim_{h\rightarrow 0} \frac{f(a_1,\ldots,a_{i-1},a_i+h,a_{i+1},\ldots,a_n)-f(a_1,\ldots,a_{i-1},a_i,a_{i+1},\ldots,a_n)} {h}.$$</p>
 <p>En tal caso, al valor del límite se le llama <em>derivada parcial</em> de $f$ en $a$ con respecto a la variable $x_i$, y se denota</p>
 <p>$$f&rsquo;_{x_i}(a)=\frac{\partial f}{\partial x_i}(a).$$</p>
+  </div>
+</div>
 <p>La definición de derivada para funciones de una variable es un caso particular de esta definición para $n=1$.</p>
 <h3 id="cálculo-de-la-derivada-parcial">Cálculo de la derivada parcial</h3>
 <p>Al medir la variación de $f$ con respecto a la variación de una sola de sus variables $x_i$ en un punto $a=(a_1,\ldots,a_n)$, el resto de las variables se pueden considerar como constantes y, en tal caso, podemos ver a $f$ como una función parcial $i$-ésima</p>
@@ -1044,6 +1101,8 @@ $$C_{f,c}={(x_1,\ldots,x_n): f(x_1,\ldots,x_n)=c}.$$</p>
   <div>
     <p><strong>Definición - Vector gradiente</strong>. Dado un campo escalar $f(x_1,\ldots,x_n)$, se llama <em>gradiente</em> de $f$, y se escribe $\nabla f$, a la función que a cada punto $a=(a_1,\ldots,a_n)$ le asigna el vector cuyas coordenadas cartesianas son las derivadas parciales de $f$ en $a$,</p>
 <p>$$\nabla f(a)=\left(\frac{\partial f}{\partial x_1}(a),\ldots,\frac{\partial f}{\partial x_n}(a)\right).$$</p>
+  </div>
+</div>
 <p>Más adelante se mostrará que vector gradiente en un punto dado tiene la misma magnitud y dirección que la velocidad máxima de variación de la función en ese punto.</p>
 <p>De este modo, , mientras que $-\nabla f(a)$ indica la dirección de máximo decrecimiento.</p>
 <p><strong>Ejemplo</strong>. Al calentar una superficie la temperatura $t$ (en ºC) en cada punto $(x,y,z)$ (en m) de dicha superficie viene dada por la función:</p>
@@ -1093,6 +1152,8 @@ $$</p>
     <p><strong>Definición - Derivada direccional</strong>. Dado un campo escalar $f$ de $\mathbb{R}^n$, un punto $P$ y un vector unitario $\mathbf{u}$ en ese espacio, el límite</p>
 <p>$$f&rsquo;<em>{\mathbf{u}}(P) = \lim</em>{h\rightarrow 0}\frac{f(P+h\mathbf{u})-f(P)}{h},$$</p>
 <p>cuando existe, se llama <em>derivada direccional</em> de $f$ en el punto $P$ en la dirección de $\mathbf{u}$.</p>
+  </div>
+</div>
 <p>Si se considera un vector unitario $\mathbf{u}$, la trayectoria que pasa por $P$, dirigida por $\mathbf{u}$, tiene ecuación</p>
 <p>$$g(t)=P+t\mathbf{u},\ t\in\mathbb{R},$$ que para $t=0$, pasa por $P=g(0)$ con velocidad $\mathbf{u}=g&rsquo;(0)$.</p>
 <p>Así, la tasa de variación de $f$ a partir del punto $P$ en la dirección de $\mathbf{u}$ es</p>
@@ -1177,6 +1238,8 @@ $$</p>
   <div>
     <p><strong>Definición - Derivadas parciales de segundo orden</strong>. Si una función $f(x_1,\ldots,x_n)$ tiene derivada parcial $$f&rsquo;<em>{x_i}(x_1,\ldots,x_n)$$ con respecto a la variable $x_i$ en un conjunto $A$, entonces podemos derivar de nuevo parcialmente $f&rsquo;</em>{x_i}$ con respecto a la variable $x_j$. Esta segunda derivada, cuando existe, se llama <em>derivada parcial de segundo orden</em> de $f$ con respecto a las variables $x_i$ y $x_j$, y se nota</p>
 <p>$$\frac{\partial ^2 f}{\partial x_j \partial x_i}= \frac{\partial}{\partial x_j}\left(\frac{\partial f}{\partial x_i}\right).$$</p>
+  </div>
+</div>
 <p>De forma análoga se definen las derivadas de orden superior.</p>
 <p><strong>Ejemplo</strong>. La función de dos variables $$f(x,y)=x^y$$ tiene cuatro derivadas parciales de segundo orden, que son:</p>
 <p>$$\begin{aligned}
@@ -1218,6 +1281,8 @@ x^y(\log x)^2.\end{aligned}$$</p>
 \end{array}
 \right).$$</p>
 <p>Al determinante de esta matriz se le llama <em>hessiano</em> de $f$ en $a$, y se nota $Hf(a)=\lvert \nabla^2f(a)\rvert$.</p>
+  </div>
+</div>
 <p><strong>Ejemplo</strong>. Consideremos de nuevo la función de dos variables $f(x,y)=x^y$. Su matriz hessiana es</p>
 <h1 id="right">$$\nabla^2f(x,y)=\left(
 \begin{array}{cc}
@@ -1356,6 +1421,8 @@ $$</p>
 <p>Del mismo modo se dice que un punto $P$ es un <em>mínimo relativo</em> de $f$ si existe un valor $\epsilon&gt;0$ tal que</p>
 <p>$$f(P)\leq f(X)\ \forall X, |\vec{PX}|&lt;\epsilon.$$</p>
 <p>A los máximos y mínimos de $f$ se les conoce como <em>extremos relativos</em> de $f$.</p>
+  </div>
+</div>
 <h3 id="anulación-del-gradiente-en-los-extremos">Anulación del gradiente en los extremos</h3>
 <p>Si $P$ es un extremo de un campo escalar $f$ de $\mathbb{R}^n$, entonces $P$ es un punto crítico de $f$, es decir,</p>
 <p>$$\nabla f(P) = 0.$$</p>
@@ -1424,22 +1491,6 @@ $$</p>
 <li>Punto $(-1,-1)$: $Hf(-1,-1)=-4&lt;0 \Rightarrow$ Punto de silla.</li>
 </ul>
 <img src="../img/derivadasn/determinacion_extremos.png" width="600px" alt="Gráfica de los extremos relativos y los puntos de silla de una función" />
-  </div>
-</div>
-  </div>
-</div>
-  </div>
-</div>
-  </div>
-</div>
-  </div>
-</div>
-  </div>
-</div>
-  </div>
-</div>
-  </div>
-</div>
 
           </div>
 
