@@ -6598,7 +6598,7 @@ Teléfonos de Pedro
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Realizar la siguiente gráfica.
-&lt;img src=&#34;../img/diagrama-barras-provincias.png&#34; alt=&#34;&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;../img/diagrama-barras-provincias.png&#34; alt=&#34;&amp;lsquo;Recta de regresión&amp;rsquo;&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-06-05/ejercicio6.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
@@ -6624,7 +6624,7 @@ Fecha: 26 de mayo de 2021&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-pyhton&#34;&gt;x = [1, 2, 3, 4, 5, 6]
 y = [20, 18, 12, 10, 9, 9]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;../img/recta-regresion.png&#34; alt=&#34;&amp;amp;lsquo;Recta de regresión&amp;amp;rsquo;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/recta-regresion.png&#34; alt=&#34;&amp;lsquo;Recta de regresión&amp;rsquo;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Usar las siguientes fórmulas para el cálculo de los estadísticos: $\bar x = \frac{\sum x_i}{n}$, $s^2 = \frac{\sum x_i^2}{n}-\bar{x}^2$, $s_{xy} = \frac{\sum x_iy_j}{n} - \bar{x}\bar{y}$, $b = \frac{s_{xy}}{s_x^2}$ y $a = \bar{y} - b * \bar{x}$.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/asalber/aprendeconalf/blob/master/content/es/docencia/python/examenes/inteligencia-negocios/soluciones/examen-2021-05-26/ejercicio1.ipynb&#34; class=&#34;btn btn-info&#34; target=&#34;_blank&#34;&gt;Solución&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;

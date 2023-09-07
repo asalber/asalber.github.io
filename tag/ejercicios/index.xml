@@ -255,154 +255,16 @@ git show
     </item>
     
     <item>
-      <title>Ejercicios de $\LaTeX$</title>
+      <title>Ejercicios de LaTeX</title>
       <link>/docencia/latex/ejercicios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docencia/latex/ejercicios/</guid>
-      <description>&lt;h2 id=&#34;ejercicio-1&#34;&gt;Ejercicio 1&lt;/h2&gt;
-&lt;p&gt;Escribir el código LaTeX para generar el siguiente 
-&lt;a href=&#34;doc/ejercicio1.pdf&#34;&gt;documento&lt;/a&gt;, pero con la fecha actual.&lt;/p&gt;
-&lt;div class=&#34;spoiler &#34; &gt;
-  &lt;p&gt;
-    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-0&#34;&gt;
-      Solución
-    &lt;/a&gt;
-  &lt;/p&gt;
-  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-0&#34;&gt;
-    &lt;div class=&#34;card-body&#34;&gt;
-      &lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;% CLASE
-\documentclass[a4paper,12pt]{article}
-% PREÁMBULO
-% Paquetes
-\usepackage{fontspec}
-\usepackage{polyglossia}
-\setdefaultlanguage{spanish}
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://aprendeconalf.es/latex-ejercicios/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary&#34;&gt;
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt;Ejercicios&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Esta sección contiene una colección de ejercicios resueltos para practicar la composición textos científico-técnicos con el sistema de composición de textos $\LaTeX$.&lt;/p&gt;
 
-% Título, autor y fecha
-\title{Hola Mundo}
-\author{Alfredo Sánchez Alberca}
-\date{\today}
 
-\begin{document}
-\maketitle
-
-\textbf{¡Hola Mundo!} Hoy empiezo a aprender \LaTeX.
-\end{document}
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;ejercicio-2&#34;&gt;Ejercicio 2&lt;/h2&gt;
-&lt;p&gt;Escribir el código LaTeX para generar el siguiente 
-&lt;a href=&#34;doc/ejercicio2.pdf&#34;&gt;documento&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;spoiler &#34; &gt;
-  &lt;p&gt;
-    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
-      Solución
-    &lt;/a&gt;
-  &lt;/p&gt;
-  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
-    &lt;div class=&#34;card-body&#34;&gt;
-      &lt;pre&gt;&lt;code class=&#34;language-TeX&#34;&gt;% CLASE
-\documentclass[a4paper,12pt]{article}
-
-% PREÁMBULO
-% Paquetes
-\usepackage{fontspec}
-\usepackage{polyglossia}
-\setdefaultlanguage{spanish}
-
-% Título, autor y fecha
-\title{Curso de \LaTeX}
-\author{María López \and Juan Sánchez}
-\date{}
-
-% CUERPO
-\begin{document}
-\maketitle
-\tableofcontents
-
-\section{Introducción}
-
-LaTeX es un sistema de composición de textos, orientado especialmente a la creación de documentos científicos y técnicos que contengan fórmulas matemáticas.
-
-\subsection{Código abierto}
-
-LaTeX es un programa de \emph{código abierto} por lo que cualquier usuario puede modificar el código y adaptarlo a sus necesidades.
-
-\subsection{Distribuciones}
-
-Existen distribuciones de LaTeX para la mayoría de los sistemas operativos. Las más conocidas son TexLive, MikTex y MacTex.
-
-\section{Paquetes}
-
-Existen multitud de paquetes de macros en LaTeX para realizar diversas tareas desde gráficos hasta composición de partituras. El principal repositorio de paquetes es CRAN( \texttt{https://cran.r-project.org/})
-
-\end{document}
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;ejercicio-3&#34;&gt;Ejercicio 3&lt;/h2&gt;
-&lt;p&gt;Escribir el código LaTeX para generar las siguientes fórmulas:&lt;/p&gt;
-&lt;p&gt;a. $$\int_a^b x dx = \left.\frac{x^2}{2} \right|_a^b$$&lt;/p&gt;
-&lt;p&gt;b. $$\frac{dy}{dx}=y&amp;rsquo;=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$$&lt;/p&gt;
-&lt;p&gt;c. $$\sum_n \frac{1}{n^s}=\prod_p \frac{1}{1-\frac{1}{p^s}}$$&lt;/p&gt;
-&lt;p&gt;d. $$\nabla f(x,y,z) = \left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}\right)$$&lt;/p&gt;
-&lt;p&gt;e. $$\frac{1+\frac{a}{b}}{1+\ln{\frac{\sqrt{b^2}}{1+\frac{1}{a}}}}$$&lt;/p&gt;
-&lt;div class=&#34;spoiler &#34; &gt;
-  &lt;p&gt;
-    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-2&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-2&#34;&gt;
-      Solución
-    &lt;/a&gt;
-  &lt;/p&gt;
-  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-2&#34;&gt;
-    &lt;div class=&#34;card-body&#34;&gt;
-      &lt;p&gt;a. &lt;code&gt;$$\int_a^b x\,dx = \left.\frac{x^2}{2} \right|_a^b$$&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;b. &lt;code&gt;$$\frac{dy}{dx}=y&#39;=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$$&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;c. &lt;code&gt;\sum_n \frac{1}{n^s}=\prod_p \frac{1}{1-\frac{1}{p^s}}&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;d. &lt;code&gt;$$\nabla f(x,y,z) = \left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}\right)$$&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;e. &lt;code&gt;$$\frac{1+\frac{a}{b}}{1+\ln{\frac{\sqrt{b^2}}{1+\frac{1}{a}}}}$$&lt;/code&gt;&lt;/p&gt;
-
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;ejercicio-4&#34;&gt;Ejercicio 4&lt;/h2&gt;
-&lt;p&gt;Escribir el código LaTeX para generar la siguiente expresión matricial:&lt;/p&gt;
-&lt;p&gt;\begin{bmatrix}
-a_{11} &amp;amp; a_{12} &amp;amp; \dots &amp;amp; a_{1m} \newline
-a_{21} &amp;amp; a_{22} &amp;amp; \dots &amp;amp; a_{2m} \newline
-\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \newline
-a_{n1} &amp;amp; a_{n2} &amp;amp; \dots &amp;amp; a_{nm}
-\end{bmatrix}&lt;/p&gt;
-&lt;div class=&#34;spoiler &#34; &gt;
-  &lt;p&gt;
-    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-3&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-3&#34;&gt;
-      Solución
-    &lt;/a&gt;
-  &lt;/p&gt;
-  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
-    &lt;div class=&#34;card-body&#34;&gt;
-      &lt;pre&gt;&lt;code class=&#34;language-TeX&#34;&gt;% PREÁMBULO
-\usepackage{amsmath}
-% CUERPO
-\begin{document}
-$$
-\begin{bmatrix}
-a_{11} &amp;amp; a_{12} &amp;amp; \dots &amp;amp; a_{1m} \newline
-a_{21} &amp;amp; a_{22} &amp;amp; \dots &amp;amp; a_{2m} \newline
-\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \newline
-a_{n1} &amp;amp; a_{n2} &amp;amp; \dots &amp;amp; a_{nm}
-\end{bmatrix}
-$$
-\end{document}
-&lt;/code&gt;&lt;/pre&gt;
-
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     

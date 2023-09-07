@@ -99,6 +99,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/practicas/</loc>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/manual/relaciones-cualitativas/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -200,7 +201,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/docencia/calculo/manual/derivadas-n-variables/</loc>
-    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/manual/contrastes/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -272,61 +273,61 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/"
                 />
   </url><url>
     <loc>/post/presentacion-julia-seminario-innovacion/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/categories/"
                 />
   </url><url>
     <loc>/category/estadistica/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tag/julia/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/category/matematicas/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/tags/"
                 />
   </url><url>
     <loc>/tag/tutorial/</loc>
-    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/post/manual-julia/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tag/examen/</loc>
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
@@ -374,12 +375,12 @@
     <lastmod>2023-01-28T13:39:13+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/category/r/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/category/r/"
                 />
   </url><url>
@@ -393,12 +394,12 @@
     <lastmod>2021-10-18T12:09:58+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/tag/shiny/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/tag/shiny/"
                 />
   </url><url>
@@ -406,12 +407,12 @@
     <lastmod>2021-12-27T19:51:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/tag/software/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/tag/software/"
                 />
   </url><url>
@@ -455,12 +456,12 @@
     <lastmod>2021-12-27T19:51:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/tag/rkteaching/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/tag/rkteaching/"
                 />
   </url><url>
@@ -471,12 +472,12 @@
     <lastmod>2021-12-27T19:51:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/tag/rkward/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/tag/rkward/"
                 />
   </url><url>
@@ -490,12 +491,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication-type/2/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication-type/2/"
                 />
   </url><url>
@@ -503,12 +504,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/authors/"
                 />
   </url><url>
@@ -516,12 +517,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/clinical-2020/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/clinical-2020/"
                 />
   </url><url>
@@ -529,12 +530,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/author/parrab-blesa-alfonso-sanchez-alberca-alfredo-garcia-medina-jose-javier/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/author/parrab-blesa-alfonso-sanchez-alberca-alfredo-garcia-medina-jose-javier/"
                 />
   </url><url>
@@ -542,17 +543,17 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication_types/"
                 />
   </url><url>
     <loc>/category/calculo/</loc>
-    <lastmod>2022-01-23T09:28:19+01:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/docencia/calculo/examenes/farmacia/farmacia-2019-12-16/</loc>
     <lastmod>2021-02-01T16:10:56+01:00</lastmod>
@@ -579,12 +580,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication-type/1/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication-type/1/"
                 />
   </url><url>
@@ -592,12 +593,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/author/alfredo-sanchez-alberca-maria-luisa-sanchez-rodriguez-manuel-camacho-sampelayo-jose-miguel-camacho-sampelayo-jose-javier-garcia-medina-alfonso-parra-blesa/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/author/alfredo-sanchez-alberca-maria-luisa-sanchez-rodriguez-manuel-camacho-sampelayo-jose-miguel-camacho-sampelayo-jose-javier-garcia-medina-alfonso-parra-blesa/"
                 />
   </url><url>
@@ -605,12 +606,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/clasificacion-2019/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/clasificacion-2019/"
                 />
   </url><url>
@@ -645,12 +646,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/author/alfonso-parra-blesa-y-alfredo-sanchez-alberca/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/author/alfonso-parra-blesa-y-alfredo-sanchez-alberca/"
                 />
   </url><url>
@@ -658,12 +659,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/author/alfonso-sanchez-alberca-alfredo-sanchez-rodriguez-maria-luisa-garcia-medina-jose-javier-parra-blesa/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/author/alfonso-sanchez-alberca-alfredo-sanchez-rodriguez-maria-luisa-garcia-medina-jose-javier-parra-blesa/"
                 />
   </url><url>
@@ -671,12 +672,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/author/alfredo-sanchez-alberca/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/author/alfredo-sanchez-alberca/"
                 />
   </url><url>
@@ -684,12 +685,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/analisis-2018/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/analisis-2018/"
                 />
   </url><url>
@@ -697,12 +698,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/analisis-2018-2/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/analisis-2018-2/"
                 />
   </url><url>
@@ -710,12 +711,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/clasificacion-2018/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/clasificacion-2018/"
                 />
   </url><url>
@@ -723,12 +724,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/nueva-2018-2/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/nueva-2018-2/"
                 />
   </url><url>
@@ -736,12 +737,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/nueva-2018/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/nueva-2018/"
                 />
   </url><url>
@@ -779,12 +780,12 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/post/rkteaching-version1.3/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/post/rkteaching-version1.3/"
                 />
   </url><url>
@@ -792,12 +793,12 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/category/rkteaching/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/category/rkteaching/"
                 />
   </url><url>
@@ -805,18 +806,18 @@
     <lastmod>2021-09-13T10:59:00+02:00</lastmod>
   </url><url>
     <loc>/category/calculo-en-varias-variables/</loc>
-    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/publication/innovacion-2016-2/</loc>
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/innovacion-2016-2/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/innovacion-2016-2/"
                 />
   </url><url>
@@ -824,12 +825,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/innovacion-2016/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/innovacion-2016/"
                 />
   </url><url>
@@ -846,12 +847,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/bringing-2015/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/bringing-2015/"
                 />
   </url><url>
@@ -889,12 +890,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication-type/5/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication-type/5/"
                 />
   </url><url>
@@ -902,12 +903,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/bioestadistica-2014/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/bioestadistica-2014/"
                 />
   </url><url>
@@ -915,12 +916,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/towards-2014-1/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/towards-2014-1/"
                 />
   </url><url>
@@ -928,12 +929,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/towards-2014/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/towards-2014/"
                 />
   </url><url>
@@ -947,12 +948,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/rkteaching-2013/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/rkteaching-2013/"
                 />
   </url><url>
@@ -960,12 +961,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/rkteaching-2012/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/rkteaching-2012/"
                 />
   </url><url>
@@ -973,12 +974,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/evolution-2007/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/evolution-2007/"
                 />
   </url><url>
@@ -986,12 +987,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/amon-2005/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/amon-2005/"
                 />
   </url><url>
@@ -999,12 +1000,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/framework-2004/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/framework-2004/"
                 />
   </url><url>
@@ -1012,12 +1013,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/herramientas-2004/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/herramientas-2004/"
                 />
   </url><url>
@@ -1025,12 +1026,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/aspectos-2002/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/aspectos-2002/"
                 />
   </url><url>
@@ -1038,12 +1039,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/farmatoxi-2001/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/farmatoxi-2001/"
                 />
   </url><url>
@@ -1051,12 +1052,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/author/g-rimbau-v-sanchez-alberca-a-reverte-m-alguacil-l-f-repetto/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/author/g-rimbau-v-sanchez-alberca-a-reverte-m-alguacil-l-f-repetto/"
                 />
   </url><url>
@@ -1064,12 +1065,12 @@
     <lastmod>2020-09-17T00:41:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/farmatoxi-2000/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/farmatoxi-2000/"
                 />
   </url><url>
@@ -1161,12 +1162,12 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/author/alfredo-sanchez-alberca/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/author/alfredo-sanchez-alberca/"
                 />
   </url><url>
@@ -1186,12 +1187,12 @@
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/tag/area/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/tag/area/"
                 />
   </url><url>
@@ -1205,12 +1206,12 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/post/"
                 />
   </url><url>
@@ -1254,18 +1255,18 @@
     <lastmod>2021-09-13T10:59:00+02:00</lastmod>
   </url><url>
     <loc>/tag/derivada-parcial/</loc>
-    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/category/derive/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/category/derive/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/category/derive/"
                 />
   </url><url>
@@ -1315,12 +1316,12 @@
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/tag/exams/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/tag/exams/"
                 />
   </url><url>
@@ -1328,7 +1329,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/tag/extremos/</loc>
-    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tag/frecuencias/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -1343,12 +1344,12 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/category/geogebra/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/category/geogebra/"
                 />
   </url><url>
@@ -1362,7 +1363,7 @@
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url><url>
     <loc>/tag/gradiente/</loc>
-    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tag/herramientas/</loc>
     <lastmod>2022-02-15T10:51:17+01:00</lastmod>
@@ -1383,12 +1384,12 @@
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/tag/integral/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/tag/integral/"
                 />
   </url><url>
@@ -1411,7 +1412,7 @@
     <lastmod>2021-05-12T01:02:47+02:00</lastmod>
   </url><url>
     <loc>/tag/matriz-hessiana/</loc>
-    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tag/modulos/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -1426,10 +1427,10 @@
     <lastmod>2021-09-13T10:59:00+02:00</lastmod>
   </url><url>
     <loc>/tag/plano-normal/</loc>
-    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tag/practicas/</loc>
-    <lastmod>2023-01-28T13:39:13+01:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tag/primitiva/</loc>
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
@@ -1450,12 +1451,12 @@
     <lastmod>2020-09-16T23:55:32+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/publication/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/publication/"
                 />
   </url><url>
@@ -1463,12 +1464,12 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/en/talk/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-es"
                 href="/talk/"
                 />
   </url><url>
@@ -1476,7 +1477,7 @@
     <lastmod>2021-09-13T10:59:00+02:00</lastmod>
   </url><url>
     <loc>/tag/recta-tangente/</loc>
-    <lastmod>2021-09-13T10:59:00+02:00</lastmod>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tag/regresion/</loc>
     <lastmod>2021-10-07T19:16:52+02:00</lastmod>
