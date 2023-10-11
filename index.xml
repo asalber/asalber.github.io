@@ -15110,7 +15110,7 @@ Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar R&lt;/strong&gt;. R puede descargarse desde la página 
-&lt;a href=&#34;https://cran.r-project.org/bin/macosx/el-capitan/base/R-3.5.3.pkg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/&lt;/a&gt;.
+&lt;a href=&#34;https://cran-archive.r-project.org/bin/macosx/base/R-3.5.3.pkg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/&lt;/a&gt;.
 Se recomienda instalar la versión 3.5.3 para MacOs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
