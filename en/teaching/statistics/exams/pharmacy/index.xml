@@ -1365,7 +1365,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$OR(D)=1.2211$. Thus, the odds of suffering osteoporosis in women is higher than in men but not to much.&lt;/li&gt;
 &lt;li&gt;Since we can compute the prevalence of $D$, both statistics are suitable, but relative risk is easier to interpret.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1521,7 +1520,6 @@ What must be the minimum specificity of the test to diagnose the disease when th
 &lt;li&gt;$P(\overline A \cap \overline B) = 0.16$.&lt;/li&gt;
 &lt;li&gt;The events are dependent because $P(B)=0.72 \neq P(B|A)=0.8$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1843,7 +1841,6 @@ In the sample of persons with breast cancer there was 180 smokers, while in the 
 &lt;li&gt;$RR(C)=4.6364$. That means that the probability of having cancer smoking is $4.6364$ times higher than non-smoking.&lt;/li&gt;
 &lt;li&gt;$OR(C)=15.5455$. As is posibive there is a direct association between smoking and having cancer. The odds of having cancer smoking is more than 15 times greater than non-smoking.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1869,7 +1866,6 @@ It is known that the prevalence of the disease in the population is 15% and the 
 &lt;li&gt;$P(TP) + P(TN) = P(D\cap +) + P(\overline{D}\cap -) = 0.12+0.27 = 0.39$.&lt;/li&gt;
 &lt;li&gt;$P(\overline{D}| -_1\cap -_2)=0.9346$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1918,7 +1914,6 @@ It is also known that there are 120 females and 56 males with a score greater th
 &lt;li&gt;$P(4.5\leq Y\leq 8) = 0.7018$, that is, $105.27$ females.&lt;/li&gt;
 &lt;li&gt;$P_{90}=8.8$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1954,7 +1949,6 @@ On the other hand it is known tha 91% of the population would be infected by som
 &lt;li&gt;$P(\overline B|A)=0.1818$.&lt;/li&gt;
 &lt;li&gt;The events are dependent.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2109,7 +2103,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P_{80}=25.4$.&lt;/li&gt;
 &lt;li&gt;$Q_1=20.1774$, $Q_3=24.7333$, $IQR=4.5559$, $f_1=13.3435$ and $f_2=31.5671$. Thus there are at leats two outliers in the intervals (33-36) and (36-39).&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2320,7 +2313,6 @@ Do the following:&lt;/p&gt;
 &lt;li&gt;$P(X\leq 50)=0.0548$ that correspond to $20.0017$ days.&lt;/li&gt;
 &lt;li&gt;$P_{80}=111.0405$ grains/m³.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2397,7 +2389,6 @@ The medical team in charge of the trial wants for the test to have a positive pr
 &lt;li&gt;$P(-|D)=0.4165\Rightarrow 20.825$ persons.&lt;/li&gt;
 &lt;li&gt;$P(D|+\cap +)=0.9561$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2743,7 +2734,6 @@ A student from the class is picked randomly.&lt;/p&gt;
 &lt;li&gt;$P(\overline E_1\cap \overline E_2)=0.2$.&lt;/li&gt;
 &lt;li&gt;$P(E_1|\overline E_2)=0.375$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

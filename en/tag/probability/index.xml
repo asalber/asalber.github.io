@@ -174,7 +174,6 @@ Putting the first flask in the second laboratory:&lt;br/&gt;&lt;/li&gt;
 &lt;li&gt;$P(SM/\bar SF)=0.2$.&lt;/li&gt;
 &lt;li&gt;The events aren&amp;rsquo;t independent.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -240,7 +239,6 @@ Putting the first flask in the second laboratory:&lt;br/&gt;&lt;/li&gt;
 &lt;li&gt;$P(G1\vert S)=0.5647$, $P(G2\vert S)=0.3176$ and $P(G3\vert S)=0.1176$, so the diagnosis is a SLCL of grade 1.&lt;/li&gt;
 &lt;li&gt;$5647.0588$ will have a grade 1 sprain, $3176.4706$ will have a grade 2 sprain and $1176.4706$ will have a grade 3 sprain.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -304,7 +302,6 @@ $$&lt;/p&gt;
 &lt;li&gt;PPV $P(S\vert +)=0.9619$ and NPV $P(H\vert -)=0.9823$.&lt;/li&gt;
 &lt;li&gt;$P((S\cap +)\cup (H\cap -)) = P(S\cap +) + P(H\cap -) = 0.978$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -327,7 +324,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P(+)=0.121$.&lt;/li&gt;
 &lt;li&gt;$P(A\vert +) = 0.7025$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

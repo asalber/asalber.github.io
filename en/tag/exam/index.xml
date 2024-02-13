@@ -2564,7 +2564,7 @@ Thus, the mean is more representative in the previous year course, since the coe
 4. Previous year course: $z(6)=2.8124$.
 Current course: $z(7)=2.6287$.
 Thus, 7 failed subjects in the current course is relatively less than 6 in the previous year course, since the standard score is
-smaller.
+smaller.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2884,7 +2884,6 @@ B and 22% in lab C. If we select a random test of the hospital,&lt;/p&gt;
 &lt;li&gt;$P(B|\overline R) = 0.298$.&lt;/li&gt;
 &lt;li&gt;$P(A|R) = 0.2671$, $P(B|R) = 0.3422$ and $P(C|R) = 0.3907$, thus, it is more likely that it has been performed in lab $C$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2917,7 +2916,6 @@ face mask.&lt;/li&gt;
 face mask.&lt;/li&gt;
 &lt;li&gt;As we can not compute the prevalence of $D$, the odds ratio is more reliable.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -3220,7 +3218,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$OR(D)=1.2211$. Thus, the odds of suffering osteoporosis in women is higher than in men but not to much.&lt;/li&gt;
 &lt;li&gt;Since we can compute the prevalence of $D$, both statistics are suitable, but relative risk is easier to interpret.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -3376,7 +3373,6 @@ What must be the minimum specificity of the test to diagnose the disease when th
 &lt;li&gt;$P(\overline A \cap \overline B) = 0.16$.&lt;/li&gt;
 &lt;li&gt;The events are dependent because $P(B)=0.72 \neq P(B|A)=0.8$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -4250,7 +4246,7 @@ Linear coef. determination: $r^2=0.8416$
 Logarithmic coef. determination: $r^2=0.9013$
 Therefore, both models fit pretty well, but the logarithmic model fits a little bit better.
 3. Logarithmic regression model: $y=24.2639+50.8848\log(x)$.
-Prediction: $x(12.5)=152.785$ cm.
+Prediction: $x(12.5)=152.785$ cm.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -4485,7 +4481,6 @@ In the sample of persons with breast cancer there was 180 smokers, while in the 
 &lt;li&gt;$RR(C)=4.6364$. That means that the probability of having cancer smoking is $4.6364$ times higher than non-smoking.&lt;/li&gt;
 &lt;li&gt;$OR(C)=15.5455$. As is posibive there is a direct association between smoking and having cancer. The odds of having cancer smoking is more than 15 times greater than non-smoking.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -4511,7 +4506,6 @@ It is known that the prevalence of the disease in the population is 15% and the 
 &lt;li&gt;$P(TP) + P(TN) = P(D\cap +) + P(\overline{D}\cap -) = 0.12+0.27 = 0.39$.&lt;/li&gt;
 &lt;li&gt;$P(\overline{D}| -_1\cap -_2)=0.9346$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -4560,7 +4554,6 @@ It is also known that there are 120 females and 56 males with a score greater th
 &lt;li&gt;$P(4.5\leq Y\leq 8) = 0.7018$, that is, $105.27$ females.&lt;/li&gt;
 &lt;li&gt;$P_{90}=8.8$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -4596,7 +4589,6 @@ On the other hand it is known tha 91% of the population would be infected by som
 &lt;li&gt;$P(\overline B|A)=0.1818$.&lt;/li&gt;
 &lt;li&gt;The events are dependent.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -4751,7 +4743,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P_{80}=25.4$.&lt;/li&gt;
 &lt;li&gt;$Q_1=20.1774$, $Q_3=24.7333$, $IQR=4.5559$, $f_1=13.3435$ and $f_2=31.5671$. Thus there are at leats two outliers in the intervals (33-36) and (36-39).&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -4977,7 +4968,6 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;li&gt;It is more reliable to rule out the disease since the NPV is greater than the PPV.&lt;/li&gt;
 &lt;li&gt;$P(D\cap +)+P(\overline D\cap -) = 0.966$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -5008,7 +4998,6 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;li&gt;$P(46&amp;lt;X&amp;lt;49))=0.1524$.&lt;/li&gt;
 &lt;li&gt;The interval centered at $44$ that contains 80% of the femur lengths of fetus with 25 weeks is $(41.4369,46.5631)$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -5399,7 +5388,6 @@ Do the following:&lt;/p&gt;
 &lt;li&gt;$P(X\leq 50)=0.0548$ that correspond to $20.0017$ days.&lt;/li&gt;
 &lt;li&gt;$P_{80}=111.0405$ grains/m³.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -5476,7 +5464,6 @@ The medical team in charge of the trial wants for the test to have a positive pr
 &lt;li&gt;$P(-|D)=0.4165\Rightarrow 20.825$ persons.&lt;/li&gt;
 &lt;li&gt;$P(D|+\cap +)=0.9561$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -5642,7 +5629,6 @@ $w(12)=10.1$ kg.&lt;/li&gt;
 &lt;li&gt;At 7 months.&lt;/li&gt;
 &lt;li&gt;No, because the function is always increasing.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -5855,7 +5841,6 @@ However, it is known that the first quartile of haematocrit is 38.5% and the thi
 &lt;li&gt;$\mu=45.25$ and $\sigma=10.07$, thus, $X\sim N(45.25, 10.07)$.&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;$P(X&amp;gt;64)=0.0313$, thus, a $3.13$% of healthy males.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -6010,7 +5995,6 @@ If we take a random sample of 100 persons from this population, what is the expe
 &lt;li&gt;$(Q1,Q3)=(53.9531, 62.0469)$.&lt;/li&gt;
 &lt;li&gt;$P(X&amp;lt;53)=0.2023$ and the expected number of persons with mobility limitation in a sample of 100 persons is $20.2328$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -6443,7 +6427,6 @@ A student from the class is picked randomly.&lt;/p&gt;
 &lt;li&gt;$P(\overline E_1\cap \overline E_2)=0.2$.&lt;/li&gt;
 &lt;li&gt;$P(E_1|\overline E_2)=0.375$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -6987,7 +6970,6 @@ Thus, the logarithmic model fits better.&lt;/p&gt;
 &lt;li&gt;$\sigma_p=23.7637$ mg/dl and $\mu_f=30.141$ hours.&lt;/li&gt;
 &lt;li&gt;$62.8244$ students.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -7238,7 +7220,6 @@ Naming $Z$ to the number of persons injured with an incurable injury in an month
 &lt;li&gt;Sensitivity $P(+\vert D) = P(X&amp;gt;4)=0.9938$ and specificity $P(-\vert \bar D)=P(Y&amp;lt;4)=0.9996$&lt;/li&gt;
 &lt;li&gt;PPV $P(D\vert +) = 0.9961$ and NPV $P(\bar D\vert -) = 0.9993$&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -7355,7 +7336,6 @@ Assuming that the LDL cholesterol level follows a normal distribution,&lt;/p&gt;
 &lt;li&gt;$P(\mbox{Low})=P(C&amp;lt;100)=0.5199$, $P(\mbox{Medium})=P(100\leq C\leq 160)=0.4654$ and $P(\mbox{Low})=P(C&amp;gt;160)=0.0146$. Thus, there are 51.99% of persons with low risk,  46.54% of persons with medium risk and  1.46% of persons with high risk.&lt;/li&gt;
 &lt;li&gt;Naming $I$ to the event of havig an infarct, $P(I)=0.0151$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

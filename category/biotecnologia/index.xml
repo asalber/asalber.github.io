@@ -878,7 +878,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$OR(E)=1.2211$. Por tanto, el odds de sufrir en mujeres es mayor que en hombres, pero no mucho.&lt;/li&gt;
 &lt;li&gt;Puesto que es posible calcular la prevalencia de la osteoporosis, ambas medidas pueden calcularse, pero el riesgo relativo es más fácil de interpretar.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1166,7 +1165,6 @@ Se pide:&lt;/p&gt;
 &lt;li&gt;$RR(C)=9$. Esto quiere decir que la probabilidad de tener cancer de pulmón al fumar es 9 veces mayor que sin fumar.&lt;/li&gt;
 &lt;li&gt;$OR(C)=15.5455$. Como es positivo existe una asociación directa entre fumar y tener cáncer de pulmón. El odds de tener cáncer de pulmón si se fuma es más the 15 veces mayor que si no se fuma.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1192,7 +1190,6 @@ Si la sensibilidad del test se ha establecido en un 80%,&lt;/p&gt;
 &lt;li&gt;$P(VP) + P(VN) = P(E\cap +) + P(\overline{E}\cap -) = 0.12+0.27 = 0.39$.&lt;/li&gt;
 &lt;li&gt;$P(\overline{E}| -_1\cap -_2)=0.9346$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1242,7 +1239,6 @@ Se pide:&lt;/p&gt;
 &lt;li&gt;$P(4.5\leq Y\leq 8) = 0.7018$, es decir, $105.27$ chicas.&lt;/li&gt;
 &lt;li&gt;$P_{90}=8.8$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1461,7 +1457,6 @@ Nota: Si no se sabe calcular tomar una desviación típica de 20 granos/m$^3$ pa
 &lt;li&gt;$P(X\leq 50)=0.0548$ que corresponde a $20.0017$ días.&lt;/li&gt;
 &lt;li&gt;$P_{80}=111.0405$ granos/m³.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1537,7 +1532,6 @@ Si se pretende que el test tenga un valor predictivo positivo de $0.7$ y un valo
 &lt;li&gt;$P(-|E)=0.4165\Rightarrow 20.825$ personas.&lt;/li&gt;
 &lt;li&gt;$P(E|+\cap +)=0.9561$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1698,7 +1692,6 @@ $w(12)=10.1$ kg.&lt;/li&gt;
 &lt;li&gt;7 meses.&lt;/li&gt;
 &lt;li&gt;No, porque la función es siempre creciente.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2060,7 +2053,6 @@ Si se elige un alumno al azar, calcular:&lt;/p&gt;
 &lt;li&gt;$P(\overline E_1\cap \overline E_2)=0.2$.&lt;/li&gt;
 &lt;li&gt;$P(E_1|\overline E_2)=0.375$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

@@ -397,7 +397,6 @@ $$&lt;/p&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;img src=&#34;../img/time_medical_dispensary_ogive-1.svg&#34; title=&#34;plot of chunk time_medical_dispensary_ogive&#34; alt=&#34;plot of chunk time_medical_dispensary_ogive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -451,6 +450,7 @@ $$&lt;/p&gt;
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-6&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../img/boxplot_uses_health_insurance-1.svg&#34; title=&#34;plot of chunk boxplot_uses_health_insurance&#34; alt=&#34;plot of chunk boxplot_uses_health_insurance&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1033,7 +1033,7 @@ Regression line of activity on time: $y=106.2 + -11.4x$.&lt;br/&gt;&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Regression line of time on activity: $x=9.2182 + -0.0864y$.&lt;br/&gt;
-$x(80)=2.3091$ years and $x(0)=9.2182$ years.
+$x(80)=2.3091$ years and $x(0)=9.2182$ years.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1071,7 +1071,7 @@ Regression line of injuries on time of stetching: $y=3.35 + -0.08x$.&lt;br/&gt;&
 &lt;/ol&gt;
 &lt;p&gt;Regression line of time of stretching on injuries: $x=38.2609 + -10.4348y$.&lt;br/&gt;
 $x(0)=38.2609$ min.&lt;br/&gt;
-$r^2=0.8348$.
+$r^2=0.8348$.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1215,7 +1215,7 @@ $\overline{\log(x)}=3.8174$ log(days), $s_{\log(x)}^2=0.0659$ log(days)$^2$.&lt;
 $s_{\log(x)y}=0.224$ log(days)$\cdot$kg.&lt;br/&gt;
 Logartihmic model of weight loss on days of diet: $y=-7.6678 + 3.397\log(x)$.&lt;br/&gt;
 $r^2=0.8599$.&lt;br/&gt;
-3. $y(40)=4.8635$ kg and $y(100)=7.9761$ kg. The predictions are reliable because the coefficient of determination is close to 1, but the last one is less reiable as 100 is far from the observed range of values in the sample.
+3. $y(40)=4.8635$ kg and $y(100)=7.9761$ kg. The predictions are reliable because the coefficient of determination is close to 1, but the last one is less reiable as 100 is far from the observed range of values in the sample.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1255,7 +1255,7 @@ $r^2=0.9165$.&lt;br/&gt;&lt;/li&gt;
 $s_{x\log(y)}=1.2291$ hours$\cdot$log(mg/dl).&lt;br/&gt;
 Exponential model of drug concentration on time: $y=e^{2.6275 + 0.3073x}$.&lt;br/&gt;
 $r^2=0.9979$.&lt;br/&gt;
-3. $y(4.8)=60.4853$ mg/dl.
+3. $y(4.8)=60.4853$ mg/dl.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1446,7 +1446,7 @@ The linear model fits well to the points cloud.
 $\bar y=0.6407$ log(s), $s_y^2=0.0339$ log(s)².&lt;br/&gt;
 $s_{xy}=0.0677$ log(cm)log(s)&lt;br&gt;
 Regression line of Y on X: $y=-1.6132 + 0.5006x$.&lt;br/&gt;
-4. $g=994.4579 cm/s².
+4. $g=994.4579 cm/s².&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1659,7 +1659,6 @@ Putting the first flask in the second laboratory:&lt;br/&gt;&lt;/li&gt;
 &lt;li&gt;$P(SM/\bar SF)=0.2$.&lt;/li&gt;
 &lt;li&gt;The events aren&amp;rsquo;t independent.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1725,7 +1724,6 @@ Putting the first flask in the second laboratory:&lt;br/&gt;&lt;/li&gt;
 &lt;li&gt;$P(G1\vert S)=0.5647$, $P(G2\vert S)=0.3176$ and $P(G3\vert S)=0.1176$, so the diagnosis is a SLCL of grade 1.&lt;/li&gt;
 &lt;li&gt;$5647.0588$ will have a grade 1 sprain, $3176.4706$ will have a grade 2 sprain and $1176.4706$ will have a grade 3 sprain.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1789,7 +1787,6 @@ $$&lt;/p&gt;
 &lt;li&gt;PPV $P(S\vert +)=0.9619$ and NPV $P(H\vert -)=0.9823$.&lt;/li&gt;
 &lt;li&gt;$P((S\cap +)\cup (H\cap -)) = P(S\cap +) + P(H\cap -) = 0.978$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1812,7 +1809,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P(+)=0.121$.&lt;/li&gt;
 &lt;li&gt;$P(A\vert +) = 0.7025$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1994,7 +1990,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P(X\leq 1)=0.65$, $P(X\geq 2)=0.35$ and $P(X=1.5)=0$.&lt;/li&gt;
 &lt;li&gt;$\mu=1.2$ rats, $\sigma^2=0.7$ rats$^2$ y $\sigma=0.84$ rats.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2017,7 +2012,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P(X=3) = 0.0415$.&lt;/li&gt;
 &lt;li&gt;$P(X\geq 4)= 0.9527$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2042,7 +2036,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P(X\geq 2)= 0.2639$.&lt;/li&gt;
 &lt;li&gt;$\mu=1$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2221,7 +2214,7 @@ x^2/2 &amp;amp; \text{if $0\leq x&amp;lt; 1$,} \newline
 x-5 &amp;amp; \text{if $1\leq x&amp;lt;1.5$,} \newline
 1 &amp;amp; \text{if $1.5\leq x$.}
 \end{cases}
-$$
+$$&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2460,7 +2453,6 @@ $$
 &lt;li&gt;$\mu_2=12.6673$ months and $s=1.6087$ months.&lt;/li&gt;
 &lt;li&gt;$P(X&amp;lt;9)=0.068$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2483,7 +2475,6 @@ $$
 &lt;li&gt;Sensitivity $P(+\vert D) = P(X&amp;gt;4)=0.9938$ and specificity $P(-\vert \bar D)=P(Y&amp;lt;4)=0.9996$&lt;/li&gt;
 &lt;li&gt;PPV $P(D\vert +) = 0.9961$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

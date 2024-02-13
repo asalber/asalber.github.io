@@ -744,7 +744,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P(X\leq 1)=0.65$, $P(X\geq 2)=0.35$ and $P(X=1.5)=0$.&lt;/li&gt;
 &lt;li&gt;$\mu=1.2$ rats, $\sigma^2=0.7$ rats$^2$ y $\sigma=0.84$ rats.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -767,7 +766,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P(X=3) = 0.0415$.&lt;/li&gt;
 &lt;li&gt;$P(X\geq 4)= 0.9527$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -792,7 +790,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P(X\geq 2)= 0.2639$.&lt;/li&gt;
 &lt;li&gt;$\mu=1$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -971,7 +968,7 @@ x^2/2 &amp;amp; \text{if $0\leq x&amp;lt; 1$,} \newline
 x-5 &amp;amp; \text{if $1\leq x&amp;lt;1.5$,} \newline
 1 &amp;amp; \text{if $1.5\leq x$.}
 \end{cases}
-$$
+$$&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1210,7 +1207,6 @@ $$
 &lt;li&gt;$\mu_2=12.6673$ months and $s=1.6087$ months.&lt;/li&gt;
 &lt;li&gt;$P(X&amp;lt;9)=0.068$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1233,7 +1229,6 @@ $$
 &lt;li&gt;Sensitivity $P(+\vert D) = P(X&amp;gt;4)=0.9938$ and specificity $P(-\vert \bar D)=P(Y&amp;lt;4)=0.9996$&lt;/li&gt;
 &lt;li&gt;PPV $P(D\vert +) = 0.9961$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

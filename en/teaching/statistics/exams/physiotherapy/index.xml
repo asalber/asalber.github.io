@@ -1104,7 +1104,7 @@ Thus, the mean is more representative in the previous year course, since the coe
 4. Previous year course: $z(6)=2.8124$.
 Current course: $z(7)=2.6287$.
 Thus, 7 failed subjects in the current course is relatively less than 6 in the previous year course, since the standard score is
-smaller.
+smaller.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1424,7 +1424,6 @@ B and 22% in lab C. If we select a random test of the hospital,&lt;/p&gt;
 &lt;li&gt;$P(B|\overline R) = 0.298$.&lt;/li&gt;
 &lt;li&gt;$P(A|R) = 0.2671$, $P(B|R) = 0.3422$ and $P(C|R) = 0.3907$, thus, it is more likely that it has been performed in lab $C$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1457,7 +1456,6 @@ face mask.&lt;/li&gt;
 face mask.&lt;/li&gt;
 &lt;li&gt;As we can not compute the prevalence of $D$, the odds ratio is more reliable.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2215,7 +2213,7 @@ Linear coef. determination: $r^2=0.8416$
 Logarithmic coef. determination: $r^2=0.9013$
 Therefore, both models fit pretty well, but the logarithmic model fits a little bit better.
 3. Logarithmic regression model: $y=24.2639+50.8848\log(x)$.
-Prediction: $x(12.5)=152.785$ cm.
+Prediction: $x(12.5)=152.785$ cm.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2372,7 +2370,6 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;li&gt;It is more reliable to rule out the disease since the NPV is greater than the PPV.&lt;/li&gt;
 &lt;li&gt;$P(D\cap +)+P(\overline D\cap -) = 0.966$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2403,7 +2400,6 @@ Prediction: $x(10)=55.2056112360638$ min.&lt;/p&gt;
 &lt;li&gt;$P(46&amp;lt;X&amp;lt;49))=0.1524$.&lt;/li&gt;
 &lt;li&gt;The interval centered at $44$ that contains 80% of the femur lengths of fetus with 25 weeks is $(41.4369,46.5631)$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2733,7 +2729,6 @@ However, it is known that the first quartile of haematocrit is 38.5% and the thi
 &lt;li&gt;$\mu=45.25$ and $\sigma=10.07$, thus, $X\sim N(45.25, 10.07)$.&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;$P(X&amp;gt;64)=0.0313$, thus, a $3.13$% of healthy males.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -2888,7 +2883,6 @@ If we take a random sample of 100 persons from this population, what is the expe
 &lt;li&gt;$(Q1,Q3)=(53.9531, 62.0469)$.&lt;/li&gt;
 &lt;li&gt;$P(X&amp;lt;53)=0.2023$ and the expected number of persons with mobility limitation in a sample of 100 persons is $20.2328$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -3266,7 +3260,6 @@ Thus, the logarithmic model fits better.&lt;/p&gt;
 &lt;li&gt;$\sigma_p=23.7637$ mg/dl and $\mu_f=30.141$ hours.&lt;/li&gt;
 &lt;li&gt;$62.8244$ students.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -3517,7 +3510,6 @@ Naming $Z$ to the number of persons injured with an incurable injury in an month
 &lt;li&gt;Sensitivity $P(+\vert D) = P(X&amp;gt;4)=0.9938$ and specificity $P(-\vert \bar D)=P(Y&amp;lt;4)=0.9996$&lt;/li&gt;
 &lt;li&gt;PPV $P(D\vert +) = 0.9961$ and NPV $P(\bar D\vert -) = 0.9993$&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -3634,7 +3626,6 @@ Assuming that the LDL cholesterol level follows a normal distribution,&lt;/p&gt;
 &lt;li&gt;$P(\mbox{Low})=P(C&amp;lt;100)=0.5199$, $P(\mbox{Medium})=P(100\leq C\leq 160)=0.4654$ and $P(\mbox{Low})=P(C&amp;gt;160)=0.0146$. Thus, there are 51.99% of persons with low risk,  46.54% of persons with medium risk and  1.46% of persons with high risk.&lt;/li&gt;
 &lt;li&gt;Naming $I$ to the event of havig an infarct, $P(I)=0.0151$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

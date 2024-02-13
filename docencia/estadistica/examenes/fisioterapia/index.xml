@@ -216,7 +216,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$VPP=0.4286$ y $VPN=0.9524$. Puesto que $VPP&amp;lt;VPN$ el test es mejor para descartar la enfermedad.&lt;/li&gt;
 &lt;li&gt;$VPP=0.0577$ y $VPN=0.9959$. El valor predictivo positivo decrece mucho mientras el valor predictivo negativo aumenta un poco.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -244,7 +243,6 @@ Entonces $X\sim N(\mu, 8)$.&lt;/p&gt;
 &lt;li&gt;Sea $Y$ el número de individuos con la lesión que requieren más de 80 días para recuperarse en una muestra aleatoria de 12 individuos. Entonces $Y\sim B(12, 0.9)$ y $P(9\leq Y\leq 11)=0.6919$.&lt;/li&gt;
 &lt;li&gt;Sea $Z$ be el número de individuos con la lesión que requieren un tiempo de recuperación por encima del percentil 99 en una muestra aleatoria de 500 individuos. Entonces $Z\sim B(500, 0.01)\approx P(5)$ y $P(Z\leq 4)=0.265$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -373,7 +371,6 @@ Sabiendo que la prevalencia de dicha enfermedad es del 20%, se pide:&lt;/p&gt;
 &lt;li&gt;Es más fiable para descartar la enfermedad ya que el valor predictivo negativo es mayor que el valor predictivo positivo.&lt;/li&gt;
 &lt;li&gt;$P(E\cap +)+P(\overline E\cap -) = 0.966$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -399,7 +396,6 @@ Se pide:&lt;/p&gt;
 &lt;li&gt;$P(46&amp;lt;X&amp;lt;49)=0.1524$.&lt;/li&gt;
 &lt;li&gt;El intervalo centrado en $44$ que contiene 80% de las longitudes del fémur de fetos de 25 semanas es $(41.4369,46.5631)$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

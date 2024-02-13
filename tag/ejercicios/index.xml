@@ -45,6 +45,7 @@
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/creacion-actualizacion-repositorios/ejercicio1.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -76,6 +77,7 @@
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/creacion-actualizacion-repositorios/ejercicio2.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -133,6 +135,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-5&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/creacion-actualizacion-repositorios/ejercicio3.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -162,6 +165,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-7&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/creacion-actualizacion-repositorios/ejercicio4.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -214,6 +218,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-9&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/creacion-actualizacion-repositorios/ejercicio5.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -248,6 +253,7 @@ git show
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-11&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/creacion-actualizacion-repositorios/ejercicio6.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -711,6 +717,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/historial-cambios/ejercicio1.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -759,6 +766,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/historial-cambios/ejercicio2.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -802,6 +810,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-5&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/historial-cambios/ejercicio3.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -849,6 +858,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-7&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/creacion-actualizacion-repositorios/ejercicio4.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -961,6 +971,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/deshacer-cambios/ejercicio1.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1004,6 +1015,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/deshacer-cambios/ejercicio2.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1053,6 +1065,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-5&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/deshacer-cambios/ejercicio3.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1104,6 +1117,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-7&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/deshacer-cambios/ejercicio4.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -1215,6 +1229,7 @@ Nota: Para representar matrices mediante listas usar listas anidadas, representa
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/ramas/ejercicio1.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1258,6 +1273,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/ramas/ejercicio2.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1305,6 +1321,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-5&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/ramas/ejercicio3.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1342,6 +1359,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-7&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/ramas/ejercicio4.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -1424,6 +1442,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-9&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/ramas/ejercicio5.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1584,6 +1603,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/repositorios-remotos/ejercicio1.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1615,6 +1635,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-3&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/repositorios-remotos/ejercicio2.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1657,6 +1678,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-5&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/repositorios-remotos/ejercicio3.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1700,6 +1722,7 @@ Ctrl+D
   &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-7&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       &lt;img src=&#34;../soluciones/repositorios-remotos/ejercicio4.gif&#34; /&gt;
+
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;

@@ -47,7 +47,6 @@ $$&lt;/p&gt;
 &lt;li&gt;PPV $P(S\vert +)=0.9619$ and NPV $P(H\vert -)=0.9823$.&lt;/li&gt;
 &lt;li&gt;$P((S\cap +)\cup (H\cap -)) = P(S\cap +) + P(H\cap -) = 0.978$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -70,7 +69,6 @@ $$&lt;/p&gt;
 &lt;li&gt;$P(+)=0.121$.&lt;/li&gt;
 &lt;li&gt;$P(A\vert +) = 0.7025$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

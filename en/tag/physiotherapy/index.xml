@@ -1104,7 +1104,7 @@ Thus, the mean is more representative in the previous year course, since the coe
 4. Previous year course: $z(6)=2.8124$.
 Current course: $z(7)=2.6287$.
 Thus, 7 failed subjects in the current course is relatively less than 6 in the previous year course, since the standard score is
-smaller.
+smaller.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1431,7 +1431,6 @@ However, it is known that the first quartile of haematocrit is 38.5% and the thi
 &lt;li&gt;$\mu=45.25$ and $\sigma=10.07$, thus, $X\sim N(45.25, 10.07)$.&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;$P(X&amp;gt;64)=0.0313$, thus, a $3.13$% of healthy males.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1586,7 +1585,6 @@ If we take a random sample of 100 persons from this population, what is the expe
 &lt;li&gt;$(Q1,Q3)=(53.9531, 62.0469)$.&lt;/li&gt;
 &lt;li&gt;$P(X&amp;lt;53)=0.2023$ and the expected number of persons with mobility limitation in a sample of 100 persons is $20.2328$.&lt;/li&gt;
 &lt;/ol&gt;
-
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

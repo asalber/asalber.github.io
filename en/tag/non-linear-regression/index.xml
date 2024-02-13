@@ -51,7 +51,7 @@ $\overline{\log(x)}=3.8174$ log(days), $s_{\log(x)}^2=0.0659$ log(days)$^2$.&lt;
 $s_{\log(x)y}=0.224$ log(days)$\cdot$kg.&lt;br/&gt;
 Logartihmic model of weight loss on days of diet: $y=-7.6678 + 3.397\log(x)$.&lt;br/&gt;
 $r^2=0.8599$.&lt;br/&gt;
-3. $y(40)=4.8635$ kg and $y(100)=7.9761$ kg. The predictions are reliable because the coefficient of determination is close to 1, but the last one is less reiable as 100 is far from the observed range of values in the sample.
+3. $y(40)=4.8635$ kg and $y(100)=7.9761$ kg. The predictions are reliable because the coefficient of determination is close to 1, but the last one is less reiable as 100 is far from the observed range of values in the sample.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -91,7 +91,7 @@ $r^2=0.9165$.&lt;br/&gt;&lt;/li&gt;
 $s_{x\log(y)}=1.2291$ hours$\cdot$log(mg/dl).&lt;br/&gt;
 Exponential model of drug concentration on time: $y=e^{2.6275 + 0.3073x}$.&lt;br/&gt;
 $r^2=0.9979$.&lt;br/&gt;
-3. $y(4.8)=60.4853$ mg/dl.
+3. $y(4.8)=60.4853$ mg/dl.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -282,7 +282,7 @@ The linear model fits well to the points cloud.
 $\bar y=0.6407$ log(s), $s_y^2=0.0339$ log(s)².&lt;br/&gt;
 $s_{xy}=0.0677$ log(cm)log(s)&lt;br&gt;
 Regression line of Y on X: $y=-1.6132 + 0.5006x$.&lt;br/&gt;
-4. $g=994.4579 cm/s².
+4. $g=994.4579 cm/s².&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
