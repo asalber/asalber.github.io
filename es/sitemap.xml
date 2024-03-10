@@ -27,7 +27,7 @@
     <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/manual/</loc>
-    <lastmod>2020-09-21T23:54:54+02:00</lastmod>
+    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
   </url><url>
     <loc>/docencia/git/manual/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
@@ -255,7 +255,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-10-11T16:32:05+02:00</lastmod>
+    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -271,7 +271,7 @@
     <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-10-11T16:32:05+02:00</lastmod>
+    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -284,7 +284,7 @@
                 />
   </url><url>
     <loc>/category/estadistica/</loc>
-    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
+    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
   </url><url>
     <loc>/tag/julia/</loc>
     <lastmod>2023-07-28T15:31:28+02:00</lastmod>
@@ -293,7 +293,7 @@
     <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2023-10-11T16:32:05+02:00</lastmod>
+    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -333,7 +333,7 @@
     <lastmod>2023-09-07T17:35:35+02:00</lastmod>
   </url><url>
     <loc>/tag/manual/</loc>
-    <lastmod>2023-01-28T13:39:13+01:00</lastmod>
+    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
   </url><url>
     <loc>/post/manual-latex/</loc>
     <lastmod>2022-09-14T00:11:23+02:00</lastmod>
@@ -411,7 +411,7 @@
     <lastmod>2021-03-25T22:44:54+01:00</lastmod>
   </url><url>
     <loc>/category/bioestadistica/</loc>
-    <lastmod>2021-11-09T08:31:11+01:00</lastmod>
+    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
   </url><url>
     <loc>/category/biotecnologia/</loc>
     <lastmod>2021-02-07T20:58:21+01:00</lastmod>
@@ -1255,6 +1255,8 @@
     <loc>/tag/ejercicios/</loc>
     <lastmod>2023-09-07T17:35:35+02:00</lastmod>
   </url><url>
+    <loc>/docencia/quarto/</loc>
+  </url><url>
     <loc>/docencia/estadistica/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
@@ -1429,6 +1431,8 @@
                 hreflang="es-es"
                 href="/publication/"
                 />
+  </url><url>
+    <loc>/category/quarto/</loc>
   </url><url>
     <loc>/talk/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
