@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ciencia de Datos | Aprende con Alf</title>
+    <link>/category/ciencia-de-datos/</link>
+      <atom:link href="/category/ciencia-de-datos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ciencia de Datos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <title>Ciencia de Datos</title>
+      <link>/category/ciencia-de-datos/</link>
+    </image>
+    
+    <item>
+      <title>Documentos científicos con Quarto</title>
+      <link>/post/quarto-documentos-cientificos/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/post/quarto-documentos-cientificos/</guid>
+      <description>&lt;p&gt;Como cualquier investigador en Ciencia de Datos, Matemáticas o Estadística, tengo que escribir documentos científicos y técnicos (apuntes, libros, presentaciones, artículos para revistas, etc.). En estos documentos es habitual incluir fórmulas matemáticas, gráficos, tablas, algoritmos, código fuente, etc., elementos que luego suelo referenciar en el texto así como referencias bibliográficas. Hasta ahora, para la elaboración de estos documentos solía utilizar 
+&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX&lt;/a&gt;, un sistema de composición de textos científicos y técnicos que permite la elaboración de documentos en formato PDF, HTML y EPUB. Sin embargo, LaTeX tiene una curva de aprendizaje elevada y su sintaxis es compleja. Además resulta complicado integrar código de otros lenguajes de programación en los documentos. Por esta razón, recientemente he comenzado a utilizar Quarto para la elaboración de mis documentos científicos y técnicos.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt; es un sistema de composición de textos científicos y técnicos que permite la elaboración de documentos en formato PDF, HTML y EPUB. Con Quarto se pueden crear artículos, libros, presentaciones e incluso libros enteros de manera mucho más sencilla que LaTeX y permite incluir código de otros lenguajes de programación (Python, Julia, R, etc.) en los documentos, lo que facilita la creación de informes completamente reproducibles. Además, Quarto permite la inclusión de fórmulas matemáticas, gráficos, tablas, algoritmos, listado de código fuente, referencias cruzadas, referencias bibliográficas y, en general, todos elementos que suelen utilizarse en la elaboración de documentos científicos y técnicos.&lt;/p&gt;
+&lt;p&gt;Como resultado de mi aprendizaje y mi experiencia con esta nueva herramienta, he creado un pequeño tutorial para elaborar documentos científicos y técnicos con Quarto. En este tutorial se muestra cómo instalar Quarto, cómo crear un nuevo proyecto, cómo incluir fórmulas matemáticas, gráficos, tablas, algoritmos, listado de código fuente, referencias cruzadas, referencias bibliográficas, etc. Además, se muestra cómo compilar el documento en formato PDF, HTML y EPUB.&lt;/p&gt;
+&lt;p&gt;Podéis acceder aL tutorial con el siguiente enlace: 
+&lt;a href=&#34;https://aprendeconalf.es/quarto-textos-cientificos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creación de documentos científicos con Quarto&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

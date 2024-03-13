@@ -255,7 +255,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
+    <lastmod>2024-03-10T23:19:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -267,11 +267,8 @@
                 href="/"
                 />
   </url><url>
-    <loc>/post/presentacion-julia-seminario-innovacion/</loc>
-    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
+    <lastmod>2024-03-10T23:19:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -283,17 +280,23 @@
                 href="/categories/"
                 />
   </url><url>
-    <loc>/category/estadistica/</loc>
-    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
+    <loc>/category/ciencia-de-datos/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/julia/</loc>
-    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
+    <loc>/post/quarto-documentos-cientificos/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/category/estadistica/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/category/matematicas/</loc>
-    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/quarto/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
+    <lastmod>2024-03-10T23:19:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -306,6 +309,12 @@
                 />
   </url><url>
     <loc>/tag/tutorial/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/presentacion-julia-seminario-innovacion/</loc>
+    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
+  </url><url>
+    <loc>/tag/julia/</loc>
     <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/post/manual-julia/</loc>
@@ -333,7 +342,7 @@
     <lastmod>2023-09-07T17:35:35+02:00</lastmod>
   </url><url>
     <loc>/tag/manual/</loc>
-    <lastmod>2024-02-13T20:10:08+01:00</lastmod>
+    <lastmod>2024-03-10T23:19:14+01:00</lastmod>
   </url><url>
     <loc>/post/manual-latex/</loc>
     <lastmod>2022-09-14T00:11:23+02:00</lastmod>
@@ -1256,6 +1265,7 @@
     <lastmod>2023-09-07T17:35:35+02:00</lastmod>
   </url><url>
     <loc>/docencia/quarto/</loc>
+    <lastmod>2024-03-10T23:19:14+01:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -1433,6 +1443,7 @@
                 />
   </url><url>
     <loc>/category/quarto/</loc>
+    <lastmod>2024-03-10T23:19:14+01:00</lastmod>
   </url><url>
     <loc>/talk/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
