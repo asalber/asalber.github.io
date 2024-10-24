@@ -183,10 +183,18 @@ Escribir un programa que comience leyendo el número de barras vendidas que no s
 &lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
 &lt;h3 id=&#34;instalación-en-windows&#34;&gt;Instalación en Windows&lt;/h3&gt;
 &lt;p&gt;Para usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y rkTeaching.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://drive.google.com/file/d/17eWedHkSI1f0pIjAra94HOwagchr-h7T/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descarga la última versión (R versión 3.6.2, RKWard versión 0.7.1b, rkTeaching versión 1.3.0)&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://ceu365-my.sharepoint.com/:u:/g/personal/asalber_ceu_es/EflPcd8IidtLmL53wvlg9gYBY-t5KZJPGFGo1xnTITZnog?e=jCL0QO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descarga la última versión (R versión 4.3, RKWard versión 0.8, rkTeaching versión 1.3.0)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/17eWedHkSI1f0pIjAra94HOwagchr-h7T/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descarga la versión anterior (R versión 3.6.2, RKWard versión 0.7.1b, rkTeaching versión 1.3.0)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Una vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo.
-Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:, tras esto se creará una carpeta rkward y dentro de ella la carpeta bin donde se encuentra el fichero &lt;code&gt;rkward.exe&lt;/code&gt; que hay que ejecutar para arrancar RKWard.&lt;/p&gt;
+Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección &lt;code&gt;C:\&lt;/code&gt;, tras esto se creará una carpeta &lt;code&gt;RKWard&lt;/code&gt; y dentro de ella la carpeta bin donde se encuentra el fichero &lt;code&gt;rkward.exe&lt;/code&gt; que hay que ejecutar para arrancar RKWard.&lt;/p&gt;
 &lt;p&gt;El siguiente vídeo muestra el proceso de instalación.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -198,26 +206,32 @@ Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar R&lt;/strong&gt;. R puede descargarse desde la página 
-&lt;a href=&#34;https://cran-archive.r-project.org/bin/macosx/base/R-3.5.3.pkg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/&lt;/a&gt;.
-Se recomienda instalar la versión 3.5.3 para MacOs.&lt;/p&gt;
+&lt;a href=&#34;https://cran.r-project.org/bin/macosx/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/&lt;/a&gt;.
+Se recomienda instalar la versión 4.3 para MacOs. Dependiendo el procesador del ordenador debe seleccionarse la versión &lt;code&gt;arm65&lt;/code&gt; para ordenadores con un chip silicon (M1-3) o la versión &lt;code&gt;x86&lt;/code&gt; para ordenadores con chip de Intel.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cran.r-project.org/bin/macosx/big-sur-arm64/base/R-4.3.3-arm64.pkg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R versión 4.3 para MacOs con chip silicon (M1-3)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cran.r-project.org/bin/macosx/big-sur-x86_64/base/R-4.3.3-x86_64.pkg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R versión 4.3 para MacOs con chip de Intel (x86)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar RKWard&lt;/strong&gt;. RKWard puede descargarse desde la página 
-&lt;a href=&#34;http://rkward.sourceforge.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
+&lt;a href=&#34;https://rkward.kde.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rkward.kde.org/&lt;/a&gt;.
 Debe seleccionarse la distribución correspondiente a Mac Os (
-&lt;a href=&#34;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.kde.org/stable/rkward/0.7.0/mac/RKWard-binary-0.7.0b_OSX10.11_KF5-5.42.0_needs_CRAN_R-3.5.0.pkg&lt;/a&gt;) y seguir las instrucciones de instalación que allí se especifican.
-Es importante asegurase de tener una versión de Mac OS X 10.11 o superior, ya que RKWard no funciona con versiones anteriores.&lt;/p&gt;
+&lt;a href=&#34;https://rkward.kde.org/RKWard_on_Mac.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rkward.kde.org/RKWard_on_Mac.html&lt;/a&gt;) y seguir las instrucciones de instalación que allí se especifican.
+Es importante asegurase de tener una versión de Mac OS X 10.15 o superior, ya que RKWard no funciona con versiones anteriores.&lt;/p&gt;
 &lt;p&gt;Si hay algún error en la instalación, consultar las posibles soluciones en (
 &lt;a href=&#34;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting&lt;/a&gt;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar los paquetes de los que depende rkTeaching&lt;/strong&gt;. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;multcomp&amp;quot;, &amp;quot;remotes&amp;quot;))
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;, &amp;quot;ez&amp;quot;, &amp;quot;multcomp&amp;quot;, &amp;quot;psych&amp;quot;, &amp;quot;probs&amp;quot;, &amp;quot;tidyverse&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;kableExtra&amp;quot;, &amp;quot;remotes&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Instalar rkTeaching&lt;/strong&gt;. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R &lt;code&gt;devtools&lt;/code&gt;.
+&lt;p&gt;&lt;strong&gt;Instalar rkTeaching&lt;/strong&gt;. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R &lt;code&gt;remotes&lt;/code&gt;.
 Para ello hay que introducir los siguientes comandos en la consola de R:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;library(remotes)
 install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
@@ -244,7 +258,7 @@ Es necesario que la versión de R sea la 3.0 o superior.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar RKWard&lt;/strong&gt;. RKWard puede descargarse desde la página 
-&lt;a href=&#34;http://rkward.sourceforge.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://rkward.sourceforge.net&lt;/a&gt;.
+&lt;a href=&#34;https://rkward.kde.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rkward.kde.org/&lt;/a&gt;.
 Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.&lt;/p&gt;
 &lt;p&gt;En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt-get install rkward
@@ -254,11 +268,11 @@ Debe seleccionarse la distribución correspondiente a Linux y seguir las instruc
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar los paquetes de los que depende rkTeaching&lt;/strong&gt;. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
 Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;,&amp;quot;plyr&amp;quot;,&amp;quot;ggplot2&amp;quot;,&amp;quot;prob&amp;quot;,&amp;quot;ez&amp;quot;,&amp;quot;multcomp&amp;quot;, &amp;quot;remotes&amp;quot;))
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(c(&amp;quot;R2HTML&amp;quot;,&amp;quot;car&amp;quot;,&amp;quot;e1071&amp;quot;,&amp;quot;Hmisc&amp;quot;, &amp;quot;ez&amp;quot;, &amp;quot;multcomp&amp;quot;, &amp;quot;psych&amp;quot;, &amp;quot;probs&amp;quot;, &amp;quot;tidyverse&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;kableExtra&amp;quot;, &amp;quot;remotes&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Instalar rkTeaching&lt;/strong&gt;. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R &lt;code&gt;devtools&lt;/code&gt;.
+&lt;p&gt;&lt;strong&gt;Instalar rkTeaching&lt;/strong&gt;. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R &lt;code&gt;remotes&lt;/code&gt;.
 Para ello hay que introducir los siguientes comandos en la consola de R:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;library(remotes)
 install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
@@ -298,6 +312,7 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;li&gt;Diagrama de medias&lt;/li&gt;
 &lt;li&gt;Diagrama de interacción&lt;/li&gt;
 &lt;li&gt;Diagrama de dispersión&lt;/li&gt;
+&lt;li&gt;Diagrama de lineas&lt;/li&gt;
 &lt;li&gt;Matriz de dispersión&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -494,7 +509,7 @@ procedimientos estadísticos.
 &lt;p&gt;rkTeaching es mantenido por 
 &lt;a href=&#34;https://github.com/asalber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;asalber&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;cómo-citar-rkteaching&#34;&gt;¿Cómo citar rkTeaching?&lt;/h2&gt;
-&lt;p&gt;Sánchez-Alberca, A. (2020). rkTeaching (version 1.3) [software]. Obtenido de: 
+&lt;p&gt;Sánchez-Alberca, A. (2024). rkTeaching (version 1.4) [software]. Obtenido de: 
 &lt;a href=&#34;http://aprendeconalf.es/es/proyecto/rkteaching&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://aprendeconalf.es/es/proyecto/rkteaching&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
