@@ -11494,6 +11494,21 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h4 id=&#34;instalación-en-macos-mediante-wmware-fusion&#34;&gt;Instalación en MacOs mediante WMware Fusion&lt;/h4&gt;
+&lt;p&gt;Si el procedimiento anterior no funciona, es posible instalar una máquina virtual con RKward ya instalado mediante el software WMware Fusion. Para ello deben seguirse los siguientes pasos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Instalar WMware Fusion&lt;/strong&gt;. WMware Fusion es un software de virtualización que permite instalar sistemas operativos Windows o Linux en un Mac. 
+&lt;a href=&#34;https://www.techspot.com/downloads/2755-vmware-fusion-mac.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descargar WMware Fusion&lt;/a&gt; y seguir las instrucciones de instalación.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Descargar la máquina virtual con RKWard ya instalado. 
+&lt;a href=&#34;https://ceu365-my.sharepoint.com/:u:/g/personal/asalber_ceu_es/EcK0P2-es1pOl-3HtRYHn4sBswcpiil5q6QwVp01i0o0yA?e=fWtpe0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descargar máquina virtual&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Arrancar WMware Fusion y abrir la máquina virtual descargada. La máquina virtual arrancará con RKWard ya instalado y listo para su uso.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;instalación-en-linux&#34;&gt;Instalación en Linux&lt;/h3&gt;
 &lt;p&gt;Para instalar el software en plataformas Linux debe instalarse cada programa por separado con el siguiente orden:&lt;/p&gt;
 &lt;ol&gt;
