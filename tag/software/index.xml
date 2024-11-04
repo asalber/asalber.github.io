@@ -150,8 +150,13 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;a href=&#34;https://www.techspot.com/downloads/2755-vmware-fusion-mac.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descargar WMware Fusion&lt;/a&gt; y seguir las instrucciones de instalación.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Descargar la máquina virtual con RKWard ya instalado. 
-&lt;a href=&#34;https://ceu365-my.sharepoint.com/:u:/g/personal/asalber_ceu_es/EcK0P2-es1pOl-3HtRYHn4sBswcpiil5q6QwVp01i0o0yA?e=fWtpe0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descargar máquina virtual&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Descargar la máquina virtual con RKWard ya instalado.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://ceu365-my.sharepoint.com/:u:/g/personal/asalber_ceu_es/EaRxOdvlm-pEo9ZemESsKgABH2LSM4IyWuhsOm2O4iVCRQ?e=RJtxER&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descargar máquina virtual con RKWard versión 0.8 y rkTeaching 1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://ceu365-my.sharepoint.com/:u:/g/personal/asalber_ceu_es/EcK0P2-es1pOl-3HtRYHn4sBswcpiil5q6QwVp01i0o0yA?e=fWtpe0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Descargar máquina virtual con RKWard versión 0.7 y rkTeaching 1.3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Arrancar WMware Fusion y abrir la máquina virtual descargada. La máquina virtual arrancará con RKWard ya instalado y listo para su uso.&lt;/p&gt;
@@ -166,7 +171,7 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.
 Es necesario que la versión de R sea la 3.0 o superior.&lt;/p&gt;
 &lt;p&gt;En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt-get install rbase
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt-get install r-base
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -176,7 +181,7 @@ Debe seleccionarse la distribución correspondiente a Linux y seguir las instruc
 &lt;p&gt;En sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo apt-get install rkward
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Es importante asegurarse de que la versión instalada es la 0.6.5 o superior.&lt;/p&gt;
+&lt;p&gt;Es importante asegurarse de que la versión instalada es la 0.7.2 o superior.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Instalar los paquetes de los que depende rkTeaching&lt;/strong&gt;. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende.
@@ -254,10 +259,12 @@ install_github(&amp;quot;rkward-community/rk.Teaching&amp;quot;)
 &lt;li&gt;ANOVA&lt;/li&gt;
 &lt;li&gt;Cálculo del tamaño muestral para la media&lt;/li&gt;
 &lt;li&gt;Cálculo del tamaño muestral para el test T&lt;/li&gt;
+&lt;li&gt;Cálculo de la potencia de un test T&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Varianzas
 &lt;ul&gt;
+&lt;li&gt;Test para la varianza de una población&lt;/li&gt;
 &lt;li&gt;Test F de Fisher&lt;/li&gt;
 &lt;li&gt;Test de Levene&lt;/li&gt;
 &lt;/ul&gt;
