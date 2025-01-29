@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ejercicios de Bioestadística con R y el paquete rkTeaching | Aprende con Alf</title>
+    <link>/docencia/r/ejercicios-rkteaching/</link>
+      <atom:link href="/docencia/r/ejercicios-rkteaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ejercicios de Bioestadística con R y el paquete rkTeaching</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language>
+    <image>
+      <url>/images/logo_hude38443eeb2faa5fa84365aba7d86a77_3514_300x300_fit_lanczos_3.png</url>
+      <title>Ejercicios de Bioestadística con R y el paquete rkTeaching</title>
+      <link>/docencia/r/ejercicios-rkteaching/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -6,6 +6,7 @@
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
   </url><url>
     <loc>/docencia/julia/demos/</loc>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
   </url><url>
     <loc>/docencia/git/ejercicios/creacion-actualizacion-repositorios/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
@@ -35,7 +36,7 @@
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
   </url><url>
     <loc>/docencia/julia/manual/</loc>
-    <lastmod>2022-07-18T16:42:30+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
   </url><url>
     <loc>/docencia/latex/manual/</loc>
     <lastmod>2022-09-06T11:12:46+02:00</lastmod>
@@ -64,11 +65,11 @@
     <loc>/docencia/analisis/ejercicios/</loc>
     <lastmod>2022-11-15T14:41:27+01:00</lastmod>
   </url><url>
-    <loc>/docencia/r/ejercicios/</loc>
-    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
-  </url><url>
     <loc>/docencia/estadistica/ejercicios/</loc>
     <lastmod>2020-09-21T23:54:54+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/r/ejercicios/</loc>
+    <lastmod>2020-09-27T23:10:10+02:00</lastmod>
   </url><url>
     <loc>/docencia/git/ejercicios/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
@@ -99,6 +100,8 @@
   </url><url>
     <loc>/docencia/git/ejercicios/deshacer-cambios/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/r/ejercicios-rkteaching/</loc>
   </url><url>
     <loc>/docencia/python/manual/entrada-salida/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -144,6 +147,9 @@
   </url><url>
     <loc>/docencia/git/ejercicios/ramas/</loc>
     <lastmod>2020-09-27T22:57:41+02:00</lastmod>
+  </url><url>
+    <loc>/docencia/r/estudios-estadisticos/</loc>
+    <lastmod>2022-03-13T11:26:15+01:00</lastmod>
   </url><url>
     <loc>/docencia/python/trabajos/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -257,7 +263,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2024-10-24T23:25:00+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -270,7 +276,7 @@
                 />
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-10-24T23:25:00+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -298,7 +304,7 @@
     <lastmod>2024-03-13T11:58:56+01:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2024-10-24T23:25:00+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -332,7 +338,7 @@
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
   </url><url>
     <loc>/category/programacion/</loc>
-    <lastmod>2023-01-28T13:39:13+01:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
   </url><url>
     <loc>/category/python/</loc>
     <lastmod>2022-06-28T00:50:39+02:00</lastmod>
@@ -344,7 +350,7 @@
     <lastmod>2023-09-07T17:35:35+02:00</lastmod>
   </url><url>
     <loc>/tag/manual/</loc>
-    <lastmod>2024-03-10T23:19:14+01:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
   </url><url>
     <loc>/post/manual-latex/</loc>
     <lastmod>2022-09-14T00:11:23+02:00</lastmod>
@@ -362,10 +368,10 @@
     <lastmod>2021-11-09T20:48:41+01:00</lastmod>
   </url><url>
     <loc>/proyecto/</loc>
-    <lastmod>2024-10-24T23:25:00+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
   </url><url>
     <loc>/category/r/</loc>
-    <lastmod>2024-10-24T23:25:00+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -397,7 +403,7 @@
                 />
   </url><url>
     <loc>/tag/software/</loc>
-    <lastmod>2024-10-24T23:25:00+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -446,7 +452,7 @@
     <lastmod>2020-11-14T09:58:48+01:00</lastmod>
   </url><url>
     <loc>/tag/rkteaching/</loc>
-    <lastmod>2024-10-24T23:25:00+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -459,10 +465,10 @@
                 />
   </url><url>
     <loc>/proyecto/rkteaching/</loc>
-    <lastmod>2024-10-24T23:25:00+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
   </url><url>
     <loc>/tag/rkward/</loc>
-    <lastmod>2024-10-24T23:25:00+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -1233,6 +1239,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/tag/demos/</loc>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
   </url><url>
     <loc>/tag/depuracion/</loc>
     <lastmod>2020-09-22T13:20:32+02:00</lastmod>
@@ -1380,7 +1387,7 @@
                 />
   </url><url>
     <loc>/category/julia/</loc>
-    <lastmod>2022-07-18T16:42:30+02:00</lastmod>
+    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
   </url><url>
     <loc>/tag/libro/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -1497,9 +1504,6 @@
   </url><url>
     <loc>/tag/tipos-de-datos/</loc>
     <lastmod>2021-12-28T20:04:36+01:00</lastmod>
-  </url><url>
-    <loc>/docencia/r/estudios-estadisticos/</loc>
-    <lastmod>2022-03-13T11:26:15+01:00</lastmod>
   </url><url>
     <loc>/docencia/python/trabajos/inteligencia-negocios/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
