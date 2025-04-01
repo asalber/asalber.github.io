@@ -125,6 +125,8 @@
     <loc>/docencia/analisis/practicas/</loc>
     <lastmod>2023-01-28T13:39:13+01:00</lastmod>
   </url><url>
+    <loc>/docencia/aprendizaje-automatico/practicas/</loc>
+  </url><url>
     <loc>/docencia/estadistica/ejercicios/regresion-no-lineal/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
@@ -264,7 +266,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-01-29T09:26:54+01:00</lastmod>
+    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -277,7 +279,7 @@
                 />
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2025-01-29T09:26:54+01:00</lastmod>
+    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -305,7 +307,7 @@
     <lastmod>2024-03-13T11:58:56+01:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2025-01-29T09:26:54+01:00</lastmod>
+    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -369,10 +371,10 @@
     <lastmod>2021-11-09T20:48:41+01:00</lastmod>
   </url><url>
     <loc>/proyecto/</loc>
-    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
+    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
   </url><url>
     <loc>/category/r/</loc>
-    <lastmod>2025-01-29T09:26:54+01:00</lastmod>
+    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -404,7 +406,7 @@
                 />
   </url><url>
     <loc>/tag/software/</loc>
-    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
+    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -453,7 +455,7 @@
     <lastmod>2020-11-14T09:58:48+01:00</lastmod>
   </url><url>
     <loc>/tag/rkteaching/</loc>
-    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
+    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -466,10 +468,10 @@
                 />
   </url><url>
     <loc>/proyecto/rkteaching/</loc>
-    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
+    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
   </url><url>
     <loc>/tag/rkward/</loc>
-    <lastmod>2024-11-18T01:32:44+01:00</lastmod>
+    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -1179,6 +1181,10 @@
   </url><url>
     <loc>/docencia/analisis/</loc>
     <lastmod>2022-09-14T00:11:23+02:00</lastmod>
+  </url><url>
+    <loc>/category/aprendizaje-automatico/</loc>
+  </url><url>
+    <loc>/docencia/aprendizaje-automatico/</loc>
   </url><url>
     <loc>/tag/apuntes/</loc>
     <lastmod>2021-11-07T22:24:44+01:00</lastmod>
