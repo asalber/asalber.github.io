@@ -125,7 +125,7 @@
     <loc>/docencia/analisis/practicas/</loc>
     <lastmod>2023-01-28T13:39:13+01:00</lastmod>
   </url><url>
-    <loc>/docencia/aprendizaje-automatico/practicas/</loc>
+    <loc>/docencia/aprendizaje-automatico/practicas-julia/</loc>
   </url><url>
     <loc>/docencia/estadistica/ejercicios/regresion-no-lineal/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -144,6 +144,8 @@
   </url><url>
     <loc>/docencia/python/ejercicios/listas-tuplas/</loc>
     <lastmod>2022-03-10T09:19:34+01:00</lastmod>
+  </url><url>
+    <loc>/docencia/aprendizaje-automatico/practicas-r/</loc>
   </url><url>
     <loc>/docencia/estadistica/ejercicios/probabilidad/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -266,7 +268,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
+    <lastmod>2025-04-02T01:50:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -1185,6 +1187,7 @@
     <loc>/category/aprendizaje-automatico/</loc>
   </url><url>
     <loc>/docencia/aprendizaje-automatico/</loc>
+    <lastmod>2025-04-02T01:50:44+02:00</lastmod>
   </url><url>
     <loc>/tag/apuntes/</loc>
     <lastmod>2021-11-07T22:24:44+01:00</lastmod>
@@ -1462,6 +1465,8 @@
   </url><url>
     <loc>/category/quarto/</loc>
     <lastmod>2024-03-10T23:19:14+01:00</lastmod>
+  </url><url>
+    <loc>/tag/r/</loc>
   </url><url>
     <loc>/talk/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
