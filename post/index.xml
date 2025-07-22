@@ -13,6 +13,20 @@
     </image>
     
     <item>
+      <title>Prácticas de Aprendizaje Automático con R</title>
+      <link>/post/aprendizaje-automatico-r/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/post/aprendizaje-automatico-r/</guid>
+      <description>&lt;p&gt;Me alegra anunciar que ya está disponible una nueva sección sobre Aprendizaje Automático donde he publicado una colección de 
+&lt;a href=&#34;https://aprendeconalf.es/docencia/aprendizaje-automatico/practicas-r/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;prácticas de aprendizaje automático con R&lt;/a&gt; orientadas sobre todo a Ciencias de la Salud, aunque también pueden ser de utilidad para otros campos.&lt;/p&gt;
+&lt;p&gt;Han sido muchas las personas que me han escrito para pedir que añadiese materiales sobre aprendizaje automático a la web, y por fin he podido dedicar un tiempo a crear esta sección, que sin duda está ahora muy de moda.&lt;/p&gt;
+&lt;p&gt;En esta sección se pueden encontrar ejercicios prácticos de aprendizaje supervisado y no supervisado, utilizando el paquete 
+&lt;a href=&#34;https://www.tidymodels.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;tidymodels&lt;/code&gt;&lt;/a&gt; de R. Cada práctica incluye, como es habitual, ejercicios resueltos y ejercicios propuestos para poner a prueba los conocimientos adquiridos.&lt;/p&gt;
+&lt;p&gt;En un futuro no lejano espero poder incluir más prácticas de aprendizaje automático con otros lenguajes como Python o Julia.&lt;/p&gt;
+&lt;p&gt;Espero que os sea útil.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Documentos científicos con Quarto</title>
       <link>/post/quarto-documentos-cientificos/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>

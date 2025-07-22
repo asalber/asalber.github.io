@@ -126,6 +126,7 @@
     <lastmod>2023-01-28T13:39:13+01:00</lastmod>
   </url><url>
     <loc>/docencia/aprendizaje-automatico/practicas-julia/</loc>
+    <lastmod>2025-07-14T00:58:22+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/ejercicios/regresion-no-lineal/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -146,6 +147,7 @@
     <lastmod>2022-03-10T09:19:34+01:00</lastmod>
   </url><url>
     <loc>/docencia/aprendizaje-automatico/practicas-r/</loc>
+    <lastmod>2025-07-14T00:58:22+02:00</lastmod>
   </url><url>
     <loc>/docencia/estadistica/ejercicios/probabilidad/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
@@ -268,7 +270,7 @@
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-04-02T01:50:44+02:00</lastmod>
+    <lastmod>2025-07-14T00:58:22+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -280,8 +282,11 @@
                 href="/"
                 />
   </url><url>
+    <loc>/category/aprendizaje-automatico/</loc>
+    <lastmod>2025-07-14T00:58:22+02:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
+    <lastmod>2025-07-14T00:58:22+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -291,6 +296,38 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="/categories/"
+                />
+  </url><url>
+    <loc>/tag/practicas/</loc>
+    <lastmod>2025-07-14T00:58:22+02:00</lastmod>
+  </url><url>
+    <loc>/post/aprendizaje-automatico-r/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/category/r/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/en/category/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="/category/r/"
+                />
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-07-14T00:58:22+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="/tags/"
                 />
   </url><url>
     <loc>/category/ciencia-de-datos/</loc>
@@ -308,19 +345,6 @@
     <loc>/tag/quarto/</loc>
     <lastmod>2024-03-13T11:58:56+01:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="/tags/"
-                />
-  </url><url>
     <loc>/tag/tutorial/</loc>
     <lastmod>2024-03-13T11:58:56+01:00</lastmod>
   </url><url>
@@ -328,7 +352,7 @@
     <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
     <loc>/tag/julia/</loc>
-    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
+    <lastmod>2025-07-14T00:58:22+02:00</lastmod>
   </url><url>
     <loc>/post/manual-julia/</loc>
     <lastmod>2023-07-28T15:31:28+02:00</lastmod>
@@ -374,19 +398,6 @@
   </url><url>
     <loc>/proyecto/</loc>
     <lastmod>2025-02-17T10:00:53+01:00</lastmod>
-  </url><url>
-    <loc>/category/r/</loc>
-    <lastmod>2025-02-17T10:00:53+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/en/category/r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="/category/r/"
-                />
   </url><url>
     <loc>/tag/rubricas/</loc>
     <lastmod>2021-10-18T12:09:58+02:00</lastmod>
@@ -1184,8 +1195,6 @@
     <loc>/docencia/analisis/</loc>
     <lastmod>2022-09-14T00:11:23+02:00</lastmod>
   </url><url>
-    <loc>/category/aprendizaje-automatico/</loc>
-  </url><url>
     <loc>/docencia/aprendizaje-automatico/</loc>
     <lastmod>2025-04-02T01:50:44+02:00</lastmod>
   </url><url>
@@ -1432,9 +1441,6 @@
     <loc>/tag/plano-normal/</loc>
     <lastmod>2023-07-28T15:31:28+02:00</lastmod>
   </url><url>
-    <loc>/tag/practicas/</loc>
-    <lastmod>2023-07-28T15:31:28+02:00</lastmod>
-  </url><url>
     <loc>/tag/primitiva/</loc>
     <lastmod>2020-09-25T00:29:35+02:00</lastmod>
   </url><url>
@@ -1467,6 +1473,7 @@
     <lastmod>2024-03-10T23:19:14+01:00</lastmod>
   </url><url>
     <loc>/tag/r/</loc>
+    <lastmod>2025-07-14T00:58:22+02:00</lastmod>
   </url><url>
     <loc>/talk/</loc>
     <lastmod>2020-09-15T23:48:20+02:00</lastmod>
