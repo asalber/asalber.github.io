@@ -6,8 +6,8 @@ project:
 lang: en
 
 website:
-  title: "Learn with Ana"
-  description: "Open Educational Resources: Mathematics, Statistics and Programming"
+  title: "Learn with Alf"
+  description: "Open Educational Resources: Mathematics, Statistics, Programming, Data Science and AI"
   favicon: images/logo.png
   site-url: https://aprendeconalf.es/en/
   navbar:

@@ -16,8 +16,8 @@ project:
 lang: es
 
 website:
-  title: "Aprende con Ana"
-  description: "Recursos Educativos Libres: Matemáticas, Estadística y Programación"
+  title: "Aprende con Alf"
+  description: "Recursos Educativos Libres: Matemáticas, Estadística, Programación, Ciencia de Datos e IA"
   favicon: images/logo.png
   site-url: https://aprendeconalf.es
   navbar:

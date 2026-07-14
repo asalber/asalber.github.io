@@ -1,5 +1,7 @@
 /* ----------- PORTADA (estilo ALA Labs) ----------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
 /* HERO con imagen a todo el ancho */
 
 .hero-container {
@@ -21,39 +23,65 @@
   height: auto;
   width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 21vh 0;
+  padding: 21vh 0 21vh 8vw;
 }
 
 .title-top {
   position: relative;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 88px;
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.7rem;
+  line-height: 1.25;
   color: #ffffff;
-  padding-right: 120px;
-  margin-bottom: -4.2rem;
-  font-weight: 700;
-  letter-spacing: .04em;
-}
-
-.title-bottom {
-  position: relative;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 88px;
-  color: #EEECEA;
-  padding-left: 120px;
-  font-weight: 700;
-  letter-spacing: .04em;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
 }
 
 .title-byline {
-  font-size: 20px;
-  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-align: left;
   color: #ffffff;
   padding-top: 12px;
+}
+
+.title-subbyline {
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 4px;
+}
+
+.hero-cta {
+  display: block;
+  width: fit-content;
+  margin: 1.8rem auto 0 auto;
+  padding: .7rem 1.8rem;
+  background-color: #6f5499;
+  color: #fff !important;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none !important;
+  border-radius: 2rem;
+  transition: background-color .15s;
+}
+
+.hero-cta:hover {
+  background-color: #5a4380;
+}
+
+.hero-logo {
+  display: block;
+  margin: 1.6rem auto 0 auto;
+  height: 60px;
+  width: auto;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,.6));
 }
 
 .credit-text {
@@ -71,10 +99,14 @@
   .hero-image {
     position: relative;
     display: block;
+    justify-content: center;
     padding: 8vh 0;
   }
-  .title-top, .title-bottom { font-size: 46px; padding: 0; margin: 0; }
-  .title-byline { font-size: 16px; padding: 8px 14px 0 14px; }
+  .title-top { font-size: 2.2rem; text-align: center; padding: 0; margin: 0; }
+  .title-byline { font-size: 1.1rem; text-align: center; padding: 8px 14px 0 14px; }
+  .title-subbyline { font-size: .95rem; text-align: center; padding: 4px 14px 0 14px; }
+  .category-image { height: 3.4rem; }
+  .category-row { margin-top: 0; }
 }
 
 /* Bandas alternas con imagen + texto */
@@ -103,7 +135,7 @@ img.home-img {
 }
 
 .heading-home {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-family: 'Lato', sans-serif;
   border: none;
   margin-top: 0;
@@ -116,7 +148,7 @@ img.home-img {
 
 /* Círculos de categorías con iconos SVG */
 
-.category-row { margin-top: 8%; overflow: auto; }
+.category-row { margin-top: 10%; overflow: auto; }
 
 .category-column {
   float: left;
@@ -127,7 +159,7 @@ img.home-img {
 .category-image {
   display: block;
   margin: auto;
-  height: 4.2rem;
+  height: 4.4rem;
   transition: filter .1s;
 }
 
@@ -153,4 +185,39 @@ img.home-img {
     float: none;
   }
   .heading-home { text-align: center; }
+}
+
+/* Sección "Nuestros valores" (estilo ALA Labs) */
+
+.values-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.6rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.value-card {
+  background: #EEECEA;
+  border-radius: 26px;
+  padding: 2.2rem 2rem;
+  flex: 1 1 280px;
+  max-width: 340px;
+}
+
+.value-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  color: #6f5499;
+  margin-top: 0;
+  margin-bottom: .6rem;
+}
+
+.value-title i { margin-right: .5rem; }
+
+.value-card p { color: #222322; margin: 0; font-size: .95rem; }
+
+@media (max-width: 952px) {
+  .values-row { flex-direction: column; align-items: center; }
+  .value-card { max-width: 90%; }
 }

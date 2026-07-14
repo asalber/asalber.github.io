@@ -1,5 +1,5 @@
 ---
-pagetitle: "Learn with Ana"
+pagetitle: "Learn with Alf"
 page-layout: custom
 toc: false
 anchor-sections: false
@@ -9,22 +9,15 @@ css: index.css
 ::: {.hero-container}
 ::: {.hero-image}
 ::: {}
-[LEARN]{.title-top style="display:block;"}
-[WITH ANA]{.title-bottom style="display:block;"}
-[Open Educational Resources on Mathematics,<br>Statistics and Programming]{.title-byline style="display:block;"}
-:::
-::: {.credit-text}
-Image generated with matplotlib — replace it at `images/hero.jpg`
-:::
-:::
-:::
+[Learn with Alf]{.title-top style="display:block;"}
+[Open educational resources]{.title-byline style="display:block;"}
+[Mathematics, Statistics, Programming, Data Science and AI for Higher Education]{.title-subbyline style="display:block;"}
 
-::: {.column-body style="padding: 3rem 0 2.5rem 0;"}
-# Welcome {.heading-home style="text-align:center;"}
+[<i class="bi bi-mortarboard-fill"></i> Start learning](teaching/index.qmd){.hero-cta}
 
-This website gathers my teaching materials and research publications as Open
-Educational Resources: lecture notes, solved exercises, labs and articles on
-Mathematics, Statistics and Data Science. I hope you find them useful.
+![](images/logo.png){.hero-logo fig-alt="Aprende con Alf logo"}
+:::
+:::
 :::
 
 <!-- ================= TEACHING (rust band) ================= -->
@@ -130,3 +123,27 @@ Mathematics, Statistics and Data Science. I hope you find them useful.
 :::
 :::
 :::
+
+<!-- ================= VALUES ================= -->
+
+::: {.column-screen}
+::: {.column-page}
+<center><h1><i class="bi bi-heart-fill" style="color:#6f5499;"></i> Our values</h1></center>
+:::
+
+::: {.values-row}
+::: {.value-card}
+### <i class="bi bi-unlock-fill"></i> Openness {.value-title}
+All materials are published as Open Educational Resources, free and reusable by anyone.
+:::
+::: {.value-card}
+### <i class="bi bi-patch-check-fill"></i> Rigor {.value-title}
+Content is reviewed and updated continuously to offer clear, well-grounded explanations.
+:::
+::: {.value-card}
+### <i class="bi bi-clipboard-data-fill"></i> Hands-on learning {.value-title}
+Every topic comes with solved exercises and examples using real data to learn by doing.
+:::
+:::
+:::
+</content>
