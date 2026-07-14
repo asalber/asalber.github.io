@@ -1,14 +1,13 @@
 ---
 title: "Estadística"
+subtitle: "Apuntes, ejercicios resueltos y prácticas de Estadística."
 description: "Apuntes, ejercicios resueltos y prácticas de Estadística."
 image: featured.png
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 3
+  fields: [title, description]
+  sort: "title"
+page-layout: full
 ---
-
-## Materiales
-
-- [Manual de Estadística](https://aprendeconalf.es/estadistica-manual/)
-- [Prácticas de Estadística con R](https://aprendeconalf.es/estadistica-practicas-r/)
-- [Hoja de fórmulas de Estadística y Probabilidad (PDF)](https://github.com/asalber/formulas-estadistica/raw/master/formulas-estadistica.pdf)
-
-El manual está orientado principalmente a la Bioestadística, con la mayoría de los
-ejemplos aplicados a las Ciencias Biosanitarias.

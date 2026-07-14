@@ -1,0 +1,9 @@
+---
+title: "Fórmulas"
+description: "Hoja de fórmulas, derivadas, integrales y trigonometría."
+---
+
+- [Fórmulas de Cálculo (PDF)](https://github.com/asalber/formulas-calculo/raw/master/formulas-calculo.pdf)
+- [Tabla de derivadas (PDF)](https://github.com/asalber/formulas-calculo/raw/master/formulas-derivadas.pdf)
+- [Tabla de integrales (PDF)](https://github.com/asalber/formulas-calculo/raw/master/formulas-integrales.pdf)
+- [Fórmulas de trigonometría (PDF)](https://github.com/asalber/formulas-calculo/raw/master/formulas-trigonometria.pdf)

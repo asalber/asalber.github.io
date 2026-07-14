@@ -1,0 +1,10 @@
+---
+title: "Ejercicios"
+description: "Problemas de Estadística con soluciones."
+---
+
+[Ver los ejercicios](https://aprendeconalf.es/docencia/estadistica/ejercicios/)
+
+Colección de ejercicios resueltos de Estadística. La mayor parte están
+aplicados al ámbito de las Ciencias de la Salud, pero también hay ejercicios
+genéricos para cualquier disciplina.

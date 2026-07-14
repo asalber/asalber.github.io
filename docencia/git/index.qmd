@@ -1,12 +1,12 @@
 ---
 title: "Git"
+subtitle: "Gestión de versiones con Git: manual y ejercicios prácticos."
 description: "Gestión de versiones con Git: manual y ejercicios prácticos."
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title, description]
+  sort: "title"
+page-layout: full
 ---
-
-## Materiales
-
-- [Manual de Git (presentación)](https://aprendeconalf.es/manual-git)
-
-[Git](https://git-scm.com/) es el sistema de control de versiones más usado
-del mundo. Este manual explica cómo gestionar los cambios de un proyecto o
-repositorio guardando versiones en todas sus fases de desarrollo.

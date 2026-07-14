@@ -1,12 +1,12 @@
 ---
 title: "Julia"
+subtitle: "Programación con Julia: apuntes, ejercicios y exámenes."
 description: "Programación con Julia: apuntes, ejercicios y exámenes."
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title, description]
+  sort: "title"
+page-layout: full
 ---
-
-## Materiales
-
-- [Manual de Julia](https://aprendeconalf.es/manual-julia/)
-
-[Julia](https://julialang.org/) es un moderno lenguaje de programación de
-propósito general con orientación al cálculo científico-técnico y el
-análisis de datos.

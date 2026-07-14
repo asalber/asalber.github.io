@@ -1,0 +1,9 @@
+---
+title: "Herramientas"
+description: "Algunas herramientas que te harán la vida más fácil programando."
+---
+
+[Ver las herramientas](https://aprendeconalf.es/docencia/python/herramientas/)
+
+Utilidades para facilitar el desarrollo, incluyendo el manejo de la terminal
+en Windows y macOS.

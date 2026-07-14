@@ -1,12 +1,12 @@
 ---
 title: "Cálculo"
+subtitle: "Cálculo en una y varias variables: apuntes, ejercicios y exámenes."
 description: "Cálculo en una y varias variables: apuntes, ejercicios y exámenes."
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 3
+  fields: [title, description]
+  sort: "title"
+page-layout: full
 ---
-
-## Materiales
-
-- [Manual de Cálculo (PDF)](https://github.com/asalber/calculo-manual/raw/master/manual_calculo.pdf)
-
-Explicación de los conceptos más importantes del Cálculo en una y varias
-variables con ejemplos aplicados, orientado principalmente a las Ciencias
-Biosanitarias.

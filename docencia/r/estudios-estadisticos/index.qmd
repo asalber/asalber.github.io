@@ -1,0 +1,11 @@
+---
+title: "Estudios estadísticos"
+description: "Tipos de estudios estadísticos más habituales con ejemplos implementados en R."
+---
+
+[Ver la guía completa](https://aprendeconalf.es/docencia/r/estudios-estadisticos/)
+
+El tipo de estudio estadístico más apropiado en cada caso depende del
+objetivo del estudio, el número de variables, el tipo de variables y la
+naturaleza de las observaciones. Esta guía repasa los estudios más
+habituales con ejemplos implementados en R.

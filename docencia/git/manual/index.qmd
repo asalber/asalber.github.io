@@ -1,0 +1,10 @@
+---
+title: "Manual"
+description: "Aprende a manejar el gestor de versiones más usado."
+---
+
+[Ver el manual (presentación)](https://aprendeconalf.es/manual-git)
+
+[Git](https://git-scm.com/) es el sistema de control de versiones más usado
+del mundo. Este manual explica cómo gestionar los cambios de un proyecto o
+repositorio guardando versiones en todas sus fases de desarrollo.

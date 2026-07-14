@@ -1,0 +1,9 @@
+---
+title: "Ejercicios"
+description: "Ejercicios de control de versiones con Git con soluciones."
+---
+
+[Ver los ejercicios](https://aprendeconalf.es/docencia/git/ejercicios/)
+
+Colección de ejercicios resueltos de control de versiones con Git,
+clasificados por temas siguiendo el orden habitual de aprendizaje.

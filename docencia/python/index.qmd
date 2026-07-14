@@ -1,13 +1,13 @@
 ---
 title: "Python"
+subtitle: "Manual de programación en Python con ejercicios."
 description: "Manual de programación en Python con ejercicios."
 image: featured.png
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 3
+  fields: [title, description]
+  sort: "title"
+page-layout: full
 ---
-
-## Materiales
-
-- [Manual de Python (presentación)](https://aprendeconalf.es/manual-python)
-
-[Python](https://www.python.org/) es uno de los lenguajes de programación más
-extendidos, gracias a que su sintaxis es fácil de entender. El manual presenta
-los conceptos básicos para iniciarse en la programación con este lenguaje.

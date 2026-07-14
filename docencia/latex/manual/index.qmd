@@ -1,0 +1,10 @@
+---
+title: "Manual"
+description: "Introducción a la composición de textos científicos con LaTeX."
+---
+
+[Ver el manual](https://aprendeconalf.es/latex-manual/)
+
+[LaTeX](https://www.latex-project.org/) es un lenguaje de composición de
+textos orientado a la creación de documentos científicos y técnicos con
+contenido matemático.

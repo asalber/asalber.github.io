@@ -1,0 +1,9 @@
+---
+title: "Tutoriales"
+description: "Artículos didácticos sobre Estadística y sus aplicaciones."
+---
+
+[Ver los tutoriales](https://aprendeconalf.es/docencia/estadistica/tutoriales/)
+
+Artículos didácticos sobre temáticas relacionadas con la Estadística y sus
+aplicaciones (por ejemplo, epidemiología).

@@ -1,0 +1,9 @@
+---
+title: "Manual"
+description: "La Estadística al alcance de todos, orientado a la Bioestadística."
+---
+
+[Ver el manual](https://aprendeconalf.es/estadistica-manual/)
+
+Explicación de los conceptos más importantes de Estadística y Probabilidad
+con ejemplos, orientada principalmente a la Bioestadística.

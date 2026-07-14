@@ -1,0 +1,9 @@
+---
+title: "Prácticas con R"
+description: "Prácticas de Aprendizaje Automático con ejercicios resueltos en R."
+---
+
+[Ver las prácticas](https://aprendeconalf.es/aprendizaje-automatico-practicas-r/)
+
+Documento con prácticas de Aprendizaje Automático (Machine Learning) con el
+lenguaje [R](https://www.r-project.org/).

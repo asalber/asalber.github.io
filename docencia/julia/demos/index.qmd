@@ -1,0 +1,9 @@
+---
+title: "Demos"
+description: "Demostraciones de cálculo científico con Julia."
+---
+
+[Ver las demostraciones](https://aprendeconalf.es/julia-demos/)
+
+Demostraciones con Julia que muestran la capacidad de este lenguaje para
+construir modelos matemáticos y resolver problemas de cálculo científico.

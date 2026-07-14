@@ -1,0 +1,9 @@
+---
+title: "Prácticas"
+description: "Prácticas de Estadística con R."
+---
+
+[Ver las prácticas](https://aprendeconalf.es/estadistica-practicas-r/)
+
+Documento con prácticas de Estadística usando el lenguaje
+[R](https://www.r-project.org/).

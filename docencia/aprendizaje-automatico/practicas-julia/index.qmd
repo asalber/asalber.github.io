@@ -1,0 +1,9 @@
+---
+title: "Prácticas con Julia"
+description: "Prácticas de Aprendizaje Automático con ejercicios resueltos en Julia."
+---
+
+[Ver las prácticas](https://aprendeconalf.es/aprendizaje-automatico-practicas-julia/)
+
+Documento con prácticas de Aprendizaje Automático (Machine Learning) con el
+lenguaje [Julia](https://julialang.org/).

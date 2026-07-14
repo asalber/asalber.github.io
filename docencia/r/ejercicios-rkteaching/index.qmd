@@ -1,0 +1,10 @@
+---
+title: "Ejercicios con rkTeaching"
+description: "Ejercicios de Bioestadística con R y el paquete rkTeaching."
+---
+
+[Ver los ejercicios](https://aprendeconalf.es/docencia/r/ejercicios-rkteaching/)
+
+Colección de ejercicios resueltos de análisis de datos en Ciencias de la
+Salud con R y el paquete [rkTeaching](../../../proyectos/index.qmd),
+usando la interfaz gráfica RKWard.

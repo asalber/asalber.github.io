@@ -2,7 +2,20 @@
 title: "Docencia"
 subtitle: "Materiales docentes de mis asignaturas"
 listing:
-  contents: "*/index.qmd"
+  contents:
+    - analisis/index.qmd
+    - aprendizaje-automatico/index.qmd
+    - calculo/index.qmd
+    - derive/index.qmd
+    - estadistica/index.qmd
+    - geogebra/index.qmd
+    - git/index.qmd
+    - julia/index.qmd
+    - latex/index.qmd
+    - python/index.qmd
+    - quarto/index.qmd
+    - r/index.qmd
+    - spss/index.qmd
   type: grid
   grid-columns: 3
   fields: [image, title, description]

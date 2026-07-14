@@ -1,6 +1,7 @@
 ---
 title: "Análisis"
 subtitle: "Análisis Matemático de Variable Real: apuntes, ejercicios y exámenes."
+description: "Análisis Matemático de Variable Real: apuntes, ejercicios y exámenes."
 listing:
   contents: "*/index.qmd"
   type: grid
