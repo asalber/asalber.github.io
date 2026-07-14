@@ -2,7 +2,7 @@
 title: "Aprendizaje Automático"
 description: "Prácticas de Aprendizaje Automático en Julia y R."
 listing:
-  contents: "*/index.qmd"
+  contents: materiales.yml
   type: grid
   grid-columns: 2
   fields: [title, description]

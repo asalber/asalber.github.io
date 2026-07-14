@@ -3,7 +3,7 @@ title: "Python"
 description: "Manual de programación en Python con ejercicios."
 image: featured.png
 listing:
-  contents: "*/index.qmd"
+  contents: materiales.yml
   type: grid
   grid-columns: 3
   fields: [title, description]

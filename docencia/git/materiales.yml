@@ -1,0 +1,8 @@
+- title: "Manual"
+  description: "Aprende a manejar el gestor de versiones más usado."
+  path: https://aprendeconalf.es/manual-git
+  order: 1
+- title: "Ejercicios"
+  description: "Ejercicios de control de versiones con Git con soluciones."
+  path: https://aprendeconalf.es/docencia/git/ejercicios/
+  order: 2

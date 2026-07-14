@@ -1,9 +1,0 @@
----
-title: "Exámenes"
-description: "Exámenes de Cálculo de los últimos cursos con soluciones."
-order: 2
----
-
-[Ver los exámenes](https://aprendeconalf.es/docencia/calculo/examenes/)
-
-Exámenes de Cálculo de los últimos cursos con soluciones.

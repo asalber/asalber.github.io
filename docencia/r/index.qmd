@@ -2,7 +2,7 @@
 title: "R"
 description: "Análisis de datos con R: apuntes y ejercicios."
 listing:
-  contents: "*/index.qmd"
+  contents: materiales.yml
   type: grid
   grid-columns: 2
   fields: [title, description]

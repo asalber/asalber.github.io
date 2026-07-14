@@ -2,7 +2,7 @@
 title: "Cálculo"
 description: "Cálculo en una y varias variables: apuntes, ejercicios y exámenes."
 listing:
-  contents: "*/index.qmd"
+  contents: materiales.yml
   type: grid
   grid-columns: 3
   fields: [title, description]

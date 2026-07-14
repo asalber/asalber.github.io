@@ -2,7 +2,7 @@
 title: "Git"
 description: "Gestión de versiones con Git: manual y ejercicios prácticos."
 listing:
-  contents: "*/index.qmd"
+  contents: materiales.yml
   type: grid
   grid-columns: 2
   fields: [title, description]

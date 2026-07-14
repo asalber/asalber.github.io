@@ -1,0 +1,8 @@
+- title: "Manual"
+  description: "Introducción a la composición de textos científicos con LaTeX."
+  path: https://aprendeconalf.es/latex-manual/
+  order: 1
+- title: "Ejercicios"
+  description: "Ejercicios resueltos para practicar la composición de textos con LaTeX."
+  path: https://aprendeconalf.es/latex-ejercicios/
+  order: 2

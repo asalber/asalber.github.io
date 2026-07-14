@@ -1,0 +1,24 @@
+- title: "Manual"
+  description: "La Estadística al alcance de todos, orientado a la Bioestadística."
+  path: https://aprendeconalf.es/estadistica-manual/
+  order: 1
+- title: "Ejercicios"
+  description: "Problemas de Estadística con soluciones."
+  path: https://aprendeconalf.es/docencia/estadistica/ejercicios/
+  order: 2
+- title: "Prácticas"
+  description: "Prácticas de Estadística con R."
+  path: https://aprendeconalf.es/estadistica-practicas-r/
+  order: 3
+- title: "Exámenes"
+  description: "Exámenes de Estadística de los últimos cursos con soluciones."
+  path: https://aprendeconalf.es/docencia/estadistica/examenes/
+  order: 4
+- title: "Tutoriales"
+  description: "Artículos didácticos sobre Estadística y sus aplicaciones."
+  path: https://aprendeconalf.es/docencia/estadistica/tutoriales/
+  order: 5
+- title: "Fórmulas"
+  description: "Hoja de fórmulas de Estadística y Probabilidad y tablas estadísticas."
+  path: https://github.com/asalber/formulas-estadistica/raw/master/formulas-estadistica.pdf
+  order: 6

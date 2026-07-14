@@ -1,9 +1,0 @@
----
-title: "Exámenes"
-description: "Exámenes de Programación con Python de los últimos cursos con soluciones."
-order: 3
----
-
-[Ver los exámenes](https://aprendeconalf.es/docencia/python/examenes/)
-
-Exámenes de Programación con Python de los últimos cursos con soluciones.

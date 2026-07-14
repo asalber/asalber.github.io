@@ -1,0 +1,8 @@
+- title: "Manual"
+  description: "Introducción a la programación con Julia."
+  path: https://aprendeconalf.es/manual-julia/
+  order: 1
+- title: "Demos"
+  description: "Demostraciones de cálculo científico con Julia."
+  path: https://aprendeconalf.es/julia-demos/
+  order: 2

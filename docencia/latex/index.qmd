@@ -2,7 +2,7 @@
 title: "LaTeX"
 description: "Composición de textos matemáticos con LaTeX: apuntes y ejercicios."
 listing:
-  contents: "*/index.qmd"
+  contents: materiales.yml
   type: grid
   grid-columns: 2
   fields: [title, description]

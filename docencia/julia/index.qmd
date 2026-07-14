@@ -2,7 +2,7 @@
 title: "Julia"
 description: "Programación con Julia: apuntes, ejercicios y exámenes."
 listing:
-  contents: "*/index.qmd"
+  contents: materiales.yml
   type: grid
   grid-columns: 2
   fields: [title, description]

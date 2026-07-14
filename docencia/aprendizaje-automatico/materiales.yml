@@ -1,0 +1,8 @@
+- title: "Prácticas con Julia"
+  description: "Prácticas de Aprendizaje Automático con ejercicios resueltos en Julia."
+  path: https://aprendeconalf.es/aprendizaje-automatico-practicas-julia/
+  order: 1
+- title: "Prácticas con R"
+  description: "Prácticas de Aprendizaje Automático con ejercicios resueltos en R."
+  path: https://aprendeconalf.es/aprendizaje-automatico-practicas-r/
+  order: 2

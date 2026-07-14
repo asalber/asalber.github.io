@@ -1,9 +1,0 @@
----
-title: "Exámenes"
-description: "Exámenes de Estadística de los últimos cursos con soluciones."
-order: 4
----
-
-[Ver los exámenes](https://aprendeconalf.es/docencia/estadistica/examenes/)
-
-Exámenes de Estadística de los últimos cursos con soluciones.

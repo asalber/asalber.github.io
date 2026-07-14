@@ -1,9 +1,0 @@
----
-title: "Trabajos"
-description: "Trabajos de Programación con Python de los últimos cursos con soluciones."
-order: 5
----
-
-[Ver los trabajos](https://aprendeconalf.es/docencia/python/trabajos/)
-
-Trabajos de Programación con Python de los últimos cursos con soluciones.

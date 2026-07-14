@@ -1,0 +1,16 @@
+- title: "Manual"
+  description: "Introducción a la programación con R para el análisis de datos."
+  path: https://aprendeconalf.es/manual-r/
+  order: 1
+- title: "Ejercicios"
+  description: "Ejercicios resueltos de análisis de datos con R."
+  path: https://aprendeconalf.es/estadistica-practicas-r/
+  order: 2
+- title: "Ejercicios con rkTeaching"
+  description: "Ejercicios de Bioestadística con R y el paquete rkTeaching."
+  path: https://aprendeconalf.es/docencia/r/ejercicios-rkteaching/
+  order: 3
+- title: "Estudios estadísticos"
+  description: "Tipos de estudios estadísticos más habituales con ejemplos implementados en R."
+  path: https://aprendeconalf.es/docencia/r/estudios-estadisticos/
+  order: 4

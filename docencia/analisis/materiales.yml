@@ -1,0 +1,16 @@
+- title: "Manual"
+  description: "Introducción al Análisis Matemático de variable real con ejemplos y aplicaciones."
+  path: https://aprendeconalf.es/analisis-manual/
+  order: 1
+- title: "Ejercicios"
+  description: "Problemas resueltos de Análisis Matemático de variable real."
+  path: https://aprendeconalf.es/analisis-ejercicios/
+  order: 2
+- title: "Prácticas"
+  description: "Prácticas de Análisis Matemático de Variable Real con ejercicios resueltos en Julia."
+  path: https://aprendeconalf.es/analisis-practicas-julia/
+  order: 3
+- title: "Exámenes"
+  description: "Exámenes resueltos de Análisis Matemático de variable Real del grado de Ingeniería Matemática."
+  path: https://aprendeconalf.es/analisis-examenes/
+  order: 4

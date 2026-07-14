@@ -3,7 +3,7 @@ title: "Estadística"
 description: "Apuntes, ejercicios resueltos y prácticas de Estadística."
 image: featured.png
 listing:
-  contents: "*/index.qmd"
+  contents: materiales.yml
   type: grid
   grid-columns: 3
   fields: [title, description]
