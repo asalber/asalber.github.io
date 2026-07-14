@@ -153,6 +153,10 @@ img.home-img {
 .band.purple   { background-color: #6f5499; }
 .band .white, .band .white a { color: #fff; }
 
+/* El listado de posts de la banda de Blog trae de Quarto un
+   margin-right: 2em pero no su equivalente a la izquierda */
+#listing-home-blog { margin-left: 2em; }
+
 /* Círculos de categorías con iconos SVG */
 
 .category-row { margin-top: 10%; overflow: auto; }
