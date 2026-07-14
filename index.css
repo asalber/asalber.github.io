@@ -38,6 +38,7 @@
   margin: 0;
   padding: 0;
   font-weight: 400;
+  text-shadow: 0 2px 8px rgba(0,0,0,.55);
 }
 
 .title-byline {
@@ -46,6 +47,7 @@
   text-align: left;
   color: #ffffff;
   padding-top: 12px;
+  text-shadow: 0 2px 8px rgba(0,0,0,.55);
 }
 
 .title-subbyline {
@@ -55,6 +57,7 @@
   text-align: left;
   color: #ffffff;
   padding-top: 4px;
+  text-shadow: 0 2px 8px rgba(0,0,0,.55);
 }
 
 .hero-cta {
