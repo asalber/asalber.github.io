@@ -3,6 +3,7 @@ title: "Manual de LaTeX"
 description: "Introducción breve a LaTeX para quienes se inician en la composición de documentos científicos."
 date: 2022-09-14
 categories: [LaTeX, Manual]
+image: featured.png
 ---
 
 [LaTeX](https://www.latex-project.org/) es bien conocido por los

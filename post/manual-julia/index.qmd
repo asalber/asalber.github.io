@@ -3,6 +3,7 @@ title: "Manual de Julia"
 description: "Introducción a Julia, un lenguaje tan sencillo como Python o R pero con la velocidad de C."
 date: 2023-07-28
 categories: [Julia, Manual]
+image: featured.png
 ---
 
 [Julia](https://julialang.org/) combina la sencillez de aprendizaje de

@@ -3,6 +3,7 @@ title: "Manual de supervivencia para grados"
 description: "Consejos prácticos para aprovechar al máximo tus estudios de grado, especialmente en primer curso."
 date: 2020-09-15
 categories: [Docencia]
+image: featured.jpg
 ---
 
 La mayor parte de las personas que empieza un grado lo acaba con éxito: la

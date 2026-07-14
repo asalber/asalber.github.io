@@ -3,6 +3,7 @@ title: "Curso de Git"
 description: "Introducción al sistema de control de versiones más usado del mundo."
 date: 2020-09-27
 categories: [Git, Manual]
+image: featured.png
 ---
 
 [Git](https://git-scm.com/) permite gestionar los cambios que se realizan

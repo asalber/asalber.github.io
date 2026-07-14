@@ -3,6 +3,7 @@ title: "Tipos de estudios estadísticos"
 description: "Guía de los principales tipos de estudios estadísticos, con ejemplos prácticos en R."
 date: 2022-03-11
 categories: [Estadística, R]
+image: featured.png
 ---
 
 Una de las preguntas más habituales al empezar una investigación es

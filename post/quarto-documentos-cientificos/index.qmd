@@ -3,6 +3,7 @@ title: "Documentos científicos con Quarto"
 description: "Por qué he dejado LaTeX por Quarto para escribir documentos científicos y técnicos."
 date: 2024-03-13
 categories: [Quarto, Manual]
+image: featured.jpg
 ---
 
 LaTeX es potente, pero tiene una curva de aprendizaje elevada y una sintaxis

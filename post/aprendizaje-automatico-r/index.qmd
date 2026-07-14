@@ -3,6 +3,7 @@ title: "Prácticas de Aprendizaje Automático con R"
 description: "Nueva colección de prácticas de Aprendizaje Automático con R, orientadas a Ciencias de la Salud."
 date: 2025-06-01
 categories: [Aprendizaje Automático, R]
+image: featured.png
 ---
 
 Nueva sección con una colección de prácticas de Aprendizaje Automático con

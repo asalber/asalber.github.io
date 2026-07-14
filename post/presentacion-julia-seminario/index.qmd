@@ -3,6 +3,7 @@ title: "Cálculo numérico y simbólico con Julia"
 description: "Presentación sobre el uso de Julia para cálculo simbólico y numérico en un seminario de innovación docente."
 date: 2023-07-28
 categories: [Julia, Matemáticas]
+image: featured.png
 ---
 
 Presentación de cómo utilizar [Julia](https://julialang.org/) tanto para

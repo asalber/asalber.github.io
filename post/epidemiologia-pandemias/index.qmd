@@ -3,6 +3,7 @@ title: "Epidemiología para tiempos de pandemia"
 description: "Conceptos básicos de Epidemiología para entender mejor la información sobre enfermedades como la COVID-19."
 date: 2021-11-09
 categories: [Estadística, Epidemiología]
+image: featured.png
 ---
 
 Muchos términos epidemiológicos se usan de manera errónea, incluso por los

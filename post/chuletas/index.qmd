@@ -3,6 +3,7 @@ title: "Hojas de fórmulas de Estadística y Cálculo"
 description: "Dos chuletas de referencia rápida con las principales fórmulas de Cálculo y Estadística."
 date: 2022-01-23
 categories: [Estadística, Cálculo]
+image: featured.jpg
 ---
 
 Dos documentos de referencia rápida con un resumen de las principales
