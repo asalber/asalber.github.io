@@ -1,0 +1,12 @@
+---
+title: "Análisis"
+description: "Análisis Matemático de Variable Real: apuntes, ejercicios y exámenes."
+---
+
+## Materiales
+
+- [Manual de Análisis Matemático de Variable Real](https://aprendeconalf.es/analisis-manual/)
+
+Introducción al Análisis Matemático de variable real, para una y varias
+variables, orientada principalmente a primeros cursos de los grados de
+Matemáticas e Ingeniería Matemática.

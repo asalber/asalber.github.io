@@ -6,5 +6,8 @@ image: featured.png
 
 ## Materiales
 
-- [Manual de Python](#)
-- [Ejercicios](#)
+- [Manual de Python (presentación)](https://aprendeconalf.es/manual-python)
+
+[Python](https://www.python.org/) es uno de los lenguajes de programación más
+extendidos, gracias a que su sintaxis es fácil de entender. El manual presenta
+los conceptos básicos para iniciarse en la programación con este lenguaje.

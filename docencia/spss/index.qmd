@@ -1,0 +1,14 @@
+---
+title: "SPSS"
+description: "Bioestadística aplicada con SPSS."
+---
+
+## Materiales
+
+- [Libro: Bioestadística Aplicada con SPSS](https://www.ceuediciones.es/catalogo/libros/medicina/bioestadistica-aplicada-con-spss/)
+
+Libro con S. Angulo Díaz-Parreño, J. M. Cárdenas Rebollo y A. Romero Limón
+(profesores del Departamento de Matemática Aplicada y Estadística de la
+Universidad CEU San Pablo) que presenta las técnicas de estadística
+descriptiva e inferencial con SPSS, con ejemplos de Ciencias de la Salud
+desarrollados paso a paso.

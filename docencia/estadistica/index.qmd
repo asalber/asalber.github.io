@@ -6,13 +6,9 @@ image: featured.png
 
 ## Materiales
 
-- [Apuntes](#) *(enlaza aquí tus apuntes en Quarto, PDF, etc.)*
-- [Ejercicios resueltos](#)
-- [Prácticas con R](#)
+- [Manual de Estadística](https://aprendeconalf.es/estadistica-manual/)
+- [Prácticas de Estadística con R](https://aprendeconalf.es/estadistica-practicas-r/)
+- [Hoja de fórmulas de Estadística y Probabilidad (PDF)](https://github.com/asalber/formulas-estadistica/raw/master/formulas-estadistica.pdf)
 
-::: {.callout-tip}
-## Consejo
-Cada asignatura puede convertirse en un **proyecto Quarto independiente** (tipo libro
-o web con barra lateral propia) publicado en esta misma subruta, igual que hace
-aprendeconalf.es. Este `index.qmd` es solo la portada de la asignatura.
-:::
+El manual está orientado principalmente a la Bioestadística, con la mayoría de los
+ejemplos aplicados a las Ciencias Biosanitarias.

@@ -1,0 +1,13 @@
+---
+title: "R"
+description: "Análisis de datos con R: apuntes y ejercicios."
+---
+
+## Materiales
+
+- [Manual de R](https://aprendeconalf.es/manual-r/)
+- [rkTeaching](https://github.com/asalber/rkteaching) — paquete de R para el aprendizaje de Estadística
+
+[R](https://www.r-project.org/) es un lenguaje de programación de propósito
+general con orientación al análisis de datos, muy extendido en el ámbito de
+la Estadística.

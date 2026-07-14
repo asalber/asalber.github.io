@@ -1,0 +1,13 @@
+---
+title: "LaTeX"
+description: "Composición de textos matemáticos con LaTeX: apuntes y ejercicios."
+---
+
+## Materiales
+
+- [Manual de LaTeX](https://aprendeconalf.es/latex-manual/)
+
+[LaTeX](https://www.latex-project.org/) es un lenguaje de composición de
+textos orientado a la creación de documentos científicos y técnicos con
+contenido matemático. Este manual proporciona una introducción práctica con
+ejemplos.

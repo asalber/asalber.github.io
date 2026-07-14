@@ -6,6 +6,9 @@ image: featured.png
 
 ## Materials
 
-- [Lecture notes](#)
-- [Solved exercises](#)
-- [Labs with R](#)
+- [Statistics handbook](https://aprendeconalf.es/estadistica-manual/) (in Spanish)
+- [Statistics labs with R](https://aprendeconalf.es/estadistica-practicas-r/) (in Spanish)
+- [Statistics and probability formula sheet (PDF)](https://github.com/asalber/formulas-estadistica/raw/master/formulas-estadistica.pdf)
+
+The handbook is mostly aimed at Biostatistics, with most examples applied to
+Health Sciences.

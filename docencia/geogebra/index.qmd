@@ -1,0 +1,12 @@
+---
+title: "GeoGebra"
+description: "Cálculo con GeoGebra: ejercicios resueltos."
+---
+
+## Materiales
+
+- [Repositorio de ejercicios (Cálculo con GeoGebra)](https://github.com/asalber/practicas-geogebra)
+- [GeoGebra](https://www.geogebra.org/)
+
+Ejercicios de Cálculo en una y varias variables resueltos con la vista CAS
+(cálculo simbólico) de [GeoGebra](https://www.geogebra.org/).

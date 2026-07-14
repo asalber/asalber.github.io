@@ -6,5 +6,8 @@ image: featured.png
 
 ## Materials
 
-- [Python handbook](#)
-- [Exercises](#)
+- [Python handbook (presentation)](https://aprendeconalf.es/manual-python) (in Spanish)
+
+[Python](https://www.python.org/) is one of the most widely used programming
+languages, thanks to its easy-to-read syntax. The handbook covers the basic
+concepts to get started programming with it.

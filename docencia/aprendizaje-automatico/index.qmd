@@ -1,0 +1,15 @@
+---
+title: "Aprendizaje Automático"
+description: "Prácticas de Aprendizaje Automático en Julia y R."
+---
+
+## Materiales
+
+Prácticas de Aprendizaje Automático con ejercicios resueltos, disponibles en
+dos lenguajes:
+
+- Prácticas con Julia
+- Prácticas con R
+
+Consulta el [repositorio de GitHub del autor](https://github.com/asalber) para
+más materiales relacionados con Ciencia de Datos y Aprendizaje Automático.

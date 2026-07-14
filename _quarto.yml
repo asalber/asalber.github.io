@@ -40,10 +40,30 @@ website:
           - text: "Todas las asignaturas"
             href: docencia/index.qmd
           - text: "---"
+          - text: "Análisis"
+            href: docencia/analisis/index.qmd
+          - text: "Aprendizaje Automático"
+            href: docencia/aprendizaje-automatico/index.qmd
+          - text: "Cálculo"
+            href: docencia/calculo/index.qmd
           - text: "Estadística"
             href: docencia/estadistica/index.qmd
+          - text: "Geogebra"
+            href: docencia/geogebra/index.qmd
+          - text: "Git"
+            href: docencia/git/index.qmd
+          - text: "Julia"
+            href: docencia/julia/index.qmd
+          - text: "LaTeX"
+            href: docencia/latex/index.qmd
           - text: "Python"
             href: docencia/python/index.qmd
+          - text: "Quarto"
+            href: docencia/quarto/index.qmd
+          - text: "R"
+            href: docencia/r/index.qmd
+          - text: "SPSS"
+            href: docencia/spss/index.qmd
       - text: "Proyectos"
         href: proyectos/index.qmd
       - text: "Publicaciones"

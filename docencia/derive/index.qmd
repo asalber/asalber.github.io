@@ -1,0 +1,11 @@
+---
+title: "Derive"
+description: "Cálculo con Derive: ejercicios resueltos."
+---
+
+## Materiales
+
+- [Repositorio de ejercicios (Cálculo con Derive)](https://github.com/asalber/calculo-derive/)
+
+Colección de ejercicios de Cálculo resueltos utilizando el software
+[Derive](https://es.wikipedia.org/wiki/Derive).
