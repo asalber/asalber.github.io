@@ -1,8 +1,8 @@
 - title: "Rúbricas"
   description: "Aplicación web para la evaluación mediante rúbricas."
-  path: https://github.com/tu-usuario/rubricas
+  path: https://github.com/asalber/rubricas
   image: /proyectos/proyecto1.png
 - title: "rkTeaching"
   description: "Un paquete de R para el aprendizaje de Estadística."
-  path: https://github.com/tu-usuario/rkteaching
+  path: https://github.com/asalber/rkteaching
   image: /proyectos/proyecto2.png

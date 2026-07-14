@@ -1,5 +1,5 @@
 ---
-title: "Ana García López"
+title: "Alfredo Sánchez Alberca"
 subtitle: "Lecturer in Mathematics and Statistics"
 image: images/logo.png
 toc: false
@@ -10,21 +10,22 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:ana@example.com
+      href: mailto:asalber@ceu.es
     - icon: github
       text: GitHub
-      href: https://github.com/tu-usuario
+      href: https://github.com/asalber
     - icon: mortarboard-fill
       text: Google Scholar
-      href: https://scholar.google.es
+      href: https://scholar.google.com/citations?user=aw8BqeEAAAAJ&hl=es
 ---
 
 ## Biography
 
-I work as a lecturer in Mathematics and Statistics at Example University.
-My research focuses on Data Science, Biostatistics and Machine Learning. On this
-website I share my teaching materials and research publications as Open
-Educational Resources.
+Father and environmental activist, I work as a lecturer in Mathematics and
+Statistics at the Department of Applied Mathematics and Statistics of the
+CEU San Pablo University. My research focuses on Data Science, Biostatistics
+and Machine Learning. On this website I share my teaching materials and
+research publications as Open Educational Resources.
 
 ## Interests
 
@@ -36,4 +37,5 @@ Educational Resources.
 ## Education
 
 - **PhD in Artificial Intelligence**, 2016 — Technical University of Madrid
-- **BSc in Mathematics**, 1993 — Complutense University of Madrid
+- **BSc in Mathematics - Computer Science**, 1993 — Complutense University of Madrid
+</content>

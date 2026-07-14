@@ -2,3 +2,5 @@
 /_site/
 /en/.quarto/
 .DS_Store
+
+**/*.quarto_ipynb

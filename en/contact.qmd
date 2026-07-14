@@ -3,6 +3,7 @@ title: "Contact"
 toc: false
 ---
 
-- 📧 [ana@example.com](mailto:ana@example.com)
-- 🏢 Office 218, Building C — Example University
+- 📧 [asalber@ceu.es](mailto:asalber@ceu.es)
+- 🏢 Office 218, Building C — CEU San Pablo University, Urbanización Montepríncipe s/n, Madrid
 - 🕐 Office hours: Monday and Wednesday, 12:30–13:30
+</content>

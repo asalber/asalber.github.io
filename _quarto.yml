@@ -19,7 +19,7 @@ website:
   title: "Aprende con Ana"
   description: "Recursos Educativos Libres: Matemáticas, Estadística y Programación"
   favicon: images/logo.png
-  site-url: https://example.github.io
+  site-url: https://aprendeconalf.es
   navbar:
     background: "#222322"
     foreground: "#FFFFFF"
@@ -57,7 +57,7 @@ website:
             href: /
           - text: "🇬🇧 English"
             href: /en/
-      - href: https://github.com/tu-usuario
+      - href: https://github.com/asalber
         icon: github
   page-footer:
     background: "#222322"

@@ -9,7 +9,7 @@ website:
   title: "Learn with Ana"
   description: "Open Educational Resources: Mathematics, Statistics and Programming"
   favicon: images/logo.png
-  site-url: https://example.github.io/en/
+  site-url: https://aprendeconalf.es/en/
   navbar:
     background: "#222322"
     foreground: "#FFFFFF"
@@ -47,7 +47,7 @@ website:
             href: /
           - text: "🇬🇧 English"
             href: /en/
-      - href: https://github.com/tu-usuario
+      - href: https://github.com/asalber
         icon: github
   page-footer:
     background: "#222322"
