@@ -54,24 +54,24 @@ include-after-body:
 
 ::: {.category-row}
 ::: {.category-column}
+<a href="docencia/analisis/index.html"><img src="images/vectors/sigma.svg" class="category-image honey-white" alt="Matemáticas"></a>
+<h4><a class="white" href="docencia/analisis/index.html">Matemáticas</a></h4>
+:::
+::: {.category-column}
 <a href="docencia/estadistica/index.html"><img src="images/vectors/chart.svg" class="category-image honey-white" alt="Estadística"></a>
 <h4><a class="white" href="docencia/estadistica/index.html">Estadística</a></h4>
 :::
 ::: {.category-column}
-<a href="docencia/python/index.html"><img src="images/vectors/python-white.svg" class="category-image brand-white" alt="Python"></a>
+<a href="docencia/python/index.html"><img src="images/vectors/python.svg" class="category-image honey-white" alt="Python"></a>
 <h4><a class="white" href="docencia/python/index.html">Python</a></h4>
 :::
 ::: {.category-column}
-<a href="docencia/r/index.html"><img src="images/vectors/r-white.svg" class="category-image brand-white" alt="R"></a>
+<a href="docencia/r/index.html"><img src="images/vectors/r.svg" class="category-image honey-white" alt="R"></a>
 <h4><a class="white" href="docencia/r/index.html">R</a></h4>
 :::
 ::: {.category-column}
-<a href="docencia/julia/index.html"><img src="images/vectors/julia-white.svg" class="category-image brand-white" alt="Julia"></a>
+<a href="docencia/julia/index.html"><img src="images/vectors/julia.svg" class="category-image honey-white" alt="Julia"></a>
 <h4><a class="white" href="docencia/julia/index.html">Julia</a></h4>
-:::
-::: {.category-column}
-<a href="docencia/analisis/index.html"><img src="images/vectors/sigma.svg" class="category-image honey-white" alt="Matemáticas"></a>
-<h4><a class="white" href="docencia/analisis/index.html">Matemáticas</a></h4>
 :::
 :::
 :::
