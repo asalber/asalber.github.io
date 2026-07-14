@@ -146,4 +146,3 @@ Every topic comes with solved exercises and examples using real data to learn by
 :::
 :::
 :::
-</content>

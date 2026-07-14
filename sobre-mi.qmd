@@ -1,7 +1,7 @@
 ---
 title: "Alfredo Sánchez Alberca"
 subtitle: "Profesor de Matemáticas y Estadística"
-image: images/logo.png
+image: images/avatar.png
 toc: false
 about:
   template: trestles
@@ -38,4 +38,3 @@ de investigación como Recursos Educativos Libres.
 
 - **Doctor en Inteligencia Artificial**, 2016 — Universidad Politécnica de Madrid
 - **Licenciado en Matemáticas - Computación**, 1993 — Universidad Complutense de Madrid
-</content>

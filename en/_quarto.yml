@@ -11,9 +11,9 @@ website:
   favicon: images/logo.png
   site-url: https://aprendeconalf.es/en/
   navbar:
-    background: "#222322"
+    background: "#6f5499"
     foreground: "#FFFFFF"
-    logo: images/logo.png
+    logo: images/logo-blanco.png
     logo-alt: "Logo"
     pinned: true
     search: true

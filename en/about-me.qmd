@@ -1,7 +1,7 @@
 ---
 title: "Alfredo Sánchez Alberca"
 subtitle: "Lecturer in Mathematics and Statistics"
-image: images/logo.png
+image: images/avatar.png
 toc: false
 about:
   template: trestles
@@ -38,4 +38,3 @@ research publications as Open Educational Resources.
 
 - **PhD in Artificial Intelligence**, 2016 — Technical University of Madrid
 - **BSc in Mathematics - Computer Science**, 1993 — Complutense University of Madrid
-</content>

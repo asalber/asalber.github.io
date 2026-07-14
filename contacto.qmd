@@ -9,4 +9,3 @@ toc: false
 
 Si quieres un formulario de contacto como el del sitio original, puedes incrustar
 uno de [Formspree](https://formspree.io) (gratuito) pegando su HTML aquí.
-</content>
