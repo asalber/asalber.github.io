@@ -1,0 +1,10 @@
+---
+title: "Ejercicios"
+description: "Problemas resueltos de Análisis Matemático de variable real."
+---
+
+[Ver los ejercicios](https://aprendeconalf.es/analisis-ejercicios/)
+
+Colección de problemas resueltos de Análisis Matemático de variable real.
+Aunque bastantes problemas son abstractos, dada la temática, también se
+incluyen problemas aplicados a las Ciencias y la Ingeniería.

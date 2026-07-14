@@ -1,0 +1,11 @@
+---
+title: "Manual"
+description: "Introducción al Análisis Matemático de variable real con ejemplos y aplicaciones."
+---
+
+[Ver el manual](https://aprendeconalf.es/analisis-manual/)
+
+Este manual proporciona una introducción al Análisis Matemático de variable
+real, tanto para una variable como para varias variables, orientada
+principalmente a primeros cursos de los grados de Matemáticas e Ingeniería
+Matemática.
