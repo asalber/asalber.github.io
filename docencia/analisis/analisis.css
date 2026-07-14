@@ -1,4 +1,0 @@
-/* La imagen del manual (logo remoto) debe verse entera, no recortada */
-img.thumbnail-image.card-img {
-  object-fit: contain !important;
-}

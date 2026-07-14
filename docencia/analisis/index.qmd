@@ -1,7 +1,6 @@
 ---
 title: "Análisis"
 description: "Análisis Matemático de Variable Real: apuntes, ejercicios y exámenes."
-css: analisis.css
 listing:
   contents: materiales.yml
   type: grid

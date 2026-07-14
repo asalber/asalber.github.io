@@ -39,6 +39,11 @@ $navbar-hl: $honey;
     box-shadow: rgba(17,17,26,.05) 0 1px 0, rgba(184,87,62,.25) 0 0 14px;
   }
   .card-title { color: $charcoal; font-weight: 700; }
+
+  // Que las miniaturas se vean enteras en vez de recortadas
+  img.thumbnail-image.card-img {
+    object-fit: contain !important;
+  }
 }
 
 .quarto-category, .listing-category {
