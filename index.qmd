@@ -8,15 +8,15 @@ css: index.css
 
 ::: {.hero-container}
 ::: {.hero-image}
-::: {}
+::: {.hero-text}
 [Aprende con Alf]{.title-top style="display:block;"}
 [Recursos educativos libres]{.title-byline style="display:block;"}
 [Matemáticas, Estadística, Programación, Ciencia de Datos e IA para Educación Superior]{.title-subbyline style="display:block;"}
 
 [<i class="bi bi-mortarboard-fill"></i> Empieza a aprender](docencia/index.qmd){.hero-cta}
+:::
 
 ![](images/logo.png){.hero-logo fig-alt="Logotipo de Aprende con Alf"}
-:::
 :::
 :::
 
