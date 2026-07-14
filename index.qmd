@@ -4,6 +4,16 @@ page-layout: custom
 toc: false
 anchor-sections: false
 css: index.css
+listing:
+  id: home-blog
+  contents: "./post/*/index.qmd"
+  type: default
+  max-items: 5
+  sort: "date desc"
+  fields: [image, title, description, date]
+  image-align: right
+  sort-ui: false
+  filter-ui: false
 ---
 
 ::: {.hero-container}
@@ -53,30 +63,16 @@ css: index.css
 <!-- ================= BLOG (banda blanca) ================= -->
 
 ::: {.column-screen .band}
-::: {.home-column-image .col-right}
-[![](images/homepage/blog.png){.home-img fig-alt="Gráfico de barras"}](post/index.qmd)
-:::
-
-::: {.home-column-text .col-left}
+::: {.column-page}
 <center>
 <h1 class="heading-home">Blog</h1>
-[Artículos, tutoriales y novedades]{style="font-style:italic;"}
+[Últimas entradas]{style="font-style:italic;"}
 </center>
 
-::: {.category-row}
-::: {.category-column}
-<a href="post/index.html#category=Manual"><img src="images/vectors/book.svg" class="category-image honey" alt="Manuales"></a>
-<h4><a class="dark" href="post/index.html#category=Manual">Manuales</a></h4>
+:::{#home-blog}
 :::
-::: {.category-column}
-<a href="post/index.html#category=Noticias"><img src="images/vectors/star.svg" class="category-image honey" alt="Noticias"></a>
-<h4><a class="dark" href="post/index.html#category=Noticias">Noticias</a></h4>
-:::
-::: {.category-column}
-<a href="post/index.html"><img src="images/vectors/list.svg" class="category-image honey" alt="Todos los posts"></a>
-<h4><a class="dark" href="post/index.html">Todos</a></h4>
-:::
-:::
+
+<center>[Ver todos los posts →](post/index.qmd)</center>
 :::
 :::
 
