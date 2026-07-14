@@ -25,6 +25,23 @@ $navbar-hl: #F5A05A;
 .navbar {
   .navbar-logo { max-height: 40px; }
   a:hover { color: #F5A05A !important; }
+
+  // Menús desplegables: mismo fondo que la barra y texto blanco
+  .dropdown-menu {
+    background-color: #6f5499;
+    border: none;
+
+    .dropdown-item {
+      color: #fff;
+
+      &:hover, &:focus {
+        background-color: darken(#6f5499, 8%);
+        color: #F5A05A;
+      }
+    }
+
+    .dropdown-divider { border-color: rgba(255,255,255,.2); }
+  }
 }
 
 // Tarjetas de listados (blog, docencia, proyectos)
