@@ -1,0 +1,12 @@
+---
+title: "New Excel manual"
+description: "Basic Excel manual for Economics and Business Administration."
+date: 2015-09-10
+categories: [Manual]
+image: featured.jpg
+---
+
+A basic manual of Excel, the well-known Microsoft Office spreadsheet, mostly
+aimed at students of Economics and Business Administration — most examples
+are applied to accounting and finance, though it's also useful for anyone
+learning basic Excel management.

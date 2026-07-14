@@ -1,0 +1,13 @@
+---
+title: "Survival guide for degrees"
+description: "Some tips to help undergraduate students make the most of their studies and pass all their subjects."
+date: 2017-04-24
+categories: [Teaching]
+image: featured.jpg
+---
+
+Practical advice for university students, especially in their first years:
+be self-motivated, take a proactive role in your own learning, see your
+teacher as an ally rather than an adversary, make the most of classes and
+tutoring hours, read and write beyond what's given in class, work in groups,
+and review your progress regularly.

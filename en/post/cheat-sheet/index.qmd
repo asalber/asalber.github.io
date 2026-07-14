@@ -1,0 +1,14 @@
+---
+title: "Calculus and Statistics cheat sheets"
+description: "A little help to pass: quick-reference sheets with the main Calculus and Statistics formulas."
+date: 2017-11-02
+categories: [Statistics, Calculus]
+image: featured.jpg
+---
+
+Quick-reference cheat sheets with a summary of the main formulas used in
+Calculus and Statistics, handy for learning and exam preparation.
+
+- [Statistics handbook](../../teaching/statistics/index.qmd)
+
+If you spot any mistake in these sheets, please let me know.
