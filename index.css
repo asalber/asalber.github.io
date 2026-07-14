@@ -186,6 +186,8 @@ img.home-img {
 
 .category-column a.white,
 .category-column a.dark { color: #F5A05A; }
+.category-column a.white:hover,
+.category-column a.dark:hover { color: #FFC557; }
 
 @media (max-width: 1200px) {
   .col-left, .col-right { margin: 0 auto; float: none; }

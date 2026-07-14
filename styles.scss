@@ -24,7 +24,7 @@ $navbar-hl: #F5A05A;
 
 .navbar {
   .navbar-logo { max-height: 40px; }
-  a:hover { color: #F5A05A !important; }
+  a:hover { color: $honey !important; }
 
   // Menús desplegables: mismo fondo que la barra y texto blanco
   .dropdown-menu {
@@ -36,7 +36,7 @@ $navbar-hl: #F5A05A;
 
       &:hover, &:focus {
         background-color: darken(#6f5499, 8%);
-        color: #F5A05A;
+        color: $honey;
       }
     }
 
