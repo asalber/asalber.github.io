@@ -5,7 +5,7 @@ listing:
   contents: materiales.yml
   type: grid
   grid-columns: 2
-  fields: [title, description]
+  fields: [image, title, description]
   sort: "order"
 page-layout: full
 ---

@@ -5,4 +5,5 @@
 - title: "Demos"
   description: "Demostraciones de cálculo científico con Julia."
   path: https://aprendeconalf.es/julia-demos/
+  image: https://aprendeconalf.es/julia-demos/img/logos/sticker.png
   order: 2

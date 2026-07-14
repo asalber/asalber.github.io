@@ -6,12 +6,15 @@
 - title: "Ejercicios"
   description: "Problemas resueltos de Análisis Matemático de variable real."
   path: https://aprendeconalf.es/analisis-ejercicios/
+  image: https://aprendeconalf.es/analisis-ejercicios/img/logos/sticker.png
   order: 2
 - title: "Prácticas"
   description: "Prácticas de Análisis Matemático de Variable Real con ejercicios resueltos en Julia."
   path: https://aprendeconalf.es/analisis-practicas-julia/
+  image: https://aprendeconalf.es/analisis-practicas-julia/img/logos/sticker.png
   order: 3
 - title: "Exámenes"
   description: "Exámenes resueltos de Análisis Matemático de variable Real del grado de Ingeniería Matemática."
   path: https://aprendeconalf.es/analisis-examenes/
+  image: https://aprendeconalf.es/analisis-examenes/img/logos/sticker.png
   order: 4
