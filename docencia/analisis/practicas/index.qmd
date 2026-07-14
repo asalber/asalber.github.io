@@ -1,6 +1,7 @@
 ---
 title: "Prácticas"
 description: "Prácticas de Análisis Matemático de Variable Real con ejercicios resueltos en Julia."
+order: 3
 ---
 
 [Ver las prácticas](https://aprendeconalf.es/analisis-practicas-julia/)

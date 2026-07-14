@@ -1,6 +1,7 @@
 ---
 title: "Manual"
 description: "Introducción a la programación con R para el análisis de datos."
+order: 1
 ---
 
 [Ver el manual](https://aprendeconalf.es/manual-r/)

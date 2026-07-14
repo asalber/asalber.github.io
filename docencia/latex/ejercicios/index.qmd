@@ -1,6 +1,7 @@
 ---
 title: "Ejercicios"
 description: "Ejercicios resueltos para practicar la composición de textos con LaTeX."
+order: 2
 ---
 
 [Ver los ejercicios](https://aprendeconalf.es/latex-ejercicios/)

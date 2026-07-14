@@ -1,6 +1,7 @@
 ---
 title: "Ejercicios"
 description: "Problemas resueltos de Análisis Matemático de variable real."
+order: 2
 ---
 
 [Ver los ejercicios](https://aprendeconalf.es/analisis-ejercicios/)

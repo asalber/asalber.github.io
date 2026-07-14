@@ -1,6 +1,7 @@
 ---
 title: "Prácticas con Julia"
 description: "Prácticas de Aprendizaje Automático con ejercicios resueltos en Julia."
+order: 1
 ---
 
 [Ver las prácticas](https://aprendeconalf.es/aprendizaje-automatico-practicas-julia/)

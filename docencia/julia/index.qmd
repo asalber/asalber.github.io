@@ -1,12 +1,11 @@
 ---
 title: "Julia"
-subtitle: "Programación con Julia: apuntes, ejercicios y exámenes."
 description: "Programación con Julia: apuntes, ejercicios y exámenes."
 listing:
   contents: "*/index.qmd"
   type: grid
   grid-columns: 2
   fields: [title, description]
-  sort: "title"
+  sort: "order"
 page-layout: full
 ---

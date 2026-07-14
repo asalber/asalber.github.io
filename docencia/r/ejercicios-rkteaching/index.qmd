@@ -1,6 +1,7 @@
 ---
 title: "Ejercicios con rkTeaching"
 description: "Ejercicios de Bioestadística con R y el paquete rkTeaching."
+order: 3
 ---
 
 [Ver los ejercicios](https://aprendeconalf.es/docencia/r/ejercicios-rkteaching/)

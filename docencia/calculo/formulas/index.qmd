@@ -1,6 +1,7 @@
 ---
 title: "Fórmulas"
 description: "Hoja de fórmulas, derivadas, integrales y trigonometría."
+order: 3
 ---
 
 - [Fórmulas de Cálculo (PDF)](https://github.com/asalber/formulas-calculo/raw/master/formulas-calculo.pdf)

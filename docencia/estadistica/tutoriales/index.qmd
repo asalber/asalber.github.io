@@ -1,6 +1,7 @@
 ---
 title: "Tutoriales"
 description: "Artículos didácticos sobre Estadística y sus aplicaciones."
+order: 5
 ---
 
 [Ver los tutoriales](https://aprendeconalf.es/docencia/estadistica/tutoriales/)

@@ -1,6 +1,7 @@
 ---
 title: "Prácticas"
 description: "Prácticas de Estadística con R."
+order: 3
 ---
 
 [Ver las prácticas](https://aprendeconalf.es/estadistica-practicas-r/)

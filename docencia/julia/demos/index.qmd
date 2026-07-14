@@ -1,6 +1,7 @@
 ---
 title: "Demos"
 description: "Demostraciones de cálculo científico con Julia."
+order: 2
 ---
 
 [Ver las demostraciones](https://aprendeconalf.es/julia-demos/)

@@ -1,6 +1,7 @@
 ---
 title: "Ejercicios"
 description: "Problemas de Estadística con soluciones."
+order: 2
 ---
 
 [Ver los ejercicios](https://aprendeconalf.es/docencia/estadistica/ejercicios/)

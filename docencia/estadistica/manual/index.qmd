@@ -1,6 +1,7 @@
 ---
 title: "Manual"
 description: "La Estadística al alcance de todos, orientado a la Bioestadística."
+order: 1
 ---
 
 [Ver el manual](https://aprendeconalf.es/estadistica-manual/)

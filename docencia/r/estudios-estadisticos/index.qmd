@@ -1,6 +1,7 @@
 ---
 title: "Estudios estadísticos"
 description: "Tipos de estudios estadísticos más habituales con ejemplos implementados en R."
+order: 4
 ---
 
 [Ver la guía completa](https://aprendeconalf.es/docencia/r/estudios-estadisticos/)

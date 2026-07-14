@@ -1,6 +1,7 @@
 ---
 title: "Manual"
 description: "Aprende a manejar el gestor de versiones más usado."
+order: 1
 ---
 
 [Ver el manual (presentación)](https://aprendeconalf.es/manual-git)

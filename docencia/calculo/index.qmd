@@ -1,12 +1,11 @@
 ---
 title: "Cálculo"
-subtitle: "Cálculo en una y varias variables: apuntes, ejercicios y exámenes."
 description: "Cálculo en una y varias variables: apuntes, ejercicios y exámenes."
 listing:
   contents: "*/index.qmd"
   type: grid
   grid-columns: 3
   fields: [title, description]
-  sort: "title"
+  sort: "order"
 page-layout: full
 ---

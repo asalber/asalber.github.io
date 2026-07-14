@@ -1,6 +1,7 @@
 ---
 title: "Fórmulas"
 description: "Hoja de fórmulas de Estadística y Probabilidad y tablas estadísticas."
+order: 6
 ---
 
 - [Fórmulas de Estadística y Probabilidad (PDF)](https://github.com/asalber/formulas-estadistica/raw/master/formulas-estadistica.pdf)

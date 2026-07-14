@@ -1,12 +1,11 @@
 ---
 title: "Git"
-subtitle: "Gestión de versiones con Git: manual y ejercicios prácticos."
 description: "Gestión de versiones con Git: manual y ejercicios prácticos."
 listing:
   contents: "*/index.qmd"
   type: grid
   grid-columns: 2
   fields: [title, description]
-  sort: "title"
+  sort: "order"
 page-layout: full
 ---

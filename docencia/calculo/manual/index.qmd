@@ -1,6 +1,7 @@
 ---
 title: "Manual"
 description: "Aprende a aplicar el Cálculo sin sufrir."
+order: 1
 ---
 
 [Ver el manual (PDF)](https://github.com/asalber/calculo-manual/raw/master/manual_calculo.pdf)

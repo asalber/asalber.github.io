@@ -1,6 +1,7 @@
 ---
 title: "Manual"
 description: "Introducción a la composición de textos científicos con LaTeX."
+order: 1
 ---
 
 [Ver el manual](https://aprendeconalf.es/latex-manual/)

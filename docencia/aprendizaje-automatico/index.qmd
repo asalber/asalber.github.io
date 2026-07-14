@@ -1,12 +1,11 @@
 ---
 title: "Aprendizaje Automático"
-subtitle: "Prácticas de Aprendizaje Automático en Julia y R."
 description: "Prácticas de Aprendizaje Automático en Julia y R."
 listing:
   contents: "*/index.qmd"
   type: grid
   grid-columns: 2
   fields: [title, description]
-  sort: "title"
+  sort: "order"
 page-layout: full
 ---
