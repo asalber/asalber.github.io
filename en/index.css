@@ -150,6 +150,7 @@ img.home-img {
 .band { padding: 3.5rem 0; overflow: auto; }
 .band.rust     { background-color: #B8573E; }
 .band.charcoal { background-color: #222322; }
+.band.purple   { background-color: #6f5499; }
 .band .white, .band .white a { color: #fff; }
 
 /* Círculos de categorías con iconos SVG */

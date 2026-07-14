@@ -20,11 +20,11 @@ css: index.css
 :::
 :::
 
-<!-- ================= DOCENCIA (banda teja) ================= -->
+<!-- ================= DOCENCIA (banda morada) ================= -->
 
-::: {.column-screen .band .rust}
+::: {.column-screen .band .purple}
 ::: {.home-column-image .col-left}
-[![](images/homepage/docencia.png){.home-img fig-alt="Gráfica de la campana de Gauss"}](docencia/index.qmd)
+[![](images/homepage/docencia2.jpg){.home-img fig-alt="Demostración gráfica del teorema de Pitágoras"}](docencia/index.qmd)
 :::
 
 ::: {.home-column-text .col-right}
@@ -80,9 +80,9 @@ css: index.css
 :::
 :::
 
-<!-- ================= PUBLICACIONES (banda oscura) ================= -->
+<!-- ================= PUBLICACIONES (banda morada) ================= -->
 
-::: {.column-screen .band .charcoal}
+::: {.column-screen .band .purple}
 ::: {.home-column-image .col-left}
 [![](images/homepage/publicaciones.png){.home-img fig-alt="Diagrama de dispersión con recta de regresión"}](publicaciones/index.qmd)
 :::

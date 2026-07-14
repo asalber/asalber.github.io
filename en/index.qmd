@@ -20,9 +20,9 @@ css: index.css
 :::
 :::
 
-<!-- ================= TEACHING (rust band) ================= -->
+<!-- ================= TEACHING (purple band) ================= -->
 
-::: {.column-screen .band .rust}
+::: {.column-screen .band .purple}
 ::: {.home-column-image .col-left}
 [![](images/homepage/docencia.png){.home-img fig-alt="Gaussian bell curve plot"}](teaching/index.qmd)
 :::
@@ -80,9 +80,9 @@ css: index.css
 :::
 :::
 
-<!-- ================= PUBLICATIONS (dark band) ================= -->
+<!-- ================= PUBLICATIONS (purple band) ================= -->
 
-::: {.column-screen .band .charcoal}
+::: {.column-screen .band .purple}
 ::: {.home-column-image .col-left}
 [![](images/homepage/publicaciones.png){.home-img fig-alt="Scatter plot with regression line"}](publications/index.qmd)
 :::
