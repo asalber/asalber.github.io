@@ -1,0 +1,17 @@
+---
+title: "Documentos científicos con Quarto"
+description: "Por qué he dejado LaTeX por Quarto para escribir documentos científicos y técnicos."
+date: 2024-03-13
+categories: [Quarto, Manual]
+---
+
+LaTeX es potente, pero tiene una curva de aprendizaje elevada y una sintaxis
+compleja; además integrar código de otros lenguajes de programación resulta
+complicado. [Quarto](https://quarto.org) permite crear documentos en PDF,
+HTML y EPUB integrando código de Python, Julia, R y otros lenguajes,
+generando informes completamente reproducibles con fórmulas matemáticas,
+gráficos, tablas, algoritmos y referencias cruzadas y bibliográficas.
+
+Puedes consultar el manual completo en
+[docencia/quarto](../../docencia/quarto/index.qmd), con instalación, creación
+de proyectos, elementos científicos y compilación en múltiples formatos.

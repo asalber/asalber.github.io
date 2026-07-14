@@ -1,0 +1,14 @@
+---
+title: "Curso de Git"
+description: "Introducción al sistema de control de versiones más usado del mundo."
+date: 2020-09-27
+categories: [Git, Manual]
+---
+
+[Git](https://git-scm.com/) permite gestionar los cambios que se realizan
+sobre los elementos de un proyecto o repositorio, sea cual sea su
+contenido (documentos, código, imágenes...): rastrea cambios, identifica
+quién los hizo y cuándo, y permite recuperar versiones anteriores. Este
+mini curso nació después de impartir formación en programación.
+
+Manual y ejercicios en [docencia/git](../../docencia/git/index.qmd).

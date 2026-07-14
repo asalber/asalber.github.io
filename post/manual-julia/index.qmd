@@ -1,0 +1,14 @@
+---
+title: "Manual de Julia"
+description: "Introducción a Julia, un lenguaje tan sencillo como Python o R pero con la velocidad de C."
+date: 2023-07-28
+categories: [Julia, Manual]
+---
+
+[Julia](https://julialang.org/) combina la sencillez de aprendizaje de
+Python o R con la velocidad de C, lo que lo convierte en una opción
+interesante para cálculos computacionalmente intensivos. Se incorporó como
+lenguaje básico en el grado de Ingeniería Matemática de la Universidad CEU
+San Pablo a partir del curso 2022-2023.
+
+Manual completo en [docencia/julia](../../docencia/julia/index.qmd).

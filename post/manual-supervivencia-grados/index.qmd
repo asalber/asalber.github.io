@@ -1,0 +1,22 @@
+---
+title: "Manual de supervivencia para grados"
+description: "Consejos prácticos para aprovechar al máximo tus estudios de grado, especialmente en primer curso."
+date: 2020-09-15
+categories: [Docencia]
+---
+
+La mayor parte de las personas que empieza un grado lo acaba con éxito: la
+clave está en mantener la perspectiva y el esfuerzo sostenido. Algunos
+consejos:
+
+- Sé protagonista activo de tu aprendizaje: prepara las clases con
+  antelación y amplía por tu cuenta lo que se imparte.
+- Ve al profesorado como aliado, no como adversario.
+- Participa activamente en clases magistrales, seminarios y prácticas, y
+  pregunta sin miedo.
+- Usa las tutorías para resolver dudas concretas.
+- Consulta varias fuentes bibliográficas, no solo los apuntes.
+- Escribe esquemas y resúmenes para consolidar las ideas.
+- Estudia en grupo: desarrolla habilidades sociales y enriquece la
+  comprensión con perspectivas distintas.
+- Planifica tu tiempo de forma realista y revisa periódicamente tu progreso.

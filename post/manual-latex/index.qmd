@@ -1,0 +1,15 @@
+---
+title: "Manual de LaTeX"
+description: "Introducción breve a LaTeX para quienes se inician en la composición de documentos científicos."
+date: 2022-09-14
+categories: [LaTeX, Manual]
+---
+
+[LaTeX](https://www.latex-project.org/) es bien conocido por los
+matemáticos por facilitar la escritura de fórmulas y ecuaciones complejas.
+Aunque su curva de aprendizaje es larga, el esfuerzo merece la pena,
+especialmente frente a herramientas como Word en proyectos extensos. Este
+manual breve está pensado para quienes se inician, con los conocimientos
+esenciales para empezar a crear documentos propios.
+
+Manual completo en [docencia/latex](../../docencia/latex/index.qmd).

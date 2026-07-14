@@ -1,0 +1,15 @@
+---
+title: "Hojas de fórmulas de Estadística y Cálculo"
+description: "Dos chuletas de referencia rápida con las principales fórmulas de Cálculo y Estadística."
+date: 2022-01-23
+categories: [Estadística, Cálculo]
+---
+
+Dos documentos de referencia rápida con un resumen de las principales
+fórmulas utilizadas en Cálculo y Estadística, pensados para facilitar el
+aprendizaje y la preparación de exámenes.
+
+- [Hoja de fórmulas de Cálculo](../../docencia/calculo/index.qmd)
+- [Hoja de fórmulas de Estadística](../../docencia/estadistica/index.qmd)
+
+Si encuentras algún error, [contacta conmigo](../../contacto.qmd).

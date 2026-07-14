@@ -1,0 +1,16 @@
+---
+title: "Epidemiología para tiempos de pandemia"
+description: "Conceptos básicos de Epidemiología para entender mejor la información sobre enfermedades como la COVID-19."
+date: 2021-11-09
+categories: [Estadística, Epidemiología]
+---
+
+Muchos términos epidemiológicos se usan de manera errónea, incluso por los
+propios medios de comunicación, y generan confusión en la población. Este
+tutorial, presentado en la Semana de la Ciencia y la Innovación de Madrid
+2021, aclara los conceptos epidemiológicos fundamentales empleados en el
+seguimiento de enfermedades como la COVID-19: valores predictivos de un
+test diagnóstico y otros índices basados en probabilidades.
+
+Consulta el tutorial completo en
+[docencia/estadistica](../../docencia/estadistica/index.qmd).

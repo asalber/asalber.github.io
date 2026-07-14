@@ -1,0 +1,17 @@
+---
+title: "Cálculo numérico y simbólico con Julia"
+description: "Presentación sobre el uso de Julia para cálculo simbólico y numérico en un seminario de innovación docente."
+date: 2023-07-28
+categories: [Julia, Matemáticas]
+---
+
+Presentación de cómo utilizar [Julia](https://julialang.org/) tanto para
+cálculo simbólico como numérico, expuesta en un seminario de innovación
+docente de la Universidad de La Coruña. Documenta la introducción de Julia
+en las prácticas de Análisis, Álgebra Lineal y Matemática Discreta del grado
+de Ingeniería Matemática de la Universidad CEU San Pablo durante el curso
+2023-2024: representación gráfica, cálculo de límites, derivadas,
+integrales, resolución de ecuaciones, ecuaciones diferenciales y Álgebra
+Lineal.
+
+Más recursos en [docencia/julia](../../docencia/julia/index.qmd).
