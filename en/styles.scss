@@ -15,7 +15,7 @@ $font-family-sans-serif: "Roboto", "Segoe UI", Arial, sans-serif;
 $headings-font-family: "Lato", "Roboto", sans-serif;
 $headings-font-weight: 700;
 
-$navbar-hl: $honey;
+$navbar-hl: #F5A05A;
 
 /*-- scss:rules --*/
 
@@ -24,7 +24,7 @@ $navbar-hl: $honey;
 
 .navbar {
   .navbar-logo { max-height: 40px; }
-  a:hover { color: $honey !important; }
+  a:hover { color: #F5A05A !important; }
 }
 
 // Tarjetas de listados (blog, docencia, proyectos)

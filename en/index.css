@@ -173,8 +173,8 @@ img.home-img {
 .honey-white { filter: invert(100%); }
 .honey-white:hover { filter: invert(95%) sepia(43%) saturate(3246%) hue-rotate(313deg) brightness(100%) contrast(102%); }
 
-.category-column a.white { color: #fff; }
-.category-column a.dark  { color: #222322; }
+.category-column a.white,
+.category-column a.dark { color: #F5A05A; }
 
 @media (max-width: 1200px) {
   .col-left, .col-right { margin: 0 auto; float: none; }
