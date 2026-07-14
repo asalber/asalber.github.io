@@ -74,7 +74,7 @@ include-after-body:
 ::: {.column-screen .band}
 ::: {.column-page}
 <center>
-<h1 class="heading-home">Blog</h1>
+<h1 class="heading-home" style="color:#6f5499;">Blog</h1>
 [Últimas entradas]{style="font-style:italic;"}
 </center>
 
