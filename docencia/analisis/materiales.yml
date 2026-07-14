@@ -1,6 +1,7 @@
 - title: "Manual"
   description: "Introducción al Análisis Matemático de variable real con ejemplos y aplicaciones."
   path: https://aprendeconalf.es/analisis-manual/
+  image: https://aprendeconalf.es/analisis-manual/img/logos/sticker.png
   order: 1
 - title: "Ejercicios"
   description: "Problemas resueltos de Análisis Matemático de variable real."
