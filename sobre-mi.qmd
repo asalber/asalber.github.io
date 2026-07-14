@@ -1,0 +1,42 @@
+---
+title: "Ana García López"
+subtitle: "Profesora de Matemáticas y Estadística"
+image: images/logo.png
+toc: false
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ana@example.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/tu-usuario
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.es
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+---
+
+## Biografía
+
+Trabajo como profesora de Matemáticas y Estadística en la Universidad de Ejemplo.
+Investigo en Ciencia de Datos, Bioestadística y Aprendizaje Automático. En esta
+web comparto mis materiales docentes y mis publicaciones de investigación como
+Recursos Educativos Libres.
+
+## Intereses
+
+- Matemática Aplicada
+- Bioestadística
+- Aprendizaje Automático
+- Ciencia de los Datos
+
+## Educación
+
+- **Doctora en Inteligencia Artificial**, 2016 — Universidad Politécnica de Madrid
+- **Licenciada en Matemáticas**, 1993 — Universidad Complutense de Madrid

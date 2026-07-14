@@ -1,0 +1,39 @@
+---
+title: "Ana García López"
+subtitle: "Lecturer in Mathematics and Statistics"
+image: images/logo.png
+toc: false
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ana@example.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/tu-usuario
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.es
+---
+
+## Biography
+
+I work as a lecturer in Mathematics and Statistics at Example University.
+My research focuses on Data Science, Biostatistics and Machine Learning. On this
+website I share my teaching materials and research publications as Open
+Educational Resources.
+
+## Interests
+
+- Applied Mathematics
+- Biostatistics
+- Machine Learning
+- Data Science
+
+## Education
+
+- **PhD in Artificial Intelligence**, 2016 — Technical University of Madrid
+- **BSc in Mathematics**, 1993 — Complutense University of Madrid

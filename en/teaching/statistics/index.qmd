@@ -1,0 +1,11 @@
+---
+title: "Statistics"
+description: "Lecture notes, solved exercises and labs for Statistics."
+image: featured.png
+---
+
+## Materials
+
+- [Lecture notes](#)
+- [Solved exercises](#)
+- [Labs with R](#)

@@ -1,0 +1,61 @@
+/*-- scss:defaults --*/
+
+// Paleta inspirada en ALA Labs (labs.ala.org.au)
+$rust:     #B8573E;   // teja
+$flamingo: #E06E53;   // coral
+$honey:    #FFC557;   // miel
+$charcoal: #222322;   // casi negro
+$paper:    #EEECEA;
+
+$primary:    $rust;
+$secondary:  $flamingo;
+$link-color: $rust;
+
+$font-family-sans-serif: "Roboto", "Segoe UI", Arial, sans-serif;
+$headings-font-family: "Lato", "Roboto", sans-serif;
+$headings-font-weight: 700;
+
+$navbar-hl: $honey;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.navbar {
+  .navbar-logo { max-height: 40px; }
+  a:hover { color: $honey !important; }
+}
+
+// Tarjetas de listados (blog, docencia, proyectos)
+.quarto-grid-item {
+  border: 1px solid #e6e2dd;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: transform .15s ease, box-shadow .15s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: rgba(17,17,26,.05) 0 1px 0, rgba(184,87,62,.25) 0 0 14px;
+  }
+  .card-title { color: $charcoal; font-weight: 700; }
+}
+
+.quarto-category, .listing-category {
+  background-color: lighten($honey, 22%) !important;
+  color: darken($rust, 8%) !important;
+  border: none !important;
+  border-radius: 999px !important;
+}
+
+.btn-primary {
+  background-color: $rust;
+  border-color: $rust;
+  &:hover { background-color: darken($rust, 8%); border-color: darken($rust, 8%); }
+}
+
+.about-entity .about-link {
+  border-color: $rust !important;
+  color: $rust !important;
+  &:hover { background-color: $rust !important; color: #fff !important; }
+}

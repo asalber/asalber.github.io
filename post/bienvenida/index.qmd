@@ -1,0 +1,13 @@
+---
+title: "¡Bienvenida a la nueva web!"
+description: "Estreno web hecha con Quarto para compartir mis materiales docentes y publicaciones."
+date: 2026-07-13
+categories: [Noticias, Quarto]
+image: featured.png
+---
+
+Me alegra anunciar el estreno de esta web, construida con [Quarto](https://quarto.org),
+donde iré publicando mis materiales docentes, apuntes, ejercicios y artículos de
+investigación.
+
+Puedes empezar por la sección de [Docencia](../../docencia/index.qmd).

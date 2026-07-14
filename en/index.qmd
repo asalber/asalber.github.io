@@ -1,0 +1,132 @@
+---
+pagetitle: "Learn with Ana"
+page-layout: custom
+toc: false
+anchor-sections: false
+css: index.css
+---
+
+::: {.hero-container}
+::: {.hero-image}
+::: {}
+[LEARN]{.title-top style="display:block;"}
+[WITH ANA]{.title-bottom style="display:block;"}
+[Open Educational Resources on Mathematics,<br>Statistics and Programming]{.title-byline style="display:block;"}
+:::
+::: {.credit-text}
+Image generated with matplotlib — replace it at `images/hero.jpg`
+:::
+:::
+:::
+
+::: {.column-body style="padding: 3rem 0 2.5rem 0;"}
+# Welcome {.heading-home style="text-align:center;"}
+
+This website gathers my teaching materials and research publications as Open
+Educational Resources: lecture notes, solved exercises, labs and articles on
+Mathematics, Statistics and Data Science. I hope you find them useful.
+:::
+
+<!-- ================= TEACHING (rust band) ================= -->
+
+::: {.column-screen .band .rust}
+::: {.home-column-image .col-left}
+[![](images/homepage/docencia.png){.home-img fig-alt="Gaussian bell curve plot"}](teaching/index.qmd)
+:::
+
+::: {.home-column-text .col-right}
+<center>
+<h1 class="heading-home" style="color:#fff;">Teaching</h1>
+[Lecture notes, exercises and labs for my courses]{style="color:#fff; font-style:italic;"}
+</center>
+
+::: {.category-row}
+::: {.category-column}
+<a href="teaching/statistics/index.html"><img src="images/vectors/chart.svg" class="category-image honey-white" alt="Statistics"></a>
+<h4><a class="white" href="teaching/statistics/index.html">Statistics</a></h4>
+:::
+::: {.category-column}
+<a href="teaching/python/index.html"><img src="images/vectors/code.svg" class="category-image honey-white" alt="Python"></a>
+<h4><a class="white" href="teaching/python/index.html">Python</a></h4>
+:::
+::: {.category-column}
+<a href="teaching/index.html"><img src="images/vectors/sigma.svg" class="category-image honey-white" alt="All courses"></a>
+<h4><a class="white" href="teaching/index.html">All</a></h4>
+:::
+:::
+:::
+:::
+
+<!-- ================= BLOG (white band) ================= -->
+
+::: {.column-screen .band}
+::: {.home-column-image .col-right}
+[![](images/homepage/blog.png){.home-img fig-alt="Bar chart"}](post/index.qmd)
+:::
+
+::: {.home-column-text .col-left}
+<center>
+<h1 class="heading-home">Blog</h1>
+[Articles, tutorials and news]{style="font-style:italic;"}
+</center>
+
+::: {.category-row}
+::: {.category-column}
+<a href="post/index.html#category=Handbook"><img src="images/vectors/book.svg" class="category-image honey" alt="Handbooks"></a>
+<h4><a class="dark" href="post/index.html#category=Handbook">Handbooks</a></h4>
+:::
+::: {.category-column}
+<a href="post/index.html#category=News"><img src="images/vectors/star.svg" class="category-image honey" alt="News"></a>
+<h4><a class="dark" href="post/index.html#category=News">News</a></h4>
+:::
+::: {.category-column}
+<a href="post/index.html"><img src="images/vectors/list.svg" class="category-image honey" alt="All posts"></a>
+<h4><a class="dark" href="post/index.html">All</a></h4>
+:::
+:::
+:::
+:::
+
+<!-- ================= PUBLICATIONS (dark band) ================= -->
+
+::: {.column-screen .band .charcoal}
+::: {.home-column-image .col-left}
+[![](images/homepage/publicaciones.png){.home-img fig-alt="Scatter plot with regression line"}](publications/index.qmd)
+:::
+
+::: {.home-column-text .col-right}
+<center>
+<h1 class="heading-home" style="color:#fff;">Publications</h1>
+[Research articles on Biostatistics and Machine Learning]{style="color:#fff; font-style:italic;"}
+</center>
+
+::: {.category-row}
+::: {.category-column style="width:50%;"}
+<a href="publications/index.html"><img src="images/vectors/star.svg" class="category-image honey-white" alt="Highlights"></a>
+<h4><a class="white" href="publications/index.html">Highlights</a></h4>
+:::
+::: {.category-column style="width:50%;"}
+<a href="publications/index.html"><img src="images/vectors/list.svg" class="category-image honey-white" alt="Full list"></a>
+<h4><a class="white" href="publications/index.html">Full list</a></h4>
+:::
+:::
+:::
+:::
+
+<!-- ================= PROJECTS (white band) ================= -->
+
+::: {.column-screen .band}
+::: {.home-column-text style="width:60%; margin:0 auto; float:none;"}
+<center>
+<h1 class="heading-home">Projects</h1>
+[Software and tools I develop and maintain]{style="font-style:italic;"}
+</center>
+
+::: {.category-row}
+::: {.category-column style="width:100%;"}
+<a href="projects/index.html"><img src="images/vectors/hexagon.svg" class="category-image honey" alt="Projects"></a>
+<h4><a class="dark" href="projects/index.html">View projects</a></h4>
+:::
+:::
+:::
+:::

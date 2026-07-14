@@ -1,0 +1,8 @@
+---
+title: "Contact"
+toc: false
+---
+
+- 📧 [ana@example.com](mailto:ana@example.com)
+- 🏢 Office 218, Building C — Example University
+- 🕐 Office hours: Monday and Wednesday, 12:30–13:30

@@ -1,0 +1,12 @@
+---
+title: "Welcome to the new website!"
+description: "Launching a new Quarto website to share my teaching materials and publications."
+date: 2026-07-13
+categories: [News, Quarto]
+image: featured.png
+---
+
+I am happy to announce the launch of this website, built with [Quarto](https://quarto.org),
+where I will publish my teaching materials, lecture notes, exercises and research articles.
+
+You can start with the [Teaching](../../teaching/index.qmd) section.

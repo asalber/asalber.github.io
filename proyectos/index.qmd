@@ -1,0 +1,9 @@
+---
+title: "Proyectos"
+listing:
+  contents: proyectos.yml
+  type: grid
+  grid-columns: 2
+  fields: [image, title, description]
+page-layout: full
+---

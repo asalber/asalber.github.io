@@ -1,0 +1,18 @@
+---
+title: "Estadística"
+description: "Apuntes, ejercicios resueltos y prácticas de Estadística."
+image: featured.png
+---
+
+## Materiales
+
+- [Apuntes](#) *(enlaza aquí tus apuntes en Quarto, PDF, etc.)*
+- [Ejercicios resueltos](#)
+- [Prácticas con R](#)
+
+::: {.callout-tip}
+## Consejo
+Cada asignatura puede convertirse en un **proyecto Quarto independiente** (tipo libro
+o web con barra lateral propia) publicado en esta misma subruta, igual que hace
+aprendeconalf.es. Este `index.qmd` es solo la portada de la asignatura.
+:::

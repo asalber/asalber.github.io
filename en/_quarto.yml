@@ -1,0 +1,67 @@
+# ============ ENGLISH SITE (nested project → published at /en/) ============
+project:
+  type: website
+  output-dir: ../_site/en
+
+lang: en
+
+website:
+  title: "Learn with Ana"
+  description: "Open Educational Resources: Mathematics, Statistics and Programming"
+  favicon: images/logo.png
+  site-url: https://example.github.io/en/
+  navbar:
+    background: "#222322"
+    foreground: "#FFFFFF"
+    logo: images/logo.png
+    logo-alt: "Logo"
+    pinned: true
+    search: true
+    right:
+      - href: index.qmd
+        icon: house-door-fill
+        text: " "
+      - text: "About me"
+        href: about-me.qmd
+      - text: "Blog"
+        href: post/index.qmd
+      - text: "Teaching"
+        menu:
+          - text: "All courses"
+            href: teaching/index.qmd
+          - text: "---"
+          - text: "Statistics"
+            href: teaching/statistics/index.qmd
+          - text: "Python"
+            href: teaching/python/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "Contact"
+        href: contact.qmd
+      - icon: globe
+        text: "EN"
+        menu:
+          - text: "🇪🇸 Español"
+            href: /
+          - text: "🇬🇧 English"
+            href: /en/
+      - href: https://github.com/tu-usuario
+        icon: github
+  page-footer:
+    background: "#222322"
+    foreground: "#EEECEA"
+    center: |
+      This work is licensed under
+      [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)
+      · Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    fontsize: 1.1rem
+    linkcolor: "#B8573E"
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

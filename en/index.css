@@ -1,0 +1,156 @@
+/* ----------- PORTADA (estilo ALA Labs) ----------- */
+
+/* HERO con imagen a todo el ancho */
+
+.hero-container {
+  overflow: hidden;
+  position: relative;
+  max-height: 52vh;
+  height: 52vh;
+  margin-top: -1.5rem;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), url(images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #141c25;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 21vh 0;
+}
+
+.title-top {
+  position: relative;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 88px;
+  color: #ffffff;
+  padding-right: 120px;
+  margin-bottom: -4.2rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
+.title-bottom {
+  position: relative;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 88px;
+  color: #EEECEA;
+  padding-left: 120px;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
+.title-byline {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 12px;
+}
+
+.credit-text {
+  position: absolute;
+  text-align: left;
+  left: 2%;
+  bottom: 5%;
+  font-size: 12px;
+  color: #fff;
+  opacity: .85;
+}
+
+@media screen and (max-width: 952px) {
+  .hero-container { max-height: 75vh; display: flex; }
+  .hero-image {
+    position: relative;
+    display: block;
+    padding: 8vh 0;
+  }
+  .title-top, .title-bottom { font-size: 46px; padding: 0; margin: 0; }
+  .title-byline { font-size: 16px; padding: 8px 14px 0 14px; }
+}
+
+/* Bandas alternas con imagen + texto */
+
+.home-column-image {
+  width: 30%;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.home-column-text {
+  width: 34%;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.col-left  { float: left;  margin-left: 14%; }
+.col-right { float: right; margin-right: 14%; }
+
+img.home-img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: rgba(17,17,26,.05) 0 1px 0, rgba(184,87,62,.15) 0 0 8px;
+}
+
+.heading-home {
+  font-size: 2.8rem;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  margin-top: 0;
+}
+
+.band { padding: 3.5rem 0; overflow: auto; }
+.band.rust     { background-color: #B8573E; }
+.band.charcoal { background-color: #222322; }
+.band .white, .band .white a { color: #fff; }
+
+/* Círculos de categorías con iconos SVG */
+
+.category-row { margin-top: 8%; overflow: auto; }
+
+.category-column {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.category-image {
+  display: block;
+  margin: auto;
+  height: 4.2rem;
+  transition: filter .1s;
+}
+
+.category-column h4 { text-align: center; margin-top: .6rem; font-size: 1.05rem; }
+.category-column a { text-decoration: none; }
+
+/* filtro "honey": teja en reposo, miel al pasar el ratón (como ALA) */
+.honey { filter: invert(40%) sepia(35%) saturate(984%) hue-rotate(325deg) brightness(93%) contrast(87%); }
+.honey:hover { filter: invert(95%) sepia(43%) saturate(3246%) hue-rotate(313deg) brightness(100%) contrast(102%); }
+
+.honey-white { filter: invert(100%); }
+.honey-white:hover { filter: invert(95%) sepia(43%) saturate(3246%) hue-rotate(313deg) brightness(100%) contrast(102%); }
+
+.category-column a.white { color: #fff; }
+.category-column a.dark  { color: #222322; }
+
+@media (max-width: 1200px) {
+  .col-left, .col-right { margin: 0 auto; float: none; }
+  .home-column-image, .home-column-text {
+    width: 82%;
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+  .heading-home { text-align: center; }
+}

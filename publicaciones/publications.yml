@@ -1,0 +1,12 @@
+- title: "Clinical-Evolutionary Staging System of Primary Open-Angle Glaucoma Using Optical Coherence Tomography"
+  author: "A. Parra-Blesa, A. Sánchez-Alberca, J. J. García-Medina"
+  date: 2020-01-15
+  description: "Journal of Clinical Medicine · [DOI](https://doi.org/10.3390/jcm9051530) · [PDF](#)"
+  categories: [Bioestadística, Aprendizaje Automático]
+  path: https://doi.org/10.3390/jcm9051530
+- title: "Título de otro artículo de ejemplo"
+  author: "Ana García López y coautores"
+  date: 2018-05-10
+  description: "Nombre de la Revista · [DOI](#) · [PDF](#)"
+  categories: [Estadística]
+  path: "#"

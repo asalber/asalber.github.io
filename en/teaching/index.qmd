@@ -1,0 +1,11 @@
+---
+title: "Teaching"
+subtitle: "Teaching materials for my courses"
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 3
+  fields: [image, title, description]
+  sort: "title"
+page-layout: full
+---

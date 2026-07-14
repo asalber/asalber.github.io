@@ -1,0 +1,11 @@
+---
+title: "Contacto"
+toc: false
+---
+
+- 📧 [ana@example.com](mailto:ana@example.com)
+- 🏢 Despacho 218, Edificio C — Universidad de Ejemplo
+- 🕐 Tutorías: lunes y miércoles de 12:30 a 13:30
+
+Si quieres un formulario de contacto como el del sitio original, puedes incrustar
+uno de [Formspree](https://formspree.io) (gratuito) pegando su HTML aquí.

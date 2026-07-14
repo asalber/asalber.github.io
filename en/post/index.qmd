@@ -1,0 +1,14 @@
+---
+title: "Blog"
+subtitle: "Latest news and updates"
+listing:
+  contents: "*/index.qmd"
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, title, description, date, reading-time, categories]
+  feed: true
+page-layout: full
+---

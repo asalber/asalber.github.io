@@ -1,0 +1,10 @@
+---
+title: "Python"
+description: "Manual de programación en Python con ejercicios."
+image: featured.png
+---
+
+## Materiales
+
+- [Manual de Python](#)
+- [Ejercicios](#)

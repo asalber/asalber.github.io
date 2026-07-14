@@ -1,0 +1,10 @@
+---
+title: "Python"
+description: "Python programming handbook with exercises."
+image: featured.png
+---
+
+## Materials
+
+- [Python handbook](#)
+- [Exercises](#)

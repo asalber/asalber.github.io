@@ -1,0 +1,13 @@
+---
+title: "Publications"
+subtitle: "Research articles"
+listing:
+  contents: publications.yml
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [title, description, author, date, categories]
+page-layout: full
+---

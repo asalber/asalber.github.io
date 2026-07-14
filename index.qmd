@@ -1,0 +1,148 @@
+---
+pagetitle: "Aprende con Ana"
+page-layout: custom
+toc: false
+anchor-sections: false
+css: index.css
+---
+
+::: {.hero-container}
+::: {.hero-image}
+::: {}
+[Aprende con Alf]{.title-top style="display:block;"}
+[Recursos educativos libres]{.title-byline style="display:block;"}
+[Matemáticas, Estadística, Programación, Ciencia de Datos e IA para Educación Superior]{.title-subbyline style="display:block;"}
+
+[<i class="bi bi-mortarboard-fill"></i> Empieza a aprender](docencia/index.qmd){.hero-cta}
+
+![](images/logo.png){.hero-logo fig-alt="Logotipo de Aprende con Alf"}
+:::
+:::
+:::
+
+<!-- ================= DOCENCIA (banda teja) ================= -->
+
+::: {.column-screen .band .rust}
+::: {.home-column-image .col-left}
+[![](images/homepage/docencia.png){.home-img fig-alt="Gráfica de la campana de Gauss"}](docencia/index.qmd)
+:::
+
+::: {.home-column-text .col-right}
+<center>
+<h1 class="heading-home" style="color:#fff;">Docencia</h1>
+[Apuntes, ejercicios y prácticas de mis asignaturas]{style="color:#fff; font-style:italic;"}
+</center>
+
+::: {.category-row}
+::: {.category-column}
+<a href="docencia/estadistica/index.html"><img src="images/vectors/chart.svg" class="category-image honey-white" alt="Estadística"></a>
+<h4><a class="white" href="docencia/estadistica/index.html">Estadística</a></h4>
+:::
+::: {.category-column}
+<a href="docencia/python/index.html"><img src="images/vectors/code.svg" class="category-image honey-white" alt="Python"></a>
+<h4><a class="white" href="docencia/python/index.html">Python</a></h4>
+:::
+::: {.category-column}
+<a href="docencia/index.html"><img src="images/vectors/sigma.svg" class="category-image honey-white" alt="Todas las asignaturas"></a>
+<h4><a class="white" href="docencia/index.html">Todas</a></h4>
+:::
+:::
+:::
+:::
+
+<!-- ================= BLOG (banda blanca) ================= -->
+
+::: {.column-screen .band}
+::: {.home-column-image .col-right}
+[![](images/homepage/blog.png){.home-img fig-alt="Gráfico de barras"}](post/index.qmd)
+:::
+
+::: {.home-column-text .col-left}
+<center>
+<h1 class="heading-home">Blog</h1>
+[Artículos, tutoriales y novedades]{style="font-style:italic;"}
+</center>
+
+::: {.category-row}
+::: {.category-column}
+<a href="post/index.html#category=Manual"><img src="images/vectors/book.svg" class="category-image honey" alt="Manuales"></a>
+<h4><a class="dark" href="post/index.html#category=Manual">Manuales</a></h4>
+:::
+::: {.category-column}
+<a href="post/index.html#category=Noticias"><img src="images/vectors/star.svg" class="category-image honey" alt="Noticias"></a>
+<h4><a class="dark" href="post/index.html#category=Noticias">Noticias</a></h4>
+:::
+::: {.category-column}
+<a href="post/index.html"><img src="images/vectors/list.svg" class="category-image honey" alt="Todos los posts"></a>
+<h4><a class="dark" href="post/index.html">Todos</a></h4>
+:::
+:::
+:::
+:::
+
+<!-- ================= PUBLICACIONES (banda oscura) ================= -->
+
+::: {.column-screen .band .charcoal}
+::: {.home-column-image .col-left}
+[![](images/homepage/publicaciones.png){.home-img fig-alt="Diagrama de dispersión con recta de regresión"}](publicaciones/index.qmd)
+:::
+
+::: {.home-column-text .col-right}
+<center>
+<h1 class="heading-home" style="color:#fff;">Publicaciones</h1>
+[Artículos de investigación en Bioestadística y Aprendizaje Automático]{style="color:#fff; font-style:italic;"}
+</center>
+
+::: {.category-row}
+::: {.category-column style="width:50%;"}
+<a href="publicaciones/index.html"><img src="images/vectors/star.svg" class="category-image honey-white" alt="Destacadas"></a>
+<h4><a class="white" href="publicaciones/index.html">Destacadas</a></h4>
+:::
+::: {.category-column style="width:50%;"}
+<a href="publicaciones/index.html"><img src="images/vectors/list.svg" class="category-image honey-white" alt="Lista completa"></a>
+<h4><a class="white" href="publicaciones/index.html">Lista completa</a></h4>
+:::
+:::
+:::
+:::
+
+<!-- ================= PROYECTOS (banda blanca) ================= -->
+
+::: {.column-screen .band}
+::: {.home-column-text style="width:60%; margin:0 auto; float:none;"}
+<center>
+<h1 class="heading-home">Proyectos</h1>
+[Software y herramientas que desarrollo y mantengo]{style="font-style:italic;"}
+</center>
+
+::: {.category-row}
+::: {.category-column style="width:100%;"}
+<a href="proyectos/index.html"><img src="images/vectors/hexagon.svg" class="category-image honey" alt="Proyectos"></a>
+<h4><a class="dark" href="proyectos/index.html">Ver proyectos</a></h4>
+:::
+:::
+:::
+:::
+
+<!-- ================= VALORES ================= -->
+
+::: {.column-screen}
+::: {.column-page}
+<center><h1><i class="bi bi-heart-fill" style="color:#6f5499;"></i> Nuestros valores</h1></center>
+:::
+
+::: {.values-row}
+::: {.value-card}
+### <i class="bi bi-unlock-fill"></i> Apertura {.value-title}
+Todos los materiales se publican como Recursos Educativos Libres, abiertos y reutilizables por cualquier persona.
+:::
+::: {.value-card}
+### <i class="bi bi-patch-check-fill"></i> Rigor {.value-title}
+Los contenidos se revisan y actualizan de forma continua para ofrecer explicaciones claras y bien fundamentadas.
+:::
+::: {.value-card}
+### <i class="bi bi-clipboard-data-fill"></i> Aprendizaje práctico {.value-title}
+Cada tema se acompaña de ejercicios resueltos y ejemplos con datos reales para aprender haciendo.
+:::
+:::
+:::

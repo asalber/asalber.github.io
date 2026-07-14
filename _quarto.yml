@@ -1,0 +1,77 @@
+# ============ SITIO EN ESPAÑOL (raíz) ============
+# El inglés es un proyecto Quarto anidado en en/ que publica en _site/en/.
+# Renderiza SIEMPRE con ./render.sh (español primero, inglés después).
+
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "post/**/*.qmd"
+    - "docencia/**/*.qmd"
+    - "proyectos/**/*.qmd"
+    - "publicaciones/**/*.qmd"
+    - "!en/"
+
+lang: es
+
+website:
+  title: "Aprende con Ana"
+  description: "Recursos Educativos Libres: Matemáticas, Estadística y Programación"
+  favicon: images/logo.png
+  site-url: https://example.github.io
+  navbar:
+    background: "#222322"
+    foreground: "#FFFFFF"
+    logo: images/logo.png
+    logo-alt: "Logo"
+    pinned: true
+    search: true
+    right:
+      - href: index.qmd
+        icon: house-door-fill
+        text: " "
+      - text: "Sobre mí"
+        href: sobre-mi.qmd
+      - text: "Blog"
+        href: post/index.qmd
+      - text: "Docencia"
+        menu:
+          - text: "Todas las asignaturas"
+            href: docencia/index.qmd
+          - text: "---"
+          - text: "Estadística"
+            href: docencia/estadistica/index.qmd
+          - text: "Python"
+            href: docencia/python/index.qmd
+      - text: "Proyectos"
+        href: proyectos/index.qmd
+      - text: "Publicaciones"
+        href: publicaciones/index.qmd
+      - text: "Contacto"
+        href: contacto.qmd
+      - icon: globe
+        text: "ES"
+        menu:
+          - text: "🇪🇸 Español"
+            href: /
+          - text: "🇬🇧 English"
+            href: /en/
+      - href: https://github.com/tu-usuario
+        icon: github
+  page-footer:
+    background: "#222322"
+    foreground: "#EEECEA"
+    center: |
+      Esta obra está bajo una licencia
+      [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)
+      · Hecha con [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    fontsize: 1.1rem
+    linkcolor: "#B8573E"
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

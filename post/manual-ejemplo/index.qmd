@@ -1,0 +1,10 @@
+---
+title: "Manual de ejemplo"
+description: "Este es un post de muestra para ver cómo queda el listado del blog con imagen, fecha y categorías."
+date: 2026-06-01
+categories: [Manual, Estadística]
+image: featured.png
+---
+
+Este es un post de ejemplo. Duplica esta carpeta para crear nuevas entradas:
+cada post vive en su propia carpeta con un `index.qmd` y una imagen `featured.png`.
