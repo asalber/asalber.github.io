@@ -7,8 +7,8 @@
 .hero-container {
   overflow: hidden;
   position: relative;
-  max-height: 52vh;
-  height: 52vh;
+  max-height: 41.6vh;
+  height: 41.6vh;
   margin-top: -1.5rem;
 }
 
@@ -99,7 +99,7 @@
 }
 
 @media screen and (max-width: 952px) {
-  .hero-container { max-height: 75vh; display: flex; }
+  .hero-container { max-height: 60vh; display: flex; }
   .hero-image {
     position: relative;
     display: block;

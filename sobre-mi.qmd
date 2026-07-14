@@ -21,16 +21,23 @@ about:
 
 ## Biografía
 
-Padre y activista ecologista, trabajo como profesor de Matemáticas y Estadística
-en el Departamento de Matemática Aplicada y Estadística de la Universidad CEU
-San Pablo. Investigo en Ciencia de Datos, Bioestadística y Aprendizaje
-Automático. En esta web comparto mis materiales docentes y mis publicaciones
-de investigación como Recursos Educativos Libres.
+Nací en un lugar de la mancha... famoso por sus molinos de viento y por su hidalgo caballero Don Quijote.
+
+Soy padre, activista ecologista y defensor de conocimiento libre y abierto (_open source_). 
+
+Trabajo como profesor de Matemáticas y Estadística
+en el Departamento de Matemáticas y Ciencia de Datos de la Universidad CEU
+San Pablo. 
+
+Investigo en Ciencia de Datos, Bioestadística y Aprendizaje Automático. 
+
+En esta web comparto mis materiales docentes y mis publicaciones de investigación como **_Recursos Educativos Libres_**.
 
 ## Intereses
 
 - Matemática Aplicada
 - Bioestadística
+- Programación
 - Aprendizaje Automático
 - Ciencia de los Datos
 
