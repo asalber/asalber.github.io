@@ -83,21 +83,14 @@ $navbar-hl: #F5A05A;
 }
 
 // Listados de posts (type: default): la fecha deja de ser una columna
-// aparte y pasa a ir debajo del título/descripción, junto al texto.
-.quarto-post {
-  display: grid !important;
-  grid-template-columns: 1fr 30%;
-  grid-template-areas: "body thumbnail" "metadata thumbnail";
-  align-items: start;
-  column-gap: 2em;
-
-  .body { grid-area: body; }
-  .thumbnail { grid-area: thumbnail; }
-  .metadata {
-    grid-area: metadata;
-    flex-basis: auto;
-    flex-direction: row;
-    color: #6c757d;
-    margin-top: .3em;
-  }
+// aparte y pasa a ir entre el título y la descripción. El propio DOM
+// se reordena por JS (ver post-date.js) moviendo .metadata justo
+// después del título dentro de .body; aquí solo se retocan sus estilos
+// para que se vea bien como línea de texto en lugar de columna lateral.
+.quarto-post .metadata {
+  display: block;
+  flex-basis: auto;
+  color: #6c757d;
+  font-size: .8em;
+  margin: .3em 0;
 }

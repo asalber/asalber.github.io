@@ -11,4 +11,13 @@ listing:
   fields: [image, title, description, date, reading-time, categories]
   feed: true
 page-layout: full
+include-after-body:
+  text: |
+    <script>
+    document.querySelectorAll(".quarto-post").forEach(function (post) {
+      var title = post.querySelector(".listing-title");
+      var meta = post.querySelector(".metadata");
+      if (title && meta) title.insertAdjacentElement("afterend", meta);
+    });
+    </script>
 ---
