@@ -81,3 +81,23 @@ $navbar-hl: #F5A05A;
   color: $rust !important;
   &:hover { background-color: $rust !important; color: #fff !important; }
 }
+
+// Listados de posts (type: default): la fecha deja de ser una columna
+// aparte y pasa a ir debajo del título/descripción, junto al texto.
+.quarto-post {
+  display: grid !important;
+  grid-template-columns: 1fr 30%;
+  grid-template-areas: "body thumbnail" "metadata thumbnail";
+  align-items: start;
+  column-gap: 2em;
+
+  .body { grid-area: body; }
+  .thumbnail { grid-area: thumbnail; }
+  .metadata {
+    grid-area: metadata;
+    flex-basis: auto;
+    flex-direction: row;
+    color: #6c757d;
+    margin-top: .3em;
+  }
+}
