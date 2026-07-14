@@ -184,6 +184,9 @@ img.home-img {
 .honey-white { filter: invert(100%); }
 .honey-white:hover { filter: invert(95%) sepia(43%) saturate(3246%) hue-rotate(313deg) brightness(100%) contrast(102%); }
 
+/* Logotipos de marca (Python, R, Julia...) ya vienen en blanco: sin invert */
+.brand-white:hover { filter: invert(95%) sepia(43%) saturate(3246%) hue-rotate(313deg) brightness(100%) contrast(102%); }
+
 .category-column a.white,
 .category-column a.dark { color: #F5A05A; }
 
