@@ -1,12 +1,96 @@
 - title: "Clinical-Evolutionary Staging System of Primary Open-Angle Glaucoma Using Optical Coherence Tomography"
   author: "A. Parra-Blesa, A. Sánchez-Alberca, J. J. García-Medina"
-  date: 2020-01-15
-  description: "Journal of Clinical Medicine · [DOI](https://doi.org/10.3390/jcm9051530) · [PDF](#)"
-  categories: [Biostatistics, Machine Learning]
+  date: 2020-05-15
+  description: "Journal of Clinical Medicine · [DOI](https://doi.org/10.3390/jcm9051530)"
+  categories: [Biostatistics, Ophthalmology]
   path: https://doi.org/10.3390/jcm9051530
-- title: "Title of another sample article"
-  author: "Ana García López et al."
-  date: 2018-05-10
-  description: "Journal Name · [DOI](#) · [PDF](#)"
-  categories: [Statistics]
-  path: "#"
+- title: "Clasificación por estadios clínico evolutivos del glaucoma primario de ángulo abierto (GPAA) usando valores normalizados obtenidos mediante tomografía de coherencia óptica"
+  author: "A. Sánchez Alberca, M. L. Sánchez Rodríguez, M. Camacho Sampelayo, J. M. Camacho Sampelayo, J. J. García Medina, A. Parra Blesa"
+  date: 2019-01-01
+  description: "XIV Congreso de la Sociedad Española de Glaucoma"
+  categories: [Biostatistics, Ophthalmology]
+- title: "Una nueva taxonomía de colecciones y de funciones de similitud para su comparación"
+  author: "A. Sánchez-Alberca"
+  date: 2018-01-01
+  description: "Pensamiento Matemático · 5ª Jornada Internacional Matemáticas Everywhere"
+  categories: [Mathematics]
+- title: "Clasificación por estadios del glaucoma primario de ángulo abierto usando valores normalizados del anillo BMO"
+  author: "A. Parra Blesa, A. Sánchez Alberca"
+  date: 2018-01-01
+  description: "Congreso de la Sociedad Española de Oftalmología"
+  categories: [Ophthalmology]
+- title: "Análisis estadístico inferencial y descriptivo de las capas retinianas; glaucoma versus no glaucoma"
+  author: "A. Parra Blesa, A. Sánchez Alberca"
+  date: 2018-01-01
+  description: "Congreso de la Sociedad Española de Oftalmología"
+  categories: [Biostatistics, Ophthalmology]
+- title: "Análisis epidemiológico evolutivo del daño sectorizado en la papila y retina papilar a través de OCT. Nueva clasificación de grados de GCAA"
+  author: "A. Parra-Blesa, A. Sánchez-Alberca, M. L. Sánchez-Rodríguez, J. J. García-Medina"
+  date: 2018-01-01
+  description: "25 Congreso Internacional de Optometría, Contactología y Óptica Oftálmica"
+  categories: [Ophthalmology]
+- title: "Innovación en la docencia de Estadística con R y rk.Teaching"
+  author: "A. Sánchez-Alberca"
+  date: 2016-01-01
+  description: "Pensamiento Matemático · Matemáticas Everywhere"
+  categories: [Education, R, Statistics]
+- title: "Bringing R to non-expert users with the package RKTeaching"
+  author: "A. Sánchez Alberca"
+  date: 2015-01-01
+  description: "Boletín de Estadística e Investigación Operativa (BEIO)"
+  categories: [R, Education]
+- title: "Towards a Semantic Catalog of Similarity Measures"
+  author: "A. Sánchez-Alberca"
+  date: 2014-01-01
+  description: "ITHEA International Journal \"Information Content and Processing\" · I.TECH 2014"
+  categories: [Ontologies]
+- title: "Bioestadística Aplicada con SPSS"
+  author: "A. Sánchez-Alberca"
+  date: 2014-01-01
+  description: "Applied biostatistics handbook"
+  categories: [Biostatistics]
+- title: "RKTeaching: a new R package for teaching Statistics"
+  author: "A. Sánchez-Alberca"
+  date: 2013-01-01
+  description: "useR! 2013"
+  categories: [R, Education]
+- title: "RKTeaching: Un paquete de R para la enseñanza de la Estadística"
+  author: "A. Sánchez-Alberca"
+  date: 2012-01-01
+  description: "III Jornadas de Intercambio de Experiencias de Innovación Educativa en Estadística"
+  categories: [R, Education, Statistics]
+- title: "Evolution of neuroendocrine cell population and peptidergic innervation, assessed by discriminant analysis, during postnatal development of the rat prostate"
+  author: "R. Rodríguez, J. M. Pozuelo, A. Sánchez-Alberca, R. Arriazu, et al."
+  date: 2007-01-01
+  description: "Image Analysis and Stereology 26(1), 1-11"
+  categories: [Biostatistics, Biology]
+- title: "AMON: A software system for automatic generation of ontology mappings"
+  author: "A. Sánchez-Alberca, R. García-García, C. S. Sorzano, C. Gutiérrez-Cossío, et al."
+  date: 2005-01-01
+  description: "Workshop on Building and Applying Ontologies for the Semantic Web (BAOW05)"
+  categories: [Ontologies]
+- title: "Herramientas de trabajo cooperativo"
+  author: "A. Sánchez-Alberca"
+  date: 2004-01-01
+  description: "II Jornada Presencial de la Red Temática de Farmacología y Toxicología FARMATOXI"
+  categories: [Education]
+- title: "Framework for automatic generation of ontology mappings"
+  author: "G. Cañadas, M. Fernández López, R. García-García, M. Lama, A. Sánchez-Alberca, et al."
+  date: 2004-01-01
+  description: "Jornadas Iberoamericanas de Ingeniería del Software e Ingeniería del Conocimiento"
+  categories: [Ontologies]
+- title: "Aspectos técnicos de la comunidad virtual de usuarios FARMATOXI"
+  author: "A. Sánchez-Alberca"
+  date: 2002-01-01
+  description: "I Jornada Presencial de la Red Temática de Farmacología y Toxicología FARMATOXI"
+  categories: [Education]
+- title: "FARMATOXI, a new virtual community of pharmacology and toxicology"
+  author: "G. Repetto, V. Rimbau, A. Sánchez-Alberca, M. Reverte, L. F. Alguacil"
+  date: 2001-01-01
+  description: "Fundamental and Clinical Pharmacology"
+  categories: [Pharmacology]
+- title: "FARMATOXI: Red temática de farmacología y toxicología de RedIris"
+  author: "A. Sánchez-Alberca"
+  date: 2000-01-01
+  description: "II Iberoamerican Congress of Pharmacology"
+  categories: [Pharmacology]
