@@ -5,15 +5,20 @@ toc: false
 anchor-sections: false
 css: index.css
 listing:
-  id: home-blog
-  contents: "./post/*/index.qmd"
-  type: default
-  max-items: 5
-  sort: "date desc"
-  fields: [image, title, description, date]
-  image-align: right
-  sort-ui: false
-  filter-ui: false
+  - id: home-blog
+    contents: "./post/*/index.qmd"
+    type: default
+    max-items: 5
+    sort: "date desc"
+    fields: [image, title, description, date]
+    image-align: right
+    sort-ui: false
+    filter-ui: false
+  - id: home-projects
+    contents: proyectos/proyectos.yml
+    type: grid
+    grid-columns: 2
+    fields: [image, title, description]
 include-after-body:
   text: |
     <script>
@@ -122,18 +127,16 @@ include-after-body:
 <!-- ================= PROYECTOS (banda blanca) ================= -->
 
 ::: {.column-screen .band}
-::: {.home-column-text style="width:60%; margin:0 auto; float:none;"}
+::: {.column-page}
 <center>
 <h1 class="heading-home">Proyectos</h1>
 [Software y herramientas que desarrollo y mantengo]{style="font-style:italic;"}
 </center>
 
-::: {.category-row}
-::: {.category-column style="width:100%;"}
-<a href="proyectos/index.html"><img src="images/vectors/hexagon.svg" class="category-image honey" alt="Proyectos"></a>
-<h4><a class="dark" href="proyectos/index.html">Ver proyectos</a></h4>
+:::{#home-projects}
 :::
-:::
+
+<center>[Ver todos los proyectos →](proyectos/index.qmd)</center>
 :::
 :::
 
