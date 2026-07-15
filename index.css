@@ -167,6 +167,15 @@ img.home-img {
   text-align: center;
 }
 
+/* Variante para caber 6 iconos en una sola fila (banda de Docencia) */
+.category-row-6 .category-column {
+  width: 16.666%;
+}
+
+@media screen and (max-width: 952px) {
+  .category-row-6 .category-column { width: 33%; }
+}
+
 .category-image {
   display: block;
   margin: auto;

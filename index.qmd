@@ -42,13 +42,13 @@ include-after-body:
 <!-- ================= DOCENCIA (banda morada) ================= -->
 
 ::: {.column-screen .band .purple}
-::: {.home-column-text style="width:70%; margin:0 auto; float:none;"}
+::: {.home-column-text style="width:90%; margin:0 auto; float:none;"}
 <center>
 <h1 class="heading-home" style="color:#fff;">Docencia</h1>
 [Apuntes, ejercicios y prácticas de mis asignaturas]{style="color:#fff; font-style:italic;"}
 </center>
 
-::: {.category-row}
+::: {.category-row .category-row-6}
 ::: {.category-column}
 <a href="docencia/analisis/index.html"><img src="images/vectors/sigma.svg" class="category-image honey-white" alt="Matemáticas"></a>
 <h4><a class="white" href="docencia/analisis/index.html">Matemáticas</a></h4>
