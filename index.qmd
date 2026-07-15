@@ -42,11 +42,7 @@ include-after-body:
 <!-- ================= DOCENCIA (banda morada) ================= -->
 
 ::: {.column-screen .band .purple}
-::: {.home-column-image .col-left}
-[![](images/homepage/docencia2.jpg){.home-img fig-alt="Demostración gráfica del teorema de Pitágoras"}](docencia/index.qmd)
-:::
-
-::: {.home-column-text .col-right}
+::: {.home-column-text style="width:70%; margin:0 auto; float:none;"}
 <center>
 <h1 class="heading-home" style="color:#fff;">Docencia</h1>
 [Apuntes, ejercicios y prácticas de mis asignaturas]{style="color:#fff; font-style:italic;"}
@@ -62,6 +58,10 @@ include-after-body:
 <h4><a class="white" href="docencia/estadistica/index.html">Estadística</a></h4>
 :::
 ::: {.category-column}
+<a href="docencia/aprendizaje-automatico/index.html"><img src="images/vectors/robot.svg" class="category-image honey-white" alt="Aprendizaje Automático"></a>
+<h4><a class="white" href="docencia/aprendizaje-automatico/index.html">Aprendizaje Automático</a></h4>
+:::
+::: {.category-column}
 <a href="docencia/python/index.html"><img src="images/vectors/python.svg" class="category-image honey-white" alt="Python"></a>
 <h4><a class="white" href="docencia/python/index.html">Python</a></h4>
 :::
@@ -72,10 +72,6 @@ include-after-body:
 ::: {.category-column}
 <a href="docencia/julia/index.html"><img src="images/vectors/julia.svg" class="category-image honey-white" alt="Julia"></a>
 <h4><a class="white" href="docencia/julia/index.html">Julia</a></h4>
-:::
-::: {.category-column}
-<a href="docencia/aprendizaje-automatico/index.html"><img src="images/vectors/robot.svg" class="category-image honey-white" alt="Aprendizaje Automático"></a>
-<h4><a class="white" href="docencia/aprendizaje-automatico/index.html">Aprendizaje Automático</a></h4>
 :::
 :::
 :::
