@@ -157,6 +157,9 @@ img.home-img {
    margin-right: 2em pero no su equivalente a la izquierda */
 #listing-home-blog { margin-left: 2em; }
 
+/* Mismo margen izq/dcha que la banda de Blog para las tarjetas de Proyectos */
+#listing-home-projects { margin-left: 2em; margin-right: 2em; }
+
 /* Círculos de categorías con iconos SVG */
 
 .category-row { margin-top: 3%; overflow: auto; }
