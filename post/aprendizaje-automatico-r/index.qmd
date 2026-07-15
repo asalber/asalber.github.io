@@ -6,11 +6,12 @@ categories: [Aprendizaje Automático, R]
 image: featured.png
 ---
 
-Nueva sección con una colección de prácticas de Aprendizaje Automático con
-ejercicios resueltos y propuestos, orientada especialmente a las Ciencias de
-la Salud, aunque también útil para otros campos. Cubre aprendizaje
-supervisado y no supervisado usando el paquete `tidymodels` de R.
+Me alegra anunciar que ya está disponible una nueva sección sobre Aprendizaje Automático donde he publicado una colección de [prácticas de aprendizaje automático con R](https://aprendeconalf.es/docencia/aprendizaje-automatico/practicas-r/) orientadas sobre todo a Ciencias de la Salud, aunque también pueden ser de utilidad para otros campos.
 
-Las prácticas están disponibles en
-[docencia/aprendizaje-automatico](../../docencia/aprendizaje-automatico/index.qmd).
-Próximamente se añadirán versiones en Python y Julia.
+Han sido muchas las personas que me han escrito para pedir que añadiese materiales sobre aprendizaje automático a la web, y por fin he podido dedicar un tiempo a crear esta sección, que sin duda está ahora muy de moda.
+
+En esta sección se pueden encontrar ejercicios prácticos de aprendizaje supervisado y no supervisado, utilizando el paquete [`tidymodels`](https://www.tidymodels.org/) de R. Cada práctica incluye, como es habitual, ejercicios resueltos y ejercicios propuestos para poner a prueba los conocimientos adquiridos.
+
+En un futuro no lejano espero poder incluir más prácticas de aprendizaje automático con otros lenguajes como Python o Julia.
+
+Espero que os sea útil.

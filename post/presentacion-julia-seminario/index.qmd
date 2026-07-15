@@ -6,13 +6,11 @@ categories: [Julia, Matemáticas]
 image: featured.png
 ---
 
-Presentación de cómo utilizar [Julia](https://julialang.org/) tanto para
-cálculo simbólico como numérico, expuesta en un seminario de innovación
-docente de la Universidad de La Coruña. Documenta la introducción de Julia
-en las prácticas de Análisis, Álgebra Lineal y Matemática Discreta del grado
-de Ingeniería Matemática de la Universidad CEU San Pablo durante el curso
-2023-2024: representación gráfica, cálculo de límites, derivadas,
-integrales, resolución de ecuaciones, ecuaciones diferenciales y Álgebra
-Lineal.
+La semana pasada participé en el seminario de innovación docente organizado por el Grupo de Innovación Docente en Modelización Matemática y Simulación Numérica (M2SINUM) de la Universidad de La Coruña.
 
-Más recursos en [docencia/julia](../../docencia/julia/index.qmd).
+Allí presenté la experiencia docente de la introducción de Julia como lenguaje de computación para las prácticas
+de varias asignaturas (Análisis, Álgebra Lineal y Matemática Discreta) del grado de Ingeniería
+Matemática de la Universidad CEU San Pablo durante este curso 2023-2024. Durante la presentación se mostraron las principales
+razones que han motivado la elección de este lenguaje y se vió cómo utilizar Julia tanto para cálculo simbólico como numérico en distintas áreas de las Matemáticas (representación gráfica de funciones, cálculo de límites, derivadas, integrales, resolución de ecuaciones, ecuaciones diferenciales, Álgebra Lineal, etc.).
+
+Podéis acceder a la presentación con el siguiente enlace: [Cálculo Numérico y Simbólico con Julia](https://aprendeconalf.es/presentacion-calculo-numerico-simbolico-julia).

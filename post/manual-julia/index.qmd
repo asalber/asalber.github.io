@@ -6,10 +6,10 @@ categories: [Julia, Manual]
 image: featured.png
 ---
 
-[Julia](https://julialang.org/) combina la sencillez de aprendizaje de
-Python o R con la velocidad de C, lo que lo convierte en una opción
-interesante para cálculos computacionalmente intensivos. Se incorporó como
-lenguaje básico en el grado de Ingeniería Matemática de la Universidad CEU
-San Pablo a partir del curso 2022-2023.
+Julia es un lenguaje de programación moderno que se caracteriza por ser tan sencillo de aprender como Python o R, pero que es tan rápido como C, lo que lo convierte en una opción muy interesante para realizar cálculos que tienen un alto coste computacional.
 
-Manual completo en [docencia/julia](../../docencia/julia/index.qmd).
+Durante el curso 2022-2023 hemos introducido Julia como uno de los lenguajes de programación básicos en el grado de Ingeniería Matemática y por tal motivo he preparado un pequeño manual de introducción a Julia.
+
+Podéis acceder a él con el siguiente enlace: [Manual de Julia](https://aprendeconalf.es/manual-julia/).
+
+Espero que os resulte útil.
