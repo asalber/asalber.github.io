@@ -73,6 +73,10 @@ include-after-body:
 <a href="docencia/julia/index.html"><img src="images/vectors/julia.svg" class="category-image honey-white" alt="Julia"></a>
 <h4><a class="white" href="docencia/julia/index.html">Julia</a></h4>
 :::
+::: {.category-column}
+<a href="docencia/aprendizaje-automatico/index.html"><img src="images/vectors/robot.svg" class="category-image honey-white" alt="Aprendizaje Automático"></a>
+<h4><a class="white" href="docencia/aprendizaje-automatico/index.html">Aprendizaje Automático</a></h4>
+:::
 :::
 :::
 :::
@@ -141,12 +145,12 @@ include-after-body:
 
 ::: {.column-screen}
 ::: {.column-page}
-<center><h1><i class="bi bi-heart-fill" style="color:#6f5499;"></i> Nuestros valores</h1></center>
+<center><h1><i class="bi bi-heart-fill" style="color:#6f5499;"></i> Mis valores</h1></center>
 :::
 
 ::: {.values-row}
 ::: {.value-card}
-### <i class="bi bi-unlock-fill"></i> Apertura {.value-title}
+### <i class="bi bi-unlock-fill"></i> Conocimiento libre {.value-title}
 Todos los materiales se publican como Recursos Educativos Libres, abiertos y reutilizables por cualquier persona.
 :::
 ::: {.value-card}
