@@ -6,7 +6,9 @@ categories: [R, rkTeaching]
 image: featured.png
 ---
 
-Version 1.3.0 of [rkTeaching](https://github.com/asalber/rkteaching), the R
-package for learning Statistics, is now available. It's updated to work with
-R 3.2.3 and RKWard 0.6.5 — a transitional release ahead of a major update
-that will bring internationalization to the package.
+The 1.3.0 version of the R package rkTeaching for learning Statistics is available to install.
+This version is updated with the 3.2.3 version of R and the 0.6.5 version of RKWard.
+
+This is a transitional version towards a major update that will arrive shortly and will incorporate the internationalization of the package.
+
+To install it visit the page of [rkTeaching](https://github.com/asalber/rkteaching).

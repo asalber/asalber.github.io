@@ -6,9 +6,12 @@ categories: [Statistics, Calculus]
 image: featured.jpg
 ---
 
-Quick-reference cheat sheets with a summary of the main formulas used in
-Calculus and Statistics, handy for learning and exam preparation.
+From now on there are available some cheat sheets for Calculus and Statistics.
+These cheat sheets contains a summary with the main formulas used in Calculus and Statistics.
 
-- [Statistics handbook](../../teaching/statistics/index.qmd)
+The cheat sheets can be downloaded from the following links:
 
-If you spot any mistake in these sheets, please let me know.
+- [Calculus cheat sheets](https://github.com/asalber/formulas-calculo/raw/master/formulas-calculo.pdf)
+- [Statistics cheat sheets](https://github.com/asalber/formulas-estadistica/raw/master/formulas-estadistica.pdf)
+
+I would appreciate if you inform me about any mistake that you detect in this sheets.
