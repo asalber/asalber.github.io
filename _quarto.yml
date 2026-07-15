@@ -80,7 +80,7 @@ website:
       - href: https://github.com/asalber
         icon: github
   page-footer:
-    background: "#222322"
+    background: "#6f5499"
     foreground: "#EEECEA"
     center: |
       Esta obra está bajo una licencia
