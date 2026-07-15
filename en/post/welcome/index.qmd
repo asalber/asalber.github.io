@@ -6,6 +6,8 @@ categories: [News, Quarto]
 image: featured.png
 ---
 
+![](featured.png){.post-featured-image fig-alt="Welcome to the new website!"}
+
 I am happy to announce the launch of this website, built with [Quarto](https://quarto.org),
 where I will publish my teaching materials, lecture notes, exercises and research articles.
 

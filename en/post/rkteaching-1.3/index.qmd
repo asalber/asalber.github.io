@@ -6,6 +6,8 @@ categories: [R, rkTeaching]
 image: featured.png
 ---
 
+![](featured.png){.post-featured-image fig-alt="Released version 1.3.0 of the rkTeaching package"}
+
 The 1.3.0 version of the R package rkTeaching for learning Statistics is available to install.
 This version is updated with the 3.2.3 version of R and the 0.6.5 version of RKWard.
 

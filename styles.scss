@@ -6,10 +6,11 @@ $flamingo: #E06E53;   // coral
 $honey:    #FFC557;   // miel
 $charcoal: #222322;   // casi negro
 $paper:    #EEECEA;
+$purple:   #6f5499;   // morado de la barra de menú
 
 $primary:    $rust;
 $secondary:  $flamingo;
-$link-color: $rust;
+$link-color: $purple;
 
 $font-family-sans-serif: "Roboto", "Segoe UI", Arial, sans-serif;
 $headings-font-family: "Lato", "Roboto", sans-serif;
@@ -44,6 +45,16 @@ $navbar-hl: #F5A05A;
   }
 }
 
+// Imagen destacada de un post, entre el título y el cuerpo
+.post-featured-image {
+  display: block;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 12px;
+}
+
 // Tarjetas de listados (blog, docencia, proyectos)
 .quarto-grid-item {
   border: 1px solid #e6e2dd;
@@ -74,6 +85,28 @@ $navbar-hl: #F5A05A;
   background-color: $rust;
   border-color: $rust;
   &:hover { background-color: darken($rust, 8%); border-color: darken($rust, 8%); }
+}
+
+// Botón morado, a juego con la barra de menú
+.btn-purple {
+  background-color: $purple;
+  border-color: $purple;
+  color: #fff;
+  border-radius: 8px;
+  &:hover, &:focus {
+    background-color: darken($purple, 8%);
+    border-color: darken($purple, 8%);
+    color: #fff;
+  }
+}
+
+// Imagen featured al comienzo de las páginas de proyecto
+.featured-image {
+  display: block;
+  max-height: 450px;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto 1.5rem;
 }
 
 .about-entity .about-link {

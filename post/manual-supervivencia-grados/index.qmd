@@ -6,6 +6,8 @@ categories: [Docencia]
 image: featured.jpg
 ---
 
+![](featured.jpg){.post-featured-image fig-alt="Manual de supervivencia para grados"}
+
 En este artículo ofrezco varios consejos o buenas prácticas para ayudar a estudiantes de grado, especialmente durante su primer año, para sacarle el máximo partido a las clases, rentabilizar mejor su trabajo y culminar su proceso de aprendizaje con éxito.
 
 Los consejos que aquí aparecen se dan desde la experiencia de bastantes años de docencia, y teniendo en cuenta sobre todo, que el autor también fue y sigue siendo alumno.

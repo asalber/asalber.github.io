@@ -6,6 +6,8 @@ categories: [Noticias, Quarto]
 image: featured.png
 ---
 
+![](featured.png){.post-featured-image fig-alt="¡Bienvenida a la nueva web!"}
+
 Me alegra anunciar el estreno de esta web, construida con [Quarto](https://quarto.org),
 donde iré publicando mis materiales docentes, apuntes, ejercicios y artículos de
 investigación.

@@ -6,6 +6,8 @@ categories: [Statistics, Calculus]
 image: featured.jpg
 ---
 
+![](featured.jpg){.post-featured-image fig-alt="Calculus and Statistics cheat sheets"}
+
 From now on there are available some cheat sheets for Calculus and Statistics.
 These cheat sheets contains a summary with the main formulas used in Calculus and Statistics.
 

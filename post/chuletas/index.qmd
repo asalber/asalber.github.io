@@ -6,6 +6,8 @@ categories: [Estadística, Cálculo]
 image: featured.jpg
 ---
 
+![](featured.jpg){.post-featured-image fig-alt="Hojas de fórmulas de Estadística y Cálculo"}
+
 A partir de ahora están disponibles varias hojas de fórmulas de cálculo y Estadística.
 
 Estas hojas contienen un resumen con las principales fórmulas utilizadas en Cálculo y Estadística.

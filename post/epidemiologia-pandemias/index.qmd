@@ -6,6 +6,8 @@ categories: [Estadística, Epidemiología]
 image: featured.png
 ---
 
+![](featured.png){.post-featured-image fig-alt="Epidemiología para tiempos de pandemia"}
+
 Debido a la epidemia provocada por el coronavirus, la Epidemiología se ha convertido en una de las ramas de la medicina que más interés despiertan.
 
 En estos tiempos de pandemia un montón de términos técnicos de la Epidemiología se han convertido en lugares comunes gracias a los medios de comunicación. Sin embargo, muchos de estos términos se utilizan de manera errónea, incluso por los propios medios de comunicación, y generan confusión para la población no experta.

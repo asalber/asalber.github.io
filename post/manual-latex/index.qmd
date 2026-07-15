@@ -6,6 +6,8 @@ categories: [LaTeX, Manual]
 image: featured.png
 ---
 
+![](featured.png){.post-featured-image fig-alt="Manual de LaTeX"}
+
 $\LaTeX$ es un sistema de composición de documentos bien conocido por los matemáticos ya que facilita la escritura de fórmulas y ecuaciones y, en general, todo el proceso de creación de un documento científico o técnico.
 
 Lo conocí cuando estudiaba la carrera de Matemáticas y quedé maravillado por su lógica y la belleza de los documentos finales. Desde entonces ha sido mi procesador de textos y nunca me ha fallado.

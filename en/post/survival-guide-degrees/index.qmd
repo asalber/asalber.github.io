@@ -6,6 +6,8 @@ categories: [Teaching]
 image: featured.jpg
 ---
 
+![](featured.jpg){.post-featured-image fig-alt="Survival guide for degrees"}
+
 In this post I offer some advice or tips that can help undergraduate students, especially during their first years, to be successful making the most of classes and learning to maximize their work.
 
 I give this pieces of advice from a deep teaching background and from my own experience as a student.

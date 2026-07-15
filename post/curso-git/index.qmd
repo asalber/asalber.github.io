@@ -6,6 +6,8 @@ categories: [Git, Manual]
 image: featured.png
 ---
 
+![](featured.png){.post-featured-image fig-alt="Curso de Git"}
+
 _¿Conoces Git?_
 
 Si no lo conoces deberías, porque no importa a lo que te dediques, una vez aprendas a usarlo no podrás vivir sin él.

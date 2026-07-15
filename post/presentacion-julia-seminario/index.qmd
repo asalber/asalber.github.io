@@ -6,6 +6,8 @@ categories: [Julia, Matemáticas]
 image: featured.png
 ---
 
+![](featured.png){.post-featured-image fig-alt="Cálculo numérico y simbólico con Julia"}
+
 La semana pasada participé en el seminario de innovación docente organizado por el Grupo de Innovación Docente en Modelización Matemática y Simulación Numérica (M2SINUM) de la Universidad de La Coruña.
 
 Allí presenté la experiencia docente de la introducción de Julia como lenguaje de computación para las prácticas
