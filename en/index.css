@@ -159,7 +159,7 @@ img.home-img {
 
 /* Círculos de categorías con iconos SVG */
 
-.category-row { margin-top: 10%; overflow: auto; }
+.category-row { margin-top: 3%; overflow: auto; }
 
 .category-column {
   float: left;
