@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Learn with Alf</title>
+<link>https://aprendeconalf.es/en/post/</link>
+<atom:link href="https://aprendeconalf.es/en/post/index.xml" rel="self" type="application/rss+xml"/>
+<description>Open Educational Resources: Mathematics, Statistics, Programming, Data Science and AI</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Sun, 12 Jul 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome to the new website!</title>
+  <link>https://aprendeconalf.es/en/post/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://aprendeconalf.es/en/post/welcome/featured.png" class="post-featured-image img-fluid" alt="Welcome to the new website!"></p>
+<p>I am happy to announce the launch of this website, built with <a href="https://quarto.org">Quarto</a>, where I will publish my teaching materials, lecture notes, exercises and research articles.</p>
+<p>You can start with the <a href="../../teaching/index.html">Teaching</a> section.</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <category>Quarto</category>
+  <guid>https://aprendeconalf.es/en/post/welcome/</guid>
+  <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://aprendeconalf.es/en/post/welcome/featured.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
+<item>
+  <title>Calculus and Statistics cheat sheets</title>
+  <link>https://aprendeconalf.es/en/post/cheat-sheet/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://aprendeconalf.es/en/post/cheat-sheet/featured.jpg" class="post-featured-image img-fluid" alt="Calculus and Statistics cheat sheets"></p>
+<p>From now on there are available some cheat sheets for Calculus and Statistics. These cheat sheets contains a summary with the main formulas used in Calculus and Statistics.</p>
+<p>The cheat sheets can be downloaded from the following links:</p>
+<ul>
+<li><a href="https://github.com/asalber/formulas-calculo/raw/master/formulas-calculo.pdf">Calculus cheat sheets</a></li>
+<li><a href="https://github.com/asalber/formulas-estadistica/raw/master/formulas-estadistica.pdf">Statistics cheat sheets</a></li>
+</ul>
+<p>I would appreciate if you inform me about any mistake that you detect in this sheets.</p>
+
+
+
+ ]]></description>
+  <category>Statistics</category>
+  <category>Calculus</category>
+  <guid>https://aprendeconalf.es/en/post/cheat-sheet/</guid>
+  <pubDate>Wed, 01 Nov 2017 23:00:00 GMT</pubDate>
+  <media:content url="https://aprendeconalf.es/en/post/cheat-sheet/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Survival guide for degrees</title>
+  <link>https://aprendeconalf.es/en/post/survival-guide-degrees/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://aprendeconalf.es/en/post/survival-guide-degrees/featured.jpg" class="post-featured-image img-fluid" alt="Survival guide for degrees"></p>
+<p>In this post I offer some advice or tips that can help undergraduate students, especially during their first years, to be successful making the most of classes and learning to maximize their work.</p>
+<p>I give this pieces of advice from a deep teaching background and from my own experience as a student.</p>
+<p>Most of this tips could seem obvious but many students fail to put them into practice.</p>
+<section id="self-motivation" class="level2">
+<h2 class="anchored" data-anchor-id="self-motivation">Self Motivation</h2>
+<p>Motivation is the key for success in every project, not only in your academic education, but also in your professional life. Without motivation you are likely to give up when you face the first learning difficulties or trouble, and there will be for sure. Therefore, you should bear in mind the reasons that made you start this way (especially when you have difficulties). That is, try to walk with an eye in the goal and the other in the path.</p>
+<p>A grade require a lot of effort, but you must think that many people, even with less capabilities than you, have finished it successfully.</p>
+</section>
+<section id="be-proactive" class="level2">
+<h2 class="anchored" data-anchor-id="be-proactive">Be proactive</h2>
+<p>This is the big challenge because in primary or secondary school students got used to follow the steps of the teacher, and is the teacher who usually drives the learning process. But higher education is not compulsory and here is the student who has take the initiative driving his/her learning.</p>
+<section id="what-does-it-mean-to-be-proactive" class="level3">
+<h3 class="anchored" data-anchor-id="what-does-it-mean-to-be-proactive">What does it mean to be proactive</h3>
+<ul>
+<li>Explore the subject by yourself.</li>
+<li>Prepare classes in advance.</li>
+<li>Try to solve problems by yourself.</li>
+<li>Expand the information given by the teacher from other sources.</li>
+<li>Try to apply what you learn to your life or context.</li>
+<li>Let your curiosity and creativity loose.</li>
+</ul>
+</section>
+</section>
+<section id="the-teacher-is-your-ally" class="level2">
+<h2 class="anchored" data-anchor-id="the-teacher-is-your-ally">The teacher is your ally</h2>
+<p>Unfortunately some times students think about the teacher as a judge or an enemy. But nothing far from true, because the main main purpose of the teacher is to help you in your learning process. You have to change your mind and think about your teacher as your ally. Thus, do not hesitate about ask him or her for help any time you need it.</p>
+<section id="make-the-most-of-your-classes" class="level3">
+<h3 class="anchored" data-anchor-id="make-the-most-of-your-classes">Make the most of your classes</h3>
+<p>Classroom sessions are not the only way to learn, but they are one of the most effective. Attend to class just to sign the attendance list could be counterproductive. Thus, if you attend a class, forget about other subjects and try to put all your senses in the topic that the class is about.</p>
+<p>Also, you need to know how make a proper use of every type of classs. A master class tries to give you a general idea about a topic, highlighting the most important concepts. So, try to save the key ideas and do not worry about the details.</p>
+<p>A seminar, on the other hand, tries to develop a topic in deep. So it is a good idea to prepare the class in advance having a prior look at the topic. This way you can focus on the most difficult aspects of the topic during the class.</p>
+<p>Finally, in a problem-solving workshop its important trying to solve the problems before in order to find out the main difficulties or bottle necks.</p>
+<p>Also, you should ask your teacher to flip the class.</p>
+</section>
+<section id="what-is-a-flipped-classroom" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-a-flipped-classroom">What is a flipped classroom?</h3>
+<p>The flipped classroom describes a reversal of traditional teaching where students gain first exposure to new material outside of class, usually via reading or lecture videos, and then class time is used to do the harder work of assimilating that knowledge through strategies such as problem-solving, discussion or debates.</p>
+</section>
+</section>
+<section id="do-not-be-afraid-to-ask" class="level2">
+<h2 class="anchored" data-anchor-id="do-not-be-afraid-to-ask">Do not be afraid to ask</h2>
+<p>Related to the previous item, the interaction among the students and between the theacher and the students is essential to take advantage of classes. The teacher can not guess if you have understood a concept or are lost unless you give some feedback to him or her. So, try to overcome your shyness and ask without any fear of ridicule, because most of the time our doubts are gone to be the same for your classmates, and even if not, remember that the only stupid question is the one that you don’t ask.</p>
+<p>Feedback is an essential aspect to ensure solid progress in any learning process.</p>
+</section>
+<section id="take-advantage-of-tutoring" class="level2">
+<h2 class="anchored" data-anchor-id="take-advantage-of-tutoring">Take advantage of tutoring</h2>
+<p>One of the main advantages of a private university like this is the availability and closeness of the teachers. If it is clear that the teacher is your ally, you should not hesitate to use tutorials whenever you have a trouble.</p>
+<p>Each student has a personal tutor whose function is to inform and advise him or her and to resolve any academic question that arise, from the course registration until the exams. If you do not know who is your tutor, ask for him or her at the secretariat and arrange an interview with him or her as soon as possible.</p>
+<p>Any time you have a trouble that you do not know how to solve, ask your tutor for help. Even if you do not have any trouble, is a good practice to have regular meetings with your tutor to check the course progress.</p>
+<p>On the other hand, any subject has its own tutoring hours. Those tutorials are usually at the office of the subject teacher.</p>
+<p>Use tutoring hours for …</p>
+<ul>
+<li>Getting advise from the teacher about how to face the subject or study a topic.</li>
+<li>Reviewing concepts that you do not understand (especially if you missed a class).</li>
+<li>Getting help to solve difficult problems.</li>
+<li>Reviewing your test or exams.</li>
+</ul>
+<p>But …</p>
+<ul>
+<li>Tutoring hours are not private classes. This means that you have to go to tutorials with a specific doubt or problem and it requires some previous work about the question.</li>
+<li>Respect the tutoring schedule. Most of the teachers promote tutorials not only to help students, but also because are an effective way to interact with the student and to know each other better. However, the teachers usually have other occupations in addition to teaching. So, in order to not interrupt their work, try not to go to tutorials outside their schedule. If you can not go to a tutorial at that hours, ask the teacher for an appointment.</li>
+</ul>
+</section>
+<section id="read-and-write" class="level2">
+<h2 class="anchored" data-anchor-id="read-and-write">Read and write</h2>
+<p>Another key for success is to have good documentation that complements what is seen in class. Many students believe that the only important information to consider is that provided by the teacher. But this is a mistake, because the information provided by the teacher is limited, incomplete, and sometimes wrong (unfortunately the teachers commit also mistakes). So, try to complement the class notes with recommended readings, because a good documentation can help you not only to contrast what is seen in class with other sources, but also to understand better what has been explained, and to expand it with new examples, discovering new applications, etc.</p>
+<p>For each subject you should have two or three reference books. You have some recommendations in the bibliography of the course guides. Have a look to those books (most of them are available at the university library), but if you do not feel comfortable with none of them, ask the teacher for others books or try to find them by yourself on Internet, because <em>each student has to find out his or her book!</em></p>
+<p>On the other hand, it is very important, for structuring and settling the main ideas about a subject, writing about it. There is a clear evidence that writing about a subject helps to helps you to organize, clarify and fix the ideas in your mind.</p>
+<p>Is helpful to write summaries and schemas with the key ideas of a class or a topic. Another good practice is to make smalls presentations for every chapter or topic.</p>
+<p>Finally, you should take into account that most assessment tests are written, so writing about the subject is a good training for exams.</p>
+</section>
+<section id="work-in-groups" class="level2">
+<h2 class="anchored" data-anchor-id="work-in-groups">Work in groups</h2>
+<p>Group work is important, not only from the point of view of learning, but also because it helps to develop social habits. In most jobs it is usual to work in teams, since some tasks or problems are simplified and easier to solve working cooperatively. Something similar happens with teaching, since collaborative learning is usually faster and better (and more fun).</p>
+<p>In this way, working in groups have many advantages:</p>
+<ul>
+<li>Helps you to develop social skills.</li>
+<li>Reinforce the motivation being part of a team.</li>
+<li>Enrich the learning with different points of view.</li>
+<li>Helps to develop a critical reasoning.</li>
+</ul>
+<p>But working in group is not easy (especially when somebody does not assume his/her responsibility). Acquiring the skills to work in group requires time and practice, so the sooner you start the better.</p>
+</section>
+<section id="get-organized" class="level2">
+<h2 class="anchored" data-anchor-id="get-organized">Get organized</h2>
+<section id="review-regularly-the-progress-of-the-course" class="level3">
+<h3 class="anchored" data-anchor-id="review-regularly-the-progress-of-the-course">Review regularly the progress of the course</h3>
+<p>It is important during the course to set some moments to analyze the progress of your work and to review the path travelled and the path ahead. These reviews are intended to make a small self-assessment on the learning process. To what extent the objectives set are being met and if we are being faithful to the guidelines set by this survival manual. Thereby, we can identify the main difficulties in learning and what is failing in order to correct the course in time. In the worst case, if we fail to pass any subject, it is very important to make a final review trying to identify the causes to <em>learn from mistakes</em> not to repeat them in the future. Do not be discouraged and think that even if you have not passed the subject, for sure you have not completely waste your time. Be positive and think about everything you have learned that will undoubtedly provides you a valuable experience for your life.</p>
+</section>
+</section>
+<section id="review-regularly-this-tips" class="level2">
+<h2 class="anchored" data-anchor-id="review-regularly-this-tips">Review regularly this tips</h2>
+<p>Finally, do not forget to review and refresh these tips.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Teaching</category>
+  <guid>https://aprendeconalf.es/en/post/survival-guide-degrees/</guid>
+  <pubDate>Sun, 23 Apr 2017 22:00:00 GMT</pubDate>
+  <media:content url="https://aprendeconalf.es/en/post/survival-guide-degrees/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Released version 1.3.0 of the rkTeaching package</title>
+  <link>https://aprendeconalf.es/en/post/rkteaching-1.3/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://aprendeconalf.es/en/post/rkteaching-1.3/featured.png" class="post-featured-image img-fluid" alt="Released version 1.3.0 of the rkTeaching package"></p>
+<p>The 1.3.0 version of the R package rkTeaching for learning Statistics is available to install. This version is updated with the 3.2.3 version of R and the 0.6.5 version of RKWard.</p>
+<p>This is a transitional version towards a major update that will arrive shortly and will incorporate the internationalization of the package.</p>
+<p>To install it visit the page of <a href="https://github.com/asalber/rkteaching">rkTeaching</a>.</p>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>rkTeaching</category>
+  <guid>https://aprendeconalf.es/en/post/rkteaching-1.3/</guid>
+  <pubDate>Sun, 29 May 2016 22:00:00 GMT</pubDate>
+  <media:content url="https://aprendeconalf.es/en/post/rkteaching-1.3/featured.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
+<item>
+  <title>New Excel manual</title>
+  <link>https://aprendeconalf.es/en/post/excel-manual/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://aprendeconalf.es/en/post/excel-manual/featured.jpg" class="post-featured-image img-fluid" alt="New Excel manual"></p>
+<p>I’m glad to offer a basic <a href="https://aprendeconalf.es/office/excel/manual/index.html">manual of Excel</a>, the famous Microsoft Office spreadsheet. This manual is intended mainly for students of Economics and Business Administration, and for that reason, most of the examples in this manual are applied to accounting and finance. However, the manual also serves for learning a basic management of Excel, no matter the field of application.</p>
+<p>The version of Excel used in this manual is Excel 2010, but some parts of this manual are also valid for other versions.</p>
+<p>This is my first manual in English and so there is likely to be some grammatical errors. I apologize by that and I would like to ask you to correct me in the forum below. I hope you enjoy it.</p>
+
+
+
+ ]]></description>
+  <category>Manual</category>
+  <guid>https://aprendeconalf.es/en/post/excel-manual/</guid>
+  <pubDate>Wed, 09 Sep 2015 22:00:00 GMT</pubDate>
+  <media:content url="https://aprendeconalf.es/en/post/excel-manual/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

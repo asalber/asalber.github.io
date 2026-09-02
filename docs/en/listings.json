@@ -1,0 +1,44 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/post/welcome/index.html",
+      "/post/cheat-sheet/index.html",
+      "/post/survival-guide-degrees/index.html",
+      "/post/rkteaching-1.3/index.html",
+      "/post/excel-manual/index.html",
+      "/projects/distributions/index.html",
+      "/projects/rubrics/index.html",
+      "/projects/rkteaching/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": []
+  },
+  {
+    "listing": "/post/index.html",
+    "items": [
+      "/post/welcome/index.html",
+      "/post/cheat-sheet/index.html",
+      "/post/survival-guide-degrees/index.html",
+      "/post/rkteaching-1.3/index.html",
+      "/post/excel-manual/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/distributions/index.html",
+      "/projects/rubrics/index.html",
+      "/projects/rkteaching/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/python/index.html",
+      "/teaching/statistics/index.html"
+    ]
+  }
+]

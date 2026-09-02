@@ -1,5 +1,5 @@
 # ============ SITIO EN ESPAÑOL (raíz) ============
-# El inglés es un proyecto Quarto anidado en en/ que publica en _site/en/.
+# El inglés es un proyecto Quarto anidado en en/ que publica en docs/en/.
 # Renderiza SIEMPRE con ./render.sh (español primero, inglés después).
 
 project:

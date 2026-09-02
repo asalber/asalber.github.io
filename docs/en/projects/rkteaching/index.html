@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2020-09-01">
+<meta name="description" content="An R package for teaching and learning Statistics.">
+
+<title>rkTeaching – Learn with Alf</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-8998c8a679153494d054ffdc825f3bd9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo-blanco.png" alt="Logo" class="navbar-logo light-content">
+    <img src="../../images/logo-blanco.png" alt="Logo" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Learn with Alf</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> <i class="bi bi-house-door-fill" role="img">
+</i> 
+<span class="menu-text"> </span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about-me.html"> 
+<span class="menu-text">About me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../post/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="../../teaching/index.html">
+ <span class="dropdown-text">All courses</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../../teaching/statistics/index.html">
+ <span class="dropdown-text">Statistics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../teaching/python/index.html">
+ <span class="dropdown-text">Python</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications/index.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-en" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-globe" role="img">
+</i> 
+ <span class="menu-text">EN</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-en">    
+        <li>
+    <a class="dropdown-item" href="../../">
+ <span class="dropdown-text">🇪🇸 Español</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../en/">
+ <span class="dropdown-text">🇬🇧 English</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/asalber"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-rkteaching" id="toc-what-is-rkteaching" class="nav-link active" data-scroll-target="#what-is-rkteaching">What is rkTeaching?</a></li>
+  <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a>
+  <ul class="collapse">
+  <li><a href="#installation-on-windows" id="toc-installation-on-windows" class="nav-link" data-scroll-target="#installation-on-windows">Installation on Windows</a></li>
+  <li><a href="#installation-on-mac-os" id="toc-installation-on-mac-os" class="nav-link" data-scroll-target="#installation-on-mac-os">Installation on Mac OS</a></li>
+  <li><a href="#installation-on-linux" id="toc-installation-on-linux" class="nav-link" data-scroll-target="#installation-on-linux">Installation on Linux</a></li>
+  </ul></li>
+  <li><a href="#statistical-procedures" id="toc-statistical-procedures" class="nav-link" data-scroll-target="#statistical-procedures">Statistical procedures</a></li>
+  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
+  <li><a href="#how-to-cite-rkteaching" id="toc-how-to-cite-rkteaching" class="nav-link" data-scroll-target="#how-to-cite-rkteaching">How to cite rkTeaching?</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">rkTeaching</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">RKWard</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    An R package for teaching and learning Statistics.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 1, 2020</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><img src="featured.png" class="featured-image img-fluid" alt="rkTeaching logo"></p>
+<section id="what-is-rkteaching" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-rkteaching">What is rkTeaching?</h2>
+<p>rkTeaching is an <a href="http://www.r-project.org/">R</a> package that provides a plugin for the <a href="http://rkward.sourceforge.net/">RKWard</a> graphical interface, adding new menus and dialog boxes specially designed for teaching Statistics.</p>
+<p>The package has been developed and is maintained by Alfredo Sánchez Alberca <a href="mailto:asalber@ceu.es" class="email">asalber@ceu.es</a> from the Department of Mathematics at the Universidad San Pablo CEU in Madrid.</p>
+<p>If you find any bug or have any suggestion, please send it to the author by email or report it as an <a href="https://github.com/asalber/rkTeaching_es/issues">issue on Github</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/rkward.png" class="img-fluid figure-img"></p>
+<figcaption>RKWard</figcaption>
+</figure>
+</div>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<section id="installation-on-windows" class="level3">
+<h3 class="anchored" data-anchor-id="installation-on-windows">Installation on Windows</h3>
+<p>For Windows users there is an installer that includes R, RKWard and rkTeaching.</p>
+<ul>
+<li><p><a href="https://drive.google.com/file/d/1Zrj3zU3ztSFsgGttcEHp9CV8ECSTG5qL/view?usp=drive_link">Download the latest version (R version 4.3, RKWard version 0.8, rkTeaching version 1.3.0)</a></p></li>
+<li><p><a href="https://drive.google.com/file/d/17eWedHkSI1f0pIjAra94HOwagchr-h7T/view?usp=sharing">Download the previous version (R version 3.6.2, RKWard version 0.7.1b, rkTeaching version 1.3.0)</a></p></li>
+</ul>
+<p>Once downloaded, just run the file to unzip it. When run, a dialog box will appear asking for the drive and installation directory, and it is important to install it in the root folder of drive C, i.e.&nbsp;in the location <code>C:\</code>. After this a <code>RKWard</code> folder will be created, and inside it the bin folder where the <code>rkward.exe</code> file is located, which must be run to start RKWard.</p>
+<p>The following video shows the installation process.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/BrqFyfNO9RM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="installation-on-mac-os" class="level3">
+<h3 class="anchored" data-anchor-id="installation-on-mac-os">Installation on Mac OS</h3>
+<p>To install the software on Mac OS platforms, each program must be installed separately in the following order:</p>
+<ol type="1">
+<li><p><strong>Install R</strong>. R can be downloaded from the page <a href="https://cran.r-project.org/bin/macosx/">https://cran.r-project.org/</a>. It is recommended to install version 4.3 for MacOs. Depending on the computer’s processor, you should select the <code>arm65</code> version for computers with a silicon chip (M1-3) or the <code>x86</code> version for computers with an Intel chip.</p>
+<ul>
+<li><a href="https://cran.r-project.org/bin/macosx/big-sur-arm64/base/R-4.3.3-arm64.pkg">R version 4.3 for MacOs with silicon chip (M1-3)</a></li>
+<li><a href="https://cran.r-project.org/bin/macosx/big-sur-x86_64/base/R-4.3.3-x86_64.pkg">R version 4.3 for MacOs with Intel chip (x86)</a></li>
+</ul></li>
+<li><p><strong>Install RKWard</strong>. RKWard can be downloaded from the page <a href="https://rkward.kde.org/" class="uri">https://rkward.kde.org/</a>. You should select the distribution corresponding to Mac Os (<a href="https://rkward.kde.org/RKWard_on_Mac.html" class="uri">https://rkward.kde.org/RKWard_on_Mac.html</a>) and follow the installation instructions specified there. It is important to make sure you have a version of Mac OS X 10.15 or higher, since RKWard does not work with earlier versions.</p>
+<p>If there is any error during installation, check the possible solutions at (<a href="http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting" class="uri">http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting</a>)</p></li>
+<li><p><strong>Install the packages rkTeaching depends on</strong>. To install rkTeaching you must first install the R packages it depends on. To do this, run R from the command line, or start RKWard and go to the R Console tab and enter the following commands:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"R2HTML"</span>,<span class="st">"car"</span>,<span class="st">"e1071"</span>,<span class="st">"Hmisc"</span>, <span class="st">"ez"</span>, <span class="st">"multcomp"</span>, <span class="st">"psych"</span>, <span class="st">"probs"</span>, <span class="st">"tidyverse"</span>, <span class="st">"knitr"</span>, <span class="st">"kableExtra"</span>, <span class="st">"remotes"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Install rkTeaching</strong>. The best way to install rkTeaching from this repository is using the R package <code>remotes</code>. To do this, enter the following commands in the R console:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(remotes)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install_github</span>(<span class="st">"rkward-community/rk.Teaching"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The following video shows the installation process.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/SB1oER6HbEs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></li>
+</ol>
+<section id="installation-on-macos-using-wmware-fusion" class="level4">
+<h4 class="anchored" data-anchor-id="installation-on-macos-using-wmware-fusion">Installation on MacOs using WMware Fusion</h4>
+<p>If the above procedure does not work, it is possible to install a virtual machine with RKWard already installed using the WMware Fusion software. To do this, follow these steps:</p>
+<ol type="1">
+<li><p><strong>Install WMware Fusion</strong>. WMware Fusion is virtualization software that allows you to install Windows or Linux operating systems on a Mac. <a href="https://www.techspot.com/downloads/2755-vmware-fusion-mac.html">Download WMware Fusion</a> and follow the installation instructions.</p></li>
+<li><p>Download the virtual machine with RKWard already installed.</p>
+<ul>
+<li><a href="https://ceu365-my.sharepoint.com/:u:/g/personal/asalber_ceu_es/EaRxOdvlm-pEo9ZemESsKgABH2LSM4IyWuhsOm2O4iVCRQ?e=RJtxER">Download virtual machine with RKWard version 0.8 and rkTeaching 1.4</a></li>
+<li><a href="https://ceu365-my.sharepoint.com/:u:/g/personal/asalber_ceu_es/EcK0P2-es1pOl-3HtRYHn4sBswcpiil5q6QwVp01i0o0yA?e=fWtpe0">Download virtual machine with RKWard version 0.7 and rkTeaching 1.3</a></li>
+</ul></li>
+<li><p>Start WMware Fusion and open the downloaded virtual machine. The virtual machine will start with RKWard already installed and ready to use.</p></li>
+</ol>
+</section>
+</section>
+<section id="installation-on-linux" class="level3">
+<h3 class="anchored" data-anchor-id="installation-on-linux">Installation on Linux</h3>
+<p>To install the software on Linux platforms, each program must be installed separately in the following order:</p>
+<ol type="1">
+<li><p><strong>Install R</strong>. R can be downloaded from the page <a href="http://cran.es.r-project.org/" class="uri">http://cran.es.r-project.org/</a>. You should select the distribution corresponding to Linux and follow the installation instructions specified there. R version 3.0 or higher is required.</p>
+<p>On Debian and Ubuntu systems, it can be installed from the command line with the command:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt-get install r-base</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Install RKWard</strong>. RKWard can be downloaded from the page <a href="https://rkward.kde.org/" class="uri">https://rkward.kde.org/</a>. You should select the distribution corresponding to Linux and follow the installation instructions specified there.</p>
+<p>On Debian and Ubuntu systems, it can be installed from the command line with the command:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt-get install rkward</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>It is important to make sure the installed version is 0.7.2 or higher.</p></li>
+<li><p><strong>Install the packages rkTeaching depends on</strong>. To install rkTeaching you must first install the R packages it depends on. To do this, run R from the command line, or start RKWard and go to the R Console tab and enter the following commands:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"R2HTML"</span>,<span class="st">"car"</span>,<span class="st">"e1071"</span>,<span class="st">"Hmisc"</span>, <span class="st">"ez"</span>, <span class="st">"multcomp"</span>, <span class="st">"psych"</span>, <span class="st">"probs"</span>, <span class="st">"tidyverse"</span>, <span class="st">"knitr"</span>, <span class="st">"kableExtra"</span>, <span class="st">"remotes"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Install rkTeaching</strong>. The best way to install rkTeaching from this repository is using the R package <code>remotes</code>. To do this, enter the following commands in the R console:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(remotes)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install_github</span>(<span class="st">"rkward-community/rk.Teaching"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The following video shows the installation process.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/vQa4umDJko8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></li>
+</ol>
+</section>
+</section>
+<section id="statistical-procedures" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-procedures">Statistical procedures</h2>
+<p>Once installed, when RKWard starts a new <code>Teaching</code> menu will appear with the following statistical procedures:</p>
+<ul>
+<li>Data manipulation
+<ul>
+<li>Filter data</li>
+<li>Compute variable</li>
+<li>Recode variable</li>
+<li>Weight data</li>
+<li>Standardize variables</li>
+</ul></li>
+<li>Frequency distribution
+<ul>
+<li>Frequency tables</li>
+<li>Two-way frequency tables</li>
+</ul></li>
+<li>Charts
+<ul>
+<li>Bar chart</li>
+<li>Histogram</li>
+<li>Pie chart</li>
+<li>Box plot</li>
+<li>Means plot</li>
+<li>Interaction plot</li>
+<li>Scatter plot</li>
+<li>Line chart</li>
+<li>Scatter plot matrix</li>
+</ul></li>
+<li>Descriptive statistics
+<ul>
+<li>Statistics</li>
+<li>Statistics (detailed calculation)</li>
+</ul></li>
+<li>Regression
+<ul>
+<li>Linear regression</li>
+<li>Nonlinear regression</li>
+<li>Model comparison</li>
+<li>Predictions</li>
+<li>Correlation</li>
+</ul></li>
+<li>Parametric tests
+<ul>
+<li>Means
+<ul>
+<li>One-sample T test</li>
+<li>Two independent samples T test</li>
+<li>Two paired samples T test</li>
+<li>ANOVA</li>
+<li>Sample size calculation for the mean</li>
+<li>Sample size calculation for the T test</li>
+<li>Power calculation for a T test</li>
+</ul></li>
+<li>Variances
+<ul>
+<li>Test for the variance of a population</li>
+<li>Fisher’s F test</li>
+<li>Levene’s test</li>
+</ul></li>
+<li>Proportions
+<ul>
+<li>Test for one proportion</li>
+<li>Test for two proportions</li>
+<li>Sample size calculation for one proportion</li>
+</ul></li>
+</ul></li>
+<li>Non-parametric tests
+<ul>
+<li>Normality
+<ul>
+<li>Lilliefors test (Kolmogorov-Smirnov)</li>
+<li>Shapiro-Wilk test</li>
+</ul></li>
+<li>Mann-Whitney U test for two independent samples</li>
+<li>Wilcoxon test for two paired samples</li>
+<li>Kruskal-Wallis test for several independent samples</li>
+<li>Friedman test for repeated measures</li>
+<li>Chi-squared test of independence</li>
+<li>Chi-squared goodness-of-fit test</li>
+</ul></li>
+<li>Agreement
+<ul>
+<li>Intraclass correlation coefficient</li>
+<li>Cohen’s Kappa</li>
+</ul></li>
+<li>Probability
+<ul>
+<li>Games of chance
+<ul>
+<li>Coins
+<ul>
+<li>Probability space</li>
+<li>Coin toss</li>
+</ul></li>
+<li>Dice
+<ul>
+<li>Probability space</li>
+<li>Dice roll</li>
+</ul></li>
+<li>Playing cards
+<ul>
+<li>Probability space</li>
+<li>Card draw</li>
+</ul></li>
+<li>Urns
+<ul>
+<li>Probability space</li>
+<li>Urn draw</li>
+</ul></li>
+</ul></li>
+<li>Building a probability space</li>
+<li>Combining probability spaces</li>
+<li>Repeating probability spaces</li>
+<li>Probability calculation</li>
+</ul></li>
+<li>Probability distributions
+<ul>
+<li>Discrete distributions
+<ul>
+<li>Binomial
+<ul>
+<li>Probabilities</li>
+<li>Quantiles</li>
+<li>Probability plot</li>
+</ul></li>
+<li>Poisson
+<ul>
+<li>Probabilities</li>
+<li>Quantiles</li>
+<li>Probability plot</li>
+</ul></li>
+</ul></li>
+<li>Continuous distributions
+<ul>
+<li>Chi-squared
+<ul>
+<li>Probabilities</li>
+<li>Quantiles</li>
+<li>Probability plot</li>
+</ul></li>
+<li>Fisher’s F
+<ul>
+<li>Probabilities</li>
+<li>Quantiles</li>
+<li>Probability plot</li>
+</ul></li>
+<li>Normal
+<ul>
+<li>Probabilities</li>
+<li>Quantiles</li>
+<li>Probability plot</li>
+</ul></li>
+<li>Student’s t
+<ul>
+<li>Probabilities</li>
+<li>Quantiles</li>
+<li>Probability plot</li>
+</ul></li>
+<li>Continuous uniform
+<ul>
+<li>Probabilities</li>
+<li>Quantiles</li>
+<li>Probability plot</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Simulations
+<ul>
+<li>Law of rare events</li>
+</ul></li>
+</ul>
+</section>
+<section id="features" class="level2">
+<h2 class="anchored" data-anchor-id="features">Features</h2>
+<ul>
+<li><p>Menus and dialog boxes designed to make learning easier, removing all secondary options to achieve a simple and intuitive interface.</p></li>
+<li><p>Wizards that guide the user step by step and advise them through the statistical analyses. <img src="img/wizard.png" class="img-fluid" alt="Wizard"></p></li>
+<li><p>HTML outputs that present the results of the analyses and their interpretations in a clear and concise way. <img src="img/output.png" class="img-fluid" alt="Output"></p></li>
+<li><p>Simple charts based on the modern ggplot2 package. <img src="img/graphics1.png" class="img-fluid" alt="Graphical output"></p></li>
+<li><p>Ability to show the development of the calculations of some statistical procedures. <img src="img/detailed_calculation.png" class="img-fluid" alt="Graphical output"></p></li>
+</ul>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li><a href="https://github.com/asalber/rkteaching">Source code</a></li>
+</ul>
+<p>rkTeaching is maintained by <a href="https://github.com/asalber">asalber</a>.</p>
+</section>
+<section id="how-to-cite-rkteaching" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-cite-rkteaching">How to cite rkTeaching?</h2>
+<p>Sánchez-Alberca, A. (2024). rkTeaching (version 1.4) [software]. Retrieved from: <a href="https://aprendeconalf.es/proyectos/rkteaching" class="uri">https://aprendeconalf.es/proyectos/rkteaching</a>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/aprendeconalf\.es\/en\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> · Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

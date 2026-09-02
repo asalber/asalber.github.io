@@ -1,7 +1,7 @@
 # ============ ENGLISH SITE (nested project → published at /en/) ============
 project:
   type: website
-  output-dir: ../_site/en
+  output-dir: ../docs/en
 
 lang: en
 
