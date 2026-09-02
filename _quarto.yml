@@ -1,6 +1,7 @@
 # ============ SITIO EN ESPAÑOL (raíz) ============
 # El inglés es un proyecto Quarto anidado en en/ que publica en docs/en/.
-# Renderiza SIEMPRE con ./render.sh (español primero, inglés después).
+# El post-render lo renderiza automáticamente: cualquier `quarto render`
+# completo (incluido `quarto render --to all`) genera docs/ + docs/en/.
 
 project:
   type: website
@@ -12,6 +13,8 @@ project:
     - "proyectos/**/*.qmd"
     - "publicaciones/**/*.qmd"
     - "!en/"
+  post-render:
+    - ./render-en.sh
 
 lang: es
 
