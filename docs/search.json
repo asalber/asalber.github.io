@@ -1,0 +1,408 @@
+[
+  {
+    "objectID": "sobre-mi.html",
+    "href": "sobre-mi.html",
+    "title": "Alfredo Sánchez Alberca",
+    "section": "",
+    "text": "Nací en un lugar de la mancha… famoso por sus molinos de viento y por su hidalgo caballero Don Quijote.\nSoy padre, activista ecologista y defensor de conocimiento libre y abierto (open source).\nTrabajo como profesor de Matemáticas y Estadística en el Departamento de Matemáticas y Ciencia de Datos de la Universidad CEU San Pablo.\nInvestigo en Ciencia de Datos, Bioestadística y Aprendizaje Automático.\nEn esta web comparto mis materiales docentes y mis publicaciones de investigación como Recursos Educativos Libres."
+  },
+  {
+    "objectID": "sobre-mi.html#biografía",
+    "href": "sobre-mi.html#biografía",
+    "title": "Alfredo Sánchez Alberca",
+    "section": "",
+    "text": "Nací en un lugar de la mancha… famoso por sus molinos de viento y por su hidalgo caballero Don Quijote.\nSoy padre, activista ecologista y defensor de conocimiento libre y abierto (open source).\nTrabajo como profesor de Matemáticas y Estadística en el Departamento de Matemáticas y Ciencia de Datos de la Universidad CEU San Pablo.\nInvestigo en Ciencia de Datos, Bioestadística y Aprendizaje Automático.\nEn esta web comparto mis materiales docentes y mis publicaciones de investigación como Recursos Educativos Libres."
+  },
+  {
+    "objectID": "sobre-mi.html#intereses",
+    "href": "sobre-mi.html#intereses",
+    "title": "Alfredo Sánchez Alberca",
+    "section": "Intereses",
+    "text": "Intereses\n\nMatemática Aplicada\nBioestadística\nProgramación\nAprendizaje Automático\nCiencia de los Datos"
+  },
+  {
+    "objectID": "sobre-mi.html#educación",
+    "href": "sobre-mi.html#educación",
+    "title": "Alfredo Sánchez Alberca",
+    "section": "Educación",
+    "text": "Educación\n\nDoctor en Inteligencia Artificial, 2016 — Universidad Politécnica de Madrid\nLicenciado en Matemáticas - Computación, 1993 — Universidad Complutense de Madrid"
+  },
+  {
+    "objectID": "proyectos/rubricas/index.html",
+    "href": "proyectos/rubricas/index.html",
+    "title": "Rúbricas",
+    "section": "",
+    "text": "Acceso a la aplicación"
+  },
+  {
+    "objectID": "proyectos/rubricas/index.html#qué-es-rúbricas",
+    "href": "proyectos/rubricas/index.html#qué-es-rúbricas",
+    "title": "Rúbricas",
+    "section": "¿Qué es Rúbricas?",
+    "text": "¿Qué es Rúbricas?\nRúbricas es una aplicación web basada en R y Shiny para la evaluación mediante rúbricas.\nLa aplicación permite:\n\nGenerar la rúbrica correspondiente a un examen o prueba de evaluación.\nCargar la lista de alumnos a partir de un fichero csv y generar una plantilla de corrección.\nCargar las correcciones desde la plantilla de corrección.\nGenerar la lista de notas de los alumnos.\nGenerar un resumen descriptivo de la distribución de notas.\nGenerar un informe personalizado con la corrección de cada alumno.\n\nEn el siguiente vídeo se puede ver una presentación más detallada de esta aplicación:"
+  },
+  {
+    "objectID": "proyectos/rubricas/index.html#enlaces",
+    "href": "proyectos/rubricas/index.html#enlaces",
+    "title": "Rúbricas",
+    "section": "Enlaces",
+    "text": "Enlaces\n\nCódigo fuente\nDiapositivas"
+  },
+  {
+    "objectID": "proyectos/rubricas/index.html#cómo-citar-rúbricas",
+    "href": "proyectos/rubricas/index.html#cómo-citar-rúbricas",
+    "title": "Rúbricas",
+    "section": "¿Cómo citar Rúbricas?",
+    "text": "¿Cómo citar Rúbricas?\nAnemone, Gloria., Sánchez-Alberca, Alfredo. (2021). Rúbricas (version 1.0) [software]. Obtenido de: https://aprendeconalf.es/proyectos/rubricas."
+  },
+  {
+    "objectID": "proyectos/index.html",
+    "href": "proyectos/index.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Distribuciones de Probabilidad\n\n\nAplicación web interactiva para visualizar las principales distribuciones de probabilidad discretas y continuas.\n\n\n\n\n\n\n\n\n\n\n\n\nRúbricas\n\n\nAplicación web para la evaluación mediante rúbricas.\n\n\n\n\n\n\n\n\n\n\n\n\nrkTeaching\n\n\nUn paquete de R para el aprendizaje de Estadística.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "post/quarto-documentos-cientificos/index.html",
+    "href": "post/quarto-documentos-cientificos/index.html",
+    "title": "Documentos científicos con Quarto",
+    "section": "",
+    "text": "Como cualquier investigador en Ciencia de Datos, Matemáticas o Estadística, tengo que escribir documentos científicos y técnicos (apuntes, libros, presentaciones, artículos para revistas, etc.). En estos documentos es habitual incluir fórmulas matemáticas, gráficos, tablas, algoritmos, código fuente, etc., elementos que luego suelo referenciar en el texto así como referencias bibliográficas. Hasta ahora, para la elaboración de estos documentos solía utilizar LaTeX, un sistema de composición de textos científicos y técnicos que permite la elaboración de documentos en formato PDF, HTML y EPUB. Sin embargo, LaTeX tiene una curva de aprendizaje elevada y su sintaxis es compleja. Además resulta complicado integrar código de otros lenguajes de programación en los documentos. Por esta razón, recientemente he comenzado a utilizar Quarto para la elaboración de mis documentos científicos y técnicos.\nQuarto es un sistema de composición de textos científicos y técnicos que permite la elaboración de documentos en formato PDF, HTML y EPUB. Con Quarto se pueden crear artículos, libros, presentaciones e incluso libros enteros de manera mucho más sencilla que LaTeX y permite incluir código de otros lenguajes de programación (Python, Julia, R, etc.) en los documentos, lo que facilita la creación de informes completamente reproducibles. Además, Quarto permite la inclusión de fórmulas matemáticas, gráficos, tablas, algoritmos, listado de código fuente, referencias cruzadas, referencias bibliográficas y, en general, todos elementos que suelen utilizarse en la elaboración de documentos científicos y técnicos.\nComo resultado de mi aprendizaje y mi experiencia con esta nueva herramienta, he creado un pequeño tutorial para elaborar documentos científicos y técnicos con Quarto. En este tutorial se muestra cómo instalar Quarto, cómo crear un nuevo proyecto, cómo incluir fórmulas matemáticas, gráficos, tablas, algoritmos, listado de código fuente, referencias cruzadas, referencias bibliográficas, etc. Además, se muestra cómo compilar el documento en formato PDF, HTML y EPUB.\nPodéis acceder al tutorial con el siguiente enlace: Creación de documentos científicos con Quarto."
+  },
+  {
+    "objectID": "post/nueva-web/index.html",
+    "href": "post/nueva-web/index.html",
+    "title": "¡Nueva web!",
+    "section": "",
+    "text": "Me alegra anunciar el estreno de esta web, construida con Quarto, donde iré publicando mis materiales docentes, apuntes, ejercicios y artículos de investigación.\nHe intentado mantener la misma estructura de la web anterior, pero con un diseño más moderno y limpio, y con un mejor soporte para dispositivos móviles.\nSi detectas cualquier error o fallo en la web, por favor, avísame para poder corregirlo."
+  },
+  {
+    "objectID": "post/manual-latex/index.html",
+    "href": "post/manual-latex/index.html",
+    "title": "Manual de LaTeX",
+    "section": "",
+    "text": "\\(\\LaTeX\\) es un sistema de composición de documentos bien conocido por los matemáticos ya que facilita la escritura de fórmulas y ecuaciones y, en general, todo el proceso de creación de un documento científico o técnico.\nLo conocí cuando estudiaba la carrera de Matemáticas y quedé maravillado por su lógica y la belleza de los documentos finales. Desde entonces ha sido mi procesador de textos y nunca me ha fallado.\nLa curva de aprendizaje de \\(\\LaTeX\\) es larga y requiere bastante tiempo dominarlo, pero el tiempo invertido sin duda merece la pena. No me imagino la de horas y días que habría perdido escribiendo mi tesis doctoral en Word, tratando de colocar todo en su lugar…\nDurante mucho tiempo he querido escribir un manual para facilitar ese aprendizaje y facilitarle a los principiantes los conocimientos básicos para empezar a componer sus propios documentos, pero hasta finales de este curso no he tenido tiempo para ponerme con ello. Por fin, he podido escribir este breve y modesto manual que espero os ayude a descubrir y a enamoraros del maravilloso mundo de \\(\\LaTeX\\).\nPodéis acceder al manual en el siguiente enlace: https://aprendeconalf.es/latex-manual/"
+  },
+  {
+    "objectID": "post/index.html",
+    "href": "post/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Ordenar por\n      Por defecto\n      \n        Título\n      \n      \n        Fecha - Más antiguo\n      \n      \n        Fecha - Más reciente\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n¡Nueva web!\n\n\n\nNoticias\n\nQuarto\n\n\n\nEstreno web hecha con Quarto para compartir mis materiales docentes y publicaciones.\n\n\n\n\n\n13 jul 2026\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\nPrácticas de Aprendizaje Automático con R\n\n\n\nAprendizaje Automático\n\nR\n\n\n\nNueva colección de prácticas de Aprendizaje Automático con R, orientadas a Ciencias de la Salud.\n\n\n\n\n\n1 jun 2025\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\nDocumentos científicos con Quarto\n\n\n\nQuarto\n\nManual\n\n\n\nPor qué he dejado LaTeX por Quarto para escribir documentos científicos y técnicos.\n\n\n\n\n\n13 mar 2024\n\n2 minutos\n\n\n\n\n\n\n\n\n\n\n\nManual de Julia\n\n\n\nJulia\n\nManual\n\n\n\nIntroducción a Julia, un lenguaje tan sencillo como Python o R pero con la velocidad de C.\n\n\n\n\n\n28 jul 2023\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\nCálculo numérico y simbólico con Julia\n\n\n\nJulia\n\nMatemáticas\n\n\n\nPresentación sobre el uso de Julia para cálculo simbólico y numérico en un seminario de innovación docente.\n\n\n\n\n\n28 jul 2023\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\nManual de LaTeX\n\n\n\nLaTeX\n\nManual\n\n\n\nIntroducción breve a LaTeX para quienes se inician en la composición de documentos científicos.\n\n\n\n\n\n14 sept 2022\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\nTipos de estudios estadísticos\n\n\n\nEstadística\n\nR\n\n\n\nGuía de los principales tipos de estudios estadísticos, con ejemplos prácticos en R.\n\n\n\n\n\n11 mar 2022\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\nHojas de fórmulas de Estadística y Cálculo\n\n\n\nEstadística\n\nCálculo\n\n\n\nDos chuletas de referencia rápida con las principales fórmulas de Cálculo y Estadística.\n\n\n\n\n\n23 ene 2022\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\nEpidemiología para tiempos de pandemia\n\n\n\nEstadística\n\nEpidemiología\n\n\n\nConceptos básicos de Epidemiología para entender mejor la información sobre enfermedades como la COVID-19.\n\n\n\n\n\n9 nov 2021\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\nCurso de Git\n\n\n\nGit\n\nManual\n\n\n\nIntroducción al sistema de control de versiones más usado del mundo.\n\n\n\n\n\n27 sept 2020\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\nManual de supervivencia para grados\n\n\n\nDocencia\n\n\n\nConsejos prácticos para aprovechar al máximo tus estudios de grado, especialmente en primer curso.\n\n\n\n\n\n15 sept 2020\n\n13 minutos\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "post/epidemiologia-pandemias/index.html",
+    "href": "post/epidemiologia-pandemias/index.html",
+    "title": "Epidemiología para tiempos de pandemia",
+    "section": "",
+    "text": "Debido a la epidemia provocada por el coronavirus, la Epidemiología se ha convertido en una de las ramas de la medicina que más interés despiertan.\nEn estos tiempos de pandemia un montón de términos técnicos de la Epidemiología se han convertido en lugares comunes gracias a los medios de comunicación. Sin embargo, muchos de estos términos se utilizan de manera errónea, incluso por los propios medios de comunicación, y generan confusión para la población no experta.\nPor ello, y con motivo de la Semana de la Ciencia y la Innovación de Madrid 2021, he preparado un tutorial para explicar al público en general los principales conceptos epidemiológicos usados en el control de enfermedades como la COVID e ilustrar su uso con ejemplos de aplicación.\nPodéis acceder a él en el siguiente enlace: Tutorial de Epidemiología"
+  },
+  {
+    "objectID": "post/chuletas/index.html",
+    "href": "post/chuletas/index.html",
+    "title": "Hojas de fórmulas de Estadística y Cálculo",
+    "section": "",
+    "text": "A partir de ahora están disponibles varias hojas de fórmulas de cálculo y Estadística.\nEstas hojas contienen un resumen con las principales fórmulas utilizadas en Cálculo y Estadística.\nLas hojas de cálculo pueden descargarse desde los siguientes enlaces:\n\nHoja de fórmulas de Cálculo\nHoja de fórmulas de Estadística\n\nEstaría muy agradecido si me informáis de cualquier error que detectéis en estas hojas."
+  },
+  {
+    "objectID": "docencia/r/index.html",
+    "href": "docencia/r/index.html",
+    "title": "R",
+    "section": "",
+    "text": "Manual\n\n\nIntroducción a la programación con R para el análisis de datos.\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicios\n\n\nEjercicios resueltos de análisis de datos con R.\n\n\n\n\n\n\n\n\n\n\nEjercicios con rkTeaching\n\n\nEjercicios de Bioestadística con R y el paquete rkTeaching.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/python/index.html",
+    "href": "docencia/python/index.html",
+    "title": "Python",
+    "section": "",
+    "text": "Manual\n\n\nIntroducción a la programación con Python con ejemplos.\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicios\n\n\nEjercicios de programación con Python con soluciones.\n\n\n\n\n\n\n\n\n\n\n\n\nExámenes\n\n\nExámenes de Programación con Python de los últimos cursos con soluciones.\n\n\n\n\n\n\n\n\n\n\n\n\nTrabajos\n\n\nTrabajos de Programación con Python de los últimos cursos con soluciones.\n\n\n\n\n\n\n\n\n\n\n\n\nTerminal\n\n\nManejo de la terminal en sistemas Windows, Mac y Linux.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/julia/index.html",
+    "href": "docencia/julia/index.html",
+    "title": "Julia",
+    "section": "",
+    "text": "Manual\n\n\nIntroducción a la programación con Julia.\n\n\n\n\n\n\n\n\n\n\n\n\nDemos\n\n\nDemostraciones de cálculo científico con Julia.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/git/index.html",
+    "href": "docencia/git/index.html",
+    "title": "Git",
+    "section": "",
+    "text": "Manual\n\n\nManual de control de versiones con Git.\n\n\n\n\n\n\n\n\n\n\n\n\nPrácticas\n\n\nEjercicios prácticos ressueltos de control de versiones con Git.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/estadistica/index.html",
+    "href": "docencia/estadistica/index.html",
+    "title": "Estadística",
+    "section": "",
+    "text": "Manual\n\n\nLa Estadística al alcance de todos, orientado a la Bioestadística.\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicios\n\n\nProblemas de Bioestadística con soluciones.\n\n\n\n\n\n\n\n\n\n\n\n\nPrácticas\n\n\nPrácticas de Estadística con R.\n\n\n\n\n\n\n\n\n\n\n\n\nExámenes\n\n\nExámenes de Bioestadística con soluciones.\n\n\n\n\n\n\n\n\n\n\n\n\nTipos de estudios estadísticos\n\n\nTipos de estudios estadísticos más habituales. Diseño, análisis e implementación con R.\n\n\n\n\n\n\n\n\n\n\nFórmulas\n\n\nHoja de fórmulas de Estadística y Probabilidad y tablas estadísticas.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/derive/index.html",
+    "href": "docencia/derive/index.html",
+    "title": "Derive",
+    "section": "",
+    "text": "Repositorio de ejercicios (Cálculo con Derive)\n\nColección de ejercicios de Cálculo resueltos utilizando el software Derive."
+  },
+  {
+    "objectID": "docencia/derive/index.html#materiales",
+    "href": "docencia/derive/index.html#materiales",
+    "title": "Derive",
+    "section": "",
+    "text": "Repositorio de ejercicios (Cálculo con Derive)\n\nColección de ejercicios de Cálculo resueltos utilizando el software Derive."
+  },
+  {
+    "objectID": "docencia/aprendizaje-automatico/index.html",
+    "href": "docencia/aprendizaje-automatico/index.html",
+    "title": "Aprendizaje Automático",
+    "section": "",
+    "text": "Prácticas con Julia\n\n\nPrácticas de Aprendizaje Automático con ejercicios resueltos en Julia.\n\n\n\n\n\n\n\n\n\n\n\n\nPrácticas con R\n\n\nPrácticas de Aprendizaje Automático con ejercicios resueltos en R.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "contacto.html",
+    "href": "contacto.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "📧 asalber@ceu.es\n🏢 Despacho 218, Edificio C — Universidad CEU San Pablo, Urbanización Montepríncipe s/n, Madrid\n🕐 Tutorías: lunes y miércoles de 12:30 a 13:30\n\n\n\nVer mapa más grande"
+  },
+  {
+    "objectID": "docencia/analisis/index.html",
+    "href": "docencia/analisis/index.html",
+    "title": "Análisis",
+    "section": "",
+    "text": "Manual\n\n\nIntroducción al Análisis Matemático de variable real con ejemplos y aplicaciones.\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicios\n\n\nProblemas resueltos de Análisis Matemático de variable real.\n\n\n\n\n\n\n\n\n\n\n\n\nPrácticas\n\n\nPrácticas de Análisis Matemático de Variable Real con ejercicios resueltos en Julia.\n\n\n\n\n\n\n\n\n\n\n\n\nExámenes\n\n\nExámenes resueltos de Análisis Matemático de variable Real del grado de Ingeniería Matemática.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/calculo/index.html",
+    "href": "docencia/calculo/index.html",
+    "title": "Cálculo",
+    "section": "",
+    "text": "Manual\n\n\nAprende a aplicar el Cálculo sin sufrir.\n\n\n\n\n\n\n\n\n\n\n\n\nExámenes\n\n\nExámenes de Cálculo de los últimos cursos con soluciones.\n\n\n\n\n\n\n\n\n\n\nFórmulas\n\n\nHoja de fórmulas, derivadas, integrales y trigonometría.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/epidemiologia/index.html",
+    "href": "docencia/epidemiologia/index.html",
+    "title": "Epidemiología",
+    "section": "",
+    "text": "Epidemiología\n\n\nManual de Estadística para Epidemiología\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/geogebra/index.html",
+    "href": "docencia/geogebra/index.html",
+    "title": "Geogebra",
+    "section": "",
+    "text": "Prácticas\n\n\nPrácticas de Cálculo con Geogebra.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/index.html",
+    "href": "docencia/index.html",
+    "title": "Docencia",
+    "section": "",
+    "text": "Análisis\n\n\nAnálisis Matemático de Variable Real: apuntes, ejercicios y exámenes.\n\n\n\n\n\n\n\n\n\n\nAprendizaje Automático\n\n\nPrácticas de Aprendizaje Automático en Julia y R.\n\n\n\n\n\n\n\n\n\n\nCálculo\n\n\nCálculo en una y varias variables: apuntes, ejercicios y exámenes.\n\n\n\n\n\n\n\n\n\n\nDerive\n\n\nCálculo con Derive: ejercicios resueltos.\n\n\n\n\n\n\n\n\n\n\n\n\nEstadística\n\n\nApuntes, ejercicios resueltos, prácticas y exámenes de Estadística.\n\n\n\n\n\n\n\n\n\n\n\n\nGeogebra\n\n\nPrácticas de Cálculo con GeoGebra.\n\n\n\n\n\n\n\n\n\n\nGit\n\n\nGestión de versiones con Git.\n\n\n\n\n\n\n\n\n\n\nJulia\n\n\nProgramación con Julia: apuntes y demostraciones.\n\n\n\n\n\n\n\n\n\n\nLaTeX\n\n\nComposición de textos matemáticos con LaTeX: apuntes y ejercicios.\n\n\n\n\n\n\n\n\n\n\n\n\nPython\n\n\nProgramación en Python: Apuntes, ejercicios y exámenes.\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto\n\n\nElaboración de documentos científicos con Quarto.\n\n\n\n\n\n\n\n\n\n\nR\n\n\nAnálisis de datos con R: apuntes y ejercicios.\n\n\n\n\n\n\n\n\n\n\nSPSS\n\n\nBioestadística aplicada con SPSS.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/latex/index.html",
+    "href": "docencia/latex/index.html",
+    "title": "LaTeX",
+    "section": "",
+    "text": "Manual\n\n\nIntroducción a la composición de textos científicos con LaTeX.\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicios\n\n\nEjercicios resueltos para practicar la composición de textos con LaTeX.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/quarto/index.html",
+    "href": "docencia/quarto/index.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Quarto es un sistema moderno de creación de documentos dinámicos, informes, presentaciones, libros y sitios web a partir de texto plano, especialmente diseñado para la elaboración de documentos científicos y técnicos.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElaboración de textos científicos\n\n\nElaboración de documentos científicos y técnicos con Quarto.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "docencia/spss/index.html",
+    "href": "docencia/spss/index.html",
+    "title": "SPSS",
+    "section": "",
+    "text": "Bioestadística Aplicada con SPSS\n\n\nLibro que presenta las técnicas de estadística descriptiva e inferencial con SPSS, con ejemplos de Ciencias de la Salud desarrollados paso a paso.\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "post/aprendizaje-automatico-r/index.html",
+    "href": "post/aprendizaje-automatico-r/index.html",
+    "title": "Prácticas de Aprendizaje Automático con R",
+    "section": "",
+    "text": "Me alegra anunciar que ya está disponible una nueva sección sobre Aprendizaje Automático donde he publicado una colección de prácticas de aprendizaje automático con R orientadas sobre todo a Ciencias de la Salud, aunque también pueden ser de utilidad para otros campos.\nHan sido muchas las personas que me han escrito para pedir que añadiese materiales sobre aprendizaje automático a la web, y por fin he podido dedicar un tiempo a crear esta sección, que sin duda está ahora muy de moda.\nEn esta sección se pueden encontrar ejercicios prácticos de aprendizaje supervisado y no supervisado, utilizando el paquete tidymodels de R. Cada práctica incluye, como es habitual, ejercicios resueltos y ejercicios propuestos para poner a prueba los conocimientos adquiridos.\nEn un futuro no lejano espero poder incluir más prácticas de aprendizaje automático con otros lenguajes como Python o Julia.\nEspero que os sea útil."
+  },
+  {
+    "objectID": "post/curso-git/index.html",
+    "href": "post/curso-git/index.html",
+    "title": "Curso de Git",
+    "section": "",
+    "text": "¿Conoces Git?\nSi no lo conoces deberías, porque no importa a lo que te dediques, una vez aprendas a usarlo no podrás vivir sin él.\nGit es el sistema de control de versiones más usado en el mundo. Pero, ¿qué es un sistema de control de versiones? Pues es una aplicación que permite gestionar los cambios que se realizan sobre los elementos de un proyecto o repositorio, guardando así versiones del mismo en todas sus fases de desarrollo. No importa el contenido de tu carpeta o repositorio, ya sean documentos, hojas de cálculo, fotos, páginas web o código en un lenguaje de programación, con git podrás tener un control absoluto sobre los cambios en tu repositorio: qué cambios se hicieron, cuándo, quién los hizo, e incluso podrás volver a versiones anteriores del repositorio.\nRecientemente he dado un curso de programación y he tenido que preparar un mini curso de Git que pongo a vuestra disposición. Podéis acceder al curso en los siguientes enlaces:\n\nManual de Git\nEjercicios de Git\n\nEspero que os sean muy útiles.\nComo siempre, agradezco que aviséis de cualquier error que encontréis."
+  },
+  {
+    "objectID": "post/estudios-estadisticos-r/index.html",
+    "href": "post/estudios-estadisticos-r/index.html",
+    "title": "Tipos de estudios estadísticos",
+    "section": "",
+    "text": "Acabo de publicar una guía básica con los principales tipos de estudios estadísticos y ejemplos realizados con el programa de análisis de datos R.\nUna de las preguntas más recurrentes de suelen hacerme mis compañeros cuando están realizando un estudio de investigación es ¿qué tipo de estudio estadístico tengo que aplicar?. Con esta guía pretendo ayudar a encontrar la respuesta a todos aquellos que se hagan esta pregunta.\nEn esta guía no se abordan todos los tipos de estudios estadísticos que existen, pero si lo más habituales, dependiendo del objetivo perseguido, el número de variables que intervienen y el tipo de estas variables. Para facilitar la comprensión de cada tipo de estudio se muestra un ejemplo sencillo implementado con R.\nEspero que os sea útil."
+  },
+  {
+    "objectID": "post/manual-julia/index.html",
+    "href": "post/manual-julia/index.html",
+    "title": "Manual de Julia",
+    "section": "",
+    "text": "Julia es un lenguaje de programación moderno que se caracteriza por ser tan sencillo de aprender como Python o R, pero que es tan rápido como C, lo que lo convierte en una opción muy interesante para realizar cálculos que tienen un alto coste computacional.\nDurante el curso 2022-2023 hemos introducido Julia como uno de los lenguajes de programación básicos en el grado de Ingeniería Matemática y por tal motivo he preparado un pequeño manual de introducción a Julia.\nPodéis acceder a él con el siguiente enlace: Manual de Julia.\nEspero que os resulte útil."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html",
+    "href": "post/manual-supervivencia-grados/index.html",
+    "title": "Manual de supervivencia para grados",
+    "section": "",
+    "text": "En este artículo ofrezco varios consejos o buenas prácticas para ayudar a estudiantes de grado, especialmente durante su primer año, para sacarle el máximo partido a las clases, rentabilizar mejor su trabajo y culminar su proceso de aprendizaje con éxito.\nLos consejos que aquí aparecen se dan desde la experiencia de bastantes años de docencia, y teniendo en cuenta sobre todo, que el autor también fue y sigue siendo alumno.\nLa mayoría de estos consejos pueden parecer obvios pero muchos estudiantes los ignoran o fracasan al intentar ponerlos en práctica."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#motivación",
+    "href": "post/manual-supervivencia-grados/index.html#motivación",
+    "title": "Manual de supervivencia para grados",
+    "section": "Motivación",
+    "text": "Motivación\nLa primera condición para lograr el éxito, no sólo en una titulación, sino en cualquier proyecto que se emprenda a lo largo de la vida, es la motivación. Sin motivación, lo más fácil es que a las primeras dificultades o inconvenientes que aparezcan tiremos la toalla, y debemos tener presente que seguro habrá dificultades. Conviene tener siempre presente las razones por las que se emprende el camino, y visualizar la meta. Es decir, caminar con un ojo puesto en el horizonte para saber hacia dónde nos dirigimos, y con el otro puesto en el camino para no tropezar.\nEs cierto que a veces se acaba en una carrera por imposición (de los padres, del mercado laboral, etc.), pero incluso en estos casos hay que ser positivos y pensar que lo que se aprenda sin duda nos hará mejores y seguramente nos servirá en un futuro. Además, en el peor de los casos hay que pensar que ¡cuanto antes se pase el trago mejor!, por lo que conviene poner toda la carne en el asador.\nUna grado supone mucho esfuerzo y sacrificio, pero debemos pensar que la mayor parte de las personas que comienza una grado lo acaba con éxito, muchas de ellas menos inteligentes que tú, que han pasado por las mismas dificultades y al final han superado los obstáculos. Si conoces a alguna, su consejo puede serte muy útil."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#toma-la-iniciativa",
+    "href": "post/manual-supervivencia-grados/index.html#toma-la-iniciativa",
+    "title": "Manual de supervivencia para grados",
+    "section": "Toma la iniciativa",
+    "text": "Toma la iniciativa\nEn el proceso de aprendizaje, la alumna no es el objeto al cual hay que dotar de una serie de conocimientos y capacidades, sino el propio sujeto de su formación. La alumna está acostumbrada a seguir el rumbo que marca la profesora, los padres, la tutora, pero realmente es ella quien, una vez motivada, debe llevar la iniciativa en el proceso de aprendizaje, pues lo que está en juego es su formación y desarrollo integral. Este convencimiento debe llevar a la alumna a ir incluso por delante de sus docentes, preparando anticipadamente los capítulos del curso, trabajando ejercicios no propuestos, ampliando la documentación sobre los temas de clase, etc. De esta manera, la alumna no sólo aprenderá más, más rápido y mejor, sino que al mismo tiempo se estará preparando para su futuro profesional, en el que en muchas ocasiones no contará con nadie que le dirija o le aconseje sobre los problemas que se le presenten en su trabajo.\n\n¿Qué supone tomar la iniciativa?\n\nExplorar la materia por uno mismo.\nPreparar anticipadamente las clases.\nIntentar resolver los problemas sin ayuda.\nAmpliar la información dada en clase con otras fuentes.\nIntentar aplicar lo aprendido a tu propia vida o en otros contextos.\nDar rienda suelta a tu curiosidad y creatividad."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#la-profesora-es-tu-aliada",
+    "href": "post/manual-supervivencia-grados/index.html#la-profesora-es-tu-aliada",
+    "title": "Manual de supervivencia para grados",
+    "section": "La profesora es tu aliada",
+    "text": "La profesora es tu aliada\nA menudo solemos pensar desgraciadamente que una profesora la tiene tomada con nosotras, que su objetivo es hacernos la vida imposible. En otras ocasiones, la vemos más como una juez que al final del curso emitirá el veredicto (aprobado o suspenso). Sin embargo, a pesar de la desagradable tarea de evaluar, el principal objetivo de una profesora es enseñar. Es cierto que a veces puede haber roces personales entre profesora y alumna, al igual que puede haberlos en una familia o entre personas cualesquiera que mantienen algún tipo de relación, pero en la inmensa mayoría de los casos, las acciones de una profesora, con mayor o menor motivación, mayor o menor éxito, tienen como único fin el aprendizaje de sus alumnas. Así que ¡cambia el chip!, piensa en tu profesora como en una aliada, no como una enemiga."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#saca-el-máximo-partido-a-tus-clases",
+    "href": "post/manual-supervivencia-grados/index.html#saca-el-máximo-partido-a-tus-clases",
+    "title": "Manual de supervivencia para grados",
+    "section": "Saca el máximo partido a tus clases",
+    "text": "Saca el máximo partido a tus clases\nLas clases presenciales no son la única forma de aprender, pero sí una de las más efectivas, aunque para ello es necesario saber aprovecharlas. Asistir a clase sólo por el hecho de firmar la lista de asistencia o de que la profesora me vea, sin otro interés, prácticamente no sirve de nada, y puede llegar a ser incluso contraproducente. Así pues, si asistes a una clase, olvida otras asignaturas o asuntos y trata de poner los cinco sentidos en el tema que se trata en la clase.\nPor otro lado, también necesitas hacer un uso adecuado de cada tipo de clase. Cuando se trata de una clase magistral, donde se da una introducción a un nuevo tema, es importante quedarse con las ideas principales y su estructura, y no preocuparse demasiado por los detalles y por anotar absolutamente cada palabra de la profesora.\nUn seminario, por contra, trata de profundizar en un tema concreto. Por tanto, es buena idea acudir con una preparación previa del tema a tratar. De este modo, la clase será sin duda mucho más provechosa ya que rápidamente se aterrizará sobre las dudas o los aspectos menos claros.\nFinalmente, si se trata de una clase de ejercicios, resulta imprescindible haberlos intentado previamente para identificar las principales dificultades o los callejones sin salida. De esta forma, una vez en clase, podremos detenernos justo en esos puntos y aprender realmente lo que nos faltaba por conocer o lo que estábamos haciendo mal. Si nos limitamos a copiar de la pizarra las resoluciones de los ejercicios, sin haberlos intentado previamente, lo más seguro es que no identifiquemos el conocimiento clave, o la técnica necesaria para resolver cada tipo de ejercicio, y que posteriormente no sepamos aplicarlas en ejercicios similares.\nCuando la materia lo permite también puedes pedirle al profesor que invierta la clase.\n\n¿Qué es una clase invertida?\nLa clase invertida trata de darle la vuelta a la metodología clásica de enseñanza en la que la alumna se enfrenta por primera vez a los contenidos teóricos de la materia fuera de la clase, habitualmente leyendo libros o visualizado videos, y el tiempo de clase se dedica al trabajo más duro de asimilación del conocimiento por medio de resolución de dudas, resolución de problemas o debates."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#pregunta-sin-miedo",
+    "href": "post/manual-supervivencia-grados/index.html#pregunta-sin-miedo",
+    "title": "Manual de supervivencia para grados",
+    "section": "Pregunta sin miedo",
+    "text": "Pregunta sin miedo\nEn relación con el punto anterior, para un mejor aprovechamiento de las clases es imprescindible la interacción alumna-profesora o alumna-alumna. La profesora, por muy avispada que sea, la mayoría de las veces no sabrá si una alumna no comprende un concepto o se ha perdido en un desarrollo. Sólo si la alumna pregunta o muestra signos de no haber comprendido una explicación, la profesora podrá repetirla o poner más ejemplos para su comprensión. El miedo al ridículo suele ser el principal inconveniente a la hora de preguntar, sobre todo de las alumnas de primer curso. Debemos aprender a vencer la timidez y el miedo al ridículo, porque en la mayoría de los casos nuestras dudas seguro que son generalizadas en la clase, e incluso cuando no lo sean, debemos convencernos de que la pregunta más estúpida es aquélla que no se hace.\nLa retroalimentación es un aspecto esencial para asegurar un progreso sólido en cualquier proceso de aprendizaje."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#aprovecha-las-tutorías",
+    "href": "post/manual-supervivencia-grados/index.html#aprovecha-las-tutorías",
+    "title": "Manual de supervivencia para grados",
+    "section": "Aprovecha las tutorías",
+    "text": "Aprovecha las tutorías\nUna de las principales ventajas de los centros privados como este es la facilidad para acceder a las profesoras. Si tenemos claro que la profesora es nuestra aliada no deberíamos dudar en utilizar las tutorías cada vez que se presente algún problema.\nCada alumna debe tener asignada una tutora cuya función es informarle y asesorarle sobre cualquier duda de tipo académico que pueda tener durante el curso, desde la matrícula, hasta los exámenes. Si no conoces cual es tu tutora, pregúntalo en secretaría y concierta una entrevista con ella cuanto antes para presentaros mutuamente. Cada vez que tengas un problema o surja un incidente que no sepas cómo resolver acude a ella. Incluso en el caso de que no haya ningún tipo de incidente deberías visitar a tu tutora regularmente (sobre todo después de las evaluaciones) para revisar juntas la marcha del curso. Piensa que cuanto más conozca una tutora sobre ti y sobre tu trayectoria en la universidad, mejor podrá ayudarte.\nPor otro lado, cada profesora que te imparta una asignatura tiene asignadas unas horas para tutorías. Las tutorías suelen realizarse en el despacho de la profesora en la hora fijada para las mismas.\nUtiliza las tutorías para:\n\nPedir consejo a la profesora sobre cómo estudiar un determinado tema.\nResolver dudas o aclarar conceptos que no has entendido bien (especialmente si has faltado a alguna clase).\nPedir ayuda si no eres capaz de resolver algún ejercicio.\nRevisar tus exámenes.\n\nPero también debes tener en cuenta que:\n\nLas tutorías no son clases particulares. Esto quiere decir que no están pensadas para repetir una clase dada al grupo, ni para hacer ejercicios con la alumna. A una tutoría hay que acudir con un problema concreto o para resolver una duda concreta, lo que supone que la alumna se ha documentado sobre la cuestión y ha habido un trabajo previo por su parte.\nRespeta el horario de las tutorías. La mayor parte de las profesoras promueven el uso de las tutorías porque además son una forma de interactuar con la alumna para conocerse mejor y ver su evolución. Sin embargo, las profesoras suelen tener otras ocupaciones además de la docencia por lo que, en la medida de lo posible, intenta no acudir a una tutoría fuera de su horario para no interrumpir su trabajo. Si no puedes acudir a una tutoría en la hora establecida, pide cita a la profesora."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#documéntate-lee-y-escribe",
+    "href": "post/manual-supervivencia-grados/index.html#documéntate-lee-y-escribe",
+    "title": "Manual de supervivencia para grados",
+    "section": "Documéntate, lee y escribe",
+    "text": "Documéntate, lee y escribe\nOtras de las claves para el éxito es disponer de una buena documentación que complemente lo visto en clase. Muchas alumnas tienden a creer que la única información importante a tener en cuenta es la provista por la profesora. Incluso si sólo se piensa en superar los exámenes esto es un error, ya que la información que puede ofrecer una profesora en clase es limitada, incompleta, y a veces errónea (desgraciadamente las profesoras también se equivocan). Por tanto, una buena documentación te puede ayudar no sólo a contrastar lo visto en clase con otras fuentes, sino a comprender mejor lo explicado, y a ampliarlo viendo nuevos ejemplos, descubriendo nuevas aplicaciones, etc.\nPara cada asignatura deberías tener dos o tres libros de referencia durante el curso. En las guías docentes aparece la bibliografía recomendada por las profesoras de la asignatura. Empieza por mirar los libros básicos (la mayoría estarán disponibles en la biblioteca de la universidad), pero no te conformes con eso. Es posible que haya un libro muy bueno sobre una materia pero con el que te cueste comprender las cosas, de modo que no te sirva de mucho. ¡Cada una debe buscar su libro! Por eso es importante que busques aquellos libros que te permitan comprender la materia y con los que te sientas cómoda. Si no encuentras ninguno que te satisfaga entre los propuestos en la bibliografía de la asignatura, pregúntale a la profesora por otros libros o busca más información en Internet. Sobre todo nunca compres un libro antes de haberlo mirado en profundidad.\nUna vez se disponga de una documentación apropiada, debe realizarse una lectura comprensiva de la misma. Esto muchas veces exige leer varias veces el texto, acudir al diccionario cuando no se conozca alguna palabra, subrayar las ideas claves y anotar el texto complementando la información con alguna aclaración o ejemplo. Nunca se debe aprender de memoria algo si no se llega a comprender perfectamente.\nPor otro lado, es muy importante, a la hora de estructurar y asentar las ideas adquiridas sobre un tema, escribir sobre él. Está más que comprobado que escribir sobre un tema ayuda a pensar mejor y a razonar con más rigor. Un recurso muy utilizado es el desarrollo de esquemas o resúmenes que ayuden a sintetizar los conceptos más importantes en pocas páginas, y que además pueden servir para un repaso posterior del tema. También puede ser muy útil hacer pequeñas presentaciones de cada tema. Además, debe tenerse en cuenta que la mayoría de las pruebas de evaluación son escritas, por lo que es importante el entrenamiento en la escritura."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#trabaja-en-grupo",
+    "href": "post/manual-supervivencia-grados/index.html#trabaja-en-grupo",
+    "title": "Manual de supervivencia para grados",
+    "section": "Trabaja en grupo",
+    "text": "Trabaja en grupo\nEl trabajo en grupo es importante, no sólo desde el punto de vista del aprendizaje, sino porque además ayuda a desarrollar los hábitos sociales. En la mayoría de las ocupaciones profesionales es natural trabajar en equipo, pues la resolución de determinadas tareas o problemas se simplifica cuando se trabaja cooperativamente. En la enseñanza ocurre algo parecido, pues el aprendizaje colaborativo suele ser más rápido y mejor (y más divertido). De esta manera, el trabajo en grupo es útil en muchos aspectos:\n\nAyuda a desarrollar habilidades sociales.\nRefuerza la motivación de la alumna al sentirse miembro de un equipo.\nEnriquece el aprendizaje con la aportación de otros puntos de vista.\nAyuda a desarrolla la capacidad crítica de la alumna.\n\nPero aprender a trabajar en grupo no es fácil. Un grupo maduro es aquél en el que hay plena participación de sus miembros a la hora de tomar decisiones y de repartir tareas, y donde cada miembro asume su responsabilidad en la parte del trabajo que le corresponda, apoyándose en los demás cuando sea necesario. Adquirir las habilidades de trabajo en grupo lleva tiempo y sobre todo práctica, por eso cuanto antes empieces mejor. Si la profesora no organiza grupos de trabajo, crea junto a tus compañeras tus propios grupos de estudio o trabajo."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#organízate",
+    "href": "post/manual-supervivencia-grados/index.html#organízate",
+    "title": "Manual de supervivencia para grados",
+    "section": "Organízate",
+    "text": "Organízate\nMuchas veces el fracaso no es debido a una falta de motivación o de trabajo, sino a una mala planificación. Es esencial hacer una buena planificación al comienzo del curso que contemple no sólo los horarios de clases, prácticas o las fechas de exámenes, sino también la organización del tiempo de trabajo fuera de la universidad. Lo más importante de esta planificación es que sea realista, es decir que si sólo disponemos de un par de horas para trabajar en casa, no contemos con más, pero tampoco con menos, y que hagamos un reparto razonable de las mismas, asignando más tiempo a las materias más complejas o que requieran más trabajo. Una buena pista del tiempo de trabajo que requiere cada asignatura es su número de créditos ECTS. Es recomendable revisar dicha planificación con la tutora. Una vez realizada la planificación, lo más importante es ser fiel a la misma, teniéndola presente en todo momento a lo largo del curso."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#revisa-regularmente-la-marcha-del-curso",
+    "href": "post/manual-supervivencia-grados/index.html#revisa-regularmente-la-marcha-del-curso",
+    "title": "Manual de supervivencia para grados",
+    "section": "Revisa regularmente la marcha del curso",
+    "text": "Revisa regularmente la marcha del curso\nDentro de la planificación del curso deben establecerse varias fechas, convenientemente espaciadas, para hacer una revisión parcial del camino recorrido y lo que queda por recorrer. Estas revisiones tienen por objeto hacer una pequeña autoevaluación sobre el proceso de aprendizaje, hasta qué punto se están cumpliendo los objetivos fijados y si estamos siendo fieles a las pautas marcadas por este manual de supervivencia. De este modo podremos identificar las principales dificultades en el aprendizaje y aquello en lo que estamos fallando, para corregir el rumbo a tiempo. En el peor de los casos, incluso si al final del curso no logramos superar alguna asignatura, es muy importante hacer una revisión final tratando de identificar las causas para aprender de los errores y que no se vuelvan a repetir en futuros cursos. No te desanimes y piensa que aunque no hayas superado la asignatura, seguro que no has perdido por completo el año. Se positiva y piensa en todo aquello que has aprendido y que sin duda te aportará experiencia para tu vida."
+  },
+  {
+    "objectID": "post/manual-supervivencia-grados/index.html#revisa-regularmente-estos-consejos",
+    "href": "post/manual-supervivencia-grados/index.html#revisa-regularmente-estos-consejos",
+    "title": "Manual de supervivencia para grados",
+    "section": "Revisa regularmente estos consejos",
+    "text": "Revisa regularmente estos consejos\nPor último, no te olvides de revisar y refrescar estos consejos."
+  },
+  {
+    "objectID": "post/presentacion-julia-seminario/index.html",
+    "href": "post/presentacion-julia-seminario/index.html",
+    "title": "Cálculo numérico y simbólico con Julia",
+    "section": "",
+    "text": "La semana pasada participé en el seminario de innovación docente organizado por el Grupo de Innovación Docente en Modelización Matemática y Simulación Numérica (M2SINUM) de la Universidad de La Coruña.\nAllí presenté la experiencia docente de la introducción de Julia como lenguaje de computación para las prácticas de varias asignaturas (Análisis, Álgebra Lineal y Matemática Discreta) del grado de Ingeniería Matemática de la Universidad CEU San Pablo durante este curso 2023-2024. Durante la presentación se mostraron las principales razones que han motivado la elección de este lenguaje y se vió cómo utilizar Julia tanto para cálculo simbólico como numérico en distintas áreas de las Matemáticas (representación gráfica de funciones, cálculo de límites, derivadas, integrales, resolución de ecuaciones, ecuaciones diferenciales, Álgebra Lineal, etc.).\nPodéis acceder a la presentación con el siguiente enlace: Cálculo Numérico y Simbólico con Julia."
+  },
+  {
+    "objectID": "proyectos/distribuciones/index.html",
+    "href": "proyectos/distribuciones/index.html",
+    "title": "Distribuciones de Probabilidad",
+    "section": "",
+    "text": "Acceso a la aplicación"
+  },
+  {
+    "objectID": "proyectos/distribuciones/index.html#qué-es-distribuciones-de-probabilidad",
+    "href": "proyectos/distribuciones/index.html#qué-es-distribuciones-de-probabilidad",
+    "title": "Distribuciones de Probabilidad",
+    "section": "¿Qué es Distribuciones de Probabilidad?",
+    "text": "¿Qué es Distribuciones de Probabilidad?\nDistribuciones de Probabilidad es una aplicación web interactiva que permite visualizar las principales distribuciones de probabilidad discretas y continuas, explorando cómo cambian su función de probabilidad (o densidad) y su función de distribución al modificar sus parámetros.\nLas distribuciones que se pueden visualizar en la aplicación son:\nDistribuciones discretas\n\nBinomial\nBinomial negativa\nGeométrica\nHipergeométrica\nPoisson\n\nDistribuciones continuas\n\nUniforme\nBeta\nNormal\nExponencial\nGamma\nChi-cuadrado\nt de Student\nF de Fisher"
+  },
+  {
+    "objectID": "proyectos/rkteaching/index.html#qué-es-rkteaching",
+    "href": "proyectos/rkteaching/index.html#qué-es-rkteaching",
+    "title": "rkTeaching",
+    "section": "¿Qué es rkTeaching?",
+    "text": "¿Qué es rkTeaching?\nrkTeaching es un paquete de R que proporciona un plugin para la interfaz gráfica RKWard añadiendo nuevos menús y cuadros de diálogo especialmente diseñados para la enseñanza de Estadística.\nEl paquete ha sido desarrollado y es mantenido por Alfredo Sánchez Alberca asalber@ceu.es del Departamento de Matemáticas de la Universidad San Pablo CEU de Madrid.\nSi descubre algún error o tiene cualquier sugerencia, por favor, envíeselo por correo al autor o bien indíquelo como un issue en Github.\n\n\n\nRKWArd"
+  },
+  {
+    "objectID": "proyectos/rkteaching/index.html#instalación",
+    "href": "proyectos/rkteaching/index.html#instalación",
+    "title": "rkTeaching",
+    "section": "Instalación",
+    "text": "Instalación\n\nInstalación en Windows\nPara usuarios de plataformas Windows existe un programa de instalación que incluye R, RKWard y rkTeaching.\n\nDescarga la última versión (R versión 4.3, RKWard versión 0.8, rkTeaching versión 1.3.0)\nDescarga la versión anterior (R versión 3.6.2, RKWard versión 0.7.1b, rkTeaching versión 1.3.0)\n\nUna vez descargado el fichero, sólo hay que ejecutarlo para descomprimirlo. Al ejecutarse aparecerá un cuadro de diálogo donde preguntará por la unidad y el directorio de instalación y es importante indicar que se instale en la carpeta raíz del disco duro C, es decir en la dirección C:\\, tras esto se creará una carpeta RKWard y dentro de ella la carpeta bin donde se encuentra el fichero rkward.exe que hay que ejecutar para arrancar RKWard.\nEl siguiente vídeo muestra el proceso de instalación.\n\n\n\nInstalación en Mac Os\nPara instalar el software en plataformas Mac Os debe instalarse cada programa por separado con el siguiente orden:\n\nInstalar R. R puede descargarse desde la página https://cran.r-project.org/. Se recomienda instalar la versión 4.3 para MacOs. Dependiendo el procesador del ordenador debe seleccionarse la versión arm65 para ordenadores con un chip silicon (M1-3) o la versión x86 para ordenadores con chip de Intel.\n\nR versión 4.3 para MacOs con chip silicon (M1-3)\nR versión 4.3 para MacOs con chip de Intel (x86)\n\nInstalar RKWard. RKWard puede descargarse desde la página https://rkward.kde.org/. Debe seleccionarse la distribución correspondiente a Mac Os (https://rkward.kde.org/RKWard_on_Mac.html) y seguir las instrucciones de instalación que allí se especifican. Es importante asegurase de tener una versión de Mac OS X 10.15 o superior, ya que RKWard no funciona con versiones anteriores.\nSi hay algún error en la instalación, consultar las posibles soluciones en (http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting)\nInstalar los paquetes de los que depende rkTeaching. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende. Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:\ninstall.packages(c(\"R2HTML\",\"car\",\"e1071\",\"Hmisc\", \"ez\", \"multcomp\", \"psych\", \"probs\", \"tidyverse\", \"knitr\", \"kableExtra\", \"remotes\"))\nInstalar rkTeaching. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R remotes. Para ello hay que introducir los siguientes comandos en la consola de R:\nlibrary(remotes)\ninstall_github(\"rkward-community/rk.Teaching\")\nEl siguiente vídeo muestra el proceso de instalación.\n\n\n\nInstalación en MacOs mediante WMware Fusion\nSi el procedimiento anterior no funciona, es posible instalar una máquina virtual con RKward ya instalado mediante el software WMware Fusion. Para ello deben seguirse los siguientes pasos:\n\nInstalar WMware Fusion. WMware Fusion es un software de virtualización que permite instalar sistemas operativos Windows o Linux en un Mac. Descargar WMware Fusion y seguir las instrucciones de instalación.\nDescargar la máquina virtual con RKWard ya instalado.\n\nDescargar máquina virtual con RKWard versión 0.8 y rkTeaching 1.4\nDescargar máquina virtual con RKWard versión 0.7 y rkTeaching 1.3\n\nArrancar WMware Fusion y abrir la máquina virtual descargada. La máquina virtual arrancará con RKWard ya instalado y listo para su uso.\n\n\n\n\nInstalación en Linux\nPara instalar el software en plataformas Linux debe instalarse cada programa por separado con el siguiente orden:\n\nInstalar R. R puede descargarse desde la página http://cran.es.r-project.org/. Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican. Es necesario que la versión de R sea la 3.0 o superior.\nEn sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:\nsudo apt-get install r-base\nInstalar RKWard. RKWard puede descargarse desde la página https://rkward.kde.org/. Debe seleccionarse la distribución correspondiente a Linux y seguir las instrucciones de instalación que allí se especifican.\nEn sistemas Debian y Ubuntu, puede instalarse desde la línea de comandos con el comando:\nsudo apt-get install rkward\nEs importante asegurarse de que la versión instalada es la 0.7.2 o superior.\nInstalar los paquetes de los que depende rkTeaching. Para instalar rkTeaching primero hay que instalar los paquetes de R de los que depende. Para ello, hay que ejecutar R en línea de comandos, o bien arrancar RKWard e ir a la solapa de la Consola de R (R console) e introducir los siguientes comandos:\ninstall.packages(c(\"R2HTML\",\"car\",\"e1071\",\"Hmisc\", \"ez\", \"multcomp\", \"psych\", \"probs\", \"tidyverse\", \"knitr\", \"kableExtra\", \"remotes\"))\nInstalar rkTeaching. La mejor forma de instalar rkTeaching desde este repositorio es utilizando el paquete de R remotes. Para ello hay que introducir los siguientes comandos en la consola de R:\nlibrary(remotes)\ninstall_github(\"rkward-community/rk.Teaching\")\nEl siguiente vídeo muestra el proceso de instalación."
+  },
+  {
+    "objectID": "proyectos/rkteaching/index.html#procedimientos-estadísticos",
+    "href": "proyectos/rkteaching/index.html#procedimientos-estadísticos",
+    "title": "rkTeaching",
+    "section": "Procedimientos estadísticos",
+    "text": "Procedimientos estadísticos\nUna vez instalado, al arrancar RKWard aparecerá un nuevo menú Teaching con los siguientes procedimientos estadísticos:\n\nManipulación de datos\n\nFiltrar datos\nCalcular variable\nRecodificar variable\nPonderar datos\nTipificar variables\n\nDistribución de frecuencias\n\nTablas de frecuencias\nTablas de frecuencias bidimensionales\n\nGráficos\n\nDiagrama de barras\nHistograma\nDiagrama de sectores\nDiagrama de caja\nDiagrama de medias\nDiagrama de interacción\nDiagrama de dispersión\nDiagrama de lineas\nMatriz de dispersión\n\nEstadística descriptiva\n\nEstadísticos\nEstadísticos (cálculo detallado)\n\nRegresión\n\nRegresión lineal\nRegresión no lineal\nComparación de modelos\nPredicciones\nCorrelación\n\nTest paramétricos\n\nMedias\n\nTest T para una muestra\nTest T para dos muestras independientes\nTest T para dos muestras pareadas\nANOVA\nCálculo del tamaño muestral para la media\nCálculo del tamaño muestral para el test T\nCálculo de la potencia de un test T\n\nVarianzas\n\nTest para la varianza de una población\nTest F de Fisher\nTest de Levene\n\nProporciones\n\nTest para una proporción\nTest para dos proporciones\nCálculo del tamaño muestral para una proproción\n\n\nTest no paramétricos\n\nNormalidad\n\nTest de Lilliefors (Komogorov-Smirnov)\nTest de Shapiro-Wilk\n\nTest U de Mann-Whitney para dos muestas independientes\nTest de Wilcoxon para dos muestras pareadas\nTest de Kruskal-Wallis para varias muestras independientes\nTest de Friedman para medidas repetidas\nTest Chi-cuadrado de independencia\nTest Chi-cuadrado de bondad de ajuste\n\nConcordancia\n\nCoeficiente de correlación intraclase\nKappa de Cohen\n\nProbabilidad\n\nJuegos de azar\n\nMonedas\n\nEspacio probabilístico\nLanzamiento de monedas\n\nDados\n\nEspacio probabilístico\nLanzamiento de dados\n\nNaipes\n\nEspacio probabilístico\nExtracción naipes\n\nUrnas\n\nEspacio probabilístico\nExtracción de urnas\n\n\nConstrucción de espacio probabilístico\nCombinación de espacios probabilísticos\nRepetición de espacios probabilísticos\nCálculo de probabilidad\n\nDistribuciones de probabilidad\n\nDistribuciones discretas\n\nBinomial\n\nProbabilidades\nCuantiles\nGráfico de probabilidad\n\nPoisson\n\nProbabilidades\nCuantiles\nGráfico de probabilidad\n\n\nDistribuciones continuas\n\nChi-cuadrado\n\nProbabilidades\nCuantiles\nGráfico de probabilidad\n\nF de Fisher\n\nProbabilidades\nCuantiles\nGráfico de probabilidad\n\nNormal\n\nProbabilidades\nCuantiles\nGráfico de probabilidad\n\nT de student\n\nProbabilidades\nCuantiles\nGráfico de probabilidad\n\nUniforme continua\n\nProbabilidades\nCuantiles\nGráfico de probabilidad\n\n\n\nSimulaciones\n\nLey de los casos raros"
+  },
+  {
+    "objectID": "proyectos/rkteaching/index.html#funcionalidades",
+    "href": "proyectos/rkteaching/index.html#funcionalidades",
+    "title": "rkTeaching",
+    "section": "Funcionalidades",
+    "text": "Funcionalidades\n\nMenús y cuadros de diálogo diseñados para facilitar el aprendizaje, eliminando todas las opciones secundarias para conseguir una interfaz simple e intuitiva.\nDiseño de asistentes que guían al usuario paso a paso y le asesoran en los análisis estadísticos. \nSalidas en HTML que presentan los resultados de los análisis y sus interpretaciones de manera clara y concisa. \nGráficos sencillos basados en el moderno paquete ggplot2. \nPosibilidad mostrar el desarrollo de los cálculos de algunos procedimientos estadísticos."
+  },
+  {
+    "objectID": "proyectos/rkteaching/index.html#enlaces",
+    "href": "proyectos/rkteaching/index.html#enlaces",
+    "title": "rkTeaching",
+    "section": "Enlaces",
+    "text": "Enlaces\n\nCódigo fuente\n\nrkTeaching es mantenido por asalber."
+  },
+  {
+    "objectID": "proyectos/rkteaching/index.html#cómo-citar-rkteaching",
+    "href": "proyectos/rkteaching/index.html#cómo-citar-rkteaching",
+    "title": "rkTeaching",
+    "section": "¿Cómo citar rkTeaching?",
+    "text": "¿Cómo citar rkTeaching?\nSánchez-Alberca, A. (2024). rkTeaching (version 1.4) [software]. Obtenido de: https://aprendeconalf.es/proyectos/rkteaching."
+  },
+  {
+    "objectID": "publicaciones/index.html",
+    "href": "publicaciones/index.html",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "Ordenar por\n      Por defecto\n      \n        Título\n      \n      \n        Fecha - Más antiguo\n      \n      \n        Fecha - Más reciente\n      \n      \n        Autor/a\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nClinical-Evolutionary Staging System of Primary Open-Angle Glaucoma Using Optical Coherence Tomography\n\n\n\nBioestadística\n\nOftalmología\n\n\n\nJournal of Clinical Medicine · DOI\n\n\n\n\n\n15 may 2020\n\n\nA. Parra-Blesa, A. Sánchez-Alberca, J. J. García-Medina\n\n\n\n\n\n\n\nClasificación por estadios clínico evolutivos del glaucoma primario de ángulo abierto (GPAA) usando valores normalizados obtenidos mediante tomografía de coherencia óptica\n\n\n\nBioestadística\n\nOftalmología\n\n\n\nXIV Congreso de la Sociedad Española de Glaucoma\n\n\n\n\n\n1 ene 2019\n\n\nA. Sánchez Alberca, M. L. Sánchez Rodríguez, M. Camacho Sampelayo, J. M. Camacho Sampelayo, J. J. García Medina, A. Parra Blesa\n\n\n\n\n\n\n\nUna nueva taxonomía de colecciones y de funciones de similitud para su comparación\n\n\n\nMatemáticas\n\n\n\nPensamiento Matemático · 5ª Jornada Internacional Matemáticas Everywhere\n\n\n\n\n\n1 ene 2018\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nClasificación por estadios del glaucoma primario de ángulo abierto usando valores normalizados del anillo BMO\n\n\n\nOftalmología\n\n\n\nCongreso de la Sociedad Española de Oftalmología\n\n\n\n\n\n1 ene 2018\n\n\nA. Parra Blesa, A. Sánchez Alberca\n\n\n\n\n\n\n\nAnálisis estadístico inferencial y descriptivo de las capas retinianas; glaucoma versus no glaucoma\n\n\n\nBioestadística\n\nOftalmología\n\n\n\nCongreso de la Sociedad Española de Oftalmología\n\n\n\n\n\n1 ene 2018\n\n\nA. Parra Blesa, A. Sánchez Alberca\n\n\n\n\n\n\n\nAnálisis epidemiológico evolutivo del daño sectorizado en la papila y retina papilar a través de OCT. Nueva clasificación de grados de GCAA\n\n\n\nOftalmología\n\n\n\n25 Congreso Internacional de Optometría, Contactología y Óptica Oftálmica\n\n\n\n\n\n1 ene 2018\n\n\nA. Parra-Blesa, A. Sánchez-Alberca, M. L. Sánchez-Rodríguez, J. J. García-Medina\n\n\n\n\n\n\n\nInnovación en la docencia de Estadística con R y rk.Teaching\n\n\n\nEducación\n\nR\n\nEstadística\n\n\n\nPensamiento Matemático · Matemáticas Everywhere\n\n\n\n\n\n1 ene 2016\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nBringing R to non-expert users with the package RKTeaching\n\n\n\nR\n\nEducación\n\n\n\nBoletín de Estadística e Investigación Operativa (BEIO)\n\n\n\n\n\n1 ene 2015\n\n\nA. Sánchez Alberca\n\n\n\n\n\n\n\nTowards a Semantic Catalog of Similarity Measures\n\n\n\nOntologías\n\n\n\nITHEA International Journal “Information Content and Processing” · I.TECH 2014\n\n\n\n\n\n1 ene 2014\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nBioestadística Aplicada con SPSS\n\n\n\nBioestadística\n\n\n\nManual de bioestadística aplicada\n\n\n\n\n\n1 ene 2014\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nRKTeaching: a new R package for teaching Statistics\n\n\n\nR\n\nEducación\n\n\n\nuseR! 2013\n\n\n\n\n\n1 ene 2013\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nRKTeaching: Un paquete de R para la enseñanza de la Estadística\n\n\n\nR\n\nEducación\n\nEstadística\n\n\n\nIII Jornadas de Intercambio de Experiencias de Innovación Educativa en Estadística\n\n\n\n\n\n1 ene 2012\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nEvolution of neuroendocrine cell population and peptidergic innervation, assessed by discriminant analysis, during postnatal development of the rat prostate\n\n\n\nBioestadística\n\nBiología\n\n\n\nImage Analysis and Stereology 26(1), 1-11\n\n\n\n\n\n1 ene 2007\n\n\nR. Rodríguez, J. M. Pozuelo, A. Sánchez-Alberca, R. Arriazu, et al.\n\n\n\n\n\n\n\nAMON: A software system for automatic generation of ontology mappings\n\n\n\nOntologías\n\n\n\nWorkshop on Building and Applying Ontologies for the Semantic Web (BAOW05)\n\n\n\n\n\n1 ene 2005\n\n\nA. Sánchez-Alberca, R. García-García, C. S. Sorzano, C. Gutiérrez-Cossío, et al.\n\n\n\n\n\n\n\nHerramientas de trabajo cooperativo\n\n\n\nEducación\n\n\n\nII Jornada Presencial de la Red Temática de Farmacología y Toxicología FARMATOXI\n\n\n\n\n\n1 ene 2004\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nFramework for automatic generation of ontology mappings\n\n\n\nOntologías\n\n\n\nJornadas Iberoamericanas de Ingeniería del Software e Ingeniería del Conocimiento\n\n\n\n\n\n1 ene 2004\n\n\nG. Cañadas, M. Fernández López, R. García-García, M. Lama, A. Sánchez-Alberca, et al.\n\n\n\n\n\n\n\nAspectos técnicos de la comunidad virtual de usuarios FARMATOXI\n\n\n\nEducación\n\n\n\nI Jornada Presencial de la Red Temática de Farmacología y Toxicología FARMATOXI\n\n\n\n\n\n1 ene 2002\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nFARMATOXI, a new virtual community of pharmacology and toxicology\n\n\n\nFarmacología\n\n\n\nFundamental and Clinical Pharmacology\n\n\n\n\n\n1 ene 2001\n\n\nG. Repetto, V. Rimbau, A. Sánchez-Alberca, M. Reverte, L. F. Alguacil\n\n\n\n\n\n\n\nFARMATOXI: Red temática de farmacología y toxicología de RedIris\n\n\n\nFarmacología\n\n\n\nII Iberoamerican Congress of Pharmacology\n\n\n\n\n\n1 ene 2000\n\n\nA. Sánchez-Alberca\n\n\n\n\n\nNo hay resultados"
+  }
+]

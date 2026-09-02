@@ -1,0 +1,119 @@
+[
+  {
+    "listing": "/proyectos/index.html",
+    "items": [
+      "/proyectos/distribuciones/index.html",
+      "/proyectos/rubricas/index.html",
+      "/proyectos/rkteaching/index.html"
+    ]
+  },
+  {
+    "listing": "/post/index.html",
+    "items": [
+      "/post/nueva-web/index.html",
+      "/post/aprendizaje-automatico-r/index.html",
+      "/post/quarto-documentos-cientificos/index.html",
+      "/post/manual-julia/index.html",
+      "/post/presentacion-julia-seminario/index.html",
+      "/post/manual-latex/index.html",
+      "/post/estudios-estadisticos-r/index.html",
+      "/post/chuletas/index.html",
+      "/post/epidemiologia-pandemias/index.html",
+      "/post/curso-git/index.html",
+      "/post/manual-supervivencia-grados/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/post/nueva-web/index.html",
+      "/post/aprendizaje-automatico-r/index.html",
+      "/post/quarto-documentos-cientificos/index.html",
+      "/post/manual-julia/index.html",
+      "/post/presentacion-julia-seminario/index.html",
+      "/post/manual-latex/index.html",
+      "/post/estudios-estadisticos-r/index.html",
+      "/post/chuletas/index.html",
+      "/post/epidemiologia-pandemias/index.html",
+      "/post/curso-git/index.html",
+      "/post/manual-supervivencia-grados/index.html",
+      "/proyectos/distribuciones/index.html",
+      "/proyectos/rubricas/index.html",
+      "/proyectos/rkteaching/index.html"
+    ]
+  },
+  {
+    "listing": "/docencia/r/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/python/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/julia/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/git/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/estadistica/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/aprendizaje-automatico/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/analisis/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/calculo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/epidemiologia/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/geogebra/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/index.html",
+    "items": [
+      "/docencia/analisis/index.html",
+      "/docencia/aprendizaje-automatico/index.html",
+      "/docencia/calculo/index.html",
+      "/docencia/derive/index.html",
+      "/docencia/estadistica/index.html",
+      "/docencia/geogebra/index.html",
+      "/docencia/git/index.html",
+      "/docencia/julia/index.html",
+      "/docencia/latex/index.html",
+      "/docencia/python/index.html",
+      "/docencia/quarto/index.html",
+      "/docencia/r/index.html",
+      "/docencia/spss/index.html"
+    ]
+  },
+  {
+    "listing": "/docencia/latex/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/quarto/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docencia/spss/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publicaciones/index.html",
+    "items": []
+  }
+]
