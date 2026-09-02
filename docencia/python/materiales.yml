@@ -1,24 +1,25 @@
 - title: "Manual"
   description: "Introducción a la programación con Python con ejemplos."
-  path: https://aprendeconalf.es/manual-python
+  path: https://aprendeconalf.es/python-manual
+  image: https://aprendeconalf.es/python-manual/img/logos/sticker.png
   order: 1
 - title: "Ejercicios"
   description: "Ejercicios de programación con Python con soluciones."
-  path: https://aprendeconalf.es/docencia/python/ejercicios/
+  path: https://aprendeconalf.es/python-ejercicios
+  image: https://aprendeconalf.es/python-ejercicios/img/logos/sticker.png
   order: 2
 - title: "Exámenes"
   description: "Exámenes de Programación con Python de los últimos cursos con soluciones."
-  path: https://aprendeconalf.es/docencia/python/examenes/
+  path: https://aprendeconalf.es/python-examenes
+  image: https://aprendeconalf.es/python-examenes/img/logos/sticker.png
   order: 3
-- title: "Retos"
-  description: "Retos de programación con Python con soluciones."
-  path: https://aprendeconalf.es/docencia/python/retos/
-  order: 4
 - title: "Trabajos"
   description: "Trabajos de Programación con Python de los últimos cursos con soluciones."
-  path: https://aprendeconalf.es/docencia/python/trabajos/
+  path: https://aprendeconalf.es/python-trabajos
+  image: https://aprendeconalf.es/python-trabajos/img/logos/sticker.png
+  order: 4
+- title: "Terminal"
+  description: "Manejo de la terminal en sistemas Windows, Mac y Linux."
+  path: https://aprendeconalf.es/terminal-manual
+  image: https://aprendeconalf.es/terminal-manual/img/logos/sticker.png
   order: 5
-- title: "Herramientas"
-  description: "Algunas herramientas que te harán la vida más fácil programando."
-  path: https://aprendeconalf.es/docencia/python/herramientas/
-  order: 6

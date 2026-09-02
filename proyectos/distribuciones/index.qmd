@@ -1,0 +1,36 @@
+---
+title: "Distribuciones de Probabilidad"
+description: "Aplicación web interactiva para visualizar las principales distribuciones de probabilidad discretas y continuas."
+date: 2026-07-15
+categories: [R, Shiny]
+image: featured.png
+---
+
+![](featured.png){.featured-image fig-alt="Distribuciones de Probabilidad"}
+
+[Acceso a la aplicación](https://nube.aprendeconalf.es/shiny/distribuciones/){.btn .btn-purple role="button"}
+
+## ¿Qué es Distribuciones de Probabilidad?
+
+Distribuciones de Probabilidad es una aplicación web interactiva que permite visualizar las principales distribuciones de probabilidad discretas y continuas, explorando cómo cambian su función de probabilidad (o densidad) y su función de distribución al modificar sus parámetros.
+
+Las distribuciones que se pueden visualizar en la aplicación son:
+
+**Distribuciones discretas**
+
+- Binomial
+- Binomial negativa
+- Geométrica
+- Hipergeométrica
+- Poisson
+
+**Distribuciones continuas**
+
+- Uniforme
+- Beta
+- Normal
+- Exponencial
+- Gamma
+- Chi-cuadrado
+- t de Student
+- F de Fisher

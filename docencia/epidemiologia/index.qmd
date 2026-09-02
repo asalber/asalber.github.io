@@ -1,0 +1,13 @@
+---
+title: "Epidemiología"
+description: "Estadística para Epidemiología"
+image: featured.png
+listing:
+  contents: materiales.yml
+  type: grid
+  grid-columns: 2
+  fields: [image, title, description]
+  sort: "order"
+page-layout: full
+---
+

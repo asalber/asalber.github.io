@@ -1,8 +1,10 @@
 - title: "Manual"
-  description: "Aprende a manejar el gestor de versiones más usado."
-  path: https://aprendeconalf.es/manual-git
+  description: "Manual de control de versiones con Git."
+  path: https://aprendeconalf.es/git-manual/
+  image: https://aprendeconalf.es/git-manual/img/logos/sticker.png
   order: 1
-- title: "Ejercicios"
-  description: "Ejercicios de control de versiones con Git con soluciones."
-  path: https://aprendeconalf.es/docencia/git/ejercicios/
+- title: "Prácticas"
+  description: "Ejercicios prácticos ressueltos de control de versiones con Git."
+  path: https://aprendeconalf.es/git-practicas/
+  image: https://aprendeconalf.es/git-practicas/img/logos/sticker.png
   order: 2

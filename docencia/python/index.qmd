@@ -1,12 +1,12 @@
 ---
 title: "Python"
-description: "Manual de programación en Python con ejercicios."
+description: "Programación en Python: Apuntes, ejercicios y exámenes."
 image: featured.png
 listing:
   contents: materiales.yml
   type: grid
   grid-columns: 3
-  fields: [title, description]
+  fields: [image, title, description]
   sort: "order"
 page-layout: full
 ---

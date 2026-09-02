@@ -17,7 +17,7 @@ listing:
   - id: home-projects
     contents: proyectos/proyectos.yml
     type: grid
-    grid-columns: 2
+    grid-columns: 3
     fields: [image, title, description]
 include-after-body:
   text: |
@@ -98,39 +98,14 @@ include-after-body:
 :::
 :::
 
-<!-- ================= PUBLICACIONES (banda morada) ================= -->
-
-::: {.column-screen .band .purple}
-::: {.home-column-image .col-left}
-[![](images/homepage/publicaciones.png){.home-img fig-alt="Diagrama de dispersión con recta de regresión"}](publicaciones/index.qmd)
-:::
-
-::: {.home-column-text .col-right}
-<center>
-<h1 class="heading-home" style="color:#fff;">Publicaciones</h1>
-[Artículos de investigación en Bioestadística y Aprendizaje Automático]{style="color:#fff; font-style:italic;"}
-</center>
-
-::: {.category-row}
-::: {.category-column style="width:50%;"}
-<a href="publicaciones/index.html"><img src="images/vectors/star.svg" class="category-image honey-white" alt="Destacadas"></a>
-<h4><a class="white" href="publicaciones/index.html">Destacadas</a></h4>
-:::
-::: {.category-column style="width:50%;"}
-<a href="publicaciones/index.html"><img src="images/vectors/list.svg" class="category-image honey-white" alt="Lista completa"></a>
-<h4><a class="white" href="publicaciones/index.html">Lista completa</a></h4>
-:::
-:::
-:::
-:::
 
 <!-- ================= PROYECTOS (banda blanca) ================= -->
 
-::: {.column-screen .band}
+::: {.column-screen .band .purple}
 ::: {.column-page}
 <center>
-<h1 class="heading-home">Proyectos</h1>
-[Software y herramientas que desarrollo y mantengo]{style="font-style:italic;"}
+<h1 class="heading-home" style="color:#fff;">Proyectos</h1>
+[Software y herramientas que desarrollo y mantengo]{style="font-style:italic;color:#fff;"}
 </center>
 
 :::{#home-projects}
@@ -159,6 +134,10 @@ Los contenidos se revisan y actualizan de forma continua para ofrecer explicacio
 ::: {.value-card}
 ### <i class="bi bi-clipboard-data-fill"></i> Aprendizaje práctico {.value-title}
 Cada tema se acompaña de ejercicios resueltos y ejemplos con datos reales para aprender haciendo.
+:::
+::: {.value-card}
+### <i class="bi bi-arrow-repeat"></i> Ciencia reproducible {.value-title}
+Apoyo la Ciencia Reproducible, es decir, intento que las decisiones, el diseño, la metodología, la recogida de datos y los procedimientos de los estudios sean claros y transparentes para que puedan replicarse.
 :::
 :::
 :::

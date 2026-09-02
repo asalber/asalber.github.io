@@ -1,8 +1,12 @@
 - title: "Rubrics"
   description: "A web application for rubric-based assessment."
-  path: https://github.com/asalber/rubricas
-  image: /projects/proyecto1.png
+  path: rubrics/index.qmd
+  image: /projects/project-rubrics.png
 - title: "rkTeaching"
   description: "An R package for teaching and learning Statistics."
-  path: https://github.com/asalber/rkteaching
-  image: /projects/proyecto2.png
+  path: rkteaching/index.qmd
+  image: /projects/project-rkteaching.png
+- title: "Probability Distributions"
+  description: "Interactive web application to visualize the main discrete and continuous probability distributions."
+  path: distributions/index.qmd
+  image: /projects/project-distributions.png

@@ -1,10 +1,12 @@
 - title: "Manual"
   description: "Aprende a aplicar el Cálculo sin sufrir."
-  path: https://github.com/asalber/calculo-manual/raw/master/manual_calculo.pdf
+  path: https://aprendeconalf.es/calculo-manual
+  image: https://aprendeconalf.es/calculo-manual/img/logos/sticker.png
   order: 1
 - title: "Exámenes"
   description: "Exámenes de Cálculo de los últimos cursos con soluciones."
-  path: https://aprendeconalf.es/docencia/calculo/examenes/
+  path: https://aprendeconalf.es/calculo-examenes
+  image: https://aprendeconalf.es/calculo-examenes/img/logos/sticker.png
   order: 2
 - title: "Fórmulas"
   description: "Hoja de fórmulas, derivadas, integrales y trigonometría."

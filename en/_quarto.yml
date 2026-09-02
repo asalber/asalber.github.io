@@ -61,7 +61,7 @@ format:
   html:
     theme: [cosmo, styles.scss]
     fontsize: 1.1rem
-    linkcolor: "#B8573E"
+    linkcolor: "#6f5499"
     toc: false
     smooth-scroll: true
     link-external-newwindow: true

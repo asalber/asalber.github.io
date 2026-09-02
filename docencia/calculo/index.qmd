@@ -4,8 +4,8 @@ description: "Cálculo en una y varias variables: apuntes, ejercicios y exámene
 listing:
   contents: materiales.yml
   type: grid
-  grid-columns: 3
-  fields: [title, description]
+  grid-columns: 2
+  fields: [image, title, description]
   sort: "order"
 page-layout: full
 ---

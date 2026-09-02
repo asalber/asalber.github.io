@@ -1,6 +1,6 @@
 ---
 title: "Julia"
-description: "Programación con Julia: apuntes, ejercicios y exámenes."
+description: "Programación con Julia: apuntes y demostraciones."
 listing:
   contents: materiales.yml
   type: grid

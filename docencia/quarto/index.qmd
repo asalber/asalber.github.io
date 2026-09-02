@@ -1,13 +1,14 @@
 ---
 title: "Quarto"
 description: "Elaboración de documentos científicos con Quarto."
+image: featured.png
+listing:
+  contents: materiales.yml
+  type: grid
+  grid-columns: 3
+  fields: [image, title, description]
+  sort: "order"
+page-layout: full
 ---
 
-## Materiales
-
-- [Manual de Quarto para textos científicos](https://aprendeconalf.es/quarto-textos-cientificos/)
-
-[Quarto](https://quarto.org/) es un sistema moderno de creación de documentos
-dinámicos, informes, presentaciones, libros y sitios web a partir de texto
-plano, especialmente diseñado para la elaboración de documentos científicos
-y técnicos.
+[Quarto](https://quarto.org/) es un sistema moderno de creación de documentos dinámicos, informes, presentaciones, libros y sitios web a partir de texto plano, especialmente diseñado para la elaboración de documentos científicos y técnicos.

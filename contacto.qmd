@@ -7,5 +7,14 @@ toc: false
 - 🏢 Despacho 218, Edificio C — Universidad CEU San Pablo, Urbanización Montepríncipe s/n, Madrid
 - 🕐 Tutorías: lunes y miércoles de 12:30 a 13:30
 
-Si quieres un formulario de contacto como el del sitio original, puedes incrustar
-uno de [Formspree](https://formspree.io) (gratuito) pegando su HTML aquí.
+```{=html}
+<iframe
+  width="100%"
+  height="400"
+  style="border:1px solid #ccc; border-radius: 8px;"
+  loading="lazy"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-3.8414488%2C40.396052%2C-3.8294488%2C40.404052&layer=mapnik&marker=40.400052%2C-3.8354488">
+</iframe>
+```
+
+[Ver mapa más grande](https://www.openstreetmap.org/?mlat=40.400052&mlon=-3.8354488#map=16/40.400052/-3.8354488)

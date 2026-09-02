@@ -1,0 +1,37 @@
+---
+title: "Rubrics"
+description: "A web application for rubric-based assessment."
+date: 2021-09-01
+categories: [R, Shiny]
+image: featured.png
+---
+
+![](featured.png){.featured-image fig-alt="Screenshot of the Rubrics application"}
+
+[Access the application](http://nube.aprendeconalf.es/shiny/evaluacion-rubrica/){.btn .btn-purple role="button"}
+
+## What is Rubrics?
+
+Rubrics is a web application based on R and Shiny for rubric-based assessment.
+
+The application allows you to:
+
+1. Generate the rubric corresponding to an exam or assessment test.
+2. Load the list of students from a csv file and generate a grading template.
+3. Load the corrections from the grading template.
+4. Generate the list of student grades.
+5. Generate a descriptive summary of the grade distribution.
+6. Generate a personalized report with the correction for each student.
+
+The following video shows a more detailed presentation of this application:
+
+{{< video https://www.youtube.com/embed/RYCMFn2MDB8 >}}
+
+## Links
+
+- [Source code](https://github.com/asalber/evaluacion-rubrica)
+- [Slides](https://aprendeconalf.es/presentacion-rubricas-matematicas/)
+
+## How to cite Rubrics?
+
+Anemone, Gloria., Sánchez-Alberca, Alfredo. (2021). Rúbricas (version 1.0) [software]. Retrieved from: <https://aprendeconalf.es/proyectos/rubricas>.

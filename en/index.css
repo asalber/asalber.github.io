@@ -7,21 +7,19 @@
 .hero-container {
   overflow: hidden;
   position: relative;
-  max-height: 41.6vh;
-  height: 41.6vh;
-  margin-top: -1.5rem;
-}
-
-.hero-image {
-  position: absolute;
-  bottom: 0;
+  min-height: 41.6vh;
+  margin-top: -1rem;
   background-image: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), url(images/hero.jpg);
   background-size: cover;
   background-position: center 40%;
   background-repeat: no-repeat;
   background-color: #141c25;
-  height: auto;
-  width: 100vw;
+}
+
+.hero-image {
+  position: relative;
+  min-height: 41.6vh;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,11 +97,10 @@
 }
 
 @media screen and (max-width: 952px) {
-  .hero-container { max-height: 60vh; display: flex; }
+  .hero-container { margin-top: -1.5rem; }
   .hero-image {
-    position: relative;
     display: block;
-    justify-content: center;
+    min-height: 0;
     padding: 8vh 0;
   }
   .title-top { font-size: 2.2rem; text-align: center; padding: 0; margin: 0; }

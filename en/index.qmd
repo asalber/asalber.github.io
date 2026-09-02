@@ -47,24 +47,36 @@ include-after-body:
 <!-- ================= TEACHING (purple band) ================= -->
 
 ::: {.column-screen .band .purple}
-::: {.home-column-text style="width:60%; margin:0 auto; float:none;"}
+::: {.home-column-text style="width:90%; margin:0 auto; float:none;"}
 <center>
 <h1 class="heading-home" style="color:#fff;">Teaching</h1>
 [Lecture notes, exercises and labs for my courses]{style="color:#fff; font-style:italic;"}
 </center>
 
-::: {.category-row}
+::: {.category-row .category-row-6}
+::: {.category-column}
+<a href="../docencia/analisis/index.html"><img src="images/vectors/sigma.svg" class="category-image honey-white" alt="Mathematics"></a>
+<h4><a class="white" href="../docencia/analisis/index.html">Mathematics</a></h4>
+:::
 ::: {.category-column}
 <a href="teaching/statistics/index.html"><img src="images/vectors/chart.svg" class="category-image honey-white" alt="Statistics"></a>
 <h4><a class="white" href="teaching/statistics/index.html">Statistics</a></h4>
+:::
+::: {.category-column}
+<a href="../docencia/aprendizaje-automatico/index.html"><img src="images/vectors/robot.svg" class="category-image honey-white" alt="Machine Learning"></a>
+<h4><a class="white" href="../docencia/aprendizaje-automatico/index.html">Machine Learning</a></h4>
 :::
 ::: {.category-column}
 <a href="teaching/python/index.html"><img src="images/vectors/python.svg" class="category-image honey-white" alt="Python"></a>
 <h4><a class="white" href="teaching/python/index.html">Python</a></h4>
 :::
 ::: {.category-column}
-<a href="teaching/index.html"><img src="images/vectors/sigma.svg" class="category-image honey-white" alt="All courses"></a>
-<h4><a class="white" href="teaching/index.html">All</a></h4>
+<a href="../docencia/r/index.html"><img src="images/vectors/r.svg" class="category-image honey-white" alt="R"></a>
+<h4><a class="white" href="../docencia/r/index.html">R</a></h4>
+:::
+::: {.category-column}
+<a href="../docencia/julia/index.html"><img src="images/vectors/julia.svg" class="category-image honey-white" alt="Julia"></a>
+<h4><a class="white" href="../docencia/julia/index.html">Julia</a></h4>
 :::
 :::
 :::
@@ -83,32 +95,6 @@ include-after-body:
 :::
 
 <center>[See all posts →](post/index.qmd)</center>
-:::
-:::
-
-<!-- ================= PUBLICATIONS (purple band) ================= -->
-
-::: {.column-screen .band .purple}
-::: {.home-column-image .col-left}
-[![](images/homepage/publicaciones.png){.home-img fig-alt="Scatter plot with regression line"}](publications/index.qmd)
-:::
-
-::: {.home-column-text .col-right}
-<center>
-<h1 class="heading-home" style="color:#fff;">Publications</h1>
-[Research articles on Biostatistics and Machine Learning]{style="color:#fff; font-style:italic;"}
-</center>
-
-::: {.category-row}
-::: {.category-column style="width:50%;"}
-<a href="publications/index.html"><img src="images/vectors/star.svg" class="category-image honey-white" alt="Highlights"></a>
-<h4><a class="white" href="publications/index.html">Highlights</a></h4>
-:::
-::: {.category-column style="width:50%;"}
-<a href="publications/index.html"><img src="images/vectors/list.svg" class="category-image honey-white" alt="Full list"></a>
-<h4><a class="white" href="publications/index.html">Full list</a></h4>
-:::
-:::
 :::
 :::
 
@@ -137,7 +123,7 @@ include-after-body:
 
 ::: {.values-row}
 ::: {.value-card}
-### <i class="bi bi-unlock-fill"></i> Free knowledge {.value-title}
+### <i class="bi bi-unlock-fill"></i> Open knowledge {.value-title}
 All materials are published as Open Educational Resources, free and reusable by anyone.
 :::
 ::: {.value-card}

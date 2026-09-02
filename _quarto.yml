@@ -43,6 +43,8 @@ website:
             href: docencia/aprendizaje-automatico/index.qmd
           - text: "Cálculo"
             href: docencia/calculo/index.qmd
+          - text: "Epidemiología"
+            href: docencia/epidemiologia/index.qmd
           - text: "Estadística"
             href: docencia/estadistica/index.qmd
           - text: "Geogebra"
@@ -91,7 +93,7 @@ format:
   html:
     theme: [cosmo, styles.scss]
     fontsize: 1.1rem
-    linkcolor: "#B8573E"
+    linkcolor: "#6f5499"
     toc: false
     smooth-scroll: true
     link-external-newwindow: true

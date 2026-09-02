@@ -4,8 +4,9 @@
   image: https://aprendeconalf.es/estadistica-manual/img/logos/sticker.png
   order: 1
 - title: "Ejercicios"
-  description: "Problemas de Estadística con soluciones."
-  path: https://aprendeconalf.es/docencia/estadistica/ejercicios/
+  description: "Problemas de Bioestadística con soluciones."
+  path: https://aprendeconalf.es/bioestadistica-ejercicios
+  image: https://aprendeconalf.es/bioestadistica-ejercicios/img/logos/sticker.png
   order: 2
 - title: "Prácticas"
   description: "Prácticas de Estadística con R."
@@ -13,12 +14,14 @@
   image: https://aprendeconalf.es/estadistica-practicas-r/img/logos/sticker-estadistica-r.png
   order: 3
 - title: "Exámenes"
-  description: "Exámenes de Estadística de los últimos cursos con soluciones."
-  path: https://aprendeconalf.es/docencia/estadistica/examenes/
+  description: "Exámenes de Bioestadística con soluciones."
+  path: https://aprendeconalf.es/bioestadistica-examenes
+  image: https://aprendeconalf.es/bioestadistica-examenes/img/logos/sticker.png
   order: 4
-- title: "Tutoriales"
-  description: "Artículos didácticos sobre Estadística y sus aplicaciones."
-  path: https://aprendeconalf.es/docencia/estadistica/tutoriales/
+- title: "Tipos de estudios estadísticos"
+  description: "Tipos de estudios estadísticos más habituales. Diseño, análisis e implementación con R."
+  path: https://aprendeconalf.es/estadistica-tipos-estudios
+  image: https://aprendeconalf.es/estadistica-tipos-estudios/img/logos/sticker.png
   order: 5
 - title: "Fórmulas"
   description: "Hoja de fórmulas de Estadística y Probabilidad y tablas estadísticas."
