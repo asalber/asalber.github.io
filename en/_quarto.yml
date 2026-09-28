@@ -34,6 +34,8 @@ website:
             href: teaching/statistics/index.qmd
           - text: "Python"
             href: teaching/python/index.qmd
+          - text: "SPSS"
+            href: teaching/spss/index.qmd
       - text: "Projects"
         href: projects/index.qmd
       - text: "Publications"

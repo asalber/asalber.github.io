@@ -28,102 +28,74 @@
     "text": "Education\n\nPhD in Artificial Intelligence, 2016 — Technical University of Madrid\nBSc in Mathematics - Computer Science, 1993 — Complutense University of Madrid"
   },
   {
-    "objectID": "teaching/python/index.html",
-    "href": "teaching/python/index.html",
-    "title": "Python",
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Python handbook (presentation) (in Spanish)\n\nPython is one of the most widely used programming languages, thanks to its easy-to-read syntax. The handbook covers the basic concepts to get started programming with it."
+    "text": "Python\n\n\nPython programming handbook with exercises.\n\n\n\n\n\n\n\n\n\n\nSPSS\n\n\nApplied Bioestatistics with SPSS.\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics\n\n\nLecture notes, solved exercises and labs for Statistics.\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "teaching/python/index.html#materials",
-    "href": "teaching/python/index.html#materials",
-    "title": "Python",
+    "objectID": "teaching/statistics/index.html",
+    "href": "teaching/statistics/index.html",
+    "title": "Statistics",
     "section": "",
-    "text": "Python handbook (presentation) (in Spanish)\n\nPython is one of the most widely used programming languages, thanks to its easy-to-read syntax. The handbook covers the basic concepts to get started programming with it."
+    "text": "Statistics handbook (in Spanish)\nStatistics labs with R (in Spanish)\nStatistics and probability formula sheet (PDF)\n\nThe handbook is mostly aimed at Biostatistics, with most examples applied to Health Sciences."
   },
   {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
-    "title": "Publications",
+    "objectID": "teaching/statistics/index.html#materials",
+    "href": "teaching/statistics/index.html#materials",
+    "title": "Statistics",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nClinical-Evolutionary Staging System of Primary Open-Angle Glaucoma Using Optical Coherence Tomography\n\n\n\nBiostatistics\n\nOphthalmology\n\n\n\nJournal of Clinical Medicine · DOI\n\n\n\n\n\nMay 15, 2020\n\n\nA. Parra-Blesa, A. Sánchez-Alberca, J. J. García-Medina\n\n\n\n\n\n\n\nClasificación por estadios clínico evolutivos del glaucoma primario de ángulo abierto (GPAA) usando valores normalizados obtenidos mediante tomografía de coherencia óptica\n\n\n\nBiostatistics\n\nOphthalmology\n\n\n\nXIV Congreso de la Sociedad Española de Glaucoma\n\n\n\n\n\nJan 1, 2019\n\n\nA. Sánchez Alberca, M. L. Sánchez Rodríguez, M. Camacho Sampelayo, J. M. Camacho Sampelayo, J. J. García Medina, A. Parra Blesa\n\n\n\n\n\n\n\nUna nueva taxonomía de colecciones y de funciones de similitud para su comparación\n\n\n\nMathematics\n\n\n\nPensamiento Matemático · 5ª Jornada Internacional Matemáticas Everywhere\n\n\n\n\n\nJan 1, 2018\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nClasificación por estadios del glaucoma primario de ángulo abierto usando valores normalizados del anillo BMO\n\n\n\nOphthalmology\n\n\n\nCongreso de la Sociedad Española de Oftalmología\n\n\n\n\n\nJan 1, 2018\n\n\nA. Parra Blesa, A. Sánchez Alberca\n\n\n\n\n\n\n\nAnálisis estadístico inferencial y descriptivo de las capas retinianas; glaucoma versus no glaucoma\n\n\n\nBiostatistics\n\nOphthalmology\n\n\n\nCongreso de la Sociedad Española de Oftalmología\n\n\n\n\n\nJan 1, 2018\n\n\nA. Parra Blesa, A. Sánchez Alberca\n\n\n\n\n\n\n\nAnálisis epidemiológico evolutivo del daño sectorizado en la papila y retina papilar a través de OCT. Nueva clasificación de grados de GCAA\n\n\n\nOphthalmology\n\n\n\n25 Congreso Internacional de Optometría, Contactología y Óptica Oftálmica\n\n\n\n\n\nJan 1, 2018\n\n\nA. Parra-Blesa, A. Sánchez-Alberca, M. L. Sánchez-Rodríguez, J. J. García-Medina\n\n\n\n\n\n\n\nInnovación en la docencia de Estadística con R y rk.Teaching\n\n\n\nEducation\n\nR\n\nStatistics\n\n\n\nPensamiento Matemático · Matemáticas Everywhere\n\n\n\n\n\nJan 1, 2016\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nBringing R to non-expert users with the package RKTeaching\n\n\n\nR\n\nEducation\n\n\n\nBoletín de Estadística e Investigación Operativa (BEIO)\n\n\n\n\n\nJan 1, 2015\n\n\nA. Sánchez Alberca\n\n\n\n\n\n\n\nTowards a Semantic Catalog of Similarity Measures\n\n\n\nOntologies\n\n\n\nITHEA International Journal “Information Content and Processing” · I.TECH 2014\n\n\n\n\n\nJan 1, 2014\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nBioestadística Aplicada con SPSS\n\n\n\nBiostatistics\n\n\n\nApplied biostatistics handbook\n\n\n\n\n\nJan 1, 2014\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nRKTeaching: a new R package for teaching Statistics\n\n\n\nR\n\nEducation\n\n\n\nuseR! 2013\n\n\n\n\n\nJan 1, 2013\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nRKTeaching: Un paquete de R para la enseñanza de la Estadística\n\n\n\nR\n\nEducation\n\nStatistics\n\n\n\nIII Jornadas de Intercambio de Experiencias de Innovación Educativa en Estadística\n\n\n\n\n\nJan 1, 2012\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nEvolution of neuroendocrine cell population and peptidergic innervation, assessed by discriminant analysis, during postnatal development of the rat prostate\n\n\n\nBiostatistics\n\nBiology\n\n\n\nImage Analysis and Stereology 26(1), 1-11\n\n\n\n\n\nJan 1, 2007\n\n\nR. Rodríguez, J. M. Pozuelo, A. Sánchez-Alberca, R. Arriazu, et al.\n\n\n\n\n\n\n\nAMON: A software system for automatic generation of ontology mappings\n\n\n\nOntologies\n\n\n\nWorkshop on Building and Applying Ontologies for the Semantic Web (BAOW05)\n\n\n\n\n\nJan 1, 2005\n\n\nA. Sánchez-Alberca, R. García-García, C. S. Sorzano, C. Gutiérrez-Cossío, et al.\n\n\n\n\n\n\n\nHerramientas de trabajo cooperativo\n\n\n\nEducation\n\n\n\nII Jornada Presencial de la Red Temática de Farmacología y Toxicología FARMATOXI\n\n\n\n\n\nJan 1, 2004\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nFramework for automatic generation of ontology mappings\n\n\n\nOntologies\n\n\n\nJornadas Iberoamericanas de Ingeniería del Software e Ingeniería del Conocimiento\n\n\n\n\n\nJan 1, 2004\n\n\nG. Cañadas, M. Fernández López, R. García-García, M. Lama, A. Sánchez-Alberca, et al.\n\n\n\n\n\n\n\nAspectos técnicos de la comunidad virtual de usuarios FARMATOXI\n\n\n\nEducation\n\n\n\nI Jornada Presencial de la Red Temática de Farmacología y Toxicología FARMATOXI\n\n\n\n\n\nJan 1, 2002\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nFARMATOXI, a new virtual community of pharmacology and toxicology\n\n\n\nPharmacology\n\n\n\nFundamental and Clinical Pharmacology\n\n\n\n\n\nJan 1, 2001\n\n\nG. Repetto, V. Rimbau, A. Sánchez-Alberca, M. Reverte, L. F. Alguacil\n\n\n\n\n\n\n\nFARMATOXI: Red temática de farmacología y toxicología de RedIris\n\n\n\nPharmacology\n\n\n\nII Iberoamerican Congress of Pharmacology\n\n\n\n\n\nJan 1, 2000\n\n\nA. Sánchez-Alberca\n\n\n\n\n\nNo matching items"
+    "text": "Statistics handbook (in Spanish)\nStatistics labs with R (in Spanish)\nStatistics and probability formula sheet (PDF)\n\nThe handbook is mostly aimed at Biostatistics, with most examples applied to Health Sciences."
   },
   {
-    "objectID": "projects/distributions/index.html",
-    "href": "projects/distributions/index.html",
-    "title": "Probability Distributions",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Access the application"
+    "text": "Probability Distributions\n\n\nInteractive web application to visualize the main discrete and continuous probability distributions.\n\n\n\n\n\n\n\n\n\n\n\n\nRubrics\n\n\nA web application for rubric-based assessment.\n\n\n\n\n\n\n\n\n\n\n\n\nrkTeaching\n\n\nAn R package for teaching and learning Statistics.\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/distributions/index.html#what-is-probability-distributions",
-    "href": "projects/distributions/index.html#what-is-probability-distributions",
-    "title": "Probability Distributions",
-    "section": "What is Probability Distributions?",
-    "text": "What is Probability Distributions?\nProbability Distributions is an interactive web application that lets you visualize the main discrete and continuous probability distributions, exploring how their probability (or density) function and their distribution function change as their parameters are modified.\nThe distributions that can be visualized in the application are:\nDiscrete distributions\n\nBinomial\nNegative binomial\nGeometric\nHypergeometric\nPoisson\n\nContinuous distributions\n\nUniform\nBeta\nNormal\nExponential\nGamma\nChi-squared\nStudent’s t\nFisher’s F"
+    "objectID": "projects/rkteaching/index.html#what-is-rkteaching",
+    "href": "projects/rkteaching/index.html#what-is-rkteaching",
+    "title": "rkTeaching",
+    "section": "What is rkTeaching?",
+    "text": "What is rkTeaching?\nrkTeaching is an R package that provides a plugin for the RKWard graphical interface, adding new menus and dialog boxes specially designed for teaching Statistics.\nThe package has been developed and is maintained by Alfredo Sánchez Alberca asalber@ceu.es from the Department of Mathematics at the Universidad San Pablo CEU in Madrid.\nIf you find any bug or have any suggestion, please send it to the author by email or report it as an issue on Github.\n\n\n\nRKWard"
   },
   {
-    "objectID": "projects/rubrics/index.html",
-    "href": "projects/rubrics/index.html",
-    "title": "Rubrics",
-    "section": "",
-    "text": "Access the application"
+    "objectID": "projects/rkteaching/index.html#installation",
+    "href": "projects/rkteaching/index.html#installation",
+    "title": "rkTeaching",
+    "section": "Installation",
+    "text": "Installation\n\nInstallation on Windows\nFor Windows users there is an installer that includes R, RKWard and rkTeaching.\n\nDownload the latest version (R version 4.3, RKWard version 0.8, rkTeaching version 1.3.0)\nDownload the previous version (R version 3.6.2, RKWard version 0.7.1b, rkTeaching version 1.3.0)\n\nOnce downloaded, just run the file to unzip it. When run, a dialog box will appear asking for the drive and installation directory, and it is important to install it in the root folder of drive C, i.e. in the location C:\\. After this a RKWard folder will be created, and inside it the bin folder where the rkward.exe file is located, which must be run to start RKWard.\nThe following video shows the installation process.\n\n\n\nInstallation on Mac OS\nTo install the software on Mac OS platforms, each program must be installed separately in the following order:\n\nInstall R. R can be downloaded from the page https://cran.r-project.org/. It is recommended to install version 4.3 for MacOs. Depending on the computer’s processor, you should select the arm65 version for computers with a silicon chip (M1-3) or the x86 version for computers with an Intel chip.\n\nR version 4.3 for MacOs with silicon chip (M1-3)\nR version 4.3 for MacOs with Intel chip (x86)\n\nInstall RKWard. RKWard can be downloaded from the page https://rkward.kde.org/. You should select the distribution corresponding to Mac Os (https://rkward.kde.org/RKWard_on_Mac.html) and follow the installation instructions specified there. It is important to make sure you have a version of Mac OS X 10.15 or higher, since RKWard does not work with earlier versions.\nIf there is any error during installation, check the possible solutions at (http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting)\nInstall the packages rkTeaching depends on. To install rkTeaching you must first install the R packages it depends on. To do this, run R from the command line, or start RKWard and go to the R Console tab and enter the following commands:\ninstall.packages(c(\"R2HTML\",\"car\",\"e1071\",\"Hmisc\", \"ez\", \"multcomp\", \"psych\", \"probs\", \"tidyverse\", \"knitr\", \"kableExtra\", \"remotes\"))\nInstall rkTeaching. The best way to install rkTeaching from this repository is using the R package remotes. To do this, enter the following commands in the R console:\nlibrary(remotes)\ninstall_github(\"rkward-community/rk.Teaching\")\nThe following video shows the installation process.\n\n\n\nInstallation on MacOs using WMware Fusion\nIf the above procedure does not work, it is possible to install a virtual machine with RKWard already installed using the WMware Fusion software. To do this, follow these steps:\n\nInstall WMware Fusion. WMware Fusion is virtualization software that allows you to install Windows or Linux operating systems on a Mac. Download WMware Fusion and follow the installation instructions.\nDownload the virtual machine with RKWard already installed.\n\nDownload virtual machine with RKWard version 0.8 and rkTeaching 1.4\nDownload virtual machine with RKWard version 0.7 and rkTeaching 1.3\n\nStart WMware Fusion and open the downloaded virtual machine. The virtual machine will start with RKWard already installed and ready to use.\n\n\n\n\nInstallation on Linux\nTo install the software on Linux platforms, each program must be installed separately in the following order:\n\nInstall R. R can be downloaded from the page http://cran.es.r-project.org/. You should select the distribution corresponding to Linux and follow the installation instructions specified there. R version 3.0 or higher is required.\nOn Debian and Ubuntu systems, it can be installed from the command line with the command:\nsudo apt-get install r-base\nInstall RKWard. RKWard can be downloaded from the page https://rkward.kde.org/. You should select the distribution corresponding to Linux and follow the installation instructions specified there.\nOn Debian and Ubuntu systems, it can be installed from the command line with the command:\nsudo apt-get install rkward\nIt is important to make sure the installed version is 0.7.2 or higher.\nInstall the packages rkTeaching depends on. To install rkTeaching you must first install the R packages it depends on. To do this, run R from the command line, or start RKWard and go to the R Console tab and enter the following commands:\ninstall.packages(c(\"R2HTML\",\"car\",\"e1071\",\"Hmisc\", \"ez\", \"multcomp\", \"psych\", \"probs\", \"tidyverse\", \"knitr\", \"kableExtra\", \"remotes\"))\nInstall rkTeaching. The best way to install rkTeaching from this repository is using the R package remotes. To do this, enter the following commands in the R console:\nlibrary(remotes)\ninstall_github(\"rkward-community/rk.Teaching\")\nThe following video shows the installation process."
   },
   {
-    "objectID": "projects/rubrics/index.html#what-is-rubrics",
-    "href": "projects/rubrics/index.html#what-is-rubrics",
-    "title": "Rubrics",
-    "section": "What is Rubrics?",
-    "text": "What is Rubrics?\nRubrics is a web application based on R and Shiny for rubric-based assessment.\nThe application allows you to:\n\nGenerate the rubric corresponding to an exam or assessment test.\nLoad the list of students from a csv file and generate a grading template.\nLoad the corrections from the grading template.\nGenerate the list of student grades.\nGenerate a descriptive summary of the grade distribution.\nGenerate a personalized report with the correction for each student.\n\nThe following video shows a more detailed presentation of this application:"
+    "objectID": "projects/rkteaching/index.html#statistical-procedures",
+    "href": "projects/rkteaching/index.html#statistical-procedures",
+    "title": "rkTeaching",
+    "section": "Statistical procedures",
+    "text": "Statistical procedures\nOnce installed, when RKWard starts a new Teaching menu will appear with the following statistical procedures:\n\nData manipulation\n\nFilter data\nCompute variable\nRecode variable\nWeight data\nStandardize variables\n\nFrequency distribution\n\nFrequency tables\nTwo-way frequency tables\n\nCharts\n\nBar chart\nHistogram\nPie chart\nBox plot\nMeans plot\nInteraction plot\nScatter plot\nLine chart\nScatter plot matrix\n\nDescriptive statistics\n\nStatistics\nStatistics (detailed calculation)\n\nRegression\n\nLinear regression\nNonlinear regression\nModel comparison\nPredictions\nCorrelation\n\nParametric tests\n\nMeans\n\nOne-sample T test\nTwo independent samples T test\nTwo paired samples T test\nANOVA\nSample size calculation for the mean\nSample size calculation for the T test\nPower calculation for a T test\n\nVariances\n\nTest for the variance of a population\nFisher’s F test\nLevene’s test\n\nProportions\n\nTest for one proportion\nTest for two proportions\nSample size calculation for one proportion\n\n\nNon-parametric tests\n\nNormality\n\nLilliefors test (Kolmogorov-Smirnov)\nShapiro-Wilk test\n\nMann-Whitney U test for two independent samples\nWilcoxon test for two paired samples\nKruskal-Wallis test for several independent samples\nFriedman test for repeated measures\nChi-squared test of independence\nChi-squared goodness-of-fit test\n\nAgreement\n\nIntraclass correlation coefficient\nCohen’s Kappa\n\nProbability\n\nGames of chance\n\nCoins\n\nProbability space\nCoin toss\n\nDice\n\nProbability space\nDice roll\n\nPlaying cards\n\nProbability space\nCard draw\n\nUrns\n\nProbability space\nUrn draw\n\n\nBuilding a probability space\nCombining probability spaces\nRepeating probability spaces\nProbability calculation\n\nProbability distributions\n\nDiscrete distributions\n\nBinomial\n\nProbabilities\nQuantiles\nProbability plot\n\nPoisson\n\nProbabilities\nQuantiles\nProbability plot\n\n\nContinuous distributions\n\nChi-squared\n\nProbabilities\nQuantiles\nProbability plot\n\nFisher’s F\n\nProbabilities\nQuantiles\nProbability plot\n\nNormal\n\nProbabilities\nQuantiles\nProbability plot\n\nStudent’s t\n\nProbabilities\nQuantiles\nProbability plot\n\nContinuous uniform\n\nProbabilities\nQuantiles\nProbability plot\n\n\n\nSimulations\n\nLaw of rare events"
   },
   {
-    "objectID": "projects/rubrics/index.html#links",
-    "href": "projects/rubrics/index.html#links",
-    "title": "Rubrics",
+    "objectID": "projects/rkteaching/index.html#features",
+    "href": "projects/rkteaching/index.html#features",
+    "title": "rkTeaching",
+    "section": "Features",
+    "text": "Features\n\nMenus and dialog boxes designed to make learning easier, removing all secondary options to achieve a simple and intuitive interface.\nWizards that guide the user step by step and advise them through the statistical analyses. \nHTML outputs that present the results of the analyses and their interpretations in a clear and concise way. \nSimple charts based on the modern ggplot2 package. \nAbility to show the development of the calculations of some statistical procedures."
+  },
+  {
+    "objectID": "projects/rkteaching/index.html#links",
+    "href": "projects/rkteaching/index.html#links",
+    "title": "rkTeaching",
     "section": "Links",
-    "text": "Links\n\nSource code\nSlides"
+    "text": "Links\n\nSource code\n\nrkTeaching is maintained by asalber."
   },
   {
-    "objectID": "projects/rubrics/index.html#how-to-cite-rubrics",
-    "href": "projects/rubrics/index.html#how-to-cite-rubrics",
-    "title": "Rubrics",
-    "section": "How to cite Rubrics?",
-    "text": "How to cite Rubrics?\nAnemone, Gloria., Sánchez-Alberca, Alfredo. (2021). Rúbricas (version 1.0) [software]. Retrieved from: https://aprendeconalf.es/proyectos/rubricas."
-  },
-  {
-    "objectID": "post/rkteaching-1.3/index.html",
-    "href": "post/rkteaching-1.3/index.html",
-    "title": "Released version 1.3.0 of the rkTeaching package",
-    "section": "",
-    "text": "The 1.3.0 version of the R package rkTeaching for learning Statistics is available to install. This version is updated with the 3.2.3 version of R and the 0.6.5 version of RKWard.\nThis is a transitional version towards a major update that will arrive shortly and will incorporate the internationalization of the package.\nTo install it visit the page of rkTeaching."
-  },
-  {
-    "objectID": "post/cheat-sheet/index.html",
-    "href": "post/cheat-sheet/index.html",
-    "title": "Calculus and Statistics cheat sheets",
-    "section": "",
-    "text": "From now on there are available some cheat sheets for Calculus and Statistics. These cheat sheets contains a summary with the main formulas used in Calculus and Statistics.\nThe cheat sheets can be downloaded from the following links:\n\nCalculus cheat sheets\nStatistics cheat sheets\n\nI would appreciate if you inform me about any mistake that you detect in this sheets."
-  },
-  {
-    "objectID": "post/welcome/index.html",
-    "href": "post/welcome/index.html",
-    "title": "Welcome to the new website!",
-    "section": "",
-    "text": "I am happy to announce the launch of this website, built with Quarto, where I will publish my teaching materials, lecture notes, exercises and research articles.\nYou can start with the Teaching section."
-  },
-  {
-    "objectID": "post/index.html",
-    "href": "post/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome to the new website!\n\n\n\nNews\n\nQuarto\n\n\n\nLaunching a new Quarto website to share my teaching materials and publications.\n\n\n\n\n\nJul 13, 2026\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\nCalculus and Statistics cheat sheets\n\n\n\nStatistics\n\nCalculus\n\n\n\nA little help to pass: quick-reference sheets with the main Calculus and Statistics formulas.\n\n\n\n\n\nNov 2, 2017\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\nSurvival guide for degrees\n\n\n\nTeaching\n\n\n\nSome tips to help undergraduate students make the most of their studies and pass all their subjects.\n\n\n\n\n\nApr 24, 2017\n\n8 min\n\n\n\n\n\n\n\n\n\n\n\nReleased version 1.3.0 of the rkTeaching package\n\n\n\nR\n\nrkTeaching\n\n\n\nThe 1.3.0 version of the R package rkTeaching is available to install.\n\n\n\n\n\nMay 30, 2016\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\nNew Excel manual\n\n\n\nManual\n\n\n\nBasic Excel manual for Economics and Business Administration.\n\n\n\n\n\nSep 10, 2015\n\n1 min\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "post/excel-manual/index.html",
-    "href": "post/excel-manual/index.html",
-    "title": "New Excel manual",
-    "section": "",
-    "text": "I’m glad to offer a basic manual of Excel, the famous Microsoft Office spreadsheet. This manual is intended mainly for students of Economics and Business Administration, and for that reason, most of the examples in this manual are applied to accounting and finance. However, the manual also serves for learning a basic management of Excel, no matter the field of application.\nThe version of Excel used in this manual is Excel 2010, but some parts of this manual are also valid for other versions.\nThis is my first manual in English and so there is likely to be some grammatical errors. I apologize by that and I would like to ask you to correct me in the forum below. I hope you enjoy it."
+    "objectID": "projects/rkteaching/index.html#how-to-cite-rkteaching",
+    "href": "projects/rkteaching/index.html#how-to-cite-rkteaching",
+    "title": "rkTeaching",
+    "section": "How to cite rkTeaching?",
+    "text": "How to cite rkTeaching?\nSánchez-Alberca, A. (2024). rkTeaching (version 1.4) [software]. Retrieved from: https://aprendeconalf.es/proyectos/rkteaching."
   },
   {
     "objectID": "post/survival-guide-degrees/index.html",
@@ -196,74 +168,109 @@
     "text": "Review regularly this tips\nFinally, do not forget to review and refresh these tips."
   },
   {
-    "objectID": "projects/rkteaching/index.html#what-is-rkteaching",
-    "href": "projects/rkteaching/index.html#what-is-rkteaching",
-    "title": "rkTeaching",
-    "section": "What is rkTeaching?",
-    "text": "What is rkTeaching?\nrkTeaching is an R package that provides a plugin for the RKWard graphical interface, adding new menus and dialog boxes specially designed for teaching Statistics.\nThe package has been developed and is maintained by Alfredo Sánchez Alberca asalber@ceu.es from the Department of Mathematics at the Universidad San Pablo CEU in Madrid.\nIf you find any bug or have any suggestion, please send it to the author by email or report it as an issue on Github.\n\n\n\nRKWard"
+    "objectID": "post/excel-manual/index.html",
+    "href": "post/excel-manual/index.html",
+    "title": "New Excel manual",
+    "section": "",
+    "text": "I’m glad to offer a basic manual of Excel, the famous Microsoft Office spreadsheet. This manual is intended mainly for students of Economics and Business Administration, and for that reason, most of the examples in this manual are applied to accounting and finance. However, the manual also serves for learning a basic management of Excel, no matter the field of application.\nThe version of Excel used in this manual is Excel 2010, but some parts of this manual are also valid for other versions.\nThis is my first manual in English and so there is likely to be some grammatical errors. I apologize by that and I would like to ask you to correct me in the forum below. I hope you enjoy it."
   },
   {
-    "objectID": "projects/rkteaching/index.html#installation",
-    "href": "projects/rkteaching/index.html#installation",
-    "title": "rkTeaching",
-    "section": "Installation",
-    "text": "Installation\n\nInstallation on Windows\nFor Windows users there is an installer that includes R, RKWard and rkTeaching.\n\nDownload the latest version (R version 4.3, RKWard version 0.8, rkTeaching version 1.3.0)\nDownload the previous version (R version 3.6.2, RKWard version 0.7.1b, rkTeaching version 1.3.0)\n\nOnce downloaded, just run the file to unzip it. When run, a dialog box will appear asking for the drive and installation directory, and it is important to install it in the root folder of drive C, i.e. in the location C:\\. After this a RKWard folder will be created, and inside it the bin folder where the rkward.exe file is located, which must be run to start RKWard.\nThe following video shows the installation process.\n\n\n\nInstallation on Mac OS\nTo install the software on Mac OS platforms, each program must be installed separately in the following order:\n\nInstall R. R can be downloaded from the page https://cran.r-project.org/. It is recommended to install version 4.3 for MacOs. Depending on the computer’s processor, you should select the arm65 version for computers with a silicon chip (M1-3) or the x86 version for computers with an Intel chip.\n\nR version 4.3 for MacOs with silicon chip (M1-3)\nR version 4.3 for MacOs with Intel chip (x86)\n\nInstall RKWard. RKWard can be downloaded from the page https://rkward.kde.org/. You should select the distribution corresponding to Mac Os (https://rkward.kde.org/RKWard_on_Mac.html) and follow the installation instructions specified there. It is important to make sure you have a version of Mac OS X 10.15 or higher, since RKWard does not work with earlier versions.\nIf there is any error during installation, check the possible solutions at (http://rkward.sourceforge.net/wiki/RKWard_on_Mac#Troubleshooting)\nInstall the packages rkTeaching depends on. To install rkTeaching you must first install the R packages it depends on. To do this, run R from the command line, or start RKWard and go to the R Console tab and enter the following commands:\ninstall.packages(c(\"R2HTML\",\"car\",\"e1071\",\"Hmisc\", \"ez\", \"multcomp\", \"psych\", \"probs\", \"tidyverse\", \"knitr\", \"kableExtra\", \"remotes\"))\nInstall rkTeaching. The best way to install rkTeaching from this repository is using the R package remotes. To do this, enter the following commands in the R console:\nlibrary(remotes)\ninstall_github(\"rkward-community/rk.Teaching\")\nThe following video shows the installation process.\n\n\n\nInstallation on MacOs using WMware Fusion\nIf the above procedure does not work, it is possible to install a virtual machine with RKWard already installed using the WMware Fusion software. To do this, follow these steps:\n\nInstall WMware Fusion. WMware Fusion is virtualization software that allows you to install Windows or Linux operating systems on a Mac. Download WMware Fusion and follow the installation instructions.\nDownload the virtual machine with RKWard already installed.\n\nDownload virtual machine with RKWard version 0.8 and rkTeaching 1.4\nDownload virtual machine with RKWard version 0.7 and rkTeaching 1.3\n\nStart WMware Fusion and open the downloaded virtual machine. The virtual machine will start with RKWard already installed and ready to use.\n\n\n\n\nInstallation on Linux\nTo install the software on Linux platforms, each program must be installed separately in the following order:\n\nInstall R. R can be downloaded from the page http://cran.es.r-project.org/. You should select the distribution corresponding to Linux and follow the installation instructions specified there. R version 3.0 or higher is required.\nOn Debian and Ubuntu systems, it can be installed from the command line with the command:\nsudo apt-get install r-base\nInstall RKWard. RKWard can be downloaded from the page https://rkward.kde.org/. You should select the distribution corresponding to Linux and follow the installation instructions specified there.\nOn Debian and Ubuntu systems, it can be installed from the command line with the command:\nsudo apt-get install rkward\nIt is important to make sure the installed version is 0.7.2 or higher.\nInstall the packages rkTeaching depends on. To install rkTeaching you must first install the R packages it depends on. To do this, run R from the command line, or start RKWard and go to the R Console tab and enter the following commands:\ninstall.packages(c(\"R2HTML\",\"car\",\"e1071\",\"Hmisc\", \"ez\", \"multcomp\", \"psych\", \"probs\", \"tidyverse\", \"knitr\", \"kableExtra\", \"remotes\"))\nInstall rkTeaching. The best way to install rkTeaching from this repository is using the R package remotes. To do this, enter the following commands in the R console:\nlibrary(remotes)\ninstall_github(\"rkward-community/rk.Teaching\")\nThe following video shows the installation process."
+    "objectID": "post/index.html",
+    "href": "post/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome to the new website!\n\n\n\nNews\n\nQuarto\n\n\n\nLaunching a new Quarto website to share my teaching materials and publications.\n\n\n\n\n\nJul 13, 2026\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\nCalculus and Statistics cheat sheets\n\n\n\nStatistics\n\nCalculus\n\n\n\nA little help to pass: quick-reference sheets with the main Calculus and Statistics formulas.\n\n\n\n\n\nNov 2, 2017\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\nSurvival guide for degrees\n\n\n\nTeaching\n\n\n\nSome tips to help undergraduate students make the most of their studies and pass all their subjects.\n\n\n\n\n\nApr 24, 2017\n\n8 min\n\n\n\n\n\n\n\n\n\n\n\nReleased version 1.3.0 of the rkTeaching package\n\n\n\nR\n\nrkTeaching\n\n\n\nThe 1.3.0 version of the R package rkTeaching is available to install.\n\n\n\n\n\nMay 30, 2016\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\nNew Excel manual\n\n\n\nManual\n\n\n\nBasic Excel manual for Economics and Business Administration.\n\n\n\n\n\nSep 10, 2015\n\n1 min\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/rkteaching/index.html#statistical-procedures",
-    "href": "projects/rkteaching/index.html#statistical-procedures",
-    "title": "rkTeaching",
-    "section": "Statistical procedures",
-    "text": "Statistical procedures\nOnce installed, when RKWard starts a new Teaching menu will appear with the following statistical procedures:\n\nData manipulation\n\nFilter data\nCompute variable\nRecode variable\nWeight data\nStandardize variables\n\nFrequency distribution\n\nFrequency tables\nTwo-way frequency tables\n\nCharts\n\nBar chart\nHistogram\nPie chart\nBox plot\nMeans plot\nInteraction plot\nScatter plot\nLine chart\nScatter plot matrix\n\nDescriptive statistics\n\nStatistics\nStatistics (detailed calculation)\n\nRegression\n\nLinear regression\nNonlinear regression\nModel comparison\nPredictions\nCorrelation\n\nParametric tests\n\nMeans\n\nOne-sample T test\nTwo independent samples T test\nTwo paired samples T test\nANOVA\nSample size calculation for the mean\nSample size calculation for the T test\nPower calculation for a T test\n\nVariances\n\nTest for the variance of a population\nFisher’s F test\nLevene’s test\n\nProportions\n\nTest for one proportion\nTest for two proportions\nSample size calculation for one proportion\n\n\nNon-parametric tests\n\nNormality\n\nLilliefors test (Kolmogorov-Smirnov)\nShapiro-Wilk test\n\nMann-Whitney U test for two independent samples\nWilcoxon test for two paired samples\nKruskal-Wallis test for several independent samples\nFriedman test for repeated measures\nChi-squared test of independence\nChi-squared goodness-of-fit test\n\nAgreement\n\nIntraclass correlation coefficient\nCohen’s Kappa\n\nProbability\n\nGames of chance\n\nCoins\n\nProbability space\nCoin toss\n\nDice\n\nProbability space\nDice roll\n\nPlaying cards\n\nProbability space\nCard draw\n\nUrns\n\nProbability space\nUrn draw\n\n\nBuilding a probability space\nCombining probability spaces\nRepeating probability spaces\nProbability calculation\n\nProbability distributions\n\nDiscrete distributions\n\nBinomial\n\nProbabilities\nQuantiles\nProbability plot\n\nPoisson\n\nProbabilities\nQuantiles\nProbability plot\n\n\nContinuous distributions\n\nChi-squared\n\nProbabilities\nQuantiles\nProbability plot\n\nFisher’s F\n\nProbabilities\nQuantiles\nProbability plot\n\nNormal\n\nProbabilities\nQuantiles\nProbability plot\n\nStudent’s t\n\nProbabilities\nQuantiles\nProbability plot\n\nContinuous uniform\n\nProbabilities\nQuantiles\nProbability plot\n\n\n\nSimulations\n\nLaw of rare events"
+    "objectID": "post/welcome/index.html",
+    "href": "post/welcome/index.html",
+    "title": "Welcome to the new website!",
+    "section": "",
+    "text": "I am happy to announce the launch of this website, built with Quarto, where I will publish my teaching materials, lecture notes, exercises and research articles.\nYou can start with the Teaching section."
   },
   {
-    "objectID": "projects/rkteaching/index.html#features",
-    "href": "projects/rkteaching/index.html#features",
-    "title": "rkTeaching",
-    "section": "Features",
-    "text": "Features\n\nMenus and dialog boxes designed to make learning easier, removing all secondary options to achieve a simple and intuitive interface.\nWizards that guide the user step by step and advise them through the statistical analyses. \nHTML outputs that present the results of the analyses and their interpretations in a clear and concise way. \nSimple charts based on the modern ggplot2 package. \nAbility to show the development of the calculations of some statistical procedures."
+    "objectID": "post/cheat-sheet/index.html",
+    "href": "post/cheat-sheet/index.html",
+    "title": "Calculus and Statistics cheat sheets",
+    "section": "",
+    "text": "From now on there are available some cheat sheets for Calculus and Statistics. These cheat sheets contains a summary with the main formulas used in Calculus and Statistics.\nThe cheat sheets can be downloaded from the following links:\n\nCalculus cheat sheets\nStatistics cheat sheets\n\nI would appreciate if you inform me about any mistake that you detect in this sheets."
   },
   {
-    "objectID": "projects/rkteaching/index.html#links",
-    "href": "projects/rkteaching/index.html#links",
-    "title": "rkTeaching",
+    "objectID": "post/rkteaching-1.3/index.html",
+    "href": "post/rkteaching-1.3/index.html",
+    "title": "Released version 1.3.0 of the rkTeaching package",
+    "section": "",
+    "text": "The 1.3.0 version of the R package rkTeaching for learning Statistics is available to install. This version is updated with the 3.2.3 version of R and the 0.6.5 version of RKWard.\nThis is a transitional version towards a major update that will arrive shortly and will incorporate the internationalization of the package.\nTo install it visit the page of rkTeaching."
+  },
+  {
+    "objectID": "projects/rubrics/index.html",
+    "href": "projects/rubrics/index.html",
+    "title": "Rubrics",
+    "section": "",
+    "text": "Access the application"
+  },
+  {
+    "objectID": "projects/rubrics/index.html#what-is-rubrics",
+    "href": "projects/rubrics/index.html#what-is-rubrics",
+    "title": "Rubrics",
+    "section": "What is Rubrics?",
+    "text": "What is Rubrics?\nRubrics is a web application based on R and Shiny for rubric-based assessment.\nThe application allows you to:\n\nGenerate the rubric corresponding to an exam or assessment test.\nLoad the list of students from a csv file and generate a grading template.\nLoad the corrections from the grading template.\nGenerate the list of student grades.\nGenerate a descriptive summary of the grade distribution.\nGenerate a personalized report with the correction for each student.\n\nThe following video shows a more detailed presentation of this application:"
+  },
+  {
+    "objectID": "projects/rubrics/index.html#links",
+    "href": "projects/rubrics/index.html#links",
+    "title": "Rubrics",
     "section": "Links",
-    "text": "Links\n\nSource code\n\nrkTeaching is maintained by asalber."
+    "text": "Links\n\nSource code\nSlides"
   },
   {
-    "objectID": "projects/rkteaching/index.html#how-to-cite-rkteaching",
-    "href": "projects/rkteaching/index.html#how-to-cite-rkteaching",
-    "title": "rkTeaching",
-    "section": "How to cite rkTeaching?",
-    "text": "How to cite rkTeaching?\nSánchez-Alberca, A. (2024). rkTeaching (version 1.4) [software]. Retrieved from: https://aprendeconalf.es/proyectos/rkteaching."
+    "objectID": "projects/rubrics/index.html#how-to-cite-rubrics",
+    "href": "projects/rubrics/index.html#how-to-cite-rubrics",
+    "title": "Rubrics",
+    "section": "How to cite Rubrics?",
+    "text": "How to cite Rubrics?\nAnemone, Gloria., Sánchez-Alberca, Alfredo. (2021). Rúbricas (version 1.0) [software]. Retrieved from: https://aprendeconalf.es/proyectos/rubricas."
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/distributions/index.html",
+    "href": "projects/distributions/index.html",
+    "title": "Probability Distributions",
     "section": "",
-    "text": "Probability Distributions\n\n\nInteractive web application to visualize the main discrete and continuous probability distributions.\n\n\n\n\n\n\n\n\n\n\n\n\nRubrics\n\n\nA web application for rubric-based assessment.\n\n\n\n\n\n\n\n\n\n\n\n\nrkTeaching\n\n\nAn R package for teaching and learning Statistics.\n\n\n\n\n\nNo matching items"
+    "text": "Access the application"
   },
   {
-    "objectID": "teaching/statistics/index.html",
-    "href": "teaching/statistics/index.html",
-    "title": "Statistics",
-    "section": "",
-    "text": "Statistics handbook (in Spanish)\nStatistics labs with R (in Spanish)\nStatistics and probability formula sheet (PDF)\n\nThe handbook is mostly aimed at Biostatistics, with most examples applied to Health Sciences."
+    "objectID": "projects/distributions/index.html#what-is-probability-distributions",
+    "href": "projects/distributions/index.html#what-is-probability-distributions",
+    "title": "Probability Distributions",
+    "section": "What is Probability Distributions?",
+    "text": "What is Probability Distributions?\nProbability Distributions is an interactive web application that lets you visualize the main discrete and continuous probability distributions, exploring how their probability (or density) function and their distribution function change as their parameters are modified.\nThe distributions that can be visualized in the application are:\nDiscrete distributions\n\nBinomial\nNegative binomial\nGeometric\nHypergeometric\nPoisson\n\nContinuous distributions\n\nUniform\nBeta\nNormal\nExponential\nGamma\nChi-squared\nStudent’s t\nFisher’s F"
   },
   {
-    "objectID": "teaching/statistics/index.html#materials",
-    "href": "teaching/statistics/index.html#materials",
-    "title": "Statistics",
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
     "section": "",
-    "text": "Statistics handbook (in Spanish)\nStatistics labs with R (in Spanish)\nStatistics and probability formula sheet (PDF)\n\nThe handbook is mostly aimed at Biostatistics, with most examples applied to Health Sciences."
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nClinical-Evolutionary Staging System of Primary Open-Angle Glaucoma Using Optical Coherence Tomography\n\n\n\nBiostatistics\n\nOphthalmology\n\n\n\nJournal of Clinical Medicine · DOI\n\n\n\n\n\nMay 15, 2020\n\n\nA. Parra-Blesa, A. Sánchez-Alberca, J. J. García-Medina\n\n\n\n\n\n\n\nClasificación por estadios clínico evolutivos del glaucoma primario de ángulo abierto (GPAA) usando valores normalizados obtenidos mediante tomografía de coherencia óptica\n\n\n\nBiostatistics\n\nOphthalmology\n\n\n\nXIV Congreso de la Sociedad Española de Glaucoma\n\n\n\n\n\nJan 1, 2019\n\n\nA. Sánchez Alberca, M. L. Sánchez Rodríguez, M. Camacho Sampelayo, J. M. Camacho Sampelayo, J. J. García Medina, A. Parra Blesa\n\n\n\n\n\n\n\nUna nueva taxonomía de colecciones y de funciones de similitud para su comparación\n\n\n\nMathematics\n\n\n\nPensamiento Matemático · 5ª Jornada Internacional Matemáticas Everywhere\n\n\n\n\n\nJan 1, 2018\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nClasificación por estadios del glaucoma primario de ángulo abierto usando valores normalizados del anillo BMO\n\n\n\nOphthalmology\n\n\n\nCongreso de la Sociedad Española de Oftalmología\n\n\n\n\n\nJan 1, 2018\n\n\nA. Parra Blesa, A. Sánchez Alberca\n\n\n\n\n\n\n\nAnálisis estadístico inferencial y descriptivo de las capas retinianas; glaucoma versus no glaucoma\n\n\n\nBiostatistics\n\nOphthalmology\n\n\n\nCongreso de la Sociedad Española de Oftalmología\n\n\n\n\n\nJan 1, 2018\n\n\nA. Parra Blesa, A. Sánchez Alberca\n\n\n\n\n\n\n\nAnálisis epidemiológico evolutivo del daño sectorizado en la papila y retina papilar a través de OCT. Nueva clasificación de grados de GCAA\n\n\n\nOphthalmology\n\n\n\n25 Congreso Internacional de Optometría, Contactología y Óptica Oftálmica\n\n\n\n\n\nJan 1, 2018\n\n\nA. Parra-Blesa, A. Sánchez-Alberca, M. L. Sánchez-Rodríguez, J. J. García-Medina\n\n\n\n\n\n\n\nInnovación en la docencia de Estadística con R y rk.Teaching\n\n\n\nEducation\n\nR\n\nStatistics\n\n\n\nPensamiento Matemático · Matemáticas Everywhere\n\n\n\n\n\nJan 1, 2016\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nBringing R to non-expert users with the package RKTeaching\n\n\n\nR\n\nEducation\n\n\n\nBoletín de Estadística e Investigación Operativa (BEIO)\n\n\n\n\n\nJan 1, 2015\n\n\nA. Sánchez Alberca\n\n\n\n\n\n\n\nTowards a Semantic Catalog of Similarity Measures\n\n\n\nOntologies\n\n\n\nITHEA International Journal “Information Content and Processing” · I.TECH 2014\n\n\n\n\n\nJan 1, 2014\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nBioestadística Aplicada con SPSS\n\n\n\nBiostatistics\n\n\n\nApplied biostatistics handbook\n\n\n\n\n\nJan 1, 2014\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nRKTeaching: a new R package for teaching Statistics\n\n\n\nR\n\nEducation\n\n\n\nuseR! 2013\n\n\n\n\n\nJan 1, 2013\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nRKTeaching: Un paquete de R para la enseñanza de la Estadística\n\n\n\nR\n\nEducation\n\nStatistics\n\n\n\nIII Jornadas de Intercambio de Experiencias de Innovación Educativa en Estadística\n\n\n\n\n\nJan 1, 2012\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nEvolution of neuroendocrine cell population and peptidergic innervation, assessed by discriminant analysis, during postnatal development of the rat prostate\n\n\n\nBiostatistics\n\nBiology\n\n\n\nImage Analysis and Stereology 26(1), 1-11\n\n\n\n\n\nJan 1, 2007\n\n\nR. Rodríguez, J. M. Pozuelo, A. Sánchez-Alberca, R. Arriazu, et al.\n\n\n\n\n\n\n\nAMON: A software system for automatic generation of ontology mappings\n\n\n\nOntologies\n\n\n\nWorkshop on Building and Applying Ontologies for the Semantic Web (BAOW05)\n\n\n\n\n\nJan 1, 2005\n\n\nA. Sánchez-Alberca, R. García-García, C. S. Sorzano, C. Gutiérrez-Cossío, et al.\n\n\n\n\n\n\n\nHerramientas de trabajo cooperativo\n\n\n\nEducation\n\n\n\nII Jornada Presencial de la Red Temática de Farmacología y Toxicología FARMATOXI\n\n\n\n\n\nJan 1, 2004\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nFramework for automatic generation of ontology mappings\n\n\n\nOntologies\n\n\n\nJornadas Iberoamericanas de Ingeniería del Software e Ingeniería del Conocimiento\n\n\n\n\n\nJan 1, 2004\n\n\nG. Cañadas, M. Fernández López, R. García-García, M. Lama, A. Sánchez-Alberca, et al.\n\n\n\n\n\n\n\nAspectos técnicos de la comunidad virtual de usuarios FARMATOXI\n\n\n\nEducation\n\n\n\nI Jornada Presencial de la Red Temática de Farmacología y Toxicología FARMATOXI\n\n\n\n\n\nJan 1, 2002\n\n\nA. Sánchez-Alberca\n\n\n\n\n\n\n\nFARMATOXI, a new virtual community of pharmacology and toxicology\n\n\n\nPharmacology\n\n\n\nFundamental and Clinical Pharmacology\n\n\n\n\n\nJan 1, 2001\n\n\nG. Repetto, V. Rimbau, A. Sánchez-Alberca, M. Reverte, L. F. Alguacil\n\n\n\n\n\n\n\nFARMATOXI: Red temática de farmacología y toxicología de RedIris\n\n\n\nPharmacology\n\n\n\nII Iberoamerican Congress of Pharmacology\n\n\n\n\n\nJan 1, 2000\n\n\nA. Sánchez-Alberca\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
+    "objectID": "teaching/python/index.html",
+    "href": "teaching/python/index.html",
+    "title": "Python",
     "section": "",
-    "text": "Python\n\n\nPython programming handbook with exercises.\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics\n\n\nLecture notes, solved exercises and labs for Statistics.\n\n\n\n\n\nNo matching items"
+    "text": "Python handbook (presentation) (in Spanish)\n\nPython is one of the most widely used programming languages, thanks to its easy-to-read syntax. The handbook covers the basic concepts to get started programming with it."
+  },
+  {
+    "objectID": "teaching/python/index.html#materials",
+    "href": "teaching/python/index.html#materials",
+    "title": "Python",
+    "section": "",
+    "text": "Python handbook (presentation) (in Spanish)\n\nPython is one of the most widely used programming languages, thanks to its easy-to-read syntax. The handbook covers the basic concepts to get started programming with it."
+  },
+  {
+    "objectID": "teaching/spss/index.html",
+    "href": "teaching/spss/index.html",
+    "title": "SPSS",
+    "section": "",
+    "text": "Practices of Biostatistics with SPSS\n\n\nPractices of Biostatistics with SPSS with solved exercises.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact.html",

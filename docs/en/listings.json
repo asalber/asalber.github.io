@@ -13,8 +13,20 @@
     ]
   },
   {
-    "listing": "/publications/index.html",
-    "items": []
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/python/index.html",
+      "/teaching/spss/index.html",
+      "/teaching/statistics/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/distributions/index.html",
+      "/projects/rubrics/index.html",
+      "/projects/rkteaching/index.html"
+    ]
   },
   {
     "listing": "/post/index.html",
@@ -27,18 +39,11 @@
     ]
   },
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/distributions/index.html",
-      "/projects/rubrics/index.html",
-      "/projects/rkteaching/index.html"
-    ]
+    "listing": "/publications/index.html",
+    "items": []
   },
   {
-    "listing": "/teaching/index.html",
-    "items": [
-      "/teaching/python/index.html",
-      "/teaching/statistics/index.html"
-    ]
+    "listing": "/teaching/spss/index.html",
+    "items": []
   }
 ]

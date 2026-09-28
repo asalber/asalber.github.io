@@ -3,3 +3,8 @@
   path: https://www.ceuediciones.es/catalogo/libros/medicina/bioestadistica-aplicada-con-spss/
   image: portada-libro-spss.jpg
   order: 1
+
+- title: "Prácticas de Bioestadística con SPSS"
+  description: "Prácticas de Bioestadística con SPSS con ejercicios resueltos."
+  path: ./practicas-spss.pdf
+  order: 2
