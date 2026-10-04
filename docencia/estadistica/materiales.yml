@@ -18,12 +18,17 @@
   path: https://aprendeconalf.es/bioestadistica-examenes
   image: https://aprendeconalf.es/bioestadistica-examenes/img/logos/sticker.png
   order: 4
+- title: "Estadística Bayesiana"
+  description: "Manual de Estadística Bayesiana con R y Stan."
+  path: https://aprendeconalf.es/estadistica-bayesiana-manual/
+  image: https://aprendeconalf.es/estadistica-bayesiana-manual/img/logos/sticker.png
+  order: 5
 - title: "Tipos de estudios estadísticos"
   description: "Tipos de estudios estadísticos más habituales. Diseño, análisis e implementación con R."
   path: https://aprendeconalf.es/estadistica-tipos-estudios
   image: https://aprendeconalf.es/estadistica-tipos-estudios/img/logos/sticker.png
-  order: 5
+  order: 7
 - title: "Fórmulas"
   description: "Hoja de fórmulas de Estadística y Probabilidad y tablas estadísticas."
   path: https://github.com/asalber/formulas-estadistica/raw/master/formulas-estadistica.pdf
-  order: 6
+  order: 8
